@@ -11,7 +11,7 @@ namespace azapi.DataPlaneResource
         /// <remarks>
         /// Changing this forces a new resource to be created.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
         /// </remarks>
         [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}")]
         string ParentId
@@ -23,7 +23,7 @@ namespace azapi.DataPlaneResource
         /// <remarks>
         /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -33,7 +33,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A dynamic attribute that contains the request body.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
         /// </remarks>
         [JsiiProperty(name: "body", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of headers to be sent with the create request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
         /// </remarks>
         [JsiiProperty(name: "createHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of query parameters to be sent with the create request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
         /// <para>Type union: either Dictionary&lt;string, (string)[]&gt; or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "createQueryParameters", typeJson: "{\"union\":{\"types\":[{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of headers to be sent with the delete request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
         /// </remarks>
         [JsiiProperty(name: "deleteHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of query parameters to be sent with the delete request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "deleteQueryParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A dynamic attribute that contains the request body.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "ignoreCasing", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace azapi.DataPlaneResource
         /// <remarks>
         /// It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in <c>lifecycle.ignore_changes</c> because it will make the sensitive fields unable to update.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "ignoreMissingProperty", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
         /// </remarks>
         [JsiiProperty(name: "locks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -151,7 +151,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>Specifies the name (identifier segment) of the data plane resource. Changing this forces a new resource to be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -165,7 +165,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of headers to be sent with the read request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
         /// </remarks>
         [JsiiProperty(name: "readHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -179,7 +179,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of query parameters to be sent with the read request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "readQueryParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -218,7 +218,7 @@ namespace azapi.DataPlaneResource
         /// }
         /// ]]></code>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
         /// </remarks>
         [JsiiProperty(name: "replaceTriggersExternalValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -234,7 +234,7 @@ namespace azapi.DataPlaneResource
         /// <remarks>
         /// When the values at these paths change, the resource will be replaced.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
         /// </remarks>
         [JsiiProperty(name: "replaceTriggersRefs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -275,7 +275,7 @@ namespace azapi.DataPlaneResource
         ///
         /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
         /// </remarks>
         [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -289,7 +289,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>The retry object supports the following attributes:.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
         /// </remarks>
         [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.dataPlaneResource.DataPlaneResourceRetry\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -305,7 +305,7 @@ namespace azapi.DataPlaneResource
         /// <remarks>
         /// This will be merge-patched to the body to construct the actual request body. If a property is defined in both <c>body</c> and <c>sensitive_body</c>, the <c>sensitive_body</c> value takes precedence.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
         /// </remarks>
         [JsiiProperty(name: "sensitiveBody", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -321,7 +321,7 @@ namespace azapi.DataPlaneResource
         /// <remarks>
         /// The key is a string in the format of <c>path.to.property[index].subproperty</c>, where <c>index</c> is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
         /// </remarks>
         [JsiiProperty(name: "sensitiveBodyVersion", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -335,7 +335,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataPlaneResource.DataPlaneResourceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -349,7 +349,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of headers to be sent with the update request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
         /// </remarks>
         [JsiiProperty(name: "updateHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -363,7 +363,7 @@ namespace azapi.DataPlaneResource
 
         /// <summary>A mapping of query parameters to be sent with the update request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "updateQueryParameters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -387,7 +387,7 @@ namespace azapi.DataPlaneResource
             /// <remarks>
             /// Changing this forces a new resource to be created.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#parent_id DataPlaneResource#parent_id}
             /// </remarks>
             [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ParentId
@@ -399,7 +399,7 @@ namespace azapi.DataPlaneResource
             /// <remarks>
             /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#type DataPlaneResource#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -409,7 +409,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A dynamic attribute that contains the request body.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#body DataPlaneResource#body}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "body", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -420,7 +420,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of headers to be sent with the create request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#create_headers DataPlaneResource#create_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "createHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -431,7 +431,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of query parameters to be sent with the create request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#create_query_parameters DataPlaneResource#create_query_parameters}
             /// <para>Type union: either Dictionary&lt;string, (string)[]&gt; or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -443,7 +443,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of headers to be sent with the delete request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#delete_headers DataPlaneResource#delete_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deleteHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -454,7 +454,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of query parameters to be sent with the delete request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#delete_query_parameters DataPlaneResource#delete_query_parameters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -466,7 +466,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A dynamic attribute that contains the request body.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#ignore_casing DataPlaneResource#ignore_casing}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -480,7 +480,7 @@ namespace azapi.DataPlaneResource
             /// <remarks>
             /// It's recommend to enable this option when some sensitive properties are not returned in response body, instead of setting them in <c>lifecycle.ignore_changes</c> because it will make the sensitive fields unable to update.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#ignore_missing_property DataPlaneResource#ignore_missing_property}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -492,7 +492,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A list of ARM resource IDs which are used to avoid create/modify/delete azapi resources at the same time.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#locks DataPlaneResource#locks}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "locks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -503,7 +503,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>Specifies the name (identifier segment) of the data plane resource. Changing this forces a new resource to be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#name DataPlaneResource#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -514,7 +514,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of headers to be sent with the read request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#read_headers DataPlaneResource#read_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "readHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -525,7 +525,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of query parameters to be sent with the read request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#read_query_parameters DataPlaneResource#read_query_parameters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -561,7 +561,7 @@ namespace azapi.DataPlaneResource
             /// }
             /// ]]></code>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#replace_triggers_external_values DataPlaneResource#replace_triggers_external_values}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replaceTriggersExternalValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -574,7 +574,7 @@ namespace azapi.DataPlaneResource
             /// <remarks>
             /// When the values at these paths change, the resource will be replaced.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#replace_triggers_refs DataPlaneResource#replace_triggers_refs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replaceTriggersRefs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -612,7 +612,7 @@ namespace azapi.DataPlaneResource
             ///
             /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#response_export_values DataPlaneResource#response_export_values}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -623,7 +623,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>The retry object supports the following attributes:.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#retry DataPlaneResource#retry}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.dataPlaneResource.DataPlaneResourceRetry\"}", isOptional: true)]
@@ -636,7 +636,7 @@ namespace azapi.DataPlaneResource
             /// <remarks>
             /// This will be merge-patched to the body to construct the actual request body. If a property is defined in both <c>body</c> and <c>sensitive_body</c>, the <c>sensitive_body</c> value takes precedence.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#sensitive_body DataPlaneResource#sensitive_body}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sensitiveBody", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -649,7 +649,7 @@ namespace azapi.DataPlaneResource
             /// <remarks>
             /// The key is a string in the format of <c>path.to.property[index].subproperty</c>, where <c>index</c> is the index of the item in an array. When the version is changed, the property will be included in the request body, otherwise it will be omitted from the request body.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#sensitive_body_version DataPlaneResource#sensitive_body_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sensitiveBodyVersion", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -660,7 +660,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#timeouts DataPlaneResource#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataPlaneResource.DataPlaneResourceTimeouts\"}", isOptional: true)]
@@ -671,7 +671,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of headers to be sent with the update request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#update_headers DataPlaneResource#update_headers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "updateHeaders", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -682,7 +682,7 @@ namespace azapi.DataPlaneResource
 
             /// <summary>A mapping of query parameters to be sent with the update request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/data_plane_resource#update_query_parameters DataPlaneResource#update_query_parameters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
             /// </remarks>
             [JsiiOptional]

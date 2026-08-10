@@ -5,7 +5,7 @@ namespace azapi.ResourceAction
     /// <remarks>
     /// <h1><c>azapi_resource_action</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource_action"><c>azapi_resource_action</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/resource_action"><c>azapi_resource_action</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

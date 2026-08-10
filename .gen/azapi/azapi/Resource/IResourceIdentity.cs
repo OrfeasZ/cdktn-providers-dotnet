@@ -9,7 +9,7 @@ namespace azapi.Resource
     {
         /// <summary>The Type of Identity which should be used for this azure resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#type Resource#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/resource#type Resource#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -19,7 +19,7 @@ namespace azapi.Resource
 
         /// <summary>A list of User Managed Identity ID's which should be assigned to the azure resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#identity_ids Resource#identity_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/resource#identity_ids Resource#identity_ids}
         /// </remarks>
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace azapi.Resource
 
             /// <summary>The Type of Identity which should be used for this azure resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#type Resource#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/resource#type Resource#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -50,7 +50,7 @@ namespace azapi.Resource
 
             /// <summary>A list of User Managed Identity ID's which should be assigned to the azure resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/resources/resource#identity_ids Resource#identity_ids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/resource#identity_ids Resource#identity_ids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

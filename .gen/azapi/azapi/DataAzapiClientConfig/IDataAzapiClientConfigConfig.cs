@@ -9,7 +9,7 @@ namespace azapi.DataAzapiClientConfig
     {
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataAzapiClientConfig.DataAzapiClientConfigTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace azapi.DataAzapiClientConfig
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.11.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/data-sources/client_config#timeouts DataAzapiClientConfig#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataAzapiClientConfig.DataAzapiClientConfigTimeouts\"}", isOptional: true)]
