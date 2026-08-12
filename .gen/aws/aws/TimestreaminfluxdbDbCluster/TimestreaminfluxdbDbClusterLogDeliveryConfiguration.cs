@@ -11,7 +11,7 @@ namespace aws.TimestreaminfluxdbDbCluster
 
         /// <summary>s3_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/timestreaminfluxdb_db_cluster#s3_configuration TimestreaminfluxdbDbCluster#s3_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/timestreaminfluxdb_db_cluster#s3_configuration TimestreaminfluxdbDbCluster#s3_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.TimestreaminfluxdbDbCluster.ITimestreaminfluxdbDbClusterLogDeliveryConfigurationS3Configuration" />)[]</para>
         /// </remarks>
         [JsiiOptional]

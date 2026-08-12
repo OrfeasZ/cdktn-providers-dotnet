@@ -7,14 +7,14 @@ namespace aws.MailmanagerRuleSet
     [JsiiInterface(nativeType: typeof(IMailmanagerRuleSetRuleActionAddHeader), fullyQualifiedName: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleActionAddHeader")]
     public interface IMailmanagerRuleSetRuleActionAddHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#header_name MailmanagerRuleSet#header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#header_name MailmanagerRuleSet#header_name}.</summary>
         [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}")]
         string HeaderName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#header_value MailmanagerRuleSet#header_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#header_value MailmanagerRuleSet#header_value}.</summary>
         [JsiiProperty(name: "headerValue", typeJson: "{\"primitive\":\"string\"}")]
         string HeaderValue
         {
@@ -28,14 +28,14 @@ namespace aws.MailmanagerRuleSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#header_name MailmanagerRuleSet#header_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#header_name MailmanagerRuleSet#header_name}.</summary>
             [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}")]
             public string HeaderName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/mailmanager_rule_set#header_value MailmanagerRuleSet#header_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#header_value MailmanagerRuleSet#header_value}.</summary>
             [JsiiProperty(name: "headerValue", typeJson: "{\"primitive\":\"string\"}")]
             public string HeaderValue
             {

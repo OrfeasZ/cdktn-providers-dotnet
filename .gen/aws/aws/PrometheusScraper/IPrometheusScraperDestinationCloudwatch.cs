@@ -7,7 +7,7 @@ namespace aws.PrometheusScraper
     [JsiiInterface(nativeType: typeof(IPrometheusScraperDestinationCloudwatch), fullyQualifiedName: "aws.prometheusScraper.PrometheusScraperDestinationCloudwatch")]
     public interface IPrometheusScraperDestinationCloudwatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_scraper#dataset_arn PrometheusScraper#dataset_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/prometheus_scraper#dataset_arn PrometheusScraper#dataset_arn}.</summary>
         [JsiiProperty(name: "datasetArn", typeJson: "{\"primitive\":\"string\"}")]
         string DatasetArn
         {
@@ -21,7 +21,7 @@ namespace aws.PrometheusScraper
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/prometheus_scraper#dataset_arn PrometheusScraper#dataset_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/prometheus_scraper#dataset_arn PrometheusScraper#dataset_arn}.</summary>
             [JsiiProperty(name: "datasetArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DatasetArn
             {

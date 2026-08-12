@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualNode
     [JsiiByValue(fqn: "aws.appmeshVirtualNode.AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustFile")]
     public class AppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustFile : aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecBackendVirtualServiceClientPolicyTlsValidationTrustFile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#certificate_chain AppmeshVirtualNode#certificate_chain}.</summary>
         [JsiiProperty(name: "certificateChain", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateChain
         {

@@ -9,7 +9,7 @@ namespace aws.SecuritylakeDataLake
     [JsiiByValue(fqn: "aws.securitylakeDataLake.SecuritylakeDataLakeConfig")]
     public class SecuritylakeDataLakeConfig : aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#meta_store_manager_role_arn SecuritylakeDataLake#meta_store_manager_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#meta_store_manager_role_arn SecuritylakeDataLake#meta_store_manager_role_arn}.</summary>
         [JsiiProperty(name: "metaStoreManagerRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string MetaStoreManagerRoleArn
         {
@@ -21,7 +21,7 @@ namespace aws.SecuritylakeDataLake
 
         /// <summary>configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#configuration SecuritylakeDataLake#configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#configuration SecuritylakeDataLake#configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -54,7 +54,7 @@ namespace aws.SecuritylakeDataLake
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#region SecuritylakeDataLake#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#region SecuritylakeDataLake#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace aws.SecuritylakeDataLake
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#tags SecuritylakeDataLake#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#tags SecuritylakeDataLake#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -75,7 +75,7 @@ namespace aws.SecuritylakeDataLake
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#timeouts SecuritylakeDataLake#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#timeouts SecuritylakeDataLake#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.securitylakeDataLake.SecuritylakeDataLakeTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.EksCapability
     [JsiiByValue(fqn: "aws.eksCapability.EksCapabilityConfigurationArgoCdRbacRoleMapping")]
     public class EksCapabilityConfigurationArgoCdRbacRoleMapping : aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_capability#role EksCapability#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_capability#role EksCapability#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -21,7 +21,7 @@ namespace aws.EksCapability
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_capability#identity EksCapability#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_capability#identity EksCapability#identity}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EksCapability.IEksCapabilityConfigurationArgoCdRbacRoleMappingIdentity" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace aws.EksCluster
     [JsiiByValue(fqn: "aws.eksCluster.EksClusterOutpostConfig")]
     public class EksClusterOutpostConfig : aws.EksCluster.IEksClusterOutpostConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster#control_plane_instance_type EksCluster#control_plane_instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#control_plane_instance_type EksCluster#control_plane_instance_type}.</summary>
         [JsiiProperty(name: "controlPlaneInstanceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ControlPlaneInstanceType
         {
@@ -17,7 +17,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster#outpost_arns EksCluster#outpost_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#outpost_arns EksCluster#outpost_arns}.</summary>
         [JsiiProperty(name: "outpostArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] OutpostArns
         {
@@ -27,7 +27,7 @@ namespace aws.EksCluster
 
         /// <summary>control_plane_placement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster#control_plane_placement EksCluster#control_plane_placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#control_plane_placement EksCluster#control_plane_placement}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "controlPlanePlacement", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterOutpostConfigControlPlanePlacement\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace aws.EksCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster#etcd_instance_type EksCluster#etcd_instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#etcd_instance_type EksCluster#etcd_instance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "etcdInstanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EtcdInstanceType
@@ -48,7 +48,7 @@ namespace aws.EksCluster
 
         /// <summary>etcd_placement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster#etcd_placement EksCluster#etcd_placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#etcd_placement EksCluster#etcd_placement}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "etcdPlacement", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterOutpostConfigEtcdPlacement\"}", isOptional: true)]

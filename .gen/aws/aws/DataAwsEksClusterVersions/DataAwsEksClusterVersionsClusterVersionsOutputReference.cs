@@ -47,6 +47,18 @@ namespace aws.DataAwsEksClusterVersions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "controlPlaneComponentConfig", typeJson: "{\"fqn\":\"aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigList\"}")]
+        public virtual aws.DataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigList ControlPlaneComponentConfig
+        {
+            get => GetInstanceProperty<aws.DataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsControlPlaneComponentConfigList>()!;
+        }
+
+        [JsiiProperty(name: "controlPlaneScalingTiers", typeJson: "{\"fqn\":\"aws.dataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsControlPlaneScalingTiersList\"}")]
+        public virtual aws.DataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsControlPlaneScalingTiersList ControlPlaneScalingTiers
+        {
+            get => GetInstanceProperty<aws.DataAwsEksClusterVersions.DataAwsEksClusterVersionsClusterVersionsControlPlaneScalingTiersList>()!;
+        }
+
         [JsiiProperty(name: "defaultPlatformVersion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DefaultPlatformVersion
         {

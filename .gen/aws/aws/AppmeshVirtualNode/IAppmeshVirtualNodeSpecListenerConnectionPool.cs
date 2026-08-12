@@ -9,7 +9,7 @@ namespace aws.AppmeshVirtualNode
     {
         /// <summary>grpc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
         /// </remarks>
         [JsiiProperty(name: "grpc", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolGrpc\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.AppmeshVirtualNode
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "http", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace aws.AppmeshVirtualNode
 
         /// <summary>http2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp2" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "http2", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolHttp2\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace aws.AppmeshVirtualNode
 
         /// <summary>tcp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolTcp" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tcp", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolTcp\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace aws.AppmeshVirtualNode
 
             /// <summary>grpc block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#grpc AppmeshVirtualNode#grpc}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grpc", typeJson: "{\"fqn\":\"aws.appmeshVirtualNode.AppmeshVirtualNodeSpecListenerConnectionPoolGrpc\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace aws.AppmeshVirtualNode
 
             /// <summary>http block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#http AppmeshVirtualNode#http}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -98,7 +98,7 @@ namespace aws.AppmeshVirtualNode
 
             /// <summary>http2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#http2 AppmeshVirtualNode#http2}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolHttp2" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -110,7 +110,7 @@ namespace aws.AppmeshVirtualNode
 
             /// <summary>tcp block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appmesh_virtual_node#tcp AppmeshVirtualNode#tcp}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshVirtualNode.IAppmeshVirtualNodeSpecListenerConnectionPoolTcp" />)[]</para>
             /// </remarks>
             [JsiiOptional]

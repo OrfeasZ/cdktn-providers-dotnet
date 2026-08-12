@@ -13,7 +13,7 @@ namespace aws.ComprehendEntityRecognizer
 
         /// <summary>entity_types block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/comprehend_entity_recognizer#entity_types ComprehendEntityRecognizer#entity_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/comprehend_entity_recognizer#entity_types ComprehendEntityRecognizer#entity_types}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigEntityTypes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "entityTypes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigEntityTypes\"},\"kind\":\"array\"}}]}}")]
@@ -45,7 +45,7 @@ namespace aws.ComprehendEntityRecognizer
 
         /// <summary>annotations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/comprehend_entity_recognizer#annotations ComprehendEntityRecognizer#annotations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/comprehend_entity_recognizer#annotations ComprehendEntityRecognizer#annotations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "annotations", typeJson: "{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigAnnotations\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace aws.ComprehendEntityRecognizer
 
         /// <summary>augmented_manifests block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/comprehend_entity_recognizer#augmented_manifests ComprehendEntityRecognizer#augmented_manifests}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/comprehend_entity_recognizer#augmented_manifests ComprehendEntityRecognizer#augmented_manifests}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ComprehendEntityRecognizer.IComprehendEntityRecognizerInputDataConfigAugmentedManifests" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -90,7 +90,7 @@ namespace aws.ComprehendEntityRecognizer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/comprehend_entity_recognizer#data_format ComprehendEntityRecognizer#data_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/comprehend_entity_recognizer#data_format ComprehendEntityRecognizer#data_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataFormat
@@ -101,7 +101,7 @@ namespace aws.ComprehendEntityRecognizer
 
         /// <summary>documents block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/comprehend_entity_recognizer#documents ComprehendEntityRecognizer#documents}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/comprehend_entity_recognizer#documents ComprehendEntityRecognizer#documents}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "documents", typeJson: "{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigDocuments\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace aws.ComprehendEntityRecognizer
 
         /// <summary>entity_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/comprehend_entity_recognizer#entity_list ComprehendEntityRecognizer#entity_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/comprehend_entity_recognizer#entity_list ComprehendEntityRecognizer#entity_list}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entityList", typeJson: "{\"fqn\":\"aws.comprehendEntityRecognizer.ComprehendEntityRecognizerInputDataConfigEntityListStruct\"}", isOptional: true)]

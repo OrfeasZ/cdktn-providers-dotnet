@@ -9,7 +9,7 @@ namespace aws.GlueCatalogTable
     [JsiiByValue(fqn: "aws.glueCatalogTable.GlueCatalogTableConfig")]
     public class GlueCatalogTableConfig : aws.GlueCatalogTable.IGlueCatalogTableConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#database_name GlueCatalogTable#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#database_name GlueCatalogTable#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseName
         {
@@ -17,7 +17,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#name GlueCatalogTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#name GlueCatalogTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#catalog_id GlueCatalogTable#catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#catalog_id GlueCatalogTable#catalog_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "catalogId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CatalogId
@@ -34,7 +34,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#description GlueCatalogTable#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#description GlueCatalogTable#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -43,7 +43,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#id GlueCatalogTable#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#id GlueCatalogTable#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>open_table_format_input block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#open_table_format_input GlueCatalogTable#open_table_format_input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#open_table_format_input GlueCatalogTable#open_table_format_input}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openTableFormatInput", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableOpenTableFormatInput\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#owner GlueCatalogTable#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#owner GlueCatalogTable#owner}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Owner
@@ -77,7 +77,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#parameters GlueCatalogTable#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#parameters GlueCatalogTable#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -90,7 +90,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>partition_index block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#partition_index GlueCatalogTable#partition_index}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#partition_index GlueCatalogTable#partition_index}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTable.IGlueCatalogTablePartitionIndex" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -125,7 +125,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>partition_keys block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#partition_keys GlueCatalogTable#partition_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#partition_keys GlueCatalogTable#partition_keys}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueCatalogTable.IGlueCatalogTablePartitionKeys" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -158,7 +158,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#region GlueCatalogTable#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#region GlueCatalogTable#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -168,7 +168,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#retention GlueCatalogTable#retention}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#retention GlueCatalogTable#retention}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retention", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Retention
@@ -179,7 +179,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>storage_descriptor block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#storage_descriptor GlueCatalogTable#storage_descriptor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#storage_descriptor GlueCatalogTable#storage_descriptor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageDescriptor", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableStorageDescriptor\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#table_type GlueCatalogTable#table_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#table_type GlueCatalogTable#table_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tableType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TableType
@@ -200,7 +200,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>target_table block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#target_table GlueCatalogTable#target_table}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#target_table GlueCatalogTable#target_table}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetTable", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableTargetTable\"}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace aws.GlueCatalogTable
 
         /// <summary>view_definition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#view_definition GlueCatalogTable#view_definition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#view_definition GlueCatalogTable#view_definition}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "viewDefinition", typeJson: "{\"fqn\":\"aws.glueCatalogTable.GlueCatalogTableViewDefinition\"}", isOptional: true)]
@@ -222,7 +222,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#view_expanded_text GlueCatalogTable#view_expanded_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#view_expanded_text GlueCatalogTable#view_expanded_text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "viewExpandedText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ViewExpandedText
@@ -231,7 +231,7 @@ namespace aws.GlueCatalogTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/glue_catalog_table#view_original_text GlueCatalogTable#view_original_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/glue_catalog_table#view_original_text GlueCatalogTable#view_original_text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "viewOriginalText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ViewOriginalText

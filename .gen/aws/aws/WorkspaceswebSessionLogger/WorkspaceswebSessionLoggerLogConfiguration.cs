@@ -11,7 +11,7 @@ namespace aws.WorkspaceswebSessionLogger
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/workspacesweb_session_logger#s3 WorkspaceswebSessionLogger#s3}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WorkspaceswebSessionLogger.IWorkspaceswebSessionLoggerLogConfigurationS3" />)[]</para>
         /// </remarks>
         [JsiiOptional]

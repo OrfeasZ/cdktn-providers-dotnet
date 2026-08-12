@@ -7,7 +7,7 @@ namespace aws.OpensearchserverlessCollection
     [JsiiInterface(nativeType: typeof(IOpensearchserverlessCollectionVectorOptions), fullyQualifiedName: "aws.opensearchserverlessCollection.OpensearchserverlessCollectionVectorOptions")]
     public interface IOpensearchserverlessCollectionVectorOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.</summary>
         [JsiiProperty(name: "serverlessVectorAcceleration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServerlessVectorAcceleration
@@ -25,7 +25,7 @@ namespace aws.OpensearchserverlessCollection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/opensearchserverless_collection#serverless_vector_acceleration OpensearchserverlessCollection#serverless_vector_acceleration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serverlessVectorAcceleration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServerlessVectorAcceleration

@@ -7,7 +7,7 @@ namespace aws.CognitoUserPool
     [JsiiInterface(nativeType: typeof(ICognitoUserPoolUsernameConfiguration), fullyQualifiedName: "aws.cognitoUserPool.CognitoUserPoolUsernameConfiguration")]
     public interface ICognitoUserPoolUsernameConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cognito_user_pool#case_sensitive CognitoUserPool#case_sensitive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#case_sensitive CognitoUserPool#case_sensitive}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace aws.CognitoUserPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cognito_user_pool#case_sensitive CognitoUserPool#case_sensitive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#case_sensitive CognitoUserPool#case_sensitive}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

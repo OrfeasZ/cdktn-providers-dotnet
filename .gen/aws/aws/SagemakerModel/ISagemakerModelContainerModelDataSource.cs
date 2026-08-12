@@ -9,7 +9,7 @@ namespace aws.SagemakerModel
     {
         /// <summary>s3_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelContainerModelDataSourceS3DataSource" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "s3DataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSource\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace aws.SagemakerModel
 
             /// <summary>s3_data_source block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_model#s3_data_source SagemakerModel#s3_data_source}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerModel.ISagemakerModelContainerModelDataSourceS3DataSource" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "s3DataSource", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerModelDataSourceS3DataSource\"},\"kind\":\"array\"}}]}}")]

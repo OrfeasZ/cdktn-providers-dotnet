@@ -9,7 +9,7 @@ namespace aws.ApiGatewayUsagePlan
     [JsiiByValue(fqn: "aws.apiGatewayUsagePlan.ApiGatewayUsagePlanApiStages")]
     public class ApiGatewayUsagePlanApiStages : aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStages
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/api_gateway_usage_plan#api_id ApiGatewayUsagePlan#api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_usage_plan#api_id ApiGatewayUsagePlan#api_id}.</summary>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {
@@ -17,7 +17,7 @@ namespace aws.ApiGatewayUsagePlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/api_gateway_usage_plan#stage ApiGatewayUsagePlan#stage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_usage_plan#stage ApiGatewayUsagePlan#stage}.</summary>
         [JsiiProperty(name: "stage", typeJson: "{\"primitive\":\"string\"}")]
         public string Stage
         {
@@ -29,7 +29,7 @@ namespace aws.ApiGatewayUsagePlan
 
         /// <summary>throttle block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/api_gateway_usage_plan#throttle ApiGatewayUsagePlan#throttle}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_usage_plan#throttle ApiGatewayUsagePlan#throttle}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ApiGatewayUsagePlan.IApiGatewayUsagePlanApiStagesThrottle" />)[]</para>
         /// </remarks>
         [JsiiOptional]

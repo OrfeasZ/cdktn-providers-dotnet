@@ -11,7 +11,7 @@ namespace aws.PipesPipe
 
         /// <summary>container_override block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pipes_pipe#container_override PipesPipe#container_override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#container_override PipesPipe#container_override}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersEcsTaskParametersOverridesContainerOverride" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -42,7 +42,7 @@ namespace aws.PipesPipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#cpu PipesPipe#cpu}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Cpu
@@ -53,7 +53,7 @@ namespace aws.PipesPipe
 
         /// <summary>ephemeral_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#ephemeral_storage PipesPipe#ephemeral_storage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ephemeralStorage", typeJson: "{\"fqn\":\"aws.pipesPipe.PipesPipeTargetParametersEcsTaskParametersOverridesEphemeralStorage\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#execution_role_arn PipesPipe#execution_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "executionRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExecutionRoleArn
@@ -76,7 +76,7 @@ namespace aws.PipesPipe
 
         /// <summary>inference_accelerator_override block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pipes_pipe#inference_accelerator_override PipesPipe#inference_accelerator_override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#inference_accelerator_override PipesPipe#inference_accelerator_override}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeTargetParametersEcsTaskParametersOverridesInferenceAcceleratorOverride" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -107,7 +107,7 @@ namespace aws.PipesPipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pipes_pipe#memory PipesPipe#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#memory PipesPipe#memory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Memory
@@ -116,7 +116,7 @@ namespace aws.PipesPipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#task_role_arn PipesPipe#task_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taskRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TaskRoleArn

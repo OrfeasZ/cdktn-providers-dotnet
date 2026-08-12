@@ -9,7 +9,7 @@ namespace aws.Codepipeline
     [JsiiByValue(fqn: "aws.codepipeline.CodepipelineStageActionOutputArtifactsForComputeAction")]
     public class CodepipelineStageActionOutputArtifactsForComputeAction : aws.Codepipeline.ICodepipelineStageActionOutputArtifactsForComputeAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/codepipeline#name Codepipeline#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/codepipeline#name Codepipeline#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.Codepipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/codepipeline#files Codepipeline#files}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/codepipeline#files Codepipeline#files}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "files", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Files

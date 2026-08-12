@@ -7,14 +7,14 @@ namespace aws.FlowLog
     [JsiiInterface(nativeType: typeof(IFlowLogTagFieldSpecification), fullyQualifiedName: "aws.flowLog.FlowLogTagFieldSpecification")]
     public interface IFlowLogTagFieldSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/flow_log#resource_type FlowLog#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/flow_log#resource_type FlowLog#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/flow_log#tag_keys FlowLog#tag_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/flow_log#tag_keys FlowLog#tag_keys}.</summary>
         [JsiiProperty(name: "tagKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] TagKeys
         {
@@ -28,14 +28,14 @@ namespace aws.FlowLog
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/flow_log#resource_type FlowLog#resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/flow_log#resource_type FlowLog#resource_type}.</summary>
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/flow_log#tag_keys FlowLog#tag_keys}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/flow_log#tag_keys FlowLog#tag_keys}.</summary>
             [JsiiProperty(name: "tagKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] TagKeys
             {

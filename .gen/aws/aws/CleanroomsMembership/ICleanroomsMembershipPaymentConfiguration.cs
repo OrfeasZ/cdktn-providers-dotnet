@@ -9,7 +9,7 @@ namespace aws.CleanroomsMembership
     {
         /// <summary>query_compute block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfigurationQueryCompute" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "queryCompute", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cleanroomsMembership.CleanroomsMembershipPaymentConfigurationQueryCompute\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.CleanroomsMembership
 
             /// <summary>query_compute block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cleanrooms_membership#query_compute CleanroomsMembership#query_compute}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CleanroomsMembership.ICleanroomsMembershipPaymentConfigurationQueryCompute" />)[]</para>
             /// </remarks>
             [JsiiOptional]

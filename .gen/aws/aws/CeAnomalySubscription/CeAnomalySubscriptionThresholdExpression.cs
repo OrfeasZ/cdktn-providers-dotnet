@@ -11,7 +11,7 @@ namespace aws.CeAnomalySubscription
 
         /// <summary>and block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ce_anomaly_subscription#and CeAnomalySubscription#and}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ce_anomaly_subscription#and CeAnomalySubscription#and}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionAnd" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.CeAnomalySubscription
 
         /// <summary>cost_category block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ce_anomaly_subscription#cost_category CeAnomalySubscription#cost_category}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ce_anomaly_subscription#cost_category CeAnomalySubscription#cost_category}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "costCategory", typeJson: "{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionCostCategory\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.CeAnomalySubscription
 
         /// <summary>dimension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ce_anomaly_subscription#dimension CeAnomalySubscription#dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ce_anomaly_subscription#dimension CeAnomalySubscription#dimension}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dimension", typeJson: "{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionDimension\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.CeAnomalySubscription
 
         /// <summary>not block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ce_anomaly_subscription#not CeAnomalySubscription#not}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ce_anomaly_subscription#not CeAnomalySubscription#not}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "not", typeJson: "{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionNot\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace aws.CeAnomalySubscription
 
         /// <summary>or block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ce_anomaly_subscription#or CeAnomalySubscription#or}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ce_anomaly_subscription#or CeAnomalySubscription#or}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CeAnomalySubscription.ICeAnomalySubscriptionThresholdExpressionOr" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -115,7 +115,7 @@ namespace aws.CeAnomalySubscription
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/ce_anomaly_subscription#tags CeAnomalySubscription#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ce_anomaly_subscription#tags CeAnomalySubscription#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"aws.ceAnomalySubscription.CeAnomalySubscriptionThresholdExpressionTags\"}", isOptional: true)]

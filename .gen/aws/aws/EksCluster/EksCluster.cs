@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.EksCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster aws_eks_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster aws_eks_cluster}.</summary>
     [JsiiClass(nativeType: typeof(aws.EksCluster.EksCluster), fullyQualifiedName: "aws.eksCluster.EksCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterConfig\"}}]")]
     public class EksCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster aws_eks_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster aws_eks_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public EksCluster(Constructs.Construct scope, string id, aws.EksCluster.IEksClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.EksCluster
         /// <param name="importToId">The construct id used in the generated config for the EksCluster to import.</param>
         /// <param name="importFromId">The id of the existing EksCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the EksCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EksCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EksCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EksCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EksCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EksCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EksCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.EksCluster.EksCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -70,10 +70,28 @@ namespace aws.EksCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterEncryptionConfig)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putKubeApiServerConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterKubeApiServerConfig\"}}]")]
+        public virtual void PutKubeApiServerConfig(aws.EksCluster.IEksClusterKubeApiServerConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterKubeApiServerConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putKubeControllerManagerConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfig\"}}]")]
+        public virtual void PutKubeControllerManagerConfig(aws.EksCluster.IEksClusterKubeControllerManagerConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterKubeControllerManagerConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putKubernetesNetworkConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterKubernetesNetworkConfig\"}}]")]
         public virtual void PutKubernetesNetworkConfig(aws.EksCluster.IEksClusterKubernetesNetworkConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterKubernetesNetworkConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putKubeSchedulerConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterKubeSchedulerConfig\"}}]")]
+        public virtual void PutKubeSchedulerConfig(aws.EksCluster.IEksClusterKubeSchedulerConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterKubeSchedulerConfig)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putOutpostConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterOutpostConfig\"}}]")]
@@ -172,8 +190,26 @@ namespace aws.EksCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetKubeApiServerConfig")]
+        public virtual void ResetKubeApiServerConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetKubeControllerManagerConfig")]
+        public virtual void ResetKubeControllerManagerConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKubernetesNetworkConfig")]
         public virtual void ResetKubernetesNetworkConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetKubeSchedulerConfig")]
+        public virtual void ResetKubeSchedulerConfig()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -317,10 +353,28 @@ namespace aws.EksCluster
             get => GetInstanceProperty<aws.EksCluster.EksClusterIdentityList>()!;
         }
 
+        [JsiiProperty(name: "kubeApiServerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeApiServerConfigOutputReference\"}")]
+        public virtual aws.EksCluster.EksClusterKubeApiServerConfigOutputReference KubeApiServerConfig
+        {
+            get => GetInstanceProperty<aws.EksCluster.EksClusterKubeApiServerConfigOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "kubeControllerManagerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigOutputReference\"}")]
+        public virtual aws.EksCluster.EksClusterKubeControllerManagerConfigOutputReference KubeControllerManagerConfig
+        {
+            get => GetInstanceProperty<aws.EksCluster.EksClusterKubeControllerManagerConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "kubernetesNetworkConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubernetesNetworkConfigOutputReference\"}")]
         public virtual aws.EksCluster.EksClusterKubernetesNetworkConfigOutputReference KubernetesNetworkConfig
         {
             get => GetInstanceProperty<aws.EksCluster.EksClusterKubernetesNetworkConfigOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "kubeSchedulerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeSchedulerConfigOutputReference\"}")]
+        public virtual aws.EksCluster.EksClusterKubeSchedulerConfigOutputReference KubeSchedulerConfig
+        {
+            get => GetInstanceProperty<aws.EksCluster.EksClusterKubeSchedulerConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "outpostConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterOutpostConfigOutputReference\"}")]
@@ -450,10 +504,31 @@ namespace aws.EksCluster
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "kubeApiServerConfigInput", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeApiServerConfig\"}", isOptional: true)]
+        public virtual aws.EksCluster.IEksClusterKubeApiServerConfig? KubeApiServerConfigInput
+        {
+            get => GetInstanceProperty<aws.EksCluster.IEksClusterKubeApiServerConfig?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kubeControllerManagerConfigInput", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfig\"}", isOptional: true)]
+        public virtual aws.EksCluster.IEksClusterKubeControllerManagerConfig? KubeControllerManagerConfigInput
+        {
+            get => GetInstanceProperty<aws.EksCluster.IEksClusterKubeControllerManagerConfig?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "kubernetesNetworkConfigInput", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubernetesNetworkConfig\"}", isOptional: true)]
         public virtual aws.EksCluster.IEksClusterKubernetesNetworkConfig? KubernetesNetworkConfigInput
         {
             get => GetInstanceProperty<aws.EksCluster.IEksClusterKubernetesNetworkConfig?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kubeSchedulerConfigInput", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeSchedulerConfig\"}", isOptional: true)]
+        public virtual aws.EksCluster.IEksClusterKubeSchedulerConfig? KubeSchedulerConfigInput
+        {
+            get => GetInstanceProperty<aws.EksCluster.IEksClusterKubeSchedulerConfig?>();
         }
 
         [JsiiOptional]

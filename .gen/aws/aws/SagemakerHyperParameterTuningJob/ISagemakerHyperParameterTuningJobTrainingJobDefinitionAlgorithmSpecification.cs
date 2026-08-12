@@ -7,14 +7,14 @@ namespace aws.SagemakerHyperParameterTuningJob
     [JsiiInterface(nativeType: typeof(ISagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecification), fullyQualifiedName: "aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecification")]
     public interface ISagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}.</summary>
         [JsiiProperty(name: "trainingInputMode", typeJson: "{\"primitive\":\"string\"}")]
         string TrainingInputMode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}.</summary>
         [JsiiProperty(name: "algorithmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AlgorithmName
@@ -27,7 +27,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>metric_definitions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecificationMetricDefinitions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "metricDefinitions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerHyperParameterTuningJob.SagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecificationMetricDefinitions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace aws.SagemakerHyperParameterTuningJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}.</summary>
         [JsiiProperty(name: "trainingImage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrainingImage
@@ -58,14 +58,14 @@ namespace aws.SagemakerHyperParameterTuningJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_input_mode SagemakerHyperParameterTuningJob#training_input_mode}.</summary>
             [JsiiProperty(name: "trainingInputMode", typeJson: "{\"primitive\":\"string\"}")]
             public string TrainingInputMode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#algorithm_name SagemakerHyperParameterTuningJob#algorithm_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "algorithmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AlgorithmName
@@ -75,7 +75,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
             /// <summary>metric_definitions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#metric_definitions SagemakerHyperParameterTuningJob#metric_definitions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobTrainingJobDefinitionAlgorithmSpecificationMetricDefinitions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -85,7 +85,7 @@ namespace aws.SagemakerHyperParameterTuningJob
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_hyper_parameter_tuning_job#training_image SagemakerHyperParameterTuningJob#training_image}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trainingImage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrainingImage

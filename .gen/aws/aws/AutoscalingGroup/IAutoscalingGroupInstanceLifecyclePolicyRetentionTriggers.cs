@@ -7,7 +7,7 @@ namespace aws.AutoscalingGroup
     [JsiiInterface(nativeType: typeof(IAutoscalingGroupInstanceLifecyclePolicyRetentionTriggers), fullyQualifiedName: "aws.autoscalingGroup.AutoscalingGroupInstanceLifecyclePolicyRetentionTriggers")]
     public interface IAutoscalingGroupInstanceLifecyclePolicyRetentionTriggers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#terminate_hook_abandon AutoscalingGroup#terminate_hook_abandon}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/autoscaling_group#terminate_hook_abandon AutoscalingGroup#terminate_hook_abandon}.</summary>
         [JsiiProperty(name: "terminateHookAbandon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TerminateHookAbandon
@@ -25,7 +25,7 @@ namespace aws.AutoscalingGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/autoscaling_group#terminate_hook_abandon AutoscalingGroup#terminate_hook_abandon}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/autoscaling_group#terminate_hook_abandon AutoscalingGroup#terminate_hook_abandon}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "terminateHookAbandon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TerminateHookAbandon

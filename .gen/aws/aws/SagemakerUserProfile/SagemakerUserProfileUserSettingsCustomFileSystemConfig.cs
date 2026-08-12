@@ -11,7 +11,7 @@ namespace aws.SagemakerUserProfile
 
         /// <summary>efs_file_system_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/sagemaker_user_profile#efs_file_system_config SagemakerUserProfile#efs_file_system_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_user_profile#efs_file_system_config SagemakerUserProfile#efs_file_system_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerUserProfile.ISagemakerUserProfileUserSettingsCustomFileSystemConfigEfsFileSystemConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

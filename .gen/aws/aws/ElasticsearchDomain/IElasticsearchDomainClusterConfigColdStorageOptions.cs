@@ -7,7 +7,7 @@ namespace aws.ElasticsearchDomain
     [JsiiInterface(nativeType: typeof(IElasticsearchDomainClusterConfigColdStorageOptions), fullyQualifiedName: "aws.elasticsearchDomain.ElasticsearchDomainClusterConfigColdStorageOptions")]
     public interface IElasticsearchDomainClusterConfigColdStorageOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/elasticsearch_domain#enabled ElasticsearchDomain#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/elasticsearch_domain#enabled ElasticsearchDomain#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace aws.ElasticsearchDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/elasticsearch_domain#enabled ElasticsearchDomain#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/elasticsearch_domain#enabled ElasticsearchDomain#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

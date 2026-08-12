@@ -9,7 +9,7 @@ namespace aws.RedshiftdataStatement
     [JsiiByValue(fqn: "aws.redshiftdataStatement.RedshiftdataStatementConfig")]
     public class RedshiftdataStatementConfig : aws.RedshiftdataStatement.IRedshiftdataStatementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#database RedshiftdataStatement#database}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#database RedshiftdataStatement#database}.</summary>
         [JsiiProperty(name: "database", typeJson: "{\"primitive\":\"string\"}")]
         public string Database
         {
@@ -17,7 +17,7 @@ namespace aws.RedshiftdataStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#sql RedshiftdataStatement#sql}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#sql RedshiftdataStatement#sql}.</summary>
         [JsiiProperty(name: "sql", typeJson: "{\"primitive\":\"string\"}")]
         public string Sql
         {
@@ -25,7 +25,7 @@ namespace aws.RedshiftdataStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#cluster_identifier RedshiftdataStatement#cluster_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#cluster_identifier RedshiftdataStatement#cluster_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterIdentifier
@@ -34,7 +34,7 @@ namespace aws.RedshiftdataStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#db_user RedshiftdataStatement#db_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#db_user RedshiftdataStatement#db_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbUser
@@ -43,7 +43,7 @@ namespace aws.RedshiftdataStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#id RedshiftdataStatement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#id RedshiftdataStatement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace aws.RedshiftdataStatement
 
         /// <summary>parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#parameters RedshiftdataStatement#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#parameters RedshiftdataStatement#parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RedshiftdataStatement.IRedshiftdataStatementParameters" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -93,7 +93,7 @@ namespace aws.RedshiftdataStatement
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#region RedshiftdataStatement#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#region RedshiftdataStatement#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace aws.RedshiftdataStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#secret_arn RedshiftdataStatement#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#secret_arn RedshiftdataStatement#secret_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretArn
@@ -112,7 +112,7 @@ namespace aws.RedshiftdataStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#statement_name RedshiftdataStatement#statement_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#statement_name RedshiftdataStatement#statement_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "statementName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StatementName
@@ -123,7 +123,7 @@ namespace aws.RedshiftdataStatement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#timeouts RedshiftdataStatement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#timeouts RedshiftdataStatement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.redshiftdataStatement.RedshiftdataStatementTimeouts\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace aws.RedshiftdataStatement
 
         private object? _withEvent;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#with_event RedshiftdataStatement#with_event}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#with_event RedshiftdataStatement#with_event}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -167,7 +167,7 @@ namespace aws.RedshiftdataStatement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/redshiftdata_statement#workgroup_name RedshiftdataStatement#workgroup_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/redshiftdata_statement#workgroup_name RedshiftdataStatement#workgroup_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workgroupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkgroupName

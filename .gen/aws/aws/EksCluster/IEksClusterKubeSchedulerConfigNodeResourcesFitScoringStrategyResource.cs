@@ -1,0 +1,56 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.EksCluster
+{
+    [JsiiInterface(nativeType: typeof(IEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResource), fullyQualifiedName: "aws.eksCluster.EksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResource")]
+    public interface IEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResource
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#name EksCluster#name}.</summary>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Name
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#weight EksCluster#weight}.</summary>
+        [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? Weight
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResource), fullyQualifiedName: "aws.eksCluster.EksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResource")]
+        internal sealed class _Proxy : DeputyBase, aws.EksCluster.IEksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategyResource
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#name EksCluster#name}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Name
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#weight EksCluster#weight}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? Weight
+            {
+                get => GetInstanceProperty<double?>();
+            }
+        }
+    }
+}

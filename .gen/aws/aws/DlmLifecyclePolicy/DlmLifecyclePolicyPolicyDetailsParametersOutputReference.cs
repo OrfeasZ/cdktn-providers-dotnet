@@ -39,6 +39,12 @@ namespace aws.DlmLifecyclePolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetExcludeDataVolumeTags")]
+        public virtual void ResetExcludeDataVolumeTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNoReboot")]
         public virtual void ResetNoReboot()
         {
@@ -53,6 +59,13 @@ namespace aws.DlmLifecyclePolicy
         public virtual object? ExcludeBootVolumeInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "excludeDataVolumeTagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? ExcludeDataVolumeTagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
         /// <remarks>
@@ -93,6 +106,13 @@ namespace aws.DlmLifecyclePolicy
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "excludeDataVolumeTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> ExcludeDataVolumeTags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>

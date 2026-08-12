@@ -9,7 +9,7 @@ namespace aws.SecretsmanagerSecretRotation
     [JsiiByValue(fqn: "aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationExternalSecretRotationMetadata")]
     public class SecretsmanagerSecretRotationExternalSecretRotationMetadata : aws.SecretsmanagerSecretRotation.ISecretsmanagerSecretRotationExternalSecretRotationMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/secretsmanager_secret_rotation#key SecretsmanagerSecretRotation#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/secretsmanager_secret_rotation#key SecretsmanagerSecretRotation#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace aws.SecretsmanagerSecretRotation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/secretsmanager_secret_rotation#value SecretsmanagerSecretRotation#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/secretsmanager_secret_rotation#value SecretsmanagerSecretRotation#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

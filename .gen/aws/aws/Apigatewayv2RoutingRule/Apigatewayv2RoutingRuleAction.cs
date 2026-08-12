@@ -11,7 +11,7 @@ namespace aws.Apigatewayv2RoutingRule
 
         /// <summary>invoke_api block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/apigatewayv2_routing_rule#invoke_api Apigatewayv2RoutingRule#invoke_api}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/apigatewayv2_routing_rule#invoke_api Apigatewayv2RoutingRule#invoke_api}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleActionInvokeApi" />)[]</para>
         /// </remarks>
         [JsiiOptional]

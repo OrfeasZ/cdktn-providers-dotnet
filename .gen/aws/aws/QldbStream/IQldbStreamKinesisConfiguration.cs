@@ -7,14 +7,14 @@ namespace aws.QldbStream
     [JsiiInterface(nativeType: typeof(IQldbStreamKinesisConfiguration), fullyQualifiedName: "aws.qldbStream.QldbStreamKinesisConfiguration")]
     public interface IQldbStreamKinesisConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
         [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
         string StreamArn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,14 +35,14 @@ namespace aws.QldbStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
             [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamArn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

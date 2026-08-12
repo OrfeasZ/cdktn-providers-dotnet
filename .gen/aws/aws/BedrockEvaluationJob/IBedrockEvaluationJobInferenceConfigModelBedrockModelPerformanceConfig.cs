@@ -7,7 +7,7 @@ namespace aws.BedrockEvaluationJob
     [JsiiInterface(nativeType: typeof(IBedrockEvaluationJobInferenceConfigModelBedrockModelPerformanceConfig), fullyQualifiedName: "aws.bedrockEvaluationJob.BedrockEvaluationJobInferenceConfigModelBedrockModelPerformanceConfig")]
     public interface IBedrockEvaluationJobInferenceConfigModelBedrockModelPerformanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_evaluation_job#latency BedrockEvaluationJob#latency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrock_evaluation_job#latency BedrockEvaluationJob#latency}.</summary>
         [JsiiProperty(name: "latency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Latency
@@ -25,7 +25,7 @@ namespace aws.BedrockEvaluationJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_evaluation_job#latency BedrockEvaluationJob#latency}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrock_evaluation_job#latency BedrockEvaluationJob#latency}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "latency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Latency

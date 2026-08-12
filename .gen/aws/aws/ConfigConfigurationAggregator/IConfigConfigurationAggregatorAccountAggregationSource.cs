@@ -7,14 +7,14 @@ namespace aws.ConfigConfigurationAggregator
     [JsiiInterface(nativeType: typeof(IConfigConfigurationAggregatorAccountAggregationSource), fullyQualifiedName: "aws.configConfigurationAggregator.ConfigConfigurationAggregatorAccountAggregationSource")]
     public interface IConfigConfigurationAggregatorAccountAggregationSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_configuration_aggregator#account_ids ConfigConfigurationAggregator#account_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_configuration_aggregator#account_ids ConfigConfigurationAggregator#account_ids}.</summary>
         [JsiiProperty(name: "accountIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AccountIds
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_configuration_aggregator#all_regions ConfigConfigurationAggregator#all_regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_configuration_aggregator#all_regions ConfigConfigurationAggregator#all_regions}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace aws.ConfigConfigurationAggregator
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_configuration_aggregator#regions ConfigConfigurationAggregator#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_configuration_aggregator#regions ConfigConfigurationAggregator#regions}.</summary>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Regions
@@ -46,14 +46,14 @@ namespace aws.ConfigConfigurationAggregator
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_configuration_aggregator#account_ids ConfigConfigurationAggregator#account_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_configuration_aggregator#account_ids ConfigConfigurationAggregator#account_ids}.</summary>
             [JsiiProperty(name: "accountIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AccountIds
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_configuration_aggregator#all_regions ConfigConfigurationAggregator#all_regions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_configuration_aggregator#all_regions ConfigConfigurationAggregator#all_regions}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -64,7 +64,7 @@ namespace aws.ConfigConfigurationAggregator
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/config_configuration_aggregator#regions ConfigConfigurationAggregator#regions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_configuration_aggregator#regions ConfigConfigurationAggregator#regions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Regions

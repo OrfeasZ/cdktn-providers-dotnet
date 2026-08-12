@@ -7,7 +7,7 @@ namespace aws.BedrockUseCaseForModelAccess
     [JsiiInterface(nativeType: typeof(IBedrockUseCaseForModelAccessConfig), fullyQualifiedName: "aws.bedrockUseCaseForModelAccess.BedrockUseCaseForModelAccessConfig")]
     public interface IBedrockUseCaseForModelAccessConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_use_case_for_model_access#form_data BedrockUseCaseForModelAccess#form_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrock_use_case_for_model_access#form_data BedrockUseCaseForModelAccess#form_data}.</summary>
         [JsiiProperty(name: "formData", typeJson: "{\"primitive\":\"string\"}")]
         string FormData
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockUseCaseForModelAccess
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrock_use_case_for_model_access#form_data BedrockUseCaseForModelAccess#form_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrock_use_case_for_model_access#form_data BedrockUseCaseForModelAccess#form_data}.</summary>
             [JsiiProperty(name: "formData", typeJson: "{\"primitive\":\"string\"}")]
             public string FormData
             {

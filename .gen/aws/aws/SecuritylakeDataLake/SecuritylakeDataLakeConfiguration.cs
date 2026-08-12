@@ -9,7 +9,7 @@ namespace aws.SecuritylakeDataLake
     [JsiiByValue(fqn: "aws.securitylakeDataLake.SecuritylakeDataLakeConfiguration")]
     public class SecuritylakeDataLakeConfiguration : aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#region SecuritylakeDataLake#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#region SecuritylakeDataLake#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public string Region
         {
@@ -19,7 +19,7 @@ namespace aws.SecuritylakeDataLake
 
         private object? _encryptionConfiguration;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#encryption_configuration SecuritylakeDataLake#encryption_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#encryption_configuration SecuritylakeDataLake#encryption_configuration}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationEncryptionConfiguration" />)[]</para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace aws.SecuritylakeDataLake
 
         /// <summary>lifecycle_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#lifecycle_configuration SecuritylakeDataLake#lifecycle_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#lifecycle_configuration SecuritylakeDataLake#lifecycle_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationLifecycleConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -90,7 +90,7 @@ namespace aws.SecuritylakeDataLake
 
         /// <summary>replication_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/securitylake_data_lake#replication_configuration SecuritylakeDataLake#replication_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_data_lake#replication_configuration SecuritylakeDataLake#replication_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeDataLake.ISecuritylakeDataLakeConfigurationReplicationConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]

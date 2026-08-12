@@ -59,6 +59,54 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfig" />)[]</param>
+        [JsiiMethod(name: "putAuroraProvisionedScalingConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAuroraProvisionedScalingConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfig" />)[]</param>
+        [JsiiMethod(name: "putAuroraServerlessScalingConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAuroraServerlessScalingConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepCustomActionLambdaConfig" />)[]</param>
         [JsiiMethod(name: "putCustomActionLambdaConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepCustomActionLambdaConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomActionLambdaConfig(object @value)
@@ -227,6 +275,54 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfig" />)[]</param>
+        [JsiiMethod(name: "putLambdaEventSourceMappingConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutLambdaEventSourceMappingConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfig" />)[]</param>
+        [JsiiMethod(name: "putNeptuneGlobalDatabaseConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutNeptuneGlobalDatabaseConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepParallelConfig" />)[]</param>
         [JsiiMethod(name: "putParallelConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutParallelConfig(object @value)
@@ -353,6 +449,18 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAuroraProvisionedScalingConfig")]
+        public virtual void ResetAuroraProvisionedScalingConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAuroraServerlessScalingConfig")]
+        public virtual void ResetAuroraServerlessScalingConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCustomActionLambdaConfig")]
         public virtual void ResetCustomActionLambdaConfig()
         {
@@ -401,6 +509,18 @@ namespace aws.ArcregionswitchPlan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLambdaEventSourceMappingConfig")]
+        public virtual void ResetLambdaEventSourceMappingConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNeptuneGlobalDatabaseConfig")]
+        public virtual void ResetNeptuneGlobalDatabaseConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetParallelConfig")]
         public virtual void ResetParallelConfig()
         {
@@ -435,6 +555,18 @@ namespace aws.ArcregionswitchPlan
         public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepArcRoutingControlConfigList ArcRoutingControlConfig
         {
             get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepArcRoutingControlConfigList>()!;
+        }
+
+        [JsiiProperty(name: "auroraProvisionedScalingConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfigList\"}")]
+        public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfigList AuroraProvisionedScalingConfig
+        {
+            get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfigList>()!;
+        }
+
+        [JsiiProperty(name: "auroraServerlessScalingConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfigList\"}")]
+        public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfigList AuroraServerlessScalingConfig
+        {
+            get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfigList>()!;
         }
 
         [JsiiProperty(name: "customActionLambdaConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepCustomActionLambdaConfigList\"}")]
@@ -479,6 +611,18 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepGlobalAuroraConfigList>()!;
         }
 
+        [JsiiProperty(name: "lambdaEventSourceMappingConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfigList\"}")]
+        public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfigList LambdaEventSourceMappingConfig
+        {
+            get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfigList>()!;
+        }
+
+        [JsiiProperty(name: "neptuneGlobalDatabaseConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfigList\"}")]
+        public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfigList NeptuneGlobalDatabaseConfig
+        {
+            get => GetInstanceProperty<aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfigList>()!;
+        }
+
         [JsiiProperty(name: "parallelConfig", typeJson: "{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigList\"}")]
         public virtual aws.ArcregionswitchPlan.ArcregionswitchPlanWorkflowStepParallelConfigList ParallelConfig
         {
@@ -515,6 +659,26 @@ namespace aws.ArcregionswitchPlan
         [JsiiOptional]
         [JsiiProperty(name: "arcRoutingControlConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepArcRoutingControlConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ArcRoutingControlConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfig" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "auroraProvisionedScalingConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraProvisionedScalingConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AuroraProvisionedScalingConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfig" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "auroraServerlessScalingConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepAuroraServerlessScalingConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AuroraServerlessScalingConfigInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -603,11 +767,31 @@ namespace aws.ArcregionswitchPlan
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfig" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "lambdaEventSourceMappingConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepLambdaEventSourceMappingConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? LambdaEventSourceMappingConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? NameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ArcregionswitchPlan.IArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfig" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "neptuneGlobalDatabaseConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.arcregionswitchPlan.ArcregionswitchPlanWorkflowStepNeptuneGlobalDatabaseConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? NeptuneGlobalDatabaseConfigInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

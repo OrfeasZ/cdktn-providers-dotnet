@@ -9,7 +9,7 @@ namespace aws.ResourcegroupsGroup
     [JsiiByValue(fqn: "aws.resourcegroupsGroup.ResourcegroupsGroupConfiguration")]
     public class ResourcegroupsGroupConfiguration : aws.ResourcegroupsGroup.IResourcegroupsGroupConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/resourcegroups_group#type ResourcegroupsGroup#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -21,7 +21,7 @@ namespace aws.ResourcegroupsGroup
 
         /// <summary>parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/resourcegroups_group#parameters ResourcegroupsGroup#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/resourcegroups_group#parameters ResourcegroupsGroup#parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ResourcegroupsGroup.IResourcegroupsGroupConfigurationParameters" />)[]</para>
         /// </remarks>
         [JsiiOptional]

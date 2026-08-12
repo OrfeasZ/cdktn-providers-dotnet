@@ -11,7 +11,7 @@ namespace aws.BedrockagentcoreGateway
 
         /// <summary>mcp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/bedrockagentcore_gateway#mcp BedrockagentcoreGateway#mcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagentcore_gateway#mcp BedrockagentcoreGateway#mcp}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreGateway.IBedrockagentcoreGatewayProtocolConfigurationMcp" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace aws.DatazoneFormType
     [JsiiByValue(fqn: "aws.datazoneFormType.DatazoneFormTypeConfig")]
     public class DatazoneFormTypeConfig : aws.DatazoneFormType.IDatazoneFormTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#domain_identifier DatazoneFormType#domain_identifier}.</summary>
         [JsiiProperty(name: "domainIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.DatazoneFormType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#name DatazoneFormType#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#name DatazoneFormType#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.DatazoneFormType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#owning_project_identifier DatazoneFormType#owning_project_identifier}.</summary>
         [JsiiProperty(name: "owningProjectIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string OwningProjectIdentifier
         {
@@ -33,7 +33,7 @@ namespace aws.DatazoneFormType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#description DatazoneFormType#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#description DatazoneFormType#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -46,7 +46,7 @@ namespace aws.DatazoneFormType
 
         /// <summary>model block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#model DatazoneFormType#model}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneFormType.IDatazoneFormTypeModel" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace aws.DatazoneFormType
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#region DatazoneFormType#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#region DatazoneFormType#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace aws.DatazoneFormType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#status DatazoneFormType#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#status DatazoneFormType#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -100,7 +100,7 @@ namespace aws.DatazoneFormType
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.58.0/docs/resources/datazone_form_type#timeouts DatazoneFormType#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_form_type#timeouts DatazoneFormType#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.datazoneFormType.DatazoneFormTypeTimeouts\"}", isOptional: true)]
