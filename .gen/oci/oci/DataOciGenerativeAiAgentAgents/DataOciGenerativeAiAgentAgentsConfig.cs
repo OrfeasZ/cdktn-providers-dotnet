@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiAgentAgents
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiAgentAgents.DataOciGenerativeAiAgentAgentsConfig")]
     public class DataOciGenerativeAiAgentAgentsConfig : oci.DataOciGenerativeAiAgentAgents.IDataOciGenerativeAiAgentAgentsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_agent_agents#compartment_id DataOciGenerativeAiAgentAgents#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_agents#compartment_id DataOciGenerativeAiAgentAgents#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciGenerativeAiAgentAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_agent_agents#display_name DataOciGenerativeAiAgentAgents#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_agents#display_name DataOciGenerativeAiAgentAgents#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciGenerativeAiAgentAgents
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_agent_agents#filter DataOciGenerativeAiAgentAgents#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_agents#filter DataOciGenerativeAiAgentAgents#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiAgentAgents.IDataOciGenerativeAiAgentAgentsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciGenerativeAiAgentAgents
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_agent_agents#id DataOciGenerativeAiAgentAgents#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_agents#id DataOciGenerativeAiAgentAgents#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciGenerativeAiAgentAgents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_agent_agents#state DataOciGenerativeAiAgentAgents#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_agents#state DataOciGenerativeAiAgentAgents#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

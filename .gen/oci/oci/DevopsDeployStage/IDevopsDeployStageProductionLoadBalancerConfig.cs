@@ -7,7 +7,7 @@ namespace oci.DevopsDeployStage
     [JsiiInterface(nativeType: typeof(IDevopsDeployStageProductionLoadBalancerConfig), fullyQualifiedName: "oci.devopsDeployStage.DevopsDeployStageProductionLoadBalancerConfig")]
     public interface IDevopsDeployStageProductionLoadBalancerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}.</summary>
         [JsiiProperty(name: "backendPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BackendPort
@@ -18,7 +18,7 @@ namespace oci.DevopsDeployStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}.</summary>
         [JsiiProperty(name: "listenerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ListenerName
@@ -29,7 +29,7 @@ namespace oci.DevopsDeployStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LoadBalancerId
@@ -47,7 +47,7 @@ namespace oci.DevopsDeployStage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#backend_port DevopsDeployStage#backend_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backendPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BackendPort
@@ -55,7 +55,7 @@ namespace oci.DevopsDeployStage
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#listener_name DevopsDeployStage#listener_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "listenerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ListenerName
@@ -63,7 +63,7 @@ namespace oci.DevopsDeployStage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#load_balancer_id DevopsDeployStage#load_balancer_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LoadBalancerId

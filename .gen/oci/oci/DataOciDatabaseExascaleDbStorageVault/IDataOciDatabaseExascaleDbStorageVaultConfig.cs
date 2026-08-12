@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVault
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExascaleDbStorageVaultConfig), fullyQualifiedName: "oci.dataOciDatabaseExascaleDbStorageVault.DataOciDatabaseExascaleDbStorageVaultConfig")]
     public interface IDataOciDatabaseExascaleDbStorageVaultConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exascale_db_storage_vault#exascale_db_storage_vault_id DataOciDatabaseExascaleDbStorageVault#exascale_db_storage_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vault#exascale_db_storage_vault_id DataOciDatabaseExascaleDbStorageVault#exascale_db_storage_vault_id}.</summary>
         [JsiiProperty(name: "exascaleDbStorageVaultId", typeJson: "{\"primitive\":\"string\"}")]
         string ExascaleDbStorageVaultId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_exascale_db_storage_vault#exascale_db_storage_vault_id DataOciDatabaseExascaleDbStorageVault#exascale_db_storage_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vault#exascale_db_storage_vault_id DataOciDatabaseExascaleDbStorageVault#exascale_db_storage_vault_id}.</summary>
             [JsiiProperty(name: "exascaleDbStorageVaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExascaleDbStorageVaultId
             {

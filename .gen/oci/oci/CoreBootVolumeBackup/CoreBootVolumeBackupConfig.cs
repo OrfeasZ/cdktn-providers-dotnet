@@ -7,7 +7,7 @@ namespace oci.CoreBootVolumeBackup
     [JsiiByValue(fqn: "oci.coreBootVolumeBackup.CoreBootVolumeBackupConfig")]
     public class CoreBootVolumeBackupConfig : oci.CoreBootVolumeBackup.ICoreBootVolumeBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#boot_volume_id CoreBootVolumeBackup#boot_volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#boot_volume_id CoreBootVolumeBackup#boot_volume_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bootVolumeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BootVolumeId
@@ -16,7 +16,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#compartment_id CoreBootVolumeBackup#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#compartment_id CoreBootVolumeBackup#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#defined_tags CoreBootVolumeBackup#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#defined_tags CoreBootVolumeBackup#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#display_name CoreBootVolumeBackup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#display_name CoreBootVolumeBackup#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -43,7 +43,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#freeform_tags CoreBootVolumeBackup#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#freeform_tags CoreBootVolumeBackup#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -52,7 +52,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#id CoreBootVolumeBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#id CoreBootVolumeBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,7 +67,7 @@ namespace oci.CoreBootVolumeBackup
 
         private object? _isIndefiniteRetentionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#is_indefinite_retention_enabled CoreBootVolumeBackup#is_indefinite_retention_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#is_indefinite_retention_enabled CoreBootVolumeBackup#is_indefinite_retention_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -101,7 +101,7 @@ namespace oci.CoreBootVolumeBackup
 
         private object? _isPreventDeletionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#is_prevent_deletion_enabled CoreBootVolumeBackup#is_prevent_deletion_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#is_prevent_deletion_enabled CoreBootVolumeBackup#is_prevent_deletion_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -135,7 +135,7 @@ namespace oci.CoreBootVolumeBackup
 
         private object? _isRetentionLockEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#is_retention_lock_enabled CoreBootVolumeBackup#is_retention_lock_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#is_retention_lock_enabled CoreBootVolumeBackup#is_retention_lock_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -167,7 +167,7 @@ namespace oci.CoreBootVolumeBackup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#kms_key_id CoreBootVolumeBackup#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#kms_key_id CoreBootVolumeBackup#kms_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyId
@@ -178,7 +178,7 @@ namespace oci.CoreBootVolumeBackup
 
         /// <summary>retention_period block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#retention_period CoreBootVolumeBackup#retention_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#retention_period CoreBootVolumeBackup#retention_period}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"fqn\":\"oci.coreBootVolumeBackup.CoreBootVolumeBackupRetentionPeriod\"}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace oci.CoreBootVolumeBackup
 
         /// <summary>source_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#source_details CoreBootVolumeBackup#source_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#source_details CoreBootVolumeBackup#source_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sourceDetails", typeJson: "{\"fqn\":\"oci.coreBootVolumeBackup.CoreBootVolumeBackupSourceDetails\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace oci.CoreBootVolumeBackup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#timeouts CoreBootVolumeBackup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#timeouts CoreBootVolumeBackup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreBootVolumeBackup.CoreBootVolumeBackupTimeouts\"}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace oci.CoreBootVolumeBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_boot_volume_backup#type CoreBootVolumeBackup#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_boot_volume_backup#type CoreBootVolumeBackup#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

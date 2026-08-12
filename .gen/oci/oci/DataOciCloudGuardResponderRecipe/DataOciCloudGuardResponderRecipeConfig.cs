@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardResponderRecipe
     [JsiiByValue(fqn: "oci.dataOciCloudGuardResponderRecipe.DataOciCloudGuardResponderRecipeConfig")]
     public class DataOciCloudGuardResponderRecipeConfig : oci.DataOciCloudGuardResponderRecipe.IDataOciCloudGuardResponderRecipeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_responder_recipe#responder_recipe_id DataOciCloudGuardResponderRecipe#responder_recipe_id}.</summary>
         [JsiiProperty(name: "responderRecipeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResponderRecipeId
         {

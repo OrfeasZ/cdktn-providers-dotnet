@@ -9,7 +9,7 @@ namespace oci.DataOciJmsTaskSchedule
     [JsiiByValue(fqn: "oci.dataOciJmsTaskSchedule.DataOciJmsTaskScheduleConfig")]
     public class DataOciJmsTaskScheduleConfig : oci.DataOciJmsTaskSchedule.IDataOciJmsTaskScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_task_schedule#task_schedule_id DataOciJmsTaskSchedule#task_schedule_id}.</summary>
         [JsiiProperty(name: "taskScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public string TaskScheduleId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_task_schedule#fleet_id DataOciJmsTaskSchedule#fleet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FleetId

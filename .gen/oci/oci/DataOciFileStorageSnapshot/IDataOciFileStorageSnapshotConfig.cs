@@ -7,7 +7,7 @@ namespace oci.DataOciFileStorageSnapshot
     [JsiiInterface(nativeType: typeof(IDataOciFileStorageSnapshotConfig), fullyQualifiedName: "oci.dataOciFileStorageSnapshot.DataOciFileStorageSnapshotConfig")]
     public interface IDataOciFileStorageSnapshotConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_snapshot#snapshot_id DataOciFileStorageSnapshot#snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_snapshot#snapshot_id DataOciFileStorageSnapshot#snapshot_id}.</summary>
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}")]
         string SnapshotId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFileStorageSnapshot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_snapshot#snapshot_id DataOciFileStorageSnapshot#snapshot_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_snapshot#snapshot_id DataOciFileStorageSnapshot#snapshot_id}.</summary>
             [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}")]
             public string SnapshotId
             {

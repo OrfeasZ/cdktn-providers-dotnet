@@ -9,7 +9,7 @@ namespace oci.PsqlDbSystem
     [JsiiByValue(fqn: "oci.psqlDbSystem.PsqlDbSystemPatchOperations")]
     public class PsqlDbSystemPatchOperations : oci.PsqlDbSystem.IPsqlDbSystemPatchOperations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#operation PsqlDbSystem#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#operation PsqlDbSystem#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         public string Operation
         {
@@ -17,7 +17,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#selection PsqlDbSystem#selection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#selection PsqlDbSystem#selection}.</summary>
         [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
         public string Selection
         {
@@ -25,7 +25,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#from PsqlDbSystem#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#from PsqlDbSystem#from}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? From
@@ -34,7 +34,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#position PsqlDbSystem#position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#position PsqlDbSystem#position}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "position", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Position
@@ -43,7 +43,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#selected_item PsqlDbSystem#selected_item}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#selected_item PsqlDbSystem#selected_item}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "selectedItem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SelectedItem
@@ -52,7 +52,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#value PsqlDbSystem#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#value PsqlDbSystem#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Value

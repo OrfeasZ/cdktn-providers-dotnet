@@ -5,7 +5,7 @@ namespace oci.BdsBdsCapacityReport
     /// <remarks>
     /// <h1><c>oci_bds_bds_capacity_report</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_capacity_report"><c>oci_bds_bds_capacity_report</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_capacity_report"><c>oci_bds_bds_capacity_report</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

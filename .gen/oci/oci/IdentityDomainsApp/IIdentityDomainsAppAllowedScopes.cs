@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppAllowedScopes), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppAllowedScopes")]
     public interface IIdentityDomainsAppAllowedScopes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}.</summary>
         [JsiiProperty(name: "fqs", typeJson: "{\"primitive\":\"string\"}")]
         string Fqs
         {
@@ -21,7 +21,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}.</summary>
             [JsiiProperty(name: "fqs", typeJson: "{\"primitive\":\"string\"}")]
             public string Fqs
             {

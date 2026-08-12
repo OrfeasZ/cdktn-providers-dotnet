@@ -7,7 +7,7 @@ namespace oci.ArtifactsContainerImageSignature
     [JsiiByValue(fqn: "oci.artifactsContainerImageSignature.ArtifactsContainerImageSignatureTimeouts")]
     public class ArtifactsContainerImageSignatureTimeouts : oci.ArtifactsContainerImageSignature.IArtifactsContainerImageSignatureTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_image_signature#create ArtifactsContainerImageSignature#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_image_signature#create ArtifactsContainerImageSignature#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ArtifactsContainerImageSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_image_signature#delete ArtifactsContainerImageSignature#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_image_signature#delete ArtifactsContainerImageSignature#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ArtifactsContainerImageSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_image_signature#update ArtifactsContainerImageSignature#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_image_signature#update ArtifactsContainerImageSignature#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

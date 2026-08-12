@@ -7,7 +7,7 @@ namespace oci.DataOciJmsJavaReleases
     [JsiiByValue(fqn: "oci.dataOciJmsJavaReleases.DataOciJmsJavaReleasesConfig")]
     public class DataOciJmsJavaReleasesConfig : oci.DataOciJmsJavaReleases.IDataOciJmsJavaReleasesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_releases#family_version DataOciJmsJavaReleases#family_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_java_releases#family_version DataOciJmsJavaReleases#family_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "familyVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FamilyVersion
@@ -20,7 +20,7 @@ namespace oci.DataOciJmsJavaReleases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_releases#filter DataOciJmsJavaReleases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_java_releases#filter DataOciJmsJavaReleases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaReleases.IDataOciJmsJavaReleasesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciJmsJavaReleases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_releases#id DataOciJmsJavaReleases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_java_releases#id DataOciJmsJavaReleases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciJmsJavaReleases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_releases#jre_security_status DataOciJmsJavaReleases#jre_security_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_java_releases#jre_security_status DataOciJmsJavaReleases#jre_security_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jreSecurityStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JreSecurityStatus
@@ -73,7 +73,7 @@ namespace oci.DataOciJmsJavaReleases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_releases#license_type DataOciJmsJavaReleases#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_java_releases#license_type DataOciJmsJavaReleases#license_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseType
@@ -82,7 +82,7 @@ namespace oci.DataOciJmsJavaReleases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_releases#release_type DataOciJmsJavaReleases#release_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_java_releases#release_type DataOciJmsJavaReleases#release_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "releaseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReleaseType
@@ -91,7 +91,7 @@ namespace oci.DataOciJmsJavaReleases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_java_releases#release_version DataOciJmsJavaReleases#release_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_java_releases#release_version DataOciJmsJavaReleases#release_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "releaseVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReleaseVersion

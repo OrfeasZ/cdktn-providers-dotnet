@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineCluster
     [JsiiByValue(fqn: "oci.dataOciContainerengineCluster.DataOciContainerengineClusterConfig")]
     public class DataOciContainerengineClusterConfig : oci.DataOciContainerengineCluster.IDataOciContainerengineClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/containerengine_cluster#cluster_id DataOciContainerengineCluster#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_cluster#cluster_id DataOciContainerengineCluster#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterId
         {
@@ -19,7 +19,7 @@ namespace oci.DataOciContainerengineCluster
 
         private object? _shouldIncludeOidcConfigFile;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/containerengine_cluster#should_include_oidc_config_file DataOciContainerengineCluster#should_include_oidc_config_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_cluster#should_include_oidc_config_file DataOciContainerengineCluster#should_include_oidc_config_file}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

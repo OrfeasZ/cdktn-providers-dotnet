@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsFilter")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsFilter : oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

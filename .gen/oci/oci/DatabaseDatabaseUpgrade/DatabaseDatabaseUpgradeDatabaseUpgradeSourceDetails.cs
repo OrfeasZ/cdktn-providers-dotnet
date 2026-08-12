@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabaseUpgrade
     [JsiiByValue(fqn: "oci.databaseDatabaseUpgrade.DatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails")]
     public class DatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails : oci.DatabaseDatabaseUpgrade.IDatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database_upgrade#database_software_image_id DatabaseDatabaseUpgrade#database_software_image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database_upgrade#database_software_image_id DatabaseDatabaseUpgrade#database_software_image_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseSoftwareImageId
@@ -16,7 +16,7 @@ namespace oci.DatabaseDatabaseUpgrade
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database_upgrade#db_version DatabaseDatabaseUpgrade#db_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database_upgrade#db_version DatabaseDatabaseUpgrade#db_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbVersion
@@ -25,7 +25,7 @@ namespace oci.DatabaseDatabaseUpgrade
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database_upgrade#options DatabaseDatabaseUpgrade#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database_upgrade#options DatabaseDatabaseUpgrade#options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "options", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Options
@@ -34,7 +34,7 @@ namespace oci.DatabaseDatabaseUpgrade
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database_upgrade#source DatabaseDatabaseUpgrade#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database_upgrade#source DatabaseDatabaseUpgrade#source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Source

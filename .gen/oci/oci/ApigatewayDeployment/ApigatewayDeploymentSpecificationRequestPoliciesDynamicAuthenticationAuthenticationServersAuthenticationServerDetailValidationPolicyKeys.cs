@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     [JsiiByValue(fqn: "oci.apigatewayDeployment.ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyKeys")]
     public class ApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyKeys : oci.ApigatewayDeployment.IApigatewayDeploymentSpecificationRequestPoliciesDynamicAuthenticationAuthenticationServersAuthenticationServerDetailValidationPolicyKeys
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#format ApigatewayDeployment#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         public string Format
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#alg ApigatewayDeployment#alg}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alg", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Alg
@@ -26,7 +26,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#e ApigatewayDeployment#e}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "e", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? E
@@ -35,7 +35,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#key ApigatewayDeployment#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -44,7 +44,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#key_ops ApigatewayDeployment#key_ops}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyOps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? KeyOps
@@ -53,7 +53,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#kid ApigatewayDeployment#kid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Kid
@@ -62,7 +62,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#kty ApigatewayDeployment#kty}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kty", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Kty
@@ -71,7 +71,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#n ApigatewayDeployment#n}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "n", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? N
@@ -80,7 +80,7 @@ namespace oci.ApigatewayDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#use ApigatewayDeployment#use}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "use", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Use

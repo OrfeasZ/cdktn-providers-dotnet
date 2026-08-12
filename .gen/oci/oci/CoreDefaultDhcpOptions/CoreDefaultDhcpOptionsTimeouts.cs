@@ -7,7 +7,7 @@ namespace oci.CoreDefaultDhcpOptions
     [JsiiByValue(fqn: "oci.coreDefaultDhcpOptions.CoreDefaultDhcpOptionsTimeouts")]
     public class CoreDefaultDhcpOptionsTimeouts : oci.CoreDefaultDhcpOptions.ICoreDefaultDhcpOptionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_dhcp_options#create CoreDefaultDhcpOptions#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_dhcp_options#create CoreDefaultDhcpOptions#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CoreDefaultDhcpOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_dhcp_options#delete CoreDefaultDhcpOptions#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_dhcp_options#delete CoreDefaultDhcpOptions#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CoreDefaultDhcpOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_dhcp_options#update CoreDefaultDhcpOptions#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_dhcp_options#update CoreDefaultDhcpOptions#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

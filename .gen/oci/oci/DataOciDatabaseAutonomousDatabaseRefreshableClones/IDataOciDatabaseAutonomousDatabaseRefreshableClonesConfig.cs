@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseAutonomousDatabaseRefreshableClonesConfig), fullyQualifiedName: "oci.dataOciDatabaseAutonomousDatabaseRefreshableClones.DataOciDatabaseAutonomousDatabaseRefreshableClonesConfig")]
     public interface IDataOciDatabaseAutonomousDatabaseRefreshableClonesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_refreshable_clones#autonomous_database_id DataOciDatabaseAutonomousDatabaseRefreshableClones#autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_refreshable_clones#autonomous_database_id DataOciDatabaseAutonomousDatabaseRefreshableClones#autonomous_database_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string AutonomousDatabaseId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_refreshable_clones#filter DataOciDatabaseAutonomousDatabaseRefreshableClones#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_refreshable_clones#filter DataOciDatabaseAutonomousDatabaseRefreshableClones#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAutonomousDatabaseRefreshableClones.IDataOciDatabaseAutonomousDatabaseRefreshableClonesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabaseRefreshableClones.DataOciDatabaseAutonomousDatabaseRefreshableClonesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_refreshable_clones#id DataOciDatabaseAutonomousDatabaseRefreshableClones#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_refreshable_clones#id DataOciDatabaseAutonomousDatabaseRefreshableClones#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_refreshable_clones#autonomous_database_id DataOciDatabaseAutonomousDatabaseRefreshableClones#autonomous_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_refreshable_clones#autonomous_database_id DataOciDatabaseAutonomousDatabaseRefreshableClones#autonomous_database_id}.</summary>
             [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutonomousDatabaseId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_refreshable_clones#filter DataOciDatabaseAutonomousDatabaseRefreshableClones#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_refreshable_clones#filter DataOciDatabaseAutonomousDatabaseRefreshableClones#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAutonomousDatabaseRefreshableClones.IDataOciDatabaseAutonomousDatabaseRefreshableClonesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseRefreshableClones
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_refreshable_clones#id DataOciDatabaseAutonomousDatabaseRefreshableClones#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_refreshable_clones#id DataOciDatabaseAutonomousDatabaseRefreshableClones#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

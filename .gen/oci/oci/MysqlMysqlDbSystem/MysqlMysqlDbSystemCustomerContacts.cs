@@ -9,7 +9,7 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiByValue(fqn: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemCustomerContacts")]
     public class MysqlMysqlDbSystemCustomerContacts : oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemCustomerContacts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#email MysqlMysqlDbSystem#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_db_system#email MysqlMysqlDbSystem#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public string Email
         {

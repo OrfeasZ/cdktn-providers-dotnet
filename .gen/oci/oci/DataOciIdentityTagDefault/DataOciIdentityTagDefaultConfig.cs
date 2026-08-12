@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityTagDefault
     [JsiiByValue(fqn: "oci.dataOciIdentityTagDefault.DataOciIdentityTagDefaultConfig")]
     public class DataOciIdentityTagDefaultConfig : oci.DataOciIdentityTagDefault.IDataOciIdentityTagDefaultConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_tag_default#tag_default_id DataOciIdentityTagDefault#tag_default_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_tag_default#tag_default_id DataOciIdentityTagDefault#tag_default_id}.</summary>
         [JsiiProperty(name: "tagDefaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string TagDefaultId
         {

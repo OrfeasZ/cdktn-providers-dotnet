@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceJobRun
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceJobRunConfig), fullyQualifiedName: "oci.dataOciDatascienceJobRun.DataOciDatascienceJobRunConfig")]
     public interface IDataOciDatascienceJobRunConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_job_run#job_run_id DataOciDatascienceJobRun#job_run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_job_run#job_run_id DataOciDatascienceJobRun#job_run_id}.</summary>
         [JsiiProperty(name: "jobRunId", typeJson: "{\"primitive\":\"string\"}")]
         string JobRunId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceJobRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_job_run#job_run_id DataOciDatascienceJobRun#job_run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_job_run#job_run_id DataOciDatascienceJobRun#job_run_id}.</summary>
             [JsiiProperty(name: "jobRunId", typeJson: "{\"primitive\":\"string\"}")]
             public string JobRunId
             {

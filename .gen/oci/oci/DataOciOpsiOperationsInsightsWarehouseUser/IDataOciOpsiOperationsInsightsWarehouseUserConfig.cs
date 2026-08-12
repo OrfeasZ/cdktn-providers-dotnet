@@ -7,7 +7,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUser
     [JsiiInterface(nativeType: typeof(IDataOciOpsiOperationsInsightsWarehouseUserConfig), fullyQualifiedName: "oci.dataOciOpsiOperationsInsightsWarehouseUser.DataOciOpsiOperationsInsightsWarehouseUserConfig")]
     public interface IDataOciOpsiOperationsInsightsWarehouseUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_user#operations_insights_warehouse_user_id DataOciOpsiOperationsInsightsWarehouseUser#operations_insights_warehouse_user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_user#operations_insights_warehouse_user_id DataOciOpsiOperationsInsightsWarehouseUser#operations_insights_warehouse_user_id}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseUserId", typeJson: "{\"primitive\":\"string\"}")]
         string OperationsInsightsWarehouseUserId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_user#operations_insights_warehouse_user_id DataOciOpsiOperationsInsightsWarehouseUser#operations_insights_warehouse_user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_user#operations_insights_warehouse_user_id DataOciOpsiOperationsInsightsWarehouseUser#operations_insights_warehouse_user_id}.</summary>
             [JsiiProperty(name: "operationsInsightsWarehouseUserId", typeJson: "{\"primitive\":\"string\"}")]
             public string OperationsInsightsWarehouseUserId
             {

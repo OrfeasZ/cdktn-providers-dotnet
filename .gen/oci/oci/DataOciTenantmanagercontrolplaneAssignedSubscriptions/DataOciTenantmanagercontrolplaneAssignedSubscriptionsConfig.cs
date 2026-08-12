@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneAssignedSubscriptions
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneAssignedSubscriptions.DataOciTenantmanagercontrolplaneAssignedSubscriptionsConfig")]
     public class DataOciTenantmanagercontrolplaneAssignedSubscriptionsConfig : oci.DataOciTenantmanagercontrolplaneAssignedSubscriptions.IDataOciTenantmanagercontrolplaneAssignedSubscriptionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#compartment_id DataOciTenantmanagercontrolplaneAssignedSubscriptions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#compartment_id DataOciTenantmanagercontrolplaneAssignedSubscriptions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneAssignedSubscriptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#entity_version DataOciTenantmanagercontrolplaneAssignedSubscriptions#entity_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#entity_version DataOciTenantmanagercontrolplaneAssignedSubscriptions#entity_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "entityVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EntityVersion
@@ -30,7 +30,7 @@ namespace oci.DataOciTenantmanagercontrolplaneAssignedSubscriptions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#filter DataOciTenantmanagercontrolplaneAssignedSubscriptions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#filter DataOciTenantmanagercontrolplaneAssignedSubscriptions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneAssignedSubscriptions.IDataOciTenantmanagercontrolplaneAssignedSubscriptionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciTenantmanagercontrolplaneAssignedSubscriptions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#id DataOciTenantmanagercontrolplaneAssignedSubscriptions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#id DataOciTenantmanagercontrolplaneAssignedSubscriptions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciTenantmanagercontrolplaneAssignedSubscriptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#subscription_id DataOciTenantmanagercontrolplaneAssignedSubscriptions#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscriptions#subscription_id DataOciTenantmanagercontrolplaneAssignedSubscriptions#subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriptionId

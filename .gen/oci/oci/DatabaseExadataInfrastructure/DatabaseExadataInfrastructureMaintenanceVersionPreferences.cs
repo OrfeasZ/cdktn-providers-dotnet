@@ -7,7 +7,7 @@ namespace oci.DatabaseExadataInfrastructure
     [JsiiByValue(fqn: "oci.databaseExadataInfrastructure.DatabaseExadataInfrastructureMaintenanceVersionPreferences")]
     public class DatabaseExadataInfrastructureMaintenanceVersionPreferences : oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureMaintenanceVersionPreferences
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_infrastructure#reference_resource_id_for_image_updates DatabaseExadataInfrastructure#reference_resource_id_for_image_updates}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_exadata_infrastructure#reference_resource_id_for_image_updates DatabaseExadataInfrastructure#reference_resource_id_for_image_updates}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "referenceResourceIdForImageUpdates", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReferenceResourceIdForImageUpdates

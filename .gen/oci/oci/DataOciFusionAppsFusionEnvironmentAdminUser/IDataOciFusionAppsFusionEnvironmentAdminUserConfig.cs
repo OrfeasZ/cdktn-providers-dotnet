@@ -7,7 +7,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUser
     [JsiiInterface(nativeType: typeof(IDataOciFusionAppsFusionEnvironmentAdminUserConfig), fullyQualifiedName: "oci.dataOciFusionAppsFusionEnvironmentAdminUser.DataOciFusionAppsFusionEnvironmentAdminUserConfig")]
     public interface IDataOciFusionAppsFusionEnvironmentAdminUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_user#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUser#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_user#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUser#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         string FusionEnvironmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_user#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUser#fusion_environment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_user#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUser#fusion_environment_id}.</summary>
             [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string FusionEnvironmentId
             {

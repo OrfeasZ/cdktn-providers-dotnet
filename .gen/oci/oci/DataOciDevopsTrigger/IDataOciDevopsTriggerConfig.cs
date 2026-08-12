@@ -7,7 +7,7 @@ namespace oci.DataOciDevopsTrigger
     [JsiiInterface(nativeType: typeof(IDataOciDevopsTriggerConfig), fullyQualifiedName: "oci.dataOciDevopsTrigger.DataOciDevopsTriggerConfig")]
     public interface IDataOciDevopsTriggerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_trigger#trigger_id DataOciDevopsTrigger#trigger_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_trigger#trigger_id DataOciDevopsTrigger#trigger_id}.</summary>
         [JsiiProperty(name: "triggerId", typeJson: "{\"primitive\":\"string\"}")]
         string TriggerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDevopsTrigger
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_trigger#trigger_id DataOciDevopsTrigger#trigger_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_trigger#trigger_id DataOciDevopsTrigger#trigger_id}.</summary>
             [JsiiProperty(name: "triggerId", typeJson: "{\"primitive\":\"string\"}")]
             public string TriggerId
             {

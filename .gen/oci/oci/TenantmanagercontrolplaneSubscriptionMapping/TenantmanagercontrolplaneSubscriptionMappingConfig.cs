@@ -9,7 +9,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
     [JsiiByValue(fqn: "oci.tenantmanagercontrolplaneSubscriptionMapping.TenantmanagercontrolplaneSubscriptionMappingConfig")]
     public class TenantmanagercontrolplaneSubscriptionMappingConfig : oci.TenantmanagercontrolplaneSubscriptionMapping.ITenantmanagercontrolplaneSubscriptionMappingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#compartment_id TenantmanagercontrolplaneSubscriptionMapping#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#compartment_id TenantmanagercontrolplaneSubscriptionMapping#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#subscription_id TenantmanagercontrolplaneSubscriptionMapping#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#subscription_id TenantmanagercontrolplaneSubscriptionMapping#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {
@@ -25,7 +25,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#id TenantmanagercontrolplaneSubscriptionMapping#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#id TenantmanagercontrolplaneSubscriptionMapping#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.TenantmanagercontrolplaneSubscriptionMapping
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#timeouts TenantmanagercontrolplaneSubscriptionMapping#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/tenantmanagercontrolplane_subscription_mapping#timeouts TenantmanagercontrolplaneSubscriptionMapping#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.tenantmanagercontrolplaneSubscriptionMapping.TenantmanagercontrolplaneSubscriptionMappingTimeouts\"}", isOptional: true)]

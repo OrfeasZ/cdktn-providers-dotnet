@@ -7,7 +7,7 @@ namespace oci.DataintegrationWorkspaceProject
     [JsiiInterface(nativeType: typeof(IDataintegrationWorkspaceProjectRegistryMetadata), fullyQualifiedName: "oci.dataintegrationWorkspaceProject.DataintegrationWorkspaceProjectRegistryMetadata")]
     public interface IDataintegrationWorkspaceProjectRegistryMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#aggregator_key DataintegrationWorkspaceProject#aggregator_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#aggregator_key DataintegrationWorkspaceProject#aggregator_key}.</summary>
         [JsiiProperty(name: "aggregatorKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AggregatorKey
@@ -18,7 +18,7 @@ namespace oci.DataintegrationWorkspaceProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#is_favorite DataintegrationWorkspaceProject#is_favorite}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#is_favorite DataintegrationWorkspaceProject#is_favorite}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace oci.DataintegrationWorkspaceProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Key
@@ -43,7 +43,7 @@ namespace oci.DataintegrationWorkspaceProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#labels DataintegrationWorkspaceProject#labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#labels DataintegrationWorkspaceProject#labels}.</summary>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Labels
@@ -54,7 +54,7 @@ namespace oci.DataintegrationWorkspaceProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#registry_version DataintegrationWorkspaceProject#registry_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#registry_version DataintegrationWorkspaceProject#registry_version}.</summary>
         [JsiiProperty(name: "registryVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RegistryVersion
@@ -72,7 +72,7 @@ namespace oci.DataintegrationWorkspaceProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#aggregator_key DataintegrationWorkspaceProject#aggregator_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#aggregator_key DataintegrationWorkspaceProject#aggregator_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "aggregatorKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AggregatorKey
@@ -80,7 +80,7 @@ namespace oci.DataintegrationWorkspaceProject
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#is_favorite DataintegrationWorkspaceProject#is_favorite}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#is_favorite DataintegrationWorkspaceProject#is_favorite}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -91,7 +91,7 @@ namespace oci.DataintegrationWorkspaceProject
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#key DataintegrationWorkspaceProject#key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Key
@@ -99,7 +99,7 @@ namespace oci.DataintegrationWorkspaceProject
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#labels DataintegrationWorkspaceProject#labels}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#labels DataintegrationWorkspaceProject#labels}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Labels
@@ -107,7 +107,7 @@ namespace oci.DataintegrationWorkspaceProject
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataintegration_workspace_project#registry_version DataintegrationWorkspaceProject#registry_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataintegration_workspace_project#registry_version DataintegrationWorkspaceProject#registry_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "registryVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RegistryVersion

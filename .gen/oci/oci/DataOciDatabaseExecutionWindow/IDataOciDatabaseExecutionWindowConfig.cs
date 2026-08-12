@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseExecutionWindow
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExecutionWindowConfig), fullyQualifiedName: "oci.dataOciDatabaseExecutionWindow.DataOciDatabaseExecutionWindowConfig")]
     public interface IDataOciDatabaseExecutionWindowConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_execution_window#execution_window_id DataOciDatabaseExecutionWindow#execution_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_execution_window#execution_window_id DataOciDatabaseExecutionWindow#execution_window_id}.</summary>
         [JsiiProperty(name: "executionWindowId", typeJson: "{\"primitive\":\"string\"}")]
         string ExecutionWindowId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseExecutionWindow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_execution_window#execution_window_id DataOciDatabaseExecutionWindow#execution_window_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_execution_window#execution_window_id DataOciDatabaseExecutionWindow#execution_window_id}.</summary>
             [JsiiProperty(name: "executionWindowId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExecutionWindowId
             {

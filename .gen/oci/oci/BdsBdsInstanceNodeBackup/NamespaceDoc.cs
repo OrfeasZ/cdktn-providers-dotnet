@@ -5,7 +5,7 @@ namespace oci.BdsBdsInstanceNodeBackup
     /// <remarks>
     /// <h1><c>oci_bds_bds_instance_node_backup</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_instance_node_backup"><c>oci_bds_bds_instance_node_backup</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_node_backup"><c>oci_bds_bds_instance_node_backup</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace oci.IotDigitalTwinModel
     [JsiiByValue(fqn: "oci.iotDigitalTwinModel.IotDigitalTwinModelTimeouts")]
     public class IotDigitalTwinModelTimeouts : oci.IotDigitalTwinModel.IIotDigitalTwinModelTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_model#create IotDigitalTwinModel#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_model#create IotDigitalTwinModel#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.IotDigitalTwinModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_model#delete IotDigitalTwinModel#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_model#delete IotDigitalTwinModel#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.IotDigitalTwinModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_model#update IotDigitalTwinModel#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_model#update IotDigitalTwinModel#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

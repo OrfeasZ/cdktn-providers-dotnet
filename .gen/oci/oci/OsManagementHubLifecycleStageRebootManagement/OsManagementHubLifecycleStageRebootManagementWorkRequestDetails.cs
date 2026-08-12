@@ -7,7 +7,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
     [JsiiByValue(fqn: "oci.osManagementHubLifecycleStageRebootManagement.OsManagementHubLifecycleStageRebootManagementWorkRequestDetails")]
     public class OsManagementHubLifecycleStageRebootManagementWorkRequestDetails : oci.OsManagementHubLifecycleStageRebootManagement.IOsManagementHubLifecycleStageRebootManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#description OsManagementHubLifecycleStageRebootManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#description OsManagementHubLifecycleStageRebootManagement#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubLifecycleStageRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#display_name OsManagementHubLifecycleStageRebootManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#display_name OsManagementHubLifecycleStageRebootManagement#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName

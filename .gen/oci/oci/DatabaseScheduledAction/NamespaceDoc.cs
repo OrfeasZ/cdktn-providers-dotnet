@@ -5,7 +5,7 @@ namespace oci.DatabaseScheduledAction
     /// <remarks>
     /// <h1><c>oci_database_scheduled_action</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_scheduled_action"><c>oci_database_scheduled_action</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_scheduled_action"><c>oci_database_scheduled_action</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

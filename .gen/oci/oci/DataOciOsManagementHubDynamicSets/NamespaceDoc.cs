@@ -5,7 +5,7 @@ namespace oci.DataOciOsManagementHubDynamicSets
     /// <remarks>
     /// <h1><c>data_oci_os_management_hub_dynamic_sets</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_dynamic_sets"><c>data_oci_os_management_hub_dynamic_sets</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_dynamic_sets"><c>data_oci_os_management_hub_dynamic_sets</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

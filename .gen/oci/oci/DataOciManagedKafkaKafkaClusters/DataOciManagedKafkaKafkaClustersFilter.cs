@@ -9,7 +9,7 @@ namespace oci.DataOciManagedKafkaKafkaClusters
     [JsiiByValue(fqn: "oci.dataOciManagedKafkaKafkaClusters.DataOciManagedKafkaKafkaClustersFilter")]
     public class DataOciManagedKafkaKafkaClustersFilter : oci.DataOciManagedKafkaKafkaClusters.IDataOciManagedKafkaKafkaClustersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/managed_kafka_kafka_clusters#name DataOciManagedKafkaKafkaClusters#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/managed_kafka_kafka_clusters#name DataOciManagedKafkaKafkaClusters#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagedKafkaKafkaClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/managed_kafka_kafka_clusters#values DataOciManagedKafkaKafkaClusters#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/managed_kafka_kafka_clusters#values DataOciManagedKafkaKafkaClusters#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciManagedKafkaKafkaClusters
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/managed_kafka_kafka_clusters#regex DataOciManagedKafkaKafkaClusters#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/managed_kafka_kafka_clusters#regex DataOciManagedKafkaKafkaClusters#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

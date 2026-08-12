@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabasesUserSystemPrivileges.DataOciDatabaseManagementManagedDatabasesUserSystemPrivilegesFilter")]
     public class DataOciDatabaseManagementManagedDatabasesUserSystemPrivilegesFilter : oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges.IDataOciDatabaseManagementManagedDatabasesUserSystemPrivilegesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_databases_user_system_privileges#name DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_databases_user_system_privileges#name DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_databases_user_system_privileges#values DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_databases_user_system_privileges#values DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_databases_user_system_privileges#regex DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_databases_user_system_privileges#regex DataOciDatabaseManagementManagedDatabasesUserSystemPrivileges#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

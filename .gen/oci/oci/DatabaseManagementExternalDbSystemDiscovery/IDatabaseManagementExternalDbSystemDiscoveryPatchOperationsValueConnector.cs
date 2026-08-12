@@ -7,21 +7,21 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
     [JsiiInterface(nativeType: typeof(IDatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnector), fullyQualifiedName: "oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnector")]
     public interface IDatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#connector_type DatabaseManagementExternalDbSystemDiscovery#connector_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#connector_type DatabaseManagementExternalDbSystemDiscovery#connector_type}.</summary>
         [JsiiProperty(name: "connectorType", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectorType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}.</summary>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AgentId
@@ -34,7 +34,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
 
         /// <summary>connection_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#connection_info DatabaseManagementExternalDbSystemDiscovery#connection_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#connection_info DatabaseManagementExternalDbSystemDiscovery#connection_info}
         /// </remarks>
         [JsiiProperty(name: "connectionInfo", typeJson: "{\"fqn\":\"oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,21 +53,21 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#connector_type DatabaseManagementExternalDbSystemDiscovery#connector_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#connector_type DatabaseManagementExternalDbSystemDiscovery#connector_type}.</summary>
             [JsiiProperty(name: "connectorType", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectorType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#display_name DatabaseManagementExternalDbSystemDiscovery#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#agent_id DatabaseManagementExternalDbSystemDiscovery#agent_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AgentId
@@ -77,7 +77,7 @@ namespace oci.DatabaseManagementExternalDbSystemDiscovery
 
             /// <summary>connection_info block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_external_db_system_discovery#connection_info DatabaseManagementExternalDbSystemDiscovery#connection_info}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_external_db_system_discovery#connection_info DatabaseManagementExternalDbSystemDiscovery#connection_info}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectionInfo", typeJson: "{\"fqn\":\"oci.databaseManagementExternalDbSystemDiscovery.DatabaseManagementExternalDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfo\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHome
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbHome.DataOciDatabaseManagementCloudDbHomeConfig")]
     public class DataOciDatabaseManagementCloudDbHomeConfig : oci.DataOciDatabaseManagementCloudDbHome.IDataOciDatabaseManagementCloudDbHomeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_db_home#cloud_db_home_id DataOciDatabaseManagementCloudDbHome#cloud_db_home_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_home#cloud_db_home_id DataOciDatabaseManagementCloudDbHome#cloud_db_home_id}.</summary>
         [JsiiProperty(name: "cloudDbHomeId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudDbHomeId
         {

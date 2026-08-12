@@ -9,7 +9,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
     [JsiiByValue(fqn: "oci.apiaccesscontrolPrivilegedApiControl.ApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct")]
     public class ApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct : oci.ApiaccesscontrolPrivilegedApiControl.IApiaccesscontrolPrivilegedApiControlApproverGroupLevelListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apiaccesscontrol_privileged_api_control#group_id ApiaccesscontrolPrivilegedApiControl#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apiaccesscontrol_privileged_api_control#group_id ApiaccesscontrolPrivilegedApiControl#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] GroupId
         {
@@ -17,7 +17,7 @@ namespace oci.ApiaccesscontrolPrivilegedApiControl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apiaccesscontrol_privileged_api_control#group_level ApiaccesscontrolPrivilegedApiControl#group_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apiaccesscontrol_privileged_api_control#group_level ApiaccesscontrolPrivilegedApiControl#group_level}.</summary>
         [JsiiProperty(name: "groupLevel", typeJson: "{\"primitive\":\"number\"}")]
         public double GroupLevel
         {

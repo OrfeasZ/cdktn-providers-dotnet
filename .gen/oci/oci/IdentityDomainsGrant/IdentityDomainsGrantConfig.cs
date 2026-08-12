@@ -11,7 +11,7 @@ namespace oci.IdentityDomainsGrant
     {
         /// <summary>grantee block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#grantee IdentityDomainsGrant#grantee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#grantee IdentityDomainsGrant#grantee}
         /// </remarks>
         [JsiiProperty(name: "grantee", typeJson: "{\"fqn\":\"oci.identityDomainsGrant.IdentityDomainsGrantGrantee\"}")]
         public oci.IdentityDomainsGrant.IIdentityDomainsGrantGrantee Grantee
@@ -20,7 +20,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#grant_mechanism IdentityDomainsGrant#grant_mechanism}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#grant_mechanism IdentityDomainsGrant#grant_mechanism}.</summary>
         [JsiiProperty(name: "grantMechanism", typeJson: "{\"primitive\":\"string\"}")]
         public string GrantMechanism
         {
@@ -28,7 +28,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#idcs_endpoint IdentityDomainsGrant#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#idcs_endpoint IdentityDomainsGrant#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -36,7 +36,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#schemas IdentityDomainsGrant#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#schemas IdentityDomainsGrant#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Schemas
         {
@@ -46,7 +46,7 @@ namespace oci.IdentityDomainsGrant
 
         /// <summary>app block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#app IdentityDomainsGrant#app}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#app IdentityDomainsGrant#app}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "app", typeJson: "{\"fqn\":\"oci.identityDomainsGrant.IdentityDomainsGrantApp\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace oci.IdentityDomainsGrant
 
         /// <summary>app_entitlement_collection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#app_entitlement_collection IdentityDomainsGrant#app_entitlement_collection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#app_entitlement_collection IdentityDomainsGrant#app_entitlement_collection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appEntitlementCollection", typeJson: "{\"fqn\":\"oci.identityDomainsGrant.IdentityDomainsGrantAppEntitlementCollection\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#attributes IdentityDomainsGrant#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#attributes IdentityDomainsGrant#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -77,7 +77,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#attribute_sets IdentityDomainsGrant#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#attribute_sets IdentityDomainsGrant#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -86,7 +86,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#authorization IdentityDomainsGrant#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#authorization IdentityDomainsGrant#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -97,7 +97,7 @@ namespace oci.IdentityDomainsGrant
 
         /// <summary>entitlement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#entitlement IdentityDomainsGrant#entitlement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#entitlement IdentityDomainsGrant#entitlement}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "entitlement", typeJson: "{\"fqn\":\"oci.identityDomainsGrant.IdentityDomainsGrantEntitlement\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#granted_attribute_values_json IdentityDomainsGrant#granted_attribute_values_json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#granted_attribute_values_json IdentityDomainsGrant#granted_attribute_values_json}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "grantedAttributeValuesJson", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GrantedAttributeValuesJson
@@ -116,7 +116,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#ocid IdentityDomainsGrant#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#ocid IdentityDomainsGrant#ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ocid
@@ -125,7 +125,7 @@ namespace oci.IdentityDomainsGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#resource_type_schema_version IdentityDomainsGrant#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#resource_type_schema_version IdentityDomainsGrant#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -138,7 +138,7 @@ namespace oci.IdentityDomainsGrant
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#tags IdentityDomainsGrant#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#tags IdentityDomainsGrant#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsGrant.IIdentityDomainsGrantTags" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -171,7 +171,7 @@ namespace oci.IdentityDomainsGrant
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_grant#timeouts IdentityDomainsGrant#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_grant#timeouts IdentityDomainsGrant#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsGrant.IdentityDomainsGrantTimeouts\"}", isOptional: true)]

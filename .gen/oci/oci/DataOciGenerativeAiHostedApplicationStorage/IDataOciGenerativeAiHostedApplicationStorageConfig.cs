@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorage
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiHostedApplicationStorageConfig), fullyQualifiedName: "oci.dataOciGenerativeAiHostedApplicationStorage.DataOciGenerativeAiHostedApplicationStorageConfig")]
     public interface IDataOciGenerativeAiHostedApplicationStorageConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_application_storage#hosted_application_storage_id DataOciGenerativeAiHostedApplicationStorage#hosted_application_storage_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storage#hosted_application_storage_id DataOciGenerativeAiHostedApplicationStorage#hosted_application_storage_id}.</summary>
         [JsiiProperty(name: "hostedApplicationStorageId", typeJson: "{\"primitive\":\"string\"}")]
         string HostedApplicationStorageId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_application_storage#hosted_application_storage_id DataOciGenerativeAiHostedApplicationStorage#hosted_application_storage_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storage#hosted_application_storage_id DataOciGenerativeAiHostedApplicationStorage#hosted_application_storage_id}.</summary>
             [JsiiProperty(name: "hostedApplicationStorageId", typeJson: "{\"primitive\":\"string\"}")]
             public string HostedApplicationStorageId
             {

@@ -5,7 +5,7 @@ namespace oci.DataOciLogAnalyticsNamespaceIngestTimeRule
     /// <remarks>
     /// <h1><c>data_oci_log_analytics_namespace_ingest_time_rule</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/log_analytics_namespace_ingest_time_rule"><c>data_oci_log_analytics_namespace_ingest_time_rule</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/log_analytics_namespace_ingest_time_rule"><c>data_oci_log_analytics_namespace_ingest_time_rule</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

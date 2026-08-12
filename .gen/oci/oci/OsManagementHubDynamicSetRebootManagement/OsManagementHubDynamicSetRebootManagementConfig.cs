@@ -9,7 +9,7 @@ namespace oci.OsManagementHubDynamicSetRebootManagement
     [JsiiByValue(fqn: "oci.osManagementHubDynamicSetRebootManagement.OsManagementHubDynamicSetRebootManagementConfig")]
     public class OsManagementHubDynamicSetRebootManagementConfig : oci.OsManagementHubDynamicSetRebootManagement.IOsManagementHubDynamicSetRebootManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_dynamic_set_reboot_management#dynamic_set_id OsManagementHubDynamicSetRebootManagement#dynamic_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_dynamic_set_reboot_management#dynamic_set_id OsManagementHubDynamicSetRebootManagement#dynamic_set_id}.</summary>
         [JsiiProperty(name: "dynamicSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string DynamicSetId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubDynamicSetRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_dynamic_set_reboot_management#id OsManagementHubDynamicSetRebootManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_dynamic_set_reboot_management#id OsManagementHubDynamicSetRebootManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.OsManagementHubDynamicSetRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_dynamic_set_reboot_management#managed_instances OsManagementHubDynamicSetRebootManagement#managed_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_dynamic_set_reboot_management#managed_instances OsManagementHubDynamicSetRebootManagement#managed_instances}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managedInstances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ManagedInstances
@@ -39,7 +39,7 @@ namespace oci.OsManagementHubDynamicSetRebootManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_dynamic_set_reboot_management#reboot_timeout_in_mins OsManagementHubDynamicSetRebootManagement#reboot_timeout_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_dynamic_set_reboot_management#reboot_timeout_in_mins OsManagementHubDynamicSetRebootManagement#reboot_timeout_in_mins}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rebootTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RebootTimeoutInMins
@@ -50,7 +50,7 @@ namespace oci.OsManagementHubDynamicSetRebootManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_dynamic_set_reboot_management#timeouts OsManagementHubDynamicSetRebootManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_dynamic_set_reboot_management#timeouts OsManagementHubDynamicSetRebootManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSetRebootManagement.OsManagementHubDynamicSetRebootManagementTimeouts\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.OsManagementHubDynamicSetRebootManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_dynamic_set_reboot_management#work_request_details OsManagementHubDynamicSetRebootManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_dynamic_set_reboot_management#work_request_details OsManagementHubDynamicSetRebootManagement#work_request_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSetRebootManagement.OsManagementHubDynamicSetRebootManagementWorkRequestDetails\"}", isOptional: true)]

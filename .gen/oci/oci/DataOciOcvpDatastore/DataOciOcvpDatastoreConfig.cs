@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpDatastore
     [JsiiByValue(fqn: "oci.dataOciOcvpDatastore.DataOciOcvpDatastoreConfig")]
     public class DataOciOcvpDatastoreConfig : oci.DataOciOcvpDatastore.IDataOciOcvpDatastoreConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore#datastore_id DataOciOcvpDatastore#datastore_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore#datastore_id DataOciOcvpDatastore#datastore_id}.</summary>
         [JsiiProperty(name: "datastoreId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatastoreId
         {

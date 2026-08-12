@@ -5,7 +5,7 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
     /// <remarks>
     /// <h1><c>oci_data_safe_unset_user_assessment_baseline_management</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_unset_user_assessment_baseline_management"><c>oci_data_safe_unset_user_assessment_baseline_management</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_unset_user_assessment_baseline_management"><c>oci_data_safe_unset_user_assessment_baseline_management</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.DatabaseMaintenanceRun
     [JsiiByValue(fqn: "oci.databaseMaintenanceRun.DatabaseMaintenanceRunConfig")]
     public class DatabaseMaintenanceRunConfig : oci.DatabaseMaintenanceRun.IDatabaseMaintenanceRunConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#patch_type DatabaseMaintenanceRun#patch_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#patch_type DatabaseMaintenanceRun#patch_type}.</summary>
         [JsiiProperty(name: "patchType", typeJson: "{\"primitive\":\"string\"}")]
         public string PatchType
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseMaintenanceRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#target_resource_id DatabaseMaintenanceRun#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#target_resource_id DatabaseMaintenanceRun#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetResourceId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseMaintenanceRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#time_scheduled DatabaseMaintenanceRun#time_scheduled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#time_scheduled DatabaseMaintenanceRun#time_scheduled}.</summary>
         [JsiiProperty(name: "timeScheduled", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeScheduled
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseMaintenanceRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#compartment_id DatabaseMaintenanceRun#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#compartment_id DatabaseMaintenanceRun#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -42,7 +42,7 @@ namespace oci.DatabaseMaintenanceRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#database_software_image_id DatabaseMaintenanceRun#database_software_image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#database_software_image_id DatabaseMaintenanceRun#database_software_image_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseSoftwareImageId
@@ -51,7 +51,7 @@ namespace oci.DatabaseMaintenanceRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#id DatabaseMaintenanceRun#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#id DatabaseMaintenanceRun#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DatabaseMaintenanceRun
 
         private object? _isDstFileUpdateEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#is_dst_file_update_enabled DatabaseMaintenanceRun#is_dst_file_update_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#is_dst_file_update_enabled DatabaseMaintenanceRun#is_dst_file_update_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -98,7 +98,7 @@ namespace oci.DatabaseMaintenanceRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#patching_mode DatabaseMaintenanceRun#patching_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#patching_mode DatabaseMaintenanceRun#patching_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patchingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatchingMode
@@ -109,7 +109,7 @@ namespace oci.DatabaseMaintenanceRun
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_maintenance_run#timeouts DatabaseMaintenanceRun#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_maintenance_run#timeouts DatabaseMaintenanceRun#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseMaintenanceRun.DatabaseMaintenanceRunTimeouts\"}", isOptional: true)]

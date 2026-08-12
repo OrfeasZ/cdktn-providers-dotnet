@@ -7,7 +7,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
     [JsiiInterface(nativeType: typeof(INetworkFirewallNetworkFirewallPolicyNatRuleConfig), fullyQualifiedName: "oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRuleConfig")]
     public interface INetworkFirewallNetworkFirewallPolicyNatRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#action NetworkFirewallNetworkFirewallPolicyNatRule#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#action NetworkFirewallNetworkFirewallPolicyNatRule#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
         {
@@ -16,7 +16,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
 
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#condition NetworkFirewallNetworkFirewallPolicyNatRule#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#condition NetworkFirewallNetworkFirewallPolicyNatRule#condition}
         /// </remarks>
         [JsiiProperty(name: "condition", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRuleCondition\"}")]
         oci.NetworkFirewallNetworkFirewallPolicyNatRule.INetworkFirewallNetworkFirewallPolicyNatRuleCondition Condition
@@ -24,28 +24,28 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#name NetworkFirewallNetworkFirewallPolicyNatRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#name NetworkFirewallNetworkFirewallPolicyNatRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkFirewallPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#type NetworkFirewallNetworkFirewallPolicyNatRule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#type NetworkFirewallNetworkFirewallPolicyNatRule#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#description NetworkFirewallNetworkFirewallPolicyNatRule#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#description NetworkFirewallNetworkFirewallPolicyNatRule#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -56,7 +56,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#id NetworkFirewallNetworkFirewallPolicyNatRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#id NetworkFirewallNetworkFirewallPolicyNatRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
 
         /// <summary>position block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#position NetworkFirewallNetworkFirewallPolicyNatRule#position}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#position NetworkFirewallNetworkFirewallPolicyNatRule#position}
         /// </remarks>
         [JsiiProperty(name: "position", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRulePosition\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#timeouts NetworkFirewallNetworkFirewallPolicyNatRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#timeouts NetworkFirewallNetworkFirewallPolicyNatRule#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRuleTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#action NetworkFirewallNetworkFirewallPolicyNatRule#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#action NetworkFirewallNetworkFirewallPolicyNatRule#action}.</summary>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
             {
@@ -115,7 +115,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
 
             /// <summary>condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#condition NetworkFirewallNetworkFirewallPolicyNatRule#condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#condition NetworkFirewallNetworkFirewallPolicyNatRule#condition}
             /// </remarks>
             [JsiiProperty(name: "condition", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRuleCondition\"}")]
             public oci.NetworkFirewallNetworkFirewallPolicyNatRule.INetworkFirewallNetworkFirewallPolicyNatRuleCondition Condition
@@ -123,28 +123,28 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
                 get => GetInstanceProperty<oci.NetworkFirewallNetworkFirewallPolicyNatRule.INetworkFirewallNetworkFirewallPolicyNatRuleCondition>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#name NetworkFirewallNetworkFirewallPolicyNatRule#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#name NetworkFirewallNetworkFirewallPolicyNatRule#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id NetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}.</summary>
             [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkFirewallPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#type NetworkFirewallNetworkFirewallPolicyNatRule#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#type NetworkFirewallNetworkFirewallPolicyNatRule#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#description NetworkFirewallNetworkFirewallPolicyNatRule#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#description NetworkFirewallNetworkFirewallPolicyNatRule#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -152,7 +152,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#id NetworkFirewallNetworkFirewallPolicyNatRule#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#id NetworkFirewallNetworkFirewallPolicyNatRule#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -166,7 +166,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
 
             /// <summary>position block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#position NetworkFirewallNetworkFirewallPolicyNatRule#position}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#position NetworkFirewallNetworkFirewallPolicyNatRule#position}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "position", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRulePosition\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace oci.NetworkFirewallNetworkFirewallPolicyNatRule
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#timeouts NetworkFirewallNetworkFirewallPolicyNatRule#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall_policy_nat_rule#timeouts NetworkFirewallNetworkFirewallPolicyNatRule#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.networkFirewallNetworkFirewallPolicyNatRule.NetworkFirewallNetworkFirewallPolicyNatRuleTimeouts\"}", isOptional: true)]

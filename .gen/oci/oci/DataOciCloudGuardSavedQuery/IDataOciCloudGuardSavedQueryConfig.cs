@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardSavedQuery
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardSavedQueryConfig), fullyQualifiedName: "oci.dataOciCloudGuardSavedQuery.DataOciCloudGuardSavedQueryConfig")]
     public interface IDataOciCloudGuardSavedQueryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_saved_query#saved_query_id DataOciCloudGuardSavedQuery#saved_query_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_saved_query#saved_query_id DataOciCloudGuardSavedQuery#saved_query_id}.</summary>
         [JsiiProperty(name: "savedQueryId", typeJson: "{\"primitive\":\"string\"}")]
         string SavedQueryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardSavedQuery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_saved_query#saved_query_id DataOciCloudGuardSavedQuery#saved_query_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_saved_query#saved_query_id DataOciCloudGuardSavedQuery#saved_query_id}.</summary>
             [JsiiProperty(name: "savedQueryId", typeJson: "{\"primitive\":\"string\"}")]
             public string SavedQueryId
             {

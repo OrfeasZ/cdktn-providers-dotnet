@@ -9,7 +9,7 @@ namespace oci.DataOciDataccVmInstance
     [JsiiByValue(fqn: "oci.dataOciDataccVmInstance.DataOciDataccVmInstanceConfig")]
     public class DataOciDataccVmInstanceConfig : oci.DataOciDataccVmInstance.IDataOciDataccVmInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacc_vm_instance#vm_instance_id DataOciDataccVmInstance#vm_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacc_vm_instance#vm_instance_id DataOciDataccVmInstance#vm_instance_id}.</summary>
         [JsiiProperty(name: "vmInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string VmInstanceId
         {

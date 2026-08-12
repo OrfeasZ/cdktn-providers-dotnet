@@ -7,7 +7,7 @@ namespace oci.DataOciIdentityDomain
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainConfig), fullyQualifiedName: "oci.dataOciIdentityDomain.DataOciIdentityDomainConfig")]
     public interface IDataOciIdentityDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domain#domain_id DataOciIdentityDomain#domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domain#domain_id DataOciIdentityDomain#domain_id}.</summary>
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
         string DomainId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIdentityDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domain#domain_id DataOciIdentityDomain#domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domain#domain_id DataOciIdentityDomain#domain_id}.</summary>
             [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainId
             {

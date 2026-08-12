@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiHostedApplicationStorages.DataOciGenerativeAiHostedApplicationStoragesFilter")]
     public class DataOciGenerativeAiHostedApplicationStoragesFilter : oci.DataOciGenerativeAiHostedApplicationStorages.IDataOciGenerativeAiHostedApplicationStoragesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_application_storages#name DataOciGenerativeAiHostedApplicationStorages#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#name DataOciGenerativeAiHostedApplicationStorages#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_application_storages#values DataOciGenerativeAiHostedApplicationStorages#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#values DataOciGenerativeAiHostedApplicationStorages#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_application_storages#regex DataOciGenerativeAiHostedApplicationStorages#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#regex DataOciGenerativeAiHostedApplicationStorages#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

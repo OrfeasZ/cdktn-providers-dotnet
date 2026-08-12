@@ -7,14 +7,14 @@ namespace oci.DataOciGoldenGateMessage
     [JsiiInterface(nativeType: typeof(IDataOciGoldenGateMessageConfig), fullyQualifiedName: "oci.dataOciGoldenGateMessage.DataOciGoldenGateMessageConfig")]
     public interface IDataOciGoldenGateMessageConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_message#deployment_id DataOciGoldenGateMessage#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_message#deployment_id DataOciGoldenGateMessage#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         string DeploymentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_message#id DataOciGoldenGateMessage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_message#id DataOciGoldenGateMessage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciGoldenGateMessage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_message#deployment_id DataOciGoldenGateMessage#deployment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_message#deployment_id DataOciGoldenGateMessage#deployment_id}.</summary>
             [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeploymentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_message#id DataOciGoldenGateMessage#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_message#id DataOciGoldenGateMessage#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

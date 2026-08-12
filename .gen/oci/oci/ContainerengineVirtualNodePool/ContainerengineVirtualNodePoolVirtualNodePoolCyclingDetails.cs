@@ -9,7 +9,7 @@ namespace oci.ContainerengineVirtualNodePool
     {
         private object? _isVirtualNodeCyclingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_virtual_node_pool#is_virtual_node_cycling_enabled ContainerengineVirtualNodePool#is_virtual_node_cycling_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_virtual_node_pool#is_virtual_node_cycling_enabled ContainerengineVirtualNodePool#is_virtual_node_cycling_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.ContainerengineVirtualNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_virtual_node_pool#maximum_surge ContainerengineVirtualNodePool#maximum_surge}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_virtual_node_pool#maximum_surge ContainerengineVirtualNodePool#maximum_surge}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumSurge", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaximumSurge
@@ -50,7 +50,7 @@ namespace oci.ContainerengineVirtualNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_virtual_node_pool#maximum_unavailable ContainerengineVirtualNodePool#maximum_unavailable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_virtual_node_pool#maximum_unavailable ContainerengineVirtualNodePool#maximum_unavailable}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumUnavailable", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaximumUnavailable

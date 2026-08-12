@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseSqlPlanBaselineConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseSqlPlanBaseline.DataOciDatabaseManagementManagedDatabaseSqlPlanBaselineConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseSqlPlanBaselineConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#plan_name DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#plan_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#plan_name DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#plan_name}.</summary>
         [JsiiProperty(name: "planName", typeJson: "{\"primitive\":\"string\"}")]
         string PlanName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#opc_named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#opc_named_credential_id}.</summary>
         [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OpcNamedCredentialId
@@ -54,21 +54,21 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#plan_name DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#plan_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#plan_name DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#plan_name}.</summary>
             [JsiiProperty(name: "planName", typeJson: "{\"primitive\":\"string\"}")]
             public string PlanName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#opc_named_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_plan_baseline#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlPlanBaseline#opc_named_credential_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OpcNamedCredentialId

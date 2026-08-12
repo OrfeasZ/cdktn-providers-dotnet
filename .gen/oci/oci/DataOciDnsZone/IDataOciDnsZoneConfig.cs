@@ -7,14 +7,14 @@ namespace oci.DataOciDnsZone
     [JsiiInterface(nativeType: typeof(IDataOciDnsZoneConfig), fullyQualifiedName: "oci.dataOciDnsZone.DataOciDnsZoneConfig")]
     public interface IDataOciDnsZoneConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#zone_name_or_id DataOciDnsZone#zone_name_or_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#zone_name_or_id DataOciDnsZone#zone_name_or_id}.</summary>
         [JsiiProperty(name: "zoneNameOrId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneNameOrId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#compartment_id DataOciDnsZone#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#compartment_id DataOciDnsZone#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciDnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#scope DataOciDnsZone#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#scope DataOciDnsZone#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Scope
@@ -36,7 +36,7 @@ namespace oci.DataOciDnsZone
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#view_id DataOciDnsZone#view_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#view_id DataOciDnsZone#view_id}.</summary>
         [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ViewId
@@ -54,14 +54,14 @@ namespace oci.DataOciDnsZone
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#zone_name_or_id DataOciDnsZone#zone_name_or_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#zone_name_or_id DataOciDnsZone#zone_name_or_id}.</summary>
             [JsiiProperty(name: "zoneNameOrId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneNameOrId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#compartment_id DataOciDnsZone#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#compartment_id DataOciDnsZone#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -69,7 +69,7 @@ namespace oci.DataOciDnsZone
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#scope DataOciDnsZone#scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#scope DataOciDnsZone#scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Scope
@@ -77,7 +77,7 @@ namespace oci.DataOciDnsZone
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_zone#view_id DataOciDnsZone#view_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_zone#view_id DataOciDnsZone#view_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ViewId

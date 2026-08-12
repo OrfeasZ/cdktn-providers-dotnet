@@ -7,7 +7,7 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiInterface(nativeType: typeof(IContainerInstancesContainerInstanceVolumesSecurity), fullyQualifiedName: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceVolumesSecurity")]
     public interface IContainerInstancesContainerInstanceVolumesSecurity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/container_instances_container_instance#auth ContainerInstancesContainerInstance#auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/container_instances_container_instance#auth ContainerInstancesContainerInstance#auth}.</summary>
         [JsiiProperty(name: "auth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Auth
@@ -18,7 +18,7 @@ namespace oci.ContainerInstancesContainerInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/container_instances_container_instance#is_encrypted_in_transit ContainerInstancesContainerInstance#is_encrypted_in_transit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/container_instances_container_instance#is_encrypted_in_transit ContainerInstancesContainerInstance#is_encrypted_in_transit}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace oci.ContainerInstancesContainerInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/container_instances_container_instance#auth ContainerInstancesContainerInstance#auth}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/container_instances_container_instance#auth ContainerInstancesContainerInstance#auth}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "auth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Auth
@@ -47,7 +47,7 @@ namespace oci.ContainerInstancesContainerInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/container_instances_container_instance#is_encrypted_in_transit ContainerInstancesContainerInstance#is_encrypted_in_transit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/container_instances_container_instance#is_encrypted_in_transit ContainerInstancesContainerInstance#is_encrypted_in_transit}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

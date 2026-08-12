@@ -9,7 +9,7 @@ namespace oci.MysqlChannel
     [JsiiByValue(fqn: "oci.mysqlChannel.MysqlChannelSourceAnonymousTransactionsHandling")]
     public class MysqlChannelSourceAnonymousTransactionsHandling : oci.MysqlChannel.IMysqlChannelSourceAnonymousTransactionsHandling
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_channel#policy MysqlChannel#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#policy MysqlChannel#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         public string Policy
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lastConfiguredLogFilename", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LastConfiguredLogFilename
@@ -26,7 +26,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lastConfiguredLogOffset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LastConfiguredLogOffset
@@ -35,7 +35,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Uuid

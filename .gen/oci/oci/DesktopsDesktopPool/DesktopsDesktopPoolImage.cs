@@ -9,7 +9,7 @@ namespace oci.DesktopsDesktopPool
     [JsiiByValue(fqn: "oci.desktopsDesktopPool.DesktopsDesktopPoolImage")]
     public class DesktopsDesktopPoolImage : oci.DesktopsDesktopPool.IDesktopsDesktopPoolImage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/desktops_desktop_pool#image_id DesktopsDesktopPool#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/desktops_desktop_pool#image_id DesktopsDesktopPool#image_id}.</summary>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageId
         {
@@ -17,7 +17,7 @@ namespace oci.DesktopsDesktopPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/desktops_desktop_pool#image_name DesktopsDesktopPool#image_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/desktops_desktop_pool#image_name DesktopsDesktopPool#image_name}.</summary>
         [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageName
         {
@@ -25,7 +25,7 @@ namespace oci.DesktopsDesktopPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/desktops_desktop_pool#operating_system DesktopsDesktopPool#operating_system}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/desktops_desktop_pool#operating_system DesktopsDesktopPool#operating_system}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "operatingSystem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OperatingSystem

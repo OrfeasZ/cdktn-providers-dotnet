@@ -7,14 +7,14 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementCompliancePolicyRuleProductVersion), fullyQualifiedName: "oci.fleetAppsManagementCompliancePolicyRule.FleetAppsManagementCompliancePolicyRuleProductVersion")]
     public interface IFleetAppsManagementCompliancePolicyRuleProductVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#version FleetAppsManagementCompliancePolicyRule#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_compliance_policy_rule#version FleetAppsManagementCompliancePolicyRule#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         string Version
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#is_applicable_for_all_higher_versions FleetAppsManagementCompliancePolicyRule#is_applicable_for_all_higher_versions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_compliance_policy_rule#is_applicable_for_all_higher_versions FleetAppsManagementCompliancePolicyRule#is_applicable_for_all_higher_versions}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,14 +35,14 @@ namespace oci.FleetAppsManagementCompliancePolicyRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#version FleetAppsManagementCompliancePolicyRule#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_compliance_policy_rule#version FleetAppsManagementCompliancePolicyRule#version}.</summary>
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
             public string Version
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_compliance_policy_rule#is_applicable_for_all_higher_versions FleetAppsManagementCompliancePolicyRule#is_applicable_for_all_higher_versions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_compliance_policy_rule#is_applicable_for_all_higher_versions FleetAppsManagementCompliancePolicyRule#is_applicable_for_all_higher_versions}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

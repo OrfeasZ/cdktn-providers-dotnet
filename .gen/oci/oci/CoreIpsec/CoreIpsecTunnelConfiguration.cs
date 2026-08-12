@@ -7,7 +7,7 @@ namespace oci.CoreIpsec
     [JsiiByValue(fqn: "oci.coreIpsec.CoreIpsecTunnelConfiguration")]
     public class CoreIpsecTunnelConfiguration : oci.CoreIpsec.ICoreIpsecTunnelConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_ipsec#associated_virtual_circuits CoreIpsec#associated_virtual_circuits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_ipsec#associated_virtual_circuits CoreIpsec#associated_virtual_circuits}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "associatedVirtualCircuits", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AssociatedVirtualCircuits
@@ -16,7 +16,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_ipsec#drg_route_table_id CoreIpsec#drg_route_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_ipsec#drg_route_table_id CoreIpsec#drg_route_table_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "drgRouteTableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DrgRouteTableId
@@ -25,7 +25,7 @@ namespace oci.CoreIpsec
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_ipsec#oracle_tunnel_ip CoreIpsec#oracle_tunnel_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_ipsec#oracle_tunnel_ip CoreIpsec#oracle_tunnel_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oracleTunnelIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OracleTunnelIp

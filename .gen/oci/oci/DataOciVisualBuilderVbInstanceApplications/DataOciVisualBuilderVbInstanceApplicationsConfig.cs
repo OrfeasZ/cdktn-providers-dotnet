@@ -9,7 +9,7 @@ namespace oci.DataOciVisualBuilderVbInstanceApplications
     [JsiiByValue(fqn: "oci.dataOciVisualBuilderVbInstanceApplications.DataOciVisualBuilderVbInstanceApplicationsConfig")]
     public class DataOciVisualBuilderVbInstanceApplicationsConfig : oci.DataOciVisualBuilderVbInstanceApplications.IDataOciVisualBuilderVbInstanceApplicationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/visual_builder_vb_instance_applications#vb_instance_id DataOciVisualBuilderVbInstanceApplications#vb_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/visual_builder_vb_instance_applications#vb_instance_id DataOciVisualBuilderVbInstanceApplications#vb_instance_id}.</summary>
         [JsiiProperty(name: "vbInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string VbInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciVisualBuilderVbInstanceApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/visual_builder_vb_instance_applications#id DataOciVisualBuilderVbInstanceApplications#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/visual_builder_vb_instance_applications#id DataOciVisualBuilderVbInstanceApplications#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.DataOciVisualBuilderVbInstanceApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/visual_builder_vb_instance_applications#idcs_open_id DataOciVisualBuilderVbInstanceApplications#idcs_open_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/visual_builder_vb_instance_applications#idcs_open_id DataOciVisualBuilderVbInstanceApplications#idcs_open_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idcsOpenId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdcsOpenId

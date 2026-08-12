@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveType
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveType.DataOciDataSafeSensitiveTypeConfig")]
     public class DataOciDataSafeSensitiveTypeConfig : oci.DataOciDataSafeSensitiveType.IDataOciDataSafeSensitiveTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_sensitive_type#sensitive_type_id DataOciDataSafeSensitiveType#sensitive_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_sensitive_type#sensitive_type_id DataOciDataSafeSensitiveType#sensitive_type_id}.</summary>
         [JsiiProperty(name: "sensitiveTypeId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveTypeId
         {

@@ -7,7 +7,7 @@ namespace oci.LoggingUnifiedAgentConfiguration
     [JsiiByValue(fqn: "oci.loggingUnifiedAgentConfiguration.LoggingUnifiedAgentConfigurationGroupAssociation")]
     public class LoggingUnifiedAgentConfigurationGroupAssociation : oci.LoggingUnifiedAgentConfiguration.ILoggingUnifiedAgentConfigurationGroupAssociation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/logging_unified_agent_configuration#group_list LoggingUnifiedAgentConfiguration#group_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/logging_unified_agent_configuration#group_list LoggingUnifiedAgentConfiguration#group_list}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? GroupList

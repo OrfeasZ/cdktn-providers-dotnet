@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsWlsDomains
     [JsiiByValue(fqn: "oci.dataOciWlmsWlsDomains.DataOciWlmsWlsDomainsFilter")]
     public class DataOciWlmsWlsDomainsFilter : oci.DataOciWlmsWlsDomains.IDataOciWlmsWlsDomainsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domains#name DataOciWlmsWlsDomains#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domains#name DataOciWlmsWlsDomains#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWlmsWlsDomains
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domains#values DataOciWlmsWlsDomains#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domains#values DataOciWlmsWlsDomains#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciWlmsWlsDomains
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domains#regex DataOciWlmsWlsDomains#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domains#regex DataOciWlmsWlsDomains#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

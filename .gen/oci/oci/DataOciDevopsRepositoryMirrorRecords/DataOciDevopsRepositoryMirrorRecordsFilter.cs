@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsRepositoryMirrorRecords
     [JsiiByValue(fqn: "oci.dataOciDevopsRepositoryMirrorRecords.DataOciDevopsRepositoryMirrorRecordsFilter")]
     public class DataOciDevopsRepositoryMirrorRecordsFilter : oci.DataOciDevopsRepositoryMirrorRecords.IDataOciDevopsRepositoryMirrorRecordsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_mirror_records#name DataOciDevopsRepositoryMirrorRecords#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_mirror_records#name DataOciDevopsRepositoryMirrorRecords#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDevopsRepositoryMirrorRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_mirror_records#values DataOciDevopsRepositoryMirrorRecords#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_mirror_records#values DataOciDevopsRepositoryMirrorRecords#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDevopsRepositoryMirrorRecords
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/devops_repository_mirror_records#regex DataOciDevopsRepositoryMirrorRecords#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_mirror_records#regex DataOciDevopsRepositoryMirrorRecords#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

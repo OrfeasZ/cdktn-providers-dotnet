@@ -9,7 +9,7 @@ namespace oci.DataOciStreamingConnectHarness
     [JsiiByValue(fqn: "oci.dataOciStreamingConnectHarness.DataOciStreamingConnectHarnessConfig")]
     public class DataOciStreamingConnectHarnessConfig : oci.DataOciStreamingConnectHarness.IDataOciStreamingConnectHarnessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/streaming_connect_harness#connect_harness_id DataOciStreamingConnectHarness#connect_harness_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/streaming_connect_harness#connect_harness_id DataOciStreamingConnectHarness#connect_harness_id}.</summary>
         [JsiiProperty(name: "connectHarnessId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectHarnessId
         {

@@ -7,14 +7,14 @@ namespace oci.CoreDedicatedVmHost
     [JsiiInterface(nativeType: typeof(ICoreDedicatedVmHostPlacementConstraintDetails), fullyQualifiedName: "oci.coreDedicatedVmHost.CoreDedicatedVmHostPlacementConstraintDetails")]
     public interface ICoreDedicatedVmHostPlacementConstraintDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_dedicated_vm_host#type CoreDedicatedVmHost#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_dedicated_vm_host#type CoreDedicatedVmHost#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_dedicated_vm_host#compute_bare_metal_host_id CoreDedicatedVmHost#compute_bare_metal_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_dedicated_vm_host#compute_bare_metal_host_id CoreDedicatedVmHost#compute_bare_metal_host_id}.</summary>
         [JsiiProperty(name: "computeBareMetalHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeBareMetalHostId
@@ -32,14 +32,14 @@ namespace oci.CoreDedicatedVmHost
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_dedicated_vm_host#type CoreDedicatedVmHost#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_dedicated_vm_host#type CoreDedicatedVmHost#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_dedicated_vm_host#compute_bare_metal_host_id CoreDedicatedVmHost#compute_bare_metal_host_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_dedicated_vm_host#compute_bare_metal_host_id CoreDedicatedVmHost#compute_bare_metal_host_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeBareMetalHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeBareMetalHostId

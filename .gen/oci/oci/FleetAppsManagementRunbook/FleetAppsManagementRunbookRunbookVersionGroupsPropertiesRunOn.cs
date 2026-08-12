@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementRunbook
     [JsiiByValue(fqn: "oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionGroupsPropertiesRunOn")]
     public class FleetAppsManagementRunbookRunbookVersionGroupsPropertiesRunOn : oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionGroupsPropertiesRunOn
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#kind FleetAppsManagementRunbook#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#kind FleetAppsManagementRunbook#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -17,7 +17,7 @@ namespace oci.FleetAppsManagementRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#condition FleetAppsManagementRunbook#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#condition FleetAppsManagementRunbook#condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Condition
@@ -26,7 +26,7 @@ namespace oci.FleetAppsManagementRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#host FleetAppsManagementRunbook#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#host FleetAppsManagementRunbook#host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Host
@@ -39,7 +39,7 @@ namespace oci.FleetAppsManagementRunbook
 
         /// <summary>previous_task_instance_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#previous_task_instance_details FleetAppsManagementRunbook#previous_task_instance_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#previous_task_instance_details FleetAppsManagementRunbook#previous_task_instance_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionGroupsPropertiesRunOnPreviousTaskInstanceDetails" />)[]</para>
         /// </remarks>
         [JsiiOptional]

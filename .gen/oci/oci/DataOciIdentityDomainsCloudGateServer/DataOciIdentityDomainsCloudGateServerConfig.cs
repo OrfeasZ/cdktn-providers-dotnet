@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsCloudGateServer
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsCloudGateServer.DataOciIdentityDomainsCloudGateServerConfig")]
     public class DataOciIdentityDomainsCloudGateServerConfig : oci.DataOciIdentityDomainsCloudGateServer.IDataOciIdentityDomainsCloudGateServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_cloud_gate_server#cloud_gate_server_id DataOciIdentityDomainsCloudGateServer#cloud_gate_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_cloud_gate_server#cloud_gate_server_id DataOciIdentityDomainsCloudGateServer#cloud_gate_server_id}.</summary>
         [JsiiProperty(name: "cloudGateServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudGateServerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsCloudGateServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_cloud_gate_server#idcs_endpoint DataOciIdentityDomainsCloudGateServer#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_cloud_gate_server#idcs_endpoint DataOciIdentityDomainsCloudGateServer#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsCloudGateServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_cloud_gate_server#attributes DataOciIdentityDomainsCloudGateServer#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_cloud_gate_server#attributes DataOciIdentityDomainsCloudGateServer#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsCloudGateServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_cloud_gate_server#attribute_sets DataOciIdentityDomainsCloudGateServer#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_cloud_gate_server#attribute_sets DataOciIdentityDomainsCloudGateServer#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsCloudGateServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_cloud_gate_server#authorization DataOciIdentityDomainsCloudGateServer#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_cloud_gate_server#authorization DataOciIdentityDomainsCloudGateServer#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsCloudGateServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_cloud_gate_server#resource_type_schema_version DataOciIdentityDomainsCloudGateServer#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_cloud_gate_server#resource_type_schema_version DataOciIdentityDomainsCloudGateServer#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureBlobMount
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAzureBlobMount.DataOciDbmulticloudOracleDbAzureBlobMountConfig")]
     public class DataOciDbmulticloudOracleDbAzureBlobMountConfig : oci.DataOciDbmulticloudOracleDbAzureBlobMount.IDataOciDbmulticloudOracleDbAzureBlobMountConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_mount_id DataOciDbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_mount_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_azure_blob_mount#oracle_db_azure_blob_mount_id DataOciDbmulticloudOracleDbAzureBlobMount#oracle_db_azure_blob_mount_id}.</summary>
         [JsiiProperty(name: "oracleDbAzureBlobMountId", typeJson: "{\"primitive\":\"string\"}")]
         public string OracleDbAzureBlobMountId
         {

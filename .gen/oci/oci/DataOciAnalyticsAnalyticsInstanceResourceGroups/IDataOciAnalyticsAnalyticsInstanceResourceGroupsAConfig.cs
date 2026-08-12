@@ -7,7 +7,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
     [JsiiInterface(nativeType: typeof(IDataOciAnalyticsAnalyticsInstanceResourceGroupsAConfig), fullyQualifiedName: "oci.dataOciAnalyticsAnalyticsInstanceResourceGroups.DataOciAnalyticsAnalyticsInstanceResourceGroupsAConfig")]
     public interface IDataOciAnalyticsAnalyticsInstanceResourceGroupsAConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#analytics_instance_id}.</summary>
         [JsiiProperty(name: "analyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string AnalyticsInstanceId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#filter DataOciAnalyticsAnalyticsInstanceResourceGroupsA#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#filter DataOciAnalyticsAnalyticsInstanceResourceGroupsA#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAnalyticsAnalyticsInstanceResourceGroups.IDataOciAnalyticsAnalyticsInstanceResourceGroupsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciAnalyticsAnalyticsInstanceResourceGroups.DataOciAnalyticsAnalyticsInstanceResourceGroupsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#name DataOciAnalyticsAnalyticsInstanceResourceGroupsA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#name DataOciAnalyticsAnalyticsInstanceResourceGroupsA#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -62,7 +62,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#analytics_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#analytics_instance_id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#analytics_instance_id}.</summary>
             [JsiiProperty(name: "analyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string AnalyticsInstanceId
             {
@@ -71,7 +71,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#filter DataOciAnalyticsAnalyticsInstanceResourceGroupsA#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#filter DataOciAnalyticsAnalyticsInstanceResourceGroupsA#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciAnalyticsAnalyticsInstanceResourceGroups.IDataOciAnalyticsAnalyticsInstanceResourceGroupsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -81,7 +81,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#id DataOciAnalyticsAnalyticsInstanceResourceGroupsA#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +93,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/analytics_analytics_instance_resource_groups#name DataOciAnalyticsAnalyticsInstanceResourceGroupsA#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_resource_groups#name DataOciAnalyticsAnalyticsInstanceResourceGroupsA#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

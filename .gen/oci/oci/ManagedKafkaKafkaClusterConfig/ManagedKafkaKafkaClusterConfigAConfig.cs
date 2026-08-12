@@ -9,7 +9,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
     [JsiiByValue(fqn: "oci.managedKafkaKafkaClusterConfig.ManagedKafkaKafkaClusterConfigAConfig")]
     public class ManagedKafkaKafkaClusterConfigAConfig : oci.ManagedKafkaKafkaClusterConfig.IManagedKafkaKafkaClusterConfigAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#compartment_id ManagedKafkaKafkaClusterConfigA#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#compartment_id ManagedKafkaKafkaClusterConfigA#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
 
         /// <summary>latest_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#latest_config ManagedKafkaKafkaClusterConfigA#latest_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#latest_config ManagedKafkaKafkaClusterConfigA#latest_config}
         /// </remarks>
         [JsiiProperty(name: "latestConfig", typeJson: "{\"fqn\":\"oci.managedKafkaKafkaClusterConfig.ManagedKafkaKafkaClusterConfigLatestConfig\"}")]
         public oci.ManagedKafkaKafkaClusterConfig.IManagedKafkaKafkaClusterConfigLatestConfig LatestConfig
@@ -28,7 +28,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#defined_tags ManagedKafkaKafkaClusterConfigA#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#defined_tags ManagedKafkaKafkaClusterConfigA#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -37,7 +37,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#display_name ManagedKafkaKafkaClusterConfigA#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#display_name ManagedKafkaKafkaClusterConfigA#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -46,7 +46,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#freeform_tags ManagedKafkaKafkaClusterConfigA#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#freeform_tags ManagedKafkaKafkaClusterConfigA#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -55,7 +55,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#id ManagedKafkaKafkaClusterConfigA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#id ManagedKafkaKafkaClusterConfigA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster_config#timeouts ManagedKafkaKafkaClusterConfigA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#timeouts ManagedKafkaKafkaClusterConfigA#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.managedKafkaKafkaClusterConfig.ManagedKafkaKafkaClusterConfigTimeouts\"}", isOptional: true)]

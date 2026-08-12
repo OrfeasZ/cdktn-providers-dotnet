@@ -7,28 +7,28 @@ namespace oci.ContainerengineClusterWorkloadMapping
     [JsiiInterface(nativeType: typeof(IContainerengineClusterWorkloadMappingConfig), fullyQualifiedName: "oci.containerengineClusterWorkloadMapping.ContainerengineClusterWorkloadMappingConfig")]
     public interface IContainerengineClusterWorkloadMappingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#cluster_id ContainerengineClusterWorkloadMapping#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#cluster_id ContainerengineClusterWorkloadMapping#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#mapped_compartment_id ContainerengineClusterWorkloadMapping#mapped_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#mapped_compartment_id ContainerengineClusterWorkloadMapping#mapped_compartment_id}.</summary>
         [JsiiProperty(name: "mappedCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string MappedCompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#namespace ContainerengineClusterWorkloadMapping#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#namespace ContainerengineClusterWorkloadMapping#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#defined_tags ContainerengineClusterWorkloadMapping#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#defined_tags ContainerengineClusterWorkloadMapping#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -39,7 +39,7 @@ namespace oci.ContainerengineClusterWorkloadMapping
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#freeform_tags ContainerengineClusterWorkloadMapping#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#freeform_tags ContainerengineClusterWorkloadMapping#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -50,7 +50,7 @@ namespace oci.ContainerengineClusterWorkloadMapping
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#id ContainerengineClusterWorkloadMapping#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#id ContainerengineClusterWorkloadMapping#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,7 +67,7 @@ namespace oci.ContainerengineClusterWorkloadMapping
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#timeouts ContainerengineClusterWorkloadMapping#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#timeouts ContainerengineClusterWorkloadMapping#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.containerengineClusterWorkloadMapping.ContainerengineClusterWorkloadMappingTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,28 +86,28 @@ namespace oci.ContainerengineClusterWorkloadMapping
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#cluster_id ContainerengineClusterWorkloadMapping#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#cluster_id ContainerengineClusterWorkloadMapping#cluster_id}.</summary>
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#mapped_compartment_id ContainerengineClusterWorkloadMapping#mapped_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#mapped_compartment_id ContainerengineClusterWorkloadMapping#mapped_compartment_id}.</summary>
             [JsiiProperty(name: "mappedCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string MappedCompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#namespace ContainerengineClusterWorkloadMapping#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#namespace ContainerengineClusterWorkloadMapping#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#defined_tags ContainerengineClusterWorkloadMapping#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#defined_tags ContainerengineClusterWorkloadMapping#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -115,7 +115,7 @@ namespace oci.ContainerengineClusterWorkloadMapping
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#freeform_tags ContainerengineClusterWorkloadMapping#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#freeform_tags ContainerengineClusterWorkloadMapping#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -123,7 +123,7 @@ namespace oci.ContainerengineClusterWorkloadMapping
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#id ContainerengineClusterWorkloadMapping#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#id ContainerengineClusterWorkloadMapping#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ namespace oci.ContainerengineClusterWorkloadMapping
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_workload_mapping#timeouts ContainerengineClusterWorkloadMapping#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_workload_mapping#timeouts ContainerengineClusterWorkloadMapping#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.containerengineClusterWorkloadMapping.ContainerengineClusterWorkloadMappingTimeouts\"}", isOptional: true)]

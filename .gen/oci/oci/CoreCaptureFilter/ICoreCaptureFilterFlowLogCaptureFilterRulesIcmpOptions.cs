@@ -7,14 +7,14 @@ namespace oci.CoreCaptureFilter
     [JsiiInterface(nativeType: typeof(ICoreCaptureFilterFlowLogCaptureFilterRulesIcmpOptions), fullyQualifiedName: "oci.coreCaptureFilter.CoreCaptureFilterFlowLogCaptureFilterRulesIcmpOptions")]
     public interface ICoreCaptureFilterFlowLogCaptureFilterRulesIcmpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
         double Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}.</summary>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Code
@@ -32,14 +32,14 @@ namespace oci.CoreCaptureFilter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
             public double Type
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Code

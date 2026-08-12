@@ -7,14 +7,14 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
     [JsiiInterface(nativeType: typeof(IDatabaseManagementCloudExadataInfrastructureManagedexadataManagementConfig), fullyQualifiedName: "oci.databaseManagementCloudExadataInfrastructureManagedexadataManagement.DatabaseManagementCloudExadataInfrastructureManagedexadataManagementConfig")]
     public interface IDatabaseManagementCloudExadataInfrastructureManagedexadataManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#cloud_exadata_infrastructure_id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#cloud_exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#cloud_exadata_infrastructure_id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#cloud_exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "cloudExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudExadataInfrastructureId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#enable_managedexadata DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#enable_managedexadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#enable_managedexadata DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#enable_managedexadata}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#license_model DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#license_model DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#license_model}.</summary>
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicenseModel
@@ -52,7 +52,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#timeouts DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#timeouts DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudExadataInfrastructureManagedexadataManagement.DatabaseManagementCloudExadataInfrastructureManagedexadataManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,14 +71,14 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#cloud_exadata_infrastructure_id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#cloud_exadata_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#cloud_exadata_infrastructure_id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#cloud_exadata_infrastructure_id}.</summary>
             [JsiiProperty(name: "cloudExadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudExadataInfrastructureId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#enable_managedexadata DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#enable_managedexadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#enable_managedexadata DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#enable_managedexadata}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -88,7 +88,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#id DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,7 +100,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#license_model DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#license_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#license_model DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#license_model}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicenseModel
@@ -110,7 +110,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#timeouts DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#timeouts DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudExadataInfrastructureManagedexadataManagement.DatabaseManagementCloudExadataInfrastructureManagedexadataManagementTimeouts\"}", isOptional: true)]

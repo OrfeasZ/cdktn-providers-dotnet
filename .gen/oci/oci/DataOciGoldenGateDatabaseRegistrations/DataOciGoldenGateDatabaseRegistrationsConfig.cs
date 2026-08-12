@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
     [JsiiByValue(fqn: "oci.dataOciGoldenGateDatabaseRegistrations.DataOciGoldenGateDatabaseRegistrationsConfig")]
     public class DataOciGoldenGateDatabaseRegistrationsConfig : oci.DataOciGoldenGateDatabaseRegistrations.IDataOciGoldenGateDatabaseRegistrationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_database_registrations#compartment_id DataOciGoldenGateDatabaseRegistrations#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_database_registrations#compartment_id DataOciGoldenGateDatabaseRegistrations#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_database_registrations#display_name DataOciGoldenGateDatabaseRegistrations#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_database_registrations#display_name DataOciGoldenGateDatabaseRegistrations#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_database_registrations#filter DataOciGoldenGateDatabaseRegistrations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_database_registrations#filter DataOciGoldenGateDatabaseRegistrations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateDatabaseRegistrations.IDataOciGoldenGateDatabaseRegistrationsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_database_registrations#id DataOciGoldenGateDatabaseRegistrations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_database_registrations#id DataOciGoldenGateDatabaseRegistrations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_database_registrations#state DataOciGoldenGateDatabaseRegistrations#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_database_registrations#state DataOciGoldenGateDatabaseRegistrations#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

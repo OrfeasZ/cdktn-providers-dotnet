@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages.DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackagesFilter")]
     public class DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackagesFilter : oci.DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages.IDataOciOsManagementHubSoftwareSourceAvailableSoftwarePackagesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_available_software_packages#name DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_available_software_packages#name DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_available_software_packages#values DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_available_software_packages#values DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_available_software_packages#regex DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_available_software_packages#regex DataOciOsManagementHubSoftwareSourceAvailableSoftwarePackages#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

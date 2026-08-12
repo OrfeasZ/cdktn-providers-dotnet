@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseGroup
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseGroupConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseGroup.DataOciDatabaseManagementManagedDatabaseGroupConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_group#managed_database_group_id DataOciDatabaseManagementManagedDatabaseGroup#managed_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_group#managed_database_group_id DataOciDatabaseManagementManagedDatabaseGroup#managed_database_group_id}.</summary>
         [JsiiProperty(name: "managedDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_group#managed_database_group_id DataOciDatabaseManagementManagedDatabaseGroup#managed_database_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_group#managed_database_group_id DataOciDatabaseManagementManagedDatabaseGroup#managed_database_group_id}.</summary>
             [JsiiProperty(name: "managedDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseGroupId
             {

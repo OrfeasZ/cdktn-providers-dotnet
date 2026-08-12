@@ -41,6 +41,12 @@ namespace oci.DataOciCoreComputeHostGroups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "quickRecycleSettings", typeJson: "{\"fqn\":\"oci.dataOciCoreComputeHostGroups.DataOciCoreComputeHostGroupsComputeHostGroupCollectionItemsConfigurationsQuickRecycleSettingsList\"}")]
+        public virtual oci.DataOciCoreComputeHostGroups.DataOciCoreComputeHostGroupsComputeHostGroupCollectionItemsConfigurationsQuickRecycleSettingsList QuickRecycleSettings
+        {
+            get => GetInstanceProperty<oci.DataOciCoreComputeHostGroups.DataOciCoreComputeHostGroupsComputeHostGroupCollectionItemsConfigurationsQuickRecycleSettingsList>()!;
+        }
+
         [JsiiProperty(name: "recycleLevel", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RecycleLevel
         {

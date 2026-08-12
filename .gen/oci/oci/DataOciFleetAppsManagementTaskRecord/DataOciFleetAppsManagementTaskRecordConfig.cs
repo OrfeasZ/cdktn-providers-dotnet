@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecord
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementTaskRecord.DataOciFleetAppsManagementTaskRecordConfig")]
     public class DataOciFleetAppsManagementTaskRecordConfig : oci.DataOciFleetAppsManagementTaskRecord.IDataOciFleetAppsManagementTaskRecordConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_task_record#task_record_id DataOciFleetAppsManagementTaskRecord#task_record_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_task_record#task_record_id DataOciFleetAppsManagementTaskRecord#task_record_id}.</summary>
         [JsiiProperty(name: "taskRecordId", typeJson: "{\"primitive\":\"string\"}")]
         public string TaskRecordId
         {

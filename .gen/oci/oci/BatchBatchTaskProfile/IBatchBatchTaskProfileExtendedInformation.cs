@@ -7,14 +7,14 @@ namespace oci.BatchBatchTaskProfile
     [JsiiInterface(nativeType: typeof(IBatchBatchTaskProfileExtendedInformation), fullyQualifiedName: "oci.batchBatchTaskProfile.BatchBatchTaskProfileExtendedInformation")]
     public interface IBatchBatchTaskProfileExtendedInformation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_profile#type BatchBatchTaskProfile#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_profile#type BatchBatchTaskProfile#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_profile#architecture BatchBatchTaskProfile#architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_profile#architecture BatchBatchTaskProfile#architecture}.</summary>
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Architecture
@@ -25,7 +25,7 @@ namespace oci.BatchBatchTaskProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_profile#shape_name BatchBatchTaskProfile#shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_profile#shape_name BatchBatchTaskProfile#shape_name}.</summary>
         [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ShapeName
@@ -43,14 +43,14 @@ namespace oci.BatchBatchTaskProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_profile#type BatchBatchTaskProfile#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_profile#type BatchBatchTaskProfile#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_profile#architecture BatchBatchTaskProfile#architecture}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_profile#architecture BatchBatchTaskProfile#architecture}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Architecture
@@ -58,7 +58,7 @@ namespace oci.BatchBatchTaskProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_profile#shape_name BatchBatchTaskProfile#shape_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_profile#shape_name BatchBatchTaskProfile#shape_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ShapeName

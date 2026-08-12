@@ -7,7 +7,7 @@ namespace oci.FunctionsInvokeFunction
     [JsiiByValue(fqn: "oci.functionsInvokeFunction.FunctionsInvokeFunctionTimeouts")]
     public class FunctionsInvokeFunctionTimeouts : oci.FunctionsInvokeFunction.IFunctionsInvokeFunctionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/functions_invoke_function#create FunctionsInvokeFunction#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/functions_invoke_function#create FunctionsInvokeFunction#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.FunctionsInvokeFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/functions_invoke_function#delete FunctionsInvokeFunction#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/functions_invoke_function#delete FunctionsInvokeFunction#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.FunctionsInvokeFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/functions_invoke_function#update FunctionsInvokeFunction#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/functions_invoke_function#update FunctionsInvokeFunction#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

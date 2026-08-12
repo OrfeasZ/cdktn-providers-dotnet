@@ -7,7 +7,7 @@ namespace oci.DbmulticloudOracleDbAwsKey
     [JsiiInterface(nativeType: typeof(IDbmulticloudOracleDbAwsKeyTimeouts), fullyQualifiedName: "oci.dbmulticloudOracleDbAwsKey.DbmulticloudOracleDbAwsKeyTimeouts")]
     public interface IDbmulticloudOracleDbAwsKeyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_key#create DbmulticloudOracleDbAwsKey#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_oracle_db_aws_key#create DbmulticloudOracleDbAwsKey#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DbmulticloudOracleDbAwsKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_key#delete DbmulticloudOracleDbAwsKey#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_oracle_db_aws_key#delete DbmulticloudOracleDbAwsKey#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DbmulticloudOracleDbAwsKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_key#update DbmulticloudOracleDbAwsKey#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_oracle_db_aws_key#update DbmulticloudOracleDbAwsKey#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DbmulticloudOracleDbAwsKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_key#create DbmulticloudOracleDbAwsKey#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_oracle_db_aws_key#create DbmulticloudOracleDbAwsKey#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DbmulticloudOracleDbAwsKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_key#delete DbmulticloudOracleDbAwsKey#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_oracle_db_aws_key#delete DbmulticloudOracleDbAwsKey#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DbmulticloudOracleDbAwsKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dbmulticloud_oracle_db_aws_key#update DbmulticloudOracleDbAwsKey#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_oracle_db_aws_key#update DbmulticloudOracleDbAwsKey#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

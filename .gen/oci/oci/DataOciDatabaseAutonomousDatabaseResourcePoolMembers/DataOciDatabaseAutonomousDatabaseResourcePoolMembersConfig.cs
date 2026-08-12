@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabaseResourcePoolMembers.DataOciDatabaseAutonomousDatabaseResourcePoolMembersConfig")]
     public class DataOciDatabaseAutonomousDatabaseResourcePoolMembersConfig : oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers.IDataOciDatabaseAutonomousDatabaseResourcePoolMembersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_resource_pool_members#autonomous_database_id DataOciDatabaseAutonomousDatabaseResourcePoolMembers#autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_resource_pool_members#autonomous_database_id DataOciDatabaseAutonomousDatabaseResourcePoolMembers#autonomous_database_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_resource_pool_members#filter DataOciDatabaseAutonomousDatabaseResourcePoolMembers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_resource_pool_members#filter DataOciDatabaseAutonomousDatabaseResourcePoolMembers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers.IDataOciDatabaseAutonomousDatabaseResourcePoolMembersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseResourcePoolMembers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database_resource_pool_members#id DataOciDatabaseAutonomousDatabaseResourcePoolMembers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database_resource_pool_members#id DataOciDatabaseAutonomousDatabaseResourcePoolMembers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

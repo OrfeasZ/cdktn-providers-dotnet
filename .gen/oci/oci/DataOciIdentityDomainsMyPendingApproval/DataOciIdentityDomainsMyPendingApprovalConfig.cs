@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsMyPendingApproval
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsMyPendingApproval.DataOciIdentityDomainsMyPendingApprovalConfig")]
     public class DataOciIdentityDomainsMyPendingApprovalConfig : oci.DataOciIdentityDomainsMyPendingApproval.IDataOciIdentityDomainsMyPendingApprovalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_pending_approval#idcs_endpoint DataOciIdentityDomainsMyPendingApproval#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_pending_approval#idcs_endpoint DataOciIdentityDomainsMyPendingApproval#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsMyPendingApproval
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_pending_approval#my_pending_approval_id DataOciIdentityDomainsMyPendingApproval#my_pending_approval_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_pending_approval#my_pending_approval_id DataOciIdentityDomainsMyPendingApproval#my_pending_approval_id}.</summary>
         [JsiiProperty(name: "myPendingApprovalId", typeJson: "{\"primitive\":\"string\"}")]
         public string MyPendingApprovalId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsMyPendingApproval
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_pending_approval#authorization DataOciIdentityDomainsMyPendingApproval#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_pending_approval#authorization DataOciIdentityDomainsMyPendingApproval#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsMyPendingApproval
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_pending_approval#id DataOciIdentityDomainsMyPendingApproval#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_pending_approval#id DataOciIdentityDomainsMyPendingApproval#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace oci.DataOciIdentityDomainsMyPendingApproval
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_pending_approval#resource_type_schema_version DataOciIdentityDomainsMyPendingApproval#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_pending_approval#resource_type_schema_version DataOciIdentityDomainsMyPendingApproval#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

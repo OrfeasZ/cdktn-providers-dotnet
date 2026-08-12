@@ -9,7 +9,7 @@ namespace oci.DataOciOnesubscriptionCommitments
     [JsiiByValue(fqn: "oci.dataOciOnesubscriptionCommitments.DataOciOnesubscriptionCommitmentsFilter")]
     public class DataOciOnesubscriptionCommitmentsFilter : oci.DataOciOnesubscriptionCommitments.IDataOciOnesubscriptionCommitmentsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/onesubscription_commitments#name DataOciOnesubscriptionCommitments#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/onesubscription_commitments#name DataOciOnesubscriptionCommitments#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOnesubscriptionCommitments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/onesubscription_commitments#values DataOciOnesubscriptionCommitments#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/onesubscription_commitments#values DataOciOnesubscriptionCommitments#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOnesubscriptionCommitments
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/onesubscription_commitments#regex DataOciOnesubscriptionCommitments#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/onesubscription_commitments#regex DataOciOnesubscriptionCommitments#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

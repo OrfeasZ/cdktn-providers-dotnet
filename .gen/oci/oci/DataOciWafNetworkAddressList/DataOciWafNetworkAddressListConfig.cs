@@ -9,7 +9,7 @@ namespace oci.DataOciWafNetworkAddressList
     [JsiiByValue(fqn: "oci.dataOciWafNetworkAddressList.DataOciWafNetworkAddressListConfig")]
     public class DataOciWafNetworkAddressListConfig : oci.DataOciWafNetworkAddressList.IDataOciWafNetworkAddressListConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/waf_network_address_list#network_address_list_id DataOciWafNetworkAddressList#network_address_list_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/waf_network_address_list#network_address_list_id DataOciWafNetworkAddressList#network_address_list_id}.</summary>
         [JsiiProperty(name: "networkAddressListId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkAddressListId
         {

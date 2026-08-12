@@ -5,7 +5,7 @@ namespace oci.DataOciOpsiAwrHubAwrSnapshot
     /// <remarks>
     /// <h1><c>data_oci_opsi_awr_hub_awr_snapshot</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_awr_hub_awr_snapshot"><c>data_oci_opsi_awr_hub_awr_snapshot</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_awr_hub_awr_snapshot"><c>data_oci_opsi_awr_hub_awr_snapshot</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

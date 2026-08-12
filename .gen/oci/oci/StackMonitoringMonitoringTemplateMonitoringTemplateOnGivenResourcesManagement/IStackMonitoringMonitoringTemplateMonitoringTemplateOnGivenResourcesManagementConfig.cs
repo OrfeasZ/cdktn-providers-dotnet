@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
     [JsiiInterface(nativeType: typeof(IStackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementConfig), fullyQualifiedName: "oci.stackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementConfig")]
     public interface IStackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#enable_monitoring_template_on_given_resources StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#enable_monitoring_template_on_given_resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#enable_monitoring_template_on_given_resources StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#enable_monitoring_template_on_given_resources}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,14 +17,14 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#monitoring_template_id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#monitoring_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#monitoring_template_id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#monitoring_template_id}.</summary>
         [JsiiProperty(name: "monitoringTemplateId", typeJson: "{\"primitive\":\"string\"}")]
         string MonitoringTemplateId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#timeouts StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#timeouts StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#enable_monitoring_template_on_given_resources StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#enable_monitoring_template_on_given_resources}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#enable_monitoring_template_on_given_resources StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#enable_monitoring_template_on_given_resources}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -70,14 +70,14 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#monitoring_template_id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#monitoring_template_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#monitoring_template_id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#monitoring_template_id}.</summary>
             [JsiiProperty(name: "monitoringTemplateId", typeJson: "{\"primitive\":\"string\"}")]
             public string MonitoringTemplateId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#id StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResource
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#timeouts StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitoring_template_monitoring_template_on_given_resources_management#timeouts StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.stackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagement.StackMonitoringMonitoringTemplateMonitoringTemplateOnGivenResourcesManagementTimeouts\"}", isOptional: true)]

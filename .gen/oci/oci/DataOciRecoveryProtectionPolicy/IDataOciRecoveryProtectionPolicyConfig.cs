@@ -7,7 +7,7 @@ namespace oci.DataOciRecoveryProtectionPolicy
     [JsiiInterface(nativeType: typeof(IDataOciRecoveryProtectionPolicyConfig), fullyQualifiedName: "oci.dataOciRecoveryProtectionPolicy.DataOciRecoveryProtectionPolicyConfig")]
     public interface IDataOciRecoveryProtectionPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/recovery_protection_policy#protection_policy_id DataOciRecoveryProtectionPolicy#protection_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/recovery_protection_policy#protection_policy_id DataOciRecoveryProtectionPolicy#protection_policy_id}.</summary>
         [JsiiProperty(name: "protectionPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string ProtectionPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciRecoveryProtectionPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/recovery_protection_policy#protection_policy_id DataOciRecoveryProtectionPolicy#protection_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/recovery_protection_policy#protection_policy_id DataOciRecoveryProtectionPolicy#protection_policy_id}.</summary>
             [JsiiProperty(name: "protectionPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProtectionPolicyId
             {

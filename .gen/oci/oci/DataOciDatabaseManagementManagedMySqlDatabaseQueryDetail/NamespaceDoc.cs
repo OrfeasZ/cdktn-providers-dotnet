@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseManagementManagedMySqlDatabaseQueryDetail
     /// <remarks>
     /// <h1><c>data_oci_database_management_managed_my_sql_database_query_detail</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_my_sql_database_query_detail"><c>data_oci_database_management_managed_my_sql_database_query_detail</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_my_sql_database_query_detail"><c>data_oci_database_management_managed_my_sql_database_query_detail</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

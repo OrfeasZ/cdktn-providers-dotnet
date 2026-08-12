@@ -7,14 +7,14 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbAwsKeysConfig), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbAwsKeys.DataOciDbmulticloudOracleDbAwsKeysConfig")]
     public interface IDataOciDbmulticloudOracleDbAwsKeysConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#compartment_id DataOciDbmulticloudOracleDbAwsKeys#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#compartment_id DataOciDbmulticloudOracleDbAwsKeys#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#display_name DataOciDbmulticloudOracleDbAwsKeys#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#display_name DataOciDbmulticloudOracleDbAwsKeys#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#filter DataOciDbmulticloudOracleDbAwsKeys#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#filter DataOciDbmulticloudOracleDbAwsKeys#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbAwsKeys.IDataOciDbmulticloudOracleDbAwsKeysFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDbmulticloudOracleDbAwsKeys.DataOciDbmulticloudOracleDbAwsKeysFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#id DataOciDbmulticloudOracleDbAwsKeys#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#id DataOciDbmulticloudOracleDbAwsKeys#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_connector_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_connector_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbAwsConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OracleDbAwsConnectorId
@@ -66,7 +66,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_key_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_key_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_key_id}.</summary>
         [JsiiProperty(name: "oracleDbAwsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OracleDbAwsKeyId
@@ -77,7 +77,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#state DataOciDbmulticloudOracleDbAwsKeys#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#state DataOciDbmulticloudOracleDbAwsKeys#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -95,14 +95,14 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#compartment_id DataOciDbmulticloudOracleDbAwsKeys#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#compartment_id DataOciDbmulticloudOracleDbAwsKeys#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#display_name DataOciDbmulticloudOracleDbAwsKeys#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#display_name DataOciDbmulticloudOracleDbAwsKeys#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -112,7 +112,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#filter DataOciDbmulticloudOracleDbAwsKeys#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#filter DataOciDbmulticloudOracleDbAwsKeys#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbAwsKeys.IDataOciDbmulticloudOracleDbAwsKeysFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -122,7 +122,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#id DataOciDbmulticloudOracleDbAwsKeys#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#id DataOciDbmulticloudOracleDbAwsKeys#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -134,7 +134,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_connector_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_connector_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_connector_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oracleDbAwsConnectorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OracleDbAwsConnectorId
@@ -142,7 +142,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_key_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#oracle_db_aws_key_id DataOciDbmulticloudOracleDbAwsKeys#oracle_db_aws_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oracleDbAwsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OracleDbAwsKeyId
@@ -150,7 +150,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#state DataOciDbmulticloudOracleDbAwsKeys#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dbmulticloud_oracle_db_aws_keys#state DataOciDbmulticloudOracleDbAwsKeys#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

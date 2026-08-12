@@ -7,14 +7,14 @@ namespace oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstanceSwitchSnapChannelManagementSnapDetails), fullyQualifiedName: "oci.osManagementHubManagedInstanceSwitchSnapChannelManagement.OsManagementHubManagedInstanceSwitchSnapChannelManagementSnapDetails")]
     public interface IOsManagementHubManagedInstanceSwitchSnapChannelManagementSnapDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#name OsManagementHubManagedInstanceSwitchSnapChannelManagement#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#name OsManagementHubManagedInstanceSwitchSnapChannelManagement#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#channel OsManagementHubManagedInstanceSwitchSnapChannelManagement#channel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#channel OsManagementHubManagedInstanceSwitchSnapChannelManagement#channel}.</summary>
         [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Channel
@@ -32,14 +32,14 @@ namespace oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#name OsManagementHubManagedInstanceSwitchSnapChannelManagement#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#name OsManagementHubManagedInstanceSwitchSnapChannelManagement#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#channel OsManagementHubManagedInstanceSwitchSnapChannelManagement#channel}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#channel OsManagementHubManagedInstanceSwitchSnapChannelManagement#channel}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "channel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Channel

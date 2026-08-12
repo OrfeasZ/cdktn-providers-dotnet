@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppAllowedScopes")]
     public class IdentityDomainsAppAllowedScopes : oci.IdentityDomainsApp.IIdentityDomainsAppAllowedScopes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app#fqs IdentityDomainsApp#fqs}.</summary>
         [JsiiProperty(name: "fqs", typeJson: "{\"primitive\":\"string\"}")]
         public string Fqs
         {

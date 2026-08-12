@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAd
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedPropertiesFilter")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedPropertiesFilter : oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties.IDataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedPropertiesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_advanced_properties#name DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_advanced_properties#name DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAd
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_advanced_properties#values DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_advanced_properties#values DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAd
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_advanced_properties#regex DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_advanced_properties#regex DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigAdvancedProperties#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

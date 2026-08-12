@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityTagStandardTagNamespaceTemplates
     [JsiiByValue(fqn: "oci.dataOciIdentityTagStandardTagNamespaceTemplates.DataOciIdentityTagStandardTagNamespaceTemplatesFilter")]
     public class DataOciIdentityTagStandardTagNamespaceTemplatesFilter : oci.DataOciIdentityTagStandardTagNamespaceTemplates.IDataOciIdentityTagStandardTagNamespaceTemplatesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_tag_standard_tag_namespace_templates#name DataOciIdentityTagStandardTagNamespaceTemplates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_tag_standard_tag_namespace_templates#name DataOciIdentityTagStandardTagNamespaceTemplates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityTagStandardTagNamespaceTemplates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_tag_standard_tag_namespace_templates#values DataOciIdentityTagStandardTagNamespaceTemplates#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_tag_standard_tag_namespace_templates#values DataOciIdentityTagStandardTagNamespaceTemplates#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciIdentityTagStandardTagNamespaceTemplates
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_tag_standard_tag_namespace_templates#regex DataOciIdentityTagStandardTagNamespaceTemplates#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_tag_standard_tag_namespace_templates#regex DataOciIdentityTagStandardTagNamespaceTemplates#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

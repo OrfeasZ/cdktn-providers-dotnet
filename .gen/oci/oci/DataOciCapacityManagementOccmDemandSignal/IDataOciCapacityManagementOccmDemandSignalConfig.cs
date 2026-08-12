@@ -7,7 +7,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignal
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementOccmDemandSignalConfig), fullyQualifiedName: "oci.dataOciCapacityManagementOccmDemandSignal.DataOciCapacityManagementOccmDemandSignalConfig")]
     public interface IDataOciCapacityManagementOccmDemandSignalConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_occm_demand_signal#occm_demand_signal_id DataOciCapacityManagementOccmDemandSignal#occm_demand_signal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_occm_demand_signal#occm_demand_signal_id DataOciCapacityManagementOccmDemandSignal#occm_demand_signal_id}.</summary>
         [JsiiProperty(name: "occmDemandSignalId", typeJson: "{\"primitive\":\"string\"}")]
         string OccmDemandSignalId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignal
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_occm_demand_signal#occm_demand_signal_id DataOciCapacityManagementOccmDemandSignal#occm_demand_signal_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_occm_demand_signal#occm_demand_signal_id DataOciCapacityManagementOccmDemandSignal#occm_demand_signal_id}.</summary>
             [JsiiProperty(name: "occmDemandSignalId", typeJson: "{\"primitive\":\"string\"}")]
             public string OccmDemandSignalId
             {

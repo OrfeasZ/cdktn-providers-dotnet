@@ -53,6 +53,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "adScheduledForUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AdScheduledForUpdate
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "allocatedStorageSizeInTbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double AllocatedStorageSizeInTbs
         {
@@ -401,6 +407,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isDisableAdUpdateSchedule", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsDisableAdUpdateSchedule
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isDisableDbVersionUpgradeSchedule", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsDisableDbVersionUpgradeSchedule
         {
@@ -463,6 +475,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
 
         [JsiiProperty(name: "isReplicateAutomaticBackups", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsReplicateAutomaticBackups
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isScheduleAdUpdateToEarliest", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsScheduleAdUpdateToEarliest
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
@@ -857,8 +875,20 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeEarliestAvailableAdUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeEarliestAvailableAdUpdate
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeEarliestAvailableDbVersionUpgrade", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeEarliestAvailableDbVersionUpgrade
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeLatestAvailableAdUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeLatestAvailableAdUpdate
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -937,6 +967,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
 
         [JsiiProperty(name: "timeReclamationOfFreeAutonomousDatabase", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeReclamationOfFreeAutonomousDatabase
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeScheduledAdUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeScheduledAdUpdate
         {
             get => GetInstanceProperty<string>()!;
         }

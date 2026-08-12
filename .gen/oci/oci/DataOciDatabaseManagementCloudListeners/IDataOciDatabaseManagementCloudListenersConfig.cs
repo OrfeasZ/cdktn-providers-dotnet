@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudListenersConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudListeners.DataOciDatabaseManagementCloudListenersConfig")]
     public interface IDataOciDatabaseManagementCloudListenersConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#cloud_db_system_id DataOciDatabaseManagementCloudListeners#cloud_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#cloud_db_system_id DataOciDatabaseManagementCloudListeners#cloud_db_system_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CloudDbSystemId
@@ -18,7 +18,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#compartment_id DataOciDatabaseManagementCloudListeners#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#compartment_id DataOciDatabaseManagementCloudListeners#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#display_name DataOciDatabaseManagementCloudListeners#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#display_name DataOciDatabaseManagementCloudListeners#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -42,7 +42,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#filter DataOciDatabaseManagementCloudListeners#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#filter DataOciDatabaseManagementCloudListeners#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudListeners.IDataOciDatabaseManagementCloudListenersFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementCloudListeners.DataOciDatabaseManagementCloudListenersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#id DataOciDatabaseManagementCloudListeners#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#id DataOciDatabaseManagementCloudListeners#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#cloud_db_system_id DataOciDatabaseManagementCloudListeners#cloud_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#cloud_db_system_id DataOciDatabaseManagementCloudListeners#cloud_db_system_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CloudDbSystemId
@@ -85,7 +85,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#compartment_id DataOciDatabaseManagementCloudListeners#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#compartment_id DataOciDatabaseManagementCloudListeners#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -93,7 +93,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#display_name DataOciDatabaseManagementCloudListeners#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#display_name DataOciDatabaseManagementCloudListeners#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -103,7 +103,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#filter DataOciDatabaseManagementCloudListeners#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#filter DataOciDatabaseManagementCloudListeners#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudListeners.IDataOciDatabaseManagementCloudListenersFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -113,7 +113,7 @@ namespace oci.DataOciDatabaseManagementCloudListeners
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listeners#id DataOciDatabaseManagementCloudListeners#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listeners#id DataOciDatabaseManagementCloudListeners#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

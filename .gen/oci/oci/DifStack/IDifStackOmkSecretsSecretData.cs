@@ -7,14 +7,14 @@ namespace oci.DifStack
     [JsiiInterface(nativeType: typeof(IDifStackOmkSecretsSecretData), fullyQualifiedName: "oci.difStack.DifStackOmkSecretsSecretData")]
     public interface IDifStackOmkSecretsSecretData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dif_stack#key DifStack#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dif_stack#key DifStack#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dif_stack#secret_id DifStack#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dif_stack#secret_id DifStack#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         string SecretId
         {
@@ -28,14 +28,14 @@ namespace oci.DifStack
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dif_stack#key DifStack#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dif_stack#key DifStack#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dif_stack#secret_id DifStack#secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dif_stack#secret_id DifStack#secret_id}.</summary>
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretId
             {

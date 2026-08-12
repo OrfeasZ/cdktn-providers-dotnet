@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseVmClusterNetwork
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseVmClusterNetworkConfig), fullyQualifiedName: "oci.dataOciDatabaseVmClusterNetwork.DataOciDatabaseVmClusterNetworkConfig")]
     public interface IDataOciDatabaseVmClusterNetworkConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_vm_cluster_network#exadata_infrastructure_id DataOciDatabaseVmClusterNetwork#exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_vm_cluster_network#exadata_infrastructure_id DataOciDatabaseVmClusterNetwork#exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string ExadataInfrastructureId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_vm_cluster_network#vm_cluster_network_id DataOciDatabaseVmClusterNetwork#vm_cluster_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_vm_cluster_network#vm_cluster_network_id DataOciDatabaseVmClusterNetwork#vm_cluster_network_id}.</summary>
         [JsiiProperty(name: "vmClusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         string VmClusterNetworkId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciDatabaseVmClusterNetwork
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_vm_cluster_network#exadata_infrastructure_id DataOciDatabaseVmClusterNetwork#exadata_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_vm_cluster_network#exadata_infrastructure_id DataOciDatabaseVmClusterNetwork#exadata_infrastructure_id}.</summary>
             [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExadataInfrastructureId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_vm_cluster_network#vm_cluster_network_id DataOciDatabaseVmClusterNetwork#vm_cluster_network_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_vm_cluster_network#vm_cluster_network_id DataOciDatabaseVmClusterNetwork#vm_cluster_network_id}.</summary>
             [JsiiProperty(name: "vmClusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
             public string VmClusterNetworkId
             {

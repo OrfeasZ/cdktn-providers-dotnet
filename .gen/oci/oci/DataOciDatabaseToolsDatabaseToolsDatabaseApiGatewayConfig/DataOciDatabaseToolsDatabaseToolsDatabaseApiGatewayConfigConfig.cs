@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfig
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfig.DataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfigConfig")]
     public class DataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfigConfig : oci.DataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfig.IDataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_database_tools_database_api_gateway_config#database_tools_database_api_gateway_config_id DataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#database_tools_database_api_gateway_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_database_tools_database_api_gateway_config#database_tools_database_api_gateway_config_id DataOciDatabaseToolsDatabaseToolsDatabaseApiGatewayConfig#database_tools_database_api_gateway_config_id}.</summary>
         [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsDatabaseApiGatewayConfigId
         {

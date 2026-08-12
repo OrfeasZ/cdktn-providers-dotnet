@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementTargetComponents
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementTargetComponents.DataOciFleetAppsManagementTargetComponentsFilter")]
     public class DataOciFleetAppsManagementTargetComponentsFilter : oci.DataOciFleetAppsManagementTargetComponents.IDataOciFleetAppsManagementTargetComponentsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_target_components#name DataOciFleetAppsManagementTargetComponents#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_target_components#name DataOciFleetAppsManagementTargetComponents#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementTargetComponents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_target_components#values DataOciFleetAppsManagementTargetComponents#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_target_components#values DataOciFleetAppsManagementTargetComponents#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementTargetComponents
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_target_components#regex DataOciFleetAppsManagementTargetComponents#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_target_components#regex DataOciFleetAppsManagementTargetComponents#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

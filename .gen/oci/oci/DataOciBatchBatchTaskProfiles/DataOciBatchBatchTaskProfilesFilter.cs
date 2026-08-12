@@ -9,7 +9,7 @@ namespace oci.DataOciBatchBatchTaskProfiles
     [JsiiByValue(fqn: "oci.dataOciBatchBatchTaskProfiles.DataOciBatchBatchTaskProfilesFilter")]
     public class DataOciBatchBatchTaskProfilesFilter : oci.DataOciBatchBatchTaskProfiles.IDataOciBatchBatchTaskProfilesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/batch_batch_task_profiles#name DataOciBatchBatchTaskProfiles#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/batch_batch_task_profiles#name DataOciBatchBatchTaskProfiles#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBatchBatchTaskProfiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/batch_batch_task_profiles#values DataOciBatchBatchTaskProfiles#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/batch_batch_task_profiles#values DataOciBatchBatchTaskProfiles#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBatchBatchTaskProfiles
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/batch_batch_task_profiles#regex DataOciBatchBatchTaskProfiles#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/batch_batch_task_profiles#regex DataOciBatchBatchTaskProfiles#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

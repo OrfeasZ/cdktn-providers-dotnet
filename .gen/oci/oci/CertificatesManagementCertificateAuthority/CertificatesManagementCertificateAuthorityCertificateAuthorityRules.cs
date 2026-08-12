@@ -9,7 +9,7 @@ namespace oci.CertificatesManagementCertificateAuthority
     [JsiiByValue(fqn: "oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRules")]
     public class CertificatesManagementCertificateAuthorityCertificateAuthorityRules : oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/certificates_management_certificate_authority#rule_type CertificatesManagementCertificateAuthority#rule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate_authority#rule_type CertificatesManagementCertificateAuthority#rule_type}.</summary>
         [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleType
         {
@@ -17,7 +17,7 @@ namespace oci.CertificatesManagementCertificateAuthority
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/certificates_management_certificate_authority#certificate_authority_max_validity_duration CertificatesManagementCertificateAuthority#certificate_authority_max_validity_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate_authority#certificate_authority_max_validity_duration CertificatesManagementCertificateAuthority#certificate_authority_max_validity_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateAuthorityMaxValidityDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateAuthorityMaxValidityDuration
@@ -26,7 +26,7 @@ namespace oci.CertificatesManagementCertificateAuthority
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/certificates_management_certificate_authority#leaf_certificate_max_validity_duration CertificatesManagementCertificateAuthority#leaf_certificate_max_validity_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate_authority#leaf_certificate_max_validity_duration CertificatesManagementCertificateAuthority#leaf_certificate_max_validity_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "leafCertificateMaxValidityDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LeafCertificateMaxValidityDuration
@@ -37,7 +37,7 @@ namespace oci.CertificatesManagementCertificateAuthority
 
         /// <summary>name_constraint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/certificates_management_certificate_authority#name_constraint CertificatesManagementCertificateAuthority#name_constraint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate_authority#name_constraint CertificatesManagementCertificateAuthority#name_constraint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nameConstraint", typeJson: "{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraint\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.CertificatesManagementCertificateAuthority
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/certificates_management_certificate_authority#path_length_constraint CertificatesManagementCertificateAuthority#path_length_constraint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate_authority#path_length_constraint CertificatesManagementCertificateAuthority#path_length_constraint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pathLengthConstraint", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PathLengthConstraint

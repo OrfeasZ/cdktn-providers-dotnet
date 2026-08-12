@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindow
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseSchedulingPolicySchedulingWindowConfig), fullyQualifiedName: "oci.dataOciDatabaseSchedulingPolicySchedulingWindow.DataOciDatabaseSchedulingPolicySchedulingWindowConfig")]
     public interface IDataOciDatabaseSchedulingPolicySchedulingWindowConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
         [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SchedulingPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}.</summary>
         [JsiiProperty(name: "schedulingWindowId", typeJson: "{\"primitive\":\"string\"}")]
         string SchedulingWindowId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindow
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}.</summary>
             [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SchedulingPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_scheduling_policy_scheduling_window#scheduling_window_id DataOciDatabaseSchedulingPolicySchedulingWindow#scheduling_window_id}.</summary>
             [JsiiProperty(name: "schedulingWindowId", typeJson: "{\"primitive\":\"string\"}")]
             public string SchedulingWindowId
             {

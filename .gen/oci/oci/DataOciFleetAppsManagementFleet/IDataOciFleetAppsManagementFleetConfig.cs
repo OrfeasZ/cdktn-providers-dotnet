@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementFleet
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementFleetConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementFleet.DataOciFleetAppsManagementFleetConfig")]
     public interface IDataOciFleetAppsManagementFleetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetAppsManagementFleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {

@@ -7,21 +7,21 @@ namespace oci.MarketplaceMarketplaceExternalAttestedMetadata
     [JsiiInterface(nativeType: typeof(IMarketplaceMarketplaceExternalAttestedMetadataConfig), fullyQualifiedName: "oci.marketplaceMarketplaceExternalAttestedMetadata.MarketplaceMarketplaceExternalAttestedMetadataConfig")]
     public interface IMarketplaceMarketplaceExternalAttestedMetadataConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#compartment_id MarketplaceMarketplaceExternalAttestedMetadata#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#compartment_id MarketplaceMarketplaceExternalAttestedMetadata#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#instance_id MarketplaceMarketplaceExternalAttestedMetadata#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#instance_id MarketplaceMarketplaceExternalAttestedMetadata#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#id MarketplaceMarketplaceExternalAttestedMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#id MarketplaceMarketplaceExternalAttestedMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.MarketplaceMarketplaceExternalAttestedMetadata
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#timeouts MarketplaceMarketplaceExternalAttestedMetadata#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#timeouts MarketplaceMarketplaceExternalAttestedMetadata#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.marketplaceMarketplaceExternalAttestedMetadata.MarketplaceMarketplaceExternalAttestedMetadataTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace oci.MarketplaceMarketplaceExternalAttestedMetadata
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#compartment_id MarketplaceMarketplaceExternalAttestedMetadata#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#compartment_id MarketplaceMarketplaceExternalAttestedMetadata#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#instance_id MarketplaceMarketplaceExternalAttestedMetadata#instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#instance_id MarketplaceMarketplaceExternalAttestedMetadata#instance_id}.</summary>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#id MarketplaceMarketplaceExternalAttestedMetadata#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#id MarketplaceMarketplaceExternalAttestedMetadata#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.MarketplaceMarketplaceExternalAttestedMetadata
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_marketplace_external_attested_metadata#timeouts MarketplaceMarketplaceExternalAttestedMetadata#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_marketplace_external_attested_metadata#timeouts MarketplaceMarketplaceExternalAttestedMetadata#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.marketplaceMarketplaceExternalAttestedMetadata.MarketplaceMarketplaceExternalAttestedMetadataTimeouts\"}", isOptional: true)]

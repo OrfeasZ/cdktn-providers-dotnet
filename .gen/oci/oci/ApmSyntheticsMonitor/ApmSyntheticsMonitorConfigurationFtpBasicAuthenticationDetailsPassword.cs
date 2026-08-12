@@ -7,7 +7,7 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiByValue(fqn: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorConfigurationFtpBasicAuthenticationDetailsPassword")]
     public class ApmSyntheticsMonitorConfigurationFtpBasicAuthenticationDetailsPassword : oci.ApmSyntheticsMonitor.IApmSyntheticsMonitorConfigurationFtpBasicAuthenticationDetailsPassword
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_synthetics_monitor#password ApmSyntheticsMonitor#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_monitor#password ApmSyntheticsMonitor#password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password
@@ -16,7 +16,7 @@ namespace oci.ApmSyntheticsMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_synthetics_monitor#password_type ApmSyntheticsMonitor#password_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_monitor#password_type ApmSyntheticsMonitor#password_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PasswordType
@@ -25,7 +25,7 @@ namespace oci.ApmSyntheticsMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_synthetics_monitor#vault_secret_id ApmSyntheticsMonitor#vault_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_monitor#vault_secret_id ApmSyntheticsMonitor#vault_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vaultSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VaultSecretId

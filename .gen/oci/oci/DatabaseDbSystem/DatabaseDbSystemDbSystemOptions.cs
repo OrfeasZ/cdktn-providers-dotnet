@@ -7,7 +7,7 @@ namespace oci.DatabaseDbSystem
     [JsiiByValue(fqn: "oci.databaseDbSystem.DatabaseDbSystemDbSystemOptions")]
     public class DatabaseDbSystemDbSystemOptions : oci.DatabaseDbSystem.IDatabaseDbSystemDbSystemOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_db_system#storage_management DatabaseDbSystem#storage_management}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_db_system#storage_management DatabaseDbSystem#storage_management}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageManagement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageManagement

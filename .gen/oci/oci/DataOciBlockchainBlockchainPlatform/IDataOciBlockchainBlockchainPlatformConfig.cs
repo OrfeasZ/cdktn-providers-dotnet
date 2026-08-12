@@ -7,7 +7,7 @@ namespace oci.DataOciBlockchainBlockchainPlatform
     [JsiiInterface(nativeType: typeof(IDataOciBlockchainBlockchainPlatformConfig), fullyQualifiedName: "oci.dataOciBlockchainBlockchainPlatform.DataOciBlockchainBlockchainPlatformConfig")]
     public interface IDataOciBlockchainBlockchainPlatformConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/blockchain_blockchain_platform#blockchain_platform_id DataOciBlockchainBlockchainPlatform#blockchain_platform_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/blockchain_blockchain_platform#blockchain_platform_id DataOciBlockchainBlockchainPlatform#blockchain_platform_id}.</summary>
         [JsiiProperty(name: "blockchainPlatformId", typeJson: "{\"primitive\":\"string\"}")]
         string BlockchainPlatformId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBlockchainBlockchainPlatform
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/blockchain_blockchain_platform#blockchain_platform_id DataOciBlockchainBlockchainPlatform#blockchain_platform_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/blockchain_blockchain_platform#blockchain_platform_id DataOciBlockchainBlockchainPlatform#blockchain_platform_id}.</summary>
             [JsiiProperty(name: "blockchainPlatformId", typeJson: "{\"primitive\":\"string\"}")]
             public string BlockchainPlatformId
             {

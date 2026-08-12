@@ -9,7 +9,7 @@ namespace oci.WafWebAppFirewall
     [JsiiByValue(fqn: "oci.wafWebAppFirewall.WafWebAppFirewallConfig")]
     public class WafWebAppFirewallConfig : oci.WafWebAppFirewall.IWafWebAppFirewallConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#backend_type WafWebAppFirewall#backend_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#backend_type WafWebAppFirewall#backend_type}.</summary>
         [JsiiProperty(name: "backendType", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendType
         {
@@ -17,7 +17,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#compartment_id WafWebAppFirewall#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#compartment_id WafWebAppFirewall#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -25,7 +25,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#load_balancer_id WafWebAppFirewall#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#load_balancer_id WafWebAppFirewall#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
         {
@@ -33,7 +33,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#web_app_firewall_policy_id WafWebAppFirewall#web_app_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#web_app_firewall_policy_id WafWebAppFirewall#web_app_firewall_policy_id}.</summary>
         [JsiiProperty(name: "webAppFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string WebAppFirewallPolicyId
         {
@@ -41,7 +41,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#defined_tags WafWebAppFirewall#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#defined_tags WafWebAppFirewall#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -50,7 +50,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#display_name WafWebAppFirewall#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#display_name WafWebAppFirewall#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -59,7 +59,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#freeform_tags WafWebAppFirewall#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#freeform_tags WafWebAppFirewall#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -68,7 +68,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#id WafWebAppFirewall#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#id WafWebAppFirewall#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +81,7 @@ namespace oci.WafWebAppFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#system_tags WafWebAppFirewall#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#system_tags WafWebAppFirewall#system_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -92,7 +92,7 @@ namespace oci.WafWebAppFirewall
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall#timeouts WafWebAppFirewall#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall#timeouts WafWebAppFirewall#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.wafWebAppFirewall.WafWebAppFirewallTimeouts\"}", isOptional: true)]

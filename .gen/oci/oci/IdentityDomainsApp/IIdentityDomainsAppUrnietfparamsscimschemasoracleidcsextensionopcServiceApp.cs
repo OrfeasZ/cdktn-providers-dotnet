@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionopcServiceApp), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionopcServiceApp")]
     public interface IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionopcServiceApp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#service_instance_identifier IdentityDomainsApp#service_instance_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app#service_instance_identifier IdentityDomainsApp#service_instance_identifier}.</summary>
         [JsiiProperty(name: "serviceInstanceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServiceInstanceIdentifier
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#service_instance_identifier IdentityDomainsApp#service_instance_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app#service_instance_identifier IdentityDomainsApp#service_instance_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceInstanceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServiceInstanceIdentifier

@@ -7,14 +7,14 @@ namespace oci.CoreInstancePool
     [JsiiInterface(nativeType: typeof(ICoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout), fullyQualifiedName: "oci.coreInstancePool.CoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout")]
     public interface ICoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#preserve_block_volume_mode CoreInstancePool#preserve_block_volume_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#preserve_block_volume_mode CoreInstancePool#preserve_block_volume_mode}.</summary>
         [JsiiProperty(name: "preserveBlockVolumeMode", typeJson: "{\"primitive\":\"string\"}")]
         string PreserveBlockVolumeMode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#preserve_boot_volume_mode CoreInstancePool#preserve_boot_volume_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#preserve_boot_volume_mode CoreInstancePool#preserve_boot_volume_mode}.</summary>
         [JsiiProperty(name: "preserveBootVolumeMode", typeJson: "{\"primitive\":\"string\"}")]
         string PreserveBootVolumeMode
         {
@@ -28,14 +28,14 @@ namespace oci.CoreInstancePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#preserve_block_volume_mode CoreInstancePool#preserve_block_volume_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#preserve_block_volume_mode CoreInstancePool#preserve_block_volume_mode}.</summary>
             [JsiiProperty(name: "preserveBlockVolumeMode", typeJson: "{\"primitive\":\"string\"}")]
             public string PreserveBlockVolumeMode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#preserve_boot_volume_mode CoreInstancePool#preserve_boot_volume_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#preserve_boot_volume_mode CoreInstancePool#preserve_boot_volume_mode}.</summary>
             [JsiiProperty(name: "preserveBootVolumeMode", typeJson: "{\"primitive\":\"string\"}")]
             public string PreserveBootVolumeMode
             {

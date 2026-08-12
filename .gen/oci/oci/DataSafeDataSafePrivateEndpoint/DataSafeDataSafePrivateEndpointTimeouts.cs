@@ -7,7 +7,7 @@ namespace oci.DataSafeDataSafePrivateEndpoint
     [JsiiByValue(fqn: "oci.dataSafeDataSafePrivateEndpoint.DataSafeDataSafePrivateEndpointTimeouts")]
     public class DataSafeDataSafePrivateEndpointTimeouts : oci.DataSafeDataSafePrivateEndpoint.IDataSafeDataSafePrivateEndpointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_data_safe_private_endpoint#create DataSafeDataSafePrivateEndpoint#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_data_safe_private_endpoint#create DataSafeDataSafePrivateEndpoint#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeDataSafePrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_data_safe_private_endpoint#delete DataSafeDataSafePrivateEndpoint#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_data_safe_private_endpoint#delete DataSafeDataSafePrivateEndpoint#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeDataSafePrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_data_safe_private_endpoint#update DataSafeDataSafePrivateEndpoint#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_data_safe_private_endpoint#update DataSafeDataSafePrivateEndpoint#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

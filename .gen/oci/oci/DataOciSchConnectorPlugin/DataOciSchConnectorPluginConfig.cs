@@ -9,7 +9,7 @@ namespace oci.DataOciSchConnectorPlugin
     [JsiiByValue(fqn: "oci.dataOciSchConnectorPlugin.DataOciSchConnectorPluginConfig")]
     public class DataOciSchConnectorPluginConfig : oci.DataOciSchConnectorPlugin.IDataOciSchConnectorPluginConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/sch_connector_plugin#connector_plugin_name DataOciSchConnectorPlugin#connector_plugin_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/sch_connector_plugin#connector_plugin_name DataOciSchConnectorPlugin#connector_plugin_name}.</summary>
         [JsiiProperty(name: "connectorPluginName", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectorPluginName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciSchConnectorPlugin
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/sch_connector_plugin#id DataOciSchConnectorPlugin#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/sch_connector_plugin#id DataOciSchConnectorPlugin#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

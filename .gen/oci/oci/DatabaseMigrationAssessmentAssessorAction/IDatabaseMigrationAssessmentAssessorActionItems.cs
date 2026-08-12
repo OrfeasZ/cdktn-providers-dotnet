@@ -7,14 +7,14 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
     [JsiiInterface(nativeType: typeof(IDatabaseMigrationAssessmentAssessorActionItems), fullyQualifiedName: "oci.databaseMigrationAssessmentAssessorAction.DatabaseMigrationAssessmentAssessorActionItems")]
     public interface IDatabaseMigrationAssessmentAssessorActionItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment_assessor_action#name DatabaseMigrationAssessmentAssessorAction#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_assessment_assessor_action#name DatabaseMigrationAssessmentAssessorAction#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment_assessor_action#value DatabaseMigrationAssessmentAssessorAction#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_assessment_assessor_action#value DatabaseMigrationAssessmentAssessorAction#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment_assessor_action#name DatabaseMigrationAssessmentAssessorAction#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_assessment_assessor_action#name DatabaseMigrationAssessmentAssessorAction#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_assessment_assessor_action#value DatabaseMigrationAssessmentAssessorAction#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_assessment_assessor_action#value DatabaseMigrationAssessmentAssessorAction#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

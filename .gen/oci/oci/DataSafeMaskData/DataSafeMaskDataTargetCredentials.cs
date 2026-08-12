@@ -9,7 +9,7 @@ namespace oci.DataSafeMaskData
     [JsiiByValue(fqn: "oci.dataSafeMaskData.DataSafeMaskDataTargetCredentials")]
     public class DataSafeMaskDataTargetCredentials : oci.DataSafeMaskData.IDataSafeMaskDataTargetCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_mask_data#password DataSafeMaskData#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_mask_data#password DataSafeMaskData#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeMaskData
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_mask_data#user_name DataSafeMaskData#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_mask_data#user_name DataSafeMaskData#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {

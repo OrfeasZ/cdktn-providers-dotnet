@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#group_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#group_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#group_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#group_type}.</summary>
         [JsiiProperty(name: "groupType", typeJson: "{\"primitive\":\"string\"}")]
         string GroupType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#end_time_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#end_time_less_than_or_equal_to}.</summary>
         [JsiiProperty(name: "endTimeLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EndTimeLessThanOrEqualTo
@@ -34,7 +34,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations.IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#limit DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#limit DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#limit}.</summary>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Limit
@@ -73,7 +73,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#start_time_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#start_time_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "startTimeGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StartTimeGreaterThanOrEqualTo
@@ -84,7 +84,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#task_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#task_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#task_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#task_type}.</summary>
         [JsiiProperty(name: "taskType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TaskType
@@ -102,21 +102,21 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#group_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#group_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#group_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#group_type}.</summary>
             [JsiiProperty(name: "groupType", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#managed_database_id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#end_time_less_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#end_time_less_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#end_time_less_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endTimeLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EndTimeLessThanOrEqualTo
@@ -126,7 +126,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#filter DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations.IDataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregationsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -136,7 +136,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#id DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -148,7 +148,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#limit DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#limit DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Limit
@@ -156,7 +156,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#start_time_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#start_time_greater_than_or_equal_to DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#start_time_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "startTimeGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StartTimeGreaterThanOrEqualTo
@@ -164,7 +164,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#task_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#task_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_optimizer_statistics_collection_aggregations#task_type DataOciDatabaseManagementManagedDatabaseOptimizerStatisticsCollectionAggregations#task_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "taskType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TaskType

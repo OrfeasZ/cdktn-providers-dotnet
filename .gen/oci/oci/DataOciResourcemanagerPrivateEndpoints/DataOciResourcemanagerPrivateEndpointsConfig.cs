@@ -7,7 +7,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoints
     [JsiiByValue(fqn: "oci.dataOciResourcemanagerPrivateEndpoints.DataOciResourcemanagerPrivateEndpointsConfig")]
     public class DataOciResourcemanagerPrivateEndpointsConfig : oci.DataOciResourcemanagerPrivateEndpoints.IDataOciResourcemanagerPrivateEndpointsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoints#compartment_id DataOciResourcemanagerPrivateEndpoints#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resourcemanager_private_endpoints#compartment_id DataOciResourcemanagerPrivateEndpoints#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoints#display_name DataOciResourcemanagerPrivateEndpoints#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resourcemanager_private_endpoints#display_name DataOciResourcemanagerPrivateEndpoints#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoints
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoints#filter DataOciResourcemanagerPrivateEndpoints#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resourcemanager_private_endpoints#filter DataOciResourcemanagerPrivateEndpoints#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciResourcemanagerPrivateEndpoints.IDataOciResourcemanagerPrivateEndpointsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoints#id DataOciResourcemanagerPrivateEndpoints#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resourcemanager_private_endpoints#id DataOciResourcemanagerPrivateEndpoints#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoints#private_endpoint_id DataOciResourcemanagerPrivateEndpoints#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resourcemanager_private_endpoints#private_endpoint_id DataOciResourcemanagerPrivateEndpoints#private_endpoint_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateEndpointId
@@ -82,7 +82,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resourcemanager_private_endpoints#vcn_id DataOciResourcemanagerPrivateEndpoints#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resourcemanager_private_endpoints#vcn_id DataOciResourcemanagerPrivateEndpoints#vcn_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VcnId

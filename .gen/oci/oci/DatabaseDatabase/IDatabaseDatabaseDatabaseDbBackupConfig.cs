@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseDatabaseDbBackupConfig), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfig")]
     public interface IDatabaseDatabaseDatabaseDbBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_backup_enabled DatabaseDatabase#auto_backup_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_backup_enabled DatabaseDatabase#auto_backup_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_backup_window DatabaseDatabase#auto_backup_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_backup_window DatabaseDatabase#auto_backup_window}.</summary>
         [JsiiProperty(name: "autoBackupWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutoBackupWindow
@@ -32,7 +32,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_full_backup_day DatabaseDatabase#auto_full_backup_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_full_backup_day DatabaseDatabase#auto_full_backup_day}.</summary>
         [JsiiProperty(name: "autoFullBackupDay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutoFullBackupDay
@@ -43,7 +43,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_full_backup_window DatabaseDatabase#auto_full_backup_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_full_backup_window DatabaseDatabase#auto_full_backup_window}.</summary>
         [JsiiProperty(name: "autoFullBackupWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutoFullBackupWindow
@@ -54,7 +54,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#backup_deletion_policy DatabaseDatabase#backup_deletion_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#backup_deletion_policy DatabaseDatabase#backup_deletion_policy}.</summary>
         [JsiiProperty(name: "backupDeletionPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupDeletionPolicy
@@ -67,7 +67,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>backup_destination_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#backup_destination_details DatabaseDatabase#backup_destination_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#backup_destination_details DatabaseDatabase#backup_destination_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "backupDestinationDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#recovery_window_in_days DatabaseDatabase#recovery_window_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#recovery_window_in_days DatabaseDatabase#recovery_window_in_days}.</summary>
         [JsiiProperty(name: "recoveryWindowInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RecoveryWindowInDays
@@ -91,7 +91,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#run_immediate_full_backup DatabaseDatabase#run_immediate_full_backup}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#run_immediate_full_backup DatabaseDatabase#run_immediate_full_backup}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -112,7 +112,7 @@ namespace oci.DatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_backup_enabled DatabaseDatabase#auto_backup_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_backup_enabled DatabaseDatabase#auto_backup_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -123,7 +123,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_backup_window DatabaseDatabase#auto_backup_window}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_backup_window DatabaseDatabase#auto_backup_window}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoBackupWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutoBackupWindow
@@ -131,7 +131,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_full_backup_day DatabaseDatabase#auto_full_backup_day}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_full_backup_day DatabaseDatabase#auto_full_backup_day}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoFullBackupDay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutoFullBackupDay
@@ -139,7 +139,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#auto_full_backup_window DatabaseDatabase#auto_full_backup_window}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#auto_full_backup_window DatabaseDatabase#auto_full_backup_window}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoFullBackupWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutoFullBackupWindow
@@ -147,7 +147,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#backup_deletion_policy DatabaseDatabase#backup_deletion_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#backup_deletion_policy DatabaseDatabase#backup_deletion_policy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupDeletionPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupDeletionPolicy
@@ -157,7 +157,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>backup_destination_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#backup_destination_details DatabaseDatabase#backup_destination_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#backup_destination_details DatabaseDatabase#backup_destination_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -167,7 +167,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#recovery_window_in_days DatabaseDatabase#recovery_window_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#recovery_window_in_days DatabaseDatabase#recovery_window_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recoveryWindowInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RecoveryWindowInDays
@@ -175,7 +175,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#run_immediate_full_backup DatabaseDatabase#run_immediate_full_backup}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#run_immediate_full_backup DatabaseDatabase#run_immediate_full_backup}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiByValue(fqn: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorAvailabilityConfiguration")]
     public class ApmSyntheticsMonitorAvailabilityConfiguration : oci.ApmSyntheticsMonitor.IApmSyntheticsMonitorAvailabilityConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_synthetics_monitor#max_allowed_failures_per_interval ApmSyntheticsMonitor#max_allowed_failures_per_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_monitor#max_allowed_failures_per_interval ApmSyntheticsMonitor#max_allowed_failures_per_interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxAllowedFailuresPerInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxAllowedFailuresPerInterval
@@ -16,7 +16,7 @@ namespace oci.ApmSyntheticsMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_synthetics_monitor#min_allowed_runs_per_interval ApmSyntheticsMonitor#min_allowed_runs_per_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_monitor#min_allowed_runs_per_interval ApmSyntheticsMonitor#min_allowed_runs_per_interval}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minAllowedRunsPerInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinAllowedRunsPerInterval

@@ -9,7 +9,7 @@ namespace oci.CoreInstance
     [JsiiByValue(fqn: "oci.coreInstance.CoreInstanceLicensingConfigs")]
     public class CoreInstanceLicensingConfigs : oci.CoreInstance.ICoreInstanceLicensingConfigs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance#type CoreInstance#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance#type CoreInstance#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.CoreInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance#license_type CoreInstance#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance#license_type CoreInstance#license_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseType

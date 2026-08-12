@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
     {
         /// <summary>output_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#output_location GenerativeAiAgentAgentEndpoint#output_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#output_location GenerativeAiAgentAgentEndpoint#output_location}
         /// </remarks>
         [JsiiProperty(name: "outputLocation", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointOutputConfigOutputLocation\"}")]
         oci.GenerativeAiAgentAgentEndpoint.IGenerativeAiAgentAgentEndpointOutputConfigOutputLocation OutputLocation
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#retention_period_in_minutes GenerativeAiAgentAgentEndpoint#retention_period_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#retention_period_in_minutes GenerativeAiAgentAgentEndpoint#retention_period_in_minutes}.</summary>
         [JsiiProperty(name: "retentionPeriodInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionPeriodInMinutes
@@ -37,7 +37,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
             /// <summary>output_location block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#output_location GenerativeAiAgentAgentEndpoint#output_location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#output_location GenerativeAiAgentAgentEndpoint#output_location}
             /// </remarks>
             [JsiiProperty(name: "outputLocation", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointOutputConfigOutputLocation\"}")]
             public oci.GenerativeAiAgentAgentEndpoint.IGenerativeAiAgentAgentEndpointOutputConfigOutputLocation OutputLocation
@@ -45,7 +45,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
                 get => GetInstanceProperty<oci.GenerativeAiAgentAgentEndpoint.IGenerativeAiAgentAgentEndpointOutputConfigOutputLocation>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#retention_period_in_minutes GenerativeAiAgentAgentEndpoint#retention_period_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#retention_period_in_minutes GenerativeAiAgentAgentEndpoint#retention_period_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPeriodInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionPeriodInMinutes

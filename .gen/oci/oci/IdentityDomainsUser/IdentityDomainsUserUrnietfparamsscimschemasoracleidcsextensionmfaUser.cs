@@ -11,7 +11,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>bypass_codes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#bypass_codes IdentityDomainsUser#bypass_codes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#bypass_codes IdentityDomainsUser#bypass_codes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUserBypassCodes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>devices block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#devices IdentityDomainsUser#devices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#devices IdentityDomainsUser#devices}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUserDevices" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -77,7 +77,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#login_attempts IdentityDomainsUser#login_attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#login_attempts IdentityDomainsUser#login_attempts}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loginAttempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LoginAttempts
@@ -86,7 +86,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#mfa_enabled_on IdentityDomainsUser#mfa_enabled_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#mfa_enabled_on IdentityDomainsUser#mfa_enabled_on}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mfaEnabledOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MfaEnabledOn
@@ -95,7 +95,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#mfa_ignored_apps IdentityDomainsUser#mfa_ignored_apps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#mfa_ignored_apps IdentityDomainsUser#mfa_ignored_apps}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mfaIgnoredApps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MfaIgnoredApps
@@ -104,7 +104,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#mfa_status IdentityDomainsUser#mfa_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#mfa_status IdentityDomainsUser#mfa_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mfaStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MfaStatus
@@ -113,7 +113,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#preferred_authentication_factor IdentityDomainsUser#preferred_authentication_factor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#preferred_authentication_factor IdentityDomainsUser#preferred_authentication_factor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredAuthenticationFactor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredAuthenticationFactor
@@ -122,7 +122,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#preferred_authentication_method IdentityDomainsUser#preferred_authentication_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#preferred_authentication_method IdentityDomainsUser#preferred_authentication_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredAuthenticationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredAuthenticationMethod
@@ -133,7 +133,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>preferred_device block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#preferred_device IdentityDomainsUser#preferred_device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#preferred_device IdentityDomainsUser#preferred_device}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preferredDevice", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUserPreferredDevice\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace oci.IdentityDomainsUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#preferred_third_party_vendor IdentityDomainsUser#preferred_third_party_vendor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#preferred_third_party_vendor IdentityDomainsUser#preferred_third_party_vendor}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferredThirdPartyVendor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreferredThirdPartyVendor
@@ -156,7 +156,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>trusted_user_agents block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user#trusted_user_agents IdentityDomainsUser#trusted_user_agents}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#trusted_user_agents IdentityDomainsUser#trusted_user_agents}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionmfaUserTrustedUserAgents" />)[]</para>
         /// </remarks>
         [JsiiOptional]

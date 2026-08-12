@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpDatastoreClusters
     [JsiiByValue(fqn: "oci.dataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClustersConfig")]
     public class DataOciOcvpDatastoreClustersConfig : oci.DataOciOcvpDatastoreClusters.IDataOciOcvpDatastoreClustersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore_clusters#compartment_id DataOciOcvpDatastoreClusters#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore_clusters#compartment_id DataOciOcvpDatastoreClusters#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOcvpDatastoreClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore_clusters#cluster_id DataOciOcvpDatastoreClusters#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore_clusters#cluster_id DataOciOcvpDatastoreClusters#cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterId
@@ -26,7 +26,7 @@ namespace oci.DataOciOcvpDatastoreClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore_clusters#datastore_cluster_id DataOciOcvpDatastoreClusters#datastore_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore_clusters#datastore_cluster_id DataOciOcvpDatastoreClusters#datastore_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datastoreClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatastoreClusterId
@@ -35,7 +35,7 @@ namespace oci.DataOciOcvpDatastoreClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore_clusters#display_name DataOciOcvpDatastoreClusters#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore_clusters#display_name DataOciOcvpDatastoreClusters#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -48,7 +48,7 @@ namespace oci.DataOciOcvpDatastoreClusters
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore_clusters#filter DataOciOcvpDatastoreClusters#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore_clusters#filter DataOciOcvpDatastoreClusters#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpDatastoreClusters.IDataOciOcvpDatastoreClustersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.DataOciOcvpDatastoreClusters
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore_clusters#id DataOciOcvpDatastoreClusters#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore_clusters#id DataOciOcvpDatastoreClusters#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciOcvpDatastoreClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_datastore_clusters#state DataOciOcvpDatastoreClusters#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_datastore_clusters#state DataOciOcvpDatastoreClusters#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

@@ -9,7 +9,7 @@ namespace oci.DataOciDataflowRunStatements
     [JsiiByValue(fqn: "oci.dataOciDataflowRunStatements.DataOciDataflowRunStatementsConfig")]
     public class DataOciDataflowRunStatementsConfig : oci.DataOciDataflowRunStatements.IDataOciDataflowRunStatementsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataflow_run_statements#run_id DataOciDataflowRunStatements#run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dataflow_run_statements#run_id DataOciDataflowRunStatements#run_id}.</summary>
         [JsiiProperty(name: "runId", typeJson: "{\"primitive\":\"string\"}")]
         public string RunId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataflowRunStatements
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataflow_run_statements#filter DataOciDataflowRunStatements#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dataflow_run_statements#filter DataOciDataflowRunStatements#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataflowRunStatements.IDataOciDataflowRunStatementsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataflowRunStatements
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataflow_run_statements#id DataOciDataflowRunStatements#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dataflow_run_statements#id DataOciDataflowRunStatements#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataflowRunStatements
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataflow_run_statements#state DataOciDataflowRunStatements#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dataflow_run_statements#state DataOciDataflowRunStatements#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

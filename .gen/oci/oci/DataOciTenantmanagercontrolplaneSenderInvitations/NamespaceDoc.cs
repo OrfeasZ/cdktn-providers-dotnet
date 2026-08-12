@@ -5,7 +5,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSenderInvitations
     /// <remarks>
     /// <h1><c>data_oci_tenantmanagercontrolplane_sender_invitations</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_sender_invitations"><c>data_oci_tenantmanagercontrolplane_sender_invitations</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_sender_invitations"><c>data_oci_tenantmanagercontrolplane_sender_invitations</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

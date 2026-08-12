@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelDeploymentModelStates.DataOciDatascienceModelDeploymentModelStatesFilter")]
     public class DataOciDatascienceModelDeploymentModelStatesFilter : oci.DataOciDatascienceModelDeploymentModelStates.IDataOciDatascienceModelDeploymentModelStatesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_model_deployment_model_states#name DataOciDatascienceModelDeploymentModelStates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model_deployment_model_states#name DataOciDatascienceModelDeploymentModelStates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_model_deployment_model_states#values DataOciDatascienceModelDeploymentModelStates#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model_deployment_model_states#values DataOciDatascienceModelDeploymentModelStates#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatascienceModelDeploymentModelStates
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_model_deployment_model_states#regex DataOciDatascienceModelDeploymentModelStates#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model_deployment_model_states#regex DataOciDatascienceModelDeploymentModelStates#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

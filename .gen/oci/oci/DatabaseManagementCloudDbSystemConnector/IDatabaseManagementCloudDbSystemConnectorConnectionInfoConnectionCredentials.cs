@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
     [JsiiInterface(nativeType: typeof(IDatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionCredentials), fullyQualifiedName: "oci.databaseManagementCloudDbSystemConnector.DatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionCredentials")]
     public interface IDatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#credential_name DatabaseManagementCloudDbSystemConnector#credential_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#credential_name DatabaseManagementCloudDbSystemConnector#credential_name}.</summary>
         [JsiiProperty(name: "credentialName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CredentialName
@@ -18,7 +18,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#credential_type DatabaseManagementCloudDbSystemConnector#credential_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#credential_type DatabaseManagementCloudDbSystemConnector#credential_type}.</summary>
         [JsiiProperty(name: "credentialType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CredentialType
@@ -29,7 +29,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#password_secret_id DatabaseManagementCloudDbSystemConnector#password_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#password_secret_id DatabaseManagementCloudDbSystemConnector#password_secret_id}.</summary>
         [JsiiProperty(name: "passwordSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PasswordSecretId
@@ -40,7 +40,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#role DatabaseManagementCloudDbSystemConnector#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#role DatabaseManagementCloudDbSystemConnector#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Role
@@ -51,7 +51,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#ssl_secret_id DatabaseManagementCloudDbSystemConnector#ssl_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#ssl_secret_id DatabaseManagementCloudDbSystemConnector#ssl_secret_id}.</summary>
         [JsiiProperty(name: "sslSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SslSecretId
@@ -62,7 +62,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#user_name DatabaseManagementCloudDbSystemConnector#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#user_name DatabaseManagementCloudDbSystemConnector#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserName
@@ -80,7 +80,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#credential_name DatabaseManagementCloudDbSystemConnector#credential_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#credential_name DatabaseManagementCloudDbSystemConnector#credential_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "credentialName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CredentialName
@@ -88,7 +88,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#credential_type DatabaseManagementCloudDbSystemConnector#credential_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#credential_type DatabaseManagementCloudDbSystemConnector#credential_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "credentialType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CredentialType
@@ -96,7 +96,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#password_secret_id DatabaseManagementCloudDbSystemConnector#password_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#password_secret_id DatabaseManagementCloudDbSystemConnector#password_secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "passwordSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PasswordSecretId
@@ -104,7 +104,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#role DatabaseManagementCloudDbSystemConnector#role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#role DatabaseManagementCloudDbSystemConnector#role}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Role
@@ -112,7 +112,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#ssl_secret_id DatabaseManagementCloudDbSystemConnector#ssl_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#ssl_secret_id DatabaseManagementCloudDbSystemConnector#ssl_secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sslSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SslSecretId
@@ -120,7 +120,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_connector#user_name DatabaseManagementCloudDbSystemConnector#user_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#user_name DatabaseManagementCloudDbSystemConnector#user_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserName

@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityAvailabilityDomain
     [JsiiByValue(fqn: "oci.dataOciIdentityAvailabilityDomain.DataOciIdentityAvailabilityDomainConfig")]
     public class DataOciIdentityAvailabilityDomainConfig : oci.DataOciIdentityAvailabilityDomain.IDataOciIdentityAvailabilityDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_availability_domain#compartment_id DataOciIdentityAvailabilityDomain#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_availability_domain#compartment_id DataOciIdentityAvailabilityDomain#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityAvailabilityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_availability_domain#ad_number DataOciIdentityAvailabilityDomain#ad_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_availability_domain#ad_number DataOciIdentityAvailabilityDomain#ad_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "adNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AdNumber
@@ -26,7 +26,7 @@ namespace oci.DataOciIdentityAvailabilityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_availability_domain#id DataOciIdentityAvailabilityDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_availability_domain#id DataOciIdentityAvailabilityDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubProfile
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubProfileConfig), fullyQualifiedName: "oci.dataOciOsManagementHubProfile.DataOciOsManagementHubProfileConfig")]
     public interface IDataOciOsManagementHubProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_profile#profile_id DataOciOsManagementHubProfile#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile#profile_id DataOciOsManagementHubProfile#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         string ProfileId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_profile#profile_id DataOciOsManagementHubProfile#profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile#profile_id DataOciOsManagementHubProfile#profile_id}.</summary>
             [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProfileId
             {

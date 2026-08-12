@@ -9,7 +9,7 @@ namespace oci.StackMonitoringMetricExtension
     [JsiiByValue(fqn: "oci.stackMonitoringMetricExtension.StackMonitoringMetricExtensionQueryPropertiesOutParamDetails")]
     public class StackMonitoringMetricExtensionQueryPropertiesOutParamDetails : oci.StackMonitoringMetricExtension.IStackMonitoringMetricExtensionQueryPropertiesOutParamDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_metric_extension#out_param_position StackMonitoringMetricExtension#out_param_position}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_metric_extension#out_param_position StackMonitoringMetricExtension#out_param_position}.</summary>
         [JsiiProperty(name: "outParamPosition", typeJson: "{\"primitive\":\"number\"}")]
         public double OutParamPosition
         {
@@ -17,7 +17,7 @@ namespace oci.StackMonitoringMetricExtension
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_metric_extension#out_param_type StackMonitoringMetricExtension#out_param_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_metric_extension#out_param_type StackMonitoringMetricExtension#out_param_type}.</summary>
         [JsiiProperty(name: "outParamType", typeJson: "{\"primitive\":\"string\"}")]
         public string OutParamType
         {
@@ -25,7 +25,7 @@ namespace oci.StackMonitoringMetricExtension
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_metric_extension#out_param_name StackMonitoringMetricExtension#out_param_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_metric_extension#out_param_name StackMonitoringMetricExtension#out_param_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outParamName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OutParamName

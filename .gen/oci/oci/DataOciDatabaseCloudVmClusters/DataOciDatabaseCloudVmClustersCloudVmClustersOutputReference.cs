@@ -227,6 +227,12 @@ namespace oci.DataOciDatabaseCloudVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "liveImageVersionDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseCloudVmClusters.DataOciDatabaseCloudVmClustersCloudVmClustersLiveImageVersionDetailsList\"}")]
+        public virtual oci.DataOciDatabaseCloudVmClusters.DataOciDatabaseCloudVmClustersCloudVmClustersLiveImageVersionDetailsList LiveImageVersionDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseCloudVmClusters.DataOciDatabaseCloudVmClustersCloudVmClustersLiveImageVersionDetailsList>()!;
+        }
+
         [JsiiProperty(name: "memorySizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MemorySizeInGbs
         {
@@ -255,6 +261,12 @@ namespace oci.DataOciDatabaseCloudVmClusters
         public virtual double OcpuCount
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "oracleLinuxVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OracleLinuxVersion
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "privateZoneId", typeJson: "{\"primitive\":\"string\"}")]
@@ -387,6 +399,12 @@ namespace oci.DataOciDatabaseCloudVmClusters
         public virtual string TimeZone
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "updateDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseCloudVmClusters.DataOciDatabaseCloudVmClustersCloudVmClustersUpdateDetailsList\"}")]
+        public virtual oci.DataOciDatabaseCloudVmClusters.DataOciDatabaseCloudVmClustersCloudVmClustersUpdateDetailsList UpdateDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseCloudVmClusters.DataOciDatabaseCloudVmClustersCloudVmClustersUpdateDetailsList>()!;
         }
 
         [JsiiProperty(name: "vipIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

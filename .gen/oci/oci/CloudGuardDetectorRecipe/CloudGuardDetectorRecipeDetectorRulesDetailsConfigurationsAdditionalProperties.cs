@@ -7,7 +7,7 @@ namespace oci.CloudGuardDetectorRecipe
     [JsiiByValue(fqn: "oci.cloudGuardDetectorRecipe.CloudGuardDetectorRecipeDetectorRulesDetailsConfigurationsAdditionalProperties")]
     public class CloudGuardDetectorRecipeDetectorRulesDetailsConfigurationsAdditionalProperties : oci.CloudGuardDetectorRecipe.ICloudGuardDetectorRecipeDetectorRulesDetailsConfigurationsAdditionalProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_guard_detector_recipe#key CloudGuardDetectorRecipe#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_detector_recipe#key CloudGuardDetectorRecipe#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -16,7 +16,7 @@ namespace oci.CloudGuardDetectorRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_guard_detector_recipe#property_type CloudGuardDetectorRecipe#property_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_detector_recipe#property_type CloudGuardDetectorRecipe#property_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "propertyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PropertyType
@@ -25,7 +25,7 @@ namespace oci.CloudGuardDetectorRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_guard_detector_recipe#value CloudGuardDetectorRecipe#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_detector_recipe#value CloudGuardDetectorRecipe#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

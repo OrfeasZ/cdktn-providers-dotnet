@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineWorkRequests
     [JsiiByValue(fqn: "oci.dataOciContainerengineWorkRequests.DataOciContainerengineWorkRequestsFilter")]
     public class DataOciContainerengineWorkRequestsFilter : oci.DataOciContainerengineWorkRequests.IDataOciContainerengineWorkRequestsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/containerengine_work_requests#name DataOciContainerengineWorkRequests#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_requests#name DataOciContainerengineWorkRequests#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciContainerengineWorkRequests
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/containerengine_work_requests#values DataOciContainerengineWorkRequests#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_requests#values DataOciContainerengineWorkRequests#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciContainerengineWorkRequests
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/containerengine_work_requests#regex DataOciContainerengineWorkRequests#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_requests#regex DataOciContainerengineWorkRequests#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

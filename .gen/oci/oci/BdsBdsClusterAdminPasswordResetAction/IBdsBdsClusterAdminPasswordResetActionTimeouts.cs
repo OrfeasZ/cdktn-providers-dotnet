@@ -7,7 +7,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
     [JsiiInterface(nativeType: typeof(IBdsBdsClusterAdminPasswordResetActionTimeouts), fullyQualifiedName: "oci.bdsBdsClusterAdminPasswordResetAction.BdsBdsClusterAdminPasswordResetActionTimeouts")]
     public interface IBdsBdsClusterAdminPasswordResetActionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_cluster_admin_password_reset_action#create BdsBdsClusterAdminPasswordResetAction#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_cluster_admin_password_reset_action#create BdsBdsClusterAdminPasswordResetAction#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_cluster_admin_password_reset_action#delete BdsBdsClusterAdminPasswordResetAction#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_cluster_admin_password_reset_action#delete BdsBdsClusterAdminPasswordResetAction#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_cluster_admin_password_reset_action#update BdsBdsClusterAdminPasswordResetAction#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_cluster_admin_password_reset_action#update BdsBdsClusterAdminPasswordResetAction#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_cluster_admin_password_reset_action#create BdsBdsClusterAdminPasswordResetAction#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_cluster_admin_password_reset_action#create BdsBdsClusterAdminPasswordResetAction#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_cluster_admin_password_reset_action#delete BdsBdsClusterAdminPasswordResetAction#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_cluster_admin_password_reset_action#delete BdsBdsClusterAdminPasswordResetAction#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.BdsBdsClusterAdminPasswordResetAction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_cluster_admin_password_reset_action#update BdsBdsClusterAdminPasswordResetAction#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_cluster_admin_password_reset_action#update BdsBdsClusterAdminPasswordResetAction#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

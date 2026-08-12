@@ -7,7 +7,7 @@ namespace oci.DataOciDataLabelingServiceAnnotationFormats
     [JsiiInterface(nativeType: typeof(IDataOciDataLabelingServiceAnnotationFormatsConfig), fullyQualifiedName: "oci.dataOciDataLabelingServiceAnnotationFormats.DataOciDataLabelingServiceAnnotationFormatsConfig")]
     public interface IDataOciDataLabelingServiceAnnotationFormatsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_labeling_service_annotation_formats#compartment_id DataOciDataLabelingServiceAnnotationFormats#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_labeling_service_annotation_formats#compartment_id DataOciDataLabelingServiceAnnotationFormats#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDataLabelingServiceAnnotationFormats
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_labeling_service_annotation_formats#filter DataOciDataLabelingServiceAnnotationFormats#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_labeling_service_annotation_formats#filter DataOciDataLabelingServiceAnnotationFormats#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataLabelingServiceAnnotationFormats.IDataOciDataLabelingServiceAnnotationFormatsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataLabelingServiceAnnotationFormats.DataOciDataLabelingServiceAnnotationFormatsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciDataLabelingServiceAnnotationFormats
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_labeling_service_annotation_formats#id DataOciDataLabelingServiceAnnotationFormats#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_labeling_service_annotation_formats#id DataOciDataLabelingServiceAnnotationFormats#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDataLabelingServiceAnnotationFormats
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_labeling_service_annotation_formats#compartment_id DataOciDataLabelingServiceAnnotationFormats#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_labeling_service_annotation_formats#compartment_id DataOciDataLabelingServiceAnnotationFormats#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciDataLabelingServiceAnnotationFormats
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_labeling_service_annotation_formats#filter DataOciDataLabelingServiceAnnotationFormats#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_labeling_service_annotation_formats#filter DataOciDataLabelingServiceAnnotationFormats#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataLabelingServiceAnnotationFormats.IDataOciDataLabelingServiceAnnotationFormatsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDataLabelingServiceAnnotationFormats
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_labeling_service_annotation_formats#id DataOciDataLabelingServiceAnnotationFormats#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_labeling_service_annotation_formats#id DataOciDataLabelingServiceAnnotationFormats#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

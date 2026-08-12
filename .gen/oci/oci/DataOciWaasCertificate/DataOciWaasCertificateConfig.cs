@@ -9,7 +9,7 @@ namespace oci.DataOciWaasCertificate
     [JsiiByValue(fqn: "oci.dataOciWaasCertificate.DataOciWaasCertificateConfig")]
     public class DataOciWaasCertificateConfig : oci.DataOciWaasCertificate.IDataOciWaasCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/waas_certificate#certificate_id DataOciWaasCertificate#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/waas_certificate#certificate_id DataOciWaasCertificate#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateId
         {

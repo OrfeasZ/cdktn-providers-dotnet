@@ -16,7 +16,7 @@
     "hashicorp/null@3.3.0",
     "tailscale/tailscale@0.29.2",
     "dmacvicar/libvirt@0.9.8",
-    "oracle/oci@8.26.0",
+    "oracle/oci@8.27.0",
     "hashicorp/azurerm@5.0.1",
     "Azure/azapi@2.12.0",
     "hashicorp/azuread@3.9.0",

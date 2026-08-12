@@ -7,7 +7,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciDatacatalogCatalogPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciDatacatalogCatalogPrivateEndpoint.DataOciDatacatalogCatalogPrivateEndpointConfig")]
     public interface IDataOciDatacatalogCatalogPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacatalog_catalog_private_endpoint#catalog_private_endpoint_id DataOciDatacatalogCatalogPrivateEndpoint#catalog_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacatalog_catalog_private_endpoint#catalog_private_endpoint_id DataOciDatacatalogCatalogPrivateEndpoint#catalog_private_endpoint_id}.</summary>
         [JsiiProperty(name: "catalogPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string CatalogPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatacatalogCatalogPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacatalog_catalog_private_endpoint#catalog_private_endpoint_id DataOciDatacatalogCatalogPrivateEndpoint#catalog_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacatalog_catalog_private_endpoint#catalog_private_endpoint_id DataOciDatacatalogCatalogPrivateEndpoint#catalog_private_endpoint_id}.</summary>
             [JsiiProperty(name: "catalogPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string CatalogPrivateEndpointId
             {

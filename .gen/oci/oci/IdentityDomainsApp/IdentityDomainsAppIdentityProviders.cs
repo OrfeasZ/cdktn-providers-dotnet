@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppIdentityProviders")]
     public class IdentityDomainsAppIdentityProviders : oci.IdentityDomainsApp.IIdentityDomainsAppIdentityProviders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

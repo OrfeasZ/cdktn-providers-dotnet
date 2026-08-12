@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudListenerServices.DataOciDatabaseManagementCloudListenerServicesFilter")]
     public class DataOciDatabaseManagementCloudListenerServicesFilter : oci.DataOciDatabaseManagementCloudListenerServices.IDataOciDatabaseManagementCloudListenerServicesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listener_services#name DataOciDatabaseManagementCloudListenerServices#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#name DataOciDatabaseManagementCloudListenerServices#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listener_services#values DataOciDatabaseManagementCloudListenerServices#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#values DataOciDatabaseManagementCloudListenerServices#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_listener_services#regex DataOciDatabaseManagementCloudListenerServices#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#regex DataOciDatabaseManagementCloudListenerServices#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

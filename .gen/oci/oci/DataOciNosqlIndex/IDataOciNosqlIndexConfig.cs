@@ -7,21 +7,21 @@ namespace oci.DataOciNosqlIndex
     [JsiiInterface(nativeType: typeof(IDataOciNosqlIndexConfig), fullyQualifiedName: "oci.dataOciNosqlIndex.DataOciNosqlIndexConfig")]
     public interface IDataOciNosqlIndexConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_index#compartment_id DataOciNosqlIndex#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_index#compartment_id DataOciNosqlIndex#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_index#index_name DataOciNosqlIndex#index_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_index#index_name DataOciNosqlIndex#index_name}.</summary>
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
         string IndexName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_index#table_name_or_id DataOciNosqlIndex#table_name_or_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_index#table_name_or_id DataOciNosqlIndex#table_name_or_id}.</summary>
         [JsiiProperty(name: "tableNameOrId", typeJson: "{\"primitive\":\"string\"}")]
         string TableNameOrId
         {
@@ -35,21 +35,21 @@ namespace oci.DataOciNosqlIndex
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_index#compartment_id DataOciNosqlIndex#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_index#compartment_id DataOciNosqlIndex#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_index#index_name DataOciNosqlIndex#index_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_index#index_name DataOciNosqlIndex#index_name}.</summary>
             [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
             public string IndexName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_index#table_name_or_id DataOciNosqlIndex#table_name_or_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_index#table_name_or_id DataOciNosqlIndex#table_name_or_id}.</summary>
             [JsiiProperty(name: "tableNameOrId", typeJson: "{\"primitive\":\"string\"}")]
             public string TableNameOrId
             {

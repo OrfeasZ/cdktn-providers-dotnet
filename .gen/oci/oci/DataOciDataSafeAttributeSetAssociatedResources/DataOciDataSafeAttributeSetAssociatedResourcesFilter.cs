@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
     [JsiiByValue(fqn: "oci.dataOciDataSafeAttributeSetAssociatedResources.DataOciDataSafeAttributeSetAssociatedResourcesFilter")]
     public class DataOciDataSafeAttributeSetAssociatedResourcesFilter : oci.DataOciDataSafeAttributeSetAssociatedResources.IDataOciDataSafeAttributeSetAssociatedResourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_attribute_set_associated_resources#name DataOciDataSafeAttributeSetAssociatedResources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_attribute_set_associated_resources#name DataOciDataSafeAttributeSetAssociatedResources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_attribute_set_associated_resources#values DataOciDataSafeAttributeSetAssociatedResources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_attribute_set_associated_resources#values DataOciDataSafeAttributeSetAssociatedResources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeAttributeSetAssociatedResources
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_attribute_set_associated_resources#regex DataOciDataSafeAttributeSetAssociatedResources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_attribute_set_associated_resources#regex DataOciDataSafeAttributeSetAssociatedResources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

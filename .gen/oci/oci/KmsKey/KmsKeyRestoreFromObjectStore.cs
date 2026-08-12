@@ -9,7 +9,7 @@ namespace oci.KmsKey
     [JsiiByValue(fqn: "oci.kmsKey.KmsKeyRestoreFromObjectStore")]
     public class KmsKeyRestoreFromObjectStore : oci.KmsKey.IKmsKeyRestoreFromObjectStore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_key#destination KmsKey#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_key#destination KmsKey#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         public string Destination
         {
@@ -17,7 +17,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_key#bucket KmsKey#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_key#bucket KmsKey#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -26,7 +26,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_key#namespace KmsKey#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_key#namespace KmsKey#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -35,7 +35,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_key#object KmsKey#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_key#object KmsKey#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Object
@@ -44,7 +44,7 @@ namespace oci.KmsKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_key#uri KmsKey#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_key#uri KmsKey#uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Uri

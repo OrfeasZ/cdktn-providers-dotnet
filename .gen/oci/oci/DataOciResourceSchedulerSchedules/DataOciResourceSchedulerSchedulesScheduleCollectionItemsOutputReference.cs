@@ -83,6 +83,12 @@ namespace oci.DataOciResourceSchedulerSchedules
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "localTimeZone", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LocalTimeZone
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "recurrenceDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RecurrenceDetails
         {

@@ -9,7 +9,7 @@ namespace oci.MediaServicesMediaAsset
     [JsiiByValue(fqn: "oci.mediaServicesMediaAsset.MediaServicesMediaAssetMetadata")]
     public class MediaServicesMediaAssetMetadata : oci.MediaServicesMediaAsset.IMediaServicesMediaAssetMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/media_services_media_asset#metadata MediaServicesMediaAsset#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/media_services_media_asset#metadata MediaServicesMediaAsset#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}")]
         public string Metadata
         {

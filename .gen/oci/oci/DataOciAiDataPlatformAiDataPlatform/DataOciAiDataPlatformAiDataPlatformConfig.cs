@@ -9,7 +9,7 @@ namespace oci.DataOciAiDataPlatformAiDataPlatform
     [JsiiByValue(fqn: "oci.dataOciAiDataPlatformAiDataPlatform.DataOciAiDataPlatformAiDataPlatformConfig")]
     public class DataOciAiDataPlatformAiDataPlatformConfig : oci.DataOciAiDataPlatformAiDataPlatform.IDataOciAiDataPlatformAiDataPlatformConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ai_data_platform_ai_data_platform#ai_data_platform_id DataOciAiDataPlatformAiDataPlatform#ai_data_platform_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_data_platform_ai_data_platform#ai_data_platform_id DataOciAiDataPlatformAiDataPlatform#ai_data_platform_id}.</summary>
         [JsiiProperty(name: "aiDataPlatformId", typeJson: "{\"primitive\":\"string\"}")]
         public string AiDataPlatformId
         {

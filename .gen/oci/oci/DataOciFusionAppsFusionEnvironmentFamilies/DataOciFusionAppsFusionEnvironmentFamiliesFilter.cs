@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentFamilies.DataOciFusionAppsFusionEnvironmentFamiliesFilter")]
     public class DataOciFusionAppsFusionEnvironmentFamiliesFilter : oci.DataOciFusionAppsFusionEnvironmentFamilies.IDataOciFusionAppsFusionEnvironmentFamiliesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_families#name DataOciFusionAppsFusionEnvironmentFamilies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_families#name DataOciFusionAppsFusionEnvironmentFamilies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_families#values DataOciFusionAppsFusionEnvironmentFamilies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_families#values DataOciFusionAppsFusionEnvironmentFamilies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentFamilies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_families#regex DataOciFusionAppsFusionEnvironmentFamilies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_families#regex DataOciFusionAppsFusionEnvironmentFamilies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

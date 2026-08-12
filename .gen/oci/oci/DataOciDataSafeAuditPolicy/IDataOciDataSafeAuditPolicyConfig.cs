@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeAuditPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAuditPolicyConfig), fullyQualifiedName: "oci.dataOciDataSafeAuditPolicy.DataOciDataSafeAuditPolicyConfig")]
     public interface IDataOciDataSafeAuditPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_audit_policy#audit_policy_id DataOciDataSafeAuditPolicy#audit_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_audit_policy#audit_policy_id DataOciDataSafeAuditPolicy#audit_policy_id}.</summary>
         [JsiiProperty(name: "auditPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string AuditPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeAuditPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_audit_policy#audit_policy_id DataOciDataSafeAuditPolicy#audit_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_audit_policy#audit_policy_id DataOciDataSafeAuditPolicy#audit_policy_id}.</summary>
             [JsiiProperty(name: "auditPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string AuditPolicyId
             {

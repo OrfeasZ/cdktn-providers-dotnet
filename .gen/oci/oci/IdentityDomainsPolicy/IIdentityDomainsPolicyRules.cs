@@ -7,14 +7,14 @@ namespace oci.IdentityDomainsPolicy
     [JsiiInterface(nativeType: typeof(IIdentityDomainsPolicyRules), fullyQualifiedName: "oci.identityDomainsPolicy.IdentityDomainsPolicyRules")]
     public interface IIdentityDomainsPolicyRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_policy#sequence IdentityDomainsPolicy#sequence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_policy#sequence IdentityDomainsPolicy#sequence}.</summary>
         [JsiiProperty(name: "sequence", typeJson: "{\"primitive\":\"number\"}")]
         double Sequence
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_policy#value IdentityDomainsPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_policy#value IdentityDomainsPolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace oci.IdentityDomainsPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_policy#sequence IdentityDomainsPolicy#sequence}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_policy#sequence IdentityDomainsPolicy#sequence}.</summary>
             [JsiiProperty(name: "sequence", typeJson: "{\"primitive\":\"number\"}")]
             public double Sequence
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_policy#value IdentityDomainsPolicy#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_policy#value IdentityDomainsPolicy#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

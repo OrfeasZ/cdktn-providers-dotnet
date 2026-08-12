@@ -5,7 +5,7 @@ namespace oci.NetworkFirewallNetworkFirewall
     /// <remarks>
     /// <h1><c>oci_network_firewall_network_firewall</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall"><c>oci_network_firewall_network_firewall</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall"><c>oci_network_firewall_network_firewall</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

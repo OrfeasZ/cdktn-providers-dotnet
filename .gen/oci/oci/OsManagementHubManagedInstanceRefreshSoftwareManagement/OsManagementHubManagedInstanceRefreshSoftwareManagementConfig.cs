@@ -9,7 +9,7 @@ namespace oci.OsManagementHubManagedInstanceRefreshSoftwareManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceRefreshSoftwareManagement.OsManagementHubManagedInstanceRefreshSoftwareManagementConfig")]
     public class OsManagementHubManagedInstanceRefreshSoftwareManagementConfig : oci.OsManagementHubManagedInstanceRefreshSoftwareManagement.IOsManagementHubManagedInstanceRefreshSoftwareManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_refresh_software_management#managed_instance_id OsManagementHubManagedInstanceRefreshSoftwareManagement#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_refresh_software_management#managed_instance_id OsManagementHubManagedInstanceRefreshSoftwareManagement#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubManagedInstanceRefreshSoftwareManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_refresh_software_management#id OsManagementHubManagedInstanceRefreshSoftwareManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_refresh_software_management#id OsManagementHubManagedInstanceRefreshSoftwareManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.OsManagementHubManagedInstanceRefreshSoftwareManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instance_refresh_software_management#timeouts OsManagementHubManagedInstanceRefreshSoftwareManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_refresh_software_management#timeouts OsManagementHubManagedInstanceRefreshSoftwareManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceRefreshSoftwareManagement.OsManagementHubManagedInstanceRefreshSoftwareManagementTimeouts\"}", isOptional: true)]

@@ -7,14 +7,14 @@ namespace oci.DataOciFileStorageFileSystemQuotaRule
     [JsiiInterface(nativeType: typeof(IDataOciFileStorageFileSystemQuotaRuleConfig), fullyQualifiedName: "oci.dataOciFileStorageFileSystemQuotaRule.DataOciFileStorageFileSystemQuotaRuleConfig")]
     public interface IDataOciFileStorageFileSystemQuotaRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_file_system_quota_rule#file_system_id DataOciFileStorageFileSystemQuotaRule#file_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_file_system_quota_rule#file_system_id DataOciFileStorageFileSystemQuotaRule#file_system_id}.</summary>
         [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string FileSystemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_file_system_quota_rule#are_violators_only DataOciFileStorageFileSystemQuotaRule#are_violators_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_file_system_quota_rule#are_violators_only DataOciFileStorageFileSystemQuotaRule#are_violators_only}.</summary>
         [JsiiProperty(name: "areViolatorsOnly", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AreViolatorsOnly
@@ -25,7 +25,7 @@ namespace oci.DataOciFileStorageFileSystemQuotaRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_file_system_quota_rule#quota_rule_id DataOciFileStorageFileSystemQuotaRule#quota_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_file_system_quota_rule#quota_rule_id DataOciFileStorageFileSystemQuotaRule#quota_rule_id}.</summary>
         [JsiiProperty(name: "quotaRuleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? QuotaRuleId
@@ -43,14 +43,14 @@ namespace oci.DataOciFileStorageFileSystemQuotaRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_file_system_quota_rule#file_system_id DataOciFileStorageFileSystemQuotaRule#file_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_file_system_quota_rule#file_system_id DataOciFileStorageFileSystemQuotaRule#file_system_id}.</summary>
             [JsiiProperty(name: "fileSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string FileSystemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_file_system_quota_rule#are_violators_only DataOciFileStorageFileSystemQuotaRule#are_violators_only}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_file_system_quota_rule#are_violators_only DataOciFileStorageFileSystemQuotaRule#are_violators_only}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "areViolatorsOnly", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AreViolatorsOnly
@@ -58,7 +58,7 @@ namespace oci.DataOciFileStorageFileSystemQuotaRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/file_storage_file_system_quota_rule#quota_rule_id DataOciFileStorageFileSystemQuotaRule#quota_rule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_file_system_quota_rule#quota_rule_id DataOciFileStorageFileSystemQuotaRule#quota_rule_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "quotaRuleId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? QuotaRuleId

@@ -7,7 +7,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouses
     [JsiiByValue(fqn: "oci.dataOciOpsiOperationsInsightsWarehouses.DataOciOpsiOperationsInsightsWarehousesConfig")]
     public class DataOciOpsiOperationsInsightsWarehousesConfig : oci.DataOciOpsiOperationsInsightsWarehouses.IDataOciOpsiOperationsInsightsWarehousesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouses#compartment_id DataOciOpsiOperationsInsightsWarehouses#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouses#compartment_id DataOciOpsiOperationsInsightsWarehouses#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouses
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouses#display_name DataOciOpsiOperationsInsightsWarehouses#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouses#display_name DataOciOpsiOperationsInsightsWarehouses#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouses
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouses#filter DataOciOpsiOperationsInsightsWarehouses#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouses#filter DataOciOpsiOperationsInsightsWarehouses#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpsiOperationsInsightsWarehouses.IDataOciOpsiOperationsInsightsWarehousesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouses#id DataOciOpsiOperationsInsightsWarehouses#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouses#id DataOciOpsiOperationsInsightsWarehouses#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouses
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouses#state DataOciOpsiOperationsInsightsWarehouses#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouses#state DataOciOpsiOperationsInsightsWarehouses#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? State

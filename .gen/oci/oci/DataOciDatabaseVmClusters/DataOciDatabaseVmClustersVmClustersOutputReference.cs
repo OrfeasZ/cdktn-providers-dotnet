@@ -185,6 +185,12 @@ namespace oci.DataOciDatabaseVmClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "liveImageVersionDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseVmClusters.DataOciDatabaseVmClustersVmClustersLiveImageVersionDetailsList\"}")]
+        public virtual oci.DataOciDatabaseVmClusters.DataOciDatabaseVmClustersVmClustersLiveImageVersionDetailsList LiveImageVersionDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseVmClusters.DataOciDatabaseVmClustersVmClustersLiveImageVersionDetailsList>()!;
+        }
+
         [JsiiProperty(name: "memorySizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MemorySizeInGbs
         {
@@ -201,6 +207,12 @@ namespace oci.DataOciDatabaseVmClusters
         public virtual double OcpusEnabled
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "oracleLinuxVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OracleLinuxVersion
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "recoStoragePercentage", typeJson: "{\"primitive\":\"number\"}")]
@@ -261,6 +273,12 @@ namespace oci.DataOciDatabaseVmClusters
         public virtual string TimeZone
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "updateDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseVmClusters.DataOciDatabaseVmClustersVmClustersUpdateDetailsList\"}")]
+        public virtual oci.DataOciDatabaseVmClusters.DataOciDatabaseVmClustersVmClustersUpdateDetailsList UpdateDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseVmClusters.DataOciDatabaseVmClustersVmClustersUpdateDetailsList>()!;
         }
 
         [JsiiProperty(name: "vmBackupStorageType", typeJson: "{\"primitive\":\"string\"}")]

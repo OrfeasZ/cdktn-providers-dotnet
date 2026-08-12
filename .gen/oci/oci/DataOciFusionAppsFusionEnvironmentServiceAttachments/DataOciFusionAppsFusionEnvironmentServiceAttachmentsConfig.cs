@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentServiceAttachments.DataOciFusionAppsFusionEnvironmentServiceAttachmentsConfig")]
     public class DataOciFusionAppsFusionEnvironmentServiceAttachmentsConfig : oci.DataOciFusionAppsFusionEnvironmentServiceAttachments.IDataOciFusionAppsFusionEnvironmentServiceAttachmentsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#fusion_environment_id DataOciFusionAppsFusionEnvironmentServiceAttachments#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#fusion_environment_id DataOciFusionAppsFusionEnvironmentServiceAttachments#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string FusionEnvironmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#display_name DataOciFusionAppsFusionEnvironmentServiceAttachments#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#display_name DataOciFusionAppsFusionEnvironmentServiceAttachments#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#filter DataOciFusionAppsFusionEnvironmentServiceAttachments#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#filter DataOciFusionAppsFusionEnvironmentServiceAttachments#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFusionAppsFusionEnvironmentServiceAttachments.IDataOciFusionAppsFusionEnvironmentServiceAttachmentsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#id DataOciFusionAppsFusionEnvironmentServiceAttachments#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#id DataOciFusionAppsFusionEnvironmentServiceAttachments#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#service_instance_type DataOciFusionAppsFusionEnvironmentServiceAttachments#service_instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#service_instance_type DataOciFusionAppsFusionEnvironmentServiceAttachments#service_instance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceInstanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceInstanceType
@@ -83,7 +83,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentServiceAttachments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#state DataOciFusionAppsFusionEnvironmentServiceAttachments#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_service_attachments#state DataOciFusionAppsFusionEnvironmentServiceAttachments#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

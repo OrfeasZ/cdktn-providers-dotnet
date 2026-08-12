@@ -5,7 +5,7 @@ namespace oci.EmailDkim
     /// <remarks>
     /// <h1><c>oci_email_dkim</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/email_dkim"><c>oci_email_dkim</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/email_dkim"><c>oci_email_dkim</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

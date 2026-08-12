@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardProblemEntities
     [JsiiByValue(fqn: "oci.dataOciCloudGuardProblemEntities.DataOciCloudGuardProblemEntitiesConfig")]
     public class DataOciCloudGuardProblemEntitiesConfig : oci.DataOciCloudGuardProblemEntities.IDataOciCloudGuardProblemEntitiesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_problem_entities#problem_id DataOciCloudGuardProblemEntities#problem_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_problem_entities#problem_id DataOciCloudGuardProblemEntities#problem_id}.</summary>
         [JsiiProperty(name: "problemId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProblemId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardProblemEntities
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_problem_entities#filter DataOciCloudGuardProblemEntities#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_problem_entities#filter DataOciCloudGuardProblemEntities#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudGuardProblemEntities.IDataOciCloudGuardProblemEntitiesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciCloudGuardProblemEntities
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_problem_entities#id DataOciCloudGuardProblemEntities#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_problem_entities#id DataOciCloudGuardProblemEntities#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

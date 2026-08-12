@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
     [JsiiInterface(nativeType: typeof(IDatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString), fullyQualifiedName: "oci.databaseManagementCloudDbSystemDiscovery.DatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString")]
     public interface IDatabaseManagementCloudDbSystemDiscoveryPatchOperationsValueConnectorConnectionInfoConnectionString
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#host_name DatabaseManagementCloudDbSystemDiscovery#host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#host_name DatabaseManagementCloudDbSystemDiscovery#host_name}.</summary>
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostName
@@ -18,7 +18,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#hosts DatabaseManagementCloudDbSystemDiscovery#hosts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#hosts DatabaseManagementCloudDbSystemDiscovery#hosts}.</summary>
         [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Hosts
@@ -29,7 +29,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#port DatabaseManagementCloudDbSystemDiscovery#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#port DatabaseManagementCloudDbSystemDiscovery#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Port
@@ -40,7 +40,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#protocol DatabaseManagementCloudDbSystemDiscovery#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#protocol DatabaseManagementCloudDbSystemDiscovery#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Protocol
@@ -51,7 +51,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#service DatabaseManagementCloudDbSystemDiscovery#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#service DatabaseManagementCloudDbSystemDiscovery#service}.</summary>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Service
@@ -69,7 +69,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#host_name DatabaseManagementCloudDbSystemDiscovery#host_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#host_name DatabaseManagementCloudDbSystemDiscovery#host_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostName
@@ -77,7 +77,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#hosts DatabaseManagementCloudDbSystemDiscovery#hosts}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#hosts DatabaseManagementCloudDbSystemDiscovery#hosts}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Hosts
@@ -85,7 +85,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#port DatabaseManagementCloudDbSystemDiscovery#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#port DatabaseManagementCloudDbSystemDiscovery#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Port
@@ -93,7 +93,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#protocol DatabaseManagementCloudDbSystemDiscovery#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#protocol DatabaseManagementCloudDbSystemDiscovery#protocol}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Protocol
@@ -101,7 +101,7 @@ namespace oci.DatabaseManagementCloudDbSystemDiscovery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_system_discovery#service DatabaseManagementCloudDbSystemDiscovery#service}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_discovery#service DatabaseManagementCloudDbSystemDiscovery#service}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Service

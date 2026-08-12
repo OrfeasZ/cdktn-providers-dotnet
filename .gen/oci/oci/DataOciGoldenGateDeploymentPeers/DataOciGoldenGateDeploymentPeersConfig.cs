@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateDeploymentPeers
     [JsiiByValue(fqn: "oci.dataOciGoldenGateDeploymentPeers.DataOciGoldenGateDeploymentPeersConfig")]
     public class DataOciGoldenGateDeploymentPeersConfig : oci.DataOciGoldenGateDeploymentPeers.IDataOciGoldenGateDeploymentPeersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_deployment_peers#deployment_id DataOciGoldenGateDeploymentPeers#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_deployment_peers#deployment_id DataOciGoldenGateDeploymentPeers#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateDeploymentPeers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_deployment_peers#display_name DataOciGoldenGateDeploymentPeers#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_deployment_peers#display_name DataOciGoldenGateDeploymentPeers#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciGoldenGateDeploymentPeers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_deployment_peers#filter DataOciGoldenGateDeploymentPeers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_deployment_peers#filter DataOciGoldenGateDeploymentPeers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateDeploymentPeers.IDataOciGoldenGateDeploymentPeersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciGoldenGateDeploymentPeers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_deployment_peers#id DataOciGoldenGateDeploymentPeers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_deployment_peers#id DataOciGoldenGateDeploymentPeers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciGoldenGateDeploymentPeers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_deployment_peers#state DataOciGoldenGateDeploymentPeers#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_deployment_peers#state DataOciGoldenGateDeploymentPeers#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

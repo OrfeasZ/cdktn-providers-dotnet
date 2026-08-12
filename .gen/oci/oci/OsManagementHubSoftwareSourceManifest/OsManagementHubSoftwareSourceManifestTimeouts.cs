@@ -7,7 +7,7 @@ namespace oci.OsManagementHubSoftwareSourceManifest
     [JsiiByValue(fqn: "oci.osManagementHubSoftwareSourceManifest.OsManagementHubSoftwareSourceManifestTimeouts")]
     public class OsManagementHubSoftwareSourceManifestTimeouts : oci.OsManagementHubSoftwareSourceManifest.IOsManagementHubSoftwareSourceManifestTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_software_source_manifest#create OsManagementHubSoftwareSourceManifest#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_software_source_manifest#create OsManagementHubSoftwareSourceManifest#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubSoftwareSourceManifest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_software_source_manifest#delete OsManagementHubSoftwareSourceManifest#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_software_source_manifest#delete OsManagementHubSoftwareSourceManifest#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubSoftwareSourceManifest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_software_source_manifest#update OsManagementHubSoftwareSourceManifest#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_software_source_manifest#update OsManagementHubSoftwareSourceManifest#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

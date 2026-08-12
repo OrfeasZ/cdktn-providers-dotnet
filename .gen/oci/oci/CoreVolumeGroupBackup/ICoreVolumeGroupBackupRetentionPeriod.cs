@@ -7,14 +7,14 @@ namespace oci.CoreVolumeGroupBackup
     [JsiiInterface(nativeType: typeof(ICoreVolumeGroupBackupRetentionPeriod), fullyQualifiedName: "oci.coreVolumeGroupBackup.CoreVolumeGroupBackupRetentionPeriod")]
     public interface ICoreVolumeGroupBackupRetentionPeriod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume_group_backup#retention_time_amount CoreVolumeGroupBackup#retention_time_amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume_group_backup#retention_time_amount CoreVolumeGroupBackup#retention_time_amount}.</summary>
         [JsiiProperty(name: "retentionTimeAmount", typeJson: "{\"primitive\":\"number\"}")]
         double RetentionTimeAmount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume_group_backup#retention_time_unit CoreVolumeGroupBackup#retention_time_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume_group_backup#retention_time_unit CoreVolumeGroupBackup#retention_time_unit}.</summary>
         [JsiiProperty(name: "retentionTimeUnit", typeJson: "{\"primitive\":\"string\"}")]
         string RetentionTimeUnit
         {
@@ -28,14 +28,14 @@ namespace oci.CoreVolumeGroupBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume_group_backup#retention_time_amount CoreVolumeGroupBackup#retention_time_amount}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume_group_backup#retention_time_amount CoreVolumeGroupBackup#retention_time_amount}.</summary>
             [JsiiProperty(name: "retentionTimeAmount", typeJson: "{\"primitive\":\"number\"}")]
             public double RetentionTimeAmount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume_group_backup#retention_time_unit CoreVolumeGroupBackup#retention_time_unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume_group_backup#retention_time_unit CoreVolumeGroupBackup#retention_time_unit}.</summary>
             [JsiiProperty(name: "retentionTimeUnit", typeJson: "{\"primitive\":\"string\"}")]
             public string RetentionTimeUnit
             {

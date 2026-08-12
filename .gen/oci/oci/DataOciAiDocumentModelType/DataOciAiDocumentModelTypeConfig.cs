@@ -9,7 +9,7 @@ namespace oci.DataOciAiDocumentModelType
     [JsiiByValue(fqn: "oci.dataOciAiDocumentModelType.DataOciAiDocumentModelTypeConfig")]
     public class DataOciAiDocumentModelTypeConfig : oci.DataOciAiDocumentModelType.IDataOciAiDocumentModelTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ai_document_model_type#model_type DataOciAiDocumentModelType#model_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_document_model_type#model_type DataOciAiDocumentModelType#model_type}.</summary>
         [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelType
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAiDocumentModelType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ai_document_model_type#compartment_id DataOciAiDocumentModelType#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_document_model_type#compartment_id DataOciAiDocumentModelType#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.DataOciAiDocumentModelType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ai_document_model_type#id DataOciAiDocumentModelType#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_document_model_type#id DataOciAiDocumentModelType#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DataOciAiDocumentModelType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ai_document_model_type#model_sub_type DataOciAiDocumentModelType#model_sub_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_document_model_type#model_sub_type DataOciAiDocumentModelType#model_sub_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelSubType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelSubType

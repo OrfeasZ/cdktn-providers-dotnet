@@ -9,7 +9,7 @@ namespace oci.RedisOciCacheConfigSet
     [JsiiByValue(fqn: "oci.redisOciCacheConfigSet.RedisOciCacheConfigSetConfigurationDetailsItems")]
     public class RedisOciCacheConfigSetConfigurationDetailsItems : oci.RedisOciCacheConfigSet.IRedisOciCacheConfigSetConfigurationDetailsItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_config_set#config_key RedisOciCacheConfigSet#config_key}.</summary>
         [JsiiProperty(name: "configKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigKey
         {
@@ -17,7 +17,7 @@ namespace oci.RedisOciCacheConfigSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_config_set#config_value RedisOciCacheConfigSet#config_value}.</summary>
         [JsiiProperty(name: "configValue", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigValue
         {

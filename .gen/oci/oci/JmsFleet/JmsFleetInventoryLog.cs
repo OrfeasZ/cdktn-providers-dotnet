@@ -9,7 +9,7 @@ namespace oci.JmsFleet
     [JsiiByValue(fqn: "oci.jmsFleet.JmsFleetInventoryLog")]
     public class JmsFleetInventoryLog : oci.JmsFleet.IJmsFleetInventoryLog
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_fleet#log_group_id JmsFleet#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/jms_fleet#log_group_id JmsFleet#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.JmsFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/jms_fleet#log_id JmsFleet#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/jms_fleet#log_id JmsFleet#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogId
         {

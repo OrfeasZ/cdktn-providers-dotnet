@@ -7,7 +7,7 @@ namespace oci.RecoveryProtectedDatabase
     [JsiiByValue(fqn: "oci.recoveryProtectedDatabase.RecoveryProtectedDatabaseTimeouts")]
     public class RecoveryProtectedDatabaseTimeouts : oci.RecoveryProtectedDatabase.IRecoveryProtectedDatabaseTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/recovery_protected_database#create RecoveryProtectedDatabase#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/recovery_protected_database#create RecoveryProtectedDatabase#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.RecoveryProtectedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/recovery_protected_database#delete RecoveryProtectedDatabase#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/recovery_protected_database#delete RecoveryProtectedDatabase#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.RecoveryProtectedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/recovery_protected_database#update RecoveryProtectedDatabase#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/recovery_protected_database#update RecoveryProtectedDatabase#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

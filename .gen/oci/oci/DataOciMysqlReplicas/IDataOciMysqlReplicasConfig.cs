@@ -7,14 +7,14 @@ namespace oci.DataOciMysqlReplicas
     [JsiiInterface(nativeType: typeof(IDataOciMysqlReplicasConfig), fullyQualifiedName: "oci.dataOciMysqlReplicas.DataOciMysqlReplicasConfig")]
     public interface IDataOciMysqlReplicasConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#compartment_id DataOciMysqlReplicas#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#compartment_id DataOciMysqlReplicas#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#configuration_id DataOciMysqlReplicas#configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#configuration_id DataOciMysqlReplicas#configuration_id}.</summary>
         [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfigurationId
@@ -25,7 +25,7 @@ namespace oci.DataOciMysqlReplicas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#db_system_id DataOciMysqlReplicas#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#db_system_id DataOciMysqlReplicas#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbSystemId
@@ -36,7 +36,7 @@ namespace oci.DataOciMysqlReplicas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#display_name DataOciMysqlReplicas#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#display_name DataOciMysqlReplicas#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -49,7 +49,7 @@ namespace oci.DataOciMysqlReplicas
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#filter DataOciMysqlReplicas#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#filter DataOciMysqlReplicas#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMysqlReplicas.IDataOciMysqlReplicasFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMysqlReplicas.DataOciMysqlReplicasFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.DataOciMysqlReplicas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#id DataOciMysqlReplicas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#id DataOciMysqlReplicas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciMysqlReplicas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#is_up_to_date DataOciMysqlReplicas#is_up_to_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#is_up_to_date DataOciMysqlReplicas#is_up_to_date}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -91,7 +91,7 @@ namespace oci.DataOciMysqlReplicas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#replica_id DataOciMysqlReplicas#replica_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#replica_id DataOciMysqlReplicas#replica_id}.</summary>
         [JsiiProperty(name: "replicaId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReplicaId
@@ -102,7 +102,7 @@ namespace oci.DataOciMysqlReplicas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#state DataOciMysqlReplicas#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#state DataOciMysqlReplicas#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -120,14 +120,14 @@ namespace oci.DataOciMysqlReplicas
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#compartment_id DataOciMysqlReplicas#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#compartment_id DataOciMysqlReplicas#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#configuration_id DataOciMysqlReplicas#configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#configuration_id DataOciMysqlReplicas#configuration_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfigurationId
@@ -135,7 +135,7 @@ namespace oci.DataOciMysqlReplicas
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#db_system_id DataOciMysqlReplicas#db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#db_system_id DataOciMysqlReplicas#db_system_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbSystemId
@@ -143,7 +143,7 @@ namespace oci.DataOciMysqlReplicas
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#display_name DataOciMysqlReplicas#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#display_name DataOciMysqlReplicas#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -153,7 +153,7 @@ namespace oci.DataOciMysqlReplicas
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#filter DataOciMysqlReplicas#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#filter DataOciMysqlReplicas#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMysqlReplicas.IDataOciMysqlReplicasFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -163,7 +163,7 @@ namespace oci.DataOciMysqlReplicas
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#id DataOciMysqlReplicas#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#id DataOciMysqlReplicas#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -175,7 +175,7 @@ namespace oci.DataOciMysqlReplicas
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#is_up_to_date DataOciMysqlReplicas#is_up_to_date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#is_up_to_date DataOciMysqlReplicas#is_up_to_date}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -186,7 +186,7 @@ namespace oci.DataOciMysqlReplicas
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#replica_id DataOciMysqlReplicas#replica_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#replica_id DataOciMysqlReplicas#replica_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replicaId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReplicaId
@@ -194,7 +194,7 @@ namespace oci.DataOciMysqlReplicas
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_replicas#state DataOciMysqlReplicas#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replicas#state DataOciMysqlReplicas#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

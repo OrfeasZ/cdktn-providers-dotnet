@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiCluster
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiDedicatedAiCluster.DataOciGenerativeAiDedicatedAiClusterConfig")]
     public class DataOciGenerativeAiDedicatedAiClusterConfig : oci.DataOciGenerativeAiDedicatedAiCluster.IDataOciGenerativeAiDedicatedAiClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_dedicated_ai_cluster#dedicated_ai_cluster_id DataOciGenerativeAiDedicatedAiCluster#dedicated_ai_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_dedicated_ai_cluster#dedicated_ai_cluster_id DataOciGenerativeAiDedicatedAiCluster#dedicated_ai_cluster_id}.</summary>
         [JsiiProperty(name: "dedicatedAiClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string DedicatedAiClusterId
         {

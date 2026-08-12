@@ -7,7 +7,7 @@ namespace oci.DataOciVbsInstVbsInstance
     [JsiiInterface(nativeType: typeof(IDataOciVbsInstVbsInstanceConfig), fullyQualifiedName: "oci.dataOciVbsInstVbsInstance.DataOciVbsInstVbsInstanceConfig")]
     public interface IDataOciVbsInstVbsInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/vbs_inst_vbs_instance#vbs_instance_id DataOciVbsInstVbsInstance#vbs_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/vbs_inst_vbs_instance#vbs_instance_id DataOciVbsInstVbsInstance#vbs_instance_id}.</summary>
         [JsiiProperty(name: "vbsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string VbsInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciVbsInstVbsInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/vbs_inst_vbs_instance#vbs_instance_id DataOciVbsInstVbsInstance#vbs_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/vbs_inst_vbs_instance#vbs_instance_id DataOciVbsInstVbsInstance#vbs_instance_id}.</summary>
             [JsiiProperty(name: "vbsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string VbsInstanceId
             {

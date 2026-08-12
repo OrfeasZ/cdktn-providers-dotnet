@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudOmHubMultiCloudMetadata
     [JsiiByValue(fqn: "oci.dataOciMulticloudOmHubMultiCloudMetadata.DataOciMulticloudOmHubMultiCloudMetadataConfig")]
     public class DataOciMulticloudOmHubMultiCloudMetadataConfig : oci.DataOciMulticloudOmHubMultiCloudMetadata.IDataOciMulticloudOmHubMultiCloudMetadataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata#compartment_id DataOciMulticloudOmHubMultiCloudMetadata#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata#compartment_id DataOciMulticloudOmHubMultiCloudMetadata#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudOmHubMultiCloudMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata#subscription_id DataOciMulticloudOmHubMultiCloudMetadata#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata#subscription_id DataOciMulticloudOmHubMultiCloudMetadata#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciMulticloudOmHubMultiCloudMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata#id DataOciMulticloudOmHubMultiCloudMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_cloud_metadata#id DataOciMulticloudOmHubMultiCloudMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

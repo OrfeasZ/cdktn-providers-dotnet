@@ -7,14 +7,14 @@ namespace oci.FileStorageExport
     [JsiiInterface(nativeType: typeof(IFileStorageExportExportOptions), fullyQualifiedName: "oci.fileStorageExport.FileStorageExportExportOptions")]
     public interface IFileStorageExportExportOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#source FileStorageExport#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#source FileStorageExport#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
         string Source
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#access FileStorageExport#access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#access FileStorageExport#access}.</summary>
         [JsiiProperty(name: "access", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Access
@@ -25,7 +25,7 @@ namespace oci.FileStorageExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#allowed_auth FileStorageExport#allowed_auth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#allowed_auth FileStorageExport#allowed_auth}.</summary>
         [JsiiProperty(name: "allowedAuth", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AllowedAuth
@@ -36,7 +36,7 @@ namespace oci.FileStorageExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#anonymous_gid FileStorageExport#anonymous_gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#anonymous_gid FileStorageExport#anonymous_gid}.</summary>
         [JsiiProperty(name: "anonymousGid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AnonymousGid
@@ -47,7 +47,7 @@ namespace oci.FileStorageExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#anonymous_uid FileStorageExport#anonymous_uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#anonymous_uid FileStorageExport#anonymous_uid}.</summary>
         [JsiiProperty(name: "anonymousUid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AnonymousUid
@@ -58,7 +58,7 @@ namespace oci.FileStorageExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#identity_squash FileStorageExport#identity_squash}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#identity_squash FileStorageExport#identity_squash}.</summary>
         [JsiiProperty(name: "identitySquash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdentitySquash
@@ -69,7 +69,7 @@ namespace oci.FileStorageExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#is_anonymous_access_allowed FileStorageExport#is_anonymous_access_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#is_anonymous_access_allowed FileStorageExport#is_anonymous_access_allowed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -83,7 +83,7 @@ namespace oci.FileStorageExport
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#require_privileged_source_port FileStorageExport#require_privileged_source_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#require_privileged_source_port FileStorageExport#require_privileged_source_port}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -104,14 +104,14 @@ namespace oci.FileStorageExport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#source FileStorageExport#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#source FileStorageExport#source}.</summary>
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
             public string Source
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#access FileStorageExport#access}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#access FileStorageExport#access}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "access", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Access
@@ -119,7 +119,7 @@ namespace oci.FileStorageExport
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#allowed_auth FileStorageExport#allowed_auth}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#allowed_auth FileStorageExport#allowed_auth}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowedAuth", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AllowedAuth
@@ -127,7 +127,7 @@ namespace oci.FileStorageExport
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#anonymous_gid FileStorageExport#anonymous_gid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#anonymous_gid FileStorageExport#anonymous_gid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "anonymousGid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AnonymousGid
@@ -135,7 +135,7 @@ namespace oci.FileStorageExport
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#anonymous_uid FileStorageExport#anonymous_uid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#anonymous_uid FileStorageExport#anonymous_uid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "anonymousUid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AnonymousUid
@@ -143,7 +143,7 @@ namespace oci.FileStorageExport
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#identity_squash FileStorageExport#identity_squash}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#identity_squash FileStorageExport#identity_squash}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identitySquash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdentitySquash
@@ -151,7 +151,7 @@ namespace oci.FileStorageExport
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#is_anonymous_access_allowed FileStorageExport#is_anonymous_access_allowed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#is_anonymous_access_allowed FileStorageExport#is_anonymous_access_allowed}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -162,7 +162,7 @@ namespace oci.FileStorageExport
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/file_storage_export#require_privileged_source_port FileStorageExport#require_privileged_source_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/file_storage_export#require_privileged_source_port FileStorageExport#require_privileged_source_port}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

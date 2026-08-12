@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeLibraryMaskingFormat
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeLibraryMaskingFormatConfig), fullyQualifiedName: "oci.dataOciDataSafeLibraryMaskingFormat.DataOciDataSafeLibraryMaskingFormatConfig")]
     public interface IDataOciDataSafeLibraryMaskingFormatConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_library_masking_format#library_masking_format_id DataOciDataSafeLibraryMaskingFormat#library_masking_format_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_library_masking_format#library_masking_format_id DataOciDataSafeLibraryMaskingFormat#library_masking_format_id}.</summary>
         [JsiiProperty(name: "libraryMaskingFormatId", typeJson: "{\"primitive\":\"string\"}")]
         string LibraryMaskingFormatId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeLibraryMaskingFormat
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_library_masking_format#library_masking_format_id DataOciDataSafeLibraryMaskingFormat#library_masking_format_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_library_masking_format#library_masking_format_id DataOciDataSafeLibraryMaskingFormat#library_masking_format_id}.</summary>
             [JsiiProperty(name: "libraryMaskingFormatId", typeJson: "{\"primitive\":\"string\"}")]
             public string LibraryMaskingFormatId
             {

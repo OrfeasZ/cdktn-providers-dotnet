@@ -5,7 +5,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
     /// <remarks>
     /// <h1><c>oci_database_tools_database_tools_mcp_server</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_database_tools_mcp_server"><c>oci_database_tools_database_tools_mcp_server</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_database_tools_mcp_server"><c>oci_database_tools_database_tools_mcp_server</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

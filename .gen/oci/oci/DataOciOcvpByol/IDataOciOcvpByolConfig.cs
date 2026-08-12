@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpByol
     [JsiiInterface(nativeType: typeof(IDataOciOcvpByolConfig), fullyQualifiedName: "oci.dataOciOcvpByol.DataOciOcvpByolConfig")]
     public interface IDataOciOcvpByolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_byol#byol_id DataOciOcvpByol#byol_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_byol#byol_id DataOciOcvpByol#byol_id}.</summary>
         [JsiiProperty(name: "byolId", typeJson: "{\"primitive\":\"string\"}")]
         string ByolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOcvpByol
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/ocvp_byol#byol_id DataOciOcvpByol#byol_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_byol#byol_id DataOciOcvpByol#byol_id}.</summary>
             [JsiiProperty(name: "byolId", typeJson: "{\"primitive\":\"string\"}")]
             public string ByolId
             {

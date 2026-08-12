@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseVmCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_vm_cluster oci_database_vm_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster oci_database_vm_cluster}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseVmCluster.DatabaseVmCluster), fullyQualifiedName: "oci.databaseVmCluster.DatabaseVmCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseVmCluster.DatabaseVmClusterConfig\"}}]")]
     public class DatabaseVmCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_vm_cluster oci_database_vm_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster oci_database_vm_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseVmCluster(Constructs.Construct scope, string id, oci.DatabaseVmCluster.IDatabaseVmClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseVmCluster
         /// <param name="importToId">The construct id used in the generated config for the DatabaseVmCluster to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseVmCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseVmCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseVmCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseVmCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseVmCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseVmCluster.DatabaseVmCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -86,6 +86,12 @@ namespace oci.DatabaseVmCluster
         public virtual void PutTimeouts(oci.DatabaseVmCluster.IDatabaseVmClusterTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseVmCluster.IDatabaseVmClusterTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putUpdateDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseVmCluster.DatabaseVmClusterUpdateDetails\"}}]")]
+        public virtual void PutUpdateDetails(oci.DatabaseVmCluster.IDatabaseVmClusterUpdateDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseVmCluster.IDatabaseVmClusterUpdateDetails)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetCloudAutomationUpdateDetails")]
@@ -220,6 +226,12 @@ namespace oci.DatabaseVmCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetUpdateDetails")]
+        public virtual void ResetUpdateDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetVmBackupStorageType")]
         public virtual void ResetVmBackupStorageType()
         {
@@ -305,10 +317,22 @@ namespace oci.DatabaseVmCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "liveImageVersionDetails", typeJson: "{\"fqn\":\"oci.databaseVmCluster.DatabaseVmClusterLiveImageVersionDetailsList\"}")]
+        public virtual oci.DatabaseVmCluster.DatabaseVmClusterLiveImageVersionDetailsList LiveImageVersionDetails
+        {
+            get => GetInstanceProperty<oci.DatabaseVmCluster.DatabaseVmClusterLiveImageVersionDetailsList>()!;
+        }
+
         [JsiiProperty(name: "ocpusEnabled", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double OcpusEnabled
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "oracleLinuxVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OracleLinuxVersion
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
@@ -345,6 +369,12 @@ namespace oci.DatabaseVmCluster
         public virtual oci.DatabaseVmCluster.DatabaseVmClusterTimeoutsOutputReference Timeouts
         {
             get => GetInstanceProperty<oci.DatabaseVmCluster.DatabaseVmClusterTimeoutsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "updateDetails", typeJson: "{\"fqn\":\"oci.databaseVmCluster.DatabaseVmClusterUpdateDetailsOutputReference\"}")]
+        public virtual oci.DatabaseVmCluster.DatabaseVmClusterUpdateDetailsOutputReference UpdateDetails
+        {
+            get => GetInstanceProperty<oci.DatabaseVmCluster.DatabaseVmClusterUpdateDetailsOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -553,6 +583,13 @@ namespace oci.DatabaseVmCluster
         public virtual string? TimeZoneInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "updateDetailsInput", typeJson: "{\"fqn\":\"oci.databaseVmCluster.DatabaseVmClusterUpdateDetails\"}", isOptional: true)]
+        public virtual oci.DatabaseVmCluster.IDatabaseVmClusterUpdateDetails? UpdateDetailsInput
+        {
+            get => GetInstanceProperty<oci.DatabaseVmCluster.IDatabaseVmClusterUpdateDetails?>();
         }
 
         [JsiiOptional]

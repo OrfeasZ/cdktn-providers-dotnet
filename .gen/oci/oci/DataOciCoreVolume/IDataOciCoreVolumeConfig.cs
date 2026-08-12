@@ -7,7 +7,7 @@ namespace oci.DataOciCoreVolume
     [JsiiInterface(nativeType: typeof(IDataOciCoreVolumeConfig), fullyQualifiedName: "oci.dataOciCoreVolume.DataOciCoreVolumeConfig")]
     public interface IDataOciCoreVolumeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}.</summary>
         [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}")]
         string VolumeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_volume#volume_id DataOciCoreVolume#volume_id}.</summary>
             [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}")]
             public string VolumeId
             {

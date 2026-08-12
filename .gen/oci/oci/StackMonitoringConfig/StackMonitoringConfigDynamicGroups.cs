@@ -7,7 +7,7 @@ namespace oci.StackMonitoringConfig
     [JsiiByValue(fqn: "oci.stackMonitoringConfig.StackMonitoringConfigDynamicGroups")]
     public class StackMonitoringConfigDynamicGroups : oci.StackMonitoringConfig.IStackMonitoringConfigDynamicGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_config#domain StackMonitoringConfig#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_config#domain StackMonitoringConfig#domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Domain
@@ -16,7 +16,7 @@ namespace oci.StackMonitoringConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_config#name StackMonitoringConfig#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_config#name StackMonitoringConfig#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -25,7 +25,7 @@ namespace oci.StackMonitoringConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_config#stack_monitoring_assignment StackMonitoringConfig#stack_monitoring_assignment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_config#stack_monitoring_assignment StackMonitoringConfig#stack_monitoring_assignment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stackMonitoringAssignment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StackMonitoringAssignment

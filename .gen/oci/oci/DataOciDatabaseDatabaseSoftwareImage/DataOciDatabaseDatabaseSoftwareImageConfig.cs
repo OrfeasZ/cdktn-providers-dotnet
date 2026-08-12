@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDatabaseSoftwareImage
     [JsiiByValue(fqn: "oci.dataOciDatabaseDatabaseSoftwareImage.DataOciDatabaseDatabaseSoftwareImageConfig")]
     public class DataOciDatabaseDatabaseSoftwareImageConfig : oci.DataOciDatabaseDatabaseSoftwareImage.IDataOciDatabaseDatabaseSoftwareImageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_database_software_image#database_software_image_id DataOciDatabaseDatabaseSoftwareImage#database_software_image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_database_software_image#database_software_image_id DataOciDatabaseDatabaseSoftwareImage#database_software_image_id}.</summary>
         [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseSoftwareImageId
         {

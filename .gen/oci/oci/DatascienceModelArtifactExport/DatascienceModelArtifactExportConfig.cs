@@ -9,7 +9,7 @@ namespace oci.DatascienceModelArtifactExport
     [JsiiByValue(fqn: "oci.datascienceModelArtifactExport.DatascienceModelArtifactExportConfig")]
     public class DatascienceModelArtifactExportConfig : oci.DatascienceModelArtifactExport.IDatascienceModelArtifactExportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#artifact_source_type DatascienceModelArtifactExport#artifact_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#artifact_source_type DatascienceModelArtifactExport#artifact_source_type}.</summary>
         [JsiiProperty(name: "artifactSourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ArtifactSourceType
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelArtifactExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#model_id DatascienceModelArtifactExport#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#model_id DatascienceModelArtifactExport#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelArtifactExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#namespace DatascienceModelArtifactExport#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#namespace DatascienceModelArtifactExport#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -33,7 +33,7 @@ namespace oci.DatascienceModelArtifactExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#source_bucket DatascienceModelArtifactExport#source_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#source_bucket DatascienceModelArtifactExport#source_bucket}.</summary>
         [JsiiProperty(name: "sourceBucket", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceBucket
         {
@@ -41,7 +41,7 @@ namespace oci.DatascienceModelArtifactExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#source_object_name DatascienceModelArtifactExport#source_object_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#source_object_name DatascienceModelArtifactExport#source_object_name}.</summary>
         [JsiiProperty(name: "sourceObjectName", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceObjectName
         {
@@ -49,7 +49,7 @@ namespace oci.DatascienceModelArtifactExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#source_region DatascienceModelArtifactExport#source_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#source_region DatascienceModelArtifactExport#source_region}.</summary>
         [JsiiProperty(name: "sourceRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceRegion
         {
@@ -57,7 +57,7 @@ namespace oci.DatascienceModelArtifactExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#id DatascienceModelArtifactExport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#id DatascienceModelArtifactExport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace oci.DatascienceModelArtifactExport
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_artifact_export#timeouts DatascienceModelArtifactExport#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_artifact_export#timeouts DatascienceModelArtifactExport#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceModelArtifactExport.DatascienceModelArtifactExportTimeouts\"}", isOptional: true)]

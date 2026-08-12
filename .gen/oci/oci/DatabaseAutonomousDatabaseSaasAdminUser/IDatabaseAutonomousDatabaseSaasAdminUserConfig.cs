@@ -7,14 +7,14 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
     [JsiiInterface(nativeType: typeof(IDatabaseAutonomousDatabaseSaasAdminUserConfig), fullyQualifiedName: "oci.databaseAutonomousDatabaseSaasAdminUser.DatabaseAutonomousDatabaseSaasAdminUserConfig")]
     public interface IDatabaseAutonomousDatabaseSaasAdminUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#autonomous_database_id DatabaseAutonomousDatabaseSaasAdminUser#autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#autonomous_database_id DatabaseAutonomousDatabaseSaasAdminUser#autonomous_database_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string AutonomousDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#access_type DatabaseAutonomousDatabaseSaasAdminUser#access_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#access_type DatabaseAutonomousDatabaseSaasAdminUser#access_type}.</summary>
         [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessType
@@ -25,7 +25,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#duration DatabaseAutonomousDatabaseSaasAdminUser#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#duration DatabaseAutonomousDatabaseSaasAdminUser#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Duration
@@ -36,7 +36,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#id DatabaseAutonomousDatabaseSaasAdminUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#id DatabaseAutonomousDatabaseSaasAdminUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#password DatabaseAutonomousDatabaseSaasAdminUser#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#password DatabaseAutonomousDatabaseSaasAdminUser#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Password
@@ -62,7 +62,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#secret_id DatabaseAutonomousDatabaseSaasAdminUser#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#secret_id DatabaseAutonomousDatabaseSaasAdminUser#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecretId
@@ -73,7 +73,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#secret_version_number DatabaseAutonomousDatabaseSaasAdminUser#secret_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#secret_version_number DatabaseAutonomousDatabaseSaasAdminUser#secret_version_number}.</summary>
         [JsiiProperty(name: "secretVersionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SecretVersionNumber
@@ -86,7 +86,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#timeouts DatabaseAutonomousDatabaseSaasAdminUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#timeouts DatabaseAutonomousDatabaseSaasAdminUser#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabaseSaasAdminUser.DatabaseAutonomousDatabaseSaasAdminUserTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#time_saas_admin_user_enabled DatabaseAutonomousDatabaseSaasAdminUser#time_saas_admin_user_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#time_saas_admin_user_enabled DatabaseAutonomousDatabaseSaasAdminUser#time_saas_admin_user_enabled}.</summary>
         [JsiiProperty(name: "timeSaasAdminUserEnabled", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeSaasAdminUserEnabled
@@ -116,14 +116,14 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#autonomous_database_id DatabaseAutonomousDatabaseSaasAdminUser#autonomous_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#autonomous_database_id DatabaseAutonomousDatabaseSaasAdminUser#autonomous_database_id}.</summary>
             [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutonomousDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#access_type DatabaseAutonomousDatabaseSaasAdminUser#access_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#access_type DatabaseAutonomousDatabaseSaasAdminUser#access_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessType
@@ -131,7 +131,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#duration DatabaseAutonomousDatabaseSaasAdminUser#duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#duration DatabaseAutonomousDatabaseSaasAdminUser#duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Duration
@@ -139,7 +139,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#id DatabaseAutonomousDatabaseSaasAdminUser#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#id DatabaseAutonomousDatabaseSaasAdminUser#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -151,7 +151,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#password DatabaseAutonomousDatabaseSaasAdminUser#password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#password DatabaseAutonomousDatabaseSaasAdminUser#password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Password
@@ -159,7 +159,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#secret_id DatabaseAutonomousDatabaseSaasAdminUser#secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#secret_id DatabaseAutonomousDatabaseSaasAdminUser#secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecretId
@@ -167,7 +167,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#secret_version_number DatabaseAutonomousDatabaseSaasAdminUser#secret_version_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#secret_version_number DatabaseAutonomousDatabaseSaasAdminUser#secret_version_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretVersionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SecretVersionNumber
@@ -177,7 +177,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#timeouts DatabaseAutonomousDatabaseSaasAdminUser#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#timeouts DatabaseAutonomousDatabaseSaasAdminUser#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabaseSaasAdminUser.DatabaseAutonomousDatabaseSaasAdminUserTimeouts\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace oci.DatabaseAutonomousDatabaseSaasAdminUser
                 get => GetInstanceProperty<oci.DatabaseAutonomousDatabaseSaasAdminUser.IDatabaseAutonomousDatabaseSaasAdminUserTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_database_saas_admin_user#time_saas_admin_user_enabled DatabaseAutonomousDatabaseSaasAdminUser#time_saas_admin_user_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_database_saas_admin_user#time_saas_admin_user_enabled DatabaseAutonomousDatabaseSaasAdminUser#time_saas_admin_user_enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeSaasAdminUserEnabled", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeSaasAdminUserEnabled

@@ -9,7 +9,7 @@ namespace oci.NosqlIndex
     [JsiiByValue(fqn: "oci.nosqlIndex.NosqlIndexKeys")]
     public class NosqlIndexKeys : oci.NosqlIndex.INosqlIndexKeys
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_index#column_name NosqlIndex#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_index#column_name NosqlIndex#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
         public string ColumnName
         {
@@ -17,7 +17,7 @@ namespace oci.NosqlIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_index#json_field_type NosqlIndex#json_field_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_index#json_field_type NosqlIndex#json_field_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jsonFieldType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JsonFieldType
@@ -26,7 +26,7 @@ namespace oci.NosqlIndex
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_index#json_path NosqlIndex#json_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_index#json_path NosqlIndex#json_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jsonPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JsonPath

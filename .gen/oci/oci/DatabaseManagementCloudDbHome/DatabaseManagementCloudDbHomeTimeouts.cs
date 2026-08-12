@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbHome
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbHome.DatabaseManagementCloudDbHomeTimeouts")]
     public class DatabaseManagementCloudDbHomeTimeouts : oci.DatabaseManagementCloudDbHome.IDatabaseManagementCloudDbHomeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_home#create DatabaseManagementCloudDbHome#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_home#create DatabaseManagementCloudDbHome#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementCloudDbHome
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_home#delete DatabaseManagementCloudDbHome#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_home#delete DatabaseManagementCloudDbHome#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudDbHome
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_db_home#update DatabaseManagementCloudDbHome#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_home#update DatabaseManagementCloudDbHome#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

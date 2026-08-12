@@ -7,7 +7,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
     [JsiiInterface(nativeType: typeof(IDataOciTenantmanagercontrolplaneLinksConfig), fullyQualifiedName: "oci.dataOciTenantmanagercontrolplaneLinks.DataOciTenantmanagercontrolplaneLinksConfig")]
     public interface IDataOciTenantmanagercontrolplaneLinksConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#child_tenancy_id DataOciTenantmanagercontrolplaneLinks#child_tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#child_tenancy_id DataOciTenantmanagercontrolplaneLinks#child_tenancy_id}.</summary>
         [JsiiProperty(name: "childTenancyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ChildTenancyId
@@ -18,7 +18,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#feature DataOciTenantmanagercontrolplaneLinks#feature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#feature DataOciTenantmanagercontrolplaneLinks#feature}.</summary>
         [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Feature
@@ -31,7 +31,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#filter DataOciTenantmanagercontrolplaneLinks#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#filter DataOciTenantmanagercontrolplaneLinks#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneLinks.IDataOciTenantmanagercontrolplaneLinksFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciTenantmanagercontrolplaneLinks.DataOciTenantmanagercontrolplaneLinksFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#id DataOciTenantmanagercontrolplaneLinks#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#id DataOciTenantmanagercontrolplaneLinks#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#parent_tenancy_id DataOciTenantmanagercontrolplaneLinks#parent_tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#parent_tenancy_id DataOciTenantmanagercontrolplaneLinks#parent_tenancy_id}.</summary>
         [JsiiProperty(name: "parentTenancyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParentTenancyId
@@ -70,7 +70,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#state DataOciTenantmanagercontrolplaneLinks#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#state DataOciTenantmanagercontrolplaneLinks#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -88,7 +88,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#child_tenancy_id DataOciTenantmanagercontrolplaneLinks#child_tenancy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#child_tenancy_id DataOciTenantmanagercontrolplaneLinks#child_tenancy_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "childTenancyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ChildTenancyId
@@ -96,7 +96,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#feature DataOciTenantmanagercontrolplaneLinks#feature}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#feature DataOciTenantmanagercontrolplaneLinks#feature}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Feature
@@ -106,7 +106,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#filter DataOciTenantmanagercontrolplaneLinks#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#filter DataOciTenantmanagercontrolplaneLinks#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneLinks.IDataOciTenantmanagercontrolplaneLinksFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -116,7 +116,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#id DataOciTenantmanagercontrolplaneLinks#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#id DataOciTenantmanagercontrolplaneLinks#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -128,7 +128,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#parent_tenancy_id DataOciTenantmanagercontrolplaneLinks#parent_tenancy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#parent_tenancy_id DataOciTenantmanagercontrolplaneLinks#parent_tenancy_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parentTenancyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParentTenancyId
@@ -136,7 +136,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_links#state DataOciTenantmanagercontrolplaneLinks#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#state DataOciTenantmanagercontrolplaneLinks#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

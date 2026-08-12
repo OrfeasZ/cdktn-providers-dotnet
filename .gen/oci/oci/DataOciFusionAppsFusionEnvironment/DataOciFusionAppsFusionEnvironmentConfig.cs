@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironment
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironment.DataOciFusionAppsFusionEnvironmentConfig")]
     public class DataOciFusionAppsFusionEnvironmentConfig : oci.DataOciFusionAppsFusionEnvironment.IDataOciFusionAppsFusionEnvironmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment#fusion_environment_id DataOciFusionAppsFusionEnvironment#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment#fusion_environment_id DataOciFusionAppsFusionEnvironment#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string FusionEnvironmentId
         {

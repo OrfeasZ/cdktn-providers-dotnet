@@ -7,7 +7,7 @@ namespace oci.DataOciDnsSteeringPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDnsSteeringPolicyConfig), fullyQualifiedName: "oci.dataOciDnsSteeringPolicy.DataOciDnsSteeringPolicyConfig")]
     public interface IDataOciDnsSteeringPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_steering_policy#steering_policy_id DataOciDnsSteeringPolicy#steering_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_steering_policy#steering_policy_id DataOciDnsSteeringPolicy#steering_policy_id}.</summary>
         [JsiiProperty(name: "steeringPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SteeringPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDnsSteeringPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_steering_policy#steering_policy_id DataOciDnsSteeringPolicy#steering_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_steering_policy#steering_policy_id DataOciDnsSteeringPolicy#steering_policy_id}.</summary>
             [JsiiProperty(name: "steeringPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SteeringPolicyId
             {

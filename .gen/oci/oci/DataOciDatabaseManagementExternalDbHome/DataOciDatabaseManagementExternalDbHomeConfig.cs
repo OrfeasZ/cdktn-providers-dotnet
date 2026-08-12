@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalDbHome
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalDbHome.DataOciDatabaseManagementExternalDbHomeConfig")]
     public class DataOciDatabaseManagementExternalDbHomeConfig : oci.DataOciDatabaseManagementExternalDbHome.IDataOciDatabaseManagementExternalDbHomeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_db_home#external_db_home_id DataOciDatabaseManagementExternalDbHome#external_db_home_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_external_db_home#external_db_home_id DataOciDatabaseManagementExternalDbHome#external_db_home_id}.</summary>
         [JsiiProperty(name: "externalDbHomeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalDbHomeId
         {

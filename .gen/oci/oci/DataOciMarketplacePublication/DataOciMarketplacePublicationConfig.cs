@@ -9,7 +9,7 @@ namespace oci.DataOciMarketplacePublication
     [JsiiByValue(fqn: "oci.dataOciMarketplacePublication.DataOciMarketplacePublicationConfig")]
     public class DataOciMarketplacePublicationConfig : oci.DataOciMarketplacePublication.IDataOciMarketplacePublicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/marketplace_publication#publication_id DataOciMarketplacePublication#publication_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/marketplace_publication#publication_id DataOciMarketplacePublication#publication_id}.</summary>
         [JsiiProperty(name: "publicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicationId
         {

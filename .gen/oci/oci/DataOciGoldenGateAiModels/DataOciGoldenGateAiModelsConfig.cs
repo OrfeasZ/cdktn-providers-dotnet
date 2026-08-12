@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateAiModels
     [JsiiByValue(fqn: "oci.dataOciGoldenGateAiModels.DataOciGoldenGateAiModelsConfig")]
     public class DataOciGoldenGateAiModelsConfig : oci.DataOciGoldenGateAiModels.IDataOciGoldenGateAiModelsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_ai_models#compartment_id DataOciGoldenGateAiModels#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_ai_models#compartment_id DataOciGoldenGateAiModels#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGoldenGateAiModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_ai_models#provider_type DataOciGoldenGateAiModels#provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_ai_models#provider_type DataOciGoldenGateAiModels#provider_type}.</summary>
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProviderType
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciGoldenGateAiModels
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_ai_models#filter DataOciGoldenGateAiModels#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_ai_models#filter DataOciGoldenGateAiModels#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGoldenGateAiModels.IDataOciGoldenGateAiModelsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciGoldenGateAiModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_ai_models#id DataOciGoldenGateAiModels#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_ai_models#id DataOciGoldenGateAiModels#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciGoldenGateAiModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_ai_models#region DataOciGoldenGateAiModels#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_ai_models#region DataOciGoldenGateAiModels#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region
@@ -82,7 +82,7 @@ namespace oci.DataOciGoldenGateAiModels
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/golden_gate_ai_models#tenancy_id DataOciGoldenGateAiModels#tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/golden_gate_ai_models#tenancy_id DataOciGoldenGateAiModels#tenancy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TenancyId

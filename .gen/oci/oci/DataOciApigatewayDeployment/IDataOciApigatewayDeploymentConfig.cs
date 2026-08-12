@@ -7,7 +7,7 @@ namespace oci.DataOciApigatewayDeployment
     [JsiiInterface(nativeType: typeof(IDataOciApigatewayDeploymentConfig), fullyQualifiedName: "oci.dataOciApigatewayDeployment.DataOciApigatewayDeploymentConfig")]
     public interface IDataOciApigatewayDeploymentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apigateway_deployment#deployment_id DataOciApigatewayDeployment#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apigateway_deployment#deployment_id DataOciApigatewayDeployment#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         string DeploymentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciApigatewayDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apigateway_deployment#deployment_id DataOciApigatewayDeployment#deployment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apigateway_deployment#deployment_id DataOciApigatewayDeployment#deployment_id}.</summary>
             [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeploymentId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
     [JsiiByValue(fqn: "oci.dataOciMulticloudExternalLocationsMetadata.DataOciMulticloudExternalLocationsMetadataConfig")]
     public class DataOciMulticloudExternalLocationsMetadataConfig : oci.DataOciMulticloudExternalLocationsMetadata.IDataOciMulticloudExternalLocationsMetadataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#subscription_id DataOciMulticloudExternalLocationsMetadata#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#subscription_id DataOciMulticloudExternalLocationsMetadata#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#subscription_service_name DataOciMulticloudExternalLocationsMetadata#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#subscription_service_name DataOciMulticloudExternalLocationsMetadata#subscription_service_name}.</summary>
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionServiceName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#cluster_placement_group_id DataOciMulticloudExternalLocationsMetadata#cluster_placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#cluster_placement_group_id DataOciMulticloudExternalLocationsMetadata#cluster_placement_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterPlacementGroupId
@@ -34,7 +34,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#compartment_id DataOciMulticloudExternalLocationsMetadata#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#compartment_id DataOciMulticloudExternalLocationsMetadata#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -43,7 +43,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#entity_type DataOciMulticloudExternalLocationsMetadata#entity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#entity_type DataOciMulticloudExternalLocationsMetadata#entity_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "entityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EntityType
@@ -52,7 +52,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#external_location DataOciMulticloudExternalLocationsMetadata#external_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#external_location DataOciMulticloudExternalLocationsMetadata#external_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalLocation
@@ -65,7 +65,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#filter DataOciMulticloudExternalLocationsMetadata#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#filter DataOciMulticloudExternalLocationsMetadata#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudExternalLocationsMetadata.IDataOciMulticloudExternalLocationsMetadataFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -96,7 +96,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#id DataOciMulticloudExternalLocationsMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#id DataOciMulticloudExternalLocationsMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,7 +109,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#limit DataOciMulticloudExternalLocationsMetadata#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#limit DataOciMulticloudExternalLocationsMetadata#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit
@@ -118,7 +118,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#linked_compartment_id DataOciMulticloudExternalLocationsMetadata#linked_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#linked_compartment_id DataOciMulticloudExternalLocationsMetadata#linked_compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "linkedCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LinkedCompartmentId
@@ -127,7 +127,7 @@ namespace oci.DataOciMulticloudExternalLocationsMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_external_locations_metadata#logical_zone DataOciMulticloudExternalLocationsMetadata#logical_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_locations_metadata#logical_zone DataOciMulticloudExternalLocationsMetadata#logical_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logicalZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogicalZone

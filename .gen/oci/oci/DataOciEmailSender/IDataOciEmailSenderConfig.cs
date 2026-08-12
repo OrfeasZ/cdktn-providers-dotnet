@@ -7,7 +7,7 @@ namespace oci.DataOciEmailSender
     [JsiiInterface(nativeType: typeof(IDataOciEmailSenderConfig), fullyQualifiedName: "oci.dataOciEmailSender.DataOciEmailSenderConfig")]
     public interface IDataOciEmailSenderConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/email_sender#sender_id DataOciEmailSender#sender_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/email_sender#sender_id DataOciEmailSender#sender_id}.</summary>
         [JsiiProperty(name: "senderId", typeJson: "{\"primitive\":\"string\"}")]
         string SenderId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciEmailSender
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/email_sender#sender_id DataOciEmailSender#sender_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/email_sender#sender_id DataOciEmailSender#sender_id}.</summary>
             [JsiiProperty(name: "senderId", typeJson: "{\"primitive\":\"string\"}")]
             public string SenderId
             {

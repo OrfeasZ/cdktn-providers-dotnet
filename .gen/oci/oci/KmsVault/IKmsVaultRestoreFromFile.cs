@@ -7,21 +7,21 @@ namespace oci.KmsVault
     [JsiiInterface(nativeType: typeof(IKmsVaultRestoreFromFile), fullyQualifiedName: "oci.kmsVault.KmsVaultRestoreFromFile")]
     public interface IKmsVaultRestoreFromFile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_vault#content_length KmsVault#content_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_vault#content_length KmsVault#content_length}.</summary>
         [JsiiProperty(name: "contentLength", typeJson: "{\"primitive\":\"string\"}")]
         string ContentLength
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_vault#restore_vault_from_file_details KmsVault#restore_vault_from_file_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_vault#restore_vault_from_file_details KmsVault#restore_vault_from_file_details}.</summary>
         [JsiiProperty(name: "restoreVaultFromFileDetails", typeJson: "{\"primitive\":\"string\"}")]
         string RestoreVaultFromFileDetails
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_vault#content_md5 KmsVault#content_md5}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_vault#content_md5 KmsVault#content_md5}.</summary>
         [JsiiProperty(name: "contentMd5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContentMd5
@@ -39,21 +39,21 @@ namespace oci.KmsVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_vault#content_length KmsVault#content_length}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_vault#content_length KmsVault#content_length}.</summary>
             [JsiiProperty(name: "contentLength", typeJson: "{\"primitive\":\"string\"}")]
             public string ContentLength
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_vault#restore_vault_from_file_details KmsVault#restore_vault_from_file_details}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_vault#restore_vault_from_file_details KmsVault#restore_vault_from_file_details}.</summary>
             [JsiiProperty(name: "restoreVaultFromFileDetails", typeJson: "{\"primitive\":\"string\"}")]
             public string RestoreVaultFromFileDetails
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/kms_vault#content_md5 KmsVault#content_md5}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_vault#content_md5 KmsVault#content_md5}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "contentMd5", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContentMd5

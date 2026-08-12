@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementExternalListener
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExternalListenerConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExternalListener.DataOciDatabaseManagementExternalListenerConfig")]
     public interface IDataOciDatabaseManagementExternalListenerConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_listener#external_listener_id DataOciDatabaseManagementExternalListener#external_listener_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_external_listener#external_listener_id DataOciDatabaseManagementExternalListener#external_listener_id}.</summary>
         [JsiiProperty(name: "externalListenerId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalListenerId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementExternalListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_listener#external_listener_id DataOciDatabaseManagementExternalListener#external_listener_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_external_listener#external_listener_id DataOciDatabaseManagementExternalListener#external_listener_id}.</summary>
             [JsiiProperty(name: "externalListenerId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalListenerId
             {

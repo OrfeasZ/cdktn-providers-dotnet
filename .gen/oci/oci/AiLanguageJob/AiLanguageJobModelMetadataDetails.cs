@@ -9,7 +9,7 @@ namespace oci.AiLanguageJob
     {
         private object? _configuration;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#configuration AiLanguageJob#configuration}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, Dictionary&lt;string, string&gt;&gt;</para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.AiLanguageJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_job#endpoint_id AiLanguageJob#endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#endpoint_id AiLanguageJob#endpoint_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndpointId
@@ -50,7 +50,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_job#language_code AiLanguageJob#language_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#language_code AiLanguageJob#language_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "languageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LanguageCode
@@ -59,7 +59,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_job#model_id AiLanguageJob#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#model_id AiLanguageJob#model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelId
@@ -68,7 +68,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_language_job#model_type AiLanguageJob#model_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#model_type AiLanguageJob#model_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelType

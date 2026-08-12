@@ -9,7 +9,7 @@ namespace oci.DatabaseMigrationConnection
     [JsiiByValue(fqn: "oci.databaseMigrationConnection.DatabaseMigrationConnectionConfig")]
     public class DatabaseMigrationConnectionConfig : oci.DatabaseMigrationConnection.IDatabaseMigrationConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#compartment_id DatabaseMigrationConnection#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#compartment_id DatabaseMigrationConnection#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#connection_type DatabaseMigrationConnection#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#connection_type DatabaseMigrationConnection#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionType
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#display_name DatabaseMigrationConnection#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#display_name DatabaseMigrationConnection#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#key_id DatabaseMigrationConnection#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#key_id DatabaseMigrationConnection#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#password DatabaseMigrationConnection#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#password DatabaseMigrationConnection#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -49,7 +49,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#technology_type DatabaseMigrationConnection#technology_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#technology_type DatabaseMigrationConnection#technology_type}.</summary>
         [JsiiProperty(name: "technologyType", typeJson: "{\"primitive\":\"string\"}")]
         public string TechnologyType
         {
@@ -57,7 +57,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#username DatabaseMigrationConnection#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#username DatabaseMigrationConnection#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {
@@ -65,7 +65,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#vault_id DatabaseMigrationConnection#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#vault_id DatabaseMigrationConnection#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string VaultId
         {
@@ -77,7 +77,7 @@ namespace oci.DatabaseMigrationConnection
 
         /// <summary>additional_attributes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#additional_attributes DatabaseMigrationConnection#additional_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#additional_attributes DatabaseMigrationConnection#additional_attributes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationConnection.IDatabaseMigrationConnectionAdditionalAttributes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -108,7 +108,7 @@ namespace oci.DatabaseMigrationConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#connection_string DatabaseMigrationConnection#connection_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#connection_string DatabaseMigrationConnection#connection_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConnectionString
@@ -117,7 +117,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#database_id DatabaseMigrationConnection#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#database_id DatabaseMigrationConnection#database_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseId
@@ -126,7 +126,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#database_name DatabaseMigrationConnection#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#database_name DatabaseMigrationConnection#database_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseName
@@ -135,7 +135,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#db_system_id DatabaseMigrationConnection#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#db_system_id DatabaseMigrationConnection#db_system_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbSystemId
@@ -144,7 +144,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#defined_tags DatabaseMigrationConnection#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#defined_tags DatabaseMigrationConnection#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -153,7 +153,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#description DatabaseMigrationConnection#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#description DatabaseMigrationConnection#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -162,7 +162,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#freeform_tags DatabaseMigrationConnection#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#freeform_tags DatabaseMigrationConnection#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -171,7 +171,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#host DatabaseMigrationConnection#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#host DatabaseMigrationConnection#host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Host
@@ -180,7 +180,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#id DatabaseMigrationConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#id DatabaseMigrationConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -193,7 +193,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#nsg_ids DatabaseMigrationConnection#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#nsg_ids DatabaseMigrationConnection#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds
@@ -202,7 +202,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#port DatabaseMigrationConnection#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#port DatabaseMigrationConnection#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -211,7 +211,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#replication_password DatabaseMigrationConnection#replication_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#replication_password DatabaseMigrationConnection#replication_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicationPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReplicationPassword
@@ -220,7 +220,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#replication_username DatabaseMigrationConnection#replication_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#replication_username DatabaseMigrationConnection#replication_username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "replicationUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReplicationUsername
@@ -229,7 +229,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#security_protocol DatabaseMigrationConnection#security_protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#security_protocol DatabaseMigrationConnection#security_protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityProtocol
@@ -238,7 +238,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssh_host DatabaseMigrationConnection#ssh_host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssh_host DatabaseMigrationConnection#ssh_host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sshHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SshHost
@@ -247,7 +247,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssh_key DatabaseMigrationConnection#ssh_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssh_key DatabaseMigrationConnection#ssh_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sshKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SshKey
@@ -256,7 +256,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssh_sudo_location DatabaseMigrationConnection#ssh_sudo_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssh_sudo_location DatabaseMigrationConnection#ssh_sudo_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sshSudoLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SshSudoLocation
@@ -265,7 +265,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssh_user DatabaseMigrationConnection#ssh_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssh_user DatabaseMigrationConnection#ssh_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sshUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SshUser
@@ -274,7 +274,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssl_ca DatabaseMigrationConnection#ssl_ca}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssl_ca DatabaseMigrationConnection#ssl_ca}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslCa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SslCa
@@ -283,7 +283,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssl_cert DatabaseMigrationConnection#ssl_cert}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssl_cert DatabaseMigrationConnection#ssl_cert}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslCert", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SslCert
@@ -292,7 +292,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssl_crl DatabaseMigrationConnection#ssl_crl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssl_crl DatabaseMigrationConnection#ssl_crl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslCrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SslCrl
@@ -301,7 +301,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssl_key DatabaseMigrationConnection#ssl_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssl_key DatabaseMigrationConnection#ssl_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SslKey
@@ -310,7 +310,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#ssl_mode DatabaseMigrationConnection#ssl_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#ssl_mode DatabaseMigrationConnection#ssl_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SslMode
@@ -319,7 +319,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#subnet_id DatabaseMigrationConnection#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#subnet_id DatabaseMigrationConnection#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId
@@ -330,7 +330,7 @@ namespace oci.DatabaseMigrationConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#timeouts DatabaseMigrationConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#timeouts DatabaseMigrationConnection#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseMigrationConnection.DatabaseMigrationConnectionTimeouts\"}", isOptional: true)]
@@ -340,7 +340,7 @@ namespace oci.DatabaseMigrationConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_migration_connection#wallet DatabaseMigrationConnection#wallet}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_migration_connection#wallet DatabaseMigrationConnection#wallet}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "wallet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Wallet

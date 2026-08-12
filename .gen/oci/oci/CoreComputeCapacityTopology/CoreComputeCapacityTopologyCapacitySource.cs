@@ -9,7 +9,7 @@ namespace oci.CoreComputeCapacityTopology
     [JsiiByValue(fqn: "oci.coreComputeCapacityTopology.CoreComputeCapacityTopologyCapacitySource")]
     public class CoreComputeCapacityTopologyCapacitySource : oci.CoreComputeCapacityTopology.ICoreComputeCapacityTopologyCapacitySource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_compute_capacity_topology#capacity_type CoreComputeCapacityTopology#capacity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_capacity_topology#capacity_type CoreComputeCapacityTopology#capacity_type}.</summary>
         [JsiiProperty(name: "capacityType", typeJson: "{\"primitive\":\"string\"}")]
         public string CapacityType
         {
@@ -17,7 +17,7 @@ namespace oci.CoreComputeCapacityTopology
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_compute_capacity_topology#compartment_id CoreComputeCapacityTopology#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_capacity_topology#compartment_id CoreComputeCapacityTopology#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId

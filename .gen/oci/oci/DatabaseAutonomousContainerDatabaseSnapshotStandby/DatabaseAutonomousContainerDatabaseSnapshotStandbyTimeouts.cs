@@ -7,7 +7,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
     [JsiiByValue(fqn: "oci.databaseAutonomousContainerDatabaseSnapshotStandby.DatabaseAutonomousContainerDatabaseSnapshotStandbyTimeouts")]
     public class DatabaseAutonomousContainerDatabaseSnapshotStandbyTimeouts : oci.DatabaseAutonomousContainerDatabaseSnapshotStandby.IDatabaseAutonomousContainerDatabaseSnapshotStandbyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_container_database_snapshot_standby#create DatabaseAutonomousContainerDatabaseSnapshotStandby#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_container_database_snapshot_standby#create DatabaseAutonomousContainerDatabaseSnapshotStandby#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_container_database_snapshot_standby#delete DatabaseAutonomousContainerDatabaseSnapshotStandby#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_container_database_snapshot_standby#delete DatabaseAutonomousContainerDatabaseSnapshotStandby#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatabaseAutonomousContainerDatabaseSnapshotStandby
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_autonomous_container_database_snapshot_standby#update DatabaseAutonomousContainerDatabaseSnapshotStandby#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_autonomous_container_database_snapshot_standby#update DatabaseAutonomousContainerDatabaseSnapshotStandby#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

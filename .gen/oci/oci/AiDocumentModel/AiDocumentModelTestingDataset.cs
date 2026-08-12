@@ -9,7 +9,7 @@ namespace oci.AiDocumentModel
     [JsiiByValue(fqn: "oci.aiDocumentModel.AiDocumentModelTestingDataset")]
     public class AiDocumentModelTestingDataset : oci.AiDocumentModel.IAiDocumentModelTestingDataset
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_model#dataset_type AiDocumentModel#dataset_type}.</summary>
         [JsiiProperty(name: "datasetType", typeJson: "{\"primitive\":\"string\"}")]
         public string DatasetType
         {
@@ -17,7 +17,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_model#bucket AiDocumentModel#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -26,7 +26,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_model#dataset_id AiDocumentModel#dataset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatasetId
@@ -35,7 +35,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_model#namespace AiDocumentModel#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -44,7 +44,7 @@ namespace oci.AiDocumentModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_model#object AiDocumentModel#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_model#object AiDocumentModel#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Object

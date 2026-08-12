@@ -5,7 +5,7 @@ namespace oci.DataOciSecretsSecretbundleVersions
     /// <remarks>
     /// <h1><c>data_oci_secrets_secretbundle_versions</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/secrets_secretbundle_versions"><c>data_oci_secrets_secretbundle_versions</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/secrets_secretbundle_versions"><c>data_oci_secrets_secretbundle_versions</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

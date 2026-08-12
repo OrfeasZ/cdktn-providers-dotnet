@@ -7,7 +7,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
     [JsiiInterface(nativeType: typeof(IGenerativeAiAgentAgentEndpointProvisionedCapacityConfigPlatformRuntimeConfig), fullyQualifiedName: "oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointProvisionedCapacityConfigPlatformRuntimeConfig")]
     public interface IGenerativeAiAgentAgentEndpointProvisionedCapacityConfigPlatformRuntimeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#platform_runtime_config_type GenerativeAiAgentAgentEndpoint#platform_runtime_config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#platform_runtime_config_type GenerativeAiAgentAgentEndpoint#platform_runtime_config_type}.</summary>
         [JsiiProperty(name: "platformRuntimeConfigType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PlatformRuntimeConfigType
@@ -18,7 +18,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#version GenerativeAiAgentAgentEndpoint#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#version GenerativeAiAgentAgentEndpoint#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
@@ -36,7 +36,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#platform_runtime_config_type GenerativeAiAgentAgentEndpoint#platform_runtime_config_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#platform_runtime_config_type GenerativeAiAgentAgentEndpoint#platform_runtime_config_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "platformRuntimeConfigType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PlatformRuntimeConfigType
@@ -44,7 +44,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent_endpoint#version GenerativeAiAgentAgentEndpoint#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent_endpoint#version GenerativeAiAgentAgentEndpoint#version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version

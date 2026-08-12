@@ -7,7 +7,7 @@ namespace oci.GenerativeAiProject
     [JsiiByValue(fqn: "oci.generativeAiProject.GenerativeAiProjectConversationConfig")]
     public class GenerativeAiProjectConversationConfig : oci.GenerativeAiProject.IGenerativeAiProjectConversationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_project#conversations_retention_in_hours GenerativeAiProject#conversations_retention_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_project#conversations_retention_in_hours GenerativeAiProject#conversations_retention_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conversationsRetentionInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ConversationsRetentionInHours
@@ -16,7 +16,7 @@ namespace oci.GenerativeAiProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_project#responses_retention_in_hours GenerativeAiProject#responses_retention_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_project#responses_retention_in_hours GenerativeAiProject#responses_retention_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responsesRetentionInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ResponsesRetentionInHours

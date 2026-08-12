@@ -7,7 +7,7 @@ namespace oci.DevopsTrigger
     [JsiiInterface(nativeType: typeof(IDevopsTriggerActionsFilterInclude), fullyQualifiedName: "oci.devopsTrigger.DevopsTriggerActionsFilterInclude")]
     public interface IDevopsTriggerActionsFilterInclude
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#base_ref DevopsTrigger#base_ref}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#base_ref DevopsTrigger#base_ref}.</summary>
         [JsiiProperty(name: "baseRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BaseRef
@@ -20,7 +20,7 @@ namespace oci.DevopsTrigger
 
         /// <summary>file_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
         /// </remarks>
         [JsiiProperty(name: "fileFilter", typeJson: "{\"fqn\":\"oci.devopsTrigger.DevopsTriggerActionsFilterIncludeFileFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace oci.DevopsTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#head_ref DevopsTrigger#head_ref}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#head_ref DevopsTrigger#head_ref}.</summary>
         [JsiiProperty(name: "headRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HeadRef
@@ -43,7 +43,7 @@ namespace oci.DevopsTrigger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#repository_name DevopsTrigger#repository_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#repository_name DevopsTrigger#repository_name}.</summary>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RepositoryName
@@ -61,7 +61,7 @@ namespace oci.DevopsTrigger
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#base_ref DevopsTrigger#base_ref}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#base_ref DevopsTrigger#base_ref}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "baseRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BaseRef
@@ -71,7 +71,7 @@ namespace oci.DevopsTrigger
 
             /// <summary>file_filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#file_filter DevopsTrigger#file_filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fileFilter", typeJson: "{\"fqn\":\"oci.devopsTrigger.DevopsTriggerActionsFilterIncludeFileFilter\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace oci.DevopsTrigger
                 get => GetInstanceProperty<oci.DevopsTrigger.IDevopsTriggerActionsFilterIncludeFileFilter?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#head_ref DevopsTrigger#head_ref}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#head_ref DevopsTrigger#head_ref}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "headRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HeadRef
@@ -88,7 +88,7 @@ namespace oci.DevopsTrigger
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_trigger#repository_name DevopsTrigger#repository_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#repository_name DevopsTrigger#repository_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RepositoryName

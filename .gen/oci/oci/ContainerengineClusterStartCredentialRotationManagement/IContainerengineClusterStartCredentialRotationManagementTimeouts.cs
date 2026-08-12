@@ -7,7 +7,7 @@ namespace oci.ContainerengineClusterStartCredentialRotationManagement
     [JsiiInterface(nativeType: typeof(IContainerengineClusterStartCredentialRotationManagementTimeouts), fullyQualifiedName: "oci.containerengineClusterStartCredentialRotationManagement.ContainerengineClusterStartCredentialRotationManagementTimeouts")]
     public interface IContainerengineClusterStartCredentialRotationManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_start_credential_rotation_management#create ContainerengineClusterStartCredentialRotationManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_start_credential_rotation_management#create ContainerengineClusterStartCredentialRotationManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.ContainerengineClusterStartCredentialRotationManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_start_credential_rotation_management#delete ContainerengineClusterStartCredentialRotationManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_start_credential_rotation_management#delete ContainerengineClusterStartCredentialRotationManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.ContainerengineClusterStartCredentialRotationManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_start_credential_rotation_management#update ContainerengineClusterStartCredentialRotationManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_start_credential_rotation_management#update ContainerengineClusterStartCredentialRotationManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.ContainerengineClusterStartCredentialRotationManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_start_credential_rotation_management#create ContainerengineClusterStartCredentialRotationManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_start_credential_rotation_management#create ContainerengineClusterStartCredentialRotationManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.ContainerengineClusterStartCredentialRotationManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_start_credential_rotation_management#delete ContainerengineClusterStartCredentialRotationManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_start_credential_rotation_management#delete ContainerengineClusterStartCredentialRotationManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.ContainerengineClusterStartCredentialRotationManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/containerengine_cluster_start_credential_rotation_management#update ContainerengineClusterStartCredentialRotationManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_start_credential_rotation_management#update ContainerengineClusterStartCredentialRotationManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

@@ -7,7 +7,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
     [JsiiInterface(nativeType: typeof(IDataOciTenantmanagercontrolplaneSubscriptionLineItemsConfig), fullyQualifiedName: "oci.dataOciTenantmanagercontrolplaneSubscriptionLineItems.DataOciTenantmanagercontrolplaneSubscriptionLineItemsConfig")]
     public interface IDataOciTenantmanagercontrolplaneSubscriptionLineItemsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#subscription_id DataOciTenantmanagercontrolplaneSubscriptionLineItems#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#subscription_id DataOciTenantmanagercontrolplaneSubscriptionLineItems#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#filter DataOciTenantmanagercontrolplaneSubscriptionLineItems#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#filter DataOciTenantmanagercontrolplaneSubscriptionLineItems#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems.IDataOciTenantmanagercontrolplaneSubscriptionLineItemsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciTenantmanagercontrolplaneSubscriptionLineItems.DataOciTenantmanagercontrolplaneSubscriptionLineItemsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#id DataOciTenantmanagercontrolplaneSubscriptionLineItems#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#id DataOciTenantmanagercontrolplaneSubscriptionLineItems#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#subscription_id DataOciTenantmanagercontrolplaneSubscriptionLineItems#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#subscription_id DataOciTenantmanagercontrolplaneSubscriptionLineItems#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#filter DataOciTenantmanagercontrolplaneSubscriptionLineItems#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#filter DataOciTenantmanagercontrolplaneSubscriptionLineItems#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems.IDataOciTenantmanagercontrolplaneSubscriptionLineItemsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionLineItems
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#id DataOciTenantmanagercontrolplaneSubscriptionLineItems#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_line_items#id DataOciTenantmanagercontrolplaneSubscriptionLineItems#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

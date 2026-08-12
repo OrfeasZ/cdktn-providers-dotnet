@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsMySmtpCredential
     [JsiiByValue(fqn: "oci.identityDomainsMySmtpCredential.IdentityDomainsMySmtpCredentialConfig")]
     public class IdentityDomainsMySmtpCredentialConfig : oci.IdentityDomainsMySmtpCredential.IIdentityDomainsMySmtpCredentialConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#idcs_endpoint IdentityDomainsMySmtpCredential#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#idcs_endpoint IdentityDomainsMySmtpCredential#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#schemas IdentityDomainsMySmtpCredential#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#schemas IdentityDomainsMySmtpCredential#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Schemas
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#authorization IdentityDomainsMySmtpCredential#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#authorization IdentityDomainsMySmtpCredential#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -34,7 +34,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#description IdentityDomainsMySmtpCredential#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#description IdentityDomainsMySmtpCredential#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -43,7 +43,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#expires_on IdentityDomainsMySmtpCredential#expires_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#expires_on IdentityDomainsMySmtpCredential#expires_on}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpiresOn
@@ -52,7 +52,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#ocid IdentityDomainsMySmtpCredential#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#ocid IdentityDomainsMySmtpCredential#ocid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ocid
@@ -61,7 +61,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#resource_type_schema_version IdentityDomainsMySmtpCredential#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#resource_type_schema_version IdentityDomainsMySmtpCredential#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -70,7 +70,7 @@ namespace oci.IdentityDomainsMySmtpCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#status IdentityDomainsMySmtpCredential#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#status IdentityDomainsMySmtpCredential#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -83,7 +83,7 @@ namespace oci.IdentityDomainsMySmtpCredential
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#tags IdentityDomainsMySmtpCredential#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#tags IdentityDomainsMySmtpCredential#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsMySmtpCredential.IIdentityDomainsMySmtpCredentialTags" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace oci.IdentityDomainsMySmtpCredential
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#timeouts IdentityDomainsMySmtpCredential#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#timeouts IdentityDomainsMySmtpCredential#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsMySmtpCredential.IdentityDomainsMySmtpCredentialTimeouts\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace oci.IdentityDomainsMySmtpCredential
 
         /// <summary>user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_my_smtp_credential#user IdentityDomainsMySmtpCredential#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_my_smtp_credential#user IdentityDomainsMySmtpCredential#user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"oci.identityDomainsMySmtpCredential.IdentityDomainsMySmtpCredentialUser\"}", isOptional: true)]

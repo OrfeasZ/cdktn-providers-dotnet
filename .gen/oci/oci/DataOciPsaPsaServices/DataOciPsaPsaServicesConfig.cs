@@ -7,7 +7,7 @@ namespace oci.DataOciPsaPsaServices
     [JsiiByValue(fqn: "oci.dataOciPsaPsaServices.DataOciPsaPsaServicesConfig")]
     public class DataOciPsaPsaServicesConfig : oci.DataOciPsaPsaServices.IDataOciPsaPsaServicesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/psa_psa_services#display_name DataOciPsaPsaServices#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psa_psa_services#display_name DataOciPsaPsaServices#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -20,7 +20,7 @@ namespace oci.DataOciPsaPsaServices
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/psa_psa_services#filter DataOciPsaPsaServices#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psa_psa_services#filter DataOciPsaPsaServices#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciPsaPsaServices.IDataOciPsaPsaServicesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace oci.DataOciPsaPsaServices
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/psa_psa_services#id DataOciPsaPsaServices#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psa_psa_services#id DataOciPsaPsaServices#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DataOciPsaPsaServices
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/psa_psa_services#service_id DataOciPsaPsaServices#service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psa_psa_services#service_id DataOciPsaPsaServices#service_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceId

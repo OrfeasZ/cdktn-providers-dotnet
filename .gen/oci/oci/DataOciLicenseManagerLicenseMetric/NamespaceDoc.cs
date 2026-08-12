@@ -5,7 +5,7 @@ namespace oci.DataOciLicenseManagerLicenseMetric
     /// <remarks>
     /// <h1><c>data_oci_license_manager_license_metric</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/license_manager_license_metric"><c>data_oci_license_manager_license_metric</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/license_manager_license_metric"><c>data_oci_license_manager_license_metric</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

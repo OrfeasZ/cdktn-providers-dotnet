@@ -9,7 +9,7 @@ namespace oci.RedisOciCacheUser
     [JsiiByValue(fqn: "oci.redisOciCacheUser.RedisOciCacheUserConfig")]
     public class RedisOciCacheUserConfig : oci.RedisOciCacheUser.IRedisOciCacheUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#acl_string RedisOciCacheUser#acl_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#acl_string RedisOciCacheUser#acl_string}.</summary>
         [JsiiProperty(name: "aclString", typeJson: "{\"primitive\":\"string\"}")]
         public string AclString
         {
@@ -19,7 +19,7 @@ namespace oci.RedisOciCacheUser
 
         /// <summary>authentication_mode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#authentication_mode RedisOciCacheUser#authentication_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#authentication_mode RedisOciCacheUser#authentication_mode}
         /// </remarks>
         [JsiiProperty(name: "authenticationMode", typeJson: "{\"fqn\":\"oci.redisOciCacheUser.RedisOciCacheUserAuthenticationMode\"}")]
         public oci.RedisOciCacheUser.IRedisOciCacheUserAuthenticationMode AuthenticationMode
@@ -28,7 +28,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#compartment_id RedisOciCacheUser#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#compartment_id RedisOciCacheUser#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -36,7 +36,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#description RedisOciCacheUser#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#description RedisOciCacheUser#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -44,7 +44,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#name RedisOciCacheUser#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#name RedisOciCacheUser#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -52,7 +52,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#defined_tags RedisOciCacheUser#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#defined_tags RedisOciCacheUser#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -61,7 +61,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#freeform_tags RedisOciCacheUser#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#freeform_tags RedisOciCacheUser#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -70,7 +70,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#id RedisOciCacheUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#id RedisOciCacheUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.RedisOciCacheUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#status RedisOciCacheUser#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#status RedisOciCacheUser#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -94,7 +94,7 @@ namespace oci.RedisOciCacheUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/redis_oci_cache_user#timeouts RedisOciCacheUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/redis_oci_cache_user#timeouts RedisOciCacheUser#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisOciCacheUser.RedisOciCacheUserTimeouts\"}", isOptional: true)]

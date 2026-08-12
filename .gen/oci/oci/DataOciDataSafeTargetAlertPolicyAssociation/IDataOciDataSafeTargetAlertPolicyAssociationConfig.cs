@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeTargetAlertPolicyAssociation
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeTargetAlertPolicyAssociationConfig), fullyQualifiedName: "oci.dataOciDataSafeTargetAlertPolicyAssociation.DataOciDataSafeTargetAlertPolicyAssociationConfig")]
     public interface IDataOciDataSafeTargetAlertPolicyAssociationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_alert_policy_association#target_alert_policy_association_id DataOciDataSafeTargetAlertPolicyAssociation#target_alert_policy_association_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_target_alert_policy_association#target_alert_policy_association_id DataOciDataSafeTargetAlertPolicyAssociation#target_alert_policy_association_id}.</summary>
         [JsiiProperty(name: "targetAlertPolicyAssociationId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetAlertPolicyAssociationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeTargetAlertPolicyAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_target_alert_policy_association#target_alert_policy_association_id DataOciDataSafeTargetAlertPolicyAssociation#target_alert_policy_association_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_target_alert_policy_association#target_alert_policy_association_id DataOciDataSafeTargetAlertPolicyAssociation#target_alert_policy_association_id}.</summary>
             [JsiiProperty(name: "targetAlertPolicyAssociationId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetAlertPolicyAssociationId
             {

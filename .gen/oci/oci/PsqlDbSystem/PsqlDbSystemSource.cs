@@ -7,7 +7,7 @@ namespace oci.PsqlDbSystem
     [JsiiByValue(fqn: "oci.psqlDbSystem.PsqlDbSystemSource")]
     public class PsqlDbSystemSource : oci.PsqlDbSystem.IPsqlDbSystemSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#backup_id PsqlDbSystem#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#backup_id PsqlDbSystem#backup_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupId
@@ -16,7 +16,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#db_system_id PsqlDbSystem#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#db_system_id PsqlDbSystem#db_system_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbSystemId
@@ -27,7 +27,7 @@ namespace oci.PsqlDbSystem
 
         private object? _isHavingRestoreConfigOverrides;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#is_having_restore_config_overrides PsqlDbSystem#is_having_restore_config_overrides}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#is_having_restore_config_overrides PsqlDbSystem#is_having_restore_config_overrides}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#primary_db_system_id PsqlDbSystem#primary_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#primary_db_system_id PsqlDbSystem#primary_db_system_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primaryDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrimaryDbSystemId
@@ -68,7 +68,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#source_type PsqlDbSystem#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#source_type PsqlDbSystem#source_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceType
@@ -77,7 +77,7 @@ namespace oci.PsqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/psql_db_system#time_to_restore PsqlDbSystem#time_to_restore}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#time_to_restore PsqlDbSystem#time_to_restore}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeToRestore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeToRestore

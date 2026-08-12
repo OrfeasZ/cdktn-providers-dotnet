@@ -7,14 +7,14 @@ namespace oci.DataLabelingServiceDataset
     [JsiiInterface(nativeType: typeof(IDataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat), fullyQualifiedName: "oci.dataLabelingServiceDataset.DataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat")]
     public interface IDataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_labeling_service_dataset#version DataLabelingServiceDataset#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_labeling_service_dataset#version DataLabelingServiceDataset#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
@@ -32,14 +32,14 @@ namespace oci.DataLabelingServiceDataset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_labeling_service_dataset#name DataLabelingServiceDataset#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_labeling_service_dataset#version DataLabelingServiceDataset#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_labeling_service_dataset#version DataLabelingServiceDataset#version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version

@@ -7,28 +7,28 @@ namespace oci.GoldenGateDeployment
     [JsiiInterface(nativeType: typeof(IGoldenGateDeploymentConfig), fullyQualifiedName: "oci.goldenGateDeployment.GoldenGateDeploymentConfig")]
     public interface IGoldenGateDeploymentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#display_name GoldenGateDeployment#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#display_name GoldenGateDeployment#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#subnet_id GoldenGateDeployment#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#subnet_id GoldenGateDeployment#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityDomain
@@ -41,7 +41,7 @@ namespace oci.GoldenGateDeployment
 
         /// <summary>backup_schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#backup_schedule GoldenGateDeployment#backup_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#backup_schedule GoldenGateDeployment#backup_schedule}
         /// </remarks>
         [JsiiProperty(name: "backupSchedule", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentBackupSchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#byol_cpu_core_count_limit GoldenGateDeployment#byol_cpu_core_count_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#byol_cpu_core_count_limit GoldenGateDeployment#byol_cpu_core_count_limit}.</summary>
         [JsiiProperty(name: "byolCpuCoreCountLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ByolCpuCoreCountLimit
@@ -64,7 +64,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#cluster_placement_group_id GoldenGateDeployment#cluster_placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#cluster_placement_group_id GoldenGateDeployment#cluster_placement_group_id}.</summary>
         [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterPlacementGroupId
@@ -75,7 +75,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#cpu_core_count GoldenGateDeployment#cpu_core_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#cpu_core_count GoldenGateDeployment#cpu_core_count}.</summary>
         [JsiiProperty(name: "cpuCoreCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CpuCoreCount
@@ -86,7 +86,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#defined_tags GoldenGateDeployment#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#defined_tags GoldenGateDeployment#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -97,7 +97,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#deployment_backup_id GoldenGateDeployment#deployment_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#deployment_backup_id GoldenGateDeployment#deployment_backup_id}.</summary>
         [JsiiProperty(name: "deploymentBackupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeploymentBackupId
@@ -108,7 +108,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#deployment_type GoldenGateDeployment#deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#deployment_type GoldenGateDeployment#deployment_type}.</summary>
         [JsiiProperty(name: "deploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeploymentType
@@ -119,7 +119,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#description GoldenGateDeployment#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#description GoldenGateDeployment#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -130,7 +130,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#disaster_recovery_status GoldenGateDeployment#disaster_recovery_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#disaster_recovery_status GoldenGateDeployment#disaster_recovery_status}.</summary>
         [JsiiProperty(name: "disasterRecoveryStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisasterRecoveryStatus
@@ -141,7 +141,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#environment_type GoldenGateDeployment#environment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#environment_type GoldenGateDeployment#environment_type}.</summary>
         [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EnvironmentType
@@ -152,7 +152,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
         [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FaultDomain
@@ -163,7 +163,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#fqdn GoldenGateDeployment#fqdn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#fqdn GoldenGateDeployment#fqdn}.</summary>
         [JsiiProperty(name: "fqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Fqdn
@@ -174,7 +174,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#freeform_tags GoldenGateDeployment#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#freeform_tags GoldenGateDeployment#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -185,7 +185,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#id GoldenGateDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#id GoldenGateDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -200,7 +200,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_auto_scaling_enabled GoldenGateDeployment#is_auto_scaling_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_auto_scaling_enabled GoldenGateDeployment#is_auto_scaling_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -214,7 +214,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_byol_cpu_core_count_limit_enabled GoldenGateDeployment#is_byol_cpu_core_count_limit_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_byol_cpu_core_count_limit_enabled GoldenGateDeployment#is_byol_cpu_core_count_limit_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -228,7 +228,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_lock_override GoldenGateDeployment#is_lock_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_lock_override GoldenGateDeployment#is_lock_override}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -242,7 +242,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_public GoldenGateDeployment#is_public}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_public GoldenGateDeployment#is_public}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -256,7 +256,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#license_model GoldenGateDeployment#license_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#license_model GoldenGateDeployment#license_model}.</summary>
         [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicenseModel
@@ -267,7 +267,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#load_balancer_subnet_id GoldenGateDeployment#load_balancer_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#load_balancer_subnet_id GoldenGateDeployment#load_balancer_subnet_id}.</summary>
         [JsiiProperty(name: "loadBalancerSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LoadBalancerSubnetId
@@ -280,7 +280,7 @@ namespace oci.GoldenGateDeployment
 
         /// <summary>locks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#locks GoldenGateDeployment#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#locks GoldenGateDeployment#locks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentLocks" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "locks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentLocks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -295,7 +295,7 @@ namespace oci.GoldenGateDeployment
 
         /// <summary>maintenance_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#maintenance_configuration GoldenGateDeployment#maintenance_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#maintenance_configuration GoldenGateDeployment#maintenance_configuration}
         /// </remarks>
         [JsiiProperty(name: "maintenanceConfiguration", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentMaintenanceConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -309,7 +309,7 @@ namespace oci.GoldenGateDeployment
 
         /// <summary>maintenance_window block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#maintenance_window GoldenGateDeployment#maintenance_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#maintenance_window GoldenGateDeployment#maintenance_window}
         /// </remarks>
         [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentMaintenanceWindow\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -321,7 +321,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#nsg_ids GoldenGateDeployment#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#nsg_ids GoldenGateDeployment#nsg_ids}.</summary>
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NsgIds
@@ -334,7 +334,7 @@ namespace oci.GoldenGateDeployment
 
         /// <summary>ogg_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#ogg_data GoldenGateDeployment#ogg_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#ogg_data GoldenGateDeployment#ogg_data}
         /// </remarks>
         [JsiiProperty(name: "oggData", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentOggData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -348,7 +348,7 @@ namespace oci.GoldenGateDeployment
 
         /// <summary>placements block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#placements GoldenGateDeployment#placements}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#placements GoldenGateDeployment#placements}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentPlacements" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "placements", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentPlacements\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -361,7 +361,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#security_attributes GoldenGateDeployment#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#security_attributes GoldenGateDeployment#security_attributes}.</summary>
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -372,7 +372,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#source_deployment_id GoldenGateDeployment#source_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#source_deployment_id GoldenGateDeployment#source_deployment_id}.</summary>
         [JsiiProperty(name: "sourceDeploymentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceDeploymentId
@@ -383,7 +383,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#state GoldenGateDeployment#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#state GoldenGateDeployment#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -394,7 +394,7 @@ namespace oci.GoldenGateDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#subscription_id GoldenGateDeployment#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#subscription_id GoldenGateDeployment#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubscriptionId
@@ -407,7 +407,7 @@ namespace oci.GoldenGateDeployment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#timeouts GoldenGateDeployment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#timeouts GoldenGateDeployment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -426,28 +426,28 @@ namespace oci.GoldenGateDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#compartment_id GoldenGateDeployment#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#display_name GoldenGateDeployment#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#display_name GoldenGateDeployment#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#subnet_id GoldenGateDeployment#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#subnet_id GoldenGateDeployment#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#availability_domain GoldenGateDeployment#availability_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityDomain
@@ -457,7 +457,7 @@ namespace oci.GoldenGateDeployment
 
             /// <summary>backup_schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#backup_schedule GoldenGateDeployment#backup_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#backup_schedule GoldenGateDeployment#backup_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "backupSchedule", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentBackupSchedule\"}", isOptional: true)]
@@ -466,7 +466,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<oci.GoldenGateDeployment.IGoldenGateDeploymentBackupSchedule?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#byol_cpu_core_count_limit GoldenGateDeployment#byol_cpu_core_count_limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#byol_cpu_core_count_limit GoldenGateDeployment#byol_cpu_core_count_limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "byolCpuCoreCountLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ByolCpuCoreCountLimit
@@ -474,7 +474,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#cluster_placement_group_id GoldenGateDeployment#cluster_placement_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#cluster_placement_group_id GoldenGateDeployment#cluster_placement_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterPlacementGroupId
@@ -482,7 +482,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#cpu_core_count GoldenGateDeployment#cpu_core_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#cpu_core_count GoldenGateDeployment#cpu_core_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cpuCoreCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CpuCoreCount
@@ -490,7 +490,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#defined_tags GoldenGateDeployment#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#defined_tags GoldenGateDeployment#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -498,7 +498,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#deployment_backup_id GoldenGateDeployment#deployment_backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#deployment_backup_id GoldenGateDeployment#deployment_backup_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deploymentBackupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeploymentBackupId
@@ -506,7 +506,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#deployment_type GoldenGateDeployment#deployment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#deployment_type GoldenGateDeployment#deployment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeploymentType
@@ -514,7 +514,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#description GoldenGateDeployment#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#description GoldenGateDeployment#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -522,7 +522,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#disaster_recovery_status GoldenGateDeployment#disaster_recovery_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#disaster_recovery_status GoldenGateDeployment#disaster_recovery_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "disasterRecoveryStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisasterRecoveryStatus
@@ -530,7 +530,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#environment_type GoldenGateDeployment#environment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#environment_type GoldenGateDeployment#environment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "environmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EnvironmentType
@@ -538,7 +538,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#fault_domain GoldenGateDeployment#fault_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "faultDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FaultDomain
@@ -546,7 +546,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#fqdn GoldenGateDeployment#fqdn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#fqdn GoldenGateDeployment#fqdn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Fqdn
@@ -554,7 +554,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#freeform_tags GoldenGateDeployment#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#freeform_tags GoldenGateDeployment#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -562,7 +562,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#id GoldenGateDeployment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#id GoldenGateDeployment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -574,7 +574,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_auto_scaling_enabled GoldenGateDeployment#is_auto_scaling_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_auto_scaling_enabled GoldenGateDeployment#is_auto_scaling_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -585,7 +585,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_byol_cpu_core_count_limit_enabled GoldenGateDeployment#is_byol_cpu_core_count_limit_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_byol_cpu_core_count_limit_enabled GoldenGateDeployment#is_byol_cpu_core_count_limit_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -596,7 +596,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_lock_override GoldenGateDeployment#is_lock_override}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_lock_override GoldenGateDeployment#is_lock_override}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -607,7 +607,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#is_public GoldenGateDeployment#is_public}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#is_public GoldenGateDeployment#is_public}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -618,7 +618,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#license_model GoldenGateDeployment#license_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#license_model GoldenGateDeployment#license_model}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licenseModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicenseModel
@@ -626,7 +626,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#load_balancer_subnet_id GoldenGateDeployment#load_balancer_subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#load_balancer_subnet_id GoldenGateDeployment#load_balancer_subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancerSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LoadBalancerSubnetId
@@ -636,7 +636,7 @@ namespace oci.GoldenGateDeployment
 
             /// <summary>locks block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#locks GoldenGateDeployment#locks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#locks GoldenGateDeployment#locks}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentLocks" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -648,7 +648,7 @@ namespace oci.GoldenGateDeployment
 
             /// <summary>maintenance_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#maintenance_configuration GoldenGateDeployment#maintenance_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#maintenance_configuration GoldenGateDeployment#maintenance_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceConfiguration", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentMaintenanceConfiguration\"}", isOptional: true)]
@@ -659,7 +659,7 @@ namespace oci.GoldenGateDeployment
 
             /// <summary>maintenance_window block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#maintenance_window GoldenGateDeployment#maintenance_window}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#maintenance_window GoldenGateDeployment#maintenance_window}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentMaintenanceWindow\"}", isOptional: true)]
@@ -668,7 +668,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<oci.GoldenGateDeployment.IGoldenGateDeploymentMaintenanceWindow?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#nsg_ids GoldenGateDeployment#nsg_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#nsg_ids GoldenGateDeployment#nsg_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NsgIds
@@ -678,7 +678,7 @@ namespace oci.GoldenGateDeployment
 
             /// <summary>ogg_data block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#ogg_data GoldenGateDeployment#ogg_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#ogg_data GoldenGateDeployment#ogg_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oggData", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentOggData\"}", isOptional: true)]
@@ -689,7 +689,7 @@ namespace oci.GoldenGateDeployment
 
             /// <summary>placements block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#placements GoldenGateDeployment#placements}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#placements GoldenGateDeployment#placements}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.GoldenGateDeployment.IGoldenGateDeploymentPlacements" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -699,7 +699,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#security_attributes GoldenGateDeployment#security_attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#security_attributes GoldenGateDeployment#security_attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -707,7 +707,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#source_deployment_id GoldenGateDeployment#source_deployment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#source_deployment_id GoldenGateDeployment#source_deployment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDeploymentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceDeploymentId
@@ -715,7 +715,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#state GoldenGateDeployment#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#state GoldenGateDeployment#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -723,7 +723,7 @@ namespace oci.GoldenGateDeployment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#subscription_id GoldenGateDeployment#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#subscription_id GoldenGateDeployment#subscription_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubscriptionId
@@ -733,7 +733,7 @@ namespace oci.GoldenGateDeployment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_deployment#timeouts GoldenGateDeployment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_deployment#timeouts GoldenGateDeployment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.goldenGateDeployment.GoldenGateDeploymentTimeouts\"}", isOptional: true)]

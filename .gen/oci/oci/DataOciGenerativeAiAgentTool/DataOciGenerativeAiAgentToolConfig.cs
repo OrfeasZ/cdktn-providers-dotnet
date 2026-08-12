@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiAgentTool
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolConfig")]
     public class DataOciGenerativeAiAgentToolConfig : oci.DataOciGenerativeAiAgentTool.IDataOciGenerativeAiAgentToolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_agent_tool#tool_id DataOciGenerativeAiAgentTool#tool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_tool#tool_id DataOciGenerativeAiAgentTool#tool_id}.</summary>
         [JsiiProperty(name: "toolId", typeJson: "{\"primitive\":\"string\"}")]
         public string ToolId
         {

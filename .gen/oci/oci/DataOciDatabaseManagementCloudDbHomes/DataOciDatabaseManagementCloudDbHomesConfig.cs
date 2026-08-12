@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbHomes.DataOciDatabaseManagementCloudDbHomesConfig")]
     public class DataOciDatabaseManagementCloudDbHomesConfig : oci.DataOciDatabaseManagementCloudDbHomes.IDataOciDatabaseManagementCloudDbHomesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_db_homes#cloud_db_system_id DataOciDatabaseManagementCloudDbHomes#cloud_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#cloud_db_system_id DataOciDatabaseManagementCloudDbHomes#cloud_db_system_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CloudDbSystemId
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_db_homes#compartment_id DataOciDatabaseManagementCloudDbHomes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#compartment_id DataOciDatabaseManagementCloudDbHomes#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_db_homes#display_name DataOciDatabaseManagementCloudDbHomes#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#display_name DataOciDatabaseManagementCloudDbHomes#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_db_homes#filter DataOciDatabaseManagementCloudDbHomes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#filter DataOciDatabaseManagementCloudDbHomes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudDbHomes.IDataOciDatabaseManagementCloudDbHomesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_cloud_db_homes#id DataOciDatabaseManagementCloudDbHomes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#id DataOciDatabaseManagementCloudDbHomes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

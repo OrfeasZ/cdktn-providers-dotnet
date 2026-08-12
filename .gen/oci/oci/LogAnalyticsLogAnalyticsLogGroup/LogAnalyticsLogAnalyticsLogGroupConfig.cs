@@ -9,7 +9,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
     [JsiiByValue(fqn: "oci.logAnalyticsLogAnalyticsLogGroup.LogAnalyticsLogAnalyticsLogGroupConfig")]
     public class LogAnalyticsLogAnalyticsLogGroupConfig : oci.LogAnalyticsLogAnalyticsLogGroup.ILogAnalyticsLogAnalyticsLogGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#compartment_id LogAnalyticsLogAnalyticsLogGroup#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#compartment_id LogAnalyticsLogAnalyticsLogGroup#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#display_name LogAnalyticsLogAnalyticsLogGroup#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#display_name LogAnalyticsLogAnalyticsLogGroup#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#namespace LogAnalyticsLogAnalyticsLogGroup#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#namespace LogAnalyticsLogAnalyticsLogGroup#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -33,7 +33,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#defined_tags LogAnalyticsLogAnalyticsLogGroup#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#defined_tags LogAnalyticsLogAnalyticsLogGroup#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -42,7 +42,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#description LogAnalyticsLogAnalyticsLogGroup#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#description LogAnalyticsLogAnalyticsLogGroup#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -51,7 +51,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#freeform_tags LogAnalyticsLogAnalyticsLogGroup#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#freeform_tags LogAnalyticsLogAnalyticsLogGroup#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -60,7 +60,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#id LogAnalyticsLogAnalyticsLogGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#id LogAnalyticsLogAnalyticsLogGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace oci.LogAnalyticsLogAnalyticsLogGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_log_analytics_log_group#timeouts LogAnalyticsLogAnalyticsLogGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_log_group#timeouts LogAnalyticsLogAnalyticsLogGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsLogAnalyticsLogGroup.LogAnalyticsLogAnalyticsLogGroupTimeouts\"}", isOptional: true)]

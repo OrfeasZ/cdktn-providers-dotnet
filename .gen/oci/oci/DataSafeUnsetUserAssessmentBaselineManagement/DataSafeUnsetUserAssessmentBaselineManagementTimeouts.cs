@@ -7,7 +7,7 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
     [JsiiByValue(fqn: "oci.dataSafeUnsetUserAssessmentBaselineManagement.DataSafeUnsetUserAssessmentBaselineManagementTimeouts")]
     public class DataSafeUnsetUserAssessmentBaselineManagementTimeouts : oci.DataSafeUnsetUserAssessmentBaselineManagement.IDataSafeUnsetUserAssessmentBaselineManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_unset_user_assessment_baseline_management#create DataSafeUnsetUserAssessmentBaselineManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_unset_user_assessment_baseline_management#create DataSafeUnsetUserAssessmentBaselineManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_unset_user_assessment_baseline_management#delete DataSafeUnsetUserAssessmentBaselineManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_unset_user_assessment_baseline_management#delete DataSafeUnsetUserAssessmentBaselineManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_unset_user_assessment_baseline_management#update DataSafeUnsetUserAssessmentBaselineManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_unset_user_assessment_baseline_management#update DataSafeUnsetUserAssessmentBaselineManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

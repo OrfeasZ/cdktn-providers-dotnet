@@ -7,14 +7,14 @@ namespace oci.CoreDefaultDrgRouteTable
     [JsiiInterface(nativeType: typeof(ICoreDefaultDrgRouteTableConfig), fullyQualifiedName: "oci.coreDefaultDrgRouteTable.CoreDefaultDrgRouteTableConfig")]
     public interface ICoreDefaultDrgRouteTableConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#manage_default_resource_id CoreDefaultDrgRouteTable#manage_default_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#manage_default_resource_id CoreDefaultDrgRouteTable#manage_default_resource_id}.</summary>
         [JsiiProperty(name: "manageDefaultResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string ManageDefaultResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#compartment_id CoreDefaultDrgRouteTable#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#compartment_id CoreDefaultDrgRouteTable#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.CoreDefaultDrgRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#defined_tags CoreDefaultDrgRouteTable#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#defined_tags CoreDefaultDrgRouteTable#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -36,7 +36,7 @@ namespace oci.CoreDefaultDrgRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#display_name CoreDefaultDrgRouteTable#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#display_name CoreDefaultDrgRouteTable#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -47,7 +47,7 @@ namespace oci.CoreDefaultDrgRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#freeform_tags CoreDefaultDrgRouteTable#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#freeform_tags CoreDefaultDrgRouteTable#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -58,7 +58,7 @@ namespace oci.CoreDefaultDrgRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#id CoreDefaultDrgRouteTable#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#id CoreDefaultDrgRouteTable#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.CoreDefaultDrgRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#import_drg_route_distribution_id CoreDefaultDrgRouteTable#import_drg_route_distribution_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#import_drg_route_distribution_id CoreDefaultDrgRouteTable#import_drg_route_distribution_id}.</summary>
         [JsiiProperty(name: "importDrgRouteDistributionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImportDrgRouteDistributionId
@@ -84,7 +84,7 @@ namespace oci.CoreDefaultDrgRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#is_ecmp_enabled CoreDefaultDrgRouteTable#is_ecmp_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#is_ecmp_enabled CoreDefaultDrgRouteTable#is_ecmp_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -98,7 +98,7 @@ namespace oci.CoreDefaultDrgRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#remove_import_trigger CoreDefaultDrgRouteTable#remove_import_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#remove_import_trigger CoreDefaultDrgRouteTable#remove_import_trigger}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -114,7 +114,7 @@ namespace oci.CoreDefaultDrgRouteTable
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#timeouts CoreDefaultDrgRouteTable#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#timeouts CoreDefaultDrgRouteTable#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreDefaultDrgRouteTable.CoreDefaultDrgRouteTableTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -133,14 +133,14 @@ namespace oci.CoreDefaultDrgRouteTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#manage_default_resource_id CoreDefaultDrgRouteTable#manage_default_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#manage_default_resource_id CoreDefaultDrgRouteTable#manage_default_resource_id}.</summary>
             [JsiiProperty(name: "manageDefaultResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManageDefaultResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#compartment_id CoreDefaultDrgRouteTable#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#compartment_id CoreDefaultDrgRouteTable#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -148,7 +148,7 @@ namespace oci.CoreDefaultDrgRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#defined_tags CoreDefaultDrgRouteTable#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#defined_tags CoreDefaultDrgRouteTable#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -156,7 +156,7 @@ namespace oci.CoreDefaultDrgRouteTable
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#display_name CoreDefaultDrgRouteTable#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#display_name CoreDefaultDrgRouteTable#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -164,7 +164,7 @@ namespace oci.CoreDefaultDrgRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#freeform_tags CoreDefaultDrgRouteTable#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#freeform_tags CoreDefaultDrgRouteTable#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -172,7 +172,7 @@ namespace oci.CoreDefaultDrgRouteTable
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#id CoreDefaultDrgRouteTable#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#id CoreDefaultDrgRouteTable#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -184,7 +184,7 @@ namespace oci.CoreDefaultDrgRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#import_drg_route_distribution_id CoreDefaultDrgRouteTable#import_drg_route_distribution_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#import_drg_route_distribution_id CoreDefaultDrgRouteTable#import_drg_route_distribution_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "importDrgRouteDistributionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImportDrgRouteDistributionId
@@ -192,7 +192,7 @@ namespace oci.CoreDefaultDrgRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#is_ecmp_enabled CoreDefaultDrgRouteTable#is_ecmp_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#is_ecmp_enabled CoreDefaultDrgRouteTable#is_ecmp_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -203,7 +203,7 @@ namespace oci.CoreDefaultDrgRouteTable
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#remove_import_trigger CoreDefaultDrgRouteTable#remove_import_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#remove_import_trigger CoreDefaultDrgRouteTable#remove_import_trigger}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -216,7 +216,7 @@ namespace oci.CoreDefaultDrgRouteTable
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_default_drg_route_table#timeouts CoreDefaultDrgRouteTable#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_drg_route_table#timeouts CoreDefaultDrgRouteTable#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreDefaultDrgRouteTable.CoreDefaultDrgRouteTableTimeouts\"}", isOptional: true)]

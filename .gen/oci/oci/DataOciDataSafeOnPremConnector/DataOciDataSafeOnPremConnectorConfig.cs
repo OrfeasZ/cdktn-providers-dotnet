@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeOnPremConnector
     [JsiiByValue(fqn: "oci.dataOciDataSafeOnPremConnector.DataOciDataSafeOnPremConnectorConfig")]
     public class DataOciDataSafeOnPremConnectorConfig : oci.DataOciDataSafeOnPremConnector.IDataOciDataSafeOnPremConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/data_safe_on_prem_connector#on_prem_connector_id DataOciDataSafeOnPremConnector#on_prem_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_on_prem_connector#on_prem_connector_id DataOciDataSafeOnPremConnector#on_prem_connector_id}.</summary>
         [JsiiProperty(name: "onPremConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string OnPremConnectorId
         {

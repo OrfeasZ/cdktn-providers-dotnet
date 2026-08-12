@@ -7,7 +7,7 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiByValue(fqn: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceContainersHealthChecksHeaders")]
     public class ContainerInstancesContainerInstanceContainersHealthChecksHeaders : oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceContainersHealthChecksHeaders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/container_instances_container_instance#name ContainerInstancesContainerInstance#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/container_instances_container_instance#name ContainerInstancesContainerInstance#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -16,7 +16,7 @@ namespace oci.ContainerInstancesContainerInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/container_instances_container_instance#value ContainerInstancesContainerInstance#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/container_instances_container_instance#value ContainerInstancesContainerInstance#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

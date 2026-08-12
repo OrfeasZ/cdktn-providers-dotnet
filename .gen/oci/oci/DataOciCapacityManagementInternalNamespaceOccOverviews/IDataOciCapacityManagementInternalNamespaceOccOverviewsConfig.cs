@@ -7,21 +7,21 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementInternalNamespaceOccOverviewsConfig), fullyQualifiedName: "oci.dataOciCapacityManagementInternalNamespaceOccOverviews.DataOciCapacityManagementInternalNamespaceOccOverviewsConfig")]
     public interface IDataOciCapacityManagementInternalNamespaceOccOverviewsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#compartment_id DataOciCapacityManagementInternalNamespaceOccOverviews#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#compartment_id DataOciCapacityManagementInternalNamespaceOccOverviews#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#namespace DataOciCapacityManagementInternalNamespaceOccOverviews#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#namespace DataOciCapacityManagementInternalNamespaceOccOverviews#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#occ_customer_group_id DataOciCapacityManagementInternalNamespaceOccOverviews#occ_customer_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#occ_customer_group_id DataOciCapacityManagementInternalNamespaceOccOverviews#occ_customer_group_id}.</summary>
         [JsiiProperty(name: "occCustomerGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string OccCustomerGroupId
         {
@@ -30,7 +30,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#filter DataOciCapacityManagementInternalNamespaceOccOverviews#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#filter DataOciCapacityManagementInternalNamespaceOccOverviews#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementInternalNamespaceOccOverviews.IDataOciCapacityManagementInternalNamespaceOccOverviewsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCapacityManagementInternalNamespaceOccOverviews.DataOciCapacityManagementInternalNamespaceOccOverviewsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#from DataOciCapacityManagementInternalNamespaceOccOverviews#from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#from DataOciCapacityManagementInternalNamespaceOccOverviews#from}.</summary>
         [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? From
@@ -54,7 +54,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#id DataOciCapacityManagementInternalNamespaceOccOverviews#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#id DataOciCapacityManagementInternalNamespaceOccOverviews#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#to DataOciCapacityManagementInternalNamespaceOccOverviews#to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#to DataOciCapacityManagementInternalNamespaceOccOverviews#to}.</summary>
         [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? To
@@ -80,7 +80,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#workload_type DataOciCapacityManagementInternalNamespaceOccOverviews#workload_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#workload_type DataOciCapacityManagementInternalNamespaceOccOverviews#workload_type}.</summary>
         [JsiiProperty(name: "workloadType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WorkloadType
@@ -98,21 +98,21 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#compartment_id DataOciCapacityManagementInternalNamespaceOccOverviews#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#compartment_id DataOciCapacityManagementInternalNamespaceOccOverviews#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#namespace DataOciCapacityManagementInternalNamespaceOccOverviews#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#namespace DataOciCapacityManagementInternalNamespaceOccOverviews#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#occ_customer_group_id DataOciCapacityManagementInternalNamespaceOccOverviews#occ_customer_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#occ_customer_group_id DataOciCapacityManagementInternalNamespaceOccOverviews#occ_customer_group_id}.</summary>
             [JsiiProperty(name: "occCustomerGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string OccCustomerGroupId
             {
@@ -121,7 +121,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#filter DataOciCapacityManagementInternalNamespaceOccOverviews#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#filter DataOciCapacityManagementInternalNamespaceOccOverviews#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCapacityManagementInternalNamespaceOccOverviews.IDataOciCapacityManagementInternalNamespaceOccOverviewsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -131,7 +131,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#from DataOciCapacityManagementInternalNamespaceOccOverviews#from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#from DataOciCapacityManagementInternalNamespaceOccOverviews#from}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "from", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? From
@@ -139,7 +139,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#id DataOciCapacityManagementInternalNamespaceOccOverviews#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#id DataOciCapacityManagementInternalNamespaceOccOverviews#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -151,7 +151,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#to DataOciCapacityManagementInternalNamespaceOccOverviews#to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#to DataOciCapacityManagementInternalNamespaceOccOverviews#to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "to", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? To
@@ -159,7 +159,7 @@ namespace oci.DataOciCapacityManagementInternalNamespaceOccOverviews
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#workload_type DataOciCapacityManagementInternalNamespaceOccOverviews#workload_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/capacity_management_internal_namespace_occ_overviews#workload_type DataOciCapacityManagementInternalNamespaceOccOverviews#workload_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workloadType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WorkloadType

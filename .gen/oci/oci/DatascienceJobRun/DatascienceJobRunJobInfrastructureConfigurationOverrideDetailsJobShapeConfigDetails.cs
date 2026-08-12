@@ -7,7 +7,7 @@ namespace oci.DatascienceJobRun
     [JsiiByValue(fqn: "oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails")]
     public class DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails : oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_job_run#memory_in_gbs DatascienceJobRun#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_job_run#memory_in_gbs DatascienceJobRun#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -16,7 +16,7 @@ namespace oci.DatascienceJobRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_job_run#ocpus DatascienceJobRun#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_job_run#ocpus DatascienceJobRun#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus

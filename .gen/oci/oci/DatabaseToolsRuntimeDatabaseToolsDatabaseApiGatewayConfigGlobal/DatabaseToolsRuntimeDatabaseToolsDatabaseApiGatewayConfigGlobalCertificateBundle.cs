@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
     [JsiiByValue(fqn: "oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalCertificateBundle")]
     public class DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalCertificateBundle : oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.IDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalCertificateBundle
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
 
         /// <summary>certificate_private_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#certificate_private_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#certificate_private_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#certificate_private_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#certificate_private_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificatePrivateKey", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalCertificateBundleCertificatePrivateKey\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
 
         /// <summary>certificate_public block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#certificate_public DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#certificate_public}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#certificate_public DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#certificate_public}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificatePublic", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalCertificateBundleCertificatePublic\"}", isOptional: true)]

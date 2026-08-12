@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabasesEstimateCostSavings
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabasesEstimateCostSavings.DataOciDatabaseAutonomousDatabasesEstimateCostSavingsFilter")]
     public class DataOciDatabaseAutonomousDatabasesEstimateCostSavingsFilter : oci.DataOciDatabaseAutonomousDatabasesEstimateCostSavings.IDataOciDatabaseAutonomousDatabasesEstimateCostSavingsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_databases_estimate_cost_savings#name DataOciDatabaseAutonomousDatabasesEstimateCostSavings#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_databases_estimate_cost_savings#name DataOciDatabaseAutonomousDatabasesEstimateCostSavings#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousDatabasesEstimateCostSavings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_databases_estimate_cost_savings#values DataOciDatabaseAutonomousDatabasesEstimateCostSavings#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_databases_estimate_cost_savings#values DataOciDatabaseAutonomousDatabasesEstimateCostSavings#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseAutonomousDatabasesEstimateCostSavings
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_databases_estimate_cost_savings#regex DataOciDatabaseAutonomousDatabasesEstimateCostSavings#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_databases_estimate_cost_savings#regex DataOciDatabaseAutonomousDatabasesEstimateCostSavings#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

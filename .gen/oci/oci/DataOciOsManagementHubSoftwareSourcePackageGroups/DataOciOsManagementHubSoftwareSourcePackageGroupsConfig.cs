@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourcePackageGroups
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubSoftwareSourcePackageGroups.DataOciOsManagementHubSoftwareSourcePackageGroupsConfig")]
     public class DataOciOsManagementHubSoftwareSourcePackageGroupsConfig : oci.DataOciOsManagementHubSoftwareSourcePackageGroups.IDataOciOsManagementHubSoftwareSourcePackageGroupsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_package_groups#software_source_id DataOciOsManagementHubSoftwareSourcePackageGroups#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_package_groups#software_source_id DataOciOsManagementHubSoftwareSourcePackageGroups#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareSourceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourcePackageGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_package_groups#compartment_id DataOciOsManagementHubSoftwareSourcePackageGroups#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_package_groups#compartment_id DataOciOsManagementHubSoftwareSourcePackageGroups#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -30,7 +30,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourcePackageGroups
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_package_groups#filter DataOciOsManagementHubSoftwareSourcePackageGroups#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_package_groups#filter DataOciOsManagementHubSoftwareSourcePackageGroups#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubSoftwareSourcePackageGroups.IDataOciOsManagementHubSoftwareSourcePackageGroupsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourcePackageGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_package_groups#group_type DataOciOsManagementHubSoftwareSourcePackageGroups#group_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_package_groups#group_type DataOciOsManagementHubSoftwareSourcePackageGroups#group_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? GroupType
@@ -70,7 +70,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourcePackageGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_package_groups#id DataOciOsManagementHubSoftwareSourcePackageGroups#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_package_groups#id DataOciOsManagementHubSoftwareSourcePackageGroups#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourcePackageGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_package_groups#name DataOciOsManagementHubSoftwareSourcePackageGroups#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_package_groups#name DataOciOsManagementHubSoftwareSourcePackageGroups#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -92,7 +92,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourcePackageGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/os_management_hub_software_source_package_groups#name_contains DataOciOsManagementHubSoftwareSourcePackageGroups#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_software_source_package_groups#name_contains DataOciOsManagementHubSoftwareSourcePackageGroups#name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameContains

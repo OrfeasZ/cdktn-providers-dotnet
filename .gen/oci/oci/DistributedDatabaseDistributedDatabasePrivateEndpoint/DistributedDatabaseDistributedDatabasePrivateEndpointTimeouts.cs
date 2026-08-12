@@ -7,7 +7,7 @@ namespace oci.DistributedDatabaseDistributedDatabasePrivateEndpoint
     [JsiiByValue(fqn: "oci.distributedDatabaseDistributedDatabasePrivateEndpoint.DistributedDatabaseDistributedDatabasePrivateEndpointTimeouts")]
     public class DistributedDatabaseDistributedDatabasePrivateEndpointTimeouts : oci.DistributedDatabaseDistributedDatabasePrivateEndpoint.IDistributedDatabaseDistributedDatabasePrivateEndpointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database_private_endpoint#create DistributedDatabaseDistributedDatabasePrivateEndpoint#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database_private_endpoint#create DistributedDatabaseDistributedDatabasePrivateEndpoint#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DistributedDatabaseDistributedDatabasePrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database_private_endpoint#delete DistributedDatabaseDistributedDatabasePrivateEndpoint#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database_private_endpoint#delete DistributedDatabaseDistributedDatabasePrivateEndpoint#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DistributedDatabaseDistributedDatabasePrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database_private_endpoint#update DistributedDatabaseDistributedDatabasePrivateEndpoint#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database_private_endpoint#update DistributedDatabaseDistributedDatabasePrivateEndpoint#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

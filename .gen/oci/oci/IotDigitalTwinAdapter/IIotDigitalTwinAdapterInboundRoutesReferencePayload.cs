@@ -7,14 +7,14 @@ namespace oci.IotDigitalTwinAdapter
     [JsiiInterface(nativeType: typeof(IIotDigitalTwinAdapterInboundRoutesReferencePayload), fullyQualifiedName: "oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundRoutesReferencePayload")]
     public interface IIotDigitalTwinAdapterInboundRoutesReferencePayload
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}.</summary>
         [JsiiProperty(name: "data", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         System.Collections.Generic.IDictionary<string, string> Data
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}.</summary>
         [JsiiProperty(name: "dataFormat", typeJson: "{\"primitive\":\"string\"}")]
         string DataFormat
         {
@@ -28,14 +28,14 @@ namespace oci.IotDigitalTwinAdapter
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_adapter#data IotDigitalTwinAdapter#data}.</summary>
             [JsiiProperty(name: "data", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
             public System.Collections.Generic.IDictionary<string, string> Data
             {
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_adapter#data_format IotDigitalTwinAdapter#data_format}.</summary>
             [JsiiProperty(name: "dataFormat", typeJson: "{\"primitive\":\"string\"}")]
             public string DataFormat
             {

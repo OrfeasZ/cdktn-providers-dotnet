@@ -7,7 +7,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccInfrastructure
     [JsiiInterface(nativeType: typeof(IDataOciComputeCloudAtCustomerCccInfrastructureConfig), fullyQualifiedName: "oci.dataOciComputeCloudAtCustomerCccInfrastructure.DataOciComputeCloudAtCustomerCccInfrastructureConfig")]
     public interface IDataOciComputeCloudAtCustomerCccInfrastructureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/compute_cloud_at_customer_ccc_infrastructure#ccc_infrastructure_id DataOciComputeCloudAtCustomerCccInfrastructure#ccc_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/compute_cloud_at_customer_ccc_infrastructure#ccc_infrastructure_id DataOciComputeCloudAtCustomerCccInfrastructure#ccc_infrastructure_id}.</summary>
         [JsiiProperty(name: "cccInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string CccInfrastructureId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciComputeCloudAtCustomerCccInfrastructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/compute_cloud_at_customer_ccc_infrastructure#ccc_infrastructure_id DataOciComputeCloudAtCustomerCccInfrastructure#ccc_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/compute_cloud_at_customer_ccc_infrastructure#ccc_infrastructure_id DataOciComputeCloudAtCustomerCccInfrastructure#ccc_infrastructure_id}.</summary>
             [JsiiProperty(name: "cccInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string CccInfrastructureId
             {

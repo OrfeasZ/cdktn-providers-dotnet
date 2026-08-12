@@ -7,7 +7,7 @@ namespace oci.CloudGuardAdhocQuery
     [JsiiByValue(fqn: "oci.cloudGuardAdhocQuery.CloudGuardAdhocQueryTimeouts")]
     public class CloudGuardAdhocQueryTimeouts : oci.CloudGuardAdhocQuery.ICloudGuardAdhocQueryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_guard_adhoc_query#create CloudGuardAdhocQuery#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_adhoc_query#create CloudGuardAdhocQuery#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CloudGuardAdhocQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_guard_adhoc_query#delete CloudGuardAdhocQuery#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_adhoc_query#delete CloudGuardAdhocQuery#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CloudGuardAdhocQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_guard_adhoc_query#update CloudGuardAdhocQuery#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_adhoc_query#update CloudGuardAdhocQuery#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

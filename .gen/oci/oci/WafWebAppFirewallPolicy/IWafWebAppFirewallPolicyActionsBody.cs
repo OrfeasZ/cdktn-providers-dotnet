@@ -7,14 +7,14 @@ namespace oci.WafWebAppFirewallPolicy
     [JsiiInterface(nativeType: typeof(IWafWebAppFirewallPolicyActionsBody), fullyQualifiedName: "oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyActionsBody")]
     public interface IWafWebAppFirewallPolicyActionsBody
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall_policy#template WafWebAppFirewallPolicy#template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall_policy#template WafWebAppFirewallPolicy#template}.</summary>
         [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Template
@@ -25,7 +25,7 @@ namespace oci.WafWebAppFirewallPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall_policy#text WafWebAppFirewallPolicy#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall_policy#text WafWebAppFirewallPolicy#text}.</summary>
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Text
@@ -43,14 +43,14 @@ namespace oci.WafWebAppFirewallPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall_policy#type WafWebAppFirewallPolicy#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall_policy#template WafWebAppFirewallPolicy#template}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall_policy#template WafWebAppFirewallPolicy#template}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Template
@@ -58,7 +58,7 @@ namespace oci.WafWebAppFirewallPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/waf_web_app_firewall_policy#text WafWebAppFirewallPolicy#text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_web_app_firewall_policy#text WafWebAppFirewallPolicy#text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Text

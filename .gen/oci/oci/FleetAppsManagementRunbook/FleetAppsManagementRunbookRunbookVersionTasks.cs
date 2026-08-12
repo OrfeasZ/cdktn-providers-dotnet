@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementRunbook
     [JsiiByValue(fqn: "oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionTasks")]
     public class FleetAppsManagementRunbookRunbookVersionTasks : oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionTasks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#step_name FleetAppsManagementRunbook#step_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#step_name FleetAppsManagementRunbook#step_name}.</summary>
         [JsiiProperty(name: "stepName", typeJson: "{\"primitive\":\"string\"}")]
         public string StepName
         {
@@ -19,7 +19,7 @@ namespace oci.FleetAppsManagementRunbook
 
         /// <summary>task_record_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#task_record_details FleetAppsManagementRunbook#task_record_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#task_record_details FleetAppsManagementRunbook#task_record_details}
         /// </remarks>
         [JsiiProperty(name: "taskRecordDetails", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionTasksTaskRecordDetails\"}")]
         public oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionTasksTaskRecordDetails TaskRecordDetails
@@ -32,7 +32,7 @@ namespace oci.FleetAppsManagementRunbook
 
         /// <summary>output_variable_mappings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#output_variable_mappings FleetAppsManagementRunbook#output_variable_mappings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#output_variable_mappings FleetAppsManagementRunbook#output_variable_mappings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementRunbook.IFleetAppsManagementRunbookRunbookVersionTasksOutputVariableMappings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -65,7 +65,7 @@ namespace oci.FleetAppsManagementRunbook
 
         /// <summary>step_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_runbook#step_properties FleetAppsManagementRunbook#step_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_runbook#step_properties FleetAppsManagementRunbook#step_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepProperties", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbook.FleetAppsManagementRunbookRunbookVersionTasksStepProperties\"}", isOptional: true)]

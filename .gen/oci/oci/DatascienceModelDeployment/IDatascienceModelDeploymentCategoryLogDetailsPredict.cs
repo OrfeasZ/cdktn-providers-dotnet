@@ -7,14 +7,14 @@ namespace oci.DatascienceModelDeployment
     [JsiiInterface(nativeType: typeof(IDatascienceModelDeploymentCategoryLogDetailsPredict), fullyQualifiedName: "oci.datascienceModelDeployment.DatascienceModelDeploymentCategoryLogDetailsPredict")]
     public interface IDatascienceModelDeploymentCategoryLogDetailsPredict
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_deployment#log_group_id DatascienceModelDeployment#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_deployment#log_group_id DatascienceModelDeployment#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_deployment#log_id DatascienceModelDeployment#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_deployment#log_id DatascienceModelDeployment#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         string LogId
         {
@@ -28,14 +28,14 @@ namespace oci.DatascienceModelDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_deployment#log_group_id DatascienceModelDeployment#log_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_deployment#log_group_id DatascienceModelDeployment#log_group_id}.</summary>
             [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_deployment#log_id DatascienceModelDeployment#log_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_deployment#log_id DatascienceModelDeployment#log_id}.</summary>
             [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogId
             {

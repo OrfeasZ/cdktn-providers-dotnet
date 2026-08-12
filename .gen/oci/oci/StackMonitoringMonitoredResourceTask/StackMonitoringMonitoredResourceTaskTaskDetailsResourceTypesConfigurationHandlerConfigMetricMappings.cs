@@ -7,7 +7,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
     [JsiiByValue(fqn: "oci.stackMonitoringMonitoredResourceTask.StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricMappings")]
     public class StackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricMappings : oci.StackMonitoringMonitoredResourceTask.IStackMonitoringMonitoredResourceTaskTaskDetailsResourceTypesConfigurationHandlerConfigMetricMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitored_resource_task#collector_metric_name StackMonitoringMonitoredResourceTask#collector_metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitored_resource_task#collector_metric_name StackMonitoringMonitoredResourceTask#collector_metric_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "collectorMetricName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CollectorMetricName
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
 
         private object? _isSkipUpload;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitored_resource_task#is_skip_upload StackMonitoringMonitoredResourceTask#is_skip_upload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitored_resource_task#is_skip_upload StackMonitoringMonitoredResourceTask#is_skip_upload}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitored_resource_task#metric_upload_interval_in_seconds StackMonitoringMonitoredResourceTask#metric_upload_interval_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitored_resource_task#metric_upload_interval_in_seconds StackMonitoringMonitoredResourceTask#metric_upload_interval_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metricUploadIntervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MetricUploadIntervalInSeconds
@@ -59,7 +59,7 @@ namespace oci.StackMonitoringMonitoredResourceTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/stack_monitoring_monitored_resource_task#telemetry_metric_name StackMonitoringMonitoredResourceTask#telemetry_metric_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_monitored_resource_task#telemetry_metric_name StackMonitoringMonitoredResourceTask#telemetry_metric_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "telemetryMetricName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TelemetryMetricName

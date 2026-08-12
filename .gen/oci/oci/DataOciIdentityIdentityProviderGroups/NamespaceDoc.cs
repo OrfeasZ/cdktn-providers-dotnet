@@ -5,7 +5,7 @@ namespace oci.DataOciIdentityIdentityProviderGroups
     /// <remarks>
     /// <h1><c>data_oci_identity_identity_provider_groups</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_identity_provider_groups"><c>data_oci_identity_identity_provider_groups</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_identity_provider_groups"><c>data_oci_identity_identity_provider_groups</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

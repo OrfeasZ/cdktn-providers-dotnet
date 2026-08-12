@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementMaintenanceWindow
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementMaintenanceWindow.DataOciFleetAppsManagementMaintenanceWindowConfig")]
     public class DataOciFleetAppsManagementMaintenanceWindowConfig : oci.DataOciFleetAppsManagementMaintenanceWindow.IDataOciFleetAppsManagementMaintenanceWindowConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_maintenance_window#maintenance_window_id DataOciFleetAppsManagementMaintenanceWindow#maintenance_window_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_maintenance_window#maintenance_window_id DataOciFleetAppsManagementMaintenanceWindow#maintenance_window_id}.</summary>
         [JsiiProperty(name: "maintenanceWindowId", typeJson: "{\"primitive\":\"string\"}")]
         public string MaintenanceWindowId
         {

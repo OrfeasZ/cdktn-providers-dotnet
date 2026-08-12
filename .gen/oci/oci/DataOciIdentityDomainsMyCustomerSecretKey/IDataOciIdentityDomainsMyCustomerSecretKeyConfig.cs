@@ -7,21 +7,21 @@ namespace oci.DataOciIdentityDomainsMyCustomerSecretKey
     [JsiiInterface(nativeType: typeof(IDataOciIdentityDomainsMyCustomerSecretKeyConfig), fullyQualifiedName: "oci.dataOciIdentityDomainsMyCustomerSecretKey.DataOciIdentityDomainsMyCustomerSecretKeyConfig")]
     public interface IDataOciIdentityDomainsMyCustomerSecretKeyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#idcs_endpoint DataOciIdentityDomainsMyCustomerSecretKey#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#idcs_endpoint DataOciIdentityDomainsMyCustomerSecretKey#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#my_customer_secret_key_id DataOciIdentityDomainsMyCustomerSecretKey#my_customer_secret_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#my_customer_secret_key_id DataOciIdentityDomainsMyCustomerSecretKey#my_customer_secret_key_id}.</summary>
         [JsiiProperty(name: "myCustomerSecretKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string MyCustomerSecretKeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#authorization DataOciIdentityDomainsMyCustomerSecretKey#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#authorization DataOciIdentityDomainsMyCustomerSecretKey#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -32,7 +32,7 @@ namespace oci.DataOciIdentityDomainsMyCustomerSecretKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsMyCustomerSecretKey#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsMyCustomerSecretKey#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -50,21 +50,21 @@ namespace oci.DataOciIdentityDomainsMyCustomerSecretKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#idcs_endpoint DataOciIdentityDomainsMyCustomerSecretKey#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#idcs_endpoint DataOciIdentityDomainsMyCustomerSecretKey#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#my_customer_secret_key_id DataOciIdentityDomainsMyCustomerSecretKey#my_customer_secret_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#my_customer_secret_key_id DataOciIdentityDomainsMyCustomerSecretKey#my_customer_secret_key_id}.</summary>
             [JsiiProperty(name: "myCustomerSecretKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string MyCustomerSecretKeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#authorization DataOciIdentityDomainsMyCustomerSecretKey#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#authorization DataOciIdentityDomainsMyCustomerSecretKey#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -72,7 +72,7 @@ namespace oci.DataOciIdentityDomainsMyCustomerSecretKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_my_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsMyCustomerSecretKey#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsMyCustomerSecretKey#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion

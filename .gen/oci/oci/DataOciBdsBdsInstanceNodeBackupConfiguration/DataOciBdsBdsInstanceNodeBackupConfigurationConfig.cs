@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfiguration
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceNodeBackupConfiguration.DataOciBdsBdsInstanceNodeBackupConfigurationConfig")]
     public class DataOciBdsBdsInstanceNodeBackupConfigurationConfig : oci.DataOciBdsBdsInstanceNodeBackupConfiguration.IDataOciBdsBdsInstanceNodeBackupConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_node_backup_configuration#bds_instance_id DataOciBdsBdsInstanceNodeBackupConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/bds_bds_instance_node_backup_configuration#bds_instance_id DataOciBdsBdsInstanceNodeBackupConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/bds_bds_instance_node_backup_configuration#node_backup_configuration_id DataOciBdsBdsInstanceNodeBackupConfiguration#node_backup_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/bds_bds_instance_node_backup_configuration#node_backup_configuration_id DataOciBdsBdsInstanceNodeBackupConfiguration#node_backup_configuration_id}.</summary>
         [JsiiProperty(name: "nodeBackupConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeBackupConfigurationId
         {

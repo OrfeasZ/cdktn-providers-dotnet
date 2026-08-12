@@ -9,7 +9,7 @@ namespace oci.DevopsDeployStage
     {
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsDeployStage.IDevopsDeployStageDeployStagePredecessorCollectionItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsDeployStage.DevopsDeployStageDeployStagePredecessorCollectionItems\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace oci.DevopsDeployStage
 
             /// <summary>items block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#items DevopsDeployStage#items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsDeployStage.IDevopsDeployStageDeployStagePredecessorCollectionItems" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsDeployStage.DevopsDeployStageDeployStagePredecessorCollectionItems\"},\"kind\":\"array\"}}]}}")]

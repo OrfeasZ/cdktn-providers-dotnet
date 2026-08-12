@@ -13,7 +13,7 @@ namespace oci.DatabaseExadataIormConfig
 
         /// <summary>db_plans block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_iorm_config#db_plans DatabaseExadataIormConfig#db_plans}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_exadata_iorm_config#db_plans DatabaseExadataIormConfig#db_plans}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseExadataIormConfig.IDatabaseExadataIormConfigDbPlans" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dbPlans", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseExadataIormConfig.DatabaseExadataIormConfigDbPlans\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace oci.DatabaseExadataIormConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_iorm_config#db_system_id DatabaseExadataIormConfig#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_exadata_iorm_config#db_system_id DatabaseExadataIormConfig#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {
@@ -51,7 +51,7 @@ namespace oci.DatabaseExadataIormConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_iorm_config#id DatabaseExadataIormConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_exadata_iorm_config#id DatabaseExadataIormConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace oci.DatabaseExadataIormConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_iorm_config#objective DatabaseExadataIormConfig#objective}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_exadata_iorm_config#objective DatabaseExadataIormConfig#objective}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objective", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Objective
@@ -75,7 +75,7 @@ namespace oci.DatabaseExadataIormConfig
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_exadata_iorm_config#timeouts DatabaseExadataIormConfig#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_exadata_iorm_config#timeouts DatabaseExadataIormConfig#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseExadataIormConfig.DatabaseExadataIormConfigTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsMappedAttribute
     [JsiiByValue(fqn: "oci.identityDomainsMappedAttribute.IdentityDomainsMappedAttributeAttributeMappings")]
     public class IdentityDomainsMappedAttributeAttributeMappings : oci.IdentityDomainsMappedAttribute.IIdentityDomainsMappedAttributeAttributeMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#idcs_attribute_name IdentityDomainsMappedAttribute#idcs_attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_mapped_attribute#idcs_attribute_name IdentityDomainsMappedAttribute#idcs_attribute_name}.</summary>
         [JsiiProperty(name: "idcsAttributeName", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsAttributeName
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsMappedAttribute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#managed_object_attribute_name IdentityDomainsMappedAttribute#managed_object_attribute_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_mapped_attribute#managed_object_attribute_name IdentityDomainsMappedAttribute#managed_object_attribute_name}.</summary>
         [JsiiProperty(name: "managedObjectAttributeName", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedObjectAttributeName
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsMappedAttribute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#applies_to_actions IdentityDomainsMappedAttribute#applies_to_actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_mapped_attribute#applies_to_actions IdentityDomainsMappedAttribute#applies_to_actions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "appliesToActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AppliesToActions
@@ -36,7 +36,7 @@ namespace oci.IdentityDomainsMappedAttribute
 
         private object? _required;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#required IdentityDomainsMappedAttribute#required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_mapped_attribute#required IdentityDomainsMappedAttribute#required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace oci.IdentityDomainsMappedAttribute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#saml_format IdentityDomainsMappedAttribute#saml_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_mapped_attribute#saml_format IdentityDomainsMappedAttribute#saml_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "samlFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SamlFormat

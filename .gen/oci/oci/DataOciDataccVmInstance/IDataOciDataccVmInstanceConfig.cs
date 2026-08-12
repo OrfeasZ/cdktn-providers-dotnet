@@ -7,7 +7,7 @@ namespace oci.DataOciDataccVmInstance
     [JsiiInterface(nativeType: typeof(IDataOciDataccVmInstanceConfig), fullyQualifiedName: "oci.dataOciDataccVmInstance.DataOciDataccVmInstanceConfig")]
     public interface IDataOciDataccVmInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacc_vm_instance#vm_instance_id DataOciDataccVmInstance#vm_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacc_vm_instance#vm_instance_id DataOciDataccVmInstance#vm_instance_id}.</summary>
         [JsiiProperty(name: "vmInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string VmInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataccVmInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datacc_vm_instance#vm_instance_id DataOciDataccVmInstance#vm_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacc_vm_instance#vm_instance_id DataOciDataccVmInstance#vm_instance_id}.</summary>
             [JsiiProperty(name: "vmInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string VmInstanceId
             {

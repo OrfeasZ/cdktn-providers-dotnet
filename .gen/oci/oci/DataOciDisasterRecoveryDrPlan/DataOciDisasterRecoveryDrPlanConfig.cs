@@ -9,7 +9,7 @@ namespace oci.DataOciDisasterRecoveryDrPlan
     [JsiiByValue(fqn: "oci.dataOciDisasterRecoveryDrPlan.DataOciDisasterRecoveryDrPlanConfig")]
     public class DataOciDisasterRecoveryDrPlanConfig : oci.DataOciDisasterRecoveryDrPlan.IDataOciDisasterRecoveryDrPlanConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/disaster_recovery_dr_plan#dr_plan_id DataOciDisasterRecoveryDrPlan#dr_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/disaster_recovery_dr_plan#dr_plan_id DataOciDisasterRecoveryDrPlan#dr_plan_id}.</summary>
         [JsiiProperty(name: "drPlanId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrPlanId
         {

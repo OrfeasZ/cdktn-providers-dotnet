@@ -7,7 +7,7 @@ namespace oci.CoreInstancePool
     [JsiiInterface(nativeType: typeof(ICoreInstancePoolLifecycleManagementLifecycleActionsPreTermination), fullyQualifiedName: "oci.coreInstancePool.CoreInstancePoolLifecycleManagementLifecycleActionsPreTermination")]
     public interface ICoreInstancePoolLifecycleManagementLifecycleActionsPreTermination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#is_enabled CoreInstancePool#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#is_enabled CoreInstancePool#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace oci.CoreInstancePool
 
         /// <summary>on_timeout block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#on_timeout CoreInstancePool#on_timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#on_timeout CoreInstancePool#on_timeout}
         /// </remarks>
         [JsiiProperty(name: "onTimeout", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout\"}")]
         oci.CoreInstancePool.ICoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout OnTimeout
@@ -27,7 +27,7 @@ namespace oci.CoreInstancePool
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#timeout CoreInstancePool#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#timeout CoreInstancePool#timeout}.</summary>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}")]
         double Timeout
         {
@@ -41,7 +41,7 @@ namespace oci.CoreInstancePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#is_enabled CoreInstancePool#is_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#is_enabled CoreInstancePool#is_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -53,7 +53,7 @@ namespace oci.CoreInstancePool
 
             /// <summary>on_timeout block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#on_timeout CoreInstancePool#on_timeout}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#on_timeout CoreInstancePool#on_timeout}
             /// </remarks>
             [JsiiProperty(name: "onTimeout", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout\"}")]
             public oci.CoreInstancePool.ICoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout OnTimeout
@@ -61,7 +61,7 @@ namespace oci.CoreInstancePool
                 get => GetInstanceProperty<oci.CoreInstancePool.ICoreInstancePoolLifecycleManagementLifecycleActionsPreTerminationOnTimeout>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_pool#timeout CoreInstancePool#timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#timeout CoreInstancePool#timeout}.</summary>
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}")]
             public double Timeout
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseOneoffPatch
     [JsiiByValue(fqn: "oci.dataOciDatabaseOneoffPatch.DataOciDatabaseOneoffPatchConfig")]
     public class DataOciDatabaseOneoffPatchConfig : oci.DataOciDatabaseOneoffPatch.IDataOciDatabaseOneoffPatchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_oneoff_patch#oneoff_patch_id DataOciDatabaseOneoffPatch#oneoff_patch_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_oneoff_patch#oneoff_patch_id DataOciDatabaseOneoffPatch#oneoff_patch_id}.</summary>
         [JsiiProperty(name: "oneoffPatchId", typeJson: "{\"primitive\":\"string\"}")]
         public string OneoffPatchId
         {

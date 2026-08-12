@@ -9,7 +9,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
     [JsiiByValue(fqn: "oci.disasterRecoveryAutomaticDrConfiguration.DisasterRecoveryAutomaticDrConfigurationMembers")]
     public class DisasterRecoveryAutomaticDrConfigurationMembers : oci.DisasterRecoveryAutomaticDrConfiguration.IDisasterRecoveryAutomaticDrConfigurationMembers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/disaster_recovery_automatic_dr_configuration#member_id DisasterRecoveryAutomaticDrConfiguration#member_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/disaster_recovery_automatic_dr_configuration#member_id DisasterRecoveryAutomaticDrConfiguration#member_id}.</summary>
         [JsiiProperty(name: "memberId", typeJson: "{\"primitive\":\"string\"}")]
         public string MemberId
         {
@@ -17,7 +17,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/disaster_recovery_automatic_dr_configuration#member_type DisasterRecoveryAutomaticDrConfiguration#member_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/disaster_recovery_automatic_dr_configuration#member_type DisasterRecoveryAutomaticDrConfiguration#member_type}.</summary>
         [JsiiProperty(name: "memberType", typeJson: "{\"primitive\":\"string\"}")]
         public string MemberType
         {
@@ -27,7 +27,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
 
         private object? _isAutoFailoverEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_failover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_failover_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_failover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_failover_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
 
         private object? _isAutoSwitchoverEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_switchover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_switchover_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/disaster_recovery_automatic_dr_configuration#is_auto_switchover_enabled DisasterRecoveryAutomaticDrConfiguration#is_auto_switchover_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

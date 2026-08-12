@@ -77,6 +77,12 @@ namespace oci.DataOciDatabaseVmClusterUpdateHistoryEntries
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "updateMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpdateMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "updateType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UpdateType
         {

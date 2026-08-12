@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGl
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalConfig")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalConfig : oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.IDataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_global#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#database_tools_database_api_gateway_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_global#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#database_tools_database_api_gateway_config_id}.</summary>
         [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsDatabaseApiGatewayConfigId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_global#global_key DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#global_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_global#global_key DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#global_key}.</summary>
         [JsiiProperty(name: "globalKey", typeJson: "{\"primitive\":\"string\"}")]
         public string GlobalKey
         {

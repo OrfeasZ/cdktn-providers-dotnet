@@ -9,7 +9,7 @@ namespace oci.FunctionsFunction
     [JsiiByValue(fqn: "oci.functionsFunction.FunctionsFunctionProvisionedConcurrencyConfig")]
     public class FunctionsFunctionProvisionedConcurrencyConfig : oci.FunctionsFunction.IFunctionsFunctionProvisionedConcurrencyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/functions_function#strategy FunctionsFunction#strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/functions_function#strategy FunctionsFunction#strategy}.</summary>
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}")]
         public string Strategy
         {
@@ -17,7 +17,7 @@ namespace oci.FunctionsFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/functions_function#count FunctionsFunction#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/functions_function#count FunctionsFunction#count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Count

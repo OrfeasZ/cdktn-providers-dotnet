@@ -5,7 +5,7 @@ namespace oci.DataOciDataintegrationWorkspaceImportRequest
     /// <remarks>
     /// <h1><c>data_oci_dataintegration_workspace_import_request</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dataintegration_workspace_import_request"><c>data_oci_dataintegration_workspace_import_request</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dataintegration_workspace_import_request"><c>data_oci_dataintegration_workspace_import_request</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace oci.DataOciDnsView
     [JsiiByValue(fqn: "oci.dataOciDnsView.DataOciDnsViewConfig")]
     public class DataOciDnsViewConfig : oci.DataOciDnsView.IDataOciDnsViewConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_view#scope DataOciDnsView#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_view#scope DataOciDnsView#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Scope
@@ -16,7 +16,7 @@ namespace oci.DataOciDnsView
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_view#view_id DataOciDnsView#view_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_view#view_id DataOciDnsView#view_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ViewId

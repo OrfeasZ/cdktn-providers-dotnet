@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
     [JsiiByValue(fqn: "oci.identityDomainsIdentityPropagationTrust.IdentityDomainsIdentityPropagationTrustKeytab")]
     public class IdentityDomainsIdentityPropagationTrustKeytab : oci.IdentityDomainsIdentityPropagationTrust.IIdentityDomainsIdentityPropagationTrustKeytab
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_identity_propagation_trust#secret_ocid IdentityDomainsIdentityPropagationTrust#secret_ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_identity_propagation_trust#secret_ocid IdentityDomainsIdentityPropagationTrust#secret_ocid}.</summary>
         [JsiiProperty(name: "secretOcid", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretOcid
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsIdentityPropagationTrust
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_identity_propagation_trust#secret_version IdentityDomainsIdentityPropagationTrust#secret_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_identity_propagation_trust#secret_version IdentityDomainsIdentityPropagationTrust#secret_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SecretVersion

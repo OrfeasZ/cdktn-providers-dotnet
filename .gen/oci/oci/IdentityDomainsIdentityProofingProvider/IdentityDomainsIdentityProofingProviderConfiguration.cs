@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsIdentityProofingProvider
     [JsiiByValue(fqn: "oci.identityDomainsIdentityProofingProvider.IdentityDomainsIdentityProofingProviderConfiguration")]
     public class IdentityDomainsIdentityProofingProviderConfiguration : oci.IdentityDomainsIdentityProofingProvider.IIdentityDomainsIdentityProofingProviderConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_identity_proofing_provider#name IdentityDomainsIdentityProofingProvider#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_identity_proofing_provider#name IdentityDomainsIdentityProofingProvider#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsIdentityProofingProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_identity_proofing_provider#value IdentityDomainsIdentityProofingProvider#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_identity_proofing_provider#value IdentityDomainsIdentityProofingProvider#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

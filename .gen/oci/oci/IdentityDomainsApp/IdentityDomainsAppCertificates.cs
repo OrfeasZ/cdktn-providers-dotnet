@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppCertificates")]
     public class IdentityDomainsAppCertificates : oci.IdentityDomainsApp.IIdentityDomainsAppCertificates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}.</summary>
         [JsiiProperty(name: "certAlias", typeJson: "{\"primitive\":\"string\"}")]
         public string CertAlias
         {

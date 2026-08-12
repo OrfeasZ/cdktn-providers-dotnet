@@ -7,7 +7,7 @@ namespace oci.DatascienceComputeTarget
     [JsiiInterface(nativeType: typeof(IDatascienceComputeTargetComputeConfigurationDetails), fullyQualifiedName: "oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetails")]
     public interface IDatascienceComputeTargetComputeConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_compute_target#compute_type DatascienceComputeTarget#compute_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#compute_type DatascienceComputeTarget#compute_type}.</summary>
         [JsiiProperty(name: "computeType", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeType
         {
@@ -16,7 +16,7 @@ namespace oci.DatascienceComputeTarget
 
         /// <summary>instance_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_compute_target#instance_configuration DatascienceComputeTarget#instance_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#instance_configuration DatascienceComputeTarget#instance_configuration}
         /// </remarks>
         [JsiiProperty(name: "instanceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfiguration\"}")]
         oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfiguration InstanceConfiguration
@@ -26,7 +26,7 @@ namespace oci.DatascienceComputeTarget
 
         /// <summary>scaling_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_compute_target#scaling_policy DatascienceComputeTarget#scaling_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#scaling_policy DatascienceComputeTarget#scaling_policy}
         /// </remarks>
         [JsiiProperty(name: "scalingPolicy", typeJson: "{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsScalingPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace oci.DatascienceComputeTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_compute_target#compute_type DatascienceComputeTarget#compute_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#compute_type DatascienceComputeTarget#compute_type}.</summary>
             [JsiiProperty(name: "computeType", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeType
             {
@@ -54,7 +54,7 @@ namespace oci.DatascienceComputeTarget
 
             /// <summary>instance_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_compute_target#instance_configuration DatascienceComputeTarget#instance_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#instance_configuration DatascienceComputeTarget#instance_configuration}
             /// </remarks>
             [JsiiProperty(name: "instanceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfiguration\"}")]
             public oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfiguration InstanceConfiguration
@@ -64,7 +64,7 @@ namespace oci.DatascienceComputeTarget
 
             /// <summary>scaling_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_compute_target#scaling_policy DatascienceComputeTarget#scaling_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#scaling_policy DatascienceComputeTarget#scaling_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scalingPolicy", typeJson: "{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsScalingPolicy\"}", isOptional: true)]

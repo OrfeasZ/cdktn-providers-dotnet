@@ -9,7 +9,7 @@ namespace oci.DataOciMysqlHeatWaveCluster
     [JsiiByValue(fqn: "oci.dataOciMysqlHeatWaveCluster.DataOciMysqlHeatWaveClusterConfig")]
     public class DataOciMysqlHeatWaveClusterConfig : oci.DataOciMysqlHeatWaveCluster.IDataOciMysqlHeatWaveClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/mysql_heat_wave_cluster#db_system_id DataOciMysqlHeatWaveCluster#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_heat_wave_cluster#db_system_id DataOciMysqlHeatWaveCluster#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemId
         {

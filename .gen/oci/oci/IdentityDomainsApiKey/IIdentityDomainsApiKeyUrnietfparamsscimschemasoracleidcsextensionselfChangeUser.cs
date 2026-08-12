@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApiKey
     [JsiiInterface(nativeType: typeof(IIdentityDomainsApiKeyUrnietfparamsscimschemasoracleidcsextensionselfChangeUser), fullyQualifiedName: "oci.identityDomainsApiKey.IdentityDomainsApiKeyUrnietfparamsscimschemasoracleidcsextensionselfChangeUser")]
     public interface IIdentityDomainsApiKeyUrnietfparamsscimschemasoracleidcsextensionselfChangeUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_api_key#allow_self_change IdentityDomainsApiKey#allow_self_change}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_api_key#allow_self_change IdentityDomainsApiKey#allow_self_change}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.IdentityDomainsApiKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_api_key#allow_self_change IdentityDomainsApiKey#allow_self_change}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_api_key#allow_self_change IdentityDomainsApiKey#allow_self_change}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringDefinedMonitoringTemplates
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringDefinedMonitoringTemplates.DataOciStackMonitoringDefinedMonitoringTemplatesConfig")]
     public class DataOciStackMonitoringDefinedMonitoringTemplatesConfig : oci.DataOciStackMonitoringDefinedMonitoringTemplates.IDataOciStackMonitoringDefinedMonitoringTemplatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#compartment_id DataOciStackMonitoringDefinedMonitoringTemplates#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#compartment_id DataOciStackMonitoringDefinedMonitoringTemplates#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciStackMonitoringDefinedMonitoringTemplates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#display_name DataOciStackMonitoringDefinedMonitoringTemplates#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#display_name DataOciStackMonitoringDefinedMonitoringTemplates#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciStackMonitoringDefinedMonitoringTemplates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#filter DataOciStackMonitoringDefinedMonitoringTemplates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#filter DataOciStackMonitoringDefinedMonitoringTemplates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciStackMonitoringDefinedMonitoringTemplates.IDataOciStackMonitoringDefinedMonitoringTemplatesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciStackMonitoringDefinedMonitoringTemplates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#id DataOciStackMonitoringDefinedMonitoringTemplates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#id DataOciStackMonitoringDefinedMonitoringTemplates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciStackMonitoringDefinedMonitoringTemplates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#resource_types DataOciStackMonitoringDefinedMonitoringTemplates#resource_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_defined_monitoring_templates#resource_types DataOciStackMonitoringDefinedMonitoringTemplates#resource_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ResourceTypes

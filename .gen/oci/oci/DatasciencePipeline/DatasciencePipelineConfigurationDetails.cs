@@ -9,7 +9,7 @@ namespace oci.DatasciencePipeline
     [JsiiByValue(fqn: "oci.datasciencePipeline.DatasciencePipelineConfigurationDetails")]
     public class DatasciencePipelineConfigurationDetails : oci.DatasciencePipeline.IDatasciencePipelineConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_pipeline#type DatasciencePipeline#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#type DatasciencePipeline#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_pipeline#command_line_arguments DatasciencePipeline#command_line_arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#command_line_arguments DatasciencePipeline#command_line_arguments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commandLineArguments", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommandLineArguments
@@ -26,7 +26,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_pipeline#environment_variables DatasciencePipeline#environment_variables}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#environment_variables DatasciencePipeline#environment_variables}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "environmentVariables", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? EnvironmentVariables
@@ -35,7 +35,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_pipeline#maximum_runtime_in_minutes DatasciencePipeline#maximum_runtime_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#maximum_runtime_in_minutes DatasciencePipeline#maximum_runtime_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumRuntimeInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaximumRuntimeInMinutes

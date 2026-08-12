@@ -7,21 +7,21 @@ namespace oci.DistributedDatabaseDistributedDatabase
     [JsiiInterface(nativeType: typeof(IDistributedDatabaseDistributedDatabasePatchOperations), fullyQualifiedName: "oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabasePatchOperations")]
     public interface IDistributedDatabaseDistributedDatabasePatchOperations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#operation DistributedDatabaseDistributedDatabase#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database#operation DistributedDatabaseDistributedDatabase#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         string Operation
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#selection DistributedDatabaseDistributedDatabase#selection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database#selection DistributedDatabaseDistributedDatabase#selection}.</summary>
         [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
         string Selection
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#value DistributedDatabaseDistributedDatabase#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database#value DistributedDatabaseDistributedDatabase#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -39,21 +39,21 @@ namespace oci.DistributedDatabaseDistributedDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#operation DistributedDatabaseDistributedDatabase#operation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database#operation DistributedDatabaseDistributedDatabase#operation}.</summary>
             [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
             public string Operation
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#selection DistributedDatabaseDistributedDatabase#selection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database#selection DistributedDatabaseDistributedDatabase#selection}.</summary>
             [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
             public string Selection
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/distributed_database_distributed_database#value DistributedDatabaseDistributedDatabase#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/distributed_database_distributed_database#value DistributedDatabaseDistributedDatabase#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

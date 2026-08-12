@@ -7,7 +7,7 @@ namespace oci.GoldenGateConnection
     [JsiiByValue(fqn: "oci.goldenGateConnection.GoldenGateConnectionAdditionalAttributes")]
     public class GoldenGateConnectionAdditionalAttributes : oci.GoldenGateConnection.IGoldenGateConnectionAdditionalAttributes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection#name GoldenGateConnection#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection#name GoldenGateConnection#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -16,7 +16,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection#value GoldenGateConnection#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection#value GoldenGateConnection#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

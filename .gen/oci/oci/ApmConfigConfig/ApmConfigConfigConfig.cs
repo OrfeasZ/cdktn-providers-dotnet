@@ -9,7 +9,7 @@ namespace oci.ApmConfigConfig
     [JsiiByValue(fqn: "oci.apmConfigConfig.ApmConfigConfigConfig")]
     public class ApmConfigConfigConfig : oci.ApmConfigConfig.IApmConfigConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#apm_domain_id ApmConfigConfig#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#apm_domain_id ApmConfigConfig#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#config_type ApmConfigConfig#config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#config_type ApmConfigConfig#config_type}.</summary>
         [JsiiProperty(name: "configType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigType
         {
@@ -25,7 +25,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#agent_version ApmConfigConfig#agent_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#agent_version ApmConfigConfig#agent_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AgentVersion
@@ -34,7 +34,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#attach_install_dir ApmConfigConfig#attach_install_dir}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#attach_install_dir ApmConfigConfig#attach_install_dir}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attachInstallDir", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttachInstallDir
@@ -45,7 +45,7 @@ namespace oci.ApmConfigConfig
 
         /// <summary>config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#config ApmConfigConfig#config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#config ApmConfigConfig#config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigConfigA\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#defined_tags ApmConfigConfig#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#defined_tags ApmConfigConfig#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -64,7 +64,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#description ApmConfigConfig#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#description ApmConfigConfig#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -77,7 +77,7 @@ namespace oci.ApmConfigConfig
 
         /// <summary>dimensions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#dimensions ApmConfigConfig#dimensions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#dimensions ApmConfigConfig#dimensions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigDimensions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -108,7 +108,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#display_name ApmConfigConfig#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#display_name ApmConfigConfig#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -117,7 +117,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#filter_id ApmConfigConfig#filter_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#filter_id ApmConfigConfig#filter_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FilterId
@@ -126,7 +126,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#filter_text ApmConfigConfig#filter_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#filter_text ApmConfigConfig#filter_text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filterText", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FilterText
@@ -135,7 +135,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#freeform_tags ApmConfigConfig#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#freeform_tags ApmConfigConfig#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -144,7 +144,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#group ApmConfigConfig#group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#group ApmConfigConfig#group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Group
@@ -153,7 +153,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#id ApmConfigConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#id ApmConfigConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -170,7 +170,7 @@ namespace oci.ApmConfigConfig
 
         /// <summary>in_use_by block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#in_use_by ApmConfigConfig#in_use_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#in_use_by ApmConfigConfig#in_use_by}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigInUseBy" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -201,7 +201,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#management_agent_id ApmConfigConfig#management_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#management_agent_id ApmConfigConfig#management_agent_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManagementAgentId
@@ -210,7 +210,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#match_agents_with_attribute_value ApmConfigConfig#match_agents_with_attribute_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#match_agents_with_attribute_value ApmConfigConfig#match_agents_with_attribute_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchAgentsWithAttributeValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchAgentsWithAttributeValue
@@ -223,7 +223,7 @@ namespace oci.ApmConfigConfig
 
         /// <summary>metrics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#metrics ApmConfigConfig#metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#metrics ApmConfigConfig#metrics}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigMetrics" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -254,7 +254,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#namespace ApmConfigConfig#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#namespace ApmConfigConfig#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -263,7 +263,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#opc_dry_run ApmConfigConfig#opc_dry_run}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#opc_dry_run ApmConfigConfig#opc_dry_run}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "opcDryRun", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OpcDryRun
@@ -272,7 +272,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#options ApmConfigConfig#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#options ApmConfigConfig#options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "options", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Options
@@ -283,7 +283,7 @@ namespace oci.ApmConfigConfig
 
         /// <summary>overrides block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#overrides ApmConfigConfig#overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#overrides ApmConfigConfig#overrides}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "overrides", typeJson: "{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigOverrides\"}", isOptional: true)]
@@ -293,7 +293,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#process_filter ApmConfigConfig#process_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#process_filter ApmConfigConfig#process_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "processFilter", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ProcessFilter
@@ -306,7 +306,7 @@ namespace oci.ApmConfigConfig
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#rules ApmConfigConfig#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#rules ApmConfigConfig#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApmConfigConfig.IApmConfigConfigRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -337,7 +337,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#run_as_user ApmConfigConfig#run_as_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#run_as_user ApmConfigConfig#run_as_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runAsUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunAsUser
@@ -346,7 +346,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#service_name ApmConfigConfig#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#service_name ApmConfigConfig#service_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceName
@@ -357,7 +357,7 @@ namespace oci.ApmConfigConfig
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apm_config_config#timeouts ApmConfigConfig#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#timeouts ApmConfigConfig#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.apmConfigConfig.ApmConfigConfigTimeouts\"}", isOptional: true)]

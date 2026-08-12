@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts), fullyQualifiedName: "oci.logAnalyticsNamespaceStorageEnableDisableArchiving.LogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts")]
     public interface ILogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#create LogAnalyticsNamespaceStorageEnableDisableArchiving#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#create LogAnalyticsNamespaceStorageEnableDisableArchiving#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#delete LogAnalyticsNamespaceStorageEnableDisableArchiving#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#delete LogAnalyticsNamespaceStorageEnableDisableArchiving#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#update LogAnalyticsNamespaceStorageEnableDisableArchiving#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#update LogAnalyticsNamespaceStorageEnableDisableArchiving#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#create LogAnalyticsNamespaceStorageEnableDisableArchiving#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#create LogAnalyticsNamespaceStorageEnableDisableArchiving#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#delete LogAnalyticsNamespaceStorageEnableDisableArchiving#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#delete LogAnalyticsNamespaceStorageEnableDisableArchiving#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#update LogAnalyticsNamespaceStorageEnableDisableArchiving#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#update LogAnalyticsNamespaceStorageEnableDisableArchiving#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

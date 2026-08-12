@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationConnectionDatabaseconnectiontypesConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationConnectionDatabaseconnectiontypes.DataOciDatabaseMigrationConnectionDatabaseconnectiontypesConfig")]
     public interface IDataOciDatabaseMigrationConnectionDatabaseconnectiontypesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#compartment_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#compartment_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#connection_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#connection_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ConnectionType
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#filter DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#filter DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes.IDataOciDatabaseMigrationConnectionDatabaseconnectiontypesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseMigrationConnectionDatabaseconnectiontypes.DataOciDatabaseMigrationConnectionDatabaseconnectiontypesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#source_connection_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#source_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#source_connection_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#source_connection_id}.</summary>
         [JsiiProperty(name: "sourceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceConnectionId
@@ -66,7 +66,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#technology_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#technology_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#technology_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#technology_type}.</summary>
         [JsiiProperty(name: "technologyType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TechnologyType
@@ -84,14 +84,14 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#compartment_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#compartment_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#connection_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#connection_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#connection_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#connection_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ConnectionType
@@ -101,7 +101,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#filter DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#filter DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes.IDataOciDatabaseMigrationConnectionDatabaseconnectiontypesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -111,7 +111,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -123,7 +123,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#source_connection_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#source_connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#source_connection_id DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#source_connection_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceConnectionId
@@ -131,7 +131,7 @@ namespace oci.DataOciDatabaseMigrationConnectionDatabaseconnectiontypes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#technology_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#technology_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_connection_databaseconnectiontypes#technology_type DataOciDatabaseMigrationConnectionDatabaseconnectiontypes#technology_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "technologyType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TechnologyType

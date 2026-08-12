@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciDatabaseAutonomousDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database oci_database_autonomous_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database oci_database_autonomous_database}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciDatabaseAutonomousDatabase.DataOciDatabaseAutonomousDatabase), fullyQualifiedName: "oci.dataOciDatabaseAutonomousDatabase.DataOciDatabaseAutonomousDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabase.DataOciDatabaseAutonomousDatabaseConfig\"}}]")]
     public class DataOciDatabaseAutonomousDatabase : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database oci_database_autonomous_database} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database oci_database_autonomous_database} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciDatabaseAutonomousDatabase(Constructs.Construct scope, string id, oci.DataOciDatabaseAutonomousDatabase.IDataOciDatabaseAutonomousDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciDatabaseAutonomousDatabase
         /// <param name="importToId">The construct id used in the generated config for the DataOciDatabaseAutonomousDatabase to import.</param>
         /// <param name="importFromId">The id of the existing DataOciDatabaseAutonomousDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciDatabaseAutonomousDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseAutonomousDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseAutonomousDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseAutonomousDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciDatabaseAutonomousDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciDatabaseAutonomousDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciDatabaseAutonomousDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciDatabaseAutonomousDatabase.DataOciDatabaseAutonomousDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -79,6 +79,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
 
         [JsiiProperty(name: "adminPassword", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AdminPassword
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "adScheduledForUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AdScheduledForUpdate
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -425,6 +431,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isDisableAdUpdateSchedule", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsDisableAdUpdateSchedule
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isDisableDbVersionUpgradeSchedule", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsDisableDbVersionUpgradeSchedule
         {
@@ -487,6 +499,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
 
         [JsiiProperty(name: "isReplicateAutomaticBackups", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsReplicateAutomaticBackups
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "isScheduleAdUpdateToEarliest", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsScheduleAdUpdateToEarliest
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
@@ -881,8 +899,20 @@ namespace oci.DataOciDatabaseAutonomousDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeEarliestAvailableAdUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeEarliestAvailableAdUpdate
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeEarliestAvailableDbVersionUpgrade", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeEarliestAvailableDbVersionUpgrade
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeLatestAvailableAdUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeLatestAvailableAdUpdate
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -961,6 +991,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
 
         [JsiiProperty(name: "timeReclamationOfFreeAutonomousDatabase", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeReclamationOfFreeAutonomousDatabase
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeScheduledAdUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeScheduledAdUpdate
         {
             get => GetInstanceProperty<string>()!;
         }

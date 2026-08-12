@@ -9,7 +9,7 @@ namespace oci.ManagedKafkaKafkaCluster
     [JsiiByValue(fqn: "oci.managedKafkaKafkaCluster.ManagedKafkaKafkaClusterAccessSubnets")]
     public class ManagedKafkaKafkaClusterAccessSubnets : oci.ManagedKafkaKafkaCluster.IManagedKafkaKafkaClusterAccessSubnets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster#subnets ManagedKafkaKafkaCluster#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Subnets
         {

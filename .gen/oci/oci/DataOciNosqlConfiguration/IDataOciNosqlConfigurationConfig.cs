@@ -7,7 +7,7 @@ namespace oci.DataOciNosqlConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciNosqlConfigurationConfig), fullyQualifiedName: "oci.dataOciNosqlConfiguration.DataOciNosqlConfigurationConfig")]
     public interface IDataOciNosqlConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_configuration#compartment_id DataOciNosqlConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_configuration#compartment_id DataOciNosqlConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciNosqlConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/nosql_configuration#compartment_id DataOciNosqlConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/nosql_configuration#compartment_id DataOciNosqlConfiguration#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {

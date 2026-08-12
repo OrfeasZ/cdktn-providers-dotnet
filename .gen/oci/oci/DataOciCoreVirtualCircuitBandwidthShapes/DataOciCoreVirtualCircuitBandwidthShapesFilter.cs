@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
     [JsiiByValue(fqn: "oci.dataOciCoreVirtualCircuitBandwidthShapes.DataOciCoreVirtualCircuitBandwidthShapesFilter")]
     public class DataOciCoreVirtualCircuitBandwidthShapesFilter : oci.DataOciCoreVirtualCircuitBandwidthShapes.IDataOciCoreVirtualCircuitBandwidthShapesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#name DataOciCoreVirtualCircuitBandwidthShapes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#name DataOciCoreVirtualCircuitBandwidthShapes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#values DataOciCoreVirtualCircuitBandwidthShapes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#values DataOciCoreVirtualCircuitBandwidthShapes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCoreVirtualCircuitBandwidthShapes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#regex DataOciCoreVirtualCircuitBandwidthShapes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_virtual_circuit_bandwidth_shapes#regex DataOciCoreVirtualCircuitBandwidthShapes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

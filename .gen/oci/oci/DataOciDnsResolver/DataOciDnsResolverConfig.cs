@@ -9,7 +9,7 @@ namespace oci.DataOciDnsResolver
     [JsiiByValue(fqn: "oci.dataOciDnsResolver.DataOciDnsResolverConfig")]
     public class DataOciDnsResolverConfig : oci.DataOciDnsResolver.IDataOciDnsResolverConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_resolver#resolver_id DataOciDnsResolver#resolver_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_resolver#resolver_id DataOciDnsResolver#resolver_id}.</summary>
         [JsiiProperty(name: "resolverId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResolverId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDnsResolver
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/dns_resolver#scope DataOciDnsResolver#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_resolver#scope DataOciDnsResolver#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Scope

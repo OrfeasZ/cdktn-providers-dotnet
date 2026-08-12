@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardDataSource
     [JsiiByValue(fqn: "oci.dataOciCloudGuardDataSource.DataOciCloudGuardDataSourceConfig")]
     public class DataOciCloudGuardDataSourceConfig : oci.DataOciCloudGuardDataSource.IDataOciCloudGuardDataSourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/cloud_guard_data_source#data_source_id DataOciCloudGuardDataSource#data_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_data_source#data_source_id DataOciCloudGuardDataSource#data_source_id}.</summary>
         [JsiiProperty(name: "dataSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSourceId
         {

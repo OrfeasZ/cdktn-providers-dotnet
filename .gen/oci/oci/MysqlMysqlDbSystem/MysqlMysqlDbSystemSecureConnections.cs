@@ -9,7 +9,7 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiByValue(fqn: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemSecureConnections")]
     public class MysqlMysqlDbSystemSecureConnections : oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemSecureConnections
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#certificate_generation_type MysqlMysqlDbSystem#certificate_generation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_db_system#certificate_generation_type MysqlMysqlDbSystem#certificate_generation_type}.</summary>
         [JsiiProperty(name: "certificateGenerationType", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateGenerationType
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlMysqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_db_system#certificate_id MysqlMysqlDbSystem#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_db_system#certificate_id MysqlMysqlDbSystem#certificate_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateId

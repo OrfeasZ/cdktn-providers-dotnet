@@ -35,8 +35,20 @@ namespace oci.CoreComputeHostGroup
         {
         }
 
+        [JsiiMethod(name: "putQuickRecycleSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreComputeHostGroup.CoreComputeHostGroupConfigurationsQuickRecycleSettings\"}}]")]
+        public virtual void PutQuickRecycleSettings(oci.CoreComputeHostGroup.ICoreComputeHostGroupConfigurationsQuickRecycleSettings @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreComputeHostGroup.ICoreComputeHostGroupConfigurationsQuickRecycleSettings)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetFirmwareBundleId")]
         public virtual void ResetFirmwareBundleId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetQuickRecycleSettings")]
+        public virtual void ResetQuickRecycleSettings()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -59,11 +71,24 @@ namespace oci.CoreComputeHostGroup
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "quickRecycleSettings", typeJson: "{\"fqn\":\"oci.coreComputeHostGroup.CoreComputeHostGroupConfigurationsQuickRecycleSettingsOutputReference\"}")]
+        public virtual oci.CoreComputeHostGroup.CoreComputeHostGroupConfigurationsQuickRecycleSettingsOutputReference QuickRecycleSettings
+        {
+            get => GetInstanceProperty<oci.CoreComputeHostGroup.CoreComputeHostGroupConfigurationsQuickRecycleSettingsOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "firmwareBundleIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? FirmwareBundleIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "quickRecycleSettingsInput", typeJson: "{\"fqn\":\"oci.coreComputeHostGroup.CoreComputeHostGroupConfigurationsQuickRecycleSettings\"}", isOptional: true)]
+        public virtual oci.CoreComputeHostGroup.ICoreComputeHostGroupConfigurationsQuickRecycleSettings? QuickRecycleSettingsInput
+        {
+            get => GetInstanceProperty<oci.CoreComputeHostGroup.ICoreComputeHostGroupConfigurationsQuickRecycleSettings?>();
         }
 
         [JsiiOptional]

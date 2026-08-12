@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentAgent
     [JsiiByValue(fqn: "oci.generativeAiAgentAgent.GenerativeAiAgentAgentLlmConfigRoutingLlmCustomizationLlmSelection")]
     public class GenerativeAiAgentAgentLlmConfigRoutingLlmCustomizationLlmSelection : oci.GenerativeAiAgentAgent.IGenerativeAiAgentAgentLlmConfigRoutingLlmCustomizationLlmSelection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent#llm_selection_type GenerativeAiAgentAgent#llm_selection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent#llm_selection_type GenerativeAiAgentAgent#llm_selection_type}.</summary>
         [JsiiProperty(name: "llmSelectionType", typeJson: "{\"primitive\":\"string\"}")]
         public string LlmSelectionType
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent#endpoint_id GenerativeAiAgentAgent#endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent#endpoint_id GenerativeAiAgentAgent#endpoint_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndpointId
@@ -26,7 +26,7 @@ namespace oci.GenerativeAiAgentAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/generative_ai_agent_agent#model_id GenerativeAiAgentAgent#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_agent_agent#model_id GenerativeAiAgentAgent#model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelId

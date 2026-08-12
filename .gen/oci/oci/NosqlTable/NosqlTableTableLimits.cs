@@ -9,7 +9,7 @@ namespace oci.NosqlTable
     [JsiiByValue(fqn: "oci.nosqlTable.NosqlTableTableLimits")]
     public class NosqlTableTableLimits : oci.NosqlTable.INosqlTableTableLimits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_table#max_read_units NosqlTable#max_read_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_table#max_read_units NosqlTable#max_read_units}.</summary>
         [JsiiProperty(name: "maxReadUnits", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxReadUnits
         {
@@ -17,7 +17,7 @@ namespace oci.NosqlTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_table#max_storage_in_gbs NosqlTable#max_storage_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_table#max_storage_in_gbs NosqlTable#max_storage_in_gbs}.</summary>
         [JsiiProperty(name: "maxStorageInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxStorageInGbs
         {
@@ -25,7 +25,7 @@ namespace oci.NosqlTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_table#max_write_units NosqlTable#max_write_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_table#max_write_units NosqlTable#max_write_units}.</summary>
         [JsiiProperty(name: "maxWriteUnits", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxWriteUnits
         {
@@ -33,7 +33,7 @@ namespace oci.NosqlTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/nosql_table#capacity_mode NosqlTable#capacity_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_table#capacity_mode NosqlTable#capacity_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacityMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CapacityMode

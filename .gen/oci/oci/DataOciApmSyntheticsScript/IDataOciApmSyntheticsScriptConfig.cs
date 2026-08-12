@@ -7,14 +7,14 @@ namespace oci.DataOciApmSyntheticsScript
     [JsiiInterface(nativeType: typeof(IDataOciApmSyntheticsScriptConfig), fullyQualifiedName: "oci.dataOciApmSyntheticsScript.DataOciApmSyntheticsScriptConfig")]
     public interface IDataOciApmSyntheticsScriptConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string ApmDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}.</summary>
         [JsiiProperty(name: "scriptId", typeJson: "{\"primitive\":\"string\"}")]
         string ScriptId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciApmSyntheticsScript
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}.</summary>
             [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApmDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}.</summary>
             [JsiiProperty(name: "scriptId", typeJson: "{\"primitive\":\"string\"}")]
             public string ScriptId
             {

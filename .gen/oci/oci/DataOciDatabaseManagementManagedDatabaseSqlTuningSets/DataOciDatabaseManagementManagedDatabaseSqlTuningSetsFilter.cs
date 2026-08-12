@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSets
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabaseSqlTuningSets.DataOciDatabaseManagementManagedDatabaseSqlTuningSetsFilter")]
     public class DataOciDatabaseManagementManagedDatabaseSqlTuningSetsFilter : oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSets.IDataOciDatabaseManagementManagedDatabaseSqlTuningSetsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#name DataOciDatabaseManagementManagedDatabaseSqlTuningSets#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#name DataOciDatabaseManagementManagedDatabaseSqlTuningSets#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#values DataOciDatabaseManagementManagedDatabaseSqlTuningSets#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#values DataOciDatabaseManagementManagedDatabaseSqlTuningSets#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSets
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#regex DataOciDatabaseManagementManagedDatabaseSqlTuningSets#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#regex DataOciDatabaseManagementManagedDatabaseSqlTuningSets#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

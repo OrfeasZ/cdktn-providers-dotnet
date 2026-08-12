@@ -11,7 +11,7 @@ namespace oci.DatascienceModelDeployment
     {
         /// <summary>resource_request_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_deployment#resource_request_configuration DatascienceModelDeployment#resource_request_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_deployment#resource_request_configuration DatascienceModelDeployment#resource_request_configuration}
         /// </remarks>
         [JsiiProperty(name: "resourceRequestConfiguration", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsModelDeploymentResourceConfigurationResourceRequestConfiguration\"}")]
         public oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsModelDeploymentResourceConfigurationResourceRequestConfiguration ResourceRequestConfiguration
@@ -22,7 +22,7 @@ namespace oci.DatascienceModelDeployment
 
         /// <summary>resource_limit_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/datascience_model_deployment#resource_limit_configuration DatascienceModelDeployment#resource_limit_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_deployment#resource_limit_configuration DatascienceModelDeployment#resource_limit_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceLimitConfiguration", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsModelDeploymentResourceConfigurationResourceLimitConfiguration\"}", isOptional: true)]

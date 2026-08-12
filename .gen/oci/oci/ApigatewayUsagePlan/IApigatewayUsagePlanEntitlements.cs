@@ -7,14 +7,14 @@ namespace oci.ApigatewayUsagePlan
     [JsiiInterface(nativeType: typeof(IApigatewayUsagePlanEntitlements), fullyQualifiedName: "oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlements")]
     public interface IApigatewayUsagePlanEntitlements
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#name ApigatewayUsagePlan#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#name ApigatewayUsagePlan#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#description ApigatewayUsagePlan#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#description ApigatewayUsagePlan#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -27,7 +27,7 @@ namespace oci.ApigatewayUsagePlan
 
         /// <summary>quota block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#quota ApigatewayUsagePlan#quota}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#quota ApigatewayUsagePlan#quota}
         /// </remarks>
         [JsiiProperty(name: "quota", typeJson: "{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsQuota\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace oci.ApigatewayUsagePlan
 
         /// <summary>rate_limit block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#rate_limit ApigatewayUsagePlan#rate_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#rate_limit ApigatewayUsagePlan#rate_limit}
         /// </remarks>
         [JsiiProperty(name: "rateLimit", typeJson: "{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsRateLimit\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace oci.ApigatewayUsagePlan
 
         /// <summary>targets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#targets ApigatewayUsagePlan#targets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#targets ApigatewayUsagePlan#targets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsTargets" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "targets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsTargets\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -75,14 +75,14 @@ namespace oci.ApigatewayUsagePlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#name ApigatewayUsagePlan#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#name ApigatewayUsagePlan#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#description ApigatewayUsagePlan#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#description ApigatewayUsagePlan#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -92,7 +92,7 @@ namespace oci.ApigatewayUsagePlan
 
             /// <summary>quota block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#quota ApigatewayUsagePlan#quota}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#quota ApigatewayUsagePlan#quota}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "quota", typeJson: "{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsQuota\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace oci.ApigatewayUsagePlan
 
             /// <summary>rate_limit block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#rate_limit ApigatewayUsagePlan#rate_limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#rate_limit ApigatewayUsagePlan#rate_limit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rateLimit", typeJson: "{\"fqn\":\"oci.apigatewayUsagePlan.ApigatewayUsagePlanEntitlementsRateLimit\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace oci.ApigatewayUsagePlan
 
             /// <summary>targets block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_usage_plan#targets ApigatewayUsagePlan#targets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_usage_plan#targets ApigatewayUsagePlan#targets}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayUsagePlan.IApigatewayUsagePlanEntitlementsTargets" />)[]</para>
             /// </remarks>
             [JsiiOptional]

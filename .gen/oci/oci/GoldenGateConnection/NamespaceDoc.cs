@@ -5,7 +5,7 @@ namespace oci.GoldenGateConnection
     /// <remarks>
     /// <h1><c>oci_golden_gate_connection</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection"><c>oci_golden_gate_connection</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection"><c>oci_golden_gate_connection</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

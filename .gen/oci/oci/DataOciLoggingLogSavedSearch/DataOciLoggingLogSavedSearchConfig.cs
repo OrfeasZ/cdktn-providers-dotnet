@@ -9,7 +9,7 @@ namespace oci.DataOciLoggingLogSavedSearch
     [JsiiByValue(fqn: "oci.dataOciLoggingLogSavedSearch.DataOciLoggingLogSavedSearchConfig")]
     public class DataOciLoggingLogSavedSearchConfig : oci.DataOciLoggingLogSavedSearch.IDataOciLoggingLogSavedSearchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/logging_log_saved_search#log_saved_search_id DataOciLoggingLogSavedSearch#log_saved_search_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/logging_log_saved_search#log_saved_search_id DataOciLoggingLogSavedSearch#log_saved_search_id}.</summary>
         [JsiiProperty(name: "logSavedSearchId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogSavedSearchId
         {

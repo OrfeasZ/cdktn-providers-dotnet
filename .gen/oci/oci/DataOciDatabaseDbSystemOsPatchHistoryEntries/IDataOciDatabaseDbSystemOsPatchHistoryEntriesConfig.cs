@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseDbSystemOsPatchHistoryEntriesConfig), fullyQualifiedName: "oci.dataOciDatabaseDbSystemOsPatchHistoryEntries.DataOciDatabaseDbSystemOsPatchHistoryEntriesConfig")]
     public interface IDataOciDatabaseDbSystemOsPatchHistoryEntriesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#db_system_id DataOciDatabaseDbSystemOsPatchHistoryEntries#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#db_system_id DataOciDatabaseDbSystemOsPatchHistoryEntries#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string DbSystemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#action DataOciDatabaseDbSystemOsPatchHistoryEntries#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#action DataOciDatabaseDbSystemOsPatchHistoryEntries#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Action
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#filter DataOciDatabaseDbSystemOsPatchHistoryEntries#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#filter DataOciDatabaseDbSystemOsPatchHistoryEntries#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDbSystemOsPatchHistoryEntries.IDataOciDatabaseDbSystemOsPatchHistoryEntriesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseDbSystemOsPatchHistoryEntries.DataOciDatabaseDbSystemOsPatchHistoryEntriesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#id DataOciDatabaseDbSystemOsPatchHistoryEntries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#id DataOciDatabaseDbSystemOsPatchHistoryEntries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#state DataOciDatabaseDbSystemOsPatchHistoryEntries#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#state DataOciDatabaseDbSystemOsPatchHistoryEntries#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -73,14 +73,14 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#db_system_id DataOciDatabaseDbSystemOsPatchHistoryEntries#db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#db_system_id DataOciDatabaseDbSystemOsPatchHistoryEntries#db_system_id}.</summary>
             [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbSystemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#action DataOciDatabaseDbSystemOsPatchHistoryEntries#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#action DataOciDatabaseDbSystemOsPatchHistoryEntries#action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Action
@@ -90,7 +90,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#filter DataOciDatabaseDbSystemOsPatchHistoryEntries#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#filter DataOciDatabaseDbSystemOsPatchHistoryEntries#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDbSystemOsPatchHistoryEntries.IDataOciDatabaseDbSystemOsPatchHistoryEntriesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -100,7 +100,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#id DataOciDatabaseDbSystemOsPatchHistoryEntries#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#id DataOciDatabaseDbSystemOsPatchHistoryEntries#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_db_system_os_patch_history_entries#state DataOciDatabaseDbSystemOsPatchHistoryEntries#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_system_os_patch_history_entries#state DataOciDatabaseDbSystemOsPatchHistoryEntries#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

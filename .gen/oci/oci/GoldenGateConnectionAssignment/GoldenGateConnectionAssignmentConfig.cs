@@ -9,7 +9,7 @@ namespace oci.GoldenGateConnectionAssignment
     [JsiiByValue(fqn: "oci.goldenGateConnectionAssignment.GoldenGateConnectionAssignmentConfig")]
     public class GoldenGateConnectionAssignmentConfig : oci.GoldenGateConnectionAssignment.IGoldenGateConnectionAssignmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection_assignment#connection_id GoldenGateConnectionAssignment#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection_assignment#connection_id GoldenGateConnectionAssignment#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionId
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateConnectionAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection_assignment#deployment_id GoldenGateConnectionAssignment#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection_assignment#deployment_id GoldenGateConnectionAssignment#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {
@@ -25,7 +25,7 @@ namespace oci.GoldenGateConnectionAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection_assignment#id GoldenGateConnectionAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection_assignment#id GoldenGateConnectionAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.GoldenGateConnectionAssignment
 
         private object? _isLockOverride;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection_assignment#is_lock_override GoldenGateConnectionAssignment#is_lock_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection_assignment#is_lock_override GoldenGateConnectionAssignment#is_lock_override}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -74,7 +74,7 @@ namespace oci.GoldenGateConnectionAssignment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/golden_gate_connection_assignment#timeouts GoldenGateConnectionAssignment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/golden_gate_connection_assignment#timeouts GoldenGateConnectionAssignment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.goldenGateConnectionAssignment.GoldenGateConnectionAssignmentTimeouts\"}", isOptional: true)]

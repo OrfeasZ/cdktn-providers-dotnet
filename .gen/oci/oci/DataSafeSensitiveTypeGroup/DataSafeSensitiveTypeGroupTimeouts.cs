@@ -7,7 +7,7 @@ namespace oci.DataSafeSensitiveTypeGroup
     [JsiiByValue(fqn: "oci.dataSafeSensitiveTypeGroup.DataSafeSensitiveTypeGroupTimeouts")]
     public class DataSafeSensitiveTypeGroupTimeouts : oci.DataSafeSensitiveTypeGroup.IDataSafeSensitiveTypeGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_type_group#create DataSafeSensitiveTypeGroup#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_sensitive_type_group#create DataSafeSensitiveTypeGroup#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeSensitiveTypeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_type_group#delete DataSafeSensitiveTypeGroup#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_sensitive_type_group#delete DataSafeSensitiveTypeGroup#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeSensitiveTypeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_sensitive_type_group#update DataSafeSensitiveTypeGroup#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_sensitive_type_group#update DataSafeSensitiveTypeGroup#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

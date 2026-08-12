@@ -9,7 +9,7 @@ namespace oci.ApigatewayGateway
     [JsiiByValue(fqn: "oci.apigatewayGateway.ApigatewayGatewayResponseCacheDetails")]
     public class ApigatewayGatewayResponseCacheDetails : oci.ApigatewayGateway.IApigatewayGatewayResponseCacheDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#type ApigatewayGateway#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#authentication_secret_id ApigatewayGateway#authentication_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#authentication_secret_id ApigatewayGateway#authentication_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthenticationSecretId
@@ -26,7 +26,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#authentication_secret_version_number ApigatewayGateway#authentication_secret_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#authentication_secret_version_number ApigatewayGateway#authentication_secret_version_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationSecretVersionNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthenticationSecretVersionNumber
@@ -35,7 +35,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#connect_timeout_in_ms ApigatewayGateway#connect_timeout_in_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#connect_timeout_in_ms ApigatewayGateway#connect_timeout_in_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "connectTimeoutInMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ConnectTimeoutInMs
@@ -46,7 +46,7 @@ namespace oci.ApigatewayGateway
 
         private object? _isSslEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#is_ssl_enabled ApigatewayGateway#is_ssl_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#is_ssl_enabled ApigatewayGateway#is_ssl_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -80,7 +80,7 @@ namespace oci.ApigatewayGateway
 
         private object? _isSslVerifyDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#is_ssl_verify_disabled ApigatewayGateway#is_ssl_verify_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#is_ssl_verify_disabled ApigatewayGateway#is_ssl_verify_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -112,7 +112,7 @@ namespace oci.ApigatewayGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#read_timeout_in_ms ApigatewayGateway#read_timeout_in_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#read_timeout_in_ms ApigatewayGateway#read_timeout_in_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "readTimeoutInMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReadTimeoutInMs
@@ -121,7 +121,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#send_timeout_in_ms ApigatewayGateway#send_timeout_in_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#send_timeout_in_ms ApigatewayGateway#send_timeout_in_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sendTimeoutInMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SendTimeoutInMs
@@ -134,7 +134,7 @@ namespace oci.ApigatewayGateway
 
         /// <summary>servers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/apigateway_gateway#servers ApigatewayGateway#servers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#servers ApigatewayGateway#servers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayResponseCacheDetailsServers" />)[]</para>
         /// </remarks>
         [JsiiOptional]

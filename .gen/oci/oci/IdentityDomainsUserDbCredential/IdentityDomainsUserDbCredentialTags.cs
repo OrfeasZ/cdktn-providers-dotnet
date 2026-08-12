@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUserDbCredential
     [JsiiByValue(fqn: "oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialTags")]
     public class IdentityDomainsUserDbCredentialTags : oci.IdentityDomainsUserDbCredential.IIdentityDomainsUserDbCredentialTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user_db_credential#key IdentityDomainsUserDbCredential#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user_db_credential#key IdentityDomainsUserDbCredential#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsUserDbCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_user_db_credential#value IdentityDomainsUserDbCredential#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user_db_credential#value IdentityDomainsUserDbCredential#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

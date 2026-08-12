@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetails")]
     public interface IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#is_enrolled DatabaseDatabase#is_enrolled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#is_enrolled DatabaseDatabase#is_enrolled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -23,7 +23,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>maintenance_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#maintenance_details DatabaseDatabase#maintenance_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#maintenance_details DatabaseDatabase#maintenance_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsMaintenanceDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "maintenanceDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsMaintenanceDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>preference_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#preference_details DatabaseDatabase#preference_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#preference_details DatabaseDatabase#preference_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "preferenceDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace oci.DatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#is_enrolled DatabaseDatabase#is_enrolled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#is_enrolled DatabaseDatabase#is_enrolled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -71,7 +71,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>maintenance_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#maintenance_details DatabaseDatabase#maintenance_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#maintenance_details DatabaseDatabase#maintenance_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsMaintenanceDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -83,7 +83,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>preference_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_database#preference_details DatabaseDatabase#preference_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_database#preference_details DatabaseDatabase#preference_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]

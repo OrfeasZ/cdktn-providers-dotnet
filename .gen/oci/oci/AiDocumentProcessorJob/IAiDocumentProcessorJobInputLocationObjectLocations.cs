@@ -7,7 +7,7 @@ namespace oci.AiDocumentProcessorJob
     [JsiiInterface(nativeType: typeof(IAiDocumentProcessorJobInputLocationObjectLocations), fullyQualifiedName: "oci.aiDocumentProcessorJob.AiDocumentProcessorJobInputLocationObjectLocations")]
     public interface IAiDocumentProcessorJobInputLocationObjectLocations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -18,7 +18,7 @@ namespace oci.AiDocumentProcessorJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Namespace
@@ -29,7 +29,7 @@ namespace oci.AiDocumentProcessorJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#object AiDocumentProcessorJob#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#object AiDocumentProcessorJob#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Object
@@ -40,7 +40,7 @@ namespace oci.AiDocumentProcessorJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}.</summary>
         [JsiiProperty(name: "pageRange", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PageRange
@@ -58,7 +58,7 @@ namespace oci.AiDocumentProcessorJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -66,7 +66,7 @@ namespace oci.AiDocumentProcessorJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Namespace
@@ -74,7 +74,7 @@ namespace oci.AiDocumentProcessorJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#object AiDocumentProcessorJob#object}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#object AiDocumentProcessorJob#object}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Object
@@ -82,7 +82,7 @@ namespace oci.AiDocumentProcessorJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#page_range AiDocumentProcessorJob#page_range}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pageRange", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PageRange

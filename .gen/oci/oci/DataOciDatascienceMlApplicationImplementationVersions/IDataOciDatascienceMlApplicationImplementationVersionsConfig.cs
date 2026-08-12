@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceMlApplicationImplementationVersionsConfig), fullyQualifiedName: "oci.dataOciDatascienceMlApplicationImplementationVersions.DataOciDatascienceMlApplicationImplementationVersionsConfig")]
     public interface IDataOciDatascienceMlApplicationImplementationVersionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#ml_application_implementation_id DataOciDatascienceMlApplicationImplementationVersions#ml_application_implementation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#ml_application_implementation_id DataOciDatascienceMlApplicationImplementationVersions#ml_application_implementation_id}.</summary>
         [JsiiProperty(name: "mlApplicationImplementationId", typeJson: "{\"primitive\":\"string\"}")]
         string MlApplicationImplementationId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#filter DataOciDatascienceMlApplicationImplementationVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#filter DataOciDatascienceMlApplicationImplementationVersions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceMlApplicationImplementationVersions.IDataOciDatascienceMlApplicationImplementationVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatascienceMlApplicationImplementationVersions.DataOciDatascienceMlApplicationImplementationVersionsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#id DataOciDatascienceMlApplicationImplementationVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#id DataOciDatascienceMlApplicationImplementationVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#state DataOciDatascienceMlApplicationImplementationVersions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#state DataOciDatascienceMlApplicationImplementationVersions#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -62,7 +62,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#ml_application_implementation_id DataOciDatascienceMlApplicationImplementationVersions#ml_application_implementation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#ml_application_implementation_id DataOciDatascienceMlApplicationImplementationVersions#ml_application_implementation_id}.</summary>
             [JsiiProperty(name: "mlApplicationImplementationId", typeJson: "{\"primitive\":\"string\"}")]
             public string MlApplicationImplementationId
             {
@@ -71,7 +71,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#filter DataOciDatascienceMlApplicationImplementationVersions#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#filter DataOciDatascienceMlApplicationImplementationVersions#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceMlApplicationImplementationVersions.IDataOciDatascienceMlApplicationImplementationVersionsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -81,7 +81,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#id DataOciDatascienceMlApplicationImplementationVersions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#id DataOciDatascienceMlApplicationImplementationVersions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +93,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersions
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_ml_application_implementation_versions#state DataOciDatascienceMlApplicationImplementationVersions#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation_versions#state DataOciDatascienceMlApplicationImplementationVersions#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

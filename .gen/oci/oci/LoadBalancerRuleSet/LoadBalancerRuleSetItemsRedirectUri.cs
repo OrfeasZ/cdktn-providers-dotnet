@@ -7,7 +7,7 @@ namespace oci.LoadBalancerRuleSet
     [JsiiByValue(fqn: "oci.loadBalancerRuleSet.LoadBalancerRuleSetItemsRedirectUri")]
     public class LoadBalancerRuleSetItemsRedirectUri : oci.LoadBalancerRuleSet.ILoadBalancerRuleSetItemsRedirectUri
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/load_balancer_rule_set#host LoadBalancerRuleSet#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_rule_set#host LoadBalancerRuleSet#host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Host
@@ -16,7 +16,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/load_balancer_rule_set#path LoadBalancerRuleSet#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_rule_set#path LoadBalancerRuleSet#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/load_balancer_rule_set#port LoadBalancerRuleSet#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_rule_set#port LoadBalancerRuleSet#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -34,7 +34,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/load_balancer_rule_set#protocol LoadBalancerRuleSet#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_rule_set#protocol LoadBalancerRuleSet#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -43,7 +43,7 @@ namespace oci.LoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/load_balancer_rule_set#query LoadBalancerRuleSet#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_rule_set#query LoadBalancerRuleSet#query}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Query

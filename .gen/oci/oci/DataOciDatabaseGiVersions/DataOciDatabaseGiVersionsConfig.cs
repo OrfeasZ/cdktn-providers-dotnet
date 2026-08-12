@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseGiVersions
     [JsiiByValue(fqn: "oci.dataOciDatabaseGiVersions.DataOciDatabaseGiVersionsConfig")]
     public class DataOciDatabaseGiVersionsConfig : oci.DataOciDatabaseGiVersions.IDataOciDatabaseGiVersionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_gi_versions#compartment_id DataOciDatabaseGiVersions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_gi_versions#compartment_id DataOciDatabaseGiVersions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseGiVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_gi_versions#availability_domain DataOciDatabaseGiVersions#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_gi_versions#availability_domain DataOciDatabaseGiVersions#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseGiVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_gi_versions#filter DataOciDatabaseGiVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_gi_versions#filter DataOciDatabaseGiVersions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseGiVersions.IDataOciDatabaseGiVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDatabaseGiVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_gi_versions#id DataOciDatabaseGiVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_gi_versions#id DataOciDatabaseGiVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDatabaseGiVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_gi_versions#resource_id DataOciDatabaseGiVersions#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_gi_versions#resource_id DataOciDatabaseGiVersions#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseGiVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_gi_versions#shape DataOciDatabaseGiVersions#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_gi_versions#shape DataOciDatabaseGiVersions#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape
@@ -92,7 +92,7 @@ namespace oci.DataOciDatabaseGiVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_gi_versions#shape_attribute DataOciDatabaseGiVersions#shape_attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_gi_versions#shape_attribute DataOciDatabaseGiVersions#shape_attribute}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shapeAttribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShapeAttribute

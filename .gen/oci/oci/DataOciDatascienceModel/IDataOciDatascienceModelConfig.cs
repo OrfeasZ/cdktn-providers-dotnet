@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceModel
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceModelConfig), fullyQualifiedName: "oci.dataOciDatascienceModel.DataOciDatascienceModelConfig")]
     public interface IDataOciDatascienceModelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_model#model_id DataOciDatascienceModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model#model_id DataOciDatascienceModel#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/datascience_model#model_id DataOciDatascienceModel#model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model#model_id DataOciDatascienceModel#model_id}.</summary>
             [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelId
             {

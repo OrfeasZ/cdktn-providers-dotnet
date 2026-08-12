@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsMappedAttribute
     [JsiiByValue(fqn: "oci.identityDomainsMappedAttribute.IdentityDomainsMappedAttributeTags")]
     public class IdentityDomainsMappedAttributeTags : oci.IdentityDomainsMappedAttribute.IIdentityDomainsMappedAttributeTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#key IdentityDomainsMappedAttribute#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_mapped_attribute#key IdentityDomainsMappedAttribute#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsMappedAttribute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_mapped_attribute#value IdentityDomainsMappedAttribute#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_mapped_attribute#value IdentityDomainsMappedAttribute#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

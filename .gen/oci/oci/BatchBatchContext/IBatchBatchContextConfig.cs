@@ -7,7 +7,7 @@ namespace oci.BatchBatchContext
     [JsiiInterface(nativeType: typeof(IBatchBatchContextConfig), fullyQualifiedName: "oci.batchBatchContext.BatchBatchContextConfig")]
     public interface IBatchBatchContextConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#compartment_id BatchBatchContext#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#compartment_id BatchBatchContext#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.BatchBatchContext
 
         /// <summary>fleets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#fleets BatchBatchContext#fleets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#fleets BatchBatchContext#fleets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BatchBatchContext.IBatchBatchContextFleets" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "fleets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleets\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace oci.BatchBatchContext
 
         /// <summary>network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#network BatchBatchContext#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#network BatchBatchContext#network}
         /// </remarks>
         [JsiiProperty(name: "network", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextNetwork\"}")]
         oci.BatchBatchContext.IBatchBatchContextNetwork Network
@@ -35,7 +35,7 @@ namespace oci.BatchBatchContext
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#defined_tags BatchBatchContext#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#defined_tags BatchBatchContext#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -46,7 +46,7 @@ namespace oci.BatchBatchContext
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#description BatchBatchContext#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#description BatchBatchContext#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -57,7 +57,7 @@ namespace oci.BatchBatchContext
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#display_name BatchBatchContext#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#display_name BatchBatchContext#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -68,7 +68,7 @@ namespace oci.BatchBatchContext
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#entitlements BatchBatchContext#entitlements}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#entitlements BatchBatchContext#entitlements}.</summary>
         [JsiiProperty(name: "entitlements", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Entitlements
@@ -79,7 +79,7 @@ namespace oci.BatchBatchContext
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#freeform_tags BatchBatchContext#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#freeform_tags BatchBatchContext#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -90,7 +90,7 @@ namespace oci.BatchBatchContext
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#id BatchBatchContext#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#id BatchBatchContext#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,7 +107,7 @@ namespace oci.BatchBatchContext
 
         /// <summary>job_priority_configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#job_priority_configurations BatchBatchContext#job_priority_configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#job_priority_configurations BatchBatchContext#job_priority_configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BatchBatchContext.IBatchBatchContextJobPriorityConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "jobPriorityConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.batchBatchContext.BatchBatchContextJobPriorityConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace oci.BatchBatchContext
 
         /// <summary>logging_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#logging_configuration BatchBatchContext#logging_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#logging_configuration BatchBatchContext#logging_configuration}
         /// </remarks>
         [JsiiProperty(name: "loggingConfiguration", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextLoggingConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace oci.BatchBatchContext
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#state BatchBatchContext#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#state BatchBatchContext#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -147,7 +147,7 @@ namespace oci.BatchBatchContext
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#timeouts BatchBatchContext#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#timeouts BatchBatchContext#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -166,7 +166,7 @@ namespace oci.BatchBatchContext
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#compartment_id BatchBatchContext#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#compartment_id BatchBatchContext#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -175,7 +175,7 @@ namespace oci.BatchBatchContext
 
             /// <summary>fleets block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#fleets BatchBatchContext#fleets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#fleets BatchBatchContext#fleets}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BatchBatchContext.IBatchBatchContextFleets" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "fleets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleets\"},\"kind\":\"array\"}}]}}")]
@@ -186,7 +186,7 @@ namespace oci.BatchBatchContext
 
             /// <summary>network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#network BatchBatchContext#network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#network BatchBatchContext#network}
             /// </remarks>
             [JsiiProperty(name: "network", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextNetwork\"}")]
             public oci.BatchBatchContext.IBatchBatchContextNetwork Network
@@ -194,7 +194,7 @@ namespace oci.BatchBatchContext
                 get => GetInstanceProperty<oci.BatchBatchContext.IBatchBatchContextNetwork>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#defined_tags BatchBatchContext#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#defined_tags BatchBatchContext#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -202,7 +202,7 @@ namespace oci.BatchBatchContext
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#description BatchBatchContext#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#description BatchBatchContext#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -210,7 +210,7 @@ namespace oci.BatchBatchContext
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#display_name BatchBatchContext#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#display_name BatchBatchContext#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -218,7 +218,7 @@ namespace oci.BatchBatchContext
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#entitlements BatchBatchContext#entitlements}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#entitlements BatchBatchContext#entitlements}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "entitlements", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Entitlements
@@ -226,7 +226,7 @@ namespace oci.BatchBatchContext
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#freeform_tags BatchBatchContext#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#freeform_tags BatchBatchContext#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -234,7 +234,7 @@ namespace oci.BatchBatchContext
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#id BatchBatchContext#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#id BatchBatchContext#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -248,7 +248,7 @@ namespace oci.BatchBatchContext
 
             /// <summary>job_priority_configurations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#job_priority_configurations BatchBatchContext#job_priority_configurations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#job_priority_configurations BatchBatchContext#job_priority_configurations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BatchBatchContext.IBatchBatchContextJobPriorityConfigurations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -260,7 +260,7 @@ namespace oci.BatchBatchContext
 
             /// <summary>logging_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#logging_configuration BatchBatchContext#logging_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#logging_configuration BatchBatchContext#logging_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loggingConfiguration", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextLoggingConfiguration\"}", isOptional: true)]
@@ -269,7 +269,7 @@ namespace oci.BatchBatchContext
                 get => GetInstanceProperty<oci.BatchBatchContext.IBatchBatchContextLoggingConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#state BatchBatchContext#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#state BatchBatchContext#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -279,7 +279,7 @@ namespace oci.BatchBatchContext
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#timeouts BatchBatchContext#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#timeouts BatchBatchContext#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextTimeouts\"}", isOptional: true)]

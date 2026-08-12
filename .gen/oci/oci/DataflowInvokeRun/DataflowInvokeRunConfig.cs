@@ -9,7 +9,7 @@ namespace oci.DataflowInvokeRun
     [JsiiByValue(fqn: "oci.dataflowInvokeRun.DataflowInvokeRunConfig")]
     public class DataflowInvokeRunConfig : oci.DataflowInvokeRun.IDataflowInvokeRunConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#compartment_id DataflowInvokeRun#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#compartment_id DataflowInvokeRun#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#application_id DataflowInvokeRun#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#application_id DataflowInvokeRun#application_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationId
@@ -28,7 +28,7 @@ namespace oci.DataflowInvokeRun
 
         /// <summary>application_log_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#application_log_config DataflowInvokeRun#application_log_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#application_log_config DataflowInvokeRun#application_log_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationLogConfig", typeJson: "{\"fqn\":\"oci.dataflowInvokeRun.DataflowInvokeRunApplicationLogConfig\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#archive_uri DataflowInvokeRun#archive_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#archive_uri DataflowInvokeRun#archive_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "archiveUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArchiveUri
@@ -47,7 +47,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#arguments DataflowInvokeRun#arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#arguments DataflowInvokeRun#arguments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "arguments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Arguments
@@ -58,7 +58,7 @@ namespace oci.DataflowInvokeRun
 
         private object? _asynchronous;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#asynchronous DataflowInvokeRun#asynchronous}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#asynchronous DataflowInvokeRun#asynchronous}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -90,7 +90,7 @@ namespace oci.DataflowInvokeRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#configuration DataflowInvokeRun#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#configuration DataflowInvokeRun#configuration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configuration", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Configuration
@@ -99,7 +99,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#defined_tags DataflowInvokeRun#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#defined_tags DataflowInvokeRun#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -108,7 +108,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#display_name DataflowInvokeRun#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#display_name DataflowInvokeRun#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -117,7 +117,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#driver_shape DataflowInvokeRun#driver_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#driver_shape DataflowInvokeRun#driver_shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "driverShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DriverShape
@@ -128,7 +128,7 @@ namespace oci.DataflowInvokeRun
 
         /// <summary>driver_shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#driver_shape_config DataflowInvokeRun#driver_shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#driver_shape_config DataflowInvokeRun#driver_shape_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "driverShapeConfig", typeJson: "{\"fqn\":\"oci.dataflowInvokeRun.DataflowInvokeRunDriverShapeConfig\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#execute DataflowInvokeRun#execute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#execute DataflowInvokeRun#execute}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "execute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Execute
@@ -147,7 +147,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#executor_shape DataflowInvokeRun#executor_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#executor_shape DataflowInvokeRun#executor_shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "executorShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExecutorShape
@@ -158,7 +158,7 @@ namespace oci.DataflowInvokeRun
 
         /// <summary>executor_shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#executor_shape_config DataflowInvokeRun#executor_shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#executor_shape_config DataflowInvokeRun#executor_shape_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "executorShapeConfig", typeJson: "{\"fqn\":\"oci.dataflowInvokeRun.DataflowInvokeRunExecutorShapeConfig\"}", isOptional: true)]
@@ -168,7 +168,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#freeform_tags DataflowInvokeRun#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#freeform_tags DataflowInvokeRun#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -177,7 +177,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#id DataflowInvokeRun#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#id DataflowInvokeRun#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -190,7 +190,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#idle_timeout_in_minutes DataflowInvokeRun#idle_timeout_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#idle_timeout_in_minutes DataflowInvokeRun#idle_timeout_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idleTimeoutInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdleTimeoutInMinutes
@@ -199,7 +199,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#logs_bucket_uri DataflowInvokeRun#logs_bucket_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#logs_bucket_uri DataflowInvokeRun#logs_bucket_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logsBucketUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogsBucketUri
@@ -208,7 +208,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#max_duration_in_minutes DataflowInvokeRun#max_duration_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#max_duration_in_minutes DataflowInvokeRun#max_duration_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxDurationInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxDurationInMinutes
@@ -217,7 +217,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#metastore_id DataflowInvokeRun#metastore_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#metastore_id DataflowInvokeRun#metastore_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metastoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MetastoreId
@@ -226,7 +226,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#num_executors DataflowInvokeRun#num_executors}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#num_executors DataflowInvokeRun#num_executors}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numExecutors", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumExecutors
@@ -235,7 +235,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#opc_parent_rpt_url DataflowInvokeRun#opc_parent_rpt_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#opc_parent_rpt_url DataflowInvokeRun#opc_parent_rpt_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "opcParentRptUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OpcParentRptUrl
@@ -248,7 +248,7 @@ namespace oci.DataflowInvokeRun
 
         /// <summary>parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#parameters DataflowInvokeRun#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#parameters DataflowInvokeRun#parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataflowInvokeRun.IDataflowInvokeRunParameters" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -279,7 +279,7 @@ namespace oci.DataflowInvokeRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#pool_id DataflowInvokeRun#pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#pool_id DataflowInvokeRun#pool_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "poolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PoolId
@@ -288,7 +288,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#spark_version DataflowInvokeRun#spark_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#spark_version DataflowInvokeRun#spark_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sparkVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SparkVersion
@@ -299,7 +299,7 @@ namespace oci.DataflowInvokeRun
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#timeouts DataflowInvokeRun#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#timeouts DataflowInvokeRun#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataflowInvokeRun.DataflowInvokeRunTimeouts\"}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#type DataflowInvokeRun#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#type DataflowInvokeRun#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type
@@ -318,7 +318,7 @@ namespace oci.DataflowInvokeRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/dataflow_invoke_run#warehouse_bucket_uri DataflowInvokeRun#warehouse_bucket_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dataflow_invoke_run#warehouse_bucket_uri DataflowInvokeRun#warehouse_bucket_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "warehouseBucketUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WarehouseBucketUri

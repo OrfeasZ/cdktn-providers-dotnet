@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
     [JsiiByValue(fqn: "oci.dataOciJmsFleetUncorrelatedPackageApplications.DataOciJmsFleetUncorrelatedPackageApplicationsConfig")]
     public class DataOciJmsFleetUncorrelatedPackageApplicationsConfig : oci.DataOciJmsFleetUncorrelatedPackageApplications.IDataOciJmsFleetUncorrelatedPackageApplicationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#fleet_id DataOciJmsFleetUncorrelatedPackageApplications#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#fleet_id DataOciJmsFleetUncorrelatedPackageApplications#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#package_name DataOciJmsFleetUncorrelatedPackageApplications#package_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#package_name DataOciJmsFleetUncorrelatedPackageApplications#package_name}.</summary>
         [JsiiProperty(name: "packageName", typeJson: "{\"primitive\":\"string\"}")]
         public string PackageName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#application_id DataOciJmsFleetUncorrelatedPackageApplications#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#application_id DataOciJmsFleetUncorrelatedPackageApplications#application_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationId
@@ -38,7 +38,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#filter DataOciJmsFleetUncorrelatedPackageApplications#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#filter DataOciJmsFleetUncorrelatedPackageApplications#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsFleetUncorrelatedPackageApplications.IDataOciJmsFleetUncorrelatedPackageApplicationsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#id DataOciJmsFleetUncorrelatedPackageApplications#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#id DataOciJmsFleetUncorrelatedPackageApplications#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#managed_instance_id DataOciJmsFleetUncorrelatedPackageApplications#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#managed_instance_id DataOciJmsFleetUncorrelatedPackageApplications#managed_instance_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManagedInstanceId
@@ -91,7 +91,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_end DataOciJmsFleetUncorrelatedPackageApplications#time_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_end DataOciJmsFleetUncorrelatedPackageApplications#time_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeEnd
@@ -100,7 +100,7 @@ namespace oci.DataOciJmsFleetUncorrelatedPackageApplications
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_start DataOciJmsFleetUncorrelatedPackageApplications#time_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_fleet_uncorrelated_package_applications#time_start DataOciJmsFleetUncorrelatedPackageApplications#time_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeStart

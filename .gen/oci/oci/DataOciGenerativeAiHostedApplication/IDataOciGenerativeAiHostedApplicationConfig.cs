@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiHostedApplication
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiHostedApplicationConfig), fullyQualifiedName: "oci.dataOciGenerativeAiHostedApplication.DataOciGenerativeAiHostedApplicationConfig")]
     public interface IDataOciGenerativeAiHostedApplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_application#hosted_application_id DataOciGenerativeAiHostedApplication#hosted_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application#hosted_application_id DataOciGenerativeAiHostedApplication#hosted_application_id}.</summary>
         [JsiiProperty(name: "hostedApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         string HostedApplicationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiHostedApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/generative_ai_hosted_application#hosted_application_id DataOciGenerativeAiHostedApplication#hosted_application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application#hosted_application_id DataOciGenerativeAiHostedApplication#hosted_application_id}.</summary>
             [JsiiProperty(name: "hostedApplicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string HostedApplicationId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsCustomerSecretKey
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsCustomerSecretKey.DataOciIdentityDomainsCustomerSecretKeyConfig")]
     public class DataOciIdentityDomainsCustomerSecretKeyConfig : oci.DataOciIdentityDomainsCustomerSecretKey.IDataOciIdentityDomainsCustomerSecretKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_customer_secret_key#customer_secret_key_id DataOciIdentityDomainsCustomerSecretKey#customer_secret_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_customer_secret_key#customer_secret_key_id DataOciIdentityDomainsCustomerSecretKey#customer_secret_key_id}.</summary>
         [JsiiProperty(name: "customerSecretKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomerSecretKeyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsCustomerSecretKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_customer_secret_key#idcs_endpoint DataOciIdentityDomainsCustomerSecretKey#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_customer_secret_key#idcs_endpoint DataOciIdentityDomainsCustomerSecretKey#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsCustomerSecretKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_customer_secret_key#attributes DataOciIdentityDomainsCustomerSecretKey#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_customer_secret_key#attributes DataOciIdentityDomainsCustomerSecretKey#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsCustomerSecretKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_customer_secret_key#attribute_sets DataOciIdentityDomainsCustomerSecretKey#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_customer_secret_key#attribute_sets DataOciIdentityDomainsCustomerSecretKey#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsCustomerSecretKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_customer_secret_key#authorization DataOciIdentityDomainsCustomerSecretKey#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_customer_secret_key#authorization DataOciIdentityDomainsCustomerSecretKey#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsCustomerSecretKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/identity_domains_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsCustomerSecretKey#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsCustomerSecretKey#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

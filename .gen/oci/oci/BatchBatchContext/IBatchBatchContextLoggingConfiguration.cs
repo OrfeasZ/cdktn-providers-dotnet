@@ -7,28 +7,28 @@ namespace oci.BatchBatchContext
     [JsiiInterface(nativeType: typeof(IBatchBatchContextLoggingConfiguration), fullyQualifiedName: "oci.batchBatchContext.BatchBatchContextLoggingConfiguration")]
     public interface IBatchBatchContextLoggingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#log_group_id BatchBatchContext#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#log_group_id BatchBatchContext#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#log_id BatchBatchContext#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#log_id BatchBatchContext#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         string LogId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#type BatchBatchContext#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#type BatchBatchContext#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#is_job_task_events_propagation_enabled BatchBatchContext#is_job_task_events_propagation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#is_job_task_events_propagation_enabled BatchBatchContext#is_job_task_events_propagation_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,28 +49,28 @@ namespace oci.BatchBatchContext
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#log_group_id BatchBatchContext#log_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#log_group_id BatchBatchContext#log_group_id}.</summary>
             [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#log_id BatchBatchContext#log_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#log_id BatchBatchContext#log_id}.</summary>
             [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#type BatchBatchContext#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#type BatchBatchContext#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_context#is_job_task_events_propagation_enabled BatchBatchContext#is_job_task_events_propagation_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_context#is_job_task_events_propagation_enabled BatchBatchContext#is_job_task_events_propagation_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

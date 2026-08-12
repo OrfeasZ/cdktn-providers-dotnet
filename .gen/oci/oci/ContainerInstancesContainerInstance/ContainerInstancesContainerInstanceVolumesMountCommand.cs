@@ -11,7 +11,7 @@ namespace oci.ContainerInstancesContainerInstance
 
         /// <summary>mount_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/container_instances_container_instance#mount_options ContainerInstancesContainerInstance#mount_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/container_instances_container_instance#mount_options ContainerInstancesContainerInstance#mount_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ContainerInstancesContainerInstance.IContainerInstancesContainerInstanceVolumesMountCommandMountOptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]

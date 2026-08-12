@@ -5,7 +5,7 @@ namespace oci.DataOciCoreCaptureFilter
     /// <remarks>
     /// <h1><c>data_oci_core_capture_filter</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/core_capture_filter"><c>data_oci_core_capture_filter</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_capture_filter"><c>data_oci_core_capture_filter</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

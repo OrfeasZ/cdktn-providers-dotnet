@@ -5,7 +5,7 @@ namespace oci.DevopsDeployStage
     /// <remarks>
     /// <h1><c>oci_devops_deploy_stage</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/devops_deploy_stage"><c>oci_devops_deploy_stage</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage"><c>oci_devops_deploy_stage</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

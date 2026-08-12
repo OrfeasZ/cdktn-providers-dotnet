@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
     [JsiiInterface(nativeType: typeof(IDatabaseManagementCloudExadataInfrastructureManagedexadataManagementTimeouts), fullyQualifiedName: "oci.databaseManagementCloudExadataInfrastructureManagedexadataManagement.DatabaseManagementCloudExadataInfrastructureManagedexadataManagementTimeouts")]
     public interface IDatabaseManagementCloudExadataInfrastructureManagedexadataManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#create DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#create DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#delete DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#delete DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#update DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#update DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#create DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#create DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#delete DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#delete DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DatabaseManagementCloudExadataInfrastructureManagedexadataManageme
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#update DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_infrastructure_managedexadata_management#update DatabaseManagementCloudExadataInfrastructureManagedexadataManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

@@ -7,7 +7,7 @@ namespace oci.OsManagementHubProfileAttachSoftwareSourcesManagement
     [JsiiByValue(fqn: "oci.osManagementHubProfileAttachSoftwareSourcesManagement.OsManagementHubProfileAttachSoftwareSourcesManagementTimeouts")]
     public class OsManagementHubProfileAttachSoftwareSourcesManagementTimeouts : oci.OsManagementHubProfileAttachSoftwareSourcesManagement.IOsManagementHubProfileAttachSoftwareSourcesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_software_sources_management#create OsManagementHubProfileAttachSoftwareSourcesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_profile_attach_software_sources_management#create OsManagementHubProfileAttachSoftwareSourcesManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubProfileAttachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_software_sources_management#delete OsManagementHubProfileAttachSoftwareSourcesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_profile_attach_software_sources_management#delete OsManagementHubProfileAttachSoftwareSourcesManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubProfileAttachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_profile_attach_software_sources_management#update OsManagementHubProfileAttachSoftwareSourcesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_profile_attach_software_sources_management#update OsManagementHubProfileAttachSoftwareSourcesManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseVmClusterUpdates
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "availableUpdateModes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AvailableUpdateModes
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
         {
@@ -59,8 +65,20 @@ namespace oci.DataOciDatabaseVmClusterUpdates
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "lastUpdateMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LastUpdateMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "oracleLinuxVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OracleLinuxVersion
         {
             get => GetInstanceProperty<string>()!;
         }

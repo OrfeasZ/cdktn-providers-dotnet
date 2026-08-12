@@ -9,7 +9,7 @@ namespace oci.DatabaseScheduledAction
     [JsiiByValue(fqn: "oci.databaseScheduledAction.DatabaseScheduledActionActionMembers")]
     public class DatabaseScheduledActionActionMembers : oci.DatabaseScheduledAction.IDatabaseScheduledActionActionMembers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}.</summary>
         [JsiiProperty(name: "memberId", typeJson: "{\"primitive\":\"string\"}")]
         public string MemberId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseScheduledAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}.</summary>
         [JsiiProperty(name: "memberOrder", typeJson: "{\"primitive\":\"number\"}")]
         public double MemberOrder
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseScheduledAction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "estimatedTimeInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EstimatedTimeInMins

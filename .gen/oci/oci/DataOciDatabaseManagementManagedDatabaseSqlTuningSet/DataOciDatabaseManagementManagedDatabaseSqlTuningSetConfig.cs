@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSet
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabaseSqlTuningSet.DataOciDatabaseManagementManagedDatabaseSqlTuningSetConfig")]
     public class DataOciDatabaseManagementManagedDatabaseSqlTuningSetConfig : oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSet.IDataOciDatabaseManagementManagedDatabaseSqlTuningSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_tuning_set#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningSet#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_tuning_set#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningSet#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedDatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_tuning_set#id DataOciDatabaseManagementManagedDatabaseSqlTuningSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_tuning_set#id DataOciDatabaseManagementManagedDatabaseSqlTuningSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_tuning_set#name_contains DataOciDatabaseManagementManagedDatabaseSqlTuningSet#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_tuning_set#name_contains DataOciDatabaseManagementManagedDatabaseSqlTuningSet#name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameContains
@@ -39,7 +39,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseSqlTuningSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_managed_database_sql_tuning_set#owner DataOciDatabaseManagementManagedDatabaseSqlTuningSet#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_sql_tuning_set#owner DataOciDatabaseManagementManagedDatabaseSqlTuningSet#owner}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Owner

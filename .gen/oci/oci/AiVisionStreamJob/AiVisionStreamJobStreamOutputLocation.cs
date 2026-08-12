@@ -9,7 +9,7 @@ namespace oci.AiVisionStreamJob
     [JsiiByValue(fqn: "oci.aiVisionStreamJob.AiVisionStreamJobStreamOutputLocation")]
     public class AiVisionStreamJobStreamOutputLocation : oci.AiVisionStreamJob.IAiVisionStreamJobStreamOutputLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}.</summary>
         [JsiiProperty(name: "outputLocationType", typeJson: "{\"primitive\":\"string\"}")]
         public string OutputLocationType
         {
@@ -33,7 +33,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string Prefix
         {
@@ -41,7 +41,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "oboToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OboToken

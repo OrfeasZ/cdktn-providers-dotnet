@@ -9,7 +9,7 @@ namespace oci.DataOciResourceAnalyticsMonitoredRegion
     [JsiiByValue(fqn: "oci.dataOciResourceAnalyticsMonitoredRegion.DataOciResourceAnalyticsMonitoredRegionConfig")]
     public class DataOciResourceAnalyticsMonitoredRegionConfig : oci.DataOciResourceAnalyticsMonitoredRegion.IDataOciResourceAnalyticsMonitoredRegionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}.</summary>
         [JsiiProperty(name: "monitoredRegionId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitoredRegionId
         {

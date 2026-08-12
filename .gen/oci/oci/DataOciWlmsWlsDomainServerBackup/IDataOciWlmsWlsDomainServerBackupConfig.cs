@@ -7,28 +7,28 @@ namespace oci.DataOciWlmsWlsDomainServerBackup
     [JsiiInterface(nativeType: typeof(IDataOciWlmsWlsDomainServerBackupConfig), fullyQualifiedName: "oci.dataOciWlmsWlsDomainServerBackup.DataOciWlmsWlsDomainServerBackupConfig")]
     public interface IDataOciWlmsWlsDomainServerBackupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#backup_id DataOciWlmsWlsDomainServerBackup#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#backup_id DataOciWlmsWlsDomainServerBackup#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         string BackupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#server_id DataOciWlmsWlsDomainServerBackup#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#server_id DataOciWlmsWlsDomainServerBackup#server_id}.</summary>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
         string ServerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#wls_domain_id DataOciWlmsWlsDomainServerBackup#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#wls_domain_id DataOciWlmsWlsDomainServerBackup#wls_domain_id}.</summary>
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string WlsDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#id DataOciWlmsWlsDomainServerBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#id DataOciWlmsWlsDomainServerBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,28 +50,28 @@ namespace oci.DataOciWlmsWlsDomainServerBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#backup_id DataOciWlmsWlsDomainServerBackup#backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#backup_id DataOciWlmsWlsDomainServerBackup#backup_id}.</summary>
             [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#server_id DataOciWlmsWlsDomainServerBackup#server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#server_id DataOciWlmsWlsDomainServerBackup#server_id}.</summary>
             [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#wls_domain_id DataOciWlmsWlsDomainServerBackup#wls_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#wls_domain_id DataOciWlmsWlsDomainServerBackup#wls_domain_id}.</summary>
             [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string WlsDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_server_backup#id DataOciWlmsWlsDomainServerBackup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_server_backup#id DataOciWlmsWlsDomainServerBackup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

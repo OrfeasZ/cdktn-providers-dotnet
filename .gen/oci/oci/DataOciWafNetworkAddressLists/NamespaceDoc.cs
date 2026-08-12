@@ -5,7 +5,7 @@ namespace oci.DataOciWafNetworkAddressLists
     /// <remarks>
     /// <h1><c>data_oci_waf_network_address_lists</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/waf_network_address_lists"><c>data_oci_waf_network_address_lists</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/waf_network_address_lists"><c>data_oci_waf_network_address_lists</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

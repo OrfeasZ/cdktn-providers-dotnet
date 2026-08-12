@@ -9,7 +9,7 @@ namespace oci.DataOciMarketplaceMarketplaceMetadataPublicKeys
     [JsiiByValue(fqn: "oci.dataOciMarketplaceMarketplaceMetadataPublicKeys.DataOciMarketplaceMarketplaceMetadataPublicKeysFilter")]
     public class DataOciMarketplaceMarketplaceMetadataPublicKeysFilter : oci.DataOciMarketplaceMarketplaceMetadataPublicKeys.IDataOciMarketplaceMarketplaceMetadataPublicKeysFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#name DataOciMarketplaceMarketplaceMetadataPublicKeys#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#name DataOciMarketplaceMarketplaceMetadataPublicKeys#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMarketplaceMarketplaceMetadataPublicKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#values DataOciMarketplaceMarketplaceMetadataPublicKeys#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#values DataOciMarketplaceMarketplaceMetadataPublicKeys#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMarketplaceMarketplaceMetadataPublicKeys
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#regex DataOciMarketplaceMarketplaceMetadataPublicKeys#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/marketplace_marketplace_metadata_public_keys#regex DataOciMarketplaceMarketplaceMetadataPublicKeys#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

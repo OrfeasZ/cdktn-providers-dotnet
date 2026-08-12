@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementSchedulerJobCountsConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementSchedulerJobCounts.DataOciFleetAppsManagementSchedulerJobCountsConfig")]
     public interface IDataOciFleetAppsManagementSchedulerJobCountsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id DataOciFleetAppsManagementSchedulerJobCounts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id DataOciFleetAppsManagementSchedulerJobCounts#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id_in_subtree DataOciFleetAppsManagementSchedulerJobCounts#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id_in_subtree DataOciFleetAppsManagementSchedulerJobCounts#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -34,7 +34,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#filter DataOciFleetAppsManagementSchedulerJobCounts#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#filter DataOciFleetAppsManagementSchedulerJobCounts#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementSchedulerJobCounts.IDataOciFleetAppsManagementSchedulerJobCountsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFleetAppsManagementSchedulerJobCounts.DataOciFleetAppsManagementSchedulerJobCountsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#id DataOciFleetAppsManagementSchedulerJobCounts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#id DataOciFleetAppsManagementSchedulerJobCounts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id DataOciFleetAppsManagementSchedulerJobCounts#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id DataOciFleetAppsManagementSchedulerJobCounts#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -77,7 +77,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id_in_subtree DataOciFleetAppsManagementSchedulerJobCounts#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#compartment_id_in_subtree DataOciFleetAppsManagementSchedulerJobCounts#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -90,7 +90,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#filter DataOciFleetAppsManagementSchedulerJobCounts#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#filter DataOciFleetAppsManagementSchedulerJobCounts#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementSchedulerJobCounts.IDataOciFleetAppsManagementSchedulerJobCountsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -100,7 +100,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobCounts
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#id DataOciFleetAppsManagementSchedulerJobCounts#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_counts#id DataOciFleetAppsManagementSchedulerJobCounts#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

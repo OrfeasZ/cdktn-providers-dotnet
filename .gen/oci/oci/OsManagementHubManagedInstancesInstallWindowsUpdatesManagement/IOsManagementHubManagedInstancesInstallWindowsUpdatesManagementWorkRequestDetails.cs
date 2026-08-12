@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstancesInstallWindowsUpdatesManagementWorkRequestDetails), fullyQualifiedName: "oci.osManagementHubManagedInstancesInstallWindowsUpdatesManagement.OsManagementHubManagedInstancesInstallWindowsUpdatesManagementWorkRequestDetails")]
     public interface IOsManagementHubManagedInstancesInstallWindowsUpdatesManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#description OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#description OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#display_name OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#display_name OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -36,7 +36,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#description OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#description OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -44,7 +44,7 @@ namespace oci.OsManagementHubManagedInstancesInstallWindowsUpdatesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#display_name OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instances_install_windows_updates_management#display_name OsManagementHubManagedInstancesInstallWindowsUpdatesManagement#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName

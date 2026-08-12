@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemDiscovery
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalDbSystemDiscovery.DataOciDatabaseManagementExternalDbSystemDiscoveryConfig")]
     public class DataOciDatabaseManagementExternalDbSystemDiscoveryConfig : oci.DataOciDatabaseManagementExternalDbSystemDiscovery.IDataOciDatabaseManagementExternalDbSystemDiscoveryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_management_external_db_system_discovery#external_db_system_discovery_id DataOciDatabaseManagementExternalDbSystemDiscovery#external_db_system_discovery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_external_db_system_discovery#external_db_system_discovery_id DataOciDatabaseManagementExternalDbSystemDiscovery#external_db_system_discovery_id}.</summary>
         [JsiiProperty(name: "externalDbSystemDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalDbSystemDiscoveryId
         {

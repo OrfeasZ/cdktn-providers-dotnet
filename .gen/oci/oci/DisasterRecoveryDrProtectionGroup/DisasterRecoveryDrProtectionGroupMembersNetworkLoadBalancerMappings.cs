@@ -7,7 +7,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
     [JsiiByValue(fqn: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerMappings")]
     public class DisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerMappings : oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/disaster_recovery_dr_protection_group#destination_network_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_network_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_network_load_balancer_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destinationNetworkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DestinationNetworkLoadBalancerId
@@ -16,7 +16,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/disaster_recovery_dr_protection_group#source_network_load_balancer_id DisasterRecoveryDrProtectionGroup#source_network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/disaster_recovery_dr_protection_group#source_network_load_balancer_id DisasterRecoveryDrProtectionGroup#source_network_load_balancer_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceNetworkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceNetworkLoadBalancerId

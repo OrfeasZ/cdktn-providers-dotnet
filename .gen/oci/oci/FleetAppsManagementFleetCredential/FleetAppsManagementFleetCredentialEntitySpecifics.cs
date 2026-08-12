@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementFleetCredential
     [JsiiByValue(fqn: "oci.fleetAppsManagementFleetCredential.FleetAppsManagementFleetCredentialEntitySpecifics")]
     public class FleetAppsManagementFleetCredentialEntitySpecifics : oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialEntitySpecifics
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_fleet_credential#credential_level FleetAppsManagementFleetCredential#credential_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet_credential#credential_level FleetAppsManagementFleetCredential#credential_level}.</summary>
         [JsiiProperty(name: "credentialLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialLevel
         {
@@ -17,7 +17,7 @@ namespace oci.FleetAppsManagementFleetCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_fleet_credential#resource_id FleetAppsManagementFleetCredential#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet_credential#resource_id FleetAppsManagementFleetCredential#resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -26,7 +26,7 @@ namespace oci.FleetAppsManagementFleetCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_fleet_credential#target FleetAppsManagementFleetCredential#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet_credential#target FleetAppsManagementFleetCredential#target}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Target
@@ -39,7 +39,7 @@ namespace oci.FleetAppsManagementFleetCredential
 
         /// <summary>variables block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/fleet_apps_management_fleet_credential#variables FleetAppsManagementFleetCredential#variables}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet_credential#variables FleetAppsManagementFleetCredential#variables}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementFleetCredential.IFleetAppsManagementFleetCredentialEntitySpecificsVariables" />)[]</para>
         /// </remarks>
         [JsiiOptional]

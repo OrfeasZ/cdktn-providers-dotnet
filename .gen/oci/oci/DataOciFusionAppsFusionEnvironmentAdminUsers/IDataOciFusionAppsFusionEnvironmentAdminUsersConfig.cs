@@ -7,7 +7,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUsers
     [JsiiInterface(nativeType: typeof(IDataOciFusionAppsFusionEnvironmentAdminUsersConfig), fullyQualifiedName: "oci.dataOciFusionAppsFusionEnvironmentAdminUsers.DataOciFusionAppsFusionEnvironmentAdminUsersConfig")]
     public interface IDataOciFusionAppsFusionEnvironmentAdminUsersConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUsers#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUsers#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         string FusionEnvironmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUsers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#filter DataOciFusionAppsFusionEnvironmentAdminUsers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#filter DataOciFusionAppsFusionEnvironmentAdminUsers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFusionAppsFusionEnvironmentAdminUsers.IDataOciFusionAppsFusionEnvironmentAdminUsersFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFusionAppsFusionEnvironmentAdminUsers.DataOciFusionAppsFusionEnvironmentAdminUsersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#id DataOciFusionAppsFusionEnvironmentAdminUsers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#id DataOciFusionAppsFusionEnvironmentAdminUsers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUsers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUsers#fusion_environment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#fusion_environment_id DataOciFusionAppsFusionEnvironmentAdminUsers#fusion_environment_id}.</summary>
             [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string FusionEnvironmentId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUsers
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#filter DataOciFusionAppsFusionEnvironmentAdminUsers#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#filter DataOciFusionAppsFusionEnvironmentAdminUsers#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFusionAppsFusionEnvironmentAdminUsers.IDataOciFusionAppsFusionEnvironmentAdminUsersFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUsers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#id DataOciFusionAppsFusionEnvironmentAdminUsers#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_admin_users#id DataOciFusionAppsFusionEnvironmentAdminUsers#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

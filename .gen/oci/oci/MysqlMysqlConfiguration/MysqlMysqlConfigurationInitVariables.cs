@@ -7,7 +7,7 @@ namespace oci.MysqlMysqlConfiguration
     [JsiiByValue(fqn: "oci.mysqlMysqlConfiguration.MysqlMysqlConfigurationInitVariables")]
     public class MysqlMysqlConfigurationInitVariables : oci.MysqlMysqlConfiguration.IMysqlMysqlConfigurationInitVariables
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/mysql_mysql_configuration#lower_case_table_names MysqlMysqlConfiguration#lower_case_table_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_configuration#lower_case_table_names MysqlMysqlConfiguration#lower_case_table_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lowerCaseTableNames", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LowerCaseTableNames

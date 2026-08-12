@@ -9,7 +9,7 @@ namespace oci.DataOciOptimizerResourceAction
     [JsiiByValue(fqn: "oci.dataOciOptimizerResourceAction.DataOciOptimizerResourceActionConfig")]
     public class DataOciOptimizerResourceActionConfig : oci.DataOciOptimizerResourceAction.IDataOciOptimizerResourceActionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/optimizer_resource_action#resource_action_id DataOciOptimizerResourceAction#resource_action_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/optimizer_resource_action#resource_action_id DataOciOptimizerResourceAction#resource_action_id}.</summary>
         [JsiiProperty(name: "resourceActionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceActionId
         {
@@ -19,7 +19,7 @@ namespace oci.DataOciOptimizerResourceAction
 
         private object? _includeResourceMetadata;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/optimizer_resource_action#include_resource_metadata DataOciOptimizerResourceAction#include_resource_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/optimizer_resource_action#include_resource_metadata DataOciOptimizerResourceAction#include_resource_metadata}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

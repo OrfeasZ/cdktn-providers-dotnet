@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsAppRole
     [JsiiByValue(fqn: "oci.identityDomainsAppRole.IdentityDomainsAppRoleTags")]
     public class IdentityDomainsAppRoleTags : oci.IdentityDomainsAppRole.IIdentityDomainsAppRoleTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app_role#key IdentityDomainsAppRole#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app_role#key IdentityDomainsAppRole#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/identity_domains_app_role#value IdentityDomainsAppRole#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_app_role#value IdentityDomainsAppRole#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

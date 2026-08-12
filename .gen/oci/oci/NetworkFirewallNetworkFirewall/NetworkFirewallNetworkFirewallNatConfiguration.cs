@@ -11,7 +11,7 @@ namespace oci.NetworkFirewallNetworkFirewall
     {
         private object _mustEnablePrivateNat;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/network_firewall_network_firewall#must_enable_private_nat NetworkFirewallNetworkFirewall#must_enable_private_nat}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/network_firewall_network_firewall#must_enable_private_nat NetworkFirewallNetworkFirewall#must_enable_private_nat}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

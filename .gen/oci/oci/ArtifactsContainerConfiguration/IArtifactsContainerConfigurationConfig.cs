@@ -7,14 +7,14 @@ namespace oci.ArtifactsContainerConfiguration
     [JsiiInterface(nativeType: typeof(IArtifactsContainerConfigurationConfig), fullyQualifiedName: "oci.artifactsContainerConfiguration.ArtifactsContainerConfigurationConfig")]
     public interface IArtifactsContainerConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#compartment_id ArtifactsContainerConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#compartment_id ArtifactsContainerConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#is_repository_created_on_first_push ArtifactsContainerConfiguration#is_repository_created_on_first_push}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#is_repository_created_on_first_push ArtifactsContainerConfiguration#is_repository_created_on_first_push}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.ArtifactsContainerConfiguration
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#id ArtifactsContainerConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#id ArtifactsContainerConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.ArtifactsContainerConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#timeouts ArtifactsContainerConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#timeouts ArtifactsContainerConfiguration#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.artifactsContainerConfiguration.ArtifactsContainerConfigurationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,14 +60,14 @@ namespace oci.ArtifactsContainerConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#compartment_id ArtifactsContainerConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#compartment_id ArtifactsContainerConfiguration#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#is_repository_created_on_first_push ArtifactsContainerConfiguration#is_repository_created_on_first_push}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#is_repository_created_on_first_push ArtifactsContainerConfiguration#is_repository_created_on_first_push}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -77,7 +77,7 @@ namespace oci.ArtifactsContainerConfiguration
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#id ArtifactsContainerConfiguration#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#id ArtifactsContainerConfiguration#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.ArtifactsContainerConfiguration
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/artifacts_container_configuration#timeouts ArtifactsContainerConfiguration#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/artifacts_container_configuration#timeouts ArtifactsContainerConfiguration#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.artifactsContainerConfiguration.ArtifactsContainerConfigurationTimeouts\"}", isOptional: true)]

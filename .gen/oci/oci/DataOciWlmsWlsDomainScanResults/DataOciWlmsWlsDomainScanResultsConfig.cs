@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsWlsDomainScanResults
     [JsiiByValue(fqn: "oci.dataOciWlmsWlsDomainScanResults.DataOciWlmsWlsDomainScanResultsConfig")]
     public class DataOciWlmsWlsDomainScanResultsConfig : oci.DataOciWlmsWlsDomainScanResults.IDataOciWlmsWlsDomainScanResultsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_scan_results#wls_domain_id DataOciWlmsWlsDomainScanResults#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_scan_results#wls_domain_id DataOciWlmsWlsDomainScanResults#wls_domain_id}.</summary>
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string WlsDomainId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWlmsWlsDomainScanResults
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_scan_results#filter DataOciWlmsWlsDomainScanResults#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_scan_results#filter DataOciWlmsWlsDomainScanResults#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainScanResults.IDataOciWlmsWlsDomainScanResultsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciWlmsWlsDomainScanResults
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_scan_results#id DataOciWlmsWlsDomainScanResults#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_scan_results#id DataOciWlmsWlsDomainScanResults#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciWlmsWlsDomainScanResults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/wlms_wls_domain_scan_results#server_name DataOciWlmsWlsDomainScanResults#server_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/wlms_wls_domain_scan_results#server_name DataOciWlmsWlsDomainScanResults#server_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerName

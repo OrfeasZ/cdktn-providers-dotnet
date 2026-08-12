@@ -9,7 +9,7 @@ namespace oci.CoreInstanceConfiguration
     {
         /// <summary>preemption_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_configuration#preemption_action CoreInstanceConfiguration#preemption_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_configuration#preemption_action CoreInstanceConfiguration#preemption_action}
         /// </remarks>
         [JsiiProperty(name: "preemptionAction", typeJson: "{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsPreemptibleInstanceConfigPreemptionAction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace oci.CoreInstanceConfiguration
 
             /// <summary>preemption_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_instance_configuration#preemption_action CoreInstanceConfiguration#preemption_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_configuration#preemption_action CoreInstanceConfiguration#preemption_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preemptionAction", typeJson: "{\"fqn\":\"oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsPreemptibleInstanceConfigPreemptionAction\"}", isOptional: true)]

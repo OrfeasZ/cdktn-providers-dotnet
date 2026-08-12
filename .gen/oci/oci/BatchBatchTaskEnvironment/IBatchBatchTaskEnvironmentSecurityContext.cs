@@ -7,7 +7,7 @@ namespace oci.BatchBatchTaskEnvironment
     [JsiiInterface(nativeType: typeof(IBatchBatchTaskEnvironmentSecurityContext), fullyQualifiedName: "oci.batchBatchTaskEnvironment.BatchBatchTaskEnvironmentSecurityContext")]
     public interface IBatchBatchTaskEnvironmentSecurityContext
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_environment#fs_group BatchBatchTaskEnvironment#fs_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_environment#fs_group BatchBatchTaskEnvironment#fs_group}.</summary>
         [JsiiProperty(name: "fsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? FsGroup
@@ -18,7 +18,7 @@ namespace oci.BatchBatchTaskEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_environment#run_as_group BatchBatchTaskEnvironment#run_as_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_environment#run_as_group BatchBatchTaskEnvironment#run_as_group}.</summary>
         [JsiiProperty(name: "runAsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RunAsGroup
@@ -29,7 +29,7 @@ namespace oci.BatchBatchTaskEnvironment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_environment#run_as_user BatchBatchTaskEnvironment#run_as_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_environment#run_as_user BatchBatchTaskEnvironment#run_as_user}.</summary>
         [JsiiProperty(name: "runAsUser", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RunAsUser
@@ -47,7 +47,7 @@ namespace oci.BatchBatchTaskEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_environment#fs_group BatchBatchTaskEnvironment#fs_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_environment#fs_group BatchBatchTaskEnvironment#fs_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? FsGroup
@@ -55,7 +55,7 @@ namespace oci.BatchBatchTaskEnvironment
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_environment#run_as_group BatchBatchTaskEnvironment#run_as_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_environment#run_as_group BatchBatchTaskEnvironment#run_as_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runAsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RunAsGroup
@@ -63,7 +63,7 @@ namespace oci.BatchBatchTaskEnvironment
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/batch_batch_task_environment#run_as_user BatchBatchTaskEnvironment#run_as_user}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/batch_batch_task_environment#run_as_user BatchBatchTaskEnvironment#run_as_user}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runAsUser", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RunAsUser

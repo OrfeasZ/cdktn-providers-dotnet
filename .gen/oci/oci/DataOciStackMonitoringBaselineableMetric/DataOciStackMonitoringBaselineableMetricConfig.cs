@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringBaselineableMetric
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringBaselineableMetric.DataOciStackMonitoringBaselineableMetricConfig")]
     public class DataOciStackMonitoringBaselineableMetricConfig : oci.DataOciStackMonitoringBaselineableMetric.IDataOciStackMonitoringBaselineableMetricConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/stack_monitoring_baselineable_metric#baselineable_metric_id DataOciStackMonitoringBaselineableMetric#baselineable_metric_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_baselineable_metric#baselineable_metric_id DataOciStackMonitoringBaselineableMetric#baselineable_metric_id}.</summary>
         [JsiiProperty(name: "baselineableMetricId", typeJson: "{\"primitive\":\"string\"}")]
         public string BaselineableMetricId
         {

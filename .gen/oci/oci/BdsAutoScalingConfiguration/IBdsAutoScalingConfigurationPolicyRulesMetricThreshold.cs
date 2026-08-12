@@ -7,21 +7,21 @@ namespace oci.BdsAutoScalingConfiguration
     [JsiiInterface(nativeType: typeof(IBdsAutoScalingConfigurationPolicyRulesMetricThreshold), fullyQualifiedName: "oci.bdsAutoScalingConfiguration.BdsAutoScalingConfigurationPolicyRulesMetricThreshold")]
     public interface IBdsAutoScalingConfigurationPolicyRulesMetricThreshold
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_auto_scaling_configuration#duration_in_minutes BdsAutoScalingConfiguration#duration_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_auto_scaling_configuration#duration_in_minutes BdsAutoScalingConfiguration#duration_in_minutes}.</summary>
         [JsiiProperty(name: "durationInMinutes", typeJson: "{\"primitive\":\"number\"}")]
         double DurationInMinutes
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_auto_scaling_configuration#operator BdsAutoScalingConfiguration#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_auto_scaling_configuration#operator BdsAutoScalingConfiguration#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         string Operator
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_auto_scaling_configuration#value BdsAutoScalingConfiguration#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_auto_scaling_configuration#value BdsAutoScalingConfiguration#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
         double Value
         {
@@ -35,21 +35,21 @@ namespace oci.BdsAutoScalingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_auto_scaling_configuration#duration_in_minutes BdsAutoScalingConfiguration#duration_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_auto_scaling_configuration#duration_in_minutes BdsAutoScalingConfiguration#duration_in_minutes}.</summary>
             [JsiiProperty(name: "durationInMinutes", typeJson: "{\"primitive\":\"number\"}")]
             public double DurationInMinutes
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_auto_scaling_configuration#operator BdsAutoScalingConfiguration#operator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_auto_scaling_configuration#operator BdsAutoScalingConfiguration#operator}.</summary>
             [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
             public string Operator
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_auto_scaling_configuration#value BdsAutoScalingConfiguration#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_auto_scaling_configuration#value BdsAutoScalingConfiguration#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"number\"}")]
             public double Value
             {

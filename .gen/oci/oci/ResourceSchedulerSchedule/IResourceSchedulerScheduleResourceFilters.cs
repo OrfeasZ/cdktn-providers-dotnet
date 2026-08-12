@@ -7,14 +7,14 @@ namespace oci.ResourceSchedulerSchedule
     [JsiiInterface(nativeType: typeof(IResourceSchedulerScheduleResourceFilters), fullyQualifiedName: "oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFilters")]
     public interface IResourceSchedulerScheduleResourceFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}.</summary>
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}")]
         string Attribute
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}.</summary>
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Condition
@@ -25,7 +25,7 @@ namespace oci.ResourceSchedulerSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.ResourceSchedulerSchedule
 
         /// <summary>value block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFiltersValue" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.resourceSchedulerSchedule.ResourceSchedulerScheduleResourceFiltersValue\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -61,14 +61,14 @@ namespace oci.ResourceSchedulerSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#attribute ResourceSchedulerSchedule#attribute}.</summary>
             [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}")]
             public string Attribute
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#condition ResourceSchedulerSchedule#condition}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Condition
@@ -76,7 +76,7 @@ namespace oci.ResourceSchedulerSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#should_include_child_compartments ResourceSchedulerSchedule#should_include_child_compartments}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -89,7 +89,7 @@ namespace oci.ResourceSchedulerSchedule
 
             /// <summary>value block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/resource_scheduler_schedule#value ResourceSchedulerSchedule#value}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ResourceSchedulerSchedule.IResourceSchedulerScheduleResourceFiltersValue" />)[]</para>
             /// </remarks>
             [JsiiOptional]

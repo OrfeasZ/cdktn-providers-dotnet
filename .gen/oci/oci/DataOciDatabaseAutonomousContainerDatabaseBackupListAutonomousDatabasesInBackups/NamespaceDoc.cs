@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseBackupListAutonomousData
     /// <remarks>
     /// <h1><c>data_oci_database_autonomous_container_database_backup_list_autonomous_databases_in_backups</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_container_database_backup_list_autonomous_databases_in_backups"><c>data_oci_database_autonomous_container_database_backup_list_autonomous_databases_in_backups</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_container_database_backup_list_autonomous_databases_in_backups"><c>data_oci_database_autonomous_container_database_backup_list_autonomous_databases_in_backups</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

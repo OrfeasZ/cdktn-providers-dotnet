@@ -9,7 +9,7 @@ namespace oci.DataOciDesktopsDesktop
     [JsiiByValue(fqn: "oci.dataOciDesktopsDesktop.DataOciDesktopsDesktopConfig")]
     public class DataOciDesktopsDesktopConfig : oci.DataOciDesktopsDesktop.IDataOciDesktopsDesktopConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/desktops_desktop#desktop_id DataOciDesktopsDesktop#desktop_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/desktops_desktop#desktop_id DataOciDesktopsDesktop#desktop_id}.</summary>
         [JsiiProperty(name: "desktopId", typeJson: "{\"primitive\":\"string\"}")]
         public string DesktopId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDesktopsDesktop
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/desktops_desktop#id DataOciDesktopsDesktop#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/desktops_desktop#id DataOciDesktopsDesktop#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

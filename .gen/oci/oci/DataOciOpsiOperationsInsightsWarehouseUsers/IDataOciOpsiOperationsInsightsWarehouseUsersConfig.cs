@@ -7,14 +7,14 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
     [JsiiInterface(nativeType: typeof(IDataOciOpsiOperationsInsightsWarehouseUsersConfig), fullyQualifiedName: "oci.dataOciOpsiOperationsInsightsWarehouseUsers.DataOciOpsiOperationsInsightsWarehouseUsersConfig")]
     public interface IDataOciOpsiOperationsInsightsWarehouseUsersConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#operations_insights_warehouse_id DataOciOpsiOperationsInsightsWarehouseUsers#operations_insights_warehouse_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#operations_insights_warehouse_id DataOciOpsiOperationsInsightsWarehouseUsers#operations_insights_warehouse_id}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseId", typeJson: "{\"primitive\":\"string\"}")]
         string OperationsInsightsWarehouseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#compartment_id DataOciOpsiOperationsInsightsWarehouseUsers#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#compartment_id DataOciOpsiOperationsInsightsWarehouseUsers#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -25,7 +25,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#display_name DataOciOpsiOperationsInsightsWarehouseUsers#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#display_name DataOciOpsiOperationsInsightsWarehouseUsers#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#filter DataOciOpsiOperationsInsightsWarehouseUsers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#filter DataOciOpsiOperationsInsightsWarehouseUsers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpsiOperationsInsightsWarehouseUsers.IDataOciOpsiOperationsInsightsWarehouseUsersFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOpsiOperationsInsightsWarehouseUsers.DataOciOpsiOperationsInsightsWarehouseUsersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#id DataOciOpsiOperationsInsightsWarehouseUsers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#id DataOciOpsiOperationsInsightsWarehouseUsers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#state DataOciOpsiOperationsInsightsWarehouseUsers#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#state DataOciOpsiOperationsInsightsWarehouseUsers#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? State
@@ -84,14 +84,14 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#operations_insights_warehouse_id DataOciOpsiOperationsInsightsWarehouseUsers#operations_insights_warehouse_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#operations_insights_warehouse_id DataOciOpsiOperationsInsightsWarehouseUsers#operations_insights_warehouse_id}.</summary>
             [JsiiProperty(name: "operationsInsightsWarehouseId", typeJson: "{\"primitive\":\"string\"}")]
             public string OperationsInsightsWarehouseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#compartment_id DataOciOpsiOperationsInsightsWarehouseUsers#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#compartment_id DataOciOpsiOperationsInsightsWarehouseUsers#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -99,7 +99,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#display_name DataOciOpsiOperationsInsightsWarehouseUsers#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#display_name DataOciOpsiOperationsInsightsWarehouseUsers#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -109,7 +109,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#filter DataOciOpsiOperationsInsightsWarehouseUsers#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#filter DataOciOpsiOperationsInsightsWarehouseUsers#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpsiOperationsInsightsWarehouseUsers.IDataOciOpsiOperationsInsightsWarehouseUsersFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -119,7 +119,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#id DataOciOpsiOperationsInsightsWarehouseUsers#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#id DataOciOpsiOperationsInsightsWarehouseUsers#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,7 +131,7 @@ namespace oci.DataOciOpsiOperationsInsightsWarehouseUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/opsi_operations_insights_warehouse_users#state DataOciOpsiOperationsInsightsWarehouseUsers#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_operations_insights_warehouse_users#state DataOciOpsiOperationsInsightsWarehouseUsers#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? State

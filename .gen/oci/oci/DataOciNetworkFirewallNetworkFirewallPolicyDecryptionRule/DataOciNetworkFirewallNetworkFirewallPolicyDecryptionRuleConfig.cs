@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRuleConfig")]
     public class DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRuleConfig : oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule.IDataOciNetworkFirewallNetworkFirewallPolicyDecryptionRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionRule#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {

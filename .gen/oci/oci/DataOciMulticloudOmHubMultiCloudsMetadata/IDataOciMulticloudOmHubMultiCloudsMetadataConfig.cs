@@ -7,14 +7,14 @@ namespace oci.DataOciMulticloudOmHubMultiCloudsMetadata
     [JsiiInterface(nativeType: typeof(IDataOciMulticloudOmHubMultiCloudsMetadataConfig), fullyQualifiedName: "oci.dataOciMulticloudOmHubMultiCloudsMetadata.DataOciMulticloudOmHubMultiCloudsMetadataConfig")]
     public interface IDataOciMulticloudOmHubMultiCloudsMetadataConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#compartment_id DataOciMulticloudOmHubMultiCloudsMetadata#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#compartment_id DataOciMulticloudOmHubMultiCloudsMetadata#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#id DataOciMulticloudOmHubMultiCloudsMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#id DataOciMulticloudOmHubMultiCloudsMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.DataOciMulticloudOmHubMultiCloudsMetadata
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#limit DataOciMulticloudOmHubMultiCloudsMetadata#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#limit DataOciMulticloudOmHubMultiCloudsMetadata#limit}.</summary>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Limit
@@ -47,14 +47,14 @@ namespace oci.DataOciMulticloudOmHubMultiCloudsMetadata
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#compartment_id DataOciMulticloudOmHubMultiCloudsMetadata#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#compartment_id DataOciMulticloudOmHubMultiCloudsMetadata#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#id DataOciMulticloudOmHubMultiCloudsMetadata#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#id DataOciMulticloudOmHubMultiCloudsMetadata#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciMulticloudOmHubMultiCloudsMetadata
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#limit DataOciMulticloudOmHubMultiCloudsMetadata#limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multi_clouds_metadata#limit DataOciMulticloudOmHubMultiCloudsMetadata#limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Limit

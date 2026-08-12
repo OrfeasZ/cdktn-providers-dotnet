@@ -9,7 +9,7 @@ namespace oci.CoreVolume
     [JsiiByValue(fqn: "oci.coreVolume.CoreVolumeSourceDetails")]
     public class CoreVolumeSourceDetails : oci.CoreVolume.ICoreVolumeSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume#type CoreVolume#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume#type CoreVolume#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.CoreVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume#change_block_size_in_bytes CoreVolume#change_block_size_in_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume#change_block_size_in_bytes CoreVolume#change_block_size_in_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "changeBlockSizeInBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ChangeBlockSizeInBytes
@@ -26,7 +26,7 @@ namespace oci.CoreVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume#first_backup_id CoreVolume#first_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume#first_backup_id CoreVolume#first_backup_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "firstBackupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FirstBackupId
@@ -35,7 +35,7 @@ namespace oci.CoreVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume#id CoreVolume#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume#id CoreVolume#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.CoreVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/core_volume#second_backup_id CoreVolume#second_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_volume#second_backup_id CoreVolume#second_backup_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secondBackupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecondBackupId

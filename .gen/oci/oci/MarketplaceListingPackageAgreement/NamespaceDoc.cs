@@ -5,7 +5,7 @@ namespace oci.MarketplaceListingPackageAgreement
     /// <remarks>
     /// <h1><c>oci_marketplace_listing_package_agreement</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/marketplace_listing_package_agreement"><c>oci_marketplace_listing_package_agreement</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/marketplace_listing_package_agreement"><c>oci_marketplace_listing_package_agreement</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

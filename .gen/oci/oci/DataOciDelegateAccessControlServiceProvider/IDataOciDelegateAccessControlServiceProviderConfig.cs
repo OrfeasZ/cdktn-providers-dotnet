@@ -7,14 +7,14 @@ namespace oci.DataOciDelegateAccessControlServiceProvider
     [JsiiInterface(nativeType: typeof(IDataOciDelegateAccessControlServiceProviderConfig), fullyQualifiedName: "oci.dataOciDelegateAccessControlServiceProvider.DataOciDelegateAccessControlServiceProviderConfig")]
     public interface IDataOciDelegateAccessControlServiceProviderConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/delegate_access_control_service_provider#service_provider_id DataOciDelegateAccessControlServiceProvider#service_provider_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/delegate_access_control_service_provider#service_provider_id DataOciDelegateAccessControlServiceProvider#service_provider_id}.</summary>
         [JsiiProperty(name: "serviceProviderId", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceProviderId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/delegate_access_control_service_provider#id DataOciDelegateAccessControlServiceProvider#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/delegate_access_control_service_provider#id DataOciDelegateAccessControlServiceProvider#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciDelegateAccessControlServiceProvider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/delegate_access_control_service_provider#service_provider_id DataOciDelegateAccessControlServiceProvider#service_provider_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/delegate_access_control_service_provider#service_provider_id DataOciDelegateAccessControlServiceProvider#service_provider_id}.</summary>
             [JsiiProperty(name: "serviceProviderId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceProviderId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/delegate_access_control_service_provider#id DataOciDelegateAccessControlServiceProvider#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/delegate_access_control_service_provider#id DataOciDelegateAccessControlServiceProvider#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

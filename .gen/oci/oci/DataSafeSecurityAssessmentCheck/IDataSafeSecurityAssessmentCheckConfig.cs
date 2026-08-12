@@ -7,14 +7,14 @@ namespace oci.DataSafeSecurityAssessmentCheck
     [JsiiInterface(nativeType: typeof(IDataSafeSecurityAssessmentCheckConfig), fullyQualifiedName: "oci.dataSafeSecurityAssessmentCheck.DataSafeSecurityAssessmentCheckConfig")]
     public interface IDataSafeSecurityAssessmentCheckConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#security_assessment_id DataSafeSecurityAssessmentCheck#security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#security_assessment_id DataSafeSecurityAssessmentCheck#security_assessment_id}.</summary>
         [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityAssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#id DataSafeSecurityAssessmentCheck#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#id DataSafeSecurityAssessmentCheck#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace oci.DataSafeSecurityAssessmentCheck
 
         /// <summary>patch_operations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#patch_operations DataSafeSecurityAssessmentCheck#patch_operations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#patch_operations DataSafeSecurityAssessmentCheck#patch_operations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeSecurityAssessmentCheck.IDataSafeSecurityAssessmentCheckPatchOperations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "patchOperations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeSecurityAssessmentCheck.DataSafeSecurityAssessmentCheckPatchOperations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace oci.DataSafeSecurityAssessmentCheck
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#timeouts DataSafeSecurityAssessmentCheck#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#timeouts DataSafeSecurityAssessmentCheck#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSecurityAssessmentCheck.DataSafeSecurityAssessmentCheckTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,14 +65,14 @@ namespace oci.DataSafeSecurityAssessmentCheck
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#security_assessment_id DataSafeSecurityAssessmentCheck#security_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#security_assessment_id DataSafeSecurityAssessmentCheck#security_assessment_id}.</summary>
             [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityAssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#id DataSafeSecurityAssessmentCheck#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#id DataSafeSecurityAssessmentCheck#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace oci.DataSafeSecurityAssessmentCheck
 
             /// <summary>patch_operations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#patch_operations DataSafeSecurityAssessmentCheck#patch_operations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#patch_operations DataSafeSecurityAssessmentCheck#patch_operations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeSecurityAssessmentCheck.IDataSafeSecurityAssessmentCheckPatchOperations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -98,7 +98,7 @@ namespace oci.DataSafeSecurityAssessmentCheck
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/data_safe_security_assessment_check#timeouts DataSafeSecurityAssessmentCheck#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_assessment_check#timeouts DataSafeSecurityAssessmentCheck#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSecurityAssessmentCheck.DataSafeSecurityAssessmentCheckTimeouts\"}", isOptional: true)]

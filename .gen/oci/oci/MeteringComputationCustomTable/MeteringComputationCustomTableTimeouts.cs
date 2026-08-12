@@ -7,7 +7,7 @@ namespace oci.MeteringComputationCustomTable
     [JsiiByValue(fqn: "oci.meteringComputationCustomTable.MeteringComputationCustomTableTimeouts")]
     public class MeteringComputationCustomTableTimeouts : oci.MeteringComputationCustomTable.IMeteringComputationCustomTableTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/metering_computation_custom_table#create MeteringComputationCustomTable#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/metering_computation_custom_table#create MeteringComputationCustomTable#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.MeteringComputationCustomTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/metering_computation_custom_table#delete MeteringComputationCustomTable#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/metering_computation_custom_table#delete MeteringComputationCustomTable#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.MeteringComputationCustomTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/metering_computation_custom_table#update MeteringComputationCustomTable#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/metering_computation_custom_table#update MeteringComputationCustomTable#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

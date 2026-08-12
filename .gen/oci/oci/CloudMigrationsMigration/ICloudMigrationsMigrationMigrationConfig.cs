@@ -7,7 +7,7 @@ namespace oci.CloudMigrationsMigration
     [JsiiInterface(nativeType: typeof(ICloudMigrationsMigrationMigrationConfig), fullyQualifiedName: "oci.cloudMigrationsMigration.CloudMigrationsMigrationMigrationConfig")]
     public interface ICloudMigrationsMigrationMigrationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_migrations_migration#subnet_id CloudMigrationsMigration#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_migrations_migration#subnet_id CloudMigrationsMigration#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -25,7 +25,7 @@ namespace oci.CloudMigrationsMigration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/cloud_migrations_migration#subnet_id CloudMigrationsMigration#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_migrations_migration#subnet_id CloudMigrationsMigration#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId

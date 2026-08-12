@@ -5,7 +5,7 @@ namespace oci.OcvpSddc
     /// <remarks>
     /// <h1><c>oci_ocvp_sddc</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/ocvp_sddc"><c>oci_ocvp_sddc</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_sddc"><c>oci_ocvp_sddc</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

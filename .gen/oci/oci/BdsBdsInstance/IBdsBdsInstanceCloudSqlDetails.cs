@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstance
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceCloudSqlDetails), fullyQualifiedName: "oci.bdsBdsInstance.BdsBdsInstanceCloudSqlDetails")]
     public interface IBdsBdsInstanceCloudSqlDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         string Shape
         {
@@ -21,7 +21,7 @@ namespace oci.BdsBdsInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
             [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
             public string Shape
             {

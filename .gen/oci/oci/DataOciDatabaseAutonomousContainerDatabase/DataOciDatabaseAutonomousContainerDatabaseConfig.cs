@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabaseConfig")]
     public class DataOciDatabaseAutonomousContainerDatabaseConfig : oci.DataOciDatabaseAutonomousContainerDatabase.IDataOciDatabaseAutonomousContainerDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.26.0/docs/data-sources/database_autonomous_container_database#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabase#autonomous_container_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_autonomous_container_database#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabase#autonomous_container_database_id}.</summary>
         [JsiiProperty(name: "autonomousContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousContainerDatabaseId
         {
