@@ -9,7 +9,7 @@ namespace azurerm.HdinsightSparkCluster
     {
         /// <summary>ambari block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#ambari HdinsightSparkCluster#ambari}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#ambari HdinsightSparkCluster#ambari}
         /// </remarks>
         [JsiiProperty(name: "ambari", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresAmbari\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azurerm.HdinsightSparkCluster
 
         /// <summary>hive block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#hive HdinsightSparkCluster#hive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#hive HdinsightSparkCluster#hive}
         /// </remarks>
         [JsiiProperty(name: "hive", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresHive\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace azurerm.HdinsightSparkCluster
 
         /// <summary>oozie block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#oozie HdinsightSparkCluster#oozie}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#oozie HdinsightSparkCluster#oozie}
         /// </remarks>
         [JsiiProperty(name: "oozie", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOozie\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>ambari block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#ambari HdinsightSparkCluster#ambari}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#ambari HdinsightSparkCluster#ambari}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ambari", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresAmbari\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>hive block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#hive HdinsightSparkCluster#hive}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#hive HdinsightSparkCluster#hive}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hive", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresHive\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>oozie block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#oozie HdinsightSparkCluster#oozie}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#oozie HdinsightSparkCluster#oozie}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oozie", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterMetastoresOozie\"}", isOptional: true)]

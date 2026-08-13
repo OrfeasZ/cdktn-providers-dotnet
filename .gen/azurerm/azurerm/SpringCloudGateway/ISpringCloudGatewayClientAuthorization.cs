@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudGateway
     [JsiiInterface(nativeType: typeof(ISpringCloudGatewayClientAuthorization), fullyQualifiedName: "azurerm.springCloudGateway.SpringCloudGatewayClientAuthorization")]
     public interface ISpringCloudGatewayClientAuthorization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#certificate_ids SpringCloudGateway#certificate_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_gateway#certificate_ids SpringCloudGateway#certificate_ids}.</summary>
         [JsiiProperty(name: "certificateIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? CertificateIds
@@ -18,7 +18,7 @@ namespace azurerm.SpringCloudGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#verification_enabled SpringCloudGateway#verification_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_gateway#verification_enabled SpringCloudGateway#verification_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace azurerm.SpringCloudGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#certificate_ids SpringCloudGateway#certificate_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_gateway#certificate_ids SpringCloudGateway#certificate_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificateIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? CertificateIds
@@ -47,7 +47,7 @@ namespace azurerm.SpringCloudGateway
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_gateway#verification_enabled SpringCloudGateway#verification_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_gateway#verification_enabled SpringCloudGateway#verification_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

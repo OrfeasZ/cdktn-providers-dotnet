@@ -7,7 +7,7 @@ namespace azurerm.NatGatewayPublicIpAssociation
     [JsiiByValue(fqn: "azurerm.natGatewayPublicIpAssociation.NatGatewayPublicIpAssociationTimeouts")]
     public class NatGatewayPublicIpAssociationTimeouts : azurerm.NatGatewayPublicIpAssociation.INatGatewayPublicIpAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nat_gateway_public_ip_association#create NatGatewayPublicIpAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nat_gateway_public_ip_association#create NatGatewayPublicIpAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.NatGatewayPublicIpAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nat_gateway_public_ip_association#delete NatGatewayPublicIpAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nat_gateway_public_ip_association#delete NatGatewayPublicIpAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.NatGatewayPublicIpAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/nat_gateway_public_ip_association#read NatGatewayPublicIpAssociation#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nat_gateway_public_ip_association#read NatGatewayPublicIpAssociation#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

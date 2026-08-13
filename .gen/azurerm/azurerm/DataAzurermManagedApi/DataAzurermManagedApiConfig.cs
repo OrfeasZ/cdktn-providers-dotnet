@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermManagedApi
     [JsiiByValue(fqn: "azurerm.dataAzurermManagedApi.DataAzurermManagedApiConfig")]
     public class DataAzurermManagedApiConfig : azurerm.DataAzurermManagedApi.IDataAzurermManagedApiConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_api#location DataAzurermManagedApi#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/managed_api#location DataAzurermManagedApi#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermManagedApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_api#name DataAzurermManagedApi#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/managed_api#name DataAzurermManagedApi#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermManagedApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_api#id DataAzurermManagedApi#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/managed_api#id DataAzurermManagedApi#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermManagedApi
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/managed_api#timeouts DataAzurermManagedApi#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/managed_api#timeouts DataAzurermManagedApi#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermManagedApi.DataAzurermManagedApiTimeouts\"}", isOptional: true)]

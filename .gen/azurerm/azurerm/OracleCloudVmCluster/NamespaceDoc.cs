@@ -5,7 +5,7 @@ namespace azurerm.OracleCloudVmCluster
     /// <remarks>
     /// <h1><c>azurerm_oracle_cloud_vm_cluster</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/oracle_cloud_vm_cluster"><c>azurerm_oracle_cloud_vm_cluster</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/oracle_cloud_vm_cluster"><c>azurerm_oracle_cloud_vm_cluster</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

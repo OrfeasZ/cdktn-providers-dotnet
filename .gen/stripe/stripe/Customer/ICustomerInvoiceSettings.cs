@@ -7,11 +7,12 @@ namespace stripe.Customer
     [JsiiInterface(nativeType: typeof(ICustomerInvoiceSettings), fullyQualifiedName: "stripe.customer.CustomerInvoiceSettings")]
     public interface ICustomerInvoiceSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#custom_fields Customer#custom_fields}.</summary>
+        /// <summary>Default custom fields to be displayed on invoices for this customer.</summary>
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#custom_fields Customer#custom_fields}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerInvoiceSettingsCustomFields" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "customFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "customFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         object? CustomFields
         {
@@ -23,7 +24,7 @@ namespace stripe.Customer
 
         /// <summary>ID of a payment method that's attached to the customer, to be used as the customer's default payment method for subscriptions and invoices.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#default_payment_method Customer#default_payment_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#default_payment_method Customer#default_payment_method}
         /// </remarks>
         [JsiiProperty(name: "defaultPaymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +38,7 @@ namespace stripe.Customer
 
         /// <summary>Default footer to be displayed on invoices for this customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#footer Customer#footer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#footer Customer#footer}
         /// </remarks>
         [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,11 +52,12 @@ namespace stripe.Customer
 
         /// <summary>rendering_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#rendering_options Customer#rendering_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#rendering_options Customer#rendering_options}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerInvoiceSettingsRenderingOptions" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "renderingOptions", typeJson: "{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsRenderingOptions\"}", isOptional: true)]
+        [JsiiProperty(name: "renderingOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsRenderingOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.Customer.ICustomerInvoiceSettingsRenderingOptions? RenderingOptions
+        object? RenderingOptions
         {
             get
             {
@@ -70,12 +72,13 @@ namespace stripe.Customer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#custom_fields Customer#custom_fields}.</summary>
+            /// <summary>Default custom fields to be displayed on invoices for this customer.</summary>
             /// <remarks>
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#custom_fields Customer#custom_fields}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerInvoiceSettingsCustomFields" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "customFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
+            [JsiiProperty(name: "customFields", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
             public object? CustomFields
             {
                 get => GetInstanceProperty<object?>();
@@ -83,7 +86,7 @@ namespace stripe.Customer
 
             /// <summary>ID of a payment method that's attached to the customer, to be used as the customer's default payment method for subscriptions and invoices.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#default_payment_method Customer#default_payment_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#default_payment_method Customer#default_payment_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultPaymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +97,7 @@ namespace stripe.Customer
 
             /// <summary>Default footer to be displayed on invoices for this customer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#footer Customer#footer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#footer Customer#footer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,13 +108,14 @@ namespace stripe.Customer
 
             /// <summary>rendering_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#rendering_options Customer#rendering_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#rendering_options Customer#rendering_options}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerInvoiceSettingsRenderingOptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "renderingOptions", typeJson: "{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsRenderingOptions\"}", isOptional: true)]
-            public stripe.Customer.ICustomerInvoiceSettingsRenderingOptions? RenderingOptions
+            [JsiiProperty(name: "renderingOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsRenderingOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? RenderingOptions
             {
-                get => GetInstanceProperty<stripe.Customer.ICustomerInvoiceSettingsRenderingOptions?>();
+                get => GetInstanceProperty<object?>();
             }
         }
     }

@@ -9,7 +9,7 @@ namespace azurerm.DataProtectionBackupPolicyPostgresqlFlexibleServer
     [JsiiByValue(fqn: "azurerm.dataProtectionBackupPolicyPostgresqlFlexibleServer.DataProtectionBackupPolicyPostgresqlFlexibleServerRetentionRuleLifeCycle")]
     public class DataProtectionBackupPolicyPostgresqlFlexibleServerRetentionRuleLifeCycle : azurerm.DataProtectionBackupPolicyPostgresqlFlexibleServer.IDataProtectionBackupPolicyPostgresqlFlexibleServerRetentionRuleLifeCycle
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_policy_postgresql_flexible_server#data_store_type DataProtectionBackupPolicyPostgresqlFlexibleServer#data_store_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server#data_store_type DataProtectionBackupPolicyPostgresqlFlexibleServer#data_store_type}.</summary>
         [JsiiProperty(name: "dataStoreType", typeJson: "{\"primitive\":\"string\"}")]
         public string DataStoreType
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataProtectionBackupPolicyPostgresqlFlexibleServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_protection_backup_policy_postgresql_flexible_server#duration DataProtectionBackupPolicyPostgresqlFlexibleServer#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server#duration DataProtectionBackupPolicyPostgresqlFlexibleServer#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}")]
         public string Duration
         {

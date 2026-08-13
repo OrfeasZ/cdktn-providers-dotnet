@@ -7,7 +7,7 @@ namespace azurerm.VirtualHubConnection
     [JsiiByValue(fqn: "azurerm.virtualHubConnection.VirtualHubConnectionRoutingStaticVnetRoute")]
     public class VirtualHubConnectionRoutingStaticVnetRoute : azurerm.VirtualHubConnection.IVirtualHubConnectionRoutingStaticVnetRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_connection#address_prefixes VirtualHubConnection#address_prefixes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_hub_connection#address_prefixes VirtualHubConnection#address_prefixes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addressPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AddressPrefixes
@@ -16,7 +16,7 @@ namespace azurerm.VirtualHubConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_connection#name VirtualHubConnection#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_hub_connection#name VirtualHubConnection#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -25,7 +25,7 @@ namespace azurerm.VirtualHubConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_hub_connection#next_hop_ip_address VirtualHubConnection#next_hop_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_hub_connection#next_hop_ip_address VirtualHubConnection#next_hop_ip_address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nextHopIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NextHopIpAddress

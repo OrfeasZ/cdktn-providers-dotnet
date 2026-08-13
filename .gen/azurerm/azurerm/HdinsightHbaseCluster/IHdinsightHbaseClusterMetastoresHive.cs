@@ -7,28 +7,28 @@ namespace azurerm.HdinsightHbaseCluster
     [JsiiInterface(nativeType: typeof(IHdinsightHbaseClusterMetastoresHive), fullyQualifiedName: "azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterMetastoresHive")]
     public interface IHdinsightHbaseClusterMetastoresHive
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#database_name HdinsightHbaseCluster#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#database_name HdinsightHbaseCluster#database_name}.</summary>
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#password HdinsightHbaseCluster#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#password HdinsightHbaseCluster#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#server HdinsightHbaseCluster#server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#server HdinsightHbaseCluster#server}.</summary>
         [JsiiProperty(name: "server", typeJson: "{\"primitive\":\"string\"}")]
         string Server
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#username HdinsightHbaseCluster#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#username HdinsightHbaseCluster#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
         {
@@ -42,28 +42,28 @@ namespace azurerm.HdinsightHbaseCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#database_name HdinsightHbaseCluster#database_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#database_name HdinsightHbaseCluster#database_name}.</summary>
             [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#password HdinsightHbaseCluster#password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#password HdinsightHbaseCluster#password}.</summary>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#server HdinsightHbaseCluster#server}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#server HdinsightHbaseCluster#server}.</summary>
             [JsiiProperty(name: "server", typeJson: "{\"primitive\":\"string\"}")]
             public string Server
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hbase_cluster#username HdinsightHbaseCluster#username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hbase_cluster#username HdinsightHbaseCluster#username}.</summary>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username
             {

@@ -11,7 +11,7 @@ namespace azurerm.WindowsFunctionAppSlot
     {
         /// <summary>The name which should be used for this Backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app_slot#name WindowsFunctionAppSlot#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app_slot#name WindowsFunctionAppSlot#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app_slot#schedule WindowsFunctionAppSlot#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app_slot#schedule WindowsFunctionAppSlot#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.windowsFunctionAppSlot.WindowsFunctionAppSlotBackupSchedule\"}")]
         public azurerm.WindowsFunctionAppSlot.IWindowsFunctionAppSlotBackupSchedule Schedule
@@ -33,7 +33,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>The SAS URL to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app_slot#storage_account_url WindowsFunctionAppSlot#storage_account_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app_slot#storage_account_url WindowsFunctionAppSlot#storage_account_url}
         /// </remarks>
         [JsiiProperty(name: "storageAccountUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountUrl
@@ -46,7 +46,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>Should this backup job be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app_slot#enabled WindowsFunctionAppSlot#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app_slot#enabled WindowsFunctionAppSlot#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

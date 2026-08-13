@@ -9,7 +9,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
     [JsiiByValue(fqn: "azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignmentResourceSelectorsSelectors")]
     public class ManagementGroupPolicyAssignmentResourceSelectorsSelectors : azurerm.ManagementGroupPolicyAssignment.IManagementGroupPolicyAssignmentResourceSelectorsSelectors
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_assignment#kind ManagementGroupPolicyAssignment#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_policy_assignment#kind ManagementGroupPolicyAssignment#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_assignment#in ManagementGroupPolicyAssignment#in}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_policy_assignment#in ManagementGroupPolicyAssignment#in}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "in", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? In
@@ -26,7 +26,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_assignment#not_in ManagementGroupPolicyAssignment#not_in}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_policy_assignment#not_in ManagementGroupPolicyAssignment#not_in}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notIn", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NotIn

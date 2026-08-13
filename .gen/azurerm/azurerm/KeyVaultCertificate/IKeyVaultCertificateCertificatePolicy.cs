@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultCertificate
     {
         /// <summary>issuer_parameters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#issuer_parameters KeyVaultCertificate#issuer_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#issuer_parameters KeyVaultCertificate#issuer_parameters}
         /// </remarks>
         [JsiiProperty(name: "issuerParameters", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyIssuerParameters\"}")]
         azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyIssuerParameters IssuerParameters
@@ -19,7 +19,7 @@ namespace azurerm.KeyVaultCertificate
 
         /// <summary>key_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#key_properties KeyVaultCertificate#key_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#key_properties KeyVaultCertificate#key_properties}
         /// </remarks>
         [JsiiProperty(name: "keyProperties", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyKeyProperties\"}")]
         azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyKeyProperties KeyProperties
@@ -29,7 +29,7 @@ namespace azurerm.KeyVaultCertificate
 
         /// <summary>secret_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#secret_properties KeyVaultCertificate#secret_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#secret_properties KeyVaultCertificate#secret_properties}
         /// </remarks>
         [JsiiProperty(name: "secretProperties", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicySecretProperties\"}")]
         azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicySecretProperties SecretProperties
@@ -39,7 +39,7 @@ namespace azurerm.KeyVaultCertificate
 
         /// <summary>lifetime_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#lifetime_action KeyVaultCertificate#lifetime_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#lifetime_action KeyVaultCertificate#lifetime_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeAction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "lifetimeAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace azurerm.KeyVaultCertificate
 
         /// <summary>x509_certificate_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#x509_certificate_properties KeyVaultCertificate#x509_certificate_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#x509_certificate_properties KeyVaultCertificate#x509_certificate_properties}
         /// </remarks>
         [JsiiProperty(name: "x509CertificateProperties", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificateProperties\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace azurerm.KeyVaultCertificate
 
             /// <summary>issuer_parameters block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#issuer_parameters KeyVaultCertificate#issuer_parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#issuer_parameters KeyVaultCertificate#issuer_parameters}
             /// </remarks>
             [JsiiProperty(name: "issuerParameters", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyIssuerParameters\"}")]
             public azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyIssuerParameters IssuerParameters
@@ -85,7 +85,7 @@ namespace azurerm.KeyVaultCertificate
 
             /// <summary>key_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#key_properties KeyVaultCertificate#key_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#key_properties KeyVaultCertificate#key_properties}
             /// </remarks>
             [JsiiProperty(name: "keyProperties", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyKeyProperties\"}")]
             public azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyKeyProperties KeyProperties
@@ -95,7 +95,7 @@ namespace azurerm.KeyVaultCertificate
 
             /// <summary>secret_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#secret_properties KeyVaultCertificate#secret_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#secret_properties KeyVaultCertificate#secret_properties}
             /// </remarks>
             [JsiiProperty(name: "secretProperties", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicySecretProperties\"}")]
             public azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicySecretProperties SecretProperties
@@ -105,7 +105,7 @@ namespace azurerm.KeyVaultCertificate
 
             /// <summary>lifetime_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#lifetime_action KeyVaultCertificate#lifetime_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#lifetime_action KeyVaultCertificate#lifetime_action}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeAction" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -117,7 +117,7 @@ namespace azurerm.KeyVaultCertificate
 
             /// <summary>x509_certificate_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#x509_certificate_properties KeyVaultCertificate#x509_certificate_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#x509_certificate_properties KeyVaultCertificate#x509_certificate_properties}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "x509CertificateProperties", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyX509CertificateProperties\"}", isOptional: true)]

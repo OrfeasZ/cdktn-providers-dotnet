@@ -7,19 +7,9 @@ namespace stripe.BillingMeter
     [JsiiInterface(nativeType: typeof(IBillingMeterConfig), fullyQualifiedName: "stripe.billingMeter.BillingMeterConfig")]
     public interface IBillingMeterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>default_aggregation block.</summary>
+        /// <summary>The meter's name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
-        /// </remarks>
-        [JsiiProperty(name: "defaultAggregation", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"}")]
-        stripe.BillingMeter.IBillingMeterDefaultAggregation DefaultAggregation
-        {
-            get;
-        }
-
-        /// <summary>The meter’s name. Not visible to the customer.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#display_name BillingMeter#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#display_name BillingMeter#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
@@ -29,7 +19,7 @@ namespace stripe.BillingMeter
 
         /// <summary>The name of the meter event to record usage for. Corresponds with the `event_name` field on meter events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_name BillingMeter#event_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#event_name BillingMeter#event_name}
         /// </remarks>
         [JsiiProperty(name: "eventName", typeJson: "{\"primitive\":\"string\"}")]
         string EventName
@@ -39,11 +29,12 @@ namespace stripe.BillingMeter
 
         /// <summary>customer_mapping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterCustomerMapping" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "customerMapping", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"}", isOptional: true)]
+        [JsiiProperty(name: "customerMapping", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.BillingMeter.IBillingMeterCustomerMapping? CustomerMapping
+        object? CustomerMapping
         {
             get
             {
@@ -51,15 +42,14 @@ namespace stripe.BillingMeter
             }
         }
 
-        /// <summary>Set of keys that will be used to group meter events by.</summary>
+        /// <summary>default_aggregation block.</summary>
         /// <remarks>
-        /// Each key must be present in the event payload.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#dimension_payload_keys BillingMeter#dimension_payload_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterDefaultAggregation" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "dimensionPayloadKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [JsiiProperty(name: "defaultAggregation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string[]? DimensionPayloadKeys
+        object? DefaultAggregation
         {
             get
             {
@@ -69,7 +59,7 @@ namespace stripe.BillingMeter
 
         /// <summary>The time window which meter events have been pre-aggregated for, if any.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
         /// </remarks>
         [JsiiProperty(name: "eventTimeWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,11 +73,12 @@ namespace stripe.BillingMeter
 
         /// <summary>value_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterValueSettings" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "valueSettings", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"}", isOptional: true)]
+        [JsiiProperty(name: "valueSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.BillingMeter.IBillingMeterValueSettings? ValueSettings
+        object? ValueSettings
         {
             get
             {
@@ -102,19 +93,9 @@ namespace stripe.BillingMeter
             {
             }
 
-            /// <summary>default_aggregation block.</summary>
+            /// <summary>The meter's name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
-            /// </remarks>
-            [JsiiProperty(name: "defaultAggregation", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"}")]
-            public stripe.BillingMeter.IBillingMeterDefaultAggregation DefaultAggregation
-            {
-                get => GetInstanceProperty<stripe.BillingMeter.IBillingMeterDefaultAggregation>()!;
-            }
-
-            /// <summary>The meter’s name. Not visible to the customer.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#display_name BillingMeter#display_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#display_name BillingMeter#display_name}
             /// </remarks>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
@@ -124,7 +105,7 @@ namespace stripe.BillingMeter
 
             /// <summary>The name of the meter event to record usage for. Corresponds with the `event_name` field on meter events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_name BillingMeter#event_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#event_name BillingMeter#event_name}
             /// </remarks>
             [JsiiProperty(name: "eventName", typeJson: "{\"primitive\":\"string\"}")]
             public string EventName
@@ -134,31 +115,31 @@ namespace stripe.BillingMeter
 
             /// <summary>customer_mapping block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterCustomerMapping" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "customerMapping", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"}", isOptional: true)]
-            public stripe.BillingMeter.IBillingMeterCustomerMapping? CustomerMapping
+            [JsiiProperty(name: "customerMapping", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? CustomerMapping
             {
-                get => GetInstanceProperty<stripe.BillingMeter.IBillingMeterCustomerMapping?>();
+                get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Set of keys that will be used to group meter events by.</summary>
+            /// <summary>default_aggregation block.</summary>
             /// <remarks>
-            /// Each key must be present in the event payload.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#dimension_payload_keys BillingMeter#dimension_payload_keys}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterDefaultAggregation" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "dimensionPayloadKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-            public string[]? DimensionPayloadKeys
+            [JsiiProperty(name: "defaultAggregation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? DefaultAggregation
             {
-                get => GetInstanceProperty<string[]?>();
+                get => GetInstanceProperty<object?>();
             }
 
             /// <summary>The time window which meter events have been pre-aggregated for, if any.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "eventTimeWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -169,13 +150,14 @@ namespace stripe.BillingMeter
 
             /// <summary>value_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterValueSettings" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "valueSettings", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"}", isOptional: true)]
-            public stripe.BillingMeter.IBillingMeterValueSettings? ValueSettings
+            [JsiiProperty(name: "valueSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? ValueSettings
             {
-                get => GetInstanceProperty<stripe.BillingMeter.IBillingMeterValueSettings?>();
+                get => GetInstanceProperty<object?>();
             }
 
             /// <remarks>

@@ -9,7 +9,7 @@ namespace azurerm.VpnServerConfiguration
     [JsiiByValue(fqn: "azurerm.vpnServerConfiguration.VpnServerConfigurationAzureActiveDirectoryAuthentication")]
     public class VpnServerConfigurationAzureActiveDirectoryAuthentication : azurerm.VpnServerConfiguration.IVpnServerConfigurationAzureActiveDirectoryAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#audience VpnServerConfiguration#audience}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#audience VpnServerConfiguration#audience}.</summary>
         [JsiiProperty(name: "audience", typeJson: "{\"primitive\":\"string\"}")]
         public string Audience
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#issuer VpnServerConfiguration#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#issuer VpnServerConfiguration#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         public string Issuer
         {
@@ -25,7 +25,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#tenant VpnServerConfiguration#tenant}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#tenant VpnServerConfiguration#tenant}.</summary>
         [JsiiProperty(name: "tenant", typeJson: "{\"primitive\":\"string\"}")]
         public string Tenant
         {

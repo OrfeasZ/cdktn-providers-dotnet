@@ -9,9 +9,7 @@ namespace stripe.Customer
     {
         /// <summary>How line-item prices and amounts will be displayed with respect to tax on invoice PDFs.</summary>
         /// <remarks>
-        /// One of <c>exclude_tax</c> or <c>include_inclusive_tax</c>. <c>include_inclusive_tax</c> will include inclusive tax (and exclude exclusive tax) in invoice PDF amounts. <c>exclude_tax</c> will exclude all tax (inclusive and exclusive alike) from invoice PDF amounts.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#amount_tax_display Customer#amount_tax_display}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#amount_tax_display Customer#amount_tax_display}
         /// </remarks>
         [JsiiProperty(name: "amountTaxDisplay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,9 +21,11 @@ namespace stripe.Customer
             }
         }
 
-        /// <summary>ID of the invoice rendering template to use for future invoices.</summary>
+        /// <summary>ID of the invoice rendering template to be used for this customer's invoices.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#template Customer#template}
+        /// If set, the template will be used on all invoices for this customer unless a template is set directly on the invoice.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#template Customer#template}
         /// </remarks>
         [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,9 +46,7 @@ namespace stripe.Customer
 
             /// <summary>How line-item prices and amounts will be displayed with respect to tax on invoice PDFs.</summary>
             /// <remarks>
-            /// One of <c>exclude_tax</c> or <c>include_inclusive_tax</c>. <c>include_inclusive_tax</c> will include inclusive tax (and exclude exclusive tax) in invoice PDF amounts. <c>exclude_tax</c> will exclude all tax (inclusive and exclusive alike) from invoice PDF amounts.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#amount_tax_display Customer#amount_tax_display}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#amount_tax_display Customer#amount_tax_display}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amountTaxDisplay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,9 +55,11 @@ namespace stripe.Customer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>ID of the invoice rendering template to use for future invoices.</summary>
+            /// <summary>ID of the invoice rendering template to be used for this customer's invoices.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#template Customer#template}
+            /// If set, the template will be used on all invoices for this customer unless a template is set directly on the invoice.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#template Customer#template}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

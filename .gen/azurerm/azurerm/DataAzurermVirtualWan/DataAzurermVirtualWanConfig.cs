@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermVirtualWan
     [JsiiByValue(fqn: "azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanConfig")]
     public class DataAzurermVirtualWanConfig : azurerm.DataAzurermVirtualWan.IDataAzurermVirtualWanConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_wan#name DataAzurermVirtualWan#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/virtual_wan#name DataAzurermVirtualWan#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermVirtualWan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_wan#resource_group_name DataAzurermVirtualWan#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/virtual_wan#resource_group_name DataAzurermVirtualWan#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermVirtualWan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_wan#id DataAzurermVirtualWan#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/virtual_wan#id DataAzurermVirtualWan#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermVirtualWan
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/virtual_wan#timeouts DataAzurermVirtualWan#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/virtual_wan#timeouts DataAzurermVirtualWan#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanTimeouts\"}", isOptional: true)]

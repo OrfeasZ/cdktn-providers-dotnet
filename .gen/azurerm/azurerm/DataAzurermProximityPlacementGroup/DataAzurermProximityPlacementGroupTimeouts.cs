@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermProximityPlacementGroup
     [JsiiByValue(fqn: "azurerm.dataAzurermProximityPlacementGroup.DataAzurermProximityPlacementGroupTimeouts")]
     public class DataAzurermProximityPlacementGroupTimeouts : azurerm.DataAzurermProximityPlacementGroup.IDataAzurermProximityPlacementGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/proximity_placement_group#read DataAzurermProximityPlacementGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/proximity_placement_group#read DataAzurermProximityPlacementGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

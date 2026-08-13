@@ -9,7 +9,7 @@ namespace azurerm.LogAnalyticsSolution
     [JsiiByValue(fqn: "azurerm.logAnalyticsSolution.LogAnalyticsSolutionConfig")]
     public class LogAnalyticsSolutionConfig : azurerm.LogAnalyticsSolution.ILogAnalyticsSolutionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#location LogAnalyticsSolution#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#location LogAnalyticsSolution#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -19,7 +19,7 @@ namespace azurerm.LogAnalyticsSolution
 
         /// <summary>plan block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#plan LogAnalyticsSolution#plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#plan LogAnalyticsSolution#plan}
         /// </remarks>
         [JsiiProperty(name: "plan", typeJson: "{\"fqn\":\"azurerm.logAnalyticsSolution.LogAnalyticsSolutionPlan\"}")]
         public azurerm.LogAnalyticsSolution.ILogAnalyticsSolutionPlan Plan
@@ -28,7 +28,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#resource_group_name LogAnalyticsSolution#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#resource_group_name LogAnalyticsSolution#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -36,7 +36,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#solution_name LogAnalyticsSolution#solution_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#solution_name LogAnalyticsSolution#solution_name}.</summary>
         [JsiiProperty(name: "solutionName", typeJson: "{\"primitive\":\"string\"}")]
         public string SolutionName
         {
@@ -44,7 +44,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#workspace_name LogAnalyticsSolution#workspace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#workspace_name LogAnalyticsSolution#workspace_name}.</summary>
         [JsiiProperty(name: "workspaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceName
         {
@@ -52,7 +52,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#workspace_resource_id LogAnalyticsSolution#workspace_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#workspace_resource_id LogAnalyticsSolution#workspace_resource_id}.</summary>
         [JsiiProperty(name: "workspaceResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceResourceId
         {
@@ -60,7 +60,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#id LogAnalyticsSolution#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#id LogAnalyticsSolution#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#tags LogAnalyticsSolution#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#tags LogAnalyticsSolution#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -84,7 +84,7 @@ namespace azurerm.LogAnalyticsSolution
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#timeouts LogAnalyticsSolution#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#timeouts LogAnalyticsSolution#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.logAnalyticsSolution.LogAnalyticsSolutionTimeouts\"}", isOptional: true)]

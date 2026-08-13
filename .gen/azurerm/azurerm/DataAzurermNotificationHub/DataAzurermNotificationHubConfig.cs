@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermNotificationHub
     [JsiiByValue(fqn: "azurerm.dataAzurermNotificationHub.DataAzurermNotificationHubConfig")]
     public class DataAzurermNotificationHubConfig : azurerm.DataAzurermNotificationHub.IDataAzurermNotificationHubConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/notification_hub#name DataAzurermNotificationHub#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/notification_hub#name DataAzurermNotificationHub#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermNotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/notification_hub#namespace_name DataAzurermNotificationHub#namespace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/notification_hub#namespace_name DataAzurermNotificationHub#namespace_name}.</summary>
         [JsiiProperty(name: "namespaceName", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceName
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermNotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/notification_hub#resource_group_name DataAzurermNotificationHub#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/notification_hub#resource_group_name DataAzurermNotificationHub#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.DataAzurermNotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/notification_hub#id DataAzurermNotificationHub#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/notification_hub#id DataAzurermNotificationHub#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace azurerm.DataAzurermNotificationHub
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/notification_hub#timeouts DataAzurermNotificationHub#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/notification_hub#timeouts DataAzurermNotificationHub#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermNotificationHub.DataAzurermNotificationHubTimeouts\"}", isOptional: true)]

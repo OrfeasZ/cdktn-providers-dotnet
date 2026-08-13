@@ -7,7 +7,7 @@ namespace azurerm.ResourceGroupCostManagementView
     [JsiiInterface(nativeType: typeof(IResourceGroupCostManagementViewKpi), fullyQualifiedName: "azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewKpi")]
     public interface IResourceGroupCostManagementViewKpi
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_group_cost_management_view#type ResourceGroupCostManagementView#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_group_cost_management_view#type ResourceGroupCostManagementView#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.ResourceGroupCostManagementView
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_group_cost_management_view#type ResourceGroupCostManagementView#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_group_cost_management_view#type ResourceGroupCostManagementView#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

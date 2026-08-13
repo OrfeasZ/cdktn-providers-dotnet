@@ -9,7 +9,7 @@ namespace azurerm.WebPubsubCustomCertificate
     [JsiiByValue(fqn: "azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateConfig")]
     public class WebPubsubCustomCertificateConfig : azurerm.WebPubsubCustomCertificate.IWebPubsubCustomCertificateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_custom_certificate#custom_certificate_id WebPubsubCustomCertificate#custom_certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_custom_certificate#custom_certificate_id WebPubsubCustomCertificate#custom_certificate_id}.</summary>
         [JsiiProperty(name: "customCertificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomCertificateId
         {
@@ -17,7 +17,7 @@ namespace azurerm.WebPubsubCustomCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_custom_certificate#name WebPubsubCustomCertificate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_custom_certificate#name WebPubsubCustomCertificate#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.WebPubsubCustomCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_custom_certificate#web_pubsub_id WebPubsubCustomCertificate#web_pubsub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_custom_certificate#web_pubsub_id WebPubsubCustomCertificate#web_pubsub_id}.</summary>
         [JsiiProperty(name: "webPubsubId", typeJson: "{\"primitive\":\"string\"}")]
         public string WebPubsubId
         {
@@ -33,7 +33,7 @@ namespace azurerm.WebPubsubCustomCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_custom_certificate#id WebPubsubCustomCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_custom_certificate#id WebPubsubCustomCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace azurerm.WebPubsubCustomCertificate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_custom_certificate#timeouts WebPubsubCustomCertificate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_custom_certificate#timeouts WebPubsubCustomCertificate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.webPubsubCustomCertificate.WebPubsubCustomCertificateTimeouts\"}", isOptional: true)]

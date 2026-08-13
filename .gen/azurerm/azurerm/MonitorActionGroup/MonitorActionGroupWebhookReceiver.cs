@@ -9,7 +9,7 @@ namespace azurerm.MonitorActionGroup
     [JsiiByValue(fqn: "azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiver")]
     public class MonitorActionGroupWebhookReceiver : azurerm.MonitorActionGroup.IMonitorActionGroupWebhookReceiver
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#service_uri MonitorActionGroup#service_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#service_uri MonitorActionGroup#service_uri}.</summary>
         [JsiiProperty(name: "serviceUri", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceUri
         {
@@ -27,7 +27,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>aad_auth block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#aad_auth MonitorActionGroup#aad_auth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#aad_auth MonitorActionGroup#aad_auth}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aadAuth", typeJson: "{\"fqn\":\"azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverAadAuth\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace azurerm.MonitorActionGroup
 
         private object? _useCommonAlertSchema;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

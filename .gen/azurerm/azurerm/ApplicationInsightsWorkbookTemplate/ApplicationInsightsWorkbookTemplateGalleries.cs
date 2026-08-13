@@ -9,7 +9,7 @@ namespace azurerm.ApplicationInsightsWorkbookTemplate
     [JsiiByValue(fqn: "azurerm.applicationInsightsWorkbookTemplate.ApplicationInsightsWorkbookTemplateGalleries")]
     public class ApplicationInsightsWorkbookTemplateGalleries : azurerm.ApplicationInsightsWorkbookTemplate.IApplicationInsightsWorkbookTemplateGalleries
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook_template#category ApplicationInsightsWorkbookTemplate#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook_template#category ApplicationInsightsWorkbookTemplate#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         public string Category
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApplicationInsightsWorkbookTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook_template#name ApplicationInsightsWorkbookTemplate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook_template#name ApplicationInsightsWorkbookTemplate#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApplicationInsightsWorkbookTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook_template#order ApplicationInsightsWorkbookTemplate#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook_template#order ApplicationInsightsWorkbookTemplate#order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Order
@@ -34,7 +34,7 @@ namespace azurerm.ApplicationInsightsWorkbookTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook_template#resource_type ApplicationInsightsWorkbookTemplate#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook_template#resource_type ApplicationInsightsWorkbookTemplate#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -43,7 +43,7 @@ namespace azurerm.ApplicationInsightsWorkbookTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook_template#type ApplicationInsightsWorkbookTemplate#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook_template#type ApplicationInsightsWorkbookTemplate#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

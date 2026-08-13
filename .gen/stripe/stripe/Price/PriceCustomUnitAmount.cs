@@ -4,12 +4,48 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.Price
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "stripe.price.PriceCustomUnitAmount")]
     public class PriceCustomUnitAmount : stripe.Price.IPriceCustomUnitAmount
     {
+        private object _enabled;
+
+        /// <summary>Pass in `true` to enable `custom_unit_amount`, otherwise omit `custom_unit_amount`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#enabled Price#enabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public object Enabled
+        {
+            get => _enabled;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _enabled = value;
+            }
+        }
+
         /// <summary>The maximum unit amount the customer can specify for this item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#maximum Price#maximum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#maximum Price#maximum}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maximum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -21,7 +57,7 @@ namespace stripe.Price
 
         /// <summary>The minimum unit amount the customer can specify for this item. Must be at least the minimum charge amount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#minimum Price#minimum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#minimum Price#minimum}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -33,7 +69,7 @@ namespace stripe.Price
 
         /// <summary>The starting unit amount which can be updated by the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#preset Price#preset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#preset Price#preset}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

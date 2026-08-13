@@ -11,7 +11,7 @@ namespace azurerm.PrivateEndpoint
     {
         private object _isManualConnection;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#is_manual_connection PrivateEndpoint#is_manual_connection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#is_manual_connection PrivateEndpoint#is_manual_connection}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azurerm.PrivateEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#name PrivateEndpoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#name PrivateEndpoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -50,7 +50,7 @@ namespace azurerm.PrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#private_connection_resource_alias PrivateEndpoint#private_connection_resource_alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#private_connection_resource_alias PrivateEndpoint#private_connection_resource_alias}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateConnectionResourceAlias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateConnectionResourceAlias
@@ -59,7 +59,7 @@ namespace azurerm.PrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#private_connection_resource_id PrivateEndpoint#private_connection_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#private_connection_resource_id PrivateEndpoint#private_connection_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateConnectionResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateConnectionResourceId
@@ -68,7 +68,7 @@ namespace azurerm.PrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#request_message PrivateEndpoint#request_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#request_message PrivateEndpoint#request_message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestMessage
@@ -77,7 +77,7 @@ namespace azurerm.PrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#subresource_names PrivateEndpoint#subresource_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#subresource_names PrivateEndpoint#subresource_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subresourceNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SubresourceNames

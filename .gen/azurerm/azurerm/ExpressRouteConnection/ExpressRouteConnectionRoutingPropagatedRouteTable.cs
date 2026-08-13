@@ -7,7 +7,7 @@ namespace azurerm.ExpressRouteConnection
     [JsiiByValue(fqn: "azurerm.expressRouteConnection.ExpressRouteConnectionRoutingPropagatedRouteTable")]
     public class ExpressRouteConnectionRoutingPropagatedRouteTable : azurerm.ExpressRouteConnection.IExpressRouteConnectionRoutingPropagatedRouteTable
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection#labels ExpressRouteConnection#labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_connection#labels ExpressRouteConnection#labels}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Labels
@@ -16,7 +16,7 @@ namespace azurerm.ExpressRouteConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection#route_table_ids ExpressRouteConnection#route_table_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_connection#route_table_ids ExpressRouteConnection#route_table_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routeTableIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RouteTableIds

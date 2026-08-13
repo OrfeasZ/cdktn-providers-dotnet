@@ -9,7 +9,7 @@ namespace azurerm.DataFactoryCredentialServicePrincipal
     [JsiiByValue(fqn: "azurerm.dataFactoryCredentialServicePrincipal.DataFactoryCredentialServicePrincipalServicePrincipalKey")]
     public class DataFactoryCredentialServicePrincipalServicePrincipalKey : azurerm.DataFactoryCredentialServicePrincipal.IDataFactoryCredentialServicePrincipalServicePrincipalKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_credential_service_principal#linked_service_name DataFactoryCredentialServicePrincipal#linked_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_credential_service_principal#linked_service_name DataFactoryCredentialServicePrincipal#linked_service_name}.</summary>
         [JsiiProperty(name: "linkedServiceName", typeJson: "{\"primitive\":\"string\"}")]
         public string LinkedServiceName
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactoryCredentialServicePrincipal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_credential_service_principal#secret_name DataFactoryCredentialServicePrincipal#secret_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_credential_service_principal#secret_name DataFactoryCredentialServicePrincipal#secret_name}.</summary>
         [JsiiProperty(name: "secretName", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretName
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataFactoryCredentialServicePrincipal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_credential_service_principal#secret_version DataFactoryCredentialServicePrincipal#secret_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_credential_service_principal#secret_version DataFactoryCredentialServicePrincipal#secret_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretVersion

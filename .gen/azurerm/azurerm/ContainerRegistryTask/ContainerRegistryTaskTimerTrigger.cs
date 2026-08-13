@@ -9,7 +9,7 @@ namespace azurerm.ContainerRegistryTask
     [JsiiByValue(fqn: "azurerm.containerRegistryTask.ContainerRegistryTaskTimerTrigger")]
     public class ContainerRegistryTaskTimerTrigger : azurerm.ContainerRegistryTask.IContainerRegistryTaskTimerTrigger
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#name ContainerRegistryTask#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#name ContainerRegistryTask#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#schedule ContainerRegistryTask#schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#schedule ContainerRegistryTask#schedule}.</summary>
         [JsiiProperty(name: "schedule", typeJson: "{\"primitive\":\"string\"}")]
         public string Schedule
         {
@@ -27,7 +27,7 @@ namespace azurerm.ContainerRegistryTask
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#enabled ContainerRegistryTask#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#enabled ContainerRegistryTask#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

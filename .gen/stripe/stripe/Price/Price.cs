@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.Price
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price stripe_price}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price stripe_price}.</summary>
     [JsiiClass(nativeType: typeof(stripe.Price.Price), fullyQualifiedName: "stripe.price.Price", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.price.PriceConfig\"}}]")]
     public class Price : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price stripe_price} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price stripe_price} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Price(Constructs.Construct scope, string id, stripe.Price.IPriceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace stripe.Price
         /// <param name="importToId">The construct id used in the generated config for the Price to import.</param>
         /// <param name="importFromId">The id of the existing Price that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Price to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Price to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Price that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Price to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Price to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Price that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Price to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.Price.Price), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -70,22 +70,76 @@ namespace stripe.Price
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putCustomUnitAmount", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.price.PriceCustomUnitAmount\"}}]")]
-        public virtual void PutCustomUnitAmount(stripe.Price.IPriceCustomUnitAmount @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceCustomUnitAmount" />)[]</param>
+        [JsiiMethod(name: "putCustomUnitAmount", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceCustomUnitAmount\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCustomUnitAmount(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Price.IPriceCustomUnitAmount)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Price.IPriceCustomUnitAmount[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceCustomUnitAmount).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceCustomUnitAmount).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putProductData", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.price.PriceProductData\"}}]")]
-        public virtual void PutProductData(stripe.Price.IPriceProductData @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceProductData" />)[]</param>
+        [JsiiMethod(name: "putProductData", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceProductData\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutProductData(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Price.IPriceProductData)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Price.IPriceProductData[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceProductData).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceProductData).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putRecurring", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.price.PriceRecurring\"}}]")]
-        public virtual void PutRecurring(stripe.Price.IPriceRecurring @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceRecurring" />)[]</param>
+        [JsiiMethod(name: "putRecurring", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceRecurring\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutRecurring(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Price.IPriceRecurring)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Price.IPriceRecurring[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceRecurring).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceRecurring).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceTiers" />)[]</param>
@@ -110,6 +164,12 @@ namespace stripe.Price
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTransformQuantity", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.price.PriceTransformQuantity\"}}]")]
+        public virtual void PutTransformQuantity(stripe.Price.IPriceTransformQuantity @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Price.IPriceTransformQuantity)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetActive")]
@@ -190,6 +250,18 @@ namespace stripe.Price
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTransferLookupKey")]
+        public virtual void ResetTransferLookupKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTransformQuantity")]
+        public virtual void ResetTransformQuantity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetUnitAmount")]
         public virtual void ResetUnitAmount()
         {
@@ -221,16 +293,22 @@ namespace stripe.Price
         }
         = GetStaticProperty<string>(typeof(stripe.Price.Price))!;
 
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Created
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "currencyOptions", typeJson: "{\"fqn\":\"stripe.price.PriceCurrencyOptionsList\"}")]
         public virtual stripe.Price.PriceCurrencyOptionsList CurrencyOptions
         {
             get => GetInstanceProperty<stripe.Price.PriceCurrencyOptionsList>()!;
         }
 
-        [JsiiProperty(name: "customUnitAmount", typeJson: "{\"fqn\":\"stripe.price.PriceCustomUnitAmountOutputReference\"}")]
-        public virtual stripe.Price.PriceCustomUnitAmountOutputReference CustomUnitAmount
+        [JsiiProperty(name: "customUnitAmount", typeJson: "{\"fqn\":\"stripe.price.PriceCustomUnitAmountList\"}")]
+        public virtual stripe.Price.PriceCustomUnitAmountList CustomUnitAmount
         {
-            get => GetInstanceProperty<stripe.Price.PriceCustomUnitAmountOutputReference>()!;
+            get => GetInstanceProperty<stripe.Price.PriceCustomUnitAmountList>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
@@ -239,22 +317,40 @@ namespace stripe.Price
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "productData", typeJson: "{\"fqn\":\"stripe.price.PriceProductDataOutputReference\"}")]
-        public virtual stripe.Price.PriceProductDataOutputReference ProductData
+        [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Livemode
         {
-            get => GetInstanceProperty<stripe.Price.PriceProductDataOutputReference>()!;
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "recurring", typeJson: "{\"fqn\":\"stripe.price.PriceRecurringOutputReference\"}")]
-        public virtual stripe.Price.PriceRecurringOutputReference Recurring
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Object
         {
-            get => GetInstanceProperty<stripe.Price.PriceRecurringOutputReference>()!;
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "productData", typeJson: "{\"fqn\":\"stripe.price.PriceProductDataList\"}")]
+        public virtual stripe.Price.PriceProductDataList ProductData
+        {
+            get => GetInstanceProperty<stripe.Price.PriceProductDataList>()!;
+        }
+
+        [JsiiProperty(name: "recurring", typeJson: "{\"fqn\":\"stripe.price.PriceRecurringList\"}")]
+        public virtual stripe.Price.PriceRecurringList Recurring
+        {
+            get => GetInstanceProperty<stripe.Price.PriceRecurringList>()!;
         }
 
         [JsiiProperty(name: "tiers", typeJson: "{\"fqn\":\"stripe.price.PriceTiersList\"}")]
         public virtual stripe.Price.PriceTiersList Tiers
         {
             get => GetInstanceProperty<stripe.Price.PriceTiersList>()!;
+        }
+
+        [JsiiProperty(name: "transformQuantity", typeJson: "{\"fqn\":\"stripe.price.PriceTransformQuantityOutputReference\"}")]
+        public virtual stripe.Price.PriceTransformQuantityOutputReference TransformQuantity
+        {
+            get => GetInstanceProperty<stripe.Price.PriceTransformQuantityOutputReference>()!;
         }
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
@@ -297,11 +393,14 @@ namespace stripe.Price
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceCustomUnitAmount" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "customUnitAmountInput", typeJson: "{\"fqn\":\"stripe.price.PriceCustomUnitAmount\"}", isOptional: true)]
-        public virtual stripe.Price.IPriceCustomUnitAmount? CustomUnitAmountInput
+        [JsiiProperty(name: "customUnitAmountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceCustomUnitAmount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CustomUnitAmountInput
         {
-            get => GetInstanceProperty<stripe.Price.IPriceCustomUnitAmount?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -325,11 +424,14 @@ namespace stripe.Price
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceProductData" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "productDataInput", typeJson: "{\"fqn\":\"stripe.price.PriceProductData\"}", isOptional: true)]
-        public virtual stripe.Price.IPriceProductData? ProductDataInput
+        [JsiiProperty(name: "productDataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceProductData\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ProductDataInput
         {
-            get => GetInstanceProperty<stripe.Price.IPriceProductData?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -339,11 +441,14 @@ namespace stripe.Price
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceRecurring" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "recurringInput", typeJson: "{\"fqn\":\"stripe.price.PriceRecurring\"}", isOptional: true)]
-        public virtual stripe.Price.IPriceRecurring? RecurringInput
+        [JsiiProperty(name: "recurringInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceRecurring\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? RecurringInput
         {
-            get => GetInstanceProperty<stripe.Price.IPriceRecurring?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -368,6 +473,26 @@ namespace stripe.Price
         public virtual string? TiersModeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "transferLookupKeyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? TransferLookupKeyInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Price.IPriceTransformQuantity" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "transformQuantityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.price.PriceTransformQuantity\"}]}}", isOptional: true)]
+        public virtual object? TransformQuantityInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -468,6 +593,36 @@ namespace stripe.Price
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "transferLookupKey", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object TransferLookupKey
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"number\"}")]

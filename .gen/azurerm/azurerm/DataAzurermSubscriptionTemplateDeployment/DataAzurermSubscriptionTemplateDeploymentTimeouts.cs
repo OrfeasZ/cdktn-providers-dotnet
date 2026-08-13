@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSubscriptionTemplateDeployment
     [JsiiByValue(fqn: "azurerm.dataAzurermSubscriptionTemplateDeployment.DataAzurermSubscriptionTemplateDeploymentTimeouts")]
     public class DataAzurermSubscriptionTemplateDeploymentTimeouts : azurerm.DataAzurermSubscriptionTemplateDeployment.IDataAzurermSubscriptionTemplateDeploymentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/subscription_template_deployment#read DataAzurermSubscriptionTemplateDeployment#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/subscription_template_deployment#read DataAzurermSubscriptionTemplateDeployment#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

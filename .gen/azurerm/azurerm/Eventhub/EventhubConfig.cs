@@ -9,7 +9,7 @@ namespace azurerm.Eventhub
     [JsiiByValue(fqn: "azurerm.eventhub.EventhubConfig")]
     public class EventhubConfig : azurerm.Eventhub.IEventhubConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#name Eventhub#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#name Eventhub#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.Eventhub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#namespace_id Eventhub#namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#namespace_id Eventhub#namespace_id}.</summary>
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string NamespaceId
         {
@@ -25,7 +25,7 @@ namespace azurerm.Eventhub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#partition_count Eventhub#partition_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#partition_count Eventhub#partition_count}.</summary>
         [JsiiProperty(name: "partitionCount", typeJson: "{\"primitive\":\"number\"}")]
         public double PartitionCount
         {
@@ -35,7 +35,7 @@ namespace azurerm.Eventhub
 
         /// <summary>capture_description block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#capture_description Eventhub#capture_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#capture_description Eventhub#capture_description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "captureDescription", typeJson: "{\"fqn\":\"azurerm.eventhub.EventhubCaptureDescription\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azurerm.Eventhub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#id Eventhub#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#id Eventhub#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace azurerm.Eventhub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#message_retention Eventhub#message_retention}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#message_retention Eventhub#message_retention}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageRetention", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MessageRetention
@@ -69,7 +69,7 @@ namespace azurerm.Eventhub
 
         /// <summary>retention_description block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#retention_description Eventhub#retention_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#retention_description Eventhub#retention_description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retentionDescription", typeJson: "{\"fqn\":\"azurerm.eventhub.EventhubRetentionDescription\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace azurerm.Eventhub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#status Eventhub#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#status Eventhub#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -90,7 +90,7 @@ namespace azurerm.Eventhub
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub#timeouts Eventhub#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#timeouts Eventhub#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.eventhub.EventhubTimeouts\"}", isOptional: true)]

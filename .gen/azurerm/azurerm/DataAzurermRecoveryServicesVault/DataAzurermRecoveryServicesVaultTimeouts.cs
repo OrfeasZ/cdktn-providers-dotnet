@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermRecoveryServicesVault
     [JsiiByValue(fqn: "azurerm.dataAzurermRecoveryServicesVault.DataAzurermRecoveryServicesVaultTimeouts")]
     public class DataAzurermRecoveryServicesVaultTimeouts : azurerm.DataAzurermRecoveryServicesVault.IDataAzurermRecoveryServicesVaultTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/recovery_services_vault#read DataAzurermRecoveryServicesVault#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/recovery_services_vault#read DataAzurermRecoveryServicesVault#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

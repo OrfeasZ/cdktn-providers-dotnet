@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistryTask
     [JsiiInterface(nativeType: typeof(IContainerRegistryTaskRegistryCredentialSource), fullyQualifiedName: "azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialSource")]
     public interface IContainerRegistryTaskRegistryCredentialSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#login_mode ContainerRegistryTask#login_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#login_mode ContainerRegistryTask#login_mode}.</summary>
         [JsiiProperty(name: "loginMode", typeJson: "{\"primitive\":\"string\"}")]
         string LoginMode
         {
@@ -21,7 +21,7 @@ namespace azurerm.ContainerRegistryTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#login_mode ContainerRegistryTask#login_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#login_mode ContainerRegistryTask#login_mode}.</summary>
             [JsiiProperty(name: "loginMode", typeJson: "{\"primitive\":\"string\"}")]
             public string LoginMode
             {

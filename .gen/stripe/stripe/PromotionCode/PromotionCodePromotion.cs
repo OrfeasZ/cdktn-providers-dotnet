@@ -9,9 +9,9 @@ namespace stripe.PromotionCode
     [JsiiByValue(fqn: "stripe.promotionCode.PromotionCodePromotion")]
     public class PromotionCodePromotion : stripe.PromotionCode.IPromotionCodePromotion
     {
-        /// <summary>Specifies the type of promotion.</summary>
+        /// <summary>The type of promotion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#type PromotionCode#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#type PromotionCode#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -20,9 +20,9 @@ namespace stripe.PromotionCode
             set;
         }
 
-        /// <summary>If promotion `type` is `coupon`, the coupon for this promotion code.</summary>
+        /// <summary>If promotion `type` is `coupon`, the coupon for this promotion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#coupon PromotionCode#coupon}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#coupon PromotionCode#coupon}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "coupon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

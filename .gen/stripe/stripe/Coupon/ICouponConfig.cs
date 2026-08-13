@@ -7,9 +7,9 @@ namespace stripe.Coupon
     [JsiiInterface(nativeType: typeof(ICouponConfig), fullyQualifiedName: "stripe.coupon.CouponConfig")]
     public interface ICouponConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>A positive integer representing the amount to subtract from an invoice total (required if `percent_off` is not passed).</summary>
+        /// <summary>Amount (in the `currency` specified) that will be taken off the subtotal of any invoices for this customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#amount_off Coupon#amount_off}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#amount_off Coupon#amount_off}
         /// </remarks>
         [JsiiProperty(name: "amountOff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,11 +23,12 @@ namespace stripe.Coupon
 
         /// <summary>applies_to block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#applies_to Coupon#applies_to}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#applies_to Coupon#applies_to}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Coupon.ICouponAppliesTo" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "appliesTo", typeJson: "{\"fqn\":\"stripe.coupon.CouponAppliesTo\"}", isOptional: true)]
+        [JsiiProperty(name: "appliesTo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.coupon.CouponAppliesTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.Coupon.ICouponAppliesTo? AppliesTo
+        object? AppliesTo
         {
             get
             {
@@ -35,9 +36,9 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>Three-letter [ISO code for the currency](https://stripe.com/docs/currencies) of the `amount_off` parameter (required if `amount_off` is passed).</summary>
+        /// <summary>If `amount_off` has been set, the three-letter [ISO code for the currency](https://stripe.com/docs/currencies) of the amount to take off.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#currency Coupon#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#currency Coupon#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +52,7 @@ namespace stripe.Coupon
 
         /// <summary>currency_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#currency_options Coupon#currency_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#currency_options Coupon#currency_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Coupon.ICouponCurrencyOptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "currencyOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.coupon.CouponCurrencyOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,9 +65,9 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>Specifies how long the discount will be in effect if used on a subscription. Defaults to `once`.</summary>
+        /// <summary>One of `forever`, `once`, or `repeating`. Describes how long a customer who applies this coupon will get the discount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#duration Coupon#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#duration Coupon#duration}
         /// </remarks>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,9 +79,9 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>Required only if `duration` is `repeating`, in which case it must be a positive integer that specifies the number of months the discount will be in effect.</summary>
+        /// <summary>If `duration` is `repeating`, the number of months the coupon applies. Null if coupon `duration` is `forever` or `once`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#duration_in_months Coupon#duration_in_months}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#duration_in_months Coupon#duration_in_months}
         /// </remarks>
         [JsiiProperty(name: "durationInMonths", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,11 +93,9 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>A positive integer specifying the number of times the coupon can be redeemed before it's no longer valid.</summary>
+        /// <summary>Maximum number of times this coupon can be redeemed, in total, across all customers, before it is no longer valid.</summary>
         /// <remarks>
-        /// For example, you might have a 50% off coupon that the first 20 readers of your blog can use.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#max_redemptions Coupon#max_redemptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#max_redemptions Coupon#max_redemptions}
         /// </remarks>
         [JsiiProperty(name: "maxRedemptions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +107,10 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#metadata Coupon#metadata}.</summary>
+        /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#metadata Coupon#metadata}
+        /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -119,11 +121,9 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>Name of the coupon displayed to customers on, for instance invoices, or receipts.</summary>
+        /// <summary>Name of the coupon displayed to customers on for instance invoices or receipts.</summary>
         /// <remarks>
-        /// By default the <c>id</c> is shown if <c>name</c> is not set.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#name Coupon#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#name Coupon#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,9 +135,11 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>A positive float larger than 0, and smaller or equal to 100, that represents the discount the coupon will apply (required if `amount_off` is not passed).</summary>
+        /// <summary>Percent that will be taken off the subtotal of any invoices for this customer for the duration of the coupon.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#percent_off Coupon#percent_off}
+        /// For example, a coupon with percent_off of 50 will make a $ (or local equivalent)100 invoice $ (or local equivalent)50 instead.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#percent_off Coupon#percent_off}
         /// </remarks>
         [JsiiProperty(name: "percentOff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,29 +151,13 @@ namespace stripe.Coupon
             }
         }
 
-        /// <summary>Unix timestamp specifying the last time at which the coupon can be redeemed.</summary>
+        /// <summary>Date after which the coupon can no longer be redeemed.</summary>
         /// <remarks>
-        /// After the redeem_by date, the coupon can no longer be applied to new customers.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#redeem_by Coupon#redeem_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#redeem_by Coupon#redeem_by}
         /// </remarks>
         [JsiiProperty(name: "redeemBy", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RedeemBy
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>script block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#script Coupon#script}
-        /// </remarks>
-        [JsiiProperty(name: "script", typeJson: "{\"fqn\":\"stripe.coupon.CouponScript\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.Coupon.ICouponScript? Script
         {
             get
             {
@@ -186,9 +172,9 @@ namespace stripe.Coupon
             {
             }
 
-            /// <summary>A positive integer representing the amount to subtract from an invoice total (required if `percent_off` is not passed).</summary>
+            /// <summary>Amount (in the `currency` specified) that will be taken off the subtotal of any invoices for this customer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#amount_off Coupon#amount_off}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#amount_off Coupon#amount_off}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amountOff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -199,18 +185,19 @@ namespace stripe.Coupon
 
             /// <summary>applies_to block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#applies_to Coupon#applies_to}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#applies_to Coupon#applies_to}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Coupon.ICouponAppliesTo" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "appliesTo", typeJson: "{\"fqn\":\"stripe.coupon.CouponAppliesTo\"}", isOptional: true)]
-            public stripe.Coupon.ICouponAppliesTo? AppliesTo
+            [JsiiProperty(name: "appliesTo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.coupon.CouponAppliesTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? AppliesTo
             {
-                get => GetInstanceProperty<stripe.Coupon.ICouponAppliesTo?>();
+                get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Three-letter [ISO code for the currency](https://stripe.com/docs/currencies) of the `amount_off` parameter (required if `amount_off` is passed).</summary>
+            /// <summary>If `amount_off` has been set, the three-letter [ISO code for the currency](https://stripe.com/docs/currencies) of the amount to take off.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#currency Coupon#currency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#currency Coupon#currency}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -221,7 +208,7 @@ namespace stripe.Coupon
 
             /// <summary>currency_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#currency_options Coupon#currency_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#currency_options Coupon#currency_options}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Coupon.ICouponCurrencyOptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -231,9 +218,9 @@ namespace stripe.Coupon
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Specifies how long the discount will be in effect if used on a subscription. Defaults to `once`.</summary>
+            /// <summary>One of `forever`, `once`, or `repeating`. Describes how long a customer who applies this coupon will get the discount.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#duration Coupon#duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#duration Coupon#duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -242,9 +229,9 @@ namespace stripe.Coupon
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Required only if `duration` is `repeating`, in which case it must be a positive integer that specifies the number of months the discount will be in effect.</summary>
+            /// <summary>If `duration` is `repeating`, the number of months the coupon applies. Null if coupon `duration` is `forever` or `once`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#duration_in_months Coupon#duration_in_months}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#duration_in_months Coupon#duration_in_months}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "durationInMonths", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -253,11 +240,9 @@ namespace stripe.Coupon
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>A positive integer specifying the number of times the coupon can be redeemed before it's no longer valid.</summary>
+            /// <summary>Maximum number of times this coupon can be redeemed, in total, across all customers, before it is no longer valid.</summary>
             /// <remarks>
-            /// For example, you might have a 50% off coupon that the first 20 readers of your blog can use.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#max_redemptions Coupon#max_redemptions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#max_redemptions Coupon#max_redemptions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxRedemptions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -266,7 +251,10 @@ namespace stripe.Coupon
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#metadata Coupon#metadata}.</summary>
+            /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#metadata Coupon#metadata}
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -274,11 +262,9 @@ namespace stripe.Coupon
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Name of the coupon displayed to customers on, for instance invoices, or receipts.</summary>
+            /// <summary>Name of the coupon displayed to customers on for instance invoices or receipts.</summary>
             /// <remarks>
-            /// By default the <c>id</c> is shown if <c>name</c> is not set.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#name Coupon#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#name Coupon#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -287,9 +273,11 @@ namespace stripe.Coupon
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>A positive float larger than 0, and smaller or equal to 100, that represents the discount the coupon will apply (required if `amount_off` is not passed).</summary>
+            /// <summary>Percent that will be taken off the subtotal of any invoices for this customer for the duration of the coupon.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#percent_off Coupon#percent_off}
+            /// For example, a coupon with percent_off of 50 will make a $ (or local equivalent)100 invoice $ (or local equivalent)50 instead.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#percent_off Coupon#percent_off}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "percentOff", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -298,28 +286,15 @@ namespace stripe.Coupon
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Unix timestamp specifying the last time at which the coupon can be redeemed.</summary>
+            /// <summary>Date after which the coupon can no longer be redeemed.</summary>
             /// <remarks>
-            /// After the redeem_by date, the coupon can no longer be applied to new customers.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#redeem_by Coupon#redeem_by}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#redeem_by Coupon#redeem_by}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "redeemBy", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RedeemBy
             {
                 get => GetInstanceProperty<double?>();
-            }
-
-            /// <summary>script block.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#script Coupon#script}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "script", typeJson: "{\"fqn\":\"stripe.coupon.CouponScript\"}", isOptional: true)]
-            public stripe.Coupon.ICouponScript? Script
-            {
-                get => GetInstanceProperty<stripe.Coupon.ICouponScript?>();
             }
 
             /// <remarks>

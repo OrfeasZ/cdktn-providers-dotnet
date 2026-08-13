@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiByValue(fqn: "azurerm.cosmosdbAccount.CosmosdbAccountCapacity")]
     public class CosmosdbAccountCapacity : azurerm.CosmosdbAccount.ICosmosdbAccountCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#total_throughput_limit CosmosdbAccount#total_throughput_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#total_throughput_limit CosmosdbAccount#total_throughput_limit}.</summary>
         [JsiiProperty(name: "totalThroughputLimit", typeJson: "{\"primitive\":\"number\"}")]
         public double TotalThroughputLimit
         {

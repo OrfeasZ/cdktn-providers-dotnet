@@ -9,7 +9,7 @@ namespace azurerm.LogAnalyticsCluster
     [JsiiByValue(fqn: "azurerm.logAnalyticsCluster.LogAnalyticsClusterIdentity")]
     public class LogAnalyticsClusterIdentity : azurerm.LogAnalyticsCluster.ILogAnalyticsClusterIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_cluster#type LogAnalyticsCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_cluster#type LogAnalyticsCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogAnalyticsCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_cluster#identity_ids LogAnalyticsCluster#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_cluster#identity_ids LogAnalyticsCluster#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

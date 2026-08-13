@@ -7,21 +7,21 @@ namespace azurerm.CosmosdbAccount
     [JsiiInterface(nativeType: typeof(ICosmosdbAccountGeoLocation), fullyQualifiedName: "azurerm.cosmosdbAccount.CosmosdbAccountGeoLocation")]
     public interface ICosmosdbAccountGeoLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#failover_priority CosmosdbAccount#failover_priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#failover_priority CosmosdbAccount#failover_priority}.</summary>
         [JsiiProperty(name: "failoverPriority", typeJson: "{\"primitive\":\"number\"}")]
         double FailoverPriority
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         string Location
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#zone_redundant CosmosdbAccount#zone_redundant}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#zone_redundant CosmosdbAccount#zone_redundant}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace azurerm.CosmosdbAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#failover_priority CosmosdbAccount#failover_priority}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#failover_priority CosmosdbAccount#failover_priority}.</summary>
             [JsiiProperty(name: "failoverPriority", typeJson: "{\"primitive\":\"number\"}")]
             public double FailoverPriority
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
             public string Location
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#zone_redundant CosmosdbAccount#zone_redundant}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#zone_redundant CosmosdbAccount#zone_redundant}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

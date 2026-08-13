@@ -7,7 +7,7 @@ namespace azurerm.EventhubNamespace
     [JsiiInterface(nativeType: typeof(IEventhubNamespaceNetworkRulesetsIpRule), fullyQualifiedName: "azurerm.eventhubNamespace.EventhubNamespaceNetworkRulesetsIpRule")]
     public interface IEventhubNamespaceNetworkRulesetsIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub_namespace#action EventhubNamespace#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub_namespace#action EventhubNamespace#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Action
@@ -18,7 +18,7 @@ namespace azurerm.EventhubNamespace
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub_namespace#ip_mask EventhubNamespace#ip_mask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub_namespace#ip_mask EventhubNamespace#ip_mask}.</summary>
         [JsiiProperty(name: "ipMask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IpMask
@@ -36,7 +36,7 @@ namespace azurerm.EventhubNamespace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub_namespace#action EventhubNamespace#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub_namespace#action EventhubNamespace#action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Action
@@ -44,7 +44,7 @@ namespace azurerm.EventhubNamespace
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventhub_namespace#ip_mask EventhubNamespace#ip_mask}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub_namespace#ip_mask EventhubNamespace#ip_mask}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipMask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IpMask

@@ -7,9 +7,9 @@ namespace stripe.Price
     [JsiiInterface(nativeType: typeof(IPriceRecurring), fullyQualifiedName: "stripe.price.PriceRecurring")]
     public interface IPriceRecurring
     {
-        /// <summary>Specifies billing frequency. Either `day`, `week`, `month` or `year`.</summary>
+        /// <summary>The frequency at which a subscription is billed. One of `day`, `week`, `month` or `year`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#interval Price#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#interval Price#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         string Interval
@@ -17,11 +17,11 @@ namespace stripe.Price
             get;
         }
 
-        /// <summary>The number of intervals between subscription billings.</summary>
+        /// <summary>The number of intervals (specified in the `interval` attribute) between subscription billings.</summary>
         /// <remarks>
-        /// For example, <c>interval=month</c> and <c>interval_count=3</c> bills every 3 months. Maximum of three years interval allowed (3 years, 36 months, or 156 weeks).
+        /// For example, <c>interval=month</c> and <c>interval_count=3</c> bills every 3 months.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#interval_count Price#interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#interval_count Price#interval_count}
         /// </remarks>
         [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace stripe.Price
 
         /// <summary>The meter tracking the usage of a metered price.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#meter Price#meter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#meter Price#meter}
         /// </remarks>
         [JsiiProperty(name: "meter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,9 +47,9 @@ namespace stripe.Price
             }
         }
 
-        /// <summary>Default number of trial days when subscribing a customer to this price using [`trial_from_plan=true`](https://stripe.com/docs/api#create_subscription-trial_from_plan).</summary>
+        /// <summary>Default number of trial days when subscribing a customer to this price using [`trial_from_plan=true`](https://docs.stripe.com/api#create_subscription-trial_from_plan).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#trial_period_days Price#trial_period_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#trial_period_days Price#trial_period_days}
         /// </remarks>
         [JsiiProperty(name: "trialPeriodDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace stripe.Price
         /// <remarks>
         /// Can be either <c>metered</c> or <c>licensed</c>. <c>licensed</c> automatically bills the <c>quantity</c> set when adding it to a subscription. <c>metered</c> aggregates the total usage based on usage records. Defaults to <c>licensed</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#usage_type Price#usage_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#usage_type Price#usage_type}
         /// </remarks>
         [JsiiProperty(name: "usageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,9 +84,9 @@ namespace stripe.Price
             {
             }
 
-            /// <summary>Specifies billing frequency. Either `day`, `week`, `month` or `year`.</summary>
+            /// <summary>The frequency at which a subscription is billed. One of `day`, `week`, `month` or `year`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#interval Price#interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#interval Price#interval}
             /// </remarks>
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
             public string Interval
@@ -94,11 +94,11 @@ namespace stripe.Price
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The number of intervals between subscription billings.</summary>
+            /// <summary>The number of intervals (specified in the `interval` attribute) between subscription billings.</summary>
             /// <remarks>
-            /// For example, <c>interval=month</c> and <c>interval_count=3</c> bills every 3 months. Maximum of three years interval allowed (3 years, 36 months, or 156 weeks).
+            /// For example, <c>interval=month</c> and <c>interval_count=3</c> bills every 3 months.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#interval_count Price#interval_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#interval_count Price#interval_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace stripe.Price
 
             /// <summary>The meter tracking the usage of a metered price.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#meter Price#meter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#meter Price#meter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "meter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -118,9 +118,9 @@ namespace stripe.Price
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Default number of trial days when subscribing a customer to this price using [`trial_from_plan=true`](https://stripe.com/docs/api#create_subscription-trial_from_plan).</summary>
+            /// <summary>Default number of trial days when subscribing a customer to this price using [`trial_from_plan=true`](https://docs.stripe.com/api#create_subscription-trial_from_plan).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#trial_period_days Price#trial_period_days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#trial_period_days Price#trial_period_days}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "trialPeriodDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace stripe.Price
             /// <remarks>
             /// Can be either <c>metered</c> or <c>licensed</c>. <c>licensed</c> automatically bills the <c>quantity</c> set when adding it to a subscription. <c>metered</c> aggregates the total usage based on usage records. Defaults to <c>licensed</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#usage_type Price#usage_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#usage_type Price#usage_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

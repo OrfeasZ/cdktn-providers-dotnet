@@ -9,7 +9,7 @@ namespace azurerm.CdnEndpoint
     [JsiiByValue(fqn: "azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRewriteAction")]
     public class CdnEndpointGlobalDeliveryRuleUrlRewriteAction : azurerm.CdnEndpoint.ICdnEndpointGlobalDeliveryRuleUrlRewriteAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#destination CdnEndpoint#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#destination CdnEndpoint#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         public string Destination
         {
@@ -17,7 +17,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#source_pattern CdnEndpoint#source_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#source_pattern CdnEndpoint#source_pattern}.</summary>
         [JsiiProperty(name: "sourcePattern", typeJson: "{\"primitive\":\"string\"}")]
         public string SourcePattern
         {
@@ -27,7 +27,7 @@ namespace azurerm.CdnEndpoint
 
         private object? _preserveUnmatchedPath;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#preserve_unmatched_path CdnEndpoint#preserve_unmatched_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#preserve_unmatched_path CdnEndpoint#preserve_unmatched_path}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

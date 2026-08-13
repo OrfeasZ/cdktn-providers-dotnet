@@ -9,7 +9,7 @@ namespace azurerm.AutomationAccount
     [JsiiByValue(fqn: "azurerm.automationAccount.AutomationAccountEncryption")]
     public class AutomationAccountEncryption : azurerm.AutomationAccount.IAutomationAccountEncryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_account#key_vault_key_id AutomationAccount#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_account#key_vault_key_id AutomationAccount#key_vault_key_id}.</summary>
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultKeyId
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_account#user_assigned_identity_id AutomationAccount#user_assigned_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_account#user_assigned_identity_id AutomationAccount#user_assigned_identity_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserAssignedIdentityId

@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetworkGateway
     [JsiiByValue(fqn: "azurerm.virtualNetworkGateway.VirtualNetworkGatewayVpnClientConfigurationRevokedCertificate")]
     public class VirtualNetworkGatewayVpnClientConfigurationRevokedCertificate : azurerm.VirtualNetworkGateway.IVirtualNetworkGatewayVpnClientConfigurationRevokedCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#name VirtualNetworkGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#name VirtualNetworkGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#thumbprint VirtualNetworkGateway#thumbprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#thumbprint VirtualNetworkGateway#thumbprint}.</summary>
         [JsiiProperty(name: "thumbprint", typeJson: "{\"primitive\":\"string\"}")]
         public string Thumbprint
         {

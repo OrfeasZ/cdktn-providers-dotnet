@@ -7,14 +7,14 @@ namespace azurerm.ApplicationGateway
     [JsiiInterface(nativeType: typeof(IApplicationGatewayWafConfigurationExclusion), fullyQualifiedName: "azurerm.applicationGateway.ApplicationGatewayWafConfigurationExclusion")]
     public interface IApplicationGatewayWafConfigurationExclusion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#match_variable ApplicationGateway#match_variable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#match_variable ApplicationGateway#match_variable}.</summary>
         [JsiiProperty(name: "matchVariable", typeJson: "{\"primitive\":\"string\"}")]
         string MatchVariable
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#selector ApplicationGateway#selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#selector ApplicationGateway#selector}.</summary>
         [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Selector
@@ -25,7 +25,7 @@ namespace azurerm.ApplicationGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#selector_match_operator ApplicationGateway#selector_match_operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#selector_match_operator ApplicationGateway#selector_match_operator}.</summary>
         [JsiiProperty(name: "selectorMatchOperator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SelectorMatchOperator
@@ -43,14 +43,14 @@ namespace azurerm.ApplicationGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#match_variable ApplicationGateway#match_variable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#match_variable ApplicationGateway#match_variable}.</summary>
             [JsiiProperty(name: "matchVariable", typeJson: "{\"primitive\":\"string\"}")]
             public string MatchVariable
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#selector ApplicationGateway#selector}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#selector ApplicationGateway#selector}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Selector
@@ -58,7 +58,7 @@ namespace azurerm.ApplicationGateway
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#selector_match_operator ApplicationGateway#selector_match_operator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#selector_match_operator ApplicationGateway#selector_match_operator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "selectorMatchOperator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SelectorMatchOperator

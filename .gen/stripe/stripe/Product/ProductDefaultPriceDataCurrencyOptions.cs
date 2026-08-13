@@ -9,7 +9,10 @@ namespace stripe.Product
     [JsiiByValue(fqn: "stripe.product.ProductDefaultPriceDataCurrencyOptions")]
     public class ProductDefaultPriceDataCurrencyOptions : stripe.Product.IProductDefaultPriceDataCurrencyOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#key Product#key}.</summary>
+        /// <summary>Key for this entry.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#key Product#key}
+        /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,21 +20,44 @@ namespace stripe.Product
             set;
         }
 
+        private object? _customUnitAmount;
+
         /// <summary>custom_unit_amount block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#custom_unit_amount Product#custom_unit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#custom_unit_amount Product#custom_unit_amount}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductDefaultPriceDataCurrencyOptionsCustomUnitAmount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "customUnitAmount", typeJson: "{\"fqn\":\"stripe.product.ProductDefaultPriceDataCurrencyOptionsCustomUnitAmount\"}", isOptional: true)]
-        public stripe.Product.IProductDefaultPriceDataCurrencyOptionsCustomUnitAmount? CustomUnitAmount
+        [JsiiProperty(name: "customUnitAmount", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductDefaultPriceDataCurrencyOptionsCustomUnitAmount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? CustomUnitAmount
         {
-            get;
-            set;
+            get => _customUnitAmount;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.Product.IProductDefaultPriceDataCurrencyOptionsCustomUnitAmount[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Product.IProductDefaultPriceDataCurrencyOptionsCustomUnitAmount).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _customUnitAmount = value;
+            }
         }
 
-        /// <summary>Only required if a [default tax behavior](https://stripe.com/docs/tax/products-prices-tax-categories-tax-behavior#setting-a-default-tax-behavior-(recommended)) was not provided in the Stripe Tax settings. Specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of `inclusive`, `exclusive`, or `unspecified`. Once specified as either `inclusive` or `exclusive`, it cannot be changed.</summary>
+        /// <summary>Only required if a [default tax behavior](https://docs.stripe.com/tax/products-prices-tax-categories-tax-behavior#setting-a-default-tax-behavior-(recommended)) was not provided in the Stripe Tax settings. Specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of `inclusive`, `exclusive`, or `unspecified`. Once specified as either `inclusive` or `exclusive`, it cannot be changed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#tax_behavior Product#tax_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#tax_behavior Product#tax_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,11 +73,11 @@ namespace stripe.Product
         /// <remarks>
         /// This parameter requires <c>billing_scheme</c> to be set to <c>tiered</c>. See also the documentation for <c>billing_scheme</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#tiers Product#tiers}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#tiers Product#tiers}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductDefaultPriceDataCurrencyOptionsTiers" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "tiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "tiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductDefaultPriceDataCurrencyOptionsTiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public object? Tiers
         {
             get => _tiers;
@@ -63,7 +89,7 @@ namespace stripe.Product
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case string[][] cast_cd4240:
+                        case stripe.Product.IProductDefaultPriceDataCurrencyOptionsTiers[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
@@ -71,7 +97,7 @@ namespace stripe.Product
                         case null:
                             break;
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, string[][]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Product.IProductDefaultPriceDataCurrencyOptionsTiers).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
                 _tiers = value;
@@ -80,7 +106,7 @@ namespace stripe.Product
 
         /// <summary>A positive integer in cents (or local equivalent) (or 0 for a free price) representing how much to charge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#unit_amount Product#unit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#unit_amount Product#unit_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -94,7 +120,7 @@ namespace stripe.Product
         /// <remarks>
         /// Only one of <c>unit_amount</c> and <c>unit_amount_decimal</c> can be set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#unit_amount_decimal Product#unit_amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#unit_amount_decimal Product#unit_amount_decimal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmountDecimal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

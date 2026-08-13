@@ -7,14 +7,14 @@ namespace azurerm.KeyVaultKey
     [JsiiInterface(nativeType: typeof(IKeyVaultKeyReleasePolicy), fullyQualifiedName: "azurerm.keyVaultKey.KeyVaultKeyReleasePolicy")]
     public interface IKeyVaultKeyReleasePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_key#json KeyVaultKey#json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_key#json KeyVaultKey#json}.</summary>
         [JsiiProperty(name: "json", typeJson: "{\"primitive\":\"string\"}")]
         string Json
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,14 +35,14 @@ namespace azurerm.KeyVaultKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_key#json KeyVaultKey#json}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_key#json KeyVaultKey#json}.</summary>
             [JsiiProperty(name: "json", typeJson: "{\"primitive\":\"string\"}")]
             public string Json
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

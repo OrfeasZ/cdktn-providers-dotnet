@@ -7,7 +7,7 @@ namespace azurerm.LbBackendAddressPoolAddress
     [JsiiByValue(fqn: "azurerm.lbBackendAddressPoolAddress.LbBackendAddressPoolAddressTimeouts")]
     public class LbBackendAddressPoolAddressTimeouts : azurerm.LbBackendAddressPoolAddress.ILbBackendAddressPoolAddressTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool_address#create LbBackendAddressPoolAddress#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_backend_address_pool_address#create LbBackendAddressPoolAddress#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.LbBackendAddressPoolAddress
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool_address#delete LbBackendAddressPoolAddress#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_backend_address_pool_address#delete LbBackendAddressPoolAddress#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.LbBackendAddressPoolAddress
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool_address#read LbBackendAddressPoolAddress#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_backend_address_pool_address#read LbBackendAddressPoolAddress#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace azurerm.LbBackendAddressPoolAddress
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/lb_backend_address_pool_address#update LbBackendAddressPoolAddress#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_backend_address_pool_address#update LbBackendAddressPoolAddress#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

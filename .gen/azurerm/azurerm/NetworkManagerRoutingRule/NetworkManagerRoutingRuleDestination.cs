@@ -9,7 +9,7 @@ namespace azurerm.NetworkManagerRoutingRule
     [JsiiByValue(fqn: "azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleDestination")]
     public class NetworkManagerRoutingRuleDestination : azurerm.NetworkManagerRoutingRule.INetworkManagerRoutingRuleDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_routing_rule#address NetworkManagerRoutingRule#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_routing_rule#address NetworkManagerRoutingRule#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace azurerm.NetworkManagerRoutingRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_routing_rule#type NetworkManagerRoutingRule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_routing_rule#type NetworkManagerRoutingRule#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

@@ -9,7 +9,7 @@ namespace azurerm.NetappVolume
     [JsiiByValue(fqn: "azurerm.netappVolume.NetappVolumeCoolAccess")]
     public class NetappVolumeCoolAccess : azurerm.NetappVolume.INetappVolumeCoolAccess
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume#coolness_period_in_days NetappVolume#coolness_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_volume#coolness_period_in_days NetappVolume#coolness_period_in_days}.</summary>
         [JsiiProperty(name: "coolnessPeriodInDays", typeJson: "{\"primitive\":\"number\"}")]
         public double CoolnessPeriodInDays
         {
@@ -17,7 +17,7 @@ namespace azurerm.NetappVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume#retrieval_policy NetappVolume#retrieval_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_volume#retrieval_policy NetappVolume#retrieval_policy}.</summary>
         [JsiiProperty(name: "retrievalPolicy", typeJson: "{\"primitive\":\"string\"}")]
         public string RetrievalPolicy
         {
@@ -25,7 +25,7 @@ namespace azurerm.NetappVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_volume#tiering_policy NetappVolume#tiering_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_volume#tiering_policy NetappVolume#tiering_policy}.</summary>
         [JsiiProperty(name: "tieringPolicy", typeJson: "{\"primitive\":\"string\"}")]
         public string TieringPolicy
         {

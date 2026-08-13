@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementIdentityProviderMicrosoft
     [JsiiByValue(fqn: "azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoftConfig")]
     public class ApiManagementIdentityProviderMicrosoftConfig : azurerm.ApiManagementIdentityProviderMicrosoft.IApiManagementIdentityProviderMicrosoftConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_identity_provider_microsoft#api_management_name ApiManagementIdentityProviderMicrosoft#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_identity_provider_microsoft#api_management_name ApiManagementIdentityProviderMicrosoft#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementIdentityProviderMicrosoft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_identity_provider_microsoft#client_id ApiManagementIdentityProviderMicrosoft#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_identity_provider_microsoft#client_id ApiManagementIdentityProviderMicrosoft#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApiManagementIdentityProviderMicrosoft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_identity_provider_microsoft#client_secret ApiManagementIdentityProviderMicrosoft#client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_identity_provider_microsoft#client_secret ApiManagementIdentityProviderMicrosoft#client_secret}.</summary>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecret
         {
@@ -33,7 +33,7 @@ namespace azurerm.ApiManagementIdentityProviderMicrosoft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_identity_provider_microsoft#resource_group_name ApiManagementIdentityProviderMicrosoft#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_identity_provider_microsoft#resource_group_name ApiManagementIdentityProviderMicrosoft#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -41,7 +41,7 @@ namespace azurerm.ApiManagementIdentityProviderMicrosoft
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_identity_provider_microsoft#id ApiManagementIdentityProviderMicrosoft#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_identity_provider_microsoft#id ApiManagementIdentityProviderMicrosoft#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace azurerm.ApiManagementIdentityProviderMicrosoft
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_identity_provider_microsoft#timeouts ApiManagementIdentityProviderMicrosoft#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_identity_provider_microsoft#timeouts ApiManagementIdentityProviderMicrosoft#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementIdentityProviderMicrosoft.ApiManagementIdentityProviderMicrosoftTimeouts\"}", isOptional: true)]

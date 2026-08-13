@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudService
     [JsiiByValue(fqn: "azurerm.springCloudService.SpringCloudServiceMarketplace")]
     public class SpringCloudServiceMarketplace : azurerm.SpringCloudService.ISpringCloudServiceMarketplace
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_service#plan SpringCloudService#plan}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#plan SpringCloudService#plan}.</summary>
         [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}")]
         public string Plan
         {
@@ -17,7 +17,7 @@ namespace azurerm.SpringCloudService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_service#product SpringCloudService#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#product SpringCloudService#product}.</summary>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
         {
@@ -25,7 +25,7 @@ namespace azurerm.SpringCloudService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_service#publisher SpringCloudService#publisher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#publisher SpringCloudService#publisher}.</summary>
         [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
         public string Publisher
         {

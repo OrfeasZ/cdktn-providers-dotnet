@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterServicePrincipal")]
     public class KubernetesClusterServicePrincipal : azurerm.KubernetesCluster.IKubernetesClusterServicePrincipal
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#client_id KubernetesCluster#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#client_id KubernetesCluster#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -17,7 +17,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#client_secret KubernetesCluster#client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#client_secret KubernetesCluster#client_secret}.</summary>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecret
         {

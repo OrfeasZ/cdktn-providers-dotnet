@@ -9,7 +9,7 @@ namespace azurerm.LogAnalyticsSolution
     [JsiiByValue(fqn: "azurerm.logAnalyticsSolution.LogAnalyticsSolutionPlan")]
     public class LogAnalyticsSolutionPlan : azurerm.LogAnalyticsSolution.ILogAnalyticsSolutionPlan
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#product LogAnalyticsSolution#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#product LogAnalyticsSolution#product}.</summary>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#publisher LogAnalyticsSolution#publisher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#publisher LogAnalyticsSolution#publisher}.</summary>
         [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
         public string Publisher
         {
@@ -25,7 +25,7 @@ namespace azurerm.LogAnalyticsSolution
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_solution#promotion_code LogAnalyticsSolution#promotion_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_solution#promotion_code LogAnalyticsSolution#promotion_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "promotionCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PromotionCode

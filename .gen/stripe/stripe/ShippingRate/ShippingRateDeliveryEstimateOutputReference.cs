@@ -4,19 +4,21 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.ShippingRate
 {
-    [JsiiClass(nativeType: typeof(stripe.ShippingRate.ShippingRateDeliveryEstimateOutputReference), fullyQualifiedName: "stripe.shippingRate.ShippingRateDeliveryEstimateOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    [JsiiClass(nativeType: typeof(stripe.ShippingRate.ShippingRateDeliveryEstimateOutputReference), fullyQualifiedName: "stripe.shippingRate.ShippingRateDeliveryEstimateOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
     public class ShippingRateDeliveryEstimateOutputReference : Io.Cdktn.ComplexObject
     {
         /// <param name="terraformResource">The parent resource.</param>
         /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
-        public ShippingRateDeliveryEstimateOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public ShippingRateDeliveryEstimateOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
         {
-            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
         }
 
         /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
@@ -33,16 +35,52 @@ namespace stripe.ShippingRate
         {
         }
 
-        [JsiiMethod(name: "putMaximum", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"}}]")]
-        public virtual void PutMaximum(stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum" />)[]</param>
+        [JsiiMethod(name: "putMaximum", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutMaximum(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putMinimum", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"}}]")]
-        public virtual void PutMinimum(stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum" />)[]</param>
+        [JsiiMethod(name: "putMinimum", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutMinimum(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetMaximum")]
@@ -57,38 +95,67 @@ namespace stripe.ShippingRate
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "maximum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximumOutputReference\"}")]
-        public virtual stripe.ShippingRate.ShippingRateDeliveryEstimateMaximumOutputReference Maximum
+        [JsiiProperty(name: "maximum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximumList\"}")]
+        public virtual stripe.ShippingRate.ShippingRateDeliveryEstimateMaximumList Maximum
         {
-            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateDeliveryEstimateMaximumOutputReference>()!;
+            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateDeliveryEstimateMaximumList>()!;
         }
 
-        [JsiiProperty(name: "minimum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimumOutputReference\"}")]
-        public virtual stripe.ShippingRate.ShippingRateDeliveryEstimateMinimumOutputReference Minimum
+        [JsiiProperty(name: "minimum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimumList\"}")]
+        public virtual stripe.ShippingRate.ShippingRateDeliveryEstimateMinimumList Minimum
         {
-            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateDeliveryEstimateMinimumOutputReference>()!;
+            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateDeliveryEstimateMinimumList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "maximumInput", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"}", isOptional: true)]
-        public virtual stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum? MaximumInput
+        [JsiiProperty(name: "maximumInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? MaximumInput
         {
-            get => GetInstanceProperty<stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum?>();
+            get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "minimumInput", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"}", isOptional: true)]
-        public virtual stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum? MinimumInput
+        [JsiiProperty(name: "minimumInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? MinimumInput
         {
-            get => GetInstanceProperty<stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum?>();
+            get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.ShippingRate.IShippingRateDeliveryEstimate" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"}", isOptional: true)]
-        public virtual stripe.ShippingRate.IShippingRateDeliveryEstimate? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"}]}}", isOptional: true)]
+        public virtual object? InternalValue
         {
-            get => GetInstanceProperty<stripe.ShippingRate.IShippingRateDeliveryEstimate?>();
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.ShippingRate.IShippingRateDeliveryEstimate cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimate).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermConfidentialLedger
     [JsiiInterface(nativeType: typeof(IDataAzurermConfidentialLedgerTimeouts), fullyQualifiedName: "azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedgerTimeouts")]
     public interface IDataAzurermConfidentialLedgerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/confidential_ledger#read DataAzurermConfidentialLedger#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/confidential_ledger#read DataAzurermConfidentialLedger#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermConfidentialLedger
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/confidential_ledger#read DataAzurermConfidentialLedger#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/confidential_ledger#read DataAzurermConfidentialLedger#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -11,7 +11,7 @@ namespace stripe.Price
     {
         /// <summary>The product's name, meant to be displayable to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#name Price#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#name Price#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -24,7 +24,7 @@ namespace stripe.Price
 
         /// <summary>Whether the product is currently available for purchase. Defaults to `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#active Price#active}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#active Price#active}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -57,7 +57,7 @@ namespace stripe.Price
 
         /// <summary>The identifier for the product. Must be unique. If not provided, an identifier will be randomly generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#id Price#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#id Price#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,9 +70,9 @@ namespace stripe.Price
             set;
         }
 
-        /// <summary>Set of [key-value pairs](https://stripe.com/docs/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
+        /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#metadata Price#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#metadata Price#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -84,9 +84,11 @@ namespace stripe.Price
 
         /// <summary>An arbitrary string to be displayed on your customer's credit card or bank statement.</summary>
         /// <remarks>
-        /// While most banks display this information consistently, some may display it incorrectly or not at all. This may be up to 22 characters. The statement description may not include <c>&lt;</c>, <c>&gt;</c>, <c>\</c>, <c>\"</c>, <c>'</c> characters, and will appear on your customer's statement in capital letters. Non-ASCII characters are automatically stripped.
+        /// While most banks display this information consistently, some may display it incorrectly or not at all.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#statement_descriptor Price#statement_descriptor}
+        /// This may be up to 22 characters. The statement description may not include <c>&lt;</c>, <c>&gt;</c>, <c>\</c>, <c>"</c>, <c>'</c> characters, and will appear on your customer's statement in capital letters. Non-ASCII characters are automatically stripped.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#statement_descriptor Price#statement_descriptor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statementDescriptor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,9 +98,9 @@ namespace stripe.Price
             set;
         }
 
-        /// <summary>A [tax code](https://stripe.com/docs/tax/tax-categories) ID.</summary>
+        /// <summary>A [tax code](https://docs.stripe.com/tax/tax-categories) ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#tax_code Price#tax_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#tax_code Price#tax_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -112,7 +114,7 @@ namespace stripe.Price
         /// <remarks>
         /// When set, this will be included in customers' receipts, invoices, Checkout, and the customer portal.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/price#unit_label Price#unit_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#unit_label Price#unit_label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

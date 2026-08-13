@@ -9,7 +9,7 @@ namespace azurerm.ResourcePolicyRemediation
     [JsiiByValue(fqn: "azurerm.resourcePolicyRemediation.ResourcePolicyRemediationConfig")]
     public class ResourcePolicyRemediationConfig : azurerm.ResourcePolicyRemediation.IResourcePolicyRemediationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#name ResourcePolicyRemediation#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#name ResourcePolicyRemediation#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#policy_assignment_id ResourcePolicyRemediation#policy_assignment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#policy_assignment_id ResourcePolicyRemediation#policy_assignment_id}.</summary>
         [JsiiProperty(name: "policyAssignmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string PolicyAssignmentId
         {
@@ -25,7 +25,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#resource_id ResourcePolicyRemediation#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#resource_id ResourcePolicyRemediation#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -33,7 +33,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#failure_percentage ResourcePolicyRemediation#failure_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#failure_percentage ResourcePolicyRemediation#failure_percentage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failurePercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailurePercentage
@@ -42,7 +42,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#id ResourcePolicyRemediation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#id ResourcePolicyRemediation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#location_filters ResourcePolicyRemediation#location_filters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#location_filters ResourcePolicyRemediation#location_filters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "locationFilters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? LocationFilters
@@ -64,7 +64,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#parallel_deployments ResourcePolicyRemediation#parallel_deployments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#parallel_deployments ResourcePolicyRemediation#parallel_deployments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parallelDeployments", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ParallelDeployments
@@ -73,7 +73,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#policy_definition_reference_id ResourcePolicyRemediation#policy_definition_reference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#policy_definition_reference_id ResourcePolicyRemediation#policy_definition_reference_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "policyDefinitionReferenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PolicyDefinitionReferenceId
@@ -82,7 +82,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#resource_count ResourcePolicyRemediation#resource_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#resource_count ResourcePolicyRemediation#resource_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ResourceCount
@@ -91,7 +91,7 @@ namespace azurerm.ResourcePolicyRemediation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#resource_discovery_mode ResourcePolicyRemediation#resource_discovery_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#resource_discovery_mode ResourcePolicyRemediation#resource_discovery_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceDiscoveryMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceDiscoveryMode
@@ -102,7 +102,7 @@ namespace azurerm.ResourcePolicyRemediation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/resource_policy_remediation#timeouts ResourcePolicyRemediation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/resource_policy_remediation#timeouts ResourcePolicyRemediation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.resourcePolicyRemediation.ResourcePolicyRemediationTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbSqlContainer
     [JsiiByValue(fqn: "azurerm.cosmosdbSqlContainer.CosmosdbSqlContainerIndexingPolicyIncludedPath")]
     public class CosmosdbSqlContainerIndexingPolicyIncludedPath : azurerm.CosmosdbSqlContainer.ICosmosdbSqlContainerIndexingPolicyIncludedPath
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {

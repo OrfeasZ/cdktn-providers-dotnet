@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMonitorActionGroup
     [JsiiInterface(nativeType: typeof(IDataAzurermMonitorActionGroupTimeouts), fullyQualifiedName: "azurerm.dataAzurermMonitorActionGroup.DataAzurermMonitorActionGroupTimeouts")]
     public interface IDataAzurermMonitorActionGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/monitor_action_group#read DataAzurermMonitorActionGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/monitor_action_group#read DataAzurermMonitorActionGroup#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermMonitorActionGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/monitor_action_group#read DataAzurermMonitorActionGroup#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/monitor_action_group#read DataAzurermMonitorActionGroup#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

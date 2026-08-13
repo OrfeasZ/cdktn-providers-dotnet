@@ -11,7 +11,7 @@ namespace azurerm.HdinsightInteractiveQueryCluster
     {
         private object _isDefault;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_interactive_query_cluster#is_default HdinsightInteractiveQueryCluster#is_default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_interactive_query_cluster#is_default HdinsightInteractiveQueryCluster#is_default}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azurerm.HdinsightInteractiveQueryCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_interactive_query_cluster#storage_account_key HdinsightInteractiveQueryCluster#storage_account_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_interactive_query_cluster#storage_account_key HdinsightInteractiveQueryCluster#storage_account_key}.</summary>
         [JsiiProperty(name: "storageAccountKey", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountKey
         {
@@ -50,7 +50,7 @@ namespace azurerm.HdinsightInteractiveQueryCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_interactive_query_cluster#storage_container_url HdinsightInteractiveQueryCluster#storage_container_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_interactive_query_cluster#storage_container_url HdinsightInteractiveQueryCluster#storage_container_url}.</summary>
         [JsiiProperty(name: "storageContainerUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageContainerUrl
         {
@@ -58,7 +58,7 @@ namespace azurerm.HdinsightInteractiveQueryCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_interactive_query_cluster#storage_account_id HdinsightInteractiveQueryCluster#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_interactive_query_cluster#storage_account_id HdinsightInteractiveQueryCluster#storage_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountId

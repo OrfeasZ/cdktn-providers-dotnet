@@ -5,7 +5,7 @@ namespace azurerm.DnsTxtRecord
     /// <remarks>
     /// <h1><c>azurerm_dns_txt_record</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_txt_record"><c>azurerm_dns_txt_record</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_txt_record"><c>azurerm_dns_txt_record</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

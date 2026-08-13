@@ -7,7 +7,7 @@ namespace azurerm.ApiManagementBackend
     [JsiiInterface(nativeType: typeof(IApiManagementBackendCredentialsAuthorization), fullyQualifiedName: "azurerm.apiManagementBackend.ApiManagementBackendCredentialsAuthorization")]
     public interface IApiManagementBackendCredentialsAuthorization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_backend#parameter ApiManagementBackend#parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#parameter ApiManagementBackend#parameter}.</summary>
         [JsiiProperty(name: "parameter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Parameter
@@ -18,7 +18,7 @@ namespace azurerm.ApiManagementBackend
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_backend#scheme ApiManagementBackend#scheme}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#scheme ApiManagementBackend#scheme}.</summary>
         [JsiiProperty(name: "scheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Scheme
@@ -36,7 +36,7 @@ namespace azurerm.ApiManagementBackend
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_backend#parameter ApiManagementBackend#parameter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#parameter ApiManagementBackend#parameter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Parameter
@@ -44,7 +44,7 @@ namespace azurerm.ApiManagementBackend
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_backend#scheme ApiManagementBackend#scheme}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#scheme ApiManagementBackend#scheme}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Scheme

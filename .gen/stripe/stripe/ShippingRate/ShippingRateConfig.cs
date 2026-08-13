@@ -11,7 +11,7 @@ namespace stripe.ShippingRate
     {
         /// <summary>The name of the shipping rate, meant to be displayable to the customer. This will appear on CheckoutSessions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#display_name ShippingRate#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#display_name ShippingRate#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -20,33 +20,114 @@ namespace stripe.ShippingRate
             set;
         }
 
-        /// <summary>delivery_estimate block.</summary>
+        private object? _active;
+
+        /// <summary>Whether the shipping rate can be used for new purchases. Defaults to `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#delivery_estimate ShippingRate#delivery_estimate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#active ShippingRate#active}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "deliveryEstimate", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"}", isOptional: true)]
-        public stripe.ShippingRate.IShippingRateDeliveryEstimate? DeliveryEstimate
+        [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? Active
         {
-            get;
-            set;
+            get => _active;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _active = value;
+            }
         }
+
+        private object? _deliveryEstimate;
+
+        /// <summary>delivery_estimate block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#delivery_estimate ShippingRate#delivery_estimate}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimate" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "deliveryEstimate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? DeliveryEstimate
+        {
+            get => _deliveryEstimate;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.ShippingRate.IShippingRateDeliveryEstimate[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimate).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _deliveryEstimate = value;
+            }
+        }
+
+        private object? _fixedAmount;
 
         /// <summary>fixed_amount block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#fixed_amount ShippingRate#fixed_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#fixed_amount ShippingRate#fixed_amount}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateFixedAmount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "fixedAmount", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmount\"}", isOptional: true)]
-        public stripe.ShippingRate.IShippingRateFixedAmount? FixedAmount
+        [JsiiProperty(name: "fixedAmount", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? FixedAmount
         {
-            get;
-            set;
+            get => _fixedAmount;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.ShippingRate.IShippingRateFixedAmount[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateFixedAmount).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _fixedAmount = value;
+            }
         }
 
-        /// <summary>Set of [key-value pairs](https://stripe.com/docs/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
+        /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#metadata ShippingRate#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#metadata ShippingRate#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -58,7 +139,7 @@ namespace stripe.ShippingRate
 
         /// <summary>Specifies whether the rate is considered inclusive of taxes or exclusive of taxes. One of `inclusive`, `exclusive`, or `unspecified`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,9 +149,9 @@ namespace stripe.ShippingRate
             set;
         }
 
-        /// <summary>A [tax code](https://stripe.com/docs/tax/tax-categories) ID. The Shipping tax code is `txcd_92010001`.</summary>
+        /// <summary>A [tax code](https://docs.stripe.com/tax/tax-categories) ID. The Shipping tax code is `txcd_92010001`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#tax_code ShippingRate#tax_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#tax_code ShippingRate#tax_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +163,7 @@ namespace stripe.ShippingRate
 
         /// <summary>The type of calculation to use on the shipping rate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#type ShippingRate#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#type ShippingRate#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

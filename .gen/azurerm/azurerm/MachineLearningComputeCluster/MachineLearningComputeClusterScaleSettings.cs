@@ -9,7 +9,7 @@ namespace azurerm.MachineLearningComputeCluster
     [JsiiByValue(fqn: "azurerm.machineLearningComputeCluster.MachineLearningComputeClusterScaleSettings")]
     public class MachineLearningComputeClusterScaleSettings : azurerm.MachineLearningComputeCluster.IMachineLearningComputeClusterScaleSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_cluster#max_node_count MachineLearningComputeCluster#max_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_cluster#max_node_count MachineLearningComputeCluster#max_node_count}.</summary>
         [JsiiProperty(name: "maxNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxNodeCount
         {
@@ -17,7 +17,7 @@ namespace azurerm.MachineLearningComputeCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_cluster#min_node_count MachineLearningComputeCluster#min_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_cluster#min_node_count MachineLearningComputeCluster#min_node_count}.</summary>
         [JsiiProperty(name: "minNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MinNodeCount
         {
@@ -25,7 +25,7 @@ namespace azurerm.MachineLearningComputeCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_cluster#scale_down_nodes_after_idle_duration MachineLearningComputeCluster#scale_down_nodes_after_idle_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_cluster#scale_down_nodes_after_idle_duration MachineLearningComputeCluster#scale_down_nodes_after_idle_duration}.</summary>
         [JsiiProperty(name: "scaleDownNodesAfterIdleDuration", typeJson: "{\"primitive\":\"string\"}")]
         public string ScaleDownNodesAfterIdleDuration
         {

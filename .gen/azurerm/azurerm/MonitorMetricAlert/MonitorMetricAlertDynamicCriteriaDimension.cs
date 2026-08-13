@@ -9,7 +9,7 @@ namespace azurerm.MonitorMetricAlert
     [JsiiByValue(fqn: "azurerm.monitorMetricAlert.MonitorMetricAlertDynamicCriteriaDimension")]
     public class MonitorMetricAlertDynamicCriteriaDimension : azurerm.MonitorMetricAlert.IMonitorMetricAlertDynamicCriteriaDimension
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_metric_alert#name MonitorMetricAlert#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_metric_alert#name MonitorMetricAlert#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_metric_alert#operator MonitorMetricAlert#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_metric_alert#operator MonitorMetricAlert#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -25,7 +25,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_metric_alert#values MonitorMetricAlert#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_metric_alert#values MonitorMetricAlert#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {

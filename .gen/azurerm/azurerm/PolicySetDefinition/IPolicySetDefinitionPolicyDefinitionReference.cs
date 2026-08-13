@@ -7,14 +7,14 @@ namespace azurerm.PolicySetDefinition
     [JsiiInterface(nativeType: typeof(IPolicySetDefinitionPolicyDefinitionReference), fullyQualifiedName: "azurerm.policySetDefinition.PolicySetDefinitionPolicyDefinitionReference")]
     public interface IPolicySetDefinitionPolicyDefinitionReference
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#policy_definition_id PolicySetDefinition#policy_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#policy_definition_id PolicySetDefinition#policy_definition_id}.</summary>
         [JsiiProperty(name: "policyDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         string PolicyDefinitionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#parameter_values PolicySetDefinition#parameter_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#parameter_values PolicySetDefinition#parameter_values}.</summary>
         [JsiiProperty(name: "parameterValues", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParameterValues
@@ -25,7 +25,7 @@ namespace azurerm.PolicySetDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#policy_group_names PolicySetDefinition#policy_group_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#policy_group_names PolicySetDefinition#policy_group_names}.</summary>
         [JsiiProperty(name: "policyGroupNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PolicyGroupNames
@@ -36,7 +36,7 @@ namespace azurerm.PolicySetDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#reference_id PolicySetDefinition#reference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#reference_id PolicySetDefinition#reference_id}.</summary>
         [JsiiProperty(name: "referenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReferenceId
@@ -47,7 +47,7 @@ namespace azurerm.PolicySetDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#version PolicySetDefinition#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#version PolicySetDefinition#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
@@ -65,14 +65,14 @@ namespace azurerm.PolicySetDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#policy_definition_id PolicySetDefinition#policy_definition_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#policy_definition_id PolicySetDefinition#policy_definition_id}.</summary>
             [JsiiProperty(name: "policyDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
             public string PolicyDefinitionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#parameter_values PolicySetDefinition#parameter_values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#parameter_values PolicySetDefinition#parameter_values}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameterValues", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParameterValues
@@ -80,7 +80,7 @@ namespace azurerm.PolicySetDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#policy_group_names PolicySetDefinition#policy_group_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#policy_group_names PolicySetDefinition#policy_group_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "policyGroupNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PolicyGroupNames
@@ -88,7 +88,7 @@ namespace azurerm.PolicySetDefinition
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#reference_id PolicySetDefinition#reference_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#reference_id PolicySetDefinition#reference_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "referenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReferenceId
@@ -96,7 +96,7 @@ namespace azurerm.PolicySetDefinition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/policy_set_definition#version PolicySetDefinition#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/policy_set_definition#version PolicySetDefinition#version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version

@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetworkGateway
     [JsiiByValue(fqn: "azurerm.virtualNetworkGateway.VirtualNetworkGatewayVpnClientConfigurationIpsecPolicy")]
     public class VirtualNetworkGatewayVpnClientConfigurationIpsecPolicy : azurerm.VirtualNetworkGateway.IVirtualNetworkGatewayVpnClientConfigurationIpsecPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#dh_group VirtualNetworkGateway#dh_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#dh_group VirtualNetworkGateway#dh_group}.</summary>
         [JsiiProperty(name: "dhGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string DhGroup
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#ike_encryption VirtualNetworkGateway#ike_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#ike_encryption VirtualNetworkGateway#ike_encryption}.</summary>
         [JsiiProperty(name: "ikeEncryption", typeJson: "{\"primitive\":\"string\"}")]
         public string IkeEncryption
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#ike_integrity VirtualNetworkGateway#ike_integrity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#ike_integrity VirtualNetworkGateway#ike_integrity}.</summary>
         [JsiiProperty(name: "ikeIntegrity", typeJson: "{\"primitive\":\"string\"}")]
         public string IkeIntegrity
         {
@@ -33,7 +33,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#ipsec_encryption VirtualNetworkGateway#ipsec_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#ipsec_encryption VirtualNetworkGateway#ipsec_encryption}.</summary>
         [JsiiProperty(name: "ipsecEncryption", typeJson: "{\"primitive\":\"string\"}")]
         public string IpsecEncryption
         {
@@ -41,7 +41,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#ipsec_integrity VirtualNetworkGateway#ipsec_integrity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#ipsec_integrity VirtualNetworkGateway#ipsec_integrity}.</summary>
         [JsiiProperty(name: "ipsecIntegrity", typeJson: "{\"primitive\":\"string\"}")]
         public string IpsecIntegrity
         {
@@ -49,7 +49,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#pfs_group VirtualNetworkGateway#pfs_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#pfs_group VirtualNetworkGateway#pfs_group}.</summary>
         [JsiiProperty(name: "pfsGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string PfsGroup
         {
@@ -57,7 +57,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#sa_data_size_in_kilobytes VirtualNetworkGateway#sa_data_size_in_kilobytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#sa_data_size_in_kilobytes VirtualNetworkGateway#sa_data_size_in_kilobytes}.</summary>
         [JsiiProperty(name: "saDataSizeInKilobytes", typeJson: "{\"primitive\":\"number\"}")]
         public double SaDataSizeInKilobytes
         {
@@ -65,7 +65,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway#sa_lifetime_in_seconds VirtualNetworkGateway#sa_lifetime_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway#sa_lifetime_in_seconds VirtualNetworkGateway#sa_lifetime_in_seconds}.</summary>
         [JsiiProperty(name: "saLifetimeInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public double SaLifetimeInSeconds
         {

@@ -9,7 +9,7 @@ namespace stripe.ShippingRate
     {
         /// <summary>A non-negative integer in cents representing how much to charge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#amount ShippingRate#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#amount ShippingRate#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         double Amount
@@ -19,7 +19,7 @@ namespace stripe.ShippingRate
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#currency ShippingRate#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#currency ShippingRate#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         string Currency
@@ -29,7 +29,7 @@ namespace stripe.ShippingRate
 
         /// <summary>currency_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#currency_options ShippingRate#currency_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#currency_options ShippingRate#currency_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateFixedAmountCurrencyOptions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "currencyOptions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmountCurrencyOptions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace stripe.ShippingRate
 
             /// <summary>A non-negative integer in cents representing how much to charge.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#amount ShippingRate#amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#amount ShippingRate#amount}
             /// </remarks>
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
             public double Amount
@@ -61,7 +61,7 @@ namespace stripe.ShippingRate
 
             /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#currency ShippingRate#currency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#currency ShippingRate#currency}
             /// </remarks>
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
             public string Currency
@@ -71,7 +71,7 @@ namespace stripe.ShippingRate
 
             /// <summary>currency_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#currency_options ShippingRate#currency_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#currency_options ShippingRate#currency_options}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateFixedAmountCurrencyOptions" />)[]</para>
             /// </remarks>
             [JsiiOptional]

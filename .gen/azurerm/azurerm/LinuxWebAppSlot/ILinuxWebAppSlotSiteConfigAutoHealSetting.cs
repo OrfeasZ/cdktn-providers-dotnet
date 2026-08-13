@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebAppSlot
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#action LinuxWebAppSlot#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#action LinuxWebAppSlot#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigAutoHealSettingAction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azurerm.LinuxWebAppSlot
 
         /// <summary>trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#trigger LinuxWebAppSlot#trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#trigger LinuxWebAppSlot#trigger}
         /// </remarks>
         [JsiiProperty(name: "trigger", typeJson: "{\"fqn\":\"azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigAutoHealSettingTrigger\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace azurerm.LinuxWebAppSlot
 
             /// <summary>action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#action LinuxWebAppSlot#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#action LinuxWebAppSlot#action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigAutoHealSettingAction\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace azurerm.LinuxWebAppSlot
 
             /// <summary>trigger block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#trigger LinuxWebAppSlot#trigger}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#trigger LinuxWebAppSlot#trigger}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "trigger", typeJson: "{\"fqn\":\"azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigAutoHealSettingTrigger\"}", isOptional: true)]

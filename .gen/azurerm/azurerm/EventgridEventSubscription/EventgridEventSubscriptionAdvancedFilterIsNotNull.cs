@@ -9,7 +9,7 @@ namespace azurerm.EventgridEventSubscription
     [JsiiByValue(fqn: "azurerm.eventgridEventSubscription.EventgridEventSubscriptionAdvancedFilterIsNotNull")]
     public class EventgridEventSubscriptionAdvancedFilterIsNotNull : azurerm.EventgridEventSubscription.IEventgridEventSubscriptionAdvancedFilterIsNotNull
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_event_subscription#key EventgridEventSubscription#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_event_subscription#key EventgridEventSubscription#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {

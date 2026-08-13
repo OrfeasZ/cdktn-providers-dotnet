@@ -9,7 +9,7 @@ namespace azurerm.KubernetesAutomaticCluster
     [JsiiByValue(fqn: "azurerm.kubernetesAutomaticCluster.KubernetesAutomaticClusterHostedSystem")]
     public class KubernetesAutomaticClusterHostedSystem : azurerm.KubernetesAutomaticCluster.IKubernetesAutomaticClusterHostedSystem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_automatic_cluster#node_subnet_id KubernetesAutomaticCluster#node_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_automatic_cluster#node_subnet_id KubernetesAutomaticCluster#node_subnet_id}.</summary>
         [JsiiProperty(name: "nodeSubnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeSubnetId
         {
@@ -17,7 +17,7 @@ namespace azurerm.KubernetesAutomaticCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_automatic_cluster#system_node_subnet_id KubernetesAutomaticCluster#system_node_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_automatic_cluster#system_node_subnet_id KubernetesAutomaticCluster#system_node_subnet_id}.</summary>
         [JsiiProperty(name: "systemNodeSubnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SystemNodeSubnetId
         {

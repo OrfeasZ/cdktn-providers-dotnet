@@ -9,7 +9,7 @@ namespace azurerm.ApplicationGateway
     [JsiiByValue(fqn: "azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRule")]
     public class ApplicationGatewayRewriteRuleSetRewriteRule : azurerm.ApplicationGateway.IApplicationGatewayRewriteRuleSetRewriteRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#name ApplicationGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#name ApplicationGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#rule_sequence ApplicationGateway#rule_sequence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#rule_sequence ApplicationGateway#rule_sequence}.</summary>
         [JsiiProperty(name: "ruleSequence", typeJson: "{\"primitive\":\"number\"}")]
         public double RuleSequence
         {
@@ -29,7 +29,7 @@ namespace azurerm.ApplicationGateway
 
         /// <summary>condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#condition ApplicationGateway#condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#condition ApplicationGateway#condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayRewriteRuleSetRewriteRuleCondition" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -64,7 +64,7 @@ namespace azurerm.ApplicationGateway
 
         /// <summary>request_header_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#request_header_configuration ApplicationGateway#request_header_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#request_header_configuration ApplicationGateway#request_header_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -99,7 +99,7 @@ namespace azurerm.ApplicationGateway
 
         /// <summary>response_header_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#response_header_configuration ApplicationGateway#response_header_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#response_header_configuration ApplicationGateway#response_header_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -132,7 +132,7 @@ namespace azurerm.ApplicationGateway
 
         /// <summary>url block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#url ApplicationGateway#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#url ApplicationGateway#url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleUrl\"}", isOptional: true)]

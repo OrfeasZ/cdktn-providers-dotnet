@@ -9,7 +9,7 @@ namespace azurerm.TrafficManagerProfile
     {
         /// <summary>dns_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#dns_config TrafficManagerProfile#dns_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#dns_config TrafficManagerProfile#dns_config}
         /// </remarks>
         [JsiiProperty(name: "dnsConfig", typeJson: "{\"fqn\":\"azurerm.trafficManagerProfile.TrafficManagerProfileDnsConfig\"}")]
         azurerm.TrafficManagerProfile.ITrafficManagerProfileDnsConfig DnsConfig
@@ -19,7 +19,7 @@ namespace azurerm.TrafficManagerProfile
 
         /// <summary>monitor_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#monitor_config TrafficManagerProfile#monitor_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#monitor_config TrafficManagerProfile#monitor_config}
         /// </remarks>
         [JsiiProperty(name: "monitorConfig", typeJson: "{\"fqn\":\"azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfig\"}")]
         azurerm.TrafficManagerProfile.ITrafficManagerProfileMonitorConfig MonitorConfig
@@ -27,28 +27,28 @@ namespace azurerm.TrafficManagerProfile
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#name TrafficManagerProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#name TrafficManagerProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#resource_group_name TrafficManagerProfile#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#resource_group_name TrafficManagerProfile#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#traffic_routing_method TrafficManagerProfile#traffic_routing_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#traffic_routing_method TrafficManagerProfile#traffic_routing_method}.</summary>
         [JsiiProperty(name: "trafficRoutingMethod", typeJson: "{\"primitive\":\"string\"}")]
         string TrafficRoutingMethod
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#id TrafficManagerProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#id TrafficManagerProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace azurerm.TrafficManagerProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#max_return TrafficManagerProfile#max_return}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#max_return TrafficManagerProfile#max_return}.</summary>
         [JsiiProperty(name: "maxReturn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxReturn
@@ -74,7 +74,7 @@ namespace azurerm.TrafficManagerProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#profile_status TrafficManagerProfile#profile_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#profile_status TrafficManagerProfile#profile_status}.</summary>
         [JsiiProperty(name: "profileStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProfileStatus
@@ -85,7 +85,7 @@ namespace azurerm.TrafficManagerProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#tags TrafficManagerProfile#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#tags TrafficManagerProfile#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -98,7 +98,7 @@ namespace azurerm.TrafficManagerProfile
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#timeouts TrafficManagerProfile#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#timeouts TrafficManagerProfile#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.trafficManagerProfile.TrafficManagerProfileTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +110,7 @@ namespace azurerm.TrafficManagerProfile
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#traffic_view_enabled TrafficManagerProfile#traffic_view_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#traffic_view_enabled TrafficManagerProfile#traffic_view_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -133,7 +133,7 @@ namespace azurerm.TrafficManagerProfile
 
             /// <summary>dns_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#dns_config TrafficManagerProfile#dns_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#dns_config TrafficManagerProfile#dns_config}
             /// </remarks>
             [JsiiProperty(name: "dnsConfig", typeJson: "{\"fqn\":\"azurerm.trafficManagerProfile.TrafficManagerProfileDnsConfig\"}")]
             public azurerm.TrafficManagerProfile.ITrafficManagerProfileDnsConfig DnsConfig
@@ -143,7 +143,7 @@ namespace azurerm.TrafficManagerProfile
 
             /// <summary>monitor_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#monitor_config TrafficManagerProfile#monitor_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#monitor_config TrafficManagerProfile#monitor_config}
             /// </remarks>
             [JsiiProperty(name: "monitorConfig", typeJson: "{\"fqn\":\"azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfig\"}")]
             public azurerm.TrafficManagerProfile.ITrafficManagerProfileMonitorConfig MonitorConfig
@@ -151,28 +151,28 @@ namespace azurerm.TrafficManagerProfile
                 get => GetInstanceProperty<azurerm.TrafficManagerProfile.ITrafficManagerProfileMonitorConfig>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#name TrafficManagerProfile#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#name TrafficManagerProfile#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#resource_group_name TrafficManagerProfile#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#resource_group_name TrafficManagerProfile#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#traffic_routing_method TrafficManagerProfile#traffic_routing_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#traffic_routing_method TrafficManagerProfile#traffic_routing_method}.</summary>
             [JsiiProperty(name: "trafficRoutingMethod", typeJson: "{\"primitive\":\"string\"}")]
             public string TrafficRoutingMethod
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#id TrafficManagerProfile#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#id TrafficManagerProfile#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -184,7 +184,7 @@ namespace azurerm.TrafficManagerProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#max_return TrafficManagerProfile#max_return}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#max_return TrafficManagerProfile#max_return}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxReturn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxReturn
@@ -192,7 +192,7 @@ namespace azurerm.TrafficManagerProfile
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#profile_status TrafficManagerProfile#profile_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#profile_status TrafficManagerProfile#profile_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "profileStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProfileStatus
@@ -200,7 +200,7 @@ namespace azurerm.TrafficManagerProfile
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#tags TrafficManagerProfile#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#tags TrafficManagerProfile#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -210,7 +210,7 @@ namespace azurerm.TrafficManagerProfile
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#timeouts TrafficManagerProfile#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#timeouts TrafficManagerProfile#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.trafficManagerProfile.TrafficManagerProfileTimeouts\"}", isOptional: true)]
@@ -219,7 +219,7 @@ namespace azurerm.TrafficManagerProfile
                 get => GetInstanceProperty<azurerm.TrafficManagerProfile.ITrafficManagerProfileTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#traffic_view_enabled TrafficManagerProfile#traffic_view_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#traffic_view_enabled TrafficManagerProfile#traffic_view_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -9,7 +9,7 @@ namespace azurerm.NetappSnapshotPolicy
     [JsiiByValue(fqn: "azurerm.netappSnapshotPolicy.NetappSnapshotPolicyHourlySchedule")]
     public class NetappSnapshotPolicyHourlySchedule : azurerm.NetappSnapshotPolicy.INetappSnapshotPolicyHourlySchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_snapshot_policy#minute NetappSnapshotPolicy#minute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_snapshot_policy#minute NetappSnapshotPolicy#minute}.</summary>
         [JsiiProperty(name: "minute", typeJson: "{\"primitive\":\"number\"}")]
         public double Minute
         {
@@ -17,7 +17,7 @@ namespace azurerm.NetappSnapshotPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/netapp_snapshot_policy#snapshots_to_keep NetappSnapshotPolicy#snapshots_to_keep}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_snapshot_policy#snapshots_to_keep NetappSnapshotPolicy#snapshots_to_keep}.</summary>
         [JsiiProperty(name: "snapshotsToKeep", typeJson: "{\"primitive\":\"number\"}")]
         public double SnapshotsToKeep
         {

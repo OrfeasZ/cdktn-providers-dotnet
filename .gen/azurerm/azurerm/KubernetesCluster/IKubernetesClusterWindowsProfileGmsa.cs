@@ -7,14 +7,14 @@ namespace azurerm.KubernetesCluster
     [JsiiInterface(nativeType: typeof(IKubernetesClusterWindowsProfileGmsa), fullyQualifiedName: "azurerm.kubernetesCluster.KubernetesClusterWindowsProfileGmsa")]
     public interface IKubernetesClusterWindowsProfileGmsa
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#dns_server KubernetesCluster#dns_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#dns_server KubernetesCluster#dns_server}.</summary>
         [JsiiProperty(name: "dnsServer", typeJson: "{\"primitive\":\"string\"}")]
         string DnsServer
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#root_domain KubernetesCluster#root_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#root_domain KubernetesCluster#root_domain}.</summary>
         [JsiiProperty(name: "rootDomain", typeJson: "{\"primitive\":\"string\"}")]
         string RootDomain
         {
@@ -28,14 +28,14 @@ namespace azurerm.KubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#dns_server KubernetesCluster#dns_server}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#dns_server KubernetesCluster#dns_server}.</summary>
             [JsiiProperty(name: "dnsServer", typeJson: "{\"primitive\":\"string\"}")]
             public string DnsServer
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#root_domain KubernetesCluster#root_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#root_domain KubernetesCluster#root_domain}.</summary>
             [JsiiProperty(name: "rootDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string RootDomain
             {

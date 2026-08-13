@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermResourceGroup
     [JsiiInterface(nativeType: typeof(IDataAzurermResourceGroupTimeouts), fullyQualifiedName: "azurerm.dataAzurermResourceGroup.DataAzurermResourceGroupTimeouts")]
     public interface IDataAzurermResourceGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/resource_group#read DataAzurermResourceGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/resource_group#read DataAzurermResourceGroup#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermResourceGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/resource_group#read DataAzurermResourceGroup#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/resource_group#read DataAzurermResourceGroup#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

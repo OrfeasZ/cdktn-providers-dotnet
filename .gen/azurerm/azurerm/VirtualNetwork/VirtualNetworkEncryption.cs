@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetwork
     [JsiiByValue(fqn: "azurerm.virtualNetwork.VirtualNetworkEncryption")]
     public class VirtualNetworkEncryption : azurerm.VirtualNetwork.IVirtualNetworkEncryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network#enforcement VirtualNetwork#enforcement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network#enforcement VirtualNetwork#enforcement}.</summary>
         [JsiiProperty(name: "enforcement", typeJson: "{\"primitive\":\"string\"}")]
         public string Enforcement
         {

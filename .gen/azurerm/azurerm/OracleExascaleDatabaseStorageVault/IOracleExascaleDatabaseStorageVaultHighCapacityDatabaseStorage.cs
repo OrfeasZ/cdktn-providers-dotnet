@@ -7,7 +7,7 @@ namespace azurerm.OracleExascaleDatabaseStorageVault
     [JsiiInterface(nativeType: typeof(IOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorage), fullyQualifiedName: "azurerm.oracleExascaleDatabaseStorageVault.OracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorage")]
     public interface IOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/oracle_exascale_database_storage_vault#total_size_in_gb OracleExascaleDatabaseStorageVault#total_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/oracle_exascale_database_storage_vault#total_size_in_gb OracleExascaleDatabaseStorageVault#total_size_in_gb}.</summary>
         [JsiiProperty(name: "totalSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         double TotalSizeInGb
         {
@@ -21,7 +21,7 @@ namespace azurerm.OracleExascaleDatabaseStorageVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/oracle_exascale_database_storage_vault#total_size_in_gb OracleExascaleDatabaseStorageVault#total_size_in_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/oracle_exascale_database_storage_vault#total_size_in_gb OracleExascaleDatabaseStorageVault#total_size_in_gb}.</summary>
             [JsiiProperty(name: "totalSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
             public double TotalSizeInGb
             {

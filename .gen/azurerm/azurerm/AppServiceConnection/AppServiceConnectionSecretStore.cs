@@ -9,7 +9,7 @@ namespace azurerm.AppServiceConnection
     [JsiiByValue(fqn: "azurerm.appServiceConnection.AppServiceConnectionSecretStore")]
     public class AppServiceConnectionSecretStore : azurerm.AppServiceConnection.IAppServiceConnectionSecretStore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_connection#key_vault_id AppServiceConnection#key_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/app_service_connection#key_vault_id AppServiceConnection#key_vault_id}.</summary>
         [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultId
         {

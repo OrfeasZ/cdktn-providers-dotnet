@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbSqlTrigger
     [JsiiByValue(fqn: "azurerm.cosmosdbSqlTrigger.CosmosdbSqlTriggerConfig")]
     public class CosmosdbSqlTriggerConfig : azurerm.CosmosdbSqlTrigger.ICosmosdbSqlTriggerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_trigger#body CosmosdbSqlTrigger#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_trigger#body CosmosdbSqlTrigger#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
         public string Body
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbSqlTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_trigger#container_id CosmosdbSqlTrigger#container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_trigger#container_id CosmosdbSqlTrigger#container_id}.</summary>
         [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerId
         {
@@ -25,7 +25,7 @@ namespace azurerm.CosmosdbSqlTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_trigger#name CosmosdbSqlTrigger#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_trigger#name CosmosdbSqlTrigger#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.CosmosdbSqlTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_trigger#operation CosmosdbSqlTrigger#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_trigger#operation CosmosdbSqlTrigger#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         public string Operation
         {
@@ -41,7 +41,7 @@ namespace azurerm.CosmosdbSqlTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_trigger#type CosmosdbSqlTrigger#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_trigger#type CosmosdbSqlTrigger#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -49,7 +49,7 @@ namespace azurerm.CosmosdbSqlTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_trigger#id CosmosdbSqlTrigger#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_trigger#id CosmosdbSqlTrigger#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.CosmosdbSqlTrigger
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_trigger#timeouts CosmosdbSqlTrigger#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_trigger#timeouts CosmosdbSqlTrigger#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cosmosdbSqlTrigger.CosmosdbSqlTriggerTimeouts\"}", isOptional: true)]

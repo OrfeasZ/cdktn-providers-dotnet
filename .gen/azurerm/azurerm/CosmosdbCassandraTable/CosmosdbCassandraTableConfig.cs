@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbCassandraTable
     [JsiiByValue(fqn: "azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableConfig")]
     public class CosmosdbCassandraTableConfig : azurerm.CosmosdbCassandraTable.ICosmosdbCassandraTableConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#cassandra_keyspace_id CosmosdbCassandraTable#cassandra_keyspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#cassandra_keyspace_id CosmosdbCassandraTable#cassandra_keyspace_id}.</summary>
         [JsiiProperty(name: "cassandraKeyspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string CassandraKeyspaceId
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbCassandraTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace azurerm.CosmosdbCassandraTable
 
         /// <summary>schema block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#schema CosmosdbCassandraTable#schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#schema CosmosdbCassandraTable#schema}
         /// </remarks>
         [JsiiProperty(name: "schema", typeJson: "{\"fqn\":\"azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableSchema\"}")]
         public azurerm.CosmosdbCassandraTable.ICosmosdbCassandraTableSchema Schema
@@ -36,7 +36,7 @@ namespace azurerm.CosmosdbCassandraTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#analytical_storage_ttl CosmosdbCassandraTable#analytical_storage_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#analytical_storage_ttl CosmosdbCassandraTable#analytical_storage_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "analyticalStorageTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AnalyticalStorageTtl
@@ -47,7 +47,7 @@ namespace azurerm.CosmosdbCassandraTable
 
         /// <summary>autoscale_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#autoscale_settings CosmosdbCassandraTable#autoscale_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#autoscale_settings CosmosdbCassandraTable#autoscale_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoscaleSettings", typeJson: "{\"fqn\":\"azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableAutoscaleSettings\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace azurerm.CosmosdbCassandraTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#default_ttl CosmosdbCassandraTable#default_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#default_ttl CosmosdbCassandraTable#default_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DefaultTtl
@@ -66,7 +66,7 @@ namespace azurerm.CosmosdbCassandraTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#id CosmosdbCassandraTable#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#id CosmosdbCassandraTable#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,7 +79,7 @@ namespace azurerm.CosmosdbCassandraTable
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#throughput CosmosdbCassandraTable#throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#throughput CosmosdbCassandraTable#throughput}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Throughput
@@ -90,7 +90,7 @@ namespace azurerm.CosmosdbCassandraTable
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#timeouts CosmosdbCassandraTable#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#timeouts CosmosdbCassandraTable#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableTimeouts\"}", isOptional: true)]

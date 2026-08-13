@@ -9,7 +9,7 @@ namespace azurerm.DnsSrvRecord
     [JsiiByValue(fqn: "azurerm.dnsSrvRecord.DnsSrvRecordRecord")]
     public class DnsSrvRecordRecord : azurerm.DnsSrvRecord.IDnsSrvRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_srv_record#port DnsSrvRecord#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_srv_record#port DnsSrvRecord#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -17,7 +17,7 @@ namespace azurerm.DnsSrvRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_srv_record#priority DnsSrvRecord#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_srv_record#priority DnsSrvRecord#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -25,7 +25,7 @@ namespace azurerm.DnsSrvRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_srv_record#target DnsSrvRecord#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_srv_record#target DnsSrvRecord#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         public string Target
         {
@@ -33,7 +33,7 @@ namespace azurerm.DnsSrvRecord
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_srv_record#weight DnsSrvRecord#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_srv_record#weight DnsSrvRecord#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         public double Weight
         {

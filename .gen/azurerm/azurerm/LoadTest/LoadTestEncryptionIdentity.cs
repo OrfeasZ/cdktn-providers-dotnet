@@ -9,7 +9,7 @@ namespace azurerm.LoadTest
     [JsiiByValue(fqn: "azurerm.loadTest.LoadTestEncryptionIdentity")]
     public class LoadTestEncryptionIdentity : azurerm.LoadTest.ILoadTestEncryptionIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/load_test#identity_id LoadTest#identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/load_test#identity_id LoadTest#identity_id}.</summary>
         [JsiiProperty(name: "identityId", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentityId
         {
@@ -17,7 +17,7 @@ namespace azurerm.LoadTest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/load_test#type LoadTest#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/load_test#type LoadTest#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

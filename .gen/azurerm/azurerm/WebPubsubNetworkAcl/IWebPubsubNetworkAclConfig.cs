@@ -9,7 +9,7 @@ namespace azurerm.WebPubsubNetworkAcl
     {
         /// <summary>public_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#public_network WebPubsubNetworkAcl#public_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#public_network WebPubsubNetworkAcl#public_network}
         /// </remarks>
         [JsiiProperty(name: "publicNetwork", typeJson: "{\"fqn\":\"azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPublicNetwork\"}")]
         azurerm.WebPubsubNetworkAcl.IWebPubsubNetworkAclPublicNetwork PublicNetwork
@@ -17,14 +17,14 @@ namespace azurerm.WebPubsubNetworkAcl
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#web_pubsub_id WebPubsubNetworkAcl#web_pubsub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#web_pubsub_id WebPubsubNetworkAcl#web_pubsub_id}.</summary>
         [JsiiProperty(name: "webPubsubId", typeJson: "{\"primitive\":\"string\"}")]
         string WebPubsubId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#default_action WebPubsubNetworkAcl#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#default_action WebPubsubNetworkAcl#default_action}.</summary>
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultAction
@@ -35,7 +35,7 @@ namespace azurerm.WebPubsubNetworkAcl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#id WebPubsubNetworkAcl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#id WebPubsubNetworkAcl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ namespace azurerm.WebPubsubNetworkAcl
 
         /// <summary>private_endpoint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#private_endpoint WebPubsubNetworkAcl#private_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#private_endpoint WebPubsubNetworkAcl#private_endpoint}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WebPubsubNetworkAcl.IWebPubsubNetworkAclPrivateEndpoint" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "privateEndpoint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPrivateEndpoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azurerm.WebPubsubNetworkAcl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#timeouts WebPubsubNetworkAcl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#timeouts WebPubsubNetworkAcl#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace azurerm.WebPubsubNetworkAcl
 
             /// <summary>public_network block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#public_network WebPubsubNetworkAcl#public_network}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#public_network WebPubsubNetworkAcl#public_network}
             /// </remarks>
             [JsiiProperty(name: "publicNetwork", typeJson: "{\"fqn\":\"azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclPublicNetwork\"}")]
             public azurerm.WebPubsubNetworkAcl.IWebPubsubNetworkAclPublicNetwork PublicNetwork
@@ -96,14 +96,14 @@ namespace azurerm.WebPubsubNetworkAcl
                 get => GetInstanceProperty<azurerm.WebPubsubNetworkAcl.IWebPubsubNetworkAclPublicNetwork>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#web_pubsub_id WebPubsubNetworkAcl#web_pubsub_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#web_pubsub_id WebPubsubNetworkAcl#web_pubsub_id}.</summary>
             [JsiiProperty(name: "webPubsubId", typeJson: "{\"primitive\":\"string\"}")]
             public string WebPubsubId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#default_action WebPubsubNetworkAcl#default_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#default_action WebPubsubNetworkAcl#default_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultAction
@@ -111,7 +111,7 @@ namespace azurerm.WebPubsubNetworkAcl
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#id WebPubsubNetworkAcl#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#id WebPubsubNetworkAcl#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,7 +125,7 @@ namespace azurerm.WebPubsubNetworkAcl
 
             /// <summary>private_endpoint block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#private_endpoint WebPubsubNetworkAcl#private_endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#private_endpoint WebPubsubNetworkAcl#private_endpoint}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WebPubsubNetworkAcl.IWebPubsubNetworkAclPrivateEndpoint" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -137,7 +137,7 @@ namespace azurerm.WebPubsubNetworkAcl
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_network_acl#timeouts WebPubsubNetworkAcl#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_network_acl#timeouts WebPubsubNetworkAcl#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.webPubsubNetworkAcl.WebPubsubNetworkAclTimeouts\"}", isOptional: true)]

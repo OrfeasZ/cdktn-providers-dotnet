@@ -7,42 +7,42 @@ namespace azurerm.CognitiveAccountConnectionAccountManagedIdentity
     [JsiiInterface(nativeType: typeof(ICognitiveAccountConnectionAccountManagedIdentityConfig), fullyQualifiedName: "azurerm.cognitiveAccountConnectionAccountManagedIdentity.CognitiveAccountConnectionAccountManagedIdentityConfig")]
     public interface ICognitiveAccountConnectionAccountManagedIdentityConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#category CognitiveAccountConnectionAccountManagedIdentity#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#category CognitiveAccountConnectionAccountManagedIdentity#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         string Category
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#cognitive_account_id CognitiveAccountConnectionAccountManagedIdentity#cognitive_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#cognitive_account_id CognitiveAccountConnectionAccountManagedIdentity#cognitive_account_id}.</summary>
         [JsiiProperty(name: "cognitiveAccountId", typeJson: "{\"primitive\":\"string\"}")]
         string CognitiveAccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#metadata CognitiveAccountConnectionAccountManagedIdentity#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#metadata CognitiveAccountConnectionAccountManagedIdentity#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         System.Collections.Generic.IDictionary<string, string> Metadata
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#name CognitiveAccountConnectionAccountManagedIdentity#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#name CognitiveAccountConnectionAccountManagedIdentity#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#target CognitiveAccountConnectionAccountManagedIdentity#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#target CognitiveAccountConnectionAccountManagedIdentity#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
         string Target
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#id CognitiveAccountConnectionAccountManagedIdentity#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#id CognitiveAccountConnectionAccountManagedIdentity#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace azurerm.CognitiveAccountConnectionAccountManagedIdentity
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#timeouts CognitiveAccountConnectionAccountManagedIdentity#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#timeouts CognitiveAccountConnectionAccountManagedIdentity#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cognitiveAccountConnectionAccountManagedIdentity.CognitiveAccountConnectionAccountManagedIdentityTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,42 +78,42 @@ namespace azurerm.CognitiveAccountConnectionAccountManagedIdentity
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#category CognitiveAccountConnectionAccountManagedIdentity#category}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#category CognitiveAccountConnectionAccountManagedIdentity#category}.</summary>
             [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
             public string Category
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#cognitive_account_id CognitiveAccountConnectionAccountManagedIdentity#cognitive_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#cognitive_account_id CognitiveAccountConnectionAccountManagedIdentity#cognitive_account_id}.</summary>
             [JsiiProperty(name: "cognitiveAccountId", typeJson: "{\"primitive\":\"string\"}")]
             public string CognitiveAccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#metadata CognitiveAccountConnectionAccountManagedIdentity#metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#metadata CognitiveAccountConnectionAccountManagedIdentity#metadata}.</summary>
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
             public System.Collections.Generic.IDictionary<string, string> Metadata
             {
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#name CognitiveAccountConnectionAccountManagedIdentity#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#name CognitiveAccountConnectionAccountManagedIdentity#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#target CognitiveAccountConnectionAccountManagedIdentity#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#target CognitiveAccountConnectionAccountManagedIdentity#target}.</summary>
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
             public string Target
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#id CognitiveAccountConnectionAccountManagedIdentity#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#id CognitiveAccountConnectionAccountManagedIdentity#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,7 +127,7 @@ namespace azurerm.CognitiveAccountConnectionAccountManagedIdentity
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cognitive_account_connection_account_managed_identity#timeouts CognitiveAccountConnectionAccountManagedIdentity#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cognitive_account_connection_account_managed_identity#timeouts CognitiveAccountConnectionAccountManagedIdentity#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cognitiveAccountConnectionAccountManagedIdentity.CognitiveAccountConnectionAccountManagedIdentityTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbCassandraTable
     [JsiiByValue(fqn: "azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableSchemaPartitionKey")]
     public class CosmosdbCassandraTableSchemaPartitionKey : azurerm.CosmosdbCassandraTable.ICosmosdbCassandraTableSchemaPartitionKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

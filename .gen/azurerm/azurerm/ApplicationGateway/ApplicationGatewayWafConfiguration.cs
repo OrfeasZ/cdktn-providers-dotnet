@@ -11,7 +11,7 @@ namespace azurerm.ApplicationGateway
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#enabled ApplicationGateway#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#enabled ApplicationGateway#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azurerm.ApplicationGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#firewall_mode ApplicationGateway#firewall_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#firewall_mode ApplicationGateway#firewall_mode}.</summary>
         [JsiiProperty(name: "firewallMode", typeJson: "{\"primitive\":\"string\"}")]
         public string FirewallMode
         {
@@ -50,7 +50,7 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#rule_set_version ApplicationGateway#rule_set_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#rule_set_version ApplicationGateway#rule_set_version}.</summary>
         [JsiiProperty(name: "ruleSetVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleSetVersion
         {
@@ -62,7 +62,7 @@ namespace azurerm.ApplicationGateway
 
         /// <summary>disabled_rule_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#disabled_rule_group ApplicationGateway#disabled_rule_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#disabled_rule_group ApplicationGateway#disabled_rule_group}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayWafConfigurationDisabledRuleGroup" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -97,7 +97,7 @@ namespace azurerm.ApplicationGateway
 
         /// <summary>exclusion block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#exclusion ApplicationGateway#exclusion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#exclusion ApplicationGateway#exclusion}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApplicationGateway.IApplicationGatewayWafConfigurationExclusion" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -128,7 +128,7 @@ namespace azurerm.ApplicationGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#file_upload_limit_mb ApplicationGateway#file_upload_limit_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#file_upload_limit_mb ApplicationGateway#file_upload_limit_mb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileUploadLimitMb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FileUploadLimitMb
@@ -137,7 +137,7 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#max_request_body_size_kb ApplicationGateway#max_request_body_size_kb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#max_request_body_size_kb ApplicationGateway#max_request_body_size_kb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxRequestBodySizeKb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxRequestBodySizeKb
@@ -148,7 +148,7 @@ namespace azurerm.ApplicationGateway
 
         private object? _requestBodyCheck;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#request_body_check ApplicationGateway#request_body_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#request_body_check ApplicationGateway#request_body_check}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -180,7 +180,7 @@ namespace azurerm.ApplicationGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#rule_set_type ApplicationGateway#rule_set_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#rule_set_type ApplicationGateway#rule_set_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ruleSetType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuleSetType

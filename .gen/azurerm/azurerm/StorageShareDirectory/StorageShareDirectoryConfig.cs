@@ -9,7 +9,7 @@ namespace azurerm.StorageShareDirectory
     [JsiiByValue(fqn: "azurerm.storageShareDirectory.StorageShareDirectoryConfig")]
     public class StorageShareDirectoryConfig : azurerm.StorageShareDirectory.IStorageShareDirectoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_directory#name StorageShareDirectory#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_share_directory#name StorageShareDirectory#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageShareDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_directory#storage_share_url StorageShareDirectory#storage_share_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_share_directory#storage_share_url StorageShareDirectory#storage_share_url}.</summary>
         [JsiiProperty(name: "storageShareUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageShareUrl
         {
@@ -25,7 +25,7 @@ namespace azurerm.StorageShareDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_directory#id StorageShareDirectory#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_share_directory#id StorageShareDirectory#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace azurerm.StorageShareDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_directory#metadata StorageShareDirectory#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_share_directory#metadata StorageShareDirectory#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -49,7 +49,7 @@ namespace azurerm.StorageShareDirectory
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_share_directory#timeouts StorageShareDirectory#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_share_directory#timeouts StorageShareDirectory#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageShareDirectory.StorageShareDirectoryTimeouts\"}", isOptional: true)]

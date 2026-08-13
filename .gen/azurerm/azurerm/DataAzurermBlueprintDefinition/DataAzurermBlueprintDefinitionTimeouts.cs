@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBlueprintDefinition
     [JsiiByValue(fqn: "azurerm.dataAzurermBlueprintDefinition.DataAzurermBlueprintDefinitionTimeouts")]
     public class DataAzurermBlueprintDefinitionTimeouts : azurerm.DataAzurermBlueprintDefinition.IDataAzurermBlueprintDefinitionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/blueprint_definition#read DataAzurermBlueprintDefinition#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/blueprint_definition#read DataAzurermBlueprintDefinition#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

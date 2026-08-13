@@ -9,7 +9,7 @@ namespace azurerm.DataFactory
     [JsiiByValue(fqn: "azurerm.dataFactory.DataFactoryConfig")]
     public class DataFactoryConfig : azurerm.DataFactory.IDataFactoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#location DataFactory#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#location DataFactory#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#name DataFactory#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#name DataFactory#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#resource_group_name DataFactory#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#resource_group_name DataFactory#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#customer_managed_key_id DataFactory#customer_managed_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#customer_managed_key_id DataFactory#customer_managed_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customerManagedKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomerManagedKeyId
@@ -42,7 +42,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#customer_managed_key_identity_id DataFactory#customer_managed_key_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#customer_managed_key_identity_id DataFactory#customer_managed_key_identity_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customerManagedKeyIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomerManagedKeyIdentityId
@@ -53,7 +53,7 @@ namespace azurerm.DataFactory
 
         /// <summary>github_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#github_configuration DataFactory#github_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#github_configuration DataFactory#github_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "githubConfiguration", typeJson: "{\"fqn\":\"azurerm.dataFactory.DataFactoryGithubConfiguration\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azurerm.DataFactory
 
         /// <summary>global_parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#global_parameter DataFactory#global_parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#global_parameter DataFactory#global_parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.DataFactory.IDataFactoryGlobalParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -98,7 +98,7 @@ namespace azurerm.DataFactory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#id DataFactory#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#id DataFactory#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +113,7 @@ namespace azurerm.DataFactory
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#identity DataFactory#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#identity DataFactory#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.dataFactory.DataFactoryIdentity\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace azurerm.DataFactory
 
         private object? _managedVirtualNetworkEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#managed_virtual_network_enabled DataFactory#managed_virtual_network_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#managed_virtual_network_enabled DataFactory#managed_virtual_network_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -159,7 +159,7 @@ namespace azurerm.DataFactory
 
         private object? _publicNetworkEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#public_network_enabled DataFactory#public_network_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#public_network_enabled DataFactory#public_network_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -191,7 +191,7 @@ namespace azurerm.DataFactory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#purview_id DataFactory#purview_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#purview_id DataFactory#purview_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "purviewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PurviewId
@@ -200,7 +200,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#tags DataFactory#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#tags DataFactory#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -211,7 +211,7 @@ namespace azurerm.DataFactory
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#timeouts DataFactory#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#timeouts DataFactory#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataFactory.DataFactoryTimeouts\"}", isOptional: true)]
@@ -223,7 +223,7 @@ namespace azurerm.DataFactory
 
         /// <summary>vsts_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory#vsts_configuration DataFactory#vsts_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory#vsts_configuration DataFactory#vsts_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vstsConfiguration", typeJson: "{\"fqn\":\"azurerm.dataFactory.DataFactoryVstsConfiguration\"}", isOptional: true)]

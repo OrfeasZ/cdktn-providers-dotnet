@@ -9,7 +9,7 @@ namespace azurerm.MachineLearningComputeInstance
     [JsiiByValue(fqn: "azurerm.machineLearningComputeInstance.MachineLearningComputeInstanceIdentity")]
     public class MachineLearningComputeInstanceIdentity : azurerm.MachineLearningComputeInstance.IMachineLearningComputeInstanceIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_instance#type MachineLearningComputeInstance#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_instance#type MachineLearningComputeInstance#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.MachineLearningComputeInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/machine_learning_compute_instance#identity_ids MachineLearningComputeInstance#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/machine_learning_compute_instance#identity_ids MachineLearningComputeInstance#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

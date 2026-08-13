@@ -7,7 +7,7 @@ namespace azurerm.SharedImageGallery
     [JsiiInterface(nativeType: typeof(ISharedImageGallerySharing), fullyQualifiedName: "azurerm.sharedImageGallery.SharedImageGallerySharing")]
     public interface ISharedImageGallerySharing
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/shared_image_gallery#permission SharedImageGallery#permission}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image_gallery#permission SharedImageGallery#permission}.</summary>
         [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
         string Permission
         {
@@ -16,7 +16,7 @@ namespace azurerm.SharedImageGallery
 
         /// <summary>community_gallery block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/shared_image_gallery#community_gallery SharedImageGallery#community_gallery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image_gallery#community_gallery SharedImageGallery#community_gallery}
         /// </remarks>
         [JsiiProperty(name: "communityGallery", typeJson: "{\"fqn\":\"azurerm.sharedImageGallery.SharedImageGallerySharingCommunityGallery\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azurerm.SharedImageGallery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/shared_image_gallery#permission SharedImageGallery#permission}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image_gallery#permission SharedImageGallery#permission}.</summary>
             [JsiiProperty(name: "permission", typeJson: "{\"primitive\":\"string\"}")]
             public string Permission
             {
@@ -44,7 +44,7 @@ namespace azurerm.SharedImageGallery
 
             /// <summary>community_gallery block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/shared_image_gallery#community_gallery SharedImageGallery#community_gallery}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image_gallery#community_gallery SharedImageGallery#community_gallery}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "communityGallery", typeJson: "{\"fqn\":\"azurerm.sharedImageGallery.SharedImageGallerySharingCommunityGallery\"}", isOptional: true)]

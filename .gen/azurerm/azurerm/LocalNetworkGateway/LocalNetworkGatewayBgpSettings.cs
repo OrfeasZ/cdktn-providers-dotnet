@@ -9,7 +9,7 @@ namespace azurerm.LocalNetworkGateway
     [JsiiByValue(fqn: "azurerm.localNetworkGateway.LocalNetworkGatewayBgpSettings")]
     public class LocalNetworkGatewayBgpSettings : azurerm.LocalNetworkGateway.ILocalNetworkGatewayBgpSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/local_network_gateway#asn LocalNetworkGateway#asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/local_network_gateway#asn LocalNetworkGateway#asn}.</summary>
         [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
         public double Asn
         {
@@ -17,7 +17,7 @@ namespace azurerm.LocalNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/local_network_gateway#bgp_peering_address LocalNetworkGateway#bgp_peering_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/local_network_gateway#bgp_peering_address LocalNetworkGateway#bgp_peering_address}.</summary>
         [JsiiProperty(name: "bgpPeeringAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string BgpPeeringAddress
         {
@@ -25,7 +25,7 @@ namespace azurerm.LocalNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/local_network_gateway#peer_weight LocalNetworkGateway#peer_weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/local_network_gateway#peer_weight LocalNetworkGateway#peer_weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peerWeight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PeerWeight

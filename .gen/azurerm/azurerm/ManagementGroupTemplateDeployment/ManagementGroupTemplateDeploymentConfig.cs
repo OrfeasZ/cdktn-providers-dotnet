@@ -9,7 +9,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
     [JsiiByValue(fqn: "azurerm.managementGroupTemplateDeployment.ManagementGroupTemplateDeploymentConfig")]
     public class ManagementGroupTemplateDeploymentConfig : azurerm.ManagementGroupTemplateDeployment.IManagementGroupTemplateDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#location ManagementGroupTemplateDeployment#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#location ManagementGroupTemplateDeployment#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#management_group_id ManagementGroupTemplateDeployment#management_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#management_group_id ManagementGroupTemplateDeployment#management_group_id}.</summary>
         [JsiiProperty(name: "managementGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementGroupId
         {
@@ -25,7 +25,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#name ManagementGroupTemplateDeployment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#name ManagementGroupTemplateDeployment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#debug_level ManagementGroupTemplateDeployment#debug_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#debug_level ManagementGroupTemplateDeployment#debug_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "debugLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DebugLevel
@@ -42,7 +42,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#id ManagementGroupTemplateDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#id ManagementGroupTemplateDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#parameters_content ManagementGroupTemplateDeployment#parameters_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#parameters_content ManagementGroupTemplateDeployment#parameters_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parametersContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ParametersContent
@@ -64,7 +64,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#tags ManagementGroupTemplateDeployment#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#tags ManagementGroupTemplateDeployment#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -73,7 +73,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#template_content ManagementGroupTemplateDeployment#template_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#template_content ManagementGroupTemplateDeployment#template_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "templateContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TemplateContent
@@ -82,7 +82,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#template_spec_version_id ManagementGroupTemplateDeployment#template_spec_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#template_spec_version_id ManagementGroupTemplateDeployment#template_spec_version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "templateSpecVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TemplateSpecVersionId
@@ -93,7 +93,7 @@ namespace azurerm.ManagementGroupTemplateDeployment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_template_deployment#timeouts ManagementGroupTemplateDeployment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_template_deployment#timeouts ManagementGroupTemplateDeployment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.managementGroupTemplateDeployment.ManagementGroupTemplateDeploymentTimeouts\"}", isOptional: true)]

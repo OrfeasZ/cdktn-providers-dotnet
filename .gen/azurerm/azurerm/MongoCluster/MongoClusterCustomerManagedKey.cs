@@ -9,7 +9,7 @@ namespace azurerm.MongoCluster
     [JsiiByValue(fqn: "azurerm.mongoCluster.MongoClusterCustomerManagedKey")]
     public class MongoClusterCustomerManagedKey : azurerm.MongoCluster.IMongoClusterCustomerManagedKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster#key_vault_key_id MongoCluster#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mongo_cluster#key_vault_key_id MongoCluster#key_vault_key_id}.</summary>
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultKeyId
         {
@@ -17,7 +17,7 @@ namespace azurerm.MongoCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/mongo_cluster#user_assigned_identity_id MongoCluster#user_assigned_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mongo_cluster#user_assigned_identity_id MongoCluster#user_assigned_identity_id}.</summary>
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserAssignedIdentityId
         {

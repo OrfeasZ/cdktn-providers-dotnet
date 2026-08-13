@@ -9,7 +9,7 @@ namespace azurerm.LinuxVirtualMachineScaleSet
     [JsiiByValue(fqn: "azurerm.linuxVirtualMachineScaleSet.LinuxVirtualMachineScaleSetSecretCertificate")]
     public class LinuxVirtualMachineScaleSetSecretCertificate : azurerm.LinuxVirtualMachineScaleSet.ILinuxVirtualMachineScaleSetSecretCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_virtual_machine_scale_set#url LinuxVirtualMachineScaleSet#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_virtual_machine_scale_set#url LinuxVirtualMachineScaleSet#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
         {

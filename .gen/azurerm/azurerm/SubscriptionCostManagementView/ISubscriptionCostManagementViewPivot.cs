@@ -7,14 +7,14 @@ namespace azurerm.SubscriptionCostManagementView
     [JsiiInterface(nativeType: typeof(ISubscriptionCostManagementViewPivot), fullyQualifiedName: "azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivot")]
     public interface ISubscriptionCostManagementViewPivot
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_view#type SubscriptionCostManagementView#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#type SubscriptionCostManagementView#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -28,14 +28,14 @@ namespace azurerm.SubscriptionCostManagementView
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_view#type SubscriptionCostManagementView#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#type SubscriptionCostManagementView#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

@@ -9,7 +9,7 @@ namespace azurerm.TrafficManagerProfile
     [JsiiByValue(fqn: "azurerm.trafficManagerProfile.TrafficManagerProfileMonitorConfigCustomHeader")]
     public class TrafficManagerProfileMonitorConfigCustomHeader : azurerm.TrafficManagerProfile.ITrafficManagerProfileMonitorConfigCustomHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#name TrafficManagerProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#name TrafficManagerProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.TrafficManagerProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_profile#value TrafficManagerProfile#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_profile#value TrafficManagerProfile#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

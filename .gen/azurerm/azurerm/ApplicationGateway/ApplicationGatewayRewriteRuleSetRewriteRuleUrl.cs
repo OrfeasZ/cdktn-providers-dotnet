@@ -7,7 +7,7 @@ namespace azurerm.ApplicationGateway
     [JsiiByValue(fqn: "azurerm.applicationGateway.ApplicationGatewayRewriteRuleSetRewriteRuleUrl")]
     public class ApplicationGatewayRewriteRuleSetRewriteRuleUrl : azurerm.ApplicationGateway.IApplicationGatewayRewriteRuleSetRewriteRuleUrl
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#components ApplicationGateway#components}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#components ApplicationGateway#components}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "components", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Components
@@ -16,7 +16,7 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#path ApplicationGateway#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#path ApplicationGateway#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -25,7 +25,7 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#query_string ApplicationGateway#query_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#query_string ApplicationGateway#query_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "queryString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QueryString
@@ -36,7 +36,7 @@ namespace azurerm.ApplicationGateway
 
         private object? _reroute;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#reroute ApplicationGateway#reroute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#reroute ApplicationGateway#reroute}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

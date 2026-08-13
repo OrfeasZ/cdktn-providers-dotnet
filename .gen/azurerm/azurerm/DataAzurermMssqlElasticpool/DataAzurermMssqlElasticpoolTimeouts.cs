@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMssqlElasticpool
     [JsiiByValue(fqn: "azurerm.dataAzurermMssqlElasticpool.DataAzurermMssqlElasticpoolTimeouts")]
     public class DataAzurermMssqlElasticpoolTimeouts : azurerm.DataAzurermMssqlElasticpool.IDataAzurermMssqlElasticpoolTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/mssql_elasticpool#read DataAzurermMssqlElasticpool#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/mssql_elasticpool#read DataAzurermMssqlElasticpool#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

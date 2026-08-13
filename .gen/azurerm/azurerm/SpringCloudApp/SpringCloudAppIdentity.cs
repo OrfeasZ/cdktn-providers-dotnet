@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudApp
     [JsiiByValue(fqn: "azurerm.springCloudApp.SpringCloudAppIdentity")]
     public class SpringCloudAppIdentity : azurerm.SpringCloudApp.ISpringCloudAppIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_app#type SpringCloudApp#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_app#type SpringCloudApp#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.SpringCloudApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_app#identity_ids SpringCloudApp#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_app#identity_ids SpringCloudApp#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

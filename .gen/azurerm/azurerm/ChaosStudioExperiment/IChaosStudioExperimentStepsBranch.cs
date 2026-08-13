@@ -9,7 +9,7 @@ namespace azurerm.ChaosStudioExperiment
     {
         /// <summary>actions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/chaos_studio_experiment#actions ChaosStudioExperiment#actions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#actions ChaosStudioExperiment#actions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ChaosStudioExperiment.IChaosStudioExperimentStepsBranchActions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "actions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActions\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace azurerm.ChaosStudioExperiment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/chaos_studio_experiment#name ChaosStudioExperiment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#name ChaosStudioExperiment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -34,7 +34,7 @@ namespace azurerm.ChaosStudioExperiment
 
             /// <summary>actions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/chaos_studio_experiment#actions ChaosStudioExperiment#actions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#actions ChaosStudioExperiment#actions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ChaosStudioExperiment.IChaosStudioExperimentStepsBranchActions" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "actions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActions\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace azurerm.ChaosStudioExperiment
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/chaos_studio_experiment#name ChaosStudioExperiment#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#name ChaosStudioExperiment#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachine
     [JsiiByValue(fqn: "azurerm.virtualMachine.VirtualMachineConfig")]
     public class VirtualMachineConfig : azurerm.VirtualMachine.IVirtualMachineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#location VirtualMachine#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#location VirtualMachine#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#name VirtualMachine#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#name VirtualMachine#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#network_interface_ids VirtualMachine#network_interface_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#network_interface_ids VirtualMachine#network_interface_ids}.</summary>
         [JsiiProperty(name: "networkInterfaceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] NetworkInterfaceIds
         {
@@ -33,7 +33,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#resource_group_name VirtualMachine#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#resource_group_name VirtualMachine#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -43,7 +43,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>storage_os_disk block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#storage_os_disk VirtualMachine#storage_os_disk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#storage_os_disk VirtualMachine#storage_os_disk}
         /// </remarks>
         [JsiiProperty(name: "storageOsDisk", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineStorageOsDisk\"}")]
         public azurerm.VirtualMachine.IVirtualMachineStorageOsDisk StorageOsDisk
@@ -52,7 +52,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#vm_size VirtualMachine#vm_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#vm_size VirtualMachine#vm_size}.</summary>
         [JsiiProperty(name: "vmSize", typeJson: "{\"primitive\":\"string\"}")]
         public string VmSize
         {
@@ -62,7 +62,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>additional_capabilities block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#additional_capabilities VirtualMachine#additional_capabilities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#additional_capabilities VirtualMachine#additional_capabilities}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalCapabilities", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineAdditionalCapabilities\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#availability_set_id VirtualMachine#availability_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#availability_set_id VirtualMachine#availability_set_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilitySetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilitySetId
@@ -83,7 +83,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>boot_diagnostics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#boot_diagnostics VirtualMachine#boot_diagnostics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#boot_diagnostics VirtualMachine#boot_diagnostics}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bootDiagnostics", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineBootDiagnostics\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace azurerm.VirtualMachine
 
         private object? _deleteDataDisksOnTermination;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#delete_data_disks_on_termination VirtualMachine#delete_data_disks_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#delete_data_disks_on_termination VirtualMachine#delete_data_disks_on_termination}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -129,7 +129,7 @@ namespace azurerm.VirtualMachine
 
         private object? _deleteOsDiskOnTermination;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#delete_os_disk_on_termination VirtualMachine#delete_os_disk_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#delete_os_disk_on_termination VirtualMachine#delete_os_disk_on_termination}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -161,7 +161,7 @@ namespace azurerm.VirtualMachine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#id VirtualMachine#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#id VirtualMachine#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -176,7 +176,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#identity VirtualMachine#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#identity VirtualMachine#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineIdentity\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#license_type VirtualMachine#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#license_type VirtualMachine#license_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseType
@@ -197,7 +197,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>os_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#os_profile VirtualMachine#os_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#os_profile VirtualMachine#os_profile}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "osProfile", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineOsProfile\"}", isOptional: true)]
@@ -209,7 +209,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>os_profile_linux_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#os_profile_linux_config VirtualMachine#os_profile_linux_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#os_profile_linux_config VirtualMachine#os_profile_linux_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "osProfileLinuxConfig", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfig\"}", isOptional: true)]
@@ -223,7 +223,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>os_profile_secrets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#os_profile_secrets VirtualMachine#os_profile_secrets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#os_profile_secrets VirtualMachine#os_profile_secrets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualMachine.IVirtualMachineOsProfileSecrets" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -256,7 +256,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>os_profile_windows_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#os_profile_windows_config VirtualMachine#os_profile_windows_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#os_profile_windows_config VirtualMachine#os_profile_windows_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "osProfileWindowsConfig", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfig\"}", isOptional: true)]
@@ -268,7 +268,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>plan block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#plan VirtualMachine#plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#plan VirtualMachine#plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "plan", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachinePlan\"}", isOptional: true)]
@@ -278,7 +278,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#primary_network_interface_id VirtualMachine#primary_network_interface_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#primary_network_interface_id VirtualMachine#primary_network_interface_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primaryNetworkInterfaceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrimaryNetworkInterfaceId
@@ -287,7 +287,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#proximity_placement_group_id VirtualMachine#proximity_placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#proximity_placement_group_id VirtualMachine#proximity_placement_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "proximityPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProximityPlacementGroupId
@@ -300,7 +300,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>storage_data_disk block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#storage_data_disk VirtualMachine#storage_data_disk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#storage_data_disk VirtualMachine#storage_data_disk}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualMachine.IVirtualMachineStorageDataDisk" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -333,7 +333,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>storage_image_reference block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#storage_image_reference VirtualMachine#storage_image_reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#storage_image_reference VirtualMachine#storage_image_reference}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageImageReference", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineStorageImageReference\"}", isOptional: true)]
@@ -343,7 +343,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#tags VirtualMachine#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#tags VirtualMachine#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -354,7 +354,7 @@ namespace azurerm.VirtualMachine
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#timeouts VirtualMachine#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#timeouts VirtualMachine#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.virtualMachine.VirtualMachineTimeouts\"}", isOptional: true)]
@@ -364,7 +364,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#zones VirtualMachine#zones}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#zones VirtualMachine#zones}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zones", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Zones

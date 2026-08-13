@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebApp
     {
         /// <summary>The name which should be used for this Backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#name WindowsWebApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#name WindowsWebApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#schedule WindowsWebApp#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#schedule WindowsWebApp#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppBackupSchedule\"}")]
         azurerm.WindowsWebApp.IWindowsWebAppBackupSchedule Schedule
@@ -29,7 +29,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>The SAS URL to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#storage_account_url WindowsWebApp#storage_account_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#storage_account_url WindowsWebApp#storage_account_url}
         /// </remarks>
         [JsiiProperty(name: "storageAccountUrl", typeJson: "{\"primitive\":\"string\"}")]
         string StorageAccountUrl
@@ -39,7 +39,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>Should this backup job be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>The name which should be used for this Backup.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#name WindowsWebApp#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#name WindowsWebApp#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -71,7 +71,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#schedule WindowsWebApp#schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#schedule WindowsWebApp#schedule}
             /// </remarks>
             [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppBackupSchedule\"}")]
             public azurerm.WindowsWebApp.IWindowsWebAppBackupSchedule Schedule
@@ -81,7 +81,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>The SAS URL to the container.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#storage_account_url WindowsWebApp#storage_account_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#storage_account_url WindowsWebApp#storage_account_url}
             /// </remarks>
             [JsiiProperty(name: "storageAccountUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string StorageAccountUrl
@@ -91,7 +91,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>Should this backup job be enabled?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

@@ -9,7 +9,7 @@ namespace azurerm.DataFactoryDatasetBinary
     [JsiiByValue(fqn: "azurerm.dataFactoryDatasetBinary.DataFactoryDatasetBinaryCompression")]
     public class DataFactoryDatasetBinaryCompression : azurerm.DataFactoryDatasetBinary.IDataFactoryDatasetBinaryCompression
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_binary#type DataFactoryDatasetBinary#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_binary#type DataFactoryDatasetBinary#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactoryDatasetBinary
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_binary#level DataFactoryDatasetBinary#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_binary#level DataFactoryDatasetBinary#level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Level

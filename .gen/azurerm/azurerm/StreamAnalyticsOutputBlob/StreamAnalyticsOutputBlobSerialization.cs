@@ -9,7 +9,7 @@ namespace azurerm.StreamAnalyticsOutputBlob
     [JsiiByValue(fqn: "azurerm.streamAnalyticsOutputBlob.StreamAnalyticsOutputBlobSerialization")]
     public class StreamAnalyticsOutputBlobSerialization : azurerm.StreamAnalyticsOutputBlob.IStreamAnalyticsOutputBlobSerialization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_output_blob#type StreamAnalyticsOutputBlob#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_output_blob#type StreamAnalyticsOutputBlob#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.StreamAnalyticsOutputBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_output_blob#encoding StreamAnalyticsOutputBlob#encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_output_blob#encoding StreamAnalyticsOutputBlob#encoding}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Encoding
@@ -26,7 +26,7 @@ namespace azurerm.StreamAnalyticsOutputBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_output_blob#field_delimiter StreamAnalyticsOutputBlob#field_delimiter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_output_blob#field_delimiter StreamAnalyticsOutputBlob#field_delimiter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fieldDelimiter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FieldDelimiter
@@ -35,7 +35,7 @@ namespace azurerm.StreamAnalyticsOutputBlob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stream_analytics_output_blob#format StreamAnalyticsOutputBlob#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stream_analytics_output_blob#format StreamAnalyticsOutputBlob#format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Format

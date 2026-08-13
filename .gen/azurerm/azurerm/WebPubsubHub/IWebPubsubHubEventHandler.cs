@@ -7,7 +7,7 @@ namespace azurerm.WebPubsubHub
     [JsiiInterface(nativeType: typeof(IWebPubsubHubEventHandler), fullyQualifiedName: "azurerm.webPubsubHub.WebPubsubHubEventHandler")]
     public interface IWebPubsubHubEventHandler
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#url_template WebPubsubHub#url_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#url_template WebPubsubHub#url_template}.</summary>
         [JsiiProperty(name: "urlTemplate", typeJson: "{\"primitive\":\"string\"}")]
         string UrlTemplate
         {
@@ -16,7 +16,7 @@ namespace azurerm.WebPubsubHub
 
         /// <summary>auth block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#auth WebPubsubHub#auth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#auth WebPubsubHub#auth}
         /// </remarks>
         [JsiiProperty(name: "auth", typeJson: "{\"fqn\":\"azurerm.webPubsubHub.WebPubsubHubEventHandlerAuth\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace azurerm.WebPubsubHub
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#system_events WebPubsubHub#system_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#system_events WebPubsubHub#system_events}.</summary>
         [JsiiProperty(name: "systemEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SystemEvents
@@ -39,7 +39,7 @@ namespace azurerm.WebPubsubHub
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#user_event_pattern WebPubsubHub#user_event_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#user_event_pattern WebPubsubHub#user_event_pattern}.</summary>
         [JsiiProperty(name: "userEventPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserEventPattern
@@ -57,7 +57,7 @@ namespace azurerm.WebPubsubHub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#url_template WebPubsubHub#url_template}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#url_template WebPubsubHub#url_template}.</summary>
             [JsiiProperty(name: "urlTemplate", typeJson: "{\"primitive\":\"string\"}")]
             public string UrlTemplate
             {
@@ -66,7 +66,7 @@ namespace azurerm.WebPubsubHub
 
             /// <summary>auth block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#auth WebPubsubHub#auth}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#auth WebPubsubHub#auth}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "auth", typeJson: "{\"fqn\":\"azurerm.webPubsubHub.WebPubsubHubEventHandlerAuth\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace azurerm.WebPubsubHub
                 get => GetInstanceProperty<azurerm.WebPubsubHub.IWebPubsubHubEventHandlerAuth?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#system_events WebPubsubHub#system_events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#system_events WebPubsubHub#system_events}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SystemEvents
@@ -83,7 +83,7 @@ namespace azurerm.WebPubsubHub
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_pubsub_hub#user_event_pattern WebPubsubHub#user_event_pattern}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_pubsub_hub#user_event_pattern WebPubsubHub#user_event_pattern}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userEventPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserEventPattern

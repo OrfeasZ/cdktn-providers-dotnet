@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachineScaleSet
     [JsiiByValue(fqn: "azurerm.virtualMachineScaleSet.VirtualMachineScaleSetPlan")]
     public class VirtualMachineScaleSetPlan : azurerm.VirtualMachineScaleSet.IVirtualMachineScaleSetPlan
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_scale_set#name VirtualMachineScaleSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_scale_set#name VirtualMachineScaleSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachineScaleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_scale_set#product VirtualMachineScaleSet#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_scale_set#product VirtualMachineScaleSet#product}.</summary>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualMachineScaleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_scale_set#publisher VirtualMachineScaleSet#publisher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_scale_set#publisher VirtualMachineScaleSet#publisher}.</summary>
         [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
         public string Publisher
         {

@@ -9,7 +9,7 @@ namespace azurerm.EventgridPartnerConfiguration
     [JsiiByValue(fqn: "azurerm.eventgridPartnerConfiguration.EventgridPartnerConfigurationPartnerAuthorization")]
     public class EventgridPartnerConfigurationPartnerAuthorization : azurerm.EventgridPartnerConfiguration.IEventgridPartnerConfigurationPartnerAuthorization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_partner_configuration#partner_name EventgridPartnerConfiguration#partner_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_configuration#partner_name EventgridPartnerConfiguration#partner_name}.</summary>
         [JsiiProperty(name: "partnerName", typeJson: "{\"primitive\":\"string\"}")]
         public string PartnerName
         {
@@ -17,7 +17,7 @@ namespace azurerm.EventgridPartnerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_partner_configuration#partner_registration_id EventgridPartnerConfiguration#partner_registration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_configuration#partner_registration_id EventgridPartnerConfiguration#partner_registration_id}.</summary>
         [JsiiProperty(name: "partnerRegistrationId", typeJson: "{\"primitive\":\"string\"}")]
         public string PartnerRegistrationId
         {
@@ -25,7 +25,7 @@ namespace azurerm.EventgridPartnerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_partner_configuration#authorization_expiration_time_in_utc EventgridPartnerConfiguration#authorization_expiration_time_in_utc}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_configuration#authorization_expiration_time_in_utc EventgridPartnerConfiguration#authorization_expiration_time_in_utc}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorizationExpirationTimeInUtc", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthorizationExpirationTimeInUtc

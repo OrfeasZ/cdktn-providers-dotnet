@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermNginxApiKey
     [JsiiByValue(fqn: "azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyConfig")]
     public class DataAzurermNginxApiKeyConfig : azurerm.DataAzurermNginxApiKey.IDataAzurermNginxApiKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_api_key#name DataAzurermNginxApiKey#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/nginx_api_key#name DataAzurermNginxApiKey#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermNginxApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_api_key#nginx_deployment_id DataAzurermNginxApiKey#nginx_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/nginx_api_key#nginx_deployment_id DataAzurermNginxApiKey#nginx_deployment_id}.</summary>
         [JsiiProperty(name: "nginxDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string NginxDeploymentId
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermNginxApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_api_key#id DataAzurermNginxApiKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/nginx_api_key#id DataAzurermNginxApiKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermNginxApiKey
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/nginx_api_key#timeouts DataAzurermNginxApiKey#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/nginx_api_key#timeouts DataAzurermNginxApiKey#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermNginxApiKey.DataAzurermNginxApiKeyTimeouts\"}", isOptional: true)]

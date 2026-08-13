@@ -7,14 +7,14 @@ namespace azurerm.DiskEncryptionSet
     [JsiiInterface(nativeType: typeof(IDiskEncryptionSetIdentity), fullyQualifiedName: "azurerm.diskEncryptionSet.DiskEncryptionSetIdentity")]
     public interface IDiskEncryptionSetIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/disk_encryption_set#type DiskEncryptionSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/disk_encryption_set#type DiskEncryptionSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/disk_encryption_set#identity_ids DiskEncryptionSet#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/disk_encryption_set#identity_ids DiskEncryptionSet#identity_ids}.</summary>
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? IdentityIds
@@ -32,14 +32,14 @@ namespace azurerm.DiskEncryptionSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/disk_encryption_set#type DiskEncryptionSet#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/disk_encryption_set#type DiskEncryptionSet#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/disk_encryption_set#identity_ids DiskEncryptionSet#identity_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/disk_encryption_set#identity_ids DiskEncryptionSet#identity_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? IdentityIds

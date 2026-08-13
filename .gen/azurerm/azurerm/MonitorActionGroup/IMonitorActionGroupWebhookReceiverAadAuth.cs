@@ -7,14 +7,14 @@ namespace azurerm.MonitorActionGroup
     [JsiiInterface(nativeType: typeof(IMonitorActionGroupWebhookReceiverAadAuth), fullyQualifiedName: "azurerm.monitorActionGroup.MonitorActionGroupWebhookReceiverAadAuth")]
     public interface IMonitorActionGroupWebhookReceiverAadAuth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#object_id MonitorActionGroup#object_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#object_id MonitorActionGroup#object_id}.</summary>
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
         string ObjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#identifier_uri MonitorActionGroup#identifier_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#identifier_uri MonitorActionGroup#identifier_uri}.</summary>
         [JsiiProperty(name: "identifierUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdentifierUri
@@ -25,7 +25,7 @@ namespace azurerm.MonitorActionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#tenant_id MonitorActionGroup#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#tenant_id MonitorActionGroup#tenant_id}.</summary>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TenantId
@@ -43,14 +43,14 @@ namespace azurerm.MonitorActionGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#object_id MonitorActionGroup#object_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#object_id MonitorActionGroup#object_id}.</summary>
             [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ObjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#identifier_uri MonitorActionGroup#identifier_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#identifier_uri MonitorActionGroup#identifier_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identifierUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdentifierUri
@@ -58,7 +58,7 @@ namespace azurerm.MonitorActionGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_action_group#tenant_id MonitorActionGroup#tenant_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_action_group#tenant_id MonitorActionGroup#tenant_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TenantId

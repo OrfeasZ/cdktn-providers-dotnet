@@ -7,14 +7,14 @@ namespace azurerm.NetworkManagerAdminRule
     [JsiiInterface(nativeType: typeof(INetworkManagerAdminRuleDestination), fullyQualifiedName: "azurerm.networkManagerAdminRule.NetworkManagerAdminRuleDestination")]
     public interface INetworkManagerAdminRuleDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_admin_rule#address_prefix NetworkManagerAdminRule#address_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_admin_rule#address_prefix NetworkManagerAdminRule#address_prefix}.</summary>
         [JsiiProperty(name: "addressPrefix", typeJson: "{\"primitive\":\"string\"}")]
         string AddressPrefix
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_admin_rule#address_prefix_type NetworkManagerAdminRule#address_prefix_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_admin_rule#address_prefix_type NetworkManagerAdminRule#address_prefix_type}.</summary>
         [JsiiProperty(name: "addressPrefixType", typeJson: "{\"primitive\":\"string\"}")]
         string AddressPrefixType
         {
@@ -28,14 +28,14 @@ namespace azurerm.NetworkManagerAdminRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_admin_rule#address_prefix NetworkManagerAdminRule#address_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_admin_rule#address_prefix NetworkManagerAdminRule#address_prefix}.</summary>
             [JsiiProperty(name: "addressPrefix", typeJson: "{\"primitive\":\"string\"}")]
             public string AddressPrefix
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager_admin_rule#address_prefix_type NetworkManagerAdminRule#address_prefix_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager_admin_rule#address_prefix_type NetworkManagerAdminRule#address_prefix_type}.</summary>
             [JsiiProperty(name: "addressPrefixType", typeJson: "{\"primitive\":\"string\"}")]
             public string AddressPrefixType
             {

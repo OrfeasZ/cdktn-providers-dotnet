@@ -9,11 +9,12 @@ namespace stripe.Customer
     {
         /// <summary>settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#settings Customer#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#settings Customer#settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerCashBalanceSettings" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"stripe.customer.CustomerCashBalanceSettings\"}", isOptional: true)]
+        [JsiiProperty(name: "settings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerCashBalanceSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.Customer.ICustomerCashBalanceSettings? Settings
+        object? Settings
         {
             get
             {
@@ -30,13 +31,14 @@ namespace stripe.Customer
 
             /// <summary>settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#settings Customer#settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#settings Customer#settings}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerCashBalanceSettings" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"stripe.customer.CustomerCashBalanceSettings\"}", isOptional: true)]
-            public stripe.Customer.ICustomerCashBalanceSettings? Settings
+            [JsiiProperty(name: "settings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerCashBalanceSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? Settings
             {
-                get => GetInstanceProperty<stripe.Customer.ICustomerCashBalanceSettings?>();
+                get => GetInstanceProperty<object?>();
             }
         }
     }

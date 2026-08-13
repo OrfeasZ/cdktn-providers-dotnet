@@ -7,21 +7,21 @@ namespace azurerm.VirtualMachine
     [JsiiInterface(nativeType: typeof(IVirtualMachinePlan), fullyQualifiedName: "azurerm.virtualMachine.VirtualMachinePlan")]
     public interface IVirtualMachinePlan
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#name VirtualMachine#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#name VirtualMachine#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#product VirtualMachine#product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#product VirtualMachine#product}.</summary>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         string Product
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#publisher VirtualMachine#publisher}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#publisher VirtualMachine#publisher}.</summary>
         [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
         string Publisher
         {
@@ -35,21 +35,21 @@ namespace azurerm.VirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#name VirtualMachine#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#name VirtualMachine#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#product VirtualMachine#product}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#product VirtualMachine#product}.</summary>
             [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
             public string Product
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#publisher VirtualMachine#publisher}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#publisher VirtualMachine#publisher}.</summary>
             [JsiiProperty(name: "publisher", typeJson: "{\"primitive\":\"string\"}")]
             public string Publisher
             {

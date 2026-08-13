@@ -9,7 +9,7 @@ namespace azurerm.CdnEndpoint
     {
         /// <summary>cache_expiration_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#cache_expiration_action CdnEndpoint#cache_expiration_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#cache_expiration_action CdnEndpoint#cache_expiration_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheExpirationAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheExpirationAction\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>cache_key_query_string_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#cache_key_query_string_action CdnEndpoint#cache_key_query_string_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#cache_key_query_string_action CdnEndpoint#cache_key_query_string_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheKeyQueryStringAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringAction\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>modify_request_header_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#modify_request_header_action CdnEndpoint#modify_request_header_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#modify_request_header_action CdnEndpoint#modify_request_header_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointGlobalDeliveryRuleModifyRequestHeaderAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>modify_response_header_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#modify_response_header_action CdnEndpoint#modify_response_header_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#modify_response_header_action CdnEndpoint#modify_response_header_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointGlobalDeliveryRuleModifyResponseHeaderAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -103,7 +103,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>url_redirect_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#url_redirect_action CdnEndpoint#url_redirect_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#url_redirect_action CdnEndpoint#url_redirect_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urlRedirectAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRedirectAction\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>url_rewrite_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#url_rewrite_action CdnEndpoint#url_rewrite_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#url_rewrite_action CdnEndpoint#url_rewrite_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "urlRewriteAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointGlobalDeliveryRuleUrlRewriteAction\"}", isOptional: true)]

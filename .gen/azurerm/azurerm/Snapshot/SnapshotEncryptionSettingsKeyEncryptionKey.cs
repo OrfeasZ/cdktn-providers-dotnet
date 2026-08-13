@@ -9,7 +9,7 @@ namespace azurerm.Snapshot
     [JsiiByValue(fqn: "azurerm.snapshot.SnapshotEncryptionSettingsKeyEncryptionKey")]
     public class SnapshotEncryptionSettingsKeyEncryptionKey : azurerm.Snapshot.ISnapshotEncryptionSettingsKeyEncryptionKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/snapshot#key_url Snapshot#key_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/snapshot#key_url Snapshot#key_url}.</summary>
         [JsiiProperty(name: "keyUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyUrl
         {
@@ -17,7 +17,7 @@ namespace azurerm.Snapshot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/snapshot#source_vault_id Snapshot#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/snapshot#source_vault_id Snapshot#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVaultId
         {

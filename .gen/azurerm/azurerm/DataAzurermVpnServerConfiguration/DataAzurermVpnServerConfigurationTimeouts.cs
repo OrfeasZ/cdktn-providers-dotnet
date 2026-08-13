@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVpnServerConfiguration
     [JsiiByValue(fqn: "azurerm.dataAzurermVpnServerConfiguration.DataAzurermVpnServerConfigurationTimeouts")]
     public class DataAzurermVpnServerConfigurationTimeouts : azurerm.DataAzurermVpnServerConfiguration.IDataAzurermVpnServerConfigurationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/vpn_server_configuration#read DataAzurermVpnServerConfiguration#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/vpn_server_configuration#read DataAzurermVpnServerConfiguration#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

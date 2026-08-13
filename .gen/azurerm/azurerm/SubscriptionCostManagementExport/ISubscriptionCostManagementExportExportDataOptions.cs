@@ -7,14 +7,14 @@ namespace azurerm.SubscriptionCostManagementExport
     [JsiiInterface(nativeType: typeof(ISubscriptionCostManagementExportExportDataOptions), fullyQualifiedName: "azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExportExportDataOptions")]
     public interface ISubscriptionCostManagementExportExportDataOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#time_frame SubscriptionCostManagementExport#time_frame}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export#time_frame SubscriptionCostManagementExport#time_frame}.</summary>
         [JsiiProperty(name: "timeFrame", typeJson: "{\"primitive\":\"string\"}")]
         string TimeFrame
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#type SubscriptionCostManagementExport#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export#type SubscriptionCostManagementExport#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -28,14 +28,14 @@ namespace azurerm.SubscriptionCostManagementExport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#time_frame SubscriptionCostManagementExport#time_frame}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export#time_frame SubscriptionCostManagementExport#time_frame}.</summary>
             [JsiiProperty(name: "timeFrame", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeFrame
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#type SubscriptionCostManagementExport#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export#type SubscriptionCostManagementExport#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

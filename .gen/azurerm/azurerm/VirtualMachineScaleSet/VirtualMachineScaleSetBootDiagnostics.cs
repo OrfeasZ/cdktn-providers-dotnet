@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachineScaleSet
     [JsiiByValue(fqn: "azurerm.virtualMachineScaleSet.VirtualMachineScaleSetBootDiagnostics")]
     public class VirtualMachineScaleSetBootDiagnostics : azurerm.VirtualMachineScaleSet.IVirtualMachineScaleSetBootDiagnostics
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_scale_set#storage_uri VirtualMachineScaleSet#storage_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_scale_set#storage_uri VirtualMachineScaleSet#storage_uri}.</summary>
         [JsiiProperty(name: "storageUri", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageUri
         {
@@ -19,7 +19,7 @@ namespace azurerm.VirtualMachineScaleSet
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_scale_set#enabled VirtualMachineScaleSet#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_scale_set#enabled VirtualMachineScaleSet#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

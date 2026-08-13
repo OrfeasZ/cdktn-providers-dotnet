@@ -9,7 +9,7 @@ namespace azurerm.HdinsightKafkaCluster
     {
         /// <summary>ambari block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster#ambari HdinsightKafkaCluster#ambari}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_kafka_cluster#ambari HdinsightKafkaCluster#ambari}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ambari", typeJson: "{\"fqn\":\"azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterMetastoresAmbari\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.HdinsightKafkaCluster
 
         /// <summary>hive block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster#hive HdinsightKafkaCluster#hive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_kafka_cluster#hive HdinsightKafkaCluster#hive}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hive", typeJson: "{\"fqn\":\"azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterMetastoresHive\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace azurerm.HdinsightKafkaCluster
 
         /// <summary>oozie block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster#oozie HdinsightKafkaCluster#oozie}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_kafka_cluster#oozie HdinsightKafkaCluster#oozie}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "oozie", typeJson: "{\"fqn\":\"azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterMetastoresOozie\"}", isOptional: true)]

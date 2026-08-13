@@ -7,9 +7,9 @@ namespace stripe.PromotionCode
     [JsiiInterface(nativeType: typeof(IPromotionCodePromotion), fullyQualifiedName: "stripe.promotionCode.PromotionCodePromotion")]
     public interface IPromotionCodePromotion
     {
-        /// <summary>Specifies the type of promotion.</summary>
+        /// <summary>The type of promotion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#type PromotionCode#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#type PromotionCode#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -17,9 +17,9 @@ namespace stripe.PromotionCode
             get;
         }
 
-        /// <summary>If promotion `type` is `coupon`, the coupon for this promotion code.</summary>
+        /// <summary>If promotion `type` is `coupon`, the coupon for this promotion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#coupon PromotionCode#coupon}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#coupon PromotionCode#coupon}
         /// </remarks>
         [JsiiProperty(name: "coupon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,9 +38,9 @@ namespace stripe.PromotionCode
             {
             }
 
-            /// <summary>Specifies the type of promotion.</summary>
+            /// <summary>The type of promotion.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#type PromotionCode#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#type PromotionCode#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -48,9 +48,9 @@ namespace stripe.PromotionCode
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>If promotion `type` is `coupon`, the coupon for this promotion code.</summary>
+            /// <summary>If promotion `type` is `coupon`, the coupon for this promotion.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#coupon PromotionCode#coupon}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#coupon PromotionCode#coupon}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "coupon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

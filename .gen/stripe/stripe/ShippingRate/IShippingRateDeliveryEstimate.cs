@@ -9,11 +9,12 @@ namespace stripe.ShippingRate
     {
         /// <summary>maximum block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#maximum ShippingRate#maximum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#maximum ShippingRate#maximum}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "maximum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"}", isOptional: true)]
+        [JsiiProperty(name: "maximum", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum? Maximum
+        object? Maximum
         {
             get
             {
@@ -23,11 +24,12 @@ namespace stripe.ShippingRate
 
         /// <summary>minimum block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#minimum ShippingRate#minimum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#minimum ShippingRate#minimum}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "minimum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"}", isOptional: true)]
+        [JsiiProperty(name: "minimum", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum? Minimum
+        object? Minimum
         {
             get
             {
@@ -44,24 +46,26 @@ namespace stripe.ShippingRate
 
             /// <summary>maximum block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#maximum ShippingRate#maximum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#maximum ShippingRate#maximum}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "maximum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"}", isOptional: true)]
-            public stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum? Maximum
+            [JsiiProperty(name: "maximum", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMaximum\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? Maximum
             {
-                get => GetInstanceProperty<stripe.ShippingRate.IShippingRateDeliveryEstimateMaximum?>();
+                get => GetInstanceProperty<object?>();
             }
 
             /// <summary>minimum block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#minimum ShippingRate#minimum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#minimum ShippingRate#minimum}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "minimum", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"}", isOptional: true)]
-            public stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum? Minimum
+            [JsiiProperty(name: "minimum", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateMinimum\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? Minimum
             {
-                get => GetInstanceProperty<stripe.ShippingRate.IShippingRateDeliveryEstimateMinimum?>();
+                get => GetInstanceProperty<object?>();
             }
         }
     }

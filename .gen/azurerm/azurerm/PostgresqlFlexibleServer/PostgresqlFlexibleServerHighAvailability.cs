@@ -9,7 +9,7 @@ namespace azurerm.PostgresqlFlexibleServer
     [JsiiByValue(fqn: "azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerHighAvailability")]
     public class PostgresqlFlexibleServerHighAvailability : azurerm.PostgresqlFlexibleServer.IPostgresqlFlexibleServerHighAvailability
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/postgresql_flexible_server#mode PostgresqlFlexibleServer#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/postgresql_flexible_server#mode PostgresqlFlexibleServer#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -17,7 +17,7 @@ namespace azurerm.PostgresqlFlexibleServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/postgresql_flexible_server#standby_availability_zone PostgresqlFlexibleServer#standby_availability_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/postgresql_flexible_server#standby_availability_zone PostgresqlFlexibleServer#standby_availability_zone}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "standbyAvailabilityZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StandbyAvailabilityZone

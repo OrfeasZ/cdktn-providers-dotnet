@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermStorageAccountSas
     [JsiiByValue(fqn: "azurerm.dataAzurermStorageAccountSas.DataAzurermStorageAccountSasConfig")]
     public class DataAzurermStorageAccountSasConfig : azurerm.DataAzurermStorageAccountSas.IDataAzurermStorageAccountSasConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#connection_string DataAzurermStorageAccountSas#connection_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#connection_string DataAzurermStorageAccountSas#connection_string}.</summary>
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionString
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermStorageAccountSas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#expiry DataAzurermStorageAccountSas#expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#expiry DataAzurermStorageAccountSas#expiry}.</summary>
         [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"string\"}")]
         public string Expiry
         {
@@ -27,7 +27,7 @@ namespace azurerm.DataAzurermStorageAccountSas
 
         /// <summary>resource_types block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#resource_types DataAzurermStorageAccountSas#resource_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#resource_types DataAzurermStorageAccountSas#resource_types}
         /// </remarks>
         [JsiiProperty(name: "resourceTypes", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageAccountSas.DataAzurermStorageAccountSasResourceTypes\"}")]
         public azurerm.DataAzurermStorageAccountSas.IDataAzurermStorageAccountSasResourceTypes ResourceTypes
@@ -38,7 +38,7 @@ namespace azurerm.DataAzurermStorageAccountSas
 
         /// <summary>services block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#services DataAzurermStorageAccountSas#services}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#services DataAzurermStorageAccountSas#services}
         /// </remarks>
         [JsiiProperty(name: "services", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageAccountSas.DataAzurermStorageAccountSasServices\"}")]
         public azurerm.DataAzurermStorageAccountSas.IDataAzurermStorageAccountSasServices Services
@@ -47,7 +47,7 @@ namespace azurerm.DataAzurermStorageAccountSas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#start DataAzurermStorageAccountSas#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#start DataAzurermStorageAccountSas#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         public string Start
         {
@@ -57,7 +57,7 @@ namespace azurerm.DataAzurermStorageAccountSas
 
         private object? _httpsOnly;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#https_only DataAzurermStorageAccountSas#https_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#https_only DataAzurermStorageAccountSas#https_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -89,7 +89,7 @@ namespace azurerm.DataAzurermStorageAccountSas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#id DataAzurermStorageAccountSas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#id DataAzurermStorageAccountSas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,7 +102,7 @@ namespace azurerm.DataAzurermStorageAccountSas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#ip_addresses DataAzurermStorageAccountSas#ip_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#ip_addresses DataAzurermStorageAccountSas#ip_addresses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddresses", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpAddresses
@@ -113,7 +113,7 @@ namespace azurerm.DataAzurermStorageAccountSas
 
         /// <summary>permissions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#permissions DataAzurermStorageAccountSas#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#permissions DataAzurermStorageAccountSas#permissions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissions", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageAccountSas.DataAzurermStorageAccountSasPermissions\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace azurerm.DataAzurermStorageAccountSas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#signed_version DataAzurermStorageAccountSas#signed_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#signed_version DataAzurermStorageAccountSas#signed_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signedVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SignedVersion
@@ -134,7 +134,7 @@ namespace azurerm.DataAzurermStorageAccountSas
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_account_sas#timeouts DataAzurermStorageAccountSas#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_account_sas#timeouts DataAzurermStorageAccountSas#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageAccountSas.DataAzurermStorageAccountSasTimeouts\"}", isOptional: true)]

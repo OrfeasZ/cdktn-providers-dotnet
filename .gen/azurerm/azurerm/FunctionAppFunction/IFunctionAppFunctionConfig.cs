@@ -9,7 +9,7 @@ namespace azurerm.FunctionAppFunction
     {
         /// <summary>The config for this Function in JSON format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#config_json FunctionAppFunction#config_json}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#config_json FunctionAppFunction#config_json}
         /// </remarks>
         [JsiiProperty(name: "configJson", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigJson
@@ -19,7 +19,7 @@ namespace azurerm.FunctionAppFunction
 
         /// <summary>The ID of the Function App in which this function should reside.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#function_app_id FunctionAppFunction#function_app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#function_app_id FunctionAppFunction#function_app_id}
         /// </remarks>
         [JsiiProperty(name: "functionAppId", typeJson: "{\"primitive\":\"string\"}")]
         string FunctionAppId
@@ -29,7 +29,7 @@ namespace azurerm.FunctionAppFunction
 
         /// <summary>The name of the function.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#name FunctionAppFunction#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#name FunctionAppFunction#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -39,7 +39,7 @@ namespace azurerm.FunctionAppFunction
 
         /// <summary>Should this function be enabled. Defaults to `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#enabled FunctionAppFunction#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#enabled FunctionAppFunction#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace azurerm.FunctionAppFunction
 
         /// <summary>file block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#file FunctionAppFunction#file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#file FunctionAppFunction#file}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FunctionAppFunction.IFunctionAppFunctionFile" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "file", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.functionAppFunction.FunctionAppFunctionFile\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azurerm.FunctionAppFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#id FunctionAppFunction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#id FunctionAppFunction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace azurerm.FunctionAppFunction
 
         /// <summary>The language the Function is written in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#language FunctionAppFunction#language}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#language FunctionAppFunction#language}
         /// </remarks>
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace azurerm.FunctionAppFunction
 
         /// <summary>The test data for the function.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#test_data FunctionAppFunction#test_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#test_data FunctionAppFunction#test_data}
         /// </remarks>
         [JsiiProperty(name: "testData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace azurerm.FunctionAppFunction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#timeouts FunctionAppFunction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#timeouts FunctionAppFunction#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.functionAppFunction.FunctionAppFunctionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -133,7 +133,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>The config for this Function in JSON format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#config_json FunctionAppFunction#config_json}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#config_json FunctionAppFunction#config_json}
             /// </remarks>
             [JsiiProperty(name: "configJson", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigJson
@@ -143,7 +143,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>The ID of the Function App in which this function should reside.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#function_app_id FunctionAppFunction#function_app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#function_app_id FunctionAppFunction#function_app_id}
             /// </remarks>
             [JsiiProperty(name: "functionAppId", typeJson: "{\"primitive\":\"string\"}")]
             public string FunctionAppId
@@ -153,7 +153,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>The name of the function.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#name FunctionAppFunction#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#name FunctionAppFunction#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -163,7 +163,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>Should this function be enabled. Defaults to `true`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#enabled FunctionAppFunction#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#enabled FunctionAppFunction#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -175,7 +175,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>file block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#file FunctionAppFunction#file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#file FunctionAppFunction#file}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FunctionAppFunction.IFunctionAppFunctionFile" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -185,7 +185,7 @@ namespace azurerm.FunctionAppFunction
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#id FunctionAppFunction#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#id FunctionAppFunction#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -199,7 +199,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>The language the Function is written in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#language FunctionAppFunction#language}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#language FunctionAppFunction#language}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -210,7 +210,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>The test data for the function.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#test_data FunctionAppFunction#test_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#test_data FunctionAppFunction#test_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "testData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -221,7 +221,7 @@ namespace azurerm.FunctionAppFunction
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/function_app_function#timeouts FunctionAppFunction#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_function#timeouts FunctionAppFunction#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.functionAppFunction.FunctionAppFunctionTimeouts\"}", isOptional: true)]

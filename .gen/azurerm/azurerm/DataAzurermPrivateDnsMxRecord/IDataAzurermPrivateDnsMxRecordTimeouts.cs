@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPrivateDnsMxRecord
     [JsiiInterface(nativeType: typeof(IDataAzurermPrivateDnsMxRecordTimeouts), fullyQualifiedName: "azurerm.dataAzurermPrivateDnsMxRecord.DataAzurermPrivateDnsMxRecordTimeouts")]
     public interface IDataAzurermPrivateDnsMxRecordTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_dns_mx_record#read DataAzurermPrivateDnsMxRecord#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/private_dns_mx_record#read DataAzurermPrivateDnsMxRecord#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermPrivateDnsMxRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/private_dns_mx_record#read DataAzurermPrivateDnsMxRecord#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/private_dns_mx_record#read DataAzurermPrivateDnsMxRecord#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

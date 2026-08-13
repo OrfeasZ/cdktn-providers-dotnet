@@ -7,14 +7,14 @@ namespace azurerm.StackHciDeploymentSetting
     [JsiiInterface(nativeType: typeof(IStackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPool), fullyQualifiedName: "azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPool")]
     public interface IStackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPool
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_deployment_setting#ending_address StackHciDeploymentSetting#ending_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_deployment_setting#ending_address StackHciDeploymentSetting#ending_address}.</summary>
         [JsiiProperty(name: "endingAddress", typeJson: "{\"primitive\":\"string\"}")]
         string EndingAddress
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_deployment_setting#starting_address StackHciDeploymentSetting#starting_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_deployment_setting#starting_address StackHciDeploymentSetting#starting_address}.</summary>
         [JsiiProperty(name: "startingAddress", typeJson: "{\"primitive\":\"string\"}")]
         string StartingAddress
         {
@@ -28,14 +28,14 @@ namespace azurerm.StackHciDeploymentSetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_deployment_setting#ending_address StackHciDeploymentSetting#ending_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_deployment_setting#ending_address StackHciDeploymentSetting#ending_address}.</summary>
             [JsiiProperty(name: "endingAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string EndingAddress
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_deployment_setting#starting_address StackHciDeploymentSetting#starting_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_deployment_setting#starting_address StackHciDeploymentSetting#starting_address}.</summary>
             [JsiiProperty(name: "startingAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string StartingAddress
             {

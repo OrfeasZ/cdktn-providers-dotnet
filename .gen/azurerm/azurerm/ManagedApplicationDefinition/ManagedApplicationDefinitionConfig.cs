@@ -9,7 +9,7 @@ namespace azurerm.ManagedApplicationDefinition
     [JsiiByValue(fqn: "azurerm.managedApplicationDefinition.ManagedApplicationDefinitionConfig")]
     public class ManagedApplicationDefinitionConfig : azurerm.ManagedApplicationDefinition.IManagedApplicationDefinitionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#display_name ManagedApplicationDefinition#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#display_name ManagedApplicationDefinition#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#location ManagedApplicationDefinition#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#location ManagedApplicationDefinition#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#lock_level ManagedApplicationDefinition#lock_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#lock_level ManagedApplicationDefinition#lock_level}.</summary>
         [JsiiProperty(name: "lockLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string LockLevel
         {
@@ -33,7 +33,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#name ManagedApplicationDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#name ManagedApplicationDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#resource_group_name ManagedApplicationDefinition#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#resource_group_name ManagedApplicationDefinition#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -53,7 +53,7 @@ namespace azurerm.ManagedApplicationDefinition
 
         /// <summary>authorization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#authorization ManagedApplicationDefinition#authorization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#authorization ManagedApplicationDefinition#authorization}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ManagedApplicationDefinition.IManagedApplicationDefinitionAuthorization" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -84,7 +84,7 @@ namespace azurerm.ManagedApplicationDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#create_ui_definition ManagedApplicationDefinition#create_ui_definition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#create_ui_definition ManagedApplicationDefinition#create_ui_definition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createUiDefinition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateUiDefinition
@@ -93,7 +93,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#description ManagedApplicationDefinition#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#description ManagedApplicationDefinition#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -102,7 +102,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#id ManagedApplicationDefinition#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#id ManagedApplicationDefinition#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,7 +115,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#main_template ManagedApplicationDefinition#main_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#main_template ManagedApplicationDefinition#main_template}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mainTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MainTemplate
@@ -126,7 +126,7 @@ namespace azurerm.ManagedApplicationDefinition
 
         private object? _packageEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#package_enabled ManagedApplicationDefinition#package_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#package_enabled ManagedApplicationDefinition#package_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -158,7 +158,7 @@ namespace azurerm.ManagedApplicationDefinition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#package_file_uri ManagedApplicationDefinition#package_file_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#package_file_uri ManagedApplicationDefinition#package_file_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "packageFileUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PackageFileUri
@@ -167,7 +167,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#tags ManagedApplicationDefinition#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#tags ManagedApplicationDefinition#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -178,7 +178,7 @@ namespace azurerm.ManagedApplicationDefinition
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_application_definition#timeouts ManagedApplicationDefinition#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#timeouts ManagedApplicationDefinition#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.managedApplicationDefinition.ManagedApplicationDefinitionTimeouts\"}", isOptional: true)]

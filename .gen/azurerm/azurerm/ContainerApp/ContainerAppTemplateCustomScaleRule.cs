@@ -9,7 +9,7 @@ namespace azurerm.ContainerApp
     [JsiiByValue(fqn: "azurerm.containerApp.ContainerAppTemplateCustomScaleRule")]
     public class ContainerAppTemplateCustomScaleRule : azurerm.ContainerApp.IContainerAppTemplateCustomScaleRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#custom_rule_type ContainerApp#custom_rule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#custom_rule_type ContainerApp#custom_rule_type}.</summary>
         [JsiiProperty(name: "customRuleType", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomRuleType
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#metadata ContainerApp#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#metadata ContainerApp#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Metadata
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#name ContainerApp#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#name ContainerApp#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -37,7 +37,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#authentication ContainerApp#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#authentication ContainerApp#authentication}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateCustomScaleRuleAuthentication" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>ID of the System or User Managed Identity used to execute scale rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#identity_id ContainerApp#identity_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#identity_id ContainerApp#identity_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

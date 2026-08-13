@@ -7,7 +7,7 @@ namespace azurerm.ServicebusNamespace
     [JsiiByValue(fqn: "azurerm.servicebusNamespace.ServicebusNamespaceNetworkRuleSet")]
     public class ServicebusNamespaceNetworkRuleSet : azurerm.ServicebusNamespace.IServicebusNamespaceNetworkRuleSet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace#default_action ServicebusNamespace#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace#default_action ServicebusNamespace#default_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultAction
@@ -16,7 +16,7 @@ namespace azurerm.ServicebusNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace#ip_rules ServicebusNamespace#ip_rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace#ip_rules ServicebusNamespace#ip_rules}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipRules", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IpRules
@@ -29,7 +29,7 @@ namespace azurerm.ServicebusNamespace
 
         /// <summary>network_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace#network_rules ServicebusNamespace#network_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace#network_rules ServicebusNamespace#network_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServicebusNamespace.IServicebusNamespaceNetworkRuleSetNetworkRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -62,7 +62,7 @@ namespace azurerm.ServicebusNamespace
 
         private object? _publicNetworkAccessEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace#public_network_access_enabled ServicebusNamespace#public_network_access_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace#public_network_access_enabled ServicebusNamespace#public_network_access_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -96,7 +96,7 @@ namespace azurerm.ServicebusNamespace
 
         private object? _trustedServicesAllowed;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/servicebus_namespace#trusted_services_allowed ServicebusNamespace#trusted_services_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/servicebus_namespace#trusted_services_allowed ServicebusNamespace#trusted_services_allowed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

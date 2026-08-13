@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.Product
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product stripe_product}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product stripe_product}.</summary>
     [JsiiClass(nativeType: typeof(stripe.Product.Product), fullyQualifiedName: "stripe.product.Product", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.product.ProductConfig\"}}]")]
     public class Product : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product stripe_product} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product stripe_product} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Product(Constructs.Construct scope, string id, stripe.Product.IProductConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,16 +40,34 @@ namespace stripe.Product
         /// <param name="importToId">The construct id used in the generated config for the Product to import.</param>
         /// <param name="importFromId">The id of the existing Product that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Product to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Product to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Product that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Product to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Product to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Product that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Product to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.Product.Product), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putDefaultPriceData", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.product.ProductDefaultPriceData\"}}]")]
-        public virtual void PutDefaultPriceData(stripe.Product.IProductDefaultPriceData @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductDefaultPriceData" />)[]</param>
+        [JsiiMethod(name: "putDefaultPriceData", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductDefaultPriceData\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutDefaultPriceData(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Product.IProductDefaultPriceData)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Product.IProductDefaultPriceData[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Product.IProductDefaultPriceData).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Product.IProductDefaultPriceData).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductMarketingFeatures" />)[]</param>
@@ -76,10 +94,28 @@ namespace stripe.Product
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putPackageDimensions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.product.ProductPackageDimensions\"}}]")]
-        public virtual void PutPackageDimensions(stripe.Product.IProductPackageDimensions @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductPackageDimensions" />)[]</param>
+        [JsiiMethod(name: "putPackageDimensions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductPackageDimensions\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutPackageDimensions(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Product.IProductPackageDimensions)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Product.IProductPackageDimensions[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Product.IProductPackageDimensions).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Product.IProductPackageDimensions).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetActive")]
@@ -179,10 +215,22 @@ namespace stripe.Product
         }
         = GetStaticProperty<string>(typeof(stripe.Product.Product))!;
 
-        [JsiiProperty(name: "defaultPriceData", typeJson: "{\"fqn\":\"stripe.product.ProductDefaultPriceDataOutputReference\"}")]
-        public virtual stripe.Product.ProductDefaultPriceDataOutputReference DefaultPriceData
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Created
         {
-            get => GetInstanceProperty<stripe.Product.ProductDefaultPriceDataOutputReference>()!;
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "defaultPrice", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DefaultPrice
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "defaultPriceData", typeJson: "{\"fqn\":\"stripe.product.ProductDefaultPriceDataList\"}")]
+        public virtual stripe.Product.ProductDefaultPriceDataList DefaultPriceData
+        {
+            get => GetInstanceProperty<stripe.Product.ProductDefaultPriceDataList>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
@@ -191,16 +239,34 @@ namespace stripe.Product
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Livemode
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "marketingFeatures", typeJson: "{\"fqn\":\"stripe.product.ProductMarketingFeaturesList\"}")]
         public virtual stripe.Product.ProductMarketingFeaturesList MarketingFeatures
         {
             get => GetInstanceProperty<stripe.Product.ProductMarketingFeaturesList>()!;
         }
 
-        [JsiiProperty(name: "packageDimensions", typeJson: "{\"fqn\":\"stripe.product.ProductPackageDimensionsOutputReference\"}")]
-        public virtual stripe.Product.ProductPackageDimensionsOutputReference PackageDimensions
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Object
         {
-            get => GetInstanceProperty<stripe.Product.ProductPackageDimensionsOutputReference>()!;
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "packageDimensions", typeJson: "{\"fqn\":\"stripe.product.ProductPackageDimensionsList\"}")]
+        public virtual stripe.Product.ProductPackageDimensionsList PackageDimensions
+        {
+            get => GetInstanceProperty<stripe.Product.ProductPackageDimensionsList>()!;
+        }
+
+        [JsiiProperty(name: "updated", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Updated
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         /// <remarks>
@@ -213,11 +279,14 @@ namespace stripe.Product
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductDefaultPriceData" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "defaultPriceDataInput", typeJson: "{\"fqn\":\"stripe.product.ProductDefaultPriceData\"}", isOptional: true)]
-        public virtual stripe.Product.IProductDefaultPriceData? DefaultPriceDataInput
+        [JsiiProperty(name: "defaultPriceDataInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductDefaultPriceData\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? DefaultPriceDataInput
         {
-            get => GetInstanceProperty<stripe.Product.IProductDefaultPriceData?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -258,11 +327,14 @@ namespace stripe.Product
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductPackageDimensions" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "packageDimensionsInput", typeJson: "{\"fqn\":\"stripe.product.ProductPackageDimensions\"}", isOptional: true)]
-        public virtual stripe.Product.IProductPackageDimensions? PackageDimensionsInput
+        [JsiiProperty(name: "packageDimensionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.product.ProductPackageDimensions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? PackageDimensionsInput
         {
-            get => GetInstanceProperty<stripe.Product.IProductPackageDimensions?>();
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

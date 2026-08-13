@@ -9,9 +9,9 @@ namespace stripe.V2CoreEventDestination
     [JsiiByValue(fqn: "stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpoint")]
     public class V2CoreEventDestinationWebhookEndpoint : stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint
     {
-        /// <summary>The URL of the webhook endpoint.</summary>
+        /// <summary>The URL of the webhook endpoint, includable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination#url V2CoreEventDestination#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#url V2CoreEventDestination#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url

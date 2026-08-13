@@ -9,7 +9,7 @@ namespace azurerm.HdinsightHadoopCluster
     [JsiiByValue(fqn: "azurerm.hdinsightHadoopCluster.HdinsightHadoopClusterMonitor")]
     public class HdinsightHadoopClusterMonitor : azurerm.HdinsightHadoopCluster.IHdinsightHadoopClusterMonitor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hadoop_cluster#log_analytics_workspace_id HdinsightHadoopCluster#log_analytics_workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hadoop_cluster#log_analytics_workspace_id HdinsightHadoopCluster#log_analytics_workspace_id}.</summary>
         [JsiiProperty(name: "logAnalyticsWorkspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogAnalyticsWorkspaceId
         {
@@ -17,7 +17,7 @@ namespace azurerm.HdinsightHadoopCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_hadoop_cluster#primary_key HdinsightHadoopCluster#primary_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_hadoop_cluster#primary_key HdinsightHadoopCluster#primary_key}.</summary>
         [JsiiProperty(name: "primaryKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PrimaryKey
         {

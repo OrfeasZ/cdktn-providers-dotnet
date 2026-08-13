@@ -11,7 +11,7 @@ namespace azurerm.CosmosdbAccount
     {
         /// <summary>consistency_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#consistency_policy CosmosdbAccount#consistency_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#consistency_policy CosmosdbAccount#consistency_policy}
         /// </remarks>
         [JsiiProperty(name: "consistencyPolicy", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountConsistencyPolicy\"}")]
         public azurerm.CosmosdbAccount.ICosmosdbAccountConsistencyPolicy ConsistencyPolicy
@@ -24,7 +24,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>geo_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#geo_location CosmosdbAccount#geo_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#geo_location CosmosdbAccount#geo_location}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CosmosdbAccount.ICosmosdbAccountGeoLocation" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "geoLocation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountGeoLocation\"},\"kind\":\"array\"}}]}}")]
@@ -54,7 +54,7 @@ namespace azurerm.CosmosdbAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#location CosmosdbAccount#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -62,7 +62,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#name CosmosdbAccount#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#name CosmosdbAccount#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -70,7 +70,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#offer_type CosmosdbAccount#offer_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#offer_type CosmosdbAccount#offer_type}.</summary>
         [JsiiProperty(name: "offerType", typeJson: "{\"primitive\":\"string\"}")]
         public string OfferType
         {
@@ -78,7 +78,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#resource_group_name CosmosdbAccount#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#resource_group_name CosmosdbAccount#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -88,7 +88,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _accessKeyMetadataWritesEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#access_key_metadata_writes_enabled CosmosdbAccount#access_key_metadata_writes_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#access_key_metadata_writes_enabled CosmosdbAccount#access_key_metadata_writes_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -122,7 +122,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>analytical_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#analytical_storage CosmosdbAccount#analytical_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#analytical_storage CosmosdbAccount#analytical_storage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "analyticalStorage", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountAnalyticalStorage\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _analyticalStorageEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#analytical_storage_enabled CosmosdbAccount#analytical_storage_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#analytical_storage_enabled CosmosdbAccount#analytical_storage_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -168,7 +168,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _automaticFailoverEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#automatic_failover_enabled CosmosdbAccount#automatic_failover_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#automatic_failover_enabled CosmosdbAccount#automatic_failover_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -202,7 +202,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>backup block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#backup CosmosdbAccount#backup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#backup CosmosdbAccount#backup}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backup", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountBackup\"}", isOptional: true)]
@@ -214,7 +214,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _burstCapacityEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#burst_capacity_enabled CosmosdbAccount#burst_capacity_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#burst_capacity_enabled CosmosdbAccount#burst_capacity_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -250,7 +250,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>capabilities block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#capabilities CosmosdbAccount#capabilities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#capabilities CosmosdbAccount#capabilities}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CosmosdbAccount.ICosmosdbAccountCapabilities" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -283,7 +283,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>capacity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#capacity CosmosdbAccount#capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#capacity CosmosdbAccount#capacity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountCapacity\"}", isOptional: true)]
@@ -295,7 +295,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>cors_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#cors_rule CosmosdbAccount#cors_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#cors_rule CosmosdbAccount#cors_rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "corsRule", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountCorsRule\"}", isOptional: true)]
@@ -305,7 +305,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#create_mode CosmosdbAccount#create_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#create_mode CosmosdbAccount#create_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateMode
@@ -314,7 +314,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#default_identity_type CosmosdbAccount#default_identity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#default_identity_type CosmosdbAccount#default_identity_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultIdentityType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultIdentityType
@@ -325,7 +325,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _freeTierEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#free_tier_enabled CosmosdbAccount#free_tier_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#free_tier_enabled CosmosdbAccount#free_tier_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -357,7 +357,7 @@ namespace azurerm.CosmosdbAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#id CosmosdbAccount#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#id CosmosdbAccount#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -372,7 +372,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#identity CosmosdbAccount#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#identity CosmosdbAccount#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountIdentity\"}", isOptional: true)]
@@ -382,7 +382,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#ip_range_filter CosmosdbAccount#ip_range_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#ip_range_filter CosmosdbAccount#ip_range_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipRangeFilter", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IpRangeFilter
@@ -393,7 +393,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _isVirtualNetworkFilterEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#is_virtual_network_filter_enabled CosmosdbAccount#is_virtual_network_filter_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#is_virtual_network_filter_enabled CosmosdbAccount#is_virtual_network_filter_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -425,7 +425,7 @@ namespace azurerm.CosmosdbAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#key_vault_key_id CosmosdbAccount#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#key_vault_key_id CosmosdbAccount#key_vault_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyVaultKeyId
@@ -434,7 +434,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#kind CosmosdbAccount#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#kind CosmosdbAccount#kind}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Kind
@@ -445,7 +445,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _localAuthenticationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#local_authentication_enabled CosmosdbAccount#local_authentication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#local_authentication_enabled CosmosdbAccount#local_authentication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -477,7 +477,7 @@ namespace azurerm.CosmosdbAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#minimal_tls_version CosmosdbAccount#minimal_tls_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#minimal_tls_version CosmosdbAccount#minimal_tls_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimalTlsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinimalTlsVersion
@@ -486,7 +486,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#mongo_server_version CosmosdbAccount#mongo_server_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#mongo_server_version CosmosdbAccount#mongo_server_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mongoServerVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MongoServerVersion
@@ -497,7 +497,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _multipleWriteLocationsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#multiple_write_locations_enabled CosmosdbAccount#multiple_write_locations_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#multiple_write_locations_enabled CosmosdbAccount#multiple_write_locations_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -531,7 +531,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _networkAclBypassForAzureServices;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#network_acl_bypass_for_azure_services CosmosdbAccount#network_acl_bypass_for_azure_services}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#network_acl_bypass_for_azure_services CosmosdbAccount#network_acl_bypass_for_azure_services}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -563,7 +563,7 @@ namespace azurerm.CosmosdbAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#network_acl_bypass_ids CosmosdbAccount#network_acl_bypass_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#network_acl_bypass_ids CosmosdbAccount#network_acl_bypass_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkAclBypassIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NetworkAclBypassIds
@@ -574,7 +574,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _partitionMergeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#partition_merge_enabled CosmosdbAccount#partition_merge_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#partition_merge_enabled CosmosdbAccount#partition_merge_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -608,7 +608,7 @@ namespace azurerm.CosmosdbAccount
 
         private object? _publicNetworkAccessEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#public_network_access_enabled CosmosdbAccount#public_network_access_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#public_network_access_enabled CosmosdbAccount#public_network_access_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -642,7 +642,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>restore block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#restore CosmosdbAccount#restore}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#restore CosmosdbAccount#restore}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "restore", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountRestore\"}", isOptional: true)]
@@ -652,7 +652,7 @@ namespace azurerm.CosmosdbAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#tags CosmosdbAccount#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#tags CosmosdbAccount#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -663,7 +663,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#timeouts CosmosdbAccount#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#timeouts CosmosdbAccount#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.cosmosdbAccount.CosmosdbAccountTimeouts\"}", isOptional: true)]
@@ -677,7 +677,7 @@ namespace azurerm.CosmosdbAccount
 
         /// <summary>virtual_network_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#virtual_network_rule CosmosdbAccount#virtual_network_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#virtual_network_rule CosmosdbAccount#virtual_network_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CosmosdbAccount.ICosmosdbAccountVirtualNetworkRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]

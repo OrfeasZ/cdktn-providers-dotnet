@@ -9,7 +9,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
     [JsiiByValue(fqn: "azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignmentNonComplianceMessage")]
     public class ManagementGroupPolicyAssignmentNonComplianceMessage : azurerm.ManagementGroupPolicyAssignment.IManagementGroupPolicyAssignmentNonComplianceMessage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_assignment#content ManagementGroupPolicyAssignment#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_policy_assignment#content ManagementGroupPolicyAssignment#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/management_group_policy_assignment#policy_definition_reference_id ManagementGroupPolicyAssignment#policy_definition_reference_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/management_group_policy_assignment#policy_definition_reference_id ManagementGroupPolicyAssignment#policy_definition_reference_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "policyDefinitionReferenceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PolicyDefinitionReferenceId

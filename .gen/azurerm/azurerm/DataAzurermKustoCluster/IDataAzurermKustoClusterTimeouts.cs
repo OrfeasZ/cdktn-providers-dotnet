@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermKustoCluster
     [JsiiInterface(nativeType: typeof(IDataAzurermKustoClusterTimeouts), fullyQualifiedName: "azurerm.dataAzurermKustoCluster.DataAzurermKustoClusterTimeouts")]
     public interface IDataAzurermKustoClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kusto_cluster#read DataAzurermKustoCluster#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/kusto_cluster#read DataAzurermKustoCluster#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermKustoCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/kusto_cluster#read DataAzurermKustoCluster#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/kusto_cluster#read DataAzurermKustoCluster#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

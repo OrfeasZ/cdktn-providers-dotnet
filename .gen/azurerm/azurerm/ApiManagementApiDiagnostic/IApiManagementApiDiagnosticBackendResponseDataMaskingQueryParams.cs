@@ -7,14 +7,14 @@ namespace azurerm.ApiManagementApiDiagnostic
     [JsiiInterface(nativeType: typeof(IApiManagementApiDiagnosticBackendResponseDataMaskingQueryParams), fullyQualifiedName: "azurerm.apiManagementApiDiagnostic.ApiManagementApiDiagnosticBackendResponseDataMaskingQueryParams")]
     public interface IApiManagementApiDiagnosticBackendResponseDataMaskingQueryParams
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_diagnostic#mode ApiManagementApiDiagnostic#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_diagnostic#mode ApiManagementApiDiagnostic#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         string Mode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_diagnostic#value ApiManagementApiDiagnostic#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_diagnostic#value ApiManagementApiDiagnostic#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace azurerm.ApiManagementApiDiagnostic
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_diagnostic#mode ApiManagementApiDiagnostic#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_diagnostic#mode ApiManagementApiDiagnostic#mode}.</summary>
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
             public string Mode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_diagnostic#value ApiManagementApiDiagnostic#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_diagnostic#value ApiManagementApiDiagnostic#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

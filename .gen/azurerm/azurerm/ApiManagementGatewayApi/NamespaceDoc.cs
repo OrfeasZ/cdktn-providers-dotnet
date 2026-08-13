@@ -5,7 +5,7 @@ namespace azurerm.ApiManagementGatewayApi
     /// <remarks>
     /// <h1><c>azurerm_api_management_gateway_api</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_gateway_api"><c>azurerm_api_management_gateway_api</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_gateway_api"><c>azurerm_api_management_gateway_api</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

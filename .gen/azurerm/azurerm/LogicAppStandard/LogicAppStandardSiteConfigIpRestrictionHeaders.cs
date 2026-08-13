@@ -7,7 +7,7 @@ namespace azurerm.LogicAppStandard
     [JsiiByValue(fqn: "azurerm.logicAppStandard.LogicAppStandardSiteConfigIpRestrictionHeaders")]
     public class LogicAppStandardSiteConfigIpRestrictionHeaders : azurerm.LogicAppStandard.ILogicAppStandardSiteConfigIpRestrictionHeaders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_standard#x_azure_fdid LogicAppStandard#x_azure_fdid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_standard#x_azure_fdid LogicAppStandard#x_azure_fdid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xAzureFdid", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XAzureFdid
@@ -16,7 +16,7 @@ namespace azurerm.LogicAppStandard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_standard#x_fd_health_probe LogicAppStandard#x_fd_health_probe}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_standard#x_fd_health_probe LogicAppStandard#x_fd_health_probe}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xFdHealthProbe", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XFdHealthProbe
@@ -25,7 +25,7 @@ namespace azurerm.LogicAppStandard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_standard#x_forwarded_for LogicAppStandard#x_forwarded_for}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_standard#x_forwarded_for LogicAppStandard#x_forwarded_for}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xForwardedFor", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XForwardedFor
@@ -34,7 +34,7 @@ namespace azurerm.LogicAppStandard
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/logic_app_standard#x_forwarded_host LogicAppStandard#x_forwarded_host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/logic_app_standard#x_forwarded_host LogicAppStandard#x_forwarded_host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xForwardedHost", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? XForwardedHost

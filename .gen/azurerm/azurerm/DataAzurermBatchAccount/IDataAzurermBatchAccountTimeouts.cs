@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBatchAccount
     [JsiiInterface(nativeType: typeof(IDataAzurermBatchAccountTimeouts), fullyQualifiedName: "azurerm.dataAzurermBatchAccount.DataAzurermBatchAccountTimeouts")]
     public interface IDataAzurermBatchAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/batch_account#read DataAzurermBatchAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/batch_account#read DataAzurermBatchAccount#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermBatchAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/batch_account#read DataAzurermBatchAccount#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/batch_account#read DataAzurermBatchAccount#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

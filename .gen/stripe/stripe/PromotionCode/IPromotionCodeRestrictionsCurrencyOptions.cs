@@ -7,7 +7,10 @@ namespace stripe.PromotionCode
     [JsiiInterface(nativeType: typeof(IPromotionCodeRestrictionsCurrencyOptions), fullyQualifiedName: "stripe.promotionCode.PromotionCodeRestrictionsCurrencyOptions")]
     public interface IPromotionCodeRestrictionsCurrencyOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#key PromotionCode#key}.</summary>
+        /// <summary>Key for this entry.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#key PromotionCode#key}
+        /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
@@ -16,7 +19,7 @@ namespace stripe.PromotionCode
 
         /// <summary>Minimum amount required to redeem this Promotion Code into a Coupon (e.g., a purchase must be $100 or more to work).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
         /// </remarks>
         [JsiiProperty(name: "minimumAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +38,10 @@ namespace stripe.PromotionCode
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#key PromotionCode#key}.</summary>
+            /// <summary>Key for this entry.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#key PromotionCode#key}
+            /// </remarks>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
@@ -44,7 +50,7 @@ namespace stripe.PromotionCode
 
             /// <summary>Minimum amount required to redeem this Promotion Code into a Coupon (e.g., a purchase must be $100 or more to work).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minimumAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace azurerm.WindowsFunctionAppSlot
     {
         /// <summary>The ID of the Client to use to authenticate with Azure Static Web App Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app_slot#client_id WindowsFunctionAppSlot#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app_slot#client_id WindowsFunctionAppSlot#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId

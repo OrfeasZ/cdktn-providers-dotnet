@@ -11,7 +11,7 @@ namespace azurerm.RedhatOpenshiftCluster
     {
         /// <summary>api_server_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#api_server_profile RedhatOpenshiftCluster#api_server_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#api_server_profile RedhatOpenshiftCluster#api_server_profile}
         /// </remarks>
         [JsiiProperty(name: "apiServerProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterApiServerProfile\"}")]
         public azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterApiServerProfile ApiServerProfile
@@ -22,7 +22,7 @@ namespace azurerm.RedhatOpenshiftCluster
 
         /// <summary>cluster_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#cluster_profile RedhatOpenshiftCluster#cluster_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#cluster_profile RedhatOpenshiftCluster#cluster_profile}
         /// </remarks>
         [JsiiProperty(name: "clusterProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterClusterProfile\"}")]
         public azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterClusterProfile ClusterProfile
@@ -33,7 +33,7 @@ namespace azurerm.RedhatOpenshiftCluster
 
         /// <summary>ingress_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#ingress_profile RedhatOpenshiftCluster#ingress_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#ingress_profile RedhatOpenshiftCluster#ingress_profile}
         /// </remarks>
         [JsiiProperty(name: "ingressProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterIngressProfile\"}")]
         public azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterIngressProfile IngressProfile
@@ -42,7 +42,7 @@ namespace azurerm.RedhatOpenshiftCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#location RedhatOpenshiftCluster#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#location RedhatOpenshiftCluster#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -52,7 +52,7 @@ namespace azurerm.RedhatOpenshiftCluster
 
         /// <summary>main_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#main_profile RedhatOpenshiftCluster#main_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#main_profile RedhatOpenshiftCluster#main_profile}
         /// </remarks>
         [JsiiProperty(name: "mainProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterMainProfile\"}")]
         public azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterMainProfile MainProfile
@@ -61,7 +61,7 @@ namespace azurerm.RedhatOpenshiftCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#name RedhatOpenshiftCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#name RedhatOpenshiftCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -71,7 +71,7 @@ namespace azurerm.RedhatOpenshiftCluster
 
         /// <summary>network_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#network_profile RedhatOpenshiftCluster#network_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#network_profile RedhatOpenshiftCluster#network_profile}
         /// </remarks>
         [JsiiProperty(name: "networkProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfile\"}")]
         public azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfile NetworkProfile
@@ -80,7 +80,7 @@ namespace azurerm.RedhatOpenshiftCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#resource_group_name RedhatOpenshiftCluster#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#resource_group_name RedhatOpenshiftCluster#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -90,7 +90,7 @@ namespace azurerm.RedhatOpenshiftCluster
 
         /// <summary>service_principal block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#service_principal RedhatOpenshiftCluster#service_principal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#service_principal RedhatOpenshiftCluster#service_principal}
         /// </remarks>
         [JsiiProperty(name: "servicePrincipal", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipal\"}")]
         public azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterServicePrincipal ServicePrincipal
@@ -101,7 +101,7 @@ namespace azurerm.RedhatOpenshiftCluster
 
         /// <summary>worker_profile block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#worker_profile RedhatOpenshiftCluster#worker_profile}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#worker_profile RedhatOpenshiftCluster#worker_profile}
         /// </remarks>
         [JsiiProperty(name: "workerProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterWorkerProfile\"}")]
         public azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterWorkerProfile WorkerProfile
@@ -110,7 +110,7 @@ namespace azurerm.RedhatOpenshiftCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#id RedhatOpenshiftCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#id RedhatOpenshiftCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -123,7 +123,7 @@ namespace azurerm.RedhatOpenshiftCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#tags RedhatOpenshiftCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#tags RedhatOpenshiftCluster#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -134,7 +134,7 @@ namespace azurerm.RedhatOpenshiftCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#timeouts RedhatOpenshiftCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#timeouts RedhatOpenshiftCluster#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterTimeouts\"}", isOptional: true)]

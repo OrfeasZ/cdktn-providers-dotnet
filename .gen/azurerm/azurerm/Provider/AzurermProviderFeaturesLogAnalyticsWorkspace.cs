@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         private object? _permanentlyDeleteOnDestroy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#permanently_delete_on_destroy AzurermProvider#permanently_delete_on_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#permanently_delete_on_destroy AzurermProvider#permanently_delete_on_destroy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

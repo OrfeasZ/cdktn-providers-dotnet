@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebApp
     [JsiiByValue(fqn: "azurerm.windowsWebApp.WindowsWebAppSiteConfigAutoHealSettingActionCustomAction")]
     public class WindowsWebAppSiteConfigAutoHealSettingActionCustomAction : azurerm.WindowsWebApp.IWindowsWebAppSiteConfigAutoHealSettingActionCustomAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#executable WindowsWebApp#executable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#executable WindowsWebApp#executable}.</summary>
         [JsiiProperty(name: "executable", typeJson: "{\"primitive\":\"string\"}")]
         public string Executable
         {
@@ -17,7 +17,7 @@ namespace azurerm.WindowsWebApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app#parameters WindowsWebApp#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app#parameters WindowsWebApp#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Parameters

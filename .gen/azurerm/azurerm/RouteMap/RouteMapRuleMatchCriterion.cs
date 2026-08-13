@@ -9,7 +9,7 @@ namespace azurerm.RouteMap
     [JsiiByValue(fqn: "azurerm.routeMap.RouteMapRuleMatchCriterion")]
     public class RouteMapRuleMatchCriterion : azurerm.RouteMap.IRouteMapRuleMatchCriterion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/route_map#match_condition RouteMap#match_condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_map#match_condition RouteMap#match_condition}.</summary>
         [JsiiProperty(name: "matchCondition", typeJson: "{\"primitive\":\"string\"}")]
         public string MatchCondition
         {
@@ -17,7 +17,7 @@ namespace azurerm.RouteMap
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/route_map#as_path RouteMap#as_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_map#as_path RouteMap#as_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "asPath", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AsPath
@@ -26,7 +26,7 @@ namespace azurerm.RouteMap
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/route_map#community RouteMap#community}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_map#community RouteMap#community}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "community", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Community
@@ -35,7 +35,7 @@ namespace azurerm.RouteMap
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/route_map#route_prefix RouteMap#route_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_map#route_prefix RouteMap#route_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routePrefix", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RoutePrefix

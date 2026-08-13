@@ -9,7 +9,7 @@ namespace azurerm.FirewallPolicy
     [JsiiByValue(fqn: "azurerm.firewallPolicy.FirewallPolicyTlsCertificate")]
     public class FirewallPolicyTlsCertificate : azurerm.FirewallPolicy.IFirewallPolicyTlsCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/firewall_policy#key_vault_secret_id FirewallPolicy#key_vault_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/firewall_policy#key_vault_secret_id FirewallPolicy#key_vault_secret_id}.</summary>
         [JsiiProperty(name: "keyVaultSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultSecretId
         {
@@ -17,7 +17,7 @@ namespace azurerm.FirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/firewall_policy#name FirewallPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/firewall_policy#name FirewallPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

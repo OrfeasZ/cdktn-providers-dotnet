@@ -9,7 +9,7 @@ namespace stripe.V2CoreEventDestination
     {
         /// <summary>The AWS account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination#aws_account_id V2CoreEventDestination#aws_account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#aws_account_id V2CoreEventDestination#aws_account_id}
         /// </remarks>
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}")]
         string AwsAccountId
@@ -19,7 +19,7 @@ namespace stripe.V2CoreEventDestination
 
         /// <summary>The region of the AWS event source.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination#aws_region V2CoreEventDestination#aws_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#aws_region V2CoreEventDestination#aws_region}
         /// </remarks>
         [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}")]
         string AwsRegion
@@ -36,7 +36,7 @@ namespace stripe.V2CoreEventDestination
 
             /// <summary>The AWS account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination#aws_account_id V2CoreEventDestination#aws_account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#aws_account_id V2CoreEventDestination#aws_account_id}
             /// </remarks>
             [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AwsAccountId
@@ -46,7 +46,7 @@ namespace stripe.V2CoreEventDestination
 
             /// <summary>The region of the AWS event source.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination#aws_region V2CoreEventDestination#aws_region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#aws_region V2CoreEventDestination#aws_region}
             /// </remarks>
             [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}")]
             public string AwsRegion

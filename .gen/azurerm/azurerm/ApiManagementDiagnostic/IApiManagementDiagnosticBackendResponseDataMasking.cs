@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementDiagnostic
     {
         /// <summary>headers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_diagnostic#headers ApiManagementDiagnostic#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_diagnostic#headers ApiManagementDiagnostic#headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementDiagnostic.IApiManagementDiagnosticBackendResponseDataMaskingHeaders" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "headers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementDiagnostic.ApiManagementDiagnosticBackendResponseDataMaskingHeaders\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace azurerm.ApiManagementDiagnostic
 
         /// <summary>query_params block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_diagnostic#query_params ApiManagementDiagnostic#query_params}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_diagnostic#query_params ApiManagementDiagnostic#query_params}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementDiagnostic.IApiManagementDiagnosticBackendResponseDataMaskingQueryParams" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "queryParams", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.apiManagementDiagnostic.ApiManagementDiagnosticBackendResponseDataMaskingQueryParams\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace azurerm.ApiManagementDiagnostic
 
             /// <summary>headers block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_diagnostic#headers ApiManagementDiagnostic#headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_diagnostic#headers ApiManagementDiagnostic#headers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementDiagnostic.IApiManagementDiagnosticBackendResponseDataMaskingHeaders" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -58,7 +58,7 @@ namespace azurerm.ApiManagementDiagnostic
 
             /// <summary>query_params block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_diagnostic#query_params ApiManagementDiagnostic#query_params}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_diagnostic#query_params ApiManagementDiagnostic#query_params}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementDiagnostic.IApiManagementDiagnosticBackendResponseDataMaskingQueryParams" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -9,7 +9,7 @@ namespace azurerm.StackHciDeploymentSetting
     [JsiiByValue(fqn: "azurerm.stackHciDeploymentSetting.StackHciDeploymentSettingScaleUnitOptionalService")]
     public class StackHciDeploymentSettingScaleUnitOptionalService : azurerm.StackHciDeploymentSetting.IStackHciDeploymentSettingScaleUnitOptionalService
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/stack_hci_deployment_setting#custom_location StackHciDeploymentSetting#custom_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/stack_hci_deployment_setting#custom_location StackHciDeploymentSetting#custom_location}.</summary>
         [JsiiProperty(name: "customLocation", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomLocation
         {

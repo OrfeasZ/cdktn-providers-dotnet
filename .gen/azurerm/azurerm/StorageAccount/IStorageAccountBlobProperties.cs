@@ -7,7 +7,7 @@ namespace azurerm.StorageAccount
     [JsiiInterface(nativeType: typeof(IStorageAccountBlobProperties), fullyQualifiedName: "azurerm.storageAccount.StorageAccountBlobProperties")]
     public interface IStorageAccountBlobProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#change_feed_enabled StorageAccount#change_feed_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#change_feed_enabled StorageAccount#change_feed_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#change_feed_retention_in_days StorageAccount#change_feed_retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#change_feed_retention_in_days StorageAccount#change_feed_retention_in_days}.</summary>
         [JsiiProperty(name: "changeFeedRetentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ChangeFeedRetentionInDays
@@ -34,7 +34,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>container_delete_retention_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#container_delete_retention_policy StorageAccount#container_delete_retention_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#container_delete_retention_policy StorageAccount#container_delete_retention_policy}
         /// </remarks>
         [JsiiProperty(name: "containerDeleteRetentionPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobPropertiesContainerDeleteRetentionPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>cors_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccount.IStorageAccountBlobPropertiesCorsRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "corsRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobPropertiesCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#default_service_version StorageAccount#default_service_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#default_service_version StorageAccount#default_service_version}.</summary>
         [JsiiProperty(name: "defaultServiceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DefaultServiceVersion
@@ -74,7 +74,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>delete_retention_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#delete_retention_policy StorageAccount#delete_retention_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#delete_retention_policy StorageAccount#delete_retention_policy}
         /// </remarks>
         [JsiiProperty(name: "deleteRetentionPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobPropertiesDeleteRetentionPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#last_access_time_enabled StorageAccount#last_access_time_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#last_access_time_enabled StorageAccount#last_access_time_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -102,7 +102,7 @@ namespace azurerm.StorageAccount
 
         /// <summary>restore_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#restore_policy StorageAccount#restore_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#restore_policy StorageAccount#restore_policy}
         /// </remarks>
         [JsiiProperty(name: "restorePolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobPropertiesRestorePolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace azurerm.StorageAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#versioning_enabled StorageAccount#versioning_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#versioning_enabled StorageAccount#versioning_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -135,7 +135,7 @@ namespace azurerm.StorageAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#change_feed_enabled StorageAccount#change_feed_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#change_feed_enabled StorageAccount#change_feed_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -146,7 +146,7 @@ namespace azurerm.StorageAccount
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#change_feed_retention_in_days StorageAccount#change_feed_retention_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#change_feed_retention_in_days StorageAccount#change_feed_retention_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "changeFeedRetentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ChangeFeedRetentionInDays
@@ -156,7 +156,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>container_delete_retention_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#container_delete_retention_policy StorageAccount#container_delete_retention_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#container_delete_retention_policy StorageAccount#container_delete_retention_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "containerDeleteRetentionPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobPropertiesContainerDeleteRetentionPolicy\"}", isOptional: true)]
@@ -167,7 +167,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>cors_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#cors_rule StorageAccount#cors_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccount.IStorageAccountBlobPropertiesCorsRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -177,7 +177,7 @@ namespace azurerm.StorageAccount
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#default_service_version StorageAccount#default_service_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#default_service_version StorageAccount#default_service_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "defaultServiceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DefaultServiceVersion
@@ -187,7 +187,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>delete_retention_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#delete_retention_policy StorageAccount#delete_retention_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#delete_retention_policy StorageAccount#delete_retention_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deleteRetentionPolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobPropertiesDeleteRetentionPolicy\"}", isOptional: true)]
@@ -196,7 +196,7 @@ namespace azurerm.StorageAccount
                 get => GetInstanceProperty<azurerm.StorageAccount.IStorageAccountBlobPropertiesDeleteRetentionPolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#last_access_time_enabled StorageAccount#last_access_time_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#last_access_time_enabled StorageAccount#last_access_time_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -209,7 +209,7 @@ namespace azurerm.StorageAccount
 
             /// <summary>restore_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#restore_policy StorageAccount#restore_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#restore_policy StorageAccount#restore_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "restorePolicy", typeJson: "{\"fqn\":\"azurerm.storageAccount.StorageAccountBlobPropertiesRestorePolicy\"}", isOptional: true)]
@@ -218,7 +218,7 @@ namespace azurerm.StorageAccount
                 get => GetInstanceProperty<azurerm.StorageAccount.IStorageAccountBlobPropertiesRestorePolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_account#versioning_enabled StorageAccount#versioning_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_account#versioning_enabled StorageAccount#versioning_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

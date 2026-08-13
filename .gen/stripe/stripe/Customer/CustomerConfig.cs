@@ -7,23 +7,46 @@ namespace stripe.Customer
     [JsiiByValue(fqn: "stripe.customer.CustomerConfig")]
     public class CustomerConfig : stripe.Customer.ICustomerConfig
     {
+        private object? _address;
+
         /// <summary>address block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#address Customer#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#address Customer#address}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerAddress" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.customer.CustomerAddress\"}", isOptional: true)]
-        public stripe.Customer.ICustomerAddress? Address
+        [JsiiProperty(name: "address", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Address
         {
-            get;
-            set;
+            get => _address;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.Customer.ICustomerAddress[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerAddress).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _address = value;
+            }
         }
 
-        /// <summary>An integer amount in cents (or local equivalent) that represents the customer's current balance, which affect the customer's future invoices.</summary>
+        /// <summary>The current balance, if any, that's stored on the customer in their default currency.</summary>
         /// <remarks>
-        /// A negative amount represents a credit that decreases the amount due on an invoice; a positive amount increases the amount due on an invoice.
+        /// If negative, the customer has credit to apply to their next invoice. If positive, the customer has an amount owed that's added to their next invoice. The balance only considers amounts that Stripe hasn't successfully applied to any invoice. It doesn't reflect unpaid invoices. This balance is only taken into account after invoices finalize. For multi-currency balances, see <a href="https://docs.stripe.com/api/customers/object#customer_object-invoice_credit_balance">invoice_credit_balance</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#balance Customer#balance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#balance Customer#balance}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "balance", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -33,7 +56,10 @@ namespace stripe.Customer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#business_name Customer#business_name}.</summary>
+        /// <summary>The customer's business name.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#business_name Customer#business_name}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BusinessName
@@ -42,23 +68,58 @@ namespace stripe.Customer
             set;
         }
 
+        private object? _cashBalance;
+
         /// <summary>cash_balance block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#cash_balance Customer#cash_balance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#cash_balance Customer#cash_balance}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerCashBalance" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "cashBalance", typeJson: "{\"fqn\":\"stripe.customer.CustomerCashBalance\"}", isOptional: true)]
-        public stripe.Customer.ICustomerCashBalance? CashBalance
+        [JsiiProperty(name: "cashBalance", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerCashBalance\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? CashBalance
+        {
+            get => _cashBalance;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.Customer.ICustomerCashBalance[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerCashBalance).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _cashBalance = value;
+            }
+        }
+
+        /// <summary>ID of the default payment source for the customer.</summary>
+        /// <remarks>
+        /// If you use payment methods created through the PaymentMethods API, see the <a href="https://docs.stripe.com/api/customers/object#customer_object-invoice_settings-default_payment_method">invoice_settings.default_payment_method</a> field instead.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#default_source Customer#default_source}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "defaultSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? DefaultSource
         {
             get;
             set;
         }
 
-        /// <summary>An arbitrary string that you can attach to a customer object.</summary>
+        /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
         /// <remarks>
-        /// It is displayed alongside the customer in the dashboard.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#description Customer#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#description Customer#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,11 +129,9 @@ namespace stripe.Customer
             set;
         }
 
-        /// <summary>Customer's email address.</summary>
+        /// <summary>The customer's email address.</summary>
         /// <remarks>
-        /// It's displayed alongside the customer in your dashboard and can be useful for searching and tracking. This may be up to <em>512 characters</em>.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#email Customer#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#email Customer#email}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +141,10 @@ namespace stripe.Customer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#individual_name Customer#individual_name}.</summary>
+        /// <summary>The customer's individual name.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#individual_name Customer#individual_name}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "individualName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IndividualName
@@ -91,9 +153,9 @@ namespace stripe.Customer
             set;
         }
 
-        /// <summary>The prefix for the customer used to generate unique invoice numbers. Must be 3–12 uppercase letters or numbers.</summary>
+        /// <summary>The prefix for the customer used to generate unique invoice numbers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#invoice_prefix Customer#invoice_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#invoice_prefix Customer#invoice_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "invoicePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,19 +165,45 @@ namespace stripe.Customer
             set;
         }
 
+        private object? _invoiceSettings;
+
         /// <summary>invoice_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#invoice_settings Customer#invoice_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#invoice_settings Customer#invoice_settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerInvoiceSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "invoiceSettings", typeJson: "{\"fqn\":\"stripe.customer.CustomerInvoiceSettings\"}", isOptional: true)]
-        public stripe.Customer.ICustomerInvoiceSettings? InvoiceSettings
+        [JsiiProperty(name: "invoiceSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? InvoiceSettings
         {
-            get;
-            set;
+            get => _invoiceSettings;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.Customer.ICustomerInvoiceSettings[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerInvoiceSettings).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _invoiceSettings = value;
+            }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#metadata Customer#metadata}.</summary>
+        /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#metadata Customer#metadata}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Metadata
@@ -126,7 +214,7 @@ namespace stripe.Customer
 
         /// <summary>The customer's full name or business name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#name Customer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#name Customer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -136,9 +224,11 @@ namespace stripe.Customer
             set;
         }
 
-        /// <summary>The sequence to be used on the customer's next invoice. Defaults to 1.</summary>
+        /// <summary>The suffix of the customer's next invoice number (for example, 0001).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#next_invoice_sequence Customer#next_invoice_sequence}
+        /// When the account uses account level sequencing, this parameter is ignored in API requests and the field omitted in API responses.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#next_invoice_sequence Customer#next_invoice_sequence}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nextInvoiceSequence", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -148,7 +238,7 @@ namespace stripe.Customer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#payment_method Customer#payment_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#payment_method Customer#payment_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PaymentMethod
@@ -159,7 +249,7 @@ namespace stripe.Customer
 
         /// <summary>The customer's phone number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#phone Customer#phone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#phone Customer#phone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -169,9 +259,9 @@ namespace stripe.Customer
             set;
         }
 
-        /// <summary>Customer's preferred languages, ordered by preference.</summary>
+        /// <summary>The customer's preferred locales (languages), ordered by preference.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#preferred_locales Customer#preferred_locales}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#preferred_locales Customer#preferred_locales}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preferredLocales", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -181,33 +271,90 @@ namespace stripe.Customer
             set;
         }
 
+        private object? _shipping;
+
         /// <summary>shipping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#shipping Customer#shipping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#shipping Customer#shipping}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerShipping" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.customer.CustomerShipping\"}", isOptional: true)]
-        public stripe.Customer.ICustomerShipping? Shipping
+        [JsiiProperty(name: "shipping", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerShipping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Shipping
+        {
+            get => _shipping;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.Customer.ICustomerShipping[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerShipping).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _shipping = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#source Customer#source}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Source
         {
             get;
             set;
         }
+
+        private object? _tax;
 
         /// <summary>tax block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#tax Customer#tax}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#tax Customer#tax}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerTax" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "tax", typeJson: "{\"fqn\":\"stripe.customer.CustomerTax\"}", isOptional: true)]
-        public stripe.Customer.ICustomerTax? Tax
+        [JsiiProperty(name: "tax", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerTax\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Tax
         {
-            get;
-            set;
+            get => _tax;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.Customer.ICustomerTax[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerTax).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _tax = value;
+            }
         }
 
-        /// <summary>The customer's tax exemption. One of `none`, `exempt`, or `reverse`.</summary>
+        /// <summary>Describes the customer's tax exemption status, which is `none`, `exempt`, or `reverse`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#tax_exempt Customer#tax_exempt}
+        /// When set to <c>reverse</c>, invoice and receipt PDFs include the following text: <strong>"Reverse charge"</strong>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#tax_exempt Customer#tax_exempt}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxExempt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -221,7 +368,7 @@ namespace stripe.Customer
 
         /// <summary>tax_id_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#tax_id_data Customer#tax_id_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#tax_id_data Customer#tax_id_data}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerTaxIdData" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -252,9 +399,9 @@ namespace stripe.Customer
             }
         }
 
-        /// <summary>ID of the test clock to attach to the customer.</summary>
+        /// <summary>ID of the test clock that this customer belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#test_clock Customer#test_clock}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#test_clock Customer#test_clock}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "testClock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -262,6 +409,40 @@ namespace stripe.Customer
         {
             get;
             set;
+        }
+
+        private object? _validate;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#validate Customer#validate}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "validate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? Validate
+        {
+            get => _validate;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _validate = value;
+            }
         }
 
         private object? _connection;

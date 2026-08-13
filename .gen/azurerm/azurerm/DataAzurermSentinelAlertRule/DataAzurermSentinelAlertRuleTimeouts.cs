@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSentinelAlertRule
     [JsiiByValue(fqn: "azurerm.dataAzurermSentinelAlertRule.DataAzurermSentinelAlertRuleTimeouts")]
     public class DataAzurermSentinelAlertRuleTimeouts : azurerm.DataAzurermSentinelAlertRule.IDataAzurermSentinelAlertRuleTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/sentinel_alert_rule#read DataAzurermSentinelAlertRule#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/sentinel_alert_rule#read DataAzurermSentinelAlertRule#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,21 +7,21 @@ namespace azurerm.ServiceFabricCluster
     [JsiiInterface(nativeType: typeof(IServiceFabricClusterConfig), fullyQualifiedName: "azurerm.serviceFabricCluster.ServiceFabricClusterConfig")]
     public interface IServiceFabricClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#location ServiceFabricCluster#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#location ServiceFabricCluster#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         string Location
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#management_endpoint ServiceFabricCluster#management_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#management_endpoint ServiceFabricCluster#management_endpoint}.</summary>
         [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#name ServiceFabricCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#name ServiceFabricCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -30,7 +30,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>node_type block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#node_type ServiceFabricCluster#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#node_type ServiceFabricCluster#node_type}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterNodeType" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterNodeType\"},\"kind\":\"array\"}}]}}")]
@@ -39,35 +39,35 @@ namespace azurerm.ServiceFabricCluster
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#reliability_level ServiceFabricCluster#reliability_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#reliability_level ServiceFabricCluster#reliability_level}.</summary>
         [JsiiProperty(name: "reliabilityLevel", typeJson: "{\"primitive\":\"string\"}")]
         string ReliabilityLevel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#resource_group_name ServiceFabricCluster#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#resource_group_name ServiceFabricCluster#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#upgrade_mode ServiceFabricCluster#upgrade_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#upgrade_mode ServiceFabricCluster#upgrade_mode}.</summary>
         [JsiiProperty(name: "upgradeMode", typeJson: "{\"primitive\":\"string\"}")]
         string UpgradeMode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#vm_image ServiceFabricCluster#vm_image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#vm_image ServiceFabricCluster#vm_image}.</summary>
         [JsiiProperty(name: "vmImage", typeJson: "{\"primitive\":\"string\"}")]
         string VmImage
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#add_on_features ServiceFabricCluster#add_on_features}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#add_on_features ServiceFabricCluster#add_on_features}.</summary>
         [JsiiProperty(name: "addOnFeatures", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AddOnFeatures
@@ -80,7 +80,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>azure_active_directory block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#azure_active_directory ServiceFabricCluster#azure_active_directory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#azure_active_directory ServiceFabricCluster#azure_active_directory}
         /// </remarks>
         [JsiiProperty(name: "azureActiveDirectory", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectory\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#certificate ServiceFabricCluster#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#certificate ServiceFabricCluster#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterCertificate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>certificate_common_names block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#certificate_common_names ServiceFabricCluster#certificate_common_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#certificate_common_names ServiceFabricCluster#certificate_common_names}
         /// </remarks>
         [JsiiProperty(name: "certificateCommonNames", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNames\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>client_certificate_common_name block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#client_certificate_common_name ServiceFabricCluster#client_certificate_common_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#client_certificate_common_name ServiceFabricCluster#client_certificate_common_name}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterClientCertificateCommonName" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "clientCertificateCommonName", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateCommonName\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>client_certificate_thumbprint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#client_certificate_thumbprint ServiceFabricCluster#client_certificate_thumbprint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#client_certificate_thumbprint ServiceFabricCluster#client_certificate_thumbprint}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterClientCertificateThumbprint" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "clientCertificateThumbprint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterClientCertificateThumbprint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -150,7 +150,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#cluster_code_version ServiceFabricCluster#cluster_code_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#cluster_code_version ServiceFabricCluster#cluster_code_version}.</summary>
         [JsiiProperty(name: "clusterCodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterCodeVersion
@@ -163,7 +163,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>diagnostics_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#diagnostics_config ServiceFabricCluster#diagnostics_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#diagnostics_config ServiceFabricCluster#diagnostics_config}
         /// </remarks>
         [JsiiProperty(name: "diagnosticsConfig", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterDiagnosticsConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -177,7 +177,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>fabric_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#fabric_settings ServiceFabricCluster#fabric_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#fabric_settings ServiceFabricCluster#fabric_settings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterFabricSettings" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "fabricSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterFabricSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#id ServiceFabricCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#id ServiceFabricCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -207,7 +207,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>reverse_proxy_certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#reverse_proxy_certificate ServiceFabricCluster#reverse_proxy_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#reverse_proxy_certificate ServiceFabricCluster#reverse_proxy_certificate}
         /// </remarks>
         [JsiiProperty(name: "reverseProxyCertificate", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -221,7 +221,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>reverse_proxy_certificate_common_names block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#reverse_proxy_certificate_common_names ServiceFabricCluster#reverse_proxy_certificate_common_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#reverse_proxy_certificate_common_names ServiceFabricCluster#reverse_proxy_certificate_common_names}
         /// </remarks>
         [JsiiProperty(name: "reverseProxyCertificateCommonNames", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNames\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -233,7 +233,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#service_fabric_zonal_upgrade_mode ServiceFabricCluster#service_fabric_zonal_upgrade_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#service_fabric_zonal_upgrade_mode ServiceFabricCluster#service_fabric_zonal_upgrade_mode}.</summary>
         [JsiiProperty(name: "serviceFabricZonalUpgradeMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServiceFabricZonalUpgradeMode
@@ -244,7 +244,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#tags ServiceFabricCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#tags ServiceFabricCluster#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -257,7 +257,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#timeouts ServiceFabricCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#timeouts ServiceFabricCluster#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -271,7 +271,7 @@ namespace azurerm.ServiceFabricCluster
 
         /// <summary>upgrade_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#upgrade_policy ServiceFabricCluster#upgrade_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#upgrade_policy ServiceFabricCluster#upgrade_policy}
         /// </remarks>
         [JsiiProperty(name: "upgradePolicy", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -283,7 +283,7 @@ namespace azurerm.ServiceFabricCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#vmss_zonal_upgrade_mode ServiceFabricCluster#vmss_zonal_upgrade_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#vmss_zonal_upgrade_mode ServiceFabricCluster#vmss_zonal_upgrade_mode}.</summary>
         [JsiiProperty(name: "vmssZonalUpgradeMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VmssZonalUpgradeMode
@@ -301,21 +301,21 @@ namespace azurerm.ServiceFabricCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#location ServiceFabricCluster#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#location ServiceFabricCluster#location}.</summary>
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
             public string Location
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#management_endpoint ServiceFabricCluster#management_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#management_endpoint ServiceFabricCluster#management_endpoint}.</summary>
             [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#name ServiceFabricCluster#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#name ServiceFabricCluster#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -324,7 +324,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>node_type block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#node_type ServiceFabricCluster#node_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#node_type ServiceFabricCluster#node_type}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterNodeType" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "nodeType", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterNodeType\"},\"kind\":\"array\"}}]}}")]
@@ -333,35 +333,35 @@ namespace azurerm.ServiceFabricCluster
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#reliability_level ServiceFabricCluster#reliability_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#reliability_level ServiceFabricCluster#reliability_level}.</summary>
             [JsiiProperty(name: "reliabilityLevel", typeJson: "{\"primitive\":\"string\"}")]
             public string ReliabilityLevel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#resource_group_name ServiceFabricCluster#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#resource_group_name ServiceFabricCluster#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#upgrade_mode ServiceFabricCluster#upgrade_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#upgrade_mode ServiceFabricCluster#upgrade_mode}.</summary>
             [JsiiProperty(name: "upgradeMode", typeJson: "{\"primitive\":\"string\"}")]
             public string UpgradeMode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#vm_image ServiceFabricCluster#vm_image}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#vm_image ServiceFabricCluster#vm_image}.</summary>
             [JsiiProperty(name: "vmImage", typeJson: "{\"primitive\":\"string\"}")]
             public string VmImage
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#add_on_features ServiceFabricCluster#add_on_features}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#add_on_features ServiceFabricCluster#add_on_features}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "addOnFeatures", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AddOnFeatures
@@ -371,7 +371,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>azure_active_directory block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#azure_active_directory ServiceFabricCluster#azure_active_directory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#azure_active_directory ServiceFabricCluster#azure_active_directory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureActiveDirectory", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterAzureActiveDirectory\"}", isOptional: true)]
@@ -382,7 +382,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>certificate block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#certificate ServiceFabricCluster#certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#certificate ServiceFabricCluster#certificate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificate", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterCertificate\"}", isOptional: true)]
@@ -393,7 +393,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>certificate_common_names block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#certificate_common_names ServiceFabricCluster#certificate_common_names}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#certificate_common_names ServiceFabricCluster#certificate_common_names}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificateCommonNames", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterCertificateCommonNames\"}", isOptional: true)]
@@ -404,7 +404,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>client_certificate_common_name block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#client_certificate_common_name ServiceFabricCluster#client_certificate_common_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#client_certificate_common_name ServiceFabricCluster#client_certificate_common_name}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterClientCertificateCommonName" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -416,7 +416,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>client_certificate_thumbprint block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#client_certificate_thumbprint ServiceFabricCluster#client_certificate_thumbprint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#client_certificate_thumbprint ServiceFabricCluster#client_certificate_thumbprint}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterClientCertificateThumbprint" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -426,7 +426,7 @@ namespace azurerm.ServiceFabricCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#cluster_code_version ServiceFabricCluster#cluster_code_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#cluster_code_version ServiceFabricCluster#cluster_code_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterCodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterCodeVersion
@@ -436,7 +436,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>diagnostics_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#diagnostics_config ServiceFabricCluster#diagnostics_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#diagnostics_config ServiceFabricCluster#diagnostics_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "diagnosticsConfig", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterDiagnosticsConfig\"}", isOptional: true)]
@@ -447,7 +447,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>fabric_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#fabric_settings ServiceFabricCluster#fabric_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#fabric_settings ServiceFabricCluster#fabric_settings}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ServiceFabricCluster.IServiceFabricClusterFabricSettings" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -457,7 +457,7 @@ namespace azurerm.ServiceFabricCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#id ServiceFabricCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#id ServiceFabricCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -471,7 +471,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>reverse_proxy_certificate block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#reverse_proxy_certificate ServiceFabricCluster#reverse_proxy_certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#reverse_proxy_certificate ServiceFabricCluster#reverse_proxy_certificate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "reverseProxyCertificate", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificate\"}", isOptional: true)]
@@ -482,7 +482,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>reverse_proxy_certificate_common_names block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#reverse_proxy_certificate_common_names ServiceFabricCluster#reverse_proxy_certificate_common_names}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#reverse_proxy_certificate_common_names ServiceFabricCluster#reverse_proxy_certificate_common_names}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "reverseProxyCertificateCommonNames", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterReverseProxyCertificateCommonNames\"}", isOptional: true)]
@@ -491,7 +491,7 @@ namespace azurerm.ServiceFabricCluster
                 get => GetInstanceProperty<azurerm.ServiceFabricCluster.IServiceFabricClusterReverseProxyCertificateCommonNames?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#service_fabric_zonal_upgrade_mode ServiceFabricCluster#service_fabric_zonal_upgrade_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#service_fabric_zonal_upgrade_mode ServiceFabricCluster#service_fabric_zonal_upgrade_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceFabricZonalUpgradeMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServiceFabricZonalUpgradeMode
@@ -499,7 +499,7 @@ namespace azurerm.ServiceFabricCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#tags ServiceFabricCluster#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#tags ServiceFabricCluster#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -509,7 +509,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#timeouts ServiceFabricCluster#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#timeouts ServiceFabricCluster#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterTimeouts\"}", isOptional: true)]
@@ -520,7 +520,7 @@ namespace azurerm.ServiceFabricCluster
 
             /// <summary>upgrade_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#upgrade_policy ServiceFabricCluster#upgrade_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#upgrade_policy ServiceFabricCluster#upgrade_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "upgradePolicy", typeJson: "{\"fqn\":\"azurerm.serviceFabricCluster.ServiceFabricClusterUpgradePolicy\"}", isOptional: true)]
@@ -529,7 +529,7 @@ namespace azurerm.ServiceFabricCluster
                 get => GetInstanceProperty<azurerm.ServiceFabricCluster.IServiceFabricClusterUpgradePolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#vmss_zonal_upgrade_mode ServiceFabricCluster#vmss_zonal_upgrade_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#vmss_zonal_upgrade_mode ServiceFabricCluster#vmss_zonal_upgrade_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vmssZonalUpgradeMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VmssZonalUpgradeMode

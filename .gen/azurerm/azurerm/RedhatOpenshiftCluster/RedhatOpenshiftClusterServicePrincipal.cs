@@ -9,7 +9,7 @@ namespace azurerm.RedhatOpenshiftCluster
     [JsiiByValue(fqn: "azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipal")]
     public class RedhatOpenshiftClusterServicePrincipal : azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterServicePrincipal
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#client_id RedhatOpenshiftCluster#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#client_id RedhatOpenshiftCluster#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -17,7 +17,7 @@ namespace azurerm.RedhatOpenshiftCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redhat_openshift_cluster#client_secret RedhatOpenshiftCluster#client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#client_secret RedhatOpenshiftCluster#client_secret}.</summary>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecret
         {

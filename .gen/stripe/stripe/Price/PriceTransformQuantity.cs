@@ -1,0 +1,34 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace stripe.Price
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "stripe.price.PriceTransformQuantity")]
+    public class PriceTransformQuantity : stripe.Price.IPriceTransformQuantity
+    {
+        /// <summary>Divide usage by this number.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#divide_by Price#divide_by}
+        /// </remarks>
+        [JsiiProperty(name: "divideBy", typeJson: "{\"primitive\":\"number\"}")]
+        public double DivideBy
+        {
+            get;
+            set;
+        }
+
+        /// <summary>After division, either round the result `up` or `down`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#round Price#round}
+        /// </remarks>
+        [JsiiProperty(name: "round", typeJson: "{\"primitive\":\"string\"}")]
+        public string Round
+        {
+            get;
+            set;
+        }
+    }
+}

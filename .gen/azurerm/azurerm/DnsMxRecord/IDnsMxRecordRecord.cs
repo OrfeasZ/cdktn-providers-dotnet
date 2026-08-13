@@ -7,14 +7,14 @@ namespace azurerm.DnsMxRecord
     [JsiiInterface(nativeType: typeof(IDnsMxRecordRecord), fullyQualifiedName: "azurerm.dnsMxRecord.DnsMxRecordRecord")]
     public interface IDnsMxRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_mx_record#exchange DnsMxRecord#exchange}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_mx_record#exchange DnsMxRecord#exchange}.</summary>
         [JsiiProperty(name: "exchange", typeJson: "{\"primitive\":\"string\"}")]
         string Exchange
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_mx_record#preference DnsMxRecord#preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_mx_record#preference DnsMxRecord#preference}.</summary>
         [JsiiProperty(name: "preference", typeJson: "{\"primitive\":\"string\"}")]
         string Preference
         {
@@ -28,14 +28,14 @@ namespace azurerm.DnsMxRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_mx_record#exchange DnsMxRecord#exchange}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_mx_record#exchange DnsMxRecord#exchange}.</summary>
             [JsiiProperty(name: "exchange", typeJson: "{\"primitive\":\"string\"}")]
             public string Exchange
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_mx_record#preference DnsMxRecord#preference}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_mx_record#preference DnsMxRecord#preference}.</summary>
             [JsiiProperty(name: "preference", typeJson: "{\"primitive\":\"string\"}")]
             public string Preference
             {

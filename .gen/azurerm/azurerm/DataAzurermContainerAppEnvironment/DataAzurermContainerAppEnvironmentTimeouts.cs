@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermContainerAppEnvironment
     [JsiiByValue(fqn: "azurerm.dataAzurermContainerAppEnvironment.DataAzurermContainerAppEnvironmentTimeouts")]
     public class DataAzurermContainerAppEnvironmentTimeouts : azurerm.DataAzurermContainerAppEnvironment.IDataAzurermContainerAppEnvironmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/container_app_environment#read DataAzurermContainerAppEnvironment#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/container_app_environment#read DataAzurermContainerAppEnvironment#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

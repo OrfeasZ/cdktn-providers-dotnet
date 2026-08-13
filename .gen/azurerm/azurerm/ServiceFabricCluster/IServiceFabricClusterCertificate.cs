@@ -7,21 +7,21 @@ namespace azurerm.ServiceFabricCluster
     [JsiiInterface(nativeType: typeof(IServiceFabricClusterCertificate), fullyQualifiedName: "azurerm.serviceFabricCluster.ServiceFabricClusterCertificate")]
     public interface IServiceFabricClusterCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#thumbprint ServiceFabricCluster#thumbprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#thumbprint ServiceFabricCluster#thumbprint}.</summary>
         [JsiiProperty(name: "thumbprint", typeJson: "{\"primitive\":\"string\"}")]
         string Thumbprint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#x509_store_name ServiceFabricCluster#x509_store_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#x509_store_name ServiceFabricCluster#x509_store_name}.</summary>
         [JsiiProperty(name: "x509StoreName", typeJson: "{\"primitive\":\"string\"}")]
         string X509StoreName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#thumbprint_secondary ServiceFabricCluster#thumbprint_secondary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#thumbprint_secondary ServiceFabricCluster#thumbprint_secondary}.</summary>
         [JsiiProperty(name: "thumbprintSecondary", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ThumbprintSecondary
@@ -39,21 +39,21 @@ namespace azurerm.ServiceFabricCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#thumbprint ServiceFabricCluster#thumbprint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#thumbprint ServiceFabricCluster#thumbprint}.</summary>
             [JsiiProperty(name: "thumbprint", typeJson: "{\"primitive\":\"string\"}")]
             public string Thumbprint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#x509_store_name ServiceFabricCluster#x509_store_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#x509_store_name ServiceFabricCluster#x509_store_name}.</summary>
             [JsiiProperty(name: "x509StoreName", typeJson: "{\"primitive\":\"string\"}")]
             public string X509StoreName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/service_fabric_cluster#thumbprint_secondary ServiceFabricCluster#thumbprint_secondary}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_cluster#thumbprint_secondary ServiceFabricCluster#thumbprint_secondary}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "thumbprintSecondary", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ThumbprintSecondary

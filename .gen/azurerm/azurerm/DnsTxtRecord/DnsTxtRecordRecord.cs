@@ -9,7 +9,7 @@ namespace azurerm.DnsTxtRecord
     [JsiiByValue(fqn: "azurerm.dnsTxtRecord.DnsTxtRecordRecord")]
     public class DnsTxtRecordRecord : azurerm.DnsTxtRecord.IDnsTxtRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dns_txt_record#value DnsTxtRecord#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dns_txt_record#value DnsTxtRecord#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

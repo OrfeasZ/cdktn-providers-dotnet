@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistryCredentialSet
     [JsiiInterface(nativeType: typeof(IContainerRegistryCredentialSetIdentity), fullyQualifiedName: "azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSetIdentity")]
     public interface IContainerRegistryCredentialSetIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_credential_set#type ContainerRegistryCredentialSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_credential_set#type ContainerRegistryCredentialSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.ContainerRegistryCredentialSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_credential_set#type ContainerRegistryCredentialSet#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_credential_set#type ContainerRegistryCredentialSet#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

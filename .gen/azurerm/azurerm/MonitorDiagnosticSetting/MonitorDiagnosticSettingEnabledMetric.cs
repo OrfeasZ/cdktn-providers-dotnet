@@ -9,7 +9,7 @@ namespace azurerm.MonitorDiagnosticSetting
     [JsiiByValue(fqn: "azurerm.monitorDiagnosticSetting.MonitorDiagnosticSettingEnabledMetric")]
     public class MonitorDiagnosticSettingEnabledMetric : azurerm.MonitorDiagnosticSetting.IMonitorDiagnosticSettingEnabledMetric
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_diagnostic_setting#category MonitorDiagnosticSetting#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_diagnostic_setting#category MonitorDiagnosticSetting#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         public string Category
         {

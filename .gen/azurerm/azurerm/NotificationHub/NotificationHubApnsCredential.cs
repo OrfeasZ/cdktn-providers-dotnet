@@ -9,7 +9,7 @@ namespace azurerm.NotificationHub
     [JsiiByValue(fqn: "azurerm.notificationHub.NotificationHubApnsCredential")]
     public class NotificationHubApnsCredential : azurerm.NotificationHub.INotificationHubApnsCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#application_mode NotificationHub#application_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/notification_hub#application_mode NotificationHub#application_mode}.</summary>
         [JsiiProperty(name: "applicationMode", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationMode
         {
@@ -17,7 +17,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#bundle_id NotificationHub#bundle_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/notification_hub#bundle_id NotificationHub#bundle_id}.</summary>
         [JsiiProperty(name: "bundleId", typeJson: "{\"primitive\":\"string\"}")]
         public string BundleId
         {
@@ -25,7 +25,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#key_id NotificationHub#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/notification_hub#key_id NotificationHub#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -33,7 +33,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#team_id NotificationHub#team_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/notification_hub#team_id NotificationHub#team_id}.</summary>
         [JsiiProperty(name: "teamId", typeJson: "{\"primitive\":\"string\"}")]
         public string TeamId
         {
@@ -41,7 +41,7 @@ namespace azurerm.NotificationHub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#token NotificationHub#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/notification_hub#token NotificationHub#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
         {

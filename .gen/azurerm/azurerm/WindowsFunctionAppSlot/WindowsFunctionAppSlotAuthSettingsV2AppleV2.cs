@@ -11,7 +11,7 @@ namespace azurerm.WindowsFunctionAppSlot
     {
         /// <summary>The OpenID Connect Client ID for the Apple web application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app_slot#client_id WindowsFunctionAppSlot#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app_slot#client_id WindowsFunctionAppSlot#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
@@ -22,7 +22,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>The app setting name that contains the `client_secret` value used for Apple Login.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app_slot#client_secret_setting_name WindowsFunctionAppSlot#client_secret_setting_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app_slot#client_secret_setting_name WindowsFunctionAppSlot#client_secret_setting_name}
         /// </remarks>
         [JsiiProperty(name: "clientSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecretSettingName

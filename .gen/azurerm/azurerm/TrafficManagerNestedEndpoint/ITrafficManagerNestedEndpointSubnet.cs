@@ -7,14 +7,14 @@ namespace azurerm.TrafficManagerNestedEndpoint
     [JsiiInterface(nativeType: typeof(ITrafficManagerNestedEndpointSubnet), fullyQualifiedName: "azurerm.trafficManagerNestedEndpoint.TrafficManagerNestedEndpointSubnet")]
     public interface ITrafficManagerNestedEndpointSubnet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_nested_endpoint#first TrafficManagerNestedEndpoint#first}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_nested_endpoint#first TrafficManagerNestedEndpoint#first}.</summary>
         [JsiiProperty(name: "first", typeJson: "{\"primitive\":\"string\"}")]
         string First
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_nested_endpoint#last TrafficManagerNestedEndpoint#last}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_nested_endpoint#last TrafficManagerNestedEndpoint#last}.</summary>
         [JsiiProperty(name: "last", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Last
@@ -25,7 +25,7 @@ namespace azurerm.TrafficManagerNestedEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_nested_endpoint#scope TrafficManagerNestedEndpoint#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_nested_endpoint#scope TrafficManagerNestedEndpoint#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Scope
@@ -43,14 +43,14 @@ namespace azurerm.TrafficManagerNestedEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_nested_endpoint#first TrafficManagerNestedEndpoint#first}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_nested_endpoint#first TrafficManagerNestedEndpoint#first}.</summary>
             [JsiiProperty(name: "first", typeJson: "{\"primitive\":\"string\"}")]
             public string First
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_nested_endpoint#last TrafficManagerNestedEndpoint#last}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_nested_endpoint#last TrafficManagerNestedEndpoint#last}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "last", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Last
@@ -58,7 +58,7 @@ namespace azurerm.TrafficManagerNestedEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/traffic_manager_nested_endpoint#scope TrafficManagerNestedEndpoint#scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/traffic_manager_nested_endpoint#scope TrafficManagerNestedEndpoint#scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Scope

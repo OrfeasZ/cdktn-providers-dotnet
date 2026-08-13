@@ -9,7 +9,7 @@ namespace azurerm.VpnSite
     [JsiiByValue(fqn: "azurerm.vpnSite.VpnSiteLinkBgp")]
     public class VpnSiteLinkBgp : azurerm.VpnSite.IVpnSiteLinkBgp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_site#asn VpnSite#asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_site#asn VpnSite#asn}.</summary>
         [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
         public double Asn
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnSite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_site#peering_address VpnSite#peering_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_site#peering_address VpnSite#peering_address}.</summary>
         [JsiiProperty(name: "peeringAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string PeeringAddress
         {

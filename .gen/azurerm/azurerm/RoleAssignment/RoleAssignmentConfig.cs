@@ -9,7 +9,7 @@ namespace azurerm.RoleAssignment
     [JsiiByValue(fqn: "azurerm.roleAssignment.RoleAssignmentConfig")]
     public class RoleAssignmentConfig : azurerm.RoleAssignment.IRoleAssignmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#principal_id RoleAssignment#principal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#principal_id RoleAssignment#principal_id}.</summary>
         [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrincipalId
         {
@@ -17,7 +17,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#scope RoleAssignment#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#scope RoleAssignment#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
         {
@@ -25,7 +25,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#condition RoleAssignment#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#condition RoleAssignment#condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Condition
@@ -34,7 +34,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#condition_version RoleAssignment#condition_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#condition_version RoleAssignment#condition_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conditionVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConditionVersion
@@ -43,7 +43,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#delegated_managed_identity_resource_id RoleAssignment#delegated_managed_identity_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#delegated_managed_identity_resource_id RoleAssignment#delegated_managed_identity_resource_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delegatedManagedIdentityResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DelegatedManagedIdentityResourceId
@@ -52,7 +52,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#description RoleAssignment#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#description RoleAssignment#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -61,7 +61,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#id RoleAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#id RoleAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#name RoleAssignment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#name RoleAssignment#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -83,7 +83,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#principal_type RoleAssignment#principal_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#principal_type RoleAssignment#principal_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "principalType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrincipalType
@@ -92,7 +92,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#role_definition_id RoleAssignment#role_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#role_definition_id RoleAssignment#role_definition_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "roleDefinitionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoleDefinitionId
@@ -101,7 +101,7 @@ namespace azurerm.RoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#role_definition_name RoleAssignment#role_definition_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#role_definition_name RoleAssignment#role_definition_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "roleDefinitionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RoleDefinitionName
@@ -112,7 +112,7 @@ namespace azurerm.RoleAssignment
 
         private object? _skipServicePrincipalAadCheck;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#skip_service_principal_aad_check RoleAssignment#skip_service_principal_aad_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#skip_service_principal_aad_check RoleAssignment#skip_service_principal_aad_check}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -146,7 +146,7 @@ namespace azurerm.RoleAssignment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/role_assignment#timeouts RoleAssignment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_assignment#timeouts RoleAssignment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.roleAssignment.RoleAssignmentTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace azurerm.WindowsFunctionApp
     [JsiiInterface(nativeType: typeof(IWindowsFunctionAppStickySettings), fullyQualifiedName: "azurerm.windowsFunctionApp.WindowsFunctionAppStickySettings")]
     public interface IWindowsFunctionAppStickySettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app#app_setting_names WindowsFunctionApp#app_setting_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#app_setting_names WindowsFunctionApp#app_setting_names}.</summary>
         [JsiiProperty(name: "appSettingNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AppSettingNames
@@ -18,7 +18,7 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app#connection_string_names WindowsFunctionApp#connection_string_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#connection_string_names WindowsFunctionApp#connection_string_names}.</summary>
         [JsiiProperty(name: "connectionStringNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ConnectionStringNames
@@ -36,7 +36,7 @@ namespace azurerm.WindowsFunctionApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app#app_setting_names WindowsFunctionApp#app_setting_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#app_setting_names WindowsFunctionApp#app_setting_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "appSettingNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AppSettingNames
@@ -44,7 +44,7 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_function_app#connection_string_names WindowsFunctionApp#connection_string_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#connection_string_names WindowsFunctionApp#connection_string_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionStringNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ConnectionStringNames

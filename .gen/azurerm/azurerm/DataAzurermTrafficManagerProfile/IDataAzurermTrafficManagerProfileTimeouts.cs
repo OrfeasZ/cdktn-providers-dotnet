@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermTrafficManagerProfile
     [JsiiInterface(nativeType: typeof(IDataAzurermTrafficManagerProfileTimeouts), fullyQualifiedName: "azurerm.dataAzurermTrafficManagerProfile.DataAzurermTrafficManagerProfileTimeouts")]
     public interface IDataAzurermTrafficManagerProfileTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/traffic_manager_profile#read DataAzurermTrafficManagerProfile#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/traffic_manager_profile#read DataAzurermTrafficManagerProfile#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermTrafficManagerProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/traffic_manager_profile#read DataAzurermTrafficManagerProfile#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/traffic_manager_profile#read DataAzurermTrafficManagerProfile#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

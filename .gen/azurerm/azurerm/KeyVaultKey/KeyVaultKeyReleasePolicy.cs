@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultKey
     [JsiiByValue(fqn: "azurerm.keyVaultKey.KeyVaultKeyReleasePolicy")]
     public class KeyVaultKeyReleasePolicy : azurerm.KeyVaultKey.IKeyVaultKeyReleasePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_key#json KeyVaultKey#json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_key#json KeyVaultKey#json}.</summary>
         [JsiiProperty(name: "json", typeJson: "{\"primitive\":\"string\"}")]
         public string Json
         {
@@ -19,7 +19,7 @@ namespace azurerm.KeyVaultKey
 
         private object? _immutable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.BillingMeter
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter stripe_billing_meter}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter stripe_billing_meter}.</summary>
     [JsiiClass(nativeType: typeof(stripe.BillingMeter.BillingMeter), fullyQualifiedName: "stripe.billingMeter.BillingMeter", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.billingMeter.BillingMeterConfig\"}}]")]
     public class BillingMeter : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter stripe_billing_meter} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter stripe_billing_meter} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BillingMeter(Constructs.Construct scope, string id, stripe.BillingMeter.IBillingMeterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,28 +40,82 @@ namespace stripe.BillingMeter
         /// <param name="importToId">The construct id used in the generated config for the BillingMeter to import.</param>
         /// <param name="importFromId">The id of the existing BillingMeter that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BillingMeter to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BillingMeter to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BillingMeter that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BillingMeter to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BillingMeter to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BillingMeter that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BillingMeter to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.BillingMeter.BillingMeter), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putCustomerMapping", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"}}]")]
-        public virtual void PutCustomerMapping(stripe.BillingMeter.IBillingMeterCustomerMapping @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterCustomerMapping" />)[]</param>
+        [JsiiMethod(name: "putCustomerMapping", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCustomerMapping(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.BillingMeter.IBillingMeterCustomerMapping)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.BillingMeter.IBillingMeterCustomerMapping[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterCustomerMapping).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterCustomerMapping).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putDefaultAggregation", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"}}]")]
-        public virtual void PutDefaultAggregation(stripe.BillingMeter.IBillingMeterDefaultAggregation @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterDefaultAggregation" />)[]</param>
+        [JsiiMethod(name: "putDefaultAggregation", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutDefaultAggregation(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.BillingMeter.IBillingMeterDefaultAggregation)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.BillingMeter.IBillingMeterDefaultAggregation[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterDefaultAggregation).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterDefaultAggregation).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putValueSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"}}]")]
-        public virtual void PutValueSettings(stripe.BillingMeter.IBillingMeterValueSettings @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterValueSettings" />)[]</param>
+        [JsiiMethod(name: "putValueSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutValueSettings(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.BillingMeter.IBillingMeterValueSettings)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.BillingMeter.IBillingMeterValueSettings[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterValueSettings).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterValueSettings).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetCustomerMapping")]
@@ -70,8 +124,8 @@ namespace stripe.BillingMeter
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetDimensionPayloadKeys")]
-        public virtual void ResetDimensionPayloadKeys()
+        [JsiiMethod(name: "resetDefaultAggregation")]
+        public virtual void ResetDefaultAggregation()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -107,20 +161,38 @@ namespace stripe.BillingMeter
         }
         = GetStaticProperty<string>(typeof(stripe.BillingMeter.BillingMeter))!;
 
-        [JsiiProperty(name: "customerMapping", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMappingOutputReference\"}")]
-        public virtual stripe.BillingMeter.BillingMeterCustomerMappingOutputReference CustomerMapping
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Created
         {
-            get => GetInstanceProperty<stripe.BillingMeter.BillingMeterCustomerMappingOutputReference>()!;
+            get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "defaultAggregation", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregationOutputReference\"}")]
-        public virtual stripe.BillingMeter.BillingMeterDefaultAggregationOutputReference DefaultAggregation
+        [JsiiProperty(name: "customerMapping", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMappingList\"}")]
+        public virtual stripe.BillingMeter.BillingMeterCustomerMappingList CustomerMapping
         {
-            get => GetInstanceProperty<stripe.BillingMeter.BillingMeterDefaultAggregationOutputReference>()!;
+            get => GetInstanceProperty<stripe.BillingMeter.BillingMeterCustomerMappingList>()!;
+        }
+
+        [JsiiProperty(name: "defaultAggregation", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregationList\"}")]
+        public virtual stripe.BillingMeter.BillingMeterDefaultAggregationList DefaultAggregation
+        {
+            get => GetInstanceProperty<stripe.BillingMeter.BillingMeterDefaultAggregationList>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Livemode
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Object
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -131,31 +203,42 @@ namespace stripe.BillingMeter
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "valueSettings", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettingsOutputReference\"}")]
-        public virtual stripe.BillingMeter.BillingMeterValueSettingsOutputReference ValueSettings
+        [JsiiProperty(name: "statusTransitions", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterStatusTransitionsOutputReference\"}")]
+        public virtual stripe.BillingMeter.BillingMeterStatusTransitionsOutputReference StatusTransitions
         {
-            get => GetInstanceProperty<stripe.BillingMeter.BillingMeterValueSettingsOutputReference>()!;
+            get => GetInstanceProperty<stripe.BillingMeter.BillingMeterStatusTransitionsOutputReference>()!;
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "customerMappingInput", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"}", isOptional: true)]
-        public virtual stripe.BillingMeter.IBillingMeterCustomerMapping? CustomerMappingInput
+        [JsiiProperty(name: "updated", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Updated
         {
-            get => GetInstanceProperty<stripe.BillingMeter.IBillingMeterCustomerMapping?>();
+            get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "defaultAggregationInput", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"}", isOptional: true)]
-        public virtual stripe.BillingMeter.IBillingMeterDefaultAggregation? DefaultAggregationInput
+        [JsiiProperty(name: "valueSettings", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettingsList\"}")]
+        public virtual stripe.BillingMeter.BillingMeterValueSettingsList ValueSettings
         {
-            get => GetInstanceProperty<stripe.BillingMeter.IBillingMeterDefaultAggregation?>();
+            get => GetInstanceProperty<stripe.BillingMeter.BillingMeterValueSettingsList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterCustomerMapping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "dimensionPayloadKeysInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? DimensionPayloadKeysInput
+        [JsiiProperty(name: "customerMappingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CustomerMappingInput
         {
-            get => GetInstanceProperty<string[]?>();
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterDefaultAggregation" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "defaultAggregationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? DefaultAggregationInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -179,18 +262,14 @@ namespace stripe.BillingMeter
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterValueSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "valueSettingsInput", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"}", isOptional: true)]
-        public virtual stripe.BillingMeter.IBillingMeterValueSettings? ValueSettingsInput
+        [JsiiProperty(name: "valueSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ValueSettingsInput
         {
-            get => GetInstanceProperty<stripe.BillingMeter.IBillingMeterValueSettings?>();
-        }
-
-        [JsiiProperty(name: "dimensionPayloadKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] DimensionPayloadKeys
-        {
-            get => GetInstanceProperty<string[]>()!;
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]

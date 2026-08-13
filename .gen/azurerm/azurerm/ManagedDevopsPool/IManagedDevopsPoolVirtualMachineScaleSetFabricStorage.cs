@@ -7,14 +7,14 @@ namespace azurerm.ManagedDevopsPool
     [JsiiInterface(nativeType: typeof(IManagedDevopsPoolVirtualMachineScaleSetFabricStorage), fullyQualifiedName: "azurerm.managedDevopsPool.ManagedDevopsPoolVirtualMachineScaleSetFabricStorage")]
     public interface IManagedDevopsPoolVirtualMachineScaleSetFabricStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#disk_size_in_gb ManagedDevopsPool#disk_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#disk_size_in_gb ManagedDevopsPool#disk_size_in_gb}.</summary>
         [JsiiProperty(name: "diskSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         double DiskSizeInGb
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#caching ManagedDevopsPool#caching}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#caching ManagedDevopsPool#caching}.</summary>
         [JsiiProperty(name: "caching", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Caching
@@ -25,7 +25,7 @@ namespace azurerm.ManagedDevopsPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#drive_letter ManagedDevopsPool#drive_letter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#drive_letter ManagedDevopsPool#drive_letter}.</summary>
         [JsiiProperty(name: "driveLetter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DriveLetter
@@ -36,7 +36,7 @@ namespace azurerm.ManagedDevopsPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#storage_account_type ManagedDevopsPool#storage_account_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#storage_account_type ManagedDevopsPool#storage_account_type}.</summary>
         [JsiiProperty(name: "storageAccountType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StorageAccountType
@@ -54,14 +54,14 @@ namespace azurerm.ManagedDevopsPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#disk_size_in_gb ManagedDevopsPool#disk_size_in_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#disk_size_in_gb ManagedDevopsPool#disk_size_in_gb}.</summary>
             [JsiiProperty(name: "diskSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
             public double DiskSizeInGb
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#caching ManagedDevopsPool#caching}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#caching ManagedDevopsPool#caching}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "caching", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Caching
@@ -69,7 +69,7 @@ namespace azurerm.ManagedDevopsPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#drive_letter ManagedDevopsPool#drive_letter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#drive_letter ManagedDevopsPool#drive_letter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "driveLetter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DriveLetter
@@ -77,7 +77,7 @@ namespace azurerm.ManagedDevopsPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/managed_devops_pool#storage_account_type ManagedDevopsPool#storage_account_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_devops_pool#storage_account_type ManagedDevopsPool#storage_account_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "storageAccountType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StorageAccountType

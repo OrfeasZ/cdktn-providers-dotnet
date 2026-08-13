@@ -9,7 +9,7 @@ namespace azurerm.SynapseSqlPool
     [JsiiByValue(fqn: "azurerm.synapseSqlPool.SynapseSqlPoolConfig")]
     public class SynapseSqlPoolConfig : azurerm.SynapseSqlPool.ISynapseSqlPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#name SynapseSqlPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#name SynapseSqlPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.SynapseSqlPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#sku_name SynapseSqlPool#sku_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#sku_name SynapseSqlPool#sku_name}.</summary>
         [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}")]
         public string SkuName
         {
@@ -25,7 +25,7 @@ namespace azurerm.SynapseSqlPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#storage_account_type SynapseSqlPool#storage_account_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#storage_account_type SynapseSqlPool#storage_account_type}.</summary>
         [JsiiProperty(name: "storageAccountType", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountType
         {
@@ -33,7 +33,7 @@ namespace azurerm.SynapseSqlPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#synapse_workspace_id SynapseSqlPool#synapse_workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#synapse_workspace_id SynapseSqlPool#synapse_workspace_id}.</summary>
         [JsiiProperty(name: "synapseWorkspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SynapseWorkspaceId
         {
@@ -41,7 +41,7 @@ namespace azurerm.SynapseSqlPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#collation SynapseSqlPool#collation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#collation SynapseSqlPool#collation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "collation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Collation
@@ -50,7 +50,7 @@ namespace azurerm.SynapseSqlPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#create_mode SynapseSqlPool#create_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#create_mode SynapseSqlPool#create_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateMode
@@ -61,7 +61,7 @@ namespace azurerm.SynapseSqlPool
 
         private object? _dataEncrypted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#data_encrypted SynapseSqlPool#data_encrypted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#data_encrypted SynapseSqlPool#data_encrypted}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace azurerm.SynapseSqlPool
 
         private object? _geoBackupPolicyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#geo_backup_policy_enabled SynapseSqlPool#geo_backup_policy_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#geo_backup_policy_enabled SynapseSqlPool#geo_backup_policy_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -127,7 +127,7 @@ namespace azurerm.SynapseSqlPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#id SynapseSqlPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#id SynapseSqlPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -140,7 +140,7 @@ namespace azurerm.SynapseSqlPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#recovery_database_id SynapseSqlPool#recovery_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#recovery_database_id SynapseSqlPool#recovery_database_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecoveryDatabaseId
@@ -151,7 +151,7 @@ namespace azurerm.SynapseSqlPool
 
         /// <summary>restore block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#restore SynapseSqlPool#restore}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#restore SynapseSqlPool#restore}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "restore", typeJson: "{\"fqn\":\"azurerm.synapseSqlPool.SynapseSqlPoolRestore\"}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace azurerm.SynapseSqlPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#tags SynapseSqlPool#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#tags SynapseSqlPool#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -172,7 +172,7 @@ namespace azurerm.SynapseSqlPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/synapse_sql_pool#timeouts SynapseSqlPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_sql_pool#timeouts SynapseSqlPool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.synapseSqlPool.SynapseSqlPoolTimeouts\"}", isOptional: true)]

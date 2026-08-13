@@ -9,7 +9,7 @@ namespace azurerm.StorageManagementPolicy
     [JsiiByValue(fqn: "azurerm.storageManagementPolicy.StorageManagementPolicyRuleFilters")]
     public class StorageManagementPolicyRuleFilters : azurerm.StorageManagementPolicy.IStorageManagementPolicyRuleFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_management_policy#blob_types StorageManagementPolicy#blob_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_management_policy#blob_types StorageManagementPolicy#blob_types}.</summary>
         [JsiiProperty(name: "blobTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] BlobTypes
         {
@@ -21,7 +21,7 @@ namespace azurerm.StorageManagementPolicy
 
         /// <summary>match_blob_index_tag block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_management_policy#match_blob_index_tag StorageManagementPolicy#match_blob_index_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_management_policy#match_blob_index_tag StorageManagementPolicy#match_blob_index_tag}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageManagementPolicy.IStorageManagementPolicyRuleFiltersMatchBlobIndexTag" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace azurerm.StorageManagementPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/storage_management_policy#prefix_match StorageManagementPolicy#prefix_match}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/storage_management_policy#prefix_match StorageManagementPolicy#prefix_match}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefixMatch", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PrefixMatch

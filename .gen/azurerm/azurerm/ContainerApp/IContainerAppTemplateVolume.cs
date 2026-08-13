@@ -9,7 +9,7 @@ namespace azurerm.ContainerApp
     {
         /// <summary>The name of the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#name ContainerApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#name ContainerApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>Mount options used while mounting the AzureFile. Must be a comma-separated string.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#mount_options ContainerApp#mount_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#mount_options ContainerApp#mount_options}
         /// </remarks>
         [JsiiProperty(name: "mountOptions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The name of the `AzureFile` storage. Required when `storage_type` is `AzureFile`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#storage_name ContainerApp#storage_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#storage_name ContainerApp#storage_name}
         /// </remarks>
         [JsiiProperty(name: "storageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The type of storage volume. Possible values include `AzureFile` and `EmptyDir`. Defaults to `EmptyDir`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#storage_type ContainerApp#storage_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#storage_type ContainerApp#storage_type}
         /// </remarks>
         [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>The name of the volume.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#name ContainerApp#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#name ContainerApp#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -78,7 +78,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>Mount options used while mounting the AzureFile. Must be a comma-separated string.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#mount_options ContainerApp#mount_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#mount_options ContainerApp#mount_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mountOptions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>The name of the `AzureFile` storage. Required when `storage_type` is `AzureFile`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#storage_name ContainerApp#storage_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#storage_name ContainerApp#storage_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "storageName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>The type of storage volume. Possible values include `AzureFile` and `EmptyDir`. Defaults to `EmptyDir`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#storage_type ContainerApp#storage_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#storage_type ContainerApp#storage_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

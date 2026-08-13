@@ -9,7 +9,7 @@ namespace azurerm.HdinsightKafkaCluster
     [JsiiByValue(fqn: "azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterGateway")]
     public class HdinsightKafkaClusterGateway : azurerm.HdinsightKafkaCluster.IHdinsightKafkaClusterGateway
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster#password HdinsightKafkaCluster#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_kafka_cluster#password HdinsightKafkaCluster#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace azurerm.HdinsightKafkaCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_kafka_cluster#username HdinsightKafkaCluster#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_kafka_cluster#username HdinsightKafkaCluster#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

@@ -1,0 +1,35 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace stripe.SubscriptionSchedule
+{
+    #pragma warning disable CS8618
+
+    [JsiiByValue(fqn: "stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsIssuer")]
+    public class SubscriptionScheduleDefaultSettingsInvoiceSettingsIssuer : stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettingsIssuer
+    {
+        /// <summary>Type of the account referenced.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#type SubscriptionSchedule#type}
+        /// </remarks>
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public string Type
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The connected account being referenced when `type` is `account`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#account SubscriptionSchedule#account}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "account", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Account
+        {
+            get;
+            set;
+        }
+    }
+}

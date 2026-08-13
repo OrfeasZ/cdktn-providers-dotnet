@@ -11,7 +11,7 @@ namespace azurerm.LinuxWebApp
     {
         /// <summary>The name which should be used for this Backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#name LinuxWebApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app#name LinuxWebApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#schedule LinuxWebApp#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app#schedule LinuxWebApp#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.linuxWebApp.LinuxWebAppBackupSchedule\"}")]
         public azurerm.LinuxWebApp.ILinuxWebAppBackupSchedule Schedule
@@ -33,7 +33,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>The SAS URL to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#storage_account_url LinuxWebApp#storage_account_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app#storage_account_url LinuxWebApp#storage_account_url}
         /// </remarks>
         [JsiiProperty(name: "storageAccountUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountUrl
@@ -46,7 +46,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>Should this backup job be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#enabled LinuxWebApp#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app#enabled LinuxWebApp#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

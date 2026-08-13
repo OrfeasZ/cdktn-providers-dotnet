@@ -7,7 +7,7 @@ namespace azurerm.MonitorDataCollectionRule
     [JsiiInterface(nativeType: typeof(IMonitorDataCollectionRuleDataSourcesLogFileSettingsText), fullyQualifiedName: "azurerm.monitorDataCollectionRule.MonitorDataCollectionRuleDataSourcesLogFileSettingsText")]
     public interface IMonitorDataCollectionRuleDataSourcesLogFileSettingsText
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#record_start_timestamp_format MonitorDataCollectionRule#record_start_timestamp_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#record_start_timestamp_format MonitorDataCollectionRule#record_start_timestamp_format}.</summary>
         [JsiiProperty(name: "recordStartTimestampFormat", typeJson: "{\"primitive\":\"string\"}")]
         string RecordStartTimestampFormat
         {
@@ -21,7 +21,7 @@ namespace azurerm.MonitorDataCollectionRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#record_start_timestamp_format MonitorDataCollectionRule#record_start_timestamp_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#record_start_timestamp_format MonitorDataCollectionRule#record_start_timestamp_format}.</summary>
             [JsiiProperty(name: "recordStartTimestampFormat", typeJson: "{\"primitive\":\"string\"}")]
             public string RecordStartTimestampFormat
             {

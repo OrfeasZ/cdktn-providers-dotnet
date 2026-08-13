@@ -35,10 +35,52 @@ namespace stripe.Price
         {
         }
 
-        [JsiiMethod(name: "putCustomUnitAmount", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.price.PriceCurrencyOptionsCustomUnitAmount\"}}]")]
-        public virtual void PutCustomUnitAmount(stripe.Price.IPriceCurrencyOptionsCustomUnitAmount @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceCurrencyOptionsCustomUnitAmount" />)[]</param>
+        [JsiiMethod(name: "putCustomUnitAmount", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceCurrencyOptionsCustomUnitAmount\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCustomUnitAmount(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Price.IPriceCurrencyOptionsCustomUnitAmount)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Price.IPriceCurrencyOptionsCustomUnitAmount[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceCurrencyOptionsCustomUnitAmount).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceCurrencyOptionsCustomUnitAmount).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceCurrencyOptionsTiers" />)[]</param>
+        [JsiiMethod(name: "putTiers", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceCurrencyOptionsTiers\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutTiers(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Price.IPriceCurrencyOptionsTiers[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceCurrencyOptionsTiers).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Price.IPriceCurrencyOptionsTiers).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetCustomUnitAmount")]
@@ -71,17 +113,26 @@ namespace stripe.Price
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "customUnitAmount", typeJson: "{\"fqn\":\"stripe.price.PriceCurrencyOptionsCustomUnitAmountOutputReference\"}")]
-        public virtual stripe.Price.PriceCurrencyOptionsCustomUnitAmountOutputReference CustomUnitAmount
+        [JsiiProperty(name: "customUnitAmount", typeJson: "{\"fqn\":\"stripe.price.PriceCurrencyOptionsCustomUnitAmountList\"}")]
+        public virtual stripe.Price.PriceCurrencyOptionsCustomUnitAmountList CustomUnitAmount
         {
-            get => GetInstanceProperty<stripe.Price.PriceCurrencyOptionsCustomUnitAmountOutputReference>()!;
+            get => GetInstanceProperty<stripe.Price.PriceCurrencyOptionsCustomUnitAmountList>()!;
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "customUnitAmountInput", typeJson: "{\"fqn\":\"stripe.price.PriceCurrencyOptionsCustomUnitAmount\"}", isOptional: true)]
-        public virtual stripe.Price.IPriceCurrencyOptionsCustomUnitAmount? CustomUnitAmountInput
+        [JsiiProperty(name: "tiers", typeJson: "{\"fqn\":\"stripe.price.PriceCurrencyOptionsTiersList\"}")]
+        public virtual stripe.Price.PriceCurrencyOptionsTiersList Tiers
         {
-            get => GetInstanceProperty<stripe.Price.IPriceCurrencyOptionsCustomUnitAmount?>();
+            get => GetInstanceProperty<stripe.Price.PriceCurrencyOptionsTiersList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceCurrencyOptionsCustomUnitAmount" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "customUnitAmountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceCurrencyOptionsCustomUnitAmount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CustomUnitAmountInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -99,10 +150,10 @@ namespace stripe.Price
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Price.IPriceCurrencyOptionsTiers" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "tiersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "tiersInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.price.PriceCurrencyOptionsTiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? TiersInput
         {
             get => GetInstanceProperty<object?>();
@@ -134,36 +185,6 @@ namespace stripe.Price
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or ((string)[])[]</para>
-        /// </remarks>
-        [JsiiProperty(name: "tiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}},\"kind\":\"array\"}}]}}")]
-        public virtual object Tiers
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case string[][] cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, string[][]; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, string[][]; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
         }
 
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"number\"}")]

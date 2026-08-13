@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbAccount
     [JsiiByValue(fqn: "azurerm.cosmosdbAccount.CosmosdbAccountCapabilities")]
     public class CosmosdbAccountCapabilities : azurerm.CosmosdbAccount.ICosmosdbAccountCapabilities
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_account#name CosmosdbAccount#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_account#name CosmosdbAccount#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

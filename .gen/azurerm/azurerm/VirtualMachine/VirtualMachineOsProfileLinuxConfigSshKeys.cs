@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachine
     [JsiiByValue(fqn: "azurerm.virtualMachine.VirtualMachineOsProfileLinuxConfigSshKeys")]
     public class VirtualMachineOsProfileLinuxConfigSshKeys : azurerm.VirtualMachine.IVirtualMachineOsProfileLinuxConfigSshKeys
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#key_data VirtualMachine#key_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#key_data VirtualMachine#key_data}.</summary>
         [JsiiProperty(name: "keyData", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyData
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine#path VirtualMachine#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine#path VirtualMachine#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.Coupon
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon stripe_coupon}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon stripe_coupon}.</summary>
     [JsiiClass(nativeType: typeof(stripe.Coupon.Coupon), fullyQualifiedName: "stripe.coupon.Coupon", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"stripe.coupon.CouponConfig\"}}]")]
     public class Coupon : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon stripe_coupon} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon stripe_coupon} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Coupon(Constructs.Construct scope, string id, stripe.Coupon.ICouponConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,16 +40,34 @@ namespace stripe.Coupon
         /// <param name="importToId">The construct id used in the generated config for the Coupon to import.</param>
         /// <param name="importFromId">The id of the existing Coupon that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Coupon to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Coupon to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/coupon#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Coupon that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Coupon to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Coupon to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Coupon that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Coupon to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.Coupon.Coupon), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putAppliesTo", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.coupon.CouponAppliesTo\"}}]")]
-        public virtual void PutAppliesTo(stripe.Coupon.ICouponAppliesTo @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Coupon.ICouponAppliesTo" />)[]</param>
+        [JsiiMethod(name: "putAppliesTo", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.coupon.CouponAppliesTo\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAppliesTo(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Coupon.ICouponAppliesTo)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Coupon.ICouponAppliesTo[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Coupon.ICouponAppliesTo).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Coupon.ICouponAppliesTo).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Coupon.ICouponCurrencyOptions" />)[]</param>
@@ -74,12 +92,6 @@ namespace stripe.Coupon
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "putScript", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.coupon.CouponScript\"}}]")]
-        public virtual void PutScript(stripe.Coupon.ICouponScript @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Coupon.ICouponScript)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAmountOff")]
@@ -148,12 +160,6 @@ namespace stripe.Coupon
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetScript")]
-        public virtual void ResetScript()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -173,10 +179,16 @@ namespace stripe.Coupon
         }
         = GetStaticProperty<string>(typeof(stripe.Coupon.Coupon))!;
 
-        [JsiiProperty(name: "appliesTo", typeJson: "{\"fqn\":\"stripe.coupon.CouponAppliesToOutputReference\"}")]
-        public virtual stripe.Coupon.CouponAppliesToOutputReference AppliesTo
+        [JsiiProperty(name: "appliesTo", typeJson: "{\"fqn\":\"stripe.coupon.CouponAppliesToList\"}")]
+        public virtual stripe.Coupon.CouponAppliesToList AppliesTo
         {
-            get => GetInstanceProperty<stripe.Coupon.CouponAppliesToOutputReference>()!;
+            get => GetInstanceProperty<stripe.Coupon.CouponAppliesToList>()!;
+        }
+
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Created
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "currencyOptions", typeJson: "{\"fqn\":\"stripe.coupon.CouponCurrencyOptionsList\"}")]
@@ -191,22 +203,22 @@ namespace stripe.Coupon
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "script", typeJson: "{\"fqn\":\"stripe.coupon.CouponScriptOutputReference\"}")]
-        public virtual stripe.Coupon.CouponScriptOutputReference Script
+        [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Livemode
         {
-            get => GetInstanceProperty<stripe.Coupon.CouponScriptOutputReference>()!;
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Object
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "timesRedeemed", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TimesRedeemed
         {
             get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Type
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "valid", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -222,11 +234,14 @@ namespace stripe.Coupon
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Coupon.ICouponAppliesTo" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "appliesToInput", typeJson: "{\"fqn\":\"stripe.coupon.CouponAppliesTo\"}", isOptional: true)]
-        public virtual stripe.Coupon.ICouponAppliesTo? AppliesToInput
+        [JsiiProperty(name: "appliesToInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.coupon.CouponAppliesTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AppliesToInput
         {
-            get => GetInstanceProperty<stripe.Coupon.ICouponAppliesTo?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -293,13 +308,6 @@ namespace stripe.Coupon
         public virtual double? RedeemByInput
         {
             get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "scriptInput", typeJson: "{\"fqn\":\"stripe.coupon.CouponScript\"}", isOptional: true)]
-        public virtual stripe.Coupon.ICouponScript? ScriptInput
-        {
-            get => GetInstanceProperty<stripe.Coupon.ICouponScript?>();
         }
 
         [JsiiProperty(name: "amountOff", typeJson: "{\"primitive\":\"number\"}")]

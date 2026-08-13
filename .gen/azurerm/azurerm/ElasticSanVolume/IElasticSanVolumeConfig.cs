@@ -7,21 +7,21 @@ namespace azurerm.ElasticSanVolume
     [JsiiInterface(nativeType: typeof(IElasticSanVolumeConfig), fullyQualifiedName: "azurerm.elasticSanVolume.ElasticSanVolumeConfig")]
     public interface IElasticSanVolumeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#name ElasticSanVolume#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#name ElasticSanVolume#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#size_in_gib ElasticSanVolume#size_in_gib}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#size_in_gib ElasticSanVolume#size_in_gib}.</summary>
         [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
         double SizeInGib
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#volume_group_id ElasticSanVolume#volume_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#volume_group_id ElasticSanVolume#volume_group_id}.</summary>
         [JsiiProperty(name: "volumeGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string VolumeGroupId
         {
@@ -30,7 +30,7 @@ namespace azurerm.ElasticSanVolume
 
         /// <summary>create_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#create_source ElasticSanVolume#create_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#create_source ElasticSanVolume#create_source}
         /// </remarks>
         [JsiiProperty(name: "createSource", typeJson: "{\"fqn\":\"azurerm.elasticSanVolume.ElasticSanVolumeCreateSource\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace azurerm.ElasticSanVolume
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#id ElasticSanVolume#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#id ElasticSanVolume#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace azurerm.ElasticSanVolume
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#timeouts ElasticSanVolume#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#timeouts ElasticSanVolume#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.elasticSanVolume.ElasticSanVolumeTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,21 +78,21 @@ namespace azurerm.ElasticSanVolume
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#name ElasticSanVolume#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#name ElasticSanVolume#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#size_in_gib ElasticSanVolume#size_in_gib}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#size_in_gib ElasticSanVolume#size_in_gib}.</summary>
             [JsiiProperty(name: "sizeInGib", typeJson: "{\"primitive\":\"number\"}")]
             public double SizeInGib
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#volume_group_id ElasticSanVolume#volume_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#volume_group_id ElasticSanVolume#volume_group_id}.</summary>
             [JsiiProperty(name: "volumeGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string VolumeGroupId
             {
@@ -101,7 +101,7 @@ namespace azurerm.ElasticSanVolume
 
             /// <summary>create_source block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#create_source ElasticSanVolume#create_source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#create_source ElasticSanVolume#create_source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "createSource", typeJson: "{\"fqn\":\"azurerm.elasticSanVolume.ElasticSanVolumeCreateSource\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace azurerm.ElasticSanVolume
                 get => GetInstanceProperty<azurerm.ElasticSanVolume.IElasticSanVolumeCreateSource?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#id ElasticSanVolume#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#id ElasticSanVolume#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ namespace azurerm.ElasticSanVolume
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/elastic_san_volume#timeouts ElasticSanVolume#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/elastic_san_volume#timeouts ElasticSanVolume#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.elasticSanVolume.ElasticSanVolumeTimeouts\"}", isOptional: true)]

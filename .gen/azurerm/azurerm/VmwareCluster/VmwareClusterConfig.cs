@@ -9,7 +9,7 @@ namespace azurerm.VmwareCluster
     [JsiiByValue(fqn: "azurerm.vmwareCluster.VmwareClusterConfig")]
     public class VmwareClusterConfig : azurerm.VmwareCluster.IVmwareClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_cluster#cluster_node_count VmwareCluster#cluster_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vmware_cluster#cluster_node_count VmwareCluster#cluster_node_count}.</summary>
         [JsiiProperty(name: "clusterNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public double ClusterNodeCount
         {
@@ -17,7 +17,7 @@ namespace azurerm.VmwareCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_cluster#name VmwareCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vmware_cluster#name VmwareCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.VmwareCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_cluster#sku_name VmwareCluster#sku_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vmware_cluster#sku_name VmwareCluster#sku_name}.</summary>
         [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}")]
         public string SkuName
         {
@@ -33,7 +33,7 @@ namespace azurerm.VmwareCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_cluster#vmware_cloud_id VmwareCluster#vmware_cloud_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vmware_cluster#vmware_cloud_id VmwareCluster#vmware_cloud_id}.</summary>
         [JsiiProperty(name: "vmwareCloudId", typeJson: "{\"primitive\":\"string\"}")]
         public string VmwareCloudId
         {
@@ -41,7 +41,7 @@ namespace azurerm.VmwareCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_cluster#id VmwareCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vmware_cluster#id VmwareCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace azurerm.VmwareCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vmware_cluster#timeouts VmwareCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vmware_cluster#timeouts VmwareCluster#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.vmwareCluster.VmwareClusterTimeouts\"}", isOptional: true)]

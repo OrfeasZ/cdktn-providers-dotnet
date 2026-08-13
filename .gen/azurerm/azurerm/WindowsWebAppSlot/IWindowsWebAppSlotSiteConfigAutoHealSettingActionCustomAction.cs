@@ -7,14 +7,14 @@ namespace azurerm.WindowsWebAppSlot
     [JsiiInterface(nativeType: typeof(IWindowsWebAppSlotSiteConfigAutoHealSettingActionCustomAction), fullyQualifiedName: "azurerm.windowsWebAppSlot.WindowsWebAppSlotSiteConfigAutoHealSettingActionCustomAction")]
     public interface IWindowsWebAppSlotSiteConfigAutoHealSettingActionCustomAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#executable WindowsWebAppSlot#executable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#executable WindowsWebAppSlot#executable}.</summary>
         [JsiiProperty(name: "executable", typeJson: "{\"primitive\":\"string\"}")]
         string Executable
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#parameters WindowsWebAppSlot#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#parameters WindowsWebAppSlot#parameters}.</summary>
         [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Parameters
@@ -32,14 +32,14 @@ namespace azurerm.WindowsWebAppSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#executable WindowsWebAppSlot#executable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#executable WindowsWebAppSlot#executable}.</summary>
             [JsiiProperty(name: "executable", typeJson: "{\"primitive\":\"string\"}")]
             public string Executable
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#parameters WindowsWebAppSlot#parameters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#parameters WindowsWebAppSlot#parameters}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Parameters

@@ -9,7 +9,7 @@ namespace azurerm.ContainerRegistryTask
     [JsiiByValue(fqn: "azurerm.containerRegistryTask.ContainerRegistryTaskConfig")]
     public class ContainerRegistryTaskConfig : azurerm.ContainerRegistryTask.IContainerRegistryTaskConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#container_registry_id ContainerRegistryTask#container_registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#container_registry_id ContainerRegistryTask#container_registry_id}.</summary>
         [JsiiProperty(name: "containerRegistryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerRegistryId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#name ContainerRegistryTask#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#name ContainerRegistryTask#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#agent_pool_name ContainerRegistryTask#agent_pool_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#agent_pool_name ContainerRegistryTask#agent_pool_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "agentPoolName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AgentPoolName
@@ -36,7 +36,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>agent_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#agent_setting ContainerRegistryTask#agent_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#agent_setting ContainerRegistryTask#agent_setting}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agentSetting", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskAgentSetting\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>base_image_trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#base_image_trigger ContainerRegistryTask#base_image_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#base_image_trigger ContainerRegistryTask#base_image_trigger}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "baseImageTrigger", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskBaseImageTrigger\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>docker_step block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#docker_step ContainerRegistryTask#docker_step}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#docker_step ContainerRegistryTask#docker_step}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dockerStep", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskDockerStep\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace azurerm.ContainerRegistryTask
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#enabled ContainerRegistryTask#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#enabled ContainerRegistryTask#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -106,7 +106,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>encoded_step block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#encoded_step ContainerRegistryTask#encoded_step}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#encoded_step ContainerRegistryTask#encoded_step}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encodedStep", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskEncodedStep\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>file_step block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#file_step ContainerRegistryTask#file_step}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#file_step ContainerRegistryTask#file_step}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileStep", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskFileStep\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#id ContainerRegistryTask#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#id ContainerRegistryTask#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +143,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#identity ContainerRegistryTask#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#identity ContainerRegistryTask#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskIdentity\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace azurerm.ContainerRegistryTask
 
         private object? _isSystemTask;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#is_system_task ContainerRegistryTask#is_system_task}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#is_system_task ContainerRegistryTask#is_system_task}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -187,7 +187,7 @@ namespace azurerm.ContainerRegistryTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#log_template ContainerRegistryTask#log_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#log_template ContainerRegistryTask#log_template}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogTemplate
@@ -198,7 +198,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>platform block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#platform ContainerRegistryTask#platform}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#platform ContainerRegistryTask#platform}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "platform", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskPlatform\"}", isOptional: true)]
@@ -210,7 +210,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>registry_credential block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#registry_credential ContainerRegistryTask#registry_credential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#registry_credential ContainerRegistryTask#registry_credential}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "registryCredential", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredential\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>source_trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#source_trigger ContainerRegistryTask#source_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#source_trigger ContainerRegistryTask#source_trigger}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerRegistryTask.IContainerRegistryTaskSourceTrigger" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -255,7 +255,7 @@ namespace azurerm.ContainerRegistryTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#tags ContainerRegistryTask#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#tags ContainerRegistryTask#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -264,7 +264,7 @@ namespace azurerm.ContainerRegistryTask
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#timeout_in_seconds ContainerRegistryTask#timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#timeout_in_seconds ContainerRegistryTask#timeout_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutInSeconds
@@ -275,7 +275,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#timeouts ContainerRegistryTask#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#timeouts ContainerRegistryTask#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerRegistryTask.ContainerRegistryTaskTimeouts\"}", isOptional: true)]
@@ -289,7 +289,7 @@ namespace azurerm.ContainerRegistryTask
 
         /// <summary>timer_trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_task#timer_trigger ContainerRegistryTask#timer_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_task#timer_trigger ContainerRegistryTask#timer_trigger}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerRegistryTask.IContainerRegistryTaskTimerTrigger" />)[]</para>
         /// </remarks>
         [JsiiOptional]

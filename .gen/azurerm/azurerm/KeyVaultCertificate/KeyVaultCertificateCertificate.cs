@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultCertificate
     [JsiiByValue(fqn: "azurerm.keyVaultCertificate.KeyVaultCertificateCertificate")]
     public class KeyVaultCertificateCertificate : azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#contents KeyVaultCertificate#contents}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#contents KeyVaultCertificate#contents}.</summary>
         [JsiiProperty(name: "contents", typeJson: "{\"primitive\":\"string\"}")]
         public string Contents
         {
@@ -17,7 +17,7 @@ namespace azurerm.KeyVaultCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/key_vault_certificate#password KeyVaultCertificate#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#password KeyVaultCertificate#password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password

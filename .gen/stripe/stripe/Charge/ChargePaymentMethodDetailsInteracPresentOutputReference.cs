@@ -1,0 +1,164 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace stripe.Charge
+{
+    [JsiiClass(nativeType: typeof(stripe.Charge.ChargePaymentMethodDetailsInteracPresentOutputReference), fullyQualifiedName: "stripe.charge.ChargePaymentMethodDetailsInteracPresentOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    public class ChargePaymentMethodDetailsInteracPresentOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        public ChargePaymentMethodDetailsInteracPresentOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected ChargePaymentMethodDetailsInteracPresentOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected ChargePaymentMethodDetailsInteracPresentOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiProperty(name: "brand", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Brand
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "cardholderName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CardholderName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Country
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "emvAuthData", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EmvAuthData
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "expMonth", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ExpMonth
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "expYear", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ExpYear
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "fingerprint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Fingerprint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "funding", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Funding
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "generatedCard", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string GeneratedCard
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "iin", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Iin
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Issuer
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "last4", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Last4
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Location
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Network
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "networkTransactionId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NetworkTransactionId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "preferredLocales", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] PreferredLocales
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "reader", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Reader
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "readMethod", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ReadMethod
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "receipt", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsInteracPresentReceiptOutputReference\"}")]
+        public virtual stripe.Charge.ChargePaymentMethodDetailsInteracPresentReceiptOutputReference Receipt
+        {
+            get => GetInstanceProperty<stripe.Charge.ChargePaymentMethodDetailsInteracPresentReceiptOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsInteracPresent\"}", isOptional: true)]
+        public virtual stripe.Charge.IChargePaymentMethodDetailsInteracPresent? InternalValue
+        {
+            get => GetInstanceProperty<stripe.Charge.IChargePaymentMethodDetailsInteracPresent?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

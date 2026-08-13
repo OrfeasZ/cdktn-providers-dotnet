@@ -7,7 +7,7 @@ namespace azurerm.NetworkManager
     [JsiiInterface(nativeType: typeof(INetworkManagerScope), fullyQualifiedName: "azurerm.networkManager.NetworkManagerScope")]
     public interface INetworkManagerScope
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager#management_group_ids NetworkManager#management_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager#management_group_ids NetworkManager#management_group_ids}.</summary>
         [JsiiProperty(name: "managementGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ManagementGroupIds
@@ -18,7 +18,7 @@ namespace azurerm.NetworkManager
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager#subscription_ids NetworkManager#subscription_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager#subscription_ids NetworkManager#subscription_ids}.</summary>
         [JsiiProperty(name: "subscriptionIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SubscriptionIds
@@ -36,7 +36,7 @@ namespace azurerm.NetworkManager
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager#management_group_ids NetworkManager#management_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager#management_group_ids NetworkManager#management_group_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managementGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ManagementGroupIds
@@ -44,7 +44,7 @@ namespace azurerm.NetworkManager
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/network_manager#subscription_ids NetworkManager#subscription_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_manager#subscription_ids NetworkManager#subscription_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SubscriptionIds

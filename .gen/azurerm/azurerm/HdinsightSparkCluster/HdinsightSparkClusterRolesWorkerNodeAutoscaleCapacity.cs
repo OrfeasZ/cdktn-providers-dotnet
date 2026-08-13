@@ -9,7 +9,7 @@ namespace azurerm.HdinsightSparkCluster
     [JsiiByValue(fqn: "azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity")]
     public class HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity : azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#max_instance_count HdinsightSparkCluster#max_instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#max_instance_count HdinsightSparkCluster#max_instance_count}.</summary>
         [JsiiProperty(name: "maxInstanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxInstanceCount
         {
@@ -17,7 +17,7 @@ namespace azurerm.HdinsightSparkCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#min_instance_count HdinsightSparkCluster#min_instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#min_instance_count HdinsightSparkCluster#min_instance_count}.</summary>
         [JsiiProperty(name: "minInstanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MinInstanceCount
         {

@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachineScaleSet
     [JsiiByValue(fqn: "azurerm.virtualMachineScaleSet.VirtualMachineScaleSetOsProfileSecrets")]
     public class VirtualMachineScaleSetOsProfileSecrets : azurerm.VirtualMachineScaleSet.IVirtualMachineScaleSetOsProfileSecrets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_scale_set#source_vault_id VirtualMachineScaleSet#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_scale_set#source_vault_id VirtualMachineScaleSet#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVaultId
         {
@@ -21,7 +21,7 @@ namespace azurerm.VirtualMachineScaleSet
 
         /// <summary>vault_certificates block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_machine_scale_set#vault_certificates VirtualMachineScaleSet#vault_certificates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_scale_set#vault_certificates VirtualMachineScaleSet#vault_certificates}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualMachineScaleSet.IVirtualMachineScaleSetOsProfileSecretsVaultCertificates" />)[]</para>
         /// </remarks>
         [JsiiOptional]

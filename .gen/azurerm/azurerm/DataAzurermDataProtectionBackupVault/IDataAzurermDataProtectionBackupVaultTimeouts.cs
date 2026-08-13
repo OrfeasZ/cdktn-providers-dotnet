@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDataProtectionBackupVault
     [JsiiInterface(nativeType: typeof(IDataAzurermDataProtectionBackupVaultTimeouts), fullyQualifiedName: "azurerm.dataAzurermDataProtectionBackupVault.DataAzurermDataProtectionBackupVaultTimeouts")]
     public interface IDataAzurermDataProtectionBackupVaultTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_protection_backup_vault#read DataAzurermDataProtectionBackupVault#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/data_protection_backup_vault#read DataAzurermDataProtectionBackupVault#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDataProtectionBackupVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/data_protection_backup_vault#read DataAzurermDataProtectionBackupVault#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/data_protection_backup_vault#read DataAzurermDataProtectionBackupVault#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

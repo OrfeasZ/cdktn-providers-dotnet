@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDnsNsRecord
     [JsiiInterface(nativeType: typeof(IDataAzurermDnsNsRecordTimeouts), fullyQualifiedName: "azurerm.dataAzurermDnsNsRecord.DataAzurermDnsNsRecordTimeouts")]
     public interface IDataAzurermDnsNsRecordTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_ns_record#read DataAzurermDnsNsRecord#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/dns_ns_record#read DataAzurermDnsNsRecord#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDnsNsRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_ns_record#read DataAzurermDnsNsRecord#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/dns_ns_record#read DataAzurermDnsNsRecord#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

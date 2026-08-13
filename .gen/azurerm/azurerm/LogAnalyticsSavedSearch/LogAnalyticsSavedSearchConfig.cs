@@ -9,7 +9,7 @@ namespace azurerm.LogAnalyticsSavedSearch
     [JsiiByValue(fqn: "azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchConfig")]
     public class LogAnalyticsSavedSearchConfig : azurerm.LogAnalyticsSavedSearch.ILogAnalyticsSavedSearchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#category LogAnalyticsSavedSearch#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#category LogAnalyticsSavedSearch#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         public string Category
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#display_name LogAnalyticsSavedSearch#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#display_name LogAnalyticsSavedSearch#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#log_analytics_workspace_id LogAnalyticsSavedSearch#log_analytics_workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#log_analytics_workspace_id LogAnalyticsSavedSearch#log_analytics_workspace_id}.</summary>
         [JsiiProperty(name: "logAnalyticsWorkspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogAnalyticsWorkspaceId
         {
@@ -33,7 +33,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#name LogAnalyticsSavedSearch#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#name LogAnalyticsSavedSearch#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#query LogAnalyticsSavedSearch#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#query LogAnalyticsSavedSearch#query}.</summary>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         public string Query
         {
@@ -49,7 +49,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#function_alias LogAnalyticsSavedSearch#function_alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#function_alias LogAnalyticsSavedSearch#function_alias}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "functionAlias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FunctionAlias
@@ -58,7 +58,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#function_parameters LogAnalyticsSavedSearch#function_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#function_parameters LogAnalyticsSavedSearch#function_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "functionParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FunctionParameters
@@ -67,7 +67,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#id LogAnalyticsSavedSearch#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#id LogAnalyticsSavedSearch#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace azurerm.LogAnalyticsSavedSearch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#tags LogAnalyticsSavedSearch#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#tags LogAnalyticsSavedSearch#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -91,7 +91,7 @@ namespace azurerm.LogAnalyticsSavedSearch
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/log_analytics_saved_search#timeouts LogAnalyticsSavedSearch#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/log_analytics_saved_search#timeouts LogAnalyticsSavedSearch#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.logAnalyticsSavedSearch.LogAnalyticsSavedSearchTimeouts\"}", isOptional: true)]

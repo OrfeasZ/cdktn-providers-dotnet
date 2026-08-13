@@ -11,7 +11,7 @@ namespace azurerm.LinuxWebAppSlot
     {
         /// <summary>The App ID of the Facebook app used for login.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#app_id LinuxWebAppSlot#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#app_id LinuxWebAppSlot#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         public string AppId
@@ -22,7 +22,7 @@ namespace azurerm.LinuxWebAppSlot
 
         /// <summary>The app setting name that contains the `app_secret` value used for Facebook Login.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#app_secret_setting_name LinuxWebAppSlot#app_secret_setting_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#app_secret_setting_name LinuxWebAppSlot#app_secret_setting_name}
         /// </remarks>
         [JsiiProperty(name: "appSecretSettingName", typeJson: "{\"primitive\":\"string\"}")]
         public string AppSecretSettingName
@@ -33,7 +33,7 @@ namespace azurerm.LinuxWebAppSlot
 
         /// <summary>The version of the Facebook API to be used while logging in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#graph_api_version LinuxWebAppSlot#graph_api_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#graph_api_version LinuxWebAppSlot#graph_api_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "graphApiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azurerm.LinuxWebAppSlot
 
         /// <summary>Specifies a list of scopes to be requested as part of Facebook Login authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app_slot#login_scopes LinuxWebAppSlot#login_scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app_slot#login_scopes LinuxWebAppSlot#login_scopes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loginScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

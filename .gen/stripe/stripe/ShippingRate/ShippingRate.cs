@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.ShippingRate
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate stripe_shipping_rate}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate stripe_shipping_rate}.</summary>
     [JsiiClass(nativeType: typeof(stripe.ShippingRate.ShippingRate), fullyQualifiedName: "stripe.shippingRate.ShippingRate", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.shippingRate.ShippingRateConfig\"}}]")]
     public class ShippingRate : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate stripe_shipping_rate} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate stripe_shipping_rate} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ShippingRate(Constructs.Construct scope, string id, stripe.ShippingRate.IShippingRateConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,22 +40,64 @@ namespace stripe.ShippingRate
         /// <param name="importToId">The construct id used in the generated config for the ShippingRate to import.</param>
         /// <param name="importFromId">The id of the existing ShippingRate that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ShippingRate to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ShippingRate to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/shipping_rate#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ShippingRate that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ShippingRate to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ShippingRate to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ShippingRate that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ShippingRate to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.ShippingRate.ShippingRate), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putDeliveryEstimate", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"}}]")]
-        public virtual void PutDeliveryEstimate(stripe.ShippingRate.IShippingRateDeliveryEstimate @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimate" />)[]</param>
+        [JsiiMethod(name: "putDeliveryEstimate", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutDeliveryEstimate(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.ShippingRate.IShippingRateDeliveryEstimate)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.ShippingRate.IShippingRateDeliveryEstimate[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimate).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateDeliveryEstimate).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putFixedAmount", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmount\"}}]")]
-        public virtual void PutFixedAmount(stripe.ShippingRate.IShippingRateFixedAmount @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateFixedAmount" />)[]</param>
+        [JsiiMethod(name: "putFixedAmount", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmount\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutFixedAmount(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.ShippingRate.IShippingRateFixedAmount)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.ShippingRate.IShippingRateFixedAmount[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateFixedAmount).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.ShippingRate.IShippingRateFixedAmount).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetActive")]
+        public virtual void ResetActive()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetDeliveryEstimate")]
@@ -113,22 +155,22 @@ namespace stripe.ShippingRate
         }
         = GetStaticProperty<string>(typeof(stripe.ShippingRate.ShippingRate))!;
 
-        [JsiiProperty(name: "active", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable Active
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Created
         {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+            get => GetInstanceProperty<double>()!;
         }
 
-        [JsiiProperty(name: "deliveryEstimate", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateOutputReference\"}")]
-        public virtual stripe.ShippingRate.ShippingRateDeliveryEstimateOutputReference DeliveryEstimate
+        [JsiiProperty(name: "deliveryEstimate", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimateList\"}")]
+        public virtual stripe.ShippingRate.ShippingRateDeliveryEstimateList DeliveryEstimate
         {
-            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateDeliveryEstimateOutputReference>()!;
+            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateDeliveryEstimateList>()!;
         }
 
-        [JsiiProperty(name: "fixedAmount", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmountOutputReference\"}")]
-        public virtual stripe.ShippingRate.ShippingRateFixedAmountOutputReference FixedAmount
+        [JsiiProperty(name: "fixedAmount", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmountList\"}")]
+        public virtual stripe.ShippingRate.ShippingRateFixedAmountList FixedAmount
         {
-            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateFixedAmountOutputReference>()!;
+            get => GetInstanceProperty<stripe.ShippingRate.ShippingRateFixedAmountList>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
@@ -137,11 +179,36 @@ namespace stripe.ShippingRate
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "deliveryEstimateInput", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"}", isOptional: true)]
-        public virtual stripe.ShippingRate.IShippingRateDeliveryEstimate? DeliveryEstimateInput
+        [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Livemode
         {
-            get => GetInstanceProperty<stripe.ShippingRate.IShippingRateDeliveryEstimate?>();
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Object
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "activeInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ActiveInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateDeliveryEstimate" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "deliveryEstimateInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateDeliveryEstimate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? DeliveryEstimateInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -151,11 +218,14 @@ namespace stripe.ShippingRate
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.ShippingRate.IShippingRateFixedAmount" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "fixedAmountInput", typeJson: "{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmount\"}", isOptional: true)]
-        public virtual stripe.ShippingRate.IShippingRateFixedAmount? FixedAmountInput
+        [JsiiProperty(name: "fixedAmountInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.shippingRate.ShippingRateFixedAmount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? FixedAmountInput
         {
-            get => GetInstanceProperty<stripe.ShippingRate.IShippingRateFixedAmount?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -184,6 +254,36 @@ namespace stripe.ShippingRate
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object Active
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]

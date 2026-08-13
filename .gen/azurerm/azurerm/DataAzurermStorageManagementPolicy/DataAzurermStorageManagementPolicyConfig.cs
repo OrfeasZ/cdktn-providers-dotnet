@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermStorageManagementPolicy
     [JsiiByValue(fqn: "azurerm.dataAzurermStorageManagementPolicy.DataAzurermStorageManagementPolicyConfig")]
     public class DataAzurermStorageManagementPolicyConfig : azurerm.DataAzurermStorageManagementPolicy.IDataAzurermStorageManagementPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_management_policy#storage_account_id DataAzurermStorageManagementPolicy#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_management_policy#storage_account_id DataAzurermStorageManagementPolicy#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountId
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermStorageManagementPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_management_policy#id DataAzurermStorageManagementPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_management_policy#id DataAzurermStorageManagementPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace azurerm.DataAzurermStorageManagementPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_management_policy#timeouts DataAzurermStorageManagementPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_management_policy#timeouts DataAzurermStorageManagementPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageManagementPolicy.DataAzurermStorageManagementPolicyTimeouts\"}", isOptional: true)]

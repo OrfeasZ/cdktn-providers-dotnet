@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistry
     [JsiiByValue(fqn: "azurerm.containerRegistry.ContainerRegistryNetworkRuleSetIpRule")]
     public class ContainerRegistryNetworkRuleSetIpRule : azurerm.ContainerRegistry.IContainerRegistryNetworkRuleSetIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry#action ContainerRegistry#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry#action ContainerRegistry#action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Action
@@ -16,7 +16,7 @@ namespace azurerm.ContainerRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry#ip_range ContainerRegistry#ip_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry#ip_range ContainerRegistry#ip_range}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpRange

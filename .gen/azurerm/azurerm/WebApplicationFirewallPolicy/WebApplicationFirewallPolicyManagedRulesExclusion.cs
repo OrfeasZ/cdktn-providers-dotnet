@@ -9,7 +9,7 @@ namespace azurerm.WebApplicationFirewallPolicy
     [JsiiByValue(fqn: "azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicyManagedRulesExclusion")]
     public class WebApplicationFirewallPolicyManagedRulesExclusion : azurerm.WebApplicationFirewallPolicy.IWebApplicationFirewallPolicyManagedRulesExclusion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_application_firewall_policy#match_variable WebApplicationFirewallPolicy#match_variable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_application_firewall_policy#match_variable WebApplicationFirewallPolicy#match_variable}.</summary>
         [JsiiProperty(name: "matchVariable", typeJson: "{\"primitive\":\"string\"}")]
         public string MatchVariable
         {
@@ -17,7 +17,7 @@ namespace azurerm.WebApplicationFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_application_firewall_policy#selector WebApplicationFirewallPolicy#selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_application_firewall_policy#selector WebApplicationFirewallPolicy#selector}.</summary>
         [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}")]
         public string Selector
         {
@@ -25,7 +25,7 @@ namespace azurerm.WebApplicationFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_application_firewall_policy#selector_match_operator WebApplicationFirewallPolicy#selector_match_operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_application_firewall_policy#selector_match_operator WebApplicationFirewallPolicy#selector_match_operator}.</summary>
         [JsiiProperty(name: "selectorMatchOperator", typeJson: "{\"primitive\":\"string\"}")]
         public string SelectorMatchOperator
         {
@@ -35,7 +35,7 @@ namespace azurerm.WebApplicationFirewallPolicy
 
         /// <summary>excluded_rule_set block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/web_application_firewall_policy#excluded_rule_set WebApplicationFirewallPolicy#excluded_rule_set}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/web_application_firewall_policy#excluded_rule_set WebApplicationFirewallPolicy#excluded_rule_set}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludedRuleSet", typeJson: "{\"fqn\":\"azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicyManagedRulesExclusionExcludedRuleSet\"}", isOptional: true)]

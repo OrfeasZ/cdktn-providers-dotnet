@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSiteRecoveryReplicationRecoveryPlan
     [JsiiByValue(fqn: "azurerm.dataAzurermSiteRecoveryReplicationRecoveryPlan.DataAzurermSiteRecoveryReplicationRecoveryPlanTimeouts")]
     public class DataAzurermSiteRecoveryReplicationRecoveryPlanTimeouts : azurerm.DataAzurermSiteRecoveryReplicationRecoveryPlan.IDataAzurermSiteRecoveryReplicationRecoveryPlanTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/site_recovery_replication_recovery_plan#read DataAzurermSiteRecoveryReplicationRecoveryPlan#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/site_recovery_replication_recovery_plan#read DataAzurermSiteRecoveryReplicationRecoveryPlan#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

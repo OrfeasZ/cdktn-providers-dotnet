@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.Provider
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs stripe}.</summary>
-    [JsiiClass(nativeType: typeof(stripe.Provider.StripeProvider), fullyQualifiedName: "stripe.provider.StripeProvider", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.provider.StripeProviderConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs stripe}.</summary>
+    [JsiiClass(nativeType: typeof(stripe.Provider.StripeProvider), fullyQualifiedName: "stripe.provider.StripeProvider", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"stripe.provider.StripeProviderConfig\"}}]")]
     public class StripeProvider : Io.Cdktn.TerraformProvider
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs stripe} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs stripe} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public StripeProvider(Constructs.Construct scope, string id, stripe.Provider.IStripeProviderConfig config): base(_MakeDeputyProps(scope, id, config))
+        public StripeProvider(Constructs.Construct scope, string id, stripe.Provider.IStripeProviderConfig? config = null): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, stripe.Provider.IStripeProviderConfig config)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, stripe.Provider.IStripeProviderConfig? config = null)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,7 +40,7 @@ namespace stripe.Provider
         /// <param name="importToId">The construct id used in the generated config for the StripeProvider to import.</param>
         /// <param name="importFromId">The id of the existing StripeProvider that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the StripeProvider to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the StripeProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing StripeProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the StripeProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the StripeProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing StripeProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the StripeProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.Provider.StripeProvider), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -48,6 +48,18 @@ namespace stripe.Provider
 
         [JsiiMethod(name: "resetAlias")]
         public virtual void ResetAlias()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetApiKey")]
+        public virtual void ResetApiKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStripeAccount")]
+        public virtual void ResetStripeAccount()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -86,6 +98,13 @@ namespace stripe.Provider
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "stripeAccountInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StripeAccountInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public override string? Alias
         {
@@ -96,6 +115,14 @@ namespace stripe.Provider
         [JsiiOptional]
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ApiKey
+        {
+            get => GetInstanceProperty<string?>();
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "stripeAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StripeAccount
         {
             get => GetInstanceProperty<string?>();
             set => SetInstanceProperty(value);

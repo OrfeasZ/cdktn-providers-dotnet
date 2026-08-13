@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudAccelerator
     [JsiiByValue(fqn: "azurerm.springCloudAccelerator.SpringCloudAcceleratorConfig")]
     public class SpringCloudAcceleratorConfig : azurerm.SpringCloudAccelerator.ISpringCloudAcceleratorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_accelerator#name SpringCloudAccelerator#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_accelerator#name SpringCloudAccelerator#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.SpringCloudAccelerator
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_accelerator#spring_cloud_service_id SpringCloudAccelerator#spring_cloud_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_accelerator#spring_cloud_service_id SpringCloudAccelerator#spring_cloud_service_id}.</summary>
         [JsiiProperty(name: "springCloudServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SpringCloudServiceId
         {
@@ -25,7 +25,7 @@ namespace azurerm.SpringCloudAccelerator
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_accelerator#id SpringCloudAccelerator#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_accelerator#id SpringCloudAccelerator#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.SpringCloudAccelerator
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_accelerator#timeouts SpringCloudAccelerator#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_accelerator#timeouts SpringCloudAccelerator#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.springCloudAccelerator.SpringCloudAcceleratorTimeouts\"}", isOptional: true)]

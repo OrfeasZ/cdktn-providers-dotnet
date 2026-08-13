@@ -7,14 +7,14 @@ namespace azurerm.WindowsWebAppSlot
     [JsiiInterface(nativeType: typeof(IWindowsWebAppSlotSiteConfigAutoHealSettingTriggerRequests), fullyQualifiedName: "azurerm.windowsWebAppSlot.WindowsWebAppSlotSiteConfigAutoHealSettingTriggerRequests")]
     public interface IWindowsWebAppSlotSiteConfigAutoHealSettingTriggerRequests
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#count WindowsWebAppSlot#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#count WindowsWebAppSlot#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
         double Count
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#interval WindowsWebAppSlot#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#interval WindowsWebAppSlot#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         string Interval
         {
@@ -28,14 +28,14 @@ namespace azurerm.WindowsWebAppSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#count WindowsWebAppSlot#count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#count WindowsWebAppSlot#count}.</summary>
             [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
             public double Count
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_web_app_slot#interval WindowsWebAppSlot#interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#interval WindowsWebAppSlot#interval}.</summary>
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
             public string Interval
             {

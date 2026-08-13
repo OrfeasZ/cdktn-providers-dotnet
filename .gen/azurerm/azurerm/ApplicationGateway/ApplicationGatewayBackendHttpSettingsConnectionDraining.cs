@@ -9,7 +9,7 @@ namespace azurerm.ApplicationGateway
     [JsiiByValue(fqn: "azurerm.applicationGateway.ApplicationGatewayBackendHttpSettingsConnectionDraining")]
     public class ApplicationGatewayBackendHttpSettingsConnectionDraining : azurerm.ApplicationGateway.IApplicationGatewayBackendHttpSettingsConnectionDraining
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#drain_timeout_sec ApplicationGateway#drain_timeout_sec}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#drain_timeout_sec ApplicationGateway#drain_timeout_sec}.</summary>
         [JsiiProperty(name: "drainTimeoutSec", typeJson: "{\"primitive\":\"number\"}")]
         public double DrainTimeoutSec
         {
@@ -19,7 +19,7 @@ namespace azurerm.ApplicationGateway
 
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_gateway#enabled ApplicationGateway#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_gateway#enabled ApplicationGateway#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

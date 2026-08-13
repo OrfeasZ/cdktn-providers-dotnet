@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermRoleDefinition
     [JsiiInterface(nativeType: typeof(IDataAzurermRoleDefinitionTimeouts), fullyQualifiedName: "azurerm.dataAzurermRoleDefinition.DataAzurermRoleDefinitionTimeouts")]
     public interface IDataAzurermRoleDefinitionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/role_definition#read DataAzurermRoleDefinition#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/role_definition#read DataAzurermRoleDefinition#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermRoleDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/role_definition#read DataAzurermRoleDefinition#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/role_definition#read DataAzurermRoleDefinition#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -5,7 +5,7 @@ namespace azurerm.CosmosdbSqlContainer
     /// <remarks>
     /// <h1><c>azurerm_cosmosdb_sql_container</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_sql_container"><c>azurerm_cosmosdb_sql_container</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_sql_container"><c>azurerm_cosmosdb_sql_container</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

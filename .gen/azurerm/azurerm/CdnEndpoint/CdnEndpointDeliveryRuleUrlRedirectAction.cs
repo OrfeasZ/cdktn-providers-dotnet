@@ -9,7 +9,7 @@ namespace azurerm.CdnEndpoint
     [JsiiByValue(fqn: "azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRedirectAction")]
     public class CdnEndpointDeliveryRuleUrlRedirectAction : azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleUrlRedirectAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#redirect_type CdnEndpoint#redirect_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#redirect_type CdnEndpoint#redirect_type}.</summary>
         [JsiiProperty(name: "redirectType", typeJson: "{\"primitive\":\"string\"}")]
         public string RedirectType
         {
@@ -17,7 +17,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#fragment CdnEndpoint#fragment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#fragment CdnEndpoint#fragment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fragment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Fragment
@@ -26,7 +26,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#hostname CdnEndpoint#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#hostname CdnEndpoint#hostname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Hostname
@@ -35,7 +35,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#path CdnEndpoint#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#path CdnEndpoint#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -44,7 +44,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#protocol CdnEndpoint#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#protocol CdnEndpoint#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -53,7 +53,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_endpoint#query_string CdnEndpoint#query_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint#query_string CdnEndpoint#query_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "queryString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QueryString

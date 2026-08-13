@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOs")]
     public class KubernetesClusterMaintenanceWindowNodeOs : azurerm.KubernetesCluster.IKubernetesClusterMaintenanceWindowNodeOs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#duration KubernetesCluster#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#duration KubernetesCluster#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
         public double Duration
         {
@@ -17,7 +17,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#frequency KubernetesCluster#frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#frequency KubernetesCluster#frequency}.</summary>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}")]
         public string Frequency
         {
@@ -25,7 +25,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#interval KubernetesCluster#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#interval KubernetesCluster#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}")]
         public double Interval
         {
@@ -33,7 +33,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#day_of_month KubernetesCluster#day_of_month}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#day_of_month KubernetesCluster#day_of_month}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dayOfMonth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DayOfMonth
@@ -42,7 +42,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#day_of_week KubernetesCluster#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#day_of_week KubernetesCluster#day_of_week}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DayOfWeek
@@ -55,7 +55,7 @@ namespace azurerm.KubernetesCluster
 
         /// <summary>not_allowed block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#not_allowed KubernetesCluster#not_allowed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#not_allowed KubernetesCluster#not_allowed}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.KubernetesCluster.IKubernetesClusterMaintenanceWindowNodeOsNotAllowed" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -86,7 +86,7 @@ namespace azurerm.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#start_date KubernetesCluster#start_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#start_date KubernetesCluster#start_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StartDate
@@ -95,7 +95,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#start_time KubernetesCluster#start_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#start_time KubernetesCluster#start_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StartTime
@@ -104,7 +104,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#utc_offset KubernetesCluster#utc_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#utc_offset KubernetesCluster#utc_offset}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "utcOffset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UtcOffset
@@ -113,7 +113,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/kubernetes_cluster#week_index KubernetesCluster#week_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#week_index KubernetesCluster#week_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weekIndex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WeekIndex

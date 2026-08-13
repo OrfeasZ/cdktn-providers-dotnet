@@ -7,14 +7,14 @@ namespace azurerm.ApiManagementApi
     [JsiiInterface(nativeType: typeof(IApiManagementApiOpenidAuthentication), fullyQualifiedName: "azurerm.apiManagementApi.ApiManagementApiOpenidAuthentication")]
     public interface IApiManagementApiOpenidAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api#openid_provider_name ApiManagementApi#openid_provider_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api#openid_provider_name ApiManagementApi#openid_provider_name}.</summary>
         [JsiiProperty(name: "openidProviderName", typeJson: "{\"primitive\":\"string\"}")]
         string OpenidProviderName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api#bearer_token_sending_methods ApiManagementApi#bearer_token_sending_methods}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api#bearer_token_sending_methods ApiManagementApi#bearer_token_sending_methods}.</summary>
         [JsiiProperty(name: "bearerTokenSendingMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? BearerTokenSendingMethods
@@ -32,14 +32,14 @@ namespace azurerm.ApiManagementApi
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api#openid_provider_name ApiManagementApi#openid_provider_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api#openid_provider_name ApiManagementApi#openid_provider_name}.</summary>
             [JsiiProperty(name: "openidProviderName", typeJson: "{\"primitive\":\"string\"}")]
             public string OpenidProviderName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api#bearer_token_sending_methods ApiManagementApi#bearer_token_sending_methods}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api#bearer_token_sending_methods ApiManagementApi#bearer_token_sending_methods}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bearerTokenSendingMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? BearerTokenSendingMethods

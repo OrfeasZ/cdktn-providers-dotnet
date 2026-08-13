@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.V2CoreEventDestination
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination stripe_v2_core_event_destination}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination stripe_v2_core_event_destination}.</summary>
     [JsiiClass(nativeType: typeof(stripe.V2CoreEventDestination.V2CoreEventDestination), fullyQualifiedName: "stripe.v2CoreEventDestination.V2CoreEventDestination", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationConfig\"}}]")]
     public class V2CoreEventDestination : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination stripe_v2_core_event_destination} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination stripe_v2_core_event_destination} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public V2CoreEventDestination(Constructs.Construct scope, string id, stripe.V2CoreEventDestination.IV2CoreEventDestinationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,26 +40,74 @@ namespace stripe.V2CoreEventDestination
         /// <param name="importToId">The construct id used in the generated config for the V2CoreEventDestination to import.</param>
         /// <param name="importFromId">The id of the existing V2CoreEventDestination that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the V2CoreEventDestination to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the V2CoreEventDestination to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/v2_core_event_destination#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing V2CoreEventDestination that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the V2CoreEventDestination to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the V2CoreEventDestination to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing V2CoreEventDestination that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the V2CoreEventDestination to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.V2CoreEventDestination.V2CoreEventDestination), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putAmazonEventbridge", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridge\"}}]")]
-        public virtual void PutAmazonEventbridge(stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge" />)[]</param>
+        [JsiiMethod(name: "putAmazonEventbridge", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridge\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAmazonEventbridge(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putWebhookEndpoint", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpoint\"}}]")]
-        public virtual void PutWebhookEndpoint(stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint @value)
+        [JsiiMethod(name: "putAzureEventGrid", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAzureEventGrid\"}}]")]
+        public virtual void PutAzureEventGrid(stripe.V2CoreEventDestination.IV2CoreEventDestinationAzureEventGrid @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.V2CoreEventDestination.IV2CoreEventDestinationAzureEventGrid)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint" />)[]</param>
+        [JsiiMethod(name: "putWebhookEndpoint", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpoint\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutWebhookEndpoint(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAmazonEventbridge")]
         public virtual void ResetAmazonEventbridge()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAzureEventGrid")]
+        public virtual void ResetAzureEventGrid()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -72,6 +120,12 @@ namespace stripe.V2CoreEventDestination
 
         [JsiiMethod(name: "resetEventsFrom")]
         public virtual void ResetEventsFrom()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInclude")]
+        public virtual void ResetInclude()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -113,14 +167,38 @@ namespace stripe.V2CoreEventDestination
         }
         = GetStaticProperty<string>(typeof(stripe.V2CoreEventDestination.V2CoreEventDestination))!;
 
-        [JsiiProperty(name: "amazonEventbridge", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridgeOutputReference\"}")]
-        public virtual stripe.V2CoreEventDestination.V2CoreEventDestinationAmazonEventbridgeOutputReference AmazonEventbridge
+        [JsiiProperty(name: "amazonEventbridge", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridgeList\"}")]
+        public virtual stripe.V2CoreEventDestination.V2CoreEventDestinationAmazonEventbridgeList AmazonEventbridge
         {
-            get => GetInstanceProperty<stripe.V2CoreEventDestination.V2CoreEventDestinationAmazonEventbridgeOutputReference>()!;
+            get => GetInstanceProperty<stripe.V2CoreEventDestination.V2CoreEventDestinationAmazonEventbridgeList>()!;
+        }
+
+        [JsiiProperty(name: "azureEventGrid", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAzureEventGridOutputReference\"}")]
+        public virtual stripe.V2CoreEventDestination.V2CoreEventDestinationAzureEventGridOutputReference AzureEventGrid
+        {
+            get => GetInstanceProperty<stripe.V2CoreEventDestination.V2CoreEventDestinationAzureEventGridOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Created
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Livemode
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Object
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -131,17 +209,42 @@ namespace stripe.V2CoreEventDestination
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "webhookEndpoint", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpointOutputReference\"}")]
-        public virtual stripe.V2CoreEventDestination.V2CoreEventDestinationWebhookEndpointOutputReference WebhookEndpoint
+        [JsiiProperty(name: "statusDetails", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationStatusDetailsOutputReference\"}")]
+        public virtual stripe.V2CoreEventDestination.V2CoreEventDestinationStatusDetailsOutputReference StatusDetails
         {
-            get => GetInstanceProperty<stripe.V2CoreEventDestination.V2CoreEventDestinationWebhookEndpointOutputReference>()!;
+            get => GetInstanceProperty<stripe.V2CoreEventDestination.V2CoreEventDestinationStatusDetailsOutputReference>()!;
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "amazonEventbridgeInput", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridge\"}", isOptional: true)]
-        public virtual stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge? AmazonEventbridgeInput
+        [JsiiProperty(name: "updated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Updated
         {
-            get => GetInstanceProperty<stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge?>();
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "webhookEndpoint", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpointList\"}")]
+        public virtual stripe.V2CoreEventDestination.V2CoreEventDestinationWebhookEndpointList WebhookEndpoint
+        {
+            get => GetInstanceProperty<stripe.V2CoreEventDestination.V2CoreEventDestinationWebhookEndpointList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "amazonEventbridgeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridge\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AmazonEventbridgeInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationAzureEventGrid" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "azureEventGridInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAzureEventGrid\"}]}}", isOptional: true)]
+        public virtual object? AzureEventGridInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -168,6 +271,13 @@ namespace stripe.V2CoreEventDestination
         [JsiiOptional]
         [JsiiProperty(name: "eventsFromInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? EventsFromInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "includeInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? IncludeInput
         {
             get => GetInstanceProperty<string[]?>();
         }
@@ -200,11 +310,14 @@ namespace stripe.V2CoreEventDestination
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "webhookEndpointInput", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpoint\"}", isOptional: true)]
-        public virtual stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint? WebhookEndpointInput
+        [JsiiProperty(name: "webhookEndpointInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? WebhookEndpointInput
         {
-            get => GetInstanceProperty<stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
@@ -230,6 +343,13 @@ namespace stripe.V2CoreEventDestination
 
         [JsiiProperty(name: "eventsFrom", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] EventsFrom
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Include
         {
             get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);

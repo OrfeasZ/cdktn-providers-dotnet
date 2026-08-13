@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDnsCnameRecord
     [JsiiByValue(fqn: "azurerm.dataAzurermDnsCnameRecord.DataAzurermDnsCnameRecordTimeouts")]
     public class DataAzurermDnsCnameRecordTimeouts : azurerm.DataAzurermDnsCnameRecord.IDataAzurermDnsCnameRecordTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/dns_cname_record#read DataAzurermDnsCnameRecord#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/dns_cname_record#read DataAzurermDnsCnameRecord#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

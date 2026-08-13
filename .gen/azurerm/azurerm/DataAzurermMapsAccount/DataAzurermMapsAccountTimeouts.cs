@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMapsAccount
     [JsiiByValue(fqn: "azurerm.dataAzurermMapsAccount.DataAzurermMapsAccountTimeouts")]
     public class DataAzurermMapsAccountTimeouts : azurerm.DataAzurermMapsAccount.IDataAzurermMapsAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/maps_account#read DataAzurermMapsAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/maps_account#read DataAzurermMapsAccount#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

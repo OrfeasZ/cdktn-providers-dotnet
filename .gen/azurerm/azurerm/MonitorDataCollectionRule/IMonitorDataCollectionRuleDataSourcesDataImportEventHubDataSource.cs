@@ -7,21 +7,21 @@ namespace azurerm.MonitorDataCollectionRule
     [JsiiInterface(nativeType: typeof(IMonitorDataCollectionRuleDataSourcesDataImportEventHubDataSource), fullyQualifiedName: "azurerm.monitorDataCollectionRule.MonitorDataCollectionRuleDataSourcesDataImportEventHubDataSource")]
     public interface IMonitorDataCollectionRuleDataSourcesDataImportEventHubDataSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#name MonitorDataCollectionRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#name MonitorDataCollectionRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#stream MonitorDataCollectionRule#stream}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#stream MonitorDataCollectionRule#stream}.</summary>
         [JsiiProperty(name: "stream", typeJson: "{\"primitive\":\"string\"}")]
         string Stream
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#consumer_group MonitorDataCollectionRule#consumer_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#consumer_group MonitorDataCollectionRule#consumer_group}.</summary>
         [JsiiProperty(name: "consumerGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConsumerGroup
@@ -39,21 +39,21 @@ namespace azurerm.MonitorDataCollectionRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#name MonitorDataCollectionRule#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#name MonitorDataCollectionRule#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#stream MonitorDataCollectionRule#stream}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#stream MonitorDataCollectionRule#stream}.</summary>
             [JsiiProperty(name: "stream", typeJson: "{\"primitive\":\"string\"}")]
             public string Stream
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_data_collection_rule#consumer_group MonitorDataCollectionRule#consumer_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_data_collection_rule#consumer_group MonitorDataCollectionRule#consumer_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "consumerGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConsumerGroup

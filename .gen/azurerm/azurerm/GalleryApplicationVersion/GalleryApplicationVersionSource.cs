@@ -9,7 +9,7 @@ namespace azurerm.GalleryApplicationVersion
     [JsiiByValue(fqn: "azurerm.galleryApplicationVersion.GalleryApplicationVersionSource")]
     public class GalleryApplicationVersionSource : azurerm.GalleryApplicationVersion.IGalleryApplicationVersionSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/gallery_application_version#media_link GalleryApplicationVersion#media_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#media_link GalleryApplicationVersion#media_link}.</summary>
         [JsiiProperty(name: "mediaLink", typeJson: "{\"primitive\":\"string\"}")]
         public string MediaLink
         {
@@ -17,7 +17,7 @@ namespace azurerm.GalleryApplicationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/gallery_application_version#default_configuration_link GalleryApplicationVersion#default_configuration_link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#default_configuration_link GalleryApplicationVersion#default_configuration_link}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultConfigurationLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultConfigurationLink

@@ -9,7 +9,7 @@ namespace azurerm.WindowsVirtualMachine
     [JsiiByValue(fqn: "azurerm.windowsVirtualMachine.WindowsVirtualMachineSecretCertificate")]
     public class WindowsVirtualMachineSecretCertificate : azurerm.WindowsVirtualMachine.IWindowsVirtualMachineSecretCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine#store WindowsVirtualMachine#store}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_virtual_machine#store WindowsVirtualMachine#store}.</summary>
         [JsiiProperty(name: "store", typeJson: "{\"primitive\":\"string\"}")]
         public string Store
         {
@@ -17,7 +17,7 @@ namespace azurerm.WindowsVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/windows_virtual_machine#url WindowsVirtualMachine#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_virtual_machine#url WindowsVirtualMachine#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
         {

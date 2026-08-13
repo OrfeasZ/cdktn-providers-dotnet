@@ -9,7 +9,7 @@ namespace azurerm.IothubDeviceUpdateAccount
     [JsiiByValue(fqn: "azurerm.iothubDeviceUpdateAccount.IothubDeviceUpdateAccountIdentity")]
     public class IothubDeviceUpdateAccountIdentity : azurerm.IothubDeviceUpdateAccount.IIothubDeviceUpdateAccountIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_device_update_account#type IothubDeviceUpdateAccount#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_device_update_account#type IothubDeviceUpdateAccount#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.IothubDeviceUpdateAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub_device_update_account#identity_ids IothubDeviceUpdateAccount#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub_device_update_account#identity_ids IothubDeviceUpdateAccount#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

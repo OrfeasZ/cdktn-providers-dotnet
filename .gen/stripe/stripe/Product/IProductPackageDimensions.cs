@@ -7,9 +7,9 @@ namespace stripe.Product
     [JsiiInterface(nativeType: typeof(IProductPackageDimensions), fullyQualifiedName: "stripe.product.ProductPackageDimensions")]
     public interface IProductPackageDimensions
     {
-        /// <summary>Height, in inches. Maximum precision is 2 decimal places.</summary>
+        /// <summary>Height, in inches.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#height Product#height}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#height Product#height}
         /// </remarks>
         [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}")]
         double Height
@@ -17,9 +17,9 @@ namespace stripe.Product
             get;
         }
 
-        /// <summary>Length, in inches. Maximum precision is 2 decimal places.</summary>
+        /// <summary>Length, in inches.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#length Product#length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#length Product#length}
         /// </remarks>
         [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
         double Length
@@ -27,9 +27,9 @@ namespace stripe.Product
             get;
         }
 
-        /// <summary>Weight, in ounces. Maximum precision is 2 decimal places.</summary>
+        /// <summary>Weight, in ounces.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#weight Product#weight}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#weight Product#weight}
         /// </remarks>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         double Weight
@@ -37,9 +37,9 @@ namespace stripe.Product
             get;
         }
 
-        /// <summary>Width, in inches. Maximum precision is 2 decimal places.</summary>
+        /// <summary>Width, in inches.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#width Product#width}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#width Product#width}
         /// </remarks>
         [JsiiProperty(name: "width", typeJson: "{\"primitive\":\"number\"}")]
         double Width
@@ -54,9 +54,9 @@ namespace stripe.Product
             {
             }
 
-            /// <summary>Height, in inches. Maximum precision is 2 decimal places.</summary>
+            /// <summary>Height, in inches.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#height Product#height}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#height Product#height}
             /// </remarks>
             [JsiiProperty(name: "height", typeJson: "{\"primitive\":\"number\"}")]
             public double Height
@@ -64,9 +64,9 @@ namespace stripe.Product
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Length, in inches. Maximum precision is 2 decimal places.</summary>
+            /// <summary>Length, in inches.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#length Product#length}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#length Product#length}
             /// </remarks>
             [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
             public double Length
@@ -74,9 +74,9 @@ namespace stripe.Product
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Weight, in ounces. Maximum precision is 2 decimal places.</summary>
+            /// <summary>Weight, in ounces.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#weight Product#weight}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#weight Product#weight}
             /// </remarks>
             [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
             public double Weight
@@ -84,9 +84,9 @@ namespace stripe.Product
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Width, in inches. Maximum precision is 2 decimal places.</summary>
+            /// <summary>Width, in inches.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/product#width Product#width}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#width Product#width}
             /// </remarks>
             [JsiiProperty(name: "width", typeJson: "{\"primitive\":\"number\"}")]
             public double Width

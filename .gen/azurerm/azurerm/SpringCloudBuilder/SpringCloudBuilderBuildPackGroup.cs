@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudBuilder
     [JsiiByValue(fqn: "azurerm.springCloudBuilder.SpringCloudBuilderBuildPackGroup")]
     public class SpringCloudBuilderBuildPackGroup : azurerm.SpringCloudBuilder.ISpringCloudBuilderBuildPackGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_builder#name SpringCloudBuilder#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_builder#name SpringCloudBuilder#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.SpringCloudBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_builder#build_pack_ids SpringCloudBuilder#build_pack_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_builder#build_pack_ids SpringCloudBuilder#build_pack_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "buildPackIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? BuildPackIds

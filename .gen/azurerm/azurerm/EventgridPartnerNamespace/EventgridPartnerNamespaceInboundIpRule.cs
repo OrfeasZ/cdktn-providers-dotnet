@@ -9,7 +9,7 @@ namespace azurerm.EventgridPartnerNamespace
     [JsiiByValue(fqn: "azurerm.eventgridPartnerNamespace.EventgridPartnerNamespaceInboundIpRule")]
     public class EventgridPartnerNamespaceInboundIpRule : azurerm.EventgridPartnerNamespace.IEventgridPartnerNamespaceInboundIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_partner_namespace#ip_mask EventgridPartnerNamespace#ip_mask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_namespace#ip_mask EventgridPartnerNamespace#ip_mask}.</summary>
         [JsiiProperty(name: "ipMask", typeJson: "{\"primitive\":\"string\"}")]
         public string IpMask
         {
@@ -17,7 +17,7 @@ namespace azurerm.EventgridPartnerNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/eventgrid_partner_namespace#action EventgridPartnerNamespace#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_partner_namespace#action EventgridPartnerNamespace#action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Action

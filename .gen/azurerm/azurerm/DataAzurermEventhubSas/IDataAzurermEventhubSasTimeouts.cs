@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermEventhubSas
     [JsiiInterface(nativeType: typeof(IDataAzurermEventhubSasTimeouts), fullyQualifiedName: "azurerm.dataAzurermEventhubSas.DataAzurermEventhubSasTimeouts")]
     public interface IDataAzurermEventhubSasTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub_sas#read DataAzurermEventhubSas#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/eventhub_sas#read DataAzurermEventhubSas#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermEventhubSas
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventhub_sas#read DataAzurermEventhubSas#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/eventhub_sas#read DataAzurermEventhubSas#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

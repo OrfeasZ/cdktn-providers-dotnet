@@ -11,7 +11,7 @@ namespace azurerm.ContainerApp
     {
         /// <summary>The ID of the Container App Environment to host this Container App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#container_app_environment_id ContainerApp#container_app_environment_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#container_app_environment_id ContainerApp#container_app_environment_id}
         /// </remarks>
         [JsiiProperty(name: "containerAppEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerAppEnvironmentId
@@ -22,7 +22,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The name for this Container App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#name ContainerApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#name ContainerApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -31,7 +31,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#resource_group_name ContainerApp#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#resource_group_name ContainerApp#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -39,7 +39,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#revision_mode ContainerApp#revision_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#revision_mode ContainerApp#revision_mode}.</summary>
         [JsiiProperty(name: "revisionMode", typeJson: "{\"primitive\":\"string\"}")]
         public string RevisionMode
         {
@@ -49,7 +49,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#template ContainerApp#template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#template ContainerApp#template}
         /// </remarks>
         [JsiiProperty(name: "template", typeJson: "{\"fqn\":\"azurerm.containerApp.ContainerAppTemplate\"}")]
         public azurerm.ContainerApp.IContainerAppTemplate Template
@@ -60,7 +60,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>dapr block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#dapr ContainerApp#dapr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#dapr ContainerApp#dapr}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dapr", typeJson: "{\"fqn\":\"azurerm.containerApp.ContainerAppDapr\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#id ContainerApp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#id ContainerApp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#identity ContainerApp#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#identity ContainerApp#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.containerApp.ContainerAppIdentity\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>ingress block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#ingress ContainerApp#ingress}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#ingress ContainerApp#ingress}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ingress", typeJson: "{\"fqn\":\"azurerm.containerApp.ContainerAppIngress\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#max_inactive_revisions ContainerApp#max_inactive_revisions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#max_inactive_revisions ContainerApp#max_inactive_revisions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxInactiveRevisions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxInactiveRevisions
@@ -120,7 +120,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>registry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#registry ContainerApp#registry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#registry ContainerApp#registry}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppRegistry" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -155,7 +155,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>secret block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#secret ContainerApp#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#secret ContainerApp#secret}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppSecret" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace azurerm.ContainerApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#tags ContainerApp#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#tags ContainerApp#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -197,7 +197,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#timeouts ContainerApp#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#timeouts ContainerApp#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerApp.ContainerAppTimeouts\"}", isOptional: true)]
@@ -207,7 +207,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#workload_profile_name ContainerApp#workload_profile_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#workload_profile_name ContainerApp#workload_profile_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workloadProfileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkloadProfileName

@@ -7,7 +7,7 @@ namespace azurerm.DevTestSchedule
     [JsiiInterface(nativeType: typeof(IDevTestScheduleDailyRecurrence), fullyQualifiedName: "azurerm.devTestSchedule.DevTestScheduleDailyRecurrence")]
     public interface IDevTestScheduleDailyRecurrence
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#time DevTestSchedule#time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dev_test_schedule#time DevTestSchedule#time}.</summary>
         [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
         string Time
         {
@@ -21,7 +21,7 @@ namespace azurerm.DevTestSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/dev_test_schedule#time DevTestSchedule#time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/dev_test_schedule#time DevTestSchedule#time}.</summary>
             [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
             public string Time
             {

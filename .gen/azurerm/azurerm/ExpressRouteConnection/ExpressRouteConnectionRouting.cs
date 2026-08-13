@@ -7,7 +7,7 @@ namespace azurerm.ExpressRouteConnection
     [JsiiByValue(fqn: "azurerm.expressRouteConnection.ExpressRouteConnectionRouting")]
     public class ExpressRouteConnectionRouting : azurerm.ExpressRouteConnection.IExpressRouteConnectionRouting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection#associated_route_table_id ExpressRouteConnection#associated_route_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_connection#associated_route_table_id ExpressRouteConnection#associated_route_table_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "associatedRouteTableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssociatedRouteTableId
@@ -16,7 +16,7 @@ namespace azurerm.ExpressRouteConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection#inbound_route_map_id ExpressRouteConnection#inbound_route_map_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_connection#inbound_route_map_id ExpressRouteConnection#inbound_route_map_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inboundRouteMapId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InboundRouteMapId
@@ -25,7 +25,7 @@ namespace azurerm.ExpressRouteConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection#outbound_route_map_id ExpressRouteConnection#outbound_route_map_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_connection#outbound_route_map_id ExpressRouteConnection#outbound_route_map_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outboundRouteMapId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OutboundRouteMapId
@@ -36,7 +36,7 @@ namespace azurerm.ExpressRouteConnection
 
         /// <summary>propagated_route_table block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/express_route_connection#propagated_route_table ExpressRouteConnection#propagated_route_table}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/express_route_connection#propagated_route_table ExpressRouteConnection#propagated_route_table}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "propagatedRouteTable", typeJson: "{\"fqn\":\"azurerm.expressRouteConnection.ExpressRouteConnectionRoutingPropagatedRouteTable\"}", isOptional: true)]

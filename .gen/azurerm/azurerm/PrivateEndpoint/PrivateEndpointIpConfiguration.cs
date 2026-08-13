@@ -9,7 +9,7 @@ namespace azurerm.PrivateEndpoint
     [JsiiByValue(fqn: "azurerm.privateEndpoint.PrivateEndpointIpConfiguration")]
     public class PrivateEndpointIpConfiguration : azurerm.PrivateEndpoint.IPrivateEndpointIpConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#name PrivateEndpoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#name PrivateEndpoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.PrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#private_ip_address PrivateEndpoint#private_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#private_ip_address PrivateEndpoint#private_ip_address}.</summary>
         [JsiiProperty(name: "privateIpAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateIpAddress
         {
@@ -25,7 +25,7 @@ namespace azurerm.PrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#member_name PrivateEndpoint#member_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#member_name PrivateEndpoint#member_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memberName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MemberName
@@ -34,7 +34,7 @@ namespace azurerm.PrivateEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/private_endpoint#subresource_name PrivateEndpoint#subresource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/private_endpoint#subresource_name PrivateEndpoint#subresource_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subresourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubresourceName

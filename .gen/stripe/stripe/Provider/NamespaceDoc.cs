@@ -5,7 +5,7 @@ namespace stripe.Provider
     /// <remarks>
     /// <h1><c>provider</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs"><c>stripe</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs"><c>stripe</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

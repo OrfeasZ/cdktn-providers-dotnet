@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistryTokenPassword
     [JsiiInterface(nativeType: typeof(IContainerRegistryTokenPasswordConfig), fullyQualifiedName: "azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordConfig")]
     public interface IContainerRegistryTokenPasswordConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#container_registry_token_id ContainerRegistryTokenPassword#container_registry_token_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#container_registry_token_id ContainerRegistryTokenPassword#container_registry_token_id}.</summary>
         [JsiiProperty(name: "containerRegistryTokenId", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerRegistryTokenId
         {
@@ -16,7 +16,7 @@ namespace azurerm.ContainerRegistryTokenPassword
 
         /// <summary>password1 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#password1 ContainerRegistryTokenPassword#password1}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#password1 ContainerRegistryTokenPassword#password1}
         /// </remarks>
         [JsiiProperty(name: "password1", typeJson: "{\"fqn\":\"azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword1\"}")]
         azurerm.ContainerRegistryTokenPassword.IContainerRegistryTokenPasswordPassword1 Password1
@@ -24,7 +24,7 @@ namespace azurerm.ContainerRegistryTokenPassword
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#id ContainerRegistryTokenPassword#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#id ContainerRegistryTokenPassword#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace azurerm.ContainerRegistryTokenPassword
 
         /// <summary>password2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#password2 ContainerRegistryTokenPassword#password2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#password2 ContainerRegistryTokenPassword#password2}
         /// </remarks>
         [JsiiProperty(name: "password2", typeJson: "{\"fqn\":\"azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace azurerm.ContainerRegistryTokenPassword
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#timeouts ContainerRegistryTokenPassword#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#timeouts ContainerRegistryTokenPassword#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace azurerm.ContainerRegistryTokenPassword
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#container_registry_token_id ContainerRegistryTokenPassword#container_registry_token_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#container_registry_token_id ContainerRegistryTokenPassword#container_registry_token_id}.</summary>
             [JsiiProperty(name: "containerRegistryTokenId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerRegistryTokenId
             {
@@ -83,7 +83,7 @@ namespace azurerm.ContainerRegistryTokenPassword
 
             /// <summary>password1 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#password1 ContainerRegistryTokenPassword#password1}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#password1 ContainerRegistryTokenPassword#password1}
             /// </remarks>
             [JsiiProperty(name: "password1", typeJson: "{\"fqn\":\"azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword1\"}")]
             public azurerm.ContainerRegistryTokenPassword.IContainerRegistryTokenPasswordPassword1 Password1
@@ -91,7 +91,7 @@ namespace azurerm.ContainerRegistryTokenPassword
                 get => GetInstanceProperty<azurerm.ContainerRegistryTokenPassword.IContainerRegistryTokenPasswordPassword1>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#id ContainerRegistryTokenPassword#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#id ContainerRegistryTokenPassword#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace azurerm.ContainerRegistryTokenPassword
 
             /// <summary>password2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#password2 ContainerRegistryTokenPassword#password2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#password2 ContainerRegistryTokenPassword#password2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password2", typeJson: "{\"fqn\":\"azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword2\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace azurerm.ContainerRegistryTokenPassword
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#timeouts ContainerRegistryTokenPassword#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#timeouts ContainerRegistryTokenPassword#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordTimeouts\"}", isOptional: true)]

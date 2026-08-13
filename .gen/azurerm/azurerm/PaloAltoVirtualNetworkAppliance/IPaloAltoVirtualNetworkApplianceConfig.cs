@@ -7,21 +7,21 @@ namespace azurerm.PaloAltoVirtualNetworkAppliance
     [JsiiInterface(nativeType: typeof(IPaloAltoVirtualNetworkApplianceConfig), fullyQualifiedName: "azurerm.paloAltoVirtualNetworkAppliance.PaloAltoVirtualNetworkApplianceConfig")]
     public interface IPaloAltoVirtualNetworkApplianceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#name PaloAltoVirtualNetworkAppliance#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#name PaloAltoVirtualNetworkAppliance#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#virtual_hub_id PaloAltoVirtualNetworkAppliance#virtual_hub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#virtual_hub_id PaloAltoVirtualNetworkAppliance#virtual_hub_id}.</summary>
         [JsiiProperty(name: "virtualHubId", typeJson: "{\"primitive\":\"string\"}")]
         string VirtualHubId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#id PaloAltoVirtualNetworkAppliance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#id PaloAltoVirtualNetworkAppliance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace azurerm.PaloAltoVirtualNetworkAppliance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#timeouts PaloAltoVirtualNetworkAppliance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#timeouts PaloAltoVirtualNetworkAppliance#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.paloAltoVirtualNetworkAppliance.PaloAltoVirtualNetworkApplianceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace azurerm.PaloAltoVirtualNetworkAppliance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#name PaloAltoVirtualNetworkAppliance#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#name PaloAltoVirtualNetworkAppliance#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#virtual_hub_id PaloAltoVirtualNetworkAppliance#virtual_hub_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#virtual_hub_id PaloAltoVirtualNetworkAppliance#virtual_hub_id}.</summary>
             [JsiiProperty(name: "virtualHubId", typeJson: "{\"primitive\":\"string\"}")]
             public string VirtualHubId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#id PaloAltoVirtualNetworkAppliance#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#id PaloAltoVirtualNetworkAppliance#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace azurerm.PaloAltoVirtualNetworkAppliance
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/palo_alto_virtual_network_appliance#timeouts PaloAltoVirtualNetworkAppliance#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_virtual_network_appliance#timeouts PaloAltoVirtualNetworkAppliance#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.paloAltoVirtualNetworkAppliance.PaloAltoVirtualNetworkApplianceTimeouts\"}", isOptional: true)]

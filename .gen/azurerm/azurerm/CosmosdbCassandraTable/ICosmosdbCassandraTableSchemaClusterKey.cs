@@ -7,14 +7,14 @@ namespace azurerm.CosmosdbCassandraTable
     [JsiiInterface(nativeType: typeof(ICosmosdbCassandraTableSchemaClusterKey), fullyQualifiedName: "azurerm.cosmosdbCassandraTable.CosmosdbCassandraTableSchemaClusterKey")]
     public interface ICosmosdbCassandraTableSchemaClusterKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#order_by CosmosdbCassandraTable#order_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#order_by CosmosdbCassandraTable#order_by}.</summary>
         [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}")]
         string OrderBy
         {
@@ -28,14 +28,14 @@ namespace azurerm.CosmosdbCassandraTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#name CosmosdbCassandraTable#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_cassandra_table#order_by CosmosdbCassandraTable#order_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_cassandra_table#order_by CosmosdbCassandraTable#order_by}.</summary>
             [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}")]
             public string OrderBy
             {

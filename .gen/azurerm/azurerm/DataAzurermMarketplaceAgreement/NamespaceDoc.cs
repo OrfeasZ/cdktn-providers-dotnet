@@ -5,7 +5,7 @@ namespace azurerm.DataAzurermMarketplaceAgreement
     /// <remarks>
     /// <h1><c>data_azurerm_marketplace_agreement</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/marketplace_agreement"><c>data_azurerm_marketplace_agreement</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/marketplace_agreement"><c>data_azurerm_marketplace_agreement</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace azurerm.ApiManagement
     [JsiiByValue(fqn: "azurerm.apiManagement.ApiManagementCertificate")]
     public class ApiManagementCertificate : azurerm.ApiManagement.IApiManagementCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.</summary>
         [JsiiProperty(name: "encodedCertificate", typeJson: "{\"primitive\":\"string\"}")]
         public string EncodedCertificate
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management#store_name ApiManagement#store_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management#store_name ApiManagement#store_name}.</summary>
         [JsiiProperty(name: "storeName", typeJson: "{\"primitive\":\"string\"}")]
         public string StoreName
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificatePassword

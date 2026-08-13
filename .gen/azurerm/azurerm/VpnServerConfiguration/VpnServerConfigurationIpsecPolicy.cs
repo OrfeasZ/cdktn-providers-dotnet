@@ -9,7 +9,7 @@ namespace azurerm.VpnServerConfiguration
     [JsiiByValue(fqn: "azurerm.vpnServerConfiguration.VpnServerConfigurationIpsecPolicy")]
     public class VpnServerConfigurationIpsecPolicy : azurerm.VpnServerConfiguration.IVpnServerConfigurationIpsecPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#dh_group VpnServerConfiguration#dh_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#dh_group VpnServerConfiguration#dh_group}.</summary>
         [JsiiProperty(name: "dhGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string DhGroup
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#ike_encryption VpnServerConfiguration#ike_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#ike_encryption VpnServerConfiguration#ike_encryption}.</summary>
         [JsiiProperty(name: "ikeEncryption", typeJson: "{\"primitive\":\"string\"}")]
         public string IkeEncryption
         {
@@ -25,7 +25,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#ike_integrity VpnServerConfiguration#ike_integrity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#ike_integrity VpnServerConfiguration#ike_integrity}.</summary>
         [JsiiProperty(name: "ikeIntegrity", typeJson: "{\"primitive\":\"string\"}")]
         public string IkeIntegrity
         {
@@ -33,7 +33,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#ipsec_encryption VpnServerConfiguration#ipsec_encryption}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#ipsec_encryption VpnServerConfiguration#ipsec_encryption}.</summary>
         [JsiiProperty(name: "ipsecEncryption", typeJson: "{\"primitive\":\"string\"}")]
         public string IpsecEncryption
         {
@@ -41,7 +41,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#ipsec_integrity VpnServerConfiguration#ipsec_integrity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#ipsec_integrity VpnServerConfiguration#ipsec_integrity}.</summary>
         [JsiiProperty(name: "ipsecIntegrity", typeJson: "{\"primitive\":\"string\"}")]
         public string IpsecIntegrity
         {
@@ -49,7 +49,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#pfs_group VpnServerConfiguration#pfs_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#pfs_group VpnServerConfiguration#pfs_group}.</summary>
         [JsiiProperty(name: "pfsGroup", typeJson: "{\"primitive\":\"string\"}")]
         public string PfsGroup
         {
@@ -57,7 +57,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#sa_data_size_kilobytes VpnServerConfiguration#sa_data_size_kilobytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#sa_data_size_kilobytes VpnServerConfiguration#sa_data_size_kilobytes}.</summary>
         [JsiiProperty(name: "saDataSizeKilobytes", typeJson: "{\"primitive\":\"number\"}")]
         public double SaDataSizeKilobytes
         {
@@ -65,7 +65,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_server_configuration#sa_lifetime_seconds VpnServerConfiguration#sa_lifetime_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#sa_lifetime_seconds VpnServerConfiguration#sa_lifetime_seconds}.</summary>
         [JsiiProperty(name: "saLifetimeSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public double SaLifetimeSeconds
         {

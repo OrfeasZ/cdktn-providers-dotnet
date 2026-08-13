@@ -7,7 +7,7 @@ namespace azurerm.CdnFrontdoorProfile
     [JsiiInterface(nativeType: typeof(ICdnFrontdoorProfileLogScrubbingRule), fullyQualifiedName: "azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRule")]
     public interface ICdnFrontdoorProfileLogScrubbingRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_profile#match_variable CdnFrontdoorProfile#match_variable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_frontdoor_profile#match_variable CdnFrontdoorProfile#match_variable}.</summary>
         [JsiiProperty(name: "matchVariable", typeJson: "{\"primitive\":\"string\"}")]
         string MatchVariable
         {
@@ -21,7 +21,7 @@ namespace azurerm.CdnFrontdoorProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cdn_frontdoor_profile#match_variable CdnFrontdoorProfile#match_variable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_frontdoor_profile#match_variable CdnFrontdoorProfile#match_variable}.</summary>
             [JsiiProperty(name: "matchVariable", typeJson: "{\"primitive\":\"string\"}")]
             public string MatchVariable
             {

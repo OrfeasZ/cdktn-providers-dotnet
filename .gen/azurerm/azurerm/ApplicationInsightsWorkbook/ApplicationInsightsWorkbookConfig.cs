@@ -9,7 +9,7 @@ namespace azurerm.ApplicationInsightsWorkbook
     [JsiiByValue(fqn: "azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookConfig")]
     public class ApplicationInsightsWorkbookConfig : azurerm.ApplicationInsightsWorkbook.IApplicationInsightsWorkbookConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#data_json ApplicationInsightsWorkbook#data_json}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#data_json ApplicationInsightsWorkbook#data_json}.</summary>
         [JsiiProperty(name: "dataJson", typeJson: "{\"primitive\":\"string\"}")]
         public string DataJson
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#display_name ApplicationInsightsWorkbook#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#display_name ApplicationInsightsWorkbook#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#location ApplicationInsightsWorkbook#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#location ApplicationInsightsWorkbook#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -33,7 +33,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#name ApplicationInsightsWorkbook#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#name ApplicationInsightsWorkbook#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#resource_group_name ApplicationInsightsWorkbook#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#resource_group_name ApplicationInsightsWorkbook#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -49,7 +49,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#category ApplicationInsightsWorkbook#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#category ApplicationInsightsWorkbook#category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Category
@@ -58,7 +58,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#description ApplicationInsightsWorkbook#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#description ApplicationInsightsWorkbook#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -67,7 +67,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#id ApplicationInsightsWorkbook#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#id ApplicationInsightsWorkbook#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace azurerm.ApplicationInsightsWorkbook
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#identity ApplicationInsightsWorkbook#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#identity ApplicationInsightsWorkbook#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookIdentity\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#source_id ApplicationInsightsWorkbook#source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#source_id ApplicationInsightsWorkbook#source_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceId
@@ -101,7 +101,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#storage_container_id ApplicationInsightsWorkbook#storage_container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#storage_container_id ApplicationInsightsWorkbook#storage_container_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageContainerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageContainerId
@@ -110,7 +110,7 @@ namespace azurerm.ApplicationInsightsWorkbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#tags ApplicationInsightsWorkbook#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#tags ApplicationInsightsWorkbook#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -121,7 +121,7 @@ namespace azurerm.ApplicationInsightsWorkbook
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/application_insights_workbook#timeouts ApplicationInsightsWorkbook#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/application_insights_workbook#timeouts ApplicationInsightsWorkbook#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.applicationInsightsWorkbook.ApplicationInsightsWorkbookTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermApiManagementApiVersionSet
     [JsiiInterface(nativeType: typeof(IDataAzurermApiManagementApiVersionSetTimeouts), fullyQualifiedName: "azurerm.dataAzurermApiManagementApiVersionSet.DataAzurermApiManagementApiVersionSetTimeouts")]
     public interface IDataAzurermApiManagementApiVersionSetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/api_management_api_version_set#read DataAzurermApiManagementApiVersionSet#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/api_management_api_version_set#read DataAzurermApiManagementApiVersionSet#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermApiManagementApiVersionSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/api_management_api_version_set#read DataAzurermApiManagementApiVersionSet#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/api_management_api_version_set#read DataAzurermApiManagementApiVersionSet#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

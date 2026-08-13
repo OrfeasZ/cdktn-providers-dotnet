@@ -7,11 +7,9 @@ namespace stripe.Customer
     [JsiiInterface(nativeType: typeof(ICustomerCashBalanceSettings), fullyQualifiedName: "stripe.customer.CustomerCashBalanceSettings")]
     public interface ICustomerCashBalanceSettings
     {
-        /// <summary>Controls how funds transferred by the customer are applied to payment intents and invoices.</summary>
+        /// <summary>The configuration for how funds that land in the customer cash balance are reconciled.</summary>
         /// <remarks>
-        /// Valid options are <c>automatic</c>, <c>manual</c>, or <c>merchant_default</c>. For more information about these reconciliation modes, see <a href="https://stripe.com/docs/payments/customer-balance/reconciliation">Reconciliation</a>.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
         /// </remarks>
         [JsiiProperty(name: "reconciliationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,11 +28,9 @@ namespace stripe.Customer
             {
             }
 
-            /// <summary>Controls how funds transferred by the customer are applied to payment intents and invoices.</summary>
+            /// <summary>The configuration for how funds that land in the customer cash balance are reconciled.</summary>
             /// <remarks>
-            /// Valid options are <c>automatic</c>, <c>manual</c>, or <c>merchant_default</c>. For more information about these reconciliation modes, see <a href="https://stripe.com/docs/payments/customer-balance/reconciliation">Reconciliation</a>.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "reconciliationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

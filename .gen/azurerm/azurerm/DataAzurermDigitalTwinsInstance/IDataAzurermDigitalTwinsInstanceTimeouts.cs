@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDigitalTwinsInstance
     [JsiiInterface(nativeType: typeof(IDataAzurermDigitalTwinsInstanceTimeouts), fullyQualifiedName: "azurerm.dataAzurermDigitalTwinsInstance.DataAzurermDigitalTwinsInstanceTimeouts")]
     public interface IDataAzurermDigitalTwinsInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/digital_twins_instance#read DataAzurermDigitalTwinsInstance#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/digital_twins_instance#read DataAzurermDigitalTwinsInstance#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDigitalTwinsInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/digital_twins_instance#read DataAzurermDigitalTwinsInstance#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/digital_twins_instance#read DataAzurermDigitalTwinsInstance#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

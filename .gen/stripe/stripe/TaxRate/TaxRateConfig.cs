@@ -9,9 +9,9 @@ namespace stripe.TaxRate
     [JsiiByValue(fqn: "stripe.taxRate.TaxRateConfig")]
     public class TaxRateConfig : stripe.TaxRate.ITaxRateConfig
     {
-        /// <summary>The display name of the tax rate, which will be shown to users.</summary>
+        /// <summary>The display name of the tax rates as it will appear to your customer on their receipt email, PDF, and the hosted invoice page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#display_name TaxRate#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#display_name TaxRate#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -24,7 +24,7 @@ namespace stripe.TaxRate
 
         /// <summary>This specifies if the tax rate is inclusive or exclusive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#inclusive TaxRate#inclusive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#inclusive TaxRate#inclusive}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "inclusive", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -54,9 +54,11 @@ namespace stripe.TaxRate
             }
         }
 
-        /// <summary>This represents the tax rate percent out of 100.</summary>
+        /// <summary>Tax rate percentage out of 100.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#percentage TaxRate#percentage}
+        /// For tax calculations with automatic_tax[enabled]=true, this percentage includes the statutory tax rate of non-taxable jurisdictions.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#percentage TaxRate#percentage}
         /// </remarks>
         [JsiiProperty(name: "percentage", typeJson: "{\"primitive\":\"number\"}")]
         public double Percentage
@@ -67,11 +69,11 @@ namespace stripe.TaxRate
 
         private object? _active;
 
-        /// <summary>Flag determining whether the tax rate is active or inactive (archived).</summary>
+        /// <summary>Defaults to `true`.</summary>
         /// <remarks>
-        /// Inactive tax rates cannot be used with new applications or Checkout Sessions, but will still work for subscriptions and invoices that already have it set.
+        /// When set to <c>false</c>, this tax rate cannot be used with new applications or Checkout Sessions, but will still work for subscriptions and invoices that already have it set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#active TaxRate#active}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#active TaxRate#active}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -104,7 +106,7 @@ namespace stripe.TaxRate
 
         /// <summary>Two-letter country code ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#country TaxRate#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#country TaxRate#country}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -118,7 +120,7 @@ namespace stripe.TaxRate
         /// <remarks>
         /// It will not be visible to your customers.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#description TaxRate#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#description TaxRate#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -132,7 +134,7 @@ namespace stripe.TaxRate
         /// <remarks>
         /// You can use this label field for tax reporting purposes. It also appears on your customer’s invoice.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#jurisdiction TaxRate#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#jurisdiction TaxRate#jurisdiction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -142,9 +144,9 @@ namespace stripe.TaxRate
             set;
         }
 
-        /// <summary>Set of [key-value pairs](https://stripe.com/docs/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
+        /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#metadata TaxRate#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#metadata TaxRate#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -154,9 +156,9 @@ namespace stripe.TaxRate
             set;
         }
 
-        /// <summary>[ISO 3166-2 subdivision code](https://en.wikipedia.org/wiki/ISO_3166-2), without country prefix. For example, \"NY\" for New York, United States.</summary>
+        /// <summary>[ISO 3166-2 subdivision code](https://en.wikipedia.org/wiki/ISO_3166-2), without country prefix. For example, "NY" for New York, United States.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#state TaxRate#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#state TaxRate#state}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -168,7 +170,7 @@ namespace stripe.TaxRate
 
         /// <summary>The high-level tax type, such as `vat` or `sales_tax`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/tax_rate#tax_type TaxRate#tax_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_rate#tax_type TaxRate#tax_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

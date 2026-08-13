@@ -9,7 +9,7 @@ namespace azurerm.HdinsightSparkCluster
     {
         /// <summary>head_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#head_node HdinsightSparkCluster#head_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#head_node HdinsightSparkCluster#head_node}
         /// </remarks>
         [JsiiProperty(name: "headNode", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNode\"}")]
         azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesHeadNode HeadNode
@@ -19,7 +19,7 @@ namespace azurerm.HdinsightSparkCluster
 
         /// <summary>worker_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#worker_node HdinsightSparkCluster#worker_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#worker_node HdinsightSparkCluster#worker_node}
         /// </remarks>
         [JsiiProperty(name: "workerNode", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNode\"}")]
         azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesWorkerNode WorkerNode
@@ -29,7 +29,7 @@ namespace azurerm.HdinsightSparkCluster
 
         /// <summary>zookeeper_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#zookeeper_node HdinsightSparkCluster#zookeeper_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#zookeeper_node HdinsightSparkCluster#zookeeper_node}
         /// </remarks>
         [JsiiProperty(name: "zookeeperNode", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNode\"}")]
         azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesZookeeperNode ZookeeperNode
@@ -46,7 +46,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>head_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#head_node HdinsightSparkCluster#head_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#head_node HdinsightSparkCluster#head_node}
             /// </remarks>
             [JsiiProperty(name: "headNode", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesHeadNode\"}")]
             public azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesHeadNode HeadNode
@@ -56,7 +56,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>worker_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#worker_node HdinsightSparkCluster#worker_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#worker_node HdinsightSparkCluster#worker_node}
             /// </remarks>
             [JsiiProperty(name: "workerNode", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNode\"}")]
             public azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesWorkerNode WorkerNode
@@ -66,7 +66,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>zookeeper_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/hdinsight_spark_cluster#zookeeper_node HdinsightSparkCluster#zookeeper_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/hdinsight_spark_cluster#zookeeper_node HdinsightSparkCluster#zookeeper_node}
             /// </remarks>
             [JsiiProperty(name: "zookeeperNode", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesZookeeperNode\"}")]
             public azurerm.HdinsightSparkCluster.IHdinsightSparkClusterRolesZookeeperNode ZookeeperNode

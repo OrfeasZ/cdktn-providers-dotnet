@@ -9,20 +9,9 @@ namespace stripe.BillingMeter
     [JsiiByValue(fqn: "stripe.billingMeter.BillingMeterConfig")]
     public class BillingMeterConfig : stripe.BillingMeter.IBillingMeterConfig
     {
-        /// <summary>default_aggregation block.</summary>
+        /// <summary>The meter's name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
-        /// </remarks>
-        [JsiiProperty(name: "defaultAggregation", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"}")]
-        public stripe.BillingMeter.IBillingMeterDefaultAggregation DefaultAggregation
-        {
-            get;
-            set;
-        }
-
-        /// <summary>The meter’s name. Not visible to the customer.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#display_name BillingMeter#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#display_name BillingMeter#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -33,7 +22,7 @@ namespace stripe.BillingMeter
 
         /// <summary>The name of the meter event to record usage for. Corresponds with the `event_name` field on meter events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_name BillingMeter#event_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#event_name BillingMeter#event_name}
         /// </remarks>
         [JsiiProperty(name: "eventName", typeJson: "{\"primitive\":\"string\"}")]
         public string EventName
@@ -42,35 +31,79 @@ namespace stripe.BillingMeter
             set;
         }
 
+        private object? _customerMapping;
+
         /// <summary>customer_mapping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#customer_mapping BillingMeter#customer_mapping}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterCustomerMapping" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "customerMapping", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"}", isOptional: true)]
-        public stripe.BillingMeter.IBillingMeterCustomerMapping? CustomerMapping
+        [JsiiProperty(name: "customerMapping", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterCustomerMapping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? CustomerMapping
         {
-            get;
-            set;
+            get => _customerMapping;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.BillingMeter.IBillingMeterCustomerMapping[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterCustomerMapping).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _customerMapping = value;
+            }
         }
 
-        /// <summary>Set of keys that will be used to group meter events by.</summary>
+        private object? _defaultAggregation;
+
+        /// <summary>default_aggregation block.</summary>
         /// <remarks>
-        /// Each key must be present in the event payload.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#dimension_payload_keys BillingMeter#dimension_payload_keys}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#default_aggregation BillingMeter#default_aggregation}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterDefaultAggregation" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "dimensionPayloadKeys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public string[]? DimensionPayloadKeys
+        [JsiiProperty(name: "defaultAggregation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterDefaultAggregation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? DefaultAggregation
         {
-            get;
-            set;
+            get => _defaultAggregation;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.BillingMeter.IBillingMeterDefaultAggregation[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterDefaultAggregation).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _defaultAggregation = value;
+            }
         }
 
         /// <summary>The time window which meter events have been pre-aggregated for, if any.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#event_time_window BillingMeter#event_time_window}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventTimeWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,16 +113,39 @@ namespace stripe.BillingMeter
             set;
         }
 
+        private object? _valueSettings;
+
         /// <summary>value_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#value_settings BillingMeter#value_settings}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingMeter.IBillingMeterValueSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "valueSettings", typeJson: "{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"}", isOptional: true)]
-        public stripe.BillingMeter.IBillingMeterValueSettings? ValueSettings
+        [JsiiProperty(name: "valueSettings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingMeter.BillingMeterValueSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? ValueSettings
         {
-            get;
-            set;
+            get => _valueSettings;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.BillingMeter.IBillingMeterValueSettings[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.BillingMeter.IBillingMeterValueSettings).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _valueSettings = value;
+            }
         }
 
         private object? _connection;

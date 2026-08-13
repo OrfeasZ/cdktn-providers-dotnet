@@ -9,7 +9,7 @@ namespace azurerm.ContainerApp
     [JsiiByValue(fqn: "azurerm.containerApp.ContainerAppTemplateHttpScaleRule")]
     public class ContainerAppTemplateHttpScaleRule : azurerm.ContainerApp.IContainerAppTemplateHttpScaleRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#concurrent_requests ContainerApp#concurrent_requests}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#concurrent_requests ContainerApp#concurrent_requests}.</summary>
         [JsiiProperty(name: "concurrentRequests", typeJson: "{\"primitive\":\"string\"}")]
         public string ConcurrentRequests
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#name ContainerApp#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#name ContainerApp#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -29,7 +29,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_app#authentication ContainerApp#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#authentication ContainerApp#authentication}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateHttpScaleRuleAuthentication" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAttestationProvider
     [JsiiInterface(nativeType: typeof(IDataAzurermAttestationProviderTimeouts), fullyQualifiedName: "azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderTimeouts")]
     public interface IDataAzurermAttestationProviderTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/attestation_provider#read DataAzurermAttestationProvider#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/attestation_provider#read DataAzurermAttestationProvider#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermAttestationProvider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/attestation_provider#read DataAzurermAttestationProvider#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/attestation_provider#read DataAzurermAttestationProvider#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

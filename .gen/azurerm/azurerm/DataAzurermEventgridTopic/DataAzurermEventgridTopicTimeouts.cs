@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermEventgridTopic
     [JsiiByValue(fqn: "azurerm.dataAzurermEventgridTopic.DataAzurermEventgridTopicTimeouts")]
     public class DataAzurermEventgridTopicTimeouts : azurerm.DataAzurermEventgridTopic.IDataAzurermEventgridTopicTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/eventgrid_topic#read DataAzurermEventgridTopic#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/eventgrid_topic#read DataAzurermEventgridTopic#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -5,7 +5,7 @@ namespace azurerm.MaintenanceAssignmentDedicatedHost
     /// <remarks>
     /// <h1><c>azurerm_maintenance_assignment_dedicated_host</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/maintenance_assignment_dedicated_host"><c>azurerm_maintenance_assignment_dedicated_host</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maintenance_assignment_dedicated_host"><c>azurerm_maintenance_assignment_dedicated_host</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

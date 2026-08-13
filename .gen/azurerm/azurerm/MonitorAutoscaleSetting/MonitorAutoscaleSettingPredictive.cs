@@ -9,7 +9,7 @@ namespace azurerm.MonitorAutoscaleSetting
     [JsiiByValue(fqn: "azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingPredictive")]
     public class MonitorAutoscaleSettingPredictive : azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingPredictive
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#scale_mode MonitorAutoscaleSetting#scale_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_autoscale_setting#scale_mode MonitorAutoscaleSetting#scale_mode}.</summary>
         [JsiiProperty(name: "scaleMode", typeJson: "{\"primitive\":\"string\"}")]
         public string ScaleMode
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorAutoscaleSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/monitor_autoscale_setting#look_ahead_time MonitorAutoscaleSetting#look_ahead_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_autoscale_setting#look_ahead_time MonitorAutoscaleSetting#look_ahead_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lookAheadTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LookAheadTime

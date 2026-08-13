@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementApiOperation
     [JsiiByValue(fqn: "azurerm.apiManagementApiOperation.ApiManagementApiOperationConfig")]
     public class ApiManagementApiOperationConfig : azurerm.ApiManagementApiOperation.IApiManagementApiOperationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#api_management_name ApiManagementApiOperation#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#api_management_name ApiManagementApiOperation#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#api_name ApiManagementApiOperation#api_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#api_name ApiManagementApiOperation#api_name}.</summary>
         [JsiiProperty(name: "apiName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiName
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#display_name ApiManagementApiOperation#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#display_name ApiManagementApiOperation#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -33,7 +33,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#method ApiManagementApiOperation#method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#method ApiManagementApiOperation#method}.</summary>
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
         public string Method
         {
@@ -41,7 +41,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#operation_id ApiManagementApiOperation#operation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#operation_id ApiManagementApiOperation#operation_id}.</summary>
         [JsiiProperty(name: "operationId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationId
         {
@@ -49,7 +49,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#resource_group_name ApiManagementApiOperation#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#resource_group_name ApiManagementApiOperation#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -57,7 +57,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#url_template ApiManagementApiOperation#url_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#url_template ApiManagementApiOperation#url_template}.</summary>
         [JsiiProperty(name: "urlTemplate", typeJson: "{\"primitive\":\"string\"}")]
         public string UrlTemplate
         {
@@ -65,7 +65,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#description ApiManagementApiOperation#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#description ApiManagementApiOperation#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -74,7 +74,7 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#id ApiManagementApiOperation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#id ApiManagementApiOperation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,7 +89,7 @@ namespace azurerm.ApiManagementApiOperation
 
         /// <summary>request block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#request ApiManagementApiOperation#request}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#request ApiManagementApiOperation#request}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "request", typeJson: "{\"fqn\":\"azurerm.apiManagementApiOperation.ApiManagementApiOperationRequest\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace azurerm.ApiManagementApiOperation
 
         /// <summary>response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#response ApiManagementApiOperation#response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#response ApiManagementApiOperation#response}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementApiOperation.IApiManagementApiOperationResponse" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -138,7 +138,7 @@ namespace azurerm.ApiManagementApiOperation
 
         /// <summary>template_parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#template_parameter ApiManagementApiOperation#template_parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#template_parameter ApiManagementApiOperation#template_parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementApiOperation.IApiManagementApiOperationTemplateParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -171,7 +171,7 @@ namespace azurerm.ApiManagementApiOperation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/api_management_api_operation#timeouts ApiManagementApiOperation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_operation#timeouts ApiManagementApiOperation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementApiOperation.ApiManagementApiOperationTimeouts\"}", isOptional: true)]

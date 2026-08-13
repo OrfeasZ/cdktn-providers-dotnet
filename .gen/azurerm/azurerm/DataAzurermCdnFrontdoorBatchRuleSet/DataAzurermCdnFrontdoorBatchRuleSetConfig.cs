@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermCdnFrontdoorBatchRuleSet
     [JsiiByValue(fqn: "azurerm.dataAzurermCdnFrontdoorBatchRuleSet.DataAzurermCdnFrontdoorBatchRuleSetConfig")]
     public class DataAzurermCdnFrontdoorBatchRuleSetConfig : azurerm.DataAzurermCdnFrontdoorBatchRuleSet.IDataAzurermCdnFrontdoorBatchRuleSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_batch_rule_set#name DataAzurermCdnFrontdoorBatchRuleSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set#name DataAzurermCdnFrontdoorBatchRuleSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermCdnFrontdoorBatchRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_batch_rule_set#profile_name DataAzurermCdnFrontdoorBatchRuleSet#profile_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set#profile_name DataAzurermCdnFrontdoorBatchRuleSet#profile_name}.</summary>
         [JsiiProperty(name: "profileName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileName
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermCdnFrontdoorBatchRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_batch_rule_set#resource_group_name DataAzurermCdnFrontdoorBatchRuleSet#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set#resource_group_name DataAzurermCdnFrontdoorBatchRuleSet#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.DataAzurermCdnFrontdoorBatchRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_batch_rule_set#id DataAzurermCdnFrontdoorBatchRuleSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set#id DataAzurermCdnFrontdoorBatchRuleSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace azurerm.DataAzurermCdnFrontdoorBatchRuleSet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/cdn_frontdoor_batch_rule_set#timeouts DataAzurermCdnFrontdoorBatchRuleSet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/cdn_frontdoor_batch_rule_set#timeouts DataAzurermCdnFrontdoorBatchRuleSet#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermCdnFrontdoorBatchRuleSet.DataAzurermCdnFrontdoorBatchRuleSetTimeouts\"}", isOptional: true)]

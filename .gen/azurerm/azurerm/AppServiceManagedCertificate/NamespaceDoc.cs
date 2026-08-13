@@ -5,7 +5,7 @@ namespace azurerm.AppServiceManagedCertificate
     /// <remarks>
     /// <h1><c>azurerm_app_service_managed_certificate</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/app_service_managed_certificate"><c>azurerm_app_service_managed_certificate</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/app_service_managed_certificate"><c>azurerm_app_service_managed_certificate</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

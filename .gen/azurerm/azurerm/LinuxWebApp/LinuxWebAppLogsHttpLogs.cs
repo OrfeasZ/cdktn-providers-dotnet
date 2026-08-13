@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebApp
     {
         /// <summary>azure_blob_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#azure_blob_storage LinuxWebApp#azure_blob_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app#azure_blob_storage LinuxWebApp#azure_blob_storage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsAzureBlobStorage\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>file_system block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/linux_web_app#file_system LinuxWebApp#file_system}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_web_app#file_system LinuxWebApp#file_system}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fileSystem", typeJson: "{\"fqn\":\"azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsFileSystem\"}", isOptional: true)]

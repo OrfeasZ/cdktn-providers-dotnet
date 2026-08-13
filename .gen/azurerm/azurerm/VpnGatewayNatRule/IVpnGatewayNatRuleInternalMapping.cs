@@ -7,14 +7,14 @@ namespace azurerm.VpnGatewayNatRule
     [JsiiInterface(nativeType: typeof(IVpnGatewayNatRuleInternalMapping), fullyQualifiedName: "azurerm.vpnGatewayNatRule.VpnGatewayNatRuleInternalMapping")]
     public interface IVpnGatewayNatRuleInternalMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_gateway_nat_rule#address_space VpnGatewayNatRule#address_space}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway_nat_rule#address_space VpnGatewayNatRule#address_space}.</summary>
         [JsiiProperty(name: "addressSpace", typeJson: "{\"primitive\":\"string\"}")]
         string AddressSpace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_gateway_nat_rule#port_range VpnGatewayNatRule#port_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway_nat_rule#port_range VpnGatewayNatRule#port_range}.</summary>
         [JsiiProperty(name: "portRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PortRange
@@ -32,14 +32,14 @@ namespace azurerm.VpnGatewayNatRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_gateway_nat_rule#address_space VpnGatewayNatRule#address_space}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway_nat_rule#address_space VpnGatewayNatRule#address_space}.</summary>
             [JsiiProperty(name: "addressSpace", typeJson: "{\"primitive\":\"string\"}")]
             public string AddressSpace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/vpn_gateway_nat_rule#port_range VpnGatewayNatRule#port_range}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway_nat_rule#port_range VpnGatewayNatRule#port_range}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "portRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PortRange

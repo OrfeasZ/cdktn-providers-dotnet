@@ -7,7 +7,7 @@ namespace azurerm.CosmosdbMongoDatabase
     [JsiiByValue(fqn: "azurerm.cosmosdbMongoDatabase.CosmosdbMongoDatabaseAutoscaleSettings")]
     public class CosmosdbMongoDatabaseAutoscaleSettings : azurerm.CosmosdbMongoDatabase.ICosmosdbMongoDatabaseAutoscaleSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/cosmosdb_mongo_database#max_throughput CosmosdbMongoDatabase#max_throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_mongo_database#max_throughput CosmosdbMongoDatabase#max_throughput}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxThroughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxThroughput

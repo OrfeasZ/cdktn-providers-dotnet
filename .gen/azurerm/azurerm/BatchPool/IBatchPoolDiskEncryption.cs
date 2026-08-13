@@ -7,7 +7,7 @@ namespace azurerm.BatchPool
     [JsiiInterface(nativeType: typeof(IBatchPoolDiskEncryption), fullyQualifiedName: "azurerm.batchPool.BatchPoolDiskEncryption")]
     public interface IBatchPoolDiskEncryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_pool#disk_encryption_target BatchPool#disk_encryption_target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_pool#disk_encryption_target BatchPool#disk_encryption_target}.</summary>
         [JsiiProperty(name: "diskEncryptionTarget", typeJson: "{\"primitive\":\"string\"}")]
         string DiskEncryptionTarget
         {
@@ -21,7 +21,7 @@ namespace azurerm.BatchPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_pool#disk_encryption_target BatchPool#disk_encryption_target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_pool#disk_encryption_target BatchPool#disk_encryption_target}.</summary>
             [JsiiProperty(name: "diskEncryptionTarget", typeJson: "{\"primitive\":\"string\"}")]
             public string DiskEncryptionTarget
             {

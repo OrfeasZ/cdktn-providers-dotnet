@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudBuilder
     [JsiiByValue(fqn: "azurerm.springCloudBuilder.SpringCloudBuilderStack")]
     public class SpringCloudBuilderStack : azurerm.SpringCloudBuilder.ISpringCloudBuilderStack
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_builder#id SpringCloudBuilder#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_builder#id SpringCloudBuilder#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ namespace azurerm.SpringCloudBuilder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/spring_cloud_builder#version SpringCloudBuilder#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_builder#version SpringCloudBuilder#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public string Version
         {

@@ -9,7 +9,7 @@ namespace azurerm.RedisLinkedServer
     [JsiiByValue(fqn: "azurerm.redisLinkedServer.RedisLinkedServerConfig")]
     public class RedisLinkedServerConfig : azurerm.RedisLinkedServer.IRedisLinkedServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redis_linked_server#linked_redis_cache_id RedisLinkedServer#linked_redis_cache_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_linked_server#linked_redis_cache_id RedisLinkedServer#linked_redis_cache_id}.</summary>
         [JsiiProperty(name: "linkedRedisCacheId", typeJson: "{\"primitive\":\"string\"}")]
         public string LinkedRedisCacheId
         {
@@ -17,7 +17,7 @@ namespace azurerm.RedisLinkedServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redis_linked_server#linked_redis_cache_location RedisLinkedServer#linked_redis_cache_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_linked_server#linked_redis_cache_location RedisLinkedServer#linked_redis_cache_location}.</summary>
         [JsiiProperty(name: "linkedRedisCacheLocation", typeJson: "{\"primitive\":\"string\"}")]
         public string LinkedRedisCacheLocation
         {
@@ -25,7 +25,7 @@ namespace azurerm.RedisLinkedServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redis_linked_server#resource_group_name RedisLinkedServer#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_linked_server#resource_group_name RedisLinkedServer#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.RedisLinkedServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redis_linked_server#server_role RedisLinkedServer#server_role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_linked_server#server_role RedisLinkedServer#server_role}.</summary>
         [JsiiProperty(name: "serverRole", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerRole
         {
@@ -41,7 +41,7 @@ namespace azurerm.RedisLinkedServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redis_linked_server#target_redis_cache_name RedisLinkedServer#target_redis_cache_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_linked_server#target_redis_cache_name RedisLinkedServer#target_redis_cache_name}.</summary>
         [JsiiProperty(name: "targetRedisCacheName", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetRedisCacheName
         {
@@ -49,7 +49,7 @@ namespace azurerm.RedisLinkedServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redis_linked_server#id RedisLinkedServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_linked_server#id RedisLinkedServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.RedisLinkedServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/redis_linked_server#timeouts RedisLinkedServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_linked_server#timeouts RedisLinkedServer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.redisLinkedServer.RedisLinkedServerTimeouts\"}", isOptional: true)]

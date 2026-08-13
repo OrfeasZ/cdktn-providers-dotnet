@@ -9,7 +9,7 @@ namespace azurerm.MapsAccount
     [JsiiByValue(fqn: "azurerm.mapsAccount.MapsAccountDataStore")]
     public class MapsAccountDataStore : azurerm.MapsAccount.IMapsAccountDataStore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/maps_account#unique_name MapsAccount#unique_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maps_account#unique_name MapsAccount#unique_name}.</summary>
         [JsiiProperty(name: "uniqueName", typeJson: "{\"primitive\":\"string\"}")]
         public string UniqueName
         {
@@ -17,7 +17,7 @@ namespace azurerm.MapsAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountId

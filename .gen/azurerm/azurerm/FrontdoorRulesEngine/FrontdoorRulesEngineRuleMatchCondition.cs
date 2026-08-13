@@ -9,7 +9,7 @@ namespace azurerm.FrontdoorRulesEngine
     [JsiiByValue(fqn: "azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleMatchCondition")]
     public class FrontdoorRulesEngineRuleMatchCondition : azurerm.FrontdoorRulesEngine.IFrontdoorRulesEngineRuleMatchCondition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_rules_engine#operator FrontdoorRulesEngine#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/frontdoor_rules_engine#operator FrontdoorRulesEngine#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -19,7 +19,7 @@ namespace azurerm.FrontdoorRulesEngine
 
         private object? _negateCondition;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_rules_engine#negate_condition FrontdoorRulesEngine#negate_condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/frontdoor_rules_engine#negate_condition FrontdoorRulesEngine#negate_condition}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace azurerm.FrontdoorRulesEngine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_rules_engine#selector FrontdoorRulesEngine#selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/frontdoor_rules_engine#selector FrontdoorRulesEngine#selector}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Selector
@@ -60,7 +60,7 @@ namespace azurerm.FrontdoorRulesEngine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_rules_engine#transform FrontdoorRulesEngine#transform}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/frontdoor_rules_engine#transform FrontdoorRulesEngine#transform}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transform", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Transform
@@ -69,7 +69,7 @@ namespace azurerm.FrontdoorRulesEngine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_rules_engine#value FrontdoorRulesEngine#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/frontdoor_rules_engine#value FrontdoorRulesEngine#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Value
@@ -78,7 +78,7 @@ namespace azurerm.FrontdoorRulesEngine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/frontdoor_rules_engine#variable FrontdoorRulesEngine#variable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/frontdoor_rules_engine#variable FrontdoorRulesEngine#variable}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "variable", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Variable

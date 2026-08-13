@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         /// <summary>The Azure DevOps Pipeline Service Connection ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#ado_pipeline_service_connection_id AzurermProvider#ado_pipeline_service_connection_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#ado_pipeline_service_connection_id AzurermProvider#ado_pipeline_service_connection_id}
         /// </remarks>
         [JsiiProperty(name: "adoPipelineServiceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azurerm.Provider
 
         /// <summary>Alias name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#alias AzurermProvider#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#alias AzurermProvider#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azurerm.Provider
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#auxiliary_tenant_ids AzurermProvider#auxiliary_tenant_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#auxiliary_tenant_ids AzurermProvider#auxiliary_tenant_ids}.</summary>
         [JsiiProperty(name: "auxiliaryTenantIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AuxiliaryTenantIds
@@ -48,7 +48,7 @@ namespace azurerm.Provider
 
         /// <summary>Base64 encoded PKCS#12 certificate bundle to use when authenticating as a Service Principal using a Client Certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_certificate AzurermProvider#client_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_certificate AzurermProvider#client_certificate}
         /// </remarks>
         [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace azurerm.Provider
 
         /// <summary>The password associated with the Client Certificate. For use when authenticating as a Service Principal using a Client Certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_certificate_password AzurermProvider#client_certificate_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_certificate_password AzurermProvider#client_certificate_password}
         /// </remarks>
         [JsiiProperty(name: "clientCertificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace azurerm.Provider
 
         /// <summary>The path to the Client Certificate associated with the Service Principal for use when authenticating as a Service Principal using a Client Certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_certificate_path AzurermProvider#client_certificate_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_certificate_path AzurermProvider#client_certificate_path}
         /// </remarks>
         [JsiiProperty(name: "clientCertificatePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace azurerm.Provider
 
         /// <summary>The Client ID which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_id AzurermProvider#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_id AzurermProvider#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace azurerm.Provider
 
         /// <summary>The path to a file containing the Client ID which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_id_file_path AzurermProvider#client_id_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_id_file_path AzurermProvider#client_id_file_path}
         /// </remarks>
         [JsiiProperty(name: "clientIdFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -118,7 +118,7 @@ namespace azurerm.Provider
 
         /// <summary>The Client Secret which should be used. For use When authenticating as a Service Principal using a Client Secret.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_secret AzurermProvider#client_secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_secret AzurermProvider#client_secret}
         /// </remarks>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// For use When authenticating as a Service Principal using a Client Secret.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_secret_file_path AzurermProvider#client_secret_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_secret_file_path AzurermProvider#client_secret_file_path}
         /// </remarks>
         [JsiiProperty(name: "clientSecretFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -148,7 +148,7 @@ namespace azurerm.Provider
 
         /// <summary>This will disable the x-ms-correlation-request-id header.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#disable_correlation_request_id AzurermProvider#disable_correlation_request_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#disable_correlation_request_id AzurermProvider#disable_correlation_request_id}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableCorrelationRequestId", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -163,7 +163,7 @@ namespace azurerm.Provider
 
         /// <summary>This will disable the Terraform Partner ID which is used if a custom `partner_id` isn't specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#disable_terraform_partner_id AzurermProvider#disable_terraform_partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#disable_terraform_partner_id AzurermProvider#disable_terraform_partner_id}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableTerraformPartnerId", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// Possible values are public, usgovernment, and china. Defaults to public. Not used and should not be specified when <c>metadata_host</c> is specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#environment AzurermProvider#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#environment AzurermProvider#environment}
         /// </remarks>
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -194,7 +194,7 @@ namespace azurerm.Provider
 
         /// <summary>features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#features AzurermProvider#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#features AzurermProvider#features}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeatures" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.provider.AzurermProviderFeatures\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -209,7 +209,7 @@ namespace azurerm.Provider
 
         /// <summary>The Hostname which should be used for the Azure Metadata Service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#metadata_host AzurermProvider#metadata_host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#metadata_host AzurermProvider#metadata_host}
         /// </remarks>
         [JsiiProperty(name: "metadataHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -225,7 +225,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// e.g. for Azure Container Apps.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#msi_api_version AzurermProvider#msi_api_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#msi_api_version AzurermProvider#msi_api_version}
         /// </remarks>
         [JsiiProperty(name: "msiApiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -239,7 +239,7 @@ namespace azurerm.Provider
 
         /// <summary>The path to a custom endpoint for Managed Service Identity - in most circumstances this should be detected automatically.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#msi_endpoint AzurermProvider#msi_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#msi_endpoint AzurermProvider#msi_endpoint}
         /// </remarks>
         [JsiiProperty(name: "msiEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -255,7 +255,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// For use when authenticating as a Service Principal using OpenID Connect.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_request_token AzurermProvider#oidc_request_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_request_token AzurermProvider#oidc_request_token}
         /// </remarks>
         [JsiiProperty(name: "oidcRequestToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -271,7 +271,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// For use when authenticating as a Service Principal using OpenID Connect.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_request_url AzurermProvider#oidc_request_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_request_url AzurermProvider#oidc_request_url}
         /// </remarks>
         [JsiiProperty(name: "oidcRequestUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -285,7 +285,7 @@ namespace azurerm.Provider
 
         /// <summary>The OIDC ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_token AzurermProvider#oidc_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_token AzurermProvider#oidc_token}
         /// </remarks>
         [JsiiProperty(name: "oidcToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -299,7 +299,7 @@ namespace azurerm.Provider
 
         /// <summary>The path to a file containing an OIDC ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_token_file_path AzurermProvider#oidc_token_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_token_file_path AzurermProvider#oidc_token_file_path}
         /// </remarks>
         [JsiiProperty(name: "oidcTokenFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -313,7 +313,7 @@ namespace azurerm.Provider
 
         /// <summary>A GUID/UUID that is registered with Microsoft to facilitate partner resource usage attribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#partner_id AzurermProvider#partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#partner_id AzurermProvider#partner_id}
         /// </remarks>
         [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -327,7 +327,7 @@ namespace azurerm.Provider
 
         /// <summary>The set of Resource Providers which should be automatically registered for the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#resource_provider_registrations AzurermProvider#resource_provider_registrations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#resource_provider_registrations AzurermProvider#resource_provider_registrations}
         /// </remarks>
         [JsiiProperty(name: "resourceProviderRegistrations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -341,7 +341,7 @@ namespace azurerm.Provider
 
         /// <summary>A list of Resource Providers to explicitly register for the subscription, in addition to those specified by the `resource_provider_registrations` property.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#resource_providers_to_register AzurermProvider#resource_providers_to_register}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#resource_providers_to_register AzurermProvider#resource_providers_to_register}
         /// </remarks>
         [JsiiProperty(name: "resourceProvidersToRegister", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -355,7 +355,7 @@ namespace azurerm.Provider
 
         /// <summary>Should the AzureRM Provider use Azure AD Authentication when accessing the Storage Data Plane APIs?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#storage_use_azuread AzurermProvider#storage_use_azuread}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#storage_use_azuread AzurermProvider#storage_use_azuread}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "storageUseAzuread", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -370,7 +370,7 @@ namespace azurerm.Provider
 
         /// <summary>The Subscription ID which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#subscription_id AzurermProvider#subscription_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#subscription_id AzurermProvider#subscription_id}
         /// </remarks>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -384,7 +384,7 @@ namespace azurerm.Provider
 
         /// <summary>The Tenant ID which should be used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#tenant_id AzurermProvider#tenant_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#tenant_id AzurermProvider#tenant_id}
         /// </remarks>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -398,7 +398,7 @@ namespace azurerm.Provider
 
         /// <summary>Allow Azure AKS Workload Identity to be used for Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_aks_workload_identity AzurermProvider#use_aks_workload_identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_aks_workload_identity AzurermProvider#use_aks_workload_identity}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useAksWorkloadIdentity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -413,7 +413,7 @@ namespace azurerm.Provider
 
         /// <summary>Allow Azure CLI to be used for Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_cli AzurermProvider#use_cli}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_cli AzurermProvider#use_cli}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useCli", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -428,7 +428,7 @@ namespace azurerm.Provider
 
         /// <summary>Allow Managed Service Identity to be used for Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_msi AzurermProvider#use_msi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_msi AzurermProvider#use_msi}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useMsi", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -443,7 +443,7 @@ namespace azurerm.Provider
 
         /// <summary>Allow OpenID Connect to be used for authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_oidc AzurermProvider#use_oidc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_oidc AzurermProvider#use_oidc}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useOidc", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -465,7 +465,7 @@ namespace azurerm.Provider
 
             /// <summary>The Azure DevOps Pipeline Service Connection ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#ado_pipeline_service_connection_id AzurermProvider#ado_pipeline_service_connection_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#ado_pipeline_service_connection_id AzurermProvider#ado_pipeline_service_connection_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "adoPipelineServiceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -476,7 +476,7 @@ namespace azurerm.Provider
 
             /// <summary>Alias name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#alias AzurermProvider#alias}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#alias AzurermProvider#alias}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -485,7 +485,7 @@ namespace azurerm.Provider
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#auxiliary_tenant_ids AzurermProvider#auxiliary_tenant_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#auxiliary_tenant_ids AzurermProvider#auxiliary_tenant_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "auxiliaryTenantIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AuxiliaryTenantIds
@@ -495,7 +495,7 @@ namespace azurerm.Provider
 
             /// <summary>Base64 encoded PKCS#12 certificate bundle to use when authenticating as a Service Principal using a Client Certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_certificate AzurermProvider#client_certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_certificate AzurermProvider#client_certificate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -506,7 +506,7 @@ namespace azurerm.Provider
 
             /// <summary>The password associated with the Client Certificate. For use when authenticating as a Service Principal using a Client Certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_certificate_password AzurermProvider#client_certificate_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_certificate_password AzurermProvider#client_certificate_password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -517,7 +517,7 @@ namespace azurerm.Provider
 
             /// <summary>The path to the Client Certificate associated with the Service Principal for use when authenticating as a Service Principal using a Client Certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_certificate_path AzurermProvider#client_certificate_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_certificate_path AzurermProvider#client_certificate_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificatePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -528,7 +528,7 @@ namespace azurerm.Provider
 
             /// <summary>The Client ID which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_id AzurermProvider#client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_id AzurermProvider#client_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -539,7 +539,7 @@ namespace azurerm.Provider
 
             /// <summary>The path to a file containing the Client ID which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_id_file_path AzurermProvider#client_id_file_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_id_file_path AzurermProvider#client_id_file_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientIdFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -550,7 +550,7 @@ namespace azurerm.Provider
 
             /// <summary>The Client Secret which should be used. For use When authenticating as a Service Principal using a Client Secret.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_secret AzurermProvider#client_secret}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_secret AzurermProvider#client_secret}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -563,7 +563,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// For use When authenticating as a Service Principal using a Client Secret.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#client_secret_file_path AzurermProvider#client_secret_file_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#client_secret_file_path AzurermProvider#client_secret_file_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientSecretFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -574,7 +574,7 @@ namespace azurerm.Provider
 
             /// <summary>This will disable the x-ms-correlation-request-id header.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#disable_correlation_request_id AzurermProvider#disable_correlation_request_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#disable_correlation_request_id AzurermProvider#disable_correlation_request_id}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -586,7 +586,7 @@ namespace azurerm.Provider
 
             /// <summary>This will disable the Terraform Partner ID which is used if a custom `partner_id` isn't specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#disable_terraform_partner_id AzurermProvider#disable_terraform_partner_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#disable_terraform_partner_id AzurermProvider#disable_terraform_partner_id}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -600,7 +600,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// Possible values are public, usgovernment, and china. Defaults to public. Not used and should not be specified when <c>metadata_host</c> is specified.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#environment AzurermProvider#environment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#environment AzurermProvider#environment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -611,7 +611,7 @@ namespace azurerm.Provider
 
             /// <summary>features block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#features AzurermProvider#features}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#features AzurermProvider#features}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Provider.IAzurermProviderFeatures" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -623,7 +623,7 @@ namespace azurerm.Provider
 
             /// <summary>The Hostname which should be used for the Azure Metadata Service.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#metadata_host AzurermProvider#metadata_host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#metadata_host AzurermProvider#metadata_host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadataHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -636,7 +636,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// e.g. for Azure Container Apps.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#msi_api_version AzurermProvider#msi_api_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#msi_api_version AzurermProvider#msi_api_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "msiApiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -647,7 +647,7 @@ namespace azurerm.Provider
 
             /// <summary>The path to a custom endpoint for Managed Service Identity - in most circumstances this should be detected automatically.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#msi_endpoint AzurermProvider#msi_endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#msi_endpoint AzurermProvider#msi_endpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "msiEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -660,7 +660,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// For use when authenticating as a Service Principal using OpenID Connect.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_request_token AzurermProvider#oidc_request_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_request_token AzurermProvider#oidc_request_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcRequestToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -673,7 +673,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// For use when authenticating as a Service Principal using OpenID Connect.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_request_url AzurermProvider#oidc_request_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_request_url AzurermProvider#oidc_request_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcRequestUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -684,7 +684,7 @@ namespace azurerm.Provider
 
             /// <summary>The OIDC ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_token AzurermProvider#oidc_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_token AzurermProvider#oidc_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -695,7 +695,7 @@ namespace azurerm.Provider
 
             /// <summary>The path to a file containing an OIDC ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#oidc_token_file_path AzurermProvider#oidc_token_file_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#oidc_token_file_path AzurermProvider#oidc_token_file_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcTokenFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -706,7 +706,7 @@ namespace azurerm.Provider
 
             /// <summary>A GUID/UUID that is registered with Microsoft to facilitate partner resource usage attribution.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#partner_id AzurermProvider#partner_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#partner_id AzurermProvider#partner_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -717,7 +717,7 @@ namespace azurerm.Provider
 
             /// <summary>The set of Resource Providers which should be automatically registered for the subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#resource_provider_registrations AzurermProvider#resource_provider_registrations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#resource_provider_registrations AzurermProvider#resource_provider_registrations}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceProviderRegistrations", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -728,7 +728,7 @@ namespace azurerm.Provider
 
             /// <summary>A list of Resource Providers to explicitly register for the subscription, in addition to those specified by the `resource_provider_registrations` property.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#resource_providers_to_register AzurermProvider#resource_providers_to_register}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#resource_providers_to_register AzurermProvider#resource_providers_to_register}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceProvidersToRegister", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -739,7 +739,7 @@ namespace azurerm.Provider
 
             /// <summary>Should the AzureRM Provider use Azure AD Authentication when accessing the Storage Data Plane APIs?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#storage_use_azuread AzurermProvider#storage_use_azuread}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#storage_use_azuread AzurermProvider#storage_use_azuread}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -751,7 +751,7 @@ namespace azurerm.Provider
 
             /// <summary>The Subscription ID which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#subscription_id AzurermProvider#subscription_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#subscription_id AzurermProvider#subscription_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -762,7 +762,7 @@ namespace azurerm.Provider
 
             /// <summary>The Tenant ID which should be used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#tenant_id AzurermProvider#tenant_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#tenant_id AzurermProvider#tenant_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -773,7 +773,7 @@ namespace azurerm.Provider
 
             /// <summary>Allow Azure AKS Workload Identity to be used for Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_aks_workload_identity AzurermProvider#use_aks_workload_identity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_aks_workload_identity AzurermProvider#use_aks_workload_identity}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -785,7 +785,7 @@ namespace azurerm.Provider
 
             /// <summary>Allow Azure CLI to be used for Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_cli AzurermProvider#use_cli}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_cli AzurermProvider#use_cli}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -797,7 +797,7 @@ namespace azurerm.Provider
 
             /// <summary>Allow Managed Service Identity to be used for Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_msi AzurermProvider#use_msi}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_msi AzurermProvider#use_msi}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -809,7 +809,7 @@ namespace azurerm.Provider
 
             /// <summary>Allow OpenID Connect to be used for authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs#use_oidc AzurermProvider#use_oidc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#use_oidc AzurermProvider#use_oidc}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

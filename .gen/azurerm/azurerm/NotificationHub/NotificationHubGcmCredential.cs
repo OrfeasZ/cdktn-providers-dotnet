@@ -9,7 +9,7 @@ namespace azurerm.NotificationHub
     [JsiiByValue(fqn: "azurerm.notificationHub.NotificationHubGcmCredential")]
     public class NotificationHubGcmCredential : azurerm.NotificationHub.INotificationHubGcmCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/notification_hub#api_key NotificationHub#api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/notification_hub#api_key NotificationHub#api_key}.</summary>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKey
         {

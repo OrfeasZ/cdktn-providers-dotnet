@@ -7,14 +7,14 @@ namespace azurerm.AutomationSchedule
     [JsiiInterface(nativeType: typeof(IAutomationScheduleMonthlyOccurrence), fullyQualifiedName: "azurerm.automationSchedule.AutomationScheduleMonthlyOccurrence")]
     public interface IAutomationScheduleMonthlyOccurrence
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_schedule#day AutomationSchedule#day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_schedule#day AutomationSchedule#day}.</summary>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
         string Day
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_schedule#occurrence AutomationSchedule#occurrence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_schedule#occurrence AutomationSchedule#occurrence}.</summary>
         [JsiiProperty(name: "occurrence", typeJson: "{\"primitive\":\"number\"}")]
         double Occurrence
         {
@@ -28,14 +28,14 @@ namespace azurerm.AutomationSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_schedule#day AutomationSchedule#day}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_schedule#day AutomationSchedule#day}.</summary>
             [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
             public string Day
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automation_schedule#occurrence AutomationSchedule#occurrence}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_schedule#occurrence AutomationSchedule#occurrence}.</summary>
             [JsiiProperty(name: "occurrence", typeJson: "{\"primitive\":\"number\"}")]
             public double Occurrence
             {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStorageSyncGroup
     [JsiiByValue(fqn: "azurerm.dataAzurermStorageSyncGroup.DataAzurermStorageSyncGroupTimeouts")]
     public class DataAzurermStorageSyncGroupTimeouts : azurerm.DataAzurermStorageSyncGroup.IDataAzurermStorageSyncGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/storage_sync_group#read DataAzurermStorageSyncGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_sync_group#read DataAzurermStorageSyncGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

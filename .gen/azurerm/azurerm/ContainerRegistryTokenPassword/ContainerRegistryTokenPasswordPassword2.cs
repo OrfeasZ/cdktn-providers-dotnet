@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistryTokenPassword
     [JsiiByValue(fqn: "azurerm.containerRegistryTokenPassword.ContainerRegistryTokenPasswordPassword2")]
     public class ContainerRegistryTokenPasswordPassword2 : azurerm.ContainerRegistryTokenPassword.IContainerRegistryTokenPasswordPassword2
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/container_registry_token_password#expiry ContainerRegistryTokenPassword#expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_registry_token_password#expiry ContainerRegistryTokenPassword#expiry}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Expiry

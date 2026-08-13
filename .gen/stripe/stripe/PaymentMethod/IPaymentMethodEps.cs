@@ -1,0 +1,47 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace stripe.PaymentMethod
+{
+    [JsiiInterface(nativeType: typeof(IPaymentMethodEps), fullyQualifiedName: "stripe.paymentMethod.PaymentMethodEps")]
+    public interface IPaymentMethodEps
+    {
+        /// <summary>The customer's bank.</summary>
+        /// <remarks>
+        /// Should be one of <c>arzte_und_apotheker_bank</c>, <c>austrian_anadi_bank_ag</c>, <c>bank_austria</c>, <c>bankhaus_carl_spangler</c>, <c>bankhaus_schelhammer_und_schattera_ag</c>, <c>bawag_psk_ag</c>, <c>bks_bank_ag</c>, <c>brull_kallmus_bank_ag</c>, <c>btv_vier_lander_bank</c>, <c>capital_bank_grawe_gruppe_ag</c>, <c>deutsche_bank_ag</c>, <c>dolomitenbank</c>, <c>easybank_ag</c>, <c>erste_bank_und_sparkassen</c>, <c>hypo_alpeadriabank_international_ag</c>, <c>hypo_noe_lb_fur_niederosterreich_u_wien</c>, <c>hypo_oberosterreich_salzburg_steiermark</c>, <c>hypo_tirol_bank_ag</c>, <c>hypo_vorarlberg_bank_ag</c>, <c>hypo_bank_burgenland_aktiengesellschaft</c>, <c>marchfelder_bank</c>, <c>oberbank_ag</c>, <c>raiffeisen_bankengruppe_osterreich</c>, <c>schoellerbank_ag</c>, <c>sparda_bank_wien</c>, <c>volksbank_gruppe</c>, <c>volkskreditbank_ag</c>, or <c>vr_bank_braunau</c>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#bank PaymentMethod#bank}
+        /// </remarks>
+        [JsiiProperty(name: "bank", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Bank
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IPaymentMethodEps), fullyQualifiedName: "stripe.paymentMethod.PaymentMethodEps")]
+        internal sealed class _Proxy : DeputyBase, stripe.PaymentMethod.IPaymentMethodEps
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>The customer's bank.</summary>
+            /// <remarks>
+            /// Should be one of <c>arzte_und_apotheker_bank</c>, <c>austrian_anadi_bank_ag</c>, <c>bank_austria</c>, <c>bankhaus_carl_spangler</c>, <c>bankhaus_schelhammer_und_schattera_ag</c>, <c>bawag_psk_ag</c>, <c>bks_bank_ag</c>, <c>brull_kallmus_bank_ag</c>, <c>btv_vier_lander_bank</c>, <c>capital_bank_grawe_gruppe_ag</c>, <c>deutsche_bank_ag</c>, <c>dolomitenbank</c>, <c>easybank_ag</c>, <c>erste_bank_und_sparkassen</c>, <c>hypo_alpeadriabank_international_ag</c>, <c>hypo_noe_lb_fur_niederosterreich_u_wien</c>, <c>hypo_oberosterreich_salzburg_steiermark</c>, <c>hypo_tirol_bank_ag</c>, <c>hypo_vorarlberg_bank_ag</c>, <c>hypo_bank_burgenland_aktiengesellschaft</c>, <c>marchfelder_bank</c>, <c>oberbank_ag</c>, <c>raiffeisen_bankengruppe_osterreich</c>, <c>schoellerbank_ag</c>, <c>sparda_bank_wien</c>, <c>volksbank_gruppe</c>, <c>volkskreditbank_ag</c>, or <c>vr_bank_braunau</c>.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#bank PaymentMethod#bank}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "bank", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Bank
+            {
+                get => GetInstanceProperty<string?>();
+            }
+        }
+    }
+}

@@ -7,7 +7,7 @@ namespace azurerm.BatchAccount
     [JsiiByValue(fqn: "azurerm.batchAccount.BatchAccountEncryption")]
     public class BatchAccountEncryption : azurerm.BatchAccount.IBatchAccountEncryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/batch_account#key_vault_key_id BatchAccount#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_account#key_vault_key_id BatchAccount#key_vault_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyVaultKeyId

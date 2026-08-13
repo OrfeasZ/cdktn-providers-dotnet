@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSpringCloudApp
     [JsiiByValue(fqn: "azurerm.dataAzurermSpringCloudApp.DataAzurermSpringCloudAppTimeouts")]
     public class DataAzurermSpringCloudAppTimeouts : azurerm.DataAzurermSpringCloudApp.IDataAzurermSpringCloudAppTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/spring_cloud_app#read DataAzurermSpringCloudApp#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/spring_cloud_app#read DataAzurermSpringCloudApp#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetworkGatewayNatRule
     [JsiiByValue(fqn: "azurerm.virtualNetworkGatewayNatRule.VirtualNetworkGatewayNatRuleInternalMapping")]
     public class VirtualNetworkGatewayNatRuleInternalMapping : azurerm.VirtualNetworkGatewayNatRule.IVirtualNetworkGatewayNatRuleInternalMapping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway_nat_rule#address_space VirtualNetworkGatewayNatRule#address_space}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway_nat_rule#address_space VirtualNetworkGatewayNatRule#address_space}.</summary>
         [JsiiProperty(name: "addressSpace", typeJson: "{\"primitive\":\"string\"}")]
         public string AddressSpace
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualNetworkGatewayNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/virtual_network_gateway_nat_rule#port_range VirtualNetworkGatewayNatRule#port_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network_gateway_nat_rule#port_range VirtualNetworkGatewayNatRule#port_range}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "portRange", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PortRange

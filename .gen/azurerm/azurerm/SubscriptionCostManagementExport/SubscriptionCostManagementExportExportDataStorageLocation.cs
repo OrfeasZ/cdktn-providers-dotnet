@@ -9,7 +9,7 @@ namespace azurerm.SubscriptionCostManagementExport
     [JsiiByValue(fqn: "azurerm.subscriptionCostManagementExport.SubscriptionCostManagementExportExportDataStorageLocation")]
     public class SubscriptionCostManagementExportExportDataStorageLocation : azurerm.SubscriptionCostManagementExport.ISubscriptionCostManagementExportExportDataStorageLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#container_id SubscriptionCostManagementExport#container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export#container_id SubscriptionCostManagementExport#container_id}.</summary>
         [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerId
         {
@@ -17,7 +17,7 @@ namespace azurerm.SubscriptionCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/subscription_cost_management_export#root_folder_path SubscriptionCostManagementExport#root_folder_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_export#root_folder_path SubscriptionCostManagementExport#root_folder_path}.</summary>
         [JsiiProperty(name: "rootFolderPath", typeJson: "{\"primitive\":\"string\"}")]
         public string RootFolderPath
         {

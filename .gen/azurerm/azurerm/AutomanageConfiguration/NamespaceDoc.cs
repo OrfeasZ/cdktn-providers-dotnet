@@ -5,7 +5,7 @@ namespace azurerm.AutomanageConfiguration
     /// <remarks>
     /// <h1><c>azurerm_automanage_configuration</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/automanage_configuration"><c>azurerm_automanage_configuration</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automanage_configuration"><c>azurerm_automanage_configuration</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

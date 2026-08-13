@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMssqlManagedInstance
     [JsiiInterface(nativeType: typeof(IDataAzurermMssqlManagedInstanceTimeouts), fullyQualifiedName: "azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstanceTimeouts")]
     public interface IDataAzurermMssqlManagedInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/mssql_managed_instance#read DataAzurermMssqlManagedInstance#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/mssql_managed_instance#read DataAzurermMssqlManagedInstance#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermMssqlManagedInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/data-sources/mssql_managed_instance#read DataAzurermMssqlManagedInstance#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/mssql_managed_instance#read DataAzurermMssqlManagedInstance#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,14 +7,14 @@ namespace azurerm.DataFactoryDatasetBinary
     [JsiiInterface(nativeType: typeof(IDataFactoryDatasetBinaryCompression), fullyQualifiedName: "azurerm.dataFactoryDatasetBinary.DataFactoryDatasetBinaryCompression")]
     public interface IDataFactoryDatasetBinaryCompression
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_binary#type DataFactoryDatasetBinary#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_binary#type DataFactoryDatasetBinary#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_binary#level DataFactoryDatasetBinary#level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_binary#level DataFactoryDatasetBinary#level}.</summary>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Level
@@ -32,14 +32,14 @@ namespace azurerm.DataFactoryDatasetBinary
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_binary#type DataFactoryDatasetBinary#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_binary#type DataFactoryDatasetBinary#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/data_factory_dataset_binary#level DataFactoryDatasetBinary#level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/data_factory_dataset_binary#level DataFactoryDatasetBinary#level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Level

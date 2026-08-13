@@ -9,7 +9,7 @@ namespace azurerm.DatadogMonitorTagRule
     [JsiiByValue(fqn: "azurerm.datadogMonitorTagRule.DatadogMonitorTagRuleLogFilter")]
     public class DatadogMonitorTagRuleLogFilter : azurerm.DatadogMonitorTagRule.IDatadogMonitorTagRuleLogFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/datadog_monitor_tag_rule#action DatadogMonitorTagRule#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/datadog_monitor_tag_rule#action DatadogMonitorTagRule#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -17,7 +17,7 @@ namespace azurerm.DatadogMonitorTagRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/datadog_monitor_tag_rule#name DatadogMonitorTagRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/datadog_monitor_tag_rule#name DatadogMonitorTagRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.DatadogMonitorTagRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/datadog_monitor_tag_rule#value DatadogMonitorTagRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/datadog_monitor_tag_rule#value DatadogMonitorTagRule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

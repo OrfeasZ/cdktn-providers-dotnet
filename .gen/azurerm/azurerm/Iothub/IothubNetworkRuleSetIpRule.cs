@@ -9,7 +9,7 @@ namespace azurerm.Iothub
     [JsiiByValue(fqn: "azurerm.iothub.IothubNetworkRuleSetIpRule")]
     public class IothubNetworkRuleSetIpRule : azurerm.Iothub.IIothubNetworkRuleSetIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub#ip_mask Iothub#ip_mask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub#ip_mask Iothub#ip_mask}.</summary>
         [JsiiProperty(name: "ipMask", typeJson: "{\"primitive\":\"string\"}")]
         public string IpMask
         {
@@ -17,7 +17,7 @@ namespace azurerm.Iothub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub#name Iothub#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub#name Iothub#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.Iothub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.0.1/docs/resources/iothub#action Iothub#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iothub#action Iothub#action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Action

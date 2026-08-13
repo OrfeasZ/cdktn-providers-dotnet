@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.Customer
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer stripe_customer}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer stripe_customer}.</summary>
     [JsiiClass(nativeType: typeof(stripe.Customer.Customer), fullyQualifiedName: "stripe.customer.Customer", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"stripe.customer.CustomerConfig\"}}]")]
     public class Customer : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer stripe_customer} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer stripe_customer} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Customer(Constructs.Construct scope, string id, stripe.Customer.ICustomerConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,40 +40,130 @@ namespace stripe.Customer
         /// <param name="importToId">The construct id used in the generated config for the Customer to import.</param>
         /// <param name="importFromId">The id of the existing Customer that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Customer to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Customer to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.2.3/docs/resources/customer#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Customer that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Customer to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Customer to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Customer that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Customer to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.Customer.Customer), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putAddress", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.customer.CustomerAddress\"}}]")]
-        public virtual void PutAddress(stripe.Customer.ICustomerAddress @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerAddress" />)[]</param>
+        [JsiiMethod(name: "putAddress", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerAddress\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAddress(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Customer.ICustomerAddress)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Customer.ICustomerAddress[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerAddress).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerAddress).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putCashBalance", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.customer.CustomerCashBalance\"}}]")]
-        public virtual void PutCashBalance(stripe.Customer.ICustomerCashBalance @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerCashBalance" />)[]</param>
+        [JsiiMethod(name: "putCashBalance", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerCashBalance\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCashBalance(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Customer.ICustomerCashBalance)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Customer.ICustomerCashBalance[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerCashBalance).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerCashBalance).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putInvoiceSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettings\"}}]")]
-        public virtual void PutInvoiceSettings(stripe.Customer.ICustomerInvoiceSettings @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerInvoiceSettings" />)[]</param>
+        [JsiiMethod(name: "putInvoiceSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettings\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutInvoiceSettings(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Customer.ICustomerInvoiceSettings)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Customer.ICustomerInvoiceSettings[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerInvoiceSettings).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerInvoiceSettings).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putShipping", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.customer.CustomerShipping\"}}]")]
-        public virtual void PutShipping(stripe.Customer.ICustomerShipping @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerShipping" />)[]</param>
+        [JsiiMethod(name: "putShipping", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerShipping\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutShipping(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Customer.ICustomerShipping)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Customer.ICustomerShipping[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerShipping).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerShipping).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putTax", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.customer.CustomerTax\"}}]")]
-        public virtual void PutTax(stripe.Customer.ICustomerTax @value)
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerTax" />)[]</param>
+        [JsiiMethod(name: "putTax", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerTax\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutTax(object @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Customer.ICustomerTax)}, new object[]{@value});
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Customer.ICustomerTax[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerTax).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Customer.ICustomerTax).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerTaxIdData" />)[]</param>
@@ -120,6 +210,12 @@ namespace stripe.Customer
 
         [JsiiMethod(name: "resetCashBalance")]
         public virtual void ResetCashBalance()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDefaultSource")]
+        public virtual void ResetDefaultSource()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -196,6 +292,12 @@ namespace stripe.Customer
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSource")]
+        public virtual void ResetSource()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTax")]
         public virtual void ResetTax()
         {
@@ -220,6 +322,12 @@ namespace stripe.Customer
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetValidate")]
+        public virtual void ResetValidate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -239,16 +347,22 @@ namespace stripe.Customer
         }
         = GetStaticProperty<string>(typeof(stripe.Customer.Customer))!;
 
-        [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.customer.CustomerAddressOutputReference\"}")]
-        public virtual stripe.Customer.CustomerAddressOutputReference Address
+        [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.customer.CustomerAddressList\"}")]
+        public virtual stripe.Customer.CustomerAddressList Address
         {
-            get => GetInstanceProperty<stripe.Customer.CustomerAddressOutputReference>()!;
+            get => GetInstanceProperty<stripe.Customer.CustomerAddressList>()!;
         }
 
-        [JsiiProperty(name: "cashBalance", typeJson: "{\"fqn\":\"stripe.customer.CustomerCashBalanceOutputReference\"}")]
-        public virtual stripe.Customer.CustomerCashBalanceOutputReference CashBalance
+        [JsiiProperty(name: "cashBalance", typeJson: "{\"fqn\":\"stripe.customer.CustomerCashBalanceList\"}")]
+        public virtual stripe.Customer.CustomerCashBalanceList CashBalance
         {
-            get => GetInstanceProperty<stripe.Customer.CustomerCashBalanceOutputReference>()!;
+            get => GetInstanceProperty<stripe.Customer.CustomerCashBalanceList>()!;
+        }
+
+        [JsiiProperty(name: "created", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Created
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
@@ -269,28 +383,52 @@ namespace stripe.Customer
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "discount", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Discount
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "invoiceSettings", typeJson: "{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsOutputReference\"}")]
-        public virtual stripe.Customer.CustomerInvoiceSettingsOutputReference InvoiceSettings
+        [JsiiProperty(name: "invoiceCreditBalance", typeJson: "{\"fqn\":\"cdktn.NumberMap\"}")]
+        public virtual Io.Cdktn.NumberMap InvoiceCreditBalance
         {
-            get => GetInstanceProperty<stripe.Customer.CustomerInvoiceSettingsOutputReference>()!;
+            get => GetInstanceProperty<Io.Cdktn.NumberMap>()!;
         }
 
-        [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.customer.CustomerShippingOutputReference\"}")]
-        public virtual stripe.Customer.CustomerShippingOutputReference Shipping
+        [JsiiProperty(name: "invoiceSettings", typeJson: "{\"fqn\":\"stripe.customer.CustomerInvoiceSettingsList\"}")]
+        public virtual stripe.Customer.CustomerInvoiceSettingsList InvoiceSettings
         {
-            get => GetInstanceProperty<stripe.Customer.CustomerShippingOutputReference>()!;
+            get => GetInstanceProperty<stripe.Customer.CustomerInvoiceSettingsList>()!;
         }
 
-        [JsiiProperty(name: "tax", typeJson: "{\"fqn\":\"stripe.customer.CustomerTaxOutputReference\"}")]
-        public virtual stripe.Customer.CustomerTaxOutputReference Tax
+        [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Livemode
         {
-            get => GetInstanceProperty<stripe.Customer.CustomerTaxOutputReference>()!;
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Object
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.customer.CustomerShippingList\"}")]
+        public virtual stripe.Customer.CustomerShippingList Shipping
+        {
+            get => GetInstanceProperty<stripe.Customer.CustomerShippingList>()!;
+        }
+
+        [JsiiProperty(name: "tax", typeJson: "{\"fqn\":\"stripe.customer.CustomerTaxList\"}")]
+        public virtual stripe.Customer.CustomerTaxList Tax
+        {
+            get => GetInstanceProperty<stripe.Customer.CustomerTaxList>()!;
         }
 
         [JsiiProperty(name: "taxIdData", typeJson: "{\"fqn\":\"stripe.customer.CustomerTaxIdDataList\"}")]
@@ -299,11 +437,14 @@ namespace stripe.Customer
             get => GetInstanceProperty<stripe.Customer.CustomerTaxIdDataList>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerAddress" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "addressInput", typeJson: "{\"fqn\":\"stripe.customer.CustomerAddress\"}", isOptional: true)]
-        public virtual stripe.Customer.ICustomerAddress? AddressInput
+        [JsiiProperty(name: "addressInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerAddress\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AddressInput
         {
-            get => GetInstanceProperty<stripe.Customer.ICustomerAddress?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -320,11 +461,21 @@ namespace stripe.Customer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerCashBalance" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "cashBalanceInput", typeJson: "{\"fqn\":\"stripe.customer.CustomerCashBalance\"}", isOptional: true)]
-        public virtual stripe.Customer.ICustomerCashBalance? CashBalanceInput
+        [JsiiProperty(name: "cashBalanceInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerCashBalance\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CashBalanceInput
         {
-            get => GetInstanceProperty<stripe.Customer.ICustomerCashBalance?>();
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "defaultSourceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DefaultSourceInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -355,11 +506,14 @@ namespace stripe.Customer
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerInvoiceSettings" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "invoiceSettingsInput", typeJson: "{\"fqn\":\"stripe.customer.CustomerInvoiceSettings\"}", isOptional: true)]
-        public virtual stripe.Customer.ICustomerInvoiceSettings? InvoiceSettingsInput
+        [JsiiProperty(name: "invoiceSettingsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerInvoiceSettings\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? InvoiceSettingsInput
         {
-            get => GetInstanceProperty<stripe.Customer.ICustomerInvoiceSettings?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -404,11 +558,21 @@ namespace stripe.Customer
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerShipping" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "shippingInput", typeJson: "{\"fqn\":\"stripe.customer.CustomerShipping\"}", isOptional: true)]
-        public virtual stripe.Customer.ICustomerShipping? ShippingInput
+        [JsiiProperty(name: "shippingInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerShipping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ShippingInput
         {
-            get => GetInstanceProperty<stripe.Customer.ICustomerShipping?>();
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sourceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SourceInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -428,11 +592,14 @@ namespace stripe.Customer
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Customer.ICustomerTax" />)[]</para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "taxInput", typeJson: "{\"fqn\":\"stripe.customer.CustomerTax\"}", isOptional: true)]
-        public virtual stripe.Customer.ICustomerTax? TaxInput
+        [JsiiProperty(name: "taxInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.customer.CustomerTax\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? TaxInput
         {
-            get => GetInstanceProperty<stripe.Customer.ICustomerTax?>();
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -440,6 +607,16 @@ namespace stripe.Customer
         public virtual string? TestClockInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "validateInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ValidateInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "balance", typeJson: "{\"primitive\":\"number\"}")]
@@ -451,6 +628,13 @@ namespace stripe.Customer
 
         [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string BusinessName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "defaultSource", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DefaultSource
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -526,6 +710,13 @@ namespace stripe.Customer
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Source
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "taxExempt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TaxExempt
         {
@@ -538,6 +729,36 @@ namespace stripe.Customer
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "validate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object Validate
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }
