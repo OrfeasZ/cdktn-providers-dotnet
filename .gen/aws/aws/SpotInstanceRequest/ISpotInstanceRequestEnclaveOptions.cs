@@ -7,7 +7,7 @@ namespace aws.SpotInstanceRequest
     [JsiiInterface(nativeType: typeof(ISpotInstanceRequestEnclaveOptions), fullyQualifiedName: "aws.spotInstanceRequest.SpotInstanceRequestEnclaveOptions")]
     public interface ISpotInstanceRequestEnclaveOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#enabled SpotInstanceRequest#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#enabled SpotInstanceRequest#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace aws.SpotInstanceRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#enabled SpotInstanceRequest#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#enabled SpotInstanceRequest#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

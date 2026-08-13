@@ -9,7 +9,7 @@ namespace aws.PaymentcryptographyKey
     [JsiiByValue(fqn: "aws.paymentcryptographyKey.PaymentcryptographyKeyKeyAttributes")]
     public class PaymentcryptographyKeyKeyAttributes : aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/paymentcryptography_key#key_algorithm PaymentcryptographyKey#key_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/paymentcryptography_key#key_algorithm PaymentcryptographyKey#key_algorithm}.</summary>
         [JsiiProperty(name: "keyAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyAlgorithm
         {
@@ -17,7 +17,7 @@ namespace aws.PaymentcryptographyKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/paymentcryptography_key#key_class PaymentcryptographyKey#key_class}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/paymentcryptography_key#key_class PaymentcryptographyKey#key_class}.</summary>
         [JsiiProperty(name: "keyClass", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyClass
         {
@@ -25,7 +25,7 @@ namespace aws.PaymentcryptographyKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/paymentcryptography_key#key_usage PaymentcryptographyKey#key_usage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/paymentcryptography_key#key_usage PaymentcryptographyKey#key_usage}.</summary>
         [JsiiProperty(name: "keyUsage", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyUsage
         {
@@ -37,7 +37,7 @@ namespace aws.PaymentcryptographyKey
 
         /// <summary>key_modes_of_use block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/paymentcryptography_key#key_modes_of_use PaymentcryptographyKey#key_modes_of_use}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PaymentcryptographyKey.IPaymentcryptographyKeyKeyAttributesKeyModesOfUse" />)[]</para>
         /// </remarks>
         [JsiiOptional]

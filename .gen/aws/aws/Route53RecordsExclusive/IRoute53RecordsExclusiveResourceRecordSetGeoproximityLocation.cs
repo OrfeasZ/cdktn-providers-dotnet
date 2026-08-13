@@ -7,7 +7,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiInterface(nativeType: typeof(IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocation), fullyQualifiedName: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeoproximityLocation")]
     public interface IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#aws_region Route53RecordsExclusive#aws_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#aws_region Route53RecordsExclusive#aws_region}.</summary>
         [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AwsRegion
@@ -18,7 +18,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#bias Route53RecordsExclusive#bias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#bias Route53RecordsExclusive#bias}.</summary>
         [JsiiProperty(name: "bias", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Bias
@@ -31,7 +31,7 @@ namespace aws.Route53RecordsExclusive
 
         /// <summary>coordinates block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#coordinates Route53RecordsExclusive#coordinates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#coordinates Route53RecordsExclusive#coordinates}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordinates" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "coordinates", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordinates\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#local_zone_group Route53RecordsExclusive#local_zone_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#local_zone_group Route53RecordsExclusive#local_zone_group}.</summary>
         [JsiiProperty(name: "localZoneGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LocalZoneGroup
@@ -62,7 +62,7 @@ namespace aws.Route53RecordsExclusive
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#aws_region Route53RecordsExclusive#aws_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#aws_region Route53RecordsExclusive#aws_region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AwsRegion
@@ -70,7 +70,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#bias Route53RecordsExclusive#bias}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#bias Route53RecordsExclusive#bias}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bias", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Bias
@@ -80,7 +80,7 @@ namespace aws.Route53RecordsExclusive
 
             /// <summary>coordinates block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#coordinates Route53RecordsExclusive#coordinates}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#coordinates Route53RecordsExclusive#coordinates}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocationCoordinates" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -90,7 +90,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#local_zone_group Route53RecordsExclusive#local_zone_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#local_zone_group Route53RecordsExclusive#local_zone_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "localZoneGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LocalZoneGroup

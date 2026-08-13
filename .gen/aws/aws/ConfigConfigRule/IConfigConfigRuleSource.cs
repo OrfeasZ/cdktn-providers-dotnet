@@ -7,7 +7,7 @@ namespace aws.ConfigConfigRule
     [JsiiInterface(nativeType: typeof(IConfigConfigRuleSource), fullyQualifiedName: "aws.configConfigRule.ConfigConfigRuleSource")]
     public interface IConfigConfigRuleSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#owner ConfigConfigRule#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#owner ConfigConfigRule#owner}.</summary>
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}")]
         string Owner
         {
@@ -16,7 +16,7 @@ namespace aws.ConfigConfigRule
 
         /// <summary>custom_policy_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#custom_policy_details ConfigConfigRule#custom_policy_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#custom_policy_details ConfigConfigRule#custom_policy_details}
         /// </remarks>
         [JsiiProperty(name: "customPolicyDetails", typeJson: "{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.ConfigConfigRule
 
         /// <summary>source_detail block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#source_detail ConfigConfigRule#source_detail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#source_detail ConfigConfigRule#source_detail}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigRule.IConfigConfigRuleSourceSourceDetail" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sourceDetail", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleSourceSourceDetail\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace aws.ConfigConfigRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#source_identifier ConfigConfigRule#source_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#source_identifier ConfigConfigRule#source_identifier}.</summary>
         [JsiiProperty(name: "sourceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceIdentifier
@@ -61,7 +61,7 @@ namespace aws.ConfigConfigRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#owner ConfigConfigRule#owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#owner ConfigConfigRule#owner}.</summary>
             [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}")]
             public string Owner
             {
@@ -70,7 +70,7 @@ namespace aws.ConfigConfigRule
 
             /// <summary>custom_policy_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#custom_policy_details ConfigConfigRule#custom_policy_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#custom_policy_details ConfigConfigRule#custom_policy_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customPolicyDetails", typeJson: "{\"fqn\":\"aws.configConfigRule.ConfigConfigRuleSourceCustomPolicyDetails\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace aws.ConfigConfigRule
 
             /// <summary>source_detail block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#source_detail ConfigConfigRule#source_detail}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#source_detail ConfigConfigRule#source_detail}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConfigRule.IConfigConfigRuleSourceSourceDetail" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -91,7 +91,7 @@ namespace aws.ConfigConfigRule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/config_config_rule#source_identifier ConfigConfigRule#source_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/config_config_rule#source_identifier ConfigConfigRule#source_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceIdentifier

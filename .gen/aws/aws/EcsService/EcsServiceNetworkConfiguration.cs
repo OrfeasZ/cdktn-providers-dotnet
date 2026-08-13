@@ -9,7 +9,7 @@ namespace aws.EcsService
     [JsiiByValue(fqn: "aws.ecsService.EcsServiceNetworkConfiguration")]
     public class EcsServiceNetworkConfiguration : aws.EcsService.IEcsServiceNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ecs_service#subnets EcsService#subnets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#subnets EcsService#subnets}.</summary>
         [JsiiProperty(name: "subnets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Subnets
         {
@@ -19,7 +19,7 @@ namespace aws.EcsService
 
         private object? _assignPublicIp;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ecs_service#assign_public_ip EcsService#assign_public_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#assign_public_ip EcsService#assign_public_ip}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace aws.EcsService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ecs_service#security_groups EcsService#security_groups}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#security_groups EcsService#security_groups}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroups", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SecurityGroups

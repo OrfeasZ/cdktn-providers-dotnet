@@ -9,7 +9,7 @@ namespace aws.AthenaWorkgroup
     [JsiiByValue(fqn: "aws.athenaWorkgroup.AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration")]
     public class AthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration : aws.AthenaWorkgroup.IAthenaWorkgroupConfigurationQueryResultsS3AccessGrantsConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/athena_workgroup#authentication_type AthenaWorkgroup#authentication_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/athena_workgroup#authentication_type AthenaWorkgroup#authentication_type}.</summary>
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthenticationType
         {
@@ -19,7 +19,7 @@ namespace aws.AthenaWorkgroup
 
         private object _enableS3AccessGrants;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/athena_workgroup#enable_s3_access_grants AthenaWorkgroup#enable_s3_access_grants}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/athena_workgroup#enable_s3_access_grants AthenaWorkgroup#enable_s3_access_grants}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -52,7 +52,7 @@ namespace aws.AthenaWorkgroup
 
         private object? _createUserLevelPrefix;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/athena_workgroup#create_user_level_prefix AthenaWorkgroup#create_user_level_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/athena_workgroup#create_user_level_prefix AthenaWorkgroup#create_user_level_prefix}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

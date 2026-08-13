@@ -5,7 +5,7 @@ namespace aws.CloudwatchDashboard
     /// <remarks>
     /// <h1><c>aws_cloudwatch_dashboard</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cloudwatch_dashboard"><c>aws_cloudwatch_dashboard</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudwatch_dashboard"><c>aws_cloudwatch_dashboard</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

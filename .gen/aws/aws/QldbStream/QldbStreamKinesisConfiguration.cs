@@ -9,7 +9,7 @@ namespace aws.QldbStream
     [JsiiByValue(fqn: "aws.qldbStream.QldbStreamKinesisConfiguration")]
     public class QldbStreamKinesisConfiguration : aws.QldbStream.IQldbStreamKinesisConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/qldb_stream#stream_arn QldbStream#stream_arn}.</summary>
         [JsiiProperty(name: "streamArn", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamArn
         {
@@ -19,7 +19,7 @@ namespace aws.QldbStream
 
         private object? _aggregationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/qldb_stream#aggregation_enabled QldbStream#aggregation_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

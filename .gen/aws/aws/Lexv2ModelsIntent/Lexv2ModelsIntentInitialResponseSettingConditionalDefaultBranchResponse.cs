@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsIntent
     {
         private object? _allowInterrupt;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lexv2models_intent#allow_interrupt Lexv2ModelsIntent#allow_interrupt}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lexv2models_intent#allow_interrupt Lexv2ModelsIntent#allow_interrupt}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>message_group block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lexv2models_intent#message_group Lexv2ModelsIntent#message_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lexv2models_intent#message_group Lexv2ModelsIntent#message_group}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentInitialResponseSettingConditionalDefaultBranchResponseMessageGroup" />)[]</para>
         /// </remarks>
         [JsiiOptional]

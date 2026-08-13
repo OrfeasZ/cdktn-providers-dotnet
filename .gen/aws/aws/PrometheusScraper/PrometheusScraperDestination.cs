@@ -11,7 +11,7 @@ namespace aws.PrometheusScraper
 
         /// <summary>amp block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/prometheus_scraper#amp PrometheusScraper#amp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper#amp PrometheusScraper#amp}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationAmp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.PrometheusScraper
 
         /// <summary>cloudwatch block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/prometheus_scraper#cloudwatch PrometheusScraper#cloudwatch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper#cloudwatch PrometheusScraper#cloudwatch}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperDestinationCloudwatch" />)[]</para>
         /// </remarks>
         [JsiiOptional]

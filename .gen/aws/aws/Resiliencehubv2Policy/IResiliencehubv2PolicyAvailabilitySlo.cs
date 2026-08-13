@@ -7,7 +7,7 @@ namespace aws.Resiliencehubv2Policy
     [JsiiInterface(nativeType: typeof(IResiliencehubv2PolicyAvailabilitySlo), fullyQualifiedName: "aws.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo")]
     public interface IResiliencehubv2PolicyAvailabilitySlo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"number\"}")]
         double Target
         {
@@ -21,7 +21,7 @@ namespace aws.Resiliencehubv2Policy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}.</summary>
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"number\"}")]
             public double Target
             {

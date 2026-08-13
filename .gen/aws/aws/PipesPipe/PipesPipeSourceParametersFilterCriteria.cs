@@ -11,7 +11,7 @@ namespace aws.PipesPipe
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/pipes_pipe#filter PipesPipe#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pipes_pipe#filter PipesPipe#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PipesPipe.IPipesPipeSourceParametersFilterCriteriaFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]

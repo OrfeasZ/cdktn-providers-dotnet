@@ -5,7 +5,7 @@ namespace aws.AthenaWorkgroup
     /// <remarks>
     /// <h1><c>aws_athena_workgroup</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/athena_workgroup"><c>aws_athena_workgroup</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/athena_workgroup"><c>aws_athena_workgroup</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -13,7 +13,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>insert_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/wafv2_web_acl#insert_header Wafv2WebAcl#insert_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl#insert_header Wafv2WebAcl#insert_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeader" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "insertHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionCaptchaCustomRequestHandlingInsertHeader\"},\"kind\":\"array\"}}]}}")]

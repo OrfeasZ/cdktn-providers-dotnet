@@ -5,7 +5,7 @@ namespace aws.CloudwatchLogGroup
     /// <remarks>
     /// <h1><c>aws_cloudwatch_log_group</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cloudwatch_log_group"><c>aws_cloudwatch_log_group</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudwatch_log_group"><c>aws_cloudwatch_log_group</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

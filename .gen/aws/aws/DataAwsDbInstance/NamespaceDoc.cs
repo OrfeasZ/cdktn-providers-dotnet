@@ -5,7 +5,7 @@ namespace aws.DataAwsDbInstance
     /// <remarks>
     /// <h1><c>data_aws_db_instance</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/data-sources/db_instance"><c>data_aws_db_instance</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/db_instance"><c>data_aws_db_instance</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

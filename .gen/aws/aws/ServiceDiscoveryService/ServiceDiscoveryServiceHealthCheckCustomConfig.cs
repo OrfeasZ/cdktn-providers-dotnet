@@ -7,7 +7,7 @@ namespace aws.ServiceDiscoveryService
     [JsiiByValue(fqn: "aws.serviceDiscoveryService.ServiceDiscoveryServiceHealthCheckCustomConfig")]
     public class ServiceDiscoveryServiceHealthCheckCustomConfig : aws.ServiceDiscoveryService.IServiceDiscoveryServiceHealthCheckCustomConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/service_discovery_service#failure_threshold ServiceDiscoveryService#failure_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failureThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailureThreshold

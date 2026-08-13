@@ -5,7 +5,7 @@ namespace aws.WafregionalRateBasedRule
     /// <remarks>
     /// <h1><c>aws_wafregional_rate_based_rule</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/wafregional_rate_based_rule"><c>aws_wafregional_rate_based_rule</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafregional_rate_based_rule"><c>aws_wafregional_rate_based_rule</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

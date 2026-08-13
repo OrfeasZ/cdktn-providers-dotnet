@@ -7,7 +7,7 @@ namespace aws.BedrockagentAgentActionGroup
     [JsiiInterface(nativeType: typeof(IBedrockagentAgentActionGroupApiSchema), fullyQualifiedName: "aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupApiSchema")]
     public interface IBedrockagentAgentActionGroupApiSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent_action_group#payload BedrockagentAgentActionGroup#payload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent_action_group#payload BedrockagentAgentActionGroup#payload}.</summary>
         [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Payload
@@ -20,7 +20,7 @@ namespace aws.BedrockagentAgentActionGroup
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent_action_group#s3 BedrockagentAgentActionGroup#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent_action_group#s3 BedrockagentAgentActionGroup#s3}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupApiSchemaS3" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "s3", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentAgentActionGroup.BedrockagentAgentActionGroupApiSchemaS3\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace aws.BedrockagentAgentActionGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent_action_group#payload BedrockagentAgentActionGroup#payload}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent_action_group#payload BedrockagentAgentActionGroup#payload}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Payload
@@ -50,7 +50,7 @@ namespace aws.BedrockagentAgentActionGroup
 
             /// <summary>s3 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent_action_group#s3 BedrockagentAgentActionGroup#s3}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent_action_group#s3 BedrockagentAgentActionGroup#s3}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgentActionGroup.IBedrockagentAgentActionGroupApiSchemaS3" />)[]</para>
             /// </remarks>
             [JsiiOptional]

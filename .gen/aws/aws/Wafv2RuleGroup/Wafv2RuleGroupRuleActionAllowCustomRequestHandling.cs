@@ -13,7 +13,7 @@ namespace aws.Wafv2RuleGroup
 
         /// <summary>insert_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/wafv2_rule_group#insert_header Wafv2RuleGroup#insert_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_rule_group#insert_header Wafv2RuleGroup#insert_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionAllowCustomRequestHandlingInsertHeader" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "insertHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionAllowCustomRequestHandlingInsertHeader\"},\"kind\":\"array\"}}]}}")]

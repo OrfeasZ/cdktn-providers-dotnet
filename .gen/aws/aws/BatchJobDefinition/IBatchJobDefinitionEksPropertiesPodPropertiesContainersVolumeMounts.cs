@@ -7,21 +7,21 @@ namespace aws.BatchJobDefinition
     [JsiiInterface(nativeType: typeof(IBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts), fullyQualifiedName: "aws.batchJobDefinition.BatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts")]
     public interface IBatchJobDefinitionEksPropertiesPodPropertiesContainersVolumeMounts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}.</summary>
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
         string MountPath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace aws.BatchJobDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_job_definition#mount_path BatchJobDefinition#mount_path}.</summary>
             [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
             public string MountPath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_job_definition#name BatchJobDefinition#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_job_definition#read_only BatchJobDefinition#read_only}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

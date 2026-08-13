@@ -7,14 +7,14 @@ namespace aws.BedrockagentcoreGatewayTarget
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntime), fullyQualifiedName: "aws.bedrockagentcoreGatewayTarget.BedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntime")]
     public interface IBedrockagentcoreGatewayTargetTargetConfigurationHttpAgentcoreRuntime
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagentcore_gateway_target#arn BedrockagentcoreGatewayTarget#arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_target#arn BedrockagentcoreGatewayTarget#arn}.</summary>
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         string Arn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagentcore_gateway_target#qualifier BedrockagentcoreGatewayTarget#qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_target#qualifier BedrockagentcoreGatewayTarget#qualifier}.</summary>
         [JsiiProperty(name: "qualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Qualifier
@@ -32,14 +32,14 @@ namespace aws.BedrockagentcoreGatewayTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagentcore_gateway_target#arn BedrockagentcoreGatewayTarget#arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_target#arn BedrockagentcoreGatewayTarget#arn}.</summary>
             [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
             public string Arn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagentcore_gateway_target#qualifier BedrockagentcoreGatewayTarget#qualifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_target#qualifier BedrockagentcoreGatewayTarget#qualifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "qualifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Qualifier

@@ -7,7 +7,7 @@ namespace aws.EcsDaemonTaskDefinition
     [JsiiInterface(nativeType: typeof(IEcsDaemonTaskDefinitionContainerDefinitionRepositoryCredentials), fullyQualifiedName: "aws.ecsDaemonTaskDefinition.EcsDaemonTaskDefinitionContainerDefinitionRepositoryCredentials")]
     public interface IEcsDaemonTaskDefinitionContainerDefinitionRepositoryCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ecs_daemon_task_definition#credentials_parameter EcsDaemonTaskDefinition#credentials_parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_daemon_task_definition#credentials_parameter EcsDaemonTaskDefinition#credentials_parameter}.</summary>
         [JsiiProperty(name: "credentialsParameter", typeJson: "{\"primitive\":\"string\"}")]
         string CredentialsParameter
         {
@@ -21,7 +21,7 @@ namespace aws.EcsDaemonTaskDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/ecs_daemon_task_definition#credentials_parameter EcsDaemonTaskDefinition#credentials_parameter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_daemon_task_definition#credentials_parameter EcsDaemonTaskDefinition#credentials_parameter}.</summary>
             [JsiiProperty(name: "credentialsParameter", typeJson: "{\"primitive\":\"string\"}")]
             public string CredentialsParameter
             {

@@ -7,7 +7,7 @@ namespace aws.CognitoUserPool
     [JsiiInterface(nativeType: typeof(ICognitoUserPoolSoftwareTokenMfaConfiguration), fullyQualifiedName: "aws.cognitoUserPool.CognitoUserPoolSoftwareTokenMfaConfiguration")]
     public interface ICognitoUserPoolSoftwareTokenMfaConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#enabled CognitoUserPool#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#enabled CognitoUserPool#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.CognitoUserPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#enabled CognitoUserPool#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#enabled CognitoUserPool#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

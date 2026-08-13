@@ -9,7 +9,7 @@ namespace aws.EksCluster
     {
         /// <summary>scoring_strategy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#scoring_strategy EksCluster#scoring_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/eks_cluster#scoring_strategy EksCluster#scoring_strategy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scoringStrategy", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeSchedulerConfigNodeResourcesFitScoringStrategy\"}", isOptional: true)]

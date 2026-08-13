@@ -9,7 +9,7 @@ namespace aws.AppsyncApi
     [JsiiByValue(fqn: "aws.appsyncApi.AppsyncApiEventConfigAuthProvider")]
     public class AppsyncApiEventConfigAuthProvider : aws.AppsyncApi.IAppsyncApiEventConfigAuthProvider
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#auth_type AppsyncApi#auth_type}.</summary>
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthType
         {
@@ -21,7 +21,7 @@ namespace aws.AppsyncApi
 
         /// <summary>cognito_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#cognito_config AppsyncApi#cognito_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderCognitoConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace aws.AppsyncApi
 
         /// <summary>lambda_authorizer_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#lambda_authorizer_config AppsyncApi#lambda_authorizer_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderLambdaAuthorizerConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -91,7 +91,7 @@ namespace aws.AppsyncApi
 
         /// <summary>openid_connect_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_api#openid_connect_config AppsyncApi#openid_connect_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#openid_connect_config AppsyncApi#openid_connect_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProviderOpenidConnectConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -11,7 +11,7 @@ namespace aws.IotTopicRule
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#enabled IotTopicRule#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#enabled IotTopicRule#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace aws.IotTopicRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#name IotTopicRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#name IotTopicRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -50,7 +50,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#sql IotTopicRule#sql}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#sql IotTopicRule#sql}.</summary>
         [JsiiProperty(name: "sql", typeJson: "{\"primitive\":\"string\"}")]
         public string Sql
         {
@@ -58,7 +58,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#sql_version IotTopicRule#sql_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#sql_version IotTopicRule#sql_version}.</summary>
         [JsiiProperty(name: "sqlVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string SqlVersion
         {
@@ -70,7 +70,7 @@ namespace aws.IotTopicRule
 
         /// <summary>cloudwatch_alarm block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#cloudwatch_alarm IotTopicRule#cloudwatch_alarm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#cloudwatch_alarm IotTopicRule#cloudwatch_alarm}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchAlarm" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -105,7 +105,7 @@ namespace aws.IotTopicRule
 
         /// <summary>cloudwatch_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#cloudwatch_logs IotTopicRule#cloudwatch_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#cloudwatch_logs IotTopicRule#cloudwatch_logs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchLogs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -140,7 +140,7 @@ namespace aws.IotTopicRule
 
         /// <summary>cloudwatch_metric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#cloudwatch_metric IotTopicRule#cloudwatch_metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#cloudwatch_metric IotTopicRule#cloudwatch_metric}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleCloudwatchMetric" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -171,7 +171,7 @@ namespace aws.IotTopicRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#description IotTopicRule#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#description IotTopicRule#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -184,7 +184,7 @@ namespace aws.IotTopicRule
 
         /// <summary>dynamodb block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#dynamodb IotTopicRule#dynamodb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#dynamodb IotTopicRule#dynamodb}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodb" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -219,7 +219,7 @@ namespace aws.IotTopicRule
 
         /// <summary>dynamodbv2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#dynamodbv2 IotTopicRule#dynamodbv2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#dynamodbv2 IotTopicRule#dynamodbv2}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleDynamodbv2" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -254,7 +254,7 @@ namespace aws.IotTopicRule
 
         /// <summary>elasticsearch block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#elasticsearch IotTopicRule#elasticsearch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#elasticsearch IotTopicRule#elasticsearch}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleElasticsearch" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -287,7 +287,7 @@ namespace aws.IotTopicRule
 
         /// <summary>error_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#error_action IotTopicRule#error_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#error_action IotTopicRule#error_action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "errorAction", typeJson: "{\"fqn\":\"aws.iotTopicRule.IotTopicRuleErrorAction\"}", isOptional: true)]
@@ -301,7 +301,7 @@ namespace aws.IotTopicRule
 
         /// <summary>firehose block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#firehose IotTopicRule#firehose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#firehose IotTopicRule#firehose}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleFirehose" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -336,7 +336,7 @@ namespace aws.IotTopicRule
 
         /// <summary>http block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#http IotTopicRule#http}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#http IotTopicRule#http}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleHttp" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -367,7 +367,7 @@ namespace aws.IotTopicRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#id IotTopicRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#id IotTopicRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -384,7 +384,7 @@ namespace aws.IotTopicRule
 
         /// <summary>iot_analytics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#iot_analytics IotTopicRule#iot_analytics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#iot_analytics IotTopicRule#iot_analytics}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotAnalytics" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -419,7 +419,7 @@ namespace aws.IotTopicRule
 
         /// <summary>iot_events block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#iot_events IotTopicRule#iot_events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#iot_events IotTopicRule#iot_events}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleIotEvents" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -454,7 +454,7 @@ namespace aws.IotTopicRule
 
         /// <summary>kafka block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#kafka IotTopicRule#kafka}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#kafka IotTopicRule#kafka}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKafka" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -489,7 +489,7 @@ namespace aws.IotTopicRule
 
         /// <summary>kinesis block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#kinesis IotTopicRule#kinesis}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#kinesis IotTopicRule#kinesis}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleKinesis" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -524,7 +524,7 @@ namespace aws.IotTopicRule
 
         /// <summary>lambda block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#lambda IotTopicRule#lambda}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#lambda IotTopicRule#lambda}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleLambda" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -557,7 +557,7 @@ namespace aws.IotTopicRule
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#region IotTopicRule#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#region IotTopicRule#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -571,7 +571,7 @@ namespace aws.IotTopicRule
 
         /// <summary>republish block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#republish IotTopicRule#republish}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#republish IotTopicRule#republish}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleRepublish" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -606,7 +606,7 @@ namespace aws.IotTopicRule
 
         /// <summary>s3 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#s3 IotTopicRule#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#s3 IotTopicRule#s3}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleS3" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -641,7 +641,7 @@ namespace aws.IotTopicRule
 
         /// <summary>sns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#sns IotTopicRule#sns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#sns IotTopicRule#sns}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSns" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -676,7 +676,7 @@ namespace aws.IotTopicRule
 
         /// <summary>sqs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#sqs IotTopicRule#sqs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#sqs IotTopicRule#sqs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleSqs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -711,7 +711,7 @@ namespace aws.IotTopicRule
 
         /// <summary>step_functions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#step_functions IotTopicRule#step_functions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#step_functions IotTopicRule#step_functions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleStepFunctions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -742,7 +742,7 @@ namespace aws.IotTopicRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#tags IotTopicRule#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#tags IotTopicRule#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -751,7 +751,7 @@ namespace aws.IotTopicRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#tags_all IotTopicRule#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#tags_all IotTopicRule#tags_all}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -764,7 +764,7 @@ namespace aws.IotTopicRule
 
         /// <summary>timestream block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/iot_topic_rule#timestream IotTopicRule#timestream}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/iot_topic_rule#timestream IotTopicRule#timestream}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.IotTopicRule.IIotTopicRuleTimestream" />)[]</para>
         /// </remarks>
         [JsiiOptional]

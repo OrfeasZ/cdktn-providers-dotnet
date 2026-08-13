@@ -9,7 +9,7 @@ namespace aws.MailmanagerRuleSet
     [JsiiByValue(fqn: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleActionInvokeLambda")]
     public class MailmanagerRuleSetRuleActionInvokeLambda : aws.MailmanagerRuleSet.IMailmanagerRuleSetRuleActionInvokeLambda
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#function_arn MailmanagerRuleSet#function_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#function_arn MailmanagerRuleSet#function_arn}.</summary>
         [JsiiProperty(name: "functionArn", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionArn
         {
@@ -17,7 +17,7 @@ namespace aws.MailmanagerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#invocation_type MailmanagerRuleSet#invocation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#invocation_type MailmanagerRuleSet#invocation_type}.</summary>
         [JsiiProperty(name: "invocationType", typeJson: "{\"primitive\":\"string\"}")]
         public string InvocationType
         {
@@ -25,7 +25,7 @@ namespace aws.MailmanagerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#role_arn MailmanagerRuleSet#role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#role_arn MailmanagerRuleSet#role_arn}.</summary>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleArn
         {
@@ -33,7 +33,7 @@ namespace aws.MailmanagerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#action_failure_policy MailmanagerRuleSet#action_failure_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#action_failure_policy MailmanagerRuleSet#action_failure_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionFailurePolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActionFailurePolicy
@@ -42,7 +42,7 @@ namespace aws.MailmanagerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#retry_time_minutes MailmanagerRuleSet#retry_time_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#retry_time_minutes MailmanagerRuleSet#retry_time_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retryTimeMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetryTimeMinutes

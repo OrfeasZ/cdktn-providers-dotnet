@@ -9,7 +9,7 @@ namespace aws.MailmanagerRuleSet
     [JsiiByValue(fqn: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleConditionStringExpressionEvaluateAnalysis")]
     public class MailmanagerRuleSetRuleConditionStringExpressionEvaluateAnalysis : aws.MailmanagerRuleSet.IMailmanagerRuleSetRuleConditionStringExpressionEvaluateAnalysis
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#analyzer MailmanagerRuleSet#analyzer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#analyzer MailmanagerRuleSet#analyzer}.</summary>
         [JsiiProperty(name: "analyzer", typeJson: "{\"primitive\":\"string\"}")]
         public string Analyzer
         {
@@ -17,7 +17,7 @@ namespace aws.MailmanagerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#result_field MailmanagerRuleSet#result_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#result_field MailmanagerRuleSet#result_field}.</summary>
         [JsiiProperty(name: "resultField", typeJson: "{\"primitive\":\"string\"}")]
         public string ResultField
         {

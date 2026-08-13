@@ -11,7 +11,7 @@ namespace aws.OsisPipeline
 
         /// <summary>cloudwatch_log_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/osis_pipeline#cloudwatch_log_destination OsisPipeline#cloudwatch_log_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/osis_pipeline#cloudwatch_log_destination OsisPipeline#cloudwatch_log_destination}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.OsisPipeline.IOsisPipelineLogPublishingOptionsCloudwatchLogDestination" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.OsisPipeline
 
         private object? _isLoggingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/osis_pipeline#is_logging_enabled OsisPipeline#is_logging_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/osis_pipeline#is_logging_enabled OsisPipeline#is_logging_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace aws.PrometheusScraper
     [JsiiByValue(fqn: "aws.prometheusScraper.PrometheusScraperDestinationCloudwatch")]
     public class PrometheusScraperDestinationCloudwatch : aws.PrometheusScraper.IPrometheusScraperDestinationCloudwatch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/prometheus_scraper#dataset_arn PrometheusScraper#dataset_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper#dataset_arn PrometheusScraper#dataset_arn}.</summary>
         [JsiiProperty(name: "datasetArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DatasetArn
         {

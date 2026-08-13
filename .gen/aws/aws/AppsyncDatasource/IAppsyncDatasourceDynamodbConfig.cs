@@ -7,7 +7,7 @@ namespace aws.AppsyncDatasource
     [JsiiInterface(nativeType: typeof(IAppsyncDatasourceDynamodbConfig), fullyQualifiedName: "aws.appsyncDatasource.AppsyncDatasourceDynamodbConfig")]
     public interface IAppsyncDatasourceDynamodbConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#table_name AppsyncDatasource#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#table_name AppsyncDatasource#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
         string TableName
         {
@@ -16,7 +16,7 @@ namespace aws.AppsyncDatasource
 
         /// <summary>delta_sync_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#delta_sync_config AppsyncDatasource#delta_sync_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#delta_sync_config AppsyncDatasource#delta_sync_config}
         /// </remarks>
         [JsiiProperty(name: "deltaSyncConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace aws.AppsyncDatasource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Region
@@ -39,7 +39,7 @@ namespace aws.AppsyncDatasource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#use_caller_credentials AppsyncDatasource#use_caller_credentials}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#use_caller_credentials AppsyncDatasource#use_caller_credentials}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace aws.AppsyncDatasource
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#versioned AppsyncDatasource#versioned}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#versioned AppsyncDatasource#versioned}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -74,7 +74,7 @@ namespace aws.AppsyncDatasource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#table_name AppsyncDatasource#table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#table_name AppsyncDatasource#table_name}.</summary>
             [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}")]
             public string TableName
             {
@@ -83,7 +83,7 @@ namespace aws.AppsyncDatasource
 
             /// <summary>delta_sync_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#delta_sync_config AppsyncDatasource#delta_sync_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#delta_sync_config AppsyncDatasource#delta_sync_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deltaSyncConfig", typeJson: "{\"fqn\":\"aws.appsyncDatasource.AppsyncDatasourceDynamodbConfigDeltaSyncConfig\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace aws.AppsyncDatasource
                 get => GetInstanceProperty<aws.AppsyncDatasource.IAppsyncDatasourceDynamodbConfigDeltaSyncConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#region AppsyncDatasource#region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Region
@@ -100,7 +100,7 @@ namespace aws.AppsyncDatasource
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#use_caller_credentials AppsyncDatasource#use_caller_credentials}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#use_caller_credentials AppsyncDatasource#use_caller_credentials}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -111,7 +111,7 @@ namespace aws.AppsyncDatasource
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/appsync_datasource#versioned AppsyncDatasource#versioned}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_datasource#versioned AppsyncDatasource#versioned}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,21 +7,21 @@ namespace aws.SpotInstanceRequest
     [JsiiInterface(nativeType: typeof(ISpotInstanceRequestSecondaryNetworkInterface), fullyQualifiedName: "aws.spotInstanceRequest.SpotInstanceRequestSecondaryNetworkInterface")]
     public interface ISpotInstanceRequestSecondaryNetworkInterface
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#network_card_index SpotInstanceRequest#network_card_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#network_card_index SpotInstanceRequest#network_card_index}.</summary>
         [JsiiProperty(name: "networkCardIndex", typeJson: "{\"primitive\":\"number\"}")]
         double NetworkCardIndex
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#secondary_subnet_id SpotInstanceRequest#secondary_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#secondary_subnet_id SpotInstanceRequest#secondary_subnet_id}.</summary>
         [JsiiProperty(name: "secondarySubnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SecondarySubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#delete_on_termination SpotInstanceRequest#delete_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#delete_on_termination SpotInstanceRequest#delete_on_termination}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#device_index SpotInstanceRequest#device_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#device_index SpotInstanceRequest#device_index}.</summary>
         [JsiiProperty(name: "deviceIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DeviceIndex
@@ -46,7 +46,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#interface_type SpotInstanceRequest#interface_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#interface_type SpotInstanceRequest#interface_type}.</summary>
         [JsiiProperty(name: "interfaceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InterfaceType
@@ -57,7 +57,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#private_ip_address_count SpotInstanceRequest#private_ip_address_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#private_ip_address_count SpotInstanceRequest#private_ip_address_count}.</summary>
         [JsiiProperty(name: "privateIpAddressCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PrivateIpAddressCount
@@ -75,21 +75,21 @@ namespace aws.SpotInstanceRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#network_card_index SpotInstanceRequest#network_card_index}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#network_card_index SpotInstanceRequest#network_card_index}.</summary>
             [JsiiProperty(name: "networkCardIndex", typeJson: "{\"primitive\":\"number\"}")]
             public double NetworkCardIndex
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#secondary_subnet_id SpotInstanceRequest#secondary_subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#secondary_subnet_id SpotInstanceRequest#secondary_subnet_id}.</summary>
             [JsiiProperty(name: "secondarySubnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecondarySubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#delete_on_termination SpotInstanceRequest#delete_on_termination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#delete_on_termination SpotInstanceRequest#delete_on_termination}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -100,7 +100,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#device_index SpotInstanceRequest#device_index}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#device_index SpotInstanceRequest#device_index}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DeviceIndex
@@ -108,7 +108,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#interface_type SpotInstanceRequest#interface_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#interface_type SpotInstanceRequest#interface_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "interfaceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InterfaceType
@@ -116,7 +116,7 @@ namespace aws.SpotInstanceRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_instance_request#private_ip_address_count SpotInstanceRequest#private_ip_address_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_instance_request#private_ip_address_count SpotInstanceRequest#private_ip_address_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateIpAddressCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PrivateIpAddressCount

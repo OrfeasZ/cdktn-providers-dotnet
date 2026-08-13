@@ -9,7 +9,7 @@ namespace aws.MailmanagerTrafficPolicy
     [JsiiByValue(fqn: "aws.mailmanagerTrafficPolicy.MailmanagerTrafficPolicyPolicyStatementConditionTlsExpression")]
     public class MailmanagerTrafficPolicyPolicyStatementConditionTlsExpression : aws.MailmanagerTrafficPolicy.IMailmanagerTrafficPolicyPolicyStatementConditionTlsExpression
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_traffic_policy#operator MailmanagerTrafficPolicy#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_traffic_policy#operator MailmanagerTrafficPolicy#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -17,7 +17,7 @@ namespace aws.MailmanagerTrafficPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_traffic_policy#value MailmanagerTrafficPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_traffic_policy#value MailmanagerTrafficPolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -29,7 +29,7 @@ namespace aws.MailmanagerTrafficPolicy
 
         /// <summary>evaluate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_traffic_policy#evaluate MailmanagerTrafficPolicy#evaluate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_traffic_policy#evaluate MailmanagerTrafficPolicy#evaluate}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MailmanagerTrafficPolicy.IMailmanagerTrafficPolicyPolicyStatementConditionTlsExpressionEvaluate" />)[]</para>
         /// </remarks>
         [JsiiOptional]

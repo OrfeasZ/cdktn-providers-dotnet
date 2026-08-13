@@ -5,7 +5,7 @@ namespace aws.DataAwsRdsCluster
     /// <remarks>
     /// <h1><c>data_aws_rds_cluster</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/data-sources/rds_cluster"><c>data_aws_rds_cluster</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/rds_cluster"><c>data_aws_rds_cluster</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

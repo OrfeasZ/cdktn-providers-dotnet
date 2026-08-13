@@ -9,7 +9,7 @@ namespace aws.Resiliencehubv2Service
     [JsiiByValue(fqn: "aws.resiliencehubv2Service.Resiliencehubv2ServicePermissionModelCrossAccountRole")]
     public class Resiliencehubv2ServicePermissionModelCrossAccountRole : aws.Resiliencehubv2Service.IResiliencehubv2ServicePermissionModelCrossAccountRole
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_service#cross_account_role_arn Resiliencehubv2Service#cross_account_role_arn}.</summary>
         [JsiiProperty(name: "crossAccountRoleArn", typeJson: "{\"primitive\":\"string\"}")]
         public string CrossAccountRoleArn
         {
@@ -17,7 +17,7 @@ namespace aws.Resiliencehubv2Service
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_service#external_id Resiliencehubv2Service#external_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalId

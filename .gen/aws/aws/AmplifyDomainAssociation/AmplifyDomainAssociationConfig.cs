@@ -9,7 +9,7 @@ namespace aws.AmplifyDomainAssociation
     [JsiiByValue(fqn: "aws.amplifyDomainAssociation.AmplifyDomainAssociationConfig")]
     public class AmplifyDomainAssociationConfig : aws.AmplifyDomainAssociation.IAmplifyDomainAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#app_id AmplifyDomainAssociation#app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#app_id AmplifyDomainAssociation#app_id}.</summary>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         public string AppId
         {
@@ -17,7 +17,7 @@ namespace aws.AmplifyDomainAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#domain_name AmplifyDomainAssociation#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#domain_name AmplifyDomainAssociation#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -29,7 +29,7 @@ namespace aws.AmplifyDomainAssociation
 
         /// <summary>sub_domain block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#sub_domain AmplifyDomainAssociation#sub_domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#sub_domain AmplifyDomainAssociation#sub_domain}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AmplifyDomainAssociation.IAmplifyDomainAssociationSubDomain" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "subDomain", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.amplifyDomainAssociation.AmplifyDomainAssociationSubDomain\"},\"kind\":\"array\"}}]}}")]
@@ -61,7 +61,7 @@ namespace aws.AmplifyDomainAssociation
 
         /// <summary>certificate_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#certificate_settings AmplifyDomainAssociation#certificate_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#certificate_settings AmplifyDomainAssociation#certificate_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateSettings", typeJson: "{\"fqn\":\"aws.amplifyDomainAssociation.AmplifyDomainAssociationCertificateSettings\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace aws.AmplifyDomainAssociation
 
         private object? _enableAutoSubDomain;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#enable_auto_sub_domain AmplifyDomainAssociation#enable_auto_sub_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#enable_auto_sub_domain AmplifyDomainAssociation#enable_auto_sub_domain}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -105,7 +105,7 @@ namespace aws.AmplifyDomainAssociation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#id AmplifyDomainAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#id AmplifyDomainAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -120,7 +120,7 @@ namespace aws.AmplifyDomainAssociation
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#region AmplifyDomainAssociation#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#region AmplifyDomainAssociation#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -132,7 +132,7 @@ namespace aws.AmplifyDomainAssociation
 
         private object? _waitForVerification;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/amplify_domain_association#wait_for_verification AmplifyDomainAssociation#wait_for_verification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/amplify_domain_association#wait_for_verification AmplifyDomainAssociation#wait_for_verification}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace aws.BatchSchedulingPolicy
     [JsiiInterface(nativeType: typeof(IBatchSchedulingPolicyFairSharePolicy), fullyQualifiedName: "aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicy")]
     public interface IBatchSchedulingPolicyFairSharePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}.</summary>
         [JsiiProperty(name: "computeReservation", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ComputeReservation
@@ -18,7 +18,7 @@ namespace aws.BatchSchedulingPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}.</summary>
         [JsiiProperty(name: "shareDecaySeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ShareDecaySeconds
@@ -31,7 +31,7 @@ namespace aws.BatchSchedulingPolicy
 
         /// <summary>share_distribution block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchSchedulingPolicy.IBatchSchedulingPolicyFairSharePolicyShareDistribution" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "shareDistribution", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.batchSchedulingPolicy.BatchSchedulingPolicyFairSharePolicyShareDistribution\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.BatchSchedulingPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_scheduling_policy#compute_reservation BatchSchedulingPolicy#compute_reservation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeReservation", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ComputeReservation
@@ -59,7 +59,7 @@ namespace aws.BatchSchedulingPolicy
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_scheduling_policy#share_decay_seconds BatchSchedulingPolicy#share_decay_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shareDecaySeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ShareDecaySeconds
@@ -69,7 +69,7 @@ namespace aws.BatchSchedulingPolicy
 
             /// <summary>share_distribution block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/batch_scheduling_policy#share_distribution BatchSchedulingPolicy#share_distribution}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BatchSchedulingPolicy.IBatchSchedulingPolicyFairSharePolicyShareDistribution" />)[]</para>
             /// </remarks>
             [JsiiOptional]

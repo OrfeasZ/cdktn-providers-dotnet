@@ -11,7 +11,7 @@ namespace aws.Apigatewayv2RoutingRule
 
         /// <summary>any_of block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/apigatewayv2_routing_rule#any_of Apigatewayv2RoutingRule#any_of}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Apigatewayv2RoutingRule.IApigatewayv2RoutingRuleConditionMatchHeadersAnyOf" />)[]</para>
         /// </remarks>
         [JsiiOptional]

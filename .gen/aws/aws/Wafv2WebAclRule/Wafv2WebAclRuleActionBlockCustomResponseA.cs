@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAclRule
     [JsiiByValue(fqn: "aws.wafv2WebAclRule.Wafv2WebAclRuleActionBlockCustomResponseA")]
     public class Wafv2WebAclRuleActionBlockCustomResponseA : aws.Wafv2WebAclRule.IWafv2WebAclRuleActionBlockCustomResponseA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/wafv2_web_acl_rule#response_code Wafv2WebAclRuleA#response_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#response_code Wafv2WebAclRuleA#response_code}.</summary>
         [JsiiProperty(name: "responseCode", typeJson: "{\"primitive\":\"number\"}")]
         public double ResponseCode
         {
@@ -17,7 +17,7 @@ namespace aws.Wafv2WebAclRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/wafv2_web_acl_rule#custom_response_body_key Wafv2WebAclRuleA#custom_response_body_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#custom_response_body_key Wafv2WebAclRuleA#custom_response_body_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customResponseBodyKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomResponseBodyKey
@@ -30,7 +30,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>response_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/wafv2_web_acl_rule#response_header Wafv2WebAclRuleA#response_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#response_header Wafv2WebAclRuleA#response_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleActionBlockCustomResponseResponseHeaderA" />)[]</para>
         /// </remarks>
         [JsiiOptional]

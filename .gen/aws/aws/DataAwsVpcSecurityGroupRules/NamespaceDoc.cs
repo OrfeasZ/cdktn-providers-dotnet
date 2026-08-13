@@ -5,7 +5,7 @@ namespace aws.DataAwsVpcSecurityGroupRules
     /// <remarks>
     /// <h1><c>data_aws_vpc_security_group_rules</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/data-sources/vpc_security_group_rules"><c>data_aws_vpc_security_group_rules</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/vpc_security_group_rules"><c>data_aws_vpc_security_group_rules</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

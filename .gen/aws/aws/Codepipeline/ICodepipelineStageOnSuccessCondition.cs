@@ -9,7 +9,7 @@ namespace aws.Codepipeline
     {
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/codepipeline#rule Codepipeline#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codepipeline#rule Codepipeline#rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageOnSuccessConditionRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageOnSuccessConditionRule\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace aws.Codepipeline
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
         [JsiiProperty(name: "result", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Result
@@ -38,7 +38,7 @@ namespace aws.Codepipeline
 
             /// <summary>rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/codepipeline#rule Codepipeline#rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codepipeline#rule Codepipeline#rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Codepipeline.ICodepipelineStageOnSuccessConditionRule" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.codepipeline.CodepipelineStageOnSuccessConditionRule\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace aws.Codepipeline
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codepipeline#result Codepipeline#result}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "result", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Result

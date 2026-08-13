@@ -9,7 +9,7 @@ namespace aws.ElasticacheServerlessCache
     {
         /// <summary>data_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/elasticache_serverless_cache#data_storage ElasticacheServerlessCache#data_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/elasticache_serverless_cache#data_storage ElasticacheServerlessCache#data_storage}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsDataStorage" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "dataStorage", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsDataStorage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace aws.ElasticacheServerlessCache
 
         /// <summary>ecpu_per_second block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/elasticache_serverless_cache#ecpu_per_second ElasticacheServerlessCache#ecpu_per_second}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/elasticache_serverless_cache#ecpu_per_second ElasticacheServerlessCache#ecpu_per_second}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ecpuPerSecond", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.ElasticacheServerlessCache
 
             /// <summary>data_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/elasticache_serverless_cache#data_storage ElasticacheServerlessCache#data_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/elasticache_serverless_cache#data_storage ElasticacheServerlessCache#data_storage}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsDataStorage" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.ElasticacheServerlessCache
 
             /// <summary>ecpu_per_second block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/elasticache_serverless_cache#ecpu_per_second ElasticacheServerlessCache#ecpu_per_second}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/elasticache_serverless_cache#ecpu_per_second ElasticacheServerlessCache#ecpu_per_second}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ElasticacheServerlessCache.IElasticacheServerlessCacheCacheUsageLimitsEcpuPerSecond" />)[]</para>
             /// </remarks>
             [JsiiOptional]

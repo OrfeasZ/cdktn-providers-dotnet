@@ -7,7 +7,7 @@ namespace aws.SagemakerTrainingJob
     [JsiiInterface(nativeType: typeof(ISagemakerTrainingJobResourceConfig), fullyQualifiedName: "aws.sagemakerTrainingJob.SagemakerTrainingJobResourceConfig")]
     public interface ISagemakerTrainingJobResourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceCount
@@ -20,7 +20,7 @@ namespace aws.SagemakerTrainingJob
 
         /// <summary>instance_groups block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_groups SagemakerTrainingJob#instance_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_groups SagemakerTrainingJob#instance_groups}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobResourceConfigInstanceGroups" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "instanceGroups", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobResourceConfigInstanceGroups\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace aws.SagemakerTrainingJob
 
         /// <summary>instance_placement_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_placement_config SagemakerTrainingJob#instance_placement_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_placement_config SagemakerTrainingJob#instance_placement_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobResourceConfigInstancePlacementConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "instancePlacementConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerTrainingJob.SagemakerTrainingJobResourceConfigInstancePlacementConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}.</summary>
         [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InstanceType
@@ -59,7 +59,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#keep_alive_period_in_seconds SagemakerTrainingJob#keep_alive_period_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#keep_alive_period_in_seconds SagemakerTrainingJob#keep_alive_period_in_seconds}.</summary>
         [JsiiProperty(name: "keepAlivePeriodInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? KeepAlivePeriodInSeconds
@@ -70,7 +70,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#training_plan_arn SagemakerTrainingJob#training_plan_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#training_plan_arn SagemakerTrainingJob#training_plan_arn}.</summary>
         [JsiiProperty(name: "trainingPlanArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrainingPlanArn
@@ -81,7 +81,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#volume_kms_key_id SagemakerTrainingJob#volume_kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#volume_kms_key_id SagemakerTrainingJob#volume_kms_key_id}.</summary>
         [JsiiProperty(name: "volumeKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VolumeKmsKeyId
@@ -92,7 +92,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}.</summary>
         [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? VolumeSizeInGb
@@ -110,7 +110,7 @@ namespace aws.SagemakerTrainingJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_count SagemakerTrainingJob#instance_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceCount
@@ -120,7 +120,7 @@ namespace aws.SagemakerTrainingJob
 
             /// <summary>instance_groups block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_groups SagemakerTrainingJob#instance_groups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_groups SagemakerTrainingJob#instance_groups}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobResourceConfigInstanceGroups" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -132,7 +132,7 @@ namespace aws.SagemakerTrainingJob
 
             /// <summary>instance_placement_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_placement_config SagemakerTrainingJob#instance_placement_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_placement_config SagemakerTrainingJob#instance_placement_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerTrainingJob.ISagemakerTrainingJobResourceConfigInstancePlacementConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -142,7 +142,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#instance_type SagemakerTrainingJob#instance_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InstanceType
@@ -150,7 +150,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#keep_alive_period_in_seconds SagemakerTrainingJob#keep_alive_period_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#keep_alive_period_in_seconds SagemakerTrainingJob#keep_alive_period_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keepAlivePeriodInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? KeepAlivePeriodInSeconds
@@ -158,7 +158,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#training_plan_arn SagemakerTrainingJob#training_plan_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#training_plan_arn SagemakerTrainingJob#training_plan_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trainingPlanArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrainingPlanArn
@@ -166,7 +166,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#volume_kms_key_id SagemakerTrainingJob#volume_kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#volume_kms_key_id SagemakerTrainingJob#volume_kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeKmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VolumeKmsKeyId
@@ -174,7 +174,7 @@ namespace aws.SagemakerTrainingJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_training_job#volume_size_in_gb SagemakerTrainingJob#volume_size_in_gb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeSizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? VolumeSizeInGb

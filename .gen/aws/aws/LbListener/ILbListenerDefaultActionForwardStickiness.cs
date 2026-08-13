@@ -7,14 +7,14 @@ namespace aws.LbListener
     [JsiiInterface(nativeType: typeof(ILbListenerDefaultActionForwardStickiness), fullyQualifiedName: "aws.lbListener.LbListenerDefaultActionForwardStickiness")]
     public interface ILbListenerDefaultActionForwardStickiness
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lb_listener#duration LbListener#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lb_listener#duration LbListener#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
         double Duration
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lb_listener#enabled LbListener#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lb_listener#enabled LbListener#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,14 +35,14 @@ namespace aws.LbListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lb_listener#duration LbListener#duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lb_listener#duration LbListener#duration}.</summary>
             [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"number\"}")]
             public double Duration
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lb_listener#enabled LbListener#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lb_listener#enabled LbListener#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -9,7 +9,7 @@ namespace aws.ApiGatewayRestApiPut
     [JsiiByValue(fqn: "aws.apiGatewayRestApiPut.ApiGatewayRestApiPutConfig")]
     public class ApiGatewayRestApiPutConfig : aws.ApiGatewayRestApiPut.IApiGatewayRestApiPutConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_rest_api_put#body ApiGatewayRestApiPut#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/api_gateway_rest_api_put#body ApiGatewayRestApiPut#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
         public string Body
         {
@@ -17,7 +17,7 @@ namespace aws.ApiGatewayRestApiPut
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_rest_api_put#rest_api_id ApiGatewayRestApiPut#rest_api_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/api_gateway_rest_api_put#rest_api_id ApiGatewayRestApiPut#rest_api_id}.</summary>
         [JsiiProperty(name: "restApiId", typeJson: "{\"primitive\":\"string\"}")]
         public string RestApiId
         {
@@ -27,7 +27,7 @@ namespace aws.ApiGatewayRestApiPut
 
         private object? _failOnWarnings;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_rest_api_put#fail_on_warnings ApiGatewayRestApiPut#fail_on_warnings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/api_gateway_rest_api_put#fail_on_warnings ApiGatewayRestApiPut#fail_on_warnings}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace aws.ApiGatewayRestApiPut
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_rest_api_put#parameters ApiGatewayRestApiPut#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/api_gateway_rest_api_put#parameters ApiGatewayRestApiPut#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -70,7 +70,7 @@ namespace aws.ApiGatewayRestApiPut
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_rest_api_put#region ApiGatewayRestApiPut#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/api_gateway_rest_api_put#region ApiGatewayRestApiPut#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace aws.ApiGatewayRestApiPut
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_rest_api_put#timeouts ApiGatewayRestApiPut#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/api_gateway_rest_api_put#timeouts ApiGatewayRestApiPut#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.apiGatewayRestApiPut.ApiGatewayRestApiPutTimeouts\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace aws.ApiGatewayRestApiPut
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/api_gateway_rest_api_put#triggers ApiGatewayRestApiPut#triggers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/api_gateway_rest_api_put#triggers ApiGatewayRestApiPut#triggers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "triggers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Triggers

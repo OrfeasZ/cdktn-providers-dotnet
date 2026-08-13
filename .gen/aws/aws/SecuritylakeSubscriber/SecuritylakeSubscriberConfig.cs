@@ -7,7 +7,7 @@ namespace aws.SecuritylakeSubscriber
     [JsiiByValue(fqn: "aws.securitylakeSubscriber.SecuritylakeSubscriberConfig")]
     public class SecuritylakeSubscriberConfig : aws.SecuritylakeSubscriber.ISecuritylakeSubscriberConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#access_type SecuritylakeSubscriber#access_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#access_type SecuritylakeSubscriber#access_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessType
@@ -18,7 +18,7 @@ namespace aws.SecuritylakeSubscriber
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#region SecuritylakeSubscriber#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#region SecuritylakeSubscriber#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace aws.SecuritylakeSubscriber
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#source SecuritylakeSubscriber#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#source SecuritylakeSubscriber#source}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSource" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -63,7 +63,7 @@ namespace aws.SecuritylakeSubscriber
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#subscriber_description SecuritylakeSubscriber#subscriber_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#subscriber_description SecuritylakeSubscriber#subscriber_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriberDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriberDescription
@@ -76,7 +76,7 @@ namespace aws.SecuritylakeSubscriber
 
         /// <summary>subscriber_identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#subscriber_identity SecuritylakeSubscriber#subscriber_identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#subscriber_identity SecuritylakeSubscriber#subscriber_identity}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecuritylakeSubscriber.ISecuritylakeSubscriberSubscriberIdentity" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -107,7 +107,7 @@ namespace aws.SecuritylakeSubscriber
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#subscriber_name SecuritylakeSubscriber#subscriber_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#subscriber_name SecuritylakeSubscriber#subscriber_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriberName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriberName
@@ -116,7 +116,7 @@ namespace aws.SecuritylakeSubscriber
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#tags SecuritylakeSubscriber#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#tags SecuritylakeSubscriber#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -127,7 +127,7 @@ namespace aws.SecuritylakeSubscriber
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/securitylake_subscriber#timeouts SecuritylakeSubscriber#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/securitylake_subscriber#timeouts SecuritylakeSubscriber#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.securitylakeSubscriber.SecuritylakeSubscriberTimeouts\"}", isOptional: true)]

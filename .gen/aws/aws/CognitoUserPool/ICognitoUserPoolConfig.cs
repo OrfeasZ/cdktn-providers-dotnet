@@ -7,7 +7,7 @@ namespace aws.CognitoUserPool
     [JsiiInterface(nativeType: typeof(ICognitoUserPoolConfig), fullyQualifiedName: "aws.cognitoUserPool.CognitoUserPoolConfig")]
     public interface ICognitoUserPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#name CognitoUserPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#name CognitoUserPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>account_recovery_setting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#account_recovery_setting CognitoUserPool#account_recovery_setting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#account_recovery_setting CognitoUserPool#account_recovery_setting}
         /// </remarks>
         [JsiiProperty(name: "accountRecoverySetting", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolAccountRecoverySetting\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>admin_create_user_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#admin_create_user_config CognitoUserPool#admin_create_user_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#admin_create_user_config CognitoUserPool#admin_create_user_config}
         /// </remarks>
         [JsiiProperty(name: "adminCreateUserConfig", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolAdminCreateUserConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#alias_attributes CognitoUserPool#alias_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#alias_attributes CognitoUserPool#alias_attributes}.</summary>
         [JsiiProperty(name: "aliasAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AliasAttributes
@@ -53,7 +53,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#auto_verified_attributes CognitoUserPool#auto_verified_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#auto_verified_attributes CognitoUserPool#auto_verified_attributes}.</summary>
         [JsiiProperty(name: "autoVerifiedAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AutoVerifiedAttributes
@@ -64,7 +64,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#deletion_protection CognitoUserPool#deletion_protection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#deletion_protection CognitoUserPool#deletion_protection}.</summary>
         [JsiiProperty(name: "deletionProtection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeletionProtection
@@ -77,7 +77,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>device_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#device_configuration CognitoUserPool#device_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#device_configuration CognitoUserPool#device_configuration}
         /// </remarks>
         [JsiiProperty(name: "deviceConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolDeviceConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -91,7 +91,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>email_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_configuration CognitoUserPool#email_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_configuration CognitoUserPool#email_configuration}
         /// </remarks>
         [JsiiProperty(name: "emailConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolEmailConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -105,7 +105,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>email_mfa_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_mfa_configuration CognitoUserPool#email_mfa_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_mfa_configuration CognitoUserPool#email_mfa_configuration}
         /// </remarks>
         [JsiiProperty(name: "emailMfaConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolEmailMfaConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_verification_message CognitoUserPool#email_verification_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_verification_message CognitoUserPool#email_verification_message}.</summary>
         [JsiiProperty(name: "emailVerificationMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EmailVerificationMessage
@@ -128,7 +128,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_verification_subject CognitoUserPool#email_verification_subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_verification_subject CognitoUserPool#email_verification_subject}.</summary>
         [JsiiProperty(name: "emailVerificationSubject", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EmailVerificationSubject
@@ -139,7 +139,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#id CognitoUserPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#id CognitoUserPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -156,7 +156,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>lambda_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#lambda_config CognitoUserPool#lambda_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#lambda_config CognitoUserPool#lambda_config}
         /// </remarks>
         [JsiiProperty(name: "lambdaConfig", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolLambdaConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +168,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#mfa_configuration CognitoUserPool#mfa_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#mfa_configuration CognitoUserPool#mfa_configuration}.</summary>
         [JsiiProperty(name: "mfaConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MfaConfiguration
@@ -181,7 +181,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>password_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#password_policy CognitoUserPool#password_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#password_policy CognitoUserPool#password_policy}
         /// </remarks>
         [JsiiProperty(name: "passwordPolicy", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolPasswordPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -195,7 +195,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#region CognitoUserPool#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#region CognitoUserPool#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -209,7 +209,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>schema block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#schema CognitoUserPool#schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#schema CognitoUserPool#schema}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoUserPool.ICognitoUserPoolSchema" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "schema", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSchema\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>sign_in_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sign_in_policy CognitoUserPool#sign_in_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sign_in_policy CognitoUserPool#sign_in_policy}
         /// </remarks>
         [JsiiProperty(name: "signInPolicy", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSignInPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -236,7 +236,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sms_authentication_message CognitoUserPool#sms_authentication_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sms_authentication_message CognitoUserPool#sms_authentication_message}.</summary>
         [JsiiProperty(name: "smsAuthenticationMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SmsAuthenticationMessage
@@ -249,7 +249,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>sms_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sms_configuration CognitoUserPool#sms_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sms_configuration CognitoUserPool#sms_configuration}
         /// </remarks>
         [JsiiProperty(name: "smsConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSmsConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -261,7 +261,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sms_verification_message CognitoUserPool#sms_verification_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sms_verification_message CognitoUserPool#sms_verification_message}.</summary>
         [JsiiProperty(name: "smsVerificationMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SmsVerificationMessage
@@ -274,7 +274,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>software_token_mfa_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#software_token_mfa_configuration CognitoUserPool#software_token_mfa_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#software_token_mfa_configuration CognitoUserPool#software_token_mfa_configuration}
         /// </remarks>
         [JsiiProperty(name: "softwareTokenMfaConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSoftwareTokenMfaConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -286,7 +286,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#tags CognitoUserPool#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#tags CognitoUserPool#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -297,7 +297,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#tags_all CognitoUserPool#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#tags_all CognitoUserPool#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -310,7 +310,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>user_attribute_update_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#user_attribute_update_settings CognitoUserPool#user_attribute_update_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#user_attribute_update_settings CognitoUserPool#user_attribute_update_settings}
         /// </remarks>
         [JsiiProperty(name: "userAttributeUpdateSettings", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolUserAttributeUpdateSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -322,7 +322,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#username_attributes CognitoUserPool#username_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#username_attributes CognitoUserPool#username_attributes}.</summary>
         [JsiiProperty(name: "usernameAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? UsernameAttributes
@@ -335,7 +335,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>username_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#username_configuration CognitoUserPool#username_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#username_configuration CognitoUserPool#username_configuration}
         /// </remarks>
         [JsiiProperty(name: "usernameConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolUsernameConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -349,7 +349,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>user_pool_add_ons block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#user_pool_add_ons CognitoUserPool#user_pool_add_ons}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#user_pool_add_ons CognitoUserPool#user_pool_add_ons}
         /// </remarks>
         [JsiiProperty(name: "userPoolAddOns", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolUserPoolAddOns\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -361,7 +361,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#user_pool_tier CognitoUserPool#user_pool_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#user_pool_tier CognitoUserPool#user_pool_tier}.</summary>
         [JsiiProperty(name: "userPoolTier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserPoolTier
@@ -374,7 +374,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>verification_message_template block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#verification_message_template CognitoUserPool#verification_message_template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#verification_message_template CognitoUserPool#verification_message_template}
         /// </remarks>
         [JsiiProperty(name: "verificationMessageTemplate", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolVerificationMessageTemplate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -388,7 +388,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>web_authn_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#web_authn_configuration CognitoUserPool#web_authn_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#web_authn_configuration CognitoUserPool#web_authn_configuration}
         /// </remarks>
         [JsiiProperty(name: "webAuthnConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolWebAuthnConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -407,7 +407,7 @@ namespace aws.CognitoUserPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#name CognitoUserPool#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#name CognitoUserPool#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -416,7 +416,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>account_recovery_setting block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#account_recovery_setting CognitoUserPool#account_recovery_setting}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#account_recovery_setting CognitoUserPool#account_recovery_setting}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountRecoverySetting", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolAccountRecoverySetting\"}", isOptional: true)]
@@ -427,7 +427,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>admin_create_user_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#admin_create_user_config CognitoUserPool#admin_create_user_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#admin_create_user_config CognitoUserPool#admin_create_user_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "adminCreateUserConfig", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolAdminCreateUserConfig\"}", isOptional: true)]
@@ -436,7 +436,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolAdminCreateUserConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#alias_attributes CognitoUserPool#alias_attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#alias_attributes CognitoUserPool#alias_attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "aliasAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AliasAttributes
@@ -444,7 +444,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#auto_verified_attributes CognitoUserPool#auto_verified_attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#auto_verified_attributes CognitoUserPool#auto_verified_attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "autoVerifiedAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AutoVerifiedAttributes
@@ -452,7 +452,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#deletion_protection CognitoUserPool#deletion_protection}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#deletion_protection CognitoUserPool#deletion_protection}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deletionProtection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeletionProtection
@@ -462,7 +462,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>device_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#device_configuration CognitoUserPool#device_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#device_configuration CognitoUserPool#device_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deviceConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolDeviceConfiguration\"}", isOptional: true)]
@@ -473,7 +473,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>email_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_configuration CognitoUserPool#email_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_configuration CognitoUserPool#email_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "emailConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolEmailConfiguration\"}", isOptional: true)]
@@ -484,7 +484,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>email_mfa_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_mfa_configuration CognitoUserPool#email_mfa_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_mfa_configuration CognitoUserPool#email_mfa_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "emailMfaConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolEmailMfaConfiguration\"}", isOptional: true)]
@@ -493,7 +493,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolEmailMfaConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_verification_message CognitoUserPool#email_verification_message}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_verification_message CognitoUserPool#email_verification_message}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emailVerificationMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EmailVerificationMessage
@@ -501,7 +501,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#email_verification_subject CognitoUserPool#email_verification_subject}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#email_verification_subject CognitoUserPool#email_verification_subject}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "emailVerificationSubject", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EmailVerificationSubject
@@ -509,7 +509,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#id CognitoUserPool#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#id CognitoUserPool#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -523,7 +523,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>lambda_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#lambda_config CognitoUserPool#lambda_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#lambda_config CognitoUserPool#lambda_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lambdaConfig", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolLambdaConfig\"}", isOptional: true)]
@@ -532,7 +532,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolLambdaConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#mfa_configuration CognitoUserPool#mfa_configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#mfa_configuration CognitoUserPool#mfa_configuration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mfaConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MfaConfiguration
@@ -542,7 +542,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>password_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#password_policy CognitoUserPool#password_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#password_policy CognitoUserPool#password_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordPolicy", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolPasswordPolicy\"}", isOptional: true)]
@@ -553,7 +553,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#region CognitoUserPool#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#region CognitoUserPool#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -564,7 +564,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>schema block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#schema CognitoUserPool#schema}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#schema CognitoUserPool#schema}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CognitoUserPool.ICognitoUserPoolSchema" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -576,7 +576,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>sign_in_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sign_in_policy CognitoUserPool#sign_in_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sign_in_policy CognitoUserPool#sign_in_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "signInPolicy", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSignInPolicy\"}", isOptional: true)]
@@ -585,7 +585,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolSignInPolicy?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sms_authentication_message CognitoUserPool#sms_authentication_message}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sms_authentication_message CognitoUserPool#sms_authentication_message}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "smsAuthenticationMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SmsAuthenticationMessage
@@ -595,7 +595,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>sms_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sms_configuration CognitoUserPool#sms_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sms_configuration CognitoUserPool#sms_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "smsConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSmsConfiguration\"}", isOptional: true)]
@@ -604,7 +604,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolSmsConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#sms_verification_message CognitoUserPool#sms_verification_message}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#sms_verification_message CognitoUserPool#sms_verification_message}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "smsVerificationMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SmsVerificationMessage
@@ -614,7 +614,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>software_token_mfa_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#software_token_mfa_configuration CognitoUserPool#software_token_mfa_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#software_token_mfa_configuration CognitoUserPool#software_token_mfa_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "softwareTokenMfaConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSoftwareTokenMfaConfiguration\"}", isOptional: true)]
@@ -623,7 +623,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolSoftwareTokenMfaConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#tags CognitoUserPool#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#tags CognitoUserPool#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -631,7 +631,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#tags_all CognitoUserPool#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#tags_all CognitoUserPool#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -641,7 +641,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>user_attribute_update_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#user_attribute_update_settings CognitoUserPool#user_attribute_update_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#user_attribute_update_settings CognitoUserPool#user_attribute_update_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userAttributeUpdateSettings", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolUserAttributeUpdateSettings\"}", isOptional: true)]
@@ -650,7 +650,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolUserAttributeUpdateSettings?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#username_attributes CognitoUserPool#username_attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#username_attributes CognitoUserPool#username_attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "usernameAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? UsernameAttributes
@@ -660,7 +660,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>username_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#username_configuration CognitoUserPool#username_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#username_configuration CognitoUserPool#username_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usernameConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolUsernameConfiguration\"}", isOptional: true)]
@@ -671,7 +671,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>user_pool_add_ons block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#user_pool_add_ons CognitoUserPool#user_pool_add_ons}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#user_pool_add_ons CognitoUserPool#user_pool_add_ons}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userPoolAddOns", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolUserPoolAddOns\"}", isOptional: true)]
@@ -680,7 +680,7 @@ namespace aws.CognitoUserPool
                 get => GetInstanceProperty<aws.CognitoUserPool.ICognitoUserPoolUserPoolAddOns?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#user_pool_tier CognitoUserPool#user_pool_tier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#user_pool_tier CognitoUserPool#user_pool_tier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userPoolTier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserPoolTier
@@ -690,7 +690,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>verification_message_template block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#verification_message_template CognitoUserPool#verification_message_template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#verification_message_template CognitoUserPool#verification_message_template}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "verificationMessageTemplate", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolVerificationMessageTemplate\"}", isOptional: true)]
@@ -701,7 +701,7 @@ namespace aws.CognitoUserPool
 
             /// <summary>web_authn_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cognito_user_pool#web_authn_configuration CognitoUserPool#web_authn_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#web_authn_configuration CognitoUserPool#web_authn_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "webAuthnConfiguration", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolWebAuthnConfiguration\"}", isOptional: true)]

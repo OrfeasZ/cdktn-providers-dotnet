@@ -9,7 +9,7 @@ namespace aws.EksCluster
     {
         /// <summary>horizontal_pod_autoscaler_controller_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "horizontalPodAutoscalerControllerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig\"}", isOptional: true)]

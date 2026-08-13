@@ -7,14 +7,14 @@ namespace aws.MailmanagerRuleSet
     [JsiiInterface(nativeType: typeof(IMailmanagerRuleSetRuleUnlessStringExpression), fullyQualifiedName: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleUnlessStringExpression")]
     public interface IMailmanagerRuleSetRuleUnlessStringExpression
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         string Operator
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#values MailmanagerRuleSet#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#values MailmanagerRuleSet#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
@@ -23,7 +23,7 @@ namespace aws.MailmanagerRuleSet
 
         /// <summary>evaluate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#evaluate MailmanagerRuleSet#evaluate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#evaluate MailmanagerRuleSet#evaluate}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MailmanagerRuleSet.IMailmanagerRuleSetRuleUnlessStringExpressionEvaluate" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "evaluate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mailmanagerRuleSet.MailmanagerRuleSetRuleUnlessStringExpressionEvaluate\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,14 +43,14 @@ namespace aws.MailmanagerRuleSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.</summary>
             [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
             public string Operator
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#values MailmanagerRuleSet#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#values MailmanagerRuleSet#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
@@ -59,7 +59,7 @@ namespace aws.MailmanagerRuleSet
 
             /// <summary>evaluate block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#evaluate MailmanagerRuleSet#evaluate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#evaluate MailmanagerRuleSet#evaluate}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MailmanagerRuleSet.IMailmanagerRuleSetRuleUnlessStringExpressionEvaluate" />)[]</para>
             /// </remarks>
             [JsiiOptional]

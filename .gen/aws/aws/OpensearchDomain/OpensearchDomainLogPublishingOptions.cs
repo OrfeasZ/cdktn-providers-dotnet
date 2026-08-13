@@ -9,7 +9,7 @@ namespace aws.OpensearchDomain
     [JsiiByValue(fqn: "aws.opensearchDomain.OpensearchDomainLogPublishingOptions")]
     public class OpensearchDomainLogPublishingOptions : aws.OpensearchDomain.IOpensearchDomainLogPublishingOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/opensearch_domain#cloudwatch_log_group_arn OpensearchDomain#cloudwatch_log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/opensearch_domain#cloudwatch_log_group_arn OpensearchDomain#cloudwatch_log_group_arn}.</summary>
         [JsiiProperty(name: "cloudwatchLogGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudwatchLogGroupArn
         {
@@ -17,7 +17,7 @@ namespace aws.OpensearchDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/opensearch_domain#log_type OpensearchDomain#log_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/opensearch_domain#log_type OpensearchDomain#log_type}.</summary>
         [JsiiProperty(name: "logType", typeJson: "{\"primitive\":\"string\"}")]
         public string LogType
         {
@@ -27,7 +27,7 @@ namespace aws.OpensearchDomain
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/opensearch_domain#enabled OpensearchDomain#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

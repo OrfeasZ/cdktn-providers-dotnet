@@ -7,7 +7,7 @@ namespace aws.BedrockagentAgent
     [JsiiInterface(nativeType: typeof(IBedrockagentAgentPromptOverrideConfigurationPromptConfigurations), fullyQualifiedName: "aws.bedrockagentAgent.BedrockagentAgentPromptOverrideConfigurationPromptConfigurations")]
     public interface IBedrockagentAgentPromptOverrideConfigurationPromptConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#base_prompt_template BedrockagentAgent#base_prompt_template}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#base_prompt_template BedrockagentAgent#base_prompt_template}.</summary>
         [JsiiProperty(name: "basePromptTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BasePromptTemplate
@@ -18,7 +18,7 @@ namespace aws.BedrockagentAgent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#inference_configuration BedrockagentAgent#inference_configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#inference_configuration BedrockagentAgent#inference_configuration}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration" />)[]</para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace aws.BedrockagentAgent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#parser_mode BedrockagentAgent#parser_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#parser_mode BedrockagentAgent#parser_mode}.</summary>
         [JsiiProperty(name: "parserMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParserMode
@@ -43,7 +43,7 @@ namespace aws.BedrockagentAgent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#prompt_creation_mode BedrockagentAgent#prompt_creation_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#prompt_creation_mode BedrockagentAgent#prompt_creation_mode}.</summary>
         [JsiiProperty(name: "promptCreationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PromptCreationMode
@@ -54,7 +54,7 @@ namespace aws.BedrockagentAgent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#prompt_state BedrockagentAgent#prompt_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#prompt_state BedrockagentAgent#prompt_state}.</summary>
         [JsiiProperty(name: "promptState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PromptState
@@ -65,7 +65,7 @@ namespace aws.BedrockagentAgent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#prompt_type BedrockagentAgent#prompt_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#prompt_type BedrockagentAgent#prompt_type}.</summary>
         [JsiiProperty(name: "promptType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PromptType
@@ -83,7 +83,7 @@ namespace aws.BedrockagentAgent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#base_prompt_template BedrockagentAgent#base_prompt_template}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#base_prompt_template BedrockagentAgent#base_prompt_template}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "basePromptTemplate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BasePromptTemplate
@@ -91,7 +91,7 @@ namespace aws.BedrockagentAgent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#inference_configuration BedrockagentAgent#inference_configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#inference_configuration BedrockagentAgent#inference_configuration}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentAgent.IBedrockagentAgentPromptOverrideConfigurationPromptConfigurationsInferenceConfiguration" />)[]</para>
             /// </remarks>
@@ -102,7 +102,7 @@ namespace aws.BedrockagentAgent
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#parser_mode BedrockagentAgent#parser_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#parser_mode BedrockagentAgent#parser_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parserMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParserMode
@@ -110,7 +110,7 @@ namespace aws.BedrockagentAgent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#prompt_creation_mode BedrockagentAgent#prompt_creation_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#prompt_creation_mode BedrockagentAgent#prompt_creation_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "promptCreationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PromptCreationMode
@@ -118,7 +118,7 @@ namespace aws.BedrockagentAgent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#prompt_state BedrockagentAgent#prompt_state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#prompt_state BedrockagentAgent#prompt_state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "promptState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PromptState
@@ -126,7 +126,7 @@ namespace aws.BedrockagentAgent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/bedrockagent_agent#prompt_type BedrockagentAgent#prompt_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagent_agent#prompt_type BedrockagentAgent#prompt_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "promptType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PromptType

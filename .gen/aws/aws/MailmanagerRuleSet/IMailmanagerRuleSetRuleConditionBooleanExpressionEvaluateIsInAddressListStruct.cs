@@ -7,14 +7,14 @@ namespace aws.MailmanagerRuleSet
     [JsiiInterface(nativeType: typeof(IMailmanagerRuleSetRuleConditionBooleanExpressionEvaluateIsInAddressListStruct), fullyQualifiedName: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleConditionBooleanExpressionEvaluateIsInAddressListStruct")]
     public interface IMailmanagerRuleSetRuleConditionBooleanExpressionEvaluateIsInAddressListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#address_lists MailmanagerRuleSet#address_lists}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#address_lists MailmanagerRuleSet#address_lists}.</summary>
         [JsiiProperty(name: "addressLists", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AddressLists
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.</summary>
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}")]
         string Attribute
         {
@@ -28,14 +28,14 @@ namespace aws.MailmanagerRuleSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#address_lists MailmanagerRuleSet#address_lists}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#address_lists MailmanagerRuleSet#address_lists}.</summary>
             [JsiiProperty(name: "addressLists", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AddressLists
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.</summary>
             [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}")]
             public string Attribute
             {

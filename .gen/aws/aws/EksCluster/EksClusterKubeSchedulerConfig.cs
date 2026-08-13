@@ -9,7 +9,7 @@ namespace aws.EksCluster
     {
         /// <summary>node_resources_fit block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/eks_cluster#node_resources_fit EksCluster#node_resources_fit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/eks_cluster#node_resources_fit EksCluster#node_resources_fit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nodeResourcesFit", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeSchedulerConfigNodeResourcesFit\"}", isOptional: true)]

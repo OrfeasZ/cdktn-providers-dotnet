@@ -9,7 +9,7 @@ namespace aws.LightsailContainerService
     {
         /// <summary>certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailContainerService.ILightsailContainerServicePublicDomainNamesCertificate" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificate\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace aws.LightsailContainerService
 
             /// <summary>certificate block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lightsail_container_service#certificate LightsailContainerService#certificate}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LightsailContainerService.ILightsailContainerServicePublicDomainNamesCertificate" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "certificate", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.lightsailContainerService.LightsailContainerServicePublicDomainNamesCertificate\"},\"kind\":\"array\"}}]}}")]

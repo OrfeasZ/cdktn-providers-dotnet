@@ -11,7 +11,7 @@ namespace aws.XrayIndexingRule
 
         /// <summary>probabilistic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/xray_indexing_rule#probabilistic XrayIndexingRule#probabilistic}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.XrayIndexingRule.IXrayIndexingRuleRuleProbabilistic" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace aws.KinesisAnalyticsApplication
     {
         /// <summary>record_columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/kinesis_analytics_application#record_columns KinesisAnalyticsApplication#record_columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_analytics_application#record_columns KinesisAnalyticsApplication#record_columns}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchemaRecordColumns" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "recordColumns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsSchemaRecordColumns\"},\"kind\":\"array\"}}]}}")]
@@ -20,7 +20,7 @@ namespace aws.KinesisAnalyticsApplication
 
         /// <summary>record_format block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/kinesis_analytics_application#record_format KinesisAnalyticsApplication#record_format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_analytics_application#record_format KinesisAnalyticsApplication#record_format}
         /// </remarks>
         [JsiiProperty(name: "recordFormat", typeJson: "{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsSchemaRecordFormat\"}")]
         aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchemaRecordFormat RecordFormat
@@ -28,7 +28,7 @@ namespace aws.KinesisAnalyticsApplication
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/kinesis_analytics_application#record_encoding KinesisAnalyticsApplication#record_encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_analytics_application#record_encoding KinesisAnalyticsApplication#record_encoding}.</summary>
         [JsiiProperty(name: "recordEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RecordEncoding
@@ -48,7 +48,7 @@ namespace aws.KinesisAnalyticsApplication
 
             /// <summary>record_columns block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/kinesis_analytics_application#record_columns KinesisAnalyticsApplication#record_columns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_analytics_application#record_columns KinesisAnalyticsApplication#record_columns}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchemaRecordColumns" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "recordColumns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsSchemaRecordColumns\"},\"kind\":\"array\"}}]}}")]
@@ -59,7 +59,7 @@ namespace aws.KinesisAnalyticsApplication
 
             /// <summary>record_format block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/kinesis_analytics_application#record_format KinesisAnalyticsApplication#record_format}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_analytics_application#record_format KinesisAnalyticsApplication#record_format}
             /// </remarks>
             [JsiiProperty(name: "recordFormat", typeJson: "{\"fqn\":\"aws.kinesisAnalyticsApplication.KinesisAnalyticsApplicationInputsSchemaRecordFormat\"}")]
             public aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchemaRecordFormat RecordFormat
@@ -67,7 +67,7 @@ namespace aws.KinesisAnalyticsApplication
                 get => GetInstanceProperty<aws.KinesisAnalyticsApplication.IKinesisAnalyticsApplicationInputsSchemaRecordFormat>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/kinesis_analytics_application#record_encoding KinesisAnalyticsApplication#record_encoding}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/kinesis_analytics_application#record_encoding KinesisAnalyticsApplication#record_encoding}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recordEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RecordEncoding

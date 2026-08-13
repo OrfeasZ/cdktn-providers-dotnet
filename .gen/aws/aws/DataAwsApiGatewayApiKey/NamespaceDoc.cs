@@ -5,7 +5,7 @@ namespace aws.DataAwsApiGatewayApiKey
     /// <remarks>
     /// <h1><c>data_aws_api_gateway_api_key</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/data-sources/api_gateway_api_key"><c>data_aws_api_gateway_api_key</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/api_gateway_api_key"><c>data_aws_api_gateway_api_key</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

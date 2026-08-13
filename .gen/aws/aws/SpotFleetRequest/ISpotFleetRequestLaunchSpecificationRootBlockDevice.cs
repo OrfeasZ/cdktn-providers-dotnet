@@ -7,7 +7,7 @@ namespace aws.SpotFleetRequest
     [JsiiInterface(nativeType: typeof(ISpotFleetRequestLaunchSpecificationRootBlockDevice), fullyQualifiedName: "aws.spotFleetRequest.SpotFleetRequestLaunchSpecificationRootBlockDevice")]
     public interface ISpotFleetRequestLaunchSpecificationRootBlockDevice
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#delete_on_termination SpotFleetRequest#delete_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#delete_on_termination SpotFleetRequest#delete_on_termination}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace aws.SpotFleetRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#encrypted SpotFleetRequest#encrypted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#encrypted SpotFleetRequest#encrypted}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -35,7 +35,7 @@ namespace aws.SpotFleetRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#iops SpotFleetRequest#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#iops SpotFleetRequest#iops}.</summary>
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Iops
@@ -46,7 +46,7 @@ namespace aws.SpotFleetRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#kms_key_id SpotFleetRequest#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#kms_key_id SpotFleetRequest#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyId
@@ -57,7 +57,7 @@ namespace aws.SpotFleetRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#throughput SpotFleetRequest#throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#throughput SpotFleetRequest#throughput}.</summary>
         [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Throughput
@@ -68,7 +68,7 @@ namespace aws.SpotFleetRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#volume_size SpotFleetRequest#volume_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#volume_size SpotFleetRequest#volume_size}.</summary>
         [JsiiProperty(name: "volumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? VolumeSize
@@ -79,7 +79,7 @@ namespace aws.SpotFleetRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#volume_type SpotFleetRequest#volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#volume_type SpotFleetRequest#volume_type}.</summary>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VolumeType
@@ -97,7 +97,7 @@ namespace aws.SpotFleetRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#delete_on_termination SpotFleetRequest#delete_on_termination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#delete_on_termination SpotFleetRequest#delete_on_termination}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -108,7 +108,7 @@ namespace aws.SpotFleetRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#encrypted SpotFleetRequest#encrypted}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#encrypted SpotFleetRequest#encrypted}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -119,7 +119,7 @@ namespace aws.SpotFleetRequest
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#iops SpotFleetRequest#iops}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#iops SpotFleetRequest#iops}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Iops
@@ -127,7 +127,7 @@ namespace aws.SpotFleetRequest
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#kms_key_id SpotFleetRequest#kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#kms_key_id SpotFleetRequest#kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyId
@@ -135,7 +135,7 @@ namespace aws.SpotFleetRequest
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#throughput SpotFleetRequest#throughput}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#throughput SpotFleetRequest#throughput}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Throughput
@@ -143,7 +143,7 @@ namespace aws.SpotFleetRequest
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#volume_size SpotFleetRequest#volume_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#volume_size SpotFleetRequest#volume_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? VolumeSize
@@ -151,7 +151,7 @@ namespace aws.SpotFleetRequest
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/spot_fleet_request#volume_type SpotFleetRequest#volume_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/spot_fleet_request#volume_type SpotFleetRequest#volume_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VolumeType

@@ -7,28 +7,28 @@ namespace aws.DatazoneAssetType
     [JsiiInterface(nativeType: typeof(IDatazoneAssetTypeFormsInput), fullyQualifiedName: "aws.datazoneAssetType.DatazoneAssetTypeFormsInput")]
     public interface IDatazoneAssetTypeFormsInput
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}.</summary>
         [JsiiProperty(name: "mapBlockKey", typeJson: "{\"primitive\":\"string\"}")]
         string MapBlockKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}.</summary>
         [JsiiProperty(name: "typeIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string TypeIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}.</summary>
         [JsiiProperty(name: "typeRevision", typeJson: "{\"primitive\":\"string\"}")]
         string TypeRevision
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -49,28 +49,28 @@ namespace aws.DatazoneAssetType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#map_block_key DatazoneAssetType#map_block_key}.</summary>
             [JsiiProperty(name: "mapBlockKey", typeJson: "{\"primitive\":\"string\"}")]
             public string MapBlockKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#type_identifier DatazoneAssetType#type_identifier}.</summary>
             [JsiiProperty(name: "typeIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string TypeIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#type_revision DatazoneAssetType#type_revision}.</summary>
             [JsiiProperty(name: "typeRevision", typeJson: "{\"primitive\":\"string\"}")]
             public string TypeRevision
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_asset_type#required DatazoneAssetType#required}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

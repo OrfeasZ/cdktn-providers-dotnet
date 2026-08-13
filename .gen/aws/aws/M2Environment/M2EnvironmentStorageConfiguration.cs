@@ -11,7 +11,7 @@ namespace aws.M2Environment
 
         /// <summary>efs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/m2_environment#efs M2Environment#efs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/m2_environment#efs M2Environment#efs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationEfs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.M2Environment
 
         /// <summary>fsx block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/m2_environment#fsx M2Environment#fsx}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/m2_environment#fsx M2Environment#fsx}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.M2Environment.IM2EnvironmentStorageConfigurationFsx" />)[]</para>
         /// </remarks>
         [JsiiOptional]

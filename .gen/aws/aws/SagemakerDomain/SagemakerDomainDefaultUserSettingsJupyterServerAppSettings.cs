@@ -11,7 +11,7 @@ namespace aws.SagemakerDomain
 
         /// <summary>code_repository block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_domain#code_repository SagemakerDomain#code_repository}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_domain#code_repository SagemakerDomain#code_repository}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsJupyterServerAppSettingsCodeRepository" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.SagemakerDomain
 
         /// <summary>default_resource_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultResourceSpec", typeJson: "{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpec\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace aws.SagemakerDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_domain#lifecycle_config_arns SagemakerDomain#lifecycle_config_arns}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleConfigArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? LifecycleConfigArns

@@ -11,7 +11,7 @@ namespace aws.DataAwsLbListenerRule
 
         /// <summary>additional_claim block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/data-sources/lb_listener_rule#additional_claim DataAwsLbListenerRule#additional_claim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/lb_listener_rule#additional_claim DataAwsLbListenerRule#additional_claim}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsLbListenerRule.IDataAwsLbListenerRuleActionJwtValidationAdditionalClaim" />)[]</para>
         /// </remarks>
         [JsiiOptional]

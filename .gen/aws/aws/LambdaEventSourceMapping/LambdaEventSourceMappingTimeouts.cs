@@ -7,7 +7,7 @@ namespace aws.LambdaEventSourceMapping
     [JsiiByValue(fqn: "aws.lambdaEventSourceMapping.LambdaEventSourceMappingTimeouts")]
     public class LambdaEventSourceMappingTimeouts : aws.LambdaEventSourceMapping.ILambdaEventSourceMappingTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lambda_event_source_mapping#create LambdaEventSourceMapping#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lambda_event_source_mapping#create LambdaEventSourceMapping#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace aws.LambdaEventSourceMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lambda_event_source_mapping#delete LambdaEventSourceMapping#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lambda_event_source_mapping#delete LambdaEventSourceMapping#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace aws.LambdaEventSourceMapping
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/lambda_event_source_mapping#update LambdaEventSourceMapping#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lambda_event_source_mapping#update LambdaEventSourceMapping#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

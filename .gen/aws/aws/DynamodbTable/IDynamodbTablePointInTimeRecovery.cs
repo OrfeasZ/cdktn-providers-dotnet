@@ -7,7 +7,7 @@ namespace aws.DynamodbTable
     [JsiiInterface(nativeType: typeof(IDynamodbTablePointInTimeRecovery), fullyQualifiedName: "aws.dynamodbTable.DynamodbTablePointInTimeRecovery")]
     public interface IDynamodbTablePointInTimeRecovery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace aws.DynamodbTable
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}.</summary>
         [JsiiProperty(name: "recoveryPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RecoveryPeriodInDays
@@ -35,7 +35,7 @@ namespace aws.DynamodbTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dynamodb_table#enabled DynamodbTable#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.DynamodbTable
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dynamodb_table#recovery_period_in_days DynamodbTable#recovery_period_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recoveryPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RecoveryPeriodInDays

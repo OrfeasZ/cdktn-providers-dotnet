@@ -7,7 +7,7 @@ namespace aws.Route53RecordsExclusive
     [JsiiInterface(nativeType: typeof(IRoute53RecordsExclusiveResourceRecordSet), fullyQualifiedName: "aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSet")]
     public interface IRoute53RecordsExclusiveResourceRecordSet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#name Route53RecordsExclusive#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#name Route53RecordsExclusive#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace aws.Route53RecordsExclusive
 
         /// <summary>alias_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#alias_target Route53RecordsExclusive#alias_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#alias_target Route53RecordsExclusive#alias_target}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetAliasTarget" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "aliasTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetAliasTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.Route53RecordsExclusive
 
         /// <summary>cidr_routing_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#cidr_routing_config Route53RecordsExclusive#cidr_routing_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#cidr_routing_config Route53RecordsExclusive#cidr_routing_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfig" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "cidrRoutingConfig", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetCidrRoutingConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#failover Route53RecordsExclusive#failover}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#failover Route53RecordsExclusive#failover}.</summary>
         [JsiiProperty(name: "failover", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Failover
@@ -57,7 +57,7 @@ namespace aws.Route53RecordsExclusive
 
         /// <summary>geolocation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#geolocation Route53RecordsExclusive#geolocation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#geolocation Route53RecordsExclusive#geolocation}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeolocation" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "geolocation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeolocation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace aws.Route53RecordsExclusive
 
         /// <summary>geoproximity_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#geoproximity_location Route53RecordsExclusive#geoproximity_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#geoproximity_location Route53RecordsExclusive#geoproximity_location}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocation" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "geoproximityLocation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetGeoproximityLocation\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#health_check_id Route53RecordsExclusive#health_check_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#health_check_id Route53RecordsExclusive#health_check_id}.</summary>
         [JsiiProperty(name: "healthCheckId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HealthCheckId
@@ -96,7 +96,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#multi_value_answer Route53RecordsExclusive#multi_value_answer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#multi_value_answer Route53RecordsExclusive#multi_value_answer}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -110,7 +110,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#region Route53RecordsExclusive#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#region Route53RecordsExclusive#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Region
@@ -123,7 +123,7 @@ namespace aws.Route53RecordsExclusive
 
         /// <summary>resource_records block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#resource_records Route53RecordsExclusive#resource_records}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#resource_records Route53RecordsExclusive#resource_records}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetResourceRecords" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "resourceRecords", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.route53RecordsExclusive.Route53RecordsExclusiveResourceRecordSetResourceRecords\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#set_identifier Route53RecordsExclusive#set_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#set_identifier Route53RecordsExclusive#set_identifier}.</summary>
         [JsiiProperty(name: "setIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SetIdentifier
@@ -147,7 +147,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#traffic_policy_instance_id Route53RecordsExclusive#traffic_policy_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#traffic_policy_instance_id Route53RecordsExclusive#traffic_policy_instance_id}.</summary>
         [JsiiProperty(name: "trafficPolicyInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TrafficPolicyInstanceId
@@ -158,7 +158,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#ttl Route53RecordsExclusive#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#ttl Route53RecordsExclusive#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ttl
@@ -169,7 +169,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#type Route53RecordsExclusive#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#type Route53RecordsExclusive#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -180,7 +180,7 @@ namespace aws.Route53RecordsExclusive
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#weight Route53RecordsExclusive#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#weight Route53RecordsExclusive#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Weight
@@ -198,7 +198,7 @@ namespace aws.Route53RecordsExclusive
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#name Route53RecordsExclusive#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#name Route53RecordsExclusive#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -207,7 +207,7 @@ namespace aws.Route53RecordsExclusive
 
             /// <summary>alias_target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#alias_target Route53RecordsExclusive#alias_target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#alias_target Route53RecordsExclusive#alias_target}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetAliasTarget" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -219,7 +219,7 @@ namespace aws.Route53RecordsExclusive
 
             /// <summary>cidr_routing_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#cidr_routing_config Route53RecordsExclusive#cidr_routing_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#cidr_routing_config Route53RecordsExclusive#cidr_routing_config}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetCidrRoutingConfig" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -229,7 +229,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#failover Route53RecordsExclusive#failover}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#failover Route53RecordsExclusive#failover}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "failover", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Failover
@@ -239,7 +239,7 @@ namespace aws.Route53RecordsExclusive
 
             /// <summary>geolocation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#geolocation Route53RecordsExclusive#geolocation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#geolocation Route53RecordsExclusive#geolocation}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeolocation" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -251,7 +251,7 @@ namespace aws.Route53RecordsExclusive
 
             /// <summary>geoproximity_location block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#geoproximity_location Route53RecordsExclusive#geoproximity_location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#geoproximity_location Route53RecordsExclusive#geoproximity_location}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetGeoproximityLocation" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -261,7 +261,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#health_check_id Route53RecordsExclusive#health_check_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#health_check_id Route53RecordsExclusive#health_check_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HealthCheckId
@@ -269,7 +269,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#multi_value_answer Route53RecordsExclusive#multi_value_answer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#multi_value_answer Route53RecordsExclusive#multi_value_answer}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -280,7 +280,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#region Route53RecordsExclusive#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#region Route53RecordsExclusive#region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Region
@@ -290,7 +290,7 @@ namespace aws.Route53RecordsExclusive
 
             /// <summary>resource_records block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#resource_records Route53RecordsExclusive#resource_records}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#resource_records Route53RecordsExclusive#resource_records}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Route53RecordsExclusive.IRoute53RecordsExclusiveResourceRecordSetResourceRecords" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -300,7 +300,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#set_identifier Route53RecordsExclusive#set_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#set_identifier Route53RecordsExclusive#set_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "setIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SetIdentifier
@@ -308,7 +308,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#traffic_policy_instance_id Route53RecordsExclusive#traffic_policy_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#traffic_policy_instance_id Route53RecordsExclusive#traffic_policy_instance_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "trafficPolicyInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TrafficPolicyInstanceId
@@ -316,7 +316,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#ttl Route53RecordsExclusive#ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#ttl Route53RecordsExclusive#ttl}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ttl
@@ -324,7 +324,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#type Route53RecordsExclusive#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#type Route53RecordsExclusive#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type
@@ -332,7 +332,7 @@ namespace aws.Route53RecordsExclusive
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/route53_records_exclusive#weight Route53RecordsExclusive#weight}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/route53_records_exclusive#weight Route53RecordsExclusive#weight}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Weight

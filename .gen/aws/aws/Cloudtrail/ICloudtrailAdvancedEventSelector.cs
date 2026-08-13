@@ -9,7 +9,7 @@ namespace aws.Cloudtrail
     {
         /// <summary>field_selector block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cloudtrail#field_selector Cloudtrail#field_selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudtrail#field_selector Cloudtrail#field_selector}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Cloudtrail.ICloudtrailAdvancedEventSelectorFieldSelector" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "fieldSelector", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelector\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace aws.Cloudtrail
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cloudtrail#name Cloudtrail#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudtrail#name Cloudtrail#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -38,7 +38,7 @@ namespace aws.Cloudtrail
 
             /// <summary>field_selector block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cloudtrail#field_selector Cloudtrail#field_selector}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudtrail#field_selector Cloudtrail#field_selector}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Cloudtrail.ICloudtrailAdvancedEventSelectorFieldSelector" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "fieldSelector", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudtrail.CloudtrailAdvancedEventSelectorFieldSelector\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace aws.Cloudtrail
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/cloudtrail#name Cloudtrail#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudtrail#name Cloudtrail#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

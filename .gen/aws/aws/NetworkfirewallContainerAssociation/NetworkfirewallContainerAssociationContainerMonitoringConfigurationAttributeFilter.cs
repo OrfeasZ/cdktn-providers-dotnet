@@ -9,7 +9,7 @@ namespace aws.NetworkfirewallContainerAssociation
     [JsiiByValue(fqn: "aws.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfigurationAttributeFilter")]
     public class NetworkfirewallContainerAssociationContainerMonitoringConfigurationAttributeFilter : aws.NetworkfirewallContainerAssociation.INetworkfirewallContainerAssociationContainerMonitoringConfigurationAttributeFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkfirewall_container_association#key NetworkfirewallContainerAssociation#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace aws.NetworkfirewallContainerAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.59.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkfirewall_container_association#value NetworkfirewallContainerAssociation#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
