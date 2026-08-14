@@ -13,7 +13,7 @@
     "kislerdm/neon@0.15.0",
     "scaleway/scaleway@2.80.0",
     "stripe/stripe@0.3.0",
-    "hashicorp/null@3.3.0",
+    "hashicorp/null@3.3.1",
     "tailscale/tailscale@0.29.2",
     "dmacvicar/libvirt@0.9.8",
     "oracle/oci@8.27.0",
