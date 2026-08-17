@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayAnnotationsValue
     {
         /// <summary>The ID of the annotation value to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/annotations_value#value_id DataScalewayAnnotationsValue#value_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/data-sources/annotations_value#value_id DataScalewayAnnotationsValue#value_id}
         /// </remarks>
         [JsiiProperty(name: "valueId", typeJson: "{\"primitive\":\"string\"}")]
         public string ValueId

@@ -11,7 +11,7 @@ namespace scaleway.AnnotationsBinding
     {
         /// <summary>Scaleway Resource Number to associate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/annotations_binding#srn AnnotationsBinding#srn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/annotations_binding#srn AnnotationsBinding#srn}
         /// </remarks>
         [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
         public string Srn
@@ -22,7 +22,7 @@ namespace scaleway.AnnotationsBinding
 
         /// <summary>ID of the value to associate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/annotations_binding#value_id AnnotationsBinding#value_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/annotations_binding#value_id AnnotationsBinding#value_id}
         /// </remarks>
         [JsiiProperty(name: "valueId", typeJson: "{\"primitive\":\"string\"}")]
         public string ValueId

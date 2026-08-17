@@ -9,7 +9,7 @@ namespace scaleway.EdgeServicesCacheStage
     {
         /// <summary>Defines whether to purge all content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/edge_services_cache_stage#all EdgeServicesCacheStage#all}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_cache_stage#all EdgeServicesCacheStage#all}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "all", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace scaleway.EdgeServicesCacheStage
 
         /// <summary>The list of asserts to purge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/edge_services_cache_stage#assets EdgeServicesCacheStage#assets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_cache_stage#assets EdgeServicesCacheStage#assets}
         /// </remarks>
         [JsiiProperty(name: "assets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace scaleway.EdgeServicesCacheStage
 
         /// <summary>The pipeline ID in which the purge request will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/edge_services_cache_stage#pipeline_id EdgeServicesCacheStage#pipeline_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_cache_stage#pipeline_id EdgeServicesCacheStage#pipeline_id}
         /// </remarks>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace scaleway.EdgeServicesCacheStage
 
             /// <summary>Defines whether to purge all content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/edge_services_cache_stage#all EdgeServicesCacheStage#all}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_cache_stage#all EdgeServicesCacheStage#all}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -71,7 +71,7 @@ namespace scaleway.EdgeServicesCacheStage
 
             /// <summary>The list of asserts to purge.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/edge_services_cache_stage#assets EdgeServicesCacheStage#assets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_cache_stage#assets EdgeServicesCacheStage#assets}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "assets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.EdgeServicesCacheStage
 
             /// <summary>The pipeline ID in which the purge request will be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/edge_services_cache_stage#pipeline_id EdgeServicesCacheStage#pipeline_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_cache_stage#pipeline_id EdgeServicesCacheStage#pipeline_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Set the volume where the boot the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/instance_server#boot InstanceServer#boot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#boot InstanceServer#boot}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Force deletion of the root volume on instance termination.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/instance_server#delete_on_termination InstanceServer#delete_on_termination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#delete_on_termination InstanceServer#delete_on_termination}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Name of the root volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/instance_server#name InstanceServer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#name InstanceServer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>SBS Volume IOPS, only with volume_type as sbs_volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/instance_server#sbs_iops InstanceServer#sbs_iops}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#sbs_iops InstanceServer#sbs_iops}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sbsIops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Size of the root volume in gigabytes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/instance_server#size_in_gb InstanceServer#size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#size_in_gb InstanceServer#size_in_gb}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Volume ID of the root volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/instance_server#volume_id InstanceServer#volume_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#volume_id InstanceServer#volume_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Volume type of the root volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/instance_server#volume_type InstanceServer#volume_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#volume_type InstanceServer#volume_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

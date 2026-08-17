@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayAnnotationsBinding
     {
         /// <summary>The ID of the annotation binding to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/annotations_binding#binding_id DataScalewayAnnotationsBinding#binding_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/data-sources/annotations_binding#binding_id DataScalewayAnnotationsBinding#binding_id}
         /// </remarks>
         [JsiiProperty(name: "bindingId", typeJson: "{\"primitive\":\"string\"}")]
         public string BindingId

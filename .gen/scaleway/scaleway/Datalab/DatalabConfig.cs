@@ -11,7 +11,7 @@ namespace scaleway.Datalab
     {
         /// <summary>The ID of the private network to attach the Datalab to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#private_network_id Datalab#private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#private_network_id Datalab#private_network_id}
         /// </remarks>
         [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateNetworkId
@@ -22,7 +22,7 @@ namespace scaleway.Datalab
 
         /// <summary>The Spark version to use for the Datalab instance. Available versions can be retrieved from `ListClusterVersions`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#spark_version Datalab#spark_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#spark_version Datalab#spark_version}
         /// </remarks>
         [JsiiProperty(name: "sparkVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string SparkVersion
@@ -33,7 +33,7 @@ namespace scaleway.Datalab
 
         /// <summary>A description for the Datalab instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#description Datalab#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#description Datalab#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace scaleway.Datalab
 
         /// <summary>Whether a JupyterLab notebook is associated with the Datalab.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#has_notebook Datalab#has_notebook}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#has_notebook Datalab#has_notebook}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace scaleway.Datalab
 
         /// <summary>The Spark main node configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#main Datalab#main}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#main Datalab#main}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "main", typeJson: "{\"fqn\":\"scaleway.datalab.DatalabMain\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace scaleway.Datalab
 
         /// <summary>The name of the Datalab instance. If not provided, a random name is generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#name Datalab#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#name Datalab#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace scaleway.Datalab
 
         /// <summary>The project ID the Datalab belongs to. Defaults to the provider's project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#project_id Datalab#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#project_id Datalab#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.Datalab
 
         /// <summary>The region the Datalab is in. Only `fr-par` is currently supported.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#region Datalab#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#region Datalab#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace scaleway.Datalab
 
         /// <summary>Tags associated with the Datalab instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#tags Datalab#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#tags Datalab#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace scaleway.Datalab
 
         /// <summary>Persistent volume storage configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#total_storage Datalab#total_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#total_storage Datalab#total_storage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "totalStorage", typeJson: "{\"fqn\":\"scaleway.datalab.DatalabTotalStorage\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace scaleway.Datalab
 
         /// <summary>The Spark worker nodes configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/datalab#worker Datalab#worker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/datalab#worker Datalab#worker}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "worker", typeJson: "{\"fqn\":\"scaleway.datalab.DatalabWorker\"}", isOptional: true)]

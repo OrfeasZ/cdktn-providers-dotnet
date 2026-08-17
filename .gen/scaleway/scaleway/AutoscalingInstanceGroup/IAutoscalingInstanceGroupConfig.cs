@@ -9,7 +9,7 @@ namespace scaleway.AutoscalingInstanceGroup
     {
         /// <summary>ID of the Instance template to attach to the Instance group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#template_id AutoscalingInstanceGroup#template_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#template_id AutoscalingInstanceGroup#template_id}
         /// </remarks>
         [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}")]
         string TemplateId
@@ -19,7 +19,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>capacity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#capacity AutoscalingInstanceGroup#capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#capacity AutoscalingInstanceGroup#capacity}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupCapacity" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "capacity", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupCapacity\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace scaleway.AutoscalingInstanceGroup
         /// <remarks>
         /// Set to <c>true</c> to tear them down, <c>false</c> (the default) leaves them running
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#delete_servers_on_destroy AutoscalingInstanceGroup#delete_servers_on_destroy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#delete_servers_on_destroy AutoscalingInstanceGroup#delete_servers_on_destroy}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "deleteServersOnDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace scaleway.AutoscalingInstanceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#id AutoscalingInstanceGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#id AutoscalingInstanceGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>load_balancer block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#load_balancer AutoscalingInstanceGroup#load_balancer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#load_balancer AutoscalingInstanceGroup#load_balancer}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupLoadBalancer" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "loadBalancer", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingInstanceGroup.AutoscalingInstanceGroupLoadBalancer\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>The Instance group name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#name AutoscalingInstanceGroup#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#name AutoscalingInstanceGroup#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#project_id AutoscalingInstanceGroup#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#project_id AutoscalingInstanceGroup#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>The tags associated with the Instance group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#tags AutoscalingInstanceGroup#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#tags AutoscalingInstanceGroup#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,7 +123,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#zone AutoscalingInstanceGroup#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#zone AutoscalingInstanceGroup#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -144,7 +144,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>ID of the Instance template to attach to the Instance group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#template_id AutoscalingInstanceGroup#template_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#template_id AutoscalingInstanceGroup#template_id}
             /// </remarks>
             [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}")]
             public string TemplateId
@@ -154,7 +154,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>capacity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#capacity AutoscalingInstanceGroup#capacity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#capacity AutoscalingInstanceGroup#capacity}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupCapacity" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -168,7 +168,7 @@ namespace scaleway.AutoscalingInstanceGroup
             /// <remarks>
             /// Set to <c>true</c> to tear them down, <c>false</c> (the default) leaves them running
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#delete_servers_on_destroy AutoscalingInstanceGroup#delete_servers_on_destroy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#delete_servers_on_destroy AutoscalingInstanceGroup#delete_servers_on_destroy}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -178,7 +178,7 @@ namespace scaleway.AutoscalingInstanceGroup
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#id AutoscalingInstanceGroup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#id AutoscalingInstanceGroup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -192,7 +192,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>load_balancer block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#load_balancer AutoscalingInstanceGroup#load_balancer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#load_balancer AutoscalingInstanceGroup#load_balancer}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingInstanceGroup.IAutoscalingInstanceGroupLoadBalancer" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -204,7 +204,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>The Instance group name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#name AutoscalingInstanceGroup#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#name AutoscalingInstanceGroup#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -215,7 +215,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#project_id AutoscalingInstanceGroup#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#project_id AutoscalingInstanceGroup#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -226,7 +226,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>The tags associated with the Instance group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#tags AutoscalingInstanceGroup#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#tags AutoscalingInstanceGroup#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -237,7 +237,7 @@ namespace scaleway.AutoscalingInstanceGroup
 
             /// <summary>The zone you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/autoscaling_instance_group#zone AutoscalingInstanceGroup#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/autoscaling_instance_group#zone AutoscalingInstanceGroup#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

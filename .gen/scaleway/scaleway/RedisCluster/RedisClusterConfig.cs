@@ -11,7 +11,7 @@ namespace scaleway.RedisCluster
     {
         /// <summary>Type of node to use for the cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#node_type RedisCluster#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#node_type RedisCluster#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeType
@@ -22,7 +22,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Name of the user created when the cluster is created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#user_name RedisCluster#user_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#user_name RedisCluster#user_name}
         /// </remarks>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
@@ -33,7 +33,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Redis version of the cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#version RedisCluster#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#version RedisCluster#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public string Version
@@ -46,7 +46,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>acl block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#acl RedisCluster#acl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#acl RedisCluster#acl}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterAcl" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Number of nodes for the cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#cluster_size RedisCluster#cluster_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#cluster_size RedisCluster#cluster_size}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clusterSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace scaleway.RedisCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#id RedisCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#id RedisCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -104,7 +104,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Name of the redis cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#name RedisCluster#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#name RedisCluster#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Password of the user. Only one of `password` or `password_wo` should be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#password RedisCluster#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#password RedisCluster#password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Password of the user in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#password_wo RedisCluster#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#password_wo RedisCluster#password_wo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#password_wo_version RedisCluster#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#password_wo_version RedisCluster#password_wo_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>private_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#private_ips RedisCluster#private_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#private_ips RedisCluster#private_ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterPrivateIps" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -189,7 +189,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#private_network RedisCluster#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#private_network RedisCluster#private_network}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.RedisCluster.IRedisClusterPrivateNetwork" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -222,7 +222,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#project_id RedisCluster#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#project_id RedisCluster#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -234,7 +234,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>public_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#public_network RedisCluster#public_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#public_network RedisCluster#public_network}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicNetwork", typeJson: "{\"fqn\":\"scaleway.redisCluster.RedisClusterPublicNetwork\"}", isOptional: true)]
@@ -246,7 +246,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Map of settings to define for the cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#settings RedisCluster#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#settings RedisCluster#settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "settings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -258,7 +258,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>List of tags ["tag1", "tag2", ...] attached to a redis cluster.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#tags RedisCluster#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#tags RedisCluster#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -270,7 +270,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#timeouts RedisCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#timeouts RedisCluster#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.redisCluster.RedisClusterTimeouts\"}", isOptional: true)]
@@ -284,7 +284,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>Whether or not TLS is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#tls_enabled RedisCluster#tls_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#tls_enabled RedisCluster#tls_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -317,7 +317,7 @@ namespace scaleway.RedisCluster
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/redis_cluster#zone RedisCluster#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/redis_cluster#zone RedisCluster#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

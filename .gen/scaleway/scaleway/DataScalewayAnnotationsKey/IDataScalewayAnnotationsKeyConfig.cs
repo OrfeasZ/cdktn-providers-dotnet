@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayAnnotationsKey
     {
         /// <summary>The ID of the annotation key to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/annotations_key#key_id DataScalewayAnnotationsKey#key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/data-sources/annotations_key#key_id DataScalewayAnnotationsKey#key_id}
         /// </remarks>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyId
@@ -26,7 +26,7 @@ namespace scaleway.DataScalewayAnnotationsKey
 
             /// <summary>The ID of the annotation key to retrieve.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/data-sources/annotations_key#key_id DataScalewayAnnotationsKey#key_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/data-sources/annotations_key#key_id DataScalewayAnnotationsKey#key_id}
             /// </remarks>
             [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyId

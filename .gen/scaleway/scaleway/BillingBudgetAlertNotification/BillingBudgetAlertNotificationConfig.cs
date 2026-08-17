@@ -11,7 +11,7 @@ namespace scaleway.BillingBudgetAlertNotification
     {
         /// <summary>The ID of the budget alert to create notification for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget_alert_notification#budget_alert_id BillingBudgetAlertNotification#budget_alert_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/billing_budget_alert_notification#budget_alert_id BillingBudgetAlertNotification#budget_alert_id}
         /// </remarks>
         [JsiiProperty(name: "budgetAlertId", typeJson: "{\"primitive\":\"string\"}")]
         public string BudgetAlertId
@@ -22,7 +22,7 @@ namespace scaleway.BillingBudgetAlertNotification
 
         /// <summary>List of email addresses to receive email notifications. Precisely one of sms_phone_numbers, email_addresses, or webhook_urls must be set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget_alert_notification#email_addresses BillingBudgetAlertNotification#email_addresses}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/billing_budget_alert_notification#email_addresses BillingBudgetAlertNotification#email_addresses}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.BillingBudgetAlertNotification
 
         /// <summary>List of phone numbers to receive SMS notifications. Precisely one of sms_phone_numbers, email_addresses, or webhook_urls must be set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget_alert_notification#sms_phone_numbers BillingBudgetAlertNotification#sms_phone_numbers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/billing_budget_alert_notification#sms_phone_numbers BillingBudgetAlertNotification#sms_phone_numbers}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "smsPhoneNumbers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.BillingBudgetAlertNotification
 
         /// <summary>List of webhook URLs to receive webhook notifications. Precisely one of sms_phone_numbers, email_addresses, or webhook_urls must be set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.80.0/docs/resources/billing_budget_alert_notification#webhook_urls BillingBudgetAlertNotification#webhook_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/billing_budget_alert_notification#webhook_urls BillingBudgetAlertNotification#webhook_urls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "webhookUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
