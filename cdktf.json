@@ -22,7 +22,7 @@
     "hashicorp/azuread@3.9.0",
     "microsoft/azuredevops@1.16.0",
     "hashicorp/azurestack@1.0.0",
-    "cyrilgdn/postgresql@1.26.0"
+    "cyrilgdn/postgresql@1.27.0"
   ],
   "terraformModules": [],
   "context": {}

@@ -16,5 +16,6 @@
   "registry.terraform.io/azure/azapi": "2.12.0",
   "registry.terraform.io/hashicorp/azuread": "3.9.0",
   "registry.terraform.io/microsoft/azuredevops": "1.16.0",
-  "registry.terraform.io/hashicorp/azurestack": "1.0.0"
+  "registry.terraform.io/hashicorp/azurestack": "1.0.0",
+  "registry.terraform.io/cyrilgdn/postgresql": "1.27.0"
 }
