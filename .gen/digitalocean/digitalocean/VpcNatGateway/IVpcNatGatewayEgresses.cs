@@ -9,7 +9,7 @@ namespace digitalocean.VpcNatGateway
     {
         /// <summary>public_gateways block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vpc_nat_gateway#public_gateways VpcNatGateway#public_gateways}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/vpc_nat_gateway#public_gateways VpcNatGateway#public_gateways}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.VpcNatGateway.IVpcNatGatewayEgressesPublicGateways" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "publicGateways", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.vpcNatGateway.VpcNatGatewayEgressesPublicGateways\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace digitalocean.VpcNatGateway
 
             /// <summary>public_gateways block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/vpc_nat_gateway#public_gateways VpcNatGateway#public_gateways}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/vpc_nat_gateway#public_gateways VpcNatGateway#public_gateways}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.VpcNatGateway.IVpcNatGatewayEgressesPublicGateways" />)[]</para>
             /// </remarks>
             [JsiiOptional]

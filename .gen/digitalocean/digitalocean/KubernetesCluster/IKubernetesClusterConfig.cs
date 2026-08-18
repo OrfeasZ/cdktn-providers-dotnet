@@ -7,7 +7,7 @@ namespace digitalocean.KubernetesCluster
     [JsiiInterface(nativeType: typeof(IKubernetesClusterConfig), fullyQualifiedName: "digitalocean.kubernetesCluster.KubernetesClusterConfig")]
     public interface IKubernetesClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#name KubernetesCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>node_pool block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#node_pool KubernetesCluster#node_pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#node_pool KubernetesCluster#node_pool}
         /// </remarks>
         [JsiiProperty(name: "nodePool", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNodePool\"}")]
         digitalocean.KubernetesCluster.IKubernetesClusterNodePool NodePool
@@ -24,14 +24,14 @@ namespace digitalocean.KubernetesCluster
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#region KubernetesCluster#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#region KubernetesCluster#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#version KubernetesCluster#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#version KubernetesCluster#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         string Version
         {
@@ -40,7 +40,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>amd_gpu_device_metrics_exporter_plugin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#amd_gpu_device_metrics_exporter_plugin KubernetesCluster#amd_gpu_device_metrics_exporter_plugin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#amd_gpu_device_metrics_exporter_plugin KubernetesCluster#amd_gpu_device_metrics_exporter_plugin}
         /// </remarks>
         [JsiiProperty(name: "amdGpuDeviceMetricsExporterPlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterAmdGpuDeviceMetricsExporterPlugin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>amd_gpu_device_plugin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#amd_gpu_device_plugin KubernetesCluster#amd_gpu_device_plugin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#amd_gpu_device_plugin KubernetesCluster#amd_gpu_device_plugin}
         /// </remarks>
         [JsiiProperty(name: "amdGpuDevicePlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterAmdGpuDevicePlugin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>amd_gpu_dra_driver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#amd_gpu_dra_driver KubernetesCluster#amd_gpu_dra_driver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#amd_gpu_dra_driver KubernetesCluster#amd_gpu_dra_driver}
         /// </remarks>
         [JsiiProperty(name: "amdGpuDraDriver", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterAmdGpuDraDriver\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#auto_upgrade KubernetesCluster#auto_upgrade}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#auto_upgrade KubernetesCluster#auto_upgrade}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -96,7 +96,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>cluster_autoscaler_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#cluster_autoscaler_configuration KubernetesCluster#cluster_autoscaler_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#cluster_autoscaler_configuration KubernetesCluster#cluster_autoscaler_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.KubernetesCluster.IKubernetesClusterClusterAutoscalerConfiguration" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "clusterAutoscalerConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterClusterAutoscalerConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#cluster_subnet KubernetesCluster#cluster_subnet}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#cluster_subnet KubernetesCluster#cluster_subnet}.</summary>
         [JsiiProperty(name: "clusterSubnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterSubnet
@@ -122,7 +122,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>control_plane_firewall block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#control_plane_firewall KubernetesCluster#control_plane_firewall}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#control_plane_firewall KubernetesCluster#control_plane_firewall}
         /// </remarks>
         [JsiiProperty(name: "controlPlaneFirewall", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterControlPlaneFirewall\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +136,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>coredns_autoscaler block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#coredns_autoscaler KubernetesCluster#coredns_autoscaler}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#coredns_autoscaler KubernetesCluster#coredns_autoscaler}
         /// </remarks>
         [JsiiProperty(name: "corednsAutoscaler", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterCorednsAutoscaler\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -148,7 +148,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#destroy_all_associated_resources KubernetesCluster#destroy_all_associated_resources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#destroy_all_associated_resources KubernetesCluster#destroy_all_associated_resources}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -162,7 +162,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#ha KubernetesCluster#ha}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#ha KubernetesCluster#ha}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -176,7 +176,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#id KubernetesCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#id KubernetesCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -191,7 +191,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#isolated_workers KubernetesCluster#isolated_workers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#isolated_workers KubernetesCluster#isolated_workers}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -205,7 +205,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#kubeconfig_expire_seconds KubernetesCluster#kubeconfig_expire_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#kubeconfig_expire_seconds KubernetesCluster#kubeconfig_expire_seconds}.</summary>
         [JsiiProperty(name: "kubeconfigExpireSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? KubeconfigExpireSeconds
@@ -218,7 +218,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>maintenance_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#maintenance_policy KubernetesCluster#maintenance_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#maintenance_policy KubernetesCluster#maintenance_policy}
         /// </remarks>
         [JsiiProperty(name: "maintenancePolicy", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterMaintenancePolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -232,7 +232,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>nvidia_gpu_device_plugin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#nvidia_gpu_device_plugin KubernetesCluster#nvidia_gpu_device_plugin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#nvidia_gpu_device_plugin KubernetesCluster#nvidia_gpu_device_plugin}
         /// </remarks>
         [JsiiProperty(name: "nvidiaGpuDevicePlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNvidiaGpuDevicePlugin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -246,7 +246,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>nvidia_gpu_dra_driver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#nvidia_gpu_dra_driver KubernetesCluster#nvidia_gpu_dra_driver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#nvidia_gpu_dra_driver KubernetesCluster#nvidia_gpu_dra_driver}
         /// </remarks>
         [JsiiProperty(name: "nvidiaGpuDraDriver", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNvidiaGpuDraDriver\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -260,7 +260,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>p2p_oci_registry_plugin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#p2p_oci_registry_plugin KubernetesCluster#p2p_oci_registry_plugin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#p2p_oci_registry_plugin KubernetesCluster#p2p_oci_registry_plugin}
         /// </remarks>
         [JsiiProperty(name: "p2POciRegistryPlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterP2POciRegistryPlugin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -274,7 +274,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>rdma_shared_device_plugin block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#rdma_shared_device_plugin KubernetesCluster#rdma_shared_device_plugin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#rdma_shared_device_plugin KubernetesCluster#rdma_shared_device_plugin}
         /// </remarks>
         [JsiiProperty(name: "rdmaSharedDevicePlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterRdmaSharedDevicePlugin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -286,7 +286,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#registry_integration KubernetesCluster#registry_integration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#registry_integration KubernetesCluster#registry_integration}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -302,7 +302,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>routing_agent block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#routing_agent KubernetesCluster#routing_agent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#routing_agent KubernetesCluster#routing_agent}
         /// </remarks>
         [JsiiProperty(name: "routingAgent", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterRoutingAgent\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -314,7 +314,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#service_subnet KubernetesCluster#service_subnet}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#service_subnet KubernetesCluster#service_subnet}.</summary>
         [JsiiProperty(name: "serviceSubnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ServiceSubnet
@@ -327,7 +327,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>sso block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#sso KubernetesCluster#sso}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#sso KubernetesCluster#sso}
         /// </remarks>
         [JsiiProperty(name: "sso", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterSso\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -339,7 +339,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#surge_upgrade KubernetesCluster#surge_upgrade}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#surge_upgrade KubernetesCluster#surge_upgrade}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -353,7 +353,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Tags
@@ -366,7 +366,7 @@ namespace digitalocean.KubernetesCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -378,7 +378,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#vpc_uuid KubernetesCluster#vpc_uuid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#vpc_uuid KubernetesCluster#vpc_uuid}.</summary>
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VpcUuid
@@ -389,7 +389,7 @@ namespace digitalocean.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#worker_subnet_uuid KubernetesCluster#worker_subnet_uuid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#worker_subnet_uuid KubernetesCluster#worker_subnet_uuid}.</summary>
         [JsiiProperty(name: "workerSubnetUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WorkerSubnetUuid
@@ -407,7 +407,7 @@ namespace digitalocean.KubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#name KubernetesCluster#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -416,7 +416,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>node_pool block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#node_pool KubernetesCluster#node_pool}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#node_pool KubernetesCluster#node_pool}
             /// </remarks>
             [JsiiProperty(name: "nodePool", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNodePool\"}")]
             public digitalocean.KubernetesCluster.IKubernetesClusterNodePool NodePool
@@ -424,14 +424,14 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterNodePool>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#region KubernetesCluster#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#region KubernetesCluster#region}.</summary>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#version KubernetesCluster#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#version KubernetesCluster#version}.</summary>
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
             public string Version
             {
@@ -440,7 +440,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>amd_gpu_device_metrics_exporter_plugin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#amd_gpu_device_metrics_exporter_plugin KubernetesCluster#amd_gpu_device_metrics_exporter_plugin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#amd_gpu_device_metrics_exporter_plugin KubernetesCluster#amd_gpu_device_metrics_exporter_plugin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amdGpuDeviceMetricsExporterPlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterAmdGpuDeviceMetricsExporterPlugin\"}", isOptional: true)]
@@ -451,7 +451,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>amd_gpu_device_plugin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#amd_gpu_device_plugin KubernetesCluster#amd_gpu_device_plugin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#amd_gpu_device_plugin KubernetesCluster#amd_gpu_device_plugin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amdGpuDevicePlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterAmdGpuDevicePlugin\"}", isOptional: true)]
@@ -462,7 +462,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>amd_gpu_dra_driver block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#amd_gpu_dra_driver KubernetesCluster#amd_gpu_dra_driver}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#amd_gpu_dra_driver KubernetesCluster#amd_gpu_dra_driver}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amdGpuDraDriver", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterAmdGpuDraDriver\"}", isOptional: true)]
@@ -471,7 +471,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterAmdGpuDraDriver?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#auto_upgrade KubernetesCluster#auto_upgrade}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#auto_upgrade KubernetesCluster#auto_upgrade}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -484,7 +484,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>cluster_autoscaler_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#cluster_autoscaler_configuration KubernetesCluster#cluster_autoscaler_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#cluster_autoscaler_configuration KubernetesCluster#cluster_autoscaler_configuration}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.KubernetesCluster.IKubernetesClusterClusterAutoscalerConfiguration" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -494,7 +494,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#cluster_subnet KubernetesCluster#cluster_subnet}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#cluster_subnet KubernetesCluster#cluster_subnet}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterSubnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterSubnet
@@ -504,7 +504,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>control_plane_firewall block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#control_plane_firewall KubernetesCluster#control_plane_firewall}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#control_plane_firewall KubernetesCluster#control_plane_firewall}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "controlPlaneFirewall", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterControlPlaneFirewall\"}", isOptional: true)]
@@ -515,7 +515,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>coredns_autoscaler block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#coredns_autoscaler KubernetesCluster#coredns_autoscaler}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#coredns_autoscaler KubernetesCluster#coredns_autoscaler}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "corednsAutoscaler", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterCorednsAutoscaler\"}", isOptional: true)]
@@ -524,7 +524,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterCorednsAutoscaler?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#destroy_all_associated_resources KubernetesCluster#destroy_all_associated_resources}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#destroy_all_associated_resources KubernetesCluster#destroy_all_associated_resources}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -535,7 +535,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#ha KubernetesCluster#ha}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#ha KubernetesCluster#ha}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -546,7 +546,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#id KubernetesCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#id KubernetesCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -558,7 +558,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#isolated_workers KubernetesCluster#isolated_workers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#isolated_workers KubernetesCluster#isolated_workers}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -569,7 +569,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#kubeconfig_expire_seconds KubernetesCluster#kubeconfig_expire_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#kubeconfig_expire_seconds KubernetesCluster#kubeconfig_expire_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kubeconfigExpireSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? KubeconfigExpireSeconds
@@ -579,7 +579,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>maintenance_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#maintenance_policy KubernetesCluster#maintenance_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#maintenance_policy KubernetesCluster#maintenance_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenancePolicy", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterMaintenancePolicy\"}", isOptional: true)]
@@ -590,7 +590,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>nvidia_gpu_device_plugin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#nvidia_gpu_device_plugin KubernetesCluster#nvidia_gpu_device_plugin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#nvidia_gpu_device_plugin KubernetesCluster#nvidia_gpu_device_plugin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nvidiaGpuDevicePlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNvidiaGpuDevicePlugin\"}", isOptional: true)]
@@ -601,7 +601,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>nvidia_gpu_dra_driver block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#nvidia_gpu_dra_driver KubernetesCluster#nvidia_gpu_dra_driver}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#nvidia_gpu_dra_driver KubernetesCluster#nvidia_gpu_dra_driver}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nvidiaGpuDraDriver", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterNvidiaGpuDraDriver\"}", isOptional: true)]
@@ -612,7 +612,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>p2p_oci_registry_plugin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#p2p_oci_registry_plugin KubernetesCluster#p2p_oci_registry_plugin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#p2p_oci_registry_plugin KubernetesCluster#p2p_oci_registry_plugin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "p2POciRegistryPlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterP2POciRegistryPlugin\"}", isOptional: true)]
@@ -623,7 +623,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>rdma_shared_device_plugin block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#rdma_shared_device_plugin KubernetesCluster#rdma_shared_device_plugin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#rdma_shared_device_plugin KubernetesCluster#rdma_shared_device_plugin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rdmaSharedDevicePlugin", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterRdmaSharedDevicePlugin\"}", isOptional: true)]
@@ -632,7 +632,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterRdmaSharedDevicePlugin?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#registry_integration KubernetesCluster#registry_integration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#registry_integration KubernetesCluster#registry_integration}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -645,7 +645,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>routing_agent block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#routing_agent KubernetesCluster#routing_agent}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#routing_agent KubernetesCluster#routing_agent}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routingAgent", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterRoutingAgent\"}", isOptional: true)]
@@ -654,7 +654,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterRoutingAgent?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#service_subnet KubernetesCluster#service_subnet}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#service_subnet KubernetesCluster#service_subnet}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "serviceSubnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ServiceSubnet
@@ -664,7 +664,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>sso block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#sso KubernetesCluster#sso}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#sso KubernetesCluster#sso}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sso", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterSso\"}", isOptional: true)]
@@ -673,7 +673,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterSso?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#surge_upgrade KubernetesCluster#surge_upgrade}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#surge_upgrade KubernetesCluster#surge_upgrade}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -684,7 +684,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#tags KubernetesCluster#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Tags
@@ -694,7 +694,7 @@ namespace digitalocean.KubernetesCluster
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.kubernetesCluster.KubernetesClusterTimeouts\"}", isOptional: true)]
@@ -703,7 +703,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<digitalocean.KubernetesCluster.IKubernetesClusterTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#vpc_uuid KubernetesCluster#vpc_uuid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#vpc_uuid KubernetesCluster#vpc_uuid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VpcUuid
@@ -711,7 +711,7 @@ namespace digitalocean.KubernetesCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/resources/kubernetes_cluster#worker_subnet_uuid KubernetesCluster#worker_subnet_uuid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/resources/kubernetes_cluster#worker_subnet_uuid KubernetesCluster#worker_subnet_uuid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workerSubnetUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WorkerSubnetUuid

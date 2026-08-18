@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>agreement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#agreement DataDigitaloceanGradientaiAgent#agreement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#agreement DataDigitaloceanGradientaiAgent#agreement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentTemplateModelAgreement" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Inference name of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#inference_name DataDigitaloceanGradientaiAgent#inference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#inference_name DataDigitaloceanGradientaiAgent#inference_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Infernce version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#inference_version DataDigitaloceanGradientaiAgent#inference_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#inference_version DataDigitaloceanGradientaiAgent#inference_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Indicates if the Model Base is foundational.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#is_foundational DataDigitaloceanGradientaiAgent#is_foundational}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#is_foundational DataDigitaloceanGradientaiAgent#is_foundational}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -103,7 +103,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Name of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#name DataDigitaloceanGradientaiAgent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#name DataDigitaloceanGradientaiAgent#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Parent UUID of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#parent_uuid DataDigitaloceanGradientaiAgent#parent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#parent_uuid DataDigitaloceanGradientaiAgent#parent_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Provider of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#provider DataDigitaloceanGradientaiAgent#provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#provider DataDigitaloceanGradientaiAgent#provider}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>Indicates if the Model upload is complete.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#upload_complete DataDigitaloceanGradientaiAgent#upload_complete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#upload_complete DataDigitaloceanGradientaiAgent#upload_complete}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -174,7 +174,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>URL of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#url DataDigitaloceanGradientaiAgent#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#url DataDigitaloceanGradientaiAgent#url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>List of Usecases for the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#usecases DataDigitaloceanGradientaiAgent#usecases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#usecases DataDigitaloceanGradientaiAgent#usecases}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usecases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace digitalocean.DataDigitaloceanGradientaiAgent
 
         /// <summary>versions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.99.1/docs/data-sources/gradientai_agent#versions DataDigitaloceanGradientaiAgent#versions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.100.0/docs/data-sources/gradientai_agent#versions DataDigitaloceanGradientaiAgent#versions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanGradientaiAgent.IDataDigitaloceanGradientaiAgentTemplateModelVersions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
