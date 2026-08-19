@@ -9,7 +9,7 @@ namespace aws.Lexv2ModelsIntent
     {
         private object? _active;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lexv2models_intent#active Lexv2ModelsIntent#active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lexv2models_intent#active Lexv2ModelsIntent#active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>closing_response block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lexv2models_intent#closing_response Lexv2ModelsIntent#closing_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lexv2models_intent#closing_response Lexv2ModelsIntent#closing_response}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentClosingSettingClosingResponse" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>conditional block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lexv2models_intent#conditional Lexv2ModelsIntent#conditional}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lexv2models_intent#conditional Lexv2ModelsIntent#conditional}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentClosingSettingConditional" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -115,7 +115,7 @@ namespace aws.Lexv2ModelsIntent
 
         /// <summary>next_step block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/lexv2models_intent#next_step Lexv2ModelsIntent#next_step}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lexv2models_intent#next_step Lexv2ModelsIntent#next_step}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Lexv2ModelsIntent.ILexv2ModelsIntentClosingSettingNextStep" />)[]</para>
         /// </remarks>
         [JsiiOptional]

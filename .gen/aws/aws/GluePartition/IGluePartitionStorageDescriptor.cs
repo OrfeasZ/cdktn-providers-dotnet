@@ -7,7 +7,7 @@ namespace aws.GluePartition
     [JsiiInterface(nativeType: typeof(IGluePartitionStorageDescriptor), fullyQualifiedName: "aws.gluePartition.GluePartitionStorageDescriptor")]
     public interface IGluePartitionStorageDescriptor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#additional_locations GluePartition#additional_locations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#additional_locations GluePartition#additional_locations}.</summary>
         [JsiiProperty(name: "additionalLocations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AdditionalLocations
@@ -18,7 +18,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#bucket_columns GluePartition#bucket_columns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#bucket_columns GluePartition#bucket_columns}.</summary>
         [JsiiProperty(name: "bucketColumns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? BucketColumns
@@ -31,7 +31,7 @@ namespace aws.GluePartition
 
         /// <summary>columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#columns GluePartition#columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#columns GluePartition#columns}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorColumns" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "columns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#compressed GluePartition#compressed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#compressed GluePartition#compressed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -58,7 +58,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#input_format GluePartition#input_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#input_format GluePartition#input_format}.</summary>
         [JsiiProperty(name: "inputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InputFormat
@@ -69,7 +69,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#location GluePartition#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#location GluePartition#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Location
@@ -80,7 +80,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#number_of_buckets GluePartition#number_of_buckets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#number_of_buckets GluePartition#number_of_buckets}.</summary>
         [JsiiProperty(name: "numberOfBuckets", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? NumberOfBuckets
@@ -91,7 +91,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#output_format GluePartition#output_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#output_format GluePartition#output_format}.</summary>
         [JsiiProperty(name: "outputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OutputFormat
@@ -102,7 +102,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#parameters GluePartition#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#parameters GluePartition#parameters}.</summary>
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -115,7 +115,7 @@ namespace aws.GluePartition
 
         /// <summary>ser_de_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#ser_de_info GluePartition#ser_de_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#ser_de_info GluePartition#ser_de_info}
         /// </remarks>
         [JsiiProperty(name: "serDeInfo", typeJson: "{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorSerDeInfo\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace aws.GluePartition
 
         /// <summary>skewed_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#skewed_info GluePartition#skewed_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#skewed_info GluePartition#skewed_info}
         /// </remarks>
         [JsiiProperty(name: "skewedInfo", typeJson: "{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorSkewedInfo\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +143,7 @@ namespace aws.GluePartition
 
         /// <summary>sort_columns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#sort_columns GluePartition#sort_columns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#sort_columns GluePartition#sort_columns}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorSortColumns" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sortColumns", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorSortColumns\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -156,7 +156,7 @@ namespace aws.GluePartition
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#stored_as_sub_directories GluePartition#stored_as_sub_directories}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#stored_as_sub_directories GluePartition#stored_as_sub_directories}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -177,7 +177,7 @@ namespace aws.GluePartition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#additional_locations GluePartition#additional_locations}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#additional_locations GluePartition#additional_locations}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalLocations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AdditionalLocations
@@ -185,7 +185,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#bucket_columns GluePartition#bucket_columns}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#bucket_columns GluePartition#bucket_columns}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucketColumns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? BucketColumns
@@ -195,7 +195,7 @@ namespace aws.GluePartition
 
             /// <summary>columns block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#columns GluePartition#columns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#columns GluePartition#columns}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorColumns" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -205,7 +205,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#compressed GluePartition#compressed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#compressed GluePartition#compressed}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -216,7 +216,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#input_format GluePartition#input_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#input_format GluePartition#input_format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InputFormat
@@ -224,7 +224,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#location GluePartition#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#location GluePartition#location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Location
@@ -232,7 +232,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#number_of_buckets GluePartition#number_of_buckets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#number_of_buckets GluePartition#number_of_buckets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "numberOfBuckets", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? NumberOfBuckets
@@ -240,7 +240,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#output_format GluePartition#output_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#output_format GluePartition#output_format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "outputFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OutputFormat
@@ -248,7 +248,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#parameters GluePartition#parameters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#parameters GluePartition#parameters}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -258,7 +258,7 @@ namespace aws.GluePartition
 
             /// <summary>ser_de_info block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#ser_de_info GluePartition#ser_de_info}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#ser_de_info GluePartition#ser_de_info}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serDeInfo", typeJson: "{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorSerDeInfo\"}", isOptional: true)]
@@ -269,7 +269,7 @@ namespace aws.GluePartition
 
             /// <summary>skewed_info block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#skewed_info GluePartition#skewed_info}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#skewed_info GluePartition#skewed_info}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "skewedInfo", typeJson: "{\"fqn\":\"aws.gluePartition.GluePartitionStorageDescriptorSkewedInfo\"}", isOptional: true)]
@@ -280,7 +280,7 @@ namespace aws.GluePartition
 
             /// <summary>sort_columns block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#sort_columns GluePartition#sort_columns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#sort_columns GluePartition#sort_columns}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GluePartition.IGluePartitionStorageDescriptorSortColumns" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -290,7 +290,7 @@ namespace aws.GluePartition
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_partition#stored_as_sub_directories GluePartition#stored_as_sub_directories}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_partition#stored_as_sub_directories GluePartition#stored_as_sub_directories}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

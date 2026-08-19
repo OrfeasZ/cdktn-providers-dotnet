@@ -9,7 +9,7 @@ namespace aws.MailmanagerRuleSet
     [JsiiByValue(fqn: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleUnlessBooleanExpression")]
     public class MailmanagerRuleSetRuleUnlessBooleanExpression : aws.MailmanagerRuleSet.IMailmanagerRuleSetRuleUnlessBooleanExpression
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#operator MailmanagerRuleSet#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -21,7 +21,7 @@ namespace aws.MailmanagerRuleSet
 
         /// <summary>evaluate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#evaluate MailmanagerRuleSet#evaluate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#evaluate MailmanagerRuleSet#evaluate}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MailmanagerRuleSet.IMailmanagerRuleSetRuleUnlessBooleanExpressionEvaluate" />)[]</para>
         /// </remarks>
         [JsiiOptional]

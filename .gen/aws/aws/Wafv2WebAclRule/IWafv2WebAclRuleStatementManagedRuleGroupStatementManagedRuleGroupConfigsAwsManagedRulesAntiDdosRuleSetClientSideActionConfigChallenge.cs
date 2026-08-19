@@ -7,7 +7,7 @@ namespace aws.Wafv2WebAclRule
     [JsiiInterface(nativeType: typeof(IWafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfigChallenge), fullyQualifiedName: "aws.wafv2WebAclRule.Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfigChallenge")]
     public interface IWafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfigChallenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#usage_of_action Wafv2WebAclRuleA#usage_of_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#usage_of_action Wafv2WebAclRuleA#usage_of_action}.</summary>
         [JsiiProperty(name: "usageOfAction", typeJson: "{\"primitive\":\"string\"}")]
         string UsageOfAction
         {
@@ -16,7 +16,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>exempt_uri_regular_expression block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#exempt_uri_regular_expression Wafv2WebAclRuleA#exempt_uri_regular_expression}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#exempt_uri_regular_expression Wafv2WebAclRuleA#exempt_uri_regular_expression}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfigChallengeExemptUriRegularExpression" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "exemptUriRegularExpression", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfigChallengeExemptUriRegularExpression\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace aws.Wafv2WebAclRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#sensitivity Wafv2WebAclRuleA#sensitivity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#sensitivity Wafv2WebAclRuleA#sensitivity}.</summary>
         [JsiiProperty(name: "sensitivity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Sensitivity
@@ -47,7 +47,7 @@ namespace aws.Wafv2WebAclRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#usage_of_action Wafv2WebAclRuleA#usage_of_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#usage_of_action Wafv2WebAclRuleA#usage_of_action}.</summary>
             [JsiiProperty(name: "usageOfAction", typeJson: "{\"primitive\":\"string\"}")]
             public string UsageOfAction
             {
@@ -56,7 +56,7 @@ namespace aws.Wafv2WebAclRule
 
             /// <summary>exempt_uri_regular_expression block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#exempt_uri_regular_expression Wafv2WebAclRuleA#exempt_uri_regular_expression}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#exempt_uri_regular_expression Wafv2WebAclRuleA#exempt_uri_regular_expression}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementManagedRuleGroupStatementManagedRuleGroupConfigsAwsManagedRulesAntiDdosRuleSetClientSideActionConfigChallengeExemptUriRegularExpression" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -66,7 +66,7 @@ namespace aws.Wafv2WebAclRule
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#sensitivity Wafv2WebAclRuleA#sensitivity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#sensitivity Wafv2WebAclRuleA#sensitivity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sensitivity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Sensitivity

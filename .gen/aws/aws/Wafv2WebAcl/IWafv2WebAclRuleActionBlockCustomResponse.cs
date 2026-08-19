@@ -7,14 +7,14 @@ namespace aws.Wafv2WebAcl
     [JsiiInterface(nativeType: typeof(IWafv2WebAclRuleActionBlockCustomResponse), fullyQualifiedName: "aws.wafv2WebAcl.Wafv2WebAclRuleActionBlockCustomResponse")]
     public interface IWafv2WebAclRuleActionBlockCustomResponse
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl#response_code Wafv2WebAcl#response_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl#response_code Wafv2WebAcl#response_code}.</summary>
         [JsiiProperty(name: "responseCode", typeJson: "{\"primitive\":\"number\"}")]
         double ResponseCode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl#custom_response_body_key Wafv2WebAcl#custom_response_body_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl#custom_response_body_key Wafv2WebAcl#custom_response_body_key}.</summary>
         [JsiiProperty(name: "customResponseBodyKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomResponseBodyKey
@@ -27,7 +27,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>response_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl#response_header Wafv2WebAcl#response_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl#response_header Wafv2WebAcl#response_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclRuleActionBlockCustomResponseResponseHeader" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "responseHeader", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionBlockCustomResponseResponseHeader\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,14 +47,14 @@ namespace aws.Wafv2WebAcl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl#response_code Wafv2WebAcl#response_code}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl#response_code Wafv2WebAcl#response_code}.</summary>
             [JsiiProperty(name: "responseCode", typeJson: "{\"primitive\":\"number\"}")]
             public double ResponseCode
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl#custom_response_body_key Wafv2WebAcl#custom_response_body_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl#custom_response_body_key Wafv2WebAcl#custom_response_body_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customResponseBodyKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomResponseBodyKey
@@ -64,7 +64,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>response_header block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl#response_header Wafv2WebAcl#response_header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl#response_header Wafv2WebAcl#response_header}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclRuleActionBlockCustomResponseResponseHeader" />)[]</para>
             /// </remarks>
             [JsiiOptional]

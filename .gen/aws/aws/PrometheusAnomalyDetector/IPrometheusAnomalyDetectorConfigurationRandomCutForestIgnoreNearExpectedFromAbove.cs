@@ -7,7 +7,7 @@ namespace aws.PrometheusAnomalyDetector
     [JsiiInterface(nativeType: typeof(IPrometheusAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove), fullyQualifiedName: "aws.prometheusAnomalyDetector.PrometheusAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove")]
     public interface IPrometheusAnomalyDetectorConfigurationRandomCutForestIgnoreNearExpectedFromAbove
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_anomaly_detector#amount PrometheusAnomalyDetector#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_anomaly_detector#amount PrometheusAnomalyDetector#amount}.</summary>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Amount
@@ -18,7 +18,7 @@ namespace aws.PrometheusAnomalyDetector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_anomaly_detector#ratio PrometheusAnomalyDetector#ratio}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_anomaly_detector#ratio PrometheusAnomalyDetector#ratio}.</summary>
         [JsiiProperty(name: "ratio", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Ratio
@@ -36,7 +36,7 @@ namespace aws.PrometheusAnomalyDetector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_anomaly_detector#amount PrometheusAnomalyDetector#amount}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_anomaly_detector#amount PrometheusAnomalyDetector#amount}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Amount
@@ -44,7 +44,7 @@ namespace aws.PrometheusAnomalyDetector
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_anomaly_detector#ratio PrometheusAnomalyDetector#ratio}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_anomaly_detector#ratio PrometheusAnomalyDetector#ratio}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ratio", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Ratio

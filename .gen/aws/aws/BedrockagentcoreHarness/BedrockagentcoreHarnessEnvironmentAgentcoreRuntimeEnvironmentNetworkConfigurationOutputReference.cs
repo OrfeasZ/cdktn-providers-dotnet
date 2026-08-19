@@ -59,12 +59,6 @@ namespace aws.BedrockagentcoreHarness
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetNetworkMode")]
-        public virtual void ResetNetworkMode()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetNetworkModeConfig")]
         public virtual void ResetNetworkModeConfig()
         {

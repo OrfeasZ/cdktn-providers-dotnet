@@ -9,7 +9,7 @@ namespace aws.NetworkfirewallContainerAssociation
     [JsiiByValue(fqn: "aws.networkfirewallContainerAssociation.NetworkfirewallContainerAssociationContainerMonitoringConfiguration")]
     public class NetworkfirewallContainerAssociationContainerMonitoringConfiguration : aws.NetworkfirewallContainerAssociation.INetworkfirewallContainerAssociationContainerMonitoringConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkfirewall_container_association#cluster_arn NetworkfirewallContainerAssociation#cluster_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkfirewall_container_association#cluster_arn NetworkfirewallContainerAssociation#cluster_arn}.</summary>
         [JsiiProperty(name: "clusterArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterArn
         {
@@ -21,7 +21,7 @@ namespace aws.NetworkfirewallContainerAssociation
 
         /// <summary>attribute_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/networkfirewall_container_association#attribute_filter NetworkfirewallContainerAssociation#attribute_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/networkfirewall_container_association#attribute_filter NetworkfirewallContainerAssociation#attribute_filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworkfirewallContainerAssociation.INetworkfirewallContainerAssociationContainerMonitoringConfigurationAttributeFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]

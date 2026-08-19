@@ -11,7 +11,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>bounding_box block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/rekognition_stream_processor#bounding_box RekognitionStreamProcessor#bounding_box}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/rekognition_stream_processor#bounding_box RekognitionStreamProcessor#bounding_box}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterestBoundingBox" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.RekognitionStreamProcessor
 
         /// <summary>polygon block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/rekognition_stream_processor#polygon RekognitionStreamProcessor#polygon}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/rekognition_stream_processor#polygon RekognitionStreamProcessor#polygon}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.RekognitionStreamProcessor.IRekognitionStreamProcessorRegionsOfInterestPolygon" />)[]</para>
         /// </remarks>
         [JsiiOptional]

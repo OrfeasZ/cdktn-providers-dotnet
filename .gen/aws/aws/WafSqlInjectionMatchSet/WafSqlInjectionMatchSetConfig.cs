@@ -9,7 +9,7 @@ namespace aws.WafSqlInjectionMatchSet
     [JsiiByValue(fqn: "aws.wafSqlInjectionMatchSet.WafSqlInjectionMatchSetConfig")]
     public class WafSqlInjectionMatchSetConfig : aws.WafSqlInjectionMatchSet.IWafSqlInjectionMatchSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_sql_injection_match_set#name WafSqlInjectionMatchSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_sql_injection_match_set#name WafSqlInjectionMatchSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.WafSqlInjectionMatchSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_sql_injection_match_set#id WafSqlInjectionMatchSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_sql_injection_match_set#id WafSqlInjectionMatchSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace aws.WafSqlInjectionMatchSet
 
         /// <summary>sql_injection_match_tuples block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_sql_injection_match_set#sql_injection_match_tuples WafSqlInjectionMatchSet#sql_injection_match_tuples}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_sql_injection_match_set#sql_injection_match_tuples WafSqlInjectionMatchSet#sql_injection_match_tuples}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.WafSqlInjectionMatchSet.IWafSqlInjectionMatchSetSqlInjectionMatchTuples" />)[]</para>
         /// </remarks>
         [JsiiOptional]

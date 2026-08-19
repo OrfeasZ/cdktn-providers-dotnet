@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     {
         /// <summary>failover_criteria block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_distribution#failover_criteria CloudfrontDistribution#failover_criteria}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_distribution#failover_criteria CloudfrontDistribution#failover_criteria}
         /// </remarks>
         [JsiiProperty(name: "failoverCriteria", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupFailoverCriteria\"}")]
         aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupFailoverCriteria FailoverCriteria
@@ -19,7 +19,7 @@ namespace aws.CloudfrontDistribution
 
         /// <summary>member block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_distribution#member CloudfrontDistribution#member}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_distribution#member CloudfrontDistribution#member}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupMember" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "member", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMember\"},\"kind\":\"array\"}}]}}")]
@@ -28,7 +28,7 @@ namespace aws.CloudfrontDistribution
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
         [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}")]
         string OriginId
         {
@@ -44,7 +44,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>failover_criteria block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_distribution#failover_criteria CloudfrontDistribution#failover_criteria}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_distribution#failover_criteria CloudfrontDistribution#failover_criteria}
             /// </remarks>
             [JsiiProperty(name: "failoverCriteria", typeJson: "{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupFailoverCriteria\"}")]
             public aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupFailoverCriteria FailoverCriteria
@@ -54,7 +54,7 @@ namespace aws.CloudfrontDistribution
 
             /// <summary>member block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_distribution#member CloudfrontDistribution#member}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_distribution#member CloudfrontDistribution#member}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontDistribution.ICloudfrontDistributionOriginGroupMember" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "member", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudfrontDistribution.CloudfrontDistributionOriginGroupMember\"},\"kind\":\"array\"}}]}}")]
@@ -63,7 +63,7 @@ namespace aws.CloudfrontDistribution
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_distribution#origin_id CloudfrontDistribution#origin_id}.</summary>
             [JsiiProperty(name: "originId", typeJson: "{\"primitive\":\"string\"}")]
             public string OriginId
             {

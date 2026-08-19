@@ -35,18 +35,6 @@ namespace aws.BedrockagentcoreHarness
         {
         }
 
-        [JsiiMethod(name: "resetAccessPointArn")]
-        public virtual void ResetAccessPointArn()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetMountPath")]
-        public virtual void ResetMountPath()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "accessPointArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AccessPointArnInput

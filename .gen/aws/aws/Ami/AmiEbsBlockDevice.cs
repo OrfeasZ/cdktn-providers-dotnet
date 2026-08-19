@@ -9,7 +9,7 @@ namespace aws.Ami
     [JsiiByValue(fqn: "aws.ami.AmiEbsBlockDevice")]
     public class AmiEbsBlockDevice : aws.Ami.IAmiEbsBlockDevice
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#device_name Ami#device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#device_name Ami#device_name}.</summary>
         [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string DeviceName
         {
@@ -19,7 +19,7 @@ namespace aws.Ami
 
         private object? _deleteOnTermination;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#delete_on_termination Ami#delete_on_termination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#delete_on_termination Ami#delete_on_termination}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace aws.Ami
 
         private object? _encrypted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#encrypted Ami#encrypted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#encrypted Ami#encrypted}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -85,7 +85,7 @@ namespace aws.Ami
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#iops Ami#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#iops Ami#iops}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Iops
@@ -94,7 +94,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#outpost_arn Ami#outpost_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#outpost_arn Ami#outpost_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "outpostArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OutpostArn
@@ -103,7 +103,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#snapshot_id Ami#snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#snapshot_id Ami#snapshot_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SnapshotId
@@ -112,7 +112,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#throughput Ami#throughput}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#throughput Ami#throughput}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "throughput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Throughput
@@ -121,7 +121,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#volume_size Ami#volume_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#volume_size Ami#volume_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VolumeSize
@@ -130,7 +130,7 @@ namespace aws.Ami
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ami#volume_type Ami#volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ami#volume_type Ami#volume_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VolumeType

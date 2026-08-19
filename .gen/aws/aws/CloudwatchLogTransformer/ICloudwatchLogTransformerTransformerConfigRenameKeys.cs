@@ -9,7 +9,7 @@ namespace aws.CloudwatchLogTransformer
     {
         /// <summary>entry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeysEntry" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "entry", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchLogTransformer.CloudwatchLogTransformerTransformerConfigRenameKeysEntry\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.CloudwatchLogTransformer
 
             /// <summary>entry block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudwatch_log_transformer#entry CloudwatchLogTransformer#entry}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchLogTransformer.ICloudwatchLogTransformerTransformerConfigRenameKeysEntry" />)[]</para>
             /// </remarks>
             [JsiiOptional]

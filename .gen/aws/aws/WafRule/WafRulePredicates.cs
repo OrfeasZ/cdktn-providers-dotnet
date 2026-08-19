@@ -9,7 +9,7 @@ namespace aws.WafRule
     [JsiiByValue(fqn: "aws.wafRule.WafRulePredicates")]
     public class WafRulePredicates : aws.WafRule.IWafRulePredicates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_rule#data_id WafRule#data_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_rule#data_id WafRule#data_id}.</summary>
         [JsiiProperty(name: "dataId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataId
         {
@@ -19,7 +19,7 @@ namespace aws.WafRule
 
         private object _negated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_rule#negated WafRule#negated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_rule#negated WafRule#negated}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace aws.WafRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/waf_rule#type WafRule#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/waf_rule#type WafRule#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

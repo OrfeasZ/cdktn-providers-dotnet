@@ -11,7 +11,7 @@ namespace aws.CodedeployDeploymentGroup
 
         /// <summary>ec2_tag_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codedeploy_deployment_group#ec2_tag_filter CodedeployDeploymentGroup#ec2_tag_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codedeploy_deployment_group#ec2_tag_filter CodedeployDeploymentGroup#ec2_tag_filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodedeployDeploymentGroup.ICodedeployDeploymentGroupEc2TagSetEc2TagFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -33,11 +33,37 @@ namespace aws.AlbListenerRule
         {
         }
 
+        [JsiiMethod(name: "resetIpAddressType")]
+        public virtual void ResetIpAddressType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetValues")]
+        public virtual void ResetValues()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ipAddressTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IpAddressTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "valuesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? ValuesInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiProperty(name: "ipAddressType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IpAddressType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

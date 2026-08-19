@@ -9,7 +9,7 @@ namespace aws.DataAwsGlueScript
     {
         /// <summary>args block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#args DataAwsGlueScript#args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#args DataAwsGlueScript#args}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNodeArgs" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "args", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace aws.DataAwsGlueScript
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#id DataAwsGlueScript#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#id DataAwsGlueScript#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,14 +29,14 @@ namespace aws.DataAwsGlueScript
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#node_type DataAwsGlueScript#node_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#node_type DataAwsGlueScript#node_type}.</summary>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         string NodeType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#line_number DataAwsGlueScript#line_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#line_number DataAwsGlueScript#line_number}.</summary>
         [JsiiProperty(name: "lineNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? LineNumber
@@ -56,7 +56,7 @@ namespace aws.DataAwsGlueScript
 
             /// <summary>args block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#args DataAwsGlueScript#args}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#args DataAwsGlueScript#args}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsGlueScript.IDataAwsGlueScriptDagNodeArgs" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "args", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataAwsGlueScript.DataAwsGlueScriptDagNodeArgs\"},\"kind\":\"array\"}}]}}")]
@@ -65,7 +65,7 @@ namespace aws.DataAwsGlueScript
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#id DataAwsGlueScript#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#id DataAwsGlueScript#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,14 +76,14 @@ namespace aws.DataAwsGlueScript
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#node_type DataAwsGlueScript#node_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#node_type DataAwsGlueScript#node_type}.</summary>
             [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/glue_script#line_number DataAwsGlueScript#line_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/glue_script#line_number DataAwsGlueScript#line_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lineNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? LineNumber

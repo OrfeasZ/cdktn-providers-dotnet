@@ -41,6 +41,12 @@ namespace aws.ObservabilityadminCentralizationRuleForOrganization
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetEncryptionScope")]
+        public virtual void ResetEncryptionScope()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKmsKeyArn")]
         public virtual void ResetKmsKeyArn()
         {
@@ -50,6 +56,13 @@ namespace aws.ObservabilityadminCentralizationRuleForOrganization
         [JsiiOptional]
         [JsiiProperty(name: "encryptionConflictResolutionStrategyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? EncryptionConflictResolutionStrategyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "encryptionScopeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? EncryptionScopeInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -70,6 +83,13 @@ namespace aws.ObservabilityadminCentralizationRuleForOrganization
 
         [JsiiProperty(name: "encryptionConflictResolutionStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string EncryptionConflictResolutionStrategy
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "encryptionScope", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EncryptionScope
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

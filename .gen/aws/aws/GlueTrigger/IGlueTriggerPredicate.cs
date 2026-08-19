@@ -9,7 +9,7 @@ namespace aws.GlueTrigger
     {
         /// <summary>conditions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueTrigger.IGlueTriggerPredicateConditions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueTrigger.GlueTriggerPredicateConditions\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace aws.GlueTrigger
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.</summary>
         [JsiiProperty(name: "logical", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Logical
@@ -38,7 +38,7 @@ namespace aws.GlueTrigger
 
             /// <summary>conditions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_trigger#conditions GlueTrigger#conditions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.GlueTrigger.IGlueTriggerPredicateConditions" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.glueTrigger.GlueTriggerPredicateConditions\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace aws.GlueTrigger
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_trigger#logical GlueTrigger#logical}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logical", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Logical

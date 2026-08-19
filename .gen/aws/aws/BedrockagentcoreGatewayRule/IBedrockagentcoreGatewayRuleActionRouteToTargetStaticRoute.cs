@@ -7,7 +7,7 @@ namespace aws.BedrockagentcoreGatewayRule
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreGatewayRuleActionRouteToTargetStaticRoute), fullyQualifiedName: "aws.bedrockagentcoreGatewayRule.BedrockagentcoreGatewayRuleActionRouteToTargetStaticRoute")]
     public interface IBedrockagentcoreGatewayRuleActionRouteToTargetStaticRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_rule#target_name BedrockagentcoreGatewayRule#target_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_gateway_rule#target_name BedrockagentcoreGatewayRule#target_name}.</summary>
         [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}")]
         string TargetName
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreGatewayRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_gateway_rule#target_name BedrockagentcoreGatewayRule#target_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_gateway_rule#target_name BedrockagentcoreGatewayRule#target_name}.</summary>
             [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetName
             {

@@ -11,7 +11,7 @@ namespace aws.AppsyncApi
 
         /// <summary>auth_provider block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/appsync_api#auth_provider AppsyncApi#auth_provider}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigAuthProvider" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace aws.AppsyncApi
 
         /// <summary>connection_auth_mode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/appsync_api#connection_auth_mode AppsyncApi#connection_auth_mode}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigConnectionAuthMode" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace aws.AppsyncApi
 
         /// <summary>default_publish_auth_mode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/appsync_api#default_publish_auth_mode AppsyncApi#default_publish_auth_mode}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultPublishAuthMode" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace aws.AppsyncApi
 
         /// <summary>default_subscribe_auth_mode block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/appsync_api#default_subscribe_auth_mode AppsyncApi#default_subscribe_auth_mode}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigDefaultSubscribeAuthMode" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -151,7 +151,7 @@ namespace aws.AppsyncApi
 
         /// <summary>log_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/appsync_api#log_config AppsyncApi#log_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppsyncApi.IAppsyncApiEventConfigLogConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

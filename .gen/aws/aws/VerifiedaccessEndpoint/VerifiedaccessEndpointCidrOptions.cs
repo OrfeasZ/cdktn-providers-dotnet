@@ -9,7 +9,7 @@ namespace aws.VerifiedaccessEndpoint
     [JsiiByValue(fqn: "aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptions")]
     public class VerifiedaccessEndpointCidrOptions : aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointCidrOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedaccess_endpoint#cidr VerifiedaccessEndpoint#cidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/verifiedaccess_endpoint#cidr VerifiedaccessEndpoint#cidr}.</summary>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public string Cidr
         {
@@ -21,7 +21,7 @@ namespace aws.VerifiedaccessEndpoint
 
         /// <summary>port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/verifiedaccess_endpoint#port_range VerifiedaccessEndpoint#port_range}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.VerifiedaccessEndpoint.IVerifiedaccessEndpointCidrOptionsPortRange" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "portRange", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.verifiedaccessEndpoint.VerifiedaccessEndpointCidrOptionsPortRange\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace aws.VerifiedaccessEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/verifiedaccess_endpoint#protocol VerifiedaccessEndpoint#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -60,7 +60,7 @@ namespace aws.VerifiedaccessEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/verifiedaccess_endpoint#subnet_ids VerifiedaccessEndpoint#subnet_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SubnetIds

@@ -7,7 +7,7 @@ namespace aws.MailmanagerIngressPoint
     [JsiiByValue(fqn: "aws.mailmanagerIngressPoint.MailmanagerIngressPointIngressPointConfiguration")]
     public class MailmanagerIngressPointIngressPointConfiguration : aws.MailmanagerIngressPoint.IMailmanagerIngressPointIngressPointConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point#secret_arn MailmanagerIngressPoint#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#secret_arn MailmanagerIngressPoint#secret_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretArn
@@ -16,7 +16,7 @@ namespace aws.MailmanagerIngressPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point#smtp_password_wo MailmanagerIngressPoint#smtp_password_wo}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#smtp_password_wo MailmanagerIngressPoint#smtp_password_wo}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "smtpPasswordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SmtpPasswordWo
@@ -25,7 +25,7 @@ namespace aws.MailmanagerIngressPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point#smtp_password_wo_version MailmanagerIngressPoint#smtp_password_wo_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#smtp_password_wo_version MailmanagerIngressPoint#smtp_password_wo_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "smtpPasswordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SmtpPasswordWoVersion
@@ -38,7 +38,7 @@ namespace aws.MailmanagerIngressPoint
 
         /// <summary>tls_auth_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_ingress_point#tls_auth_configuration MailmanagerIngressPoint#tls_auth_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#tls_auth_configuration MailmanagerIngressPoint#tls_auth_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MailmanagerIngressPoint.IMailmanagerIngressPointIngressPointConfigurationTlsAuthConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]

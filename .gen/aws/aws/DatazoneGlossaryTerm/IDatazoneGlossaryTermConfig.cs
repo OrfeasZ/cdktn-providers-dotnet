@@ -7,21 +7,21 @@ namespace aws.DatazoneGlossaryTerm
     [JsiiInterface(nativeType: typeof(IDatazoneGlossaryTermConfig), fullyQualifiedName: "aws.datazoneGlossaryTerm.DatazoneGlossaryTermConfig")]
     public interface IDatazoneGlossaryTermConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#glossary_identifier DatazoneGlossaryTerm#glossary_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#glossary_identifier DatazoneGlossaryTerm#glossary_identifier}.</summary>
         [JsiiProperty(name: "glossaryIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string GlossaryIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#name DatazoneGlossaryTerm#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#name DatazoneGlossaryTerm#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#domain_identifier DatazoneGlossaryTerm#domain_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#domain_identifier DatazoneGlossaryTerm#domain_identifier}.</summary>
         [JsiiProperty(name: "domainIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DomainIdentifier
@@ -32,7 +32,7 @@ namespace aws.DatazoneGlossaryTerm
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#long_description DatazoneGlossaryTerm#long_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#long_description DatazoneGlossaryTerm#long_description}.</summary>
         [JsiiProperty(name: "longDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LongDescription
@@ -45,7 +45,7 @@ namespace aws.DatazoneGlossaryTerm
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#region DatazoneGlossaryTerm#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#region DatazoneGlossaryTerm#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace aws.DatazoneGlossaryTerm
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#short_description DatazoneGlossaryTerm#short_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#short_description DatazoneGlossaryTerm#short_description}.</summary>
         [JsiiProperty(name: "shortDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ShortDescription
@@ -68,7 +68,7 @@ namespace aws.DatazoneGlossaryTerm
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#status DatazoneGlossaryTerm#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#status DatazoneGlossaryTerm#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -81,7 +81,7 @@ namespace aws.DatazoneGlossaryTerm
 
         /// <summary>term_relations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#term_relations DatazoneGlossaryTerm#term_relations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#term_relations DatazoneGlossaryTerm#term_relations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneGlossaryTerm.IDatazoneGlossaryTermTermRelations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "termRelations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.datazoneGlossaryTerm.DatazoneGlossaryTermTermRelations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace aws.DatazoneGlossaryTerm
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#timeouts DatazoneGlossaryTerm#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#timeouts DatazoneGlossaryTerm#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.datazoneGlossaryTerm.DatazoneGlossaryTermTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,21 +115,21 @@ namespace aws.DatazoneGlossaryTerm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#glossary_identifier DatazoneGlossaryTerm#glossary_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#glossary_identifier DatazoneGlossaryTerm#glossary_identifier}.</summary>
             [JsiiProperty(name: "glossaryIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string GlossaryIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#name DatazoneGlossaryTerm#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#name DatazoneGlossaryTerm#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#domain_identifier DatazoneGlossaryTerm#domain_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#domain_identifier DatazoneGlossaryTerm#domain_identifier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domainIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DomainIdentifier
@@ -137,7 +137,7 @@ namespace aws.DatazoneGlossaryTerm
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#long_description DatazoneGlossaryTerm#long_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#long_description DatazoneGlossaryTerm#long_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "longDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LongDescription
@@ -147,7 +147,7 @@ namespace aws.DatazoneGlossaryTerm
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#region DatazoneGlossaryTerm#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#region DatazoneGlossaryTerm#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -156,7 +156,7 @@ namespace aws.DatazoneGlossaryTerm
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#short_description DatazoneGlossaryTerm#short_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#short_description DatazoneGlossaryTerm#short_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shortDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ShortDescription
@@ -164,7 +164,7 @@ namespace aws.DatazoneGlossaryTerm
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#status DatazoneGlossaryTerm#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#status DatazoneGlossaryTerm#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
@@ -174,7 +174,7 @@ namespace aws.DatazoneGlossaryTerm
 
             /// <summary>term_relations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#term_relations DatazoneGlossaryTerm#term_relations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#term_relations DatazoneGlossaryTerm#term_relations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazoneGlossaryTerm.IDatazoneGlossaryTermTermRelations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -186,7 +186,7 @@ namespace aws.DatazoneGlossaryTerm
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/datazone_glossary_term#timeouts DatazoneGlossaryTerm#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/datazone_glossary_term#timeouts DatazoneGlossaryTerm#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.datazoneGlossaryTerm.DatazoneGlossaryTermTimeouts\"}", isOptional: true)]

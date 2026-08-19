@@ -9,7 +9,7 @@ namespace aws.Resiliencehubv2Policy
     [JsiiByValue(fqn: "aws.resiliencehubv2Policy.Resiliencehubv2PolicyAvailabilitySlo")]
     public class Resiliencehubv2PolicyAvailabilitySlo : aws.Resiliencehubv2Policy.IResiliencehubv2PolicyAvailabilitySlo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_policy#target Resiliencehubv2Policy#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"number\"}")]
         public double Target
         {

@@ -9,7 +9,7 @@ namespace aws.FisExperimentTemplate
     [JsiiByValue(fqn: "aws.fisExperimentTemplate.FisExperimentTemplateAction")]
     public class FisExperimentTemplateAction : aws.FisExperimentTemplate.IFisExperimentTemplateAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fis_experiment_template#action_id FisExperimentTemplate#action_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fis_experiment_template#action_id FisExperimentTemplate#action_id}.</summary>
         [JsiiProperty(name: "actionId", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionId
         {
@@ -17,7 +17,7 @@ namespace aws.FisExperimentTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fis_experiment_template#name FisExperimentTemplate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fis_experiment_template#name FisExperimentTemplate#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace aws.FisExperimentTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fis_experiment_template#description FisExperimentTemplate#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -38,7 +38,7 @@ namespace aws.FisExperimentTemplate
 
         /// <summary>parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fis_experiment_template#parameter FisExperimentTemplate#parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fis_experiment_template#parameter FisExperimentTemplate#parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FisExperimentTemplate.IFisExperimentTemplateActionParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace aws.FisExperimentTemplate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fis_experiment_template#start_after FisExperimentTemplate#start_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fis_experiment_template#start_after FisExperimentTemplate#start_after}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startAfter", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? StartAfter
@@ -80,7 +80,7 @@ namespace aws.FisExperimentTemplate
 
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/fis_experiment_template#target FisExperimentTemplate#target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"aws.fisExperimentTemplate.FisExperimentTemplateActionTarget\"}", isOptional: true)]

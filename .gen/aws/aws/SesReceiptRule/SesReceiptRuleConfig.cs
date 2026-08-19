@@ -9,7 +9,7 @@ namespace aws.SesReceiptRule
     [JsiiByValue(fqn: "aws.sesReceiptRule.SesReceiptRuleConfig")]
     public class SesReceiptRuleConfig : aws.SesReceiptRule.ISesReceiptRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#name SesReceiptRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#name SesReceiptRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace aws.SesReceiptRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#rule_set_name SesReceiptRule#rule_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#rule_set_name SesReceiptRule#rule_set_name}.</summary>
         [JsiiProperty(name: "ruleSetName", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleSetName
         {
@@ -29,7 +29,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>add_header_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#add_header_action SesReceiptRule#add_header_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#add_header_action SesReceiptRule#add_header_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleAddHeaderAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace aws.SesReceiptRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#after SesReceiptRule#after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#after SesReceiptRule#after}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "after", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? After
@@ -73,7 +73,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>bounce_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#bounce_action SesReceiptRule#bounce_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#bounce_action SesReceiptRule#bounce_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleBounceAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -106,7 +106,7 @@ namespace aws.SesReceiptRule
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#enabled SesReceiptRule#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#enabled SesReceiptRule#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -138,7 +138,7 @@ namespace aws.SesReceiptRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#id SesReceiptRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#id SesReceiptRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +155,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>lambda_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#lambda_action SesReceiptRule#lambda_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#lambda_action SesReceiptRule#lambda_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleLambdaAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace aws.SesReceiptRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#recipients SesReceiptRule#recipients}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#recipients SesReceiptRule#recipients}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recipients", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Recipients
@@ -197,7 +197,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#region SesReceiptRule#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#region SesReceiptRule#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -211,7 +211,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>s3_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#s3_action SesReceiptRule#s3_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#s3_action SesReceiptRule#s3_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleS3Action" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -244,7 +244,7 @@ namespace aws.SesReceiptRule
 
         private object? _scanEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#scan_enabled SesReceiptRule#scan_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#scan_enabled SesReceiptRule#scan_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -280,7 +280,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>sns_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#sns_action SesReceiptRule#sns_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#sns_action SesReceiptRule#sns_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleSnsAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -315,7 +315,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>stop_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#stop_action SesReceiptRule#stop_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#stop_action SesReceiptRule#stop_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleStopAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -346,7 +346,7 @@ namespace aws.SesReceiptRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#tls_policy SesReceiptRule#tls_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#tls_policy SesReceiptRule#tls_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tlsPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TlsPolicy
@@ -359,7 +359,7 @@ namespace aws.SesReceiptRule
 
         /// <summary>workmail_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ses_receipt_rule#workmail_action SesReceiptRule#workmail_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ses_receipt_rule#workmail_action SesReceiptRule#workmail_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SesReceiptRule.ISesReceiptRuleWorkmailAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]

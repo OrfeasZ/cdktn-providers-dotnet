@@ -7,7 +7,7 @@ namespace aws.BedrockagentcorePolicy
     [JsiiInterface(nativeType: typeof(IBedrockagentcorePolicyDefinitionCedar), fullyQualifiedName: "aws.bedrockagentcorePolicy.BedrockagentcorePolicyDefinitionCedar")]
     public interface IBedrockagentcorePolicyDefinitionCedar
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.</summary>
         [JsiiProperty(name: "statement", typeJson: "{\"primitive\":\"string\"}")]
         string Statement
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcorePolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_policy#statement BedrockagentcorePolicy#statement}.</summary>
             [JsiiProperty(name: "statement", typeJson: "{\"primitive\":\"string\"}")]
             public string Statement
             {

@@ -7,7 +7,7 @@ namespace aws.CodebuildProject
     [JsiiInterface(nativeType: typeof(ICodebuildProjectLogsConfigS3Logs), fullyQualifiedName: "aws.codebuildProject.CodebuildProjectLogsConfigS3Logs")]
     public interface ICodebuildProjectLogsConfigS3Logs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}.</summary>
         [JsiiProperty(name: "bucketOwnerAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BucketOwnerAccess
@@ -18,7 +18,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Location
@@ -43,7 +43,7 @@ namespace aws.CodebuildProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#status CodebuildProject#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#status CodebuildProject#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -61,7 +61,7 @@ namespace aws.CodebuildProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#bucket_owner_access CodebuildProject#bucket_owner_access}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucketOwnerAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BucketOwnerAccess
@@ -69,7 +69,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#encryption_disabled CodebuildProject#encryption_disabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -80,7 +80,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#location CodebuildProject#location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Location
@@ -88,7 +88,7 @@ namespace aws.CodebuildProject
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/codebuild_project#status CodebuildProject#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_project#status CodebuildProject#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status

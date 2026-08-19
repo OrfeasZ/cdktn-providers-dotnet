@@ -9,7 +9,7 @@ namespace aws.SagemakerHyperParameterTuningJob
     {
         private object? _enableMultipleJobs;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_multiple_jobs SagemakerHyperParameterTuningJob#enable_multiple_jobs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_hyper_parameter_tuning_job#enable_multiple_jobs SagemakerHyperParameterTuningJob#enable_multiple_jobs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -45,7 +45,7 @@ namespace aws.SagemakerHyperParameterTuningJob
 
         /// <summary>placement_specifications block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_hyper_parameter_tuning_job#placement_specifications SagemakerHyperParameterTuningJob#placement_specifications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_hyper_parameter_tuning_job#placement_specifications SagemakerHyperParameterTuningJob#placement_specifications}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerHyperParameterTuningJob.ISagemakerHyperParameterTuningJobTrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecifications" />)[]</para>
         /// </remarks>
         [JsiiOptional]

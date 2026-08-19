@@ -1,0 +1,75 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.Resiliencehubv2Service
+{
+    [JsiiClass(nativeType: typeof(aws.Resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemList), fullyQualifiedName: "aws.resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemList", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"wrapsSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    public class Resiliencehubv2ServiceAssociatedSystemList : Io.Cdktn.ComplexList
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        /// <param name="wrapsSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public Resiliencehubv2ServiceAssociatedSystemList(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, bool wrapsSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, wrapsSet))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, bool wrapsSet)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, wrapsSet});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected Resiliencehubv2ServiceAssociatedSystemList(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected Resiliencehubv2ServiceAssociatedSystemList(DeputyProps props): base(props)
+        {
+        }
+
+        /// <param name="index">the index of the item to return.</param>
+        [JsiiMethod(name: "get", returnsJson: "{\"type\":{\"fqn\":\"aws.resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemOutputReference\"}}", parametersJson: "[{\"docs\":{\"summary\":\"the index of the item to return.\"},\"name\":\"index\",\"type\":{\"primitive\":\"number\"}}]")]
+        public virtual aws.Resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemOutputReference Get(double index)
+        {
+            return InvokeInstanceMethod<aws.Resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystemOutputReference>(new System.Type[]{typeof(double)}, new object[]{index})!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Resiliencehubv2Service.IResiliencehubv2ServiceAssociatedSystem" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.resiliencehubv2Service.Resiliencehubv2ServiceAssociatedSystem\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? InternalValue
+        {
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case aws.Resiliencehubv2Service.IResiliencehubv2ServiceAssociatedSystem[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.Resiliencehubv2Service.IResiliencehubv2ServiceAssociatedSystem).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+    }
+}

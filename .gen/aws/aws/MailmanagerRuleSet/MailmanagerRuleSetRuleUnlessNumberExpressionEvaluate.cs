@@ -9,7 +9,7 @@ namespace aws.MailmanagerRuleSet
     [JsiiByValue(fqn: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleUnlessNumberExpressionEvaluate")]
     public class MailmanagerRuleSetRuleUnlessNumberExpressionEvaluate : aws.MailmanagerRuleSet.IMailmanagerRuleSetRuleUnlessNumberExpressionEvaluate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_rule_set#attribute MailmanagerRuleSet#attribute}.</summary>
         [JsiiProperty(name: "attribute", typeJson: "{\"primitive\":\"string\"}")]
         public string Attribute
         {

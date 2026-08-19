@@ -7,7 +7,7 @@ namespace aws.PrometheusScraper
     [JsiiInterface(nativeType: typeof(IPrometheusScraperExporterOpensearch), fullyQualifiedName: "aws.prometheusScraper.PrometheusScraperExporterOpensearch")]
     public interface IPrometheusScraperExporterOpensearch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.</summary>
         [JsiiProperty(name: "domainArn", typeJson: "{\"primitive\":\"string\"}")]
         string DomainArn
         {
@@ -21,7 +21,7 @@ namespace aws.PrometheusScraper
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.</summary>
             [JsiiProperty(name: "domainArn", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainArn
             {

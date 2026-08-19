@@ -7,7 +7,7 @@ namespace aws.BedrockEvaluationJob
     [JsiiInterface(nativeType: typeof(IBedrockEvaluationJobEvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocation), fullyQualifiedName: "aws.bedrockEvaluationJob.BedrockEvaluationJobEvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocation")]
     public interface IBedrockEvaluationJobEvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrock_evaluation_job#s3_uri BedrockEvaluationJob#s3_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#s3_uri BedrockEvaluationJob#s3_uri}.</summary>
         [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
         string S3Uri
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockEvaluationJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrock_evaluation_job#s3_uri BedrockEvaluationJob#s3_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#s3_uri BedrockEvaluationJob#s3_uri}.</summary>
             [JsiiProperty(name: "s3Uri", typeJson: "{\"primitive\":\"string\"}")]
             public string S3Uri
             {

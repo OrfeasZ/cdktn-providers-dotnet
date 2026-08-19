@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreHarness
     [JsiiByValue(fqn: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessToolConfigAgentcoreGateway")]
     public class BedrockagentcoreHarnessToolConfigAgentcoreGateway : aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessToolConfigAgentcoreGateway
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_harness#gateway_arn BedrockagentcoreHarness#gateway_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_harness#gateway_arn BedrockagentcoreHarness#gateway_arn}.</summary>
         [JsiiProperty(name: "gatewayArn", typeJson: "{\"primitive\":\"string\"}")]
         public string GatewayArn
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreHarness
 
         /// <summary>outbound_auth block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_harness#outbound_auth BedrockagentcoreHarness#outbound_auth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_harness#outbound_auth BedrockagentcoreHarness#outbound_auth}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessToolConfigAgentcoreGatewayOutboundAuth" />)[]</para>
         /// </remarks>
         [JsiiOptional]

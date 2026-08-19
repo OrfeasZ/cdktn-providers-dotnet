@@ -11,7 +11,7 @@ namespace aws.EcrRepository
     {
         private object _scanOnPush;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecr_repository#scan_on_push EcrRepository#scan_on_push}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

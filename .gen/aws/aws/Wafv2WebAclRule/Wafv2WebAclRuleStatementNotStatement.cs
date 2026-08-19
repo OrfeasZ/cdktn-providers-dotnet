@@ -11,7 +11,7 @@ namespace aws.Wafv2WebAclRule
 
         /// <summary>statement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/wafv2_web_acl_rule#statement Wafv2WebAclRuleA#statement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement" />)[]</para>
         /// </remarks>
         [JsiiOptional]

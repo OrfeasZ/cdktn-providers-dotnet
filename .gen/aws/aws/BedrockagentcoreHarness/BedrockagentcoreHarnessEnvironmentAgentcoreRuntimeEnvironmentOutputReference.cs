@@ -107,24 +107,6 @@ namespace aws.BedrockagentcoreHarness
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "resetAgentRuntimeArn")]
-        public virtual void ResetAgentRuntimeArn()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetAgentRuntimeId")]
-        public virtual void ResetAgentRuntimeId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetAgentRuntimeName")]
-        public virtual void ResetAgentRuntimeName()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetFilesystemConfiguration")]
         public virtual void ResetFilesystemConfiguration()
         {
@@ -143,6 +125,24 @@ namespace aws.BedrockagentcoreHarness
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "agentRuntimeArn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AgentRuntimeArn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "agentRuntimeId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AgentRuntimeId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "agentRuntimeName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AgentRuntimeName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "filesystemConfiguration", typeJson: "{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationList\"}")]
         public virtual aws.BedrockagentcoreHarness.BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationList FilesystemConfiguration
         {
@@ -159,27 +159,6 @@ namespace aws.BedrockagentcoreHarness
         public virtual aws.BedrockagentcoreHarness.BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationList NetworkConfiguration
         {
             get => GetInstanceProperty<aws.BedrockagentcoreHarness.BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationList>()!;
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "agentRuntimeArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? AgentRuntimeArnInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "agentRuntimeIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? AgentRuntimeIdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "agentRuntimeNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? AgentRuntimeNameInput
-        {
-            get => GetInstanceProperty<string?>();
         }
 
         /// <remarks>
@@ -210,27 +189,6 @@ namespace aws.BedrockagentcoreHarness
         public virtual object? NetworkConfigurationInput
         {
             get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiProperty(name: "agentRuntimeArn", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string AgentRuntimeArn
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "agentRuntimeId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string AgentRuntimeId
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "agentRuntimeName", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string AgentRuntimeName
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
         }
 
         /// <remarks>

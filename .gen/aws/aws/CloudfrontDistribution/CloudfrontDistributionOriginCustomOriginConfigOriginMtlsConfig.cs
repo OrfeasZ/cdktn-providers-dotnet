@@ -9,7 +9,7 @@ namespace aws.CloudfrontDistribution
     [JsiiByValue(fqn: "aws.cloudfrontDistribution.CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig")]
     public class CloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig : aws.CloudfrontDistribution.ICloudfrontDistributionOriginCustomOriginConfigOriginMtlsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_distribution#client_certificate_arn CloudfrontDistribution#client_certificate_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_distribution#client_certificate_arn CloudfrontDistribution#client_certificate_arn}.</summary>
         [JsiiProperty(name: "clientCertificateArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientCertificateArn
         {

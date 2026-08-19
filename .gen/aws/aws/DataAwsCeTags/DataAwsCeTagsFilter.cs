@@ -11,7 +11,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>and block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags#and DataAwsCeTags#and}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ce_tags#and DataAwsCeTags#and}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsFilterAnd" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>cost_category block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags#cost_category DataAwsCeTags#cost_category}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ce_tags#cost_category DataAwsCeTags#cost_category}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "costCategory", typeJson: "{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterCostCategory\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>dimension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags#dimension DataAwsCeTags#dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ce_tags#dimension DataAwsCeTags#dimension}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dimension", typeJson: "{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterDimension\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>not block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags#not DataAwsCeTags#not}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ce_tags#not DataAwsCeTags#not}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "not", typeJson: "{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterNot\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>or block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags#or DataAwsCeTags#or}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ce_tags#or DataAwsCeTags#or}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataAwsCeTags.IDataAwsCeTagsFilterOr" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -115,7 +115,7 @@ namespace aws.DataAwsCeTags
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/data-sources/ce_tags#tags DataAwsCeTags#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/data-sources/ce_tags#tags DataAwsCeTags#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"aws.dataAwsCeTags.DataAwsCeTagsFilterTags\"}", isOptional: true)]

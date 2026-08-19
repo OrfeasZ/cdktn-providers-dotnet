@@ -9,7 +9,7 @@ namespace aws.Pinpointsmsvoicev2EventDestination
     {
         /// <summary>ARN of the Amazon SNS topic that receives the events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_event_destination#topic_arn Pinpointsmsvoicev2EventDestination#topic_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_event_destination#topic_arn Pinpointsmsvoicev2EventDestination#topic_arn}
         /// </remarks>
         [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
         string TopicArn
@@ -26,7 +26,7 @@ namespace aws.Pinpointsmsvoicev2EventDestination
 
             /// <summary>ARN of the Amazon SNS topic that receives the events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/pinpointsmsvoicev2_event_destination#topic_arn Pinpointsmsvoicev2EventDestination#topic_arn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_event_destination#topic_arn Pinpointsmsvoicev2EventDestination#topic_arn}
             /// </remarks>
             [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}")]
             public string TopicArn

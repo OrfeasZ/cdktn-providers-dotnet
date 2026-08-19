@@ -4,13 +4,14 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.BedrockagentcoreHarness
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfiguration")]
     public class BedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfiguration : aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_harness#network_mode BedrockagentcoreHarness#network_mode}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "networkMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? NetworkMode
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_harness#network_mode BedrockagentcoreHarness#network_mode}.</summary>
+        [JsiiProperty(name: "networkMode", typeJson: "{\"primitive\":\"string\"}")]
+        public string NetworkMode
         {
             get;
             set;
@@ -18,8 +19,9 @@ namespace aws.BedrockagentcoreHarness
 
         private object? _networkModeConfig;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/bedrockagentcore_harness#network_mode_config BedrockagentcoreHarness#network_mode_config}.</summary>
+        /// <summary>network_mode_config block.</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_harness#network_mode_config BedrockagentcoreHarness#network_mode_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessEnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

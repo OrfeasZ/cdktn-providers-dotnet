@@ -9,7 +9,7 @@ namespace aws.OamLink
     [JsiiByValue(fqn: "aws.oamLink.OamLinkLinkConfigurationMetricConfiguration")]
     public class OamLinkLinkConfigurationMetricConfiguration : aws.OamLink.IOamLinkLinkConfigurationMetricConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/oam_link#filter OamLink#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/oam_link#filter OamLink#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
         public string Filter
         {

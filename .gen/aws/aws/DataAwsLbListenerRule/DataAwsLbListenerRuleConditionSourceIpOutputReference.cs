@@ -35,6 +35,12 @@ namespace aws.DataAwsLbListenerRule
         {
         }
 
+        [JsiiProperty(name: "ipAddressType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IpAddressType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Values
         {

@@ -13,7 +13,7 @@ namespace aws.EcrReplicationConfiguration
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecr_replication_configuration#rule EcrReplicationConfiguration#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecr_replication_configuration#rule EcrReplicationConfiguration#rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRule\"},\"kind\":\"array\"}}]}}")]

@@ -9,7 +9,7 @@ namespace aws.CognitoUserPool
     [JsiiByValue(fqn: "aws.cognitoUserPool.CognitoUserPoolSchema")]
     public class CognitoUserPoolSchema : aws.CognitoUserPool.ICognitoUserPoolSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#attribute_data_type CognitoUserPool#attribute_data_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cognito_user_pool#attribute_data_type CognitoUserPool#attribute_data_type}.</summary>
         [JsiiProperty(name: "attributeDataType", typeJson: "{\"primitive\":\"string\"}")]
         public string AttributeDataType
         {
@@ -17,7 +17,7 @@ namespace aws.CognitoUserPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#name CognitoUserPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cognito_user_pool#name CognitoUserPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace aws.CognitoUserPool
 
         private object? _developerOnlyAttribute;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#developer_only_attribute CognitoUserPool#developer_only_attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cognito_user_pool#developer_only_attribute CognitoUserPool#developer_only_attribute}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace aws.CognitoUserPool
 
         private object? _mutable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#mutable CognitoUserPool#mutable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cognito_user_pool#mutable CognitoUserPool#mutable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>number_attribute_constraints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#number_attribute_constraints CognitoUserPool#number_attribute_constraints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cognito_user_pool#number_attribute_constraints CognitoUserPool#number_attribute_constraints}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "numberAttributeConstraints", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSchemaNumberAttributeConstraints\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace aws.CognitoUserPool
 
         private object? _required;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#required CognitoUserPool#required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cognito_user_pool#required CognitoUserPool#required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -141,7 +141,7 @@ namespace aws.CognitoUserPool
 
         /// <summary>string_attribute_constraints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cognito_user_pool#string_attribute_constraints CognitoUserPool#string_attribute_constraints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cognito_user_pool#string_attribute_constraints CognitoUserPool#string_attribute_constraints}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stringAttributeConstraints", typeJson: "{\"fqn\":\"aws.cognitoUserPool.CognitoUserPoolSchemaStringAttributeConstraints\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace aws.SagemakerProject
     [JsiiByValue(fqn: "aws.sagemakerProject.SagemakerProjectServiceCatalogProvisioningDetails")]
     public class SagemakerProjectServiceCatalogProvisioningDetails : aws.SagemakerProject.ISagemakerProjectServiceCatalogProvisioningDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_project#product_id SagemakerProject#product_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_project#product_id SagemakerProject#product_id}.</summary>
         [JsiiProperty(name: "productId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProductId
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_project#path_id SagemakerProject#path_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_project#path_id SagemakerProject#path_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pathId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PathId
@@ -26,7 +26,7 @@ namespace aws.SagemakerProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_project#provisioning_artifact_id SagemakerProject#provisioning_artifact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_project#provisioning_artifact_id SagemakerProject#provisioning_artifact_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "provisioningArtifactId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProvisioningArtifactId
@@ -39,7 +39,7 @@ namespace aws.SagemakerProject
 
         /// <summary>provisioning_parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_project#provisioning_parameter SagemakerProject#provisioning_parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_project#provisioning_parameter SagemakerProject#provisioning_parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerProject.ISagemakerProjectServiceCatalogProvisioningDetailsProvisioningParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]

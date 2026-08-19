@@ -35,12 +35,6 @@ namespace aws.BedrockagentcoreHarness
         {
         }
 
-        [JsiiMethod(name: "resetMountPath")]
-        public virtual void ResetMountPath()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "mountPathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MountPathInput

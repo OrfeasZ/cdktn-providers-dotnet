@@ -7,7 +7,7 @@ namespace aws.EcsCapacityProvider
     [JsiiByValue(fqn: "aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations")]
     public class EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations : aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateCapacityReservations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_capacity_provider#reservation_group_arn EcsCapacityProvider#reservation_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_capacity_provider#reservation_group_arn EcsCapacityProvider#reservation_group_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reservationGroupArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReservationGroupArn
@@ -16,7 +16,7 @@ namespace aws.EcsCapacityProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_capacity_provider#reservation_preference EcsCapacityProvider#reservation_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_capacity_provider#reservation_preference EcsCapacityProvider#reservation_preference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reservationPreference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReservationPreference

@@ -9,7 +9,7 @@ namespace aws.SagemakerDomain
     {
         /// <summary>custom_image block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_domain#custom_image SagemakerDomain#custom_image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_domain#custom_image SagemakerDomain#custom_image}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImage" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "customImage", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImage\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace aws.SagemakerDomain
 
         /// <summary>default_resource_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
         /// </remarks>
         [JsiiProperty(name: "defaultResourceSpec", typeJson: "{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace aws.SagemakerDomain
 
             /// <summary>custom_image block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_domain#custom_image SagemakerDomain#custom_image}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_domain#custom_image SagemakerDomain#custom_image}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerDomain.ISagemakerDomainDefaultUserSettingsRSessionAppSettingsCustomImage" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -57,7 +57,7 @@ namespace aws.SagemakerDomain
 
             /// <summary>default_resource_spec block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_domain#default_resource_spec SagemakerDomain#default_resource_spec}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultResourceSpec", typeJson: "{\"fqn\":\"aws.sagemakerDomain.SagemakerDomainDefaultUserSettingsRSessionAppSettingsDefaultResourceSpec\"}", isOptional: true)]

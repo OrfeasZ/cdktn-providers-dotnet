@@ -9,7 +9,7 @@ namespace aws.ServicecatalogProvisionedProduct
     [JsiiByValue(fqn: "aws.servicecatalogProvisionedProduct.ServicecatalogProvisionedProductProvisioningParameters")]
     public class ServicecatalogProvisionedProductProvisioningParameters : aws.ServicecatalogProvisionedProduct.IServicecatalogProvisionedProductProvisioningParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/servicecatalog_provisioned_product#key ServicecatalogProvisionedProduct#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/servicecatalog_provisioned_product#key ServicecatalogProvisionedProduct#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -19,7 +19,7 @@ namespace aws.ServicecatalogProvisionedProduct
 
         private object? _usePreviousValue;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/servicecatalog_provisioned_product#use_previous_value ServicecatalogProvisionedProduct#use_previous_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/servicecatalog_provisioned_product#use_previous_value ServicecatalogProvisionedProduct#use_previous_value}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace aws.ServicecatalogProvisionedProduct
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/servicecatalog_provisioned_product#value ServicecatalogProvisionedProduct#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/servicecatalog_provisioned_product#value ServicecatalogProvisionedProduct#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

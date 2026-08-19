@@ -9,7 +9,7 @@ namespace aws.CloudfrontConnectionFunction
     [JsiiByValue(fqn: "aws.cloudfrontConnectionFunction.CloudfrontConnectionFunctionConfig")]
     public class CloudfrontConnectionFunctionConfig : aws.CloudfrontConnectionFunction.ICloudfrontConnectionFunctionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_connection_function#connection_function_code CloudfrontConnectionFunction#connection_function_code}.</summary>
         [JsiiProperty(name: "connectionFunctionCode", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionFunctionCode
         {
@@ -17,7 +17,7 @@ namespace aws.CloudfrontConnectionFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_connection_function#name CloudfrontConnectionFunction#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -29,7 +29,7 @@ namespace aws.CloudfrontConnectionFunction
 
         /// <summary>connection_function_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_connection_function#connection_function_config CloudfrontConnectionFunction#connection_function_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudfrontConnectionFunction.ICloudfrontConnectionFunctionConnectionFunctionConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -62,7 +62,7 @@ namespace aws.CloudfrontConnectionFunction
 
         private object? _publish;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_connection_function#publish CloudfrontConnectionFunction#publish}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_connection_function#publish CloudfrontConnectionFunction#publish}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -94,7 +94,7 @@ namespace aws.CloudfrontConnectionFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/cloudfront_connection_function#tags CloudfrontConnectionFunction#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags

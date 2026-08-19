@@ -9,7 +9,7 @@ namespace aws.SagemakerLabelingJob
     [JsiiByValue(fqn: "aws.sagemakerLabelingJob.SagemakerLabelingJobLabelingJobAlgorithmsConfig")]
     public class SagemakerLabelingJobLabelingJobAlgorithmsConfig : aws.SagemakerLabelingJob.ISagemakerLabelingJobLabelingJobAlgorithmsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_labeling_job#labeling_job_algorithm_specification_arn SagemakerLabelingJob#labeling_job_algorithm_specification_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_labeling_job#labeling_job_algorithm_specification_arn SagemakerLabelingJob#labeling_job_algorithm_specification_arn}.</summary>
         [JsiiProperty(name: "labelingJobAlgorithmSpecificationArn", typeJson: "{\"primitive\":\"string\"}")]
         public string LabelingJobAlgorithmSpecificationArn
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerLabelingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_labeling_job#initial_active_learning_model_arn SagemakerLabelingJob#initial_active_learning_model_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_labeling_job#initial_active_learning_model_arn SagemakerLabelingJob#initial_active_learning_model_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "initialActiveLearningModelArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InitialActiveLearningModelArn
@@ -30,7 +30,7 @@ namespace aws.SagemakerLabelingJob
 
         /// <summary>labeling_job_resource_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/sagemaker_labeling_job#labeling_job_resource_config SagemakerLabelingJob#labeling_job_resource_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_labeling_job#labeling_job_resource_config SagemakerLabelingJob#labeling_job_resource_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SagemakerLabelingJob.ISagemakerLabelingJobLabelingJobAlgorithmsConfigLabelingJobResourceConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace aws.DataexchangeEventAction
     {
         /// <summary>encryption block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3Encryption" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "encryption", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3Encryption\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace aws.DataexchangeEventAction
 
         /// <summary>revision_destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3RevisionDestination" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "revisionDestination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dataexchangeEventAction.DataexchangeEventActionActionExportRevisionToS3RevisionDestination\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace aws.DataexchangeEventAction
 
             /// <summary>encryption block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dataexchange_event_action#encryption DataexchangeEventAction#encryption}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3Encryption" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -58,7 +58,7 @@ namespace aws.DataexchangeEventAction
 
             /// <summary>revision_destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/dataexchange_event_action#revision_destination DataexchangeEventAction#revision_destination}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DataexchangeEventAction.IDataexchangeEventActionActionExportRevisionToS3RevisionDestination" />)[]</para>
             /// </remarks>
             [JsiiOptional]

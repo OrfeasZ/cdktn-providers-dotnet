@@ -7,14 +7,14 @@ namespace aws.SecretsmanagerSecretRotation
     [JsiiInterface(nativeType: typeof(ISecretsmanagerSecretRotationExternalSecretRotationMetadata), fullyQualifiedName: "aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationExternalSecretRotationMetadata")]
     public interface ISecretsmanagerSecretRotationExternalSecretRotationMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/secretsmanager_secret_rotation#key SecretsmanagerSecretRotation#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation#key SecretsmanagerSecretRotation#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/secretsmanager_secret_rotation#value SecretsmanagerSecretRotation#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation#value SecretsmanagerSecretRotation#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace aws.SecretsmanagerSecretRotation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/secretsmanager_secret_rotation#key SecretsmanagerSecretRotation#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation#key SecretsmanagerSecretRotation#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/secretsmanager_secret_rotation#value SecretsmanagerSecretRotation#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation#value SecretsmanagerSecretRotation#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

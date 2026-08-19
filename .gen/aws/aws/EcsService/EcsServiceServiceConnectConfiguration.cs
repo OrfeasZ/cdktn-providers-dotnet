@@ -11,7 +11,7 @@ namespace aws.EcsService
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#enabled EcsService#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_service#enabled EcsService#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace aws.EcsService
 
         /// <summary>access_log_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_service#access_log_configuration EcsService#access_log_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessLogConfiguration", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationAccessLogConfiguration\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace aws.EcsService
 
         /// <summary>log_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_service#log_configuration EcsService#log_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logConfiguration", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceServiceConnectConfigurationLogConfiguration\"}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace aws.EcsService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#namespace EcsService#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_service#namespace EcsService#namespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Namespace
@@ -79,7 +79,7 @@ namespace aws.EcsService
 
         /// <summary>service block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/ecs_service#service EcsService#service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ecs_service#service EcsService#service}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcsService.IEcsServiceServiceConnectConfigurationService" />)[]</para>
         /// </remarks>
         [JsiiOptional]

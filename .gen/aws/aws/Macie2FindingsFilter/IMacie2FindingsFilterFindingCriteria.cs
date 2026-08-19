@@ -9,7 +9,7 @@ namespace aws.Macie2FindingsFilter
     {
         /// <summary>criterion block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/macie2_findings_filter#criterion Macie2FindingsFilter#criterion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/macie2_findings_filter#criterion Macie2FindingsFilter#criterion}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2FindingsFilter.IMacie2FindingsFilterFindingCriteriaCriterion" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "criterion", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.macie2FindingsFilter.Macie2FindingsFilterFindingCriteriaCriterion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.Macie2FindingsFilter
 
             /// <summary>criterion block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.60.0/docs/resources/macie2_findings_filter#criterion Macie2FindingsFilter#criterion}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/macie2_findings_filter#criterion Macie2FindingsFilter#criterion}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Macie2FindingsFilter.IMacie2FindingsFilterFindingCriteriaCriterion" />)[]</para>
             /// </remarks>
             [JsiiOptional]
