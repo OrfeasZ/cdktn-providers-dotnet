@@ -7,7 +7,7 @@ namespace oci.DataOciMarketplaceAcceptedAgreement
     [JsiiInterface(nativeType: typeof(IDataOciMarketplaceAcceptedAgreementConfig), fullyQualifiedName: "oci.dataOciMarketplaceAcceptedAgreement.DataOciMarketplaceAcceptedAgreementConfig")]
     public interface IDataOciMarketplaceAcceptedAgreementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/marketplace_accepted_agreement#accepted_agreement_id DataOciMarketplaceAcceptedAgreement#accepted_agreement_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/marketplace_accepted_agreement#accepted_agreement_id DataOciMarketplaceAcceptedAgreement#accepted_agreement_id}.</summary>
         [JsiiProperty(name: "acceptedAgreementId", typeJson: "{\"primitive\":\"string\"}")]
         string AcceptedAgreementId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMarketplaceAcceptedAgreement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/marketplace_accepted_agreement#accepted_agreement_id DataOciMarketplaceAcceptedAgreement#accepted_agreement_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/marketplace_accepted_agreement#accepted_agreement_id DataOciMarketplaceAcceptedAgreement#accepted_agreement_id}.</summary>
             [JsiiProperty(name: "acceptedAgreementId", typeJson: "{\"primitive\":\"string\"}")]
             public string AcceptedAgreementId
             {

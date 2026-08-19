@@ -9,7 +9,7 @@ namespace oci.DnsSteeringPolicy
     [JsiiByValue(fqn: "oci.dnsSteeringPolicy.DnsSteeringPolicyAnswers")]
     public class DnsSteeringPolicyAnswers : oci.DnsSteeringPolicy.IDnsSteeringPolicyAnswers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_steering_policy#name DnsSteeringPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_steering_policy#name DnsSteeringPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DnsSteeringPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_steering_policy#rdata DnsSteeringPolicy#rdata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_steering_policy#rdata DnsSteeringPolicy#rdata}.</summary>
         [JsiiProperty(name: "rdata", typeJson: "{\"primitive\":\"string\"}")]
         public string Rdata
         {
@@ -25,7 +25,7 @@ namespace oci.DnsSteeringPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_steering_policy#rtype DnsSteeringPolicy#rtype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_steering_policy#rtype DnsSteeringPolicy#rtype}.</summary>
         [JsiiProperty(name: "rtype", typeJson: "{\"primitive\":\"string\"}")]
         public string Rtype
         {
@@ -35,7 +35,7 @@ namespace oci.DnsSteeringPolicy
 
         private object? _isDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_steering_policy#is_disabled DnsSteeringPolicy#is_disabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_steering_policy#is_disabled DnsSteeringPolicy#is_disabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -67,7 +67,7 @@ namespace oci.DnsSteeringPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_steering_policy#pool DnsSteeringPolicy#pool}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_steering_policy#pool DnsSteeringPolicy#pool}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pool", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Pool

@@ -9,7 +9,7 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiByValue(fqn: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemBackupPolicyCopyPolicies")]
     public class MysqlMysqlDbSystemBackupPolicyCopyPolicies : oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemBackupPolicyCopyPolicies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_db_system#copy_to_region MysqlMysqlDbSystem#copy_to_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#copy_to_region MysqlMysqlDbSystem#copy_to_region}.</summary>
         [JsiiProperty(name: "copyToRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string CopyToRegion
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlMysqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_db_system#backup_copy_retention_in_days MysqlMysqlDbSystem#backup_copy_retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#backup_copy_retention_in_days MysqlMysqlDbSystem#backup_copy_retention_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupCopyRetentionInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BackupCopyRetentionInDays

@@ -9,7 +9,7 @@ namespace oci.ApigatewayGateway
     [JsiiByValue(fqn: "oci.apigatewayGateway.ApigatewayGatewayConfig")]
     public class ApigatewayGatewayConfig : oci.ApigatewayGateway.IApigatewayGatewayConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#compartment_id ApigatewayGateway#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#compartment_id ApigatewayGateway#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#endpoint_type ApigatewayGateway#endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#endpoint_type ApigatewayGateway#endpoint_type}.</summary>
         [JsiiProperty(name: "endpointType", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointType
         {
@@ -25,7 +25,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#subnet_id ApigatewayGateway#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#subnet_id ApigatewayGateway#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -37,7 +37,7 @@ namespace oci.ApigatewayGateway
 
         /// <summary>ca_bundles block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#ca_bundles ApigatewayGateway#ca_bundles}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#ca_bundles ApigatewayGateway#ca_bundles}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayCaBundles" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace oci.ApigatewayGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#certificate_id ApigatewayGateway#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#certificate_id ApigatewayGateway#certificate_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateId
@@ -77,7 +77,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#defined_tags ApigatewayGateway#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#defined_tags ApigatewayGateway#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -86,7 +86,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#display_name ApigatewayGateway#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#display_name ApigatewayGateway#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -95,7 +95,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#freeform_tags ApigatewayGateway#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#freeform_tags ApigatewayGateway#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -104,7 +104,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#id ApigatewayGateway#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#id ApigatewayGateway#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -117,7 +117,7 @@ namespace oci.ApigatewayGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#ip_mode ApigatewayGateway#ip_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#ip_mode ApigatewayGateway#ip_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpMode
@@ -128,7 +128,7 @@ namespace oci.ApigatewayGateway
 
         /// <summary>ipv4address_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#ipv4address_configuration ApigatewayGateway#ipv4address_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#ipv4address_configuration ApigatewayGateway#ipv4address_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv4AddressConfiguration", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv4AddressConfiguration\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace oci.ApigatewayGateway
 
         /// <summary>ipv6address_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#ipv6address_configuration ApigatewayGateway#ipv6address_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#ipv6address_configuration ApigatewayGateway#ipv6address_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6AddressConfiguration", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayIpv6AddressConfiguration\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace oci.ApigatewayGateway
 
         private object? _isLockOverride;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#is_lock_override ApigatewayGateway#is_lock_override}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#is_lock_override ApigatewayGateway#is_lock_override}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -188,7 +188,7 @@ namespace oci.ApigatewayGateway
 
         /// <summary>locks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#locks ApigatewayGateway#locks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#locks ApigatewayGateway#locks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.ApigatewayGateway.IApigatewayGatewayLocks" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -219,7 +219,7 @@ namespace oci.ApigatewayGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#network_security_group_ids ApigatewayGateway#network_security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#network_security_group_ids ApigatewayGateway#network_security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NetworkSecurityGroupIds
@@ -230,7 +230,7 @@ namespace oci.ApigatewayGateway
 
         /// <summary>response_cache_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#response_cache_details ApigatewayGateway#response_cache_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#response_cache_details ApigatewayGateway#response_cache_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseCacheDetails", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayResponseCacheDetails\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace oci.ApigatewayGateway
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#timeouts ApigatewayGateway#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#timeouts ApigatewayGateway#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.apigatewayGateway.ApigatewayGatewayTimeouts\"}", isOptional: true)]

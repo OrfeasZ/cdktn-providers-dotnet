@@ -9,7 +9,7 @@ namespace oci.DataOciCloudBridgeEnvironment
     [JsiiByValue(fqn: "oci.dataOciCloudBridgeEnvironment.DataOciCloudBridgeEnvironmentConfig")]
     public class DataOciCloudBridgeEnvironmentConfig : oci.DataOciCloudBridgeEnvironment.IDataOciCloudBridgeEnvironmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_bridge_environment#environment_id DataOciCloudBridgeEnvironment#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_bridge_environment#environment_id DataOciCloudBridgeEnvironment#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnvironmentId
         {

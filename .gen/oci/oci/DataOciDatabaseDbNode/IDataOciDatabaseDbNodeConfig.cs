@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseDbNode
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseDbNodeConfig), fullyQualifiedName: "oci.dataOciDatabaseDbNode.DataOciDatabaseDbNodeConfig")]
     public interface IDataOciDatabaseDbNodeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_node#db_node_id DataOciDatabaseDbNode#db_node_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_db_node#db_node_id DataOciDatabaseDbNode#db_node_id}.</summary>
         [JsiiProperty(name: "dbNodeId", typeJson: "{\"primitive\":\"string\"}")]
         string DbNodeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseDbNode
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_db_node#db_node_id DataOciDatabaseDbNode#db_node_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_db_node#db_node_id DataOciDatabaseDbNode#db_node_id}.</summary>
             [JsiiProperty(name: "dbNodeId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbNodeId
             {

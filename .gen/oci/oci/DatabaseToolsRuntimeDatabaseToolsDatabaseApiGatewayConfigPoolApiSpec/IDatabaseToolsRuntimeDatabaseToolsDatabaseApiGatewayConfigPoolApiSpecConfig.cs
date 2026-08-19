@@ -7,42 +7,42 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSp
     [JsiiInterface(nativeType: typeof(IDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecConfig), fullyQualifiedName: "oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecConfig")]
     public interface IDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#content DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#content DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#database_tools_database_api_gateway_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#database_tools_database_api_gateway_config_id}.</summary>
         [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsDatabaseApiGatewayConfigId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#display_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#display_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#pool_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#pool_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#pool_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#pool_key}.</summary>
         [JsiiProperty(name: "poolKey", typeJson: "{\"primitive\":\"string\"}")]
         string PoolKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSp
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,42 +78,42 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#content DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#content DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#content}.</summary>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#database_tools_database_api_gateway_config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#database_tools_database_api_gateway_config_id}.</summary>
             [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsDatabaseApiGatewayConfigId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#display_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#display_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#pool_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#pool_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#pool_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#pool_key}.</summary>
             [JsiiProperty(name: "poolKey", typeJson: "{\"primitive\":\"string\"}")]
             public string PoolKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -127,7 +127,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSp
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool_api_spec#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpec.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolApiSpecTimeouts\"}", isOptional: true)]

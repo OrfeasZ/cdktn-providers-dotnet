@@ -9,7 +9,7 @@ namespace oci.DatascienceModelProvenance
     [JsiiByValue(fqn: "oci.datascienceModelProvenance.DatascienceModelProvenanceConfig")]
     public class DatascienceModelProvenanceConfig : oci.DatascienceModelProvenance.IDatascienceModelProvenanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#model_id DatascienceModelProvenance#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#model_id DatascienceModelProvenance#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelProvenance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#git_branch DatascienceModelProvenance#git_branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#git_branch DatascienceModelProvenance#git_branch}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gitBranch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GitBranch
@@ -26,7 +26,7 @@ namespace oci.DatascienceModelProvenance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#git_commit DatascienceModelProvenance#git_commit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#git_commit DatascienceModelProvenance#git_commit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gitCommit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GitCommit
@@ -35,7 +35,7 @@ namespace oci.DatascienceModelProvenance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#id DatascienceModelProvenance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#id DatascienceModelProvenance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DatascienceModelProvenance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#repository_url DatascienceModelProvenance#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#repository_url DatascienceModelProvenance#repository_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RepositoryUrl
@@ -57,7 +57,7 @@ namespace oci.DatascienceModelProvenance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#script_dir DatascienceModelProvenance#script_dir}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#script_dir DatascienceModelProvenance#script_dir}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scriptDir", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScriptDir
@@ -68,7 +68,7 @@ namespace oci.DatascienceModelProvenance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#timeouts DatascienceModelProvenance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#timeouts DatascienceModelProvenance#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceModelProvenance.DatascienceModelProvenanceTimeouts\"}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace oci.DatascienceModelProvenance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#training_id DatascienceModelProvenance#training_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#training_id DatascienceModelProvenance#training_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trainingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrainingId
@@ -87,7 +87,7 @@ namespace oci.DatascienceModelProvenance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_model_provenance#training_script DatascienceModelProvenance#training_script}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_provenance#training_script DatascienceModelProvenance#training_script}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trainingScript", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrainingScript

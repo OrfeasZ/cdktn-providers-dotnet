@@ -9,7 +9,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
     [JsiiByValue(fqn: "oci.dataOciAiVisionVisionPrivateEndpoints.DataOciAiVisionVisionPrivateEndpointsFilter")]
     public class DataOciAiVisionVisionPrivateEndpointsFilter : oci.DataOciAiVisionVisionPrivateEndpoints.IDataOciAiVisionVisionPrivateEndpointsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_vision_vision_private_endpoints#name DataOciAiVisionVisionPrivateEndpoints#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_vision_vision_private_endpoints#name DataOciAiVisionVisionPrivateEndpoints#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_vision_vision_private_endpoints#values DataOciAiVisionVisionPrivateEndpoints#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_vision_vision_private_endpoints#values DataOciAiVisionVisionPrivateEndpoints#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciAiVisionVisionPrivateEndpoints
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_vision_vision_private_endpoints#regex DataOciAiVisionVisionPrivateEndpoints#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_vision_vision_private_endpoints#regex DataOciAiVisionVisionPrivateEndpoints#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

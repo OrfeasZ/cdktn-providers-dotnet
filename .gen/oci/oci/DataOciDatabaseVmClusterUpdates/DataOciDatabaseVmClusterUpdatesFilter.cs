@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseVmClusterUpdates
     [JsiiByValue(fqn: "oci.dataOciDatabaseVmClusterUpdates.DataOciDatabaseVmClusterUpdatesFilter")]
     public class DataOciDatabaseVmClusterUpdatesFilter : oci.DataOciDatabaseVmClusterUpdates.IDataOciDatabaseVmClusterUpdatesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_vm_cluster_updates#name DataOciDatabaseVmClusterUpdates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_vm_cluster_updates#name DataOciDatabaseVmClusterUpdates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseVmClusterUpdates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_vm_cluster_updates#values DataOciDatabaseVmClusterUpdates#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_vm_cluster_updates#values DataOciDatabaseVmClusterUpdates#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseVmClusterUpdates
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_vm_cluster_updates#regex DataOciDatabaseVmClusterUpdates#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_vm_cluster_updates#regex DataOciDatabaseVmClusterUpdates#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

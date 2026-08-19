@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheck
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationAssessmentAssessorCheck.DataOciDatabaseMigrationAssessmentAssessorCheckConfig")]
     public class DataOciDatabaseMigrationAssessmentAssessorCheckConfig : oci.DataOciDatabaseMigrationAssessmentAssessorCheck.IDataOciDatabaseMigrationAssessmentAssessorCheckConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_assessor_check#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheck#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_assessor_check#assessment_id DataOciDatabaseMigrationAssessmentAssessorCheck#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_assessor_check#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheck#assessor_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_assessor_check#assessor_name DataOciDatabaseMigrationAssessmentAssessorCheck#assessor_name}.</summary>
         [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
         public string AssessorName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_assessor_check#check_name DataOciDatabaseMigrationAssessmentAssessorCheck#check_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_assessor_check#check_name DataOciDatabaseMigrationAssessmentAssessorCheck#check_name}.</summary>
         [JsiiProperty(name: "checkName", typeJson: "{\"primitive\":\"string\"}")]
         public string CheckName
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_assessor_check#compartment_id DataOciDatabaseMigrationAssessmentAssessorCheck#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_assessor_check#compartment_id DataOciDatabaseMigrationAssessmentAssessorCheck#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -41,7 +41,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentAssessorCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_assessor_check#id DataOciDatabaseMigrationAssessmentAssessorCheck#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_assessor_check#id DataOciDatabaseMigrationAssessmentAssessorCheck#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

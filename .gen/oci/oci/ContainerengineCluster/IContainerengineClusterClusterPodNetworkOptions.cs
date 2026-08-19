@@ -7,7 +7,7 @@ namespace oci.ContainerengineCluster
     [JsiiInterface(nativeType: typeof(IContainerengineClusterClusterPodNetworkOptions), fullyQualifiedName: "oci.containerengineCluster.ContainerengineClusterClusterPodNetworkOptions")]
     public interface IContainerengineClusterClusterPodNetworkOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster#cni_type ContainerengineCluster#cni_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/containerengine_cluster#cni_type ContainerengineCluster#cni_type}.</summary>
         [JsiiProperty(name: "cniType", typeJson: "{\"primitive\":\"string\"}")]
         string CniType
         {
@@ -21,7 +21,7 @@ namespace oci.ContainerengineCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster#cni_type ContainerengineCluster#cni_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/containerengine_cluster#cni_type ContainerengineCluster#cni_type}.</summary>
             [JsiiProperty(name: "cniType", typeJson: "{\"primitive\":\"string\"}")]
             public string CniType
             {

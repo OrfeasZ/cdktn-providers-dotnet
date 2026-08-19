@@ -9,7 +9,7 @@ namespace oci.CoreClusterNetwork
     [JsiiByValue(fqn: "oci.coreClusterNetwork.CoreClusterNetworkConfig")]
     public class CoreClusterNetworkConfig : oci.CoreClusterNetwork.ICoreClusterNetworkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#compartment_id CoreClusterNetwork#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#compartment_id CoreClusterNetwork#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.CoreClusterNetwork
 
         /// <summary>instance_pools block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#instance_pools CoreClusterNetwork#instance_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#instance_pools CoreClusterNetwork#instance_pools}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreClusterNetwork.ICoreClusterNetworkInstancePools" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "instancePools", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkInstancePools\"},\"kind\":\"array\"}}]}}")]
@@ -53,7 +53,7 @@ namespace oci.CoreClusterNetwork
 
         /// <summary>placement_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#placement_configuration CoreClusterNetwork#placement_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#placement_configuration CoreClusterNetwork#placement_configuration}
         /// </remarks>
         [JsiiProperty(name: "placementConfiguration", typeJson: "{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkPlacementConfiguration\"}")]
         public oci.CoreClusterNetwork.ICoreClusterNetworkPlacementConfiguration PlacementConfiguration
@@ -64,7 +64,7 @@ namespace oci.CoreClusterNetwork
 
         /// <summary>cluster_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#cluster_configuration CoreClusterNetwork#cluster_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#cluster_configuration CoreClusterNetwork#cluster_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clusterConfiguration", typeJson: "{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkClusterConfiguration\"}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace oci.CoreClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#defined_tags CoreClusterNetwork#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#defined_tags CoreClusterNetwork#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -83,7 +83,7 @@ namespace oci.CoreClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#display_name CoreClusterNetwork#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#display_name CoreClusterNetwork#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -92,7 +92,7 @@ namespace oci.CoreClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#freeform_tags CoreClusterNetwork#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#freeform_tags CoreClusterNetwork#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -101,7 +101,7 @@ namespace oci.CoreClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#id CoreClusterNetwork#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#id CoreClusterNetwork#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -116,7 +116,7 @@ namespace oci.CoreClusterNetwork
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#timeouts CoreClusterNetwork#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#timeouts CoreClusterNetwork#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkTimeouts\"}", isOptional: true)]

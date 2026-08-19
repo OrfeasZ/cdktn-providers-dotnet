@@ -7,14 +7,14 @@ namespace oci.OcvpManagementAppliance
     [JsiiInterface(nativeType: typeof(IOcvpManagementApplianceConnections), fullyQualifiedName: "oci.ocvpManagementAppliance.OcvpManagementApplianceConnections")]
     public interface IOcvpManagementApplianceConnections
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_management_appliance#credentials_secret_id OcvpManagementAppliance#credentials_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#credentials_secret_id OcvpManagementAppliance#credentials_secret_id}.</summary>
         [JsiiProperty(name: "credentialsSecretId", typeJson: "{\"primitive\":\"string\"}")]
         string CredentialsSecretId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_management_appliance#type OcvpManagementAppliance#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#type OcvpManagementAppliance#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -28,14 +28,14 @@ namespace oci.OcvpManagementAppliance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_management_appliance#credentials_secret_id OcvpManagementAppliance#credentials_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#credentials_secret_id OcvpManagementAppliance#credentials_secret_id}.</summary>
             [JsiiProperty(name: "credentialsSecretId", typeJson: "{\"primitive\":\"string\"}")]
             public string CredentialsSecretId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_management_appliance#type OcvpManagementAppliance#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#type OcvpManagementAppliance#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeDiscoveryAnalytic
     [JsiiByValue(fqn: "oci.dataOciDataSafeDiscoveryAnalytic.DataOciDataSafeDiscoveryAnalyticConfig")]
     public class DataOciDataSafeDiscoveryAnalyticConfig : oci.DataOciDataSafeDiscoveryAnalytic.IDataOciDataSafeDiscoveryAnalyticConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_discovery_analytic#compartment_id DataOciDataSafeDiscoveryAnalytic#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_discovery_analytic#compartment_id DataOciDataSafeDiscoveryAnalytic#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.DataOciDataSafeDiscoveryAnalytic
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_discovery_analytic#compartment_id_in_subtree DataOciDataSafeDiscoveryAnalytic#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_discovery_analytic#compartment_id_in_subtree DataOciDataSafeDiscoveryAnalytic#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace oci.DataOciDataSafeDiscoveryAnalytic
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_discovery_analytic#group_by DataOciDataSafeDiscoveryAnalytic#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_discovery_analytic#group_by DataOciDataSafeDiscoveryAnalytic#group_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GroupBy
@@ -60,7 +60,7 @@ namespace oci.DataOciDataSafeDiscoveryAnalytic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_discovery_analytic#id DataOciDataSafeDiscoveryAnalytic#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_discovery_analytic#id DataOciDataSafeDiscoveryAnalytic#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciDataSafeDiscoveryAnalytic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_discovery_analytic#sensitive_data_model_id DataOciDataSafeDiscoveryAnalytic#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_discovery_analytic#sensitive_data_model_id DataOciDataSafeDiscoveryAnalytic#sensitive_data_model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SensitiveDataModelId
@@ -82,7 +82,7 @@ namespace oci.DataOciDataSafeDiscoveryAnalytic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_discovery_analytic#target_id DataOciDataSafeDiscoveryAnalytic#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_discovery_analytic#target_id DataOciDataSafeDiscoveryAnalytic#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId

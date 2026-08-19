@@ -9,7 +9,7 @@ namespace oci.DatascienceSchedule
     [JsiiByValue(fqn: "oci.datascienceSchedule.DatascienceScheduleLogDetails")]
     public class DatascienceScheduleLogDetails : oci.DatascienceSchedule.IDatascienceScheduleLogDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#log_group_id DatascienceSchedule#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#log_id DatascienceSchedule#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogId
         {

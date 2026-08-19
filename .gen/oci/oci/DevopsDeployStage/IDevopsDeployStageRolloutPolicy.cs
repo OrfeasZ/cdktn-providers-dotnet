@@ -7,7 +7,7 @@ namespace oci.DevopsDeployStage
     [JsiiInterface(nativeType: typeof(IDevopsDeployStageRolloutPolicy), fullyQualifiedName: "oci.devopsDeployStage.DevopsDeployStageRolloutPolicy")]
     public interface IDevopsDeployStageRolloutPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#batch_count DevopsDeployStage#batch_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#batch_count DevopsDeployStage#batch_count}.</summary>
         [JsiiProperty(name: "batchCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BatchCount
@@ -18,7 +18,7 @@ namespace oci.DevopsDeployStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#batch_delay_in_seconds DevopsDeployStage#batch_delay_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#batch_delay_in_seconds DevopsDeployStage#batch_delay_in_seconds}.</summary>
         [JsiiProperty(name: "batchDelayInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BatchDelayInSeconds
@@ -29,7 +29,7 @@ namespace oci.DevopsDeployStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#batch_percentage DevopsDeployStage#batch_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#batch_percentage DevopsDeployStage#batch_percentage}.</summary>
         [JsiiProperty(name: "batchPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BatchPercentage
@@ -40,7 +40,7 @@ namespace oci.DevopsDeployStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
         [JsiiProperty(name: "policyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PolicyType
@@ -51,7 +51,7 @@ namespace oci.DevopsDeployStage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#ramp_limit_percent DevopsDeployStage#ramp_limit_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#ramp_limit_percent DevopsDeployStage#ramp_limit_percent}.</summary>
         [JsiiProperty(name: "rampLimitPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RampLimitPercent
@@ -69,7 +69,7 @@ namespace oci.DevopsDeployStage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#batch_count DevopsDeployStage#batch_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#batch_count DevopsDeployStage#batch_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "batchCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BatchCount
@@ -77,7 +77,7 @@ namespace oci.DevopsDeployStage
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#batch_delay_in_seconds DevopsDeployStage#batch_delay_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#batch_delay_in_seconds DevopsDeployStage#batch_delay_in_seconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "batchDelayInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BatchDelayInSeconds
@@ -85,7 +85,7 @@ namespace oci.DevopsDeployStage
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#batch_percentage DevopsDeployStage#batch_percentage}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#batch_percentage DevopsDeployStage#batch_percentage}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "batchPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BatchPercentage
@@ -93,7 +93,7 @@ namespace oci.DevopsDeployStage
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "policyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PolicyType
@@ -101,7 +101,7 @@ namespace oci.DevopsDeployStage
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_deploy_stage#ramp_limit_percent DevopsDeployStage#ramp_limit_percent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#ramp_limit_percent DevopsDeployStage#ramp_limit_percent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rampLimitPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RampLimitPercent

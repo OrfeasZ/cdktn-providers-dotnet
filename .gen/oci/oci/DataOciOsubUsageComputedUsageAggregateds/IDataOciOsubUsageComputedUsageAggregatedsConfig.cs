@@ -7,28 +7,28 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
     [JsiiInterface(nativeType: typeof(IDataOciOsubUsageComputedUsageAggregatedsConfig), fullyQualifiedName: "oci.dataOciOsubUsageComputedUsageAggregateds.DataOciOsubUsageComputedUsageAggregatedsConfig")]
     public interface IDataOciOsubUsageComputedUsageAggregatedsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#compartment_id DataOciOsubUsageComputedUsageAggregateds#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#compartment_id DataOciOsubUsageComputedUsageAggregateds#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#subscription_id DataOciOsubUsageComputedUsageAggregateds#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#subscription_id DataOciOsubUsageComputedUsageAggregateds#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_from DataOciOsubUsageComputedUsageAggregateds#time_from}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_from DataOciOsubUsageComputedUsageAggregateds#time_from}.</summary>
         [JsiiProperty(name: "timeFrom", typeJson: "{\"primitive\":\"string\"}")]
         string TimeFrom
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_to DataOciOsubUsageComputedUsageAggregateds#time_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_to DataOciOsubUsageComputedUsageAggregateds#time_to}.</summary>
         [JsiiProperty(name: "timeTo", typeJson: "{\"primitive\":\"string\"}")]
         string TimeTo
         {
@@ -37,7 +37,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#filter DataOciOsubUsageComputedUsageAggregateds#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#filter DataOciOsubUsageComputedUsageAggregateds#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsubUsageComputedUsageAggregateds.IDataOciOsubUsageComputedUsageAggregatedsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOsubUsageComputedUsageAggregateds.DataOciOsubUsageComputedUsageAggregatedsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#grouping DataOciOsubUsageComputedUsageAggregateds#grouping}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#grouping DataOciOsubUsageComputedUsageAggregateds#grouping}.</summary>
         [JsiiProperty(name: "grouping", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Grouping
@@ -61,7 +61,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#id DataOciOsubUsageComputedUsageAggregateds#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#id DataOciOsubUsageComputedUsageAggregateds#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#parent_product DataOciOsubUsageComputedUsageAggregateds#parent_product}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#parent_product DataOciOsubUsageComputedUsageAggregateds#parent_product}.</summary>
         [JsiiProperty(name: "parentProduct", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParentProduct
@@ -87,7 +87,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#x_one_origin_region DataOciOsubUsageComputedUsageAggregateds#x_one_origin_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#x_one_origin_region DataOciOsubUsageComputedUsageAggregateds#x_one_origin_region}.</summary>
         [JsiiProperty(name: "xOneOriginRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? XOneOriginRegion
@@ -105,28 +105,28 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#compartment_id DataOciOsubUsageComputedUsageAggregateds#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#compartment_id DataOciOsubUsageComputedUsageAggregateds#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#subscription_id DataOciOsubUsageComputedUsageAggregateds#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#subscription_id DataOciOsubUsageComputedUsageAggregateds#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_from DataOciOsubUsageComputedUsageAggregateds#time_from}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_from DataOciOsubUsageComputedUsageAggregateds#time_from}.</summary>
             [JsiiProperty(name: "timeFrom", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeFrom
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_to DataOciOsubUsageComputedUsageAggregateds#time_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_to DataOciOsubUsageComputedUsageAggregateds#time_to}.</summary>
             [JsiiProperty(name: "timeTo", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeTo
             {
@@ -135,7 +135,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#filter DataOciOsubUsageComputedUsageAggregateds#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#filter DataOciOsubUsageComputedUsageAggregateds#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsubUsageComputedUsageAggregateds.IDataOciOsubUsageComputedUsageAggregatedsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -145,7 +145,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#grouping DataOciOsubUsageComputedUsageAggregateds#grouping}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#grouping DataOciOsubUsageComputedUsageAggregateds#grouping}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "grouping", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Grouping
@@ -153,7 +153,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#id DataOciOsubUsageComputedUsageAggregateds#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#id DataOciOsubUsageComputedUsageAggregateds#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -165,7 +165,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#parent_product DataOciOsubUsageComputedUsageAggregateds#parent_product}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#parent_product DataOciOsubUsageComputedUsageAggregateds#parent_product}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parentProduct", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParentProduct
@@ -173,7 +173,7 @@ namespace oci.DataOciOsubUsageComputedUsageAggregateds
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#x_one_origin_region DataOciOsubUsageComputedUsageAggregateds#x_one_origin_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#x_one_origin_region DataOciOsubUsageComputedUsageAggregateds#x_one_origin_region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "xOneOriginRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? XOneOriginRegion

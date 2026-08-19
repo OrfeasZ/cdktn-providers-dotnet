@@ -5,7 +5,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
     /// <remarks>
     /// <h1><c>oci_dbmulticloud_oracle_db_azure_blob_mount</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount"><c>oci_dbmulticloud_oracle_db_azure_blob_mount</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount"><c>oci_dbmulticloud_oracle_db_azure_blob_mount</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

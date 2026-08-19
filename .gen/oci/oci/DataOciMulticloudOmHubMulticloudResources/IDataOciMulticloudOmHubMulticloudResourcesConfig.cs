@@ -7,7 +7,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
     [JsiiInterface(nativeType: typeof(IDataOciMulticloudOmHubMulticloudResourcesConfig), fullyQualifiedName: "oci.dataOciMulticloudOmHubMulticloudResources.DataOciMulticloudOmHubMulticloudResourcesConfig")]
     public interface IDataOciMulticloudOmHubMulticloudResourcesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#compartment_id DataOciMulticloudOmHubMulticloudResources#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#compartment_id DataOciMulticloudOmHubMulticloudResources#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#external_location DataOciMulticloudOmHubMulticloudResources#external_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#external_location DataOciMulticloudOmHubMulticloudResources#external_location}.</summary>
         [JsiiProperty(name: "externalLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExternalLocation
@@ -31,7 +31,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#filter DataOciMulticloudOmHubMulticloudResources#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#filter DataOciMulticloudOmHubMulticloudResources#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudOmHubMulticloudResources.IDataOciMulticloudOmHubMulticloudResourcesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMulticloudOmHubMulticloudResources.DataOciMulticloudOmHubMulticloudResourcesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#id DataOciMulticloudOmHubMulticloudResources#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#id DataOciMulticloudOmHubMulticloudResources#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#limit DataOciMulticloudOmHubMulticloudResources#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#limit DataOciMulticloudOmHubMulticloudResources#limit}.</summary>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Limit
@@ -70,7 +70,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_anchor_id DataOciMulticloudOmHubMulticloudResources#resource_anchor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_anchor_id DataOciMulticloudOmHubMulticloudResources#resource_anchor_id}.</summary>
         [JsiiProperty(name: "resourceAnchorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceAnchorId
@@ -81,7 +81,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_type DataOciMulticloudOmHubMulticloudResources#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_type DataOciMulticloudOmHubMulticloudResources#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceType
@@ -92,7 +92,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_id DataOciMulticloudOmHubMulticloudResources#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_id DataOciMulticloudOmHubMulticloudResources#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubscriptionId
@@ -103,7 +103,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_service_name DataOciMulticloudOmHubMulticloudResources#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_service_name DataOciMulticloudOmHubMulticloudResources#subscription_service_name}.</summary>
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubscriptionServiceName
@@ -121,7 +121,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#compartment_id DataOciMulticloudOmHubMulticloudResources#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#compartment_id DataOciMulticloudOmHubMulticloudResources#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -129,7 +129,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#external_location DataOciMulticloudOmHubMulticloudResources#external_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#external_location DataOciMulticloudOmHubMulticloudResources#external_location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "externalLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExternalLocation
@@ -139,7 +139,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#filter DataOciMulticloudOmHubMulticloudResources#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#filter DataOciMulticloudOmHubMulticloudResources#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudOmHubMulticloudResources.IDataOciMulticloudOmHubMulticloudResourcesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -149,7 +149,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#id DataOciMulticloudOmHubMulticloudResources#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#id DataOciMulticloudOmHubMulticloudResources#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -161,7 +161,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#limit DataOciMulticloudOmHubMulticloudResources#limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#limit DataOciMulticloudOmHubMulticloudResources#limit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Limit
@@ -169,7 +169,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_anchor_id DataOciMulticloudOmHubMulticloudResources#resource_anchor_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_anchor_id DataOciMulticloudOmHubMulticloudResources#resource_anchor_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceAnchorId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceAnchorId
@@ -177,7 +177,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_type DataOciMulticloudOmHubMulticloudResources#resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#resource_type DataOciMulticloudOmHubMulticloudResources#resource_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceType
@@ -185,7 +185,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_id DataOciMulticloudOmHubMulticloudResources#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_id DataOciMulticloudOmHubMulticloudResources#subscription_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubscriptionId
@@ -193,7 +193,7 @@ namespace oci.DataOciMulticloudOmHubMulticloudResources
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_service_name DataOciMulticloudOmHubMulticloudResources#subscription_service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_om_hub_multicloud_resources#subscription_service_name DataOciMulticloudOmHubMulticloudResources#subscription_service_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubscriptionServiceName

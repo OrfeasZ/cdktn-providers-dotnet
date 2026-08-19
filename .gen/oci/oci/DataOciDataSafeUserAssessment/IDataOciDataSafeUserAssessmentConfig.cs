@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeUserAssessment
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeUserAssessmentConfig), fullyQualifiedName: "oci.dataOciDataSafeUserAssessment.DataOciDataSafeUserAssessmentConfig")]
     public interface IDataOciDataSafeUserAssessmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_user_assessment#user_assessment_id DataOciDataSafeUserAssessment#user_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_user_assessment#user_assessment_id DataOciDataSafeUserAssessment#user_assessment_id}.</summary>
         [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string UserAssessmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeUserAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_user_assessment#user_assessment_id DataOciDataSafeUserAssessment#user_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_user_assessment#user_assessment_id DataOciDataSafeUserAssessment#user_assessment_id}.</summary>
             [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserAssessmentId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciIotDigitalTwinAdapter
     [JsiiByValue(fqn: "oci.dataOciIotDigitalTwinAdapter.DataOciIotDigitalTwinAdapterConfig")]
     public class DataOciIotDigitalTwinAdapterConfig : oci.DataOciIotDigitalTwinAdapter.IDataOciIotDigitalTwinAdapterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/iot_digital_twin_adapter#digital_twin_adapter_id DataOciIotDigitalTwinAdapter#digital_twin_adapter_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/iot_digital_twin_adapter#digital_twin_adapter_id DataOciIotDigitalTwinAdapter#digital_twin_adapter_id}.</summary>
         [JsiiProperty(name: "digitalTwinAdapterId", typeJson: "{\"primitive\":\"string\"}")]
         public string DigitalTwinAdapterId
         {

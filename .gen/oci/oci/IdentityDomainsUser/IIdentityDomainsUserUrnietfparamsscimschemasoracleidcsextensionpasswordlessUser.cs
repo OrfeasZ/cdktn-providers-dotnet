@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsUser
     {
         /// <summary>factor_identifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#factor_identifier IdentityDomainsUser#factor_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_user#factor_identifier IdentityDomainsUser#factor_identifier}
         /// </remarks>
         [JsiiProperty(name: "factorIdentifier", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionpasswordlessUserFactorIdentifier\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#factor_method IdentityDomainsUser#factor_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_user#factor_method IdentityDomainsUser#factor_method}.</summary>
         [JsiiProperty(name: "factorMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FactorMethod
@@ -32,7 +32,7 @@ namespace oci.IdentityDomainsUser
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
         [JsiiProperty(name: "factorType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FactorType
@@ -52,7 +52,7 @@ namespace oci.IdentityDomainsUser
 
             /// <summary>factor_identifier block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#factor_identifier IdentityDomainsUser#factor_identifier}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_user#factor_identifier IdentityDomainsUser#factor_identifier}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "factorIdentifier", typeJson: "{\"fqn\":\"oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionpasswordlessUserFactorIdentifier\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionpasswordlessUserFactorIdentifier?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#factor_method IdentityDomainsUser#factor_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_user#factor_method IdentityDomainsUser#factor_method}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "factorMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FactorMethod
@@ -69,7 +69,7 @@ namespace oci.IdentityDomainsUser
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_user#factor_type IdentityDomainsUser#factor_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "factorType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FactorType

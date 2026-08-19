@@ -7,7 +7,7 @@ namespace oci.FunctionsApplication
     [JsiiInterface(nativeType: typeof(IFunctionsApplicationLogging), fullyQualifiedName: "oci.functionsApplication.FunctionsApplicationLogging")]
     public interface IFunctionsApplicationLogging
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/functions_application#line_format FunctionsApplication#line_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/functions_application#line_format FunctionsApplication#line_format}.</summary>
         [JsiiProperty(name: "lineFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LineFormat
@@ -25,7 +25,7 @@ namespace oci.FunctionsApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/functions_application#line_format FunctionsApplication#line_format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/functions_application#line_format FunctionsApplication#line_format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lineFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LineFormat

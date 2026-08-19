@@ -9,7 +9,7 @@ namespace oci.CoreComputeGpuMemoryFabric
     [JsiiByValue(fqn: "oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricConfig")]
     public class CoreComputeGpuMemoryFabricConfig : oci.CoreComputeGpuMemoryFabric.ICoreComputeGpuMemoryFabricConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id CoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id CoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}.</summary>
         [JsiiProperty(name: "computeGpuMemoryFabricId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeGpuMemoryFabricId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreComputeGpuMemoryFabric
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#compartment_id CoreComputeGpuMemoryFabric#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#compartment_id CoreComputeGpuMemoryFabric#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.CoreComputeGpuMemoryFabric
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#defined_tags CoreComputeGpuMemoryFabric#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#defined_tags CoreComputeGpuMemoryFabric#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -35,7 +35,7 @@ namespace oci.CoreComputeGpuMemoryFabric
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#display_name CoreComputeGpuMemoryFabric#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#display_name CoreComputeGpuMemoryFabric#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -44,7 +44,7 @@ namespace oci.CoreComputeGpuMemoryFabric
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#freeform_tags CoreComputeGpuMemoryFabric#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#freeform_tags CoreComputeGpuMemoryFabric#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -53,7 +53,7 @@ namespace oci.CoreComputeGpuMemoryFabric
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#id CoreComputeGpuMemoryFabric#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#id CoreComputeGpuMemoryFabric#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace oci.CoreComputeGpuMemoryFabric
 
         /// <summary>memory_fabric_preferences block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#memory_fabric_preferences CoreComputeGpuMemoryFabric#memory_fabric_preferences}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#memory_fabric_preferences CoreComputeGpuMemoryFabric#memory_fabric_preferences}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memoryFabricPreferences", typeJson: "{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricMemoryFabricPreferences\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace oci.CoreComputeGpuMemoryFabric
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_fabric#timeouts CoreComputeGpuMemoryFabric#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_fabric#timeouts CoreComputeGpuMemoryFabric#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreComputeGpuMemoryFabric.CoreComputeGpuMemoryFabricTimeouts\"}", isOptional: true)]

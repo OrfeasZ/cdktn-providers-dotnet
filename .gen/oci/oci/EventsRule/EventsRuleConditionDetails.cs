@@ -7,7 +7,7 @@ namespace oci.EventsRule
     [JsiiByValue(fqn: "oci.eventsRule.EventsRuleConditionDetails")]
     public class EventsRuleConditionDetails : oci.EventsRule.IEventsRuleConditionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/events_rule#data EventsRule#data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/events_rule#data EventsRule#data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "data", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Data
@@ -16,7 +16,7 @@ namespace oci.EventsRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/events_rule#event_types EventsRule#event_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/events_rule#event_types EventsRule#event_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eventTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? EventTypes

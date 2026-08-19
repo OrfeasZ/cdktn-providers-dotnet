@@ -9,7 +9,7 @@ namespace oci.DataOciPsqlConfiguration
     [JsiiByValue(fqn: "oci.dataOciPsqlConfiguration.DataOciPsqlConfigurationConfig")]
     public class DataOciPsqlConfigurationConfig : oci.DataOciPsqlConfiguration.IDataOciPsqlConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psql_configuration#configuration_id DataOciPsqlConfiguration#configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/psql_configuration#configuration_id DataOciPsqlConfiguration#configuration_id}.</summary>
         [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConfigurationId
         {

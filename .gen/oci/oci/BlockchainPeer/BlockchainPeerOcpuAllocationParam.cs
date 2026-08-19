@@ -9,7 +9,7 @@ namespace oci.BlockchainPeer
     [JsiiByValue(fqn: "oci.blockchainPeer.BlockchainPeerOcpuAllocationParam")]
     public class BlockchainPeerOcpuAllocationParam : oci.BlockchainPeer.IBlockchainPeerOcpuAllocationParam
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#ocpu_allocation_number BlockchainPeer#ocpu_allocation_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#ocpu_allocation_number BlockchainPeer#ocpu_allocation_number}.</summary>
         [JsiiProperty(name: "ocpuAllocationNumber", typeJson: "{\"primitive\":\"number\"}")]
         public double OcpuAllocationNumber
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciCoreIpsecConfig
     [JsiiByValue(fqn: "oci.dataOciCoreIpsecConfig.DataOciCoreIpsecConfigConfig")]
     public class DataOciCoreIpsecConfigConfig : oci.DataOciCoreIpsecConfig.IDataOciCoreIpsecConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_ipsec_config#ipsec_id DataOciCoreIpsecConfig#ipsec_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_ipsec_config#ipsec_id DataOciCoreIpsecConfig#ipsec_id}.</summary>
         [JsiiProperty(name: "ipsecId", typeJson: "{\"primitive\":\"string\"}")]
         public string IpsecId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreIpsecConfig
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_ipsec_config#filter DataOciCoreIpsecConfig#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_ipsec_config#filter DataOciCoreIpsecConfig#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreIpsecConfig.IDataOciCoreIpsecConfigFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciCoreIpsecConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_ipsec_config#id DataOciCoreIpsecConfig#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_ipsec_config#id DataOciCoreIpsecConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

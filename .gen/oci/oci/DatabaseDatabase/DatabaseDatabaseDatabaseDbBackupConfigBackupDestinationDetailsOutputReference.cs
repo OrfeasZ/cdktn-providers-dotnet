@@ -35,6 +35,12 @@ namespace oci.DatabaseDatabase
         {
         }
 
+        [JsiiMethod(name: "putTdeWalletBackupDestination", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination\"}}]")]
+        public virtual void PutTdeWalletBackupDestination(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetBackupRetentionPolicyOnTerminate")]
         public virtual void ResetBackupRetentionPolicyOnTerminate()
         {
@@ -77,6 +83,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTdeWalletBackupDestination")]
+        public virtual void ResetTdeWalletBackupDestination()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetType")]
         public virtual void ResetType()
         {
@@ -93,6 +105,12 @@ namespace oci.DatabaseDatabase
         public virtual void ResetVpcUser()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "tdeWalletBackupDestination", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestinationOutputReference\"}")]
+        public virtual oci.DatabaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestinationOutputReference TdeWalletBackupDestination
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestinationOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -151,6 +169,13 @@ namespace oci.DatabaseDatabase
         public virtual string? RemoteRegionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tdeWalletBackupDestinationInput", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination\"}", isOptional: true)]
+        public virtual oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination? TdeWalletBackupDestinationInput
+        {
+            get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination?>();
         }
 
         [JsiiOptional]

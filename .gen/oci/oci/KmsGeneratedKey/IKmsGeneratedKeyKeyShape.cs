@@ -7,21 +7,21 @@ namespace oci.KmsGeneratedKey
     [JsiiInterface(nativeType: typeof(IKmsGeneratedKeyKeyShape), fullyQualifiedName: "oci.kmsGeneratedKey.KmsGeneratedKeyKeyShape")]
     public interface IKmsGeneratedKeyKeyShape
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_generated_key#algorithm KmsGeneratedKey#algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_generated_key#algorithm KmsGeneratedKey#algorithm}.</summary>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
         string Algorithm
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_generated_key#length KmsGeneratedKey#length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_generated_key#length KmsGeneratedKey#length}.</summary>
         [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
         double Length
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_generated_key#curve_id KmsGeneratedKey#curve_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_generated_key#curve_id KmsGeneratedKey#curve_id}.</summary>
         [JsiiProperty(name: "curveId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CurveId
@@ -39,21 +39,21 @@ namespace oci.KmsGeneratedKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_generated_key#algorithm KmsGeneratedKey#algorithm}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_generated_key#algorithm KmsGeneratedKey#algorithm}.</summary>
             [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
             public string Algorithm
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_generated_key#length KmsGeneratedKey#length}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_generated_key#length KmsGeneratedKey#length}.</summary>
             [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
             public double Length
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/kms_generated_key#curve_id KmsGeneratedKey#curve_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_generated_key#curve_id KmsGeneratedKey#curve_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "curveId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CurveId

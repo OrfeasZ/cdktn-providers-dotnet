@@ -7,7 +7,7 @@ namespace oci.CoreDefaultSecurityList
     [JsiiInterface(nativeType: typeof(ICoreDefaultSecurityListEgressSecurityRulesUdpOptions), fullyQualifiedName: "oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRulesUdpOptions")]
     public interface ICoreDefaultSecurityListEgressSecurityRulesUdpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Max
@@ -18,7 +18,7 @@ namespace oci.CoreDefaultSecurityList
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Min
@@ -31,7 +31,7 @@ namespace oci.CoreDefaultSecurityList
 
         /// <summary>source_port_range block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
         /// </remarks>
         [JsiiProperty(name: "sourcePortRange", typeJson: "{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace oci.CoreDefaultSecurityList
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_default_security_list#max CoreDefaultSecurityList#max}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Max
@@ -58,7 +58,7 @@ namespace oci.CoreDefaultSecurityList
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_default_security_list#min CoreDefaultSecurityList#min}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Min
@@ -68,7 +68,7 @@ namespace oci.CoreDefaultSecurityList
 
             /// <summary>source_port_range block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_default_security_list#source_port_range CoreDefaultSecurityList#source_port_range}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourcePortRange", typeJson: "{\"fqn\":\"oci.coreDefaultSecurityList.CoreDefaultSecurityListEgressSecurityRulesUdpOptionsSourcePortRange\"}", isOptional: true)]

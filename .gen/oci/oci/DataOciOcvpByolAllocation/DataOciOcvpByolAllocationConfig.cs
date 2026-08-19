@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpByolAllocation
     [JsiiByValue(fqn: "oci.dataOciOcvpByolAllocation.DataOciOcvpByolAllocationConfig")]
     public class DataOciOcvpByolAllocationConfig : oci.DataOciOcvpByolAllocation.IDataOciOcvpByolAllocationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ocvp_byol_allocation#byol_allocation_id DataOciOcvpByolAllocation#byol_allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byol_allocation#byol_allocation_id DataOciOcvpByolAllocation#byol_allocation_id}.</summary>
         [JsiiProperty(name: "byolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ByolAllocationId
         {

@@ -7,7 +7,7 @@ namespace oci.LoadBalancerSslCipherSuite
     [JsiiByValue(fqn: "oci.loadBalancerSslCipherSuite.LoadBalancerSslCipherSuiteTimeouts")]
     public class LoadBalancerSslCipherSuiteTimeouts : oci.LoadBalancerSslCipherSuite.ILoadBalancerSslCipherSuiteTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_ssl_cipher_suite#create LoadBalancerSslCipherSuite#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_ssl_cipher_suite#create LoadBalancerSslCipherSuite#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LoadBalancerSslCipherSuite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_ssl_cipher_suite#delete LoadBalancerSslCipherSuite#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_ssl_cipher_suite#delete LoadBalancerSslCipherSuite#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.LoadBalancerSslCipherSuite
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_ssl_cipher_suite#update LoadBalancerSslCipherSuite#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_ssl_cipher_suite#update LoadBalancerSslCipherSuite#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

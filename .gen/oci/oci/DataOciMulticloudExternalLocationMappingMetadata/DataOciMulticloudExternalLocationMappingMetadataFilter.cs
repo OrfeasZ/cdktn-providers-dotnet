@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
     [JsiiByValue(fqn: "oci.dataOciMulticloudExternalLocationMappingMetadata.DataOciMulticloudExternalLocationMappingMetadataFilter")]
     public class DataOciMulticloudExternalLocationMappingMetadataFilter : oci.DataOciMulticloudExternalLocationMappingMetadata.IDataOciMulticloudExternalLocationMappingMetadataFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_location_mapping_metadata#name DataOciMulticloudExternalLocationMappingMetadata#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#name DataOciMulticloudExternalLocationMappingMetadata#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_location_mapping_metadata#values DataOciMulticloudExternalLocationMappingMetadata#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#values DataOciMulticloudExternalLocationMappingMetadata#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_external_location_mapping_metadata#regex DataOciMulticloudExternalLocationMappingMetadata#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#regex DataOciMulticloudExternalLocationMappingMetadata#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

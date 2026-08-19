@@ -7,7 +7,7 @@ namespace oci.DataOciCoreDrgRouteTable
     [JsiiInterface(nativeType: typeof(IDataOciCoreDrgRouteTableConfig), fullyQualifiedName: "oci.dataOciCoreDrgRouteTable.DataOciCoreDrgRouteTableConfig")]
     public interface IDataOciCoreDrgRouteTableConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_drg_route_table#drg_route_table_id DataOciCoreDrgRouteTable#drg_route_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_drg_route_table#drg_route_table_id DataOciCoreDrgRouteTable#drg_route_table_id}.</summary>
         [JsiiProperty(name: "drgRouteTableId", typeJson: "{\"primitive\":\"string\"}")]
         string DrgRouteTableId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreDrgRouteTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_drg_route_table#drg_route_table_id DataOciCoreDrgRouteTable#drg_route_table_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_drg_route_table#drg_route_table_id DataOciCoreDrgRouteTable#drg_route_table_id}.</summary>
             [JsiiProperty(name: "drgRouteTableId", typeJson: "{\"primitive\":\"string\"}")]
             public string DrgRouteTableId
             {

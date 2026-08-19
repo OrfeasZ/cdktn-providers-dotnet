@@ -7,7 +7,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiRequest
     [JsiiInterface(nativeType: typeof(IDataOciApiaccesscontrolPrivilegedApiRequestConfig), fullyQualifiedName: "oci.dataOciApiaccesscontrolPrivilegedApiRequest.DataOciApiaccesscontrolPrivilegedApiRequestConfig")]
     public interface IDataOciApiaccesscontrolPrivilegedApiRequestConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}.</summary>
         [JsiiProperty(name: "privilegedApiRequestId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivilegedApiRequestId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiRequest
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_request#privileged_api_request_id DataOciApiaccesscontrolPrivilegedApiRequest#privileged_api_request_id}.</summary>
             [JsiiProperty(name: "privilegedApiRequestId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivilegedApiRequestId
             {

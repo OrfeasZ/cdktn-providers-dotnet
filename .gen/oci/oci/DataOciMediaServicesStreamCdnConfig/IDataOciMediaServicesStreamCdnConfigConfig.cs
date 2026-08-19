@@ -7,7 +7,7 @@ namespace oci.DataOciMediaServicesStreamCdnConfig
     [JsiiInterface(nativeType: typeof(IDataOciMediaServicesStreamCdnConfigConfig), fullyQualifiedName: "oci.dataOciMediaServicesStreamCdnConfig.DataOciMediaServicesStreamCdnConfigConfig")]
     public interface IDataOciMediaServicesStreamCdnConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_stream_cdn_config#stream_cdn_config_id DataOciMediaServicesStreamCdnConfig#stream_cdn_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_stream_cdn_config#stream_cdn_config_id DataOciMediaServicesStreamCdnConfig#stream_cdn_config_id}.</summary>
         [JsiiProperty(name: "streamCdnConfigId", typeJson: "{\"primitive\":\"string\"}")]
         string StreamCdnConfigId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMediaServicesStreamCdnConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_stream_cdn_config#stream_cdn_config_id DataOciMediaServicesStreamCdnConfig#stream_cdn_config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_stream_cdn_config#stream_cdn_config_id DataOciMediaServicesStreamCdnConfig#stream_cdn_config_id}.</summary>
             [JsiiProperty(name: "streamCdnConfigId", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamCdnConfigId
             {

@@ -9,7 +9,7 @@ namespace oci.LoadBalancerPathRouteSet
     [JsiiByValue(fqn: "oci.loadBalancerPathRouteSet.LoadBalancerPathRouteSetPathRoutesPathMatchType")]
     public class LoadBalancerPathRouteSetPathRoutesPathMatchType : oci.LoadBalancerPathRouteSet.ILoadBalancerPathRouteSetPathRoutesPathMatchType
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/load_balancer_path_route_set#match_type LoadBalancerPathRouteSet#match_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_path_route_set#match_type LoadBalancerPathRouteSet#match_type}.</summary>
         [JsiiProperty(name: "matchType", typeJson: "{\"primitive\":\"string\"}")]
         public string MatchType
         {

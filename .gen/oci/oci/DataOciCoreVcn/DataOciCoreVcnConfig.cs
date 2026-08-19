@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVcn
     [JsiiByValue(fqn: "oci.dataOciCoreVcn.DataOciCoreVcnConfig")]
     public class DataOciCoreVcnConfig : oci.DataOciCoreVcn.IDataOciCoreVcnConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_vcn#vcn_id DataOciCoreVcn#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_vcn#vcn_id DataOciCoreVcn#vcn_id}.</summary>
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
         public string VcnId
         {

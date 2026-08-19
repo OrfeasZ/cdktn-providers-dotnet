@@ -7,7 +7,7 @@ namespace oci.DataOciApigatewaySubscriber
     [JsiiInterface(nativeType: typeof(IDataOciApigatewaySubscriberConfig), fullyQualifiedName: "oci.dataOciApigatewaySubscriber.DataOciApigatewaySubscriberConfig")]
     public interface IDataOciApigatewaySubscriberConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apigateway_subscriber#subscriber_id DataOciApigatewaySubscriber#subscriber_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apigateway_subscriber#subscriber_id DataOciApigatewaySubscriber#subscriber_id}.</summary>
         [JsiiProperty(name: "subscriberId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriberId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciApigatewaySubscriber
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/apigateway_subscriber#subscriber_id DataOciApigatewaySubscriber#subscriber_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apigateway_subscriber#subscriber_id DataOciApigatewaySubscriber#subscriber_id}.</summary>
             [JsiiProperty(name: "subscriberId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriberId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciMonitoringAlarmSuppression
     [JsiiByValue(fqn: "oci.dataOciMonitoringAlarmSuppression.DataOciMonitoringAlarmSuppressionAConfig")]
     public class DataOciMonitoringAlarmSuppressionAConfig : oci.DataOciMonitoringAlarmSuppression.IDataOciMonitoringAlarmSuppressionAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/monitoring_alarm_suppression#alarm_suppression_id DataOciMonitoringAlarmSuppressionA#alarm_suppression_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/monitoring_alarm_suppression#alarm_suppression_id DataOciMonitoringAlarmSuppressionA#alarm_suppression_id}.</summary>
         [JsiiProperty(name: "alarmSuppressionId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlarmSuppressionId
         {

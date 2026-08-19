@@ -9,7 +9,7 @@ namespace oci.OsManagementHubSoftwareSourceManifest
     [JsiiByValue(fqn: "oci.osManagementHubSoftwareSourceManifest.OsManagementHubSoftwareSourceManifestConfig")]
     public class OsManagementHubSoftwareSourceManifestConfig : oci.OsManagementHubSoftwareSourceManifest.IOsManagementHubSoftwareSourceManifestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_software_source_manifest#software_source_id OsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_software_source_manifest#software_source_id OsManagementHubSoftwareSourceManifest#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareSourceId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubSoftwareSourceManifest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_software_source_manifest#content OsManagementHubSoftwareSourceManifest#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_software_source_manifest#content OsManagementHubSoftwareSourceManifest#content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Content
@@ -26,7 +26,7 @@ namespace oci.OsManagementHubSoftwareSourceManifest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_software_source_manifest#id OsManagementHubSoftwareSourceManifest#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_software_source_manifest#id OsManagementHubSoftwareSourceManifest#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.OsManagementHubSoftwareSourceManifest
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_software_source_manifest#timeouts OsManagementHubSoftwareSourceManifest#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_software_source_manifest#timeouts OsManagementHubSoftwareSourceManifest#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubSoftwareSourceManifest.OsManagementHubSoftwareSourceManifestTimeouts\"}", isOptional: true)]

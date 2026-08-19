@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardManagedList
     [JsiiByValue(fqn: "oci.dataOciCloudGuardManagedList.DataOciCloudGuardManagedListConfig")]
     public class DataOciCloudGuardManagedListConfig : oci.DataOciCloudGuardManagedList.IDataOciCloudGuardManagedListConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_managed_list#managed_list_id DataOciCloudGuardManagedList#managed_list_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_guard_managed_list#managed_list_id DataOciCloudGuardManagedList#managed_list_id}.</summary>
         [JsiiProperty(name: "managedListId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedListId
         {

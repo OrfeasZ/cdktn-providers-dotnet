@@ -5,7 +5,7 @@ namespace oci.DataOciVaultSecret
     /// <remarks>
     /// <h1><c>data_oci_vault_secret</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/vault_secret"><c>data_oci_vault_secret</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/vault_secret"><c>data_oci_vault_secret</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

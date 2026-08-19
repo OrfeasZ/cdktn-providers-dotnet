@@ -9,7 +9,7 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiByValue(fqn: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemEncryptData")]
     public class MysqlMysqlDbSystemEncryptData : oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemEncryptData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_db_system#key_generation_type MysqlMysqlDbSystem#key_generation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#key_generation_type MysqlMysqlDbSystem#key_generation_type}.</summary>
         [JsiiProperty(name: "keyGenerationType", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyGenerationType
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlMysqlDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_mysql_db_system#key_id MysqlMysqlDbSystem#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#key_id MysqlMysqlDbSystem#key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyId

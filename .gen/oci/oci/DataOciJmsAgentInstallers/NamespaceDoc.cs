@@ -5,7 +5,7 @@ namespace oci.DataOciJmsAgentInstallers
     /// <remarks>
     /// <h1><c>data_oci_jms_agent_installers</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_agent_installers"><c>data_oci_jms_agent_installers</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/jms_agent_installers"><c>data_oci_jms_agent_installers</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

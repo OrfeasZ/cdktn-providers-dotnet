@@ -7,7 +7,7 @@ namespace oci.DevopsTrigger
     [JsiiByValue(fqn: "oci.devopsTrigger.DevopsTriggerActionsFilterExcludeFileFilter")]
     public class DevopsTriggerActionsFilterExcludeFileFilter : oci.DevopsTrigger.IDevopsTriggerActionsFilterExcludeFileFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#file_paths DevopsTrigger#file_paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#file_paths DevopsTrigger#file_paths}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filePaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FilePaths

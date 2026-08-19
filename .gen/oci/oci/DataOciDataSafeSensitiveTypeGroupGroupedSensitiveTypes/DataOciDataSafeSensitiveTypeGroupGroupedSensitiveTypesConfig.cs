@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes
     [JsiiByValue(fqn: "oci.dataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypesConfig")]
     public class DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypesConfig : oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes.IDataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#sensitive_type_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#sensitive_type_group_id}.</summary>
         [JsiiProperty(name: "sensitiveTypeGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitiveTypeGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#filter DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#filter DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes.IDataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#id DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#id DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#sensitive_type_id DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#sensitive_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_sensitive_type_group_grouped_sensitive_types#sensitive_type_id DataOciDataSafeSensitiveTypeGroupGroupedSensitiveTypes#sensitive_type_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sensitiveTypeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SensitiveTypeId

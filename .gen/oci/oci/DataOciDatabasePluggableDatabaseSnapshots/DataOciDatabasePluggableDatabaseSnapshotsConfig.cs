@@ -7,7 +7,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshots
     [JsiiByValue(fqn: "oci.dataOciDatabasePluggableDatabaseSnapshots.DataOciDatabasePluggableDatabaseSnapshotsConfig")]
     public class DataOciDatabasePluggableDatabaseSnapshotsConfig : oci.DataOciDatabasePluggableDatabaseSnapshots.IDataOciDatabasePluggableDatabaseSnapshotsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_pluggable_database_snapshots#cluster_id DataOciDatabasePluggableDatabaseSnapshots#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_pluggable_database_snapshots#cluster_id DataOciDatabasePluggableDatabaseSnapshots#cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterId
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshots
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_pluggable_database_snapshots#compartment_id DataOciDatabasePluggableDatabaseSnapshots#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_pluggable_database_snapshots#compartment_id DataOciDatabasePluggableDatabaseSnapshots#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshots
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_pluggable_database_snapshots#filter DataOciDatabasePluggableDatabaseSnapshots#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_pluggable_database_snapshots#filter DataOciDatabasePluggableDatabaseSnapshots#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabasePluggableDatabaseSnapshots.IDataOciDatabasePluggableDatabaseSnapshotsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshots
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_pluggable_database_snapshots#id DataOciDatabasePluggableDatabaseSnapshots#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_pluggable_database_snapshots#id DataOciDatabasePluggableDatabaseSnapshots#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshots
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_pluggable_database_snapshots#name DataOciDatabasePluggableDatabaseSnapshots#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_pluggable_database_snapshots#name DataOciDatabasePluggableDatabaseSnapshots#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -82,7 +82,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshots
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_pluggable_database_snapshots#pluggable_database_id DataOciDatabasePluggableDatabaseSnapshots#pluggable_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_pluggable_database_snapshots#pluggable_database_id DataOciDatabasePluggableDatabaseSnapshots#pluggable_database_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pluggableDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PluggableDatabaseId
@@ -91,7 +91,7 @@ namespace oci.DataOciDatabasePluggableDatabaseSnapshots
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_pluggable_database_snapshots#state DataOciDatabasePluggableDatabaseSnapshots#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_pluggable_database_snapshots#state DataOciDatabasePluggableDatabaseSnapshots#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

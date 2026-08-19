@@ -9,7 +9,7 @@ namespace oci.DataOciSchServiceConnector
     [JsiiByValue(fqn: "oci.dataOciSchServiceConnector.DataOciSchServiceConnectorConfig")]
     public class DataOciSchServiceConnectorConfig : oci.DataOciSchServiceConnector.IDataOciSchServiceConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/sch_service_connector#service_connector_id DataOciSchServiceConnector#service_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/sch_service_connector#service_connector_id DataOciSchServiceConnector#service_connector_id}.</summary>
         [JsiiProperty(name: "serviceConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceConnectorId
         {

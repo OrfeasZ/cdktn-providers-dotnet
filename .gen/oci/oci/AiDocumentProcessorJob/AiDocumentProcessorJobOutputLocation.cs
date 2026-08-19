@@ -9,7 +9,7 @@ namespace oci.AiDocumentProcessorJob
     [JsiiByValue(fqn: "oci.aiDocumentProcessorJob.AiDocumentProcessorJobOutputLocation")]
     public class AiDocumentProcessorJobOutputLocation : oci.AiDocumentProcessorJob.IAiDocumentProcessorJobOutputLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#bucket AiDocumentProcessorJob#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.AiDocumentProcessorJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#namespace AiDocumentProcessorJob#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.AiDocumentProcessorJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_document_processor_job#prefix AiDocumentProcessorJob#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#prefix AiDocumentProcessorJob#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         public string Prefix
         {

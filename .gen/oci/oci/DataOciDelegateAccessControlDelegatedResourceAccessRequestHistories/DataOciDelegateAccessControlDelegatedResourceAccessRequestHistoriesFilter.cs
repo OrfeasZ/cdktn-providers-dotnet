@@ -9,7 +9,7 @@ namespace oci.DataOciDelegateAccessControlDelegatedResourceAccessRequestHistorie
     [JsiiByValue(fqn: "oci.dataOciDelegateAccessControlDelegatedResourceAccessRequestHistories.DataOciDelegateAccessControlDelegatedResourceAccessRequestHistoriesFilter")]
     public class DataOciDelegateAccessControlDelegatedResourceAccessRequestHistoriesFilter : oci.DataOciDelegateAccessControlDelegatedResourceAccessRequestHistories.IDataOciDelegateAccessControlDelegatedResourceAccessRequestHistoriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_request_histories#name DataOciDelegateAccessControlDelegatedResourceAccessRequestHistories#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/delegate_access_control_delegated_resource_access_request_histories#name DataOciDelegateAccessControlDelegatedResourceAccessRequestHistories#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDelegateAccessControlDelegatedResourceAccessRequestHistorie
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_request_histories#values DataOciDelegateAccessControlDelegatedResourceAccessRequestHistories#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/delegate_access_control_delegated_resource_access_request_histories#values DataOciDelegateAccessControlDelegatedResourceAccessRequestHistories#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDelegateAccessControlDelegatedResourceAccessRequestHistorie
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/delegate_access_control_delegated_resource_access_request_histories#regex DataOciDelegateAccessControlDelegatedResourceAccessRequestHistories#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/delegate_access_control_delegated_resource_access_request_histories#regex DataOciDelegateAccessControlDelegatedResourceAccessRequestHistories#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

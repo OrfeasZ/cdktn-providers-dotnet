@@ -9,7 +9,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
     [JsiiByValue(fqn: "oci.managedKafkaKafkaClusterConfig.ManagedKafkaKafkaClusterConfigLatestConfig")]
     public class ManagedKafkaKafkaClusterConfigLatestConfig : oci.ManagedKafkaKafkaClusterConfig.IManagedKafkaKafkaClusterConfigLatestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#properties ManagedKafkaKafkaClusterConfigA#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/managed_kafka_kafka_cluster_config#properties ManagedKafkaKafkaClusterConfigA#properties}.</summary>
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Properties
         {
@@ -17,7 +17,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#config_id ManagedKafkaKafkaClusterConfigA#config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/managed_kafka_kafka_cluster_config#config_id ManagedKafkaKafkaClusterConfigA#config_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConfigId
@@ -26,7 +26,7 @@ namespace oci.ManagedKafkaKafkaClusterConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster_config#version_number ManagedKafkaKafkaClusterConfigA#version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/managed_kafka_kafka_cluster_config#version_number ManagedKafkaKafkaClusterConfigA#version_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VersionNumber

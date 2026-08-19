@@ -7,7 +7,7 @@ namespace oci.ApigatewayGateway
     [JsiiInterface(nativeType: typeof(IApigatewayGatewayIpv6AddressConfiguration), fullyQualifiedName: "oci.apigatewayGateway.ApigatewayGatewayIpv6AddressConfiguration")]
     public interface IApigatewayGatewayIpv6AddressConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#addresses ApigatewayGateway#addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#addresses ApigatewayGateway#addresses}.</summary>
         [JsiiProperty(name: "addresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Addresses
@@ -18,7 +18,7 @@ namespace oci.ApigatewayGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#subnet_cidrs ApigatewayGateway#subnet_cidrs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#subnet_cidrs ApigatewayGateway#subnet_cidrs}.</summary>
         [JsiiProperty(name: "subnetCidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SubnetCidrs
@@ -36,7 +36,7 @@ namespace oci.ApigatewayGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#addresses ApigatewayGateway#addresses}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#addresses ApigatewayGateway#addresses}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "addresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Addresses
@@ -44,7 +44,7 @@ namespace oci.ApigatewayGateway
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_gateway#subnet_cidrs ApigatewayGateway#subnet_cidrs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_gateway#subnet_cidrs ApigatewayGateway#subnet_cidrs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetCidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SubnetCidrs

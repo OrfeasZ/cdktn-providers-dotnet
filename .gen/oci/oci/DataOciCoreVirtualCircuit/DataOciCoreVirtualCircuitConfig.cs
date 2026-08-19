@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVirtualCircuit
     [JsiiByValue(fqn: "oci.dataOciCoreVirtualCircuit.DataOciCoreVirtualCircuitConfig")]
     public class DataOciCoreVirtualCircuitConfig : oci.DataOciCoreVirtualCircuit.IDataOciCoreVirtualCircuitConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_virtual_circuit#virtual_circuit_id DataOciCoreVirtualCircuit#virtual_circuit_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_virtual_circuit#virtual_circuit_id DataOciCoreVirtualCircuit#virtual_circuit_id}.</summary>
         [JsiiProperty(name: "virtualCircuitId", typeJson: "{\"primitive\":\"string\"}")]
         public string VirtualCircuitId
         {

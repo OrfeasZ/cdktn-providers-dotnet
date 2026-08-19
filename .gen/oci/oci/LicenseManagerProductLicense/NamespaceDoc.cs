@@ -5,7 +5,7 @@ namespace oci.LicenseManagerProductLicense
     /// <remarks>
     /// <h1><c>oci_license_manager_product_license</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/license_manager_product_license"><c>oci_license_manager_product_license</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/license_manager_product_license"><c>oci_license_manager_product_license</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

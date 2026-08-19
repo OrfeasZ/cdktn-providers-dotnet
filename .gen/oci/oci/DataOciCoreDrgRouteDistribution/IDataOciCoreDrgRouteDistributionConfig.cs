@@ -7,7 +7,7 @@ namespace oci.DataOciCoreDrgRouteDistribution
     [JsiiInterface(nativeType: typeof(IDataOciCoreDrgRouteDistributionConfig), fullyQualifiedName: "oci.dataOciCoreDrgRouteDistribution.DataOciCoreDrgRouteDistributionConfig")]
     public interface IDataOciCoreDrgRouteDistributionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_drg_route_distribution#drg_route_distribution_id DataOciCoreDrgRouteDistribution#drg_route_distribution_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_drg_route_distribution#drg_route_distribution_id DataOciCoreDrgRouteDistribution#drg_route_distribution_id}.</summary>
         [JsiiProperty(name: "drgRouteDistributionId", typeJson: "{\"primitive\":\"string\"}")]
         string DrgRouteDistributionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreDrgRouteDistribution
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_drg_route_distribution#drg_route_distribution_id DataOciCoreDrgRouteDistribution#drg_route_distribution_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_drg_route_distribution#drg_route_distribution_id DataOciCoreDrgRouteDistribution#drg_route_distribution_id}.</summary>
             [JsiiProperty(name: "drgRouteDistributionId", typeJson: "{\"primitive\":\"string\"}")]
             public string DrgRouteDistributionId
             {

@@ -7,7 +7,7 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemOdspInsightDetailsOdspInsightListStruct), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemOdspInsightDetailsOdspInsightListStruct")]
     public interface IPsqlDbSystemOdspInsightDetailsOdspInsightListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#insight_type PsqlDbSystem#insight_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#insight_type PsqlDbSystem#insight_type}.</summary>
         [JsiiProperty(name: "insightType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InsightType
@@ -18,7 +18,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#retention_period_in_days PsqlDbSystem#retention_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#retention_period_in_days PsqlDbSystem#retention_period_in_days}.</summary>
         [JsiiProperty(name: "retentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionPeriodInDays
@@ -36,7 +36,7 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#insight_type PsqlDbSystem#insight_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#insight_type PsqlDbSystem#insight_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "insightType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InsightType
@@ -44,7 +44,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#retention_period_in_days PsqlDbSystem#retention_period_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#retention_period_in_days PsqlDbSystem#retention_period_in_days}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionPeriodInDays

@@ -7,14 +7,14 @@ namespace oci.DataOciContainerengineWorkRequestErrors
     [JsiiInterface(nativeType: typeof(IDataOciContainerengineWorkRequestErrorsConfig), fullyQualifiedName: "oci.dataOciContainerengineWorkRequestErrors.DataOciContainerengineWorkRequestErrorsConfig")]
     public interface IDataOciContainerengineWorkRequestErrorsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#compartment_id DataOciContainerengineWorkRequestErrors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#compartment_id DataOciContainerengineWorkRequestErrors#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#work_request_id DataOciContainerengineWorkRequestErrors#work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#work_request_id DataOciContainerengineWorkRequestErrors#work_request_id}.</summary>
         [JsiiProperty(name: "workRequestId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkRequestId
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciContainerengineWorkRequestErrors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#filter DataOciContainerengineWorkRequestErrors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#filter DataOciContainerengineWorkRequestErrors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciContainerengineWorkRequestErrors.IDataOciContainerengineWorkRequestErrorsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciContainerengineWorkRequestErrors.DataOciContainerengineWorkRequestErrorsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciContainerengineWorkRequestErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#id DataOciContainerengineWorkRequestErrors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#id DataOciContainerengineWorkRequestErrors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,14 +58,14 @@ namespace oci.DataOciContainerengineWorkRequestErrors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#compartment_id DataOciContainerengineWorkRequestErrors#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#compartment_id DataOciContainerengineWorkRequestErrors#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#work_request_id DataOciContainerengineWorkRequestErrors#work_request_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#work_request_id DataOciContainerengineWorkRequestErrors#work_request_id}.</summary>
             [JsiiProperty(name: "workRequestId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkRequestId
             {
@@ -74,7 +74,7 @@ namespace oci.DataOciContainerengineWorkRequestErrors
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#filter DataOciContainerengineWorkRequestErrors#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#filter DataOciContainerengineWorkRequestErrors#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciContainerengineWorkRequestErrors.IDataOciContainerengineWorkRequestErrorsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -84,7 +84,7 @@ namespace oci.DataOciContainerengineWorkRequestErrors
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/containerengine_work_request_errors#id DataOciContainerengineWorkRequestErrors#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_work_request_errors#id DataOciContainerengineWorkRequestErrors#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

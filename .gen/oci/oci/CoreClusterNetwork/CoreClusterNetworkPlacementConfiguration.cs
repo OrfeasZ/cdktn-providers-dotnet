@@ -9,7 +9,7 @@ namespace oci.CoreClusterNetwork
     [JsiiByValue(fqn: "oci.coreClusterNetwork.CoreClusterNetworkPlacementConfiguration")]
     public class CoreClusterNetworkPlacementConfiguration : oci.CoreClusterNetwork.ICoreClusterNetworkPlacementConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#availability_domain CoreClusterNetwork#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#availability_domain CoreClusterNetwork#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public string AvailabilityDomain
         {
@@ -17,7 +17,7 @@ namespace oci.CoreClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#placement_constraint CoreClusterNetwork#placement_constraint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#placement_constraint CoreClusterNetwork#placement_constraint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "placementConstraint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PlacementConstraint
@@ -26,7 +26,7 @@ namespace oci.CoreClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#primary_subnet_id CoreClusterNetwork#primary_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#primary_subnet_id CoreClusterNetwork#primary_subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primarySubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrimarySubnetId
@@ -37,7 +37,7 @@ namespace oci.CoreClusterNetwork
 
         /// <summary>primary_vnic_subnets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#primary_vnic_subnets CoreClusterNetwork#primary_vnic_subnets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#primary_vnic_subnets CoreClusterNetwork#primary_vnic_subnets}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "primaryVnicSubnets", typeJson: "{\"fqn\":\"oci.coreClusterNetwork.CoreClusterNetworkPlacementConfigurationPrimaryVnicSubnets\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace oci.CoreClusterNetwork
 
         /// <summary>secondary_vnic_subnets block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_cluster_network#secondary_vnic_subnets CoreClusterNetwork#secondary_vnic_subnets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_cluster_network#secondary_vnic_subnets CoreClusterNetwork#secondary_vnic_subnets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreClusterNetwork.ICoreClusterNetworkPlacementConfigurationSecondaryVnicSubnets" />)[]</para>
         /// </remarks>
         [JsiiOptional]

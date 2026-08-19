@@ -5,7 +5,7 @@ namespace oci.DataOciResourcemanagerStackTfState
     /// <remarks>
     /// <h1><c>data_oci_resourcemanager_stack_tf_state</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resourcemanager_stack_tf_state"><c>data_oci_resourcemanager_stack_tf_state</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resourcemanager_stack_tf_state"><c>data_oci_resourcemanager_stack_tf_state</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

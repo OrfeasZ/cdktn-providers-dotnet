@@ -7,35 +7,35 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
     [JsiiInterface(nativeType: typeof(IDbmulticloudMultiCloudResourceDiscoveryConfig), fullyQualifiedName: "oci.dbmulticloudMultiCloudResourceDiscovery.DbmulticloudMultiCloudResourceDiscoveryConfig")]
     public interface IDbmulticloudMultiCloudResourceDiscoveryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#compartment_id DbmulticloudMultiCloudResourceDiscovery#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#compartment_id DbmulticloudMultiCloudResourceDiscovery#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#display_name DbmulticloudMultiCloudResourceDiscovery#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#display_name DbmulticloudMultiCloudResourceDiscovery#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#oracle_db_connector_id DbmulticloudMultiCloudResourceDiscovery#oracle_db_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#oracle_db_connector_id DbmulticloudMultiCloudResourceDiscovery#oracle_db_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbConnectorId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resource_type DbmulticloudMultiCloudResourceDiscovery#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resource_type DbmulticloudMultiCloudResourceDiscovery#resource_type}.</summary>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#defined_tags DbmulticloudMultiCloudResourceDiscovery#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#defined_tags DbmulticloudMultiCloudResourceDiscovery#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -46,7 +46,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#freeform_tags DbmulticloudMultiCloudResourceDiscovery#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#freeform_tags DbmulticloudMultiCloudResourceDiscovery#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -57,7 +57,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#id DbmulticloudMultiCloudResourceDiscovery#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#id DbmulticloudMultiCloudResourceDiscovery#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resources_filter DbmulticloudMultiCloudResourceDiscovery#resources_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resources_filter DbmulticloudMultiCloudResourceDiscovery#resources_filter}.</summary>
         [JsiiProperty(name: "resourcesFilter", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? ResourcesFilter
@@ -85,7 +85,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#timeouts DbmulticloudMultiCloudResourceDiscovery#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#timeouts DbmulticloudMultiCloudResourceDiscovery#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudMultiCloudResourceDiscovery.DbmulticloudMultiCloudResourceDiscoveryTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,35 +104,35 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#compartment_id DbmulticloudMultiCloudResourceDiscovery#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#compartment_id DbmulticloudMultiCloudResourceDiscovery#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#display_name DbmulticloudMultiCloudResourceDiscovery#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#display_name DbmulticloudMultiCloudResourceDiscovery#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#oracle_db_connector_id DbmulticloudMultiCloudResourceDiscovery#oracle_db_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#oracle_db_connector_id DbmulticloudMultiCloudResourceDiscovery#oracle_db_connector_id}.</summary>
             [JsiiProperty(name: "oracleDbConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbConnectorId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resource_type DbmulticloudMultiCloudResourceDiscovery#resource_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resource_type DbmulticloudMultiCloudResourceDiscovery#resource_type}.</summary>
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#defined_tags DbmulticloudMultiCloudResourceDiscovery#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#defined_tags DbmulticloudMultiCloudResourceDiscovery#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -140,7 +140,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#freeform_tags DbmulticloudMultiCloudResourceDiscovery#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#freeform_tags DbmulticloudMultiCloudResourceDiscovery#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -148,7 +148,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#id DbmulticloudMultiCloudResourceDiscovery#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#id DbmulticloudMultiCloudResourceDiscovery#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -160,7 +160,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resources_filter DbmulticloudMultiCloudResourceDiscovery#resources_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#resources_filter DbmulticloudMultiCloudResourceDiscovery#resources_filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourcesFilter", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? ResourcesFilter
@@ -170,7 +170,7 @@ namespace oci.DbmulticloudMultiCloudResourceDiscovery
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#timeouts DbmulticloudMultiCloudResourceDiscovery#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_multi_cloud_resource_discovery#timeouts DbmulticloudMultiCloudResourceDiscovery#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudMultiCloudResourceDiscovery.DbmulticloudMultiCloudResourceDiscoveryTimeouts\"}", isOptional: true)]

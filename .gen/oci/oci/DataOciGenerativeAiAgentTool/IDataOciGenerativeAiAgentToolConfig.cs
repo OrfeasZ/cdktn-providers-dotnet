@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiAgentTool
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiAgentToolConfig), fullyQualifiedName: "oci.dataOciGenerativeAiAgentTool.DataOciGenerativeAiAgentToolConfig")]
     public interface IDataOciGenerativeAiAgentToolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_tool#tool_id DataOciGenerativeAiAgentTool#tool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_agent_tool#tool_id DataOciGenerativeAiAgentTool#tool_id}.</summary>
         [JsiiProperty(name: "toolId", typeJson: "{\"primitive\":\"string\"}")]
         string ToolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiAgentTool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_agent_tool#tool_id DataOciGenerativeAiAgentTool#tool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_agent_tool#tool_id DataOciGenerativeAiAgentTool#tool_id}.</summary>
             [JsiiProperty(name: "toolId", typeJson: "{\"primitive\":\"string\"}")]
             public string ToolId
             {

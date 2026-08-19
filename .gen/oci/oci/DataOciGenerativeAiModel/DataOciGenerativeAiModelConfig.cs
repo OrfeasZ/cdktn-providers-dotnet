@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiModel
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiModel.DataOciGenerativeAiModelConfig")]
     public class DataOciGenerativeAiModelConfig : oci.DataOciGenerativeAiModel.IDataOciGenerativeAiModelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_model#model_id DataOciGenerativeAiModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_model#model_id DataOciGenerativeAiModel#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {

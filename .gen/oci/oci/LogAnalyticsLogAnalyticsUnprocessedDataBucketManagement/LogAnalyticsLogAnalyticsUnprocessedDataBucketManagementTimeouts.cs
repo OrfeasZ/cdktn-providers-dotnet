@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement
     [JsiiByValue(fqn: "oci.logAnalyticsLogAnalyticsUnprocessedDataBucketManagement.LogAnalyticsLogAnalyticsUnprocessedDataBucketManagementTimeouts")]
     public class LogAnalyticsLogAnalyticsUnprocessedDataBucketManagementTimeouts : oci.LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement.ILogAnalyticsLogAnalyticsUnprocessedDataBucketManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#create LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#create LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#delete LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#delete LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#update LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_log_analytics_unprocessed_data_bucket_management#update LogAnalyticsLogAnalyticsUnprocessedDataBucketManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

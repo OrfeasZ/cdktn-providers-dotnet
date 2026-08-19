@@ -7,7 +7,7 @@ namespace oci.DatasciencePipeline
     [JsiiByValue(fqn: "oci.datasciencePipeline.DatasciencePipelineStepDetailsStepDataflowConfigurationDetailsDriverShapeConfigDetails")]
     public class DatasciencePipelineStepDetailsStepDataflowConfigurationDetailsDriverShapeConfigDetails : oci.DatasciencePipeline.IDatasciencePipelineStepDetailsStepDataflowConfigurationDetailsDriverShapeConfigDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#memory_in_gbs DatasciencePipeline#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_pipeline#memory_in_gbs DatasciencePipeline#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -16,7 +16,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#memory_in_gbs_parameterized DatasciencePipeline#memory_in_gbs_parameterized}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_pipeline#memory_in_gbs_parameterized DatasciencePipeline#memory_in_gbs_parameterized}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbsParameterized", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MemoryInGbsParameterized
@@ -25,7 +25,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#ocpus DatasciencePipeline#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_pipeline#ocpus DatasciencePipeline#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus
@@ -34,7 +34,7 @@ namespace oci.DatasciencePipeline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_pipeline#ocpus_parameterized DatasciencePipeline#ocpus_parameterized}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_pipeline#ocpus_parameterized DatasciencePipeline#ocpus_parameterized}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpusParameterized", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OcpusParameterized

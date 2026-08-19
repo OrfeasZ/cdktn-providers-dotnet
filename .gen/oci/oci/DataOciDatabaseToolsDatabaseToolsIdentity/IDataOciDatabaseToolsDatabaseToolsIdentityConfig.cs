@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsIdentity
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsDatabaseToolsIdentityConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsDatabaseToolsIdentity.DataOciDatabaseToolsDatabaseToolsIdentityConfig")]
     public interface IDataOciDatabaseToolsDatabaseToolsIdentityConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_database_tools_identity#database_tools_identity_id DataOciDatabaseToolsDatabaseToolsIdentity#database_tools_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_database_tools_identity#database_tools_identity_id DataOciDatabaseToolsDatabaseToolsIdentity#database_tools_identity_id}.</summary>
         [JsiiProperty(name: "databaseToolsIdentityId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsIdentityId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsIdentity
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_tools_database_tools_identity#database_tools_identity_id DataOciDatabaseToolsDatabaseToolsIdentity#database_tools_identity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_database_tools_identity#database_tools_identity_id DataOciDatabaseToolsDatabaseToolsIdentity#database_tools_identity_id}.</summary>
             [JsiiProperty(name: "databaseToolsIdentityId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsIdentityId
             {

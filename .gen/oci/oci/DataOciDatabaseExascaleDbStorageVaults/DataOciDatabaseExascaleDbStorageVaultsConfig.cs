@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
     [JsiiByValue(fqn: "oci.dataOciDatabaseExascaleDbStorageVaults.DataOciDatabaseExascaleDbStorageVaultsConfig")]
     public class DataOciDatabaseExascaleDbStorageVaultsConfig : oci.DataOciDatabaseExascaleDbStorageVaults.IDataOciDatabaseExascaleDbStorageVaultsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#compartment_id DataOciDatabaseExascaleDbStorageVaults#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#compartment_id DataOciDatabaseExascaleDbStorageVaults#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attachedShapeAttributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttachedShapeAttributes
@@ -26,7 +26,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes_not_equal_to DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes_not_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#attached_shape_attributes_not_equal_to DataOciDatabaseExascaleDbStorageVaults#attached_shape_attributes_not_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attachedShapeAttributesNotEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttachedShapeAttributesNotEqualTo
@@ -35,7 +35,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#cluster_placement_group_id DataOciDatabaseExascaleDbStorageVaults#cluster_placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#cluster_placement_group_id DataOciDatabaseExascaleDbStorageVaults#cluster_placement_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClusterPlacementGroupId
@@ -44,7 +44,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#display_name DataOciDatabaseExascaleDbStorageVaults#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#display_name DataOciDatabaseExascaleDbStorageVaults#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -53,7 +53,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#exadata_infrastructure_id DataOciDatabaseExascaleDbStorageVaults#exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#exadata_infrastructure_id DataOciDatabaseExascaleDbStorageVaults#exadata_infrastructure_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExadataInfrastructureId
@@ -66,7 +66,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#filter DataOciDatabaseExascaleDbStorageVaults#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#filter DataOciDatabaseExascaleDbStorageVaults#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseExascaleDbStorageVaults.IDataOciDatabaseExascaleDbStorageVaultsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -97,7 +97,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#id DataOciDatabaseExascaleDbStorageVaults#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#id DataOciDatabaseExascaleDbStorageVaults#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +110,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#state DataOciDatabaseExascaleDbStorageVaults#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#state DataOciDatabaseExascaleDbStorageVaults#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -119,7 +119,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_greater_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_greater_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vmClusterCountGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VmClusterCountGreaterThanOrEqualTo
@@ -128,7 +128,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVaults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_less_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vaults#vm_cluster_count_less_than_or_equal_to DataOciDatabaseExascaleDbStorageVaults#vm_cluster_count_less_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vmClusterCountLessThanOrEqualTo", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VmClusterCountLessThanOrEqualTo

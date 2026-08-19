@@ -7,14 +7,14 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
     [JsiiInterface(nativeType: typeof(IDatabaseToolsRuntimeDatabaseToolsConnectionPropertySetIdentityProvider), fullyQualifiedName: "oci.databaseToolsRuntimeDatabaseToolsConnectionPropertySet.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySetIdentityProvider")]
     public interface IDatabaseToolsRuntimeDatabaseToolsConnectionPropertySetIdentityProvider
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#configs DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#configs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#configs DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#configs}.</summary>
         [JsiiProperty(name: "configs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Configs
@@ -32,14 +32,14 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#type DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#configs DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#configs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_property_set#configs DatabaseToolsRuntimeDatabaseToolsConnectionPropertySet#configs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Configs

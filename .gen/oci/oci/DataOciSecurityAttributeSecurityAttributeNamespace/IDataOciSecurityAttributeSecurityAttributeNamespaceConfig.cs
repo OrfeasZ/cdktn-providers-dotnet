@@ -7,7 +7,7 @@ namespace oci.DataOciSecurityAttributeSecurityAttributeNamespace
     [JsiiInterface(nativeType: typeof(IDataOciSecurityAttributeSecurityAttributeNamespaceConfig), fullyQualifiedName: "oci.dataOciSecurityAttributeSecurityAttributeNamespace.DataOciSecurityAttributeSecurityAttributeNamespaceConfig")]
     public interface IDataOciSecurityAttributeSecurityAttributeNamespaceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/security_attribute_security_attribute_namespace#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttributeNamespace#security_attribute_namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/security_attribute_security_attribute_namespace#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttributeNamespace#security_attribute_namespace_id}.</summary>
         [JsiiProperty(name: "securityAttributeNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityAttributeNamespaceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciSecurityAttributeSecurityAttributeNamespace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/security_attribute_security_attribute_namespace#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttributeNamespace#security_attribute_namespace_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/security_attribute_security_attribute_namespace#security_attribute_namespace_id DataOciSecurityAttributeSecurityAttributeNamespace#security_attribute_namespace_id}.</summary>
             [JsiiProperty(name: "securityAttributeNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityAttributeNamespaceId
             {

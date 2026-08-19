@@ -7,7 +7,7 @@ namespace oci.DataOciAiLanguageJob
     [JsiiInterface(nativeType: typeof(IDataOciAiLanguageJobConfig), fullyQualifiedName: "oci.dataOciAiLanguageJob.DataOciAiLanguageJobConfig")]
     public interface IDataOciAiLanguageJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_language_job#job_id DataOciAiLanguageJob#job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_language_job#job_id DataOciAiLanguageJob#job_id}.</summary>
         [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
         string JobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiLanguageJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_language_job#job_id DataOciAiLanguageJob#job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_language_job#job_id DataOciAiLanguageJob#job_id}.</summary>
             [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
             public string JobId
             {

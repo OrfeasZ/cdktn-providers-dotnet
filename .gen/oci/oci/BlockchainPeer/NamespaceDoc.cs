@@ -5,7 +5,7 @@ namespace oci.BlockchainPeer
     /// <remarks>
     /// <h1><c>oci_blockchain_peer</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer"><c>oci_blockchain_peer</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer"><c>oci_blockchain_peer</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

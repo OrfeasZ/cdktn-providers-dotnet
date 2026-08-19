@@ -7,7 +7,7 @@ namespace oci.DataOciManagementAgentManagementAgent
     [JsiiInterface(nativeType: typeof(IDataOciManagementAgentManagementAgentConfig), fullyQualifiedName: "oci.dataOciManagementAgentManagementAgent.DataOciManagementAgentManagementAgentConfig")]
     public interface IDataOciManagementAgentManagementAgentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent#management_agent_id DataOciManagementAgentManagementAgent#management_agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent#management_agent_id DataOciManagementAgentManagementAgent#management_agent_id}.</summary>
         [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementAgentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciManagementAgentManagementAgent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent#management_agent_id DataOciManagementAgentManagementAgent#management_agent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent#management_agent_id DataOciManagementAgentManagementAgent#management_agent_id}.</summary>
             [JsiiProperty(name: "managementAgentId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementAgentId
             {

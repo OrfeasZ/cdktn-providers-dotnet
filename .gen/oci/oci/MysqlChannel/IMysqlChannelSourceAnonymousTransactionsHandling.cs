@@ -7,14 +7,14 @@ namespace oci.MysqlChannel
     [JsiiInterface(nativeType: typeof(IMysqlChannelSourceAnonymousTransactionsHandling), fullyQualifiedName: "oci.mysqlChannel.MysqlChannelSourceAnonymousTransactionsHandling")]
     public interface IMysqlChannelSourceAnonymousTransactionsHandling
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#policy MysqlChannel#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#policy MysqlChannel#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         string Policy
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}.</summary>
         [JsiiProperty(name: "lastConfiguredLogFilename", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastConfiguredLogFilename
@@ -25,7 +25,7 @@ namespace oci.MysqlChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}.</summary>
         [JsiiProperty(name: "lastConfiguredLogOffset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastConfiguredLogOffset
@@ -36,7 +36,7 @@ namespace oci.MysqlChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}.</summary>
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Uuid
@@ -54,14 +54,14 @@ namespace oci.MysqlChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#policy MysqlChannel#policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#policy MysqlChannel#policy}.</summary>
             [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
             public string Policy
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastConfiguredLogFilename", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastConfiguredLogFilename
@@ -69,7 +69,7 @@ namespace oci.MysqlChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastConfiguredLogOffset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastConfiguredLogOffset
@@ -77,7 +77,7 @@ namespace oci.MysqlChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Uuid

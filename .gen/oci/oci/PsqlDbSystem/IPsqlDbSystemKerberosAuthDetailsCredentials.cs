@@ -7,7 +7,7 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemKerberosAuthDetailsCredentials), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemKerberosAuthDetailsCredentials")]
     public interface IPsqlDbSystemKerberosAuthDetailsCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#keytab_secret_id PsqlDbSystem#keytab_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#keytab_secret_id PsqlDbSystem#keytab_secret_id}.</summary>
         [JsiiProperty(name: "keytabSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeytabSecretId
@@ -18,7 +18,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#keytab_secret_version PsqlDbSystem#keytab_secret_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#keytab_secret_version PsqlDbSystem#keytab_secret_version}.</summary>
         [JsiiProperty(name: "keytabSecretVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeytabSecretVersion
@@ -29,7 +29,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#realm_name PsqlDbSystem#realm_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#realm_name PsqlDbSystem#realm_name}.</summary>
         [JsiiProperty(name: "realmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RealmName
@@ -47,7 +47,7 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#keytab_secret_id PsqlDbSystem#keytab_secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#keytab_secret_id PsqlDbSystem#keytab_secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keytabSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeytabSecretId
@@ -55,7 +55,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#keytab_secret_version PsqlDbSystem#keytab_secret_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#keytab_secret_version PsqlDbSystem#keytab_secret_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keytabSecretVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeytabSecretVersion
@@ -63,7 +63,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#realm_name PsqlDbSystem#realm_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#realm_name PsqlDbSystem#realm_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "realmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RealmName

@@ -5,7 +5,7 @@ namespace oci.OcvpEsxiHost
     /// <remarks>
     /// <h1><c>oci_ocvp_esxi_host</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_esxi_host"><c>oci_ocvp_esxi_host</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_esxi_host"><c>oci_ocvp_esxi_host</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

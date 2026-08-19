@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicy
     [JsiiByValue(fqn: "oci.dataOciDataSafeUnifiedAuditPolicy.DataOciDataSafeUnifiedAuditPolicyConfig")]
     public class DataOciDataSafeUnifiedAuditPolicyConfig : oci.DataOciDataSafeUnifiedAuditPolicy.IDataOciDataSafeUnifiedAuditPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}.</summary>
         [JsiiProperty(name: "unifiedAuditPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string UnifiedAuditPolicyId
         {

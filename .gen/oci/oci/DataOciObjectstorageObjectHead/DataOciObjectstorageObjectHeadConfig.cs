@@ -9,7 +9,7 @@ namespace oci.DataOciObjectstorageObjectHead
     [JsiiByValue(fqn: "oci.dataOciObjectstorageObjectHead.DataOciObjectstorageObjectHeadConfig")]
     public class DataOciObjectstorageObjectHeadConfig : oci.DataOciObjectstorageObjectHead.IDataOciObjectstorageObjectHeadConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object_head#bucket DataOciObjectstorageObjectHead#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object_head#bucket DataOciObjectstorageObjectHead#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciObjectstorageObjectHead
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object_head#namespace DataOciObjectstorageObjectHead#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object_head#namespace DataOciObjectstorageObjectHead#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciObjectstorageObjectHead
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object_head#object DataOciObjectstorageObjectHead#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object_head#object DataOciObjectstorageObjectHead#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciObjectstorageObjectHead
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object_head#id DataOciObjectstorageObjectHead#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object_head#id DataOciObjectstorageObjectHead#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.DataOciCloudMigrationsReplicationSchedule
     [JsiiInterface(nativeType: typeof(IDataOciCloudMigrationsReplicationScheduleConfig), fullyQualifiedName: "oci.dataOciCloudMigrationsReplicationSchedule.DataOciCloudMigrationsReplicationScheduleConfig")]
     public interface IDataOciCloudMigrationsReplicationScheduleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_migrations_replication_schedule#replication_schedule_id DataOciCloudMigrationsReplicationSchedule#replication_schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_migrations_replication_schedule#replication_schedule_id DataOciCloudMigrationsReplicationSchedule#replication_schedule_id}.</summary>
         [JsiiProperty(name: "replicationScheduleId", typeJson: "{\"primitive\":\"string\"}")]
         string ReplicationScheduleId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudMigrationsReplicationSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_migrations_replication_schedule#replication_schedule_id DataOciCloudMigrationsReplicationSchedule#replication_schedule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_migrations_replication_schedule#replication_schedule_id DataOciCloudMigrationsReplicationSchedule#replication_schedule_id}.</summary>
             [JsiiProperty(name: "replicationScheduleId", typeJson: "{\"primitive\":\"string\"}")]
             public string ReplicationScheduleId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
     [JsiiByValue(fqn: "oci.dataOciCostadCostAnomalyEventAnalytics.DataOciCostadCostAnomalyEventAnalyticsFilter")]
     public class DataOciCostadCostAnomalyEventAnalyticsFilter : oci.DataOciCostadCostAnomalyEventAnalytics.IDataOciCostadCostAnomalyEventAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/costad_cost_anomaly_event_analytics#name DataOciCostadCostAnomalyEventAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/costad_cost_anomaly_event_analytics#name DataOciCostadCostAnomalyEventAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/costad_cost_anomaly_event_analytics#values DataOciCostadCostAnomalyEventAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/costad_cost_anomaly_event_analytics#values DataOciCostadCostAnomalyEventAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCostadCostAnomalyEventAnalytics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/costad_cost_anomaly_event_analytics#regex DataOciCostadCostAnomalyEventAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/costad_cost_anomaly_event_analytics#regex DataOciCostadCostAnomalyEventAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

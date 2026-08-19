@@ -5,7 +5,7 @@ namespace oci.DataOciDataccInfrastructureScaleOption
     /// <remarks>
     /// <h1><c>data_oci_datacc_infrastructure_scale_option</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacc_infrastructure_scale_option"><c>data_oci_datacc_infrastructure_scale_option</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datacc_infrastructure_scale_option"><c>data_oci_datacc_infrastructure_scale_option</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

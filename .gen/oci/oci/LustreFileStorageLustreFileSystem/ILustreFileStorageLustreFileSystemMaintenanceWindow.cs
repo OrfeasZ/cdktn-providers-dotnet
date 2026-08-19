@@ -7,7 +7,7 @@ namespace oci.LustreFileStorageLustreFileSystem
     [JsiiInterface(nativeType: typeof(ILustreFileStorageLustreFileSystemMaintenanceWindow), fullyQualifiedName: "oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemMaintenanceWindow")]
     public interface ILustreFileStorageLustreFileSystemMaintenanceWindow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/lustre_file_storage_lustre_file_system#day_of_week LustreFileStorageLustreFileSystem#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/lustre_file_storage_lustre_file_system#day_of_week LustreFileStorageLustreFileSystem#day_of_week}.</summary>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DayOfWeek
@@ -18,7 +18,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/lustre_file_storage_lustre_file_system#time_start LustreFileStorageLustreFileSystem#time_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/lustre_file_storage_lustre_file_system#time_start LustreFileStorageLustreFileSystem#time_start}.</summary>
         [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStart
@@ -36,7 +36,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/lustre_file_storage_lustre_file_system#day_of_week LustreFileStorageLustreFileSystem#day_of_week}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/lustre_file_storage_lustre_file_system#day_of_week LustreFileStorageLustreFileSystem#day_of_week}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DayOfWeek
@@ -44,7 +44,7 @@ namespace oci.LustreFileStorageLustreFileSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/lustre_file_storage_lustre_file_system#time_start LustreFileStorageLustreFileSystem#time_start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/lustre_file_storage_lustre_file_system#time_start LustreFileStorageLustreFileSystem#time_start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStart

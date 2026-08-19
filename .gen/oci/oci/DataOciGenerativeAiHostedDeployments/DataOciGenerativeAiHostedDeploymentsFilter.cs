@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiHostedDeployments.DataOciGenerativeAiHostedDeploymentsFilter")]
     public class DataOciGenerativeAiHostedDeploymentsFilter : oci.DataOciGenerativeAiHostedDeployments.IDataOciGenerativeAiHostedDeploymentsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_deployments#name DataOciGenerativeAiHostedDeployments#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_deployments#name DataOciGenerativeAiHostedDeployments#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_deployments#values DataOciGenerativeAiHostedDeployments#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_deployments#values DataOciGenerativeAiHostedDeployments#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiHostedDeployments
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_deployments#regex DataOciGenerativeAiHostedDeployments#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_deployments#regex DataOciGenerativeAiHostedDeployments#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

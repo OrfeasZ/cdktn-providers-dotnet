@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementOnboardings
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementOnboardings.DataOciFleetAppsManagementOnboardingsFilter")]
     public class DataOciFleetAppsManagementOnboardingsFilter : oci.DataOciFleetAppsManagementOnboardings.IDataOciFleetAppsManagementOnboardingsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_onboardings#name DataOciFleetAppsManagementOnboardings#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_onboardings#name DataOciFleetAppsManagementOnboardings#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementOnboardings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_onboardings#values DataOciFleetAppsManagementOnboardings#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_onboardings#values DataOciFleetAppsManagementOnboardings#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementOnboardings
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_onboardings#regex DataOciFleetAppsManagementOnboardings#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_onboardings#regex DataOciFleetAppsManagementOnboardings#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

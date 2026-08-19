@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementation
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceMlApplicationImplementationConfig), fullyQualifiedName: "oci.dataOciDatascienceMlApplicationImplementation.DataOciDatascienceMlApplicationImplementationConfig")]
     public interface IDataOciDatascienceMlApplicationImplementationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation#ml_application_implementation_id DataOciDatascienceMlApplicationImplementation#ml_application_implementation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_ml_application_implementation#ml_application_implementation_id DataOciDatascienceMlApplicationImplementation#ml_application_implementation_id}.</summary>
         [JsiiProperty(name: "mlApplicationImplementationId", typeJson: "{\"primitive\":\"string\"}")]
         string MlApplicationImplementationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceMlApplicationImplementation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_ml_application_implementation#ml_application_implementation_id DataOciDatascienceMlApplicationImplementation#ml_application_implementation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_ml_application_implementation#ml_application_implementation_id DataOciDatascienceMlApplicationImplementation#ml_application_implementation_id}.</summary>
             [JsiiProperty(name: "mlApplicationImplementationId", typeJson: "{\"primitive\":\"string\"}")]
             public string MlApplicationImplementationId
             {

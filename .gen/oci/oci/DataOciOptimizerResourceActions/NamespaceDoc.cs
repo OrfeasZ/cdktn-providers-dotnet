@@ -5,7 +5,7 @@ namespace oci.DataOciOptimizerResourceActions
     /// <remarks>
     /// <h1><c>data_oci_optimizer_resource_actions</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/optimizer_resource_actions"><c>data_oci_optimizer_resource_actions</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/optimizer_resource_actions"><c>data_oci_optimizer_resource_actions</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

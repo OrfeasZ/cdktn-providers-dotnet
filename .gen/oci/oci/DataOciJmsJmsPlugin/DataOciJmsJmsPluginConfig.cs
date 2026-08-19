@@ -9,7 +9,7 @@ namespace oci.DataOciJmsJmsPlugin
     [JsiiByValue(fqn: "oci.dataOciJmsJmsPlugin.DataOciJmsJmsPluginConfig")]
     public class DataOciJmsJmsPluginConfig : oci.DataOciJmsJmsPlugin.IDataOciJmsJmsPluginConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/jms_jms_plugin#jms_plugin_id DataOciJmsJmsPlugin#jms_plugin_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/jms_jms_plugin#jms_plugin_id DataOciJmsJmsPlugin#jms_plugin_id}.</summary>
         [JsiiProperty(name: "jmsPluginId", typeJson: "{\"primitive\":\"string\"}")]
         public string JmsPluginId
         {

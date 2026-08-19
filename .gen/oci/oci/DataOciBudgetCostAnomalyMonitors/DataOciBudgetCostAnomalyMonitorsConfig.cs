@@ -9,7 +9,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitors
     [JsiiByValue(fqn: "oci.dataOciBudgetCostAnomalyMonitors.DataOciBudgetCostAnomalyMonitorsConfig")]
     public class DataOciBudgetCostAnomalyMonitorsConfig : oci.DataOciBudgetCostAnomalyMonitors.IDataOciBudgetCostAnomalyMonitorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/budget_cost_anomaly_monitors#compartment_id DataOciBudgetCostAnomalyMonitors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/budget_cost_anomaly_monitors#compartment_id DataOciBudgetCostAnomalyMonitors#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/budget_cost_anomaly_monitors#filter DataOciBudgetCostAnomalyMonitors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/budget_cost_anomaly_monitors#filter DataOciBudgetCostAnomalyMonitors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBudgetCostAnomalyMonitors.IDataOciBudgetCostAnomalyMonitorsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/budget_cost_anomaly_monitors#id DataOciBudgetCostAnomalyMonitors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/budget_cost_anomaly_monitors#id DataOciBudgetCostAnomalyMonitors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/budget_cost_anomaly_monitors#name DataOciBudgetCostAnomalyMonitors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/budget_cost_anomaly_monitors#name DataOciBudgetCostAnomalyMonitors#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -74,7 +74,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/budget_cost_anomaly_monitors#region DataOciBudgetCostAnomalyMonitors#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/budget_cost_anomaly_monitors#region DataOciBudgetCostAnomalyMonitors#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Region
@@ -83,7 +83,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/budget_cost_anomaly_monitors#state DataOciBudgetCostAnomalyMonitors#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/budget_cost_anomaly_monitors#state DataOciBudgetCostAnomalyMonitors#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -92,7 +92,7 @@ namespace oci.DataOciBudgetCostAnomalyMonitors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/budget_cost_anomaly_monitors#target_tenant_id DataOciBudgetCostAnomalyMonitors#target_tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/budget_cost_anomaly_monitors#target_tenant_id DataOciBudgetCostAnomalyMonitors#target_tenant_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetTenantId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TargetTenantId

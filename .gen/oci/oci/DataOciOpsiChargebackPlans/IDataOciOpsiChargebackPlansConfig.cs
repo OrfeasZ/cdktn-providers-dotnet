@@ -7,7 +7,7 @@ namespace oci.DataOciOpsiChargebackPlans
     [JsiiInterface(nativeType: typeof(IDataOciOpsiChargebackPlansConfig), fullyQualifiedName: "oci.dataOciOpsiChargebackPlans.DataOciOpsiChargebackPlansConfig")]
     public interface IDataOciOpsiChargebackPlansConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#chargebackplan_id DataOciOpsiChargebackPlans#chargebackplan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#chargebackplan_id DataOciOpsiChargebackPlans#chargebackplan_id}.</summary>
         [JsiiProperty(name: "chargebackplanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ChargebackplanId
@@ -18,7 +18,7 @@ namespace oci.DataOciOpsiChargebackPlans
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#compartment_id DataOciOpsiChargebackPlans#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#compartment_id DataOciOpsiChargebackPlans#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -29,7 +29,7 @@ namespace oci.DataOciOpsiChargebackPlans
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#compartment_id_in_subtree DataOciOpsiChargebackPlans#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#compartment_id_in_subtree DataOciOpsiChargebackPlans#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -45,7 +45,7 @@ namespace oci.DataOciOpsiChargebackPlans
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#filter DataOciOpsiChargebackPlans#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#filter DataOciOpsiChargebackPlans#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpsiChargebackPlans.IDataOciOpsiChargebackPlansFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOpsiChargebackPlans.DataOciOpsiChargebackPlansFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace oci.DataOciOpsiChargebackPlans
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#id DataOciOpsiChargebackPlans#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#id DataOciOpsiChargebackPlans#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace oci.DataOciOpsiChargebackPlans
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#chargebackplan_id DataOciOpsiChargebackPlans#chargebackplan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#chargebackplan_id DataOciOpsiChargebackPlans#chargebackplan_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "chargebackplanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ChargebackplanId
@@ -88,7 +88,7 @@ namespace oci.DataOciOpsiChargebackPlans
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#compartment_id DataOciOpsiChargebackPlans#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#compartment_id DataOciOpsiChargebackPlans#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -96,7 +96,7 @@ namespace oci.DataOciOpsiChargebackPlans
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#compartment_id_in_subtree DataOciOpsiChargebackPlans#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#compartment_id_in_subtree DataOciOpsiChargebackPlans#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -109,7 +109,7 @@ namespace oci.DataOciOpsiChargebackPlans
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#filter DataOciOpsiChargebackPlans#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#filter DataOciOpsiChargebackPlans#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpsiChargebackPlans.IDataOciOpsiChargebackPlansFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -119,7 +119,7 @@ namespace oci.DataOciOpsiChargebackPlans
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_chargeback_plans#id DataOciOpsiChargebackPlans#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_chargeback_plans#id DataOciOpsiChargebackPlans#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

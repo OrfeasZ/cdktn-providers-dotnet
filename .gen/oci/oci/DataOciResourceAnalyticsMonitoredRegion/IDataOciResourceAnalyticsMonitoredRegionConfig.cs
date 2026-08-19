@@ -7,7 +7,7 @@ namespace oci.DataOciResourceAnalyticsMonitoredRegion
     [JsiiInterface(nativeType: typeof(IDataOciResourceAnalyticsMonitoredRegionConfig), fullyQualifiedName: "oci.dataOciResourceAnalyticsMonitoredRegion.DataOciResourceAnalyticsMonitoredRegionConfig")]
     public interface IDataOciResourceAnalyticsMonitoredRegionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}.</summary>
         [JsiiProperty(name: "monitoredRegionId", typeJson: "{\"primitive\":\"string\"}")]
         string MonitoredRegionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciResourceAnalyticsMonitoredRegion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resource_analytics_monitored_region#monitored_region_id DataOciResourceAnalyticsMonitoredRegion#monitored_region_id}.</summary>
             [JsiiProperty(name: "monitoredRegionId", typeJson: "{\"primitive\":\"string\"}")]
             public string MonitoredRegionId
             {

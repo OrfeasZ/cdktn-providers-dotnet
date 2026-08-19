@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbHomes.DataOciDatabaseManagementCloudDbHomesFilter")]
     public class DataOciDatabaseManagementCloudDbHomesFilter : oci.DataOciDatabaseManagementCloudDbHomes.IDataOciDatabaseManagementCloudDbHomesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#name DataOciDatabaseManagementCloudDbHomes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_db_homes#name DataOciDatabaseManagementCloudDbHomes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#values DataOciDatabaseManagementCloudDbHomes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_db_homes#values DataOciDatabaseManagementCloudDbHomes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudDbHomes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_db_homes#regex DataOciDatabaseManagementCloudDbHomes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_db_homes#regex DataOciDatabaseManagementCloudDbHomes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

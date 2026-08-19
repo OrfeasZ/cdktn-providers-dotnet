@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeAlertPolicy
     [JsiiByValue(fqn: "oci.dataOciDataSafeAlertPolicy.DataOciDataSafeAlertPolicyConfig")]
     public class DataOciDataSafeAlertPolicyConfig : oci.DataOciDataSafeAlertPolicy.IDataOciDataSafeAlertPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_alert_policy#alert_policy_id DataOciDataSafeAlertPolicy#alert_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_alert_policy#alert_policy_id DataOciDataSafeAlertPolicy#alert_policy_id}.</summary>
         [JsiiProperty(name: "alertPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string AlertPolicyId
         {

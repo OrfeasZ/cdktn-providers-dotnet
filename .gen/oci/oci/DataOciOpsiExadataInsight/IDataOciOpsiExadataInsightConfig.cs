@@ -7,7 +7,7 @@ namespace oci.DataOciOpsiExadataInsight
     [JsiiInterface(nativeType: typeof(IDataOciOpsiExadataInsightConfig), fullyQualifiedName: "oci.dataOciOpsiExadataInsight.DataOciOpsiExadataInsightConfig")]
     public interface IDataOciOpsiExadataInsightConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_exadata_insight#exadata_insight_id DataOciOpsiExadataInsight#exadata_insight_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_exadata_insight#exadata_insight_id DataOciOpsiExadataInsight#exadata_insight_id}.</summary>
         [JsiiProperty(name: "exadataInsightId", typeJson: "{\"primitive\":\"string\"}")]
         string ExadataInsightId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOpsiExadataInsight
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_exadata_insight#exadata_insight_id DataOciOpsiExadataInsight#exadata_insight_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_exadata_insight#exadata_insight_id DataOciOpsiExadataInsight#exadata_insight_id}.</summary>
             [JsiiProperty(name: "exadataInsightId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExadataInsightId
             {

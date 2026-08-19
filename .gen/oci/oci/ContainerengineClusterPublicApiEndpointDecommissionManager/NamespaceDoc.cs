@@ -5,7 +5,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
     /// <remarks>
     /// <h1><c>oci_containerengine_cluster_public_api_endpoint_decommission_manager</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager"><c>oci_containerengine_cluster_public_api_endpoint_decommission_manager</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager"><c>oci_containerengine_cluster_public_api_endpoint_decommission_manager</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

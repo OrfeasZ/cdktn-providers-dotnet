@@ -9,7 +9,7 @@ namespace oci.DataOciPsaPsaWorkRequestErrors
     [JsiiByValue(fqn: "oci.dataOciPsaPsaWorkRequestErrors.DataOciPsaPsaWorkRequestErrorsConfig")]
     public class DataOciPsaPsaWorkRequestErrorsConfig : oci.DataOciPsaPsaWorkRequestErrors.IDataOciPsaPsaWorkRequestErrorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psa_psa_work_request_errors#work_request_id DataOciPsaPsaWorkRequestErrors#work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/psa_psa_work_request_errors#work_request_id DataOciPsaPsaWorkRequestErrors#work_request_id}.</summary>
         [JsiiProperty(name: "workRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkRequestId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciPsaPsaWorkRequestErrors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psa_psa_work_request_errors#filter DataOciPsaPsaWorkRequestErrors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/psa_psa_work_request_errors#filter DataOciPsaPsaWorkRequestErrors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciPsaPsaWorkRequestErrors.IDataOciPsaPsaWorkRequestErrorsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciPsaPsaWorkRequestErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psa_psa_work_request_errors#id DataOciPsaPsaWorkRequestErrors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/psa_psa_work_request_errors#id DataOciPsaPsaWorkRequestErrors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

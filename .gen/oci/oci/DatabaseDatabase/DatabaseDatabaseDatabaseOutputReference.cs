@@ -237,6 +237,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRecoveryApplianceVpcPassword")]
+        public virtual void ResetRecoveryApplianceVpcPassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSidPrefix")]
         public virtual void ResetSidPrefix()
         {
@@ -514,6 +520,13 @@ namespace oci.DatabaseDatabase
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "recoveryApplianceVpcPasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RecoveryApplianceVpcPasswordInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "sidPrefixInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SidPrefixInput
         {
@@ -734,6 +747,13 @@ namespace oci.DatabaseDatabase
 
         [JsiiProperty(name: "protectionMode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProtectionMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "recoveryApplianceVpcPassword", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RecoveryApplianceVpcPassword
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

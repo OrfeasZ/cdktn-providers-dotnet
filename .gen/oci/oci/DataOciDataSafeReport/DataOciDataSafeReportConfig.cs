@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeReport
     [JsiiByValue(fqn: "oci.dataOciDataSafeReport.DataOciDataSafeReportConfig")]
     public class DataOciDataSafeReportConfig : oci.DataOciDataSafeReport.IDataOciDataSafeReportConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_report#report_id DataOciDataSafeReport#report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_report#report_id DataOciDataSafeReport#report_id}.</summary>
         [JsiiProperty(name: "reportId", typeJson: "{\"primitive\":\"string\"}")]
         public string ReportId
         {

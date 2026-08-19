@@ -7,7 +7,7 @@ namespace oci.DataOciStackMonitoringMonitoredResource
     [JsiiInterface(nativeType: typeof(IDataOciStackMonitoringMonitoredResourceConfig), fullyQualifiedName: "oci.dataOciStackMonitoringMonitoredResource.DataOciStackMonitoringMonitoredResourceConfig")]
     public interface IDataOciStackMonitoringMonitoredResourceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_monitored_resource#monitored_resource_id DataOciStackMonitoringMonitoredResource#monitored_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/stack_monitoring_monitored_resource#monitored_resource_id DataOciStackMonitoringMonitoredResource#monitored_resource_id}.</summary>
         [JsiiProperty(name: "monitoredResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string MonitoredResourceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStackMonitoringMonitoredResource
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/stack_monitoring_monitored_resource#monitored_resource_id DataOciStackMonitoringMonitoredResource#monitored_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/stack_monitoring_monitored_resource#monitored_resource_id DataOciStackMonitoringMonitoredResource#monitored_resource_id}.</summary>
             [JsiiProperty(name: "monitoredResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string MonitoredResourceId
             {

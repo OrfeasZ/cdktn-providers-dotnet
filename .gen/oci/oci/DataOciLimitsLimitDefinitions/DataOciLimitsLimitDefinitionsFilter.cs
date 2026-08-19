@@ -9,7 +9,7 @@ namespace oci.DataOciLimitsLimitDefinitions
     [JsiiByValue(fqn: "oci.dataOciLimitsLimitDefinitions.DataOciLimitsLimitDefinitionsFilter")]
     public class DataOciLimitsLimitDefinitionsFilter : oci.DataOciLimitsLimitDefinitions.IDataOciLimitsLimitDefinitionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/limits_limit_definitions#name DataOciLimitsLimitDefinitions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/limits_limit_definitions#name DataOciLimitsLimitDefinitions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLimitsLimitDefinitions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/limits_limit_definitions#values DataOciLimitsLimitDefinitions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/limits_limit_definitions#values DataOciLimitsLimitDefinitions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLimitsLimitDefinitions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/limits_limit_definitions#regex DataOciLimitsLimitDefinitions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/limits_limit_definitions#regex DataOciLimitsLimitDefinitions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

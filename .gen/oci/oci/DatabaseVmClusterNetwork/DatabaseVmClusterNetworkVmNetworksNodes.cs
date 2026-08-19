@@ -9,7 +9,7 @@ namespace oci.DatabaseVmClusterNetwork
     [JsiiByValue(fqn: "oci.databaseVmClusterNetwork.DatabaseVmClusterNetworkVmNetworksNodes")]
     public class DatabaseVmClusterNetworkVmNetworksNodes : oci.DatabaseVmClusterNetwork.IDatabaseVmClusterNetworkVmNetworksNodes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_vm_cluster_network#hostname DatabaseVmClusterNetwork#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster_network#ip DatabaseVmClusterNetwork#ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_vm_cluster_network#ip DatabaseVmClusterNetwork#ip}.</summary>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
         public string Ip
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster_network#db_server_id DatabaseVmClusterNetwork#db_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_vm_cluster_network#db_server_id DatabaseVmClusterNetwork#db_server_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dbServerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DbServerId
@@ -34,7 +34,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster_network#state DatabaseVmClusterNetwork#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_vm_cluster_network#state DatabaseVmClusterNetwork#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -43,7 +43,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster_network#vip DatabaseVmClusterNetwork#vip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_vm_cluster_network#vip DatabaseVmClusterNetwork#vip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Vip
@@ -52,7 +52,7 @@ namespace oci.DatabaseVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_vm_cluster_network#vip_hostname DatabaseVmClusterNetwork#vip_hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_vm_cluster_network#vip_hostname DatabaseVmClusterNetwork#vip_hostname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vipHostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VipHostname

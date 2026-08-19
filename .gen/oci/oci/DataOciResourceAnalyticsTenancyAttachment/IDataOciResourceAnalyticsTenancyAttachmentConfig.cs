@@ -7,7 +7,7 @@ namespace oci.DataOciResourceAnalyticsTenancyAttachment
     [JsiiInterface(nativeType: typeof(IDataOciResourceAnalyticsTenancyAttachmentConfig), fullyQualifiedName: "oci.dataOciResourceAnalyticsTenancyAttachment.DataOciResourceAnalyticsTenancyAttachmentConfig")]
     public interface IDataOciResourceAnalyticsTenancyAttachmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resource_analytics_tenancy_attachment#tenancy_attachment_id DataOciResourceAnalyticsTenancyAttachment#tenancy_attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resource_analytics_tenancy_attachment#tenancy_attachment_id DataOciResourceAnalyticsTenancyAttachment#tenancy_attachment_id}.</summary>
         [JsiiProperty(name: "tenancyAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
         string TenancyAttachmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciResourceAnalyticsTenancyAttachment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/resource_analytics_tenancy_attachment#tenancy_attachment_id DataOciResourceAnalyticsTenancyAttachment#tenancy_attachment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resource_analytics_tenancy_attachment#tenancy_attachment_id DataOciResourceAnalyticsTenancyAttachment#tenancy_attachment_id}.</summary>
             [JsiiProperty(name: "tenancyAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string TenancyAttachmentId
             {

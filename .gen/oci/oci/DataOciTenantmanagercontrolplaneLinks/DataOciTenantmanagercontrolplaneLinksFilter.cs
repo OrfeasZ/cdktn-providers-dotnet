@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneLinks.DataOciTenantmanagercontrolplaneLinksFilter")]
     public class DataOciTenantmanagercontrolplaneLinksFilter : oci.DataOciTenantmanagercontrolplaneLinks.IDataOciTenantmanagercontrolplaneLinksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#name DataOciTenantmanagercontrolplaneLinks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_links#name DataOciTenantmanagercontrolplaneLinks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#values DataOciTenantmanagercontrolplaneLinks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_links#values DataOciTenantmanagercontrolplaneLinks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/tenantmanagercontrolplane_links#regex DataOciTenantmanagercontrolplaneLinks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_links#regex DataOciTenantmanagercontrolplaneLinks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

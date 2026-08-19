@@ -7,7 +7,7 @@ namespace oci.DataOciCloudGuardSecurityRecipe
     [JsiiInterface(nativeType: typeof(IDataOciCloudGuardSecurityRecipeConfig), fullyQualifiedName: "oci.dataOciCloudGuardSecurityRecipe.DataOciCloudGuardSecurityRecipeConfig")]
     public interface IDataOciCloudGuardSecurityRecipeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_security_recipe#security_recipe_id DataOciCloudGuardSecurityRecipe#security_recipe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_guard_security_recipe#security_recipe_id DataOciCloudGuardSecurityRecipe#security_recipe_id}.</summary>
         [JsiiProperty(name: "securityRecipeId", typeJson: "{\"primitive\":\"string\"}")]
         string SecurityRecipeId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudGuardSecurityRecipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_security_recipe#security_recipe_id DataOciCloudGuardSecurityRecipe#security_recipe_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_guard_security_recipe#security_recipe_id DataOciCloudGuardSecurityRecipe#security_recipe_id}.</summary>
             [JsiiProperty(name: "securityRecipeId", typeJson: "{\"primitive\":\"string\"}")]
             public string SecurityRecipeId
             {

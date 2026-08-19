@@ -7,21 +7,21 @@ namespace oci.DataOciOsManagementHubProfileVersion
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubProfileVersionConfig), fullyQualifiedName: "oci.dataOciOsManagementHubProfileVersion.DataOciOsManagementHubProfileVersionConfig")]
     public interface IDataOciOsManagementHubProfileVersionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_version#profile_id DataOciOsManagementHubProfileVersion#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_version#profile_id DataOciOsManagementHubProfileVersion#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         string ProfileId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_version#profile_version DataOciOsManagementHubProfileVersion#profile_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_version#profile_version DataOciOsManagementHubProfileVersion#profile_version}.</summary>
         [JsiiProperty(name: "profileVersion", typeJson: "{\"primitive\":\"string\"}")]
         string ProfileVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_version#id DataOciOsManagementHubProfileVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_version#id DataOciOsManagementHubProfileVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciOsManagementHubProfileVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_version#profile_id DataOciOsManagementHubProfileVersion#profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_version#profile_id DataOciOsManagementHubProfileVersion#profile_id}.</summary>
             [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProfileId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_version#profile_version DataOciOsManagementHubProfileVersion#profile_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_version#profile_version DataOciOsManagementHubProfileVersion#profile_version}.</summary>
             [JsiiProperty(name: "profileVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string ProfileVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_version#id DataOciOsManagementHubProfileVersion#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_version#id DataOciOsManagementHubProfileVersion#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.DataOciDifStack
     [JsiiByValue(fqn: "oci.dataOciDifStack.DataOciDifStackConfig")]
     public class DataOciDifStackConfig : oci.DataOciDifStack.IDataOciDifStackConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dif_stack#stack_id DataOciDifStack#stack_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dif_stack#stack_id DataOciDifStack#stack_id}.</summary>
         [JsiiProperty(name: "stackId", typeJson: "{\"primitive\":\"string\"}")]
         public string StackId
         {

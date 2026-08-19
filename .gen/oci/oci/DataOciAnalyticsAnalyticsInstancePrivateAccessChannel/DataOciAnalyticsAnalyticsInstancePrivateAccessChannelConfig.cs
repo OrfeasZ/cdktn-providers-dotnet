@@ -9,7 +9,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstancePrivateAccessChannel
     [JsiiByValue(fqn: "oci.dataOciAnalyticsAnalyticsInstancePrivateAccessChannel.DataOciAnalyticsAnalyticsInstancePrivateAccessChannelConfig")]
     public class DataOciAnalyticsAnalyticsInstancePrivateAccessChannelConfig : oci.DataOciAnalyticsAnalyticsInstancePrivateAccessChannel.IDataOciAnalyticsAnalyticsInstancePrivateAccessChannelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_private_access_channel#analytics_instance_id DataOciAnalyticsAnalyticsInstancePrivateAccessChannel#analytics_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/analytics_analytics_instance_private_access_channel#analytics_instance_id DataOciAnalyticsAnalyticsInstancePrivateAccessChannel#analytics_instance_id}.</summary>
         [JsiiProperty(name: "analyticsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string AnalyticsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstancePrivateAccessChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/analytics_analytics_instance_private_access_channel#private_access_channel_key DataOciAnalyticsAnalyticsInstancePrivateAccessChannel#private_access_channel_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/analytics_analytics_instance_private_access_channel#private_access_channel_key DataOciAnalyticsAnalyticsInstancePrivateAccessChannel#private_access_channel_key}.</summary>
         [JsiiProperty(name: "privateAccessChannelKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateAccessChannelKey
         {

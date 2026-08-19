@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementRecommendedPatchesConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementRecommendedPatches.DataOciFleetAppsManagementRecommendedPatchesConfig")]
     public interface IDataOciFleetAppsManagementRecommendedPatchesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#compartment_id DataOciFleetAppsManagementRecommendedPatches#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#compartment_id DataOciFleetAppsManagementRecommendedPatches#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#filter DataOciFleetAppsManagementRecommendedPatches#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#filter DataOciFleetAppsManagementRecommendedPatches#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementRecommendedPatches.IDataOciFleetAppsManagementRecommendedPatchesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFleetAppsManagementRecommendedPatches.DataOciFleetAppsManagementRecommendedPatchesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#id DataOciFleetAppsManagementRecommendedPatches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#id DataOciFleetAppsManagementRecommendedPatches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_id DataOciFleetAppsManagementRecommendedPatches#patch_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_id DataOciFleetAppsManagementRecommendedPatches#patch_id}.</summary>
         [JsiiProperty(name: "patchId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PatchId
@@ -55,7 +55,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_level DataOciFleetAppsManagementRecommendedPatches#patch_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_level DataOciFleetAppsManagementRecommendedPatches#patch_level}.</summary>
         [JsiiProperty(name: "patchLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PatchLevel
@@ -66,7 +66,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_type DataOciFleetAppsManagementRecommendedPatches#patch_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_type DataOciFleetAppsManagementRecommendedPatches#patch_type}.</summary>
         [JsiiProperty(name: "patchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PatchType
@@ -77,7 +77,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#severity DataOciFleetAppsManagementRecommendedPatches#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#severity DataOciFleetAppsManagementRecommendedPatches#severity}.</summary>
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Severity
@@ -88,7 +88,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#target_id DataOciFleetAppsManagementRecommendedPatches#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#target_id DataOciFleetAppsManagementRecommendedPatches#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -99,7 +99,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#target_name DataOciFleetAppsManagementRecommendedPatches#target_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#target_name DataOciFleetAppsManagementRecommendedPatches#target_name}.</summary>
         [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetName
@@ -117,7 +117,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#compartment_id DataOciFleetAppsManagementRecommendedPatches#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#compartment_id DataOciFleetAppsManagementRecommendedPatches#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -126,7 +126,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#filter DataOciFleetAppsManagementRecommendedPatches#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#filter DataOciFleetAppsManagementRecommendedPatches#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementRecommendedPatches.IDataOciFleetAppsManagementRecommendedPatchesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -136,7 +136,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#id DataOciFleetAppsManagementRecommendedPatches#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#id DataOciFleetAppsManagementRecommendedPatches#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -148,7 +148,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_id DataOciFleetAppsManagementRecommendedPatches#patch_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_id DataOciFleetAppsManagementRecommendedPatches#patch_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "patchId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PatchId
@@ -156,7 +156,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_level DataOciFleetAppsManagementRecommendedPatches#patch_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_level DataOciFleetAppsManagementRecommendedPatches#patch_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "patchLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PatchLevel
@@ -164,7 +164,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_type DataOciFleetAppsManagementRecommendedPatches#patch_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#patch_type DataOciFleetAppsManagementRecommendedPatches#patch_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "patchType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PatchType
@@ -172,7 +172,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#severity DataOciFleetAppsManagementRecommendedPatches#severity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#severity DataOciFleetAppsManagementRecommendedPatches#severity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Severity
@@ -180,7 +180,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#target_id DataOciFleetAppsManagementRecommendedPatches#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#target_id DataOciFleetAppsManagementRecommendedPatches#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
@@ -188,7 +188,7 @@ namespace oci.DataOciFleetAppsManagementRecommendedPatches
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_recommended_patches#target_name DataOciFleetAppsManagementRecommendedPatches#target_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_recommended_patches#target_name DataOciFleetAppsManagementRecommendedPatches#target_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetName

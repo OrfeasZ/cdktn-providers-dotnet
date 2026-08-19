@@ -9,7 +9,7 @@ namespace oci.DataOciCoreFirmwareBundle
     [JsiiByValue(fqn: "oci.dataOciCoreFirmwareBundle.DataOciCoreFirmwareBundleConfig")]
     public class DataOciCoreFirmwareBundleConfig : oci.DataOciCoreFirmwareBundle.IDataOciCoreFirmwareBundleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_firmware_bundle#firmware_bundle_id DataOciCoreFirmwareBundle#firmware_bundle_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_firmware_bundle#firmware_bundle_id DataOciCoreFirmwareBundle#firmware_bundle_id}.</summary>
         [JsiiProperty(name: "firmwareBundleId", typeJson: "{\"primitive\":\"string\"}")]
         public string FirmwareBundleId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreFirmwareBundle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_firmware_bundle#id DataOciCoreFirmwareBundle#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_firmware_bundle#id DataOciCoreFirmwareBundle#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

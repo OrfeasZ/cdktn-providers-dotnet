@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeTargetDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeTargetDatabaseConfig), fullyQualifiedName: "oci.dataOciDataSafeTargetDatabase.DataOciDataSafeTargetDatabaseConfig")]
     public interface IDataOciDataSafeTargetDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_target_database#target_database_id DataOciDataSafeTargetDatabase#target_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_target_database#target_database_id DataOciDataSafeTargetDatabase#target_database_id}.</summary>
         [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeTargetDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_target_database#target_database_id DataOciDataSafeTargetDatabase#target_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_target_database#target_database_id DataOciDataSafeTargetDatabase#target_database_id}.</summary>
             [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetDatabaseId
             {

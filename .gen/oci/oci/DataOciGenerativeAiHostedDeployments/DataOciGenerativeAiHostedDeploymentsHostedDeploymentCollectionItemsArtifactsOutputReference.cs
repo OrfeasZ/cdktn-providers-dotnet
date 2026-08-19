@@ -59,6 +59,12 @@ namespace oci.DataOciGenerativeAiHostedDeployments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isVulnerabilityScanRequired", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsVulnerabilityScanRequired
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentObjectTypes
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationAssessmentObjectTypes.DataOciDatabaseMigrationAssessmentObjectTypesFilter")]
     public class DataOciDatabaseMigrationAssessmentObjectTypesFilter : oci.DataOciDatabaseMigrationAssessmentObjectTypes.IDataOciDatabaseMigrationAssessmentObjectTypesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_object_types#name DataOciDatabaseMigrationAssessmentObjectTypes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_object_types#name DataOciDatabaseMigrationAssessmentObjectTypes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentObjectTypes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_object_types#values DataOciDatabaseMigrationAssessmentObjectTypes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_object_types#values DataOciDatabaseMigrationAssessmentObjectTypes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseMigrationAssessmentObjectTypes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_migration_assessment_object_types#regex DataOciDatabaseMigrationAssessmentObjectTypes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_assessment_object_types#regex DataOciDatabaseMigrationAssessmentObjectTypes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

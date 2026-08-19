@@ -7,7 +7,7 @@ namespace oci.MediaServicesStreamCdnConfig
     [JsiiByValue(fqn: "oci.mediaServicesStreamCdnConfig.MediaServicesStreamCdnConfigTimeouts")]
     public class MediaServicesStreamCdnConfigTimeouts : oci.MediaServicesStreamCdnConfig.IMediaServicesStreamCdnConfigTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/media_services_stream_cdn_config#create MediaServicesStreamCdnConfig#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/media_services_stream_cdn_config#create MediaServicesStreamCdnConfig#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/media_services_stream_cdn_config#delete MediaServicesStreamCdnConfig#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/media_services_stream_cdn_config#delete MediaServicesStreamCdnConfig#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.MediaServicesStreamCdnConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/media_services_stream_cdn_config#update MediaServicesStreamCdnConfig#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/media_services_stream_cdn_config#update MediaServicesStreamCdnConfig#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

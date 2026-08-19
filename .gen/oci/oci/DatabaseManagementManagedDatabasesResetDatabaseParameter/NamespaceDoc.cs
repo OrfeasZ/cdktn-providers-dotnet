@@ -5,7 +5,7 @@ namespace oci.DatabaseManagementManagedDatabasesResetDatabaseParameter
     /// <remarks>
     /// <h1><c>oci_database_management_managed_databases_reset_database_parameter</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_managed_databases_reset_database_parameter"><c>oci_database_management_managed_databases_reset_database_parameter</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_managed_databases_reset_database_parameter"><c>oci_database_management_managed_databases_reset_database_parameter</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

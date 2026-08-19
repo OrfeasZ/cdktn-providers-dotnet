@@ -7,28 +7,28 @@ namespace oci.DnsResolver
     [JsiiInterface(nativeType: typeof(IDnsResolverRules), fullyQualifiedName: "oci.dnsResolver.DnsResolverRules")]
     public interface IDnsResolverRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#action DnsResolver#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#action DnsResolver#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#destination_addresses DnsResolver#destination_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#destination_addresses DnsResolver#destination_addresses}.</summary>
         [JsiiProperty(name: "destinationAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] DestinationAddresses
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#source_endpoint_name DnsResolver#source_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#source_endpoint_name DnsResolver#source_endpoint_name}.</summary>
         [JsiiProperty(name: "sourceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         string SourceEndpointName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#client_address_conditions DnsResolver#client_address_conditions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#client_address_conditions DnsResolver#client_address_conditions}.</summary>
         [JsiiProperty(name: "clientAddressConditions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ClientAddressConditions
@@ -39,7 +39,7 @@ namespace oci.DnsResolver
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#qname_cover_conditions DnsResolver#qname_cover_conditions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#qname_cover_conditions DnsResolver#qname_cover_conditions}.</summary>
         [JsiiProperty(name: "qnameCoverConditions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? QnameCoverConditions
@@ -57,28 +57,28 @@ namespace oci.DnsResolver
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#action DnsResolver#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#action DnsResolver#action}.</summary>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#destination_addresses DnsResolver#destination_addresses}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#destination_addresses DnsResolver#destination_addresses}.</summary>
             [JsiiProperty(name: "destinationAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] DestinationAddresses
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#source_endpoint_name DnsResolver#source_endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#source_endpoint_name DnsResolver#source_endpoint_name}.</summary>
             [JsiiProperty(name: "sourceEndpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceEndpointName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#client_address_conditions DnsResolver#client_address_conditions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#client_address_conditions DnsResolver#client_address_conditions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientAddressConditions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ClientAddressConditions
@@ -86,7 +86,7 @@ namespace oci.DnsResolver
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#qname_cover_conditions DnsResolver#qname_cover_conditions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#qname_cover_conditions DnsResolver#qname_cover_conditions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "qnameCoverConditions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? QnameCoverConditions

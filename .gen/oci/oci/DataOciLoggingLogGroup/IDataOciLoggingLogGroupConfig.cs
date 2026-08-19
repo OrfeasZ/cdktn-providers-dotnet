@@ -7,7 +7,7 @@ namespace oci.DataOciLoggingLogGroup
     [JsiiInterface(nativeType: typeof(IDataOciLoggingLogGroupConfig), fullyQualifiedName: "oci.dataOciLoggingLogGroup.DataOciLoggingLogGroupConfig")]
     public interface IDataOciLoggingLogGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/logging_log_group#log_group_id DataOciLoggingLogGroup#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/logging_log_group#log_group_id DataOciLoggingLogGroup#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLoggingLogGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/logging_log_group#log_group_id DataOciLoggingLogGroup#log_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/logging_log_group#log_group_id DataOciLoggingLogGroup#log_group_id}.</summary>
             [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupId
             {

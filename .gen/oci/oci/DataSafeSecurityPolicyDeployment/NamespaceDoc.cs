@@ -5,7 +5,7 @@ namespace oci.DataSafeSecurityPolicyDeployment
     /// <remarks>
     /// <h1><c>oci_data_safe_security_policy_deployment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_security_policy_deployment"><c>oci_data_safe_security_policy_deployment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_security_policy_deployment"><c>oci_data_safe_security_policy_deployment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

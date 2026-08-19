@@ -9,7 +9,7 @@ namespace oci.DataOciLoggingLog
     [JsiiByValue(fqn: "oci.dataOciLoggingLog.DataOciLoggingLogConfig")]
     public class DataOciLoggingLogConfig : oci.DataOciLoggingLog.IDataOciLoggingLogConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/logging_log#log_group_id DataOciLoggingLog#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/logging_log#log_group_id DataOciLoggingLog#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLoggingLog
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/logging_log#log_id DataOciLoggingLog#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/logging_log#log_id DataOciLoggingLog#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogId
         {

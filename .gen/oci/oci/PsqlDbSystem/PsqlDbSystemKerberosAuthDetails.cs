@@ -9,7 +9,7 @@ namespace oci.PsqlDbSystem
     [JsiiByValue(fqn: "oci.psqlDbSystem.PsqlDbSystemKerberosAuthDetails")]
     public class PsqlDbSystemKerberosAuthDetails : oci.PsqlDbSystem.IPsqlDbSystemKerberosAuthDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#kind PsqlDbSystem#kind}.</summary>
         [JsiiProperty(name: "kind", typeJson: "{\"primitive\":\"string\"}")]
         public string Kind
         {
@@ -21,7 +21,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>backup_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#backup_credentials PsqlDbSystem#backup_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#backup_credentials PsqlDbSystem#backup_credentials}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemKerberosAuthDetailsBackupCredentials" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemKerberosAuthDetailsCredentials" />)[]</para>
         /// </remarks>
         [JsiiOptional]

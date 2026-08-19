@@ -9,7 +9,7 @@ namespace oci.DataOciDemandSignalOccDemandSignal
     [JsiiByValue(fqn: "oci.dataOciDemandSignalOccDemandSignal.DataOciDemandSignalOccDemandSignalConfig")]
     public class DataOciDemandSignalOccDemandSignalConfig : oci.DataOciDemandSignalOccDemandSignal.IDataOciDemandSignalOccDemandSignalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/demand_signal_occ_demand_signal#occ_demand_signal_id DataOciDemandSignalOccDemandSignal#occ_demand_signal_id}.</summary>
         [JsiiProperty(name: "occDemandSignalId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccDemandSignalId
         {

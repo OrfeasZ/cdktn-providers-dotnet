@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityAuthenticationPolicy
     [JsiiByValue(fqn: "oci.dataOciIdentityAuthenticationPolicy.DataOciIdentityAuthenticationPolicyConfig")]
     public class DataOciIdentityAuthenticationPolicyConfig : oci.DataOciIdentityAuthenticationPolicy.IDataOciIdentityAuthenticationPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_authentication_policy#compartment_id DataOciIdentityAuthenticationPolicy#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_authentication_policy#compartment_id DataOciIdentityAuthenticationPolicy#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {

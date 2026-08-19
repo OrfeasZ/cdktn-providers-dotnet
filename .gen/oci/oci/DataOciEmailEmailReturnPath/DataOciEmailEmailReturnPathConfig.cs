@@ -9,7 +9,7 @@ namespace oci.DataOciEmailEmailReturnPath
     [JsiiByValue(fqn: "oci.dataOciEmailEmailReturnPath.DataOciEmailEmailReturnPathConfig")]
     public class DataOciEmailEmailReturnPathConfig : oci.DataOciEmailEmailReturnPath.IDataOciEmailEmailReturnPathConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}.</summary>
         [JsiiProperty(name: "emailReturnPathId", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailReturnPathId
         {

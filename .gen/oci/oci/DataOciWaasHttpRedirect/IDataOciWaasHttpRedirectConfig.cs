@@ -7,7 +7,7 @@ namespace oci.DataOciWaasHttpRedirect
     [JsiiInterface(nativeType: typeof(IDataOciWaasHttpRedirectConfig), fullyQualifiedName: "oci.dataOciWaasHttpRedirect.DataOciWaasHttpRedirectConfig")]
     public interface IDataOciWaasHttpRedirectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/waas_http_redirect#http_redirect_id DataOciWaasHttpRedirect#http_redirect_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/waas_http_redirect#http_redirect_id DataOciWaasHttpRedirect#http_redirect_id}.</summary>
         [JsiiProperty(name: "httpRedirectId", typeJson: "{\"primitive\":\"string\"}")]
         string HttpRedirectId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWaasHttpRedirect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/waas_http_redirect#http_redirect_id DataOciWaasHttpRedirect#http_redirect_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/waas_http_redirect#http_redirect_id DataOciWaasHttpRedirect#http_redirect_id}.</summary>
             [JsiiProperty(name: "httpRedirectId", typeJson: "{\"primitive\":\"string\"}")]
             public string HttpRedirectId
             {

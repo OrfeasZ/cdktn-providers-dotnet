@@ -5,7 +5,7 @@ namespace oci.DataOciDatascienceJobShapes
     /// <remarks>
     /// <h1><c>data_oci_datascience_job_shapes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_job_shapes"><c>data_oci_datascience_job_shapes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_job_shapes"><c>data_oci_datascience_job_shapes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

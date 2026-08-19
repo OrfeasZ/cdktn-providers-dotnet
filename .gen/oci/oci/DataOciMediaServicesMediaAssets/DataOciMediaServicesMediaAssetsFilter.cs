@@ -9,7 +9,7 @@ namespace oci.DataOciMediaServicesMediaAssets
     [JsiiByValue(fqn: "oci.dataOciMediaServicesMediaAssets.DataOciMediaServicesMediaAssetsFilter")]
     public class DataOciMediaServicesMediaAssetsFilter : oci.DataOciMediaServicesMediaAssets.IDataOciMediaServicesMediaAssetsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_media_assets#name DataOciMediaServicesMediaAssets#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_media_assets#name DataOciMediaServicesMediaAssets#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMediaServicesMediaAssets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_media_assets#values DataOciMediaServicesMediaAssets#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_media_assets#values DataOciMediaServicesMediaAssets#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMediaServicesMediaAssets
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_media_assets#regex DataOciMediaServicesMediaAssets#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_media_assets#regex DataOciMediaServicesMediaAssets#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

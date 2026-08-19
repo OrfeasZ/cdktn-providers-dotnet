@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelDeployment
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelDeployment.DataOciDatascienceModelDeploymentConfig")]
     public class DataOciDatascienceModelDeploymentConfig : oci.DataOciDatascienceModelDeployment.IDataOciDatascienceModelDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model_deployment#model_deployment_id DataOciDatascienceModelDeployment#model_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_model_deployment#model_deployment_id DataOciDatascienceModelDeployment#model_deployment_id}.</summary>
         [JsiiProperty(name: "modelDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelDeploymentId
         {

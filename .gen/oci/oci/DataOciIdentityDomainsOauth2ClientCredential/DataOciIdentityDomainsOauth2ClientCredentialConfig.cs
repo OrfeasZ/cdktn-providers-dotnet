@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsOauth2ClientCredential
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsOauth2ClientCredential.DataOciIdentityDomainsOauth2ClientCredentialConfig")]
     public class DataOciIdentityDomainsOauth2ClientCredentialConfig : oci.DataOciIdentityDomainsOauth2ClientCredential.IDataOciIdentityDomainsOauth2ClientCredentialConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_oauth2client_credential#idcs_endpoint DataOciIdentityDomainsOauth2ClientCredential#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_oauth2client_credential#idcs_endpoint DataOciIdentityDomainsOauth2ClientCredential#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsOauth2ClientCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_oauth2client_credential#o_auth2client_credential_id DataOciIdentityDomainsOauth2ClientCredential#o_auth2client_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_oauth2client_credential#o_auth2client_credential_id DataOciIdentityDomainsOauth2ClientCredential#o_auth2client_credential_id}.</summary>
         [JsiiProperty(name: "oAuth2ClientCredentialId", typeJson: "{\"primitive\":\"string\"}")]
         public string OAuth2ClientCredentialId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsOauth2ClientCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_oauth2client_credential#attributes DataOciIdentityDomainsOauth2ClientCredential#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_oauth2client_credential#attributes DataOciIdentityDomainsOauth2ClientCredential#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsOauth2ClientCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_oauth2client_credential#attribute_sets DataOciIdentityDomainsOauth2ClientCredential#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_oauth2client_credential#attribute_sets DataOciIdentityDomainsOauth2ClientCredential#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsOauth2ClientCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_oauth2client_credential#authorization DataOciIdentityDomainsOauth2ClientCredential#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_oauth2client_credential#authorization DataOciIdentityDomainsOauth2ClientCredential#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsOauth2ClientCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_oauth2client_credential#resource_type_schema_version DataOciIdentityDomainsOauth2ClientCredential#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_oauth2client_credential#resource_type_schema_version DataOciIdentityDomainsOauth2ClientCredential#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

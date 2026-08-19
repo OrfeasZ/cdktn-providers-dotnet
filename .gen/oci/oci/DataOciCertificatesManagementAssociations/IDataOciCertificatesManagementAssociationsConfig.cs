@@ -7,7 +7,7 @@ namespace oci.DataOciCertificatesManagementAssociations
     [JsiiInterface(nativeType: typeof(IDataOciCertificatesManagementAssociationsConfig), fullyQualifiedName: "oci.dataOciCertificatesManagementAssociations.DataOciCertificatesManagementAssociationsConfig")]
     public interface IDataOciCertificatesManagementAssociationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#associated_resource_id DataOciCertificatesManagementAssociations#associated_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#associated_resource_id DataOciCertificatesManagementAssociations#associated_resource_id}.</summary>
         [JsiiProperty(name: "associatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssociatedResourceId
@@ -18,7 +18,7 @@ namespace oci.DataOciCertificatesManagementAssociations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#association_id DataOciCertificatesManagementAssociations#association_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#association_id DataOciCertificatesManagementAssociations#association_id}.</summary>
         [JsiiProperty(name: "associationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssociationId
@@ -29,7 +29,7 @@ namespace oci.DataOciCertificatesManagementAssociations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#association_type DataOciCertificatesManagementAssociations#association_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#association_type DataOciCertificatesManagementAssociations#association_type}.</summary>
         [JsiiProperty(name: "associationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssociationType
@@ -40,7 +40,7 @@ namespace oci.DataOciCertificatesManagementAssociations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#certificates_resource_id DataOciCertificatesManagementAssociations#certificates_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#certificates_resource_id DataOciCertificatesManagementAssociations#certificates_resource_id}.</summary>
         [JsiiProperty(name: "certificatesResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificatesResourceId
@@ -51,7 +51,7 @@ namespace oci.DataOciCertificatesManagementAssociations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#compartment_id DataOciCertificatesManagementAssociations#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#compartment_id DataOciCertificatesManagementAssociations#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -64,7 +64,7 @@ namespace oci.DataOciCertificatesManagementAssociations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#filter DataOciCertificatesManagementAssociations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#filter DataOciCertificatesManagementAssociations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCertificatesManagementAssociations.IDataOciCertificatesManagementAssociationsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCertificatesManagementAssociations.DataOciCertificatesManagementAssociationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace oci.DataOciCertificatesManagementAssociations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#id DataOciCertificatesManagementAssociations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#id DataOciCertificatesManagementAssociations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciCertificatesManagementAssociations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -110,7 +110,7 @@ namespace oci.DataOciCertificatesManagementAssociations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#associated_resource_id DataOciCertificatesManagementAssociations#associated_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#associated_resource_id DataOciCertificatesManagementAssociations#associated_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "associatedResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssociatedResourceId
@@ -118,7 +118,7 @@ namespace oci.DataOciCertificatesManagementAssociations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#association_id DataOciCertificatesManagementAssociations#association_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#association_id DataOciCertificatesManagementAssociations#association_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "associationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssociationId
@@ -126,7 +126,7 @@ namespace oci.DataOciCertificatesManagementAssociations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#association_type DataOciCertificatesManagementAssociations#association_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#association_type DataOciCertificatesManagementAssociations#association_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "associationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssociationType
@@ -134,7 +134,7 @@ namespace oci.DataOciCertificatesManagementAssociations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#certificates_resource_id DataOciCertificatesManagementAssociations#certificates_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#certificates_resource_id DataOciCertificatesManagementAssociations#certificates_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificatesResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificatesResourceId
@@ -142,7 +142,7 @@ namespace oci.DataOciCertificatesManagementAssociations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#compartment_id DataOciCertificatesManagementAssociations#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#compartment_id DataOciCertificatesManagementAssociations#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -152,7 +152,7 @@ namespace oci.DataOciCertificatesManagementAssociations
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#filter DataOciCertificatesManagementAssociations#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#filter DataOciCertificatesManagementAssociations#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCertificatesManagementAssociations.IDataOciCertificatesManagementAssociationsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -162,7 +162,7 @@ namespace oci.DataOciCertificatesManagementAssociations
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#id DataOciCertificatesManagementAssociations#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#id DataOciCertificatesManagementAssociations#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -174,7 +174,7 @@ namespace oci.DataOciCertificatesManagementAssociations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_associations#name DataOciCertificatesManagementAssociations#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

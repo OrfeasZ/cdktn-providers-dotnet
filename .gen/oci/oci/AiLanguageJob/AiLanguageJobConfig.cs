@@ -9,7 +9,7 @@ namespace oci.AiLanguageJob
     [JsiiByValue(fqn: "oci.aiLanguageJob.AiLanguageJobConfig")]
     public class AiLanguageJobConfig : oci.AiLanguageJob.IAiLanguageJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#compartment_id AiLanguageJob#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#compartment_id AiLanguageJob#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.AiLanguageJob
 
         /// <summary>input_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#input_location AiLanguageJob#input_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#input_location AiLanguageJob#input_location}
         /// </remarks>
         [JsiiProperty(name: "inputLocation", typeJson: "{\"fqn\":\"oci.aiLanguageJob.AiLanguageJobInputLocation\"}")]
         public oci.AiLanguageJob.IAiLanguageJobInputLocation InputLocation
@@ -32,7 +32,7 @@ namespace oci.AiLanguageJob
 
         /// <summary>model_metadata_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#model_metadata_details AiLanguageJob#model_metadata_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#model_metadata_details AiLanguageJob#model_metadata_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiLanguageJob.IAiLanguageJobModelMetadataDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "modelMetadataDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiLanguageJob.AiLanguageJobModelMetadataDetails\"},\"kind\":\"array\"}}]}}")]
@@ -64,7 +64,7 @@ namespace oci.AiLanguageJob
 
         /// <summary>output_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#output_location AiLanguageJob#output_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#output_location AiLanguageJob#output_location}
         /// </remarks>
         [JsiiProperty(name: "outputLocation", typeJson: "{\"fqn\":\"oci.aiLanguageJob.AiLanguageJobOutputLocation\"}")]
         public oci.AiLanguageJob.IAiLanguageJobOutputLocation OutputLocation
@@ -73,7 +73,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#description AiLanguageJob#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#description AiLanguageJob#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -82,7 +82,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#display_name AiLanguageJob#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#display_name AiLanguageJob#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -91,7 +91,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#id AiLanguageJob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#id AiLanguageJob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -106,7 +106,7 @@ namespace oci.AiLanguageJob
 
         /// <summary>input_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#input_configuration AiLanguageJob#input_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#input_configuration AiLanguageJob#input_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inputConfiguration", typeJson: "{\"fqn\":\"oci.aiLanguageJob.AiLanguageJobInputConfiguration\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace oci.AiLanguageJob
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_language_job#timeouts AiLanguageJob#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#timeouts AiLanguageJob#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.aiLanguageJob.AiLanguageJobTimeouts\"}", isOptional: true)]

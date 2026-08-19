@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerNetworkLoadBalancersPolicies.DataOciNetworkLoadBalancerNetworkLoadBalancersPoliciesFilter")]
     public class DataOciNetworkLoadBalancerNetworkLoadBalancersPoliciesFilter : oci.DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies.IDataOciNetworkLoadBalancerNetworkLoadBalancersPoliciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_policies#name DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_policies#name DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_policies#values DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_policies#values DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_policies#regex DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_policies#regex DataOciNetworkLoadBalancerNetworkLoadBalancersPolicies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

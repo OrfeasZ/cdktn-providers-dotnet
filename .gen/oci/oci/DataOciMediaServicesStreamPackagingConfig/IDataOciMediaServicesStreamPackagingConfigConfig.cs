@@ -7,7 +7,7 @@ namespace oci.DataOciMediaServicesStreamPackagingConfig
     [JsiiInterface(nativeType: typeof(IDataOciMediaServicesStreamPackagingConfigConfig), fullyQualifiedName: "oci.dataOciMediaServicesStreamPackagingConfig.DataOciMediaServicesStreamPackagingConfigConfig")]
     public interface IDataOciMediaServicesStreamPackagingConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_stream_packaging_config#stream_packaging_config_id DataOciMediaServicesStreamPackagingConfig#stream_packaging_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_stream_packaging_config#stream_packaging_config_id DataOciMediaServicesStreamPackagingConfig#stream_packaging_config_id}.</summary>
         [JsiiProperty(name: "streamPackagingConfigId", typeJson: "{\"primitive\":\"string\"}")]
         string StreamPackagingConfigId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMediaServicesStreamPackagingConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_stream_packaging_config#stream_packaging_config_id DataOciMediaServicesStreamPackagingConfig#stream_packaging_config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_stream_packaging_config#stream_packaging_config_id DataOciMediaServicesStreamPackagingConfig#stream_packaging_config_id}.</summary>
             [JsiiProperty(name: "streamPackagingConfigId", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamPackagingConfigId
             {

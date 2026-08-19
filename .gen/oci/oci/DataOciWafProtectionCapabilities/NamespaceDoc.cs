@@ -5,7 +5,7 @@ namespace oci.DataOciWafProtectionCapabilities
     /// <remarks>
     /// <h1><c>data_oci_waf_protection_capabilities</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/waf_protection_capabilities"><c>data_oci_waf_protection_capabilities</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/waf_protection_capabilities"><c>data_oci_waf_protection_capabilities</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

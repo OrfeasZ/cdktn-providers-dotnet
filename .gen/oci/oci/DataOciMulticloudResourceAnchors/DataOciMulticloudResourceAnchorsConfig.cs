@@ -7,7 +7,7 @@ namespace oci.DataOciMulticloudResourceAnchors
     [JsiiByValue(fqn: "oci.dataOciMulticloudResourceAnchors.DataOciMulticloudResourceAnchorsConfig")]
     public class DataOciMulticloudResourceAnchorsConfig : oci.DataOciMulticloudResourceAnchors.IDataOciMulticloudResourceAnchorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#compartment_id DataOciMulticloudResourceAnchors#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#compartment_id DataOciMulticloudResourceAnchors#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciMulticloudResourceAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#display_name DataOciMulticloudResourceAnchors#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#display_name DataOciMulticloudResourceAnchors#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciMulticloudResourceAnchors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#filter DataOciMulticloudResourceAnchors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#filter DataOciMulticloudResourceAnchors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudResourceAnchors.IDataOciMulticloudResourceAnchorsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciMulticloudResourceAnchors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#id DataOciMulticloudResourceAnchors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#id DataOciMulticloudResourceAnchors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace oci.DataOciMulticloudResourceAnchors
 
         private object? _isCompartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#is_compartment_id_in_subtree DataOciMulticloudResourceAnchors#is_compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#is_compartment_id_in_subtree DataOciMulticloudResourceAnchors#is_compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -107,7 +107,7 @@ namespace oci.DataOciMulticloudResourceAnchors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#lifecycle_state DataOciMulticloudResourceAnchors#lifecycle_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#lifecycle_state DataOciMulticloudResourceAnchors#lifecycle_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LifecycleState
@@ -116,7 +116,7 @@ namespace oci.DataOciMulticloudResourceAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#limit DataOciMulticloudResourceAnchors#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#limit DataOciMulticloudResourceAnchors#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit
@@ -125,7 +125,7 @@ namespace oci.DataOciMulticloudResourceAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#linked_compartment_id DataOciMulticloudResourceAnchors#linked_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#linked_compartment_id DataOciMulticloudResourceAnchors#linked_compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "linkedCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LinkedCompartmentId
@@ -136,7 +136,7 @@ namespace oci.DataOciMulticloudResourceAnchors
 
         private object? _shouldFetchCompartmentName;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#should_fetch_compartment_name DataOciMulticloudResourceAnchors#should_fetch_compartment_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#should_fetch_compartment_name DataOciMulticloudResourceAnchors#should_fetch_compartment_name}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -168,7 +168,7 @@ namespace oci.DataOciMulticloudResourceAnchors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#subscription_id DataOciMulticloudResourceAnchors#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#subscription_id DataOciMulticloudResourceAnchors#subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriptionId
@@ -177,7 +177,7 @@ namespace oci.DataOciMulticloudResourceAnchors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/multicloud_resource_anchors#subscription_service_name DataOciMulticloudResourceAnchors#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_resource_anchors#subscription_service_name DataOciMulticloudResourceAnchors#subscription_service_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriptionServiceName

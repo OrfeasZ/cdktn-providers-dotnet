@@ -9,7 +9,7 @@ namespace oci.DevopsTrigger
     [JsiiByValue(fqn: "oci.devopsTrigger.DevopsTriggerActionsFilter")]
     public class DevopsTriggerActionsFilter : oci.DevopsTrigger.IDevopsTriggerActionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#trigger_source DevopsTrigger#trigger_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#trigger_source DevopsTrigger#trigger_source}.</summary>
         [JsiiProperty(name: "triggerSource", typeJson: "{\"primitive\":\"string\"}")]
         public string TriggerSource
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#events DevopsTrigger#events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#events DevopsTrigger#events}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Events
@@ -28,7 +28,7 @@ namespace oci.DevopsTrigger
 
         /// <summary>exclude block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#exclude DevopsTrigger#exclude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#exclude DevopsTrigger#exclude}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"oci.devopsTrigger.DevopsTriggerActionsFilterExclude\"}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DevopsTrigger
 
         /// <summary>include block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/devops_trigger#include DevopsTrigger#include}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#include DevopsTrigger#include}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"oci.devopsTrigger.DevopsTriggerActionsFilterInclude\"}", isOptional: true)]

@@ -7,14 +7,14 @@ namespace oci.DesktopsDesktopPool
     [JsiiInterface(nativeType: typeof(IDesktopsDesktopPoolAvailabilityPolicyStartSchedule), fullyQualifiedName: "oci.desktopsDesktopPool.DesktopsDesktopPoolAvailabilityPolicyStartSchedule")]
     public interface IDesktopsDesktopPoolAvailabilityPolicyStartSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}.</summary>
         [JsiiProperty(name: "cronExpression", typeJson: "{\"primitive\":\"string\"}")]
         string CronExpression
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}.</summary>
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
         string Timezone
         {
@@ -28,14 +28,14 @@ namespace oci.DesktopsDesktopPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}.</summary>
             [JsiiProperty(name: "cronExpression", typeJson: "{\"primitive\":\"string\"}")]
             public string CronExpression
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}.</summary>
             [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
             public string Timezone
             {

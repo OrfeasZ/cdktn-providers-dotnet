@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementSchedulerJobJobActivitySteps.DataOciFleetAppsManagementSchedulerJobJobActivityStepsConfig")]
     public class DataOciFleetAppsManagementSchedulerJobJobActivityStepsConfig : oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps.IDataOciFleetAppsManagementSchedulerJobJobActivityStepsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#job_activity_id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#job_activity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#job_activity_id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#job_activity_id}.</summary>
         [JsiiProperty(name: "jobActivityId", typeJson: "{\"primitive\":\"string\"}")]
         public string JobActivityId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#scheduler_job_id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#scheduler_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#scheduler_job_id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#scheduler_job_id}.</summary>
         [JsiiProperty(name: "schedulerJobId", typeJson: "{\"primitive\":\"string\"}")]
         public string SchedulerJobId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#filter DataOciFleetAppsManagementSchedulerJobJobActivitySteps#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#filter DataOciFleetAppsManagementSchedulerJobJobActivitySteps#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps.IDataOciFleetAppsManagementSchedulerJobJobActivityStepsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#resource_task_id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#resource_task_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#resource_task_id DataOciFleetAppsManagementSchedulerJobJobActivitySteps#resource_task_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTaskId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTaskId
@@ -82,7 +82,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#sequence DataOciFleetAppsManagementSchedulerJobJobActivitySteps#sequence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#sequence DataOciFleetAppsManagementSchedulerJobJobActivitySteps#sequence}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sequence", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Sequence
@@ -91,7 +91,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#step_name DataOciFleetAppsManagementSchedulerJobJobActivitySteps#step_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#step_name DataOciFleetAppsManagementSchedulerJobJobActivitySteps#step_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stepName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StepName
@@ -100,7 +100,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivitySteps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#target_name DataOciFleetAppsManagementSchedulerJobJobActivitySteps#target_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_steps#target_name DataOciFleetAppsManagementSchedulerJobJobActivitySteps#target_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetName

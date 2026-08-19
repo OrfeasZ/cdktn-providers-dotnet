@@ -7,21 +7,21 @@ namespace oci.OsManagementHubManagedInstanceGroupDetachManagedInstancesManagemen
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstanceGroupDetachManagedInstancesManagementConfig), fullyQualifiedName: "oci.osManagementHubManagedInstanceGroupDetachManagedInstancesManagement.OsManagementHubManagedInstanceGroupDetachManagedInstancesManagementConfig")]
     public interface IOsManagementHubManagedInstanceGroupDetachManagedInstancesManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instance_group_id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instance_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instance_group_id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instance_group_id}.</summary>
         [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instances OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instances OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instances}.</summary>
         [JsiiProperty(name: "managedInstances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] ManagedInstances
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.OsManagementHubManagedInstanceGroupDetachManagedInstancesManagemen
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#timeouts OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#timeouts OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceGroupDetachManagedInstancesManagement.OsManagementHubManagedInstanceGroupDetachManagedInstancesManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace oci.OsManagementHubManagedInstanceGroupDetachManagedInstancesManagemen
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instance_group_id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instance_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instance_group_id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instance_group_id}.</summary>
             [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instances OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instances}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#managed_instances OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#managed_instances}.</summary>
             [JsiiProperty(name: "managedInstances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] ManagedInstances
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#id OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.OsManagementHubManagedInstanceGroupDetachManagedInstancesManagemen
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#timeouts OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_group_detach_managed_instances_management#timeouts OsManagementHubManagedInstanceGroupDetachManagedInstancesManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceGroupDetachManagedInstancesManagement.OsManagementHubManagedInstanceGroupDetachManagedInstancesManagementTimeouts\"}", isOptional: true)]

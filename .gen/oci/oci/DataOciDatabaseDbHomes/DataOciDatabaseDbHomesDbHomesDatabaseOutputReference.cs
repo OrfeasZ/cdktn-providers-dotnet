@@ -173,6 +173,12 @@ namespace oci.DataOciDatabaseDbHomes
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "recoveryApplianceVpcPassword", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RecoveryApplianceVpcPassword
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "sidPrefix", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SidPrefix
         {

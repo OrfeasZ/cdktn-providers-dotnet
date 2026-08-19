@@ -9,7 +9,7 @@ namespace oci.ApigatewaySubscriber
     [JsiiByValue(fqn: "oci.apigatewaySubscriber.ApigatewaySubscriberClients")]
     public class ApigatewaySubscriberClients : oci.ApigatewaySubscriber.IApigatewaySubscriberClients
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_subscriber#name ApigatewaySubscriber#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_subscriber#name ApigatewaySubscriber#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.ApigatewaySubscriber
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_subscriber#token ApigatewaySubscriber#token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_subscriber#token ApigatewaySubscriber#token}.</summary>
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}")]
         public string Token
         {

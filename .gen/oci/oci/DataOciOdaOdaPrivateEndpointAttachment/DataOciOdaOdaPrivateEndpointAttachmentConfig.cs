@@ -9,7 +9,7 @@ namespace oci.DataOciOdaOdaPrivateEndpointAttachment
     [JsiiByValue(fqn: "oci.dataOciOdaOdaPrivateEndpointAttachment.DataOciOdaOdaPrivateEndpointAttachmentConfig")]
     public class DataOciOdaOdaPrivateEndpointAttachmentConfig : oci.DataOciOdaOdaPrivateEndpointAttachment.IDataOciOdaOdaPrivateEndpointAttachmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/oda_oda_private_endpoint_attachment#oda_private_endpoint_attachment_id DataOciOdaOdaPrivateEndpointAttachment#oda_private_endpoint_attachment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/oda_oda_private_endpoint_attachment#oda_private_endpoint_attachment_id DataOciOdaOdaPrivateEndpointAttachment#oda_private_endpoint_attachment_id}.</summary>
         [JsiiProperty(name: "odaPrivateEndpointAttachmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string OdaPrivateEndpointAttachmentId
         {

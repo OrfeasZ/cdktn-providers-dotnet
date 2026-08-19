@@ -9,7 +9,7 @@ namespace oci.ApigatewayDeployment
     {
         /// <summary>access_log block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#access_log ApigatewayDeployment#access_log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_deployment#access_log ApigatewayDeployment#access_log}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessLog", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationLoggingPoliciesAccessLog\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace oci.ApigatewayDeployment
 
         /// <summary>execution_log block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apigateway_deployment#execution_log ApigatewayDeployment#execution_log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apigateway_deployment#execution_log ApigatewayDeployment#execution_log}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "executionLog", typeJson: "{\"fqn\":\"oci.apigatewayDeployment.ApigatewayDeploymentSpecificationLoggingPoliciesExecutionLog\"}", isOptional: true)]

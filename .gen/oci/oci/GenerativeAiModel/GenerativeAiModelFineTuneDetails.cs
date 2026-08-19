@@ -9,7 +9,7 @@ namespace oci.GenerativeAiModel
     [JsiiByValue(fqn: "oci.generativeAiModel.GenerativeAiModelFineTuneDetails")]
     public class GenerativeAiModelFineTuneDetails : oci.GenerativeAiModel.IGenerativeAiModelFineTuneDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_model#dedicated_ai_cluster_id GenerativeAiModel#dedicated_ai_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#dedicated_ai_cluster_id GenerativeAiModel#dedicated_ai_cluster_id}.</summary>
         [JsiiProperty(name: "dedicatedAiClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string DedicatedAiClusterId
         {
@@ -19,7 +19,7 @@ namespace oci.GenerativeAiModel
 
         /// <summary>training_dataset block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_model#training_dataset GenerativeAiModel#training_dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#training_dataset GenerativeAiModel#training_dataset}
         /// </remarks>
         [JsiiProperty(name: "trainingDataset", typeJson: "{\"fqn\":\"oci.generativeAiModel.GenerativeAiModelFineTuneDetailsTrainingDataset\"}")]
         public oci.GenerativeAiModel.IGenerativeAiModelFineTuneDetailsTrainingDataset TrainingDataset
@@ -30,7 +30,7 @@ namespace oci.GenerativeAiModel
 
         /// <summary>training_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_model#training_config GenerativeAiModel#training_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#training_config GenerativeAiModel#training_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trainingConfig", typeJson: "{\"fqn\":\"oci.generativeAiModel.GenerativeAiModelFineTuneDetailsTrainingConfig\"}", isOptional: true)]

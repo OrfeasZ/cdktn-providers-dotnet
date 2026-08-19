@@ -7,14 +7,14 @@ namespace oci.WaasWaasPolicy
     [JsiiInterface(nativeType: typeof(IWaasWaasPolicyOriginGroupsOriginGroup), fullyQualifiedName: "oci.waasWaasPolicy.WaasWaasPolicyOriginGroupsOriginGroup")]
     public interface IWaasWaasPolicyOriginGroupsOriginGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}.</summary>
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}")]
         string Origin
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Weight
@@ -32,14 +32,14 @@ namespace oci.WaasWaasPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/waas_waas_policy#origin WaasWaasPolicy#origin}.</summary>
             [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}")]
             public string Origin
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/waas_waas_policy#weight WaasWaasPolicy#weight}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Weight

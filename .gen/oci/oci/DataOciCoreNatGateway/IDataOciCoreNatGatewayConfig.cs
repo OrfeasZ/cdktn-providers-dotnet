@@ -7,7 +7,7 @@ namespace oci.DataOciCoreNatGateway
     [JsiiInterface(nativeType: typeof(IDataOciCoreNatGatewayConfig), fullyQualifiedName: "oci.dataOciCoreNatGateway.DataOciCoreNatGatewayConfig")]
     public interface IDataOciCoreNatGatewayConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_nat_gateway#nat_gateway_id DataOciCoreNatGateway#nat_gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_nat_gateway#nat_gateway_id DataOciCoreNatGateway#nat_gateway_id}.</summary>
         [JsiiProperty(name: "natGatewayId", typeJson: "{\"primitive\":\"string\"}")]
         string NatGatewayId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreNatGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_nat_gateway#nat_gateway_id DataOciCoreNatGateway#nat_gateway_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_nat_gateway#nat_gateway_id DataOciCoreNatGateway#nat_gateway_id}.</summary>
             [JsiiProperty(name: "natGatewayId", typeJson: "{\"primitive\":\"string\"}")]
             public string NatGatewayId
             {

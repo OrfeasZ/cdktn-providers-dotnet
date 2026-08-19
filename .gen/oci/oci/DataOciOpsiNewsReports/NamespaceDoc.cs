@@ -5,7 +5,7 @@ namespace oci.DataOciOpsiNewsReports
     /// <remarks>
     /// <h1><c>data_oci_opsi_news_reports</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opsi_news_reports"><c>data_oci_opsi_news_reports</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_news_reports"><c>data_oci_opsi_news_reports</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

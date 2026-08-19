@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistory
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceModelGroupVersionHistoryConfig), fullyQualifiedName: "oci.dataOciDatascienceModelGroupVersionHistory.DataOciDatascienceModelGroupVersionHistoryConfig")]
     public interface IDataOciDatascienceModelGroupVersionHistoryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model_group_version_history#model_group_version_history_id DataOciDatascienceModelGroupVersionHistory#model_group_version_history_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_model_group_version_history#model_group_version_history_id DataOciDatascienceModelGroupVersionHistory#model_group_version_history_id}.</summary>
         [JsiiProperty(name: "modelGroupVersionHistoryId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelGroupVersionHistoryId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datascience_model_group_version_history#model_group_version_history_id DataOciDatascienceModelGroupVersionHistory#model_group_version_history_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_model_group_version_history#model_group_version_history_id DataOciDatascienceModelGroupVersionHistory#model_group_version_history_id}.</summary>
             [JsiiProperty(name: "modelGroupVersionHistoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelGroupVersionHistoryId
             {

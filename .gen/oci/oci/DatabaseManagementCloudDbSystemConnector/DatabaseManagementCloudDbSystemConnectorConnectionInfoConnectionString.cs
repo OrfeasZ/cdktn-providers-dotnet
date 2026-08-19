@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystemConnector.DatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionString")]
     public class DatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionString : oci.DatabaseManagementCloudDbSystemConnector.IDatabaseManagementCloudDbSystemConnectorConnectionInfoConnectionString
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#host_name DatabaseManagementCloudDbSystemConnector#host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_connector#host_name DatabaseManagementCloudDbSystemConnector#host_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostName
@@ -16,7 +16,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#hosts DatabaseManagementCloudDbSystemConnector#hosts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_connector#hosts DatabaseManagementCloudDbSystemConnector#hosts}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hosts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Hosts
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#port DatabaseManagementCloudDbSystemConnector#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_connector#port DatabaseManagementCloudDbSystemConnector#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -34,7 +34,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#protocol DatabaseManagementCloudDbSystemConnector#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_connector#protocol DatabaseManagementCloudDbSystemConnector#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -43,7 +43,7 @@ namespace oci.DatabaseManagementCloudDbSystemConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_db_system_connector#service DatabaseManagementCloudDbSystemConnector#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_connector#service DatabaseManagementCloudDbSystemConnector#service}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Service

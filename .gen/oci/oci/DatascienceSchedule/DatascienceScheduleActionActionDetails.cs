@@ -9,7 +9,7 @@ namespace oci.DatascienceSchedule
     [JsiiByValue(fqn: "oci.datascienceSchedule.DatascienceScheduleActionActionDetails")]
     public class DatascienceScheduleActionActionDetails : oci.DatascienceSchedule.IDatascienceScheduleActionActionDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#http_action_type DatascienceSchedule#http_action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#http_action_type DatascienceSchedule#http_action_type}.</summary>
         [JsiiProperty(name: "httpActionType", typeJson: "{\"primitive\":\"string\"}")]
         public string HttpActionType
         {
@@ -19,7 +19,7 @@ namespace oci.DatascienceSchedule
 
         /// <summary>create_job_run_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#create_job_run_details DatascienceSchedule#create_job_run_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#create_job_run_details DatascienceSchedule#create_job_run_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createJobRunDetails", typeJson: "{\"fqn\":\"oci.datascienceSchedule.DatascienceScheduleActionActionDetailsCreateJobRunDetails\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.DatascienceSchedule
 
         /// <summary>create_pipeline_run_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#create_pipeline_run_details DatascienceSchedule#create_pipeline_run_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#create_pipeline_run_details DatascienceSchedule#create_pipeline_run_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createPipelineRunDetails", typeJson: "{\"fqn\":\"oci.datascienceSchedule.DatascienceScheduleActionActionDetailsCreatePipelineRunDetails\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace oci.DatascienceSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#ml_application_instance_view_id DatascienceSchedule#ml_application_instance_view_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#ml_application_instance_view_id DatascienceSchedule#ml_application_instance_view_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mlApplicationInstanceViewId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MlApplicationInstanceViewId
@@ -52,7 +52,7 @@ namespace oci.DatascienceSchedule
 
         /// <summary>trigger_ml_application_instance_view_flow_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#trigger_ml_application_instance_view_flow_details DatascienceSchedule#trigger_ml_application_instance_view_flow_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#trigger_ml_application_instance_view_flow_details DatascienceSchedule#trigger_ml_application_instance_view_flow_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "triggerMlApplicationInstanceViewFlowDetails", typeJson: "{\"fqn\":\"oci.datascienceSchedule.DatascienceScheduleActionActionDetailsTriggerMlApplicationInstanceViewFlowDetails\"}", isOptional: true)]

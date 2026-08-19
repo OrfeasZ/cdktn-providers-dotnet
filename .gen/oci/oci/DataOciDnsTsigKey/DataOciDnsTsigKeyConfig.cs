@@ -9,7 +9,7 @@ namespace oci.DataOciDnsTsigKey
     [JsiiByValue(fqn: "oci.dataOciDnsTsigKey.DataOciDnsTsigKeyConfig")]
     public class DataOciDnsTsigKeyConfig : oci.DataOciDnsTsigKey.IDataOciDnsTsigKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dns_tsig_key#tsig_key_id DataOciDnsTsigKey#tsig_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dns_tsig_key#tsig_key_id DataOciDnsTsigKey#tsig_key_id}.</summary>
         [JsiiProperty(name: "tsigKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string TsigKeyId
         {

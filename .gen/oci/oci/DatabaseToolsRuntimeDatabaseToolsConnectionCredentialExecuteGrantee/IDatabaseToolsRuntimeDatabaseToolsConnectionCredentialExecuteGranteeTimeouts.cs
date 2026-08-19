@@ -7,7 +7,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
     [JsiiInterface(nativeType: typeof(IDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteeTimeouts), fullyQualifiedName: "oci.databaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteeTimeouts")]
     public interface IDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#create DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#create DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#delete DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#delete DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#update DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#update DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#create DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#create DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#delete DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#delete DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#update DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#update DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

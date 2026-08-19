@@ -7,7 +7,7 @@ namespace oci.DataOciAiDocumentProcessorJob
     [JsiiInterface(nativeType: typeof(IDataOciAiDocumentProcessorJobConfig), fullyQualifiedName: "oci.dataOciAiDocumentProcessorJob.DataOciAiDocumentProcessorJobConfig")]
     public interface IDataOciAiDocumentProcessorJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_document_processor_job#processor_job_id DataOciAiDocumentProcessorJob#processor_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_document_processor_job#processor_job_id DataOciAiDocumentProcessorJob#processor_job_id}.</summary>
         [JsiiProperty(name: "processorJobId", typeJson: "{\"primitive\":\"string\"}")]
         string ProcessorJobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiDocumentProcessorJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_document_processor_job#processor_job_id DataOciAiDocumentProcessorJob#processor_job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_document_processor_job#processor_job_id DataOciAiDocumentProcessorJob#processor_job_id}.</summary>
             [JsiiProperty(name: "processorJobId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProcessorJobId
             {

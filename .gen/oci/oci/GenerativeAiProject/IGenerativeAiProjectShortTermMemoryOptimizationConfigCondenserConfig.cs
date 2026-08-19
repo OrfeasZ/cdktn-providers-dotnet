@@ -9,7 +9,7 @@ namespace oci.GenerativeAiProject
     {
         /// <summary>llm_selection block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_project#llm_selection GenerativeAiProject#llm_selection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_project#llm_selection GenerativeAiProject#llm_selection}
         /// </remarks>
         [JsiiProperty(name: "llmSelection", typeJson: "{\"fqn\":\"oci.generativeAiProject.GenerativeAiProjectShortTermMemoryOptimizationConfigCondenserConfigLlmSelection\"}")]
         oci.GenerativeAiProject.IGenerativeAiProjectShortTermMemoryOptimizationConfigCondenserConfigLlmSelection LlmSelection
@@ -26,7 +26,7 @@ namespace oci.GenerativeAiProject
 
             /// <summary>llm_selection block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/generative_ai_project#llm_selection GenerativeAiProject#llm_selection}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_project#llm_selection GenerativeAiProject#llm_selection}
             /// </remarks>
             [JsiiProperty(name: "llmSelection", typeJson: "{\"fqn\":\"oci.generativeAiProject.GenerativeAiProjectShortTermMemoryOptimizationConfigCondenserConfigLlmSelection\"}")]
             public oci.GenerativeAiProject.IGenerativeAiProjectShortTermMemoryOptimizationConfigCondenserConfigLlmSelection LlmSelection

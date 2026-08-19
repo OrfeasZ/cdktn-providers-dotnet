@@ -9,7 +9,7 @@ namespace oci.OcvpByol
     [JsiiByValue(fqn: "oci.ocvpByol.OcvpByolConfig")]
     public class OcvpByolConfig : oci.OcvpByol.IOcvpByolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#compartment_id OcvpByol#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#compartment_id OcvpByol#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#display_name OcvpByol#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#display_name OcvpByol#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#entitlement_key OcvpByol#entitlement_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#entitlement_key OcvpByol#entitlement_key}.</summary>
         [JsiiProperty(name: "entitlementKey", typeJson: "{\"primitive\":\"string\"}")]
         public string EntitlementKey
         {
@@ -33,7 +33,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#software_type OcvpByol#software_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#software_type OcvpByol#software_type}.</summary>
         [JsiiProperty(name: "softwareType", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareType
         {
@@ -41,7 +41,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#time_term_end OcvpByol#time_term_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#time_term_end OcvpByol#time_term_end}.</summary>
         [JsiiProperty(name: "timeTermEnd", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeTermEnd
         {
@@ -49,7 +49,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#time_term_start OcvpByol#time_term_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#time_term_start OcvpByol#time_term_start}.</summary>
         [JsiiProperty(name: "timeTermStart", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeTermStart
         {
@@ -57,7 +57,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#total_units OcvpByol#total_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#total_units OcvpByol#total_units}.</summary>
         [JsiiProperty(name: "totalUnits", typeJson: "{\"primitive\":\"number\"}")]
         public double TotalUnits
         {
@@ -65,7 +65,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#defined_tags OcvpByol#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#defined_tags OcvpByol#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -74,7 +74,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#description OcvpByol#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#description OcvpByol#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -83,7 +83,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#freeform_tags OcvpByol#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#freeform_tags OcvpByol#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -92,7 +92,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#id OcvpByol#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#id OcvpByol#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace oci.OcvpByol
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#site_id OcvpByol#site_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#site_id OcvpByol#site_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SiteId
@@ -116,7 +116,7 @@ namespace oci.OcvpByol
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ocvp_byol#timeouts OcvpByol#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_byol#timeouts OcvpByol#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpByol.OcvpByolTimeouts\"}", isOptional: true)]

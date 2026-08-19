@@ -153,6 +153,12 @@ namespace oci.DatabaseDbHome
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRecoveryApplianceVpcPassword")]
+        public virtual void ResetRecoveryApplianceVpcPassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetStorageSizeDetails")]
         public virtual void ResetStorageSizeDetails()
         {
@@ -376,6 +382,13 @@ namespace oci.DatabaseDbHome
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "recoveryApplianceVpcPasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RecoveryApplianceVpcPasswordInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "storageSizeDetailsInput", typeJson: "{\"fqn\":\"oci.databaseDbHome.DatabaseDbHomeDatabaseStorageSizeDetails\"}", isOptional: true)]
         public virtual oci.DatabaseDbHome.IDatabaseDbHomeDatabaseStorageSizeDetails? StorageSizeDetailsInput
         {
@@ -519,6 +532,13 @@ namespace oci.DatabaseDbHome
         public virtual string[] PluggableDatabases
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "recoveryApplianceVpcPassword", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RecoveryApplianceVpcPassword
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

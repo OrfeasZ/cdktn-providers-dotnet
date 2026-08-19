@@ -9,7 +9,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
     [JsiiByValue(fqn: "oci.iotDigitalTwinInstanceInvokeRawCommand.IotDigitalTwinInstanceInvokeRawCommandConfig")]
     public class IotDigitalTwinInstanceInvokeRawCommandConfig : oci.IotDigitalTwinInstanceInvokeRawCommand.IIotDigitalTwinInstanceInvokeRawCommandConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#digital_twin_instance_id IotDigitalTwinInstanceInvokeRawCommand#digital_twin_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#digital_twin_instance_id IotDigitalTwinInstanceInvokeRawCommand#digital_twin_instance_id}.</summary>
         [JsiiProperty(name: "digitalTwinInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DigitalTwinInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_data_format IotDigitalTwinInstanceInvokeRawCommand#request_data_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_data_format IotDigitalTwinInstanceInvokeRawCommand#request_data_format}.</summary>
         [JsiiProperty(name: "requestDataFormat", typeJson: "{\"primitive\":\"string\"}")]
         public string RequestDataFormat
         {
@@ -25,7 +25,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_endpoint IotDigitalTwinInstanceInvokeRawCommand#request_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_endpoint IotDigitalTwinInstanceInvokeRawCommand#request_endpoint}.</summary>
         [JsiiProperty(name: "requestEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string RequestEndpoint
         {
@@ -33,7 +33,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#id IotDigitalTwinInstanceInvokeRawCommand#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#id IotDigitalTwinInstanceInvokeRawCommand#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_data IotDigitalTwinInstanceInvokeRawCommand#request_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_data IotDigitalTwinInstanceInvokeRawCommand#request_data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestData
@@ -55,7 +55,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_data_content_type IotDigitalTwinInstanceInvokeRawCommand#request_data_content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_data_content_type IotDigitalTwinInstanceInvokeRawCommand#request_data_content_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestDataContentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestDataContentType
@@ -64,7 +64,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_duration IotDigitalTwinInstanceInvokeRawCommand#request_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#request_duration IotDigitalTwinInstanceInvokeRawCommand#request_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestDuration
@@ -73,7 +73,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#response_duration IotDigitalTwinInstanceInvokeRawCommand#response_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#response_duration IotDigitalTwinInstanceInvokeRawCommand#response_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responseDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResponseDuration
@@ -82,7 +82,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#response_endpoint IotDigitalTwinInstanceInvokeRawCommand#response_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#response_endpoint IotDigitalTwinInstanceInvokeRawCommand#response_endpoint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responseEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResponseEndpoint
@@ -93,7 +93,7 @@ namespace oci.IotDigitalTwinInstanceInvokeRawCommand
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#timeouts IotDigitalTwinInstanceInvokeRawCommand#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/iot_digital_twin_instance_invoke_raw_command#timeouts IotDigitalTwinInstanceInvokeRawCommand#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotDigitalTwinInstanceInvokeRawCommand.IotDigitalTwinInstanceInvokeRawCommandTimeouts\"}", isOptional: true)]

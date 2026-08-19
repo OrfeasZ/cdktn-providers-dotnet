@@ -5,7 +5,7 @@ namespace oci.DataOciCoreVolumeAttachments
     /// <remarks>
     /// <h1><c>data_oci_core_volume_attachments</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_volume_attachments"><c>data_oci_core_volume_attachments</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_volume_attachments"><c>data_oci_core_volume_attachments</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

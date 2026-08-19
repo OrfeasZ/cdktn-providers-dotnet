@@ -9,7 +9,7 @@ namespace oci.DataOciOpensearchOpensearchVersions
     [JsiiByValue(fqn: "oci.dataOciOpensearchOpensearchVersions.DataOciOpensearchOpensearchVersionsFilter")]
     public class DataOciOpensearchOpensearchVersionsFilter : oci.DataOciOpensearchOpensearchVersions.IDataOciOpensearchOpensearchVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opensearch_opensearch_versions#name DataOciOpensearchOpensearchVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opensearch_opensearch_versions#name DataOciOpensearchOpensearchVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOpensearchOpensearchVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opensearch_opensearch_versions#values DataOciOpensearchOpensearchVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opensearch_opensearch_versions#values DataOciOpensearchOpensearchVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciOpensearchOpensearchVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/opensearch_opensearch_versions#regex DataOciOpensearchOpensearchVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opensearch_opensearch_versions#regex DataOciOpensearchOpensearchVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

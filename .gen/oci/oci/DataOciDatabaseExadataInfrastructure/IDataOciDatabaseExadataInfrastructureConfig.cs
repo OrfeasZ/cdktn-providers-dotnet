@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseExadataInfrastructure
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseExadataInfrastructureConfig), fullyQualifiedName: "oci.dataOciDatabaseExadataInfrastructure.DataOciDatabaseExadataInfrastructureConfig")]
     public interface IDataOciDatabaseExadataInfrastructureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exadata_infrastructure#exadata_infrastructure_id DataOciDatabaseExadataInfrastructure#exadata_infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exadata_infrastructure#exadata_infrastructure_id DataOciDatabaseExadataInfrastructure#exadata_infrastructure_id}.</summary>
         [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string ExadataInfrastructureId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseExadataInfrastructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_exadata_infrastructure#exadata_infrastructure_id DataOciDatabaseExadataInfrastructure#exadata_infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exadata_infrastructure#exadata_infrastructure_id DataOciDatabaseExadataInfrastructure#exadata_infrastructure_id}.</summary>
             [JsiiProperty(name: "exadataInfrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExadataInfrastructureId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciFileStorageReplication
     [JsiiByValue(fqn: "oci.dataOciFileStorageReplication.DataOciFileStorageReplicationConfig")]
     public class DataOciFileStorageReplicationConfig : oci.DataOciFileStorageReplication.IDataOciFileStorageReplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/file_storage_replication#replication_id DataOciFileStorageReplication#replication_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/file_storage_replication#replication_id DataOciFileStorageReplication#replication_id}.</summary>
         [JsiiProperty(name: "replicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ReplicationId
         {

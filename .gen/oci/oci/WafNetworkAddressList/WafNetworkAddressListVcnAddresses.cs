@@ -7,7 +7,7 @@ namespace oci.WafNetworkAddressList
     [JsiiByValue(fqn: "oci.wafNetworkAddressList.WafNetworkAddressListVcnAddresses")]
     public class WafNetworkAddressListVcnAddresses : oci.WafNetworkAddressList.IWafNetworkAddressListVcnAddresses
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_network_address_list#addresses WafNetworkAddressList#addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/waf_network_address_list#addresses WafNetworkAddressList#addresses}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addresses", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Addresses
@@ -16,7 +16,7 @@ namespace oci.WafNetworkAddressList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/waf_network_address_list#vcn_id WafNetworkAddressList#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/waf_network_address_list#vcn_id WafNetworkAddressList#vcn_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VcnId

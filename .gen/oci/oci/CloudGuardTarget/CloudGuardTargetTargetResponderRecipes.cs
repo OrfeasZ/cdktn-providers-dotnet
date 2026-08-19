@@ -9,7 +9,7 @@ namespace oci.CloudGuardTarget
     [JsiiByValue(fqn: "oci.cloudGuardTarget.CloudGuardTargetTargetResponderRecipes")]
     public class CloudGuardTargetTargetResponderRecipes : oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_target#responder_recipe_id CloudGuardTarget#responder_recipe_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/cloud_guard_target#responder_recipe_id CloudGuardTarget#responder_recipe_id}.</summary>
         [JsiiProperty(name: "responderRecipeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResponderRecipeId
         {
@@ -21,7 +21,7 @@ namespace oci.CloudGuardTarget
 
         /// <summary>responder_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/cloud_guard_target#responder_rules CloudGuardTarget#responder_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/cloud_guard_target#responder_rules CloudGuardTarget#responder_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CloudGuardTarget.ICloudGuardTargetTargetResponderRecipesResponderRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

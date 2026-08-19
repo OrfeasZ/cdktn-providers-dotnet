@@ -9,7 +9,7 @@ namespace oci.DataOciVaultSecretVersion
     [JsiiByValue(fqn: "oci.dataOciVaultSecretVersion.DataOciVaultSecretVersionConfig")]
     public class DataOciVaultSecretVersionConfig : oci.DataOciVaultSecretVersion.IDataOciVaultSecretVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/vault_secret_version#secret_id DataOciVaultSecretVersion#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/vault_secret_version#secret_id DataOciVaultSecretVersion#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciVaultSecretVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/vault_secret_version#secret_version_number DataOciVaultSecretVersion#secret_version_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/vault_secret_version#secret_version_number DataOciVaultSecretVersion#secret_version_number}.</summary>
         [JsiiProperty(name: "secretVersionNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretVersionNumber
         {

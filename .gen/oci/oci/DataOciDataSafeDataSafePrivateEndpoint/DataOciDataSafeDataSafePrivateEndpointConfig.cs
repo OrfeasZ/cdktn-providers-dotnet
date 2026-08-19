@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeDataSafePrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciDataSafeDataSafePrivateEndpoint.DataOciDataSafeDataSafePrivateEndpointConfig")]
     public class DataOciDataSafeDataSafePrivateEndpointConfig : oci.DataOciDataSafeDataSafePrivateEndpoint.IDataOciDataSafeDataSafePrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_data_safe_private_endpoint#data_safe_private_endpoint_id DataOciDataSafeDataSafePrivateEndpoint#data_safe_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_data_safe_private_endpoint#data_safe_private_endpoint_id DataOciDataSafeDataSafePrivateEndpoint#data_safe_private_endpoint_id}.</summary>
         [JsiiProperty(name: "dataSafePrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataSafePrivateEndpointId
         {

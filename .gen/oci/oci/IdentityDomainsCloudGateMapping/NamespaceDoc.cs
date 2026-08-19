@@ -5,7 +5,7 @@ namespace oci.IdentityDomainsCloudGateMapping
     /// <remarks>
     /// <h1><c>oci_identity_domains_cloud_gate_mapping</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_cloud_gate_mapping"><c>oci_identity_domains_cloud_gate_mapping</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_cloud_gate_mapping"><c>oci_identity_domains_cloud_gate_mapping</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

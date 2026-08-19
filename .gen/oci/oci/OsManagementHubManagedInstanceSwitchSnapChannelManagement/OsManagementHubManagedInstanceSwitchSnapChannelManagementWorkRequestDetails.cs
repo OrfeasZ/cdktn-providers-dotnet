@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement
     [JsiiByValue(fqn: "oci.osManagementHubManagedInstanceSwitchSnapChannelManagement.OsManagementHubManagedInstanceSwitchSnapChannelManagementWorkRequestDetails")]
     public class OsManagementHubManagedInstanceSwitchSnapChannelManagementWorkRequestDetails : oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement.IOsManagementHubManagedInstanceSwitchSnapChannelManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#description OsManagementHubManagedInstanceSwitchSnapChannelManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#description OsManagementHubManagedInstanceSwitchSnapChannelManagement#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubManagedInstanceSwitchSnapChannelManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#display_name OsManagementHubManagedInstanceSwitchSnapChannelManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_managed_instance_switch_snap_channel_management#display_name OsManagementHubManagedInstanceSwitchSnapChannelManagement#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName

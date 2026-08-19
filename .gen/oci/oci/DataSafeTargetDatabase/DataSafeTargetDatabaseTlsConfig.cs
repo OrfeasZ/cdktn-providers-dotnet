@@ -9,7 +9,7 @@ namespace oci.DataSafeTargetDatabase
     [JsiiByValue(fqn: "oci.dataSafeTargetDatabase.DataSafeTargetDatabaseTlsConfig")]
     public class DataSafeTargetDatabaseTlsConfig : oci.DataSafeTargetDatabase.IDataSafeTargetDatabaseTlsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_target_database#status DataSafeTargetDatabase#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_target_database#status DataSafeTargetDatabase#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeTargetDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_target_database#certificate_store_type DataSafeTargetDatabase#certificate_store_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_target_database#certificate_store_type DataSafeTargetDatabase#certificate_store_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateStoreType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateStoreType
@@ -26,7 +26,7 @@ namespace oci.DataSafeTargetDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_target_database#key_store_content DataSafeTargetDatabase#key_store_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_target_database#key_store_content DataSafeTargetDatabase#key_store_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyStoreContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyStoreContent
@@ -35,7 +35,7 @@ namespace oci.DataSafeTargetDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_target_database#store_password DataSafeTargetDatabase#store_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_target_database#store_password DataSafeTargetDatabase#store_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorePassword
@@ -44,7 +44,7 @@ namespace oci.DataSafeTargetDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_target_database#trust_store_content DataSafeTargetDatabase#trust_store_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_target_database#trust_store_content DataSafeTargetDatabase#trust_store_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trustStoreContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TrustStoreContent

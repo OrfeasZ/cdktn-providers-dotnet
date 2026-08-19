@@ -7,7 +7,7 @@ namespace oci.DataOciDdfsInstance
     [JsiiInterface(nativeType: typeof(IDataOciDdfsInstanceConfig), fullyQualifiedName: "oci.dataOciDdfsInstance.DataOciDdfsInstanceConfig")]
     public interface IDataOciDdfsInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ddfs_instance#instance_id DataOciDdfsInstance#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ddfs_instance#instance_id DataOciDdfsInstance#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDdfsInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ddfs_instance#instance_id DataOciDdfsInstance#instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ddfs_instance#instance_id DataOciDdfsInstance#instance_id}.</summary>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
             {

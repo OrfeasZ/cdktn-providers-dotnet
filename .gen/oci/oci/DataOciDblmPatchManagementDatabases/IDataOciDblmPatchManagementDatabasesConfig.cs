@@ -7,7 +7,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
     [JsiiInterface(nativeType: typeof(IDataOciDblmPatchManagementDatabasesConfig), fullyQualifiedName: "oci.dataOciDblmPatchManagementDatabases.DataOciDblmPatchManagementDatabasesConfig")]
     public interface IDataOciDblmPatchManagementDatabasesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#compartment_id DataOciDblmPatchManagementDatabases#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#compartment_id DataOciDblmPatchManagementDatabases#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#database_release DataOciDblmPatchManagementDatabases#database_release}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#database_release DataOciDblmPatchManagementDatabases#database_release}.</summary>
         [JsiiProperty(name: "databaseRelease", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseRelease
@@ -29,7 +29,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#database_type DataOciDblmPatchManagementDatabases#database_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#database_type DataOciDblmPatchManagementDatabases#database_type}.</summary>
         [JsiiProperty(name: "databaseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseType
@@ -40,7 +40,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#display_name DataOciDblmPatchManagementDatabases#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#display_name DataOciDblmPatchManagementDatabases#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -51,7 +51,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#drifter_patch_id DataOciDblmPatchManagementDatabases#drifter_patch_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#drifter_patch_id DataOciDblmPatchManagementDatabases#drifter_patch_id}.</summary>
         [JsiiProperty(name: "drifterPatchId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DrifterPatchId
@@ -64,7 +64,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#filter DataOciDblmPatchManagementDatabases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#filter DataOciDblmPatchManagementDatabases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDblmPatchManagementDatabases.IDataOciDblmPatchManagementDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDblmPatchManagementDatabases.DataOciDblmPatchManagementDatabasesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#id DataOciDblmPatchManagementDatabases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#id DataOciDblmPatchManagementDatabases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#image_compliance DataOciDblmPatchManagementDatabases#image_compliance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#image_compliance DataOciDblmPatchManagementDatabases#image_compliance}.</summary>
         [JsiiProperty(name: "imageCompliance", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageCompliance
@@ -103,7 +103,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#image_id DataOciDblmPatchManagementDatabases#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#image_id DataOciDblmPatchManagementDatabases#image_id}.</summary>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageId
@@ -114,7 +114,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#severity_type DataOciDblmPatchManagementDatabases#severity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#severity_type DataOciDblmPatchManagementDatabases#severity_type}.</summary>
         [JsiiProperty(name: "severityType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SeverityType
@@ -125,7 +125,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#state DataOciDblmPatchManagementDatabases#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#state DataOciDblmPatchManagementDatabases#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -143,7 +143,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#compartment_id DataOciDblmPatchManagementDatabases#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#compartment_id DataOciDblmPatchManagementDatabases#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -151,7 +151,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#database_release DataOciDblmPatchManagementDatabases#database_release}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#database_release DataOciDblmPatchManagementDatabases#database_release}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseRelease", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseRelease
@@ -159,7 +159,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#database_type DataOciDblmPatchManagementDatabases#database_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#database_type DataOciDblmPatchManagementDatabases#database_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseType
@@ -167,7 +167,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#display_name DataOciDblmPatchManagementDatabases#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#display_name DataOciDblmPatchManagementDatabases#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -175,7 +175,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#drifter_patch_id DataOciDblmPatchManagementDatabases#drifter_patch_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#drifter_patch_id DataOciDblmPatchManagementDatabases#drifter_patch_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "drifterPatchId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DrifterPatchId
@@ -185,7 +185,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#filter DataOciDblmPatchManagementDatabases#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#filter DataOciDblmPatchManagementDatabases#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDblmPatchManagementDatabases.IDataOciDblmPatchManagementDatabasesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -195,7 +195,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#id DataOciDblmPatchManagementDatabases#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#id DataOciDblmPatchManagementDatabases#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -207,7 +207,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#image_compliance DataOciDblmPatchManagementDatabases#image_compliance}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#image_compliance DataOciDblmPatchManagementDatabases#image_compliance}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageCompliance", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageCompliance
@@ -215,7 +215,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#image_id DataOciDblmPatchManagementDatabases#image_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#image_id DataOciDblmPatchManagementDatabases#image_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageId
@@ -223,7 +223,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#severity_type DataOciDblmPatchManagementDatabases#severity_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#severity_type DataOciDblmPatchManagementDatabases#severity_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "severityType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SeverityType
@@ -231,7 +231,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/dblm_patch_management_databases#state DataOciDblmPatchManagementDatabases#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dblm_patch_management_databases#state DataOciDblmPatchManagementDatabases#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

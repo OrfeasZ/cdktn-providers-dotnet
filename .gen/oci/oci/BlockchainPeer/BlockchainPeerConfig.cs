@@ -9,7 +9,7 @@ namespace oci.BlockchainPeer
     [JsiiByValue(fqn: "oci.blockchainPeer.BlockchainPeerConfig")]
     public class BlockchainPeerConfig : oci.BlockchainPeer.IBlockchainPeerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#ad BlockchainPeer#ad}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#ad BlockchainPeer#ad}.</summary>
         [JsiiProperty(name: "ad", typeJson: "{\"primitive\":\"string\"}")]
         public string Ad
         {
@@ -17,7 +17,7 @@ namespace oci.BlockchainPeer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#blockchain_platform_id BlockchainPeer#blockchain_platform_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#blockchain_platform_id BlockchainPeer#blockchain_platform_id}.</summary>
         [JsiiProperty(name: "blockchainPlatformId", typeJson: "{\"primitive\":\"string\"}")]
         public string BlockchainPlatformId
         {
@@ -27,7 +27,7 @@ namespace oci.BlockchainPeer
 
         /// <summary>ocpu_allocation_param block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#ocpu_allocation_param BlockchainPeer#ocpu_allocation_param}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#ocpu_allocation_param BlockchainPeer#ocpu_allocation_param}
         /// </remarks>
         [JsiiProperty(name: "ocpuAllocationParam", typeJson: "{\"fqn\":\"oci.blockchainPeer.BlockchainPeerOcpuAllocationParam\"}")]
         public oci.BlockchainPeer.IBlockchainPeerOcpuAllocationParam OcpuAllocationParam
@@ -36,7 +36,7 @@ namespace oci.BlockchainPeer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#role BlockchainPeer#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#role BlockchainPeer#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -44,7 +44,7 @@ namespace oci.BlockchainPeer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#alias BlockchainPeer#alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#alias BlockchainPeer#alias}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Alias
@@ -53,7 +53,7 @@ namespace oci.BlockchainPeer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#id BlockchainPeer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#id BlockchainPeer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace oci.BlockchainPeer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/blockchain_peer#timeouts BlockchainPeer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/blockchain_peer#timeouts BlockchainPeer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.blockchainPeer.BlockchainPeerTimeouts\"}", isOptional: true)]

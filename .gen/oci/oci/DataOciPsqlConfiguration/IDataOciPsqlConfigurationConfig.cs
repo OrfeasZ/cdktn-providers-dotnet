@@ -7,7 +7,7 @@ namespace oci.DataOciPsqlConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciPsqlConfigurationConfig), fullyQualifiedName: "oci.dataOciPsqlConfiguration.DataOciPsqlConfigurationConfig")]
     public interface IDataOciPsqlConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psql_configuration#configuration_id DataOciPsqlConfiguration#configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/psql_configuration#configuration_id DataOciPsqlConfiguration#configuration_id}.</summary>
         [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciPsqlConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/psql_configuration#configuration_id DataOciPsqlConfiguration#configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/psql_configuration#configuration_id DataOciPsqlConfiguration#configuration_id}.</summary>
             [JsiiProperty(name: "configurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigurationId
             {

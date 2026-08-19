@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsRule
     [JsiiByValue(fqn: "oci.identityDomainsRule.IdentityDomainsRulePolicyType")]
     public class IdentityDomainsRulePolicyType : oci.IdentityDomainsRule.IIdentityDomainsRulePolicyType
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/identity_domains_rule#value IdentityDomainsRule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_rule#value IdentityDomainsRule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

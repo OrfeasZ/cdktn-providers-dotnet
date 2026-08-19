@@ -9,7 +9,7 @@ namespace oci.DataOciObjectstorageObject
     [JsiiByValue(fqn: "oci.dataOciObjectstorageObject.DataOciObjectstorageObjectConfig")]
     public class DataOciObjectstorageObjectConfig : oci.DataOciObjectstorageObject.IDataOciObjectstorageObjectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#bucket DataOciObjectstorageObject#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#bucket DataOciObjectstorageObject#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#namespace DataOciObjectstorageObject#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#namespace DataOciObjectstorageObject#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#object DataOciObjectstorageObject#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#object DataOciObjectstorageObject#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}")]
         public string Object
         {
@@ -35,7 +35,7 @@ namespace oci.DataOciObjectstorageObject
 
         private object? _base64EncodeContent;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#base64_encode_content DataOciObjectstorageObject#base64_encode_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#base64_encode_content DataOciObjectstorageObject#base64_encode_content}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -67,7 +67,7 @@ namespace oci.DataOciObjectstorageObject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#content_length_limit DataOciObjectstorageObject#content_length_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#content_length_limit DataOciObjectstorageObject#content_length_limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentLengthLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ContentLengthLimit
@@ -76,7 +76,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#http_response_cache_control DataOciObjectstorageObject#http_response_cache_control}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#http_response_cache_control DataOciObjectstorageObject#http_response_cache_control}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpResponseCacheControl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpResponseCacheControl
@@ -85,7 +85,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#http_response_content_disposition DataOciObjectstorageObject#http_response_content_disposition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#http_response_content_disposition DataOciObjectstorageObject#http_response_content_disposition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpResponseContentDisposition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpResponseContentDisposition
@@ -94,7 +94,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#http_response_content_encoding DataOciObjectstorageObject#http_response_content_encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#http_response_content_encoding DataOciObjectstorageObject#http_response_content_encoding}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpResponseContentEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpResponseContentEncoding
@@ -103,7 +103,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#http_response_content_language DataOciObjectstorageObject#http_response_content_language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#http_response_content_language DataOciObjectstorageObject#http_response_content_language}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpResponseContentLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpResponseContentLanguage
@@ -112,7 +112,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#http_response_content_type DataOciObjectstorageObject#http_response_content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#http_response_content_type DataOciObjectstorageObject#http_response_content_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpResponseContentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpResponseContentType
@@ -121,7 +121,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#http_response_expires DataOciObjectstorageObject#http_response_expires}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#http_response_expires DataOciObjectstorageObject#http_response_expires}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpResponseExpires", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HttpResponseExpires
@@ -130,7 +130,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#id DataOciObjectstorageObject#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#id DataOciObjectstorageObject#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,7 +143,7 @@ namespace oci.DataOciObjectstorageObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/objectstorage_object#version_id DataOciObjectstorageObject#version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/objectstorage_object#version_id DataOciObjectstorageObject#version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "versionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VersionId

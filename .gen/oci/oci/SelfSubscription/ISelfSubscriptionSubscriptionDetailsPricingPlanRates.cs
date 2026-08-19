@@ -7,14 +7,14 @@ namespace oci.SelfSubscription
     [JsiiInterface(nativeType: typeof(ISelfSubscriptionSubscriptionDetailsPricingPlanRates), fullyQualifiedName: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanRates")]
     public interface ISelfSubscriptionSubscriptionDetailsPricingPlanRates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         string Currency
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/self_subscription#rate SelfSubscription#rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#rate SelfSubscription#rate}.</summary>
         [JsiiProperty(name: "rate", typeJson: "{\"primitive\":\"number\"}")]
         double Rate
         {
@@ -28,14 +28,14 @@ namespace oci.SelfSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
             public string Currency
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/self_subscription#rate SelfSubscription#rate}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#rate SelfSubscription#rate}.</summary>
             [JsiiProperty(name: "rate", typeJson: "{\"primitive\":\"number\"}")]
             public double Rate
             {

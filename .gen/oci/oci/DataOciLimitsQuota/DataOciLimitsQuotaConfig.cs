@@ -9,7 +9,7 @@ namespace oci.DataOciLimitsQuota
     [JsiiByValue(fqn: "oci.dataOciLimitsQuota.DataOciLimitsQuotaConfig")]
     public class DataOciLimitsQuotaConfig : oci.DataOciLimitsQuota.IDataOciLimitsQuotaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/limits_quota#quota_id DataOciLimitsQuota#quota_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/limits_quota#quota_id DataOciLimitsQuota#quota_id}.</summary>
         [JsiiProperty(name: "quotaId", typeJson: "{\"primitive\":\"string\"}")]
         public string QuotaId
         {

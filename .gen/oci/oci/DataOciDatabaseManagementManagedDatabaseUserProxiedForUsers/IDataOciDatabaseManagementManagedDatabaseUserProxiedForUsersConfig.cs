@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementManagedDatabaseUserProxiedForUsersConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementManagedDatabaseUserProxiedForUsers.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsersConfig")]
     public interface IDataOciDatabaseManagementManagedDatabaseUserProxiedForUsersConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#managed_database_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#managed_database_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#user_name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#user_name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         string UserName
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#filter DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#filter DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers.IDataOciDatabaseManagementManagedDatabaseUserProxiedForUsersFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementManagedDatabaseUserProxiedForUsers.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -62,7 +62,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#opc_named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#opc_named_credential_id}.</summary>
         [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OpcNamedCredentialId
@@ -80,14 +80,14 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#managed_database_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#managed_database_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#user_name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#user_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#user_name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#user_name}.</summary>
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
             public string UserName
             {
@@ -96,7 +96,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#filter DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#filter DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers.IDataOciDatabaseManagementManagedDatabaseUserProxiedForUsersFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -106,7 +106,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,7 +118,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -126,7 +126,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#opc_named_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#opc_named_credential_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OpcNamedCredentialId

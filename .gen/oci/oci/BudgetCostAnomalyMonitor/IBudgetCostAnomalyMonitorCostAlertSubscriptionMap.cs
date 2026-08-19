@@ -7,7 +7,7 @@ namespace oci.BudgetCostAnomalyMonitor
     [JsiiInterface(nativeType: typeof(IBudgetCostAnomalyMonitorCostAlertSubscriptionMap), fullyQualifiedName: "oci.budgetCostAnomalyMonitor.BudgetCostAnomalyMonitorCostAlertSubscriptionMap")]
     public interface IBudgetCostAnomalyMonitorCostAlertSubscriptionMap
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#cost_alert_subscription_id BudgetCostAnomalyMonitor#cost_alert_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#cost_alert_subscription_id BudgetCostAnomalyMonitor#cost_alert_subscription_id}.</summary>
         [JsiiProperty(name: "costAlertSubscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CostAlertSubscriptionId
@@ -18,7 +18,7 @@ namespace oci.BudgetCostAnomalyMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#operator BudgetCostAnomalyMonitor#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#operator BudgetCostAnomalyMonitor#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Operator
@@ -29,7 +29,7 @@ namespace oci.BudgetCostAnomalyMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#threshold_absolute_value BudgetCostAnomalyMonitor#threshold_absolute_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#threshold_absolute_value BudgetCostAnomalyMonitor#threshold_absolute_value}.</summary>
         [JsiiProperty(name: "thresholdAbsoluteValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ThresholdAbsoluteValue
@@ -40,7 +40,7 @@ namespace oci.BudgetCostAnomalyMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#threshold_relative_percent BudgetCostAnomalyMonitor#threshold_relative_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#threshold_relative_percent BudgetCostAnomalyMonitor#threshold_relative_percent}.</summary>
         [JsiiProperty(name: "thresholdRelativePercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ThresholdRelativePercent
@@ -58,7 +58,7 @@ namespace oci.BudgetCostAnomalyMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#cost_alert_subscription_id BudgetCostAnomalyMonitor#cost_alert_subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#cost_alert_subscription_id BudgetCostAnomalyMonitor#cost_alert_subscription_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "costAlertSubscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CostAlertSubscriptionId
@@ -66,7 +66,7 @@ namespace oci.BudgetCostAnomalyMonitor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#operator BudgetCostAnomalyMonitor#operator}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#operator BudgetCostAnomalyMonitor#operator}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Operator
@@ -74,7 +74,7 @@ namespace oci.BudgetCostAnomalyMonitor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#threshold_absolute_value BudgetCostAnomalyMonitor#threshold_absolute_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#threshold_absolute_value BudgetCostAnomalyMonitor#threshold_absolute_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "thresholdAbsoluteValue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ThresholdAbsoluteValue
@@ -82,7 +82,7 @@ namespace oci.BudgetCostAnomalyMonitor
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/budget_cost_anomaly_monitor#threshold_relative_percent BudgetCostAnomalyMonitor#threshold_relative_percent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/budget_cost_anomaly_monitor#threshold_relative_percent BudgetCostAnomalyMonitor#threshold_relative_percent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "thresholdRelativePercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ThresholdRelativePercent

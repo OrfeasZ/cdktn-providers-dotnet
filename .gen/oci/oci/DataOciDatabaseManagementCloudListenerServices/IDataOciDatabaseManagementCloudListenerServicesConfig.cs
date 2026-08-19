@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudListenerServicesConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudListenerServices.DataOciDatabaseManagementCloudListenerServicesConfig")]
     public interface IDataOciDatabaseManagementCloudListenerServicesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#cloud_listener_id DataOciDatabaseManagementCloudListenerServices#cloud_listener_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#cloud_listener_id DataOciDatabaseManagementCloudListenerServices#cloud_listener_id}.</summary>
         [JsiiProperty(name: "cloudListenerId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudListenerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#managed_database_id DataOciDatabaseManagementCloudListenerServices#managed_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#managed_database_id DataOciDatabaseManagementCloudListenerServices#managed_database_id}.</summary>
         [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedDatabaseId
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#filter DataOciDatabaseManagementCloudListenerServices#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#filter DataOciDatabaseManagementCloudListenerServices#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudListenerServices.IDataOciDatabaseManagementCloudListenerServicesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseManagementCloudListenerServices.DataOciDatabaseManagementCloudListenerServicesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#id DataOciDatabaseManagementCloudListenerServices#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#id DataOciDatabaseManagementCloudListenerServices#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#opc_named_credential_id DataOciDatabaseManagementCloudListenerServices#opc_named_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#opc_named_credential_id DataOciDatabaseManagementCloudListenerServices#opc_named_credential_id}.</summary>
         [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OpcNamedCredentialId
@@ -69,14 +69,14 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#cloud_listener_id DataOciDatabaseManagementCloudListenerServices#cloud_listener_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#cloud_listener_id DataOciDatabaseManagementCloudListenerServices#cloud_listener_id}.</summary>
             [JsiiProperty(name: "cloudListenerId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudListenerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#managed_database_id DataOciDatabaseManagementCloudListenerServices#managed_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#managed_database_id DataOciDatabaseManagementCloudListenerServices#managed_database_id}.</summary>
             [JsiiProperty(name: "managedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedDatabaseId
             {
@@ -85,7 +85,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#filter DataOciDatabaseManagementCloudListenerServices#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#filter DataOciDatabaseManagementCloudListenerServices#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseManagementCloudListenerServices.IDataOciDatabaseManagementCloudListenerServicesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -95,7 +95,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#id DataOciDatabaseManagementCloudListenerServices#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#id DataOciDatabaseManagementCloudListenerServices#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,7 +107,7 @@ namespace oci.DataOciDatabaseManagementCloudListenerServices
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_listener_services#opc_named_credential_id DataOciDatabaseManagementCloudListenerServices#opc_named_credential_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_listener_services#opc_named_credential_id DataOciDatabaseManagementCloudListenerServices#opc_named_credential_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "opcNamedCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OpcNamedCredentialId

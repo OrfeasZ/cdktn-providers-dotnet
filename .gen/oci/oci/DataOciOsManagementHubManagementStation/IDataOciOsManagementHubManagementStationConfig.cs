@@ -7,7 +7,7 @@ namespace oci.DataOciOsManagementHubManagementStation
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubManagementStationConfig), fullyQualifiedName: "oci.dataOciOsManagementHubManagementStation.DataOciOsManagementHubManagementStationConfig")]
     public interface IDataOciOsManagementHubManagementStationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_management_station#management_station_id DataOciOsManagementHubManagementStation#management_station_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_management_station#management_station_id DataOciOsManagementHubManagementStation#management_station_id}.</summary>
         [JsiiProperty(name: "managementStationId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementStationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOsManagementHubManagementStation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_management_station#management_station_id DataOciOsManagementHubManagementStation#management_station_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_management_station#management_station_id DataOciOsManagementHubManagementStation#management_station_id}.</summary>
             [JsiiProperty(name: "managementStationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementStationId
             {

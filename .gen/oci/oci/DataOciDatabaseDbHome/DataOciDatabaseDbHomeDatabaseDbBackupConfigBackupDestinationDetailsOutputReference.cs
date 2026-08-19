@@ -71,6 +71,12 @@ namespace oci.DataOciDatabaseDbHome
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tdeWalletBackupDestination", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDbHome.DataOciDatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestinationList\"}")]
+        public virtual oci.DataOciDatabaseDbHome.DataOciDatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestinationList TdeWalletBackupDestination
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseDbHome.DataOciDatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestinationList>()!;
+        }
+
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {

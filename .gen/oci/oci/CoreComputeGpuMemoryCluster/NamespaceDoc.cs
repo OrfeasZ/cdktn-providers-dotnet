@@ -5,7 +5,7 @@ namespace oci.CoreComputeGpuMemoryCluster
     /// <remarks>
     /// <h1><c>oci_core_compute_gpu_memory_cluster</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_gpu_memory_cluster"><c>oci_core_compute_gpu_memory_cluster</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_gpu_memory_cluster"><c>oci_core_compute_gpu_memory_cluster</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

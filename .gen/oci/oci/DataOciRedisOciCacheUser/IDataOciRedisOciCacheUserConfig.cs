@@ -7,7 +7,7 @@ namespace oci.DataOciRedisOciCacheUser
     [JsiiInterface(nativeType: typeof(IDataOciRedisOciCacheUserConfig), fullyQualifiedName: "oci.dataOciRedisOciCacheUser.DataOciRedisOciCacheUserConfig")]
     public interface IDataOciRedisOciCacheUserConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}.</summary>
         [JsiiProperty(name: "ociCacheUserId", typeJson: "{\"primitive\":\"string\"}")]
         string OciCacheUserId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciRedisOciCacheUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}.</summary>
             [JsiiProperty(name: "ociCacheUserId", typeJson: "{\"primitive\":\"string\"}")]
             public string OciCacheUserId
             {

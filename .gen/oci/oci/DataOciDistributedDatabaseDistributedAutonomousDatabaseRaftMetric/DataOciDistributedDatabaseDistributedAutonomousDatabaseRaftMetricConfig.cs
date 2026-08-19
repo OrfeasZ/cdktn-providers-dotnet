@@ -9,7 +9,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric
     [JsiiByValue(fqn: "oci.dataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric.DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetricConfig")]
     public class DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetricConfig : oci.DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric.IDataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetricConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/distributed_database_distributed_autonomous_database_raft_metric#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric#distributed_autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_database_raft_metric#distributed_autonomous_database_id DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric#distributed_autonomous_database_id}.</summary>
         [JsiiProperty(name: "distributedAutonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string DistributedAutonomousDatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/distributed_database_distributed_autonomous_database_raft_metric#id DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_database_raft_metric#id DataOciDistributedDatabaseDistributedAutonomousDatabaseRaftMetric#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

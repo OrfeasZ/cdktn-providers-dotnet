@@ -9,7 +9,7 @@ namespace oci.MeteringComputationUsage
     [JsiiByValue(fqn: "oci.meteringComputationUsage.MeteringComputationUsageForecast")]
     public class MeteringComputationUsageForecast : oci.MeteringComputationUsage.IMeteringComputationUsageForecast
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/metering_computation_usage#time_forecast_ended MeteringComputationUsage#time_forecast_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_usage#time_forecast_ended MeteringComputationUsage#time_forecast_ended}.</summary>
         [JsiiProperty(name: "timeForecastEnded", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeForecastEnded
         {
@@ -17,7 +17,7 @@ namespace oci.MeteringComputationUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/metering_computation_usage#forecast_type MeteringComputationUsage#forecast_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_usage#forecast_type MeteringComputationUsage#forecast_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "forecastType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ForecastType
@@ -26,7 +26,7 @@ namespace oci.MeteringComputationUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/metering_computation_usage#time_forecast_started MeteringComputationUsage#time_forecast_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_usage#time_forecast_started MeteringComputationUsage#time_forecast_started}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeForecastStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeForecastStarted

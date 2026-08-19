@@ -7,14 +7,14 @@ namespace oci.ApmSyntheticsScript
     [JsiiInterface(nativeType: typeof(IApmSyntheticsScriptParameters), fullyQualifiedName: "oci.apmSyntheticsScript.ApmSyntheticsScriptParameters")]
     public interface IApmSyntheticsScriptParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_script#param_name ApmSyntheticsScript#param_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_synthetics_script#param_name ApmSyntheticsScript#param_name}.</summary>
         [JsiiProperty(name: "paramName", typeJson: "{\"primitive\":\"string\"}")]
         string ParamName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_script#is_secret ApmSyntheticsScript#is_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_synthetics_script#is_secret ApmSyntheticsScript#is_secret}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.ApmSyntheticsScript
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_script#param_value ApmSyntheticsScript#param_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_synthetics_script#param_value ApmSyntheticsScript#param_value}.</summary>
         [JsiiProperty(name: "paramValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParamValue
@@ -46,14 +46,14 @@ namespace oci.ApmSyntheticsScript
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_script#param_name ApmSyntheticsScript#param_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_synthetics_script#param_name ApmSyntheticsScript#param_name}.</summary>
             [JsiiProperty(name: "paramName", typeJson: "{\"primitive\":\"string\"}")]
             public string ParamName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_script#is_secret ApmSyntheticsScript#is_secret}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_synthetics_script#is_secret ApmSyntheticsScript#is_secret}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -64,7 +64,7 @@ namespace oci.ApmSyntheticsScript
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_synthetics_script#param_value ApmSyntheticsScript#param_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_synthetics_script#param_value ApmSyntheticsScript#param_value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "paramValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParamValue

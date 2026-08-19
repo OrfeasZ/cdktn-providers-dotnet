@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiHostedApplicationStorages.DataOciGenerativeAiHostedApplicationStoragesConfig")]
     public class DataOciGenerativeAiHostedApplicationStoragesConfig : oci.DataOciGenerativeAiHostedApplicationStorages.IDataOciGenerativeAiHostedApplicationStoragesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#compartment_id DataOciGenerativeAiHostedApplicationStorages#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_application_storages#compartment_id DataOciGenerativeAiHostedApplicationStorages#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#display_name DataOciGenerativeAiHostedApplicationStorages#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_application_storages#display_name DataOciGenerativeAiHostedApplicationStorages#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#filter DataOciGenerativeAiHostedApplicationStorages#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_application_storages#filter DataOciGenerativeAiHostedApplicationStorages#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiHostedApplicationStorages.IDataOciGenerativeAiHostedApplicationStoragesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#hosted_application_storage_type DataOciGenerativeAiHostedApplicationStorages#hosted_application_storage_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_application_storages#hosted_application_storage_type DataOciGenerativeAiHostedApplicationStorages#hosted_application_storage_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostedApplicationStorageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostedApplicationStorageType
@@ -70,7 +70,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#id DataOciGenerativeAiHostedApplicationStorages#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_application_storages#id DataOciGenerativeAiHostedApplicationStorages#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationStorages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_application_storages#state DataOciGenerativeAiHostedApplicationStorages#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_application_storages#state DataOciGenerativeAiHostedApplicationStorages#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

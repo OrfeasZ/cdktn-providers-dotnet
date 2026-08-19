@@ -7,14 +7,14 @@ namespace oci.FleetAppsManagementFleet
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementFleetCredentials), fullyQualifiedName: "oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentials")]
     public interface IFleetAppsManagementFleetCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -23,7 +23,7 @@ namespace oci.FleetAppsManagementFleet
 
         /// <summary>entity_specifics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#entity_specifics FleetAppsManagementFleet#entity_specifics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#entity_specifics FleetAppsManagementFleet#entity_specifics}
         /// </remarks>
         [JsiiProperty(name: "entitySpecifics", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentialsEntitySpecifics\"}")]
         oci.FleetAppsManagementFleet.IFleetAppsManagementFleetCredentialsEntitySpecifics EntitySpecifics
@@ -33,7 +33,7 @@ namespace oci.FleetAppsManagementFleet
 
         /// <summary>password block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#password FleetAppsManagementFleet#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#password FleetAppsManagementFleet#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentialsPassword\"}")]
         oci.FleetAppsManagementFleet.IFleetAppsManagementFleetCredentialsPassword Password
@@ -43,7 +43,7 @@ namespace oci.FleetAppsManagementFleet
 
         /// <summary>user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#user FleetAppsManagementFleet#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#user FleetAppsManagementFleet#user}
         /// </remarks>
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentialsUser\"}")]
         oci.FleetAppsManagementFleet.IFleetAppsManagementFleetCredentialsUser User
@@ -58,14 +58,14 @@ namespace oci.FleetAppsManagementFleet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#compartment_id FleetAppsManagementFleet#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#display_name FleetAppsManagementFleet#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -74,7 +74,7 @@ namespace oci.FleetAppsManagementFleet
 
             /// <summary>entity_specifics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#entity_specifics FleetAppsManagementFleet#entity_specifics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#entity_specifics FleetAppsManagementFleet#entity_specifics}
             /// </remarks>
             [JsiiProperty(name: "entitySpecifics", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentialsEntitySpecifics\"}")]
             public oci.FleetAppsManagementFleet.IFleetAppsManagementFleetCredentialsEntitySpecifics EntitySpecifics
@@ -84,7 +84,7 @@ namespace oci.FleetAppsManagementFleet
 
             /// <summary>password block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#password FleetAppsManagementFleet#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#password FleetAppsManagementFleet#password}
             /// </remarks>
             [JsiiProperty(name: "password", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentialsPassword\"}")]
             public oci.FleetAppsManagementFleet.IFleetAppsManagementFleetCredentialsPassword Password
@@ -94,7 +94,7 @@ namespace oci.FleetAppsManagementFleet
 
             /// <summary>user block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/fleet_apps_management_fleet#user FleetAppsManagementFleet#user}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_fleet#user FleetAppsManagementFleet#user}
             /// </remarks>
             [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"oci.fleetAppsManagementFleet.FleetAppsManagementFleetCredentialsUser\"}")]
             public oci.FleetAppsManagementFleet.IFleetAppsManagementFleetCredentialsUser User

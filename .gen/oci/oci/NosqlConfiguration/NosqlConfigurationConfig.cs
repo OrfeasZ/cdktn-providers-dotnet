@@ -9,7 +9,7 @@ namespace oci.NosqlConfiguration
     [JsiiByValue(fqn: "oci.nosqlConfiguration.NosqlConfigurationConfig")]
     public class NosqlConfigurationConfig : oci.NosqlConfiguration.INosqlConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_configuration#compartment_id NosqlConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_configuration#compartment_id NosqlConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.NosqlConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_configuration#environment NosqlConfiguration#environment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_configuration#environment NosqlConfiguration#environment}.</summary>
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}")]
         public string Environment
         {
@@ -25,7 +25,7 @@ namespace oci.NosqlConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_configuration#id NosqlConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_configuration#id NosqlConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.NosqlConfiguration
 
         private object? _isOpcDryRun;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_configuration#is_opc_dry_run NosqlConfiguration#is_opc_dry_run}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_configuration#is_opc_dry_run NosqlConfiguration#is_opc_dry_run}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -74,7 +74,7 @@ namespace oci.NosqlConfiguration
 
         /// <summary>kms_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_configuration#kms_key NosqlConfiguration#kms_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_configuration#kms_key NosqlConfiguration#kms_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKey", typeJson: "{\"fqn\":\"oci.nosqlConfiguration.NosqlConfigurationKmsKey\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace oci.NosqlConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/nosql_configuration#timeouts NosqlConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_configuration#timeouts NosqlConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.nosqlConfiguration.NosqlConfigurationTimeouts\"}", isOptional: true)]

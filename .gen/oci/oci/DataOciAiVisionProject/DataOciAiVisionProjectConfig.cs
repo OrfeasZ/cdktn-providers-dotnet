@@ -9,7 +9,7 @@ namespace oci.DataOciAiVisionProject
     [JsiiByValue(fqn: "oci.dataOciAiVisionProject.DataOciAiVisionProjectConfig")]
     public class DataOciAiVisionProjectConfig : oci.DataOciAiVisionProject.IDataOciAiVisionProjectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/ai_vision_project#project_id DataOciAiVisionProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_vision_project#project_id DataOciAiVisionProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {

@@ -9,7 +9,7 @@ namespace oci.AnalyticsAnalyticsInstance
     [JsiiByValue(fqn: "oci.analyticsAnalyticsInstance.AnalyticsAnalyticsInstanceCapacity")]
     public class AnalyticsAnalyticsInstanceCapacity : oci.AnalyticsAnalyticsInstance.IAnalyticsAnalyticsInstanceCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/analytics_analytics_instance#capacity_type AnalyticsAnalyticsInstance#capacity_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/analytics_analytics_instance#capacity_type AnalyticsAnalyticsInstance#capacity_type}.</summary>
         [JsiiProperty(name: "capacityType", typeJson: "{\"primitive\":\"string\"}")]
         public string CapacityType
         {
@@ -17,7 +17,7 @@ namespace oci.AnalyticsAnalyticsInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/analytics_analytics_instance#capacity_value AnalyticsAnalyticsInstance#capacity_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/analytics_analytics_instance#capacity_value AnalyticsAnalyticsInstance#capacity_value}.</summary>
         [JsiiProperty(name: "capacityValue", typeJson: "{\"primitive\":\"number\"}")]
         public double CapacityValue
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciKmsVaultReplicas
     [JsiiByValue(fqn: "oci.dataOciKmsVaultReplicas.DataOciKmsVaultReplicasFilter")]
     public class DataOciKmsVaultReplicasFilter : oci.DataOciKmsVaultReplicas.IDataOciKmsVaultReplicasFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/kms_vault_replicas#name DataOciKmsVaultReplicas#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_vault_replicas#name DataOciKmsVaultReplicas#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciKmsVaultReplicas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/kms_vault_replicas#values DataOciKmsVaultReplicas#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_vault_replicas#values DataOciKmsVaultReplicas#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciKmsVaultReplicas
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/kms_vault_replicas#regex DataOciKmsVaultReplicas#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_vault_replicas#regex DataOciKmsVaultReplicas#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

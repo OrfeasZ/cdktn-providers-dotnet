@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardSecurityZone
     [JsiiByValue(fqn: "oci.dataOciCloudGuardSecurityZone.DataOciCloudGuardSecurityZoneConfig")]
     public class DataOciCloudGuardSecurityZoneConfig : oci.DataOciCloudGuardSecurityZone.IDataOciCloudGuardSecurityZoneConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_guard_security_zone#security_zone_id DataOciCloudGuardSecurityZone#security_zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_guard_security_zone#security_zone_id DataOciCloudGuardSecurityZone#security_zone_id}.</summary>
         [JsiiProperty(name: "securityZoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityZoneId
         {

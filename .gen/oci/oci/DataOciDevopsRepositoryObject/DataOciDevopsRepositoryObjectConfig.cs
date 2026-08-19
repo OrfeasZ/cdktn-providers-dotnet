@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsRepositoryObject
     [JsiiByValue(fqn: "oci.dataOciDevopsRepositoryObject.DataOciDevopsRepositoryObjectConfig")]
     public class DataOciDevopsRepositoryObjectConfig : oci.DataOciDevopsRepositoryObject.IDataOciDevopsRepositoryObjectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_object#repository_id DataOciDevopsRepositoryObject#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_repository_object#repository_id DataOciDevopsRepositoryObject#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDevopsRepositoryObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_object#file_path DataOciDevopsRepositoryObject#file_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_repository_object#file_path DataOciDevopsRepositoryObject#file_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FilePath
@@ -26,7 +26,7 @@ namespace oci.DataOciDevopsRepositoryObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_object#id DataOciDevopsRepositoryObject#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_repository_object#id DataOciDevopsRepositoryObject#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DataOciDevopsRepositoryObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_object#ref_name DataOciDevopsRepositoryObject#ref_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_repository_object#ref_name DataOciDevopsRepositoryObject#ref_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RefName

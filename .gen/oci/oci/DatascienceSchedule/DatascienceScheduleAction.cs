@@ -11,7 +11,7 @@ namespace oci.DatascienceSchedule
     {
         /// <summary>action_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#action_details DatascienceSchedule#action_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#action_details DatascienceSchedule#action_details}
         /// </remarks>
         [JsiiProperty(name: "actionDetails", typeJson: "{\"fqn\":\"oci.datascienceSchedule.DatascienceScheduleActionActionDetails\"}")]
         public oci.DatascienceSchedule.IDatascienceScheduleActionActionDetails ActionDetails
@@ -20,7 +20,7 @@ namespace oci.DatascienceSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_schedule#action_type DatascienceSchedule#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_schedule#action_type DatascienceSchedule#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionType
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciLoadBalancerRuleSet
     [JsiiByValue(fqn: "oci.dataOciLoadBalancerRuleSet.DataOciLoadBalancerRuleSetConfig")]
     public class DataOciLoadBalancerRuleSetConfig : oci.DataOciLoadBalancerRuleSet.IDataOciLoadBalancerRuleSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/load_balancer_rule_set#load_balancer_id DataOciLoadBalancerRuleSet#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/load_balancer_rule_set#load_balancer_id DataOciLoadBalancerRuleSet#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLoadBalancerRuleSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/load_balancer_rule_set#name DataOciLoadBalancerRuleSet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/load_balancer_rule_set#name DataOciLoadBalancerRuleSet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

@@ -9,7 +9,7 @@ namespace oci.ManagedKafkaKafkaCluster
     [JsiiByValue(fqn: "oci.managedKafkaKafkaCluster.ManagedKafkaKafkaClusterBrokerShape")]
     public class ManagedKafkaKafkaClusterBrokerShape : oci.ManagedKafkaKafkaCluster.IManagedKafkaKafkaClusterBrokerShape
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster#node_count ManagedKafkaKafkaCluster#node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/managed_kafka_kafka_cluster#node_count ManagedKafkaKafkaCluster#node_count}.</summary>
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public double NodeCount
         {
@@ -17,7 +17,7 @@ namespace oci.ManagedKafkaKafkaCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster#ocpu_count ManagedKafkaKafkaCluster#ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/managed_kafka_kafka_cluster#ocpu_count ManagedKafkaKafkaCluster#ocpu_count}.</summary>
         [JsiiProperty(name: "ocpuCount", typeJson: "{\"primitive\":\"number\"}")]
         public double OcpuCount
         {
@@ -25,7 +25,7 @@ namespace oci.ManagedKafkaKafkaCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster#node_shape ManagedKafkaKafkaCluster#node_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/managed_kafka_kafka_cluster#node_shape ManagedKafkaKafkaCluster#node_shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeShape
@@ -34,7 +34,7 @@ namespace oci.ManagedKafkaKafkaCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/managed_kafka_kafka_cluster#storage_size_in_gbs ManagedKafkaKafkaCluster#storage_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/managed_kafka_kafka_cluster#storage_size_in_gbs ManagedKafkaKafkaCluster#storage_size_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageSizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StorageSizeInGbs

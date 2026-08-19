@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsMyCompletedApprovals.DataOciIdentityDomainsMyCompletedApprovalsConfig")]
     public class DataOciIdentityDomainsMyCompletedApprovalsConfig : oci.DataOciIdentityDomainsMyCompletedApprovals.IDataOciIdentityDomainsMyCompletedApprovalsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#idcs_endpoint DataOciIdentityDomainsMyCompletedApprovals#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#idcs_endpoint DataOciIdentityDomainsMyCompletedApprovals#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#authorization DataOciIdentityDomainsMyCompletedApprovals#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#authorization DataOciIdentityDomainsMyCompletedApprovals#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -26,7 +26,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#compartment_id DataOciIdentityDomainsMyCompletedApprovals#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#compartment_id DataOciIdentityDomainsMyCompletedApprovals#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -35,7 +35,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#id DataOciIdentityDomainsMyCompletedApprovals#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#id DataOciIdentityDomainsMyCompletedApprovals#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#my_completed_approval_count DataOciIdentityDomainsMyCompletedApprovals#my_completed_approval_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#my_completed_approval_count DataOciIdentityDomainsMyCompletedApprovals#my_completed_approval_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "myCompletedApprovalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MyCompletedApprovalCount
@@ -57,7 +57,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#my_completed_approval_filter DataOciIdentityDomainsMyCompletedApprovals#my_completed_approval_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#my_completed_approval_filter DataOciIdentityDomainsMyCompletedApprovals#my_completed_approval_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "myCompletedApprovalFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MyCompletedApprovalFilter
@@ -66,7 +66,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#resource_type_schema_version DataOciIdentityDomainsMyCompletedApprovals#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#resource_type_schema_version DataOciIdentityDomainsMyCompletedApprovals#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion
@@ -75,7 +75,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#sort_by DataOciIdentityDomainsMyCompletedApprovals#sort_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#sort_by DataOciIdentityDomainsMyCompletedApprovals#sort_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortBy
@@ -84,7 +84,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#sort_order DataOciIdentityDomainsMyCompletedApprovals#sort_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#sort_order DataOciIdentityDomainsMyCompletedApprovals#sort_order}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sortOrder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SortOrder
@@ -93,7 +93,7 @@ namespace oci.DataOciIdentityDomainsMyCompletedApprovals
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/identity_domains_my_completed_approvals#start_index DataOciIdentityDomainsMyCompletedApprovals#start_index}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_my_completed_approvals#start_index DataOciIdentityDomainsMyCompletedApprovals#start_index}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startIndex", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartIndex

@@ -5,7 +5,7 @@ namespace oci.StackMonitoringMaintenanceWindowsStop
     /// <remarks>
     /// <h1><c>oci_stack_monitoring_maintenance_windows_stop</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_maintenance_windows_stop"><c>oci_stack_monitoring_maintenance_windows_stop</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/stack_monitoring_maintenance_windows_stop"><c>oci_stack_monitoring_maintenance_windows_stop</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.DataOciMediaServicesStreamDistributionChannel
     [JsiiByValue(fqn: "oci.dataOciMediaServicesStreamDistributionChannel.DataOciMediaServicesStreamDistributionChannelConfig")]
     public class DataOciMediaServicesStreamDistributionChannelConfig : oci.DataOciMediaServicesStreamDistributionChannel.IDataOciMediaServicesStreamDistributionChannelConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/media_services_stream_distribution_channel#stream_distribution_channel_id DataOciMediaServicesStreamDistributionChannel#stream_distribution_channel_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_stream_distribution_channel#stream_distribution_channel_id DataOciMediaServicesStreamDistributionChannel#stream_distribution_channel_id}.</summary>
         [JsiiProperty(name: "streamDistributionChannelId", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamDistributionChannelId
         {

@@ -7,7 +7,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
     [JsiiByValue(fqn: "oci.dataSafeUnifiedAuditPolicy.DataSafeUnifiedAuditPolicyTimeouts")]
     public class DataSafeUnifiedAuditPolicyTimeouts : oci.DataSafeUnifiedAuditPolicy.IDataSafeUnifiedAuditPolicyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_unified_audit_policy#create DataSafeUnifiedAuditPolicy#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#create DataSafeUnifiedAuditPolicy#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_unified_audit_policy#delete DataSafeUnifiedAuditPolicy#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#delete DataSafeUnifiedAuditPolicy#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/data_safe_unified_audit_policy#update DataSafeUnifiedAuditPolicy#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#update DataSafeUnifiedAuditPolicy#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

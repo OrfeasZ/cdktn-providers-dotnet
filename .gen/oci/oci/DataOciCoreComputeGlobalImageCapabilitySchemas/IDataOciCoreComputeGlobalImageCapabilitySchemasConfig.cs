@@ -7,7 +7,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeGlobalImageCapabilitySchemasConfig), fullyQualifiedName: "oci.dataOciCoreComputeGlobalImageCapabilitySchemas.DataOciCoreComputeGlobalImageCapabilitySchemasConfig")]
     public interface IDataOciCoreComputeGlobalImageCapabilitySchemasConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#compartment_id DataOciCoreComputeGlobalImageCapabilitySchemas#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#compartment_id DataOciCoreComputeGlobalImageCapabilitySchemas#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#display_name DataOciCoreComputeGlobalImageCapabilitySchemas#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#display_name DataOciCoreComputeGlobalImageCapabilitySchemas#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -31,7 +31,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#filter DataOciCoreComputeGlobalImageCapabilitySchemas#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#filter DataOciCoreComputeGlobalImageCapabilitySchemas#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeGlobalImageCapabilitySchemas.IDataOciCoreComputeGlobalImageCapabilitySchemasFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreComputeGlobalImageCapabilitySchemas.DataOciCoreComputeGlobalImageCapabilitySchemasFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#id DataOciCoreComputeGlobalImageCapabilitySchemas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#id DataOciCoreComputeGlobalImageCapabilitySchemas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#compartment_id DataOciCoreComputeGlobalImageCapabilitySchemas#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#compartment_id DataOciCoreComputeGlobalImageCapabilitySchemas#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -74,7 +74,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#display_name DataOciCoreComputeGlobalImageCapabilitySchemas#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#display_name DataOciCoreComputeGlobalImageCapabilitySchemas#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -84,7 +84,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#filter DataOciCoreComputeGlobalImageCapabilitySchemas#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#filter DataOciCoreComputeGlobalImageCapabilitySchemas#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeGlobalImageCapabilitySchemas.IDataOciCoreComputeGlobalImageCapabilitySchemasFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -94,7 +94,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemas
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_global_image_capability_schemas#id DataOciCoreComputeGlobalImageCapabilitySchemas#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas#id DataOciCoreComputeGlobalImageCapabilitySchemas#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.DataOciMysqlReplica
     [JsiiByValue(fqn: "oci.dataOciMysqlReplica.DataOciMysqlReplicaConfig")]
     public class DataOciMysqlReplicaConfig : oci.DataOciMysqlReplica.IDataOciMysqlReplicaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/mysql_replica#replica_id DataOciMysqlReplica#replica_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/mysql_replica#replica_id DataOciMysqlReplica#replica_id}.</summary>
         [JsiiProperty(name: "replicaId", typeJson: "{\"primitive\":\"string\"}")]
         public string ReplicaId
         {

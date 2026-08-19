@@ -9,7 +9,7 @@ namespace oci.CoreInstancePool
     {
         /// <summary>pre_termination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_instance_pool#pre_termination CoreInstancePool#pre_termination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_instance_pool#pre_termination CoreInstancePool#pre_termination}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preTermination", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolLifecycleManagementLifecycleActionsPreTermination\"}", isOptional: true)]

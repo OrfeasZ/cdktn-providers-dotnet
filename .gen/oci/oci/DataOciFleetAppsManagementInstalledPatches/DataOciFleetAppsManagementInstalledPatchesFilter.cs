@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementInstalledPatches.DataOciFleetAppsManagementInstalledPatchesFilter")]
     public class DataOciFleetAppsManagementInstalledPatchesFilter : oci.DataOciFleetAppsManagementInstalledPatches.IDataOciFleetAppsManagementInstalledPatchesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_installed_patches#name DataOciFleetAppsManagementInstalledPatches#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_installed_patches#name DataOciFleetAppsManagementInstalledPatches#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_installed_patches#values DataOciFleetAppsManagementInstalledPatches#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_installed_patches#values DataOciFleetAppsManagementInstalledPatches#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementInstalledPatches
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fleet_apps_management_installed_patches#regex DataOciFleetAppsManagementInstalledPatches#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_installed_patches#regex DataOciFleetAppsManagementInstalledPatches#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciManagementAgentManagementAgentImages
     [JsiiByValue(fqn: "oci.dataOciManagementAgentManagementAgentImages.DataOciManagementAgentManagementAgentImagesConfig")]
     public class DataOciManagementAgentManagementAgentImagesConfig : oci.DataOciManagementAgentManagementAgentImages.IDataOciManagementAgentManagementAgentImagesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent_images#compartment_id DataOciManagementAgentManagementAgentImages#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent_images#compartment_id DataOciManagementAgentManagementAgentImages#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciManagementAgentManagementAgentImages
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent_images#filter DataOciManagementAgentManagementAgentImages#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent_images#filter DataOciManagementAgentManagementAgentImages#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciManagementAgentManagementAgentImages.IDataOciManagementAgentManagementAgentImagesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciManagementAgentManagementAgentImages
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent_images#id DataOciManagementAgentManagementAgentImages#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent_images#id DataOciManagementAgentManagementAgentImages#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciManagementAgentManagementAgentImages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent_images#install_type DataOciManagementAgentManagementAgentImages#install_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent_images#install_type DataOciManagementAgentManagementAgentImages#install_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "installType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstallType
@@ -74,7 +74,7 @@ namespace oci.DataOciManagementAgentManagementAgentImages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent_images#name DataOciManagementAgentManagementAgentImages#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent_images#name DataOciManagementAgentManagementAgentImages#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -83,7 +83,7 @@ namespace oci.DataOciManagementAgentManagementAgentImages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/management_agent_management_agent_images#state DataOciManagementAgentManagementAgentImages#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_agent_management_agent_images#state DataOciManagementAgentManagementAgentImages#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

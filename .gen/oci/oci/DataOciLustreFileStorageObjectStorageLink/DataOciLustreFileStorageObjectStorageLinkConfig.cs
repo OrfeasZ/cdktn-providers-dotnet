@@ -9,7 +9,7 @@ namespace oci.DataOciLustreFileStorageObjectStorageLink
     [JsiiByValue(fqn: "oci.dataOciLustreFileStorageObjectStorageLink.DataOciLustreFileStorageObjectStorageLinkConfig")]
     public class DataOciLustreFileStorageObjectStorageLinkConfig : oci.DataOciLustreFileStorageObjectStorageLink.IDataOciLustreFileStorageObjectStorageLinkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/lustre_file_storage_object_storage_link#object_storage_link_id DataOciLustreFileStorageObjectStorageLink#object_storage_link_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/lustre_file_storage_object_storage_link#object_storage_link_id DataOciLustreFileStorageObjectStorageLink#object_storage_link_id}.</summary>
         [JsiiProperty(name: "objectStorageLinkId", typeJson: "{\"primitive\":\"string\"}")]
         public string ObjectStorageLinkId
         {

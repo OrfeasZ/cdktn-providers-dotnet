@@ -9,7 +9,7 @@ namespace oci.DataOciCloudMigrationsTargetAsset
     [JsiiByValue(fqn: "oci.dataOciCloudMigrationsTargetAsset.DataOciCloudMigrationsTargetAssetConfig")]
     public class DataOciCloudMigrationsTargetAssetConfig : oci.DataOciCloudMigrationsTargetAsset.IDataOciCloudMigrationsTargetAssetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/cloud_migrations_target_asset#target_asset_id DataOciCloudMigrationsTargetAsset#target_asset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_migrations_target_asset#target_asset_id DataOciCloudMigrationsTargetAsset#target_asset_id}.</summary>
         [JsiiProperty(name: "targetAssetId", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetAssetId
         {

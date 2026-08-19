@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsRepositoryAuthors
     [JsiiByValue(fqn: "oci.dataOciDevopsRepositoryAuthors.DataOciDevopsRepositoryAuthorsFilter")]
     public class DataOciDevopsRepositoryAuthorsFilter : oci.DataOciDevopsRepositoryAuthors.IDataOciDevopsRepositoryAuthorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_authors#name DataOciDevopsRepositoryAuthors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_repository_authors#name DataOciDevopsRepositoryAuthors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDevopsRepositoryAuthors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_authors#values DataOciDevopsRepositoryAuthors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_repository_authors#values DataOciDevopsRepositoryAuthors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDevopsRepositoryAuthors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/devops_repository_authors#regex DataOciDevopsRepositoryAuthors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_repository_authors#regex DataOciDevopsRepositoryAuthors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

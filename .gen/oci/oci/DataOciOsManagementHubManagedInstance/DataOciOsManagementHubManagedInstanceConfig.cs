@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubManagedInstance
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubManagedInstance.DataOciOsManagementHubManagedInstanceConfig")]
     public class DataOciOsManagementHubManagedInstanceConfig : oci.DataOciOsManagementHubManagedInstance.IDataOciOsManagementHubManagedInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_managed_instance#managed_instance_id DataOciOsManagementHubManagedInstance#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_managed_instance#managed_instance_id DataOciOsManagementHubManagedInstance#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {

@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
     [JsiiByValue(fqn: "oci.databaseManagementCloudExadataStorageConnector.DatabaseManagementCloudExadataStorageConnectorConfig")]
     public class DatabaseManagementCloudExadataStorageConnectorConfig : oci.DatabaseManagementCloudExadataStorageConnector.IDatabaseManagementCloudExadataStorageConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#agent_id DatabaseManagementCloudExadataStorageConnector#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#agent_id DatabaseManagementCloudExadataStorageConnector#agent_id}.</summary>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#connection_uri DatabaseManagementCloudExadataStorageConnector#connection_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#connection_uri DatabaseManagementCloudExadataStorageConnector#connection_uri}.</summary>
         [JsiiProperty(name: "connectionUri", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionUri
         {
@@ -27,7 +27,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
 
         /// <summary>credential_info block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#credential_info DatabaseManagementCloudExadataStorageConnector#credential_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#credential_info DatabaseManagementCloudExadataStorageConnector#credential_info}
         /// </remarks>
         [JsiiProperty(name: "credentialInfo", typeJson: "{\"fqn\":\"oci.databaseManagementCloudExadataStorageConnector.DatabaseManagementCloudExadataStorageConnectorCredentialInfo\"}")]
         public oci.DatabaseManagementCloudExadataStorageConnector.IDatabaseManagementCloudExadataStorageConnectorCredentialInfo CredentialInfo
@@ -36,7 +36,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#storage_server_id DatabaseManagementCloudExadataStorageConnector#storage_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#storage_server_id DatabaseManagementCloudExadataStorageConnector#storage_server_id}.</summary>
         [JsiiProperty(name: "storageServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageServerId
         {
@@ -44,7 +44,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#defined_tags DatabaseManagementCloudExadataStorageConnector#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#defined_tags DatabaseManagementCloudExadataStorageConnector#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -53,7 +53,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#display_name DatabaseManagementCloudExadataStorageConnector#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#display_name DatabaseManagementCloudExadataStorageConnector#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -62,7 +62,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#freeform_tags DatabaseManagementCloudExadataStorageConnector#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#freeform_tags DatabaseManagementCloudExadataStorageConnector#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -71,7 +71,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#id DatabaseManagementCloudExadataStorageConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#id DatabaseManagementCloudExadataStorageConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace oci.DatabaseManagementCloudExadataStorageConnector
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/database_management_cloud_exadata_storage_connector#timeouts DatabaseManagementCloudExadataStorageConnector#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_connector#timeouts DatabaseManagementCloudExadataStorageConnector#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudExadataStorageConnector.DatabaseManagementCloudExadataStorageConnectorTimeouts\"}", isOptional: true)]

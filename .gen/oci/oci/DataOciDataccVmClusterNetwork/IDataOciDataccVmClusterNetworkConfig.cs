@@ -7,7 +7,7 @@ namespace oci.DataOciDataccVmClusterNetwork
     [JsiiInterface(nativeType: typeof(IDataOciDataccVmClusterNetworkConfig), fullyQualifiedName: "oci.dataOciDataccVmClusterNetwork.DataOciDataccVmClusterNetworkConfig")]
     public interface IDataOciDataccVmClusterNetworkConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacc_vm_cluster_network#vm_cluster_network_id DataOciDataccVmClusterNetwork#vm_cluster_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datacc_vm_cluster_network#vm_cluster_network_id DataOciDataccVmClusterNetwork#vm_cluster_network_id}.</summary>
         [JsiiProperty(name: "vmClusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         string VmClusterNetworkId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataccVmClusterNetwork
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/datacc_vm_cluster_network#vm_cluster_network_id DataOciDataccVmClusterNetwork#vm_cluster_network_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datacc_vm_cluster_network#vm_cluster_network_id DataOciDataccVmClusterNetwork#vm_cluster_network_id}.</summary>
             [JsiiProperty(name: "vmClusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
             public string VmClusterNetworkId
             {

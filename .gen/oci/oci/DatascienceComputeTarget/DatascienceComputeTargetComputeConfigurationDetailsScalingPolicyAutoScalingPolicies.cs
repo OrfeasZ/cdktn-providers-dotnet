@@ -9,7 +9,7 @@ namespace oci.DatascienceComputeTarget
     [JsiiByValue(fqn: "oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPolicies")]
     public class DatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPolicies : oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPolicies
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#auto_scaling_policy_type DatascienceComputeTarget#auto_scaling_policy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#auto_scaling_policy_type DatascienceComputeTarget#auto_scaling_policy_type}.</summary>
         [JsiiProperty(name: "autoScalingPolicyType", typeJson: "{\"primitive\":\"string\"}")]
         public string AutoScalingPolicyType
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceComputeTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#initial_instance_count DatascienceComputeTarget#initial_instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#initial_instance_count DatascienceComputeTarget#initial_instance_count}.</summary>
         [JsiiProperty(name: "initialInstanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double InitialInstanceCount
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceComputeTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#maximum_instance_count DatascienceComputeTarget#maximum_instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#maximum_instance_count DatascienceComputeTarget#maximum_instance_count}.</summary>
         [JsiiProperty(name: "maximumInstanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MaximumInstanceCount
         {
@@ -33,7 +33,7 @@ namespace oci.DatascienceComputeTarget
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#minimum_instance_count DatascienceComputeTarget#minimum_instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#minimum_instance_count DatascienceComputeTarget#minimum_instance_count}.</summary>
         [JsiiProperty(name: "minimumInstanceCount", typeJson: "{\"primitive\":\"number\"}")]
         public double MinimumInstanceCount
         {
@@ -45,7 +45,7 @@ namespace oci.DatascienceComputeTarget
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/datascience_compute_target#rules DatascienceComputeTarget#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#rules DatascienceComputeTarget#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPoliciesRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPoliciesRules\"},\"kind\":\"array\"}}]}}")]

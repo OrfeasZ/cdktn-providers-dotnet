@@ -7,7 +7,7 @@ namespace oci.StackMonitoringProcessSet
     [JsiiByValue(fqn: "oci.stackMonitoringProcessSet.StackMonitoringProcessSetSpecificationItems")]
     public class StackMonitoringProcessSetSpecificationItems : oci.StackMonitoringProcessSet.IStackMonitoringProcessSetSpecificationItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_process_set#label StackMonitoringProcessSet#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/stack_monitoring_process_set#label StackMonitoringProcessSet#label}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Label
@@ -16,7 +16,7 @@ namespace oci.StackMonitoringProcessSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_process_set#process_command StackMonitoringProcessSet#process_command}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/stack_monitoring_process_set#process_command StackMonitoringProcessSet#process_command}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "processCommand", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProcessCommand
@@ -25,7 +25,7 @@ namespace oci.StackMonitoringProcessSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_process_set#process_line_regex_pattern StackMonitoringProcessSet#process_line_regex_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/stack_monitoring_process_set#process_line_regex_pattern StackMonitoringProcessSet#process_line_regex_pattern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "processLineRegexPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProcessLineRegexPattern
@@ -34,7 +34,7 @@ namespace oci.StackMonitoringProcessSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/stack_monitoring_process_set#process_user StackMonitoringProcessSet#process_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/stack_monitoring_process_set#process_user StackMonitoringProcessSet#process_user}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "processUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProcessUser

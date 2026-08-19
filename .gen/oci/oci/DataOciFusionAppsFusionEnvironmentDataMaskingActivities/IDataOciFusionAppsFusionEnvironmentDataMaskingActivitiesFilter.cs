@@ -7,21 +7,21 @@ namespace oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities
     [JsiiInterface(nativeType: typeof(IDataOciFusionAppsFusionEnvironmentDataMaskingActivitiesFilter), fullyQualifiedName: "oci.dataOciFusionAppsFusionEnvironmentDataMaskingActivities.DataOciFusionAppsFusionEnvironmentDataMaskingActivitiesFilter")]
     public interface IDataOciFusionAppsFusionEnvironmentDataMaskingActivitiesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#name DataOciFusionAppsFusionEnvironmentDataMaskingActivities#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#name DataOciFusionAppsFusionEnvironmentDataMaskingActivities#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#values DataOciFusionAppsFusionEnvironmentDataMaskingActivities#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#values DataOciFusionAppsFusionEnvironmentDataMaskingActivities#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#regex DataOciFusionAppsFusionEnvironmentDataMaskingActivities#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#regex DataOciFusionAppsFusionEnvironmentDataMaskingActivities#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciFusionAppsFusionEnvironmentDataMaskingActivities
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#name DataOciFusionAppsFusionEnvironmentDataMaskingActivities#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#name DataOciFusionAppsFusionEnvironmentDataMaskingActivities#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#values DataOciFusionAppsFusionEnvironmentDataMaskingActivities#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#values DataOciFusionAppsFusionEnvironmentDataMaskingActivities#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#regex DataOciFusionAppsFusionEnvironmentDataMaskingActivities#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fusion_apps_fusion_environment_data_masking_activities#regex DataOciFusionAppsFusionEnvironmentDataMaskingActivities#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.SecurityAttributeSecurityAttribute
     [JsiiByValue(fqn: "oci.securityAttributeSecurityAttribute.SecurityAttributeSecurityAttributeTimeouts")]
     public class SecurityAttributeSecurityAttributeTimeouts : oci.SecurityAttributeSecurityAttribute.ISecurityAttributeSecurityAttributeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/security_attribute_security_attribute#create SecurityAttributeSecurityAttribute#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/security_attribute_security_attribute#create SecurityAttributeSecurityAttribute#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.SecurityAttributeSecurityAttribute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/security_attribute_security_attribute#delete SecurityAttributeSecurityAttribute#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/security_attribute_security_attribute#delete SecurityAttributeSecurityAttribute#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.SecurityAttributeSecurityAttribute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/security_attribute_security_attribute#update SecurityAttributeSecurityAttribute#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/security_attribute_security_attribute#update SecurityAttributeSecurityAttribute#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

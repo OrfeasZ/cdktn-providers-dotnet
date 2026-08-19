@@ -7,7 +7,7 @@ namespace oci.ApmConfigConfig
     [JsiiByValue(fqn: "oci.apmConfigConfig.ApmConfigConfigConfigConfigMap")]
     public class ApmConfigConfigConfigConfigMap : oci.ApmConfigConfig.IApmConfigConfigConfigConfigMap
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#body ApmConfigConfig#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_config_config#body ApmConfigConfig#body}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Body
@@ -16,7 +16,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#content_type ApmConfigConfig#content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_config_config#content_type ApmConfigConfig#content_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentType
@@ -25,7 +25,7 @@ namespace oci.ApmConfigConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/apm_config_config#file_name ApmConfigConfig#file_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/apm_config_config#file_name ApmConfigConfig#file_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FileName

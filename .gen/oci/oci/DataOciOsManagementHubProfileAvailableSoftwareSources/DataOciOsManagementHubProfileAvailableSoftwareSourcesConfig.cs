@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubProfileAvailableSoftwareSources.DataOciOsManagementHubProfileAvailableSoftwareSourcesConfig")]
     public class DataOciOsManagementHubProfileAvailableSoftwareSourcesConfig : oci.DataOciOsManagementHubProfileAvailableSoftwareSources.IDataOciOsManagementHubProfileAvailableSoftwareSourcesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_available_software_sources#profile_id DataOciOsManagementHubProfileAvailableSoftwareSources#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#profile_id DataOciOsManagementHubProfileAvailableSoftwareSources#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_available_software_sources#compartment_id DataOciOsManagementHubProfileAvailableSoftwareSources#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#compartment_id DataOciOsManagementHubProfileAvailableSoftwareSources#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_available_software_sources#display_name DataOciOsManagementHubProfileAvailableSoftwareSources#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#display_name DataOciOsManagementHubProfileAvailableSoftwareSources#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DisplayName
@@ -35,7 +35,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_available_software_sources#display_name_contains DataOciOsManagementHubProfileAvailableSoftwareSources#display_name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#display_name_contains DataOciOsManagementHubProfileAvailableSoftwareSources#display_name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayNameContains
@@ -48,7 +48,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_available_software_sources#filter DataOciOsManagementHubProfileAvailableSoftwareSources#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#filter DataOciOsManagementHubProfileAvailableSoftwareSources#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubProfileAvailableSoftwareSources.IDataOciOsManagementHubProfileAvailableSoftwareSourcesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/os_management_hub_profile_available_software_sources#id DataOciOsManagementHubProfileAvailableSoftwareSources#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#id DataOciOsManagementHubProfileAvailableSoftwareSources#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

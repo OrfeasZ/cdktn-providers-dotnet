@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceScheduledTaskActionMetricExtractionMetricCollectionsDimensions), fullyQualifiedName: "oci.logAnalyticsNamespaceScheduledTask.LogAnalyticsNamespaceScheduledTaskActionMetricExtractionMetricCollectionsDimensions")]
     public interface ILogAnalyticsNamespaceScheduledTaskActionMetricExtractionMetricCollectionsDimensions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_scheduled_task#dimension_name LogAnalyticsNamespaceScheduledTask#dimension_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_namespace_scheduled_task#dimension_name LogAnalyticsNamespaceScheduledTask#dimension_name}.</summary>
         [JsiiProperty(name: "dimensionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DimensionName
@@ -18,7 +18,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_scheduled_task#query_field_name LogAnalyticsNamespaceScheduledTask#query_field_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_namespace_scheduled_task#query_field_name LogAnalyticsNamespaceScheduledTask#query_field_name}.</summary>
         [JsiiProperty(name: "queryFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? QueryFieldName
@@ -36,7 +36,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_scheduled_task#dimension_name LogAnalyticsNamespaceScheduledTask#dimension_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_namespace_scheduled_task#dimension_name LogAnalyticsNamespaceScheduledTask#dimension_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dimensionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DimensionName
@@ -44,7 +44,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_scheduled_task#query_field_name LogAnalyticsNamespaceScheduledTask#query_field_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_namespace_scheduled_task#query_field_name LogAnalyticsNamespaceScheduledTask#query_field_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "queryFieldName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? QueryFieldName

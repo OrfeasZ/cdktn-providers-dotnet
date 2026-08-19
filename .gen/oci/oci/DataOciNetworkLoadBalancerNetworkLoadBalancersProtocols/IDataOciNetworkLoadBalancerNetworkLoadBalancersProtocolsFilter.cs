@@ -7,21 +7,21 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols
     [JsiiInterface(nativeType: typeof(IDataOciNetworkLoadBalancerNetworkLoadBalancersProtocolsFilter), fullyQualifiedName: "oci.dataOciNetworkLoadBalancerNetworkLoadBalancersProtocols.DataOciNetworkLoadBalancerNetworkLoadBalancersProtocolsFilter")]
     public interface IDataOciNetworkLoadBalancerNetworkLoadBalancersProtocolsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#name DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#name DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#values DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#values DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#regex DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#regex DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#name DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#name DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#values DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#values DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#regex DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_network_load_balancers_protocols#regex DataOciNetworkLoadBalancerNetworkLoadBalancersProtocols#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

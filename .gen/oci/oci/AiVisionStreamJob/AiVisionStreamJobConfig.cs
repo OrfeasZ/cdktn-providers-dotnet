@@ -9,7 +9,7 @@ namespace oci.AiVisionStreamJob
     [JsiiByValue(fqn: "oci.aiVisionStreamJob.AiVisionStreamJobConfig")]
     public class AiVisionStreamJobConfig : oci.AiVisionStreamJob.IAiVisionStreamJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#compartment_id AiVisionStreamJob#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#compartment_id AiVisionStreamJob#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.AiVisionStreamJob
 
         /// <summary>features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#features AiVisionStreamJob#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#features AiVisionStreamJob#features}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiVisionStreamJob.IAiVisionStreamJobFeatures" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiVisionStreamJob.AiVisionStreamJobFeatures\"},\"kind\":\"array\"}}]}}")]
@@ -53,7 +53,7 @@ namespace oci.AiVisionStreamJob
 
         /// <summary>stream_output_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#stream_output_location AiVisionStreamJob#stream_output_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#stream_output_location AiVisionStreamJob#stream_output_location}
         /// </remarks>
         [JsiiProperty(name: "streamOutputLocation", typeJson: "{\"fqn\":\"oci.aiVisionStreamJob.AiVisionStreamJobStreamOutputLocation\"}")]
         public oci.AiVisionStreamJob.IAiVisionStreamJobStreamOutputLocation StreamOutputLocation
@@ -62,7 +62,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#stream_source_id AiVisionStreamJob#stream_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#stream_source_id AiVisionStreamJob#stream_source_id}.</summary>
         [JsiiProperty(name: "streamSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string StreamSourceId
         {
@@ -70,7 +70,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#defined_tags AiVisionStreamJob#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#defined_tags AiVisionStreamJob#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -79,7 +79,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#display_name AiVisionStreamJob#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#display_name AiVisionStreamJob#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -88,7 +88,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#freeform_tags AiVisionStreamJob#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#freeform_tags AiVisionStreamJob#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -97,7 +97,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#id AiVisionStreamJob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#id AiVisionStreamJob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +110,7 @@ namespace oci.AiVisionStreamJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#state AiVisionStreamJob#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#state AiVisionStreamJob#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -121,7 +121,7 @@ namespace oci.AiVisionStreamJob
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/ai_vision_stream_job#timeouts AiVisionStreamJob#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_stream_job#timeouts AiVisionStreamJob#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.aiVisionStreamJob.AiVisionStreamJobTimeouts\"}", isOptional: true)]

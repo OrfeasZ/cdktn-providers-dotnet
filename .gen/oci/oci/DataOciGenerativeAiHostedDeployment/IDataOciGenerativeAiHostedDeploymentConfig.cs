@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiHostedDeployment
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiHostedDeploymentConfig), fullyQualifiedName: "oci.dataOciGenerativeAiHostedDeployment.DataOciGenerativeAiHostedDeploymentConfig")]
     public interface IDataOciGenerativeAiHostedDeploymentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_deployment#hosted_deployment_id DataOciGenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_deployment#hosted_deployment_id DataOciGenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
         [JsiiProperty(name: "hostedDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         string HostedDeploymentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiHostedDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/generative_ai_hosted_deployment#hosted_deployment_id DataOciGenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_deployment#hosted_deployment_id DataOciGenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
             [JsiiProperty(name: "hostedDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
             public string HostedDeploymentId
             {

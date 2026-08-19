@@ -7,28 +7,28 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceBdsCertificateConfigurationConfig), fullyQualifiedName: "oci.bdsBdsInstanceBdsCertificateConfiguration.BdsBdsInstanceBdsCertificateConfigurationConfig")]
     public interface IBdsBdsInstanceBdsCertificateConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#bds_instance_id BdsBdsInstanceBdsCertificateConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#bds_instance_id BdsBdsInstanceBdsCertificateConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_type BdsBdsInstanceBdsCertificateConfiguration#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_type BdsBdsInstanceBdsCertificateConfiguration#certificate_type}.</summary>
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#display_name BdsBdsInstanceBdsCertificateConfiguration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#display_name BdsBdsInstanceBdsCertificateConfiguration#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_authority_id BdsBdsInstanceBdsCertificateConfiguration#certificate_authority_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_authority_id BdsBdsInstanceBdsCertificateConfiguration#certificate_authority_id}.</summary>
         [JsiiProperty(name: "certificateAuthorityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificateAuthorityId
@@ -39,7 +39,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#cluster_admin_password BdsBdsInstanceBdsCertificateConfiguration#cluster_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#cluster_admin_password BdsBdsInstanceBdsCertificateConfiguration#cluster_admin_password}.</summary>
         [JsiiProperty(name: "clusterAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterAdminPassword
@@ -50,7 +50,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#compartment_id BdsBdsInstanceBdsCertificateConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#compartment_id BdsBdsInstanceBdsCertificateConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -61,7 +61,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#id BdsBdsInstanceBdsCertificateConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#id BdsBdsInstanceBdsCertificateConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -76,7 +76,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#is_missing_nodes_only BdsBdsInstanceBdsCertificateConfiguration#is_missing_nodes_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#is_missing_nodes_only BdsBdsInstanceBdsCertificateConfiguration#is_missing_nodes_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -90,7 +90,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#issue_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#issue_certificate_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#issue_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#issue_certificate_trigger}.</summary>
         [JsiiProperty(name: "issueCertificateTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IssueCertificateTrigger
@@ -101,7 +101,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#renew_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#renew_certificate_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#renew_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#renew_certificate_trigger}.</summary>
         [JsiiProperty(name: "renewCertificateTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RenewCertificateTrigger
@@ -112,7 +112,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#secret_id BdsBdsInstanceBdsCertificateConfiguration#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#secret_id BdsBdsInstanceBdsCertificateConfiguration#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecretId
@@ -123,7 +123,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#set_default_trigger BdsBdsInstanceBdsCertificateConfiguration#set_default_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#set_default_trigger BdsBdsInstanceBdsCertificateConfiguration#set_default_trigger}.</summary>
         [JsiiProperty(name: "setDefaultTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SetDefaultTrigger
@@ -136,7 +136,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#timeouts BdsBdsInstanceBdsCertificateConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#timeouts BdsBdsInstanceBdsCertificateConfiguration#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceBdsCertificateConfiguration.BdsBdsInstanceBdsCertificateConfigurationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -155,28 +155,28 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#bds_instance_id BdsBdsInstanceBdsCertificateConfiguration#bds_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#bds_instance_id BdsBdsInstanceBdsCertificateConfiguration#bds_instance_id}.</summary>
             [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_type BdsBdsInstanceBdsCertificateConfiguration#certificate_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_type BdsBdsInstanceBdsCertificateConfiguration#certificate_type}.</summary>
             [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#display_name BdsBdsInstanceBdsCertificateConfiguration#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#display_name BdsBdsInstanceBdsCertificateConfiguration#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_authority_id BdsBdsInstanceBdsCertificateConfiguration#certificate_authority_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#certificate_authority_id BdsBdsInstanceBdsCertificateConfiguration#certificate_authority_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificateAuthorityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificateAuthorityId
@@ -184,7 +184,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#cluster_admin_password BdsBdsInstanceBdsCertificateConfiguration#cluster_admin_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#cluster_admin_password BdsBdsInstanceBdsCertificateConfiguration#cluster_admin_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterAdminPassword
@@ -192,7 +192,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#compartment_id BdsBdsInstanceBdsCertificateConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#compartment_id BdsBdsInstanceBdsCertificateConfiguration#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -200,7 +200,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#id BdsBdsInstanceBdsCertificateConfiguration#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#id BdsBdsInstanceBdsCertificateConfiguration#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -212,7 +212,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#is_missing_nodes_only BdsBdsInstanceBdsCertificateConfiguration#is_missing_nodes_only}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#is_missing_nodes_only BdsBdsInstanceBdsCertificateConfiguration#is_missing_nodes_only}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -223,7 +223,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#issue_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#issue_certificate_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#issue_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#issue_certificate_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "issueCertificateTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IssueCertificateTrigger
@@ -231,7 +231,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#renew_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#renew_certificate_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#renew_certificate_trigger BdsBdsInstanceBdsCertificateConfiguration#renew_certificate_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "renewCertificateTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RenewCertificateTrigger
@@ -239,7 +239,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#secret_id BdsBdsInstanceBdsCertificateConfiguration#secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#secret_id BdsBdsInstanceBdsCertificateConfiguration#secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecretId
@@ -247,7 +247,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#set_default_trigger BdsBdsInstanceBdsCertificateConfiguration#set_default_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#set_default_trigger BdsBdsInstanceBdsCertificateConfiguration#set_default_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "setDefaultTrigger", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SetDefaultTrigger
@@ -257,7 +257,7 @@ namespace oci.BdsBdsInstanceBdsCertificateConfiguration
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/bds_bds_instance_bds_certificate_configuration#timeouts BdsBdsInstanceBdsCertificateConfiguration#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_bds_certificate_configuration#timeouts BdsBdsInstanceBdsCertificateConfiguration#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstanceBdsCertificateConfiguration.BdsBdsInstanceBdsCertificateConfigurationTimeouts\"}", isOptional: true)]

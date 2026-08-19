@@ -7,7 +7,7 @@ namespace oci.AnalyticsAnalyticsInstanceResourceGroup
     [JsiiByValue(fqn: "oci.analyticsAnalyticsInstanceResourceGroup.AnalyticsAnalyticsInstanceResourceGroupTimeouts")]
     public class AnalyticsAnalyticsInstanceResourceGroupTimeouts : oci.AnalyticsAnalyticsInstanceResourceGroup.IAnalyticsAnalyticsInstanceResourceGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/analytics_analytics_instance_resource_group#create AnalyticsAnalyticsInstanceResourceGroup#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/analytics_analytics_instance_resource_group#create AnalyticsAnalyticsInstanceResourceGroup#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.AnalyticsAnalyticsInstanceResourceGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/analytics_analytics_instance_resource_group#delete AnalyticsAnalyticsInstanceResourceGroup#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/analytics_analytics_instance_resource_group#delete AnalyticsAnalyticsInstanceResourceGroup#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.AnalyticsAnalyticsInstanceResourceGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/analytics_analytics_instance_resource_group#update AnalyticsAnalyticsInstanceResourceGroup#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/analytics_analytics_instance_resource_group#update AnalyticsAnalyticsInstanceResourceGroup#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

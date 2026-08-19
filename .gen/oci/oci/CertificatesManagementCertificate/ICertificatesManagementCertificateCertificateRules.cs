@@ -7,21 +7,21 @@ namespace oci.CertificatesManagementCertificate
     [JsiiInterface(nativeType: typeof(ICertificatesManagementCertificateCertificateRules), fullyQualifiedName: "oci.certificatesManagementCertificate.CertificatesManagementCertificateCertificateRules")]
     public interface ICertificatesManagementCertificateCertificateRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate#advance_renewal_period CertificatesManagementCertificate#advance_renewal_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate#advance_renewal_period CertificatesManagementCertificate#advance_renewal_period}.</summary>
         [JsiiProperty(name: "advanceRenewalPeriod", typeJson: "{\"primitive\":\"string\"}")]
         string AdvanceRenewalPeriod
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate#renewal_interval CertificatesManagementCertificate#renewal_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate#renewal_interval CertificatesManagementCertificate#renewal_interval}.</summary>
         [JsiiProperty(name: "renewalInterval", typeJson: "{\"primitive\":\"string\"}")]
         string RenewalInterval
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate#rule_type CertificatesManagementCertificate#rule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate#rule_type CertificatesManagementCertificate#rule_type}.</summary>
         [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
         string RuleType
         {
@@ -35,21 +35,21 @@ namespace oci.CertificatesManagementCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate#advance_renewal_period CertificatesManagementCertificate#advance_renewal_period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate#advance_renewal_period CertificatesManagementCertificate#advance_renewal_period}.</summary>
             [JsiiProperty(name: "advanceRenewalPeriod", typeJson: "{\"primitive\":\"string\"}")]
             public string AdvanceRenewalPeriod
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate#renewal_interval CertificatesManagementCertificate#renewal_interval}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate#renewal_interval CertificatesManagementCertificate#renewal_interval}.</summary>
             [JsiiProperty(name: "renewalInterval", typeJson: "{\"primitive\":\"string\"}")]
             public string RenewalInterval
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/certificates_management_certificate#rule_type CertificatesManagementCertificate#rule_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate#rule_type CertificatesManagementCertificate#rule_type}.</summary>
             [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
             public string RuleType
             {

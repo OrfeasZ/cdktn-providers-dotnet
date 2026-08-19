@@ -7,7 +7,7 @@ namespace oci.DnsResolver
     [JsiiInterface(nativeType: typeof(IDnsResolverAttachedViews), fullyQualifiedName: "oci.dnsResolver.DnsResolverAttachedViews")]
     public interface IDnsResolverAttachedViews
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}.</summary>
         [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}")]
         string ViewId
         {
@@ -21,7 +21,7 @@ namespace oci.DnsResolver
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dns_resolver#view_id DnsResolver#view_id}.</summary>
             [JsiiProperty(name: "viewId", typeJson: "{\"primitive\":\"string\"}")]
             public string ViewId
             {

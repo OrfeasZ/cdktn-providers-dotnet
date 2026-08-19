@@ -7,7 +7,7 @@ namespace oci.DataOciIntegrationIntegrationInstance
     [JsiiInterface(nativeType: typeof(IDataOciIntegrationIntegrationInstanceConfig), fullyQualifiedName: "oci.dataOciIntegrationIntegrationInstance.DataOciIntegrationIntegrationInstanceConfig")]
     public interface IDataOciIntegrationIntegrationInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}.</summary>
         [JsiiProperty(name: "integrationInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string IntegrationInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciIntegrationIntegrationInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/integration_integration_instance#integration_instance_id DataOciIntegrationIntegrationInstance#integration_instance_id}.</summary>
             [JsiiProperty(name: "integrationInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string IntegrationInstanceId
             {

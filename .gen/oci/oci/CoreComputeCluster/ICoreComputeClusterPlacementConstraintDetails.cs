@@ -7,14 +7,14 @@ namespace oci.CoreComputeCluster
     [JsiiInterface(nativeType: typeof(ICoreComputeClusterPlacementConstraintDetails), fullyQualifiedName: "oci.coreComputeCluster.CoreComputeClusterPlacementConstraintDetails")]
     public interface ICoreComputeClusterPlacementConstraintDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#type CoreComputeCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#type CoreComputeCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#hpc_island_id CoreComputeCluster#hpc_island_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#hpc_island_id CoreComputeCluster#hpc_island_id}.</summary>
         [JsiiProperty(name: "hpcIslandId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HpcIslandId
@@ -25,7 +25,7 @@ namespace oci.CoreComputeCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#logical_placement_constraint CoreComputeCluster#logical_placement_constraint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#logical_placement_constraint CoreComputeCluster#logical_placement_constraint}.</summary>
         [JsiiProperty(name: "logicalPlacementConstraint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogicalPlacementConstraint
@@ -36,7 +36,7 @@ namespace oci.CoreComputeCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#target_memory_fabric_ids CoreComputeCluster#target_memory_fabric_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#target_memory_fabric_ids CoreComputeCluster#target_memory_fabric_ids}.</summary>
         [JsiiProperty(name: "targetMemoryFabricIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TargetMemoryFabricIds
@@ -47,7 +47,7 @@ namespace oci.CoreComputeCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#target_network_block_ids CoreComputeCluster#target_network_block_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#target_network_block_ids CoreComputeCluster#target_network_block_ids}.</summary>
         [JsiiProperty(name: "targetNetworkBlockIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TargetNetworkBlockIds
@@ -65,14 +65,14 @@ namespace oci.CoreComputeCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#type CoreComputeCluster#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#type CoreComputeCluster#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#hpc_island_id CoreComputeCluster#hpc_island_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#hpc_island_id CoreComputeCluster#hpc_island_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hpcIslandId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HpcIslandId
@@ -80,7 +80,7 @@ namespace oci.CoreComputeCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#logical_placement_constraint CoreComputeCluster#logical_placement_constraint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#logical_placement_constraint CoreComputeCluster#logical_placement_constraint}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logicalPlacementConstraint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogicalPlacementConstraint
@@ -88,7 +88,7 @@ namespace oci.CoreComputeCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#target_memory_fabric_ids CoreComputeCluster#target_memory_fabric_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#target_memory_fabric_ids CoreComputeCluster#target_memory_fabric_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetMemoryFabricIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TargetMemoryFabricIds
@@ -96,7 +96,7 @@ namespace oci.CoreComputeCluster
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/core_compute_cluster#target_network_block_ids CoreComputeCluster#target_network_block_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_cluster#target_network_block_ids CoreComputeCluster#target_network_block_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetNetworkBlockIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TargetNetworkBlockIds

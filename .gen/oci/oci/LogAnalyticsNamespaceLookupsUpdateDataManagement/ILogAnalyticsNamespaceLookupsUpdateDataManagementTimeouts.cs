@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceLookupsUpdateDataManagement
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceLookupsUpdateDataManagementTimeouts), fullyQualifiedName: "oci.logAnalyticsNamespaceLookupsUpdateDataManagement.LogAnalyticsNamespaceLookupsUpdateDataManagementTimeouts")]
     public interface ILogAnalyticsNamespaceLookupsUpdateDataManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#create LogAnalyticsNamespaceLookupsUpdateDataManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_namespace_lookups_update_data_management#create LogAnalyticsNamespaceLookupsUpdateDataManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsNamespaceLookupsUpdateDataManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/resources/log_analytics_namespace_lookups_update_data_management#create LogAnalyticsNamespaceLookupsUpdateDataManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/log_analytics_namespace_lookups_update_data_management#create LogAnalyticsNamespaceLookupsUpdateDataManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

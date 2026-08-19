@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageConnector
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudExadataStorageConnector.DataOciDatabaseManagementCloudExadataStorageConnectorConfig")]
     public class DataOciDatabaseManagementCloudExadataStorageConnectorConfig : oci.DataOciDatabaseManagementCloudExadataStorageConnector.IDataOciDatabaseManagementCloudExadataStorageConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/database_management_cloud_exadata_storage_connector#cloud_exadata_storage_connector_id DataOciDatabaseManagementCloudExadataStorageConnector#cloud_exadata_storage_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_exadata_storage_connector#cloud_exadata_storage_connector_id DataOciDatabaseManagementCloudExadataStorageConnector#cloud_exadata_storage_connector_id}.</summary>
         [JsiiProperty(name: "cloudExadataStorageConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudExadataStorageConnectorId
         {

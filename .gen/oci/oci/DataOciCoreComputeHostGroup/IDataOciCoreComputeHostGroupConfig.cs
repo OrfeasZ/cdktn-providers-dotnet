@@ -7,7 +7,7 @@ namespace oci.DataOciCoreComputeHostGroup
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeHostGroupConfig), fullyQualifiedName: "oci.dataOciCoreComputeHostGroup.DataOciCoreComputeHostGroupConfig")]
     public interface IDataOciCoreComputeHostGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_host_group#compute_host_group_id DataOciCoreComputeHostGroup#compute_host_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_host_group#compute_host_group_id DataOciCoreComputeHostGroup#compute_host_group_id}.</summary>
         [JsiiProperty(name: "computeHostGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeHostGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreComputeHostGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/core_compute_host_group#compute_host_group_id DataOciCoreComputeHostGroup#compute_host_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_host_group#compute_host_group_id DataOciCoreComputeHostGroup#compute_host_group_id}.</summary>
             [JsiiProperty(name: "computeHostGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeHostGroupId
             {

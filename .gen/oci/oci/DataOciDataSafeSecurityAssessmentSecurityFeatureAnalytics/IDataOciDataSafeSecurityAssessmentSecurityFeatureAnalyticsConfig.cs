@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsConfig), fullyQualifiedName: "oci.dataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsConfig")]
     public interface IDataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#access_level DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#access_level DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#filter DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#filter DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics.IDataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#target_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#target_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -87,14 +87,14 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#access_level DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#access_level DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -102,7 +102,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#compartment_id_in_subtree DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -115,7 +115,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#filter DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#filter DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics.IDataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -125,7 +125,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.27.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#target_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#target_id DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
