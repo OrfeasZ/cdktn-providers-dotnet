@@ -7,14 +7,14 @@ namespace azurerm.ChaosStudioExperiment
     [JsiiInterface(nativeType: typeof(IChaosStudioExperimentStepsBranchActions), fullyQualifiedName: "azurerm.chaosStudioExperiment.ChaosStudioExperimentStepsBranchActions")]
     public interface IChaosStudioExperimentStepsBranchActions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#action_type ChaosStudioExperiment#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#action_type ChaosStudioExperiment#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         string ActionType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#duration ChaosStudioExperiment#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#duration ChaosStudioExperiment#duration}.</summary>
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Duration
@@ -25,7 +25,7 @@ namespace azurerm.ChaosStudioExperiment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#parameters ChaosStudioExperiment#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#parameters ChaosStudioExperiment#parameters}.</summary>
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -36,7 +36,7 @@ namespace azurerm.ChaosStudioExperiment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#selector_name ChaosStudioExperiment#selector_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#selector_name ChaosStudioExperiment#selector_name}.</summary>
         [JsiiProperty(name: "selectorName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SelectorName
@@ -47,7 +47,7 @@ namespace azurerm.ChaosStudioExperiment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#urn ChaosStudioExperiment#urn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#urn ChaosStudioExperiment#urn}.</summary>
         [JsiiProperty(name: "urn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Urn
@@ -65,14 +65,14 @@ namespace azurerm.ChaosStudioExperiment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#action_type ChaosStudioExperiment#action_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#action_type ChaosStudioExperiment#action_type}.</summary>
             [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
             public string ActionType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#duration ChaosStudioExperiment#duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#duration ChaosStudioExperiment#duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Duration
@@ -80,7 +80,7 @@ namespace azurerm.ChaosStudioExperiment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#parameters ChaosStudioExperiment#parameters}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#parameters ChaosStudioExperiment#parameters}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Parameters
@@ -88,7 +88,7 @@ namespace azurerm.ChaosStudioExperiment
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#selector_name ChaosStudioExperiment#selector_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#selector_name ChaosStudioExperiment#selector_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "selectorName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SelectorName
@@ -96,7 +96,7 @@ namespace azurerm.ChaosStudioExperiment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/chaos_studio_experiment#urn ChaosStudioExperiment#urn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/chaos_studio_experiment#urn ChaosStudioExperiment#urn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "urn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Urn

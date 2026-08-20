@@ -7,7 +7,7 @@ namespace azurerm.CosmosdbGremlinGraph
     [JsiiInterface(nativeType: typeof(ICosmosdbGremlinGraphUniqueKey), fullyQualifiedName: "azurerm.cosmosdbGremlinGraph.CosmosdbGremlinGraphUniqueKey")]
     public interface ICosmosdbGremlinGraphUniqueKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_gremlin_graph#paths CosmosdbGremlinGraph#paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_gremlin_graph#paths CosmosdbGremlinGraph#paths}.</summary>
         [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Paths
         {
@@ -21,7 +21,7 @@ namespace azurerm.CosmosdbGremlinGraph
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_gremlin_graph#paths CosmosdbGremlinGraph#paths}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_gremlin_graph#paths CosmosdbGremlinGraph#paths}.</summary>
             [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Paths
             {

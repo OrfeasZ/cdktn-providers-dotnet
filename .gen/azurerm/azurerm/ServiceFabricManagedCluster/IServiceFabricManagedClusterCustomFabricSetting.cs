@@ -7,21 +7,21 @@ namespace azurerm.ServiceFabricManagedCluster
     [JsiiInterface(nativeType: typeof(IServiceFabricManagedClusterCustomFabricSetting), fullyQualifiedName: "azurerm.serviceFabricManagedCluster.ServiceFabricManagedClusterCustomFabricSetting")]
     public interface IServiceFabricManagedClusterCustomFabricSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_managed_cluster#parameter ServiceFabricManagedCluster#parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/service_fabric_managed_cluster#parameter ServiceFabricManagedCluster#parameter}.</summary>
         [JsiiProperty(name: "parameter", typeJson: "{\"primitive\":\"string\"}")]
         string Parameter
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_managed_cluster#section ServiceFabricManagedCluster#section}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/service_fabric_managed_cluster#section ServiceFabricManagedCluster#section}.</summary>
         [JsiiProperty(name: "section", typeJson: "{\"primitive\":\"string\"}")]
         string Section
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_managed_cluster#value ServiceFabricManagedCluster#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/service_fabric_managed_cluster#value ServiceFabricManagedCluster#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -35,21 +35,21 @@ namespace azurerm.ServiceFabricManagedCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_managed_cluster#parameter ServiceFabricManagedCluster#parameter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/service_fabric_managed_cluster#parameter ServiceFabricManagedCluster#parameter}.</summary>
             [JsiiProperty(name: "parameter", typeJson: "{\"primitive\":\"string\"}")]
             public string Parameter
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_managed_cluster#section ServiceFabricManagedCluster#section}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/service_fabric_managed_cluster#section ServiceFabricManagedCluster#section}.</summary>
             [JsiiProperty(name: "section", typeJson: "{\"primitive\":\"string\"}")]
             public string Section
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/service_fabric_managed_cluster#value ServiceFabricManagedCluster#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/service_fabric_managed_cluster#value ServiceFabricManagedCluster#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

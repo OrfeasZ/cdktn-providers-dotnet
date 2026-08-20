@@ -7,7 +7,7 @@ namespace azurerm.CdnFrontdoorSecurityPolicy
     [JsiiInterface(nativeType: typeof(ICdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationDomain), fullyQualifiedName: "azurerm.cdnFrontdoorSecurityPolicy.CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationDomain")]
     public interface ICdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationDomain
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_frontdoor_security_policy#cdn_frontdoor_domain_id CdnFrontdoorSecurityPolicy#cdn_frontdoor_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_security_policy#cdn_frontdoor_domain_id CdnFrontdoorSecurityPolicy#cdn_frontdoor_domain_id}.</summary>
         [JsiiProperty(name: "cdnFrontdoorDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string CdnFrontdoorDomainId
         {
@@ -21,7 +21,7 @@ namespace azurerm.CdnFrontdoorSecurityPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_frontdoor_security_policy#cdn_frontdoor_domain_id CdnFrontdoorSecurityPolicy#cdn_frontdoor_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_security_policy#cdn_frontdoor_domain_id CdnFrontdoorSecurityPolicy#cdn_frontdoor_domain_id}.</summary>
             [JsiiProperty(name: "cdnFrontdoorDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string CdnFrontdoorDomainId
             {

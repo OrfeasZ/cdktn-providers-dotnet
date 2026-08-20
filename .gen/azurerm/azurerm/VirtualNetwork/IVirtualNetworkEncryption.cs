@@ -7,7 +7,7 @@ namespace azurerm.VirtualNetwork
     [JsiiInterface(nativeType: typeof(IVirtualNetworkEncryption), fullyQualifiedName: "azurerm.virtualNetwork.VirtualNetworkEncryption")]
     public interface IVirtualNetworkEncryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network#enforcement VirtualNetwork#enforcement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_network#enforcement VirtualNetwork#enforcement}.</summary>
         [JsiiProperty(name: "enforcement", typeJson: "{\"primitive\":\"string\"}")]
         string Enforcement
         {
@@ -21,7 +21,7 @@ namespace azurerm.VirtualNetwork
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_network#enforcement VirtualNetwork#enforcement}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_network#enforcement VirtualNetwork#enforcement}.</summary>
             [JsiiProperty(name: "enforcement", typeJson: "{\"primitive\":\"string\"}")]
             public string Enforcement
             {

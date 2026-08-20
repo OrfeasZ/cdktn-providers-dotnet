@@ -9,7 +9,7 @@ namespace azurerm.SentinelAutomationRule
     [JsiiByValue(fqn: "azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncidentTask")]
     public class SentinelAutomationRuleActionIncidentTask : azurerm.SentinelAutomationRule.ISentinelAutomationRuleActionIncidentTask
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#order SentinelAutomationRule#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#order SentinelAutomationRule#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
         public double Order
         {
@@ -17,7 +17,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#title SentinelAutomationRule#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#title SentinelAutomationRule#title}.</summary>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         public string Title
         {
@@ -25,7 +25,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#description SentinelAutomationRule#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#description SentinelAutomationRule#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

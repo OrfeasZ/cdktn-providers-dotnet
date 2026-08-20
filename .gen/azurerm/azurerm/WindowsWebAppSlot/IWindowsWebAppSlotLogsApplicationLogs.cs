@@ -7,7 +7,7 @@ namespace azurerm.WindowsWebAppSlot
     [JsiiInterface(nativeType: typeof(IWindowsWebAppSlotLogsApplicationLogs), fullyQualifiedName: "azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsApplicationLogs")]
     public interface IWindowsWebAppSlotLogsApplicationLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#file_system_level WindowsWebAppSlot#file_system_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#file_system_level WindowsWebAppSlot#file_system_level}.</summary>
         [JsiiProperty(name: "fileSystemLevel", typeJson: "{\"primitive\":\"string\"}")]
         string FileSystemLevel
         {
@@ -16,7 +16,7 @@ namespace azurerm.WindowsWebAppSlot
 
         /// <summary>azure_blob_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#azure_blob_storage WindowsWebAppSlot#azure_blob_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#azure_blob_storage WindowsWebAppSlot#azure_blob_storage}
         /// </remarks>
         [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsApplicationLogsAzureBlobStorage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azurerm.WindowsWebAppSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#file_system_level WindowsWebAppSlot#file_system_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#file_system_level WindowsWebAppSlot#file_system_level}.</summary>
             [JsiiProperty(name: "fileSystemLevel", typeJson: "{\"primitive\":\"string\"}")]
             public string FileSystemLevel
             {
@@ -44,7 +44,7 @@ namespace azurerm.WindowsWebAppSlot
 
             /// <summary>azure_blob_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_web_app_slot#azure_blob_storage WindowsWebAppSlot#azure_blob_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#azure_blob_storage WindowsWebAppSlot#azure_blob_storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.windowsWebAppSlot.WindowsWebAppSlotLogsApplicationLogsAzureBlobStorage\"}", isOptional: true)]

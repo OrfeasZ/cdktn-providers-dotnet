@@ -11,7 +11,7 @@ namespace azurerm.WindowsFunctionApp
     {
         /// <summary>The name which should be used for this Backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#name WindowsFunctionApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_function_app#name WindowsFunctionApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#schedule WindowsFunctionApp#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_function_app#schedule WindowsFunctionApp#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppBackupSchedule\"}")]
         public azurerm.WindowsFunctionApp.IWindowsFunctionAppBackupSchedule Schedule
@@ -33,7 +33,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The SAS URL to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#storage_account_url WindowsFunctionApp#storage_account_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_function_app#storage_account_url WindowsFunctionApp#storage_account_url}
         /// </remarks>
         [JsiiProperty(name: "storageAccountUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountUrl
@@ -46,7 +46,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Should this backup job be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_function_app#enabled WindowsFunctionApp#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_function_app#enabled WindowsFunctionApp#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

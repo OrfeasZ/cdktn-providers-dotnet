@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachineRunCommand
     [JsiiByValue(fqn: "azurerm.virtualMachineRunCommand.VirtualMachineRunCommandParameter")]
     public class VirtualMachineRunCommandParameter : azurerm.VirtualMachineRunCommand.IVirtualMachineRunCommandParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#name VirtualMachineRunCommand#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#name VirtualMachineRunCommand#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachineRunCommand
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#value VirtualMachineRunCommand#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#value VirtualMachineRunCommand#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

@@ -9,7 +9,7 @@ namespace azurerm.VirtualHubRoutingIntent
     [JsiiByValue(fqn: "azurerm.virtualHubRoutingIntent.VirtualHubRoutingIntentRoutingPolicy")]
     public class VirtualHubRoutingIntentRoutingPolicy : azurerm.VirtualHubRoutingIntent.IVirtualHubRoutingIntentRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_hub_routing_intent#destinations VirtualHubRoutingIntent#destinations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_hub_routing_intent#destinations VirtualHubRoutingIntent#destinations}.</summary>
         [JsiiProperty(name: "destinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Destinations
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualHubRoutingIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_hub_routing_intent#name VirtualHubRoutingIntent#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_hub_routing_intent#name VirtualHubRoutingIntent#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualHubRoutingIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_hub_routing_intent#next_hop VirtualHubRoutingIntent#next_hop}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_hub_routing_intent#next_hop VirtualHubRoutingIntent#next_hop}.</summary>
         [JsiiProperty(name: "nextHop", typeJson: "{\"primitive\":\"string\"}")]
         public string NextHop
         {

@@ -9,7 +9,7 @@ namespace azurerm.VpnGatewayConnection
     [JsiiByValue(fqn: "azurerm.vpnGatewayConnection.VpnGatewayConnectionVpnLinkCustomBgpAddress")]
     public class VpnGatewayConnectionVpnLinkCustomBgpAddress : azurerm.VpnGatewayConnection.IVpnGatewayConnectionVpnLinkCustomBgpAddress
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway_connection#ip_address VpnGatewayConnection#ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_gateway_connection#ip_address VpnGatewayConnection#ip_address}.</summary>
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string IpAddress
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway_connection#ip_configuration_id VpnGatewayConnection#ip_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_gateway_connection#ip_configuration_id VpnGatewayConnection#ip_configuration_id}.</summary>
         [JsiiProperty(name: "ipConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string IpConfigurationId
         {

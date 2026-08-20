@@ -9,7 +9,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
     [JsiiByValue(fqn: "azurerm.automationRuntimeEnvironmentPackage.AutomationRuntimeEnvironmentPackageConfig")]
     public class AutomationRuntimeEnvironmentPackageConfig : azurerm.AutomationRuntimeEnvironmentPackage.IAutomationRuntimeEnvironmentPackageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#automation_runtime_environment_id AutomationRuntimeEnvironmentPackage#automation_runtime_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#automation_runtime_environment_id AutomationRuntimeEnvironmentPackage#automation_runtime_environment_id}.</summary>
         [JsiiProperty(name: "automationRuntimeEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutomationRuntimeEnvironmentId
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#content_uri AutomationRuntimeEnvironmentPackage#content_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#content_uri AutomationRuntimeEnvironmentPackage#content_uri}.</summary>
         [JsiiProperty(name: "contentUri", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentUri
         {
@@ -25,7 +25,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#name AutomationRuntimeEnvironmentPackage#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#name AutomationRuntimeEnvironmentPackage#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#content_version AutomationRuntimeEnvironmentPackage#content_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#content_version AutomationRuntimeEnvironmentPackage#content_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentVersion
@@ -42,7 +42,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#hash_algorithm AutomationRuntimeEnvironmentPackage#hash_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#hash_algorithm AutomationRuntimeEnvironmentPackage#hash_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hashAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HashAlgorithm
@@ -51,7 +51,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#hash_value AutomationRuntimeEnvironmentPackage#hash_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#hash_value AutomationRuntimeEnvironmentPackage#hash_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hashValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HashValue
@@ -60,7 +60,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#id AutomationRuntimeEnvironmentPackage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#id AutomationRuntimeEnvironmentPackage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace azurerm.AutomationRuntimeEnvironmentPackage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_runtime_environment_package#timeouts AutomationRuntimeEnvironmentPackage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runtime_environment_package#timeouts AutomationRuntimeEnvironmentPackage#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.automationRuntimeEnvironmentPackage.AutomationRuntimeEnvironmentPackageTimeouts\"}", isOptional: true)]

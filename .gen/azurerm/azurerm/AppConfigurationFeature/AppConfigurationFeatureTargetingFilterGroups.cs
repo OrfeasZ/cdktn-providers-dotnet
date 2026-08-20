@@ -9,7 +9,7 @@ namespace azurerm.AppConfigurationFeature
     [JsiiByValue(fqn: "azurerm.appConfigurationFeature.AppConfigurationFeatureTargetingFilterGroups")]
     public class AppConfigurationFeatureTargetingFilterGroups : azurerm.AppConfigurationFeature.IAppConfigurationFeatureTargetingFilterGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/app_configuration_feature#name AppConfigurationFeature#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/app_configuration_feature#name AppConfigurationFeature#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.AppConfigurationFeature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/app_configuration_feature#rollout_percentage AppConfigurationFeature#rollout_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/app_configuration_feature#rollout_percentage AppConfigurationFeature#rollout_percentage}.</summary>
         [JsiiProperty(name: "rolloutPercentage", typeJson: "{\"primitive\":\"number\"}")]
         public double RolloutPercentage
         {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermApiManagementUser
     [JsiiInterface(nativeType: typeof(IDataAzurermApiManagementUserTimeouts), fullyQualifiedName: "azurerm.dataAzurermApiManagementUser.DataAzurermApiManagementUserTimeouts")]
     public interface IDataAzurermApiManagementUserTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/api_management_user#read DataAzurermApiManagementUser#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/api_management_user#read DataAzurermApiManagementUser#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermApiManagementUser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/api_management_user#read DataAzurermApiManagementUser#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/api_management_user#read DataAzurermApiManagementUser#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

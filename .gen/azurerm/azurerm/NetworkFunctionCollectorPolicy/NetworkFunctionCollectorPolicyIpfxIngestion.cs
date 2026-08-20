@@ -9,7 +9,7 @@ namespace azurerm.NetworkFunctionCollectorPolicy
     [JsiiByValue(fqn: "azurerm.networkFunctionCollectorPolicy.NetworkFunctionCollectorPolicyIpfxIngestion")]
     public class NetworkFunctionCollectorPolicyIpfxIngestion : azurerm.NetworkFunctionCollectorPolicy.INetworkFunctionCollectorPolicyIpfxIngestion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/network_function_collector_policy#source_resource_ids NetworkFunctionCollectorPolicy#source_resource_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/network_function_collector_policy#source_resource_ids NetworkFunctionCollectorPolicy#source_resource_ids}.</summary>
         [JsiiProperty(name: "sourceResourceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SourceResourceIds
         {

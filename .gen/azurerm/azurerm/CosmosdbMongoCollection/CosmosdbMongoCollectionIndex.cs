@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbMongoCollection
     [JsiiByValue(fqn: "azurerm.cosmosdbMongoCollection.CosmosdbMongoCollectionIndex")]
     public class CosmosdbMongoCollectionIndex : azurerm.CosmosdbMongoCollection.ICosmosdbMongoCollectionIndex
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_mongo_collection#keys CosmosdbMongoCollection#keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_mongo_collection#keys CosmosdbMongoCollection#keys}.</summary>
         [JsiiProperty(name: "keys", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Keys
         {
@@ -19,7 +19,7 @@ namespace azurerm.CosmosdbMongoCollection
 
         private object? _unique;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cosmosdb_mongo_collection#unique CosmosdbMongoCollection#unique}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_mongo_collection#unique CosmosdbMongoCollection#unique}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

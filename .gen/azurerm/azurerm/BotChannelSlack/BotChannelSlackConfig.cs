@@ -9,7 +9,7 @@ namespace azurerm.BotChannelSlack
     [JsiiByValue(fqn: "azurerm.botChannelSlack.BotChannelSlackConfig")]
     public class BotChannelSlackConfig : azurerm.BotChannelSlack.IBotChannelSlackConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#bot_name BotChannelSlack#bot_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#bot_name BotChannelSlack#bot_name}.</summary>
         [JsiiProperty(name: "botName", typeJson: "{\"primitive\":\"string\"}")]
         public string BotName
         {
@@ -17,7 +17,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#client_id BotChannelSlack#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#client_id BotChannelSlack#client_id}.</summary>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -25,7 +25,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#client_secret BotChannelSlack#client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#client_secret BotChannelSlack#client_secret}.</summary>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecret
         {
@@ -33,7 +33,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#location BotChannelSlack#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#location BotChannelSlack#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -41,7 +41,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#resource_group_name BotChannelSlack#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#resource_group_name BotChannelSlack#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -49,7 +49,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#verification_token BotChannelSlack#verification_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#verification_token BotChannelSlack#verification_token}.</summary>
         [JsiiProperty(name: "verificationToken", typeJson: "{\"primitive\":\"string\"}")]
         public string VerificationToken
         {
@@ -57,7 +57,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#id BotChannelSlack#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#id BotChannelSlack#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#landing_page_url BotChannelSlack#landing_page_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#landing_page_url BotChannelSlack#landing_page_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "landingPageUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LandingPageUrl
@@ -79,7 +79,7 @@ namespace azurerm.BotChannelSlack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#signing_secret BotChannelSlack#signing_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#signing_secret BotChannelSlack#signing_secret}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signingSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SigningSecret
@@ -90,7 +90,7 @@ namespace azurerm.BotChannelSlack
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/bot_channel_slack#timeouts BotChannelSlack#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/bot_channel_slack#timeouts BotChannelSlack#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.botChannelSlack.BotChannelSlackTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.ConfidentialLedger
     [JsiiByValue(fqn: "azurerm.confidentialLedger.ConfidentialLedgerCertificateBasedSecurityPrincipal")]
     public class ConfidentialLedgerCertificateBasedSecurityPrincipal : azurerm.ConfidentialLedger.IConfidentialLedgerCertificateBasedSecurityPrincipal
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/confidential_ledger#ledger_role_name ConfidentialLedger#ledger_role_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/confidential_ledger#ledger_role_name ConfidentialLedger#ledger_role_name}.</summary>
         [JsiiProperty(name: "ledgerRoleName", typeJson: "{\"primitive\":\"string\"}")]
         public string LedgerRoleName
         {
@@ -17,7 +17,7 @@ namespace azurerm.ConfidentialLedger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/confidential_ledger#pem_public_key ConfidentialLedger#pem_public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/confidential_ledger#pem_public_key ConfidentialLedger#pem_public_key}.</summary>
         [JsiiProperty(name: "pemPublicKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PemPublicKey
         {

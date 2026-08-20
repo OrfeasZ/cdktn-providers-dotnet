@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermExpressRouteCircuit
     [JsiiByValue(fqn: "azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuitTimeouts")]
     public class DataAzurermExpressRouteCircuitTimeouts : azurerm.DataAzurermExpressRouteCircuit.IDataAzurermExpressRouteCircuitTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/express_route_circuit#read DataAzurermExpressRouteCircuit#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/express_route_circuit#read DataAzurermExpressRouteCircuit#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

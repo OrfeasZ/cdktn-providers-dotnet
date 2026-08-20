@@ -9,7 +9,7 @@ namespace azurerm.KubernetesFleetUpdateRun
     [JsiiByValue(fqn: "azurerm.kubernetesFleetUpdateRun.KubernetesFleetUpdateRunStageGroup")]
     public class KubernetesFleetUpdateRunStageGroup : azurerm.KubernetesFleetUpdateRun.IKubernetesFleetUpdateRunStageGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_fleet_update_run#name KubernetesFleetUpdateRun#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_fleet_update_run#name KubernetesFleetUpdateRun#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

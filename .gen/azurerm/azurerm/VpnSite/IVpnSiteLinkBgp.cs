@@ -7,14 +7,14 @@ namespace azurerm.VpnSite
     [JsiiInterface(nativeType: typeof(IVpnSiteLinkBgp), fullyQualifiedName: "azurerm.vpnSite.VpnSiteLinkBgp")]
     public interface IVpnSiteLinkBgp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_site#asn VpnSite#asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_site#asn VpnSite#asn}.</summary>
         [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
         double Asn
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_site#peering_address VpnSite#peering_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_site#peering_address VpnSite#peering_address}.</summary>
         [JsiiProperty(name: "peeringAddress", typeJson: "{\"primitive\":\"string\"}")]
         string PeeringAddress
         {
@@ -28,14 +28,14 @@ namespace azurerm.VpnSite
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_site#asn VpnSite#asn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_site#asn VpnSite#asn}.</summary>
             [JsiiProperty(name: "asn", typeJson: "{\"primitive\":\"number\"}")]
             public double Asn
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_site#peering_address VpnSite#peering_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_site#peering_address VpnSite#peering_address}.</summary>
             [JsiiProperty(name: "peeringAddress", typeJson: "{\"primitive\":\"string\"}")]
             public string PeeringAddress
             {

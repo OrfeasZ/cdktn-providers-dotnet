@@ -7,7 +7,7 @@ namespace azurerm.KeyVaultCertificate
     [JsiiInterface(nativeType: typeof(IKeyVaultCertificateCertificatePolicyLifetimeActionAction), fullyQualifiedName: "azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionAction")]
     public interface IKeyVaultCertificateCertificatePolicyLifetimeActionAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#action_type KeyVaultCertificate#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/key_vault_certificate#action_type KeyVaultCertificate#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         string ActionType
         {
@@ -21,7 +21,7 @@ namespace azurerm.KeyVaultCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/key_vault_certificate#action_type KeyVaultCertificate#action_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/key_vault_certificate#action_type KeyVaultCertificate#action_type}.</summary>
             [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
             public string ActionType
             {

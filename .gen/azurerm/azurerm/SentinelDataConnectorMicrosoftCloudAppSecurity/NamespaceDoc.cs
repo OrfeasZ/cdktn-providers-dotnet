@@ -5,7 +5,7 @@ namespace azurerm.SentinelDataConnectorMicrosoftCloudAppSecurity
     /// <remarks>
     /// <h1><c>azurerm_sentinel_data_connector_microsoft_cloud_app_security</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security"><c>azurerm_sentinel_data_connector_microsoft_cloud_app_security</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security"><c>azurerm_sentinel_data_connector_microsoft_cloud_app_security</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

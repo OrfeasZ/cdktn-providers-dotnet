@@ -9,7 +9,7 @@ namespace azurerm.AutomanageConfiguration
     {
         /// <summary>retention_duration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automanage_configuration#retention_duration AutomanageConfiguration#retention_duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automanage_configuration#retention_duration AutomanageConfiguration#retention_duration}
         /// </remarks>
         [JsiiProperty(name: "retentionDuration", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDuration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace azurerm.AutomanageConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automanage_configuration#retention_times AutomanageConfiguration#retention_times}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automanage_configuration#retention_times AutomanageConfiguration#retention_times}.</summary>
         [JsiiProperty(name: "retentionTimes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? RetentionTimes
@@ -41,7 +41,7 @@ namespace azurerm.AutomanageConfiguration
 
             /// <summary>retention_duration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automanage_configuration#retention_duration AutomanageConfiguration#retention_duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automanage_configuration#retention_duration AutomanageConfiguration#retention_duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "retentionDuration", typeJson: "{\"fqn\":\"azurerm.automanageConfiguration.AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDuration\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azurerm.AutomanageConfiguration
                 get => GetInstanceProperty<azurerm.AutomanageConfiguration.IAutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDuration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automanage_configuration#retention_times AutomanageConfiguration#retention_times}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automanage_configuration#retention_times AutomanageConfiguration#retention_times}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionTimes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? RetentionTimes

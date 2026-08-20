@@ -9,7 +9,7 @@ namespace azurerm.LbProbe
     [JsiiByValue(fqn: "azurerm.lbProbe.LbProbeConfig")]
     public class LbProbeConfig : azurerm.LbProbe.ILbProbeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#loadbalancer_id LbProbe#loadbalancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#loadbalancer_id LbProbe#loadbalancer_id}.</summary>
         [JsiiProperty(name: "loadbalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadbalancerId
         {
@@ -17,7 +17,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#name LbProbe#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#name LbProbe#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#port LbProbe#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#port LbProbe#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -33,7 +33,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#id LbProbe#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#id LbProbe#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#interval_in_seconds LbProbe#interval_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#interval_in_seconds LbProbe#interval_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "intervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IntervalInSeconds
@@ -55,7 +55,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#number_of_probes LbProbe#number_of_probes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#number_of_probes LbProbe#number_of_probes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numberOfProbes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumberOfProbes
@@ -64,7 +64,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#probe_threshold LbProbe#probe_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#probe_threshold LbProbe#probe_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "probeThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ProbeThreshold
@@ -73,7 +73,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#protocol LbProbe#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#protocol LbProbe#protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Protocol
@@ -82,7 +82,7 @@ namespace azurerm.LbProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#request_path LbProbe#request_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#request_path LbProbe#request_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "requestPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RequestPath
@@ -93,7 +93,7 @@ namespace azurerm.LbProbe
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/lb_probe#timeouts LbProbe#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/lb_probe#timeouts LbProbe#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.lbProbe.LbProbeTimeouts\"}", isOptional: true)]

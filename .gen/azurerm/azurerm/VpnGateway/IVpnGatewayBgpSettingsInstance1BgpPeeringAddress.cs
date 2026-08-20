@@ -7,7 +7,7 @@ namespace azurerm.VpnGateway
     [JsiiInterface(nativeType: typeof(IVpnGatewayBgpSettingsInstance1BgpPeeringAddress), fullyQualifiedName: "azurerm.vpnGateway.VpnGatewayBgpSettingsInstance1BgpPeeringAddress")]
     public interface IVpnGatewayBgpSettingsInstance1BgpPeeringAddress
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway#custom_ips VpnGateway#custom_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_gateway#custom_ips VpnGateway#custom_ips}.</summary>
         [JsiiProperty(name: "customIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] CustomIps
         {
@@ -21,7 +21,7 @@ namespace azurerm.VpnGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_gateway#custom_ips VpnGateway#custom_ips}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_gateway#custom_ips VpnGateway#custom_ips}.</summary>
             [JsiiProperty(name: "customIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] CustomIps
             {

@@ -9,7 +9,7 @@ namespace azurerm.LinuxFunctionApp
     {
         /// <summary>Specifies a list of origins that should be allowed to make cross-origin calls.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_function_app#allowed_origins LinuxFunctionApp#allowed_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_function_app#allowed_origins LinuxFunctionApp#allowed_origins}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>Are credentials allowed in CORS requests? Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_function_app#support_credentials LinuxFunctionApp#support_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_function_app#support_credentials LinuxFunctionApp#support_credentials}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

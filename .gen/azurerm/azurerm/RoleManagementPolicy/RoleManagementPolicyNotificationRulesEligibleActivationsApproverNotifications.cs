@@ -13,7 +13,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>Whether the default recipients are notified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_management_policy#default_recipients RoleManagementPolicy#default_recipients}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_management_policy#default_recipients RoleManagementPolicy#default_recipients}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "defaultRecipients", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -45,7 +45,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>What level of notifications are sent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_management_policy#notification_level RoleManagementPolicy#notification_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_management_policy#notification_level RoleManagementPolicy#notification_level}
         /// </remarks>
         [JsiiProperty(name: "notificationLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string NotificationLevel
@@ -56,7 +56,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>The additional recipients to notify.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_management_policy#additional_recipients RoleManagementPolicy#additional_recipients}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_management_policy#additional_recipients RoleManagementPolicy#additional_recipients}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalRecipients", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

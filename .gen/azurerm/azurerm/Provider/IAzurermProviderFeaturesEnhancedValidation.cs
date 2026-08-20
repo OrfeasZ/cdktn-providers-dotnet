@@ -11,7 +11,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// When enabled, invalid locations are caught at plan time; when disabled, they are caught at apply time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#locations AzurermProvider#locations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#locations AzurermProvider#locations}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "locations", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -28,7 +28,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// Note: requires valid credentials and external Azure API access at plan-time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#preflight_enabled AzurermProvider#preflight_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#preflight_enabled AzurermProvider#preflight_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "preflightEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// This is typically used for resources that derive their location from a dependency that has not yet been created.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#preflight_location_fallback AzurermProvider#preflight_location_fallback}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#preflight_location_fallback AzurermProvider#preflight_location_fallback}
         /// </remarks>
         [JsiiProperty(name: "preflightLocationFallback", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace azurerm.Provider
         /// <remarks>
         /// When enabled, invalid resource providers are caught at plan time; when disabled, they are caught at apply time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#resource_providers AzurermProvider#resource_providers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#resource_providers AzurermProvider#resource_providers}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "resourceProviders", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// When enabled, invalid locations are caught at plan time; when disabled, they are caught at apply time.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#locations AzurermProvider#locations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#locations AzurermProvider#locations}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -99,7 +99,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// Note: requires valid credentials and external Azure API access at plan-time.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#preflight_enabled AzurermProvider#preflight_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#preflight_enabled AzurermProvider#preflight_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -113,7 +113,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// This is typically used for resources that derive their location from a dependency that has not yet been created.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#preflight_location_fallback AzurermProvider#preflight_location_fallback}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#preflight_location_fallback AzurermProvider#preflight_location_fallback}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preflightLocationFallback", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace azurerm.Provider
             /// <remarks>
             /// When enabled, invalid resource providers are caught at plan time; when disabled, they are caught at apply time.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs#resource_providers AzurermProvider#resource_providers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs#resource_providers AzurermProvider#resource_providers}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

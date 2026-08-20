@@ -9,7 +9,7 @@ namespace azurerm.RedisCache
     {
         private object? _activeDirectoryAuthenticationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#active_directory_authentication_enabled RedisCache#active_directory_authentication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#active_directory_authentication_enabled RedisCache#active_directory_authentication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace azurerm.RedisCache
 
         private object? _aofBackupEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#aof_backup_enabled RedisCache#aof_backup_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#aof_backup_enabled RedisCache#aof_backup_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace azurerm.RedisCache
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#aof_storage_connection_string_0 RedisCache#aof_storage_connection_string_0}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#aof_storage_connection_string_0 RedisCache#aof_storage_connection_string_0}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aofStorageConnectionString0", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AofStorageConnectionString0
@@ -84,7 +84,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#aof_storage_connection_string_1 RedisCache#aof_storage_connection_string_1}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#aof_storage_connection_string_1 RedisCache#aof_storage_connection_string_1}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aofStorageConnectionString1", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AofStorageConnectionString1
@@ -95,7 +95,7 @@ namespace azurerm.RedisCache
 
         private object? _authenticationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#authentication_enabled RedisCache#authentication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#authentication_enabled RedisCache#authentication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -127,7 +127,7 @@ namespace azurerm.RedisCache
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#data_persistence_authentication_method RedisCache#data_persistence_authentication_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#data_persistence_authentication_method RedisCache#data_persistence_authentication_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataPersistenceAuthenticationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataPersistenceAuthenticationMethod
@@ -136,7 +136,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#maxfragmentationmemory_reserved RedisCache#maxfragmentationmemory_reserved}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#maxfragmentationmemory_reserved RedisCache#maxfragmentationmemory_reserved}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxfragmentationmemoryReserved", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxfragmentationmemoryReserved
@@ -145,7 +145,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#maxmemory_delta RedisCache#maxmemory_delta}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#maxmemory_delta RedisCache#maxmemory_delta}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxmemoryDelta", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxmemoryDelta
@@ -154,7 +154,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#maxmemory_policy RedisCache#maxmemory_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#maxmemory_policy RedisCache#maxmemory_policy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxmemoryPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaxmemoryPolicy
@@ -163,7 +163,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#maxmemory_reserved RedisCache#maxmemory_reserved}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#maxmemory_reserved RedisCache#maxmemory_reserved}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxmemoryReserved", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxmemoryReserved
@@ -172,7 +172,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#notify_keyspace_events RedisCache#notify_keyspace_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#notify_keyspace_events RedisCache#notify_keyspace_events}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notifyKeyspaceEvents", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotifyKeyspaceEvents
@@ -183,7 +183,7 @@ namespace azurerm.RedisCache
 
         private object? _rdbBackupEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#rdb_backup_enabled RedisCache#rdb_backup_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#rdb_backup_enabled RedisCache#rdb_backup_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -215,7 +215,7 @@ namespace azurerm.RedisCache
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#rdb_backup_frequency RedisCache#rdb_backup_frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#rdb_backup_frequency RedisCache#rdb_backup_frequency}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rdbBackupFrequency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RdbBackupFrequency
@@ -224,7 +224,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#rdb_backup_max_snapshot_count RedisCache#rdb_backup_max_snapshot_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#rdb_backup_max_snapshot_count RedisCache#rdb_backup_max_snapshot_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rdbBackupMaxSnapshotCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RdbBackupMaxSnapshotCount
@@ -233,7 +233,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#rdb_storage_connection_string RedisCache#rdb_storage_connection_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#rdb_storage_connection_string RedisCache#rdb_storage_connection_string}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "rdbStorageConnectionString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RdbStorageConnectionString
@@ -242,7 +242,7 @@ namespace azurerm.RedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redis_cache#storage_account_subscription_id RedisCache#storage_account_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache#storage_account_subscription_id RedisCache#storage_account_subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountSubscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountSubscriptionId

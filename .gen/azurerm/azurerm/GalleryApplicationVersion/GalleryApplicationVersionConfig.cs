@@ -9,7 +9,7 @@ namespace azurerm.GalleryApplicationVersion
     [JsiiByValue(fqn: "azurerm.galleryApplicationVersion.GalleryApplicationVersionConfig")]
     public class GalleryApplicationVersionConfig : azurerm.GalleryApplicationVersion.IGalleryApplicationVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#gallery_application_id GalleryApplicationVersion#gallery_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#gallery_application_id GalleryApplicationVersion#gallery_application_id}.</summary>
         [JsiiProperty(name: "galleryApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string GalleryApplicationId
         {
@@ -17,7 +17,7 @@ namespace azurerm.GalleryApplicationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#location GalleryApplicationVersion#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#location GalleryApplicationVersion#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -27,7 +27,7 @@ namespace azurerm.GalleryApplicationVersion
 
         /// <summary>manage_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#manage_action GalleryApplicationVersion#manage_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#manage_action GalleryApplicationVersion#manage_action}
         /// </remarks>
         [JsiiProperty(name: "manageAction", typeJson: "{\"fqn\":\"azurerm.galleryApplicationVersion.GalleryApplicationVersionManageAction\"}")]
         public azurerm.GalleryApplicationVersion.IGalleryApplicationVersionManageAction ManageAction
@@ -36,7 +36,7 @@ namespace azurerm.GalleryApplicationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#name GalleryApplicationVersion#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#name GalleryApplicationVersion#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -46,7 +46,7 @@ namespace azurerm.GalleryApplicationVersion
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#source GalleryApplicationVersion#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#source GalleryApplicationVersion#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"azurerm.galleryApplicationVersion.GalleryApplicationVersionSource\"}")]
         public azurerm.GalleryApplicationVersion.IGalleryApplicationVersionSource Source
@@ -59,7 +59,7 @@ namespace azurerm.GalleryApplicationVersion
 
         /// <summary>target_region block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#target_region GalleryApplicationVersion#target_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#target_region GalleryApplicationVersion#target_region}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.GalleryApplicationVersion.IGalleryApplicationVersionTargetRegion" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "targetRegion", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.galleryApplicationVersion.GalleryApplicationVersionTargetRegion\"},\"kind\":\"array\"}}]}}")]
@@ -89,7 +89,7 @@ namespace azurerm.GalleryApplicationVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#config_file GalleryApplicationVersion#config_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#config_file GalleryApplicationVersion#config_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "configFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConfigFile
@@ -100,7 +100,7 @@ namespace azurerm.GalleryApplicationVersion
 
         private object? _enableHealthCheck;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#enable_health_check GalleryApplicationVersion#enable_health_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#enable_health_check GalleryApplicationVersion#enable_health_check}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -132,7 +132,7 @@ namespace azurerm.GalleryApplicationVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#end_of_life_date GalleryApplicationVersion#end_of_life_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#end_of_life_date GalleryApplicationVersion#end_of_life_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endOfLifeDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndOfLifeDate
@@ -143,7 +143,7 @@ namespace azurerm.GalleryApplicationVersion
 
         private object? _excludeFromLatest;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#exclude_from_latest GalleryApplicationVersion#exclude_from_latest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#exclude_from_latest GalleryApplicationVersion#exclude_from_latest}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -175,7 +175,7 @@ namespace azurerm.GalleryApplicationVersion
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#id GalleryApplicationVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#id GalleryApplicationVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -188,7 +188,7 @@ namespace azurerm.GalleryApplicationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#package_file GalleryApplicationVersion#package_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#package_file GalleryApplicationVersion#package_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "packageFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PackageFile
@@ -197,7 +197,7 @@ namespace azurerm.GalleryApplicationVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#tags GalleryApplicationVersion#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#tags GalleryApplicationVersion#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -208,7 +208,7 @@ namespace azurerm.GalleryApplicationVersion
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/gallery_application_version#timeouts GalleryApplicationVersion#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/gallery_application_version#timeouts GalleryApplicationVersion#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.galleryApplicationVersion.GalleryApplicationVersionTimeouts\"}", isOptional: true)]

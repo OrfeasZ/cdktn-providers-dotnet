@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAvailabilitySet
     [JsiiByValue(fqn: "azurerm.dataAzurermAvailabilitySet.DataAzurermAvailabilitySetTimeouts")]
     public class DataAzurermAvailabilitySetTimeouts : azurerm.DataAzurermAvailabilitySet.IDataAzurermAvailabilitySetTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/availability_set#read DataAzurermAvailabilitySet#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/availability_set#read DataAzurermAvailabilitySet#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

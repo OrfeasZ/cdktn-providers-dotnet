@@ -9,7 +9,7 @@ namespace azurerm.RedhatOpenshiftCluster
     [JsiiByValue(fqn: "azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterIngressProfile")]
     public class RedhatOpenshiftClusterIngressProfile : azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterIngressProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#visibility RedhatOpenshiftCluster#visibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redhat_openshift_cluster#visibility RedhatOpenshiftCluster#visibility}.</summary>
         [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}")]
         public string Visibility
         {

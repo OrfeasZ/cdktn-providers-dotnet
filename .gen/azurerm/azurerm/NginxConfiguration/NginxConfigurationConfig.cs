@@ -9,7 +9,7 @@ namespace azurerm.NginxConfiguration
     [JsiiByValue(fqn: "azurerm.nginxConfiguration.NginxConfigurationConfig")]
     public class NginxConfigurationConfig : azurerm.NginxConfiguration.INginxConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_configuration#nginx_deployment_id NginxConfiguration#nginx_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_configuration#nginx_deployment_id NginxConfiguration#nginx_deployment_id}.</summary>
         [JsiiProperty(name: "nginxDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string NginxDeploymentId
         {
@@ -17,7 +17,7 @@ namespace azurerm.NginxConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_configuration#root_file NginxConfiguration#root_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_configuration#root_file NginxConfiguration#root_file}.</summary>
         [JsiiProperty(name: "rootFile", typeJson: "{\"primitive\":\"string\"}")]
         public string RootFile
         {
@@ -29,7 +29,7 @@ namespace azurerm.NginxConfiguration
 
         /// <summary>config_file block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_configuration#config_file NginxConfiguration#config_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_configuration#config_file NginxConfiguration#config_file}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.NginxConfiguration.INginxConfigurationConfigFile" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace azurerm.NginxConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_configuration#id NginxConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_configuration#id NginxConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace azurerm.NginxConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_configuration#package_data NginxConfiguration#package_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_configuration#package_data NginxConfiguration#package_data}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "packageData", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PackageData
@@ -86,7 +86,7 @@ namespace azurerm.NginxConfiguration
 
         /// <summary>protected_file block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_configuration#protected_file NginxConfiguration#protected_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_configuration#protected_file NginxConfiguration#protected_file}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.NginxConfiguration.INginxConfigurationProtectedFile" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -119,7 +119,7 @@ namespace azurerm.NginxConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/nginx_configuration#timeouts NginxConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_configuration#timeouts NginxConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.nginxConfiguration.NginxConfigurationTimeouts\"}", isOptional: true)]

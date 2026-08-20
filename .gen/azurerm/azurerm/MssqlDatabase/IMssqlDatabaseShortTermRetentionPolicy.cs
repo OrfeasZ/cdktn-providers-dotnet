@@ -7,14 +7,14 @@ namespace azurerm.MssqlDatabase
     [JsiiInterface(nativeType: typeof(IMssqlDatabaseShortTermRetentionPolicy), fullyQualifiedName: "azurerm.mssqlDatabase.MssqlDatabaseShortTermRetentionPolicy")]
     public interface IMssqlDatabaseShortTermRetentionPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.</summary>
         [JsiiProperty(name: "retentionDays", typeJson: "{\"primitive\":\"number\"}")]
         double RetentionDays
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_database#backup_interval_in_hours MssqlDatabase#backup_interval_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#backup_interval_in_hours MssqlDatabase#backup_interval_in_hours}.</summary>
         [JsiiProperty(name: "backupIntervalInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BackupIntervalInHours
@@ -32,14 +32,14 @@ namespace azurerm.MssqlDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.</summary>
             [JsiiProperty(name: "retentionDays", typeJson: "{\"primitive\":\"number\"}")]
             public double RetentionDays
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_database#backup_interval_in_hours MssqlDatabase#backup_interval_in_hours}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_database#backup_interval_in_hours MssqlDatabase#backup_interval_in_hours}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupIntervalInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BackupIntervalInHours

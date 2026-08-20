@@ -51,6 +51,12 @@ namespace azurerm.RoleAssignment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetUpdate")]
+        public virtual void ResetUpdate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "createInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CreateInput
@@ -72,6 +78,13 @@ namespace azurerm.RoleAssignment
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "updateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UpdateInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Create
         {
@@ -88,6 +101,13 @@ namespace azurerm.RoleAssignment
 
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Read
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Update
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

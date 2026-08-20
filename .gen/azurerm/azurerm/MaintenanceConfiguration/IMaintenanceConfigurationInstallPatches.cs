@@ -9,7 +9,7 @@ namespace azurerm.MaintenanceConfiguration
     {
         /// <summary>linux block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maintenance_configuration#linux MaintenanceConfiguration#linux}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/maintenance_configuration#linux MaintenanceConfiguration#linux}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MaintenanceConfiguration.IMaintenanceConfigurationInstallPatchesLinux" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "linux", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesLinux\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -22,7 +22,7 @@ namespace azurerm.MaintenanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maintenance_configuration#reboot MaintenanceConfiguration#reboot}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/maintenance_configuration#reboot MaintenanceConfiguration#reboot}.</summary>
         [JsiiProperty(name: "reboot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Reboot
@@ -35,7 +35,7 @@ namespace azurerm.MaintenanceConfiguration
 
         /// <summary>windows block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maintenance_configuration#windows MaintenanceConfiguration#windows}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/maintenance_configuration#windows MaintenanceConfiguration#windows}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MaintenanceConfiguration.IMaintenanceConfigurationInstallPatchesWindows" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "windows", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.maintenanceConfiguration.MaintenanceConfigurationInstallPatchesWindows\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace azurerm.MaintenanceConfiguration
 
             /// <summary>linux block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maintenance_configuration#linux MaintenanceConfiguration#linux}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/maintenance_configuration#linux MaintenanceConfiguration#linux}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MaintenanceConfiguration.IMaintenanceConfigurationInstallPatchesLinux" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -67,7 +67,7 @@ namespace azurerm.MaintenanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maintenance_configuration#reboot MaintenanceConfiguration#reboot}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/maintenance_configuration#reboot MaintenanceConfiguration#reboot}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reboot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Reboot
@@ -77,7 +77,7 @@ namespace azurerm.MaintenanceConfiguration
 
             /// <summary>windows block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/maintenance_configuration#windows MaintenanceConfiguration#windows}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/maintenance_configuration#windows MaintenanceConfiguration#windows}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MaintenanceConfiguration.IMaintenanceConfigurationInstallPatchesWindows" />)[]</para>
             /// </remarks>
             [JsiiOptional]

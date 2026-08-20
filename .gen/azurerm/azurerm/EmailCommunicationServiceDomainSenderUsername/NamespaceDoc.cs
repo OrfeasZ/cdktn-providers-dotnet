@@ -5,7 +5,7 @@ namespace azurerm.EmailCommunicationServiceDomainSenderUsername
     /// <remarks>
     /// <h1><c>azurerm_email_communication_service_domain_sender_username</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/email_communication_service_domain_sender_username"><c>azurerm_email_communication_service_domain_sender_username</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain_sender_username"><c>azurerm_email_communication_service_domain_sender_username</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

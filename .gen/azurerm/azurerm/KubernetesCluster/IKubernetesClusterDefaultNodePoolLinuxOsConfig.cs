@@ -7,7 +7,7 @@ namespace azurerm.KubernetesCluster
     [JsiiInterface(nativeType: typeof(IKubernetesClusterDefaultNodePoolLinuxOsConfig), fullyQualifiedName: "azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfig")]
     public interface IKubernetesClusterDefaultNodePoolLinuxOsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#swap_file_size_mb KubernetesCluster#swap_file_size_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#swap_file_size_mb KubernetesCluster#swap_file_size_mb}.</summary>
         [JsiiProperty(name: "swapFileSizeMb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SwapFileSizeMb
@@ -20,7 +20,7 @@ namespace azurerm.KubernetesCluster
 
         /// <summary>sysctl_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#sysctl_config KubernetesCluster#sysctl_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#sysctl_config KubernetesCluster#sysctl_config}
         /// </remarks>
         [JsiiProperty(name: "sysctlConfig", typeJson: "{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace azurerm.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#transparent_huge_page KubernetesCluster#transparent_huge_page}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#transparent_huge_page KubernetesCluster#transparent_huge_page}.</summary>
         [JsiiProperty(name: "transparentHugePage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TransparentHugePage
@@ -43,7 +43,7 @@ namespace azurerm.KubernetesCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#transparent_huge_page_defrag KubernetesCluster#transparent_huge_page_defrag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#transparent_huge_page_defrag KubernetesCluster#transparent_huge_page_defrag}.</summary>
         [JsiiProperty(name: "transparentHugePageDefrag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TransparentHugePageDefrag
@@ -61,7 +61,7 @@ namespace azurerm.KubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#swap_file_size_mb KubernetesCluster#swap_file_size_mb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#swap_file_size_mb KubernetesCluster#swap_file_size_mb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "swapFileSizeMb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SwapFileSizeMb
@@ -71,7 +71,7 @@ namespace azurerm.KubernetesCluster
 
             /// <summary>sysctl_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#sysctl_config KubernetesCluster#sysctl_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#sysctl_config KubernetesCluster#sysctl_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sysctlConfig", typeJson: "{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfig\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace azurerm.KubernetesCluster
                 get => GetInstanceProperty<azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolLinuxOsConfigSysctlConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#transparent_huge_page KubernetesCluster#transparent_huge_page}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#transparent_huge_page KubernetesCluster#transparent_huge_page}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "transparentHugePage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TransparentHugePage
@@ -88,7 +88,7 @@ namespace azurerm.KubernetesCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/kubernetes_cluster#transparent_huge_page_defrag KubernetesCluster#transparent_huge_page_defrag}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kubernetes_cluster#transparent_huge_page_defrag KubernetesCluster#transparent_huge_page_defrag}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "transparentHugePageDefrag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TransparentHugePageDefrag

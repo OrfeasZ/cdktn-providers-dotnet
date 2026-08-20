@@ -9,7 +9,7 @@ namespace azurerm.NetappVolume
     [JsiiByValue(fqn: "azurerm.netappVolume.NetappVolumeDataProtectionReplication")]
     public class NetappVolumeDataProtectionReplication : azurerm.NetappVolume.INetappVolumeDataProtectionReplication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_volume#remote_volume_location NetappVolume#remote_volume_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/netapp_volume#remote_volume_location NetappVolume#remote_volume_location}.</summary>
         [JsiiProperty(name: "remoteVolumeLocation", typeJson: "{\"primitive\":\"string\"}")]
         public string RemoteVolumeLocation
         {
@@ -17,7 +17,7 @@ namespace azurerm.NetappVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_volume#remote_volume_resource_id NetappVolume#remote_volume_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/netapp_volume#remote_volume_resource_id NetappVolume#remote_volume_resource_id}.</summary>
         [JsiiProperty(name: "remoteVolumeResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string RemoteVolumeResourceId
         {
@@ -25,7 +25,7 @@ namespace azurerm.NetappVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_volume#replication_frequency NetappVolume#replication_frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/netapp_volume#replication_frequency NetappVolume#replication_frequency}.</summary>
         [JsiiProperty(name: "replicationFrequency", typeJson: "{\"primitive\":\"string\"}")]
         public string ReplicationFrequency
         {
@@ -33,7 +33,7 @@ namespace azurerm.NetappVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/netapp_volume#endpoint_type NetappVolume#endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/netapp_volume#endpoint_type NetappVolume#endpoint_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endpointType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndpointType

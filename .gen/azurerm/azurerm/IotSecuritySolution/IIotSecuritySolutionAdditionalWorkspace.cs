@@ -7,14 +7,14 @@ namespace azurerm.IotSecuritySolution
     [JsiiInterface(nativeType: typeof(IIotSecuritySolutionAdditionalWorkspace), fullyQualifiedName: "azurerm.iotSecuritySolution.IotSecuritySolutionAdditionalWorkspace")]
     public interface IIotSecuritySolutionAdditionalWorkspace
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iot_security_solution#data_types IotSecuritySolution#data_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iot_security_solution#data_types IotSecuritySolution#data_types}.</summary>
         [JsiiProperty(name: "dataTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] DataTypes
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iot_security_solution#workspace_id IotSecuritySolution#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iot_security_solution#workspace_id IotSecuritySolution#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkspaceId
         {
@@ -28,14 +28,14 @@ namespace azurerm.IotSecuritySolution
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iot_security_solution#data_types IotSecuritySolution#data_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iot_security_solution#data_types IotSecuritySolution#data_types}.</summary>
             [JsiiProperty(name: "dataTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] DataTypes
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/iot_security_solution#workspace_id IotSecuritySolution#workspace_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iot_security_solution#workspace_id IotSecuritySolution#workspace_id}.</summary>
             [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkspaceId
             {

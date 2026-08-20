@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermManagementGroup
     [JsiiByValue(fqn: "azurerm.dataAzurermManagementGroup.DataAzurermManagementGroupTimeouts")]
     public class DataAzurermManagementGroupTimeouts : azurerm.DataAzurermManagementGroup.IDataAzurermManagementGroupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/management_group#read DataAzurermManagementGroup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/management_group#read DataAzurermManagementGroup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

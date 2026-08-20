@@ -7,7 +7,7 @@ namespace azurerm.SecurityCenterAssessment
     [JsiiInterface(nativeType: typeof(ISecurityCenterAssessmentConfig), fullyQualifiedName: "azurerm.securityCenterAssessment.SecurityCenterAssessmentConfig")]
     public interface ISecurityCenterAssessmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#assessment_policy_id SecurityCenterAssessment#assessment_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#assessment_policy_id SecurityCenterAssessment#assessment_policy_id}.</summary>
         [JsiiProperty(name: "assessmentPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string AssessmentPolicyId
         {
@@ -16,7 +16,7 @@ namespace azurerm.SecurityCenterAssessment
 
         /// <summary>status block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#status SecurityCenterAssessment#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#status SecurityCenterAssessment#status}
         /// </remarks>
         [JsiiProperty(name: "status", typeJson: "{\"fqn\":\"azurerm.securityCenterAssessment.SecurityCenterAssessmentStatus\"}")]
         azurerm.SecurityCenterAssessment.ISecurityCenterAssessmentStatus Status
@@ -24,14 +24,14 @@ namespace azurerm.SecurityCenterAssessment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#target_resource_id SecurityCenterAssessment#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#target_resource_id SecurityCenterAssessment#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#additional_data SecurityCenterAssessment#additional_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#additional_data SecurityCenterAssessment#additional_data}.</summary>
         [JsiiProperty(name: "additionalData", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? AdditionalData
@@ -42,7 +42,7 @@ namespace azurerm.SecurityCenterAssessment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#id SecurityCenterAssessment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#id SecurityCenterAssessment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace azurerm.SecurityCenterAssessment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#timeouts SecurityCenterAssessment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#timeouts SecurityCenterAssessment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.securityCenterAssessment.SecurityCenterAssessmentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace azurerm.SecurityCenterAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#assessment_policy_id SecurityCenterAssessment#assessment_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#assessment_policy_id SecurityCenterAssessment#assessment_policy_id}.</summary>
             [JsiiProperty(name: "assessmentPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessmentPolicyId
             {
@@ -87,7 +87,7 @@ namespace azurerm.SecurityCenterAssessment
 
             /// <summary>status block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#status SecurityCenterAssessment#status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#status SecurityCenterAssessment#status}
             /// </remarks>
             [JsiiProperty(name: "status", typeJson: "{\"fqn\":\"azurerm.securityCenterAssessment.SecurityCenterAssessmentStatus\"}")]
             public azurerm.SecurityCenterAssessment.ISecurityCenterAssessmentStatus Status
@@ -95,14 +95,14 @@ namespace azurerm.SecurityCenterAssessment
                 get => GetInstanceProperty<azurerm.SecurityCenterAssessment.ISecurityCenterAssessmentStatus>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#target_resource_id SecurityCenterAssessment#target_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#target_resource_id SecurityCenterAssessment#target_resource_id}.</summary>
             [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#additional_data SecurityCenterAssessment#additional_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#additional_data SecurityCenterAssessment#additional_data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalData", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? AdditionalData
@@ -110,7 +110,7 @@ namespace azurerm.SecurityCenterAssessment
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#id SecurityCenterAssessment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#id SecurityCenterAssessment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ namespace azurerm.SecurityCenterAssessment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/security_center_assessment#timeouts SecurityCenterAssessment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment#timeouts SecurityCenterAssessment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.securityCenterAssessment.SecurityCenterAssessmentTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azurerm.MonitorMetricAlert
     [JsiiByValue(fqn: "azurerm.monitorMetricAlert.MonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteria")]
     public class MonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteria : azurerm.MonitorMetricAlert.IMonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_metric_alert#component_id MonitorMetricAlert#component_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_metric_alert#component_id MonitorMetricAlert#component_id}.</summary>
         [JsiiProperty(name: "componentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComponentId
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_metric_alert#failed_location_count MonitorMetricAlert#failed_location_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_metric_alert#failed_location_count MonitorMetricAlert#failed_location_count}.</summary>
         [JsiiProperty(name: "failedLocationCount", typeJson: "{\"primitive\":\"number\"}")]
         public double FailedLocationCount
         {
@@ -25,7 +25,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/monitor_metric_alert#web_test_id MonitorMetricAlert#web_test_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_metric_alert#web_test_id MonitorMetricAlert#web_test_id}.</summary>
         [JsiiProperty(name: "webTestId", typeJson: "{\"primitive\":\"string\"}")]
         public string WebTestId
         {

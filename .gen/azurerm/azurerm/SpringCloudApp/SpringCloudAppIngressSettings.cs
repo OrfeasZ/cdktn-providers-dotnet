@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudApp
     [JsiiByValue(fqn: "azurerm.springCloudApp.SpringCloudAppIngressSettings")]
     public class SpringCloudAppIngressSettings : azurerm.SpringCloudApp.ISpringCloudAppIngressSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_app#backend_protocol SpringCloudApp#backend_protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#backend_protocol SpringCloudApp#backend_protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backendProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackendProtocol
@@ -16,7 +16,7 @@ namespace azurerm.SpringCloudApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_app#read_timeout_in_seconds SpringCloudApp#read_timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#read_timeout_in_seconds SpringCloudApp#read_timeout_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "readTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReadTimeoutInSeconds
@@ -25,7 +25,7 @@ namespace azurerm.SpringCloudApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_app#send_timeout_in_seconds SpringCloudApp#send_timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#send_timeout_in_seconds SpringCloudApp#send_timeout_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sendTimeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SendTimeoutInSeconds
@@ -34,7 +34,7 @@ namespace azurerm.SpringCloudApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_app#session_affinity SpringCloudApp#session_affinity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#session_affinity SpringCloudApp#session_affinity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sessionAffinity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SessionAffinity
@@ -43,7 +43,7 @@ namespace azurerm.SpringCloudApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_app#session_cookie_max_age SpringCloudApp#session_cookie_max_age}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#session_cookie_max_age SpringCloudApp#session_cookie_max_age}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sessionCookieMaxAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SessionCookieMaxAge

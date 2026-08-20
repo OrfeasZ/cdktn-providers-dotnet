@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.RedhatOpenshiftCluster
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.RedhatOpenshiftCluster.RedhatOpenshiftCluster), fullyQualifiedName: "azurerm.redhatOpenshiftCluster.RedhatOpenshiftCluster", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterConfig\"}}]")]
     public class RedhatOpenshiftCluster : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public RedhatOpenshiftCluster(Constructs.Construct scope, string id, azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.RedhatOpenshiftCluster
         /// <param name="importToId">The construct id used in the generated config for the RedhatOpenshiftCluster to import.</param>
         /// <param name="importFromId">The id of the existing RedhatOpenshiftCluster that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the RedhatOpenshiftCluster to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the RedhatOpenshiftCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/redhat_openshift_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing RedhatOpenshiftCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the RedhatOpenshiftCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the RedhatOpenshiftCluster to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redhat_openshift_cluster#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing RedhatOpenshiftCluster that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the RedhatOpenshiftCluster to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.RedhatOpenshiftCluster.RedhatOpenshiftCluster), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -56,6 +56,12 @@ namespace azurerm.RedhatOpenshiftCluster
         public virtual void PutClusterProfile(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterClusterProfile @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterClusterProfile)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putIdentity", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterIdentity\"}}]")]
+        public virtual void PutIdentity(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterIdentity @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterIdentity)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putIngressProfile", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterIngressProfile\"}}]")]
@@ -74,6 +80,12 @@ namespace azurerm.RedhatOpenshiftCluster
         public virtual void PutNetworkProfile(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfile @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfile)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putPlatformWorkloadIdentityProfile", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterPlatformWorkloadIdentityProfile\"}}]")]
+        public virtual void PutPlatformWorkloadIdentityProfile(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterPlatformWorkloadIdentityProfile @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterPlatformWorkloadIdentityProfile)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putServicePrincipal", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipal\"}}]")]
@@ -96,6 +108,24 @@ namespace azurerm.RedhatOpenshiftCluster
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIdentity")]
+        public virtual void ResetIdentity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPlatformWorkloadIdentityProfile")]
+        public virtual void ResetPlatformWorkloadIdentityProfile()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetServicePrincipal")]
+        public virtual void ResetServicePrincipal()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -149,6 +179,12 @@ namespace azurerm.RedhatOpenshiftCluster
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterIdentityOutputReference\"}")]
+        public virtual azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterIdentityOutputReference Identity
+        {
+            get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterIdentityOutputReference>()!;
+        }
+
         [JsiiProperty(name: "ingressProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterIngressProfileOutputReference\"}")]
         public virtual azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterIngressProfileOutputReference IngressProfile
         {
@@ -165,6 +201,12 @@ namespace azurerm.RedhatOpenshiftCluster
         public virtual azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileOutputReference NetworkProfile
         {
             get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "platformWorkloadIdentityProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterPlatformWorkloadIdentityProfileOutputReference\"}")]
+        public virtual azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterPlatformWorkloadIdentityProfileOutputReference PlatformWorkloadIdentityProfile
+        {
+            get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterPlatformWorkloadIdentityProfileOutputReference>()!;
         }
 
         [JsiiProperty(name: "servicePrincipal", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterServicePrincipalOutputReference\"}")]
@@ -197,6 +239,13 @@ namespace azurerm.RedhatOpenshiftCluster
         public virtual azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterClusterProfile? ClusterProfileInput
         {
             get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterClusterProfile?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "identityInput", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterIdentity\"}", isOptional: true)]
+        public virtual azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterIdentity? IdentityInput
+        {
+            get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterIdentity?>();
         }
 
         [JsiiOptional]
@@ -239,6 +288,13 @@ namespace azurerm.RedhatOpenshiftCluster
         public virtual azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfile? NetworkProfileInput
         {
             get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfile?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "platformWorkloadIdentityProfileInput", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterPlatformWorkloadIdentityProfile\"}", isOptional: true)]
+        public virtual azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterPlatformWorkloadIdentityProfile? PlatformWorkloadIdentityProfileInput
+        {
+            get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterPlatformWorkloadIdentityProfile?>();
         }
 
         [JsiiOptional]

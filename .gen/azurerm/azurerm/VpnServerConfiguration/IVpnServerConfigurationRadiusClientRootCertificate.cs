@@ -7,14 +7,14 @@ namespace azurerm.VpnServerConfiguration
     [JsiiInterface(nativeType: typeof(IVpnServerConfigurationRadiusClientRootCertificate), fullyQualifiedName: "azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificate")]
     public interface IVpnServerConfigurationRadiusClientRootCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#thumbprint VpnServerConfiguration#thumbprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#thumbprint VpnServerConfiguration#thumbprint}.</summary>
         [JsiiProperty(name: "thumbprint", typeJson: "{\"primitive\":\"string\"}")]
         string Thumbprint
         {
@@ -28,14 +28,14 @@ namespace azurerm.VpnServerConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#thumbprint VpnServerConfiguration#thumbprint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#thumbprint VpnServerConfiguration#thumbprint}.</summary>
             [JsiiProperty(name: "thumbprint", typeJson: "{\"primitive\":\"string\"}")]
             public string Thumbprint
             {

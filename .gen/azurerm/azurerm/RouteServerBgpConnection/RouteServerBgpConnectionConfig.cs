@@ -9,7 +9,7 @@ namespace azurerm.RouteServerBgpConnection
     [JsiiByValue(fqn: "azurerm.routeServerBgpConnection.RouteServerBgpConnectionConfig")]
     public class RouteServerBgpConnectionConfig : azurerm.RouteServerBgpConnection.IRouteServerBgpConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_server_bgp_connection#name RouteServerBgpConnection#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server_bgp_connection#name RouteServerBgpConnection#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.RouteServerBgpConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_server_bgp_connection#peer_asn RouteServerBgpConnection#peer_asn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server_bgp_connection#peer_asn RouteServerBgpConnection#peer_asn}.</summary>
         [JsiiProperty(name: "peerAsn", typeJson: "{\"primitive\":\"number\"}")]
         public double PeerAsn
         {
@@ -25,7 +25,7 @@ namespace azurerm.RouteServerBgpConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_server_bgp_connection#peer_ip RouteServerBgpConnection#peer_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server_bgp_connection#peer_ip RouteServerBgpConnection#peer_ip}.</summary>
         [JsiiProperty(name: "peerIp", typeJson: "{\"primitive\":\"string\"}")]
         public string PeerIp
         {
@@ -33,7 +33,7 @@ namespace azurerm.RouteServerBgpConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_server_bgp_connection#route_server_id RouteServerBgpConnection#route_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server_bgp_connection#route_server_id RouteServerBgpConnection#route_server_id}.</summary>
         [JsiiProperty(name: "routeServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string RouteServerId
         {
@@ -41,7 +41,7 @@ namespace azurerm.RouteServerBgpConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_server_bgp_connection#id RouteServerBgpConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server_bgp_connection#id RouteServerBgpConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace azurerm.RouteServerBgpConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_server_bgp_connection#timeouts RouteServerBgpConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_server_bgp_connection#timeouts RouteServerBgpConnection#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.routeServerBgpConnection.RouteServerBgpConnectionTimeouts\"}", isOptional: true)]

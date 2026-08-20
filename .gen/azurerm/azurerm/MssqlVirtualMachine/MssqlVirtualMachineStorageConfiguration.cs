@@ -9,7 +9,7 @@ namespace azurerm.MssqlVirtualMachine
     [JsiiByValue(fqn: "azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfiguration")]
     public class MssqlVirtualMachineStorageConfiguration : azurerm.MssqlVirtualMachine.IMssqlVirtualMachineStorageConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_virtual_machine#disk_type MssqlVirtualMachine#disk_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#disk_type MssqlVirtualMachine#disk_type}.</summary>
         [JsiiProperty(name: "diskType", typeJson: "{\"primitive\":\"string\"}")]
         public string DiskType
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_virtual_machine#storage_workload_type MssqlVirtualMachine#storage_workload_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#storage_workload_type MssqlVirtualMachine#storage_workload_type}.</summary>
         [JsiiProperty(name: "storageWorkloadType", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageWorkloadType
         {
@@ -27,7 +27,7 @@ namespace azurerm.MssqlVirtualMachine
 
         /// <summary>data_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_virtual_machine#data_settings MssqlVirtualMachine#data_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#data_settings MssqlVirtualMachine#data_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSettings", typeJson: "{\"fqn\":\"azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationDataSettings\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace azurerm.MssqlVirtualMachine
 
         /// <summary>log_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_virtual_machine#log_settings MssqlVirtualMachine#log_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#log_settings MssqlVirtualMachine#log_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logSettings", typeJson: "{\"fqn\":\"azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationLogSettings\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace azurerm.MssqlVirtualMachine
 
         private object? _systemDbOnDataDiskEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_virtual_machine#system_db_on_data_disk_enabled MssqlVirtualMachine#system_db_on_data_disk_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#system_db_on_data_disk_enabled MssqlVirtualMachine#system_db_on_data_disk_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -85,7 +85,7 @@ namespace azurerm.MssqlVirtualMachine
 
         /// <summary>temp_db_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_virtual_machine#temp_db_settings MssqlVirtualMachine#temp_db_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#temp_db_settings MssqlVirtualMachine#temp_db_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tempDbSettings", typeJson: "{\"fqn\":\"azurerm.mssqlVirtualMachine.MssqlVirtualMachineStorageConfigurationTempDbSettings\"}", isOptional: true)]

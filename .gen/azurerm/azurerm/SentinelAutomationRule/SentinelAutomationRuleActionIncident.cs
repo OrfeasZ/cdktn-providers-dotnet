@@ -9,7 +9,7 @@ namespace azurerm.SentinelAutomationRule
     [JsiiByValue(fqn: "azurerm.sentinelAutomationRule.SentinelAutomationRuleActionIncident")]
     public class SentinelAutomationRuleActionIncident : azurerm.SentinelAutomationRule.ISentinelAutomationRuleActionIncident
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#order SentinelAutomationRule#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#order SentinelAutomationRule#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
         public double Order
         {
@@ -17,7 +17,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#classification SentinelAutomationRule#classification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#classification SentinelAutomationRule#classification}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "classification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Classification
@@ -26,7 +26,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#classification_comment SentinelAutomationRule#classification_comment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#classification_comment SentinelAutomationRule#classification_comment}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "classificationComment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClassificationComment
@@ -35,7 +35,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#labels SentinelAutomationRule#labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#labels SentinelAutomationRule#labels}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Labels
@@ -44,7 +44,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#owner_id SentinelAutomationRule#owner_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#owner_id SentinelAutomationRule#owner_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ownerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OwnerId
@@ -53,7 +53,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#severity SentinelAutomationRule#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#severity SentinelAutomationRule#severity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Severity
@@ -62,7 +62,7 @@ namespace azurerm.SentinelAutomationRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_automation_rule#status SentinelAutomationRule#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_automation_rule#status SentinelAutomationRule#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status

@@ -7,7 +7,7 @@ namespace azurerm.EventgridTopic
     [JsiiByValue(fqn: "azurerm.eventgridTopic.EventgridTopicInboundIpRule")]
     public class EventgridTopicInboundIpRule : azurerm.EventgridTopic.IEventgridTopicInboundIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_topic#action EventgridTopic#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_topic#action EventgridTopic#action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Action
@@ -16,7 +16,7 @@ namespace azurerm.EventgridTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_topic#ip_mask EventgridTopic#ip_mask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_topic#ip_mask EventgridTopic#ip_mask}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipMask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IpMask

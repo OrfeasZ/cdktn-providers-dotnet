@@ -9,7 +9,7 @@ namespace azurerm.HealthcareDicomService
     [JsiiByValue(fqn: "azurerm.healthcareDicomService.HealthcareDicomServiceStorage")]
     public class HealthcareDicomServiceStorage : azurerm.HealthcareDicomService.IHealthcareDicomServiceStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/healthcare_dicom_service#file_system_name HealthcareDicomService#file_system_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/healthcare_dicom_service#file_system_name HealthcareDicomService#file_system_name}.</summary>
         [JsiiProperty(name: "fileSystemName", typeJson: "{\"primitive\":\"string\"}")]
         public string FileSystemName
         {
@@ -17,7 +17,7 @@ namespace azurerm.HealthcareDicomService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/healthcare_dicom_service#storage_account_id HealthcareDicomService#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/healthcare_dicom_service#storage_account_id HealthcareDicomService#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountId
         {

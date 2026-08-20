@@ -9,7 +9,7 @@ namespace azurerm.VpnServerConfiguration
     [JsiiByValue(fqn: "azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusClientRootCertificate")]
     public class VpnServerConfigurationRadiusClientRootCertificate : azurerm.VpnServerConfiguration.IVpnServerConfigurationRadiusClientRootCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnServerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/vpn_server_configuration#thumbprint VpnServerConfiguration#thumbprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#thumbprint VpnServerConfiguration#thumbprint}.</summary>
         [JsiiProperty(name: "thumbprint", typeJson: "{\"primitive\":\"string\"}")]
         public string Thumbprint
         {

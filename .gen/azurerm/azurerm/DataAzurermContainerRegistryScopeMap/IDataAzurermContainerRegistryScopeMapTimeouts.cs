@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermContainerRegistryScopeMap
     [JsiiInterface(nativeType: typeof(IDataAzurermContainerRegistryScopeMapTimeouts), fullyQualifiedName: "azurerm.dataAzurermContainerRegistryScopeMap.DataAzurermContainerRegistryScopeMapTimeouts")]
     public interface IDataAzurermContainerRegistryScopeMapTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/container_registry_scope_map#read DataAzurermContainerRegistryScopeMap#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/container_registry_scope_map#read DataAzurermContainerRegistryScopeMap#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermContainerRegistryScopeMap
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/container_registry_scope_map#read DataAzurermContainerRegistryScopeMap#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/container_registry_scope_map#read DataAzurermContainerRegistryScopeMap#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

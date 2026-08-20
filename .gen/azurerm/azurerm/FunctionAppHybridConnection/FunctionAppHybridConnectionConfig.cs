@@ -11,7 +11,7 @@ namespace azurerm.FunctionAppHybridConnection
     {
         /// <summary>The ID of the Function App for this Hybrid Connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_hybrid_connection#function_app_id FunctionAppHybridConnection#function_app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_hybrid_connection#function_app_id FunctionAppHybridConnection#function_app_id}
         /// </remarks>
         [JsiiProperty(name: "functionAppId", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionAppId
@@ -22,7 +22,7 @@ namespace azurerm.FunctionAppHybridConnection
 
         /// <summary>The hostname of the endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_hybrid_connection#hostname FunctionAppHybridConnection#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_hybrid_connection#hostname FunctionAppHybridConnection#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
@@ -33,7 +33,7 @@ namespace azurerm.FunctionAppHybridConnection
 
         /// <summary>The port to use for the endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_hybrid_connection#port FunctionAppHybridConnection#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_hybrid_connection#port FunctionAppHybridConnection#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
@@ -44,7 +44,7 @@ namespace azurerm.FunctionAppHybridConnection
 
         /// <summary>The ID of the Relay Hybrid Connection to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_hybrid_connection#relay_id FunctionAppHybridConnection#relay_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_hybrid_connection#relay_id FunctionAppHybridConnection#relay_id}
         /// </remarks>
         [JsiiProperty(name: "relayId", typeJson: "{\"primitive\":\"string\"}")]
         public string RelayId
@@ -53,7 +53,7 @@ namespace azurerm.FunctionAppHybridConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_hybrid_connection#id FunctionAppHybridConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_hybrid_connection#id FunctionAppHybridConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace azurerm.FunctionAppHybridConnection
 
         /// <summary>The name of the Relay key with `Send` permission to use. Defaults to `RootManageSharedAccessKey`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_hybrid_connection#send_key_name FunctionAppHybridConnection#send_key_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_hybrid_connection#send_key_name FunctionAppHybridConnection#send_key_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sendKeyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace azurerm.FunctionAppHybridConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/function_app_hybrid_connection#timeouts FunctionAppHybridConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_hybrid_connection#timeouts FunctionAppHybridConnection#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.functionAppHybridConnection.FunctionAppHybridConnectionTimeouts\"}", isOptional: true)]

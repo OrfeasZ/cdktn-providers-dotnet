@@ -7,14 +7,14 @@ namespace azurerm.SynapseSparkPool
     [JsiiInterface(nativeType: typeof(ISynapseSparkPoolAutoScale), fullyQualifiedName: "azurerm.synapseSparkPool.SynapseSparkPoolAutoScale")]
     public interface ISynapseSparkPoolAutoScale
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_spark_pool#max_node_count SynapseSparkPool#max_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/synapse_spark_pool#max_node_count SynapseSparkPool#max_node_count}.</summary>
         [JsiiProperty(name: "maxNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         double MaxNodeCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_spark_pool#min_node_count SynapseSparkPool#min_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/synapse_spark_pool#min_node_count SynapseSparkPool#min_node_count}.</summary>
         [JsiiProperty(name: "minNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         double MinNodeCount
         {
@@ -28,14 +28,14 @@ namespace azurerm.SynapseSparkPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_spark_pool#max_node_count SynapseSparkPool#max_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/synapse_spark_pool#max_node_count SynapseSparkPool#max_node_count}.</summary>
             [JsiiProperty(name: "maxNodeCount", typeJson: "{\"primitive\":\"number\"}")]
             public double MaxNodeCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/synapse_spark_pool#min_node_count SynapseSparkPool#min_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/synapse_spark_pool#min_node_count SynapseSparkPool#min_node_count}.</summary>
             [JsiiProperty(name: "minNodeCount", typeJson: "{\"primitive\":\"number\"}")]
             public double MinNodeCount
             {

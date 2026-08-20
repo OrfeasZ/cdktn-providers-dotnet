@@ -7,7 +7,7 @@ namespace azurerm.EventgridTopic
     [JsiiByValue(fqn: "azurerm.eventgridTopic.EventgridTopicInputMappingDefaultValues")]
     public class EventgridTopicInputMappingDefaultValues : azurerm.EventgridTopic.IEventgridTopicInputMappingDefaultValues
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_topic#data_version EventgridTopic#data_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_topic#data_version EventgridTopic#data_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataVersion
@@ -16,7 +16,7 @@ namespace azurerm.EventgridTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_topic#event_type EventgridTopic#event_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_topic#event_type EventgridTopic#event_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eventType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EventType
@@ -25,7 +25,7 @@ namespace azurerm.EventgridTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventgrid_topic#subject EventgridTopic#subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventgrid_topic#subject EventgridTopic#subject}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Subject

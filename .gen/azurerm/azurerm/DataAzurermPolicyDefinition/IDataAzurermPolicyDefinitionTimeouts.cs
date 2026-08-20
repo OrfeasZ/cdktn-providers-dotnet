@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPolicyDefinition
     [JsiiInterface(nativeType: typeof(IDataAzurermPolicyDefinitionTimeouts), fullyQualifiedName: "azurerm.dataAzurermPolicyDefinition.DataAzurermPolicyDefinitionTimeouts")]
     public interface IDataAzurermPolicyDefinitionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/policy_definition#read DataAzurermPolicyDefinition#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/policy_definition#read DataAzurermPolicyDefinition#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermPolicyDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/policy_definition#read DataAzurermPolicyDefinition#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/policy_definition#read DataAzurermPolicyDefinition#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

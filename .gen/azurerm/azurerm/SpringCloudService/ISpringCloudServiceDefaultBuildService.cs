@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudService
     [JsiiInterface(nativeType: typeof(ISpringCloudServiceDefaultBuildService), fullyQualifiedName: "azurerm.springCloudService.SpringCloudServiceDefaultBuildService")]
     public interface ISpringCloudServiceDefaultBuildService
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#container_registry_name SpringCloudService#container_registry_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_service#container_registry_name SpringCloudService#container_registry_name}.</summary>
         [JsiiProperty(name: "containerRegistryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContainerRegistryName
@@ -25,7 +25,7 @@ namespace azurerm.SpringCloudService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#container_registry_name SpringCloudService#container_registry_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_service#container_registry_name SpringCloudService#container_registry_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "containerRegistryName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContainerRegistryName

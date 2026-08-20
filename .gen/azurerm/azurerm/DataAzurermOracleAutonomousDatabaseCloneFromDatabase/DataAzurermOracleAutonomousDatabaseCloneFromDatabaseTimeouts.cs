@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermOracleAutonomousDatabaseCloneFromDatabase
     [JsiiByValue(fqn: "azurerm.dataAzurermOracleAutonomousDatabaseCloneFromDatabase.DataAzurermOracleAutonomousDatabaseCloneFromDatabaseTimeouts")]
     public class DataAzurermOracleAutonomousDatabaseCloneFromDatabaseTimeouts : azurerm.DataAzurermOracleAutonomousDatabaseCloneFromDatabase.IDataAzurermOracleAutonomousDatabaseCloneFromDatabaseTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/oracle_autonomous_database_clone_from_database#read DataAzurermOracleAutonomousDatabaseCloneFromDatabase#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/oracle_autonomous_database_clone_from_database#read DataAzurermOracleAutonomousDatabaseCloneFromDatabase#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermKubernetesServiceVersions
     [JsiiByValue(fqn: "azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersionsTimeouts")]
     public class DataAzurermKubernetesServiceVersionsTimeouts : azurerm.DataAzurermKubernetesServiceVersions.IDataAzurermKubernetesServiceVersionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/kubernetes_service_versions#read DataAzurermKubernetesServiceVersions#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/kubernetes_service_versions#read DataAzurermKubernetesServiceVersions#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

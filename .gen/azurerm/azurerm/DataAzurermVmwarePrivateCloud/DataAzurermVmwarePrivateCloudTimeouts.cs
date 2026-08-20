@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVmwarePrivateCloud
     [JsiiByValue(fqn: "azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloudTimeouts")]
     public class DataAzurermVmwarePrivateCloudTimeouts : azurerm.DataAzurermVmwarePrivateCloud.IDataAzurermVmwarePrivateCloudTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/vmware_private_cloud#read DataAzurermVmwarePrivateCloud#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/vmware_private_cloud#read DataAzurermVmwarePrivateCloud#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.VirtualMachineRunCommand
     [JsiiInterface(nativeType: typeof(IVirtualMachineRunCommandSource), fullyQualifiedName: "azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSource")]
     public interface IVirtualMachineRunCommandSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#command_id VirtualMachineRunCommand#command_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#command_id VirtualMachineRunCommand#command_id}.</summary>
         [JsiiProperty(name: "commandId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CommandId
@@ -18,7 +18,7 @@ namespace azurerm.VirtualMachineRunCommand
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#script VirtualMachineRunCommand#script}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#script VirtualMachineRunCommand#script}.</summary>
         [JsiiProperty(name: "script", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Script
@@ -29,7 +29,7 @@ namespace azurerm.VirtualMachineRunCommand
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#script_uri VirtualMachineRunCommand#script_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#script_uri VirtualMachineRunCommand#script_uri}.</summary>
         [JsiiProperty(name: "scriptUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScriptUri
@@ -42,7 +42,7 @@ namespace azurerm.VirtualMachineRunCommand
 
         /// <summary>script_uri_managed_identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#script_uri_managed_identity VirtualMachineRunCommand#script_uri_managed_identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#script_uri_managed_identity VirtualMachineRunCommand#script_uri_managed_identity}
         /// </remarks>
         [JsiiProperty(name: "scriptUriManagedIdentity", typeJson: "{\"fqn\":\"azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceScriptUriManagedIdentity\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace azurerm.VirtualMachineRunCommand
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#command_id VirtualMachineRunCommand#command_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#command_id VirtualMachineRunCommand#command_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "commandId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CommandId
@@ -69,7 +69,7 @@ namespace azurerm.VirtualMachineRunCommand
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#script VirtualMachineRunCommand#script}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#script VirtualMachineRunCommand#script}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "script", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Script
@@ -77,7 +77,7 @@ namespace azurerm.VirtualMachineRunCommand
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#script_uri VirtualMachineRunCommand#script_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#script_uri VirtualMachineRunCommand#script_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scriptUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScriptUri
@@ -87,7 +87,7 @@ namespace azurerm.VirtualMachineRunCommand
 
             /// <summary>script_uri_managed_identity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/virtual_machine_run_command#script_uri_managed_identity VirtualMachineRunCommand#script_uri_managed_identity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_machine_run_command#script_uri_managed_identity VirtualMachineRunCommand#script_uri_managed_identity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scriptUriManagedIdentity", typeJson: "{\"fqn\":\"azurerm.virtualMachineRunCommand.VirtualMachineRunCommandSourceScriptUriManagedIdentity\"}", isOptional: true)]

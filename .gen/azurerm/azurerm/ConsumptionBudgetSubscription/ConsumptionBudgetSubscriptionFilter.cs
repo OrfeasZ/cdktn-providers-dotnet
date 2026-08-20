@@ -11,7 +11,7 @@ namespace azurerm.ConsumptionBudgetSubscription
 
         /// <summary>dimension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/consumption_budget_subscription#dimension ConsumptionBudgetSubscription#dimension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_subscription#dimension ConsumptionBudgetSubscription#dimension}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ConsumptionBudgetSubscription.IConsumptionBudgetSubscriptionFilterDimension" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace azurerm.ConsumptionBudgetSubscription
 
         /// <summary>tag block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/consumption_budget_subscription#tag ConsumptionBudgetSubscription#tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_subscription#tag ConsumptionBudgetSubscription#tag}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ConsumptionBudgetSubscription.IConsumptionBudgetSubscriptionFilterTag" />)[]</para>
         /// </remarks>
         [JsiiOptional]

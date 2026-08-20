@@ -9,7 +9,7 @@ namespace azurerm.Eventhub
     [JsiiByValue(fqn: "azurerm.eventhub.EventhubRetentionDescription")]
     public class EventhubRetentionDescription : azurerm.Eventhub.IEventhubRetentionDescription
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#cleanup_policy Eventhub#cleanup_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#cleanup_policy Eventhub#cleanup_policy}.</summary>
         [JsiiProperty(name: "cleanupPolicy", typeJson: "{\"primitive\":\"string\"}")]
         public string CleanupPolicy
         {
@@ -17,7 +17,7 @@ namespace azurerm.Eventhub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#retention_time_in_hours Eventhub#retention_time_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#retention_time_in_hours Eventhub#retention_time_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionTimeInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionTimeInHours
@@ -26,7 +26,7 @@ namespace azurerm.Eventhub
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/eventhub#tombstone_retention_time_in_hours Eventhub#tombstone_retention_time_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#tombstone_retention_time_in_hours Eventhub#tombstone_retention_time_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tombstoneRetentionTimeInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TombstoneRetentionTimeInHours

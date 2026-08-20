@@ -5,7 +5,7 @@ namespace azurerm.MssqlServerExtendedAuditingPolicy
     /// <remarks>
     /// <h1><c>azurerm_mssql_server_extended_auditing_policy</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/mssql_server_extended_auditing_policy"><c>azurerm_mssql_server_extended_auditing_policy</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_server_extended_auditing_policy"><c>azurerm_mssql_server_extended_auditing_policy</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

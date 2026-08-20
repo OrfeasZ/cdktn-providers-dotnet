@@ -7,7 +7,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundUntrustCertificateAssociation
     [JsiiByValue(fqn: "azurerm.paloAltoLocalRulestackOutboundUntrustCertificateAssociation.PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeouts")]
     public class PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeouts : azurerm.PaloAltoLocalRulestackOutboundUntrustCertificateAssociation.IPaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_local_rulestack_outbound_untrust_certificate_association#create PaloAltoLocalRulestackOutboundUntrustCertificateAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/palo_alto_local_rulestack_outbound_untrust_certificate_association#create PaloAltoLocalRulestackOutboundUntrustCertificateAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundUntrustCertificateAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_local_rulestack_outbound_untrust_certificate_association#delete PaloAltoLocalRulestackOutboundUntrustCertificateAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/palo_alto_local_rulestack_outbound_untrust_certificate_association#delete PaloAltoLocalRulestackOutboundUntrustCertificateAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundUntrustCertificateAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/palo_alto_local_rulestack_outbound_untrust_certificate_association#read PaloAltoLocalRulestackOutboundUntrustCertificateAssociation#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/palo_alto_local_rulestack_outbound_untrust_certificate_association#read PaloAltoLocalRulestackOutboundUntrustCertificateAssociation#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

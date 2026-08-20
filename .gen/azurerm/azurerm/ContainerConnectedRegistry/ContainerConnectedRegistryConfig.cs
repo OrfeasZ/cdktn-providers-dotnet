@@ -9,7 +9,7 @@ namespace azurerm.ContainerConnectedRegistry
     [JsiiByValue(fqn: "azurerm.containerConnectedRegistry.ContainerConnectedRegistryConfig")]
     public class ContainerConnectedRegistryConfig : azurerm.ContainerConnectedRegistry.IContainerConnectedRegistryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#container_registry_id ContainerConnectedRegistry#container_registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#container_registry_id ContainerConnectedRegistry#container_registry_id}.</summary>
         [JsiiProperty(name: "containerRegistryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerRegistryId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#name ContainerConnectedRegistry#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#name ContainerConnectedRegistry#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#sync_token_id ContainerConnectedRegistry#sync_token_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#sync_token_id ContainerConnectedRegistry#sync_token_id}.</summary>
         [JsiiProperty(name: "syncTokenId", typeJson: "{\"primitive\":\"string\"}")]
         public string SyncTokenId
         {
@@ -35,7 +35,7 @@ namespace azurerm.ContainerConnectedRegistry
 
         private object? _auditLogEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#audit_log_enabled ContainerConnectedRegistry#audit_log_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#audit_log_enabled ContainerConnectedRegistry#audit_log_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -67,7 +67,7 @@ namespace azurerm.ContainerConnectedRegistry
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#client_token_ids ContainerConnectedRegistry#client_token_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#client_token_ids ContainerConnectedRegistry#client_token_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientTokenIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ClientTokenIds
@@ -76,7 +76,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#id ContainerConnectedRegistry#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#id ContainerConnectedRegistry#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,7 +89,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#log_level ContainerConnectedRegistry#log_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#log_level ContainerConnectedRegistry#log_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogLevel
@@ -98,7 +98,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#mode ContainerConnectedRegistry#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#mode ContainerConnectedRegistry#mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mode
@@ -111,7 +111,7 @@ namespace azurerm.ContainerConnectedRegistry
 
         /// <summary>notification block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#notification ContainerConnectedRegistry#notification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#notification ContainerConnectedRegistry#notification}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerConnectedRegistry.IContainerConnectedRegistryNotification" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -142,7 +142,7 @@ namespace azurerm.ContainerConnectedRegistry
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#parent_registry_id ContainerConnectedRegistry#parent_registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#parent_registry_id ContainerConnectedRegistry#parent_registry_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parentRegistryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ParentRegistryId
@@ -151,7 +151,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#sync_message_ttl ContainerConnectedRegistry#sync_message_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#sync_message_ttl ContainerConnectedRegistry#sync_message_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "syncMessageTtl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SyncMessageTtl
@@ -160,7 +160,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#sync_schedule ContainerConnectedRegistry#sync_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#sync_schedule ContainerConnectedRegistry#sync_schedule}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "syncSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SyncSchedule
@@ -169,7 +169,7 @@ namespace azurerm.ContainerConnectedRegistry
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#sync_window ContainerConnectedRegistry#sync_window}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#sync_window ContainerConnectedRegistry#sync_window}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "syncWindow", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SyncWindow
@@ -180,7 +180,7 @@ namespace azurerm.ContainerConnectedRegistry
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_connected_registry#timeouts ContainerConnectedRegistry#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_connected_registry#timeouts ContainerConnectedRegistry#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerConnectedRegistry.ContainerConnectedRegistryTimeouts\"}", isOptional: true)]

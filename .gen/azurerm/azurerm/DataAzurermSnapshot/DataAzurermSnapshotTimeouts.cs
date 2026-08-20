@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSnapshot
     [JsiiByValue(fqn: "azurerm.dataAzurermSnapshot.DataAzurermSnapshotTimeouts")]
     public class DataAzurermSnapshotTimeouts : azurerm.DataAzurermSnapshot.IDataAzurermSnapshotTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/snapshot#read DataAzurermSnapshot#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/snapshot#read DataAzurermSnapshot#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

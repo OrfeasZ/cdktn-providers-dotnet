@@ -9,7 +9,7 @@ namespace azurerm.ManagedLustreFileSystem
     [JsiiByValue(fqn: "azurerm.managedLustreFileSystem.ManagedLustreFileSystemRootSquash")]
     public class ManagedLustreFileSystemRootSquash : azurerm.ManagedLustreFileSystem.IManagedLustreFileSystemRootSquash
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_lustre_file_system#mode ManagedLustreFileSystem#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_lustre_file_system#mode ManagedLustreFileSystem#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_lustre_file_system#no_squash_nids ManagedLustreFileSystem#no_squash_nids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_lustre_file_system#no_squash_nids ManagedLustreFileSystem#no_squash_nids}.</summary>
         [JsiiProperty(name: "noSquashNids", typeJson: "{\"primitive\":\"string\"}")]
         public string NoSquashNids
         {
@@ -25,7 +25,7 @@ namespace azurerm.ManagedLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_lustre_file_system#squash_gid ManagedLustreFileSystem#squash_gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_lustre_file_system#squash_gid ManagedLustreFileSystem#squash_gid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "squashGid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SquashGid
@@ -34,7 +34,7 @@ namespace azurerm.ManagedLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_lustre_file_system#squash_uid ManagedLustreFileSystem#squash_uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_lustre_file_system#squash_uid ManagedLustreFileSystem#squash_uid}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "squashUid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SquashUid

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStorageManagementPolicy
     [JsiiByValue(fqn: "azurerm.dataAzurermStorageManagementPolicy.DataAzurermStorageManagementPolicyTimeouts")]
     public class DataAzurermStorageManagementPolicyTimeouts : azurerm.DataAzurermStorageManagementPolicy.IDataAzurermStorageManagementPolicyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/storage_management_policy#read DataAzurermStorageManagementPolicy#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_management_policy#read DataAzurermStorageManagementPolicy#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

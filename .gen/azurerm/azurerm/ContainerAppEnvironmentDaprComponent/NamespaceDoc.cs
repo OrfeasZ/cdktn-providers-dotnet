@@ -5,7 +5,7 @@ namespace azurerm.ContainerAppEnvironmentDaprComponent
     /// <remarks>
     /// <h1><c>azurerm_container_app_environment_dapr_component</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app_environment_dapr_component"><c>azurerm_container_app_environment_dapr_component</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app_environment_dapr_component"><c>azurerm_container_app_environment_dapr_component</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

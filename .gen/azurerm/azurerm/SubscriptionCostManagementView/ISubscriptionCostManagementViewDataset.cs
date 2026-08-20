@@ -9,7 +9,7 @@ namespace azurerm.SubscriptionCostManagementView
     {
         /// <summary>aggregation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#aggregation SubscriptionCostManagementView#aggregation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#aggregation SubscriptionCostManagementView#aggregation}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDatasetAggregation" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "aggregation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregation\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace azurerm.SubscriptionCostManagementView
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#granularity SubscriptionCostManagementView#granularity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#granularity SubscriptionCostManagementView#granularity}.</summary>
         [JsiiProperty(name: "granularity", typeJson: "{\"primitive\":\"string\"}")]
         string Granularity
         {
@@ -27,7 +27,7 @@ namespace azurerm.SubscriptionCostManagementView
 
         /// <summary>grouping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#grouping SubscriptionCostManagementView#grouping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#grouping SubscriptionCostManagementView#grouping}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDatasetGrouping" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "grouping", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetGrouping\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace azurerm.SubscriptionCostManagementView
 
         /// <summary>sorting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#sorting SubscriptionCostManagementView#sorting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#sorting SubscriptionCostManagementView#sorting}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDatasetSorting" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sorting", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSorting\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace azurerm.SubscriptionCostManagementView
 
             /// <summary>aggregation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#aggregation SubscriptionCostManagementView#aggregation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#aggregation SubscriptionCostManagementView#aggregation}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDatasetAggregation" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "aggregation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetAggregation\"},\"kind\":\"array\"}}]}}")]
@@ -73,7 +73,7 @@ namespace azurerm.SubscriptionCostManagementView
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#granularity SubscriptionCostManagementView#granularity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#granularity SubscriptionCostManagementView#granularity}.</summary>
             [JsiiProperty(name: "granularity", typeJson: "{\"primitive\":\"string\"}")]
             public string Granularity
             {
@@ -82,7 +82,7 @@ namespace azurerm.SubscriptionCostManagementView
 
             /// <summary>grouping block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#grouping SubscriptionCostManagementView#grouping}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#grouping SubscriptionCostManagementView#grouping}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDatasetGrouping" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -94,7 +94,7 @@ namespace azurerm.SubscriptionCostManagementView
 
             /// <summary>sorting block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/subscription_cost_management_view#sorting SubscriptionCostManagementView#sorting}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/subscription_cost_management_view#sorting SubscriptionCostManagementView#sorting}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDatasetSorting" />)[]</para>
             /// </remarks>
             [JsiiOptional]

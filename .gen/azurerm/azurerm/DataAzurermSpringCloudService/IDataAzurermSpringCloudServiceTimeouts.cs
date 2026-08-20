@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSpringCloudService
     [JsiiInterface(nativeType: typeof(IDataAzurermSpringCloudServiceTimeouts), fullyQualifiedName: "azurerm.dataAzurermSpringCloudService.DataAzurermSpringCloudServiceTimeouts")]
     public interface IDataAzurermSpringCloudServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/spring_cloud_service#read DataAzurermSpringCloudService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/spring_cloud_service#read DataAzurermSpringCloudService#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermSpringCloudService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/spring_cloud_service#read DataAzurermSpringCloudService#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/spring_cloud_service#read DataAzurermSpringCloudService#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

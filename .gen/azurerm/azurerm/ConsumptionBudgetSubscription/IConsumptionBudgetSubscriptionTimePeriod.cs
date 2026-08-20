@@ -7,14 +7,14 @@ namespace azurerm.ConsumptionBudgetSubscription
     [JsiiInterface(nativeType: typeof(IConsumptionBudgetSubscriptionTimePeriod), fullyQualifiedName: "azurerm.consumptionBudgetSubscription.ConsumptionBudgetSubscriptionTimePeriod")]
     public interface IConsumptionBudgetSubscriptionTimePeriod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/consumption_budget_subscription#start_date ConsumptionBudgetSubscription#start_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_subscription#start_date ConsumptionBudgetSubscription#start_date}.</summary>
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}")]
         string StartDate
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/consumption_budget_subscription#end_date ConsumptionBudgetSubscription#end_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_subscription#end_date ConsumptionBudgetSubscription#end_date}.</summary>
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EndDate
@@ -32,14 +32,14 @@ namespace azurerm.ConsumptionBudgetSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/consumption_budget_subscription#start_date ConsumptionBudgetSubscription#start_date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_subscription#start_date ConsumptionBudgetSubscription#start_date}.</summary>
             [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}")]
             public string StartDate
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/consumption_budget_subscription#end_date ConsumptionBudgetSubscription#end_date}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_subscription#end_date ConsumptionBudgetSubscription#end_date}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EndDate

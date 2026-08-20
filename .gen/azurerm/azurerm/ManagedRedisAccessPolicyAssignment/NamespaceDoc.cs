@@ -5,7 +5,7 @@ namespace azurerm.ManagedRedisAccessPolicyAssignment
     /// <remarks>
     /// <h1><c>azurerm_managed_redis_access_policy_assignment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_redis_access_policy_assignment"><c>azurerm_managed_redis_access_policy_assignment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_redis_access_policy_assignment"><c>azurerm_managed_redis_access_policy_assignment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

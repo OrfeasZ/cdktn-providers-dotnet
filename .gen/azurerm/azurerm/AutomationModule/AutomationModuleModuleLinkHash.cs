@@ -9,7 +9,7 @@ namespace azurerm.AutomationModule
     [JsiiByValue(fqn: "azurerm.automationModule.AutomationModuleModuleLinkHash")]
     public class AutomationModuleModuleLinkHash : azurerm.AutomationModule.IAutomationModuleModuleLinkHash
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_module#algorithm AutomationModule#algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_module#algorithm AutomationModule#algorithm}.</summary>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string Algorithm
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationModule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/automation_module#value AutomationModule#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_module#value AutomationModule#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

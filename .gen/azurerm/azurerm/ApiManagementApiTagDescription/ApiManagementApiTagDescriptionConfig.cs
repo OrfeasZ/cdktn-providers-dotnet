@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementApiTagDescription
     [JsiiByValue(fqn: "azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionConfig")]
     public class ApiManagementApiTagDescriptionConfig : azurerm.ApiManagementApiTagDescription.IApiManagementApiTagDescriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_tag_description#api_tag_id ApiManagementApiTagDescription#api_tag_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_tag_description#api_tag_id ApiManagementApiTagDescription#api_tag_id}.</summary>
         [JsiiProperty(name: "apiTagId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiTagId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementApiTagDescription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_tag_description#description ApiManagementApiTagDescription#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_tag_description#description ApiManagementApiTagDescription#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -26,7 +26,7 @@ namespace azurerm.ApiManagementApiTagDescription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_tag_description#external_documentation_description ApiManagementApiTagDescription#external_documentation_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_tag_description#external_documentation_description ApiManagementApiTagDescription#external_documentation_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalDocumentationDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalDocumentationDescription
@@ -35,7 +35,7 @@ namespace azurerm.ApiManagementApiTagDescription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_tag_description#external_documentation_url ApiManagementApiTagDescription#external_documentation_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_tag_description#external_documentation_url ApiManagementApiTagDescription#external_documentation_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalDocumentationUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalDocumentationUrl
@@ -44,7 +44,7 @@ namespace azurerm.ApiManagementApiTagDescription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_tag_description#id ApiManagementApiTagDescription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_tag_description#id ApiManagementApiTagDescription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace azurerm.ApiManagementApiTagDescription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_api_tag_description#timeouts ApiManagementApiTagDescription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_tag_description#timeouts ApiManagementApiTagDescription#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementApiTagDescription.ApiManagementApiTagDescriptionTimeouts\"}", isOptional: true)]

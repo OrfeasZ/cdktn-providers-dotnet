@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudService
     [JsiiByValue(fqn: "azurerm.springCloudService.SpringCloudServiceConfigServerGitSettingSshAuth")]
     public class SpringCloudServiceConfigServerGitSettingSshAuth : azurerm.SpringCloudService.ISpringCloudServiceConfigServerGitSettingSshAuth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#private_key SpringCloudService#private_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_service#private_key SpringCloudService#private_key}.</summary>
         [JsiiProperty(name: "privateKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateKey
         {
@@ -17,7 +17,7 @@ namespace azurerm.SpringCloudService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#host_key SpringCloudService#host_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_service#host_key SpringCloudService#host_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostKey
@@ -26,7 +26,7 @@ namespace azurerm.SpringCloudService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#host_key_algorithm SpringCloudService#host_key_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_service#host_key_algorithm SpringCloudService#host_key_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostKeyAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostKeyAlgorithm
@@ -37,7 +37,7 @@ namespace azurerm.SpringCloudService
 
         private object? _strictHostKeyCheckingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/spring_cloud_service#strict_host_key_checking_enabled SpringCloudService#strict_host_key_checking_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_service#strict_host_key_checking_enabled SpringCloudService#strict_host_key_checking_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

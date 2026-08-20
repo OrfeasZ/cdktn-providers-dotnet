@@ -33,6 +33,18 @@ namespace azurerm.RedhatOpenshiftCluster
         {
         }
 
+        [JsiiMethod(name: "putLoadBalancerProfile", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile\"}}]")]
+        public virtual void PutLoadBalancerProfile(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfileLoadBalancerProfile @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfileLoadBalancerProfile)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetLoadBalancerProfile")]
+        public virtual void ResetLoadBalancerProfile()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOutboundType")]
         public virtual void ResetOutboundType()
         {
@@ -43,6 +55,19 @@ namespace azurerm.RedhatOpenshiftCluster
         public virtual void ResetPreconfiguredNetworkSecurityGroupEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "loadBalancerProfile", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileLoadBalancerProfileOutputReference\"}")]
+        public virtual azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileLoadBalancerProfileOutputReference LoadBalancerProfile
+        {
+            get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileLoadBalancerProfileOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "loadBalancerProfileInput", typeJson: "{\"fqn\":\"azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile\"}", isOptional: true)]
+        public virtual azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfileLoadBalancerProfile? LoadBalancerProfileInput
+        {
+            get => GetInstanceProperty<azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfileLoadBalancerProfile?>();
         }
 
         [JsiiOptional]

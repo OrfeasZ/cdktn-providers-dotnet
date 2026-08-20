@@ -7,7 +7,7 @@ namespace azurerm.BatchPool
     [JsiiInterface(nativeType: typeof(IBatchPoolTaskSchedulingPolicy), fullyQualifiedName: "azurerm.batchPool.BatchPoolTaskSchedulingPolicy")]
     public interface IBatchPoolTaskSchedulingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_pool#node_fill_type BatchPool#node_fill_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#node_fill_type BatchPool#node_fill_type}.</summary>
         [JsiiProperty(name: "nodeFillType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NodeFillType
@@ -25,7 +25,7 @@ namespace azurerm.BatchPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_pool#node_fill_type BatchPool#node_fill_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#node_fill_type BatchPool#node_fill_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nodeFillType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NodeFillType

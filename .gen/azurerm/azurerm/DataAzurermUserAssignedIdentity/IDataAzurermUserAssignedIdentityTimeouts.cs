@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermUserAssignedIdentity
     [JsiiInterface(nativeType: typeof(IDataAzurermUserAssignedIdentityTimeouts), fullyQualifiedName: "azurerm.dataAzurermUserAssignedIdentity.DataAzurermUserAssignedIdentityTimeouts")]
     public interface IDataAzurermUserAssignedIdentityTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/user_assigned_identity#read DataAzurermUserAssignedIdentity#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/user_assigned_identity#read DataAzurermUserAssignedIdentity#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermUserAssignedIdentity
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/user_assigned_identity#read DataAzurermUserAssignedIdentity#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/user_assigned_identity#read DataAzurermUserAssignedIdentity#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

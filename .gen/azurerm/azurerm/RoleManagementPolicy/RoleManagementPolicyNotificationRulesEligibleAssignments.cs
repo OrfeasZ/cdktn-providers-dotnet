@@ -9,7 +9,7 @@ namespace azurerm.RoleManagementPolicy
     {
         /// <summary>admin_notifications block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_management_policy#admin_notifications RoleManagementPolicy#admin_notifications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_management_policy#admin_notifications RoleManagementPolicy#admin_notifications}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "adminNotifications", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyNotificationRulesEligibleAssignmentsAdminNotifications\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>approver_notifications block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_management_policy#approver_notifications RoleManagementPolicy#approver_notifications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_management_policy#approver_notifications RoleManagementPolicy#approver_notifications}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "approverNotifications", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotifications\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>assignee_notifications block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/role_management_policy#assignee_notifications RoleManagementPolicy#assignee_notifications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_management_policy#assignee_notifications RoleManagementPolicy#assignee_notifications}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assigneeNotifications", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyNotificationRulesEligibleAssignmentsAssigneeNotifications\"}", isOptional: true)]

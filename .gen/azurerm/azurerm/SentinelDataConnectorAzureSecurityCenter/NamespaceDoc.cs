@@ -5,7 +5,7 @@ namespace azurerm.SentinelDataConnectorAzureSecurityCenter
     /// <remarks>
     /// <h1><c>azurerm_sentinel_data_connector_azure_security_center</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/sentinel_data_connector_azure_security_center"><c>azurerm_sentinel_data_connector_azure_security_center</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/sentinel_data_connector_azure_security_center"><c>azurerm_sentinel_data_connector_azure_security_center</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

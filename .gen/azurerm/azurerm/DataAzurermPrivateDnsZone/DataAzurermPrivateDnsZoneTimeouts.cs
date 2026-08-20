@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPrivateDnsZone
     [JsiiByValue(fqn: "azurerm.dataAzurermPrivateDnsZone.DataAzurermPrivateDnsZoneTimeouts")]
     public class DataAzurermPrivateDnsZoneTimeouts : azurerm.DataAzurermPrivateDnsZone.IDataAzurermPrivateDnsZoneTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/private_dns_zone#read DataAzurermPrivateDnsZone#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/private_dns_zone#read DataAzurermPrivateDnsZone#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

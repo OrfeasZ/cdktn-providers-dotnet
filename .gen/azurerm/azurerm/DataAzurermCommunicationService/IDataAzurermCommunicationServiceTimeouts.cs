@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermCommunicationService
     [JsiiInterface(nativeType: typeof(IDataAzurermCommunicationServiceTimeouts), fullyQualifiedName: "azurerm.dataAzurermCommunicationService.DataAzurermCommunicationServiceTimeouts")]
     public interface IDataAzurermCommunicationServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/communication_service#read DataAzurermCommunicationService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/communication_service#read DataAzurermCommunicationService#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermCommunicationService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/communication_service#read DataAzurermCommunicationService#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/communication_service#read DataAzurermCommunicationService#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

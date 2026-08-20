@@ -9,7 +9,7 @@ namespace azurerm.WindowsVirtualMachine
     [JsiiByValue(fqn: "azurerm.windowsVirtualMachine.WindowsVirtualMachineAdditionalUnattendContent")]
     public class WindowsVirtualMachineAdditionalUnattendContent : azurerm.WindowsVirtualMachine.IWindowsVirtualMachineAdditionalUnattendContent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_virtual_machine#content WindowsVirtualMachine#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine#content WindowsVirtualMachine#content}.</summary>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
         {
@@ -17,7 +17,7 @@ namespace azurerm.WindowsVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/windows_virtual_machine#setting WindowsVirtualMachine#setting}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine#setting WindowsVirtualMachine#setting}.</summary>
         [JsiiProperty(name: "setting", typeJson: "{\"primitive\":\"string\"}")]
         public string Setting
         {

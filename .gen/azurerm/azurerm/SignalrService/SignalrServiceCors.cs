@@ -9,7 +9,7 @@ namespace azurerm.SignalrService
     [JsiiByValue(fqn: "azurerm.signalrService.SignalrServiceCors")]
     public class SignalrServiceCors : azurerm.SignalrService.ISignalrServiceCors
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/signalr_service#allowed_origins SignalrService#allowed_origins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/signalr_service#allowed_origins SignalrService#allowed_origins}.</summary>
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AllowedOrigins
         {

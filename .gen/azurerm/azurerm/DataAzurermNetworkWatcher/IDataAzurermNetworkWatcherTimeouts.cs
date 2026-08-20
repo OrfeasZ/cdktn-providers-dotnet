@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNetworkWatcher
     [JsiiInterface(nativeType: typeof(IDataAzurermNetworkWatcherTimeouts), fullyQualifiedName: "azurerm.dataAzurermNetworkWatcher.DataAzurermNetworkWatcherTimeouts")]
     public interface IDataAzurermNetworkWatcherTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/network_watcher#read DataAzurermNetworkWatcher#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_watcher#read DataAzurermNetworkWatcher#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermNetworkWatcher
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/network_watcher#read DataAzurermNetworkWatcher#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_watcher#read DataAzurermNetworkWatcher#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

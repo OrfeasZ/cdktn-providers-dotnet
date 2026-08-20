@@ -11,7 +11,7 @@ namespace azurerm.ContainerApp
     {
         /// <summary>The Dapr Application Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#app_id ContainerApp#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#app_id ContainerApp#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         public string AppId
@@ -22,7 +22,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The port which the application is listening on. This is the same as the `ingress` port.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#app_port ContainerApp#app_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#app_port ContainerApp#app_port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The protocol for the app. Possible values include `http` and `grpc`. Defaults to `http`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#app_protocol ContainerApp#app_protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#app_protocol ContainerApp#app_protocol}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

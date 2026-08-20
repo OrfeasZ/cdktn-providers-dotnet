@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermRouteFilter
     [JsiiByValue(fqn: "azurerm.dataAzurermRouteFilter.DataAzurermRouteFilterTimeouts")]
     public class DataAzurermRouteFilterTimeouts : azurerm.DataAzurermRouteFilter.IDataAzurermRouteFilterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/route_filter#read DataAzurermRouteFilter#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/route_filter#read DataAzurermRouteFilter#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

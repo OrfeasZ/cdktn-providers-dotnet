@@ -9,7 +9,7 @@ namespace azurerm.CdnEndpointCustomDomain
     [JsiiByValue(fqn: "azurerm.cdnEndpointCustomDomain.CdnEndpointCustomDomainCdnManagedHttps")]
     public class CdnEndpointCustomDomainCdnManagedHttps : azurerm.CdnEndpointCustomDomain.ICdnEndpointCustomDomainCdnManagedHttps
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint_custom_domain#certificate_type CdnEndpointCustomDomain#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint_custom_domain#certificate_type CdnEndpointCustomDomain#certificate_type}.</summary>
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateType
         {
@@ -17,7 +17,7 @@ namespace azurerm.CdnEndpointCustomDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint_custom_domain#protocol_type CdnEndpointCustomDomain#protocol_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint_custom_domain#protocol_type CdnEndpointCustomDomain#protocol_type}.</summary>
         [JsiiProperty(name: "protocolType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProtocolType
         {
@@ -25,7 +25,7 @@ namespace azurerm.CdnEndpointCustomDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_endpoint_custom_domain#tls_version CdnEndpointCustomDomain#tls_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint_custom_domain#tls_version CdnEndpointCustomDomain#tls_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tlsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TlsVersion

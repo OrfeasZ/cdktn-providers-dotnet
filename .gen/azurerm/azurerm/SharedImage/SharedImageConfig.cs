@@ -9,7 +9,7 @@ namespace azurerm.SharedImage
     [JsiiByValue(fqn: "azurerm.sharedImage.SharedImageConfig")]
     public class SharedImageConfig : azurerm.SharedImage.ISharedImageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#gallery_name SharedImage#gallery_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#gallery_name SharedImage#gallery_name}.</summary>
         [JsiiProperty(name: "galleryName", typeJson: "{\"primitive\":\"string\"}")]
         public string GalleryName
         {
@@ -19,7 +19,7 @@ namespace azurerm.SharedImage
 
         /// <summary>identifier block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#identifier SharedImage#identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#identifier SharedImage#identifier}
         /// </remarks>
         [JsiiProperty(name: "identifier", typeJson: "{\"fqn\":\"azurerm.sharedImage.SharedImageIdentifier\"}")]
         public azurerm.SharedImage.ISharedImageIdentifier Identifier
@@ -28,7 +28,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#location SharedImage#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#location SharedImage#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -36,7 +36,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#name SharedImage#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#name SharedImage#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -44,7 +44,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#os_type SharedImage#os_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#os_type SharedImage#os_type}.</summary>
         [JsiiProperty(name: "osType", typeJson: "{\"primitive\":\"string\"}")]
         public string OsType
         {
@@ -52,7 +52,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#resource_group_name SharedImage#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#resource_group_name SharedImage#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -62,7 +62,7 @@ namespace azurerm.SharedImage
 
         private object? _acceleratedNetworkSupportEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#accelerated_network_support_enabled SharedImage#accelerated_network_support_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#accelerated_network_support_enabled SharedImage#accelerated_network_support_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -94,7 +94,7 @@ namespace azurerm.SharedImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#architecture SharedImage#architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#architecture SharedImage#architecture}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Architecture
@@ -105,7 +105,7 @@ namespace azurerm.SharedImage
 
         private object? _confidentialVmEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#confidential_vm_enabled SharedImage#confidential_vm_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#confidential_vm_enabled SharedImage#confidential_vm_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -139,7 +139,7 @@ namespace azurerm.SharedImage
 
         private object? _confidentialVmSupported;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#confidential_vm_supported SharedImage#confidential_vm_supported}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#confidential_vm_supported SharedImage#confidential_vm_supported}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -171,7 +171,7 @@ namespace azurerm.SharedImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#description SharedImage#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#description SharedImage#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -182,7 +182,7 @@ namespace azurerm.SharedImage
 
         private object? _diskControllerTypeNvmeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#disk_controller_type_nvme_enabled SharedImage#disk_controller_type_nvme_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#disk_controller_type_nvme_enabled SharedImage#disk_controller_type_nvme_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -214,7 +214,7 @@ namespace azurerm.SharedImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#disk_types_not_allowed SharedImage#disk_types_not_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#disk_types_not_allowed SharedImage#disk_types_not_allowed}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diskTypesNotAllowed", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DiskTypesNotAllowed
@@ -223,7 +223,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#end_of_life_date SharedImage#end_of_life_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#end_of_life_date SharedImage#end_of_life_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endOfLifeDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndOfLifeDate
@@ -232,7 +232,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#eula SharedImage#eula}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#eula SharedImage#eula}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eula", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Eula
@@ -243,7 +243,7 @@ namespace azurerm.SharedImage
 
         private object? _hibernationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#hibernation_enabled SharedImage#hibernation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#hibernation_enabled SharedImage#hibernation_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -275,7 +275,7 @@ namespace azurerm.SharedImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#hyper_v_generation SharedImage#hyper_v_generation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#hyper_v_generation SharedImage#hyper_v_generation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hyperVGeneration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HyperVGeneration
@@ -284,7 +284,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#id SharedImage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#id SharedImage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -297,7 +297,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#max_recommended_memory_in_gb SharedImage#max_recommended_memory_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#max_recommended_memory_in_gb SharedImage#max_recommended_memory_in_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxRecommendedMemoryInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxRecommendedMemoryInGb
@@ -306,7 +306,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#max_recommended_vcpu_count SharedImage#max_recommended_vcpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#max_recommended_vcpu_count SharedImage#max_recommended_vcpu_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxRecommendedVcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxRecommendedVcpuCount
@@ -315,7 +315,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#min_recommended_memory_in_gb SharedImage#min_recommended_memory_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#min_recommended_memory_in_gb SharedImage#min_recommended_memory_in_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minRecommendedMemoryInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinRecommendedMemoryInGb
@@ -324,7 +324,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#min_recommended_vcpu_count SharedImage#min_recommended_vcpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#min_recommended_vcpu_count SharedImage#min_recommended_vcpu_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minRecommendedVcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinRecommendedVcpuCount
@@ -333,7 +333,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#privacy_statement_uri SharedImage#privacy_statement_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#privacy_statement_uri SharedImage#privacy_statement_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privacyStatementUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivacyStatementUri
@@ -344,7 +344,7 @@ namespace azurerm.SharedImage
 
         /// <summary>purchase_plan block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#purchase_plan SharedImage#purchase_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#purchase_plan SharedImage#purchase_plan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "purchasePlan", typeJson: "{\"fqn\":\"azurerm.sharedImage.SharedImagePurchasePlan\"}", isOptional: true)]
@@ -354,7 +354,7 @@ namespace azurerm.SharedImage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#release_note_uri SharedImage#release_note_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#release_note_uri SharedImage#release_note_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "releaseNoteUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReleaseNoteUri
@@ -365,7 +365,7 @@ namespace azurerm.SharedImage
 
         private object? _specialized;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#specialized SharedImage#specialized}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#specialized SharedImage#specialized}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -397,7 +397,7 @@ namespace azurerm.SharedImage
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#tags SharedImage#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#tags SharedImage#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -408,7 +408,7 @@ namespace azurerm.SharedImage
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#timeouts SharedImage#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#timeouts SharedImage#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.sharedImage.SharedImageTimeouts\"}", isOptional: true)]
@@ -420,7 +420,7 @@ namespace azurerm.SharedImage
 
         private object? _trustedLaunchEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#trusted_launch_enabled SharedImage#trusted_launch_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#trusted_launch_enabled SharedImage#trusted_launch_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -454,7 +454,7 @@ namespace azurerm.SharedImage
 
         private object? _trustedLaunchSupported;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/shared_image#trusted_launch_supported SharedImage#trusted_launch_supported}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/shared_image#trusted_launch_supported SharedImage#trusted_launch_supported}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

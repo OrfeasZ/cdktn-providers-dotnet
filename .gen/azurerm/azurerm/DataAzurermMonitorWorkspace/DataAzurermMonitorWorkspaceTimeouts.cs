@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMonitorWorkspace
     [JsiiByValue(fqn: "azurerm.dataAzurermMonitorWorkspace.DataAzurermMonitorWorkspaceTimeouts")]
     public class DataAzurermMonitorWorkspaceTimeouts : azurerm.DataAzurermMonitorWorkspace.IDataAzurermMonitorWorkspaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/monitor_workspace#read DataAzurermMonitorWorkspace#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/monitor_workspace#read DataAzurermMonitorWorkspace#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

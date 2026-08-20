@@ -9,7 +9,7 @@ namespace azurerm.BatchAccount
     {
         /// <summary>account_access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_account#account_access BatchAccount#account_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#account_access BatchAccount#account_access}
         /// </remarks>
         [JsiiProperty(name: "accountAccess", typeJson: "{\"fqn\":\"azurerm.batchAccount.BatchAccountNetworkProfileAccountAccess\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azurerm.BatchAccount
 
         /// <summary>node_management_access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_account#node_management_access BatchAccount#node_management_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#node_management_access BatchAccount#node_management_access}
         /// </remarks>
         [JsiiProperty(name: "nodeManagementAccess", typeJson: "{\"fqn\":\"azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccess\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace azurerm.BatchAccount
 
             /// <summary>account_access block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_account#account_access BatchAccount#account_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#account_access BatchAccount#account_access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountAccess", typeJson: "{\"fqn\":\"azurerm.batchAccount.BatchAccountNetworkProfileAccountAccess\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace azurerm.BatchAccount
 
             /// <summary>node_management_access block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/batch_account#node_management_access BatchAccount#node_management_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#node_management_access BatchAccount#node_management_access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nodeManagementAccess", typeJson: "{\"fqn\":\"azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccess\"}", isOptional: true)]

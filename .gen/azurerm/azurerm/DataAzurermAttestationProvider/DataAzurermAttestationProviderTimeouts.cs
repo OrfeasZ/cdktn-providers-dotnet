@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAttestationProvider
     [JsiiByValue(fqn: "azurerm.dataAzurermAttestationProvider.DataAzurermAttestationProviderTimeouts")]
     public class DataAzurermAttestationProviderTimeouts : azurerm.DataAzurermAttestationProvider.IDataAzurermAttestationProviderTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/attestation_provider#read DataAzurermAttestationProvider#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/attestation_provider#read DataAzurermAttestationProvider#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

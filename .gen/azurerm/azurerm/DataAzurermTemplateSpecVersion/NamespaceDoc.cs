@@ -5,7 +5,7 @@ namespace azurerm.DataAzurermTemplateSpecVersion
     /// <remarks>
     /// <h1><c>data_azurerm_template_spec_version</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/data-sources/template_spec_version"><c>data_azurerm_template_spec_version</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/template_spec_version"><c>data_azurerm_template_spec_version</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

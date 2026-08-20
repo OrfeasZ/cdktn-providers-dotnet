@@ -9,7 +9,7 @@ namespace azurerm.RouteMap
     [JsiiByValue(fqn: "azurerm.routeMap.RouteMapRuleAction")]
     public class RouteMapRuleAction : azurerm.RouteMap.IRouteMapRuleAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_map#type RouteMap#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_map#type RouteMap#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.RouteMap
 
         /// <summary>parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/route_map#parameter RouteMap#parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_map#parameter RouteMap#parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.RouteMap.IRouteMapRuleActionParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]

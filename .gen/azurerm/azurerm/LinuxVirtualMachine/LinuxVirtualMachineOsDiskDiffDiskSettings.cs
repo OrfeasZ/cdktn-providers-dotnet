@@ -9,7 +9,7 @@ namespace azurerm.LinuxVirtualMachine
     [JsiiByValue(fqn: "azurerm.linuxVirtualMachine.LinuxVirtualMachineOsDiskDiffDiskSettings")]
     public class LinuxVirtualMachineOsDiskDiffDiskSettings : azurerm.LinuxVirtualMachine.ILinuxVirtualMachineOsDiskDiffDiskSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_virtual_machine#option LinuxVirtualMachine#option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_virtual_machine#option LinuxVirtualMachine#option}.</summary>
         [JsiiProperty(name: "option", typeJson: "{\"primitive\":\"string\"}")]
         public string Option
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/linux_virtual_machine#placement LinuxVirtualMachine#placement}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_virtual_machine#placement LinuxVirtualMachine#placement}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "placement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Placement

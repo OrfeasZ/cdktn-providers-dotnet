@@ -9,7 +9,7 @@ namespace azurerm.ContainerApp
     [JsiiByValue(fqn: "azurerm.containerApp.ContainerAppTemplateCustomScaleRuleAuthentication")]
     public class ContainerAppTemplateCustomScaleRuleAuthentication : azurerm.ContainerApp.IContainerAppTemplateCustomScaleRuleAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#secret_name ContainerApp#secret_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#secret_name ContainerApp#secret_name}.</summary>
         [JsiiProperty(name: "secretName", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretName
         {
@@ -17,7 +17,7 @@ namespace azurerm.ContainerApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/container_app#trigger_parameter ContainerApp#trigger_parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#trigger_parameter ContainerApp#trigger_parameter}.</summary>
         [JsiiProperty(name: "triggerParameter", typeJson: "{\"primitive\":\"string\"}")]
         public string TriggerParameter
         {

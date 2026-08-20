@@ -9,7 +9,7 @@ namespace azurerm.CdnFrontdoorSecret
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorSecret.CdnFrontdoorSecretSecretCustomerCertificate")]
     public class CdnFrontdoorSecretSecretCustomerCertificate : azurerm.CdnFrontdoorSecret.ICdnFrontdoorSecretSecretCustomerCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/cdn_frontdoor_secret#key_vault_certificate_id CdnFrontdoorSecret#key_vault_certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_secret#key_vault_certificate_id CdnFrontdoorSecret#key_vault_certificate_id}.</summary>
         [JsiiProperty(name: "keyVaultCertificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultCertificateId
         {

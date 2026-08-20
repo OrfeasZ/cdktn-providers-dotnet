@@ -11,7 +11,7 @@ namespace azurerm.ApiManagementBackend
     {
         /// <summary>failure_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#failure_condition ApiManagementBackend#failure_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_backend#failure_condition ApiManagementBackend#failure_condition}
         /// </remarks>
         [JsiiProperty(name: "failureCondition", typeJson: "{\"fqn\":\"azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureCondition\"}")]
         public azurerm.ApiManagementBackend.IApiManagementBackendCircuitBreakerRuleFailureCondition FailureCondition
@@ -20,7 +20,7 @@ namespace azurerm.ApiManagementBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#name ApiManagementBackend#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_backend#name ApiManagementBackend#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -28,7 +28,7 @@ namespace azurerm.ApiManagementBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#trip_duration ApiManagementBackend#trip_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_backend#trip_duration ApiManagementBackend#trip_duration}.</summary>
         [JsiiProperty(name: "tripDuration", typeJson: "{\"primitive\":\"string\"}")]
         public string TripDuration
         {
@@ -38,7 +38,7 @@ namespace azurerm.ApiManagementBackend
 
         private object? _acceptRetryAfterEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/api_management_backend#accept_retry_after_enabled ApiManagementBackend#accept_retry_after_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_backend#accept_retry_after_enabled ApiManagementBackend#accept_retry_after_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

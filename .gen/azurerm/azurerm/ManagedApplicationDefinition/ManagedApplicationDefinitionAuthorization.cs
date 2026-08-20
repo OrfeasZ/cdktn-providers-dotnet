@@ -9,7 +9,7 @@ namespace azurerm.ManagedApplicationDefinition
     [JsiiByValue(fqn: "azurerm.managedApplicationDefinition.ManagedApplicationDefinitionAuthorization")]
     public class ManagedApplicationDefinitionAuthorization : azurerm.ManagedApplicationDefinition.IManagedApplicationDefinitionAuthorization
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#role_definition_id ManagedApplicationDefinition#role_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_application_definition#role_definition_id ManagedApplicationDefinition#role_definition_id}.</summary>
         [JsiiProperty(name: "roleDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleDefinitionId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedApplicationDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.1.0/docs/resources/managed_application_definition#service_principal_id ManagedApplicationDefinition#service_principal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_application_definition#service_principal_id ManagedApplicationDefinition#service_principal_id}.</summary>
         [JsiiProperty(name: "servicePrincipalId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServicePrincipalId
         {
