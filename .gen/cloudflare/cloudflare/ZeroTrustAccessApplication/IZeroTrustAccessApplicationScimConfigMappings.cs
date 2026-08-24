@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     {
         /// <summary>Which SCIM resource type this mapping applies to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#schema ZeroTrustAccessApplication#schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#schema ZeroTrustAccessApplication#schema}
         /// </remarks>
         [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}")]
         string Schema
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#enabled ZeroTrustAccessApplication#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#enabled ZeroTrustAccessApplication#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>A [SCIM filter expression](https://datatracker.ietf.org/doc/html/rfc7644#section-3.4.2.2) that matches resources that should be provisioned to this application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#filter ZeroTrustAccessApplication#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#filter ZeroTrustAccessApplication#filter}
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Whether or not this mapping applies to creates, updates, or deletes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#operations ZeroTrustAccessApplication#operations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#operations ZeroTrustAccessApplication#operations}
         /// </remarks>
         [JsiiProperty(name: "operations", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationScimConfigMappingsOperations\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace cloudflare.ZeroTrustAccessApplication
         /// ‘Strict’ removes unknown values, while ‘passthrough’ passes unknown values to the target.
         /// Available values: "strict", "passthrough".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#strictness ZeroTrustAccessApplication#strictness}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#strictness ZeroTrustAccessApplication#strictness}
         /// </remarks>
         [JsiiProperty(name: "strictness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>A [JSONata](https://jsonata.org/) expression that transforms the resource before provisioning it in the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#transform_jsonata ZeroTrustAccessApplication#transform_jsonata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#transform_jsonata ZeroTrustAccessApplication#transform_jsonata}
         /// </remarks>
         [JsiiProperty(name: "transformJsonata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>Which SCIM resource type this mapping applies to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#schema ZeroTrustAccessApplication#schema}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#schema ZeroTrustAccessApplication#schema}
             /// </remarks>
             [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}")]
             public string Schema
@@ -110,7 +110,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>Whether or not this mapping is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#enabled ZeroTrustAccessApplication#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#enabled ZeroTrustAccessApplication#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -122,7 +122,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>A [SCIM filter expression](https://datatracker.ietf.org/doc/html/rfc7644#section-3.4.2.2) that matches resources that should be provisioned to this application.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#filter ZeroTrustAccessApplication#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#filter ZeroTrustAccessApplication#filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>Whether or not this mapping applies to creates, updates, or deletes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#operations ZeroTrustAccessApplication#operations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#operations ZeroTrustAccessApplication#operations}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "operations", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationScimConfigMappingsOperations\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace cloudflare.ZeroTrustAccessApplication
             /// ‘Strict’ removes unknown values, while ‘passthrough’ passes unknown values to the target.
             /// Available values: "strict", "passthrough".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#strictness ZeroTrustAccessApplication#strictness}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#strictness ZeroTrustAccessApplication#strictness}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "strictness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
             /// <summary>A [JSONata](https://jsonata.org/) expression that transforms the resource before provisioning it in the application.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_application#transform_jsonata ZeroTrustAccessApplication#transform_jsonata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_application#transform_jsonata ZeroTrustAccessApplication#transform_jsonata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transformJsonata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

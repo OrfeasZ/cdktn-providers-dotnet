@@ -13,7 +13,7 @@ namespace cloudflare.TokenValidationConfig
         /// <remarks>
         /// Provided keys define the complete stored key set. Key identities (<c>{alg,kid}</c>) must be unique.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#credentials TokenValidationConfig#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/token_validation_config#credentials TokenValidationConfig#credentials}
         /// </remarks>
         [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"cloudflare.tokenValidationConfig.TokenValidationConfigCredentials\"}")]
         public cloudflare.TokenValidationConfig.ITokenValidationConfigCredentials Credentials
@@ -22,7 +22,7 @@ namespace cloudflare.TokenValidationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#description TokenValidationConfig#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/token_validation_config#description TokenValidationConfig#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -30,7 +30,7 @@ namespace cloudflare.TokenValidationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#title TokenValidationConfig#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/token_validation_config#title TokenValidationConfig#title}.</summary>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         public string Title
         {
@@ -38,7 +38,7 @@ namespace cloudflare.TokenValidationConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#token_sources TokenValidationConfig#token_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/token_validation_config#token_sources TokenValidationConfig#token_sources}.</summary>
         [JsiiProperty(name: "tokenSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] TokenSources
         {
@@ -48,7 +48,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Available values: "JWT".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#token_type TokenValidationConfig#token_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/token_validation_config#token_type TokenValidationConfig#token_type}
         /// </remarks>
         [JsiiProperty(name: "tokenType", typeJson: "{\"primitive\":\"string\"}")]
         public string TokenType
@@ -59,7 +59,7 @@ namespace cloudflare.TokenValidationConfig
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#zone_id TokenValidationConfig#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/token_validation_config#zone_id TokenValidationConfig#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

@@ -9,7 +9,7 @@ namespace cloudflare.FlagshipFlag
     {
         /// <summary>Cloudflare account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#account_id FlagshipFlag#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#account_id FlagshipFlag#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>App identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#app_id FlagshipFlag#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#app_id FlagshipFlag#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -29,7 +29,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Variation served when no rule matches or the flag is disabled. Must be a key in `variations`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#default_variation FlagshipFlag#default_variation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#default_variation FlagshipFlag#default_variation}
         /// </remarks>
         [JsiiProperty(name: "defaultVariation", typeJson: "{\"primitive\":\"string\"}")]
         string DefaultVariation
@@ -39,7 +39,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>When false, the flag bypasses all rules and always serves `default_variation`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#enabled FlagshipFlag#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#enabled FlagshipFlag#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -50,7 +50,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Unique identifier for the flag within an app. Used in all evaluation and SDK calls.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#key FlagshipFlag#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#key FlagshipFlag#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
@@ -62,7 +62,7 @@ namespace cloudflare.FlagshipFlag
         /// <remarks>
         /// the first matching rule wins. An empty array means the flag always serves <c>default_variation</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#rules FlagshipFlag#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#rules FlagshipFlag#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.FlagshipFlag.IFlagshipFlagRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRules\"},\"kind\":\"array\"}}]}}")]
@@ -75,7 +75,7 @@ namespace cloudflare.FlagshipFlag
         /// <remarks>
         /// All values must be the same type (boolean, string, number, or JSON object/array). Each serialized value must be 10KB or smaller.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#variations FlagshipFlag#variations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#variations FlagshipFlag#variations}
         /// </remarks>
         [JsiiProperty(name: "variations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         System.Collections.Generic.IDictionary<string, string> Variations
@@ -83,7 +83,7 @@ namespace cloudflare.FlagshipFlag
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#description FlagshipFlag#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#description FlagshipFlag#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -96,7 +96,7 @@ namespace cloudflare.FlagshipFlag
 
         /// <summary>Flag key (slug).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#flag_key FlagshipFlag#flag_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#flag_key FlagshipFlag#flag_key}
         /// </remarks>
         [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -113,7 +113,7 @@ namespace cloudflare.FlagshipFlag
         /// Inferred from the variation values on write, so it may be omitted in requests.
         /// Available values: "boolean", "string", "number", "json".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#type FlagshipFlag#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#type FlagshipFlag#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Cloudflare account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#account_id FlagshipFlag#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#account_id FlagshipFlag#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -144,7 +144,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>App identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#app_id FlagshipFlag#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#app_id FlagshipFlag#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId
@@ -154,7 +154,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Variation served when no rule matches or the flag is disabled. Must be a key in `variations`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#default_variation FlagshipFlag#default_variation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#default_variation FlagshipFlag#default_variation}
             /// </remarks>
             [JsiiProperty(name: "defaultVariation", typeJson: "{\"primitive\":\"string\"}")]
             public string DefaultVariation
@@ -164,7 +164,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>When false, the flag bypasses all rules and always serves `default_variation`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#enabled FlagshipFlag#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#enabled FlagshipFlag#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -175,7 +175,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Unique identifier for the flag within an app. Used in all evaluation and SDK calls.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#key FlagshipFlag#key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#key FlagshipFlag#key}
             /// </remarks>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
@@ -187,7 +187,7 @@ namespace cloudflare.FlagshipFlag
             /// <remarks>
             /// the first matching rule wins. An empty array means the flag always serves <c>default_variation</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#rules FlagshipFlag#rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#rules FlagshipFlag#rules}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.FlagshipFlag.IFlagshipFlagRules" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.flagshipFlag.FlagshipFlagRules\"},\"kind\":\"array\"}}]}}")]
@@ -200,7 +200,7 @@ namespace cloudflare.FlagshipFlag
             /// <remarks>
             /// All values must be the same type (boolean, string, number, or JSON object/array). Each serialized value must be 10KB or smaller.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#variations FlagshipFlag#variations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#variations FlagshipFlag#variations}
             /// </remarks>
             [JsiiProperty(name: "variations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
             public System.Collections.Generic.IDictionary<string, string> Variations
@@ -208,7 +208,7 @@ namespace cloudflare.FlagshipFlag
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#description FlagshipFlag#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#description FlagshipFlag#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -218,7 +218,7 @@ namespace cloudflare.FlagshipFlag
 
             /// <summary>Flag key (slug).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#flag_key FlagshipFlag#flag_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#flag_key FlagshipFlag#flag_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -232,7 +232,7 @@ namespace cloudflare.FlagshipFlag
             /// Inferred from the variation values on write, so it may be omitted in requests.
             /// Available values: "boolean", "string", "number", "json".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag#type FlagshipFlag#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag#type FlagshipFlag#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

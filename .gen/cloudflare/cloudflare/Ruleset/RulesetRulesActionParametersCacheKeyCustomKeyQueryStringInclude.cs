@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>Whether to include all query string parameters in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#all Ruleset#all}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#all Ruleset#all}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A list of query string parameters to include in the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#list Ruleset#list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#list Ruleset#list}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "list", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

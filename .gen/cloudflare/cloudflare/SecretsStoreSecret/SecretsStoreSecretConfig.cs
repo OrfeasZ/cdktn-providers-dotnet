@@ -11,7 +11,7 @@ namespace cloudflare.SecretsStoreSecret
     {
         /// <summary>Account Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/secrets_store_secret#account_id SecretsStoreSecret#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/secrets_store_secret#account_id SecretsStoreSecret#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.SecretsStoreSecret
 
         /// <summary>The name of the secret.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/secrets_store_secret#name SecretsStoreSecret#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/secrets_store_secret#name SecretsStoreSecret#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -35,7 +35,7 @@ namespace cloudflare.SecretsStoreSecret
         /// <remarks>
         /// Valid values are <c>workers</c>, <c>ai_gateway</c>, <c>dex</c>, and <c>access</c>. Must be listed in alphabetical order.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/secrets_store_secret#scopes SecretsStoreSecret#scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/secrets_store_secret#scopes SecretsStoreSecret#scopes}
         /// </remarks>
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Scopes
@@ -46,7 +46,7 @@ namespace cloudflare.SecretsStoreSecret
 
         /// <summary>Store Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/secrets_store_secret#store_id SecretsStoreSecret#store_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/secrets_store_secret#store_id SecretsStoreSecret#store_id}
         /// </remarks>
         [JsiiProperty(name: "storeId", typeJson: "{\"primitive\":\"string\"}")]
         public string StoreId
@@ -59,7 +59,7 @@ namespace cloudflare.SecretsStoreSecret
         /// <remarks>
         /// Maximum 64 KiB (65,536 bytes). Note that this is 'write only' - no API response will provide this value, it is only used to create/modify secrets.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/secrets_store_secret#value SecretsStoreSecret#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/secrets_store_secret#value SecretsStoreSecret#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -70,7 +70,7 @@ namespace cloudflare.SecretsStoreSecret
 
         /// <summary>Freeform text describing the secret.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/secrets_store_secret#comment SecretsStoreSecret#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/secrets_store_secret#comment SecretsStoreSecret#comment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

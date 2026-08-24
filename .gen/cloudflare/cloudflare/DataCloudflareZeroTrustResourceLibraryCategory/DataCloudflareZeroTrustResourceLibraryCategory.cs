@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_resource_library_category cloudflare_zero_trust_resource_library_category}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category cloudflare_zero_trust_resource_library_category}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareZeroTrustResourceLibraryCategory.DataCloudflareZeroTrustResourceLibraryCategory), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustResourceLibraryCategory.DataCloudflareZeroTrustResourceLibraryCategory", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustResourceLibraryCategory.DataCloudflareZeroTrustResourceLibraryCategoryConfig\"}}]")]
     public class DataCloudflareZeroTrustResourceLibraryCategory : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_resource_library_category cloudflare_zero_trust_resource_library_category} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category cloudflare_zero_trust_resource_library_category} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataCloudflareZeroTrustResourceLibraryCategory(Constructs.Construct scope, string id, cloudflare.DataCloudflareZeroTrustResourceLibraryCategory.IDataCloudflareZeroTrustResourceLibraryCategoryConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
         /// <param name="importToId">The construct id used in the generated config for the DataCloudflareZeroTrustResourceLibraryCategory to import.</param>
         /// <param name="importFromId">The id of the existing DataCloudflareZeroTrustResourceLibraryCategory that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataCloudflareZeroTrustResourceLibraryCategory to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareZeroTrustResourceLibraryCategory to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_resource_library_category#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareZeroTrustResourceLibraryCategory that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareZeroTrustResourceLibraryCategory to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareZeroTrustResourceLibraryCategory to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareZeroTrustResourceLibraryCategory that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareZeroTrustResourceLibraryCategory to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.DataCloudflareZeroTrustResourceLibraryCategory.DataCloudflareZeroTrustResourceLibraryCategory), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -91,10 +91,10 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? IdInput
+        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? IdInput
         {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
@@ -104,10 +104,10 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Id
         {
-            get => GetInstanceProperty<string>()!;
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
     }

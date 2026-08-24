@@ -53,6 +53,18 @@ namespace cloudflare.DataCloudflareAiSearchNamespaces
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "publicEndpointId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PublicEndpointId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "publicEndpointParams", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchNamespaces.DataCloudflareAiSearchNamespacesResultPublicEndpointParamsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareAiSearchNamespaces.DataCloudflareAiSearchNamespacesResultPublicEndpointParamsOutputReference PublicEndpointParams
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchNamespaces.DataCloudflareAiSearchNamespacesResultPublicEndpointParamsOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchNamespaces.DataCloudflareAiSearchNamespacesResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareAiSearchNamespaces.IDataCloudflareAiSearchNamespacesResult? InternalValue

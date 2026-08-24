@@ -14,7 +14,7 @@ namespace cloudflare.RateLimit
         /// In this case, any cached traffic served by Cloudflare will not count towards rate limiting. This field is optional.
         /// Notes: This field is deprecated. Instead, use response headers and set "origin_traffic" to "false" to avoid legacy behaviour interacting with the "response_headers" property.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/rate_limit#origin_traffic RateLimit#origin_traffic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/rate_limit#origin_traffic RateLimit#origin_traffic}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareOriginTlsComplianceModes
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/origin_tls_compliance_modes#zone_id DataCloudflareOriginTlsComplianceModes#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/origin_tls_compliance_modes#zone_id DataCloudflareOriginTlsComplianceModes#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

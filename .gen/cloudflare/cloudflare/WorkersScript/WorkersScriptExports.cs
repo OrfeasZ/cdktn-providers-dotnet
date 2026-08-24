@@ -11,7 +11,7 @@ namespace cloudflare.WorkersScript
     {
         /// <summary>The kind of entrypoint. A `type: worker` entry overrides the top-level `cache_options` for this specific entrypoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#type WorkersScript#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#type WorkersScript#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Per-entrypoint cache override. When present, this overrides the top-level `cache_options` for this specific entrypoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#cache WorkersScript#cache}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#cache WorkersScript#cache}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cache", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptExportsCache\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.LeakedCredentialCheckRule
     {
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/leaked_credential_check_rule#zone_id LeakedCredentialCheckRule#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/leaked_credential_check_rule#zone_id LeakedCredentialCheckRule#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -22,7 +22,7 @@ namespace cloudflare.LeakedCredentialCheckRule
 
         /// <summary>Defines ehe ruleset expression to use in matching the password in a request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/leaked_credential_check_rule#password LeakedCredentialCheckRule#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/leaked_credential_check_rule#password LeakedCredentialCheckRule#password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace cloudflare.LeakedCredentialCheckRule
 
         /// <summary>Defines the ruleset expression to use in matching the username in a request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/leaked_credential_check_rule#username LeakedCredentialCheckRule#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/leaked_credential_check_rule#username LeakedCredentialCheckRule#username}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

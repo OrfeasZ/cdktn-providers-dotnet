@@ -9,7 +9,7 @@ namespace cloudflare.AiGateway
     [JsiiByValue(fqn: "cloudflare.aiGateway.AiGatewayConfig")]
     public class AiGatewayConfig : cloudflare.AiGateway.IAiGatewayConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#account_id AiGateway#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#account_id AiGateway#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -19,7 +19,7 @@ namespace cloudflare.AiGateway
 
         private object _cacheInvalidateOnUpdate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#cache_invalidate_on_update AiGateway#cache_invalidate_on_update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#cache_invalidate_on_update AiGateway#cache_invalidate_on_update}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace cloudflare.AiGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#cache_ttl AiGateway#cache_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#cache_ttl AiGateway#cache_ttl}.</summary>
         [JsiiProperty(name: "cacheTtl", typeJson: "{\"primitive\":\"number\"}")]
         public double CacheTtl
         {
@@ -60,7 +60,7 @@ namespace cloudflare.AiGateway
 
         private object _collectLogs;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#collect_logs AiGateway#collect_logs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#collect_logs AiGateway#collect_logs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -93,7 +93,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>gateway id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#id AiGateway#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#id AiGateway#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -105,7 +105,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#rate_limiting_interval AiGateway#rate_limiting_interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#rate_limiting_interval AiGateway#rate_limiting_interval}.</summary>
         [JsiiProperty(name: "rateLimitingInterval", typeJson: "{\"primitive\":\"number\"}")]
         public double RateLimitingInterval
         {
@@ -113,7 +113,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#rate_limiting_limit AiGateway#rate_limiting_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#rate_limiting_limit AiGateway#rate_limiting_limit}.</summary>
         [JsiiProperty(name: "rateLimitingLimit", typeJson: "{\"primitive\":\"number\"}")]
         public double RateLimitingLimit
         {
@@ -123,7 +123,7 @@ namespace cloudflare.AiGateway
 
         private object? _authentication;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#authentication AiGateway#authentication}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#authentication AiGateway#authentication}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -155,7 +155,7 @@ namespace cloudflare.AiGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#dlp AiGateway#dlp}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#dlp AiGateway#dlp}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dlp", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewayDlp\"}", isOptional: true)]
         public cloudflare.AiGateway.IAiGatewayDlp? Dlp
@@ -164,7 +164,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#guardrails AiGateway#guardrails}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#guardrails AiGateway#guardrails}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "guardrails", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewayGuardrails\"}", isOptional: true)]
         public cloudflare.AiGateway.IAiGatewayGuardrails? Guardrails
@@ -173,7 +173,41 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#log_management AiGateway#log_management}.</summary>
+        private object? _logClassification;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#log_classification AiGateway#log_classification}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "logClassification", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? LogClassification
+        {
+            get => _logClassification;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _logClassification = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#log_management AiGateway#log_management}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logManagement", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LogManagement
@@ -184,7 +218,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "STOP_INSERTING", "DELETE_OLDEST".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#log_management_strategy AiGateway#log_management_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#log_management_strategy AiGateway#log_management_strategy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logManagementStrategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -196,7 +230,7 @@ namespace cloudflare.AiGateway
 
         private object? _logpush;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#logpush AiGateway#logpush}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#logpush AiGateway#logpush}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -228,7 +262,7 @@ namespace cloudflare.AiGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#logpush_public_key AiGateway#logpush_public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#logpush_public_key AiGateway#logpush_public_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logpushPublicKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogpushPublicKey
@@ -239,7 +273,7 @@ namespace cloudflare.AiGateway
 
         private object? _otel;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#otel AiGateway#otel}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#otel AiGateway#otel}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGateway.IAiGatewayOtel" />)[]</para>
         /// </remarks>
@@ -273,7 +307,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Available values: "fixed", "sliding".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#rate_limiting_technique AiGateway#rate_limiting_technique}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#rate_limiting_technique AiGateway#rate_limiting_technique}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rateLimitingTechnique", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -285,7 +319,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Backoff strategy for retry delays Available values: "constant", "linear", "exponential".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#retry_backoff AiGateway#retry_backoff}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#retry_backoff AiGateway#retry_backoff}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryBackoff", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -297,7 +331,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Delay between retry attempts in milliseconds (0-5000).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#retry_delay AiGateway#retry_delay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#retry_delay AiGateway#retry_delay}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryDelay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -309,7 +343,7 @@ namespace cloudflare.AiGateway
 
         /// <summary>Maximum number of retry attempts for failed requests (1-5).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#retry_max_attempts AiGateway#retry_max_attempts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#retry_max_attempts AiGateway#retry_max_attempts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retryMaxAttempts", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -319,7 +353,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#spend_limits AiGateway#spend_limits}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#spend_limits AiGateway#spend_limits}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "spendLimits", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewaySpendLimits\"}", isOptional: true)]
         public cloudflare.AiGateway.IAiGatewaySpendLimits? SpendLimits
@@ -328,7 +362,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#store_id AiGateway#store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#store_id AiGateway#store_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StoreId
@@ -337,7 +371,7 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#stripe AiGateway#stripe}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#stripe AiGateway#stripe}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stripe", typeJson: "{\"fqn\":\"cloudflare.aiGateway.AiGatewayStripe\"}", isOptional: true)]
         public cloudflare.AiGateway.IAiGatewayStripe? Stripe
@@ -346,9 +380,12 @@ namespace cloudflare.AiGateway
             set;
         }
 
-        /// <summary>Controls how Workers AI inference calls routed through this gateway are billed. Only 'postpaid' is currently supported. Available values: "postpaid".</summary>
+        /// <summary>Controls how Workers AI inference calls routed through this gateway are billed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#workers_ai_billing_mode AiGateway#workers_ai_billing_mode}
+        /// 'postpaid' bills the account directly through Workers AI; 'unified' deducts credits via AI Gateway using neuron-based pricing and delegates billing to AI Gateway.
+        /// Available values: "postpaid", "unified".
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#workers_ai_billing_mode AiGateway#workers_ai_billing_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "workersAiBillingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -360,7 +397,7 @@ namespace cloudflare.AiGateway
 
         private object? _zdr;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#zdr AiGateway#zdr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#zdr AiGateway#zdr}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

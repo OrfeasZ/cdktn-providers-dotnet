@@ -7,7 +7,7 @@ namespace cloudflare.PipelineStream
     [JsiiInterface(nativeType: typeof(IPipelineStreamSchema), fullyQualifiedName: "cloudflare.pipelineStream.PipelineStreamSchema")]
     public interface IPipelineStreamSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/pipeline_stream#fields PipelineStream#fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/pipeline_stream#fields PipelineStream#fields}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineStream.IPipelineStreamSchemaFields" />)[]</para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace cloudflare.PipelineStream
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/pipeline_stream#format PipelineStream#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/pipeline_stream#format PipelineStream#format}.</summary>
         [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchemaFormat\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PipelineStream.IPipelineStreamSchemaFormat? Format
@@ -32,7 +32,7 @@ namespace cloudflare.PipelineStream
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/pipeline_stream#inferred PipelineStream#inferred}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/pipeline_stream#inferred PipelineStream#inferred}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace cloudflare.PipelineStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/pipeline_stream#fields PipelineStream#fields}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/pipeline_stream#fields PipelineStream#fields}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineStream.IPipelineStreamSchemaFields" />)[]</para>
             /// </remarks>
@@ -64,7 +64,7 @@ namespace cloudflare.PipelineStream
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/pipeline_stream#format PipelineStream#format}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/pipeline_stream#format PipelineStream#format}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchemaFormat\"}", isOptional: true)]
             public cloudflare.PipelineStream.IPipelineStreamSchemaFormat? Format
@@ -72,7 +72,7 @@ namespace cloudflare.PipelineStream
                 get => GetInstanceProperty<cloudflare.PipelineStream.IPipelineStreamSchemaFormat?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/pipeline_stream#inferred PipelineStream#inferred}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/pipeline_stream#inferred PipelineStream#inferred}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

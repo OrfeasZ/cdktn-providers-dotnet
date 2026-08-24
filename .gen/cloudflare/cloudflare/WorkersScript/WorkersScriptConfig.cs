@@ -11,7 +11,7 @@ namespace cloudflare.WorkersScript
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#account_id WorkersScript#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#account_id WorkersScript#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Name of the script, used in URLs and route configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#script_name WorkersScript#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#script_name WorkersScript#script_name}
         /// </remarks>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptName
@@ -33,7 +33,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Annotations for the version created by this upload.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#annotations WorkersScript#annotations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#annotations WorkersScript#annotations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "annotations", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptAnnotations\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Configuration for assets within a Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#assets WorkersScript#assets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#assets WorkersScript#assets}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "assets", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptAssets\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>List of bindings attached to a Worker. You can find more about bindings on our docs: https://developers.cloudflare.com/workers/configuration/multipart-upload-metadata/#bindings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#bindings WorkersScript#bindings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#bindings WorkersScript#bindings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptBindings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -92,7 +92,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Name of the uploaded file that contains the script (e.g. the file adding a listener to the `fetch` event). Indicates a `service worker syntax` Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#body_part WorkersScript#body_part}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#body_part WorkersScript#body_part}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bodyPart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace cloudflare.WorkersScript
         /// A <c>type: worker</c> entry in the <c>exports</c> map can override this
         /// value for a single entrypoint.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#cache_options WorkersScript#cache_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#cache_options WorkersScript#cache_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheOptions", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptCacheOptions\"}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace cloudflare.WorkersScript
         /// <remarks>
         /// Backwards incompatible fixes to the runtime following this date will not affect this Worker.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#compatibility_date WorkersScript#compatibility_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#compatibility_date WorkersScript#compatibility_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace cloudflare.WorkersScript
         /// <remarks>
         /// Used to enable upcoming features or opt in or out of specific changes not included in a <c>compatibility_date</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#compatibility_flags WorkersScript#compatibility_flags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#compatibility_flags WorkersScript#compatibility_flags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compatibilityFlags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -149,7 +149,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Module or Service Worker contents of the Worker. Conflicts with `content_file`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#content WorkersScript#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#content WorkersScript#content}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -163,7 +163,7 @@ namespace cloudflare.WorkersScript
         /// <remarks>
         /// Conflicts with <c>content</c>. Must be paired with <c>content_sha256</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#content_file WorkersScript#content_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#content_file WorkersScript#content_file}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace cloudflare.WorkersScript
         /// <remarks>
         /// Used to trigger updates when source code changes. Must be provided when <c>content_file</c> is specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#content_sha256 WorkersScript#content_sha256}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#content_sha256 WorkersScript#content_sha256}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentSha256", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Content-Type of the Worker. Required if uploading a non-JavaScript Worker (e.g. "text/x-python").</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#content_type WorkersScript#content_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#content_type WorkersScript#content_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -203,7 +203,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Per-entrypoint export configuration. Keys are the export names; values describe the entrypoint's kind and per-entrypoint cache behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#exports WorkersScript#exports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#exports WorkersScript#exports}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.WorkersScript.IWorkersScriptExports" />&gt;</para>
         /// </remarks>
         [JsiiOptional]
@@ -240,7 +240,7 @@ namespace cloudflare.WorkersScript
         /// <remarks>
         /// used in lieu of providing a completion token. An explicit <c>assets</c> upload takes precedence over <c>keep_assets</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#keep_assets WorkersScript#keep_assets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#keep_assets WorkersScript#keep_assets}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -273,7 +273,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>List of binding types to keep from previous_upload.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#keep_bindings WorkersScript#keep_bindings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#keep_bindings WorkersScript#keep_bindings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keepBindings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -285,7 +285,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Limits to apply for this Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#limits WorkersScript#limits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#limits WorkersScript#limits}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptLimits\"}", isOptional: true)]
@@ -299,7 +299,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Whether Logpush is turned on for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#logpush WorkersScript#logpush}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#logpush WorkersScript#logpush}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -332,7 +332,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Name of the uploaded file that contains the main module (e.g. the file exporting a `fetch` handler). Indicates a `module syntax` Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#main_module WorkersScript#main_module}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#main_module WorkersScript#main_module}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mainModule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -344,7 +344,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Migrations to apply for Durable Objects associated with this Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#migrations WorkersScript#migrations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#migrations WorkersScript#migrations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "migrations", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptMigrations\"}", isOptional: true)]
@@ -356,7 +356,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Observability settings for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#observability WorkersScript#observability}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#observability WorkersScript#observability}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "observability", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservability\"}", isOptional: true)]
@@ -370,7 +370,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>The list of npm packages that were installed and used when this Worker was built.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#package_dependencies WorkersScript#package_dependencies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#package_dependencies WorkersScript#package_dependencies}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptPackageDependencies" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -403,7 +403,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Configuration for [Smart Placement](https://developers.cloudflare.com/workers/configuration/smart-placement). Specify mode='smart' for Smart Placement, or one of region/hostname/host.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#placement WorkersScript#placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#placement WorkersScript#placement}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptPlacement\"}", isOptional: true)]
@@ -417,7 +417,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>List of Workers that will consume logs from the attached Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#tail_consumers WorkersScript#tail_consumers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#tail_consumers WorkersScript#tail_consumers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersScript.IWorkersScriptTailConsumers" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -450,7 +450,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Usage model for the Worker invocations. Available values: "standard", "bundled", "unbound".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#usage_model WorkersScript#usage_model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#usage_model WorkersScript#usage_model}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usageModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

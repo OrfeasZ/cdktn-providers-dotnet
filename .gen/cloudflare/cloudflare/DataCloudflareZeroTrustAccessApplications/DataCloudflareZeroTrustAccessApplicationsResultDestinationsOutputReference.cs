@@ -83,6 +83,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplications
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WorkerId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "mcpServerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? McpServerIdInput

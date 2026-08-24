@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZoneAutoOriginTlsKex
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZoneAutoOriginTlsKex.DataCloudflareZoneAutoOriginTlsKexConfig")]
     public class DataCloudflareZoneAutoOriginTlsKexConfig : cloudflare.DataCloudflareZoneAutoOriginTlsKex.IDataCloudflareZoneAutoOriginTlsKexConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zone_auto_origin_tls_kex#zone_id DataCloudflareZoneAutoOriginTlsKex#zone_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zone_auto_origin_tls_kex#zone_id DataCloudflareZoneAutoOriginTlsKex#zone_id}.</summary>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
         {

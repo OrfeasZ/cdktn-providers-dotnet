@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareShareResource
     {
         /// <summary>Account identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resource#account_id DataCloudflareShareResource#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resource#account_id DataCloudflareShareResource#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareShareResource
 
         /// <summary>Share identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resource#share_id DataCloudflareShareResource#share_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resource#share_id DataCloudflareShareResource#share_id}
         /// </remarks>
         [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
         public string ShareId
@@ -31,7 +31,7 @@ namespace cloudflare.DataCloudflareShareResource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resource#filter DataCloudflareShareResource#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resource#filter DataCloudflareShareResource#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareShareResource.DataCloudflareShareResourceFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareShareResource.IDataCloudflareShareResourceFilter? Filter
@@ -42,7 +42,7 @@ namespace cloudflare.DataCloudflareShareResource
 
         /// <summary>Share Resource identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resource#share_resource_id DataCloudflareShareResource#share_resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resource#share_resource_id DataCloudflareShareResource#share_resource_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shareResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

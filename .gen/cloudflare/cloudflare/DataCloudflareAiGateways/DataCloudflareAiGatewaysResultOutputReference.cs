@@ -89,6 +89,12 @@ namespace cloudflare.DataCloudflareAiGateways
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "logClassification", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable LogClassification
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "logManagement", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double LogManagement
         {

@@ -9,7 +9,7 @@ namespace cloudflare.FirewallRule
     {
         /// <summary>The action to perform when the threshold of matched traffic within the configured period is exceeded.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/firewall_rule#action FirewallRule#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/firewall_rule#action FirewallRule#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"cloudflare.firewallRule.FirewallRuleAction\"}")]
         cloudflare.FirewallRule.IFirewallRuleAction Action
@@ -17,7 +17,7 @@ namespace cloudflare.FirewallRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/firewall_rule#filter FirewallRule#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/firewall_rule#filter FirewallRule#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.firewallRule.FirewallRuleFilter\"}")]
         cloudflare.FirewallRule.IFirewallRuleFilter Filter
         {
@@ -26,7 +26,7 @@ namespace cloudflare.FirewallRule
 
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/firewall_rule#zone_id FirewallRule#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/firewall_rule#zone_id FirewallRule#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -43,7 +43,7 @@ namespace cloudflare.FirewallRule
 
             /// <summary>The action to perform when the threshold of matched traffic within the configured period is exceeded.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/firewall_rule#action FirewallRule#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/firewall_rule#action FirewallRule#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"cloudflare.firewallRule.FirewallRuleAction\"}")]
             public cloudflare.FirewallRule.IFirewallRuleAction Action
@@ -51,7 +51,7 @@ namespace cloudflare.FirewallRule
                 get => GetInstanceProperty<cloudflare.FirewallRule.IFirewallRuleAction>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/firewall_rule#filter FirewallRule#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/firewall_rule#filter FirewallRule#filter}.</summary>
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.firewallRule.FirewallRuleFilter\"}")]
             public cloudflare.FirewallRule.IFirewallRuleFilter Filter
             {
@@ -60,7 +60,7 @@ namespace cloudflare.FirewallRule
 
             /// <summary>Defines an identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/firewall_rule#zone_id FirewallRule#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/firewall_rule#zone_id FirewallRule#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId

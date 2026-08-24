@@ -11,7 +11,7 @@ namespace cloudflare.LoadBalancer
         /// <remarks>
         /// When set false (the default) zero-downtime failover will only occur between origins within the same pool. See <c>session_affinity_attributes</c> for control over when sessions are broken or reassigned.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#failover_across_pools LoadBalancer#failover_across_pools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer#failover_across_pools LoadBalancer#failover_across_pools}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "failoverAcrossPools", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace cloudflare.LoadBalancer
             /// <remarks>
             /// When set false (the default) zero-downtime failover will only occur between origins within the same pool. See <c>session_affinity_attributes</c> for control over when sessions are broken or reassigned.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer#failover_across_pools LoadBalancer#failover_across_pools}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer#failover_across_pools LoadBalancer#failover_across_pools}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

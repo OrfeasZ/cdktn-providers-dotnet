@@ -9,7 +9,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>Controls how response Vary headers without a per-header override contribute to the cache key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#default Ruleset#default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#default Ruleset#default}
         /// </remarks>
         [JsiiProperty(name: "default", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVaryDefault\"}")]
         cloudflare.Ruleset.IRulesetRulesActionParametersVaryDefault Default
@@ -19,7 +19,7 @@ namespace cloudflare.Ruleset
 
         /// <summary>A mapping of lowercase request header names to their vary configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#headers Ruleset#headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#headers Ruleset#headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersVaryHeaders" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "headers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVaryHeaders\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>Controls how response Vary headers without a per-header override contribute to the cache key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#default Ruleset#default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#default Ruleset#default}
             /// </remarks>
             [JsiiProperty(name: "default", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersVaryDefault\"}")]
             public cloudflare.Ruleset.IRulesetRulesActionParametersVaryDefault Default
@@ -51,7 +51,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>A mapping of lowercase request header names to their vary configuration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#headers Ruleset#headers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#headers Ruleset#headers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersVaryHeaders" />&gt;</para>
             /// </remarks>
             [JsiiOptional]

@@ -11,7 +11,7 @@ namespace cloudflare.Worker
 
         /// <summary>Whether observability is enabled for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker#enabled Worker#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker#enabled Worker#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.Worker
 
         /// <summary>The sampling rate for observability. From 0 to 1 (1 = 100%, 0.1 = 10%).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker#head_sampling_rate Worker#head_sampling_rate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker#head_sampling_rate Worker#head_sampling_rate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headSamplingRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace cloudflare.Worker
 
         /// <summary>Log settings for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker#logs Worker#logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker#logs Worker#logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerObservabilityLogs\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace cloudflare.Worker
 
         /// <summary>Trace settings for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker#traces Worker#traces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker#traces Worker#traces}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "traces", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerObservabilityTraces\"}", isOptional: true)]

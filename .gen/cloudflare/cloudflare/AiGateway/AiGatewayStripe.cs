@@ -9,7 +9,7 @@ namespace cloudflare.AiGateway
     [JsiiByValue(fqn: "cloudflare.aiGateway.AiGatewayStripe")]
     public class AiGatewayStripe : cloudflare.AiGateway.IAiGatewayStripe
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#authorization AiGateway#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}")]
         public string Authorization
         {
@@ -19,7 +19,7 @@ namespace cloudflare.AiGateway
 
         private object _usageEvents;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_gateway#usage_events AiGateway#usage_events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_gateway#usage_events AiGateway#usage_events}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiGateway.IAiGatewayStripeUsageEvents" />)[]</para>
         /// </remarks>

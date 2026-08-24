@@ -11,7 +11,7 @@ namespace cloudflare.ApiShield
     {
         private object _authIdCharacteristics;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/api_shield#auth_id_characteristics ApiShield#auth_id_characteristics}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/api_shield#auth_id_characteristics ApiShield#auth_id_characteristics}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ApiShield.IApiShieldAuthIdCharacteristics" />)[]</para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace cloudflare.ApiShield
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/api_shield#zone_id ApiShield#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/api_shield#zone_id ApiShield#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

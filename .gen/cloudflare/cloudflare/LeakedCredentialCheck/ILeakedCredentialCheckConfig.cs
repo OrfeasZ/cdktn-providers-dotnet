@@ -9,7 +9,7 @@ namespace cloudflare.LeakedCredentialCheck
     {
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/leaked_credential_check#zone_id LeakedCredentialCheck#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/leaked_credential_check#zone_id LeakedCredentialCheck#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -19,7 +19,7 @@ namespace cloudflare.LeakedCredentialCheck
 
         /// <summary>Determines whether or not Leaked Credential Checks are enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/leaked_credential_check#enabled LeakedCredentialCheck#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/leaked_credential_check#enabled LeakedCredentialCheck#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace cloudflare.LeakedCredentialCheck
 
             /// <summary>Defines an identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/leaked_credential_check#zone_id LeakedCredentialCheck#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/leaked_credential_check#zone_id LeakedCredentialCheck#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -51,7 +51,7 @@ namespace cloudflare.LeakedCredentialCheck
 
             /// <summary>Determines whether or not Leaked Credential Checks are enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/leaked_credential_check#enabled LeakedCredentialCheck#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/leaked_credential_check#enabled LeakedCredentialCheck#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

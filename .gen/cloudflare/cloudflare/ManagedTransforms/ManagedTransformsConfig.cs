@@ -11,7 +11,7 @@ namespace cloudflare.ManagedTransforms
     {
         /// <summary>The unique ID of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/managed_transforms#zone_id ManagedTransforms#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -24,7 +24,7 @@ namespace cloudflare.ManagedTransforms
 
         /// <summary>The list of Managed Request Transforms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/managed_transforms#managed_request_headers ManagedTransforms#managed_request_headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedRequestHeaders" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -59,7 +59,7 @@ namespace cloudflare.ManagedTransforms
 
         /// <summary>The list of Managed Response Transforms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/managed_transforms#managed_response_headers ManagedTransforms#managed_response_headers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ManagedTransforms.IManagedTransformsManagedResponseHeaders" />)[]</para>
         /// </remarks>
         [JsiiOptional]

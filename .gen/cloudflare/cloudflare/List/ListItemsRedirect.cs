@@ -9,7 +9,7 @@ namespace cloudflare.List
     [JsiiByValue(fqn: "cloudflare.list.ListItemsRedirect")]
     public class ListItemsRedirect : cloudflare.List.IListItemsRedirect
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list#source_url List#source_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list#source_url List#source_url}.</summary>
         [JsiiProperty(name: "sourceUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceUrl
         {
@@ -17,7 +17,7 @@ namespace cloudflare.List
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list#target_url List#target_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list#target_url List#target_url}.</summary>
         [JsiiProperty(name: "targetUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetUrl
         {
@@ -27,7 +27,7 @@ namespace cloudflare.List
 
         private object? _includeSubdomains;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list#include_subdomains List#include_subdomains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list#include_subdomains List#include_subdomains}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace cloudflare.List
 
         private object? _preservePathSuffix;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list#preserve_path_suffix List#preserve_path_suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list#preserve_path_suffix List#preserve_path_suffix}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace cloudflare.List
 
         private object? _preserveQueryString;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list#preserve_query_string List#preserve_query_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list#preserve_query_string List#preserve_query_string}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -129,7 +129,7 @@ namespace cloudflare.List
 
         /// <summary>Available values: 301, 302, 307, 308.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list#status_code List#status_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list#status_code List#status_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace cloudflare.List
 
         private object? _subpathMatching;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list#subpath_matching List#subpath_matching}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list#subpath_matching List#subpath_matching}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

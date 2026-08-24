@@ -9,7 +9,7 @@ namespace cloudflare.WorkerVersion
     {
         /// <summary>The kind of export. Available values: "worker", "durable-object".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#type WorkerVersion#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#type WorkerVersion#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -19,7 +19,7 @@ namespace cloudflare.WorkerVersion
 
         /// <summary>Cache override for this entrypoint. It applies only to `type: worker` entries and overrides the Worker's global `cache_options.enabled` for that entrypoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#cache WorkerVersion#cache}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#cache WorkerVersion#cache}
         /// </remarks>
         [JsiiProperty(name: "cache", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionExportsCache\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace cloudflare.WorkerVersion
         /// target must appear as a live (<c>created</c>) entry in the same
         /// <c>exports</c> map. Write-only: never present in GET responses.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#renamed_to WorkerVersion#renamed_to}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#renamed_to WorkerVersion#renamed_to}
         /// </remarks>
         [JsiiProperty(name: "renamedTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace cloudflare.WorkerVersion
         /// it carries <c>storage</c> and <c>transfer_from</c>.
         /// Available values: "created", "deleted", "renamed", "transferred", "expecting-transfer".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#state WorkerVersion#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#state WorkerVersion#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace cloudflare.WorkerVersion
         /// <c>legacy-kv</c> selects the legacy key-value storage.
         /// Available values: "sqlite", "legacy-kv".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#storage WorkerVersion#storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#storage WorkerVersion#storage}
         /// </remarks>
         [JsiiProperty(name: "storage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace cloudflare.WorkerVersion
         /// script's data via the pending-transfer flow. Present on reads
         /// for <c>expecting-transfer</c> entries.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#transfer_from WorkerVersion#transfer_from}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#transfer_from WorkerVersion#transfer_from}
         /// </remarks>
         [JsiiProperty(name: "transferFrom", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace cloudflare.WorkerVersion
         /// transfers are rejected. Write-only: never present in GET
         /// responses.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#transferred_to WorkerVersion#transferred_to}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#transferred_to WorkerVersion#transferred_to}
         /// </remarks>
         [JsiiProperty(name: "transferredTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -141,7 +141,7 @@ namespace cloudflare.WorkerVersion
 
             /// <summary>The kind of export. Available values: "worker", "durable-object".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#type WorkerVersion#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#type WorkerVersion#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -151,7 +151,7 @@ namespace cloudflare.WorkerVersion
 
             /// <summary>Cache override for this entrypoint. It applies only to `type: worker` entries and overrides the Worker's global `cache_options.enabled` for that entrypoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#cache WorkerVersion#cache}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#cache WorkerVersion#cache}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cache", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionExportsCache\"}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace cloudflare.WorkerVersion
             /// target must appear as a live (<c>created</c>) entry in the same
             /// <c>exports</c> map. Write-only: never present in GET responses.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#renamed_to WorkerVersion#renamed_to}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#renamed_to WorkerVersion#renamed_to}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "renamedTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -188,7 +188,7 @@ namespace cloudflare.WorkerVersion
             /// it carries <c>storage</c> and <c>transfer_from</c>.
             /// Available values: "created", "deleted", "renamed", "transferred", "expecting-transfer".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#state WorkerVersion#state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#state WorkerVersion#state}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace cloudflare.WorkerVersion
             /// <c>legacy-kv</c> selects the legacy key-value storage.
             /// Available values: "sqlite", "legacy-kv".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#storage WorkerVersion#storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#storage WorkerVersion#storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "storage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -221,7 +221,7 @@ namespace cloudflare.WorkerVersion
             /// script's data via the pending-transfer flow. Present on reads
             /// for <c>expecting-transfer</c> entries.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#transfer_from WorkerVersion#transfer_from}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#transfer_from WorkerVersion#transfer_from}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transferFrom", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -237,7 +237,7 @@ namespace cloudflare.WorkerVersion
             /// transfers are rejected. Write-only: never present in GET
             /// responses.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/worker_version#transferred_to WorkerVersion#transferred_to}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/worker_version#transferred_to WorkerVersion#transferred_to}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transferredTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

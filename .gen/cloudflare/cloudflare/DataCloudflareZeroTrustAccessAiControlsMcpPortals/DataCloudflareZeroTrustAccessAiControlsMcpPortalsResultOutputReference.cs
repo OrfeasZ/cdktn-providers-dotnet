@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "codeMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CodeMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {

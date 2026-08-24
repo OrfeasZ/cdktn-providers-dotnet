@@ -5,7 +5,7 @@ namespace cloudflare.FlagshipFlag
     /// <remarks>
     /// <h1><c>cloudflare_flagship_flag</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/flagship_flag"><c>cloudflare_flagship_flag</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/flagship_flag"><c>cloudflare_flagship_flag</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

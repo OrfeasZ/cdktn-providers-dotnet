@@ -13,7 +13,7 @@ namespace cloudflare.CustomOriginTrustStore
         /// <remarks>
         /// Only root CA certificates are accepted; intermediate and leaf certificates are not supported.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/custom_origin_trust_store#certificate CustomOriginTrustStore#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/custom_origin_trust_store#certificate CustomOriginTrustStore#certificate}
         /// </remarks>
         [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}")]
         public string Certificate
@@ -24,7 +24,7 @@ namespace cloudflare.CustomOriginTrustStore
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/custom_origin_trust_store#zone_id CustomOriginTrustStore#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/custom_origin_trust_store#zone_id CustomOriginTrustStore#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

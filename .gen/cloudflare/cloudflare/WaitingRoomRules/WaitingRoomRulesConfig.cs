@@ -11,7 +11,7 @@ namespace cloudflare.WaitingRoomRules
     {
         private object _rules;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/waiting_room_rules#rules WaitingRoomRules#rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/waiting_room_rules#rules WaitingRoomRules#rules}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WaitingRoomRules.IWaitingRoomRulesRules" />)[]</para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace cloudflare.WaitingRoomRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/waiting_room_rules#waiting_room_id WaitingRoomRules#waiting_room_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/waiting_room_rules#waiting_room_id WaitingRoomRules#waiting_room_id}.</summary>
         [JsiiProperty(name: "waitingRoomId", typeJson: "{\"primitive\":\"string\"}")]
         public string WaitingRoomId
         {
@@ -52,7 +52,7 @@ namespace cloudflare.WaitingRoomRules
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/waiting_room_rules#zone_id WaitingRoomRules#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/waiting_room_rules#zone_id WaitingRoomRules#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId

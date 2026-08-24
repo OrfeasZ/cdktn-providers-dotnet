@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareMagicTransitConnector
     {
         /// <summary>Filter connectors by device type. Available values: "MANAGED", "LICENSED".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/magic_transit_connector#device_type DataCloudflareMagicTransitConnector#device_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connector#device_type DataCloudflareMagicTransitConnector#device_type}
         /// </remarks>
         [JsiiProperty(name: "deviceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareMagicTransitConnector
 
             /// <summary>Filter connectors by device type. Available values: "MANAGED", "LICENSED".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/magic_transit_connector#device_type DataCloudflareMagicTransitConnector#device_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connector#device_type DataCloudflareMagicTransitConnector#device_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deviceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

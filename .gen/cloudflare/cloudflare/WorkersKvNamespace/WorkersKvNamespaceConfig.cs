@@ -11,7 +11,7 @@ namespace cloudflare.WorkersKvNamespace
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.WorkersKvNamespace
 
         /// <summary>A human-readable string name for a Namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
         /// </remarks>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         public string Title

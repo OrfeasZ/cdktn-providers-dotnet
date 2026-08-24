@@ -9,7 +9,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>How the header value is treated when building the cache key. Available values: "bypass", "passthrough", "normalize".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#action Ruleset#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#action Ruleset#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
@@ -26,7 +26,7 @@ namespace cloudflare.Ruleset
 
             /// <summary>How the header value is treated when building the cache key. Available values: "bypass", "passthrough", "normalize".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ruleset#action Ruleset#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ruleset#action Ruleset#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action

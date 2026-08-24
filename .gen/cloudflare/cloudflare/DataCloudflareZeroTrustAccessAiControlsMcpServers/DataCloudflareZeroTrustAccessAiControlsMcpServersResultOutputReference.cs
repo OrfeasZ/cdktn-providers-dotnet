@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpServers.DataCloudflareZeroTrustAccessAiControlsMcpServersResultAuthConfigSummaryOutputReference>()!;
         }
 
+        [JsiiProperty(name: "authenticationStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthenticationStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AuthType
         {

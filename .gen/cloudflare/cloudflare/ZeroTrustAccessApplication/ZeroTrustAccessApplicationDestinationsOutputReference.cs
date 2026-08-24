@@ -83,6 +83,12 @@ namespace cloudflare.ZeroTrustAccessApplication
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetWorkerId")]
+        public virtual void ResetWorkerId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "cidrInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CidrInput
@@ -139,6 +145,13 @@ namespace cloudflare.ZeroTrustAccessApplication
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "workerIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? WorkerIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Cidr
         {
@@ -190,6 +203,13 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         [JsiiProperty(name: "vnetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string VnetId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "workerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WorkerId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

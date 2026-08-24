@@ -45,6 +45,18 @@ namespace cloudflare.DataCloudflareWorkers
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "previewUrlSuffix", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PreviewUrlSuffix
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Url
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkers.DataCloudflareWorkersResultSubdomain\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareWorkers.IDataCloudflareWorkersResultSubdomain? InternalValue

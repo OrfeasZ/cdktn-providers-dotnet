@@ -45,6 +45,18 @@ namespace cloudflare.Worker
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "previewUrlSuffix", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PreviewUrlSuffix
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Url
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpSensitivityGroup
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDlpSensitivityGroup.DataCloudflareZeroTrustDlpSensitivityGroupConfig")]
     public class DataCloudflareZeroTrustDlpSensitivityGroupConfig : cloudflare.DataCloudflareZeroTrustDlpSensitivityGroup.IDataCloudflareZeroTrustDlpSensitivityGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_sensitivity_group#account_id DataCloudflareZeroTrustDlpSensitivityGroup#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_dlp_sensitivity_group#account_id DataCloudflareZeroTrustDlpSensitivityGroup#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpSensitivityGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_sensitivity_group#sensitivity_group_id DataCloudflareZeroTrustDlpSensitivityGroup#sensitivity_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_dlp_sensitivity_group#sensitivity_group_id DataCloudflareZeroTrustDlpSensitivityGroup#sensitivity_group_id}.</summary>
         [JsiiProperty(name: "sensitivityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string SensitivityGroupId
         {

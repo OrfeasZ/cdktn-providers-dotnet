@@ -7,9 +7,11 @@ namespace cloudflare.ZeroTrustOrganization
     [JsiiInterface(nativeType: typeof(IZeroTrustOrganizationMfaConfig), fullyQualifiedName: "cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaConfig")]
     public interface IZeroTrustOrganizationMfaConfig
     {
-        /// <summary>Lists the MFA methods that users can authenticate with. `ssh_piv_key` is only relevant for infrastructure applications.</summary>
+        /// <summary>Lists the MFA methods that users can authenticate with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#allowed_authenticators ZeroTrustOrganization#allowed_authenticators}
+        /// The <c>piv_key</c> and <c>ssh_fido2_key</c> values are supported only for infrastructure applications.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#allowed_authenticators ZeroTrustOrganization#allowed_authenticators}
         /// </remarks>
         [JsiiProperty(name: "allowedAuthenticators", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -25,7 +27,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// <remarks>
         /// Must be in minutes (m) or hours (h). Minimum: 0m. Maximum: 720h (30 days).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#amr_matching_session_duration ZeroTrustOrganization#amr_matching_session_duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#amr_matching_session_duration ZeroTrustOrganization#amr_matching_session_duration}
         /// </remarks>
         [JsiiProperty(name: "amrMatchingSessionDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +41,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>Specifies a Cloudflare List of required FIDO2 authenticator device AAGUIDs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#required_aaguids ZeroTrustOrganization#required_aaguids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#required_aaguids ZeroTrustOrganization#required_aaguids}
         /// </remarks>
         [JsiiProperty(name: "requiredAaguids", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +57,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// <remarks>
         /// Must be in minutes (m) or hours (h). Minimum: 0m. Maximum: 720h (30 days). Examples:<c>5m</c> or <c>24h</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#session_duration ZeroTrustOrganization#session_duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#session_duration ZeroTrustOrganization#session_duration}
         /// </remarks>
         [JsiiProperty(name: "sessionDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,9 +76,11 @@ namespace cloudflare.ZeroTrustOrganization
             {
             }
 
-            /// <summary>Lists the MFA methods that users can authenticate with. `ssh_piv_key` is only relevant for infrastructure applications.</summary>
+            /// <summary>Lists the MFA methods that users can authenticate with.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#allowed_authenticators ZeroTrustOrganization#allowed_authenticators}
+            /// The <c>piv_key</c> and <c>ssh_fido2_key</c> values are supported only for infrastructure applications.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#allowed_authenticators ZeroTrustOrganization#allowed_authenticators}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedAuthenticators", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -89,7 +93,7 @@ namespace cloudflare.ZeroTrustOrganization
             /// <remarks>
             /// Must be in minutes (m) or hours (h). Minimum: 0m. Maximum: 720h (30 days).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#amr_matching_session_duration ZeroTrustOrganization#amr_matching_session_duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#amr_matching_session_duration ZeroTrustOrganization#amr_matching_session_duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amrMatchingSessionDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -100,7 +104,7 @@ namespace cloudflare.ZeroTrustOrganization
 
             /// <summary>Specifies a Cloudflare List of required FIDO2 authenticator device AAGUIDs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#required_aaguids ZeroTrustOrganization#required_aaguids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#required_aaguids ZeroTrustOrganization#required_aaguids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requiredAaguids", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -113,7 +117,7 @@ namespace cloudflare.ZeroTrustOrganization
             /// <remarks>
             /// Must be in minutes (m) or hours (h). Minimum: 0m. Maximum: 720h (30 days). Examples:<c>5m</c> or <c>24h</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#session_duration ZeroTrustOrganization#session_duration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#session_duration ZeroTrustOrganization#session_duration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sessionDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.StreamLiveInput
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#account_id StreamLiveInput#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#account_id StreamLiveInput#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.StreamLiveInput
 
         /// <summary>Sets the creator ID asssociated with this live input.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#default_creator StreamLiveInput#default_creator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#default_creator StreamLiveInput#default_creator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultCreator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace cloudflare.StreamLiveInput
         /// <remarks>
         /// When a stream completes and the recording is ready, the value is used to calculate a scheduled deletion date for that recording. Omit the field to indicate no change, or include with a <c>null</c> value to remove an existing scheduled deletion.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#delete_recording_after_days StreamLiveInput#delete_recording_after_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#delete_recording_after_days StreamLiveInput#delete_recording_after_days}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deleteRecordingAfterDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace cloudflare.StreamLiveInput
 
         /// <summary>Indicates whether the live input is enabled and can accept streams.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#enabled StreamLiveInput#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#enabled StreamLiveInput#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -83,7 +83,7 @@ namespace cloudflare.StreamLiveInput
 
         /// <summary>A unique identifier for a live input.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#live_input_identifier StreamLiveInput#live_input_identifier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#live_input_identifier StreamLiveInput#live_input_identifier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "liveInputIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace cloudflare.StreamLiveInput
 
         /// <summary>A user modifiable key-value store used to reference other systems of record for managing live inputs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#meta StreamLiveInput#meta}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#meta StreamLiveInput#meta}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "meta", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace cloudflare.StreamLiveInput
 
         /// <summary>When enabled, the live stream is delivered using Low-Latency HLS (LL-HLS), reducing glass-to-glass latency for viewers at the cost of reduced player compatibility.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#prefer_low_latency StreamLiveInput#prefer_low_latency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#prefer_low_latency StreamLiveInput#prefer_low_latency}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -144,7 +144,7 @@ namespace cloudflare.StreamLiveInput
         /// <remarks>
         /// Behavior depends on the mode. In most cases, the video will initially be viewable as a live video and transition to on-demand after a condition is satisfied.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/stream_live_input#recording StreamLiveInput#recording}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/stream_live_input#recording StreamLiveInput#recording}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recording", typeJson: "{\"fqn\":\"cloudflare.streamLiveInput.StreamLiveInputRecording\"}", isOptional: true)]

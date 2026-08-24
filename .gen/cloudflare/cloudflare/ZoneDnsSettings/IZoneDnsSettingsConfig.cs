@@ -9,7 +9,7 @@ namespace cloudflare.ZoneDnsSettings
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#zone_id ZoneDnsSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#zone_id ZoneDnsSettings#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -21,7 +21,7 @@ namespace cloudflare.ZoneDnsSettings
         /// <remarks>
         /// Note that, due to DNS limitations, a CNAME record at the zone apex will always be flattened.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#flatten_all_cnames ZoneDnsSettings#flatten_all_cnames}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#flatten_all_cnames ZoneDnsSettings#flatten_all_cnames}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "flattenAllCnames", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Whether to enable Foundation DNS Advanced Nameservers on the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#foundation_dns ZoneDnsSettings#foundation_dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#foundation_dns ZoneDnsSettings#foundation_dns}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "foundationDns", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Settings for this internal zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#internal_dns ZoneDnsSettings#internal_dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#internal_dns ZoneDnsSettings#internal_dns}
         /// </remarks>
         [JsiiProperty(name: "internalDns", typeJson: "{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsInternalDns\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Whether to enable multi-provider DNS, which causes Cloudflare to activate the zone even when non-Cloudflare NS records exist, and to respect NS records at the zone apex during outbound zone transfers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#multi_provider ZoneDnsSettings#multi_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#multi_provider ZoneDnsSettings#multi_provider}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "multiProvider", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Settings determining the nameservers through which the zone should be available.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#nameservers ZoneDnsSettings#nameservers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#nameservers ZoneDnsSettings#nameservers}
         /// </remarks>
         [JsiiProperty(name: "nameservers", typeJson: "{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsNameservers\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>The time to live (TTL) of the zone's nameserver (NS) records.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#ns_ttl ZoneDnsSettings#ns_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#ns_ttl ZoneDnsSettings#ns_ttl}
         /// </remarks>
         [JsiiProperty(name: "nsTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Allows a Secondary DNS zone to use (proxied) override records and CNAME flattening at the zone apex.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#secondary_overrides ZoneDnsSettings#secondary_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#secondary_overrides ZoneDnsSettings#secondary_overrides}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "secondaryOverrides", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -123,7 +123,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Components of the zone's SOA record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#soa ZoneDnsSettings#soa}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#soa ZoneDnsSettings#soa}
         /// </remarks>
         [JsiiProperty(name: "soa", typeJson: "{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsSoa\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -137,7 +137,7 @@ namespace cloudflare.ZoneDnsSettings
 
         /// <summary>Whether the zone mode is a regular or CDN/DNS only zone. Available values: "standard", "cdn_only", "dns_only".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#zone_mode ZoneDnsSettings#zone_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#zone_mode ZoneDnsSettings#zone_mode}
         /// </remarks>
         [JsiiProperty(name: "zoneMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -158,7 +158,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#zone_id ZoneDnsSettings#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#zone_id ZoneDnsSettings#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -170,7 +170,7 @@ namespace cloudflare.ZoneDnsSettings
             /// <remarks>
             /// Note that, due to DNS limitations, a CNAME record at the zone apex will always be flattened.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#flatten_all_cnames ZoneDnsSettings#flatten_all_cnames}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#flatten_all_cnames ZoneDnsSettings#flatten_all_cnames}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -182,7 +182,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Whether to enable Foundation DNS Advanced Nameservers on the zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#foundation_dns ZoneDnsSettings#foundation_dns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#foundation_dns ZoneDnsSettings#foundation_dns}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -194,7 +194,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Settings for this internal zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#internal_dns ZoneDnsSettings#internal_dns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#internal_dns ZoneDnsSettings#internal_dns}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "internalDns", typeJson: "{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsInternalDns\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Whether to enable multi-provider DNS, which causes Cloudflare to activate the zone even when non-Cloudflare NS records exist, and to respect NS records at the zone apex during outbound zone transfers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#multi_provider ZoneDnsSettings#multi_provider}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#multi_provider ZoneDnsSettings#multi_provider}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -217,7 +217,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Settings determining the nameservers through which the zone should be available.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#nameservers ZoneDnsSettings#nameservers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#nameservers ZoneDnsSettings#nameservers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nameservers", typeJson: "{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsNameservers\"}", isOptional: true)]
@@ -228,7 +228,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>The time to live (TTL) of the zone's nameserver (NS) records.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#ns_ttl ZoneDnsSettings#ns_ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#ns_ttl ZoneDnsSettings#ns_ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nsTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -239,7 +239,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Allows a Secondary DNS zone to use (proxied) override records and CNAME flattening at the zone apex.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#secondary_overrides ZoneDnsSettings#secondary_overrides}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#secondary_overrides ZoneDnsSettings#secondary_overrides}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -251,7 +251,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Components of the zone's SOA record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#soa ZoneDnsSettings#soa}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#soa ZoneDnsSettings#soa}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "soa", typeJson: "{\"fqn\":\"cloudflare.zoneDnsSettings.ZoneDnsSettingsSoa\"}", isOptional: true)]
@@ -262,7 +262,7 @@ namespace cloudflare.ZoneDnsSettings
 
             /// <summary>Whether the zone mode is a regular or CDN/DNS only zone. Available values: "standard", "cdn_only", "dns_only".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_dns_settings#zone_mode ZoneDnsSettings#zone_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_dns_settings#zone_mode ZoneDnsSettings#zone_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zoneMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

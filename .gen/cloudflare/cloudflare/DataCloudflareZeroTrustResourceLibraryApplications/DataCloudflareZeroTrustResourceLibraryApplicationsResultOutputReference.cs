@@ -65,6 +65,12 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "categoryId", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CategoryId
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "createdAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedAt
         {
@@ -89,14 +95,8 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "intelId", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double IntelId
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Id
         {
             get => GetInstanceProperty<double>()!;
         }

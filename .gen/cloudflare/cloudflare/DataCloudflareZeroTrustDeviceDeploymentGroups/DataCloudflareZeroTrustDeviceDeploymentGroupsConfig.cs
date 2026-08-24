@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceDeploymentGroups
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDeviceDeploymentGroups.DataCloudflareZeroTrustDeviceDeploymentGroupsConfig")]
     public class DataCloudflareZeroTrustDeviceDeploymentGroupsConfig : cloudflare.DataCloudflareZeroTrustDeviceDeploymentGroups.IDataCloudflareZeroTrustDeviceDeploymentGroupsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_device_deployment_groups#account_id DataCloudflareZeroTrustDeviceDeploymentGroups#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_device_deployment_groups#account_id DataCloudflareZeroTrustDeviceDeploymentGroups#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceDeploymentGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_device_deployment_groups#group_id DataCloudflareZeroTrustDeviceDeploymentGroups#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_device_deployment_groups#group_id DataCloudflareZeroTrustDeviceDeploymentGroups#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupId
         {

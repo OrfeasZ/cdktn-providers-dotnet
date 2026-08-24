@@ -9,7 +9,7 @@ namespace cloudflare.ListItem
     [JsiiByValue(fqn: "cloudflare.listItem.ListItemHostname")]
     public class ListItemHostname : cloudflare.ListItem.IListItemHostname
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list_item#url_hostname ListItem#url_hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list_item#url_hostname ListItem#url_hostname}.</summary>
         [JsiiProperty(name: "urlHostname", typeJson: "{\"primitive\":\"string\"}")]
         public string UrlHostname
         {
@@ -19,9 +19,9 @@ namespace cloudflare.ListItem
 
         private object? _excludeExactHostname;
 
-        /// <summary>Only applies to wildcard hostnames (e.g., *.example.com). When true (default), only subdomains are blocked. When false, both the root domain and subdomains are blocked.</summary>
+        /// <summary>Only applies to wildcard hostnames (e.g., *.example.com). When true (default), the rule blocks only subdomains. When false, the rule blocks both the root domain and subdomains.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/list_item#exclude_exact_hostname ListItem#exclude_exact_hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/list_item#exclude_exact_hostname ListItem#exclude_exact_hostname}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

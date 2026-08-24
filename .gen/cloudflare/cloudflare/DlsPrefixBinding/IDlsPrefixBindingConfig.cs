@@ -9,7 +9,7 @@ namespace cloudflare.DlsPrefixBinding
     {
         /// <summary>Identifier of a Cloudflare account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#account_id DlsPrefixBinding#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#account_id DlsPrefixBinding#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DlsPrefixBinding
 
         /// <summary>IP prefix in CIDR notation to bind.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#cidr DlsPrefixBinding#cidr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#cidr DlsPrefixBinding#cidr}
         /// </remarks>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         string Cidr
@@ -29,7 +29,7 @@ namespace cloudflare.DlsPrefixBinding
 
         /// <summary>The ID of the parent IP prefix that contains the CIDR.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#prefix_id DlsPrefixBinding#prefix_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#prefix_id DlsPrefixBinding#prefix_id}
         /// </remarks>
         [JsiiProperty(name: "prefixId", typeJson: "{\"primitive\":\"string\"}")]
         string PrefixId
@@ -39,7 +39,7 @@ namespace cloudflare.DlsPrefixBinding
 
         /// <summary>Region key from managed regions (e.g., "us", "eu").</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#region_key DlsPrefixBinding#region_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#region_key DlsPrefixBinding#region_key}
         /// </remarks>
         [JsiiProperty(name: "regionKey", typeJson: "{\"primitive\":\"string\"}")]
         string RegionKey
@@ -56,7 +56,7 @@ namespace cloudflare.DlsPrefixBinding
 
             /// <summary>Identifier of a Cloudflare account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#account_id DlsPrefixBinding#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#account_id DlsPrefixBinding#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -66,7 +66,7 @@ namespace cloudflare.DlsPrefixBinding
 
             /// <summary>IP prefix in CIDR notation to bind.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#cidr DlsPrefixBinding#cidr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#cidr DlsPrefixBinding#cidr}
             /// </remarks>
             [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
             public string Cidr
@@ -76,7 +76,7 @@ namespace cloudflare.DlsPrefixBinding
 
             /// <summary>The ID of the parent IP prefix that contains the CIDR.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#prefix_id DlsPrefixBinding#prefix_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#prefix_id DlsPrefixBinding#prefix_id}
             /// </remarks>
             [JsiiProperty(name: "prefixId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrefixId
@@ -86,7 +86,7 @@ namespace cloudflare.DlsPrefixBinding
 
             /// <summary>Region key from managed regions (e.g., "us", "eu").</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/dls_prefix_binding#region_key DlsPrefixBinding#region_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/dls_prefix_binding#region_key DlsPrefixBinding#region_key}
             /// </remarks>
             [JsiiProperty(name: "regionKey", typeJson: "{\"primitive\":\"string\"}")]
             public string RegionKey

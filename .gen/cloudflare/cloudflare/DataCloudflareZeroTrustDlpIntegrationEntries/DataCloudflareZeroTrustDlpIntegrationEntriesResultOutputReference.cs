@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "deprecated", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Deprecated
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
         {

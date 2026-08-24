@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareMagicTransitCf1Sites
     /// <remarks>
     /// <h1><c>data_cloudflare_magic_transit_cf1_sites</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/magic_transit_cf1_sites"><c>data_cloudflare_magic_transit_cf1_sites</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_cf1_sites"><c>data_cloudflare_magic_transit_cf1_sites</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

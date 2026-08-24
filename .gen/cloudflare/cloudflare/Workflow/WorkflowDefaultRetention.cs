@@ -9,7 +9,7 @@ namespace cloudflare.Workflow
     {
         /// <summary>Specifies the duration in milliseconds or as a string like '5 minutes'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workflow#error_retention Workflow#error_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workflow#error_retention Workflow#error_retention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "errorRetention", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace cloudflare.Workflow
 
         /// <summary>Specifies the duration in milliseconds or as a string like '5 minutes'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workflow#success_retention Workflow#success_retention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workflow#success_retention Workflow#success_retention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "successRetention", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]

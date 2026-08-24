@@ -9,7 +9,7 @@ namespace cloudflare.CloudforceOneRequestPriority
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#account_id CloudforceOneRequestPriority#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#account_id CloudforceOneRequestPriority#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
         /// <summary>List of labels.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#labels CloudforceOneRequestPriority#labels}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#labels CloudforceOneRequestPriority#labels}
         /// </remarks>
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Labels
@@ -29,7 +29,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
         /// <summary>Priority.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#priority CloudforceOneRequestPriority#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#priority CloudforceOneRequestPriority#priority}
         /// </remarks>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         double Priority
@@ -39,7 +39,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
         /// <summary>Requirement.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#requirement CloudforceOneRequestPriority#requirement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#requirement CloudforceOneRequestPriority#requirement}
         /// </remarks>
         [JsiiProperty(name: "requirement", typeJson: "{\"primitive\":\"string\"}")]
         string Requirement
@@ -49,7 +49,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
         /// <summary>The CISA defined Traffic Light Protocol (TLP). Available values: "clear", "amber", "amber-strict", "green", "red".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#tlp CloudforceOneRequestPriority#tlp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#tlp CloudforceOneRequestPriority#tlp}
         /// </remarks>
         [JsiiProperty(name: "tlp", typeJson: "{\"primitive\":\"string\"}")]
         string Tlp
@@ -66,7 +66,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#account_id CloudforceOneRequestPriority#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#account_id CloudforceOneRequestPriority#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -76,7 +76,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
             /// <summary>List of labels.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#labels CloudforceOneRequestPriority#labels}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#labels CloudforceOneRequestPriority#labels}
             /// </remarks>
             [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Labels
@@ -86,7 +86,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
             /// <summary>Priority.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#priority CloudforceOneRequestPriority#priority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#priority CloudforceOneRequestPriority#priority}
             /// </remarks>
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
             public double Priority
@@ -96,7 +96,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
             /// <summary>Requirement.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#requirement CloudforceOneRequestPriority#requirement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#requirement CloudforceOneRequestPriority#requirement}
             /// </remarks>
             [JsiiProperty(name: "requirement", typeJson: "{\"primitive\":\"string\"}")]
             public string Requirement
@@ -106,7 +106,7 @@ namespace cloudflare.CloudforceOneRequestPriority
 
             /// <summary>The CISA defined Traffic Light Protocol (TLP). Available values: "clear", "amber", "amber-strict", "green", "red".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/cloudforce_one_request_priority#tlp CloudforceOneRequestPriority#tlp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloudforce_one_request_priority#tlp CloudforceOneRequestPriority#tlp}
             /// </remarks>
             [JsiiProperty(name: "tlp", typeJson: "{\"primitive\":\"string\"}")]
             public string Tlp

@@ -11,7 +11,7 @@ namespace cloudflare.LoadBalancerMonitor
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#account_id LoadBalancerMonitor#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#account_id LoadBalancerMonitor#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -26,7 +26,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// This parameter is currently only valid for HTTP and HTTPS monitors.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#allow_insecure LoadBalancerMonitor#allow_insecure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#allow_insecure LoadBalancerMonitor#allow_insecure}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -59,7 +59,7 @@ namespace cloudflare.LoadBalancerMonitor
 
         /// <summary>To be marked unhealthy the monitored origin must fail this healthcheck N consecutive times.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#consecutive_down LoadBalancerMonitor#consecutive_down}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#consecutive_down LoadBalancerMonitor#consecutive_down}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consecutiveDown", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace cloudflare.LoadBalancerMonitor
 
         /// <summary>To be marked healthy the monitored origin must pass this healthcheck N consecutive times.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#consecutive_up LoadBalancerMonitor#consecutive_up}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#consecutive_up LoadBalancerMonitor#consecutive_up}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consecutiveUp", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace cloudflare.LoadBalancerMonitor
 
         /// <summary>Object description.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#description LoadBalancerMonitor#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#description LoadBalancerMonitor#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// If this string is not found, the origin will be marked as unhealthy. This parameter is only valid for HTTP and HTTPS monitors.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#expected_body LoadBalancerMonitor#expected_body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#expected_body LoadBalancerMonitor#expected_body}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expectedBody", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// This parameter is only valid for HTTP and HTTPS monitors.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#expected_codes LoadBalancerMonitor#expected_codes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#expected_codes LoadBalancerMonitor#expected_codes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expectedCodes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace cloudflare.LoadBalancerMonitor
 
         /// <summary>Follow redirects if returned by the origin. This parameter is only valid for HTTP and HTTPS monitors.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#follow_redirects LoadBalancerMonitor#follow_redirects}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#follow_redirects LoadBalancerMonitor#follow_redirects}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -162,7 +162,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// It is recommended you set a Host header by default. The User-Agent header cannot be overridden. This parameter is only valid for HTTP and HTTPS monitors.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#header LoadBalancerMonitor#header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#header LoadBalancerMonitor#header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiOptional]
@@ -197,7 +197,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// Shorter intervals may improve failover time, but will increase load on the origins as we check from multiple locations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#interval LoadBalancerMonitor#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#interval LoadBalancerMonitor#interval}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -211,7 +211,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// This defaults to 'GET' for HTTP/HTTPS based checks and 'connection_established' for TCP based health checks.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#method LoadBalancerMonitor#method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#method LoadBalancerMonitor#method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// This parameter is only valid for HTTP and HTTPS monitors.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#path LoadBalancerMonitor#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#path LoadBalancerMonitor#path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -239,7 +239,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// Required for TCP, UDP, and SMTP checks. HTTP and HTTPS checks should only define the port when using a non-standard port (HTTP: default 80, HTTPS: default 443).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#port LoadBalancerMonitor#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#port LoadBalancerMonitor#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// This parameter is only valid for HTTP and HTTPS monitors.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#probe_zone LoadBalancerMonitor#probe_zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#probe_zone LoadBalancerMonitor#probe_zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "probeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -267,7 +267,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// <remarks>
         /// Retries are attempted immediately.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#retries LoadBalancerMonitor#retries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#retries LoadBalancerMonitor#retries}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -279,7 +279,7 @@ namespace cloudflare.LoadBalancerMonitor
 
         /// <summary>The timeout (in seconds) before marking the health check as failed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#timeout LoadBalancerMonitor#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#timeout LoadBalancerMonitor#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -294,7 +294,7 @@ namespace cloudflare.LoadBalancerMonitor
         /// Currently supported protocols are 'HTTP','HTTPS', 'TCP', 'ICMP-PING', 'UDP-ICMP', and 'SMTP'.
         /// Available values: "http", "https", "tcp", "udp_icmp", "icmp_ping", "smtp".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor#type LoadBalancerMonitor#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor#type LoadBalancerMonitor#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

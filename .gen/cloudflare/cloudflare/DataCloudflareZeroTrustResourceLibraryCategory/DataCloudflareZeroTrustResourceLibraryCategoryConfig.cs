@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustResourceLibraryCategory.DataCloudflareZeroTrustResourceLibraryCategoryConfig")]
     public class DataCloudflareZeroTrustResourceLibraryCategoryConfig : cloudflare.DataCloudflareZeroTrustResourceLibraryCategory.IDataCloudflareZeroTrustResourceLibraryCategoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_resource_library_category#account_id DataCloudflareZeroTrustResourceLibraryCategory#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category#account_id DataCloudflareZeroTrustResourceLibraryCategory#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,13 +17,13 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_resource_library_category#id DataCloudflareZeroTrustResourceLibraryCategory#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category#id DataCloudflareZeroTrustResourceLibraryCategory#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
         /// </remarks>
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public string Id
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
+        public double Id
         {
             get;
             set;

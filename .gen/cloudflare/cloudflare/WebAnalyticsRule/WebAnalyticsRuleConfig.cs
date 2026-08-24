@@ -11,7 +11,7 @@ namespace cloudflare.WebAnalyticsRule
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/web_analytics_rule#account_id WebAnalyticsRule#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/web_analytics_rule#account_id WebAnalyticsRule#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.WebAnalyticsRule
 
         /// <summary>The Web Analytics ruleset identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/web_analytics_rule#ruleset_id WebAnalyticsRule#ruleset_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/web_analytics_rule#ruleset_id WebAnalyticsRule#ruleset_id}
         /// </remarks>
         [JsiiProperty(name: "rulesetId", typeJson: "{\"primitive\":\"string\"}")]
         public string RulesetId
@@ -31,7 +31,7 @@ namespace cloudflare.WebAnalyticsRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/web_analytics_rule#host WebAnalyticsRule#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/web_analytics_rule#host WebAnalyticsRule#host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Host
@@ -44,7 +44,7 @@ namespace cloudflare.WebAnalyticsRule
 
         /// <summary>Whether the rule includes or excludes traffic from being measured.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/web_analytics_rule#inclusive WebAnalyticsRule#inclusive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/web_analytics_rule#inclusive WebAnalyticsRule#inclusive}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace cloudflare.WebAnalyticsRule
 
         /// <summary>Whether the rule is paused or not.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/web_analytics_rule#is_paused WebAnalyticsRule#is_paused}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/web_analytics_rule#is_paused WebAnalyticsRule#is_paused}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -110,7 +110,7 @@ namespace cloudflare.WebAnalyticsRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/web_analytics_rule#paths WebAnalyticsRule#paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/web_analytics_rule#paths WebAnalyticsRule#paths}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Paths

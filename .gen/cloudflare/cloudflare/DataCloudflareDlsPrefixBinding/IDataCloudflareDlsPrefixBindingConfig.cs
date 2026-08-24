@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareDlsPrefixBinding
     {
         /// <summary>Identifier of a Cloudflare account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/dls_prefix_binding#account_id DataCloudflareDlsPrefixBinding#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/dls_prefix_binding#account_id DataCloudflareDlsPrefixBinding#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareDlsPrefixBinding
 
         /// <summary>Unique identifier for the prefix binding.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/dls_prefix_binding#binding_id DataCloudflareDlsPrefixBinding#binding_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/dls_prefix_binding#binding_id DataCloudflareDlsPrefixBinding#binding_id}
         /// </remarks>
         [JsiiProperty(name: "bindingId", typeJson: "{\"primitive\":\"string\"}")]
         string BindingId
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareDlsPrefixBinding
 
             /// <summary>Identifier of a Cloudflare account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/dls_prefix_binding#account_id DataCloudflareDlsPrefixBinding#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/dls_prefix_binding#account_id DataCloudflareDlsPrefixBinding#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareDlsPrefixBinding
 
             /// <summary>Unique identifier for the prefix binding.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/dls_prefix_binding#binding_id DataCloudflareDlsPrefixBinding#binding_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/dls_prefix_binding#binding_id DataCloudflareDlsPrefixBinding#binding_id}
             /// </remarks>
             [JsiiProperty(name: "bindingId", typeJson: "{\"primitive\":\"string\"}")]
             public string BindingId

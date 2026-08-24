@@ -12,7 +12,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// Valid values: <c>never</c> (no PIN required), <c>once</c> (PIN required once per session), <c>always</c> (PIN required for each use).
         /// Available values: "never", "once", "always".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#pin_policy ZeroTrustOrganization#pin_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#pin_policy ZeroTrustOrganization#pin_policy}
         /// </remarks>
         [JsiiProperty(name: "pinPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -26,7 +26,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>Requires the SSH PIV key to be stored on a FIPS 140-2 Level 1 or higher validated device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#require_fips_device ZeroTrustOrganization#require_fips_device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#require_fips_device ZeroTrustOrganization#require_fips_device}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "requireFipsDevice", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// <remarks>
         /// Valid sizes depend on key type. Ed25519 has a fixed key size and does not accept this parameter.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#ssh_key_size ZeroTrustOrganization#ssh_key_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#ssh_key_size ZeroTrustOrganization#ssh_key_size}
         /// </remarks>
         [JsiiProperty(name: "sshKeySize", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>Specifies the allowed SSH key types. Valid values are `ecdsa`, `ed25519`, and `rsa`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#ssh_key_type ZeroTrustOrganization#ssh_key_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#ssh_key_type ZeroTrustOrganization#ssh_key_type}
         /// </remarks>
         [JsiiProperty(name: "sshKeyType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// Valid values: <c>never</c> (no touch required), <c>always</c> (touch required for each use), <c>cached</c> (touch cached for 15 seconds).
         /// Available values: "never", "always", "cached".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#touch_policy ZeroTrustOrganization#touch_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#touch_policy ZeroTrustOrganization#touch_policy}
         /// </remarks>
         [JsiiProperty(name: "touchPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace cloudflare.ZeroTrustOrganization
             /// Valid values: <c>never</c> (no PIN required), <c>once</c> (PIN required once per session), <c>always</c> (PIN required for each use).
             /// Available values: "never", "once", "always".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#pin_policy ZeroTrustOrganization#pin_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#pin_policy ZeroTrustOrganization#pin_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pinPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace cloudflare.ZeroTrustOrganization
 
             /// <summary>Requires the SSH PIV key to be stored on a FIPS 140-2 Level 1 or higher validated device.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#require_fips_device ZeroTrustOrganization#require_fips_device}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#require_fips_device ZeroTrustOrganization#require_fips_device}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -123,7 +123,7 @@ namespace cloudflare.ZeroTrustOrganization
             /// <remarks>
             /// Valid sizes depend on key type. Ed25519 has a fixed key size and does not accept this parameter.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#ssh_key_size ZeroTrustOrganization#ssh_key_size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#ssh_key_size ZeroTrustOrganization#ssh_key_size}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sshKeySize", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace cloudflare.ZeroTrustOrganization
 
             /// <summary>Specifies the allowed SSH key types. Valid values are `ecdsa`, `ed25519`, and `rsa`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#ssh_key_type ZeroTrustOrganization#ssh_key_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#ssh_key_type ZeroTrustOrganization#ssh_key_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sshKeyType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace cloudflare.ZeroTrustOrganization
             /// Valid values: <c>never</c> (no touch required), <c>always</c> (touch required for each use), <c>cached</c> (touch cached for 15 seconds).
             /// Available values: "never", "always", "cached".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_organization#touch_policy ZeroTrustOrganization#touch_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_organization#touch_policy ZeroTrustOrganization#touch_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "touchPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

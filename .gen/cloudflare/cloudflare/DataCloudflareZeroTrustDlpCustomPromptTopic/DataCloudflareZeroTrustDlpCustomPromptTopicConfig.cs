@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpCustomPromptTopic
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustDlpCustomPromptTopic.DataCloudflareZeroTrustDlpCustomPromptTopicConfig")]
     public class DataCloudflareZeroTrustDlpCustomPromptTopicConfig : cloudflare.DataCloudflareZeroTrustDlpCustomPromptTopic.IDataCloudflareZeroTrustDlpCustomPromptTopicConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_custom_prompt_topic#account_id DataCloudflareZeroTrustDlpCustomPromptTopic#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_dlp_custom_prompt_topic#account_id DataCloudflareZeroTrustDlpCustomPromptTopic#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -17,7 +17,7 @@ namespace cloudflare.DataCloudflareZeroTrustDlpCustomPromptTopic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/zero_trust_dlp_custom_prompt_topic#entry_id DataCloudflareZeroTrustDlpCustomPromptTopic#entry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_dlp_custom_prompt_topic#entry_id DataCloudflareZeroTrustDlpCustomPromptTopic#entry_id}.</summary>
         [JsiiProperty(name: "entryId", typeJson: "{\"primitive\":\"string\"}")]
         public string EntryId
         {

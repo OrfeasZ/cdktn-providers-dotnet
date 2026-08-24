@@ -9,7 +9,7 @@ namespace cloudflare.LoadBalancerMonitorGroup
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor_group#account_id LoadBalancerMonitorGroup#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor_group#account_id LoadBalancerMonitorGroup#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.LoadBalancerMonitorGroup
 
         /// <summary>A short description of the monitor group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor_group#description LoadBalancerMonitorGroup#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor_group#description LoadBalancerMonitorGroup#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         string Description
@@ -29,7 +29,7 @@ namespace cloudflare.LoadBalancerMonitorGroup
 
         /// <summary>List of monitors in this group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor_group#members LoadBalancerMonitorGroup#members}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor_group#members LoadBalancerMonitorGroup#members}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancerMonitorGroup.ILoadBalancerMonitorGroupMembers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "members", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancerMonitorGroup.LoadBalancerMonitorGroupMembers\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace cloudflare.LoadBalancerMonitorGroup
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor_group#account_id LoadBalancerMonitorGroup#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor_group#account_id LoadBalancerMonitorGroup#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -57,7 +57,7 @@ namespace cloudflare.LoadBalancerMonitorGroup
 
             /// <summary>A short description of the monitor group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor_group#description LoadBalancerMonitorGroup#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor_group#description LoadBalancerMonitorGroup#description}
             /// </remarks>
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
             public string Description
@@ -67,7 +67,7 @@ namespace cloudflare.LoadBalancerMonitorGroup
 
             /// <summary>List of monitors in this group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_monitor_group#members LoadBalancerMonitorGroup#members}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_monitor_group#members LoadBalancerMonitorGroup#members}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancerMonitorGroup.ILoadBalancerMonitorGroupMembers" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "members", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancerMonitorGroup.LoadBalancerMonitorGroupMembers\"},\"kind\":\"array\"}}]}}")]

@@ -9,7 +9,11 @@ namespace cloudflare.MoqRelay
     {
         /// <summary>Upstream MOQT server publisher URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/moq_relay#url MoqRelay#url}
+        /// Must be an absolute URL with a
+        /// host and a scheme the relay can dial: moqt:// (raw QUIC) or https://
+        /// (WebTransport). Validated on update (PUT); rejected with 21013.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/moq_relay#url MoqRelay#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +34,11 @@ namespace cloudflare.MoqRelay
 
             /// <summary>Upstream MOQT server publisher URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/moq_relay#url MoqRelay#url}
+            /// Must be an absolute URL with a
+            /// host and a scheme the relay can dial: moqt:// (raw QUIC) or https://
+            /// (WebTransport). Validated on update (PUT); rejected with 21013.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/moq_relay#url MoqRelay#url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

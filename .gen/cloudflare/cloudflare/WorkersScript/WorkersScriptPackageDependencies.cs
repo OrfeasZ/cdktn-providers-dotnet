@@ -11,7 +11,7 @@ namespace cloudflare.WorkersScript
     {
         /// <summary>The exact version that was resolved and installed by the package manager.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#installed_version WorkersScript#installed_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#installed_version WorkersScript#installed_version}
         /// </remarks>
         [JsiiProperty(name: "installedVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string InstalledVersion
@@ -22,7 +22,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>The npm package name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#name WorkersScript#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#name WorkersScript#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>The version constraint as written in package.json.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/workers_script#package_json_version WorkersScript#package_json_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#package_json_version WorkersScript#package_json_version}
         /// </remarks>
         [JsiiProperty(name: "packageJsonVersion", typeJson: "{\"primitive\":\"string\"}")]
         public string PackageJsonVersion

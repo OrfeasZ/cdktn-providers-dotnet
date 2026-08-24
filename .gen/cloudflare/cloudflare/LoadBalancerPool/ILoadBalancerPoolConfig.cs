@@ -9,7 +9,7 @@ namespace cloudflare.LoadBalancerPool
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#account_id LoadBalancerPool#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#account_id LoadBalancerPool#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>A short name (tag) for the pool. Only alphanumeric characters, hyphens, and underscores are allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#name LoadBalancerPool#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#name LoadBalancerPool#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -31,7 +31,7 @@ namespace cloudflare.LoadBalancerPool
         /// <remarks>
         /// Traffic directed at this pool is balanced across all currently healthy origins, provided the pool itself is healthy.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#origins LoadBalancerPool#origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#origins LoadBalancerPool#origins}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolOrigins" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "origins", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOrigins\"},\"kind\":\"array\"}}]}}")]
@@ -42,7 +42,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>A list of regions from which to run health checks. Null means every Cloudflare data center.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#check_regions LoadBalancerPool#check_regions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#check_regions LoadBalancerPool#check_regions}
         /// </remarks>
         [JsiiProperty(name: "checkRegions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>A human-readable description of the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#description LoadBalancerPool#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#description LoadBalancerPool#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace cloudflare.LoadBalancerPool
         /// <remarks>
         /// Disabled pools will not receive traffic and are excluded from health checks. Disabling a pool will cause any load balancers using it to failover to the next pool (if any).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#enabled LoadBalancerPool#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#enabled LoadBalancerPool#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -85,11 +85,27 @@ namespace cloudflare.LoadBalancerPool
             }
         }
 
+        /// <summary>A list of health sources, ordered from highest to lowest priority, used to evaluate individual origin health and overall pool health.</summary>
+        /// <remarks>
+        /// The load balancer uses the first source that has data and falls back to the next. Currently accepted values are null or the exact array ["regional", "global"]; any other combination is rejected. Null (the default) behaves like ["local", "global"]. ["regional", "global"] makes each region steer on its own health, falling back to the global decision when a region has no fresh data. Setting regional requires at least one region in check_regions.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#health_sources LoadBalancerPool#health_sources}
+        /// </remarks>
+        [JsiiProperty(name: "healthSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? HealthSources
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>The latitude of the data center containing the origins used in this pool in decimal degrees.</summary>
         /// <remarks>
         /// If this is set, longitude must also be set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#latitude LoadBalancerPool#latitude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#latitude LoadBalancerPool#latitude}
         /// </remarks>
         [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,7 +119,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>Configures load shedding policies and percentages for the pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#load_shedding LoadBalancerPool#load_shedding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#load_shedding LoadBalancerPool#load_shedding}
         /// </remarks>
         [JsiiProperty(name: "loadShedding", typeJson: "{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolLoadShedding\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,7 +135,7 @@ namespace cloudflare.LoadBalancerPool
         /// <remarks>
         /// If this is set, latitude must also be set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#longitude LoadBalancerPool#longitude}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#longitude LoadBalancerPool#longitude}
         /// </remarks>
         [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +151,7 @@ namespace cloudflare.LoadBalancerPool
         /// <remarks>
         /// If the number of healthy origins falls below this number, the pool will be marked unhealthy and will failover to the next available pool.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#minimum_origins LoadBalancerPool#minimum_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#minimum_origins LoadBalancerPool#minimum_origins}
         /// </remarks>
         [JsiiProperty(name: "minimumOrigins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +165,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>The ID of the Monitor to use for checking the health of origins within this pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#monitor LoadBalancerPool#monitor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#monitor LoadBalancerPool#monitor}
         /// </remarks>
         [JsiiProperty(name: "monitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +179,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>The ID of the Monitor Group to use for checking the health of origins within this pool.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#monitor_group LoadBalancerPool#monitor_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#monitor_group LoadBalancerPool#monitor_group}
         /// </remarks>
         [JsiiProperty(name: "monitorGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -179,7 +195,7 @@ namespace cloudflare.LoadBalancerPool
         /// <remarks>
         /// It has been moved to Cloudflare's Centralized Notification service https://developers.cloudflare.com/fundamentals/notifications/. The email address to send health status notifications to. This can be an individual mailbox or a mailing list. Multiple emails can be supplied as a comma delimited list.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#notification_email LoadBalancerPool#notification_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#notification_email LoadBalancerPool#notification_email}
         /// </remarks>
         [JsiiProperty(name: "notificationEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -193,7 +209,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>Filter pool and origin health notifications by resource type or health status. Use null to reset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#notification_filter LoadBalancerPool#notification_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#notification_filter LoadBalancerPool#notification_filter}
         /// </remarks>
         [JsiiProperty(name: "notificationFilter", typeJson: "{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolNotificationFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -207,7 +223,7 @@ namespace cloudflare.LoadBalancerPool
 
         /// <summary>Configures origin steering for the pool. Controls how origins are selected for new sessions and traffic without session affinity.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#origin_steering LoadBalancerPool#origin_steering}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#origin_steering LoadBalancerPool#origin_steering}
         /// </remarks>
         [JsiiProperty(name: "originSteering", typeJson: "{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOriginSteering\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -228,7 +244,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#account_id LoadBalancerPool#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#account_id LoadBalancerPool#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -238,7 +254,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>A short name (tag) for the pool. Only alphanumeric characters, hyphens, and underscores are allowed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#name LoadBalancerPool#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#name LoadBalancerPool#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -250,7 +266,7 @@ namespace cloudflare.LoadBalancerPool
             /// <remarks>
             /// Traffic directed at this pool is balanced across all currently healthy origins, provided the pool itself is healthy.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#origins LoadBalancerPool#origins}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#origins LoadBalancerPool#origins}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.LoadBalancerPool.ILoadBalancerPoolOrigins" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "origins", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOrigins\"},\"kind\":\"array\"}}]}}")]
@@ -261,7 +277,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>A list of regions from which to run health checks. Null means every Cloudflare data center.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#check_regions LoadBalancerPool#check_regions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#check_regions LoadBalancerPool#check_regions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "checkRegions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -272,7 +288,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>A human-readable description of the pool.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#description LoadBalancerPool#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#description LoadBalancerPool#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -285,7 +301,7 @@ namespace cloudflare.LoadBalancerPool
             /// <remarks>
             /// Disabled pools will not receive traffic and are excluded from health checks. Disabling a pool will cause any load balancers using it to failover to the next pool (if any).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#enabled LoadBalancerPool#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#enabled LoadBalancerPool#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -295,11 +311,24 @@ namespace cloudflare.LoadBalancerPool
                 get => GetInstanceProperty<object?>();
             }
 
+            /// <summary>A list of health sources, ordered from highest to lowest priority, used to evaluate individual origin health and overall pool health.</summary>
+            /// <remarks>
+            /// The load balancer uses the first source that has data and falls back to the next. Currently accepted values are null or the exact array ["regional", "global"]; any other combination is rejected. Null (the default) behaves like ["local", "global"]. ["regional", "global"] makes each region steer on its own health, falling back to the global decision when a region has no fresh data. Setting regional requires at least one region in check_regions.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#health_sources LoadBalancerPool#health_sources}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "healthSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? HealthSources
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+
             /// <summary>The latitude of the data center containing the origins used in this pool in decimal degrees.</summary>
             /// <remarks>
             /// If this is set, longitude must also be set.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#latitude LoadBalancerPool#latitude}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#latitude LoadBalancerPool#latitude}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "latitude", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -310,7 +339,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>Configures load shedding policies and percentages for the pool.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#load_shedding LoadBalancerPool#load_shedding}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#load_shedding LoadBalancerPool#load_shedding}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loadShedding", typeJson: "{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolLoadShedding\"}", isOptional: true)]
@@ -323,7 +352,7 @@ namespace cloudflare.LoadBalancerPool
             /// <remarks>
             /// If this is set, latitude must also be set.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#longitude LoadBalancerPool#longitude}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#longitude LoadBalancerPool#longitude}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "longitude", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -336,7 +365,7 @@ namespace cloudflare.LoadBalancerPool
             /// <remarks>
             /// If the number of healthy origins falls below this number, the pool will be marked unhealthy and will failover to the next available pool.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#minimum_origins LoadBalancerPool#minimum_origins}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#minimum_origins LoadBalancerPool#minimum_origins}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minimumOrigins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -347,7 +376,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>The ID of the Monitor to use for checking the health of origins within this pool.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#monitor LoadBalancerPool#monitor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#monitor LoadBalancerPool#monitor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "monitor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -358,7 +387,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>The ID of the Monitor Group to use for checking the health of origins within this pool.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#monitor_group LoadBalancerPool#monitor_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#monitor_group LoadBalancerPool#monitor_group}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "monitorGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -371,7 +400,7 @@ namespace cloudflare.LoadBalancerPool
             /// <remarks>
             /// It has been moved to Cloudflare's Centralized Notification service https://developers.cloudflare.com/fundamentals/notifications/. The email address to send health status notifications to. This can be an individual mailbox or a mailing list. Multiple emails can be supplied as a comma delimited list.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#notification_email LoadBalancerPool#notification_email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#notification_email LoadBalancerPool#notification_email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notificationEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -382,7 +411,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>Filter pool and origin health notifications by resource type or health status. Use null to reset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#notification_filter LoadBalancerPool#notification_filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#notification_filter LoadBalancerPool#notification_filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notificationFilter", typeJson: "{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolNotificationFilter\"}", isOptional: true)]
@@ -393,7 +422,7 @@ namespace cloudflare.LoadBalancerPool
 
             /// <summary>Configures origin steering for the pool. Controls how origins are selected for new sessions and traffic without session affinity.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/load_balancer_pool#origin_steering LoadBalancerPool#origin_steering}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/load_balancer_pool#origin_steering LoadBalancerPool#origin_steering}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "originSteering", typeJson: "{\"fqn\":\"cloudflare.loadBalancerPool.LoadBalancerPoolOriginSteering\"}", isOptional: true)]

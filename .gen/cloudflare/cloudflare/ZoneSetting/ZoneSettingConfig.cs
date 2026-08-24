@@ -11,7 +11,7 @@ namespace cloudflare.ZoneSetting
     {
         /// <summary>Setting name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_setting#setting_id ZoneSetting#setting_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_setting#setting_id ZoneSetting#setting_id}
         /// </remarks>
         [JsiiProperty(name: "settingId", typeJson: "{\"primitive\":\"string\"}")]
         public string SettingId
@@ -22,7 +22,7 @@ namespace cloudflare.ZoneSetting
 
         /// <summary>Current value of the zone setting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_setting#value ZoneSetting#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_setting#value ZoneSetting#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, object> Value
@@ -33,7 +33,7 @@ namespace cloudflare.ZoneSetting
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_setting#zone_id ZoneSetting#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_setting#zone_id ZoneSetting#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -46,7 +46,7 @@ namespace cloudflare.ZoneSetting
 
         /// <summary>ssl-recommender enrollment setting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zone_setting#enabled ZoneSetting#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zone_setting#enabled ZoneSetting#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

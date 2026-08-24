@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustDlpSettings
     [JsiiByValue(fqn: "cloudflare.zeroTrustDlpSettings.ZeroTrustDlpSettingsConfig")]
     public class ZeroTrustDlpSettingsConfig : cloudflare.ZeroTrustDlpSettings.IZeroTrustDlpSettingsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_settings#account_id ZeroTrustDlpSettings#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_dlp_settings#account_id ZeroTrustDlpSettings#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -21,7 +21,7 @@ namespace cloudflare.ZeroTrustDlpSettings
 
         /// <summary>Whether AI context analysis is enabled at the account level.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_settings#ai_context_analysis ZeroTrustDlpSettings#ai_context_analysis}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_dlp_settings#ai_context_analysis ZeroTrustDlpSettings#ai_context_analysis}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace cloudflare.ZeroTrustDlpSettings
 
         /// <summary>Whether OCR is enabled at the account level.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_settings#ocr ZeroTrustDlpSettings#ocr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_dlp_settings#ocr ZeroTrustDlpSettings#ocr}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -92,7 +92,7 @@ namespace cloudflare.ZeroTrustDlpSettings
         /// Unlike the legacy endpoint, null and missing are treated identically here
         /// (both mean "not provided" for PATCH, "reset to default" for PUT).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_dlp_settings#payload_logging ZeroTrustDlpSettings#payload_logging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_dlp_settings#payload_logging ZeroTrustDlpSettings#payload_logging}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "payloadLogging", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDlpSettings.ZeroTrustDlpSettingsPayloadLogging\"}", isOptional: true)]

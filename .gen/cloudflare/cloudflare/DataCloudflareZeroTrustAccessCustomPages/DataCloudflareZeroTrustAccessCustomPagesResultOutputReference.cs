@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessCustomPages
         {
         }
 
+        [JsiiProperty(name: "contractVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ContractVersion
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -57,6 +63,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessCustomPages
         public virtual string Uid
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "warnings", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessCustomPages.DataCloudflareZeroTrustAccessCustomPagesResultWarningsList\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessCustomPages.DataCloudflareZeroTrustAccessCustomPagesResultWarningsList Warnings
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessCustomPages.DataCloudflareZeroTrustAccessCustomPagesResultWarningsList>()!;
         }
 
         [JsiiOptional]

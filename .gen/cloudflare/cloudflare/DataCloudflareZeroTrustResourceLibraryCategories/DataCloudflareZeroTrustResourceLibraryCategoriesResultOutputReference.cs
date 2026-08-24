@@ -47,10 +47,10 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategories
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Id
         {
-            get => GetInstanceProperty<string>()!;
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

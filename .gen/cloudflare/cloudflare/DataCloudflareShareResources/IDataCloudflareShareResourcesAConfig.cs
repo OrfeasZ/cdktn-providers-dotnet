@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareShareResources
     {
         /// <summary>Account identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#account_id DataCloudflareShareResourcesA#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#account_id DataCloudflareShareResourcesA#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareShareResources
 
         /// <summary>Share identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#share_id DataCloudflareShareResourcesA#share_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#share_id DataCloudflareShareResourcesA#share_id}
         /// </remarks>
         [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
         string ShareId
@@ -29,7 +29,7 @@ namespace cloudflare.DataCloudflareShareResources
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#max_items DataCloudflareShareResourcesA#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#max_items DataCloudflareShareResourcesA#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace cloudflare.DataCloudflareShareResources
 
         /// <summary>Filter share resources by resource_type. Available values: "custom-ruleset", "gateway-policy", "gateway-destination-ip", "gateway-block-page-settings", "gateway-extended-email-matching", "idp-federation-grant".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#resource_type DataCloudflareShareResourcesA#resource_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#resource_type DataCloudflareShareResourcesA#resource_type}
         /// </remarks>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace cloudflare.DataCloudflareShareResources
 
         /// <summary>Filter share resources by status. Available values: "active", "deleting", "deleted".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#status DataCloudflareShareResourcesA#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#status DataCloudflareShareResourcesA#status}
         /// </remarks>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace cloudflare.DataCloudflareShareResources
 
             /// <summary>Account identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#account_id DataCloudflareShareResourcesA#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#account_id DataCloudflareShareResourcesA#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -88,7 +88,7 @@ namespace cloudflare.DataCloudflareShareResources
 
             /// <summary>Share identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#share_id DataCloudflareShareResourcesA#share_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#share_id DataCloudflareShareResourcesA#share_id}
             /// </remarks>
             [JsiiProperty(name: "shareId", typeJson: "{\"primitive\":\"string\"}")]
             public string ShareId
@@ -98,7 +98,7 @@ namespace cloudflare.DataCloudflareShareResources
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#max_items DataCloudflareShareResourcesA#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#max_items DataCloudflareShareResourcesA#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace cloudflare.DataCloudflareShareResources
 
             /// <summary>Filter share resources by resource_type. Available values: "custom-ruleset", "gateway-policy", "gateway-destination-ip", "gateway-block-page-settings", "gateway-extended-email-matching", "idp-federation-grant".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#resource_type DataCloudflareShareResourcesA#resource_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#resource_type DataCloudflareShareResourcesA#resource_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace cloudflare.DataCloudflareShareResources
 
             /// <summary>Filter share resources by status. Available values: "active", "deleting", "deleted".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/share_resources#status DataCloudflareShareResourcesA#status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/share_resources#status DataCloudflareShareResourcesA#status}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -33,12 +33,6 @@ namespace cloudflare.DataCloudflareOrganizations
         {
         }
 
-        [JsiiProperty(name: "flags", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOrganizations.DataCloudflareOrganizationsResultMetaFlagsOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareOrganizations.DataCloudflareOrganizationsResultMetaFlagsOutputReference Flags
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareOrganizations.DataCloudflareOrganizationsResultMetaFlagsOutputReference>()!;
-        }
-
         [JsiiProperty(name: "hierarchyTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] HierarchyTags
         {
@@ -49,6 +43,12 @@ namespace cloudflare.DataCloudflareOrganizations
         public virtual string ManagedBy
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tenantFlags", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOrganizations.DataCloudflareOrganizationsResultMetaTenantFlagsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareOrganizations.DataCloudflareOrganizationsResultMetaTenantFlagsOutputReference TenantFlags
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareOrganizations.DataCloudflareOrganizationsResultMetaTenantFlagsOutputReference>()!;
         }
 
         [JsiiOptional]

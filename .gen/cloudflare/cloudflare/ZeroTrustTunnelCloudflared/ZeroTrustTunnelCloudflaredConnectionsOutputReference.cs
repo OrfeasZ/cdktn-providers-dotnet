@@ -59,12 +59,6 @@ namespace cloudflare.ZeroTrustTunnelCloudflared
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "isPendingReconnect", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable IsPendingReconnect
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "openedAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OpenedAt
         {

@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessCustomPage
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#account_id ZeroTrustAccessCustomPage#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#account_id ZeroTrustAccessCustomPage#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustAccessCustomPage
 
         /// <summary>Custom page HTML.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#custom_html ZeroTrustAccessCustomPage#custom_html}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#custom_html ZeroTrustAccessCustomPage#custom_html}
         /// </remarks>
         [JsiiProperty(name: "customHtml", typeJson: "{\"primitive\":\"string\"}")]
         string CustomHtml
@@ -29,7 +29,7 @@ namespace cloudflare.ZeroTrustAccessCustomPage
 
         /// <summary>Custom page name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#name ZeroTrustAccessCustomPage#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#name ZeroTrustAccessCustomPage#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -37,14 +37,30 @@ namespace cloudflare.ZeroTrustAccessCustomPage
             get;
         }
 
-        /// <summary>Custom page type. Available values: "identity_denied", "forbidden".</summary>
+        /// <summary>Custom page type. Available values: "identity_denied", "forbidden", "login", "interstitial".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#type ZeroTrustAccessCustomPage#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#type ZeroTrustAccessCustomPage#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
+        }
+
+        /// <summary>Contract version of the page's Liquid template.</summary>
+        /// <remarks>
+        /// Present (&gt;= 1) marks a sanitized template; absent or 0 marks a legacy page served verbatim.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#contract_version ZeroTrustAccessCustomPage#contract_version}
+        /// </remarks>
+        [JsiiProperty(name: "contractVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? ContractVersion
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IZeroTrustAccessCustomPageConfig), fullyQualifiedName: "cloudflare.zeroTrustAccessCustomPage.ZeroTrustAccessCustomPageConfig")]
@@ -56,7 +72,7 @@ namespace cloudflare.ZeroTrustAccessCustomPage
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#account_id ZeroTrustAccessCustomPage#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#account_id ZeroTrustAccessCustomPage#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -66,7 +82,7 @@ namespace cloudflare.ZeroTrustAccessCustomPage
 
             /// <summary>Custom page HTML.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#custom_html ZeroTrustAccessCustomPage#custom_html}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#custom_html ZeroTrustAccessCustomPage#custom_html}
             /// </remarks>
             [JsiiProperty(name: "customHtml", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomHtml
@@ -76,7 +92,7 @@ namespace cloudflare.ZeroTrustAccessCustomPage
 
             /// <summary>Custom page name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#name ZeroTrustAccessCustomPage#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#name ZeroTrustAccessCustomPage#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -84,14 +100,27 @@ namespace cloudflare.ZeroTrustAccessCustomPage
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Custom page type. Available values: "identity_denied", "forbidden".</summary>
+            /// <summary>Custom page type. Available values: "identity_denied", "forbidden", "login", "interstitial".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/zero_trust_access_custom_page#type ZeroTrustAccessCustomPage#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#type ZeroTrustAccessCustomPage#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Contract version of the page's Liquid template.</summary>
+            /// <remarks>
+            /// Present (&gt;= 1) marks a sanitized template; absent or 0 marks a legacy page served verbatim.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/zero_trust_access_custom_page#contract_version ZeroTrustAccessCustomPage#contract_version}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "contractVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? ContractVersion
+            {
+                get => GetInstanceProperty<double?>();
             }
 
             /// <remarks>

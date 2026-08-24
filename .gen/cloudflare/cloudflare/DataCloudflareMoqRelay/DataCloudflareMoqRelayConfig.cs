@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareMoqRelay
     {
         /// <summary>Cloudflare account identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/moq_relay#account_id DataCloudflareMoqRelay#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/moq_relay#account_id DataCloudflareMoqRelay#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,7 +20,7 @@ namespace cloudflare.DataCloudflareMoqRelay
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/moq_relay#filter DataCloudflareMoqRelay#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/moq_relay#filter DataCloudflareMoqRelay#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMoqRelay.DataCloudflareMoqRelayFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareMoqRelay.IDataCloudflareMoqRelayFilter? Filter
@@ -29,7 +29,7 @@ namespace cloudflare.DataCloudflareMoqRelay
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/data-sources/moq_relay#relay_id DataCloudflareMoqRelay#relay_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/moq_relay#relay_id DataCloudflareMoqRelay#relay_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RelayId

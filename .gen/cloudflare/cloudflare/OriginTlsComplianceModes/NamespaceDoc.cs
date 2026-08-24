@@ -5,7 +5,7 @@ namespace cloudflare.OriginTlsComplianceModes
     /// <remarks>
     /// <h1><c>cloudflare_origin_tls_compliance_modes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/origin_tls_compliance_modes"><c>cloudflare_origin_tls_compliance_modes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/origin_tls_compliance_modes"><c>cloudflare_origin_tls_compliance_modes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

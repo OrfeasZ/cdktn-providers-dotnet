@@ -11,7 +11,7 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// Uses standard glob syntax: * matches within a segment, ** crosses directories.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_search_instance#path AiSearchInstance#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#path AiSearchInstance#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         string Path
@@ -23,7 +23,7 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// Must not contain disallowed characters (;, `, $, {, }, ). Must target a single element; if multiple elements match, the selector is ignored and the full page is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_search_instance#selector AiSearchInstance#selector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#selector AiSearchInstance#selector}
         /// </remarks>
         [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}")]
         string Selector
@@ -42,7 +42,7 @@ namespace cloudflare.AiSearchInstance
             /// <remarks>
             /// Uses standard glob syntax: * matches within a segment, ** crosses directories.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_search_instance#path AiSearchInstance#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#path AiSearchInstance#path}
             /// </remarks>
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
             public string Path
@@ -54,7 +54,7 @@ namespace cloudflare.AiSearchInstance
             /// <remarks>
             /// Must not contain disallowed characters (;, `, $, {, }, ). Must target a single element; if multiple elements match, the selector is ignored and the full page is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/ai_search_instance#selector AiSearchInstance#selector}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#selector AiSearchInstance#selector}
             /// </remarks>
             [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}")]
             public string Selector

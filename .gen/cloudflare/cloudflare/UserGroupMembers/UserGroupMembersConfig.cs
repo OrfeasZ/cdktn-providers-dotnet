@@ -11,7 +11,7 @@ namespace cloudflare.UserGroupMembers
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.UserGroupMembers
 
         private object _members;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroupMembers.IUserGroupMembersMembers" />)[]</para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace cloudflare.UserGroupMembers
 
         /// <summary>User Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
         /// </remarks>
         [JsiiProperty(name: "userGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserGroupId

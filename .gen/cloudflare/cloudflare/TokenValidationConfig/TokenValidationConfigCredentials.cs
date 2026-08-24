@@ -11,7 +11,7 @@ namespace cloudflare.TokenValidationConfig
     {
         private object _keys;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.23.0/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/token_validation_config#keys TokenValidationConfig#keys}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.TokenValidationConfig.ITokenValidationConfigCredentialsKeys" />)[]</para>
         /// </remarks>
