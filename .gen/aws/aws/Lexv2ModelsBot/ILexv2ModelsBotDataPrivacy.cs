@@ -7,7 +7,7 @@ namespace aws.Lexv2ModelsBot
     [JsiiInterface(nativeType: typeof(ILexv2ModelsBotDataPrivacy), fullyQualifiedName: "aws.lexv2ModelsBot.Lexv2ModelsBotDataPrivacy")]
     public interface ILexv2ModelsBotDataPrivacy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.Lexv2ModelsBot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lexv2models_bot#child_directed Lexv2ModelsBot#child_directed}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

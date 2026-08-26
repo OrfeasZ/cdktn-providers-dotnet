@@ -5,7 +5,7 @@ namespace aws.LambdaFunctionScalingConfig
     /// <remarks>
     /// <h1><c>aws_lambda_function_scaling_config</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lambda_function_scaling_config"><c>aws_lambda_function_scaling_config</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambda_function_scaling_config"><c>aws_lambda_function_scaling_config</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

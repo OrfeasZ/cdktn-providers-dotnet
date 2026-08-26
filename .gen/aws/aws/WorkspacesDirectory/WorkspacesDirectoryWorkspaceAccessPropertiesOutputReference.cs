@@ -33,6 +33,18 @@ namespace aws.WorkspacesDirectory
         {
         }
 
+        [JsiiMethod(name: "putAccessEndpointConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig\"}}]")]
+        public virtual void PutAccessEndpointConfig(aws.WorkspacesDirectory.IWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.WorkspacesDirectory.IWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAccessEndpointConfig")]
+        public virtual void ResetAccessEndpointConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDeviceTypeAndroid")]
         public virtual void ResetDeviceTypeAndroid()
         {
@@ -79,6 +91,19 @@ namespace aws.WorkspacesDirectory
         public virtual void ResetDeviceTypeZeroclient()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "accessEndpointConfig", typeJson: "{\"fqn\":\"aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference\"}")]
+        public virtual aws.WorkspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference AccessEndpointConfig
+        {
+            get => GetInstanceProperty<aws.WorkspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "accessEndpointConfigInput", typeJson: "{\"fqn\":\"aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig\"}", isOptional: true)]
+        public virtual aws.WorkspacesDirectory.IWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig? AccessEndpointConfigInput
+        {
+            get => GetInstanceProperty<aws.WorkspacesDirectory.IWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig?>();
         }
 
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace aws.SsmResourceDataSync
     [JsiiInterface(nativeType: typeof(ISsmResourceDataSyncS3DestinationDestinationDataSharing), fullyQualifiedName: "aws.ssmResourceDataSync.SsmResourceDataSyncS3DestinationDestinationDataSharing")]
     public interface ISsmResourceDataSyncS3DestinationDestinationDataSharing
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ssm_resource_data_sync#destination_data_sharing_type SsmResourceDataSync#destination_data_sharing_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssm_resource_data_sync#destination_data_sharing_type SsmResourceDataSync#destination_data_sharing_type}.</summary>
         [JsiiProperty(name: "destinationDataSharingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DestinationDataSharingType
@@ -25,7 +25,7 @@ namespace aws.SsmResourceDataSync
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ssm_resource_data_sync#destination_data_sharing_type SsmResourceDataSync#destination_data_sharing_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssm_resource_data_sync#destination_data_sharing_type SsmResourceDataSync#destination_data_sharing_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationDataSharingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DestinationDataSharingType

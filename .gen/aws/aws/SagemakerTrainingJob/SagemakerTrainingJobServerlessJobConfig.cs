@@ -11,7 +11,7 @@ namespace aws.SagemakerTrainingJob
     {
         /// <summary>Base model ARN in SageMaker Public Hub. SageMaker always selects the latest version of the provided model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#base_model_arn SagemakerTrainingJob#base_model_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#base_model_arn SagemakerTrainingJob#base_model_arn}
         /// </remarks>
         [JsiiProperty(name: "baseModelArn", typeJson: "{\"primitive\":\"string\"}")]
         public string BaseModelArn
@@ -20,7 +20,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#job_type SagemakerTrainingJob#job_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#job_type SagemakerTrainingJob#job_type}.</summary>
         [JsiiProperty(name: "jobType", typeJson: "{\"primitive\":\"string\"}")]
         public string JobType
         {
@@ -30,7 +30,7 @@ namespace aws.SagemakerTrainingJob
 
         private object? _acceptEula;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#accept_eula SagemakerTrainingJob#accept_eula}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -62,7 +62,7 @@ namespace aws.SagemakerTrainingJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#customization_technique SagemakerTrainingJob#customization_technique}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#customization_technique SagemakerTrainingJob#customization_technique}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customizationTechnique", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomizationTechnique
@@ -71,7 +71,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#evaluation_type SagemakerTrainingJob#evaluation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#evaluation_type SagemakerTrainingJob#evaluation_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "evaluationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EvaluationType
@@ -80,7 +80,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#evaluator_arn SagemakerTrainingJob#evaluator_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#evaluator_arn SagemakerTrainingJob#evaluator_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "evaluatorArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EvaluatorArn
@@ -89,7 +89,7 @@ namespace aws.SagemakerTrainingJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/sagemaker_training_job#peft SagemakerTrainingJob#peft}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_training_job#peft SagemakerTrainingJob#peft}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "peft", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Peft

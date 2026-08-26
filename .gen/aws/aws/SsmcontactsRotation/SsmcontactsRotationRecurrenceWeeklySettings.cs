@@ -9,7 +9,7 @@ namespace aws.SsmcontactsRotation
     [JsiiByValue(fqn: "aws.ssmcontactsRotation.SsmcontactsRotationRecurrenceWeeklySettings")]
     public class SsmcontactsRotationRecurrenceWeeklySettings : aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceWeeklySettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssmcontacts_rotation#day_of_week SsmcontactsRotation#day_of_week}.</summary>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}")]
         public string DayOfWeek
         {
@@ -21,7 +21,7 @@ namespace aws.SsmcontactsRotation
 
         /// <summary>hand_off_time block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssmcontacts_rotation#hand_off_time SsmcontactsRotation#hand_off_time}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsRotation.ISsmcontactsRotationRecurrenceWeeklySettingsHandOffTime" />)[]</para>
         /// </remarks>
         [JsiiOptional]

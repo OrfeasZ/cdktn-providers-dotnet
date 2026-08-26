@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.SecretsmanagerSecretRotation
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation}.</summary>
     [JsiiClass(nativeType: typeof(aws.SecretsmanagerSecretRotation.SecretsmanagerSecretRotation), fullyQualifiedName: "aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotation", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationConfig\"}}]")]
     public class SecretsmanagerSecretRotation : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/secretsmanager_secret_rotation aws_secretsmanager_secret_rotation} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public SecretsmanagerSecretRotation(Constructs.Construct scope, string id, aws.SecretsmanagerSecretRotation.ISecretsmanagerSecretRotationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.SecretsmanagerSecretRotation
         /// <param name="importToId">The construct id used in the generated config for the SecretsmanagerSecretRotation to import.</param>
         /// <param name="importFromId">The id of the existing SecretsmanagerSecretRotation that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the SecretsmanagerSecretRotation to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the SecretsmanagerSecretRotation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/secretsmanager_secret_rotation#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing SecretsmanagerSecretRotation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the SecretsmanagerSecretRotation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the SecretsmanagerSecretRotation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/secretsmanager_secret_rotation#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing SecretsmanagerSecretRotation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the SecretsmanagerSecretRotation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.SecretsmanagerSecretRotation.SecretsmanagerSecretRotation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -106,8 +106,20 @@ namespace aws.SecretsmanagerSecretRotation
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRotationEnabled")]
+        public virtual void ResetRotationEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRotationLambdaArn")]
         public virtual void ResetRotationLambdaArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRotationRules")]
+        public virtual void ResetRotationRules()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -135,12 +147,6 @@ namespace aws.SecretsmanagerSecretRotation
         public virtual aws.SecretsmanagerSecretRotation.SecretsmanagerSecretRotationExternalSecretRotationMetadataList ExternalSecretRotationMetadata
         {
             get => GetInstanceProperty<aws.SecretsmanagerSecretRotation.SecretsmanagerSecretRotationExternalSecretRotationMetadataList>()!;
-        }
-
-        [JsiiProperty(name: "rotationEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable RotationEnabled
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "rotationRules", typeJson: "{\"fqn\":\"aws.secretsmanagerSecretRotation.SecretsmanagerSecretRotationRotationRulesOutputReference\"}")]
@@ -186,6 +192,16 @@ namespace aws.SecretsmanagerSecretRotation
         [JsiiOptional]
         [JsiiProperty(name: "rotateImmediatelyInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? RotateImmediatelyInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "rotationEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? RotationEnabledInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -237,6 +253,36 @@ namespace aws.SecretsmanagerSecretRotation
         /// </remarks>
         [JsiiProperty(name: "rotateImmediately", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
         public virtual object RotateImmediately
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "rotationEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object RotationEnabled
         {
             get => GetInstanceProperty<object>()!;
             set

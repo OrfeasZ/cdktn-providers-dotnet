@@ -9,7 +9,7 @@ namespace aws.QuicksightTheme
     {
         /// <summary>font_families block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTheme.IQuicksightThemeConfigurationTypographyFontFamilies" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "fontFamilies", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.QuicksightTheme
 
             /// <summary>font_families block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.QuicksightTheme.IQuicksightThemeConfigurationTypographyFontFamilies" />)[]</para>
             /// </remarks>
             [JsiiOptional]

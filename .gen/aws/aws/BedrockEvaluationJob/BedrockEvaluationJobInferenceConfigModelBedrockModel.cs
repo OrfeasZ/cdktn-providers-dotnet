@@ -9,7 +9,7 @@ namespace aws.BedrockEvaluationJob
     [JsiiByValue(fqn: "aws.bedrockEvaluationJob.BedrockEvaluationJobInferenceConfigModelBedrockModel")]
     public class BedrockEvaluationJobInferenceConfigModelBedrockModel : aws.BedrockEvaluationJob.IBedrockEvaluationJobInferenceConfigModelBedrockModel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#model_identifier BedrockEvaluationJob#model_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job#model_identifier BedrockEvaluationJob#model_identifier}.</summary>
         [JsiiProperty(name: "modelIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelIdentifier
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockEvaluationJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#inference_params BedrockEvaluationJob#inference_params}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job#inference_params BedrockEvaluationJob#inference_params}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "inferenceParams", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InferenceParams
@@ -30,7 +30,7 @@ namespace aws.BedrockEvaluationJob
 
         /// <summary>performance_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_evaluation_job#performance_config BedrockEvaluationJob#performance_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job#performance_config BedrockEvaluationJob#performance_config}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockEvaluationJob.IBedrockEvaluationJobInferenceConfigModelBedrockModelPerformanceConfig" />)[]</para>
         /// </remarks>
         [JsiiOptional]

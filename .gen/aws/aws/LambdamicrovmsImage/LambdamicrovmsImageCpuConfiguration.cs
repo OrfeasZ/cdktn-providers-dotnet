@@ -9,7 +9,7 @@ namespace aws.LambdamicrovmsImage
     [JsiiByValue(fqn: "aws.lambdamicrovmsImage.LambdamicrovmsImageCpuConfiguration")]
     public class LambdamicrovmsImageCpuConfiguration : aws.LambdamicrovmsImage.ILambdamicrovmsImageCpuConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/lambdamicrovms_image#architecture LambdamicrovmsImage#architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdamicrovms_image#architecture LambdamicrovmsImage#architecture}.</summary>
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}")]
         public string Architecture
         {

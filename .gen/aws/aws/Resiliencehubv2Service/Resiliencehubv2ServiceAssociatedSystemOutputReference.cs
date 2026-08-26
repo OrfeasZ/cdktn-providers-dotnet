@@ -35,6 +35,12 @@ namespace aws.Resiliencehubv2Service
         {
         }
 
+        [JsiiMethod(name: "resetUserJourneyIds")]
+        public virtual void ResetUserJourneyIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "systemArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SystemArnInput
@@ -42,10 +48,24 @@ namespace aws.Resiliencehubv2Service
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "userJourneyIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? UserJourneyIdsInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
         [JsiiProperty(name: "systemArn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SystemArn
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "userJourneyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] UserJourneyIds
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

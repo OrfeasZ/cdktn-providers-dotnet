@@ -7,7 +7,7 @@ namespace aws.MqBroker
     [JsiiByValue(fqn: "aws.mqBroker.MqBrokerLogs")]
     public class MqBrokerLogs : aws.MqBroker.IMqBrokerLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mq_broker#audit MqBroker#audit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mq_broker#audit MqBroker#audit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "audit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Audit
@@ -18,7 +18,7 @@ namespace aws.MqBroker
 
         private object? _general;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mq_broker#general MqBroker#general}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mq_broker#general MqBroker#general}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

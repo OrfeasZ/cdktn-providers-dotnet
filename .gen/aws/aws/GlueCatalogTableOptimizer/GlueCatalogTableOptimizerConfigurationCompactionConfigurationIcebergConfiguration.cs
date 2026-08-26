@@ -7,7 +7,7 @@ namespace aws.GlueCatalogTableOptimizer
     [JsiiByValue(fqn: "aws.glueCatalogTableOptimizer.GlueCatalogTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration")]
     public class GlueCatalogTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration : aws.GlueCatalogTableOptimizer.IGlueCatalogTableOptimizerConfigurationCompactionConfigurationIcebergConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_catalog_table_optimizer#delete_file_threshold GlueCatalogTableOptimizer#delete_file_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/glue_catalog_table_optimizer#delete_file_threshold GlueCatalogTableOptimizer#delete_file_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deleteFileThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DeleteFileThreshold
@@ -16,7 +16,7 @@ namespace aws.GlueCatalogTableOptimizer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_catalog_table_optimizer#min_input_files GlueCatalogTableOptimizer#min_input_files}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/glue_catalog_table_optimizer#min_input_files GlueCatalogTableOptimizer#min_input_files}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minInputFiles", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinInputFiles
@@ -25,7 +25,7 @@ namespace aws.GlueCatalogTableOptimizer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/glue_catalog_table_optimizer#strategy GlueCatalogTableOptimizer#strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/glue_catalog_table_optimizer#strategy GlueCatalogTableOptimizer#strategy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Strategy

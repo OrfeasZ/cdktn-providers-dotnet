@@ -41,6 +41,12 @@ namespace aws.DataAwsResiliencehubv2Service
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "userJourneyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] UserJourneyIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"aws.dataAwsResiliencehubv2Service.DataAwsResiliencehubv2ServiceAssociatedSystem\"}", isOptional: true)]
         public virtual aws.DataAwsResiliencehubv2Service.IDataAwsResiliencehubv2ServiceAssociatedSystem? InternalValue

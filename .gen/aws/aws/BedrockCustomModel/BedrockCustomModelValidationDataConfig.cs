@@ -11,7 +11,7 @@ namespace aws.BedrockCustomModel
 
         /// <summary>validator block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrock_custom_model#validator BedrockCustomModel#validator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_custom_model#validator BedrockCustomModel#validator}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockCustomModel.IBedrockCustomModelValidationDataConfigValidator" />)[]</para>
         /// </remarks>
         [JsiiOptional]

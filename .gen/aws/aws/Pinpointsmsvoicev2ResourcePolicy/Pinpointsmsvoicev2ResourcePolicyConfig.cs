@@ -9,7 +9,7 @@ namespace aws.Pinpointsmsvoicev2ResourcePolicy
     [JsiiByValue(fqn: "aws.pinpointsmsvoicev2ResourcePolicy.Pinpointsmsvoicev2ResourcePolicyConfig")]
     public class Pinpointsmsvoicev2ResourcePolicyConfig : aws.Pinpointsmsvoicev2ResourcePolicy.IPinpointsmsvoicev2ResourcePolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_resource_policy#policy Pinpointsmsvoicev2ResourcePolicy#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_resource_policy#policy Pinpointsmsvoicev2ResourcePolicy#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         public string Policy
         {
@@ -17,7 +17,7 @@ namespace aws.Pinpointsmsvoicev2ResourcePolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_resource_policy#resource_arn Pinpointsmsvoicev2ResourcePolicy#resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_resource_policy#resource_arn Pinpointsmsvoicev2ResourcePolicy#resource_arn}.</summary>
         [JsiiProperty(name: "resourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceArn
         {
@@ -27,7 +27,7 @@ namespace aws.Pinpointsmsvoicev2ResourcePolicy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/pinpointsmsvoicev2_resource_policy#region Pinpointsmsvoicev2ResourcePolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/pinpointsmsvoicev2_resource_policy#region Pinpointsmsvoicev2ResourcePolicy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

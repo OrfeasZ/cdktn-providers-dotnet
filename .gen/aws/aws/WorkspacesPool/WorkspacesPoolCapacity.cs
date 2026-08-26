@@ -9,7 +9,7 @@ namespace aws.WorkspacesPool
     [JsiiByValue(fqn: "aws.workspacesPool.WorkspacesPoolCapacity")]
     public class WorkspacesPoolCapacity : aws.WorkspacesPool.IWorkspacesPoolCapacity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/workspaces_pool#desired_user_sessions WorkspacesPool#desired_user_sessions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_pool#desired_user_sessions WorkspacesPool#desired_user_sessions}.</summary>
         [JsiiProperty(name: "desiredUserSessions", typeJson: "{\"primitive\":\"number\"}")]
         public double DesiredUserSessions
         {

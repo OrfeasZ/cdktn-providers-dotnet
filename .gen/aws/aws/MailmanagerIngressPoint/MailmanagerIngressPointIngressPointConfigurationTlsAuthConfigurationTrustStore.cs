@@ -9,7 +9,7 @@ namespace aws.MailmanagerIngressPoint
     [JsiiByValue(fqn: "aws.mailmanagerIngressPoint.MailmanagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore")]
     public class MailmanagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore : aws.MailmanagerIngressPoint.IMailmanagerIngressPointIngressPointConfigurationTlsAuthConfigurationTrustStore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#ca_content MailmanagerIngressPoint#ca_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_ingress_point#ca_content MailmanagerIngressPoint#ca_content}.</summary>
         [JsiiProperty(name: "caContent", typeJson: "{\"primitive\":\"string\"}")]
         public string CaContent
         {
@@ -17,7 +17,7 @@ namespace aws.MailmanagerIngressPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#crl_content MailmanagerIngressPoint#crl_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_ingress_point#crl_content MailmanagerIngressPoint#crl_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "crlContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CrlContent
@@ -26,7 +26,7 @@ namespace aws.MailmanagerIngressPoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_ingress_point#kms_key_arn MailmanagerIngressPoint#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_ingress_point#kms_key_arn MailmanagerIngressPoint#kms_key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyArn

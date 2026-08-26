@@ -7,14 +7,14 @@ namespace aws.MailmanagerTrafficPolicy
     [JsiiInterface(nativeType: typeof(IMailmanagerTrafficPolicyPolicyStatementConditionStringExpressionEvaluateAnalysis), fullyQualifiedName: "aws.mailmanagerTrafficPolicy.MailmanagerTrafficPolicyPolicyStatementConditionStringExpressionEvaluateAnalysis")]
     public interface IMailmanagerTrafficPolicyPolicyStatementConditionStringExpressionEvaluateAnalysis
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_traffic_policy#analyzer MailmanagerTrafficPolicy#analyzer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_traffic_policy#analyzer MailmanagerTrafficPolicy#analyzer}.</summary>
         [JsiiProperty(name: "analyzer", typeJson: "{\"primitive\":\"string\"}")]
         string Analyzer
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_traffic_policy#result_field MailmanagerTrafficPolicy#result_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_traffic_policy#result_field MailmanagerTrafficPolicy#result_field}.</summary>
         [JsiiProperty(name: "resultField", typeJson: "{\"primitive\":\"string\"}")]
         string ResultField
         {
@@ -28,14 +28,14 @@ namespace aws.MailmanagerTrafficPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_traffic_policy#analyzer MailmanagerTrafficPolicy#analyzer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_traffic_policy#analyzer MailmanagerTrafficPolicy#analyzer}.</summary>
             [JsiiProperty(name: "analyzer", typeJson: "{\"primitive\":\"string\"}")]
             public string Analyzer
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/mailmanager_traffic_policy#result_field MailmanagerTrafficPolicy#result_field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_traffic_policy#result_field MailmanagerTrafficPolicy#result_field}.</summary>
             [JsiiProperty(name: "resultField", typeJson: "{\"primitive\":\"string\"}")]
             public string ResultField
             {

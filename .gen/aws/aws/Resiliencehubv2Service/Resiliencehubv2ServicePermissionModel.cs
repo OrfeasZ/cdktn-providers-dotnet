@@ -9,7 +9,7 @@ namespace aws.Resiliencehubv2Service
     [JsiiByValue(fqn: "aws.resiliencehubv2Service.Resiliencehubv2ServicePermissionModel")]
     public class Resiliencehubv2ServicePermissionModel : aws.Resiliencehubv2Service.IResiliencehubv2ServicePermissionModel
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_service#invoker_role_name Resiliencehubv2Service#invoker_role_name}.</summary>
         [JsiiProperty(name: "invokerRoleName", typeJson: "{\"primitive\":\"string\"}")]
         public string InvokerRoleName
         {
@@ -21,7 +21,7 @@ namespace aws.Resiliencehubv2Service
 
         /// <summary>cross_account_role block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/resiliencehubv2_service#cross_account_role Resiliencehubv2Service#cross_account_role}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_service#cross_account_role Resiliencehubv2Service#cross_account_role}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Resiliencehubv2Service.IResiliencehubv2ServicePermissionModelCrossAccountRole" />)[]</para>
         /// </remarks>
         [JsiiOptional]

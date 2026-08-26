@@ -5,7 +5,7 @@ namespace aws.PrometheusAnomalyDetector
     /// <remarks>
     /// <h1><c>aws_prometheus_anomaly_detector</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_anomaly_detector"><c>aws_prometheus_anomaly_detector</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_anomaly_detector"><c>aws_prometheus_anomaly_detector</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

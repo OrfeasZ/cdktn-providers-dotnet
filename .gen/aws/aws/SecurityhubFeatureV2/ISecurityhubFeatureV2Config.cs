@@ -9,7 +9,7 @@ namespace aws.SecurityhubFeatureV2
     {
         /// <summary>The name of the opt-in feature to enable. Valid values: NETWORK_SCANNING.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2#feature_name SecurityhubFeatureV2#feature_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2#feature_name SecurityhubFeatureV2#feature_name}
         /// </remarks>
         [JsiiProperty(name: "featureName", typeJson: "{\"primitive\":\"string\"}")]
         string FeatureName
@@ -19,7 +19,7 @@ namespace aws.SecurityhubFeatureV2
 
         /// <summary>The current enablement status of the feature. Valid values: ENABLED, DISABLED.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2#feature_status SecurityhubFeatureV2#feature_status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2#feature_status SecurityhubFeatureV2#feature_status}
         /// </remarks>
         [JsiiProperty(name: "featureStatus", typeJson: "{\"primitive\":\"string\"}")]
         string FeatureStatus
@@ -29,7 +29,7 @@ namespace aws.SecurityhubFeatureV2
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2#region SecurityhubFeatureV2#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2#region SecurityhubFeatureV2#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace aws.SecurityhubFeatureV2
 
             /// <summary>The name of the opt-in feature to enable. Valid values: NETWORK_SCANNING.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2#feature_name SecurityhubFeatureV2#feature_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2#feature_name SecurityhubFeatureV2#feature_name}
             /// </remarks>
             [JsiiProperty(name: "featureName", typeJson: "{\"primitive\":\"string\"}")]
             public string FeatureName
@@ -60,7 +60,7 @@ namespace aws.SecurityhubFeatureV2
 
             /// <summary>The current enablement status of the feature. Valid values: ENABLED, DISABLED.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2#feature_status SecurityhubFeatureV2#feature_status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2#feature_status SecurityhubFeatureV2#feature_status}
             /// </remarks>
             [JsiiProperty(name: "featureStatus", typeJson: "{\"primitive\":\"string\"}")]
             public string FeatureStatus
@@ -70,7 +70,7 @@ namespace aws.SecurityhubFeatureV2
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/securityhub_feature_v2#region SecurityhubFeatureV2#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_feature_v2#region SecurityhubFeatureV2#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

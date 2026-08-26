@@ -11,7 +11,7 @@ namespace aws.BedrockagentcoreBrowser
 
         /// <summary>location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/bedrockagentcore_browser#location BedrockagentcoreBrowser#location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_browser#location BedrockagentcoreBrowser#location}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreBrowser.IBedrockagentcoreBrowserCertificateLocation" />)[]</para>
         /// </remarks>
         [JsiiOptional]

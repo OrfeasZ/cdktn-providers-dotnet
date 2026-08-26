@@ -9,7 +9,7 @@ namespace aws.PrometheusScraper
     [JsiiByValue(fqn: "aws.prometheusScraper.PrometheusScraperExporterOpensearch")]
     public class PrometheusScraperExporterOpensearch : aws.PrometheusScraper.IPrometheusScraperExporterOpensearch
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper#domain_arn PrometheusScraper#domain_arn}.</summary>
         [JsiiProperty(name: "domainArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainArn
         {

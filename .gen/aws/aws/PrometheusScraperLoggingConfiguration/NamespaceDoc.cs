@@ -5,7 +5,7 @@ namespace aws.PrometheusScraperLoggingConfiguration
     /// <remarks>
     /// <h1><c>aws_prometheus_scraper_logging_configuration</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/prometheus_scraper_logging_configuration"><c>aws_prometheus_scraper_logging_configuration</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper_logging_configuration"><c>aws_prometheus_scraper_logging_configuration</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

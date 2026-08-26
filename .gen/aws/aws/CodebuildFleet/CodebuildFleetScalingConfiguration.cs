@@ -7,7 +7,7 @@ namespace aws.CodebuildFleet
     [JsiiByValue(fqn: "aws.codebuildFleet.CodebuildFleetScalingConfiguration")]
     public class CodebuildFleetScalingConfiguration : aws.CodebuildFleet.ICodebuildFleetScalingConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/codebuild_fleet#max_capacity CodebuildFleet#max_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxCapacity
@@ -16,7 +16,7 @@ namespace aws.CodebuildFleet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/codebuild_fleet#scaling_type CodebuildFleet#scaling_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scalingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScalingType
@@ -29,7 +29,7 @@ namespace aws.CodebuildFleet
 
         /// <summary>target_tracking_scaling_configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/codebuild_fleet#target_tracking_scaling_configs CodebuildFleet#target_tracking_scaling_configs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CodebuildFleet.ICodebuildFleetScalingConfigurationTargetTrackingScalingConfigs" />)[]</para>
         /// </remarks>
         [JsiiOptional]

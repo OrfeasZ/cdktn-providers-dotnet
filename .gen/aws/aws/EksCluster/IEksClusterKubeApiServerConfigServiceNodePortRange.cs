@@ -7,7 +7,7 @@ namespace aws.EksCluster
     [JsiiInterface(nativeType: typeof(IEksClusterKubeApiServerConfigServiceNodePortRange), fullyQualifiedName: "aws.eksCluster.EksClusterKubeApiServerConfigServiceNodePortRange")]
     public interface IEksClusterKubeApiServerConfigServiceNodePortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/eks_cluster#max_port EksCluster#max_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#max_port EksCluster#max_port}.</summary>
         [JsiiProperty(name: "maxPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxPort
@@ -18,7 +18,7 @@ namespace aws.EksCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/eks_cluster#min_port EksCluster#min_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#min_port EksCluster#min_port}.</summary>
         [JsiiProperty(name: "minPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinPort
@@ -36,7 +36,7 @@ namespace aws.EksCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/eks_cluster#max_port EksCluster#max_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#max_port EksCluster#max_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxPort
@@ -44,7 +44,7 @@ namespace aws.EksCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.61.0/docs/resources/eks_cluster#min_port EksCluster#min_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#min_port EksCluster#min_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinPort
