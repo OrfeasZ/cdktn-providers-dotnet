@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVmwarePrivateCloud
     [JsiiInterface(nativeType: typeof(IDataAzurermVmwarePrivateCloudTimeouts), fullyQualifiedName: "azurerm.dataAzurermVmwarePrivateCloud.DataAzurermVmwarePrivateCloudTimeouts")]
     public interface IDataAzurermVmwarePrivateCloudTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/vmware_private_cloud#read DataAzurermVmwarePrivateCloud#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/vmware_private_cloud#read DataAzurermVmwarePrivateCloud#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermVmwarePrivateCloud
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/vmware_private_cloud#read DataAzurermVmwarePrivateCloud#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/vmware_private_cloud#read DataAzurermVmwarePrivateCloud#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

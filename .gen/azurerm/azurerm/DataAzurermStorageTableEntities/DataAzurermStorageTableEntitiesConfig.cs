@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermStorageTableEntities
     [JsiiByValue(fqn: "azurerm.dataAzurermStorageTableEntities.DataAzurermStorageTableEntitiesConfig")]
     public class DataAzurermStorageTableEntitiesConfig : azurerm.DataAzurermStorageTableEntities.IDataAzurermStorageTableEntitiesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table_entities#filter DataAzurermStorageTableEntities#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table_entities#filter DataAzurermStorageTableEntities#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
         public string Filter
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermStorageTableEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table_entities#storage_table_id DataAzurermStorageTableEntities#storage_table_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table_entities#storage_table_id DataAzurermStorageTableEntities#storage_table_id}.</summary>
         [JsiiProperty(name: "storageTableId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageTableId
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermStorageTableEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table_entities#id DataAzurermStorageTableEntities#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table_entities#id DataAzurermStorageTableEntities#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace azurerm.DataAzurermStorageTableEntities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table_entities#select DataAzurermStorageTableEntities#select}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table_entities#select DataAzurermStorageTableEntities#select}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "select", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Select
@@ -49,7 +49,7 @@ namespace azurerm.DataAzurermStorageTableEntities
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/storage_table_entities#timeouts DataAzurermStorageTableEntities#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_table_entities#timeouts DataAzurermStorageTableEntities#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermStorageTableEntities.DataAzurermStorageTableEntitiesTimeouts\"}", isOptional: true)]

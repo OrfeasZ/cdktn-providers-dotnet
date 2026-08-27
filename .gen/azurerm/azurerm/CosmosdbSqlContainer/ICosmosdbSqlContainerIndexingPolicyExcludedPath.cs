@@ -7,7 +7,7 @@ namespace azurerm.CosmosdbSqlContainer
     [JsiiInterface(nativeType: typeof(ICosmosdbSqlContainerIndexingPolicyExcludedPath), fullyQualifiedName: "azurerm.cosmosdbSqlContainer.CosmosdbSqlContainerIndexingPolicyExcludedPath")]
     public interface ICosmosdbSqlContainerIndexingPolicyExcludedPath
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         string Path
         {
@@ -21,7 +21,7 @@ namespace azurerm.CosmosdbSqlContainer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_container#path CosmosdbSqlContainer#path}.</summary>
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
             public string Path
             {

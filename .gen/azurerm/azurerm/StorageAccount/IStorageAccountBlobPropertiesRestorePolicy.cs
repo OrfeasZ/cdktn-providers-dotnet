@@ -7,7 +7,7 @@ namespace azurerm.StorageAccount
     [JsiiInterface(nativeType: typeof(IStorageAccountBlobPropertiesRestorePolicy), fullyQualifiedName: "azurerm.storageAccount.StorageAccountBlobPropertiesRestorePolicy")]
     public interface IStorageAccountBlobPropertiesRestorePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]
         double Days
         {
@@ -21,7 +21,7 @@ namespace azurerm.StorageAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
             [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]
             public double Days
             {

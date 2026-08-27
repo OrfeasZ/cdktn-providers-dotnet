@@ -7,14 +7,14 @@ namespace azurerm.FunctionAppFlexConsumption
     [JsiiInterface(nativeType: typeof(IFunctionAppFlexConsumptionAlwaysReady), fullyQualifiedName: "azurerm.functionAppFlexConsumption.FunctionAppFlexConsumptionAlwaysReady")]
     public interface IFunctionAppFlexConsumptionAlwaysReady
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption#name FunctionAppFlexConsumption#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_flex_consumption#name FunctionAppFlexConsumption#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption#instance_count FunctionAppFlexConsumption#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_flex_consumption#instance_count FunctionAppFlexConsumption#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceCount
@@ -32,14 +32,14 @@ namespace azurerm.FunctionAppFlexConsumption
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption#name FunctionAppFlexConsumption#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_flex_consumption#name FunctionAppFlexConsumption#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption#instance_count FunctionAppFlexConsumption#instance_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_flex_consumption#instance_count FunctionAppFlexConsumption#instance_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceCount

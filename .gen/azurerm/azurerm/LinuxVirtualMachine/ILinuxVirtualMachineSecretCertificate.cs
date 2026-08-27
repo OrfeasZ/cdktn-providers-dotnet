@@ -7,7 +7,7 @@ namespace azurerm.LinuxVirtualMachine
     [JsiiInterface(nativeType: typeof(ILinuxVirtualMachineSecretCertificate), fullyQualifiedName: "azurerm.linuxVirtualMachine.LinuxVirtualMachineSecretCertificate")]
     public interface ILinuxVirtualMachineSecretCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_virtual_machine#url LinuxVirtualMachine#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_virtual_machine#url LinuxVirtualMachine#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
         {
@@ -21,7 +21,7 @@ namespace azurerm.LinuxVirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_virtual_machine#url LinuxVirtualMachine#url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_virtual_machine#url LinuxVirtualMachine#url}.</summary>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
             {

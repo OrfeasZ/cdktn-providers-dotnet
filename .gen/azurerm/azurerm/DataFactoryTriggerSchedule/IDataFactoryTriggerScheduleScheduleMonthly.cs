@@ -7,14 +7,14 @@ namespace azurerm.DataFactoryTriggerSchedule
     [JsiiInterface(nativeType: typeof(IDataFactoryTriggerScheduleScheduleMonthly), fullyQualifiedName: "azurerm.dataFactoryTriggerSchedule.DataFactoryTriggerScheduleScheduleMonthly")]
     public interface IDataFactoryTriggerScheduleScheduleMonthly
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_trigger_schedule#weekday DataFactoryTriggerSchedule#weekday}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_trigger_schedule#weekday DataFactoryTriggerSchedule#weekday}.</summary>
         [JsiiProperty(name: "weekday", typeJson: "{\"primitive\":\"string\"}")]
         string Weekday
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_trigger_schedule#week DataFactoryTriggerSchedule#week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_trigger_schedule#week DataFactoryTriggerSchedule#week}.</summary>
         [JsiiProperty(name: "week", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Week
@@ -32,14 +32,14 @@ namespace azurerm.DataFactoryTriggerSchedule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_trigger_schedule#weekday DataFactoryTriggerSchedule#weekday}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_trigger_schedule#weekday DataFactoryTriggerSchedule#weekday}.</summary>
             [JsiiProperty(name: "weekday", typeJson: "{\"primitive\":\"string\"}")]
             public string Weekday
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_trigger_schedule#week DataFactoryTriggerSchedule#week}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_trigger_schedule#week DataFactoryTriggerSchedule#week}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "week", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Week

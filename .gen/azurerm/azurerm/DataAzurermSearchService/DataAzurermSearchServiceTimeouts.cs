@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSearchService
     [JsiiByValue(fqn: "azurerm.dataAzurermSearchService.DataAzurermSearchServiceTimeouts")]
     public class DataAzurermSearchServiceTimeouts : azurerm.DataAzurermSearchService.IDataAzurermSearchServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/search_service#read DataAzurermSearchService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/search_service#read DataAzurermSearchService#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

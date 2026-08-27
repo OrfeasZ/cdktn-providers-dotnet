@@ -7,7 +7,7 @@ namespace azurerm.WindowsWebApp
     [JsiiByValue(fqn: "azurerm.windowsWebApp.WindowsWebAppSiteConfigAutoHealSettingTrigger")]
     public class WindowsWebAppSiteConfigAutoHealSettingTrigger : azurerm.WindowsWebApp.IWindowsWebAppSiteConfigAutoHealSettingTrigger
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app#private_memory_kb WindowsWebApp#private_memory_kb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#private_memory_kb WindowsWebApp#private_memory_kb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateMemoryKb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PrivateMemoryKb
@@ -18,7 +18,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>requests block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app#requests WindowsWebApp#requests}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#requests WindowsWebApp#requests}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requests", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppSiteConfigAutoHealSettingTriggerRequests\"}", isOptional: true)]
@@ -30,7 +30,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>slow_request block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app#slow_request WindowsWebApp#slow_request}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#slow_request WindowsWebApp#slow_request}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "slowRequest", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequest\"}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>slow_request_with_path block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app#slow_request_with_path WindowsWebApp#slow_request_with_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#slow_request_with_path WindowsWebApp#slow_request_with_path}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsWebApp.IWindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPath" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>status_code block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app#status_code WindowsWebApp#status_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#status_code WindowsWebApp#status_code}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsWebApp.IWindowsWebAppSiteConfigAutoHealSettingTriggerStatusCode" />)[]</para>
         /// </remarks>
         [JsiiOptional]

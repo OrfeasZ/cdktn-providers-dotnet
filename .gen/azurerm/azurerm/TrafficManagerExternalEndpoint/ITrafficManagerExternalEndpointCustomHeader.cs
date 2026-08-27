@@ -7,14 +7,14 @@ namespace azurerm.TrafficManagerExternalEndpoint
     [JsiiInterface(nativeType: typeof(ITrafficManagerExternalEndpointCustomHeader), fullyQualifiedName: "azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpointCustomHeader")]
     public interface ITrafficManagerExternalEndpointCustomHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/traffic_manager_external_endpoint#name TrafficManagerExternalEndpoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#name TrafficManagerExternalEndpoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/traffic_manager_external_endpoint#value TrafficManagerExternalEndpoint#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#value TrafficManagerExternalEndpoint#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -28,14 +28,14 @@ namespace azurerm.TrafficManagerExternalEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/traffic_manager_external_endpoint#name TrafficManagerExternalEndpoint#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#name TrafficManagerExternalEndpoint#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/traffic_manager_external_endpoint#value TrafficManagerExternalEndpoint#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#value TrafficManagerExternalEndpoint#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

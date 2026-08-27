@@ -7,7 +7,7 @@ namespace azurerm.WindowsVirtualMachine
     [JsiiInterface(nativeType: typeof(IWindowsVirtualMachineOsImageNotification), fullyQualifiedName: "azurerm.windowsVirtualMachine.WindowsVirtualMachineOsImageNotification")]
     public interface IWindowsVirtualMachineOsImageNotification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine#timeout WindowsVirtualMachine#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine#timeout WindowsVirtualMachine#timeout}.</summary>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Timeout
@@ -25,7 +25,7 @@ namespace azurerm.WindowsVirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine#timeout WindowsVirtualMachine#timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine#timeout WindowsVirtualMachine#timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Timeout

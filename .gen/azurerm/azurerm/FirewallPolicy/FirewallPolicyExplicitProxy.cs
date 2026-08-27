@@ -9,7 +9,7 @@ namespace azurerm.FirewallPolicy
     {
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy#enabled FirewallPolicy#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#enabled FirewallPolicy#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace azurerm.FirewallPolicy
 
         private object? _enablePacFile;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy#enable_pac_file FirewallPolicy#enable_pac_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#enable_pac_file FirewallPolicy#enable_pac_file}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace azurerm.FirewallPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy#http_port FirewallPolicy#http_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#http_port FirewallPolicy#http_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HttpPort
@@ -84,7 +84,7 @@ namespace azurerm.FirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy#https_port FirewallPolicy#https_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#https_port FirewallPolicy#https_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpsPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HttpsPort
@@ -93,7 +93,7 @@ namespace azurerm.FirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy#pac_file FirewallPolicy#pac_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#pac_file FirewallPolicy#pac_file}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pacFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PacFile
@@ -102,7 +102,7 @@ namespace azurerm.FirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall_policy#pac_file_port FirewallPolicy#pac_file_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#pac_file_port FirewallPolicy#pac_file_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pacFilePort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PacFilePort

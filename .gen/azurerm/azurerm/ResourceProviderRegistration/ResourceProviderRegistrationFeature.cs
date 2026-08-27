@@ -9,7 +9,7 @@ namespace azurerm.ResourceProviderRegistration
     [JsiiByValue(fqn: "azurerm.resourceProviderRegistration.ResourceProviderRegistrationFeature")]
     public class ResourceProviderRegistrationFeature : azurerm.ResourceProviderRegistration.IResourceProviderRegistrationFeature
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_provider_registration#name ResourceProviderRegistration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_provider_registration#name ResourceProviderRegistration#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -19,7 +19,7 @@ namespace azurerm.ResourceProviderRegistration
 
         private object _registered;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_provider_registration#registered ResourceProviderRegistration#registered}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_provider_registration#registered ResourceProviderRegistration#registered}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

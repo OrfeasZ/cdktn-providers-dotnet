@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultCertificate
     [JsiiByValue(fqn: "azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyIssuerParameters")]
     public class KeyVaultCertificateCertificatePolicyIssuerParameters : azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyIssuerParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/key_vault_certificate#name KeyVaultCertificate#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_certificate#name KeyVaultCertificate#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

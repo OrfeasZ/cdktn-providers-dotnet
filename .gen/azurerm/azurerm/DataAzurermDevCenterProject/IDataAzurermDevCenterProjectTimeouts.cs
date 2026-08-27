@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDevCenterProject
     [JsiiInterface(nativeType: typeof(IDataAzurermDevCenterProjectTimeouts), fullyQualifiedName: "azurerm.dataAzurermDevCenterProject.DataAzurermDevCenterProjectTimeouts")]
     public interface IDataAzurermDevCenterProjectTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/dev_center_project#read DataAzurermDevCenterProject#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/dev_center_project#read DataAzurermDevCenterProject#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDevCenterProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/dev_center_project#read DataAzurermDevCenterProject#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/dev_center_project#read DataAzurermDevCenterProject#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

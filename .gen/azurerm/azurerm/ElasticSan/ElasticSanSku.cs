@@ -9,7 +9,7 @@ namespace azurerm.ElasticSan
     [JsiiByValue(fqn: "azurerm.elasticSan.ElasticSanSku")]
     public class ElasticSanSku : azurerm.ElasticSan.IElasticSanSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/elastic_san#name ElasticSan#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san#name ElasticSan#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ElasticSan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/elastic_san#tier ElasticSan#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san#tier ElasticSan#tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Tier

@@ -7,14 +7,14 @@ namespace azurerm.FabricCapacity
     [JsiiInterface(nativeType: typeof(IFabricCapacitySku), fullyQualifiedName: "azurerm.fabricCapacity.FabricCapacitySku")]
     public interface IFabricCapacitySku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/fabric_capacity#name FabricCapacity#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/fabric_capacity#name FabricCapacity#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/fabric_capacity#tier FabricCapacity#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/fabric_capacity#tier FabricCapacity#tier}.</summary>
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
         string Tier
         {
@@ -28,14 +28,14 @@ namespace azurerm.FabricCapacity
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/fabric_capacity#name FabricCapacity#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/fabric_capacity#name FabricCapacity#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/fabric_capacity#tier FabricCapacity#tier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/fabric_capacity#tier FabricCapacity#tier}.</summary>
             [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
             public string Tier
             {

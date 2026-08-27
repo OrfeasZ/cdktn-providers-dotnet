@@ -7,28 +7,28 @@ namespace azurerm.BatchPool
     [JsiiInterface(nativeType: typeof(IBatchPoolNetworkConfigurationEndpointConfiguration), fullyQualifiedName: "azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfiguration")]
     public interface IBatchPoolNetworkConfigurationEndpointConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#backend_port BatchPool#backend_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#backend_port BatchPool#backend_port}.</summary>
         [JsiiProperty(name: "backendPort", typeJson: "{\"primitive\":\"number\"}")]
         double BackendPort
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#frontend_port_range BatchPool#frontend_port_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#frontend_port_range BatchPool#frontend_port_range}.</summary>
         [JsiiProperty(name: "frontendPortRange", typeJson: "{\"primitive\":\"string\"}")]
         string FrontendPortRange
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#name BatchPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#name BatchPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#protocol BatchPool#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#protocol BatchPool#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
         {
@@ -37,7 +37,7 @@ namespace azurerm.BatchPool
 
         /// <summary>network_security_group_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#network_security_group_rules BatchPool#network_security_group_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#network_security_group_rules BatchPool#network_security_group_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "networkSecurityGroupRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.batchPool.BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -57,28 +57,28 @@ namespace azurerm.BatchPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#backend_port BatchPool#backend_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#backend_port BatchPool#backend_port}.</summary>
             [JsiiProperty(name: "backendPort", typeJson: "{\"primitive\":\"number\"}")]
             public double BackendPort
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#frontend_port_range BatchPool#frontend_port_range}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#frontend_port_range BatchPool#frontend_port_range}.</summary>
             [JsiiProperty(name: "frontendPortRange", typeJson: "{\"primitive\":\"string\"}")]
             public string FrontendPortRange
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#name BatchPool#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#name BatchPool#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#protocol BatchPool#protocol}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#protocol BatchPool#protocol}.</summary>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
             {
@@ -87,7 +87,7 @@ namespace azurerm.BatchPool
 
             /// <summary>network_security_group_rules block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#network_security_group_rules BatchPool#network_security_group_rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#network_security_group_rules BatchPool#network_security_group_rules}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules" />)[]</para>
             /// </remarks>
             [JsiiOptional]

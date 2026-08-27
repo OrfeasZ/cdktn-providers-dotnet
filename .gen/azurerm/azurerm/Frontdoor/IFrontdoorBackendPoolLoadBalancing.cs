@@ -7,14 +7,14 @@ namespace azurerm.Frontdoor
     [JsiiInterface(nativeType: typeof(IFrontdoorBackendPoolLoadBalancing), fullyQualifiedName: "azurerm.frontdoor.FrontdoorBackendPoolLoadBalancing")]
     public interface IFrontdoorBackendPoolLoadBalancing
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#additional_latency_milliseconds Frontdoor#additional_latency_milliseconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#additional_latency_milliseconds Frontdoor#additional_latency_milliseconds}.</summary>
         [JsiiProperty(name: "additionalLatencyMilliseconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AdditionalLatencyMilliseconds
@@ -25,7 +25,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#sample_size Frontdoor#sample_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#sample_size Frontdoor#sample_size}.</summary>
         [JsiiProperty(name: "sampleSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SampleSize
@@ -36,7 +36,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#successful_samples_required Frontdoor#successful_samples_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#successful_samples_required Frontdoor#successful_samples_required}.</summary>
         [JsiiProperty(name: "successfulSamplesRequired", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SuccessfulSamplesRequired
@@ -54,14 +54,14 @@ namespace azurerm.Frontdoor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#additional_latency_milliseconds Frontdoor#additional_latency_milliseconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#additional_latency_milliseconds Frontdoor#additional_latency_milliseconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "additionalLatencyMilliseconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AdditionalLatencyMilliseconds
@@ -69,7 +69,7 @@ namespace azurerm.Frontdoor
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#sample_size Frontdoor#sample_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#sample_size Frontdoor#sample_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sampleSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SampleSize
@@ -77,7 +77,7 @@ namespace azurerm.Frontdoor
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#successful_samples_required Frontdoor#successful_samples_required}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#successful_samples_required Frontdoor#successful_samples_required}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "successfulSamplesRequired", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SuccessfulSamplesRequired

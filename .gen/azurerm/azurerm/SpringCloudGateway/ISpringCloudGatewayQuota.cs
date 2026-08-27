@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudGateway
     [JsiiInterface(nativeType: typeof(ISpringCloudGatewayQuota), fullyQualifiedName: "azurerm.springCloudGateway.SpringCloudGatewayQuota")]
     public interface ISpringCloudGatewayQuota
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#cpu SpringCloudGateway#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#cpu SpringCloudGateway#cpu}.</summary>
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Cpu
@@ -18,7 +18,7 @@ namespace azurerm.SpringCloudGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#memory SpringCloudGateway#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#memory SpringCloudGateway#memory}.</summary>
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Memory
@@ -36,7 +36,7 @@ namespace azurerm.SpringCloudGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#cpu SpringCloudGateway#cpu}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#cpu SpringCloudGateway#cpu}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Cpu
@@ -44,7 +44,7 @@ namespace azurerm.SpringCloudGateway
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#memory SpringCloudGateway#memory}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#memory SpringCloudGateway#memory}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Memory

@@ -9,7 +9,7 @@ namespace azurerm.FunctionAppConnection
     {
         /// <summary>authentication block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#authentication FunctionAppConnection#authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#authentication FunctionAppConnection#authentication}
         /// </remarks>
         [JsiiProperty(name: "authentication", typeJson: "{\"fqn\":\"azurerm.functionAppConnection.FunctionAppConnectionAuthentication\"}")]
         azurerm.FunctionAppConnection.IFunctionAppConnectionAuthentication Authentication
@@ -17,28 +17,28 @@ namespace azurerm.FunctionAppConnection
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#function_app_id FunctionAppConnection#function_app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#function_app_id FunctionAppConnection#function_app_id}.</summary>
         [JsiiProperty(name: "functionAppId", typeJson: "{\"primitive\":\"string\"}")]
         string FunctionAppId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#name FunctionAppConnection#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#name FunctionAppConnection#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#target_resource_id FunctionAppConnection#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#target_resource_id FunctionAppConnection#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string TargetResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#client_type FunctionAppConnection#client_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#client_type FunctionAppConnection#client_type}.</summary>
         [JsiiProperty(name: "clientType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClientType
@@ -49,7 +49,7 @@ namespace azurerm.FunctionAppConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#id FunctionAppConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#id FunctionAppConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace azurerm.FunctionAppConnection
 
         /// <summary>secret_store block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#secret_store FunctionAppConnection#secret_store}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#secret_store FunctionAppConnection#secret_store}
         /// </remarks>
         [JsiiProperty(name: "secretStore", typeJson: "{\"fqn\":\"azurerm.functionAppConnection.FunctionAppConnectionSecretStore\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.FunctionAppConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#timeouts FunctionAppConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#timeouts FunctionAppConnection#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.functionAppConnection.FunctionAppConnectionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace azurerm.FunctionAppConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#vnet_solution FunctionAppConnection#vnet_solution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#vnet_solution FunctionAppConnection#vnet_solution}.</summary>
         [JsiiProperty(name: "vnetSolution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VnetSolution
@@ -112,7 +112,7 @@ namespace azurerm.FunctionAppConnection
 
             /// <summary>authentication block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#authentication FunctionAppConnection#authentication}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#authentication FunctionAppConnection#authentication}
             /// </remarks>
             [JsiiProperty(name: "authentication", typeJson: "{\"fqn\":\"azurerm.functionAppConnection.FunctionAppConnectionAuthentication\"}")]
             public azurerm.FunctionAppConnection.IFunctionAppConnectionAuthentication Authentication
@@ -120,28 +120,28 @@ namespace azurerm.FunctionAppConnection
                 get => GetInstanceProperty<azurerm.FunctionAppConnection.IFunctionAppConnectionAuthentication>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#function_app_id FunctionAppConnection#function_app_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#function_app_id FunctionAppConnection#function_app_id}.</summary>
             [JsiiProperty(name: "functionAppId", typeJson: "{\"primitive\":\"string\"}")]
             public string FunctionAppId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#name FunctionAppConnection#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#name FunctionAppConnection#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#target_resource_id FunctionAppConnection#target_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#target_resource_id FunctionAppConnection#target_resource_id}.</summary>
             [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#client_type FunctionAppConnection#client_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#client_type FunctionAppConnection#client_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClientType
@@ -149,7 +149,7 @@ namespace azurerm.FunctionAppConnection
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#id FunctionAppConnection#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#id FunctionAppConnection#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -163,7 +163,7 @@ namespace azurerm.FunctionAppConnection
 
             /// <summary>secret_store block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#secret_store FunctionAppConnection#secret_store}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#secret_store FunctionAppConnection#secret_store}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secretStore", typeJson: "{\"fqn\":\"azurerm.functionAppConnection.FunctionAppConnectionSecretStore\"}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace azurerm.FunctionAppConnection
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#timeouts FunctionAppConnection#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#timeouts FunctionAppConnection#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.functionAppConnection.FunctionAppConnectionTimeouts\"}", isOptional: true)]
@@ -183,7 +183,7 @@ namespace azurerm.FunctionAppConnection
                 get => GetInstanceProperty<azurerm.FunctionAppConnection.IFunctionAppConnectionTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_connection#vnet_solution FunctionAppConnection#vnet_solution}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_connection#vnet_solution FunctionAppConnection#vnet_solution}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vnetSolution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VnetSolution

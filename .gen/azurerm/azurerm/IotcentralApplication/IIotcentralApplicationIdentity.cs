@@ -7,7 +7,7 @@ namespace azurerm.IotcentralApplication
     [JsiiInterface(nativeType: typeof(IIotcentralApplicationIdentity), fullyQualifiedName: "azurerm.iotcentralApplication.IotcentralApplicationIdentity")]
     public interface IIotcentralApplicationIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iotcentral_application#type IotcentralApplication#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iotcentral_application#type IotcentralApplication#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
@@ -21,7 +21,7 @@ namespace azurerm.IotcentralApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iotcentral_application#type IotcentralApplication#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iotcentral_application#type IotcentralApplication#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {

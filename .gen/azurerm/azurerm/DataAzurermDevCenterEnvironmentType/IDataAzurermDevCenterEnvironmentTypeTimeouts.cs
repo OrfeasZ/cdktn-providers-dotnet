@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDevCenterEnvironmentType
     [JsiiInterface(nativeType: typeof(IDataAzurermDevCenterEnvironmentTypeTimeouts), fullyQualifiedName: "azurerm.dataAzurermDevCenterEnvironmentType.DataAzurermDevCenterEnvironmentTypeTimeouts")]
     public interface IDataAzurermDevCenterEnvironmentTypeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/dev_center_environment_type#read DataAzurermDevCenterEnvironmentType#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/dev_center_environment_type#read DataAzurermDevCenterEnvironmentType#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDevCenterEnvironmentType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/dev_center_environment_type#read DataAzurermDevCenterEnvironmentType#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/dev_center_environment_type#read DataAzurermDevCenterEnvironmentType#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

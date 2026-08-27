@@ -7,7 +7,7 @@ namespace azurerm.ResourceDeploymentScriptAzureCli
     [JsiiByValue(fqn: "azurerm.resourceDeploymentScriptAzureCli.ResourceDeploymentScriptAzureCliContainer")]
     public class ResourceDeploymentScriptAzureCliContainer : azurerm.ResourceDeploymentScriptAzureCli.IResourceDeploymentScriptAzureCliContainer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_deployment_script_azure_cli#container_group_name ResourceDeploymentScriptAzureCli#container_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_deployment_script_azure_cli#container_group_name ResourceDeploymentScriptAzureCli#container_group_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerGroupName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContainerGroupName

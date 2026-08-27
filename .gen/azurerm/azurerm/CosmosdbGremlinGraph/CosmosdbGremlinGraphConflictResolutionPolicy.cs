@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbGremlinGraph
     [JsiiByValue(fqn: "azurerm.cosmosdbGremlinGraph.CosmosdbGremlinGraphConflictResolutionPolicy")]
     public class CosmosdbGremlinGraphConflictResolutionPolicy : azurerm.CosmosdbGremlinGraph.ICosmosdbGremlinGraphConflictResolutionPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_gremlin_graph#mode CosmosdbGremlinGraph#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_gremlin_graph#mode CosmosdbGremlinGraph#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -17,7 +17,7 @@ namespace azurerm.CosmosdbGremlinGraph
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_gremlin_graph#conflict_resolution_path CosmosdbGremlinGraph#conflict_resolution_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_gremlin_graph#conflict_resolution_path CosmosdbGremlinGraph#conflict_resolution_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conflictResolutionPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConflictResolutionPath
@@ -26,7 +26,7 @@ namespace azurerm.CosmosdbGremlinGraph
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cosmosdb_gremlin_graph#conflict_resolution_procedure CosmosdbGremlinGraph#conflict_resolution_procedure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_gremlin_graph#conflict_resolution_procedure CosmosdbGremlinGraph#conflict_resolution_procedure}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "conflictResolutionProcedure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConflictResolutionProcedure

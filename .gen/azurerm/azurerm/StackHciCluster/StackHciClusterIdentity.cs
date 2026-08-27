@@ -9,7 +9,7 @@ namespace azurerm.StackHciCluster
     [JsiiByValue(fqn: "azurerm.stackHciCluster.StackHciClusterIdentity")]
     public class StackHciClusterIdentity : azurerm.StackHciCluster.IStackHciClusterIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stack_hci_cluster#type StackHciCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stack_hci_cluster#type StackHciCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

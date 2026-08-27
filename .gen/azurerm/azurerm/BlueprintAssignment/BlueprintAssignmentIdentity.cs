@@ -9,7 +9,7 @@ namespace azurerm.BlueprintAssignment
     [JsiiByValue(fqn: "azurerm.blueprintAssignment.BlueprintAssignmentIdentity")]
     public class BlueprintAssignmentIdentity : azurerm.BlueprintAssignment.IBlueprintAssignmentIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/blueprint_assignment#type BlueprintAssignment#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/blueprint_assignment#type BlueprintAssignment#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.BlueprintAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/blueprint_assignment#identity_ids BlueprintAssignment#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/blueprint_assignment#identity_ids BlueprintAssignment#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

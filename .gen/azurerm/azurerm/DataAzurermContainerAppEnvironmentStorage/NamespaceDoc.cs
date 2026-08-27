@@ -5,7 +5,7 @@ namespace azurerm.DataAzurermContainerAppEnvironmentStorage
     /// <remarks>
     /// <h1><c>data_azurerm_container_app_environment_storage</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/container_app_environment_storage"><c>data_azurerm_container_app_environment_storage</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/container_app_environment_storage"><c>data_azurerm_container_app_environment_storage</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

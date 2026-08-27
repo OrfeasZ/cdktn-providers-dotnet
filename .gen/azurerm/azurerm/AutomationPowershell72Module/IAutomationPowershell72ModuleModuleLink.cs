@@ -7,7 +7,7 @@ namespace azurerm.AutomationPowershell72Module
     [JsiiInterface(nativeType: typeof(IAutomationPowershell72ModuleModuleLink), fullyQualifiedName: "azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLink")]
     public interface IAutomationPowershell72ModuleModuleLink
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_powershell72_module#uri AutomationPowershell72Module#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_powershell72_module#uri AutomationPowershell72Module#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         string Uri
         {
@@ -16,7 +16,7 @@ namespace azurerm.AutomationPowershell72Module
 
         /// <summary>hash block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_powershell72_module#hash AutomationPowershell72Module#hash}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_powershell72_module#hash AutomationPowershell72Module#hash}
         /// </remarks>
         [JsiiProperty(name: "hash", typeJson: "{\"fqn\":\"azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkHash\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azurerm.AutomationPowershell72Module
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_powershell72_module#uri AutomationPowershell72Module#uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_powershell72_module#uri AutomationPowershell72Module#uri}.</summary>
             [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
             public string Uri
             {
@@ -44,7 +44,7 @@ namespace azurerm.AutomationPowershell72Module
 
             /// <summary>hash block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_powershell72_module#hash AutomationPowershell72Module#hash}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_powershell72_module#hash AutomationPowershell72Module#hash}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hash", typeJson: "{\"fqn\":\"azurerm.automationPowershell72Module.AutomationPowershell72ModuleModuleLinkHash\"}", isOptional: true)]

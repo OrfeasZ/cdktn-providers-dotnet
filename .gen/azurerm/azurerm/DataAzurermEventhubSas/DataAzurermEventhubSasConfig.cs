@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermEventhubSas
     [JsiiByValue(fqn: "azurerm.dataAzurermEventhubSas.DataAzurermEventhubSasConfig")]
     public class DataAzurermEventhubSasConfig : azurerm.DataAzurermEventhubSas.IDataAzurermEventhubSasConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/eventhub_sas#connection_string DataAzurermEventhubSas#connection_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/eventhub_sas#connection_string DataAzurermEventhubSas#connection_string}.</summary>
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionString
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermEventhubSas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/eventhub_sas#expiry DataAzurermEventhubSas#expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/eventhub_sas#expiry DataAzurermEventhubSas#expiry}.</summary>
         [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"string\"}")]
         public string Expiry
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermEventhubSas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/eventhub_sas#id DataAzurermEventhubSas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/eventhub_sas#id DataAzurermEventhubSas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermEventhubSas
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/eventhub_sas#timeouts DataAzurermEventhubSas#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/eventhub_sas#timeouts DataAzurermEventhubSas#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermEventhubSas.DataAzurermEventhubSasTimeouts\"}", isOptional: true)]

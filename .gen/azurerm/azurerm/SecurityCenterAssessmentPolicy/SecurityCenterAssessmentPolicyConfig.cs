@@ -9,7 +9,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
     [JsiiByValue(fqn: "azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicyConfig")]
     public class SecurityCenterAssessmentPolicyConfig : azurerm.SecurityCenterAssessmentPolicy.ISecurityCenterAssessmentPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#description SecurityCenterAssessmentPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#description SecurityCenterAssessmentPolicy#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -17,7 +17,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#display_name SecurityCenterAssessmentPolicy#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#display_name SecurityCenterAssessmentPolicy#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#categories SecurityCenterAssessmentPolicy#categories}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#categories SecurityCenterAssessmentPolicy#categories}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "categories", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Categories
@@ -34,7 +34,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#id SecurityCenterAssessmentPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#id SecurityCenterAssessmentPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#implementation_effort SecurityCenterAssessmentPolicy#implementation_effort}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#implementation_effort SecurityCenterAssessmentPolicy#implementation_effort}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "implementationEffort", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImplementationEffort
@@ -56,7 +56,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#remediation_description SecurityCenterAssessmentPolicy#remediation_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#remediation_description SecurityCenterAssessmentPolicy#remediation_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "remediationDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RemediationDescription
@@ -65,7 +65,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#severity SecurityCenterAssessmentPolicy#severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#severity SecurityCenterAssessmentPolicy#severity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "severity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Severity
@@ -74,7 +74,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#threats SecurityCenterAssessmentPolicy#threats}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#threats SecurityCenterAssessmentPolicy#threats}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "threats", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Threats
@@ -85,7 +85,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#timeouts SecurityCenterAssessmentPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#timeouts SecurityCenterAssessmentPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.securityCenterAssessmentPolicy.SecurityCenterAssessmentPolicyTimeouts\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace azurerm.SecurityCenterAssessmentPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/security_center_assessment_policy#user_impact SecurityCenterAssessmentPolicy#user_impact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/security_center_assessment_policy#user_impact SecurityCenterAssessmentPolicy#user_impact}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userImpact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserImpact

@@ -9,7 +9,7 @@ namespace azurerm.VpnGatewayConnection
     [JsiiByValue(fqn: "azurerm.vpnGatewayConnection.VpnGatewayConnectionRoutingPropagatedRouteTable")]
     public class VpnGatewayConnectionRoutingPropagatedRouteTable : azurerm.VpnGatewayConnection.IVpnGatewayConnectionRoutingPropagatedRouteTable
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_gateway_connection#route_table_ids VpnGatewayConnection#route_table_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/vpn_gateway_connection#route_table_ids VpnGatewayConnection#route_table_ids}.</summary>
         [JsiiProperty(name: "routeTableIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] RouteTableIds
         {
@@ -17,7 +17,7 @@ namespace azurerm.VpnGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_gateway_connection#labels VpnGatewayConnection#labels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/vpn_gateway_connection#labels VpnGatewayConnection#labels}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "labels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Labels

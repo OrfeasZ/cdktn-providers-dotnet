@@ -7,28 +7,28 @@ namespace azurerm.SpringCloudApp
     [JsiiInterface(nativeType: typeof(ISpringCloudAppCustomPersistentDisk), fullyQualifiedName: "azurerm.springCloudApp.SpringCloudAppCustomPersistentDisk")]
     public interface ISpringCloudAppCustomPersistentDisk
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
         string MountPath
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#share_name SpringCloudApp#share_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#share_name SpringCloudApp#share_name}.</summary>
         [JsiiProperty(name: "shareName", typeJson: "{\"primitive\":\"string\"}")]
         string ShareName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#storage_name SpringCloudApp#storage_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#storage_name SpringCloudApp#storage_name}.</summary>
         [JsiiProperty(name: "storageName", typeJson: "{\"primitive\":\"string\"}")]
         string StorageName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#mount_options SpringCloudApp#mount_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#mount_options SpringCloudApp#mount_options}.</summary>
         [JsiiProperty(name: "mountOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? MountOptions
@@ -39,7 +39,7 @@ namespace azurerm.SpringCloudApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#read_only_enabled SpringCloudApp#read_only_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#read_only_enabled SpringCloudApp#read_only_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,28 +60,28 @@ namespace azurerm.SpringCloudApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#mount_path SpringCloudApp#mount_path}.</summary>
             [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
             public string MountPath
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#share_name SpringCloudApp#share_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#share_name SpringCloudApp#share_name}.</summary>
             [JsiiProperty(name: "shareName", typeJson: "{\"primitive\":\"string\"}")]
             public string ShareName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#storage_name SpringCloudApp#storage_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#storage_name SpringCloudApp#storage_name}.</summary>
             [JsiiProperty(name: "storageName", typeJson: "{\"primitive\":\"string\"}")]
             public string StorageName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#mount_options SpringCloudApp#mount_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#mount_options SpringCloudApp#mount_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mountOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? MountOptions
@@ -89,7 +89,7 @@ namespace azurerm.SpringCloudApp
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_app#read_only_enabled SpringCloudApp#read_only_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_app#read_only_enabled SpringCloudApp#read_only_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

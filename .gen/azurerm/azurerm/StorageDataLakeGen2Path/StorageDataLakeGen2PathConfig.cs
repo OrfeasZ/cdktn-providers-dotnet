@@ -9,7 +9,7 @@ namespace azurerm.StorageDataLakeGen2Path
     [JsiiByValue(fqn: "azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathConfig")]
     public class StorageDataLakeGen2PathConfig : azurerm.StorageDataLakeGen2Path.IStorageDataLakeGen2PathConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#filesystem_name StorageDataLakeGen2Path#filesystem_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#filesystem_name StorageDataLakeGen2Path#filesystem_name}.</summary>
         [JsiiProperty(name: "filesystemName", typeJson: "{\"primitive\":\"string\"}")]
         public string FilesystemName
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageDataLakeGen2Path
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#path StorageDataLakeGen2Path#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#path StorageDataLakeGen2Path#path}.</summary>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
         {
@@ -25,7 +25,7 @@ namespace azurerm.StorageDataLakeGen2Path
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#resource StorageDataLakeGen2Path#resource}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#resource StorageDataLakeGen2Path#resource}.</summary>
         [JsiiProperty(name: "resource", typeJson: "{\"primitive\":\"string\"}")]
         public string Resource
         {
@@ -33,7 +33,7 @@ namespace azurerm.StorageDataLakeGen2Path
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#storage_account_id StorageDataLakeGen2Path#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#storage_account_id StorageDataLakeGen2Path#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountId
         {
@@ -45,7 +45,7 @@ namespace azurerm.StorageDataLakeGen2Path
 
         /// <summary>ace block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#ace StorageDataLakeGen2Path#ace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#ace StorageDataLakeGen2Path#ace}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageDataLakeGen2Path.IStorageDataLakeGen2PathAce" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -76,7 +76,7 @@ namespace azurerm.StorageDataLakeGen2Path
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#group StorageDataLakeGen2Path#group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#group StorageDataLakeGen2Path#group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Group
@@ -85,7 +85,7 @@ namespace azurerm.StorageDataLakeGen2Path
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#id StorageDataLakeGen2Path#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#id StorageDataLakeGen2Path#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -98,7 +98,7 @@ namespace azurerm.StorageDataLakeGen2Path
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#owner StorageDataLakeGen2Path#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#owner StorageDataLakeGen2Path#owner}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Owner
@@ -109,7 +109,7 @@ namespace azurerm.StorageDataLakeGen2Path
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_data_lake_gen2_path#timeouts StorageDataLakeGen2Path#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_data_lake_gen2_path#timeouts StorageDataLakeGen2Path#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageDataLakeGen2Path.StorageDataLakeGen2PathTimeouts\"}", isOptional: true)]

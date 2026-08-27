@@ -9,7 +9,7 @@ namespace azurerm.CdnFrontdoorProfile
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorProfile.CdnFrontdoorProfileLogScrubbingRule")]
     public class CdnFrontdoorProfileLogScrubbingRule : azurerm.CdnFrontdoorProfile.ICdnFrontdoorProfileLogScrubbingRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_profile#match_variable CdnFrontdoorProfile#match_variable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_profile#match_variable CdnFrontdoorProfile#match_variable}.</summary>
         [JsiiProperty(name: "matchVariable", typeJson: "{\"primitive\":\"string\"}")]
         public string MatchVariable
         {

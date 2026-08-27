@@ -9,7 +9,7 @@ namespace azurerm.ResourceGroupPolicyAssignment
     [JsiiByValue(fqn: "azurerm.resourceGroupPolicyAssignment.ResourceGroupPolicyAssignmentOverrides")]
     public class ResourceGroupPolicyAssignmentOverrides : azurerm.ResourceGroupPolicyAssignment.IResourceGroupPolicyAssignmentOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_policy_assignment#value ResourceGroupPolicyAssignment#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_policy_assignment#value ResourceGroupPolicyAssignment#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -21,7 +21,7 @@ namespace azurerm.ResourceGroupPolicyAssignment
 
         /// <summary>selectors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_policy_assignment#selectors ResourceGroupPolicyAssignment#selectors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_policy_assignment#selectors ResourceGroupPolicyAssignment#selectors}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ResourceGroupPolicyAssignment.IResourceGroupPolicyAssignmentOverridesSelectors" />)[]</para>
         /// </remarks>
         [JsiiOptional]

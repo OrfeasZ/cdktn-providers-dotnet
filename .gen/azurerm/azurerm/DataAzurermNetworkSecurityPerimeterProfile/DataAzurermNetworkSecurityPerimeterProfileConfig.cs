@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermNetworkSecurityPerimeterProfile
     [JsiiByValue(fqn: "azurerm.dataAzurermNetworkSecurityPerimeterProfile.DataAzurermNetworkSecurityPerimeterProfileConfig")]
     public class DataAzurermNetworkSecurityPerimeterProfileConfig : azurerm.DataAzurermNetworkSecurityPerimeterProfile.IDataAzurermNetworkSecurityPerimeterProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_security_perimeter_profile#name DataAzurermNetworkSecurityPerimeterProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/network_security_perimeter_profile#name DataAzurermNetworkSecurityPerimeterProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermNetworkSecurityPerimeterProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_security_perimeter_profile#network_security_perimeter_id DataAzurermNetworkSecurityPerimeterProfile#network_security_perimeter_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/network_security_perimeter_profile#network_security_perimeter_id DataAzurermNetworkSecurityPerimeterProfile#network_security_perimeter_id}.</summary>
         [JsiiProperty(name: "networkSecurityPerimeterId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkSecurityPerimeterId
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermNetworkSecurityPerimeterProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_security_perimeter_profile#id DataAzurermNetworkSecurityPerimeterProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/network_security_perimeter_profile#id DataAzurermNetworkSecurityPerimeterProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermNetworkSecurityPerimeterProfile
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/network_security_perimeter_profile#timeouts DataAzurermNetworkSecurityPerimeterProfile#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/network_security_perimeter_profile#timeouts DataAzurermNetworkSecurityPerimeterProfile#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermNetworkSecurityPerimeterProfile.DataAzurermNetworkSecurityPerimeterProfileTimeouts\"}", isOptional: true)]

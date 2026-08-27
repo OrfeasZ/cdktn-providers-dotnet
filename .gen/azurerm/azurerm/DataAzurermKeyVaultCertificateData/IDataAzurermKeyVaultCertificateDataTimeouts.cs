@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermKeyVaultCertificateData
     [JsiiInterface(nativeType: typeof(IDataAzurermKeyVaultCertificateDataTimeouts), fullyQualifiedName: "azurerm.dataAzurermKeyVaultCertificateData.DataAzurermKeyVaultCertificateDataTimeouts")]
     public interface IDataAzurermKeyVaultCertificateDataTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/key_vault_certificate_data#read DataAzurermKeyVaultCertificateData#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/key_vault_certificate_data#read DataAzurermKeyVaultCertificateData#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermKeyVaultCertificateData
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/key_vault_certificate_data#read DataAzurermKeyVaultCertificateData#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/key_vault_certificate_data#read DataAzurermKeyVaultCertificateData#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

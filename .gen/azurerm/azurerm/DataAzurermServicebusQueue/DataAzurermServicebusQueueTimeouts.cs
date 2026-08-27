@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermServicebusQueue
     [JsiiByValue(fqn: "azurerm.dataAzurermServicebusQueue.DataAzurermServicebusQueueTimeouts")]
     public class DataAzurermServicebusQueueTimeouts : azurerm.DataAzurermServicebusQueue.IDataAzurermServicebusQueueTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/servicebus_queue#read DataAzurermServicebusQueue#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/servicebus_queue#read DataAzurermServicebusQueue#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

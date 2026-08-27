@@ -9,7 +9,7 @@ namespace azurerm.DataFactoryDatasetSnowflake
     [JsiiByValue(fqn: "azurerm.dataFactoryDatasetSnowflake.DataFactoryDatasetSnowflakeSchemaColumn")]
     public class DataFactoryDatasetSnowflakeSchemaColumn : azurerm.DataFactoryDatasetSnowflake.IDataFactoryDatasetSnowflakeSchemaColumn
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_snowflake#name DataFactoryDatasetSnowflake#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_dataset_snowflake#name DataFactoryDatasetSnowflake#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactoryDatasetSnowflake
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_snowflake#precision DataFactoryDatasetSnowflake#precision}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_dataset_snowflake#precision DataFactoryDatasetSnowflake#precision}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "precision", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Precision
@@ -26,7 +26,7 @@ namespace azurerm.DataFactoryDatasetSnowflake
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_snowflake#scale DataFactoryDatasetSnowflake#scale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_dataset_snowflake#scale DataFactoryDatasetSnowflake#scale}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scale", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Scale
@@ -35,7 +35,7 @@ namespace azurerm.DataFactoryDatasetSnowflake
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_dataset_snowflake#type DataFactoryDatasetSnowflake#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_dataset_snowflake#type DataFactoryDatasetSnowflake#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

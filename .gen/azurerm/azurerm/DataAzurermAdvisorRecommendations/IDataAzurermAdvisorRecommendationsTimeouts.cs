@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
     [JsiiInterface(nativeType: typeof(IDataAzurermAdvisorRecommendationsTimeouts), fullyQualifiedName: "azurerm.dataAzurermAdvisorRecommendations.DataAzurermAdvisorRecommendationsTimeouts")]
     public interface IDataAzurermAdvisorRecommendationsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/advisor_recommendations#read DataAzurermAdvisorRecommendations#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/advisor_recommendations#read DataAzurermAdvisorRecommendations#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermAdvisorRecommendations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/advisor_recommendations#read DataAzurermAdvisorRecommendations#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/advisor_recommendations#read DataAzurermAdvisorRecommendations#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

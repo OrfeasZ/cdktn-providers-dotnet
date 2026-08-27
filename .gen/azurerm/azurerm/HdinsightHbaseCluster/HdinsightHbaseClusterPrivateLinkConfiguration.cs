@@ -9,7 +9,7 @@ namespace azurerm.HdinsightHbaseCluster
     [JsiiByValue(fqn: "azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterPrivateLinkConfiguration")]
     public class HdinsightHbaseClusterPrivateLinkConfiguration : azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterPrivateLinkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_hbase_cluster#group_id HdinsightHbaseCluster#group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_hbase_cluster#group_id HdinsightHbaseCluster#group_id}.</summary>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupId
         {
@@ -19,7 +19,7 @@ namespace azurerm.HdinsightHbaseCluster
 
         /// <summary>ip_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_hbase_cluster#ip_configuration HdinsightHbaseCluster#ip_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_hbase_cluster#ip_configuration HdinsightHbaseCluster#ip_configuration}
         /// </remarks>
         [JsiiProperty(name: "ipConfiguration", typeJson: "{\"fqn\":\"azurerm.hdinsightHbaseCluster.HdinsightHbaseClusterPrivateLinkConfigurationIpConfiguration\"}")]
         public azurerm.HdinsightHbaseCluster.IHdinsightHbaseClusterPrivateLinkConfigurationIpConfiguration IpConfiguration
@@ -28,7 +28,7 @@ namespace azurerm.HdinsightHbaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_hbase_cluster#name HdinsightHbaseCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_hbase_cluster#name HdinsightHbaseCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

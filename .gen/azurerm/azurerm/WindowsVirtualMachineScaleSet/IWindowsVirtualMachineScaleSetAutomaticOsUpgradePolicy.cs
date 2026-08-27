@@ -7,7 +7,7 @@ namespace azurerm.WindowsVirtualMachineScaleSet
     [JsiiInterface(nativeType: typeof(IWindowsVirtualMachineScaleSetAutomaticOsUpgradePolicy), fullyQualifiedName: "azurerm.windowsVirtualMachineScaleSet.WindowsVirtualMachineScaleSetAutomaticOsUpgradePolicy")]
     public interface IWindowsVirtualMachineScaleSetAutomaticOsUpgradePolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine_scale_set#automatic_os_upgrade_enabled WindowsVirtualMachineScaleSet#automatic_os_upgrade_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine_scale_set#automatic_os_upgrade_enabled WindowsVirtualMachineScaleSet#automatic_os_upgrade_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace azurerm.WindowsVirtualMachineScaleSet
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine_scale_set#automatic_rollback_enabled WindowsVirtualMachineScaleSet#automatic_rollback_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine_scale_set#automatic_rollback_enabled WindowsVirtualMachineScaleSet#automatic_rollback_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -34,7 +34,7 @@ namespace azurerm.WindowsVirtualMachineScaleSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine_scale_set#automatic_os_upgrade_enabled WindowsVirtualMachineScaleSet#automatic_os_upgrade_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine_scale_set#automatic_os_upgrade_enabled WindowsVirtualMachineScaleSet#automatic_os_upgrade_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -44,7 +44,7 @@ namespace azurerm.WindowsVirtualMachineScaleSet
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_virtual_machine_scale_set#automatic_rollback_enabled WindowsVirtualMachineScaleSet#automatic_rollback_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine_scale_set#automatic_rollback_enabled WindowsVirtualMachineScaleSet#automatic_rollback_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

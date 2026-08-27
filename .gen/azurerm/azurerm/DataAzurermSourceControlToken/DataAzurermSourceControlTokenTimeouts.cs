@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSourceControlToken
     [JsiiByValue(fqn: "azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenTimeouts")]
     public class DataAzurermSourceControlTokenTimeouts : azurerm.DataAzurermSourceControlToken.IDataAzurermSourceControlTokenTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/source_control_token#read DataAzurermSourceControlToken#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/source_control_token#read DataAzurermSourceControlToken#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

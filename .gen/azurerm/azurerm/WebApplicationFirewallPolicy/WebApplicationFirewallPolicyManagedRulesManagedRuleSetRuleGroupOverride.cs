@@ -9,7 +9,7 @@ namespace azurerm.WebApplicationFirewallPolicy
     [JsiiByValue(fqn: "azurerm.webApplicationFirewallPolicy.WebApplicationFirewallPolicyManagedRulesManagedRuleSetRuleGroupOverride")]
     public class WebApplicationFirewallPolicyManagedRulesManagedRuleSetRuleGroupOverride : azurerm.WebApplicationFirewallPolicy.IWebApplicationFirewallPolicyManagedRulesManagedRuleSetRuleGroupOverride
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_application_firewall_policy#rule_group_name WebApplicationFirewallPolicy#rule_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_application_firewall_policy#rule_group_name WebApplicationFirewallPolicy#rule_group_name}.</summary>
         [JsiiProperty(name: "ruleGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleGroupName
         {
@@ -21,7 +21,7 @@ namespace azurerm.WebApplicationFirewallPolicy
 
         /// <summary>rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_application_firewall_policy#rule WebApplicationFirewallPolicy#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_application_firewall_policy#rule WebApplicationFirewallPolicy#rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WebApplicationFirewallPolicy.IWebApplicationFirewallPolicyManagedRulesManagedRuleSetRuleGroupOverrideRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]

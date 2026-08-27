@@ -7,14 +7,14 @@ namespace azurerm.VpnServerConfiguration
     [JsiiInterface(nativeType: typeof(IVpnServerConfigurationRadiusServerRootCertificate), fullyQualifiedName: "azurerm.vpnServerConfiguration.VpnServerConfigurationRadiusServerRootCertificate")]
     public interface IVpnServerConfigurationRadiusServerRootCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#public_cert_data VpnServerConfiguration#public_cert_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/vpn_server_configuration#public_cert_data VpnServerConfiguration#public_cert_data}.</summary>
         [JsiiProperty(name: "publicCertData", typeJson: "{\"primitive\":\"string\"}")]
         string PublicCertData
         {
@@ -28,14 +28,14 @@ namespace azurerm.VpnServerConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/vpn_server_configuration#name VpnServerConfiguration#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_server_configuration#public_cert_data VpnServerConfiguration#public_cert_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/vpn_server_configuration#public_cert_data VpnServerConfiguration#public_cert_data}.</summary>
             [JsiiProperty(name: "publicCertData", typeJson: "{\"primitive\":\"string\"}")]
             public string PublicCertData
             {

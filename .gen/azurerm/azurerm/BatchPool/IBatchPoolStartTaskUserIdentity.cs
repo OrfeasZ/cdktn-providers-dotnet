@@ -9,7 +9,7 @@ namespace azurerm.BatchPool
     {
         /// <summary>auto_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#auto_user BatchPool#auto_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#auto_user BatchPool#auto_user}
         /// </remarks>
         [JsiiProperty(name: "autoUser", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolStartTaskUserIdentityAutoUser\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#user_name BatchPool#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#user_name BatchPool#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UserName
@@ -41,7 +41,7 @@ namespace azurerm.BatchPool
 
             /// <summary>auto_user block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#auto_user BatchPool#auto_user}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#auto_user BatchPool#auto_user}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoUser", typeJson: "{\"fqn\":\"azurerm.batchPool.BatchPoolStartTaskUserIdentityAutoUser\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace azurerm.BatchPool
                 get => GetInstanceProperty<azurerm.BatchPool.IBatchPoolStartTaskUserIdentityAutoUser?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#user_name BatchPool#user_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#user_name BatchPool#user_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UserName

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMssqlManagedInstance
     [JsiiByValue(fqn: "azurerm.dataAzurermMssqlManagedInstance.DataAzurermMssqlManagedInstanceTimeouts")]
     public class DataAzurermMssqlManagedInstanceTimeouts : azurerm.DataAzurermMssqlManagedInstance.IDataAzurermMssqlManagedInstanceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/mssql_managed_instance#read DataAzurermMssqlManagedInstance#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/mssql_managed_instance#read DataAzurermMssqlManagedInstance#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

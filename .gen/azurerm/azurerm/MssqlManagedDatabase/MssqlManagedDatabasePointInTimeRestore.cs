@@ -9,7 +9,7 @@ namespace azurerm.MssqlManagedDatabase
     [JsiiByValue(fqn: "azurerm.mssqlManagedDatabase.MssqlManagedDatabasePointInTimeRestore")]
     public class MssqlManagedDatabasePointInTimeRestore : azurerm.MssqlManagedDatabase.IMssqlManagedDatabasePointInTimeRestore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_database#restore_point_in_time MssqlManagedDatabase#restore_point_in_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_database#restore_point_in_time MssqlManagedDatabase#restore_point_in_time}.</summary>
         [JsiiProperty(name: "restorePointInTime", typeJson: "{\"primitive\":\"string\"}")]
         public string RestorePointInTime
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlManagedDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_database#source_database_id MssqlManagedDatabase#source_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_database#source_database_id MssqlManagedDatabase#source_database_id}.</summary>
         [JsiiProperty(name: "sourceDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceDatabaseId
         {

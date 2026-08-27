@@ -7,7 +7,7 @@ namespace azurerm.MonitorActivityLogAlert
     [JsiiInterface(nativeType: typeof(IMonitorActivityLogAlertCriteriaServiceHealth), fullyQualifiedName: "azurerm.monitorActivityLogAlert.MonitorActivityLogAlertCriteriaServiceHealth")]
     public interface IMonitorActivityLogAlertCriteriaServiceHealth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_activity_log_alert#events MonitorActivityLogAlert#events}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#events MonitorActivityLogAlert#events}.</summary>
         [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Events
@@ -18,7 +18,7 @@ namespace azurerm.MonitorActivityLogAlert
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_activity_log_alert#locations MonitorActivityLogAlert#locations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#locations MonitorActivityLogAlert#locations}.</summary>
         [JsiiProperty(name: "locations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Locations
@@ -29,7 +29,7 @@ namespace azurerm.MonitorActivityLogAlert
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_activity_log_alert#services MonitorActivityLogAlert#services}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#services MonitorActivityLogAlert#services}.</summary>
         [JsiiProperty(name: "services", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Services
@@ -47,7 +47,7 @@ namespace azurerm.MonitorActivityLogAlert
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_activity_log_alert#events MonitorActivityLogAlert#events}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#events MonitorActivityLogAlert#events}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "events", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Events
@@ -55,7 +55,7 @@ namespace azurerm.MonitorActivityLogAlert
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_activity_log_alert#locations MonitorActivityLogAlert#locations}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#locations MonitorActivityLogAlert#locations}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "locations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Locations
@@ -63,7 +63,7 @@ namespace azurerm.MonitorActivityLogAlert
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_activity_log_alert#services MonitorActivityLogAlert#services}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#services MonitorActivityLogAlert#services}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "services", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Services

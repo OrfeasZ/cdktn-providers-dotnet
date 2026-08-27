@@ -9,7 +9,7 @@ namespace azurerm.NetworkWatcherFlowLog
     [JsiiByValue(fqn: "azurerm.networkWatcherFlowLog.NetworkWatcherFlowLogRetentionPolicy")]
     public class NetworkWatcherFlowLogRetentionPolicy : azurerm.NetworkWatcherFlowLog.INetworkWatcherFlowLogRetentionPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/network_watcher_flow_log#days NetworkWatcherFlowLog#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_watcher_flow_log#days NetworkWatcherFlowLog#days}.</summary>
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}")]
         public double Days
         {
@@ -19,7 +19,7 @@ namespace azurerm.NetworkWatcherFlowLog
 
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/network_watcher_flow_log#enabled NetworkWatcherFlowLog#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_watcher_flow_log#enabled NetworkWatcherFlowLog#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

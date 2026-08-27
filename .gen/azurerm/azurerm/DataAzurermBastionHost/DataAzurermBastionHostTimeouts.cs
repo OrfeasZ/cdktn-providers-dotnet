@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBastionHost
     [JsiiByValue(fqn: "azurerm.dataAzurermBastionHost.DataAzurermBastionHostTimeouts")]
     public class DataAzurermBastionHostTimeouts : azurerm.DataAzurermBastionHost.IDataAzurermBastionHostTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/bastion_host#read DataAzurermBastionHost#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/bastion_host#read DataAzurermBastionHost#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermActiveDirectoryDomainService
     [JsiiByValue(fqn: "azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainServiceTimeouts")]
     public class DataAzurermActiveDirectoryDomainServiceTimeouts : azurerm.DataAzurermActiveDirectoryDomainService.IDataAzurermActiveDirectoryDomainServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/active_directory_domain_service#read DataAzurermActiveDirectoryDomainService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/active_directory_domain_service#read DataAzurermActiveDirectoryDomainService#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

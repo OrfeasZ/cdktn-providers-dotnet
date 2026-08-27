@@ -5,7 +5,7 @@ namespace azurerm.ApiManagementWorkspacePolicy
     /// <remarks>
     /// <h1><c>azurerm_api_management_workspace_policy</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_workspace_policy"><c>azurerm_api_management_workspace_policy</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_workspace_policy"><c>azurerm_api_management_workspace_policy</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

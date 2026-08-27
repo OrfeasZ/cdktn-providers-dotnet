@@ -9,7 +9,7 @@ namespace azurerm.LinuxVirtualMachine
     [JsiiByValue(fqn: "azurerm.linuxVirtualMachine.LinuxVirtualMachineAdminSshKey")]
     public class LinuxVirtualMachineAdminSshKey : azurerm.LinuxVirtualMachine.ILinuxVirtualMachineAdminSshKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_virtual_machine#public_key LinuxVirtualMachine#public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_virtual_machine#public_key LinuxVirtualMachine#public_key}.</summary>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicKey
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_virtual_machine#username LinuxVirtualMachine#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_virtual_machine#username LinuxVirtualMachine#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

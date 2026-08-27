@@ -7,7 +7,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
     [JsiiInterface(nativeType: typeof(IManagementGroupPolicyAssignmentOverrides), fullyQualifiedName: "azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignmentOverrides")]
     public interface IManagementGroupPolicyAssignmentOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/management_group_policy_assignment#value ManagementGroupPolicyAssignment#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/management_group_policy_assignment#value ManagementGroupPolicyAssignment#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -16,7 +16,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
 
         /// <summary>selectors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/management_group_policy_assignment#selectors ManagementGroupPolicyAssignment#selectors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/management_group_policy_assignment#selectors ManagementGroupPolicyAssignment#selectors}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ManagementGroupPolicyAssignment.IManagementGroupPolicyAssignmentOverridesSelectors" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "selectors", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.managementGroupPolicyAssignment.ManagementGroupPolicyAssignmentOverridesSelectors\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/management_group_policy_assignment#value ManagementGroupPolicyAssignment#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/management_group_policy_assignment#value ManagementGroupPolicyAssignment#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {
@@ -45,7 +45,7 @@ namespace azurerm.ManagementGroupPolicyAssignment
 
             /// <summary>selectors block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/management_group_policy_assignment#selectors ManagementGroupPolicyAssignment#selectors}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/management_group_policy_assignment#selectors ManagementGroupPolicyAssignment#selectors}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ManagementGroupPolicyAssignment.IManagementGroupPolicyAssignmentOverridesSelectors" />)[]</para>
             /// </remarks>
             [JsiiOptional]

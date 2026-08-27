@@ -7,7 +7,7 @@ namespace azurerm.BatchPool
     [JsiiInterface(nativeType: typeof(IBatchPoolUserAccountsLinuxUserConfiguration), fullyQualifiedName: "azurerm.batchPool.BatchPoolUserAccountsLinuxUserConfiguration")]
     public interface IBatchPoolUserAccountsLinuxUserConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#gid BatchPool#gid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#gid BatchPool#gid}.</summary>
         [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Gid
@@ -18,7 +18,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#ssh_private_key BatchPool#ssh_private_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#ssh_private_key BatchPool#ssh_private_key}.</summary>
         [JsiiProperty(name: "sshPrivateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SshPrivateKey
@@ -29,7 +29,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#uid BatchPool#uid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#uid BatchPool#uid}.</summary>
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Uid
@@ -47,7 +47,7 @@ namespace azurerm.BatchPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#gid BatchPool#gid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#gid BatchPool#gid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Gid
@@ -55,7 +55,7 @@ namespace azurerm.BatchPool
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#ssh_private_key BatchPool#ssh_private_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#ssh_private_key BatchPool#ssh_private_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sshPrivateKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SshPrivateKey
@@ -63,7 +63,7 @@ namespace azurerm.BatchPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#uid BatchPool#uid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#uid BatchPool#uid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Uid

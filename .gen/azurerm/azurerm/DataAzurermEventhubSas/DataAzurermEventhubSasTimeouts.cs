@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermEventhubSas
     [JsiiByValue(fqn: "azurerm.dataAzurermEventhubSas.DataAzurermEventhubSasTimeouts")]
     public class DataAzurermEventhubSasTimeouts : azurerm.DataAzurermEventhubSas.IDataAzurermEventhubSasTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/eventhub_sas#read DataAzurermEventhubSas#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/eventhub_sas#read DataAzurermEventhubSas#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

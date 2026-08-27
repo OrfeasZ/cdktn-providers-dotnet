@@ -9,7 +9,7 @@ namespace azurerm.HdinsightKafkaCluster
     [JsiiByValue(fqn: "azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterStorageAccountGen2")]
     public class HdinsightKafkaClusterStorageAccountGen2 : azurerm.HdinsightKafkaCluster.IHdinsightKafkaClusterStorageAccountGen2
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_kafka_cluster#filesystem_id HdinsightKafkaCluster#filesystem_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#filesystem_id HdinsightKafkaCluster#filesystem_id}.</summary>
         [JsiiProperty(name: "filesystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string FilesystemId
         {
@@ -19,7 +19,7 @@ namespace azurerm.HdinsightKafkaCluster
 
         private object _isDefault;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_kafka_cluster#is_default HdinsightKafkaCluster#is_default}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#is_default HdinsightKafkaCluster#is_default}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace azurerm.HdinsightKafkaCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_kafka_cluster#storage_account_id HdinsightKafkaCluster#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#storage_account_id HdinsightKafkaCluster#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountId
         {
@@ -58,7 +58,7 @@ namespace azurerm.HdinsightKafkaCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_kafka_cluster#user_assigned_identity_id HdinsightKafkaCluster#user_assigned_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#user_assigned_identity_id HdinsightKafkaCluster#user_assigned_identity_id}.</summary>
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserAssignedIdentityId
         {

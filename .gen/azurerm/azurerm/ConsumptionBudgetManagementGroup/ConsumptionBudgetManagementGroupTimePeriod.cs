@@ -9,7 +9,7 @@ namespace azurerm.ConsumptionBudgetManagementGroup
     [JsiiByValue(fqn: "azurerm.consumptionBudgetManagementGroup.ConsumptionBudgetManagementGroupTimePeriod")]
     public class ConsumptionBudgetManagementGroupTimePeriod : azurerm.ConsumptionBudgetManagementGroup.IConsumptionBudgetManagementGroupTimePeriod
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_management_group#start_date ConsumptionBudgetManagementGroup#start_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/consumption_budget_management_group#start_date ConsumptionBudgetManagementGroup#start_date}.</summary>
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}")]
         public string StartDate
         {
@@ -17,7 +17,7 @@ namespace azurerm.ConsumptionBudgetManagementGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/consumption_budget_management_group#end_date ConsumptionBudgetManagementGroup#end_date}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/consumption_budget_management_group#end_date ConsumptionBudgetManagementGroup#end_date}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndDate

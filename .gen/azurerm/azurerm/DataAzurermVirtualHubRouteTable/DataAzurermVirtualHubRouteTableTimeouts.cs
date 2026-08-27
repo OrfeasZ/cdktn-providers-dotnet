@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVirtualHubRouteTable
     [JsiiByValue(fqn: "azurerm.dataAzurermVirtualHubRouteTable.DataAzurermVirtualHubRouteTableTimeouts")]
     public class DataAzurermVirtualHubRouteTableTimeouts : azurerm.DataAzurermVirtualHubRouteTable.IDataAzurermVirtualHubRouteTableTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/virtual_hub_route_table#read DataAzurermVirtualHubRouteTable#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/virtual_hub_route_table#read DataAzurermVirtualHubRouteTable#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

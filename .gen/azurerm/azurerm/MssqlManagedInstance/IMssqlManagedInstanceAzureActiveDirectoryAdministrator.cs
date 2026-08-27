@@ -7,28 +7,28 @@ namespace azurerm.MssqlManagedInstance
     [JsiiInterface(nativeType: typeof(IMssqlManagedInstanceAzureActiveDirectoryAdministrator), fullyQualifiedName: "azurerm.mssqlManagedInstance.MssqlManagedInstanceAzureActiveDirectoryAdministrator")]
     public interface IMssqlManagedInstanceAzureActiveDirectoryAdministrator
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#login_username MssqlManagedInstance#login_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#login_username MssqlManagedInstance#login_username}.</summary>
         [JsiiProperty(name: "loginUsername", typeJson: "{\"primitive\":\"string\"}")]
         string LoginUsername
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#object_id MssqlManagedInstance#object_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#object_id MssqlManagedInstance#object_id}.</summary>
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
         string ObjectId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#principal_type MssqlManagedInstance#principal_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#principal_type MssqlManagedInstance#principal_type}.</summary>
         [JsiiProperty(name: "principalType", typeJson: "{\"primitive\":\"string\"}")]
         string PrincipalType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#azuread_authentication_only_enabled MssqlManagedInstance#azuread_authentication_only_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#azuread_authentication_only_enabled MssqlManagedInstance#azuread_authentication_only_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azurerm.MssqlManagedInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#tenant_id MssqlManagedInstance#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#tenant_id MssqlManagedInstance#tenant_id}.</summary>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TenantId
@@ -60,28 +60,28 @@ namespace azurerm.MssqlManagedInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#login_username MssqlManagedInstance#login_username}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#login_username MssqlManagedInstance#login_username}.</summary>
             [JsiiProperty(name: "loginUsername", typeJson: "{\"primitive\":\"string\"}")]
             public string LoginUsername
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#object_id MssqlManagedInstance#object_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#object_id MssqlManagedInstance#object_id}.</summary>
             [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ObjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#principal_type MssqlManagedInstance#principal_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#principal_type MssqlManagedInstance#principal_type}.</summary>
             [JsiiProperty(name: "principalType", typeJson: "{\"primitive\":\"string\"}")]
             public string PrincipalType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#azuread_authentication_only_enabled MssqlManagedInstance#azuread_authentication_only_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#azuread_authentication_only_enabled MssqlManagedInstance#azuread_authentication_only_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -92,7 +92,7 @@ namespace azurerm.MssqlManagedInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_managed_instance#tenant_id MssqlManagedInstance#tenant_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_managed_instance#tenant_id MssqlManagedInstance#tenant_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TenantId

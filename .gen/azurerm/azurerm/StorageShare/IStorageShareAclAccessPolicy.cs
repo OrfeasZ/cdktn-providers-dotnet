@@ -7,14 +7,14 @@ namespace azurerm.StorageShare
     [JsiiInterface(nativeType: typeof(IStorageShareAclAccessPolicy), fullyQualifiedName: "azurerm.storageShare.StorageShareAclAccessPolicy")]
     public interface IStorageShareAclAccessPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_share#permissions StorageShare#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_share#permissions StorageShare#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
         string Permissions
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_share#expiry StorageShare#expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_share#expiry StorageShare#expiry}.</summary>
         [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Expiry
@@ -25,7 +25,7 @@ namespace azurerm.StorageShare
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_share#start StorageShare#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_share#start StorageShare#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Start
@@ -43,14 +43,14 @@ namespace azurerm.StorageShare
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_share#permissions StorageShare#permissions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_share#permissions StorageShare#permissions}.</summary>
             [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
             public string Permissions
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_share#expiry StorageShare#expiry}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_share#expiry StorageShare#expiry}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Expiry
@@ -58,7 +58,7 @@ namespace azurerm.StorageShare
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_share#start StorageShare#start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_share#start StorageShare#start}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Start

@@ -9,7 +9,7 @@ namespace azurerm.DiskEncryptionSet
     [JsiiByValue(fqn: "azurerm.diskEncryptionSet.DiskEncryptionSetIdentity")]
     public class DiskEncryptionSetIdentity : azurerm.DiskEncryptionSet.IDiskEncryptionSetIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/disk_encryption_set#type DiskEncryptionSet#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/disk_encryption_set#type DiskEncryptionSet#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.DiskEncryptionSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/disk_encryption_set#identity_ids DiskEncryptionSet#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/disk_encryption_set#identity_ids DiskEncryptionSet#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

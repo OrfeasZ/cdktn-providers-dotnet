@@ -9,7 +9,7 @@ namespace azurerm.MonitorMetricAlert
     [JsiiByValue(fqn: "azurerm.monitorMetricAlert.MonitorMetricAlertAction")]
     public class MonitorMetricAlertAction : azurerm.MonitorMetricAlert.IMonitorMetricAlertAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_metric_alert#action_group_id MonitorMetricAlert#action_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_metric_alert#action_group_id MonitorMetricAlert#action_group_id}.</summary>
         [JsiiProperty(name: "actionGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionGroupId
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorMetricAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_metric_alert#webhook_properties MonitorMetricAlert#webhook_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_metric_alert#webhook_properties MonitorMetricAlert#webhook_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webhookProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? WebhookProperties

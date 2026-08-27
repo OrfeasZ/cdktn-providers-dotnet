@@ -7,7 +7,7 @@ namespace azurerm.FrontdoorRulesEngine
     [JsiiInterface(nativeType: typeof(IFrontdoorRulesEngineRuleActionRequestHeader), fullyQualifiedName: "azurerm.frontdoorRulesEngine.FrontdoorRulesEngineRuleActionRequestHeader")]
     public interface IFrontdoorRulesEngineRuleActionRequestHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor_rules_engine#header_action_type FrontdoorRulesEngine#header_action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#header_action_type FrontdoorRulesEngine#header_action_type}.</summary>
         [JsiiProperty(name: "headerActionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HeaderActionType
@@ -18,7 +18,7 @@ namespace azurerm.FrontdoorRulesEngine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor_rules_engine#header_name FrontdoorRulesEngine#header_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#header_name FrontdoorRulesEngine#header_name}.</summary>
         [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HeaderName
@@ -29,7 +29,7 @@ namespace azurerm.FrontdoorRulesEngine
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor_rules_engine#value FrontdoorRulesEngine#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#value FrontdoorRulesEngine#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -47,7 +47,7 @@ namespace azurerm.FrontdoorRulesEngine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor_rules_engine#header_action_type FrontdoorRulesEngine#header_action_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#header_action_type FrontdoorRulesEngine#header_action_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "headerActionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HeaderActionType
@@ -55,7 +55,7 @@ namespace azurerm.FrontdoorRulesEngine
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor_rules_engine#header_name FrontdoorRulesEngine#header_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#header_name FrontdoorRulesEngine#header_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "headerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HeaderName
@@ -63,7 +63,7 @@ namespace azurerm.FrontdoorRulesEngine
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor_rules_engine#value FrontdoorRulesEngine#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#value FrontdoorRulesEngine#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

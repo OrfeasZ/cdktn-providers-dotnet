@@ -7,7 +7,7 @@ namespace azurerm.VirtualNetworkGateway
     [JsiiByValue(fqn: "azurerm.virtualNetworkGateway.VirtualNetworkGatewayCustomRoute")]
     public class VirtualNetworkGatewayCustomRoute : azurerm.VirtualNetworkGateway.IVirtualNetworkGatewayCustomRoute
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/virtual_network_gateway#address_prefixes VirtualNetworkGateway#address_prefixes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway#address_prefixes VirtualNetworkGateway#address_prefixes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addressPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AddressPrefixes

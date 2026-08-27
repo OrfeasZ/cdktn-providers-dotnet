@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudContainerDeployment
     [JsiiByValue(fqn: "azurerm.springCloudContainerDeployment.SpringCloudContainerDeploymentQuota")]
     public class SpringCloudContainerDeploymentQuota : azurerm.SpringCloudContainerDeployment.ISpringCloudContainerDeploymentQuota
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_container_deployment#cpu SpringCloudContainerDeployment#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_container_deployment#cpu SpringCloudContainerDeployment#cpu}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Cpu
@@ -16,7 +16,7 @@ namespace azurerm.SpringCloudContainerDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_container_deployment#memory SpringCloudContainerDeployment#memory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_container_deployment#memory SpringCloudContainerDeployment#memory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Memory

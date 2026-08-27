@@ -11,7 +11,7 @@ namespace azurerm.ContainerRegistryCredentialSet
     {
         /// <summary>authentication_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_credential_set#authentication_credentials ContainerRegistryCredentialSet#authentication_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_credential_set#authentication_credentials ContainerRegistryCredentialSet#authentication_credentials}
         /// </remarks>
         [JsiiProperty(name: "authenticationCredentials", typeJson: "{\"fqn\":\"azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSetAuthenticationCredentials\"}")]
         public azurerm.ContainerRegistryCredentialSet.IContainerRegistryCredentialSetAuthenticationCredentials AuthenticationCredentials
@@ -20,7 +20,7 @@ namespace azurerm.ContainerRegistryCredentialSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_credential_set#container_registry_id ContainerRegistryCredentialSet#container_registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_credential_set#container_registry_id ContainerRegistryCredentialSet#container_registry_id}.</summary>
         [JsiiProperty(name: "containerRegistryId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerRegistryId
         {
@@ -30,7 +30,7 @@ namespace azurerm.ContainerRegistryCredentialSet
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_credential_set#identity ContainerRegistryCredentialSet#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_credential_set#identity ContainerRegistryCredentialSet#identity}
         /// </remarks>
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSetIdentity\"}")]
         public azurerm.ContainerRegistryCredentialSet.IContainerRegistryCredentialSetIdentity Identity
@@ -39,7 +39,7 @@ namespace azurerm.ContainerRegistryCredentialSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_credential_set#login_server ContainerRegistryCredentialSet#login_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_credential_set#login_server ContainerRegistryCredentialSet#login_server}.</summary>
         [JsiiProperty(name: "loginServer", typeJson: "{\"primitive\":\"string\"}")]
         public string LoginServer
         {
@@ -49,7 +49,7 @@ namespace azurerm.ContainerRegistryCredentialSet
 
         /// <summary>The name of the credential set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_credential_set#name ContainerRegistryCredentialSet#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_credential_set#name ContainerRegistryCredentialSet#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -58,7 +58,7 @@ namespace azurerm.ContainerRegistryCredentialSet
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_credential_set#id ContainerRegistryCredentialSet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_credential_set#id ContainerRegistryCredentialSet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace azurerm.ContainerRegistryCredentialSet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_credential_set#timeouts ContainerRegistryCredentialSet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_credential_set#timeouts ContainerRegistryCredentialSet#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerRegistryCredentialSet.ContainerRegistryCredentialSetTimeouts\"}", isOptional: true)]

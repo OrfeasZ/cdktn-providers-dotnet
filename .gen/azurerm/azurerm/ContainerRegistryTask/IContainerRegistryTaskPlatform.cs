@@ -7,14 +7,14 @@ namespace azurerm.ContainerRegistryTask
     [JsiiInterface(nativeType: typeof(IContainerRegistryTaskPlatform), fullyQualifiedName: "azurerm.containerRegistryTask.ContainerRegistryTaskPlatform")]
     public interface IContainerRegistryTaskPlatform
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task#os ContainerRegistryTask#os}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#os ContainerRegistryTask#os}.</summary>
         [JsiiProperty(name: "os", typeJson: "{\"primitive\":\"string\"}")]
         string Os
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task#architecture ContainerRegistryTask#architecture}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#architecture ContainerRegistryTask#architecture}.</summary>
         [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Architecture
@@ -25,7 +25,7 @@ namespace azurerm.ContainerRegistryTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task#variant ContainerRegistryTask#variant}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#variant ContainerRegistryTask#variant}.</summary>
         [JsiiProperty(name: "variant", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Variant
@@ -43,14 +43,14 @@ namespace azurerm.ContainerRegistryTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task#os ContainerRegistryTask#os}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#os ContainerRegistryTask#os}.</summary>
             [JsiiProperty(name: "os", typeJson: "{\"primitive\":\"string\"}")]
             public string Os
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task#architecture ContainerRegistryTask#architecture}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#architecture ContainerRegistryTask#architecture}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "architecture", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Architecture
@@ -58,7 +58,7 @@ namespace azurerm.ContainerRegistryTask
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task#variant ContainerRegistryTask#variant}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#variant ContainerRegistryTask#variant}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "variant", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Variant

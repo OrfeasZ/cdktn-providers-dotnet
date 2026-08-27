@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNetappPool
     [JsiiByValue(fqn: "azurerm.dataAzurermNetappPool.DataAzurermNetappPoolTimeouts")]
     public class DataAzurermNetappPoolTimeouts : azurerm.DataAzurermNetappPool.IDataAzurermNetappPoolTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/netapp_pool#read DataAzurermNetappPool#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/netapp_pool#read DataAzurermNetappPool#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

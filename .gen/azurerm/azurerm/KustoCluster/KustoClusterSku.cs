@@ -9,7 +9,7 @@ namespace azurerm.KustoCluster
     [JsiiByValue(fqn: "azurerm.kustoCluster.KustoClusterSku")]
     public class KustoClusterSku : azurerm.KustoCluster.IKustoClusterSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_cluster#name KustoCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_cluster#name KustoCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.KustoCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_cluster#capacity KustoCluster#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_cluster#capacity KustoCluster#capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Capacity

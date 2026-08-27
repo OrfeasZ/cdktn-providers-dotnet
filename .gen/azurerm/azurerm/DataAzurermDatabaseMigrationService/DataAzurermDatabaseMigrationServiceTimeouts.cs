@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDatabaseMigrationService
     [JsiiByValue(fqn: "azurerm.dataAzurermDatabaseMigrationService.DataAzurermDatabaseMigrationServiceTimeouts")]
     public class DataAzurermDatabaseMigrationServiceTimeouts : azurerm.DataAzurermDatabaseMigrationService.IDataAzurermDatabaseMigrationServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/database_migration_service#read DataAzurermDatabaseMigrationService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/database_migration_service#read DataAzurermDatabaseMigrationService#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

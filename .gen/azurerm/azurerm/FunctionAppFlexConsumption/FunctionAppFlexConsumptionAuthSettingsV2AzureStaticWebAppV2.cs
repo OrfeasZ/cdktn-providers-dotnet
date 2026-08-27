@@ -11,7 +11,7 @@ namespace azurerm.FunctionAppFlexConsumption
     {
         /// <summary>The ID of the Client to use to authenticate with Azure Static Web App Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/function_app_flex_consumption#client_id FunctionAppFlexConsumption#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/function_app_flex_consumption#client_id FunctionAppFlexConsumption#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId

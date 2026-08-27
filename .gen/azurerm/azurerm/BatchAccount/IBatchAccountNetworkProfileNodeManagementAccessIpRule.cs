@@ -7,14 +7,14 @@ namespace azurerm.BatchAccount
     [JsiiInterface(nativeType: typeof(IBatchAccountNetworkProfileNodeManagementAccessIpRule), fullyQualifiedName: "azurerm.batchAccount.BatchAccountNetworkProfileNodeManagementAccessIpRule")]
     public interface IBatchAccountNetworkProfileNodeManagementAccessIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#ip_range BatchAccount#ip_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#ip_range BatchAccount#ip_range}.</summary>
         [JsiiProperty(name: "ipRange", typeJson: "{\"primitive\":\"string\"}")]
         string IpRange
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#action BatchAccount#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#action BatchAccount#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Action
@@ -32,14 +32,14 @@ namespace azurerm.BatchAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#ip_range BatchAccount#ip_range}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#ip_range BatchAccount#ip_range}.</summary>
             [JsiiProperty(name: "ipRange", typeJson: "{\"primitive\":\"string\"}")]
             public string IpRange
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#action BatchAccount#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#action BatchAccount#action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Action

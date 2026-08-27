@@ -9,7 +9,7 @@ namespace azurerm.ContainerApp
     {
         /// <summary>The target port on the container for the Ingress traffic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#target_port ContainerApp#target_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#target_port ContainerApp#target_port}
         /// </remarks>
         [JsiiProperty(name: "targetPort", typeJson: "{\"primitive\":\"number\"}")]
         double TargetPort
@@ -19,7 +19,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>traffic_weight block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#traffic_weight ContainerApp#traffic_weight}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#traffic_weight ContainerApp#traffic_weight}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppIngressTrafficWeight" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "trafficWeight", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerApp.ContainerAppIngressTrafficWeight\"},\"kind\":\"array\"}}]}}")]
@@ -30,7 +30,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>Should this ingress allow insecure connections?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#allow_insecure_connections ContainerApp#allow_insecure_connections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#allow_insecure_connections ContainerApp#allow_insecure_connections}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "allowInsecureConnections", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace azurerm.ContainerApp
         /// <remarks>
         /// Ignore indicates server drops client certificate on forwarding. Accept indicates server forwards client certificate but does not require a client certificate. Require indicates server requires a client certificate.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#client_certificate_mode ContainerApp#client_certificate_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#client_certificate_mode ContainerApp#client_certificate_mode}
         /// </remarks>
         [JsiiProperty(name: "clientCertificateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>cors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#cors ContainerApp#cors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#cors ContainerApp#cors}
         /// </remarks>
         [JsiiProperty(name: "cors", typeJson: "{\"fqn\":\"azurerm.containerApp.ContainerAppIngressCors\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The exposed port on the container for the Ingress traffic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#exposed_port ContainerApp#exposed_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#exposed_port ContainerApp#exposed_port}
         /// </remarks>
         [JsiiProperty(name: "exposedPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,7 +89,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>Is this an external Ingress.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#external_enabled ContainerApp#external_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#external_enabled ContainerApp#external_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "externalEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>ip_security_restriction block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#ip_security_restriction ContainerApp#ip_security_restriction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#ip_security_restriction ContainerApp#ip_security_restriction}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppIngressIpSecurityRestriction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ipSecurityRestriction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerApp.ContainerAppIngressIpSecurityRestriction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The transport method for the Ingress. Possible values include `auto`, `http`, and `http2`, `tcp`. Defaults to `auto`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#transport ContainerApp#transport}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#transport ContainerApp#transport}
         /// </remarks>
         [JsiiProperty(name: "transport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>The target port on the container for the Ingress traffic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#target_port ContainerApp#target_port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#target_port ContainerApp#target_port}
             /// </remarks>
             [JsiiProperty(name: "targetPort", typeJson: "{\"primitive\":\"number\"}")]
             public double TargetPort
@@ -150,7 +150,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>traffic_weight block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#traffic_weight ContainerApp#traffic_weight}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#traffic_weight ContainerApp#traffic_weight}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppIngressTrafficWeight" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "trafficWeight", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerApp.ContainerAppIngressTrafficWeight\"},\"kind\":\"array\"}}]}}")]
@@ -161,7 +161,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>Should this ingress allow insecure connections?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#allow_insecure_connections ContainerApp#allow_insecure_connections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#allow_insecure_connections ContainerApp#allow_insecure_connections}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -175,7 +175,7 @@ namespace azurerm.ContainerApp
             /// <remarks>
             /// Ignore indicates server drops client certificate on forwarding. Accept indicates server forwards client certificate but does not require a client certificate. Require indicates server requires a client certificate.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#client_certificate_mode ContainerApp#client_certificate_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#client_certificate_mode ContainerApp#client_certificate_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>cors block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#cors ContainerApp#cors}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#cors ContainerApp#cors}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cors", typeJson: "{\"fqn\":\"azurerm.containerApp.ContainerAppIngressCors\"}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>The exposed port on the container for the Ingress traffic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#exposed_port ContainerApp#exposed_port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#exposed_port ContainerApp#exposed_port}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "exposedPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>Is this an external Ingress.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#external_enabled ContainerApp#external_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#external_enabled ContainerApp#external_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -220,7 +220,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>ip_security_restriction block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#ip_security_restriction ContainerApp#ip_security_restriction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#ip_security_restriction ContainerApp#ip_security_restriction}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppIngressIpSecurityRestriction" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -232,7 +232,7 @@ namespace azurerm.ContainerApp
 
             /// <summary>The transport method for the Ingress. Possible values include `auto`, `http`, and `http2`, `tcp`. Defaults to `auto`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#transport ContainerApp#transport}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#transport ContainerApp#transport}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

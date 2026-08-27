@@ -9,7 +9,7 @@ namespace azurerm.ContainerRegistryTask
     [JsiiByValue(fqn: "azurerm.containerRegistryTask.ContainerRegistryTaskAgentSetting")]
     public class ContainerRegistryTaskAgentSetting : azurerm.ContainerRegistryTask.IContainerRegistryTaskAgentSetting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_task#cpu ContainerRegistryTask#cpu}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#cpu ContainerRegistryTask#cpu}.</summary>
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"number\"}")]
         public double Cpu
         {

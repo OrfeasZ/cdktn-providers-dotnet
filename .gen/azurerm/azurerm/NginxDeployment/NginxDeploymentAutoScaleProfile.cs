@@ -9,7 +9,7 @@ namespace azurerm.NginxDeployment
     [JsiiByValue(fqn: "azurerm.nginxDeployment.NginxDeploymentAutoScaleProfile")]
     public class NginxDeploymentAutoScaleProfile : azurerm.NginxDeployment.INginxDeploymentAutoScaleProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_deployment#max_capacity NginxDeployment#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/nginx_deployment#max_capacity NginxDeployment#max_capacity}.</summary>
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxCapacity
         {
@@ -17,7 +17,7 @@ namespace azurerm.NginxDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_deployment#min_capacity NginxDeployment#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/nginx_deployment#min_capacity NginxDeployment#min_capacity}.</summary>
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double MinCapacity
         {
@@ -25,7 +25,7 @@ namespace azurerm.NginxDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/nginx_deployment#name NginxDeployment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/nginx_deployment#name NginxDeployment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

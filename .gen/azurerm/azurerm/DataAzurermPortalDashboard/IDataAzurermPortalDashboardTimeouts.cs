@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPortalDashboard
     [JsiiInterface(nativeType: typeof(IDataAzurermPortalDashboardTimeouts), fullyQualifiedName: "azurerm.dataAzurermPortalDashboard.DataAzurermPortalDashboardTimeouts")]
     public interface IDataAzurermPortalDashboardTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/portal_dashboard#read DataAzurermPortalDashboard#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/portal_dashboard#read DataAzurermPortalDashboard#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermPortalDashboard
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/portal_dashboard#read DataAzurermPortalDashboard#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/portal_dashboard#read DataAzurermPortalDashboard#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

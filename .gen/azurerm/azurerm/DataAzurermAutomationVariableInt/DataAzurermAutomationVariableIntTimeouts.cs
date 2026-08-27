@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAutomationVariableInt
     [JsiiByValue(fqn: "azurerm.dataAzurermAutomationVariableInt.DataAzurermAutomationVariableIntTimeouts")]
     public class DataAzurermAutomationVariableIntTimeouts : azurerm.DataAzurermAutomationVariableInt.IDataAzurermAutomationVariableIntTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/automation_variable_int#read DataAzurermAutomationVariableInt#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_variable_int#read DataAzurermAutomationVariableInt#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

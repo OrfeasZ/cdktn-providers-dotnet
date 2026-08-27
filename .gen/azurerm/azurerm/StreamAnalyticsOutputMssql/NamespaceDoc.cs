@@ -5,7 +5,7 @@ namespace azurerm.StreamAnalyticsOutputMssql
     /// <remarks>
     /// <h1><c>azurerm_stream_analytics_output_mssql</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/stream_analytics_output_mssql"><c>azurerm_stream_analytics_output_mssql</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_output_mssql"><c>azurerm_stream_analytics_output_mssql</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

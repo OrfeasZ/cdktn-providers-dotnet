@@ -7,7 +7,7 @@ namespace azurerm.AutomationRunbook
     [JsiiInterface(nativeType: typeof(IAutomationRunbookPublishContentLink), fullyQualifiedName: "azurerm.automationRunbook.AutomationRunbookPublishContentLink")]
     public interface IAutomationRunbookPublishContentLink
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runbook#uri AutomationRunbook#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#uri AutomationRunbook#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         string Uri
         {
@@ -16,7 +16,7 @@ namespace azurerm.AutomationRunbook
 
         /// <summary>hash block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runbook#hash AutomationRunbook#hash}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#hash AutomationRunbook#hash}
         /// </remarks>
         [JsiiProperty(name: "hash", typeJson: "{\"fqn\":\"azurerm.automationRunbook.AutomationRunbookPublishContentLinkHash\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace azurerm.AutomationRunbook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runbook#version AutomationRunbook#version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#version AutomationRunbook#version}.</summary>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Version
@@ -46,7 +46,7 @@ namespace azurerm.AutomationRunbook
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runbook#uri AutomationRunbook#uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#uri AutomationRunbook#uri}.</summary>
             [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
             public string Uri
             {
@@ -55,7 +55,7 @@ namespace azurerm.AutomationRunbook
 
             /// <summary>hash block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runbook#hash AutomationRunbook#hash}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#hash AutomationRunbook#hash}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hash", typeJson: "{\"fqn\":\"azurerm.automationRunbook.AutomationRunbookPublishContentLinkHash\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace azurerm.AutomationRunbook
                 get => GetInstanceProperty<azurerm.AutomationRunbook.IAutomationRunbookPublishContentLinkHash?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_runbook#version AutomationRunbook#version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#version AutomationRunbook#version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Version

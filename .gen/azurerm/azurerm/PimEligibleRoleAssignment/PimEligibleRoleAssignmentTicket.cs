@@ -9,7 +9,7 @@ namespace azurerm.PimEligibleRoleAssignment
     {
         /// <summary>User-supplied ticket number to be included with the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/pim_eligible_role_assignment#number PimEligibleRoleAssignment#number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/pim_eligible_role_assignment#number PimEligibleRoleAssignment#number}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "number", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.PimEligibleRoleAssignment
 
         /// <summary>User-supplied ticket system name to be included with the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/pim_eligible_role_assignment#system PimEligibleRoleAssignment#system}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/pim_eligible_role_assignment#system PimEligibleRoleAssignment#system}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "systemAttribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

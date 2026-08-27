@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebAppSlot
     {
         /// <summary>The ID of the Client to use to authenticate with Azure Static Web App Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
@@ -26,7 +26,7 @@ namespace azurerm.LinuxWebAppSlot
 
             /// <summary>The ID of the Client to use to authenticate with Azure Static Web App Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app_slot#client_id LinuxWebAppSlot#client_id}
             /// </remarks>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId

@@ -9,7 +9,7 @@ namespace azurerm.EmailCommunicationServiceDomain
     [JsiiByValue(fqn: "azurerm.emailCommunicationServiceDomain.EmailCommunicationServiceDomainConfig")]
     public class EmailCommunicationServiceDomainConfig : azurerm.EmailCommunicationServiceDomain.IEmailCommunicationServiceDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain#domain_management EmailCommunicationServiceDomain#domain_management}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/email_communication_service_domain#domain_management EmailCommunicationServiceDomain#domain_management}.</summary>
         [JsiiProperty(name: "domainManagement", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainManagement
         {
@@ -17,7 +17,7 @@ namespace azurerm.EmailCommunicationServiceDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain#email_service_id EmailCommunicationServiceDomain#email_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/email_communication_service_domain#email_service_id EmailCommunicationServiceDomain#email_service_id}.</summary>
         [JsiiProperty(name: "emailServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailServiceId
         {
@@ -25,7 +25,7 @@ namespace azurerm.EmailCommunicationServiceDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain#name EmailCommunicationServiceDomain#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/email_communication_service_domain#name EmailCommunicationServiceDomain#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.EmailCommunicationServiceDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain#id EmailCommunicationServiceDomain#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/email_communication_service_domain#id EmailCommunicationServiceDomain#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azurerm.EmailCommunicationServiceDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain#tags EmailCommunicationServiceDomain#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/email_communication_service_domain#tags EmailCommunicationServiceDomain#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -57,7 +57,7 @@ namespace azurerm.EmailCommunicationServiceDomain
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain#timeouts EmailCommunicationServiceDomain#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/email_communication_service_domain#timeouts EmailCommunicationServiceDomain#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.emailCommunicationServiceDomain.EmailCommunicationServiceDomainTimeouts\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azurerm.EmailCommunicationServiceDomain
 
         private object? _userEngagementTrackingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/email_communication_service_domain#user_engagement_tracking_enabled EmailCommunicationServiceDomain#user_engagement_tracking_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/email_communication_service_domain#user_engagement_tracking_enabled EmailCommunicationServiceDomain#user_engagement_tracking_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

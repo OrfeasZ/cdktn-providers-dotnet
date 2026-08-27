@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPolicyAssignment
     [JsiiByValue(fqn: "azurerm.dataAzurermPolicyAssignment.DataAzurermPolicyAssignmentTimeouts")]
     public class DataAzurermPolicyAssignmentTimeouts : azurerm.DataAzurermPolicyAssignment.IDataAzurermPolicyAssignmentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/policy_assignment#read DataAzurermPolicyAssignment#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/policy_assignment#read DataAzurermPolicyAssignment#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

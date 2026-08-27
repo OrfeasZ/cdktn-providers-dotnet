@@ -9,7 +9,7 @@ namespace azurerm.StorageMoverSourceEndpoint
     [JsiiByValue(fqn: "azurerm.storageMoverSourceEndpoint.StorageMoverSourceEndpointConfig")]
     public class StorageMoverSourceEndpointConfig : azurerm.StorageMoverSourceEndpoint.IStorageMoverSourceEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#host StorageMoverSourceEndpoint#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#host StorageMoverSourceEndpoint#host}.</summary>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         public string Host
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageMoverSourceEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#name StorageMoverSourceEndpoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#name StorageMoverSourceEndpoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.StorageMoverSourceEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#storage_mover_id StorageMoverSourceEndpoint#storage_mover_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#storage_mover_id StorageMoverSourceEndpoint#storage_mover_id}.</summary>
         [JsiiProperty(name: "storageMoverId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageMoverId
         {
@@ -33,7 +33,7 @@ namespace azurerm.StorageMoverSourceEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#description StorageMoverSourceEndpoint#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#description StorageMoverSourceEndpoint#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -42,7 +42,7 @@ namespace azurerm.StorageMoverSourceEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#export StorageMoverSourceEndpoint#export}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#export StorageMoverSourceEndpoint#export}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "export", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Export
@@ -51,7 +51,7 @@ namespace azurerm.StorageMoverSourceEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#id StorageMoverSourceEndpoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#id StorageMoverSourceEndpoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.StorageMoverSourceEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#nfs_version StorageMoverSourceEndpoint#nfs_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#nfs_version StorageMoverSourceEndpoint#nfs_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nfsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NfsVersion
@@ -75,7 +75,7 @@ namespace azurerm.StorageMoverSourceEndpoint
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_mover_source_endpoint#timeouts StorageMoverSourceEndpoint#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_mover_source_endpoint#timeouts StorageMoverSourceEndpoint#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageMoverSourceEndpoint.StorageMoverSourceEndpointTimeouts\"}", isOptional: true)]

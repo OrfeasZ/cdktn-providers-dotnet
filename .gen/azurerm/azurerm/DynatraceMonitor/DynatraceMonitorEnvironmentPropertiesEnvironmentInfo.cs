@@ -9,7 +9,7 @@ namespace azurerm.DynatraceMonitor
     [JsiiByValue(fqn: "azurerm.dynatraceMonitor.DynatraceMonitorEnvironmentPropertiesEnvironmentInfo")]
     public class DynatraceMonitorEnvironmentPropertiesEnvironmentInfo : azurerm.DynatraceMonitor.IDynatraceMonitorEnvironmentPropertiesEnvironmentInfo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/dynatrace_monitor#environment_id DynatraceMonitor#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#environment_id DynatraceMonitor#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnvironmentId
         {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermContainerRegistry
     [JsiiByValue(fqn: "azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistryTimeouts")]
     public class DataAzurermContainerRegistryTimeouts : azurerm.DataAzurermContainerRegistry.IDataAzurermContainerRegistryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/container_registry#read DataAzurermContainerRegistry#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/container_registry#read DataAzurermContainerRegistry#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

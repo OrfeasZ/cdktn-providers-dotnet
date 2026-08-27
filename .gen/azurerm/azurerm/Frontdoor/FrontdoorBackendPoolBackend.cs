@@ -9,7 +9,7 @@ namespace azurerm.Frontdoor
     [JsiiByValue(fqn: "azurerm.frontdoor.FrontdoorBackendPoolBackend")]
     public class FrontdoorBackendPoolBackend : azurerm.Frontdoor.IFrontdoorBackendPoolBackend
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#address Frontdoor#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#address Frontdoor#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#host_header Frontdoor#host_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#host_header Frontdoor#host_header}.</summary>
         [JsiiProperty(name: "hostHeader", typeJson: "{\"primitive\":\"string\"}")]
         public string HostHeader
         {
@@ -25,7 +25,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#http_port Frontdoor#http_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#http_port Frontdoor#http_port}.</summary>
         [JsiiProperty(name: "httpPort", typeJson: "{\"primitive\":\"number\"}")]
         public double HttpPort
         {
@@ -33,7 +33,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#https_port Frontdoor#https_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#https_port Frontdoor#https_port}.</summary>
         [JsiiProperty(name: "httpsPort", typeJson: "{\"primitive\":\"number\"}")]
         public double HttpsPort
         {
@@ -43,7 +43,7 @@ namespace azurerm.Frontdoor
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#enabled Frontdoor#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#enabled Frontdoor#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -75,7 +75,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#priority Frontdoor#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#priority Frontdoor#priority}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Priority
@@ -84,7 +84,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#weight Frontdoor#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#weight Frontdoor#weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Weight

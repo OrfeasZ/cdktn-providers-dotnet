@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermMonitorWorkspace
     [JsiiInterface(nativeType: typeof(IDataAzurermMonitorWorkspaceTimeouts), fullyQualifiedName: "azurerm.dataAzurermMonitorWorkspace.DataAzurermMonitorWorkspaceTimeouts")]
     public interface IDataAzurermMonitorWorkspaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/monitor_workspace#read DataAzurermMonitorWorkspace#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/monitor_workspace#read DataAzurermMonitorWorkspace#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermMonitorWorkspace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/monitor_workspace#read DataAzurermMonitorWorkspace#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/monitor_workspace#read DataAzurermMonitorWorkspace#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

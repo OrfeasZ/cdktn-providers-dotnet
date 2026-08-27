@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermManagedRedis
     [JsiiInterface(nativeType: typeof(IDataAzurermManagedRedisTimeouts), fullyQualifiedName: "azurerm.dataAzurermManagedRedis.DataAzurermManagedRedisTimeouts")]
     public interface IDataAzurermManagedRedisTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/managed_redis#read DataAzurermManagedRedis#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/managed_redis#read DataAzurermManagedRedis#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermManagedRedis
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/managed_redis#read DataAzurermManagedRedis#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/managed_redis#read DataAzurermManagedRedis#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

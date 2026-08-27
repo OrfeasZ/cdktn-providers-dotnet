@@ -9,7 +9,7 @@ namespace azurerm.MssqlElasticpool
     [JsiiByValue(fqn: "azurerm.mssqlElasticpool.MssqlElasticpoolSku")]
     public class MssqlElasticpoolSku : azurerm.MssqlElasticpool.IMssqlElasticpoolSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_elasticpool#capacity MssqlElasticpool#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_elasticpool#capacity MssqlElasticpool#capacity}.</summary>
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}")]
         public double Capacity
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_elasticpool#name MssqlElasticpool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_elasticpool#name MssqlElasticpool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_elasticpool#tier MssqlElasticpool#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_elasticpool#tier MssqlElasticpool#tier}.</summary>
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
         public string Tier
         {
@@ -33,7 +33,7 @@ namespace azurerm.MssqlElasticpool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_elasticpool#family MssqlElasticpool#family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_elasticpool#family MssqlElasticpool#family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "family", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Family

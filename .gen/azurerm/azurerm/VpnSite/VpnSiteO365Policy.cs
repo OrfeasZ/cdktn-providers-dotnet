@@ -9,7 +9,7 @@ namespace azurerm.VpnSite
     {
         /// <summary>traffic_category block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/vpn_site#traffic_category VpnSite#traffic_category}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/vpn_site#traffic_category VpnSite#traffic_category}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trafficCategory", typeJson: "{\"fqn\":\"azurerm.vpnSite.VpnSiteO365PolicyTrafficCategory\"}", isOptional: true)]

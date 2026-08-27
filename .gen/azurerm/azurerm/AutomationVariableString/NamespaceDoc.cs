@@ -5,7 +5,7 @@ namespace azurerm.AutomationVariableString
     /// <remarks>
     /// <h1><c>azurerm_automation_variable_string</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_variable_string"><c>azurerm_automation_variable_string</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_variable_string"><c>azurerm_automation_variable_string</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

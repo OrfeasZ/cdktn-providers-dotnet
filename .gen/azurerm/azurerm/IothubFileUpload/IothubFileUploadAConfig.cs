@@ -9,7 +9,7 @@ namespace azurerm.IothubFileUpload
     [JsiiByValue(fqn: "azurerm.iothubFileUpload.IothubFileUploadAConfig")]
     public class IothubFileUploadAConfig : azurerm.IothubFileUpload.IIothubFileUploadAConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#connection_string IothubFileUploadA#connection_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#connection_string IothubFileUploadA#connection_string}.</summary>
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionString
         {
@@ -17,7 +17,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#container_name IothubFileUploadA#container_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#container_name IothubFileUploadA#container_name}.</summary>
         [JsiiProperty(name: "containerName", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerName
         {
@@ -25,7 +25,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#iothub_id IothubFileUploadA#iothub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#iothub_id IothubFileUploadA#iothub_id}.</summary>
         [JsiiProperty(name: "iothubId", typeJson: "{\"primitive\":\"string\"}")]
         public string IothubId
         {
@@ -33,7 +33,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#authentication_type IothubFileUploadA#authentication_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#authentication_type IothubFileUploadA#authentication_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AuthenticationType
@@ -42,7 +42,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#default_ttl IothubFileUploadA#default_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#default_ttl IothubFileUploadA#default_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultTtl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultTtl
@@ -51,7 +51,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#id IothubFileUploadA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#id IothubFileUploadA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#identity_id IothubFileUploadA#identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#identity_id IothubFileUploadA#identity_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdentityId
@@ -73,7 +73,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#lock_duration IothubFileUploadA#lock_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#lock_duration IothubFileUploadA#lock_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lockDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LockDuration
@@ -82,7 +82,7 @@ namespace azurerm.IothubFileUpload
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#max_delivery_count IothubFileUploadA#max_delivery_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#max_delivery_count IothubFileUploadA#max_delivery_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxDeliveryCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxDeliveryCount
@@ -93,7 +93,7 @@ namespace azurerm.IothubFileUpload
 
         private object? _notificationsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#notifications_enabled IothubFileUploadA#notifications_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#notifications_enabled IothubFileUploadA#notifications_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -125,7 +125,7 @@ namespace azurerm.IothubFileUpload
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#sas_ttl IothubFileUploadA#sas_ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#sas_ttl IothubFileUploadA#sas_ttl}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sasTtl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SasTtl
@@ -136,7 +136,7 @@ namespace azurerm.IothubFileUpload
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/iothub_file_upload#timeouts IothubFileUploadA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_file_upload#timeouts IothubFileUploadA#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.iothubFileUpload.IothubFileUploadTimeouts\"}", isOptional: true)]

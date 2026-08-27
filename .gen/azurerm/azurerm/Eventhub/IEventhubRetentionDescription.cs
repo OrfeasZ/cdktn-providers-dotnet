@@ -7,14 +7,14 @@ namespace azurerm.Eventhub
     [JsiiInterface(nativeType: typeof(IEventhubRetentionDescription), fullyQualifiedName: "azurerm.eventhub.EventhubRetentionDescription")]
     public interface IEventhubRetentionDescription
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#cleanup_policy Eventhub#cleanup_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#cleanup_policy Eventhub#cleanup_policy}.</summary>
         [JsiiProperty(name: "cleanupPolicy", typeJson: "{\"primitive\":\"string\"}")]
         string CleanupPolicy
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#retention_time_in_hours Eventhub#retention_time_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#retention_time_in_hours Eventhub#retention_time_in_hours}.</summary>
         [JsiiProperty(name: "retentionTimeInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionTimeInHours
@@ -25,7 +25,7 @@ namespace azurerm.Eventhub
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#tombstone_retention_time_in_hours Eventhub#tombstone_retention_time_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#tombstone_retention_time_in_hours Eventhub#tombstone_retention_time_in_hours}.</summary>
         [JsiiProperty(name: "tombstoneRetentionTimeInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TombstoneRetentionTimeInHours
@@ -43,14 +43,14 @@ namespace azurerm.Eventhub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#cleanup_policy Eventhub#cleanup_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#cleanup_policy Eventhub#cleanup_policy}.</summary>
             [JsiiProperty(name: "cleanupPolicy", typeJson: "{\"primitive\":\"string\"}")]
             public string CleanupPolicy
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#retention_time_in_hours Eventhub#retention_time_in_hours}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#retention_time_in_hours Eventhub#retention_time_in_hours}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionTimeInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionTimeInHours
@@ -58,7 +58,7 @@ namespace azurerm.Eventhub
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/eventhub#tombstone_retention_time_in_hours Eventhub#tombstone_retention_time_in_hours}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventhub#tombstone_retention_time_in_hours Eventhub#tombstone_retention_time_in_hours}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tombstoneRetentionTimeInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TombstoneRetentionTimeInHours

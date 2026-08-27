@@ -13,7 +13,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>container block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#container ContainerApp#container}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#container ContainerApp#container}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateContainer" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "container", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerApp.ContainerAppTemplateContainer\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>azure_queue_scale_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#azure_queue_scale_rule ContainerApp#azure_queue_scale_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#azure_queue_scale_rule ContainerApp#azure_queue_scale_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateAzureQueueScaleRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The number of seconds to wait before scaling down the number of instances again.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#cooldown_period_in_seconds ContainerApp#cooldown_period_in_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#cooldown_period_in_seconds ContainerApp#cooldown_period_in_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cooldownPeriodInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>custom_scale_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#custom_scale_rule ContainerApp#custom_scale_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#custom_scale_rule ContainerApp#custom_scale_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateCustomScaleRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -129,7 +129,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>http_scale_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#http_scale_rule ContainerApp#http_scale_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#http_scale_rule ContainerApp#http_scale_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateHttpScaleRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -164,7 +164,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>init_container block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#init_container ContainerApp#init_container}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#init_container ContainerApp#init_container}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateInitContainer" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -197,7 +197,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The maximum number of replicas for this container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#max_replicas ContainerApp#max_replicas}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#max_replicas ContainerApp#max_replicas}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxReplicas", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -209,7 +209,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The minimum number of replicas for this container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#min_replicas ContainerApp#min_replicas}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#min_replicas ContainerApp#min_replicas}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minReplicas", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -221,7 +221,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The interval in seconds used for polling KEDA.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#polling_interval_in_seconds ContainerApp#polling_interval_in_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#polling_interval_in_seconds ContainerApp#polling_interval_in_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pollingIntervalInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -235,7 +235,7 @@ namespace azurerm.ContainerApp
         /// <remarks>
         /// This value must be unique for the lifetime of the Resource. If omitted the service will use a hash function to create one.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#revision_suffix ContainerApp#revision_suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#revision_suffix ContainerApp#revision_suffix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "revisionSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>tcp_scale_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#tcp_scale_rule ContainerApp#tcp_scale_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#tcp_scale_rule ContainerApp#tcp_scale_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateTcpScaleRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -282,7 +282,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The time in seconds after the container is sent the termination signal before the process if forcibly killed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#termination_grace_period_seconds ContainerApp#termination_grace_period_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#termination_grace_period_seconds ContainerApp#termination_grace_period_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "terminationGracePeriodSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -296,7 +296,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>volume block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_app#volume ContainerApp#volume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#volume ContainerApp#volume}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerApp.IContainerAppTemplateVolume" />)[]</para>
         /// </remarks>
         [JsiiOptional]

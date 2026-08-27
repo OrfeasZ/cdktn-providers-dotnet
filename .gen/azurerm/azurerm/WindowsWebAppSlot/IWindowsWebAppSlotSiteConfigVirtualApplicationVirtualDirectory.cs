@@ -7,7 +7,7 @@ namespace azurerm.WindowsWebAppSlot
     [JsiiInterface(nativeType: typeof(IWindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectory), fullyQualifiedName: "azurerm.windowsWebAppSlot.WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectory")]
     public interface IWindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectory
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#physical_path WindowsWebAppSlot#physical_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#physical_path WindowsWebAppSlot#physical_path}.</summary>
         [JsiiProperty(name: "physicalPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhysicalPath
@@ -18,7 +18,7 @@ namespace azurerm.WindowsWebAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#virtual_path WindowsWebAppSlot#virtual_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#virtual_path WindowsWebAppSlot#virtual_path}.</summary>
         [JsiiProperty(name: "virtualPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VirtualPath
@@ -36,7 +36,7 @@ namespace azurerm.WindowsWebAppSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#physical_path WindowsWebAppSlot#physical_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#physical_path WindowsWebAppSlot#physical_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "physicalPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhysicalPath
@@ -44,7 +44,7 @@ namespace azurerm.WindowsWebAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/windows_web_app_slot#virtual_path WindowsWebAppSlot#virtual_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#virtual_path WindowsWebAppSlot#virtual_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "virtualPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VirtualPath

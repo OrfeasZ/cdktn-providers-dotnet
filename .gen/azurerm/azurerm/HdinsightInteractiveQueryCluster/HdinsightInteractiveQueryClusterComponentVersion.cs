@@ -9,7 +9,7 @@ namespace azurerm.HdinsightInteractiveQueryCluster
     [JsiiByValue(fqn: "azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryClusterComponentVersion")]
     public class HdinsightInteractiveQueryClusterComponentVersion : azurerm.HdinsightInteractiveQueryCluster.IHdinsightInteractiveQueryClusterComponentVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_interactive_query_cluster#interactive_hive HdinsightInteractiveQueryCluster#interactive_hive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_interactive_query_cluster#interactive_hive HdinsightInteractiveQueryCluster#interactive_hive}.</summary>
         [JsiiProperty(name: "interactiveHive", typeJson: "{\"primitive\":\"string\"}")]
         public string InteractiveHive
         {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermExpressRouteCircuit
     [JsiiInterface(nativeType: typeof(IDataAzurermExpressRouteCircuitTimeouts), fullyQualifiedName: "azurerm.dataAzurermExpressRouteCircuit.DataAzurermExpressRouteCircuitTimeouts")]
     public interface IDataAzurermExpressRouteCircuitTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/express_route_circuit#read DataAzurermExpressRouteCircuit#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/express_route_circuit#read DataAzurermExpressRouteCircuit#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermExpressRouteCircuit
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/express_route_circuit#read DataAzurermExpressRouteCircuit#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/express_route_circuit#read DataAzurermExpressRouteCircuit#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

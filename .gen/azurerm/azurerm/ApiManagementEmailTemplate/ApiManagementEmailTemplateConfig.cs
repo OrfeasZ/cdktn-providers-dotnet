@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementEmailTemplate
     [JsiiByValue(fqn: "azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplateConfig")]
     public class ApiManagementEmailTemplateConfig : azurerm.ApiManagementEmailTemplate.IApiManagementEmailTemplateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_email_template#api_management_name ApiManagementEmailTemplate#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_email_template#api_management_name ApiManagementEmailTemplate#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementEmailTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_email_template#body ApiManagementEmailTemplate#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_email_template#body ApiManagementEmailTemplate#body}.</summary>
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}")]
         public string Body
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApiManagementEmailTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_email_template#resource_group_name ApiManagementEmailTemplate#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_email_template#resource_group_name ApiManagementEmailTemplate#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +33,7 @@ namespace azurerm.ApiManagementEmailTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_email_template#subject ApiManagementEmailTemplate#subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_email_template#subject ApiManagementEmailTemplate#subject}.</summary>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         public string Subject
         {
@@ -41,7 +41,7 @@ namespace azurerm.ApiManagementEmailTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_email_template#template_name ApiManagementEmailTemplate#template_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_email_template#template_name ApiManagementEmailTemplate#template_name}.</summary>
         [JsiiProperty(name: "templateName", typeJson: "{\"primitive\":\"string\"}")]
         public string TemplateName
         {
@@ -49,7 +49,7 @@ namespace azurerm.ApiManagementEmailTemplate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_email_template#id ApiManagementEmailTemplate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_email_template#id ApiManagementEmailTemplate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.ApiManagementEmailTemplate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_email_template#timeouts ApiManagementEmailTemplate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_email_template#timeouts ApiManagementEmailTemplate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementEmailTemplate.ApiManagementEmailTemplateTimeouts\"}", isOptional: true)]

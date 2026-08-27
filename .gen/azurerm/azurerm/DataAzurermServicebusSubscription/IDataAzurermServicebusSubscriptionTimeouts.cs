@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermServicebusSubscription
     [JsiiInterface(nativeType: typeof(IDataAzurermServicebusSubscriptionTimeouts), fullyQualifiedName: "azurerm.dataAzurermServicebusSubscription.DataAzurermServicebusSubscriptionTimeouts")]
     public interface IDataAzurermServicebusSubscriptionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/servicebus_subscription#read DataAzurermServicebusSubscription#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/servicebus_subscription#read DataAzurermServicebusSubscription#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermServicebusSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/servicebus_subscription#read DataAzurermServicebusSubscription#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/servicebus_subscription#read DataAzurermServicebusSubscription#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

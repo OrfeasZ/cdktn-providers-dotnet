@@ -9,7 +9,7 @@ namespace azurerm.WebAppHybridConnection
     {
         /// <summary>The hostname of the endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#hostname WebAppHybridConnection#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#hostname WebAppHybridConnection#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         string Hostname
@@ -19,7 +19,7 @@ namespace azurerm.WebAppHybridConnection
 
         /// <summary>The port to use for the endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#port WebAppHybridConnection#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#port WebAppHybridConnection#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
@@ -29,7 +29,7 @@ namespace azurerm.WebAppHybridConnection
 
         /// <summary>The ID of the Relay Hybrid Connection to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#relay_id WebAppHybridConnection#relay_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#relay_id WebAppHybridConnection#relay_id}
         /// </remarks>
         [JsiiProperty(name: "relayId", typeJson: "{\"primitive\":\"string\"}")]
         string RelayId
@@ -39,7 +39,7 @@ namespace azurerm.WebAppHybridConnection
 
         /// <summary>The ID of the Web App for this Hybrid Connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#web_app_id WebAppHybridConnection#web_app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#web_app_id WebAppHybridConnection#web_app_id}
         /// </remarks>
         [JsiiProperty(name: "webAppId", typeJson: "{\"primitive\":\"string\"}")]
         string WebAppId
@@ -47,7 +47,7 @@ namespace azurerm.WebAppHybridConnection
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#id WebAppHybridConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#id WebAppHybridConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +64,7 @@ namespace azurerm.WebAppHybridConnection
 
         /// <summary>The name of the Relay key with `Send` permission to use. Defaults to `RootManageSharedAccessKey`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#send_key_name WebAppHybridConnection#send_key_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#send_key_name WebAppHybridConnection#send_key_name}
         /// </remarks>
         [JsiiProperty(name: "sendKeyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace azurerm.WebAppHybridConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#timeouts WebAppHybridConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#timeouts WebAppHybridConnection#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.webAppHybridConnection.WebAppHybridConnectionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace azurerm.WebAppHybridConnection
 
             /// <summary>The hostname of the endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#hostname WebAppHybridConnection#hostname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#hostname WebAppHybridConnection#hostname}
             /// </remarks>
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
             public string Hostname
@@ -109,7 +109,7 @@ namespace azurerm.WebAppHybridConnection
 
             /// <summary>The port to use for the endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#port WebAppHybridConnection#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#port WebAppHybridConnection#port}
             /// </remarks>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
@@ -119,7 +119,7 @@ namespace azurerm.WebAppHybridConnection
 
             /// <summary>The ID of the Relay Hybrid Connection to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#relay_id WebAppHybridConnection#relay_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#relay_id WebAppHybridConnection#relay_id}
             /// </remarks>
             [JsiiProperty(name: "relayId", typeJson: "{\"primitive\":\"string\"}")]
             public string RelayId
@@ -129,7 +129,7 @@ namespace azurerm.WebAppHybridConnection
 
             /// <summary>The ID of the Web App for this Hybrid Connection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#web_app_id WebAppHybridConnection#web_app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#web_app_id WebAppHybridConnection#web_app_id}
             /// </remarks>
             [JsiiProperty(name: "webAppId", typeJson: "{\"primitive\":\"string\"}")]
             public string WebAppId
@@ -137,7 +137,7 @@ namespace azurerm.WebAppHybridConnection
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#id WebAppHybridConnection#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#id WebAppHybridConnection#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -151,7 +151,7 @@ namespace azurerm.WebAppHybridConnection
 
             /// <summary>The name of the Relay key with `Send` permission to use. Defaults to `RootManageSharedAccessKey`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#send_key_name WebAppHybridConnection#send_key_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#send_key_name WebAppHybridConnection#send_key_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sendKeyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace azurerm.WebAppHybridConnection
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/web_app_hybrid_connection#timeouts WebAppHybridConnection#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_app_hybrid_connection#timeouts WebAppHybridConnection#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.webAppHybridConnection.WebAppHybridConnectionTimeouts\"}", isOptional: true)]

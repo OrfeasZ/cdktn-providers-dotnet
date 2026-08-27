@@ -7,7 +7,7 @@ namespace azurerm.SpringCloudGateway
     [JsiiByValue(fqn: "azurerm.springCloudGateway.SpringCloudGatewaySso")]
     public class SpringCloudGatewaySso : azurerm.SpringCloudGateway.ISpringCloudGatewaySso
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#client_id SpringCloudGateway#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#client_id SpringCloudGateway#client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientId
@@ -16,7 +16,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#client_secret SpringCloudGateway#client_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#client_secret SpringCloudGateway#client_secret}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientSecret
@@ -25,7 +25,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#issuer_uri SpringCloudGateway#issuer_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#issuer_uri SpringCloudGateway#issuer_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "issuerUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IssuerUri
@@ -34,7 +34,7 @@ namespace azurerm.SpringCloudGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/spring_cloud_gateway#scope SpringCloudGateway#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_gateway#scope SpringCloudGateway#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Scope

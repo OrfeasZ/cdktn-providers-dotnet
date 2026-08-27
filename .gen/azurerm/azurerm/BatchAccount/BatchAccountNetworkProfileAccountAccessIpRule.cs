@@ -9,7 +9,7 @@ namespace azurerm.BatchAccount
     [JsiiByValue(fqn: "azurerm.batchAccount.BatchAccountNetworkProfileAccountAccessIpRule")]
     public class BatchAccountNetworkProfileAccountAccessIpRule : azurerm.BatchAccount.IBatchAccountNetworkProfileAccountAccessIpRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#ip_range BatchAccount#ip_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#ip_range BatchAccount#ip_range}.</summary>
         [JsiiProperty(name: "ipRange", typeJson: "{\"primitive\":\"string\"}")]
         public string IpRange
         {
@@ -17,7 +17,7 @@ namespace azurerm.BatchAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_account#action BatchAccount#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#action BatchAccount#action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Action

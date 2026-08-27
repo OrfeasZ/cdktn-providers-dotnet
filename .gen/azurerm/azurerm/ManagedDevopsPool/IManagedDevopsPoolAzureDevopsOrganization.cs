@@ -9,7 +9,7 @@ namespace azurerm.ManagedDevopsPool
     {
         /// <summary>organization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_devops_pool#organization ManagedDevopsPool#organization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#organization ManagedDevopsPool#organization}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ManagedDevopsPool.IManagedDevopsPoolAzureDevopsOrganizationOrganization" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "organization", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolAzureDevopsOrganizationOrganization\"},\"kind\":\"array\"}}]}}")]
@@ -20,7 +20,7 @@ namespace azurerm.ManagedDevopsPool
 
         /// <summary>permission block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_devops_pool#permission ManagedDevopsPool#permission}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#permission ManagedDevopsPool#permission}
         /// </remarks>
         [JsiiProperty(name: "permission", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolAzureDevopsOrganizationPermission\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace azurerm.ManagedDevopsPool
 
             /// <summary>organization block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_devops_pool#organization ManagedDevopsPool#organization}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#organization ManagedDevopsPool#organization}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ManagedDevopsPool.IManagedDevopsPoolAzureDevopsOrganizationOrganization" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "organization", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolAzureDevopsOrganizationOrganization\"},\"kind\":\"array\"}}]}}")]
@@ -52,7 +52,7 @@ namespace azurerm.ManagedDevopsPool
 
             /// <summary>permission block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/managed_devops_pool#permission ManagedDevopsPool#permission}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#permission ManagedDevopsPool#permission}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "permission", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolAzureDevopsOrganizationPermission\"}", isOptional: true)]

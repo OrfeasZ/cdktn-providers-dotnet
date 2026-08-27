@@ -7,14 +7,14 @@ namespace azurerm.Firewall
     [JsiiInterface(nativeType: typeof(IFirewallVirtualHub), fullyQualifiedName: "azurerm.firewall.FirewallVirtualHub")]
     public interface IFirewallVirtualHub
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall#virtual_hub_id Firewall#virtual_hub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall#virtual_hub_id Firewall#virtual_hub_id}.</summary>
         [JsiiProperty(name: "virtualHubId", typeJson: "{\"primitive\":\"string\"}")]
         string VirtualHubId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall#public_ip_count Firewall#public_ip_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall#public_ip_count Firewall#public_ip_count}.</summary>
         [JsiiProperty(name: "publicIpCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PublicIpCount
@@ -32,14 +32,14 @@ namespace azurerm.Firewall
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall#virtual_hub_id Firewall#virtual_hub_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall#virtual_hub_id Firewall#virtual_hub_id}.</summary>
             [JsiiProperty(name: "virtualHubId", typeJson: "{\"primitive\":\"string\"}")]
             public string VirtualHubId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/firewall#public_ip_count Firewall#public_ip_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall#public_ip_count Firewall#public_ip_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicIpCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PublicIpCount

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermCognitiveAccountProject
     [JsiiInterface(nativeType: typeof(IDataAzurermCognitiveAccountProjectTimeouts), fullyQualifiedName: "azurerm.dataAzurermCognitiveAccountProject.DataAzurermCognitiveAccountProjectTimeouts")]
     public interface IDataAzurermCognitiveAccountProjectTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cognitive_account_project#read DataAzurermCognitiveAccountProject#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/cognitive_account_project#read DataAzurermCognitiveAccountProject#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermCognitiveAccountProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/cognitive_account_project#read DataAzurermCognitiveAccountProject#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/cognitive_account_project#read DataAzurermCognitiveAccountProject#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

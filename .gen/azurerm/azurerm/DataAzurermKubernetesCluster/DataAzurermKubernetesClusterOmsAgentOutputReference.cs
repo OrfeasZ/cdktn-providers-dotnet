@@ -53,6 +53,12 @@ namespace azurerm.DataAzurermKubernetesCluster
             get => GetInstanceProperty<azurerm.DataAzurermKubernetesCluster.DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList>()!;
         }
 
+        [JsiiProperty(name: "retinaFlowLogsEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable RetinaFlowLogsEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesClusterOmsAgent\"}", isOptional: true)]
         public virtual azurerm.DataAzurermKubernetesCluster.IDataAzurermKubernetesClusterOmsAgent? InternalValue

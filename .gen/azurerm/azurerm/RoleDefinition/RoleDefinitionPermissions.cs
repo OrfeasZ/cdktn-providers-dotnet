@@ -7,7 +7,7 @@ namespace azurerm.RoleDefinition
     [JsiiByValue(fqn: "azurerm.roleDefinition.RoleDefinitionPermissions")]
     public class RoleDefinitionPermissions : azurerm.RoleDefinition.IRoleDefinitionPermissions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_definition#actions RoleDefinition#actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_definition#actions RoleDefinition#actions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Actions
@@ -16,7 +16,7 @@ namespace azurerm.RoleDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_definition#data_actions RoleDefinition#data_actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_definition#data_actions RoleDefinition#data_actions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? DataActions
@@ -25,7 +25,7 @@ namespace azurerm.RoleDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_definition#not_actions RoleDefinition#not_actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_definition#not_actions RoleDefinition#not_actions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NotActions
@@ -34,7 +34,7 @@ namespace azurerm.RoleDefinition
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/role_definition#not_data_actions RoleDefinition#not_data_actions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_definition#not_data_actions RoleDefinition#not_data_actions}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notDataActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NotDataActions

@@ -9,7 +9,7 @@ namespace azurerm.StorageAccountNetworkRules
     [JsiiByValue(fqn: "azurerm.storageAccountNetworkRules.StorageAccountNetworkRulesPrivateLinkAccessA")]
     public class StorageAccountNetworkRulesPrivateLinkAccessA : azurerm.StorageAccountNetworkRules.IStorageAccountNetworkRulesPrivateLinkAccessA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_network_rules#endpoint_resource_id StorageAccountNetworkRulesA#endpoint_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_network_rules#endpoint_resource_id StorageAccountNetworkRulesA#endpoint_resource_id}.</summary>
         [JsiiProperty(name: "endpointResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointResourceId
         {
@@ -17,7 +17,7 @@ namespace azurerm.StorageAccountNetworkRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/storage_account_network_rules#endpoint_tenant_id StorageAccountNetworkRulesA#endpoint_tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_network_rules#endpoint_tenant_id StorageAccountNetworkRulesA#endpoint_tenant_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endpointTenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndpointTenantId

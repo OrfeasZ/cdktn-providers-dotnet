@@ -11,7 +11,7 @@ namespace azurerm.MonitorAutoscaleSetting
     {
         /// <summary>metric_trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_autoscale_setting#metric_trigger MonitorAutoscaleSetting#metric_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_autoscale_setting#metric_trigger MonitorAutoscaleSetting#metric_trigger}
         /// </remarks>
         [JsiiProperty(name: "metricTrigger", typeJson: "{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingProfileRuleMetricTrigger\"}")]
         public azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingProfileRuleMetricTrigger MetricTrigger
@@ -22,7 +22,7 @@ namespace azurerm.MonitorAutoscaleSetting
 
         /// <summary>scale_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/monitor_autoscale_setting#scale_action MonitorAutoscaleSetting#scale_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_autoscale_setting#scale_action MonitorAutoscaleSetting#scale_action}
         /// </remarks>
         [JsiiProperty(name: "scaleAction", typeJson: "{\"fqn\":\"azurerm.monitorAutoscaleSetting.MonitorAutoscaleSettingProfileRuleScaleAction\"}")]
         public azurerm.MonitorAutoscaleSetting.IMonitorAutoscaleSettingProfileRuleScaleAction ScaleAction

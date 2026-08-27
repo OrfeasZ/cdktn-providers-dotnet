@@ -9,7 +9,7 @@ namespace azurerm.LogicAppWorkflow
     [JsiiByValue(fqn: "azurerm.logicAppWorkflow.LogicAppWorkflowAccessControlAction")]
     public class LogicAppWorkflowAccessControlAction : azurerm.LogicAppWorkflow.ILogicAppWorkflowAccessControlAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_workflow#allowed_caller_ip_address_range LogicAppWorkflow#allowed_caller_ip_address_range}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_workflow#allowed_caller_ip_address_range LogicAppWorkflow#allowed_caller_ip_address_range}.</summary>
         [JsiiProperty(name: "allowedCallerIpAddressRange", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AllowedCallerIpAddressRange
         {

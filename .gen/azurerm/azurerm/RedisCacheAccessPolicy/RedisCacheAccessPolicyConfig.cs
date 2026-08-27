@@ -9,7 +9,7 @@ namespace azurerm.RedisCacheAccessPolicy
     [JsiiByValue(fqn: "azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyConfig")]
     public class RedisCacheAccessPolicyConfig : azurerm.RedisCacheAccessPolicy.IRedisCacheAccessPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache_access_policy#name RedisCacheAccessPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redis_cache_access_policy#name RedisCacheAccessPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.RedisCacheAccessPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache_access_policy#permissions RedisCacheAccessPolicy#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redis_cache_access_policy#permissions RedisCacheAccessPolicy#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
         public string Permissions
         {
@@ -25,7 +25,7 @@ namespace azurerm.RedisCacheAccessPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache_access_policy#redis_cache_id RedisCacheAccessPolicy#redis_cache_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redis_cache_access_policy#redis_cache_id RedisCacheAccessPolicy#redis_cache_id}.</summary>
         [JsiiProperty(name: "redisCacheId", typeJson: "{\"primitive\":\"string\"}")]
         public string RedisCacheId
         {
@@ -33,7 +33,7 @@ namespace azurerm.RedisCacheAccessPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache_access_policy#id RedisCacheAccessPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redis_cache_access_policy#id RedisCacheAccessPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace azurerm.RedisCacheAccessPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/redis_cache_access_policy#timeouts RedisCacheAccessPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redis_cache_access_policy#timeouts RedisCacheAccessPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.redisCacheAccessPolicy.RedisCacheAccessPolicyTimeouts\"}", isOptional: true)]

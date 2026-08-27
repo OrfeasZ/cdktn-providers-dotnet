@@ -9,7 +9,7 @@ namespace azurerm.DataFactoryDataFlow
     [JsiiByValue(fqn: "azurerm.dataFactoryDataFlow.DataFactoryDataFlowSourceFlowlet")]
     public class DataFactoryDataFlowSourceFlowlet : azurerm.DataFactoryDataFlow.IDataFactoryDataFlowSourceFlowlet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_data_flow#name DataFactoryDataFlow#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_data_flow#name DataFactoryDataFlow#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactoryDataFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_data_flow#dataset_parameters DataFactoryDataFlow#dataset_parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_data_flow#dataset_parameters DataFactoryDataFlow#dataset_parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datasetParameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatasetParameters
@@ -26,7 +26,7 @@ namespace azurerm.DataFactoryDataFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/data_factory_data_flow#parameters DataFactoryDataFlow#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_data_flow#parameters DataFactoryDataFlow#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters

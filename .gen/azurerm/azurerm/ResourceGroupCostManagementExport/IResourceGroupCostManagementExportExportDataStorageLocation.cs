@@ -7,14 +7,14 @@ namespace azurerm.ResourceGroupCostManagementExport
     [JsiiInterface(nativeType: typeof(IResourceGroupCostManagementExportExportDataStorageLocation), fullyQualifiedName: "azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExportExportDataStorageLocation")]
     public interface IResourceGroupCostManagementExportExportDataStorageLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_export#container_id ResourceGroupCostManagementExport#container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_export#container_id ResourceGroupCostManagementExport#container_id}.</summary>
         [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_export#root_folder_path ResourceGroupCostManagementExport#root_folder_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_export#root_folder_path ResourceGroupCostManagementExport#root_folder_path}.</summary>
         [JsiiProperty(name: "rootFolderPath", typeJson: "{\"primitive\":\"string\"}")]
         string RootFolderPath
         {
@@ -28,14 +28,14 @@ namespace azurerm.ResourceGroupCostManagementExport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_export#container_id ResourceGroupCostManagementExport#container_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_export#container_id ResourceGroupCostManagementExport#container_id}.</summary>
             [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_export#root_folder_path ResourceGroupCostManagementExport#root_folder_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_export#root_folder_path ResourceGroupCostManagementExport#root_folder_path}.</summary>
             [JsiiProperty(name: "rootFolderPath", typeJson: "{\"primitive\":\"string\"}")]
             public string RootFolderPath
             {

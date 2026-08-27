@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermServicePlan
     [JsiiByValue(fqn: "azurerm.dataAzurermServicePlan.DataAzurermServicePlanTimeouts")]
     public class DataAzurermServicePlanTimeouts : azurerm.DataAzurermServicePlan.IDataAzurermServicePlanTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/service_plan#read DataAzurermServicePlan#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/service_plan#read DataAzurermServicePlan#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

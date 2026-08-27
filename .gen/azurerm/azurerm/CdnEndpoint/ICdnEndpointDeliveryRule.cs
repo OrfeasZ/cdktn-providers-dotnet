@@ -7,14 +7,14 @@ namespace azurerm.CdnEndpoint
     [JsiiInterface(nativeType: typeof(ICdnEndpointDeliveryRule), fullyQualifiedName: "azurerm.cdnEndpoint.CdnEndpointDeliveryRule")]
     public interface ICdnEndpointDeliveryRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#name CdnEndpoint#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#name CdnEndpoint#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#order CdnEndpoint#order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#order CdnEndpoint#order}.</summary>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
         double Order
         {
@@ -23,7 +23,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>cache_expiration_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#cache_expiration_action CdnEndpoint#cache_expiration_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#cache_expiration_action CdnEndpoint#cache_expiration_action}
         /// </remarks>
         [JsiiProperty(name: "cacheExpirationAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheExpirationAction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>cache_key_query_string_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#cache_key_query_string_action CdnEndpoint#cache_key_query_string_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#cache_key_query_string_action CdnEndpoint#cache_key_query_string_action}
         /// </remarks>
         [JsiiProperty(name: "cacheKeyQueryStringAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheKeyQueryStringAction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>cookies_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#cookies_condition CdnEndpoint#cookies_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#cookies_condition CdnEndpoint#cookies_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleCookiesCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "cookiesCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCookiesCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>device_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#device_condition CdnEndpoint#device_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#device_condition CdnEndpoint#device_condition}
         /// </remarks>
         [JsiiProperty(name: "deviceCondition", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleDeviceCondition\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>http_version_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#http_version_condition CdnEndpoint#http_version_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#http_version_condition CdnEndpoint#http_version_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleHttpVersionCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "httpVersionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleHttpVersionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>modify_request_header_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#modify_request_header_action CdnEndpoint#modify_request_header_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#modify_request_header_action CdnEndpoint#modify_request_header_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleModifyRequestHeaderAction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "modifyRequestHeaderAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyRequestHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>modify_response_header_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#modify_response_header_action CdnEndpoint#modify_response_header_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#modify_response_header_action CdnEndpoint#modify_response_header_action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleModifyResponseHeaderAction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "modifyResponseHeaderAction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleModifyResponseHeaderAction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>post_arg_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#post_arg_condition CdnEndpoint#post_arg_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#post_arg_condition CdnEndpoint#post_arg_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRulePostArgCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "postArgCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRulePostArgCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>query_string_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#query_string_condition CdnEndpoint#query_string_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#query_string_condition CdnEndpoint#query_string_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleQueryStringCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "queryStringCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleQueryStringCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>remote_address_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#remote_address_condition CdnEndpoint#remote_address_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#remote_address_condition CdnEndpoint#remote_address_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRemoteAddressCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "remoteAddressCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRemoteAddressCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>request_body_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_body_condition CdnEndpoint#request_body_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_body_condition CdnEndpoint#request_body_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRequestBodyCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "requestBodyCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestBodyCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -185,7 +185,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>request_header_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_header_condition CdnEndpoint#request_header_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_header_condition CdnEndpoint#request_header_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRequestHeaderCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "requestHeaderCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>request_method_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_method_condition CdnEndpoint#request_method_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_method_condition CdnEndpoint#request_method_condition}
         /// </remarks>
         [JsiiProperty(name: "requestMethodCondition", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestMethodCondition\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -214,7 +214,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>request_scheme_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_scheme_condition CdnEndpoint#request_scheme_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_scheme_condition CdnEndpoint#request_scheme_condition}
         /// </remarks>
         [JsiiProperty(name: "requestSchemeCondition", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestSchemeCondition\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -228,7 +228,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>request_uri_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_uri_condition CdnEndpoint#request_uri_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_uri_condition CdnEndpoint#request_uri_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRequestUriCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "requestUriCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestUriCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>url_file_extension_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_file_extension_condition CdnEndpoint#url_file_extension_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_file_extension_condition CdnEndpoint#url_file_extension_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleUrlFileExtensionCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "urlFileExtensionCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileExtensionCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -258,7 +258,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>url_file_name_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_file_name_condition CdnEndpoint#url_file_name_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_file_name_condition CdnEndpoint#url_file_name_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleUrlFileNameCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "urlFileNameCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlFileNameCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -273,7 +273,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>url_path_condition block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_path_condition CdnEndpoint#url_path_condition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_path_condition CdnEndpoint#url_path_condition}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleUrlPathCondition" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "urlPathCondition", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlPathCondition\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -288,7 +288,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>url_redirect_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_redirect_action CdnEndpoint#url_redirect_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_redirect_action CdnEndpoint#url_redirect_action}
         /// </remarks>
         [JsiiProperty(name: "urlRedirectAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRedirectAction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -302,7 +302,7 @@ namespace azurerm.CdnEndpoint
 
         /// <summary>url_rewrite_action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_rewrite_action CdnEndpoint#url_rewrite_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_rewrite_action CdnEndpoint#url_rewrite_action}
         /// </remarks>
         [JsiiProperty(name: "urlRewriteAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRewriteAction\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -321,14 +321,14 @@ namespace azurerm.CdnEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#name CdnEndpoint#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#name CdnEndpoint#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#order CdnEndpoint#order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#order CdnEndpoint#order}.</summary>
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
             public double Order
             {
@@ -337,7 +337,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>cache_expiration_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#cache_expiration_action CdnEndpoint#cache_expiration_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#cache_expiration_action CdnEndpoint#cache_expiration_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheExpirationAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheExpirationAction\"}", isOptional: true)]
@@ -348,7 +348,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>cache_key_query_string_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#cache_key_query_string_action CdnEndpoint#cache_key_query_string_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#cache_key_query_string_action CdnEndpoint#cache_key_query_string_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheKeyQueryStringAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleCacheKeyQueryStringAction\"}", isOptional: true)]
@@ -359,7 +359,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>cookies_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#cookies_condition CdnEndpoint#cookies_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#cookies_condition CdnEndpoint#cookies_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleCookiesCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -371,7 +371,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>device_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#device_condition CdnEndpoint#device_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#device_condition CdnEndpoint#device_condition}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deviceCondition", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleDeviceCondition\"}", isOptional: true)]
@@ -382,7 +382,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>http_version_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#http_version_condition CdnEndpoint#http_version_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#http_version_condition CdnEndpoint#http_version_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleHttpVersionCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -394,7 +394,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>modify_request_header_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#modify_request_header_action CdnEndpoint#modify_request_header_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#modify_request_header_action CdnEndpoint#modify_request_header_action}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleModifyRequestHeaderAction" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -406,7 +406,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>modify_response_header_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#modify_response_header_action CdnEndpoint#modify_response_header_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#modify_response_header_action CdnEndpoint#modify_response_header_action}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleModifyResponseHeaderAction" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -418,7 +418,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>post_arg_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#post_arg_condition CdnEndpoint#post_arg_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#post_arg_condition CdnEndpoint#post_arg_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRulePostArgCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -430,7 +430,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>query_string_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#query_string_condition CdnEndpoint#query_string_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#query_string_condition CdnEndpoint#query_string_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleQueryStringCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -442,7 +442,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>remote_address_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#remote_address_condition CdnEndpoint#remote_address_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#remote_address_condition CdnEndpoint#remote_address_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRemoteAddressCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -454,7 +454,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>request_body_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_body_condition CdnEndpoint#request_body_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_body_condition CdnEndpoint#request_body_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRequestBodyCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -466,7 +466,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>request_header_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_header_condition CdnEndpoint#request_header_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_header_condition CdnEndpoint#request_header_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRequestHeaderCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -478,7 +478,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>request_method_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_method_condition CdnEndpoint#request_method_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_method_condition CdnEndpoint#request_method_condition}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requestMethodCondition", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestMethodCondition\"}", isOptional: true)]
@@ -489,7 +489,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>request_scheme_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_scheme_condition CdnEndpoint#request_scheme_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_scheme_condition CdnEndpoint#request_scheme_condition}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requestSchemeCondition", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestSchemeCondition\"}", isOptional: true)]
@@ -500,7 +500,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>request_uri_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#request_uri_condition CdnEndpoint#request_uri_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#request_uri_condition CdnEndpoint#request_uri_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRequestUriCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -512,7 +512,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>url_file_extension_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_file_extension_condition CdnEndpoint#url_file_extension_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_file_extension_condition CdnEndpoint#url_file_extension_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleUrlFileExtensionCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -524,7 +524,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>url_file_name_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_file_name_condition CdnEndpoint#url_file_name_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_file_name_condition CdnEndpoint#url_file_name_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleUrlFileNameCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -536,7 +536,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>url_path_condition block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_path_condition CdnEndpoint#url_path_condition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_path_condition CdnEndpoint#url_path_condition}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleUrlPathCondition" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -548,7 +548,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>url_redirect_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_redirect_action CdnEndpoint#url_redirect_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_redirect_action CdnEndpoint#url_redirect_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "urlRedirectAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRedirectAction\"}", isOptional: true)]
@@ -559,7 +559,7 @@ namespace azurerm.CdnEndpoint
 
             /// <summary>url_rewrite_action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_endpoint#url_rewrite_action CdnEndpoint#url_rewrite_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#url_rewrite_action CdnEndpoint#url_rewrite_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "urlRewriteAction", typeJson: "{\"fqn\":\"azurerm.cdnEndpoint.CdnEndpointDeliveryRuleUrlRewriteAction\"}", isOptional: true)]

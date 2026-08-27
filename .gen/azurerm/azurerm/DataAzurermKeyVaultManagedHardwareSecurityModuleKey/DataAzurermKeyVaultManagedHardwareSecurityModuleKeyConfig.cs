@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermKeyVaultManagedHardwareSecurityModuleKey
     [JsiiByValue(fqn: "azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKeyConfig")]
     public class DataAzurermKeyVaultManagedHardwareSecurityModuleKeyConfig : azurerm.DataAzurermKeyVaultManagedHardwareSecurityModuleKey.IDataAzurermKeyVaultManagedHardwareSecurityModuleKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/key_vault_managed_hardware_security_module_key#managed_hsm_id DataAzurermKeyVaultManagedHardwareSecurityModuleKey#managed_hsm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/key_vault_managed_hardware_security_module_key#managed_hsm_id DataAzurermKeyVaultManagedHardwareSecurityModuleKey#managed_hsm_id}.</summary>
         [JsiiProperty(name: "managedHsmId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedHsmId
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermKeyVaultManagedHardwareSecurityModuleKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/key_vault_managed_hardware_security_module_key#name DataAzurermKeyVaultManagedHardwareSecurityModuleKey#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/key_vault_managed_hardware_security_module_key#name DataAzurermKeyVaultManagedHardwareSecurityModuleKey#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermKeyVaultManagedHardwareSecurityModuleKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/key_vault_managed_hardware_security_module_key#id DataAzurermKeyVaultManagedHardwareSecurityModuleKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/key_vault_managed_hardware_security_module_key#id DataAzurermKeyVaultManagedHardwareSecurityModuleKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermKeyVaultManagedHardwareSecurityModuleKey
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/key_vault_managed_hardware_security_module_key#timeouts DataAzurermKeyVaultManagedHardwareSecurityModuleKey#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/key_vault_managed_hardware_security_module_key#timeouts DataAzurermKeyVaultManagedHardwareSecurityModuleKey#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermKeyVaultManagedHardwareSecurityModuleKey.DataAzurermKeyVaultManagedHardwareSecurityModuleKeyTimeouts\"}", isOptional: true)]

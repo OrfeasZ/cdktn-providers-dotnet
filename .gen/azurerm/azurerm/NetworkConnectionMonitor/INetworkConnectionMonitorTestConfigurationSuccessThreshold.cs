@@ -7,7 +7,7 @@ namespace azurerm.NetworkConnectionMonitor
     [JsiiInterface(nativeType: typeof(INetworkConnectionMonitorTestConfigurationSuccessThreshold), fullyQualifiedName: "azurerm.networkConnectionMonitor.NetworkConnectionMonitorTestConfigurationSuccessThreshold")]
     public interface INetworkConnectionMonitorTestConfigurationSuccessThreshold
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/network_connection_monitor#checks_failed_percent NetworkConnectionMonitor#checks_failed_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_connection_monitor#checks_failed_percent NetworkConnectionMonitor#checks_failed_percent}.</summary>
         [JsiiProperty(name: "checksFailedPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ChecksFailedPercent
@@ -18,7 +18,7 @@ namespace azurerm.NetworkConnectionMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/network_connection_monitor#round_trip_time_ms NetworkConnectionMonitor#round_trip_time_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_connection_monitor#round_trip_time_ms NetworkConnectionMonitor#round_trip_time_ms}.</summary>
         [JsiiProperty(name: "roundTripTimeMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RoundTripTimeMs
@@ -36,7 +36,7 @@ namespace azurerm.NetworkConnectionMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/network_connection_monitor#checks_failed_percent NetworkConnectionMonitor#checks_failed_percent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_connection_monitor#checks_failed_percent NetworkConnectionMonitor#checks_failed_percent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "checksFailedPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ChecksFailedPercent
@@ -44,7 +44,7 @@ namespace azurerm.NetworkConnectionMonitor
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/network_connection_monitor#round_trip_time_ms NetworkConnectionMonitor#round_trip_time_ms}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_connection_monitor#round_trip_time_ms NetworkConnectionMonitor#round_trip_time_ms}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "roundTripTimeMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RoundTripTimeMs

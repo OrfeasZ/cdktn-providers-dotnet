@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAutomationRunbook
     [JsiiInterface(nativeType: typeof(IDataAzurermAutomationRunbookTimeouts), fullyQualifiedName: "azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbookTimeouts")]
     public interface IDataAzurermAutomationRunbookTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/automation_runbook#read DataAzurermAutomationRunbook#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_runbook#read DataAzurermAutomationRunbook#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermAutomationRunbook
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/automation_runbook#read DataAzurermAutomationRunbook#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_runbook#read DataAzurermAutomationRunbook#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

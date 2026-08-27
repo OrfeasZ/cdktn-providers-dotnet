@@ -9,7 +9,7 @@ namespace azurerm.AutomationSchedule
     [JsiiByValue(fqn: "azurerm.automationSchedule.AutomationScheduleMonthlyOccurrence")]
     public class AutomationScheduleMonthlyOccurrence : azurerm.AutomationSchedule.IAutomationScheduleMonthlyOccurrence
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_schedule#day AutomationSchedule#day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_schedule#day AutomationSchedule#day}.</summary>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"string\"}")]
         public string Day
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/automation_schedule#occurrence AutomationSchedule#occurrence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_schedule#occurrence AutomationSchedule#occurrence}.</summary>
         [JsiiProperty(name: "occurrence", typeJson: "{\"primitive\":\"number\"}")]
         public double Occurrence
         {

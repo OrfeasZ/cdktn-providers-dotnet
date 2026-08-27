@@ -9,7 +9,7 @@ namespace azurerm.ApplicationInsightsStandardWebTest
     [JsiiByValue(fqn: "azurerm.applicationInsightsStandardWebTest.ApplicationInsightsStandardWebTestRequestHeader")]
     public class ApplicationInsightsStandardWebTestRequestHeader : azurerm.ApplicationInsightsStandardWebTest.IApplicationInsightsStandardWebTestRequestHeader
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/application_insights_standard_web_test#name ApplicationInsightsStandardWebTest#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_insights_standard_web_test#name ApplicationInsightsStandardWebTest#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApplicationInsightsStandardWebTest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/application_insights_standard_web_test#value ApplicationInsightsStandardWebTest#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_insights_standard_web_test#value ApplicationInsightsStandardWebTest#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

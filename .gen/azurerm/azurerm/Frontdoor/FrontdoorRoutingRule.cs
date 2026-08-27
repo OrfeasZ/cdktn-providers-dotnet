@@ -9,7 +9,7 @@ namespace azurerm.Frontdoor
     [JsiiByValue(fqn: "azurerm.frontdoor.FrontdoorRoutingRule")]
     public class FrontdoorRoutingRule : azurerm.Frontdoor.IFrontdoorRoutingRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#accepted_protocols Frontdoor#accepted_protocols}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#accepted_protocols Frontdoor#accepted_protocols}.</summary>
         [JsiiProperty(name: "acceptedProtocols", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AcceptedProtocols
         {
@@ -17,7 +17,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#frontend_endpoints Frontdoor#frontend_endpoints}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#frontend_endpoints Frontdoor#frontend_endpoints}.</summary>
         [JsiiProperty(name: "frontendEndpoints", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] FrontendEndpoints
         {
@@ -25,7 +25,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#patterns_to_match Frontdoor#patterns_to_match}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#patterns_to_match Frontdoor#patterns_to_match}.</summary>
         [JsiiProperty(name: "patternsToMatch", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] PatternsToMatch
         {
@@ -43,7 +43,7 @@ namespace azurerm.Frontdoor
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#enabled Frontdoor#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#enabled Frontdoor#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>forwarding_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#forwarding_configuration Frontdoor#forwarding_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#forwarding_configuration Frontdoor#forwarding_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forwardingConfiguration", typeJson: "{\"fqn\":\"azurerm.frontdoor.FrontdoorRoutingRuleForwardingConfiguration\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>redirect_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/frontdoor#redirect_configuration Frontdoor#redirect_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#redirect_configuration Frontdoor#redirect_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redirectConfiguration", typeJson: "{\"fqn\":\"azurerm.frontdoor.FrontdoorRoutingRuleRedirectConfiguration\"}", isOptional: true)]

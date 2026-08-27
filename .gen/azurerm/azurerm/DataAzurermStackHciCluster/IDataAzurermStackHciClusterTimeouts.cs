@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStackHciCluster
     [JsiiInterface(nativeType: typeof(IDataAzurermStackHciClusterTimeouts), fullyQualifiedName: "azurerm.dataAzurermStackHciCluster.DataAzurermStackHciClusterTimeouts")]
     public interface IDataAzurermStackHciClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/stack_hci_cluster#read DataAzurermStackHciCluster#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/stack_hci_cluster#read DataAzurermStackHciCluster#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermStackHciCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/stack_hci_cluster#read DataAzurermStackHciCluster#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/stack_hci_cluster#read DataAzurermStackHciCluster#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

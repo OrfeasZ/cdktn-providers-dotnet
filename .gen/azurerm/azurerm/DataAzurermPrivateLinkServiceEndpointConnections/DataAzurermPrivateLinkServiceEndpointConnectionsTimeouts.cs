@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermPrivateLinkServiceEndpointConnections
     [JsiiByValue(fqn: "azurerm.dataAzurermPrivateLinkServiceEndpointConnections.DataAzurermPrivateLinkServiceEndpointConnectionsTimeouts")]
     public class DataAzurermPrivateLinkServiceEndpointConnectionsTimeouts : azurerm.DataAzurermPrivateLinkServiceEndpointConnections.IDataAzurermPrivateLinkServiceEndpointConnectionsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/private_link_service_endpoint_connections#read DataAzurermPrivateLinkServiceEndpointConnections#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/private_link_service_endpoint_connections#read DataAzurermPrivateLinkServiceEndpointConnections#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorOriginGroup.CdnFrontdoorOriginGroupLoadBalancing")]
     public class CdnFrontdoorOriginGroupLoadBalancing : azurerm.CdnFrontdoorOriginGroup.ICdnFrontdoorOriginGroupLoadBalancing
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_origin_group#additional_latency_in_milliseconds CdnFrontdoorOriginGroup#additional_latency_in_milliseconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_origin_group#additional_latency_in_milliseconds CdnFrontdoorOriginGroup#additional_latency_in_milliseconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "additionalLatencyInMilliseconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AdditionalLatencyInMilliseconds
@@ -16,7 +16,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_origin_group#sample_size CdnFrontdoorOriginGroup#sample_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_origin_group#sample_size CdnFrontdoorOriginGroup#sample_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sampleSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SampleSize
@@ -25,7 +25,7 @@ namespace azurerm.CdnFrontdoorOriginGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cdn_frontdoor_origin_group#successful_samples_required CdnFrontdoorOriginGroup#successful_samples_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_origin_group#successful_samples_required CdnFrontdoorOriginGroup#successful_samples_required}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "successfulSamplesRequired", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SuccessfulSamplesRequired

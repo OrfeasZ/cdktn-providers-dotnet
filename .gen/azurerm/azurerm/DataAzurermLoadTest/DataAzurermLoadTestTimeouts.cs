@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermLoadTest
     [JsiiByValue(fqn: "azurerm.dataAzurermLoadTest.DataAzurermLoadTestTimeouts")]
     public class DataAzurermLoadTestTimeouts : azurerm.DataAzurermLoadTest.IDataAzurermLoadTestTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/load_test#read DataAzurermLoadTest#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/load_test#read DataAzurermLoadTest#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

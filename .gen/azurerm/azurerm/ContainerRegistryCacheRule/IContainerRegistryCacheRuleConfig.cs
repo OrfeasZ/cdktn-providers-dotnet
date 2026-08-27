@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistryCacheRule
     [JsiiInterface(nativeType: typeof(IContainerRegistryCacheRuleConfig), fullyQualifiedName: "azurerm.containerRegistryCacheRule.ContainerRegistryCacheRuleConfig")]
     public interface IContainerRegistryCacheRuleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#container_registry_id ContainerRegistryCacheRule#container_registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#container_registry_id ContainerRegistryCacheRule#container_registry_id}.</summary>
         [JsiiProperty(name: "containerRegistryId", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerRegistryId
         {
@@ -16,7 +16,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
         /// <summary>The name of the cache rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#name ContainerRegistryCacheRule#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#name ContainerRegistryCacheRule#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -26,7 +26,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
         /// <summary>The full source repository path such as 'docker.io/library/ubuntu'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#source_repo ContainerRegistryCacheRule#source_repo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#source_repo ContainerRegistryCacheRule#source_repo}
         /// </remarks>
         [JsiiProperty(name: "sourceRepo", typeJson: "{\"primitive\":\"string\"}")]
         string SourceRepo
@@ -36,7 +36,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
         /// <summary>The target repository namespace such as 'ubuntu'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#target_repo ContainerRegistryCacheRule#target_repo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#target_repo ContainerRegistryCacheRule#target_repo}
         /// </remarks>
         [JsiiProperty(name: "targetRepo", typeJson: "{\"primitive\":\"string\"}")]
         string TargetRepo
@@ -46,7 +46,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
         /// <summary>The ARM resource ID of the credential store which is associated with the cache rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#credential_set_id ContainerRegistryCacheRule#credential_set_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#credential_set_id ContainerRegistryCacheRule#credential_set_id}
         /// </remarks>
         [JsiiProperty(name: "credentialSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace azurerm.ContainerRegistryCacheRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#id ContainerRegistryCacheRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#id ContainerRegistryCacheRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#timeouts ContainerRegistryCacheRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#timeouts ContainerRegistryCacheRule#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerRegistryCacheRule.ContainerRegistryCacheRuleTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace azurerm.ContainerRegistryCacheRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#container_registry_id ContainerRegistryCacheRule#container_registry_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#container_registry_id ContainerRegistryCacheRule#container_registry_id}.</summary>
             [JsiiProperty(name: "containerRegistryId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerRegistryId
             {
@@ -103,7 +103,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
             /// <summary>The name of the cache rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#name ContainerRegistryCacheRule#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#name ContainerRegistryCacheRule#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -113,7 +113,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
             /// <summary>The full source repository path such as 'docker.io/library/ubuntu'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#source_repo ContainerRegistryCacheRule#source_repo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#source_repo ContainerRegistryCacheRule#source_repo}
             /// </remarks>
             [JsiiProperty(name: "sourceRepo", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceRepo
@@ -123,7 +123,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
             /// <summary>The target repository namespace such as 'ubuntu'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#target_repo ContainerRegistryCacheRule#target_repo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#target_repo ContainerRegistryCacheRule#target_repo}
             /// </remarks>
             [JsiiProperty(name: "targetRepo", typeJson: "{\"primitive\":\"string\"}")]
             public string TargetRepo
@@ -133,7 +133,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
             /// <summary>The ARM resource ID of the credential store which is associated with the cache rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#credential_set_id ContainerRegistryCacheRule#credential_set_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#credential_set_id ContainerRegistryCacheRule#credential_set_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "credentialSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -142,7 +142,7 @@ namespace azurerm.ContainerRegistryCacheRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#id ContainerRegistryCacheRule#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#id ContainerRegistryCacheRule#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -156,7 +156,7 @@ namespace azurerm.ContainerRegistryCacheRule
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/container_registry_cache_rule#timeouts ContainerRegistryCacheRule#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_cache_rule#timeouts ContainerRegistryCacheRule#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.containerRegistryCacheRule.ContainerRegistryCacheRuleTimeouts\"}", isOptional: true)]

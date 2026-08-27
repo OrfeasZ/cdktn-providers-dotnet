@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermConfidentialLedger
     [JsiiByValue(fqn: "azurerm.dataAzurermConfidentialLedger.DataAzurermConfidentialLedgerTimeouts")]
     public class DataAzurermConfidentialLedgerTimeouts : azurerm.DataAzurermConfidentialLedger.IDataAzurermConfidentialLedgerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/confidential_ledger#read DataAzurermConfidentialLedger#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/confidential_ledger#read DataAzurermConfidentialLedger#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -7,7 +7,7 @@ namespace azurerm.LinuxWebApp
     [JsiiInterface(nativeType: typeof(ILinuxWebAppLogsApplicationLogs), fullyQualifiedName: "azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogs")]
     public interface ILinuxWebAppLogsApplicationLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_web_app#file_system_level LinuxWebApp#file_system_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#file_system_level LinuxWebApp#file_system_level}.</summary>
         [JsiiProperty(name: "fileSystemLevel", typeJson: "{\"primitive\":\"string\"}")]
         string FileSystemLevel
         {
@@ -16,7 +16,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>azure_blob_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_web_app#azure_blob_storage LinuxWebApp#azure_blob_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#azure_blob_storage LinuxWebApp#azure_blob_storage}
         /// </remarks>
         [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsAzureBlobStorage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azurerm.LinuxWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_web_app#file_system_level LinuxWebApp#file_system_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#file_system_level LinuxWebApp#file_system_level}.</summary>
             [JsiiProperty(name: "fileSystemLevel", typeJson: "{\"primitive\":\"string\"}")]
             public string FileSystemLevel
             {
@@ -44,7 +44,7 @@ namespace azurerm.LinuxWebApp
 
             /// <summary>azure_blob_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/linux_web_app#azure_blob_storage LinuxWebApp#azure_blob_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#azure_blob_storage LinuxWebApp#azure_blob_storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.linuxWebApp.LinuxWebAppLogsApplicationLogsAzureBlobStorage\"}", isOptional: true)]

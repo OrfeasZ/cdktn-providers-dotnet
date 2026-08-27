@@ -7,14 +7,14 @@ namespace azurerm.Snapshot
     [JsiiInterface(nativeType: typeof(ISnapshotEncryptionSettingsKeyEncryptionKey), fullyQualifiedName: "azurerm.snapshot.SnapshotEncryptionSettingsKeyEncryptionKey")]
     public interface ISnapshotEncryptionSettingsKeyEncryptionKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/snapshot#key_url Snapshot#key_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/snapshot#key_url Snapshot#key_url}.</summary>
         [JsiiProperty(name: "keyUrl", typeJson: "{\"primitive\":\"string\"}")]
         string KeyUrl
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/snapshot#source_vault_id Snapshot#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/snapshot#source_vault_id Snapshot#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         string SourceVaultId
         {
@@ -28,14 +28,14 @@ namespace azurerm.Snapshot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/snapshot#key_url Snapshot#key_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/snapshot#key_url Snapshot#key_url}.</summary>
             [JsiiProperty(name: "keyUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyUrl
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/snapshot#source_vault_id Snapshot#source_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/snapshot#source_vault_id Snapshot#source_vault_id}.</summary>
             [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceVaultId
             {

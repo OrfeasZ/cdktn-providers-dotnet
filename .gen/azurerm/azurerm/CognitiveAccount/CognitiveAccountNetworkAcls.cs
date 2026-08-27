@@ -9,7 +9,7 @@ namespace azurerm.CognitiveAccount
     [JsiiByValue(fqn: "azurerm.cognitiveAccount.CognitiveAccountNetworkAcls")]
     public class CognitiveAccountNetworkAcls : azurerm.CognitiveAccount.ICognitiveAccountNetworkAcls
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account#default_action CognitiveAccount#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account#default_action CognitiveAccount#default_action}.</summary>
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultAction
         {
@@ -17,7 +17,7 @@ namespace azurerm.CognitiveAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account#bypass CognitiveAccount#bypass}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account#bypass CognitiveAccount#bypass}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bypass", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bypass
@@ -26,7 +26,7 @@ namespace azurerm.CognitiveAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account#ip_rules CognitiveAccount#ip_rules}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account#ip_rules CognitiveAccount#ip_rules}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ipRules", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IpRules
@@ -39,7 +39,7 @@ namespace azurerm.CognitiveAccount
 
         /// <summary>virtual_network_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account#virtual_network_rules CognitiveAccount#virtual_network_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account#virtual_network_rules CognitiveAccount#virtual_network_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.CognitiveAccount.ICognitiveAccountNetworkAclsVirtualNetworkRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

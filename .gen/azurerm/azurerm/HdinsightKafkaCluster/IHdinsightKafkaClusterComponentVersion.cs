@@ -7,7 +7,7 @@ namespace azurerm.HdinsightKafkaCluster
     [JsiiInterface(nativeType: typeof(IHdinsightKafkaClusterComponentVersion), fullyQualifiedName: "azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterComponentVersion")]
     public interface IHdinsightKafkaClusterComponentVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_kafka_cluster#kafka HdinsightKafkaCluster#kafka}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#kafka HdinsightKafkaCluster#kafka}.</summary>
         [JsiiProperty(name: "kafka", typeJson: "{\"primitive\":\"string\"}")]
         string Kafka
         {
@@ -21,7 +21,7 @@ namespace azurerm.HdinsightKafkaCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/hdinsight_kafka_cluster#kafka HdinsightKafkaCluster#kafka}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#kafka HdinsightKafkaCluster#kafka}.</summary>
             [JsiiProperty(name: "kafka", typeJson: "{\"primitive\":\"string\"}")]
             public string Kafka
             {

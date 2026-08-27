@@ -7,14 +7,14 @@ namespace azurerm.BillingAccountCostManagementExport
     [JsiiInterface(nativeType: typeof(IBillingAccountCostManagementExportExportDataStorageLocation), fullyQualifiedName: "azurerm.billingAccountCostManagementExport.BillingAccountCostManagementExportExportDataStorageLocation")]
     public interface IBillingAccountCostManagementExportExportDataStorageLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/billing_account_cost_management_export#container_id BillingAccountCostManagementExport#container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/billing_account_cost_management_export#container_id BillingAccountCostManagementExport#container_id}.</summary>
         [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
         string ContainerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/billing_account_cost_management_export#root_folder_path BillingAccountCostManagementExport#root_folder_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/billing_account_cost_management_export#root_folder_path BillingAccountCostManagementExport#root_folder_path}.</summary>
         [JsiiProperty(name: "rootFolderPath", typeJson: "{\"primitive\":\"string\"}")]
         string RootFolderPath
         {
@@ -28,14 +28,14 @@ namespace azurerm.BillingAccountCostManagementExport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/billing_account_cost_management_export#container_id BillingAccountCostManagementExport#container_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/billing_account_cost_management_export#container_id BillingAccountCostManagementExport#container_id}.</summary>
             [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
             public string ContainerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/billing_account_cost_management_export#root_folder_path BillingAccountCostManagementExport#root_folder_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/billing_account_cost_management_export#root_folder_path BillingAccountCostManagementExport#root_folder_path}.</summary>
             [JsiiProperty(name: "rootFolderPath", typeJson: "{\"primitive\":\"string\"}")]
             public string RootFolderPath
             {

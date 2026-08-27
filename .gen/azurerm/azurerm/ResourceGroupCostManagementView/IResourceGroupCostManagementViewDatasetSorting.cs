@@ -7,14 +7,14 @@ namespace azurerm.ResourceGroupCostManagementView
     [JsiiInterface(nativeType: typeof(IResourceGroupCostManagementViewDatasetSorting), fullyQualifiedName: "azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetSorting")]
     public interface IResourceGroupCostManagementViewDatasetSorting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_view#direction ResourceGroupCostManagementView#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#direction ResourceGroupCostManagementView#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         string Direction
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -28,14 +28,14 @@ namespace azurerm.ResourceGroupCostManagementView
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_view#direction ResourceGroupCostManagementView#direction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#direction ResourceGroupCostManagementView#direction}.</summary>
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
             public string Direction
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

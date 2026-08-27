@@ -7,7 +7,7 @@ namespace azurerm.RouteMap
     [JsiiByValue(fqn: "azurerm.routeMap.RouteMapRuleActionParameter")]
     public class RouteMapRuleActionParameter : azurerm.RouteMap.IRouteMapRuleActionParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_map#as_path RouteMap#as_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_map#as_path RouteMap#as_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "asPath", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AsPath
@@ -16,7 +16,7 @@ namespace azurerm.RouteMap
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_map#community RouteMap#community}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_map#community RouteMap#community}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "community", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Community
@@ -25,7 +25,7 @@ namespace azurerm.RouteMap
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/route_map#route_prefix RouteMap#route_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_map#route_prefix RouteMap#route_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routePrefix", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? RoutePrefix

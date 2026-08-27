@@ -9,7 +9,7 @@ namespace azurerm.CognitiveAccount
     [JsiiByValue(fqn: "azurerm.cognitiveAccount.CognitiveAccountCustomerManagedKey")]
     public class CognitiveAccountCustomerManagedKey : azurerm.CognitiveAccount.ICognitiveAccountCustomerManagedKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account#key_vault_key_id CognitiveAccount#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account#key_vault_key_id CognitiveAccount#key_vault_key_id}.</summary>
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyVaultKeyId
         {
@@ -17,7 +17,7 @@ namespace azurerm.CognitiveAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_account#identity_client_id CognitiveAccount#identity_client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_account#identity_client_id CognitiveAccount#identity_client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdentityClientId

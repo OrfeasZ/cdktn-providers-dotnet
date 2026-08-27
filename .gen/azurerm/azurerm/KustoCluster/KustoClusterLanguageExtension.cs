@@ -9,7 +9,7 @@ namespace azurerm.KustoCluster
     [JsiiByValue(fqn: "azurerm.kustoCluster.KustoClusterLanguageExtension")]
     public class KustoClusterLanguageExtension : azurerm.KustoCluster.IKustoClusterLanguageExtension
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_cluster#image KustoCluster#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_cluster#image KustoCluster#image}.</summary>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         public string Image
         {
@@ -17,7 +17,7 @@ namespace azurerm.KustoCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/kusto_cluster#name KustoCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kusto_cluster#name KustoCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

@@ -11,7 +11,7 @@ namespace azurerm.ApiManagement
     {
         private object _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management#enabled ApiManagement#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management#enabled ApiManagement#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -44,7 +44,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>terms_of_service block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management#terms_of_service ApiManagement#terms_of_service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management#terms_of_service ApiManagement#terms_of_service}
         /// </remarks>
         [JsiiProperty(name: "termsOfService", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementSignUpTermsOfService\"}")]
         public azurerm.ApiManagement.IApiManagementSignUpTermsOfService TermsOfService

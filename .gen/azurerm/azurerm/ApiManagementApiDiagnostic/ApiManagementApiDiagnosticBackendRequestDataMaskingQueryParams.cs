@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementApiDiagnostic
     [JsiiByValue(fqn: "azurerm.apiManagementApiDiagnostic.ApiManagementApiDiagnosticBackendRequestDataMaskingQueryParams")]
     public class ApiManagementApiDiagnosticBackendRequestDataMaskingQueryParams : azurerm.ApiManagementApiDiagnostic.IApiManagementApiDiagnosticBackendRequestDataMaskingQueryParams
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_diagnostic#mode ApiManagementApiDiagnostic#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api_diagnostic#mode ApiManagementApiDiagnostic#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementApiDiagnostic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/api_management_api_diagnostic#value ApiManagementApiDiagnostic#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api_diagnostic#value ApiManagementApiDiagnostic#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

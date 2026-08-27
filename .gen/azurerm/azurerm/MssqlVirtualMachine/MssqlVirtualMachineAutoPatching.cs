@@ -9,7 +9,7 @@ namespace azurerm.MssqlVirtualMachine
     [JsiiByValue(fqn: "azurerm.mssqlVirtualMachine.MssqlVirtualMachineAutoPatching")]
     public class MssqlVirtualMachineAutoPatching : azurerm.MssqlVirtualMachine.IMssqlVirtualMachineAutoPatching
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#day_of_week MssqlVirtualMachine#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_virtual_machine#day_of_week MssqlVirtualMachine#day_of_week}.</summary>
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"string\"}")]
         public string DayOfWeek
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#maintenance_window_duration_in_minutes MssqlVirtualMachine#maintenance_window_duration_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_virtual_machine#maintenance_window_duration_in_minutes MssqlVirtualMachine#maintenance_window_duration_in_minutes}.</summary>
         [JsiiProperty(name: "maintenanceWindowDurationInMinutes", typeJson: "{\"primitive\":\"number\"}")]
         public double MaintenanceWindowDurationInMinutes
         {
@@ -25,7 +25,7 @@ namespace azurerm.MssqlVirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/mssql_virtual_machine#maintenance_window_starting_hour MssqlVirtualMachine#maintenance_window_starting_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_virtual_machine#maintenance_window_starting_hour MssqlVirtualMachine#maintenance_window_starting_hour}.</summary>
         [JsiiProperty(name: "maintenanceWindowStartingHour", typeJson: "{\"primitive\":\"number\"}")]
         public double MaintenanceWindowStartingHour
         {

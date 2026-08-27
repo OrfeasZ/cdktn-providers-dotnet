@@ -5,7 +5,7 @@ namespace azurerm.ManagementGroupPolicySetDefinition
     /// <remarks>
     /// <h1><c>azurerm_management_group_policy_set_definition</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/management_group_policy_set_definition"><c>azurerm_management_group_policy_set_definition</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/management_group_policy_set_definition"><c>azurerm_management_group_policy_set_definition</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

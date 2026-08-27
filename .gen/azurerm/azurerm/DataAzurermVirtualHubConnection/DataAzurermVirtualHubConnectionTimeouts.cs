@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVirtualHubConnection
     [JsiiByValue(fqn: "azurerm.dataAzurermVirtualHubConnection.DataAzurermVirtualHubConnectionTimeouts")]
     public class DataAzurermVirtualHubConnectionTimeouts : azurerm.DataAzurermVirtualHubConnection.IDataAzurermVirtualHubConnectionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/virtual_hub_connection#read DataAzurermVirtualHubConnection#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/virtual_hub_connection#read DataAzurermVirtualHubConnection#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

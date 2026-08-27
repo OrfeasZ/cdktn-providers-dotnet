@@ -9,7 +9,7 @@ namespace azurerm.ElasticSanVolumeGroup
     [JsiiByValue(fqn: "azurerm.elasticSanVolumeGroup.ElasticSanVolumeGroupNetworkRule")]
     public class ElasticSanVolumeGroupNetworkRule : azurerm.ElasticSanVolumeGroup.IElasticSanVolumeGroupNetworkRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/elastic_san_volume_group#subnet_id ElasticSanVolumeGroup#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san_volume_group#subnet_id ElasticSanVolumeGroup#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ElasticSanVolumeGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/elastic_san_volume_group#action ElasticSanVolumeGroup#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san_volume_group#action ElasticSanVolumeGroup#action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Action

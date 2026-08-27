@@ -9,7 +9,7 @@ namespace azurerm.MachineLearningComputeCluster
     [JsiiByValue(fqn: "azurerm.machineLearningComputeCluster.MachineLearningComputeClusterSsh")]
     public class MachineLearningComputeClusterSsh : azurerm.MachineLearningComputeCluster.IMachineLearningComputeClusterSsh
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/machine_learning_compute_cluster#admin_username MachineLearningComputeCluster#admin_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_compute_cluster#admin_username MachineLearningComputeCluster#admin_username}.</summary>
         [JsiiProperty(name: "adminUsername", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminUsername
         {
@@ -17,7 +17,7 @@ namespace azurerm.MachineLearningComputeCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/machine_learning_compute_cluster#admin_password MachineLearningComputeCluster#admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_compute_cluster#admin_password MachineLearningComputeCluster#admin_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "adminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AdminPassword
@@ -26,7 +26,7 @@ namespace azurerm.MachineLearningComputeCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/machine_learning_compute_cluster#key_value MachineLearningComputeCluster#key_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/machine_learning_compute_cluster#key_value MachineLearningComputeCluster#key_value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyValue

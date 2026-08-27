@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermHealthcareWorkspace
     [JsiiInterface(nativeType: typeof(IDataAzurermHealthcareWorkspaceTimeouts), fullyQualifiedName: "azurerm.dataAzurermHealthcareWorkspace.DataAzurermHealthcareWorkspaceTimeouts")]
     public interface IDataAzurermHealthcareWorkspaceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/healthcare_workspace#read DataAzurermHealthcareWorkspace#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/healthcare_workspace#read DataAzurermHealthcareWorkspace#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermHealthcareWorkspace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/data-sources/healthcare_workspace#read DataAzurermHealthcareWorkspace#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/healthcare_workspace#read DataAzurermHealthcareWorkspace#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

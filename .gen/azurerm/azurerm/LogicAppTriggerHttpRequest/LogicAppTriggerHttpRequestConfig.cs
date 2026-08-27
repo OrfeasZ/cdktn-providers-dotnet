@@ -9,7 +9,7 @@ namespace azurerm.LogicAppTriggerHttpRequest
     [JsiiByValue(fqn: "azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequestConfig")]
     public class LogicAppTriggerHttpRequestConfig : azurerm.LogicAppTriggerHttpRequest.ILogicAppTriggerHttpRequestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_http_request#logic_app_id LogicAppTriggerHttpRequest#logic_app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_trigger_http_request#logic_app_id LogicAppTriggerHttpRequest#logic_app_id}.</summary>
         [JsiiProperty(name: "logicAppId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogicAppId
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogicAppTriggerHttpRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_http_request#name LogicAppTriggerHttpRequest#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_trigger_http_request#name LogicAppTriggerHttpRequest#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.LogicAppTriggerHttpRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_http_request#schema LogicAppTriggerHttpRequest#schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_trigger_http_request#schema LogicAppTriggerHttpRequest#schema}.</summary>
         [JsiiProperty(name: "schema", typeJson: "{\"primitive\":\"string\"}")]
         public string Schema
         {
@@ -33,7 +33,7 @@ namespace azurerm.LogicAppTriggerHttpRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_http_request#id LogicAppTriggerHttpRequest#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_trigger_http_request#id LogicAppTriggerHttpRequest#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azurerm.LogicAppTriggerHttpRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_http_request#method LogicAppTriggerHttpRequest#method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_trigger_http_request#method LogicAppTriggerHttpRequest#method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Method
@@ -55,7 +55,7 @@ namespace azurerm.LogicAppTriggerHttpRequest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_http_request#relative_path LogicAppTriggerHttpRequest#relative_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_trigger_http_request#relative_path LogicAppTriggerHttpRequest#relative_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "relativePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RelativePath
@@ -66,7 +66,7 @@ namespace azurerm.LogicAppTriggerHttpRequest
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_trigger_http_request#timeouts LogicAppTriggerHttpRequest#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_trigger_http_request#timeouts LogicAppTriggerHttpRequest#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.logicAppTriggerHttpRequest.LogicAppTriggerHttpRequestTimeouts\"}", isOptional: true)]

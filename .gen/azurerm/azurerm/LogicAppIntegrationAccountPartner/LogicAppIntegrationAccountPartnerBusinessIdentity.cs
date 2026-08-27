@@ -9,7 +9,7 @@ namespace azurerm.LogicAppIntegrationAccountPartner
     [JsiiByValue(fqn: "azurerm.logicAppIntegrationAccountPartner.LogicAppIntegrationAccountPartnerBusinessIdentity")]
     public class LogicAppIntegrationAccountPartnerBusinessIdentity : azurerm.LogicAppIntegrationAccountPartner.ILogicAppIntegrationAccountPartnerBusinessIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_integration_account_partner#qualifier LogicAppIntegrationAccountPartner#qualifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_integration_account_partner#qualifier LogicAppIntegrationAccountPartner#qualifier}.</summary>
         [JsiiProperty(name: "qualifier", typeJson: "{\"primitive\":\"string\"}")]
         public string Qualifier
         {
@@ -17,7 +17,7 @@ namespace azurerm.LogicAppIntegrationAccountPartner
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/logic_app_integration_account_partner#value LogicAppIntegrationAccountPartner#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/logic_app_integration_account_partner#value LogicAppIntegrationAccountPartner#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

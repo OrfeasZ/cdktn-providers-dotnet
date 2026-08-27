@@ -9,7 +9,7 @@ namespace azurerm.CognitiveDeployment
     [JsiiByValue(fqn: "azurerm.cognitiveDeployment.CognitiveDeploymentSku")]
     public class CognitiveDeploymentSku : azurerm.CognitiveDeployment.ICognitiveDeploymentSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_deployment#name CognitiveDeployment#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_deployment#name CognitiveDeployment#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.CognitiveDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_deployment#capacity CognitiveDeployment#capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_deployment#capacity CognitiveDeployment#capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Capacity
@@ -26,7 +26,7 @@ namespace azurerm.CognitiveDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_deployment#family CognitiveDeployment#family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_deployment#family CognitiveDeployment#family}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "family", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Family
@@ -35,7 +35,7 @@ namespace azurerm.CognitiveDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_deployment#size CognitiveDeployment#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_deployment#size CognitiveDeployment#size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Size
@@ -44,7 +44,7 @@ namespace azurerm.CognitiveDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/cognitive_deployment#tier CognitiveDeployment#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cognitive_deployment#tier CognitiveDeployment#tier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Tier

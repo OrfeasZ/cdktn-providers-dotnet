@@ -9,7 +9,7 @@ namespace azurerm.QumuloFileSystem
     [JsiiByValue(fqn: "azurerm.qumuloFileSystem.QumuloFileSystemConfig")]
     public class QumuloFileSystemConfig : azurerm.QumuloFileSystem.IQumuloFileSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#admin_password QumuloFileSystem#admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#admin_password QumuloFileSystem#admin_password}.</summary>
         [JsiiProperty(name: "adminPassword", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminPassword
         {
@@ -17,7 +17,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#email QumuloFileSystem#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#email QumuloFileSystem#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public string Email
         {
@@ -25,7 +25,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#location QumuloFileSystem#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#location QumuloFileSystem#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -33,7 +33,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#name QumuloFileSystem#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#name QumuloFileSystem#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -41,7 +41,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#resource_group_name QumuloFileSystem#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#resource_group_name QumuloFileSystem#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -49,7 +49,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#storage_sku QumuloFileSystem#storage_sku}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#storage_sku QumuloFileSystem#storage_sku}.</summary>
         [JsiiProperty(name: "storageSku", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageSku
         {
@@ -57,7 +57,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#subnet_id QumuloFileSystem#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#subnet_id QumuloFileSystem#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -65,7 +65,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#zone QumuloFileSystem#zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#zone QumuloFileSystem#zone}.</summary>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}")]
         public string Zone
         {
@@ -73,7 +73,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#id QumuloFileSystem#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#id QumuloFileSystem#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#offer_id QumuloFileSystem#offer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#offer_id QumuloFileSystem#offer_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "offerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OfferId
@@ -95,7 +95,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#plan_id QumuloFileSystem#plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#plan_id QumuloFileSystem#plan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "planId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PlanId
@@ -104,7 +104,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#publisher_id QumuloFileSystem#publisher_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#publisher_id QumuloFileSystem#publisher_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publisherId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublisherId
@@ -113,7 +113,7 @@ namespace azurerm.QumuloFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#tags QumuloFileSystem#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#tags QumuloFileSystem#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -124,7 +124,7 @@ namespace azurerm.QumuloFileSystem
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/qumulo_file_system#timeouts QumuloFileSystem#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/qumulo_file_system#timeouts QumuloFileSystem#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.qumuloFileSystem.QumuloFileSystemTimeouts\"}", isOptional: true)]

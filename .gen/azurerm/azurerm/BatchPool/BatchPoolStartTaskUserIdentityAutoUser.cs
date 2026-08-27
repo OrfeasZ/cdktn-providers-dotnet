@@ -7,7 +7,7 @@ namespace azurerm.BatchPool
     [JsiiByValue(fqn: "azurerm.batchPool.BatchPoolStartTaskUserIdentityAutoUser")]
     public class BatchPoolStartTaskUserIdentityAutoUser : azurerm.BatchPool.IBatchPoolStartTaskUserIdentityAutoUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#elevation_level BatchPool#elevation_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#elevation_level BatchPool#elevation_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "elevationLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ElevationLevel
@@ -16,7 +16,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.2.0/docs/resources/batch_pool#scope BatchPool#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#scope BatchPool#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Scope
