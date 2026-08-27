@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceContainers
     [JsiiByValue(fqn: "oci.dataOciDatascienceContainers.DataOciDatascienceContainersConfig")]
     public class DataOciDatascienceContainersConfig : oci.DataOciDatascienceContainers.IDataOciDatascienceContainersConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#container_name DataOciDatascienceContainers#container_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#container_name DataOciDatascienceContainers#container_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContainerName
@@ -16,7 +16,7 @@ namespace oci.DataOciDatascienceContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#display_name DataOciDatascienceContainers#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#display_name DataOciDatascienceContainers#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciDatascienceContainers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#filter DataOciDatascienceContainers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#filter DataOciDatascienceContainers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceContainers.IDataOciDatascienceContainersFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciDatascienceContainers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#id DataOciDatascienceContainers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#id DataOciDatascienceContainers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace oci.DataOciDatascienceContainers
 
         private object? _isLatest;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#is_latest DataOciDatascienceContainers#is_latest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#is_latest DataOciDatascienceContainers#is_latest}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -107,7 +107,7 @@ namespace oci.DataOciDatascienceContainers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#state DataOciDatascienceContainers#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#state DataOciDatascienceContainers#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -116,7 +116,7 @@ namespace oci.DataOciDatascienceContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#tag_query_param DataOciDatascienceContainers#tag_query_param}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#tag_query_param DataOciDatascienceContainers#tag_query_param}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tagQueryParam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TagQueryParam
@@ -125,7 +125,7 @@ namespace oci.DataOciDatascienceContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#target_workload DataOciDatascienceContainers#target_workload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#target_workload DataOciDatascienceContainers#target_workload}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetWorkload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetWorkload
@@ -134,7 +134,7 @@ namespace oci.DataOciDatascienceContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_containers#usage_query_param DataOciDatascienceContainers#usage_query_param}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_containers#usage_query_param DataOciDatascienceContainers#usage_query_param}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usageQueryParam", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UsageQueryParam

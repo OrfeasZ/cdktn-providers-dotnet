@@ -9,7 +9,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
     [JsiiByValue(fqn: "oci.dataOciDisasterRecoveryAutomaticDrConfigurations.DataOciDisasterRecoveryAutomaticDrConfigurationsFilter")]
     public class DataOciDisasterRecoveryAutomaticDrConfigurationsFilter : oci.DataOciDisasterRecoveryAutomaticDrConfigurations.IDataOciDisasterRecoveryAutomaticDrConfigurationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#name DataOciDisasterRecoveryAutomaticDrConfigurations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#name DataOciDisasterRecoveryAutomaticDrConfigurations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#values DataOciDisasterRecoveryAutomaticDrConfigurations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#values DataOciDisasterRecoveryAutomaticDrConfigurations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#regex DataOciDisasterRecoveryAutomaticDrConfigurations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#regex DataOciDisasterRecoveryAutomaticDrConfigurations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

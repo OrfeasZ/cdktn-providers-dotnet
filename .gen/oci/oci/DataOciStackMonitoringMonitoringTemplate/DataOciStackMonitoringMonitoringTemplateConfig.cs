@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringMonitoringTemplate
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringMonitoringTemplate.DataOciStackMonitoringMonitoringTemplateConfig")]
     public class DataOciStackMonitoringMonitoringTemplateConfig : oci.DataOciStackMonitoringMonitoringTemplate.IDataOciStackMonitoringMonitoringTemplateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/stack_monitoring_monitoring_template#monitoring_template_id DataOciStackMonitoringMonitoringTemplate#monitoring_template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/stack_monitoring_monitoring_template#monitoring_template_id DataOciStackMonitoringMonitoringTemplate#monitoring_template_id}.</summary>
         [JsiiProperty(name: "monitoringTemplateId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitoringTemplateId
         {

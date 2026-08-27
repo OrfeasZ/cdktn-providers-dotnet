@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspace
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspace.DataOciDataintegrationWorkspaceConfig")]
     public class DataOciDataintegrationWorkspaceConfig : oci.DataOciDataintegrationWorkspace.IDataOciDataintegrationWorkspaceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace#workspace_id DataOciDataintegrationWorkspace#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace#workspace_id DataOciDataintegrationWorkspace#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

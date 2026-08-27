@@ -9,7 +9,7 @@ namespace oci.DataOciResourcemanagerPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciResourcemanagerPrivateEndpoint.DataOciResourcemanagerPrivateEndpointConfig")]
     public class DataOciResourcemanagerPrivateEndpointConfig : oci.DataOciResourcemanagerPrivateEndpoint.IDataOciResourcemanagerPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resourcemanager_private_endpoint#private_endpoint_id DataOciResourcemanagerPrivateEndpoint#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/resourcemanager_private_endpoint#private_endpoint_id DataOciResourcemanagerPrivateEndpoint#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateEndpointId
         {

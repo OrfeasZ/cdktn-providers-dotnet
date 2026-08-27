@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationIam
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiHostedApplicationIam.DataOciGenerativeAiHostedApplicationIamConfig")]
     public class DataOciGenerativeAiHostedApplicationIamConfig : oci.DataOciGenerativeAiHostedApplicationIam.IDataOciGenerativeAiHostedApplicationIamConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_hosted_application_iam#hosted_application_iam_id DataOciGenerativeAiHostedApplicationIam#hosted_application_iam_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iam#hosted_application_iam_id DataOciGenerativeAiHostedApplicationIam#hosted_application_iam_id}.</summary>
         [JsiiProperty(name: "hostedApplicationIamId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostedApplicationIamId
         {

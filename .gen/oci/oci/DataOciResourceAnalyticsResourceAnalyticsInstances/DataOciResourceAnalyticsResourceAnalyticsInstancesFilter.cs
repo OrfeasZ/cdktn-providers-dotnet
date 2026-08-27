@@ -9,7 +9,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
     [JsiiByValue(fqn: "oci.dataOciResourceAnalyticsResourceAnalyticsInstances.DataOciResourceAnalyticsResourceAnalyticsInstancesFilter")]
     public class DataOciResourceAnalyticsResourceAnalyticsInstancesFilter : oci.DataOciResourceAnalyticsResourceAnalyticsInstances.IDataOciResourceAnalyticsResourceAnalyticsInstancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resource_analytics_resource_analytics_instances#name DataOciResourceAnalyticsResourceAnalyticsInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/resource_analytics_resource_analytics_instances#name DataOciResourceAnalyticsResourceAnalyticsInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resource_analytics_resource_analytics_instances#values DataOciResourceAnalyticsResourceAnalyticsInstances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/resource_analytics_resource_analytics_instances#values DataOciResourceAnalyticsResourceAnalyticsInstances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciResourceAnalyticsResourceAnalyticsInstances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resource_analytics_resource_analytics_instances#regex DataOciResourceAnalyticsResourceAnalyticsInstances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/resource_analytics_resource_analytics_instances#regex DataOciResourceAnalyticsResourceAnalyticsInstances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

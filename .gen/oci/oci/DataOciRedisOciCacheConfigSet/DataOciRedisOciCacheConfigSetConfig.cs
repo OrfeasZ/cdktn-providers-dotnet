@@ -9,7 +9,7 @@ namespace oci.DataOciRedisOciCacheConfigSet
     [JsiiByValue(fqn: "oci.dataOciRedisOciCacheConfigSet.DataOciRedisOciCacheConfigSetConfig")]
     public class DataOciRedisOciCacheConfigSetConfig : oci.DataOciRedisOciCacheConfigSet.IDataOciRedisOciCacheConfigSetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/redis_oci_cache_config_set#oci_cache_config_set_id DataOciRedisOciCacheConfigSet#oci_cache_config_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/redis_oci_cache_config_set#oci_cache_config_set_id DataOciRedisOciCacheConfigSet#oci_cache_config_set_id}.</summary>
         [JsiiProperty(name: "ociCacheConfigSetId", typeJson: "{\"primitive\":\"string\"}")]
         public string OciCacheConfigSetId
         {

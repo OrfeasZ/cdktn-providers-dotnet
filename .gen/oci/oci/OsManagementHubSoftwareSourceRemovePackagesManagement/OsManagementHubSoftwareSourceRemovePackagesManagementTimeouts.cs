@@ -7,7 +7,7 @@ namespace oci.OsManagementHubSoftwareSourceRemovePackagesManagement
     [JsiiByValue(fqn: "oci.osManagementHubSoftwareSourceRemovePackagesManagement.OsManagementHubSoftwareSourceRemovePackagesManagementTimeouts")]
     public class OsManagementHubSoftwareSourceRemovePackagesManagementTimeouts : oci.OsManagementHubSoftwareSourceRemovePackagesManagement.IOsManagementHubSoftwareSourceRemovePackagesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_software_source_remove_packages_management#create OsManagementHubSoftwareSourceRemovePackagesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_software_source_remove_packages_management#create OsManagementHubSoftwareSourceRemovePackagesManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OsManagementHubSoftwareSourceRemovePackagesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_software_source_remove_packages_management#delete OsManagementHubSoftwareSourceRemovePackagesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_software_source_remove_packages_management#delete OsManagementHubSoftwareSourceRemovePackagesManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubSoftwareSourceRemovePackagesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_software_source_remove_packages_management#update OsManagementHubSoftwareSourceRemovePackagesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_software_source_remove_packages_management#update OsManagementHubSoftwareSourceRemovePackagesManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

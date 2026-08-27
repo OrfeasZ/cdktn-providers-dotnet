@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalDbSystemConnectors.DataOciDatabaseManagementExternalDbSystemConnectorsFilter")]
     public class DataOciDatabaseManagementExternalDbSystemConnectorsFilter : oci.DataOciDatabaseManagementExternalDbSystemConnectors.IDataOciDatabaseManagementExternalDbSystemConnectorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_external_db_system_connectors#name DataOciDatabaseManagementExternalDbSystemConnectors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_db_system_connectors#name DataOciDatabaseManagementExternalDbSystemConnectors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_external_db_system_connectors#values DataOciDatabaseManagementExternalDbSystemConnectors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_db_system_connectors#values DataOciDatabaseManagementExternalDbSystemConnectors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnectors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_external_db_system_connectors#regex DataOciDatabaseManagementExternalDbSystemConnectors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_db_system_connectors#regex DataOciDatabaseManagementExternalDbSystemConnectors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

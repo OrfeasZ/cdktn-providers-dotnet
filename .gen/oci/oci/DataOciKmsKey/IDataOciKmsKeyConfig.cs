@@ -7,14 +7,14 @@ namespace oci.DataOciKmsKey
     [JsiiInterface(nativeType: typeof(IDataOciKmsKeyConfig), fullyQualifiedName: "oci.dataOciKmsKey.DataOciKmsKeyConfig")]
     public interface IDataOciKmsKeyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_key#key_id DataOciKmsKey#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/kms_key#key_id DataOciKmsKey#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_key#management_endpoint DataOciKmsKey#management_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/kms_key#management_endpoint DataOciKmsKey#management_endpoint}.</summary>
         [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementEndpoint
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciKmsKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_key#key_id DataOciKmsKey#key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/kms_key#key_id DataOciKmsKey#key_id}.</summary>
             [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_key#management_endpoint DataOciKmsKey#management_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/kms_key#management_endpoint DataOciKmsKey#management_endpoint}.</summary>
             [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementEndpoint
             {

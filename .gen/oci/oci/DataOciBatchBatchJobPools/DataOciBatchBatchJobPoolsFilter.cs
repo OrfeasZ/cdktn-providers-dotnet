@@ -9,7 +9,7 @@ namespace oci.DataOciBatchBatchJobPools
     [JsiiByValue(fqn: "oci.dataOciBatchBatchJobPools.DataOciBatchBatchJobPoolsFilter")]
     public class DataOciBatchBatchJobPoolsFilter : oci.DataOciBatchBatchJobPools.IDataOciBatchBatchJobPoolsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/batch_batch_job_pools#name DataOciBatchBatchJobPools#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_job_pools#name DataOciBatchBatchJobPools#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBatchBatchJobPools
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/batch_batch_job_pools#values DataOciBatchBatchJobPools#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_job_pools#values DataOciBatchBatchJobPools#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBatchBatchJobPools
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/batch_batch_job_pools#regex DataOciBatchBatchJobPools#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_job_pools#regex DataOciBatchBatchJobPools#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

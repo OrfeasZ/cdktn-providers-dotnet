@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderApp")]
     public class IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderApp : oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderApp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#assertion_consumer_url IdentityDomainsApp#assertion_consumer_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#assertion_consumer_url IdentityDomainsApp#assertion_consumer_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assertionConsumerUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssertionConsumerUrl
@@ -18,7 +18,7 @@ namespace oci.IdentityDomainsApp
 
         private object? _encryptAssertion;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#encrypt_assertion IdentityDomainsApp#encrypt_assertion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#encrypt_assertion IdentityDomainsApp#encrypt_assertion}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#encryption_algorithm IdentityDomainsApp#encryption_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#encryption_algorithm IdentityDomainsApp#encryption_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EncryptionAlgorithm
@@ -59,7 +59,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#encryption_certificate IdentityDomainsApp#encryption_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#encryption_certificate IdentityDomainsApp#encryption_certificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "encryptionCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EncryptionCertificate
@@ -68,7 +68,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#federation_protocol IdentityDomainsApp#federation_protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#federation_protocol IdentityDomainsApp#federation_protocol}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "federationProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FederationProtocol
@@ -81,7 +81,7 @@ namespace oci.IdentityDomainsApp
 
         /// <summary>group_assertion_attributes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#group_assertion_attributes IdentityDomainsApp#group_assertion_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#group_assertion_attributes IdentityDomainsApp#group_assertion_attributes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderAppGroupAssertionAttributes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -112,7 +112,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#hok_acs_url IdentityDomainsApp#hok_acs_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#hok_acs_url IdentityDomainsApp#hok_acs_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hokAcsUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HokAcsUrl
@@ -123,7 +123,7 @@ namespace oci.IdentityDomainsApp
 
         private object? _hokRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#hok_required IdentityDomainsApp#hok_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#hok_required IdentityDomainsApp#hok_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -157,7 +157,7 @@ namespace oci.IdentityDomainsApp
 
         private object? _includeSigningCertInSignature;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#include_signing_cert_in_signature IdentityDomainsApp#include_signing_cert_in_signature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#include_signing_cert_in_signature IdentityDomainsApp#include_signing_cert_in_signature}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -189,7 +189,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#key_encryption_algorithm IdentityDomainsApp#key_encryption_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#key_encryption_algorithm IdentityDomainsApp#key_encryption_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyEncryptionAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyEncryptionAlgorithm
@@ -198,7 +198,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#logout_binding IdentityDomainsApp#logout_binding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#logout_binding IdentityDomainsApp#logout_binding}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logoutBinding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogoutBinding
@@ -209,7 +209,7 @@ namespace oci.IdentityDomainsApp
 
         private object? _logoutEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#logout_enabled IdentityDomainsApp#logout_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#logout_enabled IdentityDomainsApp#logout_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -241,7 +241,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#logout_request_url IdentityDomainsApp#logout_request_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#logout_request_url IdentityDomainsApp#logout_request_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logoutRequestUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogoutRequestUrl
@@ -250,7 +250,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#logout_response_url IdentityDomainsApp#logout_response_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#logout_response_url IdentityDomainsApp#logout_response_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logoutResponseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogoutResponseUrl
@@ -259,7 +259,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#metadata IdentityDomainsApp#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#metadata IdentityDomainsApp#metadata}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Metadata
@@ -268,7 +268,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#name_id_format IdentityDomainsApp#name_id_format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#name_id_format IdentityDomainsApp#name_id_format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameIdFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameIdFormat
@@ -277,7 +277,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#name_id_userstore_attribute IdentityDomainsApp#name_id_userstore_attribute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#name_id_userstore_attribute IdentityDomainsApp#name_id_userstore_attribute}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameIdUserstoreAttribute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NameIdUserstoreAttribute
@@ -286,7 +286,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#partner_provider_id IdentityDomainsApp#partner_provider_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#partner_provider_id IdentityDomainsApp#partner_provider_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "partnerProviderId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PartnerProviderId
@@ -295,7 +295,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#partner_provider_pattern IdentityDomainsApp#partner_provider_pattern}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#partner_provider_pattern IdentityDomainsApp#partner_provider_pattern}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "partnerProviderPattern", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PartnerProviderPattern
@@ -304,7 +304,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#signature_hash_algorithm IdentityDomainsApp#signature_hash_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#signature_hash_algorithm IdentityDomainsApp#signature_hash_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signatureHashAlgorithm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SignatureHashAlgorithm
@@ -313,7 +313,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#signing_certificate IdentityDomainsApp#signing_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#signing_certificate IdentityDomainsApp#signing_certificate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signingCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SigningCertificate
@@ -322,7 +322,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#sign_response_or_assertion IdentityDomainsApp#sign_response_or_assertion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#sign_response_or_assertion IdentityDomainsApp#sign_response_or_assertion}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signResponseOrAssertion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SignResponseOrAssertion
@@ -331,7 +331,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#succinct_id IdentityDomainsApp#succinct_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#succinct_id IdentityDomainsApp#succinct_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "succinctId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SuccinctId
@@ -344,7 +344,7 @@ namespace oci.IdentityDomainsApp
 
         /// <summary>user_assertion_attributes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#user_assertion_attributes IdentityDomainsApp#user_assertion_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#user_assertion_attributes IdentityDomainsApp#user_assertion_attributes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsApp.IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionsamlServiceProviderAppUserAssertionAttributes" />)[]</para>
         /// </remarks>
         [JsiiOptional]

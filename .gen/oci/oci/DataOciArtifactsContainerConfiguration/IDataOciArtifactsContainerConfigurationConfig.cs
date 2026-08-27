@@ -7,7 +7,7 @@ namespace oci.DataOciArtifactsContainerConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciArtifactsContainerConfigurationConfig), fullyQualifiedName: "oci.dataOciArtifactsContainerConfiguration.DataOciArtifactsContainerConfigurationConfig")]
     public interface IDataOciArtifactsContainerConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/artifacts_container_configuration#compartment_id DataOciArtifactsContainerConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/artifacts_container_configuration#compartment_id DataOciArtifactsContainerConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciArtifactsContainerConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/artifacts_container_configuration#compartment_id DataOciArtifactsContainerConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/artifacts_container_configuration#compartment_id DataOciArtifactsContainerConfiguration#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {

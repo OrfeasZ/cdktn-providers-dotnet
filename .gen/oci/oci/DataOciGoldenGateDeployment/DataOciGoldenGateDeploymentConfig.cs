@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateDeployment
     [JsiiByValue(fqn: "oci.dataOciGoldenGateDeployment.DataOciGoldenGateDeploymentConfig")]
     public class DataOciGoldenGateDeploymentConfig : oci.DataOciGoldenGateDeployment.IDataOciGoldenGateDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/golden_gate_deployment#deployment_id DataOciGoldenGateDeployment#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_deployment#deployment_id DataOciGoldenGateDeployment#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {

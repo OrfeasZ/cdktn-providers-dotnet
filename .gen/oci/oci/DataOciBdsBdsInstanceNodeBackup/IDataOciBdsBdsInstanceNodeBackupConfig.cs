@@ -7,21 +7,21 @@ namespace oci.DataOciBdsBdsInstanceNodeBackup
     [JsiiInterface(nativeType: typeof(IDataOciBdsBdsInstanceNodeBackupConfig), fullyQualifiedName: "oci.dataOciBdsBdsInstanceNodeBackup.DataOciBdsBdsInstanceNodeBackupConfig")]
     public interface IDataOciBdsBdsInstanceNodeBackupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_backup#bds_instance_id DataOciBdsBdsInstanceNodeBackup#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup#bds_instance_id DataOciBdsBdsInstanceNodeBackup#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_backup#node_backup_id DataOciBdsBdsInstanceNodeBackup#node_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup#node_backup_id DataOciBdsBdsInstanceNodeBackup#node_backup_id}.</summary>
         [JsiiProperty(name: "nodeBackupId", typeJson: "{\"primitive\":\"string\"}")]
         string NodeBackupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_backup#id DataOciBdsBdsInstanceNodeBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup#id DataOciBdsBdsInstanceNodeBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,21 +43,21 @@ namespace oci.DataOciBdsBdsInstanceNodeBackup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_backup#bds_instance_id DataOciBdsBdsInstanceNodeBackup#bds_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup#bds_instance_id DataOciBdsBdsInstanceNodeBackup#bds_instance_id}.</summary>
             [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_backup#node_backup_id DataOciBdsBdsInstanceNodeBackup#node_backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup#node_backup_id DataOciBdsBdsInstanceNodeBackup#node_backup_id}.</summary>
             [JsiiProperty(name: "nodeBackupId", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeBackupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_backup#id DataOciBdsBdsInstanceNodeBackup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup#id DataOciBdsBdsInstanceNodeBackup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationPatch
     [JsiiByValue(fqn: "oci.dataOciDataintegrationWorkspaceApplicationPatch.DataOciDataintegrationWorkspaceApplicationPatchConfig")]
     public class DataOciDataintegrationWorkspaceApplicationPatchConfig : oci.DataOciDataintegrationWorkspaceApplicationPatch.IDataOciDataintegrationWorkspaceApplicationPatchConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_application_patch#application_key DataOciDataintegrationWorkspaceApplicationPatch#application_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_application_patch#application_key DataOciDataintegrationWorkspaceApplicationPatch#application_key}.</summary>
         [JsiiProperty(name: "applicationKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationKey
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationPatch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_application_patch#patch_key DataOciDataintegrationWorkspaceApplicationPatch#patch_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_application_patch#patch_key DataOciDataintegrationWorkspaceApplicationPatch#patch_key}.</summary>
         [JsiiProperty(name: "patchKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PatchKey
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDataintegrationWorkspaceApplicationPatch
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_application_patch#workspace_id DataOciDataintegrationWorkspaceApplicationPatch#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_application_patch#workspace_id DataOciDataintegrationWorkspaceApplicationPatch#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkspaceId
         {

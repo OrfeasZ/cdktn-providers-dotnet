@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination")]
     public interface IDatabaseDatabaseDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_database#backup_destination_id DatabaseDatabase#backup_destination_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#backup_destination_id DatabaseDatabase#backup_destination_id}.</summary>
         [JsiiProperty(name: "backupDestinationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupDestinationId
@@ -18,7 +18,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_database#backup_destination_type DatabaseDatabase#backup_destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#backup_destination_type DatabaseDatabase#backup_destination_type}.</summary>
         [JsiiProperty(name: "backupDestinationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupDestinationType
@@ -36,7 +36,7 @@ namespace oci.DatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_database#backup_destination_id DatabaseDatabase#backup_destination_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#backup_destination_id DatabaseDatabase#backup_destination_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupDestinationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupDestinationId
@@ -44,7 +44,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_database#backup_destination_type DatabaseDatabase#backup_destination_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#backup_destination_type DatabaseDatabase#backup_destination_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupDestinationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupDestinationType

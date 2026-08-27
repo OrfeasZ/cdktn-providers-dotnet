@@ -9,7 +9,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsIdentityConnectors
     [JsiiByValue(fqn: "oci.dataOciDbmulticloudOracleDbAwsIdentityConnectors.DataOciDbmulticloudOracleDbAwsIdentityConnectorsFilter")]
     public class DataOciDbmulticloudOracleDbAwsIdentityConnectorsFilter : oci.DataOciDbmulticloudOracleDbAwsIdentityConnectors.IDataOciDbmulticloudOracleDbAwsIdentityConnectorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connectors#name DataOciDbmulticloudOracleDbAwsIdentityConnectors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connectors#name DataOciDbmulticloudOracleDbAwsIdentityConnectors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsIdentityConnectors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connectors#values DataOciDbmulticloudOracleDbAwsIdentityConnectors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connectors#values DataOciDbmulticloudOracleDbAwsIdentityConnectors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsIdentityConnectors
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connectors#regex DataOciDbmulticloudOracleDbAwsIdentityConnectors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dbmulticloud_oracle_db_aws_identity_connectors#regex DataOciDbmulticloudOracleDbAwsIdentityConnectors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

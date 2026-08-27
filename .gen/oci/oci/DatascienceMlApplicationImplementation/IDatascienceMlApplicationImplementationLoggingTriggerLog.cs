@@ -7,7 +7,7 @@ namespace oci.DatascienceMlApplicationImplementation
     [JsiiInterface(nativeType: typeof(IDatascienceMlApplicationImplementationLoggingTriggerLog), fullyQualifiedName: "oci.datascienceMlApplicationImplementation.DatascienceMlApplicationImplementationLoggingTriggerLog")]
     public interface IDatascienceMlApplicationImplementationLoggingTriggerLog
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace oci.DatascienceMlApplicationImplementation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}.</summary>
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogGroupId
@@ -32,7 +32,7 @@ namespace oci.DatascienceMlApplicationImplementation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}.</summary>
         [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LogId
@@ -50,7 +50,7 @@ namespace oci.DatascienceMlApplicationImplementation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#enable_logging DatascienceMlApplicationImplementation#enable_logging}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -61,7 +61,7 @@ namespace oci.DatascienceMlApplicationImplementation
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#log_group_id DatascienceMlApplicationImplementation#log_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogGroupId
@@ -69,7 +69,7 @@ namespace oci.DatascienceMlApplicationImplementation
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#log_id DatascienceMlApplicationImplementation#log_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "logId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LogId

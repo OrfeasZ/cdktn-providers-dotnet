@@ -13,7 +13,7 @@ namespace oci.AiDocumentProcessorJob
 
         /// <summary>features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#features AiDocumentProcessorJob#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_document_processor_job#features AiDocumentProcessorJob#features}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigFeatures" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.aiDocumentProcessorJob.AiDocumentProcessorJobProcessorConfigFeatures\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace oci.AiDocumentProcessorJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#processor_type AiDocumentProcessorJob#processor_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_document_processor_job#processor_type AiDocumentProcessorJob#processor_type}.</summary>
         [JsiiProperty(name: "processorType", typeJson: "{\"primitive\":\"string\"}")]
         public string ProcessorType
         {
@@ -51,7 +51,7 @@ namespace oci.AiDocumentProcessorJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#document_type AiDocumentProcessorJob#document_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_document_processor_job#document_type AiDocumentProcessorJob#document_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "documentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DocumentType
@@ -62,7 +62,7 @@ namespace oci.AiDocumentProcessorJob
 
         private object? _isZipOutputEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#is_zip_output_enabled AiDocumentProcessorJob#is_zip_output_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_document_processor_job#is_zip_output_enabled AiDocumentProcessorJob#is_zip_output_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -94,7 +94,7 @@ namespace oci.AiDocumentProcessorJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#language AiDocumentProcessorJob#language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_document_processor_job#language AiDocumentProcessorJob#language}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Language
@@ -103,7 +103,7 @@ namespace oci.AiDocumentProcessorJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#model_id AiDocumentProcessorJob#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_document_processor_job#model_id AiDocumentProcessorJob#model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelId
@@ -116,7 +116,7 @@ namespace oci.AiDocumentProcessorJob
 
         /// <summary>normalization_fields block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_document_processor_job#normalization_fields AiDocumentProcessorJob#normalization_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_document_processor_job#normalization_fields AiDocumentProcessorJob#normalization_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.AiDocumentProcessorJob.IAiDocumentProcessorJobProcessorConfigNormalizationFields" />)[]</para>
         /// </remarks>
         [JsiiOptional]

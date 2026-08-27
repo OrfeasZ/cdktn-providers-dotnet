@@ -9,7 +9,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
     [JsiiByValue(fqn: "oci.dataOciMysqlDbSystemMaintenanceEvents.DataOciMysqlDbSystemMaintenanceEventsFilter")]
     public class DataOciMysqlDbSystemMaintenanceEventsFilter : oci.DataOciMysqlDbSystemMaintenanceEvents.IDataOciMysqlDbSystemMaintenanceEventsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/mysql_db_system_maintenance_events#name DataOciMysqlDbSystemMaintenanceEvents#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_db_system_maintenance_events#name DataOciMysqlDbSystemMaintenanceEvents#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/mysql_db_system_maintenance_events#values DataOciMysqlDbSystemMaintenanceEvents#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_db_system_maintenance_events#values DataOciMysqlDbSystemMaintenanceEvents#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMysqlDbSystemMaintenanceEvents
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/mysql_db_system_maintenance_events#regex DataOciMysqlDbSystemMaintenanceEvents#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_db_system_maintenance_events#regex DataOciMysqlDbSystemMaintenanceEvents#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

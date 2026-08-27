@@ -7,7 +7,7 @@ namespace oci.DataOciManagementDashboardManagementSavedSearch
     [JsiiInterface(nativeType: typeof(IDataOciManagementDashboardManagementSavedSearchConfig), fullyQualifiedName: "oci.dataOciManagementDashboardManagementSavedSearch.DataOciManagementDashboardManagementSavedSearchConfig")]
     public interface IDataOciManagementDashboardManagementSavedSearchConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_dashboard_management_saved_search#management_saved_search_id DataOciManagementDashboardManagementSavedSearch#management_saved_search_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/management_dashboard_management_saved_search#management_saved_search_id DataOciManagementDashboardManagementSavedSearch#management_saved_search_id}.</summary>
         [JsiiProperty(name: "managementSavedSearchId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagementSavedSearchId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciManagementDashboardManagementSavedSearch
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/management_dashboard_management_saved_search#management_saved_search_id DataOciManagementDashboardManagementSavedSearch#management_saved_search_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/management_dashboard_management_saved_search#management_saved_search_id DataOciManagementDashboardManagementSavedSearch#management_saved_search_id}.</summary>
             [JsiiProperty(name: "managementSavedSearchId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagementSavedSearchId
             {

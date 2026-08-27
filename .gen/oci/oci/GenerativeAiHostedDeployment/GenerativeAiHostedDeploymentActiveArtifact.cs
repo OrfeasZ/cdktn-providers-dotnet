@@ -7,7 +7,7 @@ namespace oci.GenerativeAiHostedDeployment
     [JsiiByValue(fqn: "oci.generativeAiHostedDeployment.GenerativeAiHostedDeploymentActiveArtifact")]
     public class GenerativeAiHostedDeploymentActiveArtifact : oci.GenerativeAiHostedDeployment.IGenerativeAiHostedDeploymentActiveArtifact
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#artifact_type GenerativeAiHostedDeployment#artifact_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#artifact_type GenerativeAiHostedDeployment#artifact_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "artifactType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArtifactType
@@ -16,7 +16,7 @@ namespace oci.GenerativeAiHostedDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#container_uri GenerativeAiHostedDeployment#container_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#container_uri GenerativeAiHostedDeployment#container_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "containerUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContainerUri
@@ -25,7 +25,7 @@ namespace oci.GenerativeAiHostedDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#hosted_deployment_id GenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#hosted_deployment_id GenerativeAiHostedDeployment#hosted_deployment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostedDeploymentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostedDeploymentId
@@ -34,7 +34,7 @@ namespace oci.GenerativeAiHostedDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#id GenerativeAiHostedDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#id GenerativeAiHostedDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace oci.GenerativeAiHostedDeployment
 
         private object? _isVulnerabilityScanRequired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#is_vulnerability_scan_required GenerativeAiHostedDeployment#is_vulnerability_scan_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#is_vulnerability_scan_required GenerativeAiHostedDeployment#is_vulnerability_scan_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -81,7 +81,7 @@ namespace oci.GenerativeAiHostedDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#status GenerativeAiHostedDeployment#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#status GenerativeAiHostedDeployment#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -90,7 +90,7 @@ namespace oci.GenerativeAiHostedDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#tag GenerativeAiHostedDeployment#tag}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#tag GenerativeAiHostedDeployment#tag}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Tag
@@ -99,7 +99,7 @@ namespace oci.GenerativeAiHostedDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_hosted_deployment#time_created GenerativeAiHostedDeployment#time_created}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_hosted_deployment#time_created GenerativeAiHostedDeployment#time_created}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreated", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreated

@@ -9,7 +9,7 @@ namespace oci.DataOciBatchBatchTaskProfile
     [JsiiByValue(fqn: "oci.dataOciBatchBatchTaskProfile.DataOciBatchBatchTaskProfileConfig")]
     public class DataOciBatchBatchTaskProfileConfig : oci.DataOciBatchBatchTaskProfile.IDataOciBatchBatchTaskProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/batch_batch_task_profile#batch_task_profile_id DataOciBatchBatchTaskProfile#batch_task_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_task_profile#batch_task_profile_id DataOciBatchBatchTaskProfile#batch_task_profile_id}.</summary>
         [JsiiProperty(name: "batchTaskProfileId", typeJson: "{\"primitive\":\"string\"}")]
         public string BatchTaskProfileId
         {

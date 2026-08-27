@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallHealthStatus
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallHealthStatus.DataOciNetworkFirewallNetworkFirewallHealthStatusConfig")]
     public class DataOciNetworkFirewallNetworkFirewallHealthStatusConfig : oci.DataOciNetworkFirewallNetworkFirewallHealthStatus.IDataOciNetworkFirewallNetworkFirewallHealthStatusConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_firewall_network_firewall_health_status#network_firewall_id DataOciNetworkFirewallNetworkFirewallHealthStatus#network_firewall_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_health_status#network_firewall_id DataOciNetworkFirewallNetworkFirewallHealthStatus#network_firewall_id}.</summary>
         [JsiiProperty(name: "networkFirewallId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallHealthStatus
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_firewall_network_firewall_health_status#id DataOciNetworkFirewallNetworkFirewallHealthStatus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_health_status#id DataOciNetworkFirewallNetworkFirewallHealthStatus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

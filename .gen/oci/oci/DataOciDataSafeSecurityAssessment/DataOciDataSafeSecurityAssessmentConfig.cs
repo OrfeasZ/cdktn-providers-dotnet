@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityAssessment
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityAssessment.DataOciDataSafeSecurityAssessmentConfig")]
     public class DataOciDataSafeSecurityAssessmentConfig : oci.DataOciDataSafeSecurityAssessment.IDataOciDataSafeSecurityAssessmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment#security_assessment_id DataOciDataSafeSecurityAssessment#security_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_assessment#security_assessment_id DataOciDataSafeSecurityAssessment#security_assessment_id}.</summary>
         [JsiiProperty(name: "securityAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityAssessmentId
         {

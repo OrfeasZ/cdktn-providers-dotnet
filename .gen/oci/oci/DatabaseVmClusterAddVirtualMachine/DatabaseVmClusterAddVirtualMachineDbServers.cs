@@ -9,7 +9,7 @@ namespace oci.DatabaseVmClusterAddVirtualMachine
     [JsiiByValue(fqn: "oci.databaseVmClusterAddVirtualMachine.DatabaseVmClusterAddVirtualMachineDbServers")]
     public class DatabaseVmClusterAddVirtualMachineDbServers : oci.DatabaseVmClusterAddVirtualMachine.IDatabaseVmClusterAddVirtualMachineDbServers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_vm_cluster_add_virtual_machine#db_server_id DatabaseVmClusterAddVirtualMachine#db_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_vm_cluster_add_virtual_machine#db_server_id DatabaseVmClusterAddVirtualMachine#db_server_id}.</summary>
         [JsiiProperty(name: "dbServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbServerId
         {

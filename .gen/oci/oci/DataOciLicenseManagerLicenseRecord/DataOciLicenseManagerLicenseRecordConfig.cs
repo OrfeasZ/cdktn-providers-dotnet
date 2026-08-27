@@ -9,7 +9,7 @@ namespace oci.DataOciLicenseManagerLicenseRecord
     [JsiiByValue(fqn: "oci.dataOciLicenseManagerLicenseRecord.DataOciLicenseManagerLicenseRecordConfig")]
     public class DataOciLicenseManagerLicenseRecordConfig : oci.DataOciLicenseManagerLicenseRecord.IDataOciLicenseManagerLicenseRecordConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/license_manager_license_record#license_record_id DataOciLicenseManagerLicenseRecord#license_record_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/license_manager_license_record#license_record_id DataOciLicenseManagerLicenseRecord#license_record_id}.</summary>
         [JsiiProperty(name: "licenseRecordId", typeJson: "{\"primitive\":\"string\"}")]
         public string LicenseRecordId
         {

@@ -9,7 +9,7 @@ namespace oci.MeteringComputationQuery
     [JsiiByValue(fqn: "oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionReportQuery")]
     public class MeteringComputationQueryQueryDefinitionReportQuery : oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionReportQuery
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#granularity MeteringComputationQuery#granularity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#granularity MeteringComputationQuery#granularity}.</summary>
         [JsiiProperty(name: "granularity", typeJson: "{\"primitive\":\"string\"}")]
         public string Granularity
         {
@@ -17,7 +17,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#tenant_id MeteringComputationQuery#tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#tenant_id MeteringComputationQuery#tenant_id}.</summary>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
         public string TenantId
         {
@@ -25,7 +25,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#compartment_depth MeteringComputationQuery#compartment_depth}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#compartment_depth MeteringComputationQuery#compartment_depth}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentDepth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CompartmentDepth
@@ -34,7 +34,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#date_range_name MeteringComputationQuery#date_range_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#date_range_name MeteringComputationQuery#date_range_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dateRangeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DateRangeName
@@ -43,7 +43,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#filter MeteringComputationQuery#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#filter MeteringComputationQuery#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Filter
@@ -54,7 +54,7 @@ namespace oci.MeteringComputationQuery
 
         /// <summary>forecast block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#forecast MeteringComputationQuery#forecast}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#forecast MeteringComputationQuery#forecast}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forecast", typeJson: "{\"fqn\":\"oci.meteringComputationQuery.MeteringComputationQueryQueryDefinitionReportQueryForecast\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#group_by MeteringComputationQuery#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#group_by MeteringComputationQuery#group_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? GroupBy
@@ -77,7 +77,7 @@ namespace oci.MeteringComputationQuery
 
         /// <summary>group_by_tag block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#group_by_tag MeteringComputationQuery#group_by_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#group_by_tag MeteringComputationQuery#group_by_tag}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MeteringComputationQuery.IMeteringComputationQueryQueryDefinitionReportQueryGroupByTag" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -110,7 +110,7 @@ namespace oci.MeteringComputationQuery
 
         private object? _isAggregateByTime;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#is_aggregate_by_time MeteringComputationQuery#is_aggregate_by_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#is_aggregate_by_time MeteringComputationQuery#is_aggregate_by_time}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -142,7 +142,7 @@ namespace oci.MeteringComputationQuery
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#query_type MeteringComputationQuery#query_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#query_type MeteringComputationQuery#query_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "queryType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QueryType
@@ -151,7 +151,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#time_usage_ended MeteringComputationQuery#time_usage_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#time_usage_ended MeteringComputationQuery#time_usage_ended}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeUsageEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeUsageEnded
@@ -160,7 +160,7 @@ namespace oci.MeteringComputationQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/metering_computation_query#time_usage_started MeteringComputationQuery#time_usage_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/metering_computation_query#time_usage_started MeteringComputationQuery#time_usage_started}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeUsageStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeUsageStarted

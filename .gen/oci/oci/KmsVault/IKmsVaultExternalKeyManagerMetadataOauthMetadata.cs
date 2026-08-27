@@ -7,21 +7,21 @@ namespace oci.KmsVault
     [JsiiInterface(nativeType: typeof(IKmsVaultExternalKeyManagerMetadataOauthMetadata), fullyQualifiedName: "oci.kmsVault.KmsVaultExternalKeyManagerMetadataOauthMetadata")]
     public interface IKmsVaultExternalKeyManagerMetadataOauthMetadata
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault#client_app_id KmsVault#client_app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault#client_app_id KmsVault#client_app_id}.</summary>
         [JsiiProperty(name: "clientAppId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientAppId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault#client_app_secret KmsVault#client_app_secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault#client_app_secret KmsVault#client_app_secret}.</summary>
         [JsiiProperty(name: "clientAppSecret", typeJson: "{\"primitive\":\"string\"}")]
         string ClientAppSecret
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault#idcs_account_name_url KmsVault#idcs_account_name_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault#idcs_account_name_url KmsVault#idcs_account_name_url}.</summary>
         [JsiiProperty(name: "idcsAccountNameUrl", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsAccountNameUrl
         {
@@ -35,21 +35,21 @@ namespace oci.KmsVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault#client_app_id KmsVault#client_app_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault#client_app_id KmsVault#client_app_id}.</summary>
             [JsiiProperty(name: "clientAppId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientAppId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault#client_app_secret KmsVault#client_app_secret}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault#client_app_secret KmsVault#client_app_secret}.</summary>
             [JsiiProperty(name: "clientAppSecret", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientAppSecret
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault#idcs_account_name_url KmsVault#idcs_account_name_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault#idcs_account_name_url KmsVault#idcs_account_name_url}.</summary>
             [JsiiProperty(name: "idcsAccountNameUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsAccountNameUrl
             {

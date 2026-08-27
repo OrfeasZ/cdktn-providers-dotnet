@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppCertificates), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppCertificates")]
     public interface IIdentityDomainsAppCertificates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}.</summary>
         [JsiiProperty(name: "certAlias", typeJson: "{\"primitive\":\"string\"}")]
         string CertAlias
         {
@@ -21,7 +21,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#cert_alias IdentityDomainsApp#cert_alias}.</summary>
             [JsiiProperty(name: "certAlias", typeJson: "{\"primitive\":\"string\"}")]
             public string CertAlias
             {

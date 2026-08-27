@@ -7,7 +7,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
     [JsiiByValue(fqn: "oci.dbmulticloudOracleDbAzureBlobMount.DbmulticloudOracleDbAzureBlobMountTimeouts")]
     public class DbmulticloudOracleDbAzureBlobMountTimeouts : oci.DbmulticloudOracleDbAzureBlobMount.IDbmulticloudOracleDbAzureBlobMountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#create DbmulticloudOracleDbAzureBlobMount#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#create DbmulticloudOracleDbAzureBlobMount#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#delete DbmulticloudOracleDbAzureBlobMount#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#delete DbmulticloudOracleDbAzureBlobMount#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudOracleDbAzureBlobMount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#update DbmulticloudOracleDbAzureBlobMount#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_blob_mount#update DbmulticloudOracleDbAzureBlobMount#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

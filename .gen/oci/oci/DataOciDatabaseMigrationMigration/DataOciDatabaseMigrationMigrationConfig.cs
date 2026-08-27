@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationMigration
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationMigration.DataOciDatabaseMigrationMigrationConfig")]
     public class DataOciDatabaseMigrationMigrationConfig : oci.DataOciDatabaseMigrationMigration.IDataOciDatabaseMigrationMigrationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_migration_migration#migration_id DataOciDatabaseMigrationMigration#migration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_migration_migration#migration_id DataOciDatabaseMigrationMigration#migration_id}.</summary>
         [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
         public string MigrationId
         {

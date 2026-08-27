@@ -9,7 +9,7 @@ namespace oci.DataOciResourcemanagerStack
     [JsiiByValue(fqn: "oci.dataOciResourcemanagerStack.DataOciResourcemanagerStackConfig")]
     public class DataOciResourcemanagerStackConfig : oci.DataOciResourcemanagerStack.IDataOciResourcemanagerStackConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resourcemanager_stack#stack_id DataOciResourcemanagerStack#stack_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/resourcemanager_stack#stack_id DataOciResourcemanagerStack#stack_id}.</summary>
         [JsiiProperty(name: "stackId", typeJson: "{\"primitive\":\"string\"}")]
         public string StackId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciResourcemanagerStack
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/resourcemanager_stack#id DataOciResourcemanagerStack#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/resourcemanager_stack#id DataOciResourcemanagerStack#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

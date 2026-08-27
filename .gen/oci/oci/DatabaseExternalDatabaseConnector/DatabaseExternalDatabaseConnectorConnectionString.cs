@@ -9,7 +9,7 @@ namespace oci.DatabaseExternalDatabaseConnector
     [JsiiByValue(fqn: "oci.databaseExternalDatabaseConnector.DatabaseExternalDatabaseConnectorConnectionString")]
     public class DatabaseExternalDatabaseConnectorConnectionString : oci.DatabaseExternalDatabaseConnector.IDatabaseExternalDatabaseConnectorConnectionString
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_external_database_connector#hostname DatabaseExternalDatabaseConnector#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseExternalDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_external_database_connector#port DatabaseExternalDatabaseConnector#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public double Port
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseExternalDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_external_database_connector#protocol DatabaseExternalDatabaseConnector#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseExternalDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_external_database_connector#service DatabaseExternalDatabaseConnector#service}.</summary>
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]
         public string Service
         {

@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciRecoveryProtectionPolicies
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies}.</summary>
-    [JsiiClass(nativeType: typeof(oci.DataOciRecoveryProtectionPolicies.DataOciRecoveryProtectionPolicies), fullyQualifiedName: "oci.dataOciRecoveryProtectionPolicies.DataOciRecoveryProtectionPolicies", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciRecoveryProtectionPolicies.DataOciRecoveryProtectionPoliciesConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies}.</summary>
+    [JsiiClass(nativeType: typeof(oci.DataOciRecoveryProtectionPolicies.DataOciRecoveryProtectionPolicies), fullyQualifiedName: "oci.dataOciRecoveryProtectionPolicies.DataOciRecoveryProtectionPolicies", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"oci.dataOciRecoveryProtectionPolicies.DataOciRecoveryProtectionPoliciesConfig\"}}]")]
     public class DataOciRecoveryProtectionPolicies : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/recovery_protection_policies oci_recovery_protection_policies} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public DataOciRecoveryProtectionPolicies(Constructs.Construct scope, string id, oci.DataOciRecoveryProtectionPolicies.IDataOciRecoveryProtectionPoliciesConfig config): base(_MakeDeputyProps(scope, id, config))
+        public DataOciRecoveryProtectionPolicies(Constructs.Construct scope, string id, oci.DataOciRecoveryProtectionPolicies.IDataOciRecoveryProtectionPoliciesConfig? config = null): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, oci.DataOciRecoveryProtectionPolicies.IDataOciRecoveryProtectionPoliciesConfig config)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, oci.DataOciRecoveryProtectionPolicies.IDataOciRecoveryProtectionPoliciesConfig? config = null)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,7 +40,7 @@ namespace oci.DataOciRecoveryProtectionPolicies
         /// <param name="importToId">The construct id used in the generated config for the DataOciRecoveryProtectionPolicies to import.</param>
         /// <param name="importFromId">The id of the existing DataOciRecoveryProtectionPolicies that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciRecoveryProtectionPolicies to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciRecoveryProtectionPolicies to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/recovery_protection_policies#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciRecoveryProtectionPolicies that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciRecoveryProtectionPolicies to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciRecoveryProtectionPolicies to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/recovery_protection_policies#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciRecoveryProtectionPolicies that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciRecoveryProtectionPolicies to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciRecoveryProtectionPolicies.DataOciRecoveryProtectionPolicies), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -70,6 +70,12 @@ namespace oci.DataOciRecoveryProtectionPolicies
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCompartmentId")]
+        public virtual void ResetCompartmentId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDisplayName")]
         public virtual void ResetDisplayName()
         {
@@ -84,6 +90,12 @@ namespace oci.DataOciRecoveryProtectionPolicies
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMustEnforceCloudLocality")]
+        public virtual void ResetMustEnforceCloudLocality()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -168,6 +180,16 @@ namespace oci.DataOciRecoveryProtectionPolicies
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "mustEnforceCloudLocalityInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? MustEnforceCloudLocalityInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "ownerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? OwnerInput
@@ -208,6 +230,36 @@ namespace oci.DataOciRecoveryProtectionPolicies
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "mustEnforceCloudLocality", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object MustEnforceCloudLocality
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}")]

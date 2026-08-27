@@ -7,7 +7,7 @@ namespace oci.MarketplacePublication
     [JsiiInterface(nativeType: typeof(IMarketplacePublicationPackageDetailsOperatingSystem), fullyQualifiedName: "oci.marketplacePublication.MarketplacePublicationPackageDetailsOperatingSystem")]
     public interface IMarketplacePublicationPackageDetailsOperatingSystem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -25,7 +25,7 @@ namespace oci.MarketplacePublication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/marketplace_publication#name MarketplacePublication#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

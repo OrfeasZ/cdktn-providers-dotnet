@@ -7,7 +7,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
     [JsiiInterface(nativeType: typeof(IDataOciTenantmanagercontrolplaneOrganizationTenanciesConfig), fullyQualifiedName: "oci.dataOciTenantmanagercontrolplaneOrganizationTenancies.DataOciTenantmanagercontrolplaneOrganizationTenanciesConfig")]
     public interface IDataOciTenantmanagercontrolplaneOrganizationTenanciesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#organization_id DataOciTenantmanagercontrolplaneOrganizationTenancies#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#organization_id DataOciTenantmanagercontrolplaneOrganizationTenancies#organization_id}.</summary>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
         string OrganizationId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#filter DataOciTenantmanagercontrolplaneOrganizationTenancies#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#filter DataOciTenantmanagercontrolplaneOrganizationTenancies#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneOrganizationTenancies.IDataOciTenantmanagercontrolplaneOrganizationTenanciesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciTenantmanagercontrolplaneOrganizationTenancies.DataOciTenantmanagercontrolplaneOrganizationTenanciesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#id DataOciTenantmanagercontrolplaneOrganizationTenancies#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#id DataOciTenantmanagercontrolplaneOrganizationTenancies#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#organization_id DataOciTenantmanagercontrolplaneOrganizationTenancies#organization_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#organization_id DataOciTenantmanagercontrolplaneOrganizationTenancies#organization_id}.</summary>
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
             public string OrganizationId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#filter DataOciTenantmanagercontrolplaneOrganizationTenancies#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#filter DataOciTenantmanagercontrolplaneOrganizationTenancies#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciTenantmanagercontrolplaneOrganizationTenancies.IDataOciTenantmanagercontrolplaneOrganizationTenanciesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciTenantmanagercontrolplaneOrganizationTenancies
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#id DataOciTenantmanagercontrolplaneOrganizationTenancies#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_organization_tenancies#id DataOciTenantmanagercontrolplaneOrganizationTenancies#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.AdmRemediationRecipe
     [JsiiByValue(fqn: "oci.admRemediationRecipe.AdmRemediationRecipeScmConfiguration")]
     public class AdmRemediationRecipeScmConfiguration : oci.AdmRemediationRecipe.IAdmRemediationRecipeScmConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#branch AdmRemediationRecipe#branch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#branch AdmRemediationRecipe#branch}.</summary>
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}")]
         public string Branch
         {
@@ -19,7 +19,7 @@ namespace oci.AdmRemediationRecipe
 
         private object _isAutomergeEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#is_automerge_enabled AdmRemediationRecipe#is_automerge_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#is_automerge_enabled AdmRemediationRecipe#is_automerge_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#scm_type AdmRemediationRecipe#scm_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#scm_type AdmRemediationRecipe#scm_type}.</summary>
         [JsiiProperty(name: "scmType", typeJson: "{\"primitive\":\"string\"}")]
         public string ScmType
         {
@@ -58,7 +58,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#build_file_location AdmRemediationRecipe#build_file_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#build_file_location AdmRemediationRecipe#build_file_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "buildFileLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BuildFileLocation
@@ -67,7 +67,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#external_scm_type AdmRemediationRecipe#external_scm_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#external_scm_type AdmRemediationRecipe#external_scm_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalScmType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalScmType
@@ -76,7 +76,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#oci_code_repository_id AdmRemediationRecipe#oci_code_repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#oci_code_repository_id AdmRemediationRecipe#oci_code_repository_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ociCodeRepositoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OciCodeRepositoryId
@@ -85,7 +85,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#pat_secret_id AdmRemediationRecipe#pat_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#pat_secret_id AdmRemediationRecipe#pat_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatSecretId
@@ -94,7 +94,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#repository_url AdmRemediationRecipe#repository_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#repository_url AdmRemediationRecipe#repository_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RepositoryUrl
@@ -103,7 +103,7 @@ namespace oci.AdmRemediationRecipe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_remediation_recipe#username AdmRemediationRecipe#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#username AdmRemediationRecipe#username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Username

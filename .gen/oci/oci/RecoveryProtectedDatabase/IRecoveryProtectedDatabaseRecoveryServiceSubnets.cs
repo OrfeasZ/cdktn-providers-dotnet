@@ -7,7 +7,7 @@ namespace oci.RecoveryProtectedDatabase
     [JsiiInterface(nativeType: typeof(IRecoveryProtectedDatabaseRecoveryServiceSubnets), fullyQualifiedName: "oci.recoveryProtectedDatabase.RecoveryProtectedDatabaseRecoveryServiceSubnets")]
     public interface IRecoveryProtectedDatabaseRecoveryServiceSubnets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/recovery_protected_database#recovery_service_subnet_id RecoveryProtectedDatabase#recovery_service_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/recovery_protected_database#recovery_service_subnet_id RecoveryProtectedDatabase#recovery_service_subnet_id}.</summary>
         [JsiiProperty(name: "recoveryServiceSubnetId", typeJson: "{\"primitive\":\"string\"}")]
         string RecoveryServiceSubnetId
         {
@@ -21,7 +21,7 @@ namespace oci.RecoveryProtectedDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/recovery_protected_database#recovery_service_subnet_id RecoveryProtectedDatabase#recovery_service_subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/recovery_protected_database#recovery_service_subnet_id RecoveryProtectedDatabase#recovery_service_subnet_id}.</summary>
             [JsiiProperty(name: "recoveryServiceSubnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string RecoveryServiceSubnetId
             {

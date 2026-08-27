@@ -5,7 +5,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentAdminUser
     /// <remarks>
     /// <h1><c>data_oci_fusion_apps_fusion_environment_admin_user</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fusion_apps_fusion_environment_admin_user"><c>data_oci_fusion_apps_fusion_environment_admin_user</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fusion_apps_fusion_environment_admin_user"><c>data_oci_fusion_apps_fusion_environment_admin_user</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

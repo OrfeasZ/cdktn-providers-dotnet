@@ -33,6 +33,12 @@ namespace oci.BdsBdsInstance
         {
         }
 
+        [JsiiMethod(name: "resetBdsVersion")]
+        public virtual void ResetBdsVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOdhVersion")]
         public virtual void ResetOdhVersion()
         {

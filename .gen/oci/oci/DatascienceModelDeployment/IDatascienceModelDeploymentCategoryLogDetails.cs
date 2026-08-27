@@ -9,7 +9,7 @@ namespace oci.DatascienceModelDeployment
     {
         /// <summary>access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_deployment#access DatascienceModelDeployment#access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_deployment#access DatascienceModelDeployment#access}
         /// </remarks>
         [JsiiProperty(name: "access", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentCategoryLogDetailsAccess\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.DatascienceModelDeployment
 
         /// <summary>predict block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_deployment#predict DatascienceModelDeployment#predict}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_deployment#predict DatascienceModelDeployment#predict}
         /// </remarks>
         [JsiiProperty(name: "predict", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentCategoryLogDetailsPredict\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace oci.DatascienceModelDeployment
 
             /// <summary>access block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_deployment#access DatascienceModelDeployment#access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_deployment#access DatascienceModelDeployment#access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "access", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentCategoryLogDetailsAccess\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DatascienceModelDeployment
 
             /// <summary>predict block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_deployment#predict DatascienceModelDeployment#predict}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_deployment#predict DatascienceModelDeployment#predict}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "predict", typeJson: "{\"fqn\":\"oci.datascienceModelDeployment.DatascienceModelDeploymentCategoryLogDetailsPredict\"}", isOptional: true)]

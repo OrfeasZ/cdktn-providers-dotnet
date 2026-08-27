@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsAccountRecoverySetting
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsAccountRecoverySetting.DataOciIdentityDomainsAccountRecoverySettingConfig")]
     public class DataOciIdentityDomainsAccountRecoverySettingConfig : oci.DataOciIdentityDomainsAccountRecoverySetting.IDataOciIdentityDomainsAccountRecoverySettingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_account_recovery_setting#account_recovery_setting_id DataOciIdentityDomainsAccountRecoverySetting#account_recovery_setting_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_account_recovery_setting#account_recovery_setting_id DataOciIdentityDomainsAccountRecoverySetting#account_recovery_setting_id}.</summary>
         [JsiiProperty(name: "accountRecoverySettingId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountRecoverySettingId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsAccountRecoverySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_account_recovery_setting#idcs_endpoint DataOciIdentityDomainsAccountRecoverySetting#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_account_recovery_setting#idcs_endpoint DataOciIdentityDomainsAccountRecoverySetting#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsAccountRecoverySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_account_recovery_setting#attributes DataOciIdentityDomainsAccountRecoverySetting#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_account_recovery_setting#attributes DataOciIdentityDomainsAccountRecoverySetting#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsAccountRecoverySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_account_recovery_setting#attribute_sets DataOciIdentityDomainsAccountRecoverySetting#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_account_recovery_setting#attribute_sets DataOciIdentityDomainsAccountRecoverySetting#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsAccountRecoverySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_account_recovery_setting#authorization DataOciIdentityDomainsAccountRecoverySetting#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_account_recovery_setting#authorization DataOciIdentityDomainsAccountRecoverySetting#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsAccountRecoverySetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_account_recovery_setting#resource_type_schema_version DataOciIdentityDomainsAccountRecoverySetting#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_account_recovery_setting#resource_type_schema_version DataOciIdentityDomainsAccountRecoverySetting#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

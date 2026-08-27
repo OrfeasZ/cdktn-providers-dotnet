@@ -5,7 +5,7 @@ namespace oci.DataOciNosqlIndexes
     /// <remarks>
     /// <h1><c>data_oci_nosql_indexes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/nosql_indexes"><c>data_oci_nosql_indexes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/nosql_indexes"><c>data_oci_nosql_indexes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

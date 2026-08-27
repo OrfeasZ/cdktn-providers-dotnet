@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
     [JsiiByValue(fqn: "oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalConfig")]
     public class DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalConfig : oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.IDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#database_tools_database_api_gateway_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#database_tools_database_api_gateway_config_id}.</summary>
         [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsDatabaseApiGatewayConfigId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#global_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#global_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#global_key DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#global_key}.</summary>
         [JsiiProperty(name: "globalKey", typeJson: "{\"primitive\":\"string\"}")]
         public string GlobalKey
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#advanced_properties DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#advanced_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#advanced_properties DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#advanced_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "advancedProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AdvancedProperties
@@ -44,7 +44,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
 
         /// <summary>certificate_bundle block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#certificate_bundle DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#certificate_bundle}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#certificate_bundle DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#certificate_bundle}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateBundle", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalCertificateBundle\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#database_api_status DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#database_api_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#database_api_status DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#database_api_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseApiStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseApiStatus
@@ -63,7 +63,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#document_root DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#document_root}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#document_root DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#document_root}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "documentRoot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DocumentRoot
@@ -72,7 +72,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#http_port DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#http_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#http_port DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#http_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HttpPort
@@ -81,7 +81,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#https_port DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#https_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#https_port DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#https_port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "httpsPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? HttpsPort
@@ -90,7 +90,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -103,7 +103,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#pool_route DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#pool_route}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#pool_route DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#pool_route}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "poolRoute", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PoolRoute
@@ -112,7 +112,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#pool_routing_header DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#pool_routing_header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#pool_routing_header DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#pool_routing_header}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "poolRoutingHeader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PoolRoutingHeader
@@ -123,7 +123,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_global#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobal.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigGlobalTimeouts\"}", isOptional: true)]

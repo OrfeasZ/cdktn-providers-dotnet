@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsPrivateEndpoint.DataOciDatabaseToolsDatabaseToolsPrivateEndpointConfig")]
     public class DataOciDatabaseToolsDatabaseToolsPrivateEndpointConfig : oci.DataOciDatabaseToolsDatabaseToolsPrivateEndpoint.IDataOciDatabaseToolsDatabaseToolsPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_database_tools_private_endpoint#database_tools_private_endpoint_id DataOciDatabaseToolsDatabaseToolsPrivateEndpoint#database_tools_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_database_tools_private_endpoint#database_tools_private_endpoint_id DataOciDatabaseToolsDatabaseToolsPrivateEndpoint#database_tools_private_endpoint_id}.</summary>
         [JsiiProperty(name: "databaseToolsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsPrivateEndpointId
         {

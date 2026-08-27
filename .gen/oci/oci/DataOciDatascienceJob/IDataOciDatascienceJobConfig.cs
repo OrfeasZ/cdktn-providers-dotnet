@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceJob
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceJobConfig), fullyQualifiedName: "oci.dataOciDatascienceJob.DataOciDatascienceJobConfig")]
     public interface IDataOciDatascienceJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}.</summary>
         [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
         string JobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}.</summary>
             [JsiiProperty(name: "jobId", typeJson: "{\"primitive\":\"string\"}")]
             public string JobId
             {

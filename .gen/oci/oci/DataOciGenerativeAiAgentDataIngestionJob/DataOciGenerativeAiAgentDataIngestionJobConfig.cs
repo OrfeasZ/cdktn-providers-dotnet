@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJob
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiAgentDataIngestionJob.DataOciGenerativeAiAgentDataIngestionJobConfig")]
     public class DataOciGenerativeAiAgentDataIngestionJobConfig : oci.DataOciGenerativeAiAgentDataIngestionJob.IDataOciGenerativeAiAgentDataIngestionJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_agent_data_ingestion_job#data_ingestion_job_id DataOciGenerativeAiAgentDataIngestionJob#data_ingestion_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_agent_data_ingestion_job#data_ingestion_job_id DataOciGenerativeAiAgentDataIngestionJob#data_ingestion_job_id}.</summary>
         [JsiiProperty(name: "dataIngestionJobId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataIngestionJobId
         {

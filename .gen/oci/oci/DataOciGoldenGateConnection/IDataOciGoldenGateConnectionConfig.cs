@@ -7,7 +7,7 @@ namespace oci.DataOciGoldenGateConnection
     [JsiiInterface(nativeType: typeof(IDataOciGoldenGateConnectionConfig), fullyQualifiedName: "oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionConfig")]
     public interface IDataOciGoldenGateConnectionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/golden_gate_connection#connection_id DataOciGoldenGateConnection#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_connection#connection_id DataOciGoldenGateConnection#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
         string ConnectionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGoldenGateConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/golden_gate_connection#connection_id DataOciGoldenGateConnection#connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_connection#connection_id DataOciGoldenGateConnection#connection_id}.</summary>
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConnectionId
             {

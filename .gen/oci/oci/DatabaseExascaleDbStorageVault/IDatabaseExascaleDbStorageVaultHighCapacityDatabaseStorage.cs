@@ -7,7 +7,7 @@ namespace oci.DatabaseExascaleDbStorageVault
     [JsiiInterface(nativeType: typeof(IDatabaseExascaleDbStorageVaultHighCapacityDatabaseStorage), fullyQualifiedName: "oci.databaseExascaleDbStorageVault.DatabaseExascaleDbStorageVaultHighCapacityDatabaseStorage")]
     public interface IDatabaseExascaleDbStorageVaultHighCapacityDatabaseStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_exascale_db_storage_vault#total_size_in_gbs DatabaseExascaleDbStorageVault#total_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_exascale_db_storage_vault#total_size_in_gbs DatabaseExascaleDbStorageVault#total_size_in_gbs}.</summary>
         [JsiiProperty(name: "totalSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
         double TotalSizeInGbs
         {
@@ -21,7 +21,7 @@ namespace oci.DatabaseExascaleDbStorageVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_exascale_db_storage_vault#total_size_in_gbs DatabaseExascaleDbStorageVault#total_size_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_exascale_db_storage_vault#total_size_in_gbs DatabaseExascaleDbStorageVault#total_size_in_gbs}.</summary>
             [JsiiProperty(name: "totalSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
             public double TotalSizeInGbs
             {

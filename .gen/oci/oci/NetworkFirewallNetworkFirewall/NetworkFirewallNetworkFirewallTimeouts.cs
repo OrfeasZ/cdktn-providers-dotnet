@@ -7,7 +7,7 @@ namespace oci.NetworkFirewallNetworkFirewall
     [JsiiByValue(fqn: "oci.networkFirewallNetworkFirewall.NetworkFirewallNetworkFirewallTimeouts")]
     public class NetworkFirewallNetworkFirewallTimeouts : oci.NetworkFirewallNetworkFirewall.INetworkFirewallNetworkFirewallTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/network_firewall_network_firewall#create NetworkFirewallNetworkFirewall#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/network_firewall_network_firewall#create NetworkFirewallNetworkFirewall#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.NetworkFirewallNetworkFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/network_firewall_network_firewall#delete NetworkFirewallNetworkFirewall#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/network_firewall_network_firewall#delete NetworkFirewallNetworkFirewall#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.NetworkFirewallNetworkFirewall
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/network_firewall_network_firewall#update NetworkFirewallNetworkFirewall#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/network_firewall_network_firewall#update NetworkFirewallNetworkFirewall#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

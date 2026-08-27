@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudClusters
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudClusters.DataOciDatabaseManagementCloudClustersFilter")]
     public class DataOciDatabaseManagementCloudClustersFilter : oci.DataOciDatabaseManagementCloudClusters.IDataOciDatabaseManagementCloudClustersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_clusters#name DataOciDatabaseManagementCloudClusters#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_clusters#name DataOciDatabaseManagementCloudClusters#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudClusters
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_clusters#values DataOciDatabaseManagementCloudClusters#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_clusters#values DataOciDatabaseManagementCloudClusters#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudClusters
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_clusters#regex DataOciDatabaseManagementCloudClusters#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_clusters#regex DataOciDatabaseManagementCloudClusters#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

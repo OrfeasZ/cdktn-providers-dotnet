@@ -9,7 +9,7 @@ namespace oci.DatascienceModelGroupArtifact
     [JsiiByValue(fqn: "oci.datascienceModelGroupArtifact.DatascienceModelGroupArtifactConfig")]
     public class DatascienceModelGroupArtifactConfig : oci.DatascienceModelGroupArtifact.IDatascienceModelGroupArtifactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_group_artifact#content_length DatascienceModelGroupArtifact#content_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_artifact#content_length DatascienceModelGroupArtifact#content_length}.</summary>
         [JsiiProperty(name: "contentLength", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentLength
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelGroupArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_group_artifact#model_group_artifact DatascienceModelGroupArtifact#model_group_artifact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_artifact#model_group_artifact DatascienceModelGroupArtifact#model_group_artifact}.</summary>
         [JsiiProperty(name: "modelGroupArtifact", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelGroupArtifact
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelGroupArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_group_artifact#model_group_id DatascienceModelGroupArtifact#model_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_artifact#model_group_id DatascienceModelGroupArtifact#model_group_id}.</summary>
         [JsiiProperty(name: "modelGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelGroupId
         {
@@ -33,7 +33,7 @@ namespace oci.DatascienceModelGroupArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_group_artifact#content_disposition DatascienceModelGroupArtifact#content_disposition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_artifact#content_disposition DatascienceModelGroupArtifact#content_disposition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "contentDisposition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ContentDisposition
@@ -42,7 +42,7 @@ namespace oci.DatascienceModelGroupArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_group_artifact#id DatascienceModelGroupArtifact#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_artifact#id DatascienceModelGroupArtifact#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace oci.DatascienceModelGroupArtifact
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_model_group_artifact#timeouts DatascienceModelGroupArtifact#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_artifact#timeouts DatascienceModelGroupArtifact#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceModelGroupArtifact.DatascienceModelGroupArtifactTimeouts\"}", isOptional: true)]

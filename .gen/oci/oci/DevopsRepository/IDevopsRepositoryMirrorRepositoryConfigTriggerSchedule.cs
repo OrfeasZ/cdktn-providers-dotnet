@@ -7,14 +7,14 @@ namespace oci.DevopsRepository
     [JsiiInterface(nativeType: typeof(IDevopsRepositoryMirrorRepositoryConfigTriggerSchedule), fullyQualifiedName: "oci.devopsRepository.DevopsRepositoryMirrorRepositoryConfigTriggerSchedule")]
     public interface IDevopsRepositoryMirrorRepositoryConfigTriggerSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}.</summary>
         [JsiiProperty(name: "scheduleType", typeJson: "{\"primitive\":\"string\"}")]
         string ScheduleType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}.</summary>
         [JsiiProperty(name: "customSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomSchedule
@@ -32,14 +32,14 @@ namespace oci.DevopsRepository
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository#schedule_type DevopsRepository#schedule_type}.</summary>
             [JsiiProperty(name: "scheduleType", typeJson: "{\"primitive\":\"string\"}")]
             public string ScheduleType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository#custom_schedule DevopsRepository#custom_schedule}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomSchedule

@@ -5,7 +5,7 @@ namespace oci.DataOciCapacityManagementOccmDemandSignal
     /// <remarks>
     /// <h1><c>data_oci_capacity_management_occm_demand_signal</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/capacity_management_occm_demand_signal"><c>data_oci_capacity_management_occm_demand_signal</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occm_demand_signal"><c>data_oci_capacity_management_occm_demand_signal</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

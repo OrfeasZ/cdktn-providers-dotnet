@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfileConfig")]
     public class DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfileConfig : oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile.IDataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_profile#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_profile#name DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_profile#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policy_decryption_profile#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyDecryptionProfile#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {

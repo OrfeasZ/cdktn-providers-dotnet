@@ -7,7 +7,7 @@ namespace oci.DataOciMonitoringAlarm
     [JsiiInterface(nativeType: typeof(IDataOciMonitoringAlarmConfig), fullyQualifiedName: "oci.dataOciMonitoringAlarm.DataOciMonitoringAlarmConfig")]
     public interface IDataOciMonitoringAlarmConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/monitoring_alarm#alarm_id DataOciMonitoringAlarm#alarm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/monitoring_alarm#alarm_id DataOciMonitoringAlarm#alarm_id}.</summary>
         [JsiiProperty(name: "alarmId", typeJson: "{\"primitive\":\"string\"}")]
         string AlarmId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMonitoringAlarm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/monitoring_alarm#alarm_id DataOciMonitoringAlarm#alarm_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/monitoring_alarm#alarm_id DataOciMonitoringAlarm#alarm_id}.</summary>
             [JsiiProperty(name: "alarmId", typeJson: "{\"primitive\":\"string\"}")]
             public string AlarmId
             {

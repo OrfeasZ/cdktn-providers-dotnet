@@ -9,7 +9,7 @@ namespace oci.DataOciWaasCustomProtectionRule
     [JsiiByValue(fqn: "oci.dataOciWaasCustomProtectionRule.DataOciWaasCustomProtectionRuleConfig")]
     public class DataOciWaasCustomProtectionRuleConfig : oci.DataOciWaasCustomProtectionRule.IDataOciWaasCustomProtectionRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/waas_custom_protection_rule#custom_protection_rule_id DataOciWaasCustomProtectionRule#custom_protection_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waas_custom_protection_rule#custom_protection_rule_id DataOciWaasCustomProtectionRule#custom_protection_rule_id}.</summary>
         [JsiiProperty(name: "customProtectionRuleId", typeJson: "{\"primitive\":\"string\"}")]
         public string CustomProtectionRuleId
         {

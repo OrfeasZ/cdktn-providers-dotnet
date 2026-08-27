@@ -11,7 +11,7 @@ namespace oci.IdentityDomainsUser
 
         /// <summary>social_accounts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_user#social_accounts IdentityDomainsUser#social_accounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user#social_accounts IdentityDomainsUser#social_accounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsocialAccountUserSocialAccounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]

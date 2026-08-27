@@ -9,7 +9,7 @@ namespace oci.OcvpManagementAppliance
     {
         /// <summary>configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#configuration OcvpManagementAppliance#configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#configuration OcvpManagementAppliance#configuration}
         /// </remarks>
         [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"oci.ocvpManagementAppliance.OcvpManagementApplianceConfiguration\"}")]
         oci.OcvpManagementAppliance.IOcvpManagementApplianceConfiguration Configuration
@@ -19,7 +19,7 @@ namespace oci.OcvpManagementAppliance
 
         /// <summary>connections block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#connections OcvpManagementAppliance#connections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#connections OcvpManagementAppliance#connections}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpManagementAppliance.IOcvpManagementApplianceConnections" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "connections", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpManagementAppliance.OcvpManagementApplianceConnections\"},\"kind\":\"array\"}}]}}")]
@@ -28,21 +28,21 @@ namespace oci.OcvpManagementAppliance
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#display_name OcvpManagementAppliance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#display_name OcvpManagementAppliance#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#sddc_id OcvpManagementAppliance#sddc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#sddc_id OcvpManagementAppliance#sddc_id}.</summary>
         [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
         string SddcId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#defined_tags OcvpManagementAppliance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#defined_tags OcvpManagementAppliance#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -53,7 +53,7 @@ namespace oci.OcvpManagementAppliance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#freeform_tags OcvpManagementAppliance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#freeform_tags OcvpManagementAppliance#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -64,7 +64,7 @@ namespace oci.OcvpManagementAppliance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#id OcvpManagementAppliance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#id OcvpManagementAppliance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,7 +79,7 @@ namespace oci.OcvpManagementAppliance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#public_ssh_keys OcvpManagementAppliance#public_ssh_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#public_ssh_keys OcvpManagementAppliance#public_ssh_keys}.</summary>
         [JsiiProperty(name: "publicSshKeys", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PublicSshKeys
@@ -92,7 +92,7 @@ namespace oci.OcvpManagementAppliance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#timeouts OcvpManagementAppliance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#timeouts OcvpManagementAppliance#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpManagementAppliance.OcvpManagementApplianceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -113,7 +113,7 @@ namespace oci.OcvpManagementAppliance
 
             /// <summary>configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#configuration OcvpManagementAppliance#configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#configuration OcvpManagementAppliance#configuration}
             /// </remarks>
             [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"oci.ocvpManagementAppliance.OcvpManagementApplianceConfiguration\"}")]
             public oci.OcvpManagementAppliance.IOcvpManagementApplianceConfiguration Configuration
@@ -123,7 +123,7 @@ namespace oci.OcvpManagementAppliance
 
             /// <summary>connections block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#connections OcvpManagementAppliance#connections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#connections OcvpManagementAppliance#connections}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OcvpManagementAppliance.IOcvpManagementApplianceConnections" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "connections", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.ocvpManagementAppliance.OcvpManagementApplianceConnections\"},\"kind\":\"array\"}}]}}")]
@@ -132,21 +132,21 @@ namespace oci.OcvpManagementAppliance
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#display_name OcvpManagementAppliance#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#display_name OcvpManagementAppliance#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#sddc_id OcvpManagementAppliance#sddc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#sddc_id OcvpManagementAppliance#sddc_id}.</summary>
             [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
             public string SddcId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#defined_tags OcvpManagementAppliance#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#defined_tags OcvpManagementAppliance#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -154,7 +154,7 @@ namespace oci.OcvpManagementAppliance
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#freeform_tags OcvpManagementAppliance#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#freeform_tags OcvpManagementAppliance#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -162,7 +162,7 @@ namespace oci.OcvpManagementAppliance
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#id OcvpManagementAppliance#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#id OcvpManagementAppliance#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -174,7 +174,7 @@ namespace oci.OcvpManagementAppliance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#public_ssh_keys OcvpManagementAppliance#public_ssh_keys}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#public_ssh_keys OcvpManagementAppliance#public_ssh_keys}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicSshKeys", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PublicSshKeys
@@ -184,7 +184,7 @@ namespace oci.OcvpManagementAppliance
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ocvp_management_appliance#timeouts OcvpManagementAppliance#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_management_appliance#timeouts OcvpManagementAppliance#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpManagementAppliance.OcvpManagementApplianceTimeouts\"}", isOptional: true)]

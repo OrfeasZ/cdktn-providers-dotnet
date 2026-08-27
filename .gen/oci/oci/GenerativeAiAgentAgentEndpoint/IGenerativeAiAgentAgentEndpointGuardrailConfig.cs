@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
     {
         /// <summary>content_moderation_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
         /// </remarks>
         [JsiiProperty(name: "contentModerationConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointGuardrailConfigContentModerationConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
         /// <summary>personally_identifiable_information_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_agent_agent_endpoint#personally_identifiable_information_config GenerativeAiAgentAgentEndpoint#personally_identifiable_information_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_agent_endpoint#personally_identifiable_information_config GenerativeAiAgentAgentEndpoint#personally_identifiable_information_config}
         /// </remarks>
         [JsiiProperty(name: "personallyIdentifiableInformationConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiableInformationConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
         /// <summary>prompt_injection_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_agent_agent_endpoint#prompt_injection_config GenerativeAiAgentAgentEndpoint#prompt_injection_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_agent_endpoint#prompt_injection_config GenerativeAiAgentAgentEndpoint#prompt_injection_config}
         /// </remarks>
         [JsiiProperty(name: "promptInjectionConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointGuardrailConfigPromptInjectionConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
             /// <summary>content_moderation_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_agent_endpoint#content_moderation_config GenerativeAiAgentAgentEndpoint#content_moderation_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "contentModerationConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointGuardrailConfigContentModerationConfig\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
             /// <summary>personally_identifiable_information_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_agent_agent_endpoint#personally_identifiable_information_config GenerativeAiAgentAgentEndpoint#personally_identifiable_information_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_agent_endpoint#personally_identifiable_information_config GenerativeAiAgentAgentEndpoint#personally_identifiable_information_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "personallyIdentifiableInformationConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointGuardrailConfigPersonallyIdentifiableInformationConfig\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace oci.GenerativeAiAgentAgentEndpoint
 
             /// <summary>prompt_injection_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_agent_agent_endpoint#prompt_injection_config GenerativeAiAgentAgentEndpoint#prompt_injection_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_agent_endpoint#prompt_injection_config GenerativeAiAgentAgentEndpoint#prompt_injection_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "promptInjectionConfig", typeJson: "{\"fqn\":\"oci.generativeAiAgentAgentEndpoint.GenerativeAiAgentAgentEndpointGuardrailConfigPromptInjectionConfig\"}", isOptional: true)]

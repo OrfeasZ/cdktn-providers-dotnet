@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalDbSystemConnector
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalDbSystemConnector.DataOciDatabaseManagementExternalDbSystemConnectorConfig")]
     public class DataOciDatabaseManagementExternalDbSystemConnectorConfig : oci.DataOciDatabaseManagementExternalDbSystemConnector.IDataOciDatabaseManagementExternalDbSystemConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_external_db_system_connector#external_db_system_connector_id DataOciDatabaseManagementExternalDbSystemConnector#external_db_system_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_db_system_connector#external_db_system_connector_id DataOciDatabaseManagementExternalDbSystemConnector#external_db_system_connector_id}.</summary>
         [JsiiProperty(name: "externalDbSystemConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalDbSystemConnectorId
         {

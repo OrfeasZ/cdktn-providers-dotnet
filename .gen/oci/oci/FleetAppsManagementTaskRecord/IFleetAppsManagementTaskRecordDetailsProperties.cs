@@ -7,14 +7,14 @@ namespace oci.FleetAppsManagementTaskRecord
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementTaskRecordDetailsProperties), fullyQualifiedName: "oci.fleetAppsManagementTaskRecord.FleetAppsManagementTaskRecordDetailsProperties")]
     public interface IFleetAppsManagementTaskRecordDetailsProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_task_record#num_retries FleetAppsManagementTaskRecord#num_retries}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_task_record#num_retries FleetAppsManagementTaskRecord#num_retries}.</summary>
         [JsiiProperty(name: "numRetries", typeJson: "{\"primitive\":\"number\"}")]
         double NumRetries
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_task_record#timeout_in_seconds FleetAppsManagementTaskRecord#timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_task_record#timeout_in_seconds FleetAppsManagementTaskRecord#timeout_in_seconds}.</summary>
         [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}")]
         double TimeoutInSeconds
         {
@@ -28,14 +28,14 @@ namespace oci.FleetAppsManagementTaskRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_task_record#num_retries FleetAppsManagementTaskRecord#num_retries}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_task_record#num_retries FleetAppsManagementTaskRecord#num_retries}.</summary>
             [JsiiProperty(name: "numRetries", typeJson: "{\"primitive\":\"number\"}")]
             public double NumRetries
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_apps_management_task_record#timeout_in_seconds FleetAppsManagementTaskRecord#timeout_in_seconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_task_record#timeout_in_seconds FleetAppsManagementTaskRecord#timeout_in_seconds}.</summary>
             [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}")]
             public double TimeoutInSeconds
             {

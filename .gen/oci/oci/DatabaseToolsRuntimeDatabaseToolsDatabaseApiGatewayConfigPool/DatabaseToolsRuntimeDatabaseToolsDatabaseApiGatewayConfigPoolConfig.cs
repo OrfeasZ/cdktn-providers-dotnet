@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
     [JsiiByValue(fqn: "oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolConfig")]
     public class DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolConfig : oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool.IDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_connection_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_connection_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_database_api_gateway_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_database_api_gateway_config_id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_database_api_gateway_config_id}.</summary>
         [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsDatabaseApiGatewayConfigId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#display_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#display_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#pool_route_value DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#pool_route_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#pool_route_value DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#pool_route_value}.</summary>
         [JsiiProperty(name: "poolRouteValue", typeJson: "{\"primitive\":\"string\"}")]
         public string PoolRouteValue
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#type DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -49,7 +49,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#advanced_properties DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#advanced_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#advanced_properties DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#advanced_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "advancedProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? AdvancedProperties
@@ -58,7 +58,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_actions_status DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_actions_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_actions_status DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_actions_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseActionsStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseActionsStatus
@@ -67,7 +67,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#id DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#initial_pool_size DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#initial_pool_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#initial_pool_size DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#initial_pool_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "initialPoolSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? InitialPoolSize
@@ -89,7 +89,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_audience DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_audience}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_audience DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_audience}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jwtProfileAudience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JwtProfileAudience
@@ -98,7 +98,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_issuer DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_issuer DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_issuer}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jwtProfileIssuer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JwtProfileIssuer
@@ -107,7 +107,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_jwk_url DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_jwk_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_jwk_url DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_jwk_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jwtProfileJwkUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JwtProfileJwkUrl
@@ -116,7 +116,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_role_claim_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_role_claim_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#jwt_profile_role_claim_name DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#jwt_profile_role_claim_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jwtProfileRoleClaimName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JwtProfileRoleClaimName
@@ -125,7 +125,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#max_pool_size DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#max_pool_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#max_pool_size DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#max_pool_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxPoolSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxPoolSize
@@ -134,7 +134,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#min_pool_size DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#min_pool_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#min_pool_size DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#min_pool_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minPoolSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinPoolSize
@@ -143,7 +143,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#rest_enabled_sql_status DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#rest_enabled_sql_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#rest_enabled_sql_status DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#rest_enabled_sql_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restEnabledSqlStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestEnabledSqlStatus
@@ -154,7 +154,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_database_api_gateway_config_pool#timeouts DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool.DatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolTimeouts\"}", isOptional: true)]

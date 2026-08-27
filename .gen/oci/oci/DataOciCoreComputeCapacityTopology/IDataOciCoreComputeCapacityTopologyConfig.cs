@@ -7,7 +7,7 @@ namespace oci.DataOciCoreComputeCapacityTopology
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeCapacityTopologyConfig), fullyQualifiedName: "oci.dataOciCoreComputeCapacityTopology.DataOciCoreComputeCapacityTopologyConfig")]
     public interface IDataOciCoreComputeCapacityTopologyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_capacity_topology#compute_capacity_topology_id DataOciCoreComputeCapacityTopology#compute_capacity_topology_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_topology#compute_capacity_topology_id DataOciCoreComputeCapacityTopology#compute_capacity_topology_id}.</summary>
         [JsiiProperty(name: "computeCapacityTopologyId", typeJson: "{\"primitive\":\"string\"}")]
         string ComputeCapacityTopologyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreComputeCapacityTopology
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_capacity_topology#compute_capacity_topology_id DataOciCoreComputeCapacityTopology#compute_capacity_topology_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_topology#compute_capacity_topology_id DataOciCoreComputeCapacityTopology#compute_capacity_topology_id}.</summary>
             [JsiiProperty(name: "computeCapacityTopologyId", typeJson: "{\"primitive\":\"string\"}")]
             public string ComputeCapacityTopologyId
             {

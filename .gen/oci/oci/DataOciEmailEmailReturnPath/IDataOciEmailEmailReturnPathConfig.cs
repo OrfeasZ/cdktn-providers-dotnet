@@ -7,7 +7,7 @@ namespace oci.DataOciEmailEmailReturnPath
     [JsiiInterface(nativeType: typeof(IDataOciEmailEmailReturnPathConfig), fullyQualifiedName: "oci.dataOciEmailEmailReturnPath.DataOciEmailEmailReturnPathConfig")]
     public interface IDataOciEmailEmailReturnPathConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}.</summary>
         [JsiiProperty(name: "emailReturnPathId", typeJson: "{\"primitive\":\"string\"}")]
         string EmailReturnPathId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciEmailEmailReturnPath
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}.</summary>
             [JsiiProperty(name: "emailReturnPathId", typeJson: "{\"primitive\":\"string\"}")]
             public string EmailReturnPathId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciKmsEkmsPrivateEndpoint
     [JsiiByValue(fqn: "oci.dataOciKmsEkmsPrivateEndpoint.DataOciKmsEkmsPrivateEndpointConfig")]
     public class DataOciKmsEkmsPrivateEndpointConfig : oci.DataOciKmsEkmsPrivateEndpoint.IDataOciKmsEkmsPrivateEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/kms_ekms_private_endpoint#ekms_private_endpoint_id DataOciKmsEkmsPrivateEndpoint#ekms_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/kms_ekms_private_endpoint#ekms_private_endpoint_id DataOciKmsEkmsPrivateEndpoint#ekms_private_endpoint_id}.</summary>
         [JsiiProperty(name: "ekmsPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string EkmsPrivateEndpointId
         {

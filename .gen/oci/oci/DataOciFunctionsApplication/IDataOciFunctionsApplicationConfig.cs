@@ -7,7 +7,7 @@ namespace oci.DataOciFunctionsApplication
     [JsiiInterface(nativeType: typeof(IDataOciFunctionsApplicationConfig), fullyQualifiedName: "oci.dataOciFunctionsApplication.DataOciFunctionsApplicationConfig")]
     public interface IDataOciFunctionsApplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/functions_application#application_id DataOciFunctionsApplication#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/functions_application#application_id DataOciFunctionsApplication#application_id}.</summary>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         string ApplicationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFunctionsApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/functions_application#application_id DataOciFunctionsApplication#application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/functions_application#application_id DataOciFunctionsApplication#application_id}.</summary>
             [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApplicationId
             {

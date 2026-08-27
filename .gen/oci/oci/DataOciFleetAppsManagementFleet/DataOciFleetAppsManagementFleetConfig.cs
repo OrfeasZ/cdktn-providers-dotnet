@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementFleet
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementFleet.DataOciFleetAppsManagementFleetConfig")]
     public class DataOciFleetAppsManagementFleetConfig : oci.DataOciFleetAppsManagementFleet.IDataOciFleetAppsManagementFleetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_fleet#fleet_id DataOciFleetAppsManagementFleet#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetId
         {

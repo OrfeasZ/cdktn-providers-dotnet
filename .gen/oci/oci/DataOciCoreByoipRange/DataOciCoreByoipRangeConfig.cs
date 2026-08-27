@@ -9,7 +9,7 @@ namespace oci.DataOciCoreByoipRange
     [JsiiByValue(fqn: "oci.dataOciCoreByoipRange.DataOciCoreByoipRangeConfig")]
     public class DataOciCoreByoipRangeConfig : oci.DataOciCoreByoipRange.IDataOciCoreByoipRangeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_byoip_range#byoip_range_id DataOciCoreByoipRange#byoip_range_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_byoip_range#byoip_range_id DataOciCoreByoipRange#byoip_range_id}.</summary>
         [JsiiProperty(name: "byoipRangeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ByoipRangeId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreByoipRange
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_byoip_range#id DataOciCoreByoipRange#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_byoip_range#id DataOciCoreByoipRange#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

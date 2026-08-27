@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
     [JsiiByValue(fqn: "oci.dataOciCoreComputeGlobalImageCapabilitySchemasVersions.DataOciCoreComputeGlobalImageCapabilitySchemasVersionsConfig")]
     public class DataOciCoreComputeGlobalImageCapabilitySchemasVersionsConfig : oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions.IDataOciCoreComputeGlobalImageCapabilitySchemasVersionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#compute_global_image_capability_schema_id DataOciCoreComputeGlobalImageCapabilitySchemasVersions#compute_global_image_capability_schema_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#compute_global_image_capability_schema_id DataOciCoreComputeGlobalImageCapabilitySchemasVersions#compute_global_image_capability_schema_id}.</summary>
         [JsiiProperty(name: "computeGlobalImageCapabilitySchemaId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeGlobalImageCapabilitySchemaId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#display_name DataOciCoreComputeGlobalImageCapabilitySchemasVersions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#display_name DataOciCoreComputeGlobalImageCapabilitySchemasVersions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#filter DataOciCoreComputeGlobalImageCapabilitySchemasVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#filter DataOciCoreComputeGlobalImageCapabilitySchemasVersions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions.IDataOciCoreComputeGlobalImageCapabilitySchemasVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciCoreComputeGlobalImageCapabilitySchemasVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#id DataOciCoreComputeGlobalImageCapabilitySchemasVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_global_image_capability_schemas_versions#id DataOciCoreComputeGlobalImageCapabilitySchemasVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,14 +7,14 @@ namespace oci.DataOciOcvpByols
     [JsiiInterface(nativeType: typeof(IDataOciOcvpByolsConfig), fullyQualifiedName: "oci.dataOciOcvpByols.DataOciOcvpByolsConfig")]
     public interface IDataOciOcvpByolsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#compartment_id DataOciOcvpByols#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#compartment_id DataOciOcvpByols#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#available_units_greater_than_or_equal_to DataOciOcvpByols#available_units_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#available_units_greater_than_or_equal_to DataOciOcvpByols#available_units_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "availableUnitsGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AvailableUnitsGreaterThanOrEqualTo
@@ -25,7 +25,7 @@ namespace oci.DataOciOcvpByols
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#byol_id DataOciOcvpByols#byol_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#byol_id DataOciOcvpByols#byol_id}.</summary>
         [JsiiProperty(name: "byolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ByolId
@@ -36,7 +36,7 @@ namespace oci.DataOciOcvpByols
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#display_name DataOciOcvpByols#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#display_name DataOciOcvpByols#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -49,7 +49,7 @@ namespace oci.DataOciOcvpByols
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#filter DataOciOcvpByols#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#filter DataOciOcvpByols#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpByols.IDataOciOcvpByolsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOcvpByols.DataOciOcvpByolsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.DataOciOcvpByols
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#id DataOciOcvpByols#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#id DataOciOcvpByols#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,7 +77,7 @@ namespace oci.DataOciOcvpByols
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#software_type DataOciOcvpByols#software_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#software_type DataOciOcvpByols#software_type}.</summary>
         [JsiiProperty(name: "softwareType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SoftwareType
@@ -88,7 +88,7 @@ namespace oci.DataOciOcvpByols
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#state DataOciOcvpByols#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#state DataOciOcvpByols#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -106,14 +106,14 @@ namespace oci.DataOciOcvpByols
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#compartment_id DataOciOcvpByols#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#compartment_id DataOciOcvpByols#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#available_units_greater_than_or_equal_to DataOciOcvpByols#available_units_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#available_units_greater_than_or_equal_to DataOciOcvpByols#available_units_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availableUnitsGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AvailableUnitsGreaterThanOrEqualTo
@@ -121,7 +121,7 @@ namespace oci.DataOciOcvpByols
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#byol_id DataOciOcvpByols#byol_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#byol_id DataOciOcvpByols#byol_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "byolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ByolId
@@ -129,7 +129,7 @@ namespace oci.DataOciOcvpByols
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#display_name DataOciOcvpByols#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#display_name DataOciOcvpByols#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -139,7 +139,7 @@ namespace oci.DataOciOcvpByols
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#filter DataOciOcvpByols#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#filter DataOciOcvpByols#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpByols.IDataOciOcvpByolsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -149,7 +149,7 @@ namespace oci.DataOciOcvpByols
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#id DataOciOcvpByols#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#id DataOciOcvpByols#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -161,7 +161,7 @@ namespace oci.DataOciOcvpByols
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#software_type DataOciOcvpByols#software_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#software_type DataOciOcvpByols#software_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "softwareType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SoftwareType
@@ -169,7 +169,7 @@ namespace oci.DataOciOcvpByols
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byols#state DataOciOcvpByols#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byols#state DataOciOcvpByols#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

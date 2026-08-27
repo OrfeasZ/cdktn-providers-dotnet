@@ -9,7 +9,7 @@ namespace oci.DataOciDemandSignalOccMetricAlarm
     [JsiiByValue(fqn: "oci.dataOciDemandSignalOccMetricAlarm.DataOciDemandSignalOccMetricAlarmConfig")]
     public class DataOciDemandSignalOccMetricAlarmConfig : oci.DataOciDemandSignalOccMetricAlarm.IDataOciDemandSignalOccMetricAlarmConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/demand_signal_occ_metric_alarm#occ_metric_alarm_id DataOciDemandSignalOccMetricAlarm#occ_metric_alarm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/demand_signal_occ_metric_alarm#occ_metric_alarm_id DataOciDemandSignalOccMetricAlarm#occ_metric_alarm_id}.</summary>
         [JsiiProperty(name: "occMetricAlarmId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccMetricAlarmId
         {

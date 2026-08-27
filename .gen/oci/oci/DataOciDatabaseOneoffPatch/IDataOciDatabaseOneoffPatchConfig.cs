@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseOneoffPatch
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseOneoffPatchConfig), fullyQualifiedName: "oci.dataOciDatabaseOneoffPatch.DataOciDatabaseOneoffPatchConfig")]
     public interface IDataOciDatabaseOneoffPatchConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_oneoff_patch#oneoff_patch_id DataOciDatabaseOneoffPatch#oneoff_patch_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_oneoff_patch#oneoff_patch_id DataOciDatabaseOneoffPatch#oneoff_patch_id}.</summary>
         [JsiiProperty(name: "oneoffPatchId", typeJson: "{\"primitive\":\"string\"}")]
         string OneoffPatchId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseOneoffPatch
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_oneoff_patch#oneoff_patch_id DataOciDatabaseOneoffPatch#oneoff_patch_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_oneoff_patch#oneoff_patch_id DataOciDatabaseOneoffPatch#oneoff_patch_id}.</summary>
             [JsiiProperty(name: "oneoffPatchId", typeJson: "{\"primitive\":\"string\"}")]
             public string OneoffPatchId
             {

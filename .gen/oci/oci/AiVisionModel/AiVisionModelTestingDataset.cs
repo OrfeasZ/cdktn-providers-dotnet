@@ -9,7 +9,7 @@ namespace oci.AiVisionModel
     [JsiiByValue(fqn: "oci.aiVisionModel.AiVisionModelTestingDataset")]
     public class AiVisionModelTestingDataset : oci.AiVisionModel.IAiVisionModelTestingDataset
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_model#dataset_type AiVisionModel#dataset_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_vision_model#dataset_type AiVisionModel#dataset_type}.</summary>
         [JsiiProperty(name: "datasetType", typeJson: "{\"primitive\":\"string\"}")]
         public string DatasetType
         {
@@ -17,7 +17,7 @@ namespace oci.AiVisionModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_model#bucket AiVisionModel#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_vision_model#bucket AiVisionModel#bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Bucket
@@ -26,7 +26,7 @@ namespace oci.AiVisionModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_model#dataset_id AiVisionModel#dataset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_vision_model#dataset_id AiVisionModel#dataset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatasetId
@@ -35,7 +35,7 @@ namespace oci.AiVisionModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_model#namespace_name AiVisionModel#namespace_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_vision_model#namespace_name AiVisionModel#namespace_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "namespaceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NamespaceName
@@ -44,7 +44,7 @@ namespace oci.AiVisionModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_vision_model#object AiVisionModel#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_vision_model#object AiVisionModel#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Object

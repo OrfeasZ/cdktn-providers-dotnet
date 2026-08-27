@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseManagementCloudAsm
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementCloudAsmConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementCloudAsm.DataOciDatabaseManagementCloudAsmConfig")]
     public interface IDataOciDatabaseManagementCloudAsmConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_asm#cloud_asm_id DataOciDatabaseManagementCloudAsm#cloud_asm_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_asm#cloud_asm_id DataOciDatabaseManagementCloudAsm#cloud_asm_id}.</summary>
         [JsiiProperty(name: "cloudAsmId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudAsmId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseManagementCloudAsm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_asm#cloud_asm_id DataOciDatabaseManagementCloudAsm#cloud_asm_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_asm#cloud_asm_id DataOciDatabaseManagementCloudAsm#cloud_asm_id}.</summary>
             [JsiiProperty(name: "cloudAsmId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudAsmId
             {

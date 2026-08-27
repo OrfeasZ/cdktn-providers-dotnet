@@ -35,6 +35,12 @@ namespace oci.DataOciBdsBdsInstances
         {
         }
 
+        [JsiiProperty(name: "bdsCapacityReservationConfigurations", typeJson: "{\"fqn\":\"oci.dataOciBdsBdsInstances.DataOciBdsBdsInstancesBdsInstancesBdsCapacityReservationConfigurationsList\"}")]
+        public virtual oci.DataOciBdsBdsInstances.DataOciBdsBdsInstancesBdsInstancesBdsCapacityReservationConfigurationsList BdsCapacityReservationConfigurations
+        {
+            get => GetInstanceProperty<oci.DataOciBdsBdsInstances.DataOciBdsBdsInstancesBdsInstancesBdsCapacityReservationConfigurationsList>()!;
+        }
+
         [JsiiProperty(name: "bdsClusterVersionSummary", typeJson: "{\"fqn\":\"oci.dataOciBdsBdsInstances.DataOciBdsBdsInstancesBdsInstancesBdsClusterVersionSummaryList\"}")]
         public virtual oci.DataOciBdsBdsInstances.DataOciBdsBdsInstancesBdsInstancesBdsClusterVersionSummaryList BdsClusterVersionSummary
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageServers
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudExadataStorageServers.DataOciDatabaseManagementCloudExadataStorageServersFilter")]
     public class DataOciDatabaseManagementCloudExadataStorageServersFilter : oci.DataOciDatabaseManagementCloudExadataStorageServers.IDataOciDatabaseManagementCloudExadataStorageServersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_exadata_storage_servers#name DataOciDatabaseManagementCloudExadataStorageServers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_exadata_storage_servers#name DataOciDatabaseManagementCloudExadataStorageServers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageServers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_exadata_storage_servers#values DataOciDatabaseManagementCloudExadataStorageServers#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_exadata_storage_servers#values DataOciDatabaseManagementCloudExadataStorageServers#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudExadataStorageServers
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_management_cloud_exadata_storage_servers#regex DataOciDatabaseManagementCloudExadataStorageServers#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_exadata_storage_servers#regex DataOciDatabaseManagementCloudExadataStorageServers#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

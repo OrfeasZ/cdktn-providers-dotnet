@@ -7,7 +7,7 @@ namespace oci.DataOciCertificatesManagementCaBundle
     [JsiiInterface(nativeType: typeof(IDataOciCertificatesManagementCaBundleConfig), fullyQualifiedName: "oci.dataOciCertificatesManagementCaBundle.DataOciCertificatesManagementCaBundleConfig")]
     public interface IDataOciCertificatesManagementCaBundleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}.</summary>
         [JsiiProperty(name: "caBundleId", typeJson: "{\"primitive\":\"string\"}")]
         string CaBundleId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCertificatesManagementCaBundle
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/certificates_management_ca_bundle#ca_bundle_id DataOciCertificatesManagementCaBundle#ca_bundle_id}.</summary>
             [JsiiProperty(name: "caBundleId", typeJson: "{\"primitive\":\"string\"}")]
             public string CaBundleId
             {

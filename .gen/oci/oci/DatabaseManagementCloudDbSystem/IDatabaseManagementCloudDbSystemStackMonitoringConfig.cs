@@ -7,7 +7,7 @@ namespace oci.DatabaseManagementCloudDbSystem
     [JsiiInterface(nativeType: typeof(IDatabaseManagementCloudDbSystemStackMonitoringConfig), fullyQualifiedName: "oci.databaseManagementCloudDbSystem.DatabaseManagementCloudDbSystemStackMonitoringConfig")]
     public interface IDatabaseManagementCloudDbSystemStackMonitoringConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system#is_enabled DatabaseManagementCloudDbSystem#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#is_enabled DatabaseManagementCloudDbSystem#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system#metadata DatabaseManagementCloudDbSystem#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#metadata DatabaseManagementCloudDbSystem#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Metadata
@@ -35,7 +35,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system#is_enabled DatabaseManagementCloudDbSystem#is_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#is_enabled DatabaseManagementCloudDbSystem#is_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -45,7 +45,7 @@ namespace oci.DatabaseManagementCloudDbSystem
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system#metadata DatabaseManagementCloudDbSystem#metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#metadata DatabaseManagementCloudDbSystem#metadata}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Metadata

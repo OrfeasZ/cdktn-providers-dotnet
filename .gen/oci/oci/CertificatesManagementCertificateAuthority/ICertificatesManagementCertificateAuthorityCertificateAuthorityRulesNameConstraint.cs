@@ -9,7 +9,7 @@ namespace oci.CertificatesManagementCertificateAuthority
     {
         /// <summary>excluded_subtree block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate_authority#excluded_subtree CertificatesManagementCertificateAuthority#excluded_subtree}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_certificate_authority#excluded_subtree CertificatesManagementCertificateAuthority#excluded_subtree}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintExcludedSubtree" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "excludedSubtree", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintExcludedSubtree\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace oci.CertificatesManagementCertificateAuthority
 
         /// <summary>permitted_subtree block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate_authority#permitted_subtree CertificatesManagementCertificateAuthority#permitted_subtree}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_certificate_authority#permitted_subtree CertificatesManagementCertificateAuthority#permitted_subtree}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintPermittedSubtree" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "permittedSubtree", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.certificatesManagementCertificateAuthority.CertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintPermittedSubtree\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace oci.CertificatesManagementCertificateAuthority
 
             /// <summary>excluded_subtree block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate_authority#excluded_subtree CertificatesManagementCertificateAuthority#excluded_subtree}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_certificate_authority#excluded_subtree CertificatesManagementCertificateAuthority#excluded_subtree}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintExcludedSubtree" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -58,7 +58,7 @@ namespace oci.CertificatesManagementCertificateAuthority
 
             /// <summary>permitted_subtree block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate_authority#permitted_subtree CertificatesManagementCertificateAuthority#permitted_subtree}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_certificate_authority#permitted_subtree CertificatesManagementCertificateAuthority#permitted_subtree}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CertificatesManagementCertificateAuthority.ICertificatesManagementCertificateAuthorityCertificateAuthorityRulesNameConstraintPermittedSubtree" />)[]</para>
             /// </remarks>
             [JsiiOptional]

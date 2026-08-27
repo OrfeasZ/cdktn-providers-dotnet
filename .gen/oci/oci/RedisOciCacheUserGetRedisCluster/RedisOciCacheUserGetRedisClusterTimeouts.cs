@@ -7,7 +7,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
     [JsiiByValue(fqn: "oci.redisOciCacheUserGetRedisCluster.RedisOciCacheUserGetRedisClusterTimeouts")]
     public class RedisOciCacheUserGetRedisClusterTimeouts : oci.RedisOciCacheUserGetRedisCluster.IRedisOciCacheUserGetRedisClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/redis_oci_cache_user_get_redis_cluster#create RedisOciCacheUserGetRedisCluster#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_oci_cache_user_get_redis_cluster#create RedisOciCacheUserGetRedisCluster#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/redis_oci_cache_user_get_redis_cluster#delete RedisOciCacheUserGetRedisCluster#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_oci_cache_user_get_redis_cluster#delete RedisOciCacheUserGetRedisCluster#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.RedisOciCacheUserGetRedisCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/redis_oci_cache_user_get_redis_cluster#update RedisOciCacheUserGetRedisCluster#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_oci_cache_user_get_redis_cluster#update RedisOciCacheUserGetRedisCluster#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

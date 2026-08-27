@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
     [JsiiByValue(fqn: "oci.dataOciMulticloudExternalLocationMappingMetadata.DataOciMulticloudExternalLocationMappingMetadataConfig")]
     public class DataOciMulticloudExternalLocationMappingMetadataConfig : oci.DataOciMulticloudExternalLocationMappingMetadata.IDataOciMulticloudExternalLocationMappingMetadataConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#compartment_id DataOciMulticloudExternalLocationMappingMetadata#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_external_location_mapping_metadata#compartment_id DataOciMulticloudExternalLocationMappingMetadata#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_service_name DataOciMulticloudExternalLocationMappingMetadata#subscription_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_service_name DataOciMulticloudExternalLocationMappingMetadata#subscription_service_name}.</summary>
         [JsiiProperty(name: "subscriptionServiceName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SubscriptionServiceName
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#filter DataOciMulticloudExternalLocationMappingMetadata#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_external_location_mapping_metadata#filter DataOciMulticloudExternalLocationMappingMetadata#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMulticloudExternalLocationMappingMetadata.IDataOciMulticloudExternalLocationMappingMetadataFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#id DataOciMulticloudExternalLocationMappingMetadata#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_external_location_mapping_metadata#id DataOciMulticloudExternalLocationMappingMetadata#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#limit DataOciMulticloudExternalLocationMappingMetadata#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_external_location_mapping_metadata#limit DataOciMulticloudExternalLocationMappingMetadata#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit
@@ -82,7 +82,7 @@ namespace oci.DataOciMulticloudExternalLocationMappingMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_id DataOciMulticloudExternalLocationMappingMetadata#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_external_location_mapping_metadata#subscription_id DataOciMulticloudExternalLocationMappingMetadata#subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubscriptionId

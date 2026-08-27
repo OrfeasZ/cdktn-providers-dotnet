@@ -9,7 +9,7 @@ namespace oci.DataOciCoreVtap
     [JsiiByValue(fqn: "oci.dataOciCoreVtap.DataOciCoreVtapConfig")]
     public class DataOciCoreVtapConfig : oci.DataOciCoreVtap.IDataOciCoreVtapConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_vtap#vtap_id DataOciCoreVtap#vtap_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_vtap#vtap_id DataOciCoreVtap#vtap_id}.</summary>
         [JsiiProperty(name: "vtapId", typeJson: "{\"primitive\":\"string\"}")]
         public string VtapId
         {

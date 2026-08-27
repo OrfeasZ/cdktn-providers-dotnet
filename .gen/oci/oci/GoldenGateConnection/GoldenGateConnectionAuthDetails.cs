@@ -9,7 +9,7 @@ namespace oci.GoldenGateConnection
     [JsiiByValue(fqn: "oci.goldenGateConnection.GoldenGateConnectionAuthDetails")]
     public class GoldenGateConnectionAuthDetails : oci.GoldenGateConnection.IGoldenGateConnectionAuthDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#auth_type GoldenGateConnection#auth_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#auth_type GoldenGateConnection#auth_type}.</summary>
         [JsiiProperty(name: "authType", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthType
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#api_key GoldenGateConnection#api_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#api_key GoldenGateConnection#api_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApiKey
@@ -26,7 +26,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#api_key_secret_id GoldenGateConnection#api_key_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#api_key_secret_id GoldenGateConnection#api_key_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "apiKeySecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApiKeySecretId
@@ -35,7 +35,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#base_url GoldenGateConnection#base_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#base_url GoldenGateConnection#base_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "baseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BaseUrl
@@ -44,7 +44,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#key_fingerprint GoldenGateConnection#key_fingerprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#key_fingerprint GoldenGateConnection#key_fingerprint}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyFingerprint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyFingerprint
@@ -53,7 +53,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#region GoldenGateConnection#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#region GoldenGateConnection#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region
@@ -62,7 +62,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#tenancy_id GoldenGateConnection#tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#tenancy_id GoldenGateConnection#tenancy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tenancyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TenancyId
@@ -71,7 +71,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/golden_gate_connection#user_id GoldenGateConnection#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#user_id GoldenGateConnection#user_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserId

@@ -7,7 +7,7 @@ namespace oci.DatabaseDbSystem
     [JsiiByValue(fqn: "oci.databaseDbSystem.DatabaseDbSystemMaintenanceWindowDetailsMonths")]
     public class DatabaseDbSystemMaintenanceWindowDetailsMonths : oci.DatabaseDbSystem.IDatabaseDbSystemMaintenanceWindowDetailsMonths
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_db_system#name DatabaseDbSystem#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_system#name DatabaseDbSystem#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

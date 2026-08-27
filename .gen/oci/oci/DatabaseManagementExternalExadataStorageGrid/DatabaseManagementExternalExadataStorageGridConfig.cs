@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
     [JsiiByValue(fqn: "oci.databaseManagementExternalExadataStorageGrid.DatabaseManagementExternalExadataStorageGridConfig")]
     public class DatabaseManagementExternalExadataStorageGridConfig : oci.DatabaseManagementExternalExadataStorageGrid.IDatabaseManagementExternalExadataStorageGridConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_external_exadata_storage_grid#external_exadata_storage_grid_id DatabaseManagementExternalExadataStorageGrid#external_exadata_storage_grid_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_exadata_storage_grid#external_exadata_storage_grid_id DatabaseManagementExternalExadataStorageGrid#external_exadata_storage_grid_id}.</summary>
         [JsiiProperty(name: "externalExadataStorageGridId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalExadataStorageGridId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_external_exadata_storage_grid#defined_tags DatabaseManagementExternalExadataStorageGrid#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_exadata_storage_grid#defined_tags DatabaseManagementExternalExadataStorageGrid#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -26,7 +26,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_external_exadata_storage_grid#freeform_tags DatabaseManagementExternalExadataStorageGrid#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_exadata_storage_grid#freeform_tags DatabaseManagementExternalExadataStorageGrid#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -35,7 +35,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_external_exadata_storage_grid#id DatabaseManagementExternalExadataStorageGrid#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_exadata_storage_grid#id DatabaseManagementExternalExadataStorageGrid#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ namespace oci.DatabaseManagementExternalExadataStorageGrid
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_external_exadata_storage_grid#timeouts DatabaseManagementExternalExadataStorageGrid#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_exadata_storage_grid#timeouts DatabaseManagementExternalExadataStorageGrid#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementExternalExadataStorageGrid.DatabaseManagementExternalExadataStorageGridTimeouts\"}", isOptional: true)]

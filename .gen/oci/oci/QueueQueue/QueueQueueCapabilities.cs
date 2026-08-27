@@ -9,7 +9,7 @@ namespace oci.QueueQueue
     {
         private object? _isPrimaryConsumerGroupEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/queue_queue#is_primary_consumer_group_enabled QueueQueue#is_primary_consumer_group_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/queue_queue#is_primary_consumer_group_enabled QueueQueue#is_primary_consumer_group_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.QueueQueue
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/queue_queue#primary_consumer_group_dead_letter_queue_delivery_count QueueQueue#primary_consumer_group_dead_letter_queue_delivery_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/queue_queue#primary_consumer_group_dead_letter_queue_delivery_count QueueQueue#primary_consumer_group_dead_letter_queue_delivery_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primaryConsumerGroupDeadLetterQueueDeliveryCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PrimaryConsumerGroupDeadLetterQueueDeliveryCount
@@ -50,7 +50,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/queue_queue#primary_consumer_group_display_name QueueQueue#primary_consumer_group_display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/queue_queue#primary_consumer_group_display_name QueueQueue#primary_consumer_group_display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primaryConsumerGroupDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrimaryConsumerGroupDisplayName
@@ -59,7 +59,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/queue_queue#primary_consumer_group_filter QueueQueue#primary_consumer_group_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/queue_queue#primary_consumer_group_filter QueueQueue#primary_consumer_group_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "primaryConsumerGroupFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrimaryConsumerGroupFilter
@@ -68,7 +68,7 @@ namespace oci.QueueQueue
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/queue_queue#type QueueQueue#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/queue_queue#type QueueQueue#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

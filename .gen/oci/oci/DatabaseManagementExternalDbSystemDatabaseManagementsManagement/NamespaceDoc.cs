@@ -5,7 +5,7 @@ namespace oci.DatabaseManagementExternalDbSystemDatabaseManagementsManagement
     /// <remarks>
     /// <h1><c>oci_database_management_external_db_system_database_managements_management</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_external_db_system_database_managements_management"><c>oci_database_management_external_db_system_database_managements_management</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_db_system_database_managements_management"><c>oci_database_management_external_db_system_database_managements_management</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

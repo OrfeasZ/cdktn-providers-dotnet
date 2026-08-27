@@ -9,7 +9,7 @@ namespace oci.CoreVirtualCircuit
     [JsiiByValue(fqn: "oci.coreVirtualCircuit.CoreVirtualCircuitPublicPrefixes")]
     public class CoreVirtualCircuitPublicPrefixes : oci.CoreVirtualCircuit.ICoreVirtualCircuitPublicPrefixes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_virtual_circuit#cidr_block CoreVirtualCircuit#cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_virtual_circuit#cidr_block CoreVirtualCircuit#cidr_block}.</summary>
         [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}")]
         public string CidrBlock
         {

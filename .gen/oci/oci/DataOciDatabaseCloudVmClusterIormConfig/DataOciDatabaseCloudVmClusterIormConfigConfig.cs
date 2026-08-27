@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseCloudVmClusterIormConfig
     [JsiiByValue(fqn: "oci.dataOciDatabaseCloudVmClusterIormConfig.DataOciDatabaseCloudVmClusterIormConfigConfig")]
     public class DataOciDatabaseCloudVmClusterIormConfigConfig : oci.DataOciDatabaseCloudVmClusterIormConfig.IDataOciDatabaseCloudVmClusterIormConfigConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_cloud_vm_cluster_iorm_config#cloud_vm_cluster_id DataOciDatabaseCloudVmClusterIormConfig#cloud_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_cloud_vm_cluster_iorm_config#cloud_vm_cluster_id DataOciDatabaseCloudVmClusterIormConfig#cloud_vm_cluster_id}.</summary>
         [JsiiProperty(name: "cloudVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudVmClusterId
         {

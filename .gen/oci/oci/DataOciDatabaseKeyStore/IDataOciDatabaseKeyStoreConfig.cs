@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseKeyStore
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseKeyStoreConfig), fullyQualifiedName: "oci.dataOciDatabaseKeyStore.DataOciDatabaseKeyStoreConfig")]
     public interface IDataOciDatabaseKeyStoreConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_key_store#key_store_id DataOciDatabaseKeyStore#key_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_key_store#key_store_id DataOciDatabaseKeyStore#key_store_id}.</summary>
         [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyStoreId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseKeyStore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_key_store#key_store_id DataOciDatabaseKeyStore#key_store_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_key_store#key_store_id DataOciDatabaseKeyStore#key_store_id}.</summary>
             [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyStoreId
             {

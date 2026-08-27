@@ -7,7 +7,7 @@ namespace oci.DatascienceComputeTarget
     [JsiiInterface(nativeType: typeof(IDatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPoliciesRulesScaleInConfiguration), fullyQualifiedName: "oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPoliciesRulesScaleInConfiguration")]
     public interface IDatascienceComputeTargetComputeConfigurationDetailsScalingPolicyAutoScalingPoliciesRulesScaleInConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#instance_count_adjustment DatascienceComputeTarget#instance_count_adjustment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#instance_count_adjustment DatascienceComputeTarget#instance_count_adjustment}.</summary>
         [JsiiProperty(name: "instanceCountAdjustment", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceCountAdjustment
@@ -18,7 +18,7 @@ namespace oci.DatascienceComputeTarget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#pending_duration DatascienceComputeTarget#pending_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#pending_duration DatascienceComputeTarget#pending_duration}.</summary>
         [JsiiProperty(name: "pendingDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PendingDuration
@@ -29,7 +29,7 @@ namespace oci.DatascienceComputeTarget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#query DatascienceComputeTarget#query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#query DatascienceComputeTarget#query}.</summary>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Query
@@ -40,7 +40,7 @@ namespace oci.DatascienceComputeTarget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#scaling_configuration_type DatascienceComputeTarget#scaling_configuration_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#scaling_configuration_type DatascienceComputeTarget#scaling_configuration_type}.</summary>
         [JsiiProperty(name: "scalingConfigurationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScalingConfigurationType
@@ -51,7 +51,7 @@ namespace oci.DatascienceComputeTarget
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#threshold DatascienceComputeTarget#threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#threshold DatascienceComputeTarget#threshold}.</summary>
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Threshold
@@ -69,7 +69,7 @@ namespace oci.DatascienceComputeTarget
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#instance_count_adjustment DatascienceComputeTarget#instance_count_adjustment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#instance_count_adjustment DatascienceComputeTarget#instance_count_adjustment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceCountAdjustment", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceCountAdjustment
@@ -77,7 +77,7 @@ namespace oci.DatascienceComputeTarget
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#pending_duration DatascienceComputeTarget#pending_duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#pending_duration DatascienceComputeTarget#pending_duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pendingDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PendingDuration
@@ -85,7 +85,7 @@ namespace oci.DatascienceComputeTarget
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#query DatascienceComputeTarget#query}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#query DatascienceComputeTarget#query}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Query
@@ -93,7 +93,7 @@ namespace oci.DatascienceComputeTarget
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#scaling_configuration_type DatascienceComputeTarget#scaling_configuration_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#scaling_configuration_type DatascienceComputeTarget#scaling_configuration_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scalingConfigurationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScalingConfigurationType
@@ -101,7 +101,7 @@ namespace oci.DatascienceComputeTarget
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_compute_target#threshold DatascienceComputeTarget#threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_compute_target#threshold DatascienceComputeTarget#threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Threshold

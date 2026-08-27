@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceFastLaunchJobConfigs
     [JsiiByValue(fqn: "oci.dataOciDatascienceFastLaunchJobConfigs.DataOciDatascienceFastLaunchJobConfigsFilter")]
     public class DataOciDatascienceFastLaunchJobConfigsFilter : oci.DataOciDatascienceFastLaunchJobConfigs.IDataOciDatascienceFastLaunchJobConfigsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_fast_launch_job_configs#name DataOciDatascienceFastLaunchJobConfigs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_fast_launch_job_configs#name DataOciDatascienceFastLaunchJobConfigs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceFastLaunchJobConfigs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_fast_launch_job_configs#values DataOciDatascienceFastLaunchJobConfigs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_fast_launch_job_configs#values DataOciDatascienceFastLaunchJobConfigs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatascienceFastLaunchJobConfigs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_fast_launch_job_configs#regex DataOciDatascienceFastLaunchJobConfigs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_fast_launch_job_configs#regex DataOciDatascienceFastLaunchJobConfigs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

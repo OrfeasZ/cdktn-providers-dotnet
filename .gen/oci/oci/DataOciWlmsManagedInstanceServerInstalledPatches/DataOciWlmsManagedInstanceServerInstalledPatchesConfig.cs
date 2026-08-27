@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsManagedInstanceServerInstalledPatches
     [JsiiByValue(fqn: "oci.dataOciWlmsManagedInstanceServerInstalledPatches.DataOciWlmsManagedInstanceServerInstalledPatchesConfig")]
     public class DataOciWlmsManagedInstanceServerInstalledPatchesConfig : oci.DataOciWlmsManagedInstanceServerInstalledPatches.IDataOciWlmsManagedInstanceServerInstalledPatchesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_managed_instance_server_installed_patches#managed_instance_id DataOciWlmsManagedInstanceServerInstalledPatches#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_server_installed_patches#managed_instance_id DataOciWlmsManagedInstanceServerInstalledPatches#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWlmsManagedInstanceServerInstalledPatches
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_managed_instance_server_installed_patches#server_id DataOciWlmsManagedInstanceServerInstalledPatches#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_server_installed_patches#server_id DataOciWlmsManagedInstanceServerInstalledPatches#server_id}.</summary>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciWlmsManagedInstanceServerInstalledPatches
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_managed_instance_server_installed_patches#filter DataOciWlmsManagedInstanceServerInstalledPatches#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_server_installed_patches#filter DataOciWlmsManagedInstanceServerInstalledPatches#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsManagedInstanceServerInstalledPatches.IDataOciWlmsManagedInstanceServerInstalledPatchesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciWlmsManagedInstanceServerInstalledPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_managed_instance_server_installed_patches#id DataOciWlmsManagedInstanceServerInstalledPatches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_server_installed_patches#id DataOciWlmsManagedInstanceServerInstalledPatches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

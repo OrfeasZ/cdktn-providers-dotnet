@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsProjectRepositorySetting
     [JsiiByValue(fqn: "oci.dataOciDevopsProjectRepositorySetting.DataOciDevopsProjectRepositorySettingConfig")]
     public class DataOciDevopsProjectRepositorySettingConfig : oci.DataOciDevopsProjectRepositorySetting.IDataOciDevopsProjectRepositorySettingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/devops_project_repository_setting#project_id DataOciDevopsProjectRepositorySetting#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_project_repository_setting#project_id DataOciDevopsProjectRepositorySetting#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {

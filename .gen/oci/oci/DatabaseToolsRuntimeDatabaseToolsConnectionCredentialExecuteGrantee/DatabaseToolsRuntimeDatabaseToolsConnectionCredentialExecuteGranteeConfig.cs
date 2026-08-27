@@ -9,7 +9,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
     [JsiiByValue(fqn: "oci.databaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteeConfig")]
     public class DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteeConfig : oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee.IDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#credential_key DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#credential_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#credential_key DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#credential_key}.</summary>
         [JsiiProperty(name: "credentialKey", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialKey
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#database_tools_connection_id DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#database_tools_connection_id DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsConnectionId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#key DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#key DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#id DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#id DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrante
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#timeouts DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_runtime_database_tools_connection_credential_execute_grantee#timeouts DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantee.DatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteeTimeouts\"}", isOptional: true)]

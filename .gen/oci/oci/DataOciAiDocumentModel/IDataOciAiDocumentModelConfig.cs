@@ -7,7 +7,7 @@ namespace oci.DataOciAiDocumentModel
     [JsiiInterface(nativeType: typeof(IDataOciAiDocumentModelConfig), fullyQualifiedName: "oci.dataOciAiDocumentModel.DataOciAiDocumentModelConfig")]
     public interface IDataOciAiDocumentModelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_document_model#model_id DataOciAiDocumentModel#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ai_document_model#model_id DataOciAiDocumentModel#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAiDocumentModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ai_document_model#model_id DataOciAiDocumentModel#model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ai_document_model#model_id DataOciAiDocumentModel#model_id}.</summary>
             [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelId
             {

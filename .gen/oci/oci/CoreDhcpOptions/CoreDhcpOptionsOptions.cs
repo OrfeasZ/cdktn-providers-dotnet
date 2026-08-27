@@ -9,7 +9,7 @@ namespace oci.CoreDhcpOptions
     [JsiiByValue(fqn: "oci.coreDhcpOptions.CoreDhcpOptionsOptions")]
     public class CoreDhcpOptionsOptions : oci.CoreDhcpOptions.ICoreDhcpOptionsOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_dhcp_options#type CoreDhcpOptions#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_dhcp_options#type CoreDhcpOptions#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace oci.CoreDhcpOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_dhcp_options#custom_dns_servers CoreDhcpOptions#custom_dns_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_dhcp_options#custom_dns_servers CoreDhcpOptions#custom_dns_servers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customDnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CustomDnsServers
@@ -26,7 +26,7 @@ namespace oci.CoreDhcpOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_dhcp_options#search_domain_names CoreDhcpOptions#search_domain_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_dhcp_options#search_domain_names CoreDhcpOptions#search_domain_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "searchDomainNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SearchDomainNames
@@ -35,7 +35,7 @@ namespace oci.CoreDhcpOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_dhcp_options#server_type CoreDhcpOptions#server_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_dhcp_options#server_type CoreDhcpOptions#server_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerType

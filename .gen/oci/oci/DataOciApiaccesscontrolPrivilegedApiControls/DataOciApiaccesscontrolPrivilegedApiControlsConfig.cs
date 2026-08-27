@@ -7,7 +7,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiControls
     [JsiiByValue(fqn: "oci.dataOciApiaccesscontrolPrivilegedApiControls.DataOciApiaccesscontrolPrivilegedApiControlsConfig")]
     public class DataOciApiaccesscontrolPrivilegedApiControlsConfig : oci.DataOciApiaccesscontrolPrivilegedApiControls.IDataOciApiaccesscontrolPrivilegedApiControlsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#compartment_id DataOciApiaccesscontrolPrivilegedApiControls#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#compartment_id DataOciApiaccesscontrolPrivilegedApiControls#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#display_name DataOciApiaccesscontrolPrivilegedApiControls#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#display_name DataOciApiaccesscontrolPrivilegedApiControls#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiControls
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#filter DataOciApiaccesscontrolPrivilegedApiControls#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#filter DataOciApiaccesscontrolPrivilegedApiControls#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciApiaccesscontrolPrivilegedApiControls.IDataOciApiaccesscontrolPrivilegedApiControlsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiControls
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#id DataOciApiaccesscontrolPrivilegedApiControls#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#id DataOciApiaccesscontrolPrivilegedApiControls#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#resource_type DataOciApiaccesscontrolPrivilegedApiControls#resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#resource_type DataOciApiaccesscontrolPrivilegedApiControls#resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceType
@@ -82,7 +82,7 @@ namespace oci.DataOciApiaccesscontrolPrivilegedApiControls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#state DataOciApiaccesscontrolPrivilegedApiControls#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apiaccesscontrol_privileged_api_controls#state DataOciApiaccesscontrolPrivilegedApiControls#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

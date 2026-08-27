@@ -7,14 +7,14 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
     [JsiiInterface(nativeType: typeof(IDatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementConfig), fullyQualifiedName: "oci.databaseManagementCloudDbSystemCloudDatabaseManagementsManagement.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementConfig")]
     public interface IDatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#cloud_db_system_id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#cloud_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#cloud_db_system_id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#cloud_db_system_id}.</summary>
         [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string CloudDbSystemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#enable_cloud_database_management DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#enable_cloud_database_management}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#enable_cloud_database_management DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#enable_cloud_database_management}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#is_enabled DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#is_enabled DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#metadata DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#metadata DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Metadata
@@ -66,7 +66,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#timeouts DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#timeouts DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystemCloudDatabaseManagementsManagement.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,14 +85,14 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#cloud_db_system_id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#cloud_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#cloud_db_system_id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#cloud_db_system_id}.</summary>
             [JsiiProperty(name: "cloudDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudDbSystemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#enable_cloud_database_management DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#enable_cloud_database_management}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#enable_cloud_database_management DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#enable_cloud_database_management}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -102,7 +102,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#id DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -114,7 +114,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#is_enabled DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#is_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#is_enabled DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#is_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -125,7 +125,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#metadata DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#metadata DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#metadata}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Metadata
@@ -135,7 +135,7 @@ namespace oci.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#timeouts DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system_cloud_database_managements_management#timeouts DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystemCloudDatabaseManagementsManagement.DatabaseManagementCloudDbSystemCloudDatabaseManagementsManagementTimeouts\"}", isOptional: true)]

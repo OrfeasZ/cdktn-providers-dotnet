@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseMaintenanceRun
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMaintenanceRunConfig), fullyQualifiedName: "oci.dataOciDatabaseMaintenanceRun.DataOciDatabaseMaintenanceRunConfig")]
     public interface IDataOciDatabaseMaintenanceRunConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_maintenance_run#maintenance_run_id DataOciDatabaseMaintenanceRun#maintenance_run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_maintenance_run#maintenance_run_id DataOciDatabaseMaintenanceRun#maintenance_run_id}.</summary>
         [JsiiProperty(name: "maintenanceRunId", typeJson: "{\"primitive\":\"string\"}")]
         string MaintenanceRunId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseMaintenanceRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_maintenance_run#maintenance_run_id DataOciDatabaseMaintenanceRun#maintenance_run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_maintenance_run#maintenance_run_id DataOciDatabaseMaintenanceRun#maintenance_run_id}.</summary>
             [JsiiProperty(name: "maintenanceRunId", typeJson: "{\"primitive\":\"string\"}")]
             public string MaintenanceRunId
             {

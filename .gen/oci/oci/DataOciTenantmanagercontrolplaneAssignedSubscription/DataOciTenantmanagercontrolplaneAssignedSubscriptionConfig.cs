@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneAssignedSubscription
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneAssignedSubscription.DataOciTenantmanagercontrolplaneAssignedSubscriptionConfig")]
     public class DataOciTenantmanagercontrolplaneAssignedSubscriptionConfig : oci.DataOciTenantmanagercontrolplaneAssignedSubscription.IDataOciTenantmanagercontrolplaneAssignedSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscription#assigned_subscription_id DataOciTenantmanagercontrolplaneAssignedSubscription#assigned_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscription#assigned_subscription_id DataOciTenantmanagercontrolplaneAssignedSubscription#assigned_subscription_id}.</summary>
         [JsiiProperty(name: "assignedSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string AssignedSubscriptionId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneAssignedSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscription#id DataOciTenantmanagercontrolplaneAssignedSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_assigned_subscription#id DataOciTenantmanagercontrolplaneAssignedSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

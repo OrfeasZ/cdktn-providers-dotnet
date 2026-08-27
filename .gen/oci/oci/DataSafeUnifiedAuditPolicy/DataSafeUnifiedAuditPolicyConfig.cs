@@ -9,7 +9,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
     [JsiiByValue(fqn: "oci.dataSafeUnifiedAuditPolicy.DataSafeUnifiedAuditPolicyConfig")]
     public class DataSafeUnifiedAuditPolicyConfig : oci.DataSafeUnifiedAuditPolicy.IDataSafeUnifiedAuditPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#compartment_id DataSafeUnifiedAuditPolicy#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#compartment_id DataSafeUnifiedAuditPolicy#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
 
         /// <summary>conditions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#conditions DataSafeUnifiedAuditPolicy#conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#conditions DataSafeUnifiedAuditPolicy#conditions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataSafeUnifiedAuditPolicy.IDataSafeUnifiedAuditPolicyConditions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataSafeUnifiedAuditPolicy.DataSafeUnifiedAuditPolicyConditions\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#security_policy_id DataSafeUnifiedAuditPolicy#security_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#security_policy_id DataSafeUnifiedAuditPolicy#security_policy_id}.</summary>
         [JsiiProperty(name: "securityPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityPolicyId
         {
@@ -59,7 +59,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#status DataSafeUnifiedAuditPolicy#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#status DataSafeUnifiedAuditPolicy#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public string Status
         {
@@ -67,7 +67,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#unified_audit_policy_definition_id DataSafeUnifiedAuditPolicy#unified_audit_policy_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#unified_audit_policy_definition_id DataSafeUnifiedAuditPolicy#unified_audit_policy_definition_id}.</summary>
         [JsiiProperty(name: "unifiedAuditPolicyDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         public string UnifiedAuditPolicyDefinitionId
         {
@@ -75,7 +75,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#defined_tags DataSafeUnifiedAuditPolicy#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#defined_tags DataSafeUnifiedAuditPolicy#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -84,7 +84,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#description DataSafeUnifiedAuditPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#description DataSafeUnifiedAuditPolicy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -93,7 +93,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#display_name DataSafeUnifiedAuditPolicy#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#display_name DataSafeUnifiedAuditPolicy#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -102,7 +102,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#freeform_tags DataSafeUnifiedAuditPolicy#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#freeform_tags DataSafeUnifiedAuditPolicy#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -111,7 +111,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#id DataSafeUnifiedAuditPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#id DataSafeUnifiedAuditPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ namespace oci.DataSafeUnifiedAuditPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_safe_unified_audit_policy#timeouts DataSafeUnifiedAuditPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unified_audit_policy#timeouts DataSafeUnifiedAuditPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeUnifiedAuditPolicy.DataSafeUnifiedAuditPolicyTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiGenerativeAiPrivateEndpoints.DataOciGenerativeAiGenerativeAiPrivateEndpointsFilter")]
     public class DataOciGenerativeAiGenerativeAiPrivateEndpointsFilter : oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints.IDataOciGenerativeAiGenerativeAiPrivateEndpointsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#name DataOciGenerativeAiGenerativeAiPrivateEndpoints#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#name DataOciGenerativeAiGenerativeAiPrivateEndpoints#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#values DataOciGenerativeAiGenerativeAiPrivateEndpoints#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#values DataOciGenerativeAiGenerativeAiPrivateEndpoints#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiGenerativeAiPrivateEndpoints
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#regex DataOciGenerativeAiGenerativeAiPrivateEndpoints#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_generative_ai_private_endpoints#regex DataOciGenerativeAiGenerativeAiPrivateEndpoints#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

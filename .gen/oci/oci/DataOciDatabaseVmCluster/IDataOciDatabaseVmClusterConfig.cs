@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseVmCluster
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseVmClusterConfig), fullyQualifiedName: "oci.dataOciDatabaseVmCluster.DataOciDatabaseVmClusterConfig")]
     public interface IDataOciDatabaseVmClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_vm_cluster#vm_cluster_id DataOciDatabaseVmCluster#vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_vm_cluster#vm_cluster_id DataOciDatabaseVmCluster#vm_cluster_id}.</summary>
         [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string VmClusterId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseVmCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_vm_cluster#vm_cluster_id DataOciDatabaseVmCluster#vm_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_vm_cluster#vm_cluster_id DataOciDatabaseVmCluster#vm_cluster_id}.</summary>
             [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string VmClusterId
             {

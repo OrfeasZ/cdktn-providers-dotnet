@@ -9,7 +9,7 @@ namespace oci.KmsKeyVersion
     [JsiiByValue(fqn: "oci.kmsKeyVersion.KmsKeyVersionConfig")]
     public class KmsKeyVersionConfig : oci.KmsKeyVersion.IKmsKeyVersionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_key_version#key_id KmsKeyVersion#key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_key_version#key_id KmsKeyVersion#key_id}.</summary>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
         {
@@ -17,7 +17,7 @@ namespace oci.KmsKeyVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_key_version#management_endpoint KmsKeyVersion#management_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_key_version#management_endpoint KmsKeyVersion#management_endpoint}.</summary>
         [JsiiProperty(name: "managementEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementEndpoint
         {
@@ -25,7 +25,7 @@ namespace oci.KmsKeyVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_key_version#external_key_version_id KmsKeyVersion#external_key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_key_version#external_key_version_id KmsKeyVersion#external_key_version_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "externalKeyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExternalKeyVersionId
@@ -34,7 +34,7 @@ namespace oci.KmsKeyVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_key_version#id KmsKeyVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_key_version#id KmsKeyVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace oci.KmsKeyVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_key_version#time_of_deletion KmsKeyVersion#time_of_deletion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_key_version#time_of_deletion KmsKeyVersion#time_of_deletion}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeOfDeletion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeOfDeletion
@@ -58,7 +58,7 @@ namespace oci.KmsKeyVersion
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_key_version#timeouts KmsKeyVersion#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_key_version#timeouts KmsKeyVersion#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.kmsKeyVersion.KmsKeyVersionTimeouts\"}", isOptional: true)]

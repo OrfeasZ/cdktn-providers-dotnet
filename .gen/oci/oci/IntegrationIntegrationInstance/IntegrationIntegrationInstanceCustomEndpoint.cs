@@ -9,7 +9,7 @@ namespace oci.IntegrationIntegrationInstance
     [JsiiByValue(fqn: "oci.integrationIntegrationInstance.IntegrationIntegrationInstanceCustomEndpoint")]
     public class IntegrationIntegrationInstanceCustomEndpoint : oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceCustomEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#dns_zone_name IntegrationIntegrationInstance#dns_zone_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#dns_zone_name IntegrationIntegrationInstance#dns_zone_name}.</summary>
         [JsiiProperty(name: "dnsZoneName", typeJson: "{\"primitive\":\"string\"}")]
         public string DnsZoneName
         {
@@ -17,7 +17,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#hostname IntegrationIntegrationInstance#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#hostname IntegrationIntegrationInstance#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
         {
@@ -25,7 +25,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#certificate_secret_id IntegrationIntegrationInstance#certificate_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#certificate_secret_id IntegrationIntegrationInstance#certificate_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateSecretId
@@ -34,7 +34,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#dns_type IntegrationIntegrationInstance#dns_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#dns_type IntegrationIntegrationInstance#dns_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DnsType

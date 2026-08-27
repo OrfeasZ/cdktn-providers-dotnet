@@ -7,7 +7,7 @@ namespace oci.DataOciCloudBridgeEnvironment
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeEnvironmentConfig), fullyQualifiedName: "oci.dataOciCloudBridgeEnvironment.DataOciCloudBridgeEnvironmentConfig")]
     public interface IDataOciCloudBridgeEnvironmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_bridge_environment#environment_id DataOciCloudBridgeEnvironment#environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_environment#environment_id DataOciCloudBridgeEnvironment#environment_id}.</summary>
         [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
         string EnvironmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudBridgeEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_bridge_environment#environment_id DataOciCloudBridgeEnvironment#environment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_environment#environment_id DataOciCloudBridgeEnvironment#environment_id}.</summary>
             [JsiiProperty(name: "environmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string EnvironmentId
             {

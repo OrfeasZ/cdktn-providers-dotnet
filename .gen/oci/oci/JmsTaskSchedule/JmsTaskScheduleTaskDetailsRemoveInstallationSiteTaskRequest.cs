@@ -11,7 +11,7 @@ namespace oci.JmsTaskSchedule
 
         /// <summary>installation_sites block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/jms_task_schedule#installation_sites JmsTaskSchedule#installation_sites}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#installation_sites JmsTaskSchedule#installation_sites}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsRemoveInstallationSiteTaskRequestInstallationSites" />)[]</para>
         /// </remarks>
         [JsiiOptional]

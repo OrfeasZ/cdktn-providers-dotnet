@@ -9,7 +9,7 @@ namespace oci.OsManagementHubProfileAttachSoftwareSourcesManagement
     [JsiiByValue(fqn: "oci.osManagementHubProfileAttachSoftwareSourcesManagement.OsManagementHubProfileAttachSoftwareSourcesManagementConfig")]
     public class OsManagementHubProfileAttachSoftwareSourcesManagementConfig : oci.OsManagementHubProfileAttachSoftwareSourcesManagement.IOsManagementHubProfileAttachSoftwareSourcesManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_profile_attach_software_sources_management#profile_id OsManagementHubProfileAttachSoftwareSourcesManagement#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_attach_software_sources_management#profile_id OsManagementHubProfileAttachSoftwareSourcesManagement#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileId
         {
@@ -17,7 +17,7 @@ namespace oci.OsManagementHubProfileAttachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_profile_attach_software_sources_management#software_sources OsManagementHubProfileAttachSoftwareSourcesManagement#software_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_attach_software_sources_management#software_sources OsManagementHubProfileAttachSoftwareSourcesManagement#software_sources}.</summary>
         [JsiiProperty(name: "softwareSources", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SoftwareSources
         {
@@ -25,7 +25,7 @@ namespace oci.OsManagementHubProfileAttachSoftwareSourcesManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_profile_attach_software_sources_management#id OsManagementHubProfileAttachSoftwareSourcesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_attach_software_sources_management#id OsManagementHubProfileAttachSoftwareSourcesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.OsManagementHubProfileAttachSoftwareSourcesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_profile_attach_software_sources_management#timeouts OsManagementHubProfileAttachSoftwareSourcesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_attach_software_sources_management#timeouts OsManagementHubProfileAttachSoftwareSourcesManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubProfileAttachSoftwareSourcesManagement.OsManagementHubProfileAttachSoftwareSourcesManagementTimeouts\"}", isOptional: true)]

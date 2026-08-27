@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeImageCapabilitySchema
     [JsiiByValue(fqn: "oci.dataOciCoreComputeImageCapabilitySchema.DataOciCoreComputeImageCapabilitySchemaConfig")]
     public class DataOciCoreComputeImageCapabilitySchemaConfig : oci.DataOciCoreComputeImageCapabilitySchema.IDataOciCoreComputeImageCapabilitySchemaConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_image_capability_schema#compute_image_capability_schema_id DataOciCoreComputeImageCapabilitySchema#compute_image_capability_schema_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_image_capability_schema#compute_image_capability_schema_id DataOciCoreComputeImageCapabilitySchema#compute_image_capability_schema_id}.</summary>
         [JsiiProperty(name: "computeImageCapabilitySchemaId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeImageCapabilitySchemaId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreComputeImageCapabilitySchema
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_image_capability_schema#is_merge_enabled DataOciCoreComputeImageCapabilitySchema#is_merge_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_image_capability_schema#is_merge_enabled DataOciCoreComputeImageCapabilitySchema#is_merge_enabled}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "isMergeEnabled", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IsMergeEnabled

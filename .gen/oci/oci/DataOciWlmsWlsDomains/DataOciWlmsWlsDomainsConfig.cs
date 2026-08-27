@@ -7,7 +7,7 @@ namespace oci.DataOciWlmsWlsDomains
     [JsiiByValue(fqn: "oci.dataOciWlmsWlsDomains.DataOciWlmsWlsDomainsConfig")]
     public class DataOciWlmsWlsDomainsConfig : oci.DataOciWlmsWlsDomains.IDataOciWlmsWlsDomainsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#compartment_id DataOciWlmsWlsDomains#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#compartment_id DataOciWlmsWlsDomains#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciWlmsWlsDomains
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#display_name DataOciWlmsWlsDomains#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#display_name DataOciWlmsWlsDomains#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -29,7 +29,7 @@ namespace oci.DataOciWlmsWlsDomains
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#filter DataOciWlmsWlsDomains#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#filter DataOciWlmsWlsDomains#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomains.IDataOciWlmsWlsDomainsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciWlmsWlsDomains
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#id DataOciWlmsWlsDomains#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#id DataOciWlmsWlsDomains#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciWlmsWlsDomains
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#middleware_type DataOciWlmsWlsDomains#middleware_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#middleware_type DataOciWlmsWlsDomains#middleware_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "middlewareType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MiddlewareType
@@ -82,7 +82,7 @@ namespace oci.DataOciWlmsWlsDomains
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#patch_readiness_status DataOciWlmsWlsDomains#patch_readiness_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#patch_readiness_status DataOciWlmsWlsDomains#patch_readiness_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "patchReadinessStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PatchReadinessStatus
@@ -91,7 +91,7 @@ namespace oci.DataOciWlmsWlsDomains
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#state DataOciWlmsWlsDomains#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#state DataOciWlmsWlsDomains#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -100,7 +100,7 @@ namespace oci.DataOciWlmsWlsDomains
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domains#weblogic_version DataOciWlmsWlsDomains#weblogic_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domains#weblogic_version DataOciWlmsWlsDomains#weblogic_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "weblogicVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WeblogicVersion

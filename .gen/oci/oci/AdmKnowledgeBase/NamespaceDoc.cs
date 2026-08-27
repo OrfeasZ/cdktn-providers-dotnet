@@ -5,7 +5,7 @@ namespace oci.AdmKnowledgeBase
     /// <remarks>
     /// <h1><c>oci_adm_knowledge_base</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/adm_knowledge_base"><c>oci_adm_knowledge_base</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_knowledge_base"><c>oci_adm_knowledge_base</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

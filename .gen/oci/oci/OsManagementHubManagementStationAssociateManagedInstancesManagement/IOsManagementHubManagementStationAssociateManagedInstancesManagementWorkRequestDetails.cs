@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagementStationAssociateManagedInstancesManagementWorkRequestDetails), fullyQualifiedName: "oci.osManagementHubManagementStationAssociateManagedInstancesManagement.OsManagementHubManagementStationAssociateManagedInstancesManagementWorkRequestDetails")]
     public interface IOsManagementHubManagementStationAssociateManagedInstancesManagementWorkRequestDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#description OsManagementHubManagementStationAssociateManagedInstancesManagement#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#description OsManagementHubManagementStationAssociateManagedInstancesManagement#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#display_name OsManagementHubManagementStationAssociateManagedInstancesManagement#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#display_name OsManagementHubManagementStationAssociateManagedInstancesManagement#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -36,7 +36,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#description OsManagementHubManagementStationAssociateManagedInstancesManagement#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#description OsManagementHubManagementStationAssociateManagedInstancesManagement#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -44,7 +44,7 @@ namespace oci.OsManagementHubManagementStationAssociateManagedInstancesManagemen
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#display_name OsManagementHubManagementStationAssociateManagedInstancesManagement#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_management_station_associate_managed_instances_management#display_name OsManagementHubManagementStationAssociateManagedInstancesManagement#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName

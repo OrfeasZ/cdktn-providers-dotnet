@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicy
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicy.DataOciNetworkFirewallNetworkFirewallPolicyConfig")]
     public class DataOciNetworkFirewallNetworkFirewallPolicyConfig : oci.DataOciNetworkFirewallNetworkFirewallPolicy.IDataOciNetworkFirewallNetworkFirewallPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_firewall_network_firewall_policy#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicy#network_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policy#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicy#network_firewall_policy_id}.</summary>
         [JsiiProperty(name: "networkFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkFirewallPolicyId
         {

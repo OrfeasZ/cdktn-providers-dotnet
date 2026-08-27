@@ -9,7 +9,7 @@ namespace oci.DataOciServiceCatalogServiceCatalogAssociation
     [JsiiByValue(fqn: "oci.dataOciServiceCatalogServiceCatalogAssociation.DataOciServiceCatalogServiceCatalogAssociationConfig")]
     public class DataOciServiceCatalogServiceCatalogAssociationConfig : oci.DataOciServiceCatalogServiceCatalogAssociation.IDataOciServiceCatalogServiceCatalogAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/service_catalog_service_catalog_association#service_catalog_association_id DataOciServiceCatalogServiceCatalogAssociation#service_catalog_association_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/service_catalog_service_catalog_association#service_catalog_association_id DataOciServiceCatalogServiceCatalogAssociation#service_catalog_association_id}.</summary>
         [JsiiProperty(name: "serviceCatalogAssociationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceCatalogAssociationId
         {

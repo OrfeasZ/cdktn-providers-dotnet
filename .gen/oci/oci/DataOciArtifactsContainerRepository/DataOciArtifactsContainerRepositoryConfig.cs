@@ -9,7 +9,7 @@ namespace oci.DataOciArtifactsContainerRepository
     [JsiiByValue(fqn: "oci.dataOciArtifactsContainerRepository.DataOciArtifactsContainerRepositoryConfig")]
     public class DataOciArtifactsContainerRepositoryConfig : oci.DataOciArtifactsContainerRepository.IDataOciArtifactsContainerRepositoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/artifacts_container_repository#repository_id DataOciArtifactsContainerRepository#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/artifacts_container_repository#repository_id DataOciArtifactsContainerRepository#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
     [JsiiByValue(fqn: "oci.dataOciManagedKafkaAddonOptions.DataOciManagedKafkaAddonOptionsFilter")]
     public class DataOciManagedKafkaAddonOptionsFilter : oci.DataOciManagedKafkaAddonOptions.IDataOciManagedKafkaAddonOptionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/managed_kafka_addon_options#name DataOciManagedKafkaAddonOptions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/managed_kafka_addon_options#name DataOciManagedKafkaAddonOptions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/managed_kafka_addon_options#values DataOciManagedKafkaAddonOptions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/managed_kafka_addon_options#values DataOciManagedKafkaAddonOptions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciManagedKafkaAddonOptions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/managed_kafka_addon_options#regex DataOciManagedKafkaAddonOptions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/managed_kafka_addon_options#regex DataOciManagedKafkaAddonOptions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DataOciWlmsWlsDomainServers
     [JsiiInterface(nativeType: typeof(IDataOciWlmsWlsDomainServersConfig), fullyQualifiedName: "oci.dataOciWlmsWlsDomainServers.DataOciWlmsWlsDomainServersConfig")]
     public interface IDataOciWlmsWlsDomainServersConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#wls_domain_id DataOciWlmsWlsDomainServers#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#wls_domain_id DataOciWlmsWlsDomainServers#wls_domain_id}.</summary>
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string WlsDomainId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciWlmsWlsDomainServers
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#filter DataOciWlmsWlsDomainServers#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#filter DataOciWlmsWlsDomainServers#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainServers.IDataOciWlmsWlsDomainServersFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWlmsWlsDomainServers.DataOciWlmsWlsDomainServersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciWlmsWlsDomainServers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#id DataOciWlmsWlsDomainServers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#id DataOciWlmsWlsDomainServers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciWlmsWlsDomainServers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#name DataOciWlmsWlsDomainServers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#name DataOciWlmsWlsDomainServers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -62,7 +62,7 @@ namespace oci.DataOciWlmsWlsDomainServers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#wls_domain_id DataOciWlmsWlsDomainServers#wls_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#wls_domain_id DataOciWlmsWlsDomainServers#wls_domain_id}.</summary>
             [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string WlsDomainId
             {
@@ -71,7 +71,7 @@ namespace oci.DataOciWlmsWlsDomainServers
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#filter DataOciWlmsWlsDomainServers#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#filter DataOciWlmsWlsDomainServers#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainServers.IDataOciWlmsWlsDomainServersFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -81,7 +81,7 @@ namespace oci.DataOciWlmsWlsDomainServers
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#id DataOciWlmsWlsDomainServers#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#id DataOciWlmsWlsDomainServers#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +93,7 @@ namespace oci.DataOciWlmsWlsDomainServers
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/wlms_wls_domain_servers#name DataOciWlmsWlsDomainServers#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_servers#name DataOciWlmsWlsDomainServers#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

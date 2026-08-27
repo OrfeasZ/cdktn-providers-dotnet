@@ -9,7 +9,7 @@ namespace oci.DataOciBatchBatchJobPool
     [JsiiByValue(fqn: "oci.dataOciBatchBatchJobPool.DataOciBatchBatchJobPoolConfig")]
     public class DataOciBatchBatchJobPoolConfig : oci.DataOciBatchBatchJobPool.IDataOciBatchBatchJobPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/batch_batch_job_pool#batch_job_pool_id DataOciBatchBatchJobPool#batch_job_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_job_pool#batch_job_pool_id DataOciBatchBatchJobPool#batch_job_pool_id}.</summary>
         [JsiiProperty(name: "batchJobPoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string BatchJobPoolId
         {

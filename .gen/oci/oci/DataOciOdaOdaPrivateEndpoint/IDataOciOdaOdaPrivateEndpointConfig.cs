@@ -7,7 +7,7 @@ namespace oci.DataOciOdaOdaPrivateEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciOdaOdaPrivateEndpointConfig), fullyQualifiedName: "oci.dataOciOdaOdaPrivateEndpoint.DataOciOdaOdaPrivateEndpointConfig")]
     public interface IDataOciOdaOdaPrivateEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/oda_oda_private_endpoint#oda_private_endpoint_id DataOciOdaOdaPrivateEndpoint#oda_private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/oda_oda_private_endpoint#oda_private_endpoint_id DataOciOdaOdaPrivateEndpoint#oda_private_endpoint_id}.</summary>
         [JsiiProperty(name: "odaPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string OdaPrivateEndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOdaOdaPrivateEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/oda_oda_private_endpoint#oda_private_endpoint_id DataOciOdaOdaPrivateEndpoint#oda_private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/oda_oda_private_endpoint#oda_private_endpoint_id DataOciOdaOdaPrivateEndpoint#oda_private_endpoint_id}.</summary>
             [JsiiProperty(name: "odaPrivateEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string OdaPrivateEndpointId
             {

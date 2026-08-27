@@ -9,7 +9,7 @@ namespace oci.BdsBdsInstanceNodeReplaceConfiguration
     [JsiiByValue(fqn: "oci.bdsBdsInstanceNodeReplaceConfiguration.BdsBdsInstanceNodeReplaceConfigurationLevelTypeDetails")]
     public class BdsBdsInstanceNodeReplaceConfigurationLevelTypeDetails : oci.BdsBdsInstanceNodeReplaceConfiguration.IBdsBdsInstanceNodeReplaceConfigurationLevelTypeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_node_replace_configuration#level_type BdsBdsInstanceNodeReplaceConfiguration#level_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_node_replace_configuration#level_type BdsBdsInstanceNodeReplaceConfiguration#level_type}.</summary>
         [JsiiProperty(name: "levelType", typeJson: "{\"primitive\":\"string\"}")]
         public string LevelType
         {
@@ -17,7 +17,7 @@ namespace oci.BdsBdsInstanceNodeReplaceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_node_replace_configuration#node_host_name BdsBdsInstanceNodeReplaceConfiguration#node_host_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_node_replace_configuration#node_host_name BdsBdsInstanceNodeReplaceConfiguration#node_host_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeHostName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeHostName
@@ -26,7 +26,7 @@ namespace oci.BdsBdsInstanceNodeReplaceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_node_replace_configuration#node_type BdsBdsInstanceNodeReplaceConfiguration#node_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_node_replace_configuration#node_type BdsBdsInstanceNodeReplaceConfiguration#node_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NodeType

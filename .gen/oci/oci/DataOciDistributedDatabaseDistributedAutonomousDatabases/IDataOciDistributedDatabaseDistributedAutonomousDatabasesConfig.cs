@@ -7,14 +7,14 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
     [JsiiInterface(nativeType: typeof(IDataOciDistributedDatabaseDistributedAutonomousDatabasesConfig), fullyQualifiedName: "oci.dataOciDistributedDatabaseDistributedAutonomousDatabases.DataOciDistributedDatabaseDistributedAutonomousDatabasesConfig")]
     public interface IDataOciDistributedDatabaseDistributedAutonomousDatabasesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#compartment_id DataOciDistributedDatabaseDistributedAutonomousDatabases#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#compartment_id DataOciDistributedDatabaseDistributedAutonomousDatabases#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#db_deployment_type DataOciDistributedDatabaseDistributedAutonomousDatabases#db_deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#db_deployment_type DataOciDistributedDatabaseDistributedAutonomousDatabases#db_deployment_type}.</summary>
         [JsiiProperty(name: "dbDeploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbDeploymentType
@@ -25,7 +25,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#display_name DataOciDistributedDatabaseDistributedAutonomousDatabases#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#display_name DataOciDistributedDatabaseDistributedAutonomousDatabases#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#filter DataOciDistributedDatabaseDistributedAutonomousDatabases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#filter DataOciDistributedDatabaseDistributedAutonomousDatabases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDistributedDatabaseDistributedAutonomousDatabases.IDataOciDistributedDatabaseDistributedAutonomousDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDistributedDatabaseDistributedAutonomousDatabases.DataOciDistributedDatabaseDistributedAutonomousDatabasesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#id DataOciDistributedDatabaseDistributedAutonomousDatabases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#id DataOciDistributedDatabaseDistributedAutonomousDatabases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#private_endpoint_id DataOciDistributedDatabaseDistributedAutonomousDatabases#private_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#private_endpoint_id DataOciDistributedDatabaseDistributedAutonomousDatabases#private_endpoint_id}.</summary>
         [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PrivateEndpointId
@@ -77,7 +77,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#state DataOciDistributedDatabaseDistributedAutonomousDatabases#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#state DataOciDistributedDatabaseDistributedAutonomousDatabases#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -95,14 +95,14 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#compartment_id DataOciDistributedDatabaseDistributedAutonomousDatabases#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#compartment_id DataOciDistributedDatabaseDistributedAutonomousDatabases#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#db_deployment_type DataOciDistributedDatabaseDistributedAutonomousDatabases#db_deployment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#db_deployment_type DataOciDistributedDatabaseDistributedAutonomousDatabases#db_deployment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbDeploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbDeploymentType
@@ -110,7 +110,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#display_name DataOciDistributedDatabaseDistributedAutonomousDatabases#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#display_name DataOciDistributedDatabaseDistributedAutonomousDatabases#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -120,7 +120,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#filter DataOciDistributedDatabaseDistributedAutonomousDatabases#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#filter DataOciDistributedDatabaseDistributedAutonomousDatabases#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDistributedDatabaseDistributedAutonomousDatabases.IDataOciDistributedDatabaseDistributedAutonomousDatabasesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -130,7 +130,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#id DataOciDistributedDatabaseDistributedAutonomousDatabases#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#id DataOciDistributedDatabaseDistributedAutonomousDatabases#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -142,7 +142,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#private_endpoint_id DataOciDistributedDatabaseDistributedAutonomousDatabases#private_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#private_endpoint_id DataOciDistributedDatabaseDistributedAutonomousDatabases#private_endpoint_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "privateEndpointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PrivateEndpointId
@@ -150,7 +150,7 @@ namespace oci.DataOciDistributedDatabaseDistributedAutonomousDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_autonomous_databases#state DataOciDistributedDatabaseDistributedAutonomousDatabases#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_autonomous_databases#state DataOciDistributedDatabaseDistributedAutonomousDatabases#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

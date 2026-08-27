@@ -7,7 +7,7 @@ namespace oci.FleetSoftwareUpdateFsuReadinessCheck
     [JsiiByValue(fqn: "oci.fleetSoftwareUpdateFsuReadinessCheck.FleetSoftwareUpdateFsuReadinessCheckTimeouts")]
     public class FleetSoftwareUpdateFsuReadinessCheckTimeouts : oci.FleetSoftwareUpdateFsuReadinessCheck.IFleetSoftwareUpdateFsuReadinessCheckTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_software_update_fsu_readiness_check#create FleetSoftwareUpdateFsuReadinessCheck#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_software_update_fsu_readiness_check#create FleetSoftwareUpdateFsuReadinessCheck#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.FleetSoftwareUpdateFsuReadinessCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_software_update_fsu_readiness_check#delete FleetSoftwareUpdateFsuReadinessCheck#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_software_update_fsu_readiness_check#delete FleetSoftwareUpdateFsuReadinessCheck#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.FleetSoftwareUpdateFsuReadinessCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/fleet_software_update_fsu_readiness_check#update FleetSoftwareUpdateFsuReadinessCheck#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_software_update_fsu_readiness_check#update FleetSoftwareUpdateFsuReadinessCheck#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

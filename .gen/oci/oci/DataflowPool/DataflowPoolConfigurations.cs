@@ -7,7 +7,7 @@ namespace oci.DataflowPool
     [JsiiByValue(fqn: "oci.dataflowPool.DataflowPoolConfigurations")]
     public class DataflowPoolConfigurations : oci.DataflowPool.IDataflowPoolConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dataflow_pool#max DataflowPool#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dataflow_pool#max DataflowPool#max}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Max
@@ -16,7 +16,7 @@ namespace oci.DataflowPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dataflow_pool#min DataflowPool#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dataflow_pool#min DataflowPool#min}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Min
@@ -25,7 +25,7 @@ namespace oci.DataflowPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dataflow_pool#shape DataflowPool#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dataflow_pool#shape DataflowPool#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape
@@ -36,7 +36,7 @@ namespace oci.DataflowPool
 
         /// <summary>shape_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dataflow_pool#shape_config DataflowPool#shape_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dataflow_pool#shape_config DataflowPool#shape_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shapeConfig", typeJson: "{\"fqn\":\"oci.dataflowPool.DataflowPoolConfigurationsShapeConfig\"}", isOptional: true)]

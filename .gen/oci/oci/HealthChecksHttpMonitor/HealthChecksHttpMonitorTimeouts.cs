@@ -7,7 +7,7 @@ namespace oci.HealthChecksHttpMonitor
     [JsiiByValue(fqn: "oci.healthChecksHttpMonitor.HealthChecksHttpMonitorTimeouts")]
     public class HealthChecksHttpMonitorTimeouts : oci.HealthChecksHttpMonitor.IHealthChecksHttpMonitorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/health_checks_http_monitor#create HealthChecksHttpMonitor#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_monitor#create HealthChecksHttpMonitor#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.HealthChecksHttpMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/health_checks_http_monitor#delete HealthChecksHttpMonitor#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_monitor#delete HealthChecksHttpMonitor#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.HealthChecksHttpMonitor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/health_checks_http_monitor#update HealthChecksHttpMonitor#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_monitor#update HealthChecksHttpMonitor#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

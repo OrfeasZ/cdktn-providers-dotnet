@@ -7,7 +7,7 @@ namespace oci.DataOciOdaOdaInstance
     [JsiiInterface(nativeType: typeof(IDataOciOdaOdaInstanceConfig), fullyQualifiedName: "oci.dataOciOdaOdaInstance.DataOciOdaOdaInstanceConfig")]
     public interface IDataOciOdaOdaInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/oda_oda_instance#oda_instance_id DataOciOdaOdaInstance#oda_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/oda_oda_instance#oda_instance_id DataOciOdaOdaInstance#oda_instance_id}.</summary>
         [JsiiProperty(name: "odaInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string OdaInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOdaOdaInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/oda_oda_instance#oda_instance_id DataOciOdaOdaInstance#oda_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/oda_oda_instance#oda_instance_id DataOciOdaOdaInstance#oda_instance_id}.</summary>
             [JsiiProperty(name: "odaInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string OdaInstanceId
             {

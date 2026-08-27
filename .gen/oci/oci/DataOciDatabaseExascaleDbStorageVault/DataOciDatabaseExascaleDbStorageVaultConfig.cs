@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseExascaleDbStorageVault
     [JsiiByValue(fqn: "oci.dataOciDatabaseExascaleDbStorageVault.DataOciDatabaseExascaleDbStorageVaultConfig")]
     public class DataOciDatabaseExascaleDbStorageVaultConfig : oci.DataOciDatabaseExascaleDbStorageVault.IDataOciDatabaseExascaleDbStorageVaultConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_exascale_db_storage_vault#exascale_db_storage_vault_id DataOciDatabaseExascaleDbStorageVault#exascale_db_storage_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_exascale_db_storage_vault#exascale_db_storage_vault_id DataOciDatabaseExascaleDbStorageVault#exascale_db_storage_vault_id}.</summary>
         [JsiiProperty(name: "exascaleDbStorageVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExascaleDbStorageVaultId
         {

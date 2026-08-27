@@ -9,7 +9,7 @@ namespace oci.AiLanguageJob
     [JsiiByValue(fqn: "oci.aiLanguageJob.AiLanguageJobInputLocation")]
     public class AiLanguageJobInputLocation : oci.AiLanguageJob.IAiLanguageJobInputLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#bucket AiLanguageJob#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_language_job#bucket AiLanguageJob#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#location_type AiLanguageJob#location_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_language_job#location_type AiLanguageJob#location_type}.</summary>
         [JsiiProperty(name: "locationType", typeJson: "{\"primitive\":\"string\"}")]
         public string LocationType
         {
@@ -25,7 +25,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#namespace AiLanguageJob#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_language_job#namespace AiLanguageJob#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -33,7 +33,7 @@ namespace oci.AiLanguageJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/ai_language_job#object_names AiLanguageJob#object_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_language_job#object_names AiLanguageJob#object_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ObjectNames

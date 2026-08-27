@@ -9,7 +9,7 @@ namespace oci.DataOciLicenseManagerLicenseMetric
     [JsiiByValue(fqn: "oci.dataOciLicenseManagerLicenseMetric.DataOciLicenseManagerLicenseMetricConfig")]
     public class DataOciLicenseManagerLicenseMetricConfig : oci.DataOciLicenseManagerLicenseMetric.IDataOciLicenseManagerLicenseMetricConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/license_manager_license_metric#compartment_id DataOciLicenseManagerLicenseMetric#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/license_manager_license_metric#compartment_id DataOciLicenseManagerLicenseMetric#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLicenseManagerLicenseMetric
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/license_manager_license_metric#id DataOciLicenseManagerLicenseMetric#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/license_manager_license_metric#id DataOciLicenseManagerLicenseMetric#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.DataOciLicenseManagerLicenseMetric
 
         private object? _isCompartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/license_manager_license_metric#is_compartment_id_in_subtree DataOciLicenseManagerLicenseMetric#is_compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/license_manager_license_metric#is_compartment_id_in_subtree DataOciLicenseManagerLicenseMetric#is_compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

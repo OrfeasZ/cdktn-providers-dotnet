@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpByolAllocation
     [JsiiInterface(nativeType: typeof(IDataOciOcvpByolAllocationConfig), fullyQualifiedName: "oci.dataOciOcvpByolAllocation.DataOciOcvpByolAllocationConfig")]
     public interface IDataOciOcvpByolAllocationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byol_allocation#byol_allocation_id DataOciOcvpByolAllocation#byol_allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byol_allocation#byol_allocation_id DataOciOcvpByolAllocation#byol_allocation_id}.</summary>
         [JsiiProperty(name: "byolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
         string ByolAllocationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOcvpByolAllocation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/ocvp_byol_allocation#byol_allocation_id DataOciOcvpByolAllocation#byol_allocation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_byol_allocation#byol_allocation_id DataOciOcvpByolAllocation#byol_allocation_id}.</summary>
             [JsiiProperty(name: "byolAllocationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ByolAllocationId
             {

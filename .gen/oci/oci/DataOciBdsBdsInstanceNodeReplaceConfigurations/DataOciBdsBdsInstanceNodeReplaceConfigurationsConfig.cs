@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceNodeReplaceConfigurations.DataOciBdsBdsInstanceNodeReplaceConfigurationsConfig")]
     public class DataOciBdsBdsInstanceNodeReplaceConfigurationsConfig : oci.DataOciBdsBdsInstanceNodeReplaceConfigurations.IDataOciBdsBdsInstanceNodeReplaceConfigurationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#bds_instance_id DataOciBdsBdsInstanceNodeReplaceConfigurations#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#bds_instance_id DataOciBdsBdsInstanceNodeReplaceConfigurations#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#display_name DataOciBdsBdsInstanceNodeReplaceConfigurations#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#display_name DataOciBdsBdsInstanceNodeReplaceConfigurations#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#filter DataOciBdsBdsInstanceNodeReplaceConfigurations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#filter DataOciBdsBdsInstanceNodeReplaceConfigurations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsInstanceNodeReplaceConfigurations.IDataOciBdsBdsInstanceNodeReplaceConfigurationsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#id DataOciBdsBdsInstanceNodeReplaceConfigurations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#id DataOciBdsBdsInstanceNodeReplaceConfigurations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#state DataOciBdsBdsInstanceNodeReplaceConfigurations#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#state DataOciBdsBdsInstanceNodeReplaceConfigurations#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsCloudGate
     [JsiiByValue(fqn: "oci.identityDomainsCloudGate.IdentityDomainsCloudGateTags")]
     public class IdentityDomainsCloudGateTags : oci.IdentityDomainsCloudGate.IIdentityDomainsCloudGateTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_cloud_gate#key IdentityDomainsCloudGate#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_cloud_gate#key IdentityDomainsCloudGate#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsCloudGate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/identity_domains_cloud_gate#value IdentityDomainsCloudGate#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_cloud_gate#value IdentityDomainsCloudGate#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

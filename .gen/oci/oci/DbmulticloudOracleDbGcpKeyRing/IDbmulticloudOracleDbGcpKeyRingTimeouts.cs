@@ -7,7 +7,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
     [JsiiInterface(nativeType: typeof(IDbmulticloudOracleDbGcpKeyRingTimeouts), fullyQualifiedName: "oci.dbmulticloudOracleDbGcpKeyRing.DbmulticloudOracleDbGcpKeyRingTimeouts")]
     public interface IDbmulticloudOracleDbGcpKeyRingTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#create DbmulticloudOracleDbGcpKeyRing#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#create DbmulticloudOracleDbGcpKeyRing#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#delete DbmulticloudOracleDbGcpKeyRing#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#delete DbmulticloudOracleDbGcpKeyRing#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#update DbmulticloudOracleDbGcpKeyRing#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#update DbmulticloudOracleDbGcpKeyRing#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#create DbmulticloudOracleDbGcpKeyRing#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#create DbmulticloudOracleDbGcpKeyRing#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#delete DbmulticloudOracleDbGcpKeyRing#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#delete DbmulticloudOracleDbGcpKeyRing#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.DbmulticloudOracleDbGcpKeyRing
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#update DbmulticloudOracleDbGcpKeyRing#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_gcp_key_ring#update DbmulticloudOracleDbGcpKeyRing#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

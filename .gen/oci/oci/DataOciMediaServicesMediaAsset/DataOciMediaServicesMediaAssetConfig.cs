@@ -9,7 +9,7 @@ namespace oci.DataOciMediaServicesMediaAsset
     [JsiiByValue(fqn: "oci.dataOciMediaServicesMediaAsset.DataOciMediaServicesMediaAssetConfig")]
     public class DataOciMediaServicesMediaAssetConfig : oci.DataOciMediaServicesMediaAsset.IDataOciMediaServicesMediaAssetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_media_asset#media_asset_id DataOciMediaServicesMediaAsset#media_asset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/media_services_media_asset#media_asset_id DataOciMediaServicesMediaAsset#media_asset_id}.</summary>
         [JsiiProperty(name: "mediaAssetId", typeJson: "{\"primitive\":\"string\"}")]
         public string MediaAssetId
         {

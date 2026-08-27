@@ -7,7 +7,7 @@ namespace oci.DataOciServiceCatalogPrivateApplication
     [JsiiInterface(nativeType: typeof(IDataOciServiceCatalogPrivateApplicationConfig), fullyQualifiedName: "oci.dataOciServiceCatalogPrivateApplication.DataOciServiceCatalogPrivateApplicationConfig")]
     public interface IDataOciServiceCatalogPrivateApplicationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}.</summary>
         [JsiiProperty(name: "privateApplicationId", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateApplicationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciServiceCatalogPrivateApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/service_catalog_private_application#private_application_id DataOciServiceCatalogPrivateApplication#private_application_id}.</summary>
             [JsiiProperty(name: "privateApplicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateApplicationId
             {

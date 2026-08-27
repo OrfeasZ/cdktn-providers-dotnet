@@ -7,14 +7,14 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityType
     [JsiiInterface(nativeType: typeof(IDataOciLogAnalyticsLogAnalyticsEntityTypeConfig), fullyQualifiedName: "oci.dataOciLogAnalyticsLogAnalyticsEntityType.DataOciLogAnalyticsLogAnalyticsEntityTypeConfig")]
     public interface IDataOciLogAnalyticsLogAnalyticsEntityTypeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/log_analytics_log_analytics_entity_type#entity_type_name DataOciLogAnalyticsLogAnalyticsEntityType#entity_type_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity_type#entity_type_name DataOciLogAnalyticsLogAnalyticsEntityType#entity_type_name}.</summary>
         [JsiiProperty(name: "entityTypeName", typeJson: "{\"primitive\":\"string\"}")]
         string EntityTypeName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/log_analytics_log_analytics_entity_type#namespace DataOciLogAnalyticsLogAnalyticsEntityType#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity_type#namespace DataOciLogAnalyticsLogAnalyticsEntityType#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityType
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/log_analytics_log_analytics_entity_type#entity_type_name DataOciLogAnalyticsLogAnalyticsEntityType#entity_type_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity_type#entity_type_name DataOciLogAnalyticsLogAnalyticsEntityType#entity_type_name}.</summary>
             [JsiiProperty(name: "entityTypeName", typeJson: "{\"primitive\":\"string\"}")]
             public string EntityTypeName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/log_analytics_log_analytics_entity_type#namespace DataOciLogAnalyticsLogAnalyticsEntityType#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity_type#namespace DataOciLogAnalyticsLogAnalyticsEntityType#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

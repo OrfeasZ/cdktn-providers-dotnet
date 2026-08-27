@@ -7,14 +7,14 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
     [JsiiInterface(nativeType: typeof(IDataOciDisasterRecoveryAutomaticDrConfigurationsConfig), fullyQualifiedName: "oci.dataOciDisasterRecoveryAutomaticDrConfigurations.DataOciDisasterRecoveryAutomaticDrConfigurationsConfig")]
     public interface IDataOciDisasterRecoveryAutomaticDrConfigurationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#dr_protection_group_id DataOciDisasterRecoveryAutomaticDrConfigurations#dr_protection_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#dr_protection_group_id DataOciDisasterRecoveryAutomaticDrConfigurations#dr_protection_group_id}.</summary>
         [JsiiProperty(name: "drProtectionGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string DrProtectionGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfigurations#automatic_dr_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfigurations#automatic_dr_configuration_id}.</summary>
         [JsiiProperty(name: "automaticDrConfigurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AutomaticDrConfigurationId
@@ -25,7 +25,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#display_name DataOciDisasterRecoveryAutomaticDrConfigurations#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#display_name DataOciDisasterRecoveryAutomaticDrConfigurations#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#filter DataOciDisasterRecoveryAutomaticDrConfigurations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#filter DataOciDisasterRecoveryAutomaticDrConfigurations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDisasterRecoveryAutomaticDrConfigurations.IDataOciDisasterRecoveryAutomaticDrConfigurationsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDisasterRecoveryAutomaticDrConfigurations.DataOciDisasterRecoveryAutomaticDrConfigurationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#id DataOciDisasterRecoveryAutomaticDrConfigurations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#id DataOciDisasterRecoveryAutomaticDrConfigurations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -66,7 +66,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#lifecycle_state_not_equal_to DataOciDisasterRecoveryAutomaticDrConfigurations#lifecycle_state_not_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#lifecycle_state_not_equal_to DataOciDisasterRecoveryAutomaticDrConfigurations#lifecycle_state_not_equal_to}.</summary>
         [JsiiProperty(name: "lifecycleStateNotEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LifecycleStateNotEqualTo
@@ -77,7 +77,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#state DataOciDisasterRecoveryAutomaticDrConfigurations#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#state DataOciDisasterRecoveryAutomaticDrConfigurations#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -95,14 +95,14 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#dr_protection_group_id DataOciDisasterRecoveryAutomaticDrConfigurations#dr_protection_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#dr_protection_group_id DataOciDisasterRecoveryAutomaticDrConfigurations#dr_protection_group_id}.</summary>
             [JsiiProperty(name: "drProtectionGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string DrProtectionGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfigurations#automatic_dr_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfigurations#automatic_dr_configuration_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "automaticDrConfigurationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AutomaticDrConfigurationId
@@ -110,7 +110,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#display_name DataOciDisasterRecoveryAutomaticDrConfigurations#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#display_name DataOciDisasterRecoveryAutomaticDrConfigurations#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -120,7 +120,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#filter DataOciDisasterRecoveryAutomaticDrConfigurations#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#filter DataOciDisasterRecoveryAutomaticDrConfigurations#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDisasterRecoveryAutomaticDrConfigurations.IDataOciDisasterRecoveryAutomaticDrConfigurationsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -130,7 +130,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#id DataOciDisasterRecoveryAutomaticDrConfigurations#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#id DataOciDisasterRecoveryAutomaticDrConfigurations#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -142,7 +142,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#lifecycle_state_not_equal_to DataOciDisasterRecoveryAutomaticDrConfigurations#lifecycle_state_not_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#lifecycle_state_not_equal_to DataOciDisasterRecoveryAutomaticDrConfigurations#lifecycle_state_not_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lifecycleStateNotEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LifecycleStateNotEqualTo
@@ -150,7 +150,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfigurations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#state DataOciDisasterRecoveryAutomaticDrConfigurations#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configurations#state DataOciDisasterRecoveryAutomaticDrConfigurations#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

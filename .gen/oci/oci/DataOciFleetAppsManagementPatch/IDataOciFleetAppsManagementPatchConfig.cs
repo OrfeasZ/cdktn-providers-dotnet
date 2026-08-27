@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementPatch
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementPatchConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementPatch.DataOciFleetAppsManagementPatchConfig")]
     public interface IDataOciFleetAppsManagementPatchConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_patch#patch_id DataOciFleetAppsManagementPatch#patch_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_patch#patch_id DataOciFleetAppsManagementPatch#patch_id}.</summary>
         [JsiiProperty(name: "patchId", typeJson: "{\"primitive\":\"string\"}")]
         string PatchId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFleetAppsManagementPatch
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/fleet_apps_management_patch#patch_id DataOciFleetAppsManagementPatch#patch_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_patch#patch_id DataOciFleetAppsManagementPatch#patch_id}.</summary>
             [JsiiProperty(name: "patchId", typeJson: "{\"primitive\":\"string\"}")]
             public string PatchId
             {

@@ -7,7 +7,7 @@ namespace oci.DataOciStreamingStream
     [JsiiInterface(nativeType: typeof(IDataOciStreamingStreamConfig), fullyQualifiedName: "oci.dataOciStreamingStream.DataOciStreamingStreamConfig")]
     public interface IDataOciStreamingStreamConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/streaming_stream#stream_id DataOciStreamingStream#stream_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/streaming_stream#stream_id DataOciStreamingStream#stream_id}.</summary>
         [JsiiProperty(name: "streamId", typeJson: "{\"primitive\":\"string\"}")]
         string StreamId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciStreamingStream
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/streaming_stream#stream_id DataOciStreamingStream#stream_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/streaming_stream#stream_id DataOciStreamingStream#stream_id}.</summary>
             [JsiiProperty(name: "streamId", typeJson: "{\"primitive\":\"string\"}")]
             public string StreamId
             {

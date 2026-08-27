@@ -7,7 +7,7 @@ namespace oci.DataOciCloudBridgeAgentDependency
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeAgentDependencyConfig), fullyQualifiedName: "oci.dataOciCloudBridgeAgentDependency.DataOciCloudBridgeAgentDependencyConfig")]
     public interface IDataOciCloudBridgeAgentDependencyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_bridge_agent_dependency#agent_dependency_id DataOciCloudBridgeAgentDependency#agent_dependency_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependency#agent_dependency_id DataOciCloudBridgeAgentDependency#agent_dependency_id}.</summary>
         [JsiiProperty(name: "agentDependencyId", typeJson: "{\"primitive\":\"string\"}")]
         string AgentDependencyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudBridgeAgentDependency
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/cloud_bridge_agent_dependency#agent_dependency_id DataOciCloudBridgeAgentDependency#agent_dependency_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependency#agent_dependency_id DataOciCloudBridgeAgentDependency#agent_dependency_id}.</summary>
             [JsiiProperty(name: "agentDependencyId", typeJson: "{\"primitive\":\"string\"}")]
             public string AgentDependencyId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneRecipientInvitations
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneRecipientInvitations.DataOciTenantmanagercontrolplaneRecipientInvitationsFilter")]
     public class DataOciTenantmanagercontrolplaneRecipientInvitationsFilter : oci.DataOciTenantmanagercontrolplaneRecipientInvitations.IDataOciTenantmanagercontrolplaneRecipientInvitationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_recipient_invitations#name DataOciTenantmanagercontrolplaneRecipientInvitations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_recipient_invitations#name DataOciTenantmanagercontrolplaneRecipientInvitations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneRecipientInvitations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_recipient_invitations#values DataOciTenantmanagercontrolplaneRecipientInvitations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_recipient_invitations#values DataOciTenantmanagercontrolplaneRecipientInvitations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciTenantmanagercontrolplaneRecipientInvitations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/tenantmanagercontrolplane_recipient_invitations#regex DataOciTenantmanagercontrolplaneRecipientInvitations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_recipient_invitations#regex DataOciTenantmanagercontrolplaneRecipientInvitations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DesktopsDesktopPool
     {
         /// <summary>disconnect block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#disconnect DesktopsDesktopPool#disconnect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#disconnect DesktopsDesktopPool#disconnect}
         /// </remarks>
         [JsiiProperty(name: "disconnect", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolSessionLifecycleActionsDisconnect\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace oci.DesktopsDesktopPool
 
         /// <summary>inactivity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#inactivity DesktopsDesktopPool#inactivity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#inactivity DesktopsDesktopPool#inactivity}
         /// </remarks>
         [JsiiProperty(name: "inactivity", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolSessionLifecycleActionsInactivity\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace oci.DesktopsDesktopPool
 
             /// <summary>disconnect block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#disconnect DesktopsDesktopPool#disconnect}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#disconnect DesktopsDesktopPool#disconnect}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "disconnect", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolSessionLifecycleActionsDisconnect\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DesktopsDesktopPool
 
             /// <summary>inactivity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/desktops_desktop_pool#inactivity DesktopsDesktopPool#inactivity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#inactivity DesktopsDesktopPool#inactivity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inactivity", typeJson: "{\"fqn\":\"oci.desktopsDesktopPool.DesktopsDesktopPoolSessionLifecycleActionsInactivity\"}", isOptional: true)]

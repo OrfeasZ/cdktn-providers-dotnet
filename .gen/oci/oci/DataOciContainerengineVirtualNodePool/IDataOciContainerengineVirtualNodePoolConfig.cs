@@ -7,7 +7,7 @@ namespace oci.DataOciContainerengineVirtualNodePool
     [JsiiInterface(nativeType: typeof(IDataOciContainerengineVirtualNodePoolConfig), fullyQualifiedName: "oci.dataOciContainerengineVirtualNodePool.DataOciContainerengineVirtualNodePoolConfig")]
     public interface IDataOciContainerengineVirtualNodePoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_virtual_node_pool#virtual_node_pool_id DataOciContainerengineVirtualNodePool#virtual_node_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/containerengine_virtual_node_pool#virtual_node_pool_id DataOciContainerengineVirtualNodePool#virtual_node_pool_id}.</summary>
         [JsiiProperty(name: "virtualNodePoolId", typeJson: "{\"primitive\":\"string\"}")]
         string VirtualNodePoolId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciContainerengineVirtualNodePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/containerengine_virtual_node_pool#virtual_node_pool_id DataOciContainerengineVirtualNodePool#virtual_node_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/containerengine_virtual_node_pool#virtual_node_pool_id DataOciContainerengineVirtualNodePool#virtual_node_pool_id}.</summary>
             [JsiiProperty(name: "virtualNodePoolId", typeJson: "{\"primitive\":\"string\"}")]
             public string VirtualNodePoolId
             {

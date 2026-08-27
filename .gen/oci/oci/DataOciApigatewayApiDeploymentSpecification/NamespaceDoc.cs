@@ -5,7 +5,7 @@ namespace oci.DataOciApigatewayApiDeploymentSpecification
     /// <remarks>
     /// <h1><c>data_oci_apigateway_api_deployment_specification</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apigateway_api_deployment_specification"><c>data_oci_apigateway_api_deployment_specification</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apigateway_api_deployment_specification"><c>data_oci_apigateway_api_deployment_specification</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

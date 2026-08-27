@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceProject
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceProjectConfig), fullyQualifiedName: "oci.dataOciDatascienceProject.DataOciDatascienceProjectConfig")]
     public interface IDataOciDatascienceProjectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_project#project_id DataOciDatascienceProject#project_id}.</summary>
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectId
             {

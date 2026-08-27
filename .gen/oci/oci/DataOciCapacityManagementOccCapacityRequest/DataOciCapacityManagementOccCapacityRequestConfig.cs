@@ -9,7 +9,7 @@ namespace oci.DataOciCapacityManagementOccCapacityRequest
     [JsiiByValue(fqn: "oci.dataOciCapacityManagementOccCapacityRequest.DataOciCapacityManagementOccCapacityRequestConfig")]
     public class DataOciCapacityManagementOccCapacityRequestConfig : oci.DataOciCapacityManagementOccCapacityRequest.IDataOciCapacityManagementOccCapacityRequestConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/capacity_management_occ_capacity_request#occ_capacity_request_id DataOciCapacityManagementOccCapacityRequest#occ_capacity_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occ_capacity_request#occ_capacity_request_id DataOciCapacityManagementOccCapacityRequest#occ_capacity_request_id}.</summary>
         [JsiiProperty(name: "occCapacityRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string OccCapacityRequestId
         {

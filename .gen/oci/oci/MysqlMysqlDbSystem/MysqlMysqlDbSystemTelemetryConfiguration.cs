@@ -11,7 +11,7 @@ namespace oci.MysqlMysqlDbSystem
 
         /// <summary>logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#logs MysqlMysqlDbSystem#logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_mysql_db_system#logs MysqlMysqlDbSystem#logs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.MysqlMysqlDbSystem.IMysqlMysqlDbSystemTelemetryConfigurationLogs" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,21 +7,21 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubProfileAvailableSoftwareSourcesFilter), fullyQualifiedName: "oci.dataOciOsManagementHubProfileAvailableSoftwareSources.DataOciOsManagementHubProfileAvailableSoftwareSourcesFilter")]
     public interface IDataOciOsManagementHubProfileAvailableSoftwareSourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#name DataOciOsManagementHubProfileAvailableSoftwareSources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_profile_available_software_sources#name DataOciOsManagementHubProfileAvailableSoftwareSources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#values DataOciOsManagementHubProfileAvailableSoftwareSources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_profile_available_software_sources#values DataOciOsManagementHubProfileAvailableSoftwareSources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#regex DataOciOsManagementHubProfileAvailableSoftwareSources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_profile_available_software_sources#regex DataOciOsManagementHubProfileAvailableSoftwareSources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciOsManagementHubProfileAvailableSoftwareSources
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#name DataOciOsManagementHubProfileAvailableSoftwareSources#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_profile_available_software_sources#name DataOciOsManagementHubProfileAvailableSoftwareSources#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#values DataOciOsManagementHubProfileAvailableSoftwareSources#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_profile_available_software_sources#values DataOciOsManagementHubProfileAvailableSoftwareSources#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile_available_software_sources#regex DataOciOsManagementHubProfileAvailableSoftwareSources#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_profile_available_software_sources#regex DataOciOsManagementHubProfileAvailableSoftwareSources#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -5,7 +5,7 @@ namespace oci.DataOciOptimizerProfileLevel
     /// <remarks>
     /// <h1><c>data_oci_optimizer_profile_level</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/optimizer_profile_level"><c>data_oci_optimizer_profile_level</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/optimizer_profile_level"><c>data_oci_optimizer_profile_level</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

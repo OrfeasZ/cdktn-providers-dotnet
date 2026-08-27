@@ -9,7 +9,7 @@ namespace oci.DataOciWaaWebAppAcceleration
     [JsiiByValue(fqn: "oci.dataOciWaaWebAppAcceleration.DataOciWaaWebAppAccelerationConfig")]
     public class DataOciWaaWebAppAccelerationConfig : oci.DataOciWaaWebAppAcceleration.IDataOciWaaWebAppAccelerationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/waa_web_app_acceleration#web_app_acceleration_id DataOciWaaWebAppAcceleration#web_app_acceleration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waa_web_app_acceleration#web_app_acceleration_id DataOciWaaWebAppAcceleration#web_app_acceleration_id}.</summary>
         [JsiiProperty(name: "webAppAccelerationId", typeJson: "{\"primitive\":\"string\"}")]
         public string WebAppAccelerationId
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseAutonomousContainerDatabaseConfig), fullyQualifiedName: "oci.dataOciDatabaseAutonomousContainerDatabase.DataOciDatabaseAutonomousContainerDatabaseConfig")]
     public interface IDataOciDatabaseAutonomousContainerDatabaseConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_autonomous_container_database#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabase#autonomous_container_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_autonomous_container_database#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabase#autonomous_container_database_id}.</summary>
         [JsiiProperty(name: "autonomousContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string AutonomousContainerDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_autonomous_container_database#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabase#autonomous_container_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_autonomous_container_database#autonomous_container_database_id DataOciDatabaseAutonomousContainerDatabase#autonomous_container_database_id}.</summary>
             [JsiiProperty(name: "autonomousContainerDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutonomousContainerDatabaseId
             {

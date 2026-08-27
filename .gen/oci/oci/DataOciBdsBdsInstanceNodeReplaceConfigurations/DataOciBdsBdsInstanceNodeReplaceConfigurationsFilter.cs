@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceNodeReplaceConfigurations.DataOciBdsBdsInstanceNodeReplaceConfigurationsFilter")]
     public class DataOciBdsBdsInstanceNodeReplaceConfigurationsFilter : oci.DataOciBdsBdsInstanceNodeReplaceConfigurations.IDataOciBdsBdsInstanceNodeReplaceConfigurationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#name DataOciBdsBdsInstanceNodeReplaceConfigurations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#name DataOciBdsBdsInstanceNodeReplaceConfigurations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#values DataOciBdsBdsInstanceNodeReplaceConfigurations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#values DataOciBdsBdsInstanceNodeReplaceConfigurations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfigurations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/bds_bds_instance_node_replace_configurations#regex DataOciBdsBdsInstanceNodeReplaceConfigurations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configurations#regex DataOciBdsBdsInstanceNodeReplaceConfigurations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

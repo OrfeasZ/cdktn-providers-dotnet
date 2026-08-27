@@ -5,7 +5,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
     /// <remarks>
     /// <h1><c>data_oci_identity_domains_branding_setting</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/identity_domains_branding_setting"><c>data_oci_identity_domains_branding_setting</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting"><c>data_oci_identity_domains_branding_setting</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

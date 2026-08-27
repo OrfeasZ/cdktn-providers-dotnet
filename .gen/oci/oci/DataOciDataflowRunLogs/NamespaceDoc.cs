@@ -5,7 +5,7 @@ namespace oci.DataOciDataflowRunLogs
     /// <remarks>
     /// <h1><c>data_oci_dataflow_run_logs</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataflow_run_logs"><c>data_oci_dataflow_run_logs</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataflow_run_logs"><c>data_oci_dataflow_run_logs</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

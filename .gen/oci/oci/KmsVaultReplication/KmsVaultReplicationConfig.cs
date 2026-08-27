@@ -9,7 +9,7 @@ namespace oci.KmsVaultReplication
     [JsiiByValue(fqn: "oci.kmsVaultReplication.KmsVaultReplicationConfig")]
     public class KmsVaultReplicationConfig : oci.KmsVaultReplication.IKmsVaultReplicationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault_replication#replica_region KmsVaultReplication#replica_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault_replication#replica_region KmsVaultReplication#replica_region}.</summary>
         [JsiiProperty(name: "replicaRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string ReplicaRegion
         {
@@ -17,7 +17,7 @@ namespace oci.KmsVaultReplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault_replication#vault_id KmsVaultReplication#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault_replication#vault_id KmsVaultReplication#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string VaultId
         {
@@ -25,7 +25,7 @@ namespace oci.KmsVaultReplication
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault_replication#id KmsVaultReplication#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault_replication#id KmsVaultReplication#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.KmsVaultReplication
 
         /// <summary>replica_vault_metadata block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault_replication#replica_vault_metadata KmsVaultReplication#replica_vault_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault_replication#replica_vault_metadata KmsVaultReplication#replica_vault_metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "replicaVaultMetadata", typeJson: "{\"fqn\":\"oci.kmsVaultReplication.KmsVaultReplicationReplicaVaultMetadata\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace oci.KmsVaultReplication
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/kms_vault_replication#timeouts KmsVaultReplication#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/kms_vault_replication#timeouts KmsVaultReplication#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.kmsVaultReplication.KmsVaultReplicationTimeouts\"}", isOptional: true)]

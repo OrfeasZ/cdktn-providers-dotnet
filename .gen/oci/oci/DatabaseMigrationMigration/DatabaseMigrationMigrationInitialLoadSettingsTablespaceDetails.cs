@@ -9,7 +9,7 @@ namespace oci.DatabaseMigrationMigration
     [JsiiByValue(fqn: "oci.databaseMigrationMigration.DatabaseMigrationMigrationInitialLoadSettingsTablespaceDetails")]
     public class DatabaseMigrationMigrationInitialLoadSettingsTablespaceDetails : oci.DatabaseMigrationMigration.IDatabaseMigrationMigrationInitialLoadSettingsTablespaceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_migration_migration#target_type DatabaseMigrationMigration#target_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_migration#target_type DatabaseMigrationMigration#target_type}.</summary>
         [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetType
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_migration_migration#block_size_in_kbs DatabaseMigrationMigration#block_size_in_kbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_migration#block_size_in_kbs DatabaseMigrationMigration#block_size_in_kbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockSizeInKbs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlockSizeInKbs
@@ -26,7 +26,7 @@ namespace oci.DatabaseMigrationMigration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_migration_migration#extend_size_in_mbs DatabaseMigrationMigration#extend_size_in_mbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_migration#extend_size_in_mbs DatabaseMigrationMigration#extend_size_in_mbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extendSizeInMbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ExtendSizeInMbs
@@ -37,7 +37,7 @@ namespace oci.DatabaseMigrationMigration
 
         private object? _isAutoCreate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_migration_migration#is_auto_create DatabaseMigrationMigration#is_auto_create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_migration#is_auto_create DatabaseMigrationMigration#is_auto_create}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -71,7 +71,7 @@ namespace oci.DatabaseMigrationMigration
 
         private object? _isBigFile;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_migration_migration#is_big_file DatabaseMigrationMigration#is_big_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_migration#is_big_file DatabaseMigrationMigration#is_big_file}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -103,7 +103,7 @@ namespace oci.DatabaseMigrationMigration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_migration_migration#remap_target DatabaseMigrationMigration#remap_target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_migration#remap_target DatabaseMigrationMigration#remap_target}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "remapTarget", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RemapTarget

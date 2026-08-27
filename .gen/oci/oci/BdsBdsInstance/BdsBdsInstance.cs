@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.BdsBdsInstance
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance oci_bds_bds_instance}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance oci_bds_bds_instance}.</summary>
     [JsiiClass(nativeType: typeof(oci.BdsBdsInstance.BdsBdsInstance), fullyQualifiedName: "oci.bdsBdsInstance.BdsBdsInstance", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceConfig\"}}]")]
     public class BdsBdsInstance : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance oci_bds_bds_instance} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance oci_bds_bds_instance} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BdsBdsInstance(Constructs.Construct scope, string id, oci.BdsBdsInstance.IBdsBdsInstanceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,34 @@ namespace oci.BdsBdsInstance
         /// <param name="importToId">The construct id used in the generated config for the BdsBdsInstance to import.</param>
         /// <param name="importFromId">The id of the existing BdsBdsInstance that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BdsBdsInstance to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BdsBdsInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BdsBdsInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BdsBdsInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BdsBdsInstance to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BdsBdsInstance that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BdsBdsInstance to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.BdsBdsInstance.BdsBdsInstance), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceBdsCapacityReservationConfigurations" />)[]</param>
+        [JsiiMethod(name: "putBdsCapacityReservationConfigurations", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsCapacityReservationConfigurations\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutBdsCapacityReservationConfigurations(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.BdsBdsInstance.IBdsBdsInstanceBdsCapacityReservationConfigurations[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.BdsBdsInstance.IBdsBdsInstanceBdsCapacityReservationConfigurations).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.BdsBdsInstance.IBdsBdsInstanceBdsCapacityReservationConfigurations).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putBdsClusterVersionSummary", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsClusterVersionSummary\"}}]")]
@@ -146,6 +170,12 @@ namespace oci.BdsBdsInstance
         public virtual void PutWorkerNode(oci.BdsBdsInstance.IBdsBdsInstanceWorkerNode @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.BdsBdsInstance.IBdsBdsInstanceWorkerNode)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetBdsCapacityReservationConfigurations")]
+        public virtual void ResetBdsCapacityReservationConfigurations()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetBdsClusterVersionSummary")]
@@ -329,6 +359,12 @@ namespace oci.BdsBdsInstance
         }
         = GetStaticProperty<string>(typeof(oci.BdsBdsInstance.BdsBdsInstance))!;
 
+        [JsiiProperty(name: "bdsCapacityReservationConfigurations", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsCapacityReservationConfigurationsList\"}")]
+        public virtual oci.BdsBdsInstance.BdsBdsInstanceBdsCapacityReservationConfigurationsList BdsCapacityReservationConfigurations
+        {
+            get => GetInstanceProperty<oci.BdsBdsInstance.BdsBdsInstanceBdsCapacityReservationConfigurationsList>()!;
+        }
+
         [JsiiProperty(name: "bdsClusterVersionSummary", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsClusterVersionSummaryOutputReference\"}")]
         public virtual oci.BdsBdsInstance.BdsBdsInstanceBdsClusterVersionSummaryOutputReference BdsClusterVersionSummary
         {
@@ -441,6 +477,16 @@ namespace oci.BdsBdsInstance
         public virtual oci.BdsBdsInstance.BdsBdsInstanceWorkerNodeOutputReference WorkerNode
         {
             get => GetInstanceProperty<oci.BdsBdsInstance.BdsBdsInstanceWorkerNodeOutputReference>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceBdsCapacityReservationConfigurations" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "bdsCapacityReservationConfigurationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsCapacityReservationConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? BdsCapacityReservationConfigurationsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

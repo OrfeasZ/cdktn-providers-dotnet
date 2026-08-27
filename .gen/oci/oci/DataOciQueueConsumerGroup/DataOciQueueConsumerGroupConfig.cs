@@ -9,7 +9,7 @@ namespace oci.DataOciQueueConsumerGroup
     [JsiiByValue(fqn: "oci.dataOciQueueConsumerGroup.DataOciQueueConsumerGroupConfig")]
     public class DataOciQueueConsumerGroupConfig : oci.DataOciQueueConsumerGroup.IDataOciQueueConsumerGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/queue_consumer_group#consumer_group_id DataOciQueueConsumerGroup#consumer_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/queue_consumer_group#consumer_group_id DataOciQueueConsumerGroup#consumer_group_id}.</summary>
         [JsiiProperty(name: "consumerGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ConsumerGroupId
         {

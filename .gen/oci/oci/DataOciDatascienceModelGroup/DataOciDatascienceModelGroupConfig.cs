@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelGroup
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelGroup.DataOciDatascienceModelGroupConfig")]
     public class DataOciDatascienceModelGroupConfig : oci.DataOciDatascienceModelGroup.IDataOciDatascienceModelGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_model_group#model_group_id DataOciDatascienceModelGroup#model_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group#model_group_id DataOciDatascienceModelGroup#model_group_id}.</summary>
         [JsiiProperty(name: "modelGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelGroupId
         {

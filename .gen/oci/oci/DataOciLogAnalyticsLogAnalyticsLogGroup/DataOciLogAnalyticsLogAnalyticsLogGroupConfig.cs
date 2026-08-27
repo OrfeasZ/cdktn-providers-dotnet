@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsLogGroup
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsLogGroup.DataOciLogAnalyticsLogAnalyticsLogGroupConfig")]
     public class DataOciLogAnalyticsLogAnalyticsLogGroupConfig : oci.DataOciLogAnalyticsLogAnalyticsLogGroup.IDataOciLogAnalyticsLogAnalyticsLogGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/log_analytics_log_analytics_log_group#log_analytics_log_group_id DataOciLogAnalyticsLogAnalyticsLogGroup#log_analytics_log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_log_group#log_analytics_log_group_id DataOciLogAnalyticsLogAnalyticsLogGroup#log_analytics_log_group_id}.</summary>
         [JsiiProperty(name: "logAnalyticsLogGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogAnalyticsLogGroupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsLogGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/log_analytics_log_analytics_log_group#namespace DataOciLogAnalyticsLogAnalyticsLogGroup#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_log_group#namespace DataOciLogAnalyticsLogAnalyticsLogGroup#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {

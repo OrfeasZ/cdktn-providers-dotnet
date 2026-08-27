@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePoint
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsOnPremiseVantagePoint.DataOciApmSyntheticsOnPremiseVantagePointConfig")]
     public class DataOciApmSyntheticsOnPremiseVantagePointConfig : oci.DataOciApmSyntheticsOnPremiseVantagePoint.IDataOciApmSyntheticsOnPremiseVantagePointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apm_synthetics_on_premise_vantage_point#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePoint#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_synthetics_on_premise_vantage_point#apm_domain_id DataOciApmSyntheticsOnPremiseVantagePoint#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsOnPremiseVantagePoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apm_synthetics_on_premise_vantage_point#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePoint#on_premise_vantage_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_synthetics_on_premise_vantage_point#on_premise_vantage_point_id DataOciApmSyntheticsOnPremiseVantagePoint#on_premise_vantage_point_id}.</summary>
         [JsiiProperty(name: "onPremiseVantagePointId", typeJson: "{\"primitive\":\"string\"}")]
         public string OnPremiseVantagePointId
         {

@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudExadataStorageServer
     [JsiiByValue(fqn: "oci.databaseManagementCloudExadataStorageServer.DatabaseManagementCloudExadataStorageServerConfig")]
     public class DatabaseManagementCloudExadataStorageServerConfig : oci.DatabaseManagementCloudExadataStorageServer.IDatabaseManagementCloudExadataStorageServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_server#cloud_exadata_storage_server_id DatabaseManagementCloudExadataStorageServer#cloud_exadata_storage_server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_exadata_storage_server#cloud_exadata_storage_server_id DatabaseManagementCloudExadataStorageServer#cloud_exadata_storage_server_id}.</summary>
         [JsiiProperty(name: "cloudExadataStorageServerId", typeJson: "{\"primitive\":\"string\"}")]
         public string CloudExadataStorageServerId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementCloudExadataStorageServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_server#defined_tags DatabaseManagementCloudExadataStorageServer#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_exadata_storage_server#defined_tags DatabaseManagementCloudExadataStorageServer#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -26,7 +26,7 @@ namespace oci.DatabaseManagementCloudExadataStorageServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_server#freeform_tags DatabaseManagementCloudExadataStorageServer#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_exadata_storage_server#freeform_tags DatabaseManagementCloudExadataStorageServer#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -35,7 +35,7 @@ namespace oci.DatabaseManagementCloudExadataStorageServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_server#id DatabaseManagementCloudExadataStorageServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_exadata_storage_server#id DatabaseManagementCloudExadataStorageServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -50,7 +50,7 @@ namespace oci.DatabaseManagementCloudExadataStorageServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_cloud_exadata_storage_server#timeouts DatabaseManagementCloudExadataStorageServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_exadata_storage_server#timeouts DatabaseManagementCloudExadataStorageServer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudExadataStorageServer.DatabaseManagementCloudExadataStorageServerTimeouts\"}", isOptional: true)]

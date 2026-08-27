@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabase
     [JsiiByValue(fqn: "oci.databaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfiguration")]
     public class DatabaseDatabaseDatabaseAutoFailoverConfiguration : oci.DatabaseDatabase.IDatabaseDatabaseDatabaseAutoFailoverConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_database#failover_targets DatabaseDatabase#failover_targets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#failover_targets DatabaseDatabase#failover_targets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failoverTargets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? FailoverTargets
@@ -16,7 +16,7 @@ namespace oci.DatabaseDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_database#managed_auto_failover DatabaseDatabase#managed_auto_failover}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#managed_auto_failover DatabaseDatabase#managed_auto_failover}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managedAutoFailover", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManagedAutoFailover

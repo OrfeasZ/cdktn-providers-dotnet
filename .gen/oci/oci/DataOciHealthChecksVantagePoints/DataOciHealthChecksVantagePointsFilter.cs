@@ -9,7 +9,7 @@ namespace oci.DataOciHealthChecksVantagePoints
     [JsiiByValue(fqn: "oci.dataOciHealthChecksVantagePoints.DataOciHealthChecksVantagePointsFilter")]
     public class DataOciHealthChecksVantagePointsFilter : oci.DataOciHealthChecksVantagePoints.IDataOciHealthChecksVantagePointsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/health_checks_vantage_points#name DataOciHealthChecksVantagePoints#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/health_checks_vantage_points#name DataOciHealthChecksVantagePoints#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciHealthChecksVantagePoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/health_checks_vantage_points#values DataOciHealthChecksVantagePoints#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/health_checks_vantage_points#values DataOciHealthChecksVantagePoints#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciHealthChecksVantagePoints
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/health_checks_vantage_points#regex DataOciHealthChecksVantagePoints#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/health_checks_vantage_points#regex DataOciHealthChecksVantagePoints#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

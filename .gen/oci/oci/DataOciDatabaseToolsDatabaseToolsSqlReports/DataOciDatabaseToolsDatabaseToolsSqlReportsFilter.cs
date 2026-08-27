@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsSqlReports
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsDatabaseToolsSqlReports.DataOciDatabaseToolsDatabaseToolsSqlReportsFilter")]
     public class DataOciDatabaseToolsDatabaseToolsSqlReportsFilter : oci.DataOciDatabaseToolsDatabaseToolsSqlReports.IDataOciDatabaseToolsDatabaseToolsSqlReportsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_database_tools_sql_reports#name DataOciDatabaseToolsDatabaseToolsSqlReports#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_database_tools_sql_reports#name DataOciDatabaseToolsDatabaseToolsSqlReports#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsSqlReports
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_database_tools_sql_reports#values DataOciDatabaseToolsDatabaseToolsSqlReports#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_database_tools_sql_reports#values DataOciDatabaseToolsDatabaseToolsSqlReports#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseToolsDatabaseToolsSqlReports
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_database_tools_sql_reports#regex DataOciDatabaseToolsDatabaseToolsSqlReports#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_database_tools_sql_reports#regex DataOciDatabaseToolsDatabaseToolsSqlReports#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DataOciDatacatalogMetastore
     [JsiiInterface(nativeType: typeof(IDataOciDatacatalogMetastoreConfig), fullyQualifiedName: "oci.dataOciDatacatalogMetastore.DataOciDatacatalogMetastoreConfig")]
     public interface IDataOciDatacatalogMetastoreConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datacatalog_metastore#metastore_id DataOciDatacatalogMetastore#metastore_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacatalog_metastore#metastore_id DataOciDatacatalogMetastore#metastore_id}.</summary>
         [JsiiProperty(name: "metastoreId", typeJson: "{\"primitive\":\"string\"}")]
         string MetastoreId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatacatalogMetastore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datacatalog_metastore#metastore_id DataOciDatacatalogMetastore#metastore_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacatalog_metastore#metastore_id DataOciDatacatalogMetastore#metastore_id}.</summary>
             [JsiiProperty(name: "metastoreId", typeJson: "{\"primitive\":\"string\"}")]
             public string MetastoreId
             {

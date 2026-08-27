@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbHome
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbHome.DataOciDatabaseDbHomeConfig")]
     public class DataOciDatabaseDbHomeConfig : oci.DataOciDatabaseDbHome.IDataOciDatabaseDbHomeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_db_home#db_home_id DataOciDatabaseDbHome#db_home_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_db_home#db_home_id DataOciDatabaseDbHome#db_home_id}.</summary>
         [JsiiProperty(name: "dbHomeId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbHomeId
         {

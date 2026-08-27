@@ -9,7 +9,7 @@ namespace oci.DevopsRepositorySetting
     [JsiiByValue(fqn: "oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRulesItemsReviewers")]
     public class DevopsRepositorySettingApprovalRulesItemsReviewers : oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRulesItemsReviewers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_repository_setting#principal_id DevopsRepositorySetting#principal_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#principal_id DevopsRepositorySetting#principal_id}.</summary>
         [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrincipalId
         {

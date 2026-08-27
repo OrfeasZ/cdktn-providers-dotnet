@@ -9,7 +9,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
     [JsiiByValue(fqn: "oci.dataOciAnalyticsAnalyticsInstanceResourceGroups.DataOciAnalyticsAnalyticsInstanceResourceGroupsFilter")]
     public class DataOciAnalyticsAnalyticsInstanceResourceGroupsFilter : oci.DataOciAnalyticsAnalyticsInstanceResourceGroups.IDataOciAnalyticsAnalyticsInstanceResourceGroupsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/analytics_analytics_instance_resource_groups#name DataOciAnalyticsAnalyticsInstanceResourceGroupsA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/analytics_analytics_instance_resource_groups#name DataOciAnalyticsAnalyticsInstanceResourceGroupsA#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/analytics_analytics_instance_resource_groups#values DataOciAnalyticsAnalyticsInstanceResourceGroupsA#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/analytics_analytics_instance_resource_groups#values DataOciAnalyticsAnalyticsInstanceResourceGroupsA#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciAnalyticsAnalyticsInstanceResourceGroups
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/analytics_analytics_instance_resource_groups#regex DataOciAnalyticsAnalyticsInstanceResourceGroupsA#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/analytics_analytics_instance_resource_groups#regex DataOciAnalyticsAnalyticsInstanceResourceGroupsA#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

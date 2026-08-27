@@ -7,77 +7,77 @@ namespace oci.DataccInfrastructure
     [JsiiInterface(nativeType: typeof(IDataccInfrastructureConfig), fullyQualifiedName: "oci.dataccInfrastructure.DataccInfrastructureConfig")]
     public interface IDataccInfrastructureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cloud_control_plane_server1 DataccInfrastructure#cloud_control_plane_server1}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cloud_control_plane_server1 DataccInfrastructure#cloud_control_plane_server1}.</summary>
         [JsiiProperty(name: "cloudControlPlaneServer1", typeJson: "{\"primitive\":\"string\"}")]
         string CloudControlPlaneServer1
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cloud_control_plane_server2 DataccInfrastructure#cloud_control_plane_server2}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cloud_control_plane_server2 DataccInfrastructure#cloud_control_plane_server2}.</summary>
         [JsiiProperty(name: "cloudControlPlaneServer2", typeJson: "{\"primitive\":\"string\"}")]
         string CloudControlPlaneServer2
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#compartment_id DataccInfrastructure#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#compartment_id DataccInfrastructure#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#display_name DataccInfrastructure#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#display_name DataccInfrastructure#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#dns_servers DataccInfrastructure#dns_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#dns_servers DataccInfrastructure#dns_servers}.</summary>
         [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] DnsServers
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#gateway DataccInfrastructure#gateway}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#gateway DataccInfrastructure#gateway}.</summary>
         [JsiiProperty(name: "gateway", typeJson: "{\"primitive\":\"string\"}")]
         string Gateway
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#netmask DataccInfrastructure#netmask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#netmask DataccInfrastructure#netmask}.</summary>
         [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}")]
         string Netmask
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#ntp_servers DataccInfrastructure#ntp_servers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#ntp_servers DataccInfrastructure#ntp_servers}.</summary>
         [JsiiProperty(name: "ntpServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] NtpServers
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#shape DataccInfrastructure#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#shape DataccInfrastructure#shape}.</summary>
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         string Shape
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#system_model DataccInfrastructure#system_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#system_model DataccInfrastructure#system_model}.</summary>
         [JsiiProperty(name: "systemModel", typeJson: "{\"primitive\":\"string\"}")]
         string SystemModel
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#acfs_file_system_storage_in_gbs DataccInfrastructure#acfs_file_system_storage_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#acfs_file_system_storage_in_gbs DataccInfrastructure#acfs_file_system_storage_in_gbs}.</summary>
         [JsiiProperty(name: "acfsFileSystemStorageInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? AcfsFileSystemStorageInGbs
@@ -88,7 +88,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#admin_networkcidr DataccInfrastructure#admin_networkcidr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#admin_networkcidr DataccInfrastructure#admin_networkcidr}.</summary>
         [JsiiProperty(name: "adminNetworkcidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AdminNetworkcidr
@@ -99,7 +99,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#backup_network_bonding_interface DataccInfrastructure#backup_network_bonding_interface}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#backup_network_bonding_interface DataccInfrastructure#backup_network_bonding_interface}.</summary>
         [JsiiProperty(name: "backupNetworkBondingInterface", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupNetworkBondingInterface
@@ -110,7 +110,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#backup_network_bonding_mode DataccInfrastructure#backup_network_bonding_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#backup_network_bonding_mode DataccInfrastructure#backup_network_bonding_mode}.</summary>
         [JsiiProperty(name: "backupNetworkBondingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupNetworkBondingMode
@@ -121,7 +121,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#client_network_bonding_interface DataccInfrastructure#client_network_bonding_interface}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#client_network_bonding_interface DataccInfrastructure#client_network_bonding_interface}.</summary>
         [JsiiProperty(name: "clientNetworkBondingInterface", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClientNetworkBondingInterface
@@ -132,7 +132,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#client_network_bonding_mode DataccInfrastructure#client_network_bonding_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#client_network_bonding_mode DataccInfrastructure#client_network_bonding_mode}.</summary>
         [JsiiProperty(name: "clientNetworkBondingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClientNetworkBondingMode
@@ -145,7 +145,7 @@ namespace oci.DataccInfrastructure
 
         /// <summary>contacts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#contacts DataccInfrastructure#contacts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#contacts DataccInfrastructure#contacts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataccInfrastructure.IDataccInfrastructureContacts" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "contacts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataccInfrastructure.DataccInfrastructureContacts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#corporate_proxy DataccInfrastructure#corporate_proxy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#corporate_proxy DataccInfrastructure#corporate_proxy}.</summary>
         [JsiiProperty(name: "corporateProxy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CorporateProxy
@@ -169,7 +169,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cps_network_bonding_interface DataccInfrastructure#cps_network_bonding_interface}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cps_network_bonding_interface DataccInfrastructure#cps_network_bonding_interface}.</summary>
         [JsiiProperty(name: "cpsNetworkBondingInterface", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CpsNetworkBondingInterface
@@ -180,7 +180,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cps_network_bonding_mode DataccInfrastructure#cps_network_bonding_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cps_network_bonding_mode DataccInfrastructure#cps_network_bonding_mode}.</summary>
         [JsiiProperty(name: "cpsNetworkBondingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CpsNetworkBondingMode
@@ -191,7 +191,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#data_disk_percentage DataccInfrastructure#data_disk_percentage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#data_disk_percentage DataccInfrastructure#data_disk_percentage}.</summary>
         [JsiiProperty(name: "dataDiskPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DataDiskPercentage
@@ -202,7 +202,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#defined_tags DataccInfrastructure#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#defined_tags DataccInfrastructure#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -213,7 +213,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#description DataccInfrastructure#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#description DataccInfrastructure#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -224,7 +224,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#freeform_tags DataccInfrastructure#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#freeform_tags DataccInfrastructure#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -235,7 +235,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#id DataccInfrastructure#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#id DataccInfrastructure#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -252,7 +252,7 @@ namespace oci.DataccInfrastructure
 
         /// <summary>maintenance_window block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#maintenance_window DataccInfrastructure#maintenance_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#maintenance_window DataccInfrastructure#maintenance_window}
         /// </remarks>
         [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.dataccInfrastructure.DataccInfrastructureMaintenanceWindow\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -264,7 +264,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#scale_storage_trigger DataccInfrastructure#scale_storage_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#scale_storage_trigger DataccInfrastructure#scale_storage_trigger}.</summary>
         [JsiiProperty(name: "scaleStorageTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ScaleStorageTrigger
@@ -277,7 +277,7 @@ namespace oci.DataccInfrastructure
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#timeouts DataccInfrastructure#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#timeouts DataccInfrastructure#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataccInfrastructure.DataccInfrastructureTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -289,7 +289,7 @@ namespace oci.DataccInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#vlan_id DataccInfrastructure#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#vlan_id DataccInfrastructure#vlan_id}.</summary>
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VlanId
@@ -307,77 +307,77 @@ namespace oci.DataccInfrastructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cloud_control_plane_server1 DataccInfrastructure#cloud_control_plane_server1}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cloud_control_plane_server1 DataccInfrastructure#cloud_control_plane_server1}.</summary>
             [JsiiProperty(name: "cloudControlPlaneServer1", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudControlPlaneServer1
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cloud_control_plane_server2 DataccInfrastructure#cloud_control_plane_server2}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cloud_control_plane_server2 DataccInfrastructure#cloud_control_plane_server2}.</summary>
             [JsiiProperty(name: "cloudControlPlaneServer2", typeJson: "{\"primitive\":\"string\"}")]
             public string CloudControlPlaneServer2
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#compartment_id DataccInfrastructure#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#compartment_id DataccInfrastructure#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#display_name DataccInfrastructure#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#display_name DataccInfrastructure#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#dns_servers DataccInfrastructure#dns_servers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#dns_servers DataccInfrastructure#dns_servers}.</summary>
             [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] DnsServers
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#gateway DataccInfrastructure#gateway}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#gateway DataccInfrastructure#gateway}.</summary>
             [JsiiProperty(name: "gateway", typeJson: "{\"primitive\":\"string\"}")]
             public string Gateway
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#netmask DataccInfrastructure#netmask}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#netmask DataccInfrastructure#netmask}.</summary>
             [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}")]
             public string Netmask
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#ntp_servers DataccInfrastructure#ntp_servers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#ntp_servers DataccInfrastructure#ntp_servers}.</summary>
             [JsiiProperty(name: "ntpServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] NtpServers
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#shape DataccInfrastructure#shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#shape DataccInfrastructure#shape}.</summary>
             [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
             public string Shape
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#system_model DataccInfrastructure#system_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#system_model DataccInfrastructure#system_model}.</summary>
             [JsiiProperty(name: "systemModel", typeJson: "{\"primitive\":\"string\"}")]
             public string SystemModel
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#acfs_file_system_storage_in_gbs DataccInfrastructure#acfs_file_system_storage_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#acfs_file_system_storage_in_gbs DataccInfrastructure#acfs_file_system_storage_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "acfsFileSystemStorageInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? AcfsFileSystemStorageInGbs
@@ -385,7 +385,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#admin_networkcidr DataccInfrastructure#admin_networkcidr}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#admin_networkcidr DataccInfrastructure#admin_networkcidr}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "adminNetworkcidr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AdminNetworkcidr
@@ -393,7 +393,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#backup_network_bonding_interface DataccInfrastructure#backup_network_bonding_interface}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#backup_network_bonding_interface DataccInfrastructure#backup_network_bonding_interface}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupNetworkBondingInterface", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupNetworkBondingInterface
@@ -401,7 +401,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#backup_network_bonding_mode DataccInfrastructure#backup_network_bonding_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#backup_network_bonding_mode DataccInfrastructure#backup_network_bonding_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupNetworkBondingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupNetworkBondingMode
@@ -409,7 +409,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#client_network_bonding_interface DataccInfrastructure#client_network_bonding_interface}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#client_network_bonding_interface DataccInfrastructure#client_network_bonding_interface}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientNetworkBondingInterface", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClientNetworkBondingInterface
@@ -417,7 +417,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#client_network_bonding_mode DataccInfrastructure#client_network_bonding_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#client_network_bonding_mode DataccInfrastructure#client_network_bonding_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientNetworkBondingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClientNetworkBondingMode
@@ -427,7 +427,7 @@ namespace oci.DataccInfrastructure
 
             /// <summary>contacts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#contacts DataccInfrastructure#contacts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#contacts DataccInfrastructure#contacts}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataccInfrastructure.IDataccInfrastructureContacts" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -437,7 +437,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#corporate_proxy DataccInfrastructure#corporate_proxy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#corporate_proxy DataccInfrastructure#corporate_proxy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "corporateProxy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CorporateProxy
@@ -445,7 +445,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cps_network_bonding_interface DataccInfrastructure#cps_network_bonding_interface}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cps_network_bonding_interface DataccInfrastructure#cps_network_bonding_interface}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cpsNetworkBondingInterface", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CpsNetworkBondingInterface
@@ -453,7 +453,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#cps_network_bonding_mode DataccInfrastructure#cps_network_bonding_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#cps_network_bonding_mode DataccInfrastructure#cps_network_bonding_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cpsNetworkBondingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CpsNetworkBondingMode
@@ -461,7 +461,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#data_disk_percentage DataccInfrastructure#data_disk_percentage}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#data_disk_percentage DataccInfrastructure#data_disk_percentage}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataDiskPercentage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DataDiskPercentage
@@ -469,7 +469,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#defined_tags DataccInfrastructure#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#defined_tags DataccInfrastructure#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -477,7 +477,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#description DataccInfrastructure#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#description DataccInfrastructure#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -485,7 +485,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#freeform_tags DataccInfrastructure#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#freeform_tags DataccInfrastructure#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -493,7 +493,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#id DataccInfrastructure#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#id DataccInfrastructure#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -507,7 +507,7 @@ namespace oci.DataccInfrastructure
 
             /// <summary>maintenance_window block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#maintenance_window DataccInfrastructure#maintenance_window}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#maintenance_window DataccInfrastructure#maintenance_window}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"oci.dataccInfrastructure.DataccInfrastructureMaintenanceWindow\"}", isOptional: true)]
@@ -516,7 +516,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<oci.DataccInfrastructure.IDataccInfrastructureMaintenanceWindow?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#scale_storage_trigger DataccInfrastructure#scale_storage_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#scale_storage_trigger DataccInfrastructure#scale_storage_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scaleStorageTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ScaleStorageTrigger
@@ -526,7 +526,7 @@ namespace oci.DataccInfrastructure
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#timeouts DataccInfrastructure#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#timeouts DataccInfrastructure#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataccInfrastructure.DataccInfrastructureTimeouts\"}", isOptional: true)]
@@ -535,7 +535,7 @@ namespace oci.DataccInfrastructure
                 get => GetInstanceProperty<oci.DataccInfrastructure.IDataccInfrastructureTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datacc_infrastructure#vlan_id DataccInfrastructure#vlan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_infrastructure#vlan_id DataccInfrastructure#vlan_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VlanId

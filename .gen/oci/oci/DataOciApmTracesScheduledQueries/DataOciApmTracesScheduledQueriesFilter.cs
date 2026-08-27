@@ -9,7 +9,7 @@ namespace oci.DataOciApmTracesScheduledQueries
     [JsiiByValue(fqn: "oci.dataOciApmTracesScheduledQueries.DataOciApmTracesScheduledQueriesFilter")]
     public class DataOciApmTracesScheduledQueriesFilter : oci.DataOciApmTracesScheduledQueries.IDataOciApmTracesScheduledQueriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apm_traces_scheduled_queries#name DataOciApmTracesScheduledQueries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_traces_scheduled_queries#name DataOciApmTracesScheduledQueries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmTracesScheduledQueries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apm_traces_scheduled_queries#values DataOciApmTracesScheduledQueries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_traces_scheduled_queries#values DataOciApmTracesScheduledQueries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciApmTracesScheduledQueries
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/apm_traces_scheduled_queries#regex DataOciApmTracesScheduledQueries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_traces_scheduled_queries#regex DataOciApmTracesScheduledQueries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

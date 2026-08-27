@@ -7,7 +7,7 @@ namespace oci.DevopsDeployStage
     [JsiiByValue(fqn: "oci.devopsDeployStage.DevopsDeployStageRollbackPolicy")]
     public class DevopsDeployStageRollbackPolicy : oci.DevopsDeployStage.IDevopsDeployStageRollbackPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_stage#policy_type DevopsDeployStage#policy_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "policyType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PolicyType

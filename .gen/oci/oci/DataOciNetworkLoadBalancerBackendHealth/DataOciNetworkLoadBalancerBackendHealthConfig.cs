@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkLoadBalancerBackendHealth
     [JsiiByValue(fqn: "oci.dataOciNetworkLoadBalancerBackendHealth.DataOciNetworkLoadBalancerBackendHealthConfig")]
     public class DataOciNetworkLoadBalancerBackendHealthConfig : oci.DataOciNetworkLoadBalancerBackendHealth.IDataOciNetworkLoadBalancerBackendHealthConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_backend_health#backend_name DataOciNetworkLoadBalancerBackendHealth#backend_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_load_balancer_backend_health#backend_name DataOciNetworkLoadBalancerBackendHealth#backend_name}.</summary>
         [JsiiProperty(name: "backendName", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkLoadBalancerBackendHealth
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_backend_health#backend_set_name DataOciNetworkLoadBalancerBackendHealth#backend_set_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_load_balancer_backend_health#backend_set_name DataOciNetworkLoadBalancerBackendHealth#backend_set_name}.</summary>
         [JsiiProperty(name: "backendSetName", typeJson: "{\"primitive\":\"string\"}")]
         public string BackendSetName
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciNetworkLoadBalancerBackendHealth
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_backend_health#network_load_balancer_id DataOciNetworkLoadBalancerBackendHealth#network_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_load_balancer_backend_health#network_load_balancer_id DataOciNetworkLoadBalancerBackendHealth#network_load_balancer_id}.</summary>
         [JsiiProperty(name: "networkLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkLoadBalancerId
         {
@@ -33,7 +33,7 @@ namespace oci.DataOciNetworkLoadBalancerBackendHealth
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/network_load_balancer_backend_health#id DataOciNetworkLoadBalancerBackendHealth#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_load_balancer_backend_health#id DataOciNetworkLoadBalancerBackendHealth#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

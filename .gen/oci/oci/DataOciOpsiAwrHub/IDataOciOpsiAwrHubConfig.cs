@@ -7,7 +7,7 @@ namespace oci.DataOciOpsiAwrHub
     [JsiiInterface(nativeType: typeof(IDataOciOpsiAwrHubConfig), fullyQualifiedName: "oci.dataOciOpsiAwrHub.DataOciOpsiAwrHubConfig")]
     public interface IDataOciOpsiAwrHubConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}.</summary>
         [JsiiProperty(name: "awrHubId", typeJson: "{\"primitive\":\"string\"}")]
         string AwrHubId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOpsiAwrHub
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hub#awr_hub_id DataOciOpsiAwrHub#awr_hub_id}.</summary>
             [JsiiProperty(name: "awrHubId", typeJson: "{\"primitive\":\"string\"}")]
             public string AwrHubId
             {

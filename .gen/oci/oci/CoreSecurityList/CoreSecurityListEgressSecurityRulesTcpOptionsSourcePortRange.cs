@@ -9,7 +9,7 @@ namespace oci.CoreSecurityList
     [JsiiByValue(fqn: "oci.coreSecurityList.CoreSecurityListEgressSecurityRulesTcpOptionsSourcePortRange")]
     public class CoreSecurityListEgressSecurityRulesTcpOptionsSourcePortRange : oci.CoreSecurityList.ICoreSecurityListEgressSecurityRulesTcpOptionsSourcePortRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_security_list#max CoreSecurityList#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_security_list#max CoreSecurityList#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         public double Max
         {
@@ -17,7 +17,7 @@ namespace oci.CoreSecurityList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_security_list#min CoreSecurityList#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_security_list#min CoreSecurityList#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         public double Min
         {

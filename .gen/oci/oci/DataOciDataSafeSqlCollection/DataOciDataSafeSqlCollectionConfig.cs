@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSqlCollection
     [JsiiByValue(fqn: "oci.dataOciDataSafeSqlCollection.DataOciDataSafeSqlCollectionConfig")]
     public class DataOciDataSafeSqlCollectionConfig : oci.DataOciDataSafeSqlCollection.IDataOciDataSafeSqlCollectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_sql_collection#sql_collection_id DataOciDataSafeSqlCollection#sql_collection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_collection#sql_collection_id DataOciDataSafeSqlCollection#sql_collection_id}.</summary>
         [JsiiProperty(name: "sqlCollectionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SqlCollectionId
         {

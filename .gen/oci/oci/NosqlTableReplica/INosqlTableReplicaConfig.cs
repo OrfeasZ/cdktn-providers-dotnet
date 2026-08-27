@@ -7,21 +7,21 @@ namespace oci.NosqlTableReplica
     [JsiiInterface(nativeType: typeof(INosqlTableReplicaConfig), fullyQualifiedName: "oci.nosqlTableReplica.NosqlTableReplicaConfig")]
     public interface INosqlTableReplicaConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#region NosqlTableReplica#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#region NosqlTableReplica#region}.</summary>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         string Region
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#table_name_or_id NosqlTableReplica#table_name_or_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#table_name_or_id NosqlTableReplica#table_name_or_id}.</summary>
         [JsiiProperty(name: "tableNameOrId", typeJson: "{\"primitive\":\"string\"}")]
         string TableNameOrId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#compartment_id NosqlTableReplica#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#compartment_id NosqlTableReplica#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -32,7 +32,7 @@ namespace oci.NosqlTableReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#id NosqlTableReplica#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#id NosqlTableReplica#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ namespace oci.NosqlTableReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#max_read_units NosqlTableReplica#max_read_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#max_read_units NosqlTableReplica#max_read_units}.</summary>
         [JsiiProperty(name: "maxReadUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxReadUnits
@@ -58,7 +58,7 @@ namespace oci.NosqlTableReplica
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#max_write_units NosqlTableReplica#max_write_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#max_write_units NosqlTableReplica#max_write_units}.</summary>
         [JsiiProperty(name: "maxWriteUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxWriteUnits
@@ -71,7 +71,7 @@ namespace oci.NosqlTableReplica
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#timeouts NosqlTableReplica#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#timeouts NosqlTableReplica#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.nosqlTableReplica.NosqlTableReplicaTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,21 +90,21 @@ namespace oci.NosqlTableReplica
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#region NosqlTableReplica#region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#region NosqlTableReplica#region}.</summary>
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
             public string Region
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#table_name_or_id NosqlTableReplica#table_name_or_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#table_name_or_id NosqlTableReplica#table_name_or_id}.</summary>
             [JsiiProperty(name: "tableNameOrId", typeJson: "{\"primitive\":\"string\"}")]
             public string TableNameOrId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#compartment_id NosqlTableReplica#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#compartment_id NosqlTableReplica#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -112,7 +112,7 @@ namespace oci.NosqlTableReplica
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#id NosqlTableReplica#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#id NosqlTableReplica#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ namespace oci.NosqlTableReplica
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#max_read_units NosqlTableReplica#max_read_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#max_read_units NosqlTableReplica#max_read_units}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxReadUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxReadUnits
@@ -132,7 +132,7 @@ namespace oci.NosqlTableReplica
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#max_write_units NosqlTableReplica#max_write_units}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#max_write_units NosqlTableReplica#max_write_units}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxWriteUnits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxWriteUnits
@@ -142,7 +142,7 @@ namespace oci.NosqlTableReplica
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/nosql_table_replica#timeouts NosqlTableReplica#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/nosql_table_replica#timeouts NosqlTableReplica#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.nosqlTableReplica.NosqlTableReplicaTimeouts\"}", isOptional: true)]

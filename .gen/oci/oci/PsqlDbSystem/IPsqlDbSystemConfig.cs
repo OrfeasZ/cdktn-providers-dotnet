@@ -7,21 +7,21 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemConfig), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemConfig")]
     public interface IPsqlDbSystemConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#db_version PsqlDbSystem#db_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#db_version PsqlDbSystem#db_version}.</summary>
         [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}")]
         string DbVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -30,7 +30,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>network_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#network_details PsqlDbSystem#network_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#network_details PsqlDbSystem#network_details}
         /// </remarks>
         [JsiiProperty(name: "networkDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemNetworkDetails\"}")]
         oci.PsqlDbSystem.IPsqlDbSystemNetworkDetails NetworkDetails
@@ -38,7 +38,7 @@ namespace oci.PsqlDbSystem
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#shape PsqlDbSystem#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#shape PsqlDbSystem#shape}.</summary>
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         string Shape
         {
@@ -47,7 +47,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>storage_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#storage_details PsqlDbSystem#storage_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#storage_details PsqlDbSystem#storage_details}
         /// </remarks>
         [JsiiProperty(name: "storageDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemStorageDetails\"}")]
         oci.PsqlDbSystem.IPsqlDbSystemStorageDetails StorageDetails
@@ -55,7 +55,7 @@ namespace oci.PsqlDbSystem
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#apply_change_mode_to_stand_alone PsqlDbSystem#apply_change_mode_to_stand_alone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#apply_change_mode_to_stand_alone PsqlDbSystem#apply_change_mode_to_stand_alone}.</summary>
         [JsiiProperty(name: "applyChangeModeToStandAlone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ApplyChangeModeToStandAlone
@@ -66,7 +66,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#apply_config PsqlDbSystem#apply_config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#apply_config PsqlDbSystem#apply_config}.</summary>
         [JsiiProperty(name: "applyConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ApplyConfig
@@ -77,7 +77,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#config_id PsqlDbSystem#config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#config_id PsqlDbSystem#config_id}.</summary>
         [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConfigId
@@ -90,7 +90,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
         /// </remarks>
         [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemCredentials\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -102,7 +102,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#defined_tags PsqlDbSystem#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#defined_tags PsqlDbSystem#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -113,7 +113,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#description PsqlDbSystem#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#description PsqlDbSystem#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -124,7 +124,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#freeform_tags PsqlDbSystem#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#freeform_tags PsqlDbSystem#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -135,7 +135,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#id PsqlDbSystem#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#id PsqlDbSystem#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +150,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instance_count PsqlDbSystem#instance_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instance_count PsqlDbSystem#instance_count}.</summary>
         [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceCount
@@ -161,7 +161,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instance_memory_size_in_gbs PsqlDbSystem#instance_memory_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instance_memory_size_in_gbs PsqlDbSystem#instance_memory_size_in_gbs}.</summary>
         [JsiiProperty(name: "instanceMemorySizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceMemorySizeInGbs
@@ -172,7 +172,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instance_ocpu_count PsqlDbSystem#instance_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instance_ocpu_count PsqlDbSystem#instance_ocpu_count}.</summary>
         [JsiiProperty(name: "instanceOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InstanceOcpuCount
@@ -185,7 +185,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>instances_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instances_details PsqlDbSystem#instances_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instances_details PsqlDbSystem#instances_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemInstancesDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "instancesDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemInstancesDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>kerberos_auth_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#kerberos_auth_details PsqlDbSystem#kerberos_auth_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#kerberos_auth_details PsqlDbSystem#kerberos_auth_details}
         /// </remarks>
         [JsiiProperty(name: "kerberosAuthDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemKerberosAuthDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -214,7 +214,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>management_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#management_policy PsqlDbSystem#management_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#management_policy PsqlDbSystem#management_policy}
         /// </remarks>
         [JsiiProperty(name: "managementPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -228,7 +228,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>odsp_insight_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#odsp_insight_details PsqlDbSystem#odsp_insight_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#odsp_insight_details PsqlDbSystem#odsp_insight_details}
         /// </remarks>
         [JsiiProperty(name: "odspInsightDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemOdspInsightDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -242,7 +242,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>patch_operations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#patch_operations PsqlDbSystem#patch_operations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#patch_operations PsqlDbSystem#patch_operations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemPatchOperations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "patchOperations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemPatchOperations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -257,7 +257,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>replication_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#replication_config PsqlDbSystem#replication_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#replication_config PsqlDbSystem#replication_config}
         /// </remarks>
         [JsiiProperty(name: "replicationConfig", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemReplicationConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -271,7 +271,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#source PsqlDbSystem#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#source PsqlDbSystem#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemSource\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -283,7 +283,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#state PsqlDbSystem#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#state PsqlDbSystem#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -294,7 +294,7 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
         [JsiiProperty(name: "systemType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SystemType
@@ -307,7 +307,7 @@ namespace oci.PsqlDbSystem
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#timeouts PsqlDbSystem#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#timeouts PsqlDbSystem#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -326,21 +326,21 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#db_version PsqlDbSystem#db_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#db_version PsqlDbSystem#db_version}.</summary>
             [JsiiProperty(name: "dbVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string DbVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#display_name PsqlDbSystem#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -349,7 +349,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>network_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#network_details PsqlDbSystem#network_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#network_details PsqlDbSystem#network_details}
             /// </remarks>
             [JsiiProperty(name: "networkDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemNetworkDetails\"}")]
             public oci.PsqlDbSystem.IPsqlDbSystemNetworkDetails NetworkDetails
@@ -357,7 +357,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemNetworkDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#shape PsqlDbSystem#shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#shape PsqlDbSystem#shape}.</summary>
             [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
             public string Shape
             {
@@ -366,7 +366,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>storage_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#storage_details PsqlDbSystem#storage_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#storage_details PsqlDbSystem#storage_details}
             /// </remarks>
             [JsiiProperty(name: "storageDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemStorageDetails\"}")]
             public oci.PsqlDbSystem.IPsqlDbSystemStorageDetails StorageDetails
@@ -374,7 +374,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemStorageDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#apply_change_mode_to_stand_alone PsqlDbSystem#apply_change_mode_to_stand_alone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#apply_change_mode_to_stand_alone PsqlDbSystem#apply_change_mode_to_stand_alone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "applyChangeModeToStandAlone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ApplyChangeModeToStandAlone
@@ -382,7 +382,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#apply_config PsqlDbSystem#apply_config}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#apply_config PsqlDbSystem#apply_config}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "applyConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ApplyConfig
@@ -390,7 +390,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#config_id PsqlDbSystem#config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#config_id PsqlDbSystem#config_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConfigId
@@ -400,7 +400,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#credentials PsqlDbSystem#credentials}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "credentials", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemCredentials\"}", isOptional: true)]
@@ -409,7 +409,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemCredentials?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#defined_tags PsqlDbSystem#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#defined_tags PsqlDbSystem#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -417,7 +417,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#description PsqlDbSystem#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#description PsqlDbSystem#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -425,7 +425,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#freeform_tags PsqlDbSystem#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#freeform_tags PsqlDbSystem#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -433,7 +433,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#id PsqlDbSystem#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#id PsqlDbSystem#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -445,7 +445,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instance_count PsqlDbSystem#instance_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instance_count PsqlDbSystem#instance_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceCount
@@ -453,7 +453,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instance_memory_size_in_gbs PsqlDbSystem#instance_memory_size_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instance_memory_size_in_gbs PsqlDbSystem#instance_memory_size_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceMemorySizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceMemorySizeInGbs
@@ -461,7 +461,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instance_ocpu_count PsqlDbSystem#instance_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instance_ocpu_count PsqlDbSystem#instance_ocpu_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "instanceOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InstanceOcpuCount
@@ -471,7 +471,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>instances_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#instances_details PsqlDbSystem#instances_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#instances_details PsqlDbSystem#instances_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemInstancesDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -483,7 +483,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>kerberos_auth_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#kerberos_auth_details PsqlDbSystem#kerberos_auth_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#kerberos_auth_details PsqlDbSystem#kerberos_auth_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kerberosAuthDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemKerberosAuthDetails\"}", isOptional: true)]
@@ -494,7 +494,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>management_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#management_policy PsqlDbSystem#management_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#management_policy PsqlDbSystem#management_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "managementPolicy", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemManagementPolicy\"}", isOptional: true)]
@@ -505,7 +505,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>odsp_insight_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#odsp_insight_details PsqlDbSystem#odsp_insight_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#odsp_insight_details PsqlDbSystem#odsp_insight_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "odspInsightDetails", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemOdspInsightDetails\"}", isOptional: true)]
@@ -516,7 +516,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>patch_operations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#patch_operations PsqlDbSystem#patch_operations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#patch_operations PsqlDbSystem#patch_operations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.PsqlDbSystem.IPsqlDbSystemPatchOperations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -528,7 +528,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>replication_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#replication_config PsqlDbSystem#replication_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#replication_config PsqlDbSystem#replication_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replicationConfig", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemReplicationConfig\"}", isOptional: true)]
@@ -539,7 +539,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>source block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#source PsqlDbSystem#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#source PsqlDbSystem#source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemSource\"}", isOptional: true)]
@@ -548,7 +548,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<oci.PsqlDbSystem.IPsqlDbSystemSource?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#state PsqlDbSystem#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#state PsqlDbSystem#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -556,7 +556,7 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SystemType
@@ -566,7 +566,7 @@ namespace oci.PsqlDbSystem
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/psql_db_system#timeouts PsqlDbSystem#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psql_db_system#timeouts PsqlDbSystem#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.psqlDbSystem.PsqlDbSystemTimeouts\"}", isOptional: true)]

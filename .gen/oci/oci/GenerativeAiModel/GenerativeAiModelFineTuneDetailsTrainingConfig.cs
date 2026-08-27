@@ -9,7 +9,7 @@ namespace oci.GenerativeAiModel
     [JsiiByValue(fqn: "oci.generativeAiModel.GenerativeAiModelFineTuneDetailsTrainingConfig")]
     public class GenerativeAiModelFineTuneDetailsTrainingConfig : oci.GenerativeAiModel.IGenerativeAiModelFineTuneDetailsTrainingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#training_config_type GenerativeAiModel#training_config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#training_config_type GenerativeAiModel#training_config_type}.</summary>
         [JsiiProperty(name: "trainingConfigType", typeJson: "{\"primitive\":\"string\"}")]
         public string TrainingConfigType
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#early_stopping_patience GenerativeAiModel#early_stopping_patience}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#early_stopping_patience GenerativeAiModel#early_stopping_patience}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "earlyStoppingPatience", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EarlyStoppingPatience
@@ -26,7 +26,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#early_stopping_threshold GenerativeAiModel#early_stopping_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#early_stopping_threshold GenerativeAiModel#early_stopping_threshold}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "earlyStoppingThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EarlyStoppingThreshold
@@ -35,7 +35,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#learning_rate GenerativeAiModel#learning_rate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#learning_rate GenerativeAiModel#learning_rate}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "learningRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LearningRate
@@ -44,7 +44,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#log_model_metrics_interval_in_steps GenerativeAiModel#log_model_metrics_interval_in_steps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#log_model_metrics_interval_in_steps GenerativeAiModel#log_model_metrics_interval_in_steps}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logModelMetricsIntervalInSteps", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LogModelMetricsIntervalInSteps
@@ -53,7 +53,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#lora_alpha GenerativeAiModel#lora_alpha}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#lora_alpha GenerativeAiModel#lora_alpha}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loraAlpha", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LoraAlpha
@@ -62,7 +62,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#lora_dropout GenerativeAiModel#lora_dropout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#lora_dropout GenerativeAiModel#lora_dropout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loraDropout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LoraDropout
@@ -71,7 +71,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#lora_r GenerativeAiModel#lora_r}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#lora_r GenerativeAiModel#lora_r}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loraR", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LoraR
@@ -80,7 +80,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#num_of_last_layers GenerativeAiModel#num_of_last_layers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#num_of_last_layers GenerativeAiModel#num_of_last_layers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "numOfLastLayers", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? NumOfLastLayers
@@ -89,7 +89,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#total_training_epochs GenerativeAiModel#total_training_epochs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#total_training_epochs GenerativeAiModel#total_training_epochs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "totalTrainingEpochs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TotalTrainingEpochs
@@ -98,7 +98,7 @@ namespace oci.GenerativeAiModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/generative_ai_model#training_batch_size GenerativeAiModel#training_batch_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_model#training_batch_size GenerativeAiModel#training_batch_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trainingBatchSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TrainingBatchSize

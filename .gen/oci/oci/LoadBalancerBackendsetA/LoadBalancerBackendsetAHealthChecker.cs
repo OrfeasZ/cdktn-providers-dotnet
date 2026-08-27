@@ -9,7 +9,7 @@ namespace oci.LoadBalancerBackendsetA
     [JsiiByValue(fqn: "oci.loadBalancerBackendsetA.LoadBalancerBackendsetAHealthChecker")]
     public class LoadBalancerBackendsetAHealthChecker : oci.LoadBalancerBackendsetA.ILoadBalancerBackendsetAHealthChecker
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#protocol LoadBalancerBackendsetA#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#protocol LoadBalancerBackendsetA#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -17,7 +17,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#interval_ms LoadBalancerBackendsetA#interval_ms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#interval_ms LoadBalancerBackendsetA#interval_ms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "intervalMs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? IntervalMs
@@ -28,7 +28,7 @@ namespace oci.LoadBalancerBackendsetA
 
         private object? _isForcePlainText;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#is_force_plain_text LoadBalancerBackendsetA#is_force_plain_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#is_force_plain_text LoadBalancerBackendsetA#is_force_plain_text}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace oci.LoadBalancerBackendsetA
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#port LoadBalancerBackendsetA#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#port LoadBalancerBackendsetA#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -69,7 +69,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#response_body_regex LoadBalancerBackendsetA#response_body_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#response_body_regex LoadBalancerBackendsetA#response_body_regex}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "responseBodyRegex", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResponseBodyRegex
@@ -78,7 +78,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#retries LoadBalancerBackendsetA#retries}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#retries LoadBalancerBackendsetA#retries}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retries", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Retries
@@ -87,7 +87,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#return_code LoadBalancerBackendsetA#return_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#return_code LoadBalancerBackendsetA#return_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "returnCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReturnCode
@@ -96,7 +96,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#timeout_in_millis LoadBalancerBackendsetA#timeout_in_millis}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#timeout_in_millis LoadBalancerBackendsetA#timeout_in_millis}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutInMillis", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutInMillis
@@ -105,7 +105,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/load_balancer_backendset#url_path LoadBalancerBackendsetA#url_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#url_path LoadBalancerBackendsetA#url_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "urlPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UrlPath

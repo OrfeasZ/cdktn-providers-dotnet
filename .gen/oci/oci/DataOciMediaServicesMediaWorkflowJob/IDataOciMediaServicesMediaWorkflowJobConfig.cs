@@ -7,7 +7,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJob
     [JsiiInterface(nativeType: typeof(IDataOciMediaServicesMediaWorkflowJobConfig), fullyQualifiedName: "oci.dataOciMediaServicesMediaWorkflowJob.DataOciMediaServicesMediaWorkflowJobConfig")]
     public interface IDataOciMediaServicesMediaWorkflowJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_media_workflow_job#media_workflow_job_id DataOciMediaServicesMediaWorkflowJob#media_workflow_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/media_services_media_workflow_job#media_workflow_job_id DataOciMediaServicesMediaWorkflowJob#media_workflow_job_id}.</summary>
         [JsiiProperty(name: "mediaWorkflowJobId", typeJson: "{\"primitive\":\"string\"}")]
         string MediaWorkflowJobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMediaServicesMediaWorkflowJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/media_services_media_workflow_job#media_workflow_job_id DataOciMediaServicesMediaWorkflowJob#media_workflow_job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/media_services_media_workflow_job#media_workflow_job_id DataOciMediaServicesMediaWorkflowJob#media_workflow_job_id}.</summary>
             [JsiiProperty(name: "mediaWorkflowJobId", typeJson: "{\"primitive\":\"string\"}")]
             public string MediaWorkflowJobId
             {

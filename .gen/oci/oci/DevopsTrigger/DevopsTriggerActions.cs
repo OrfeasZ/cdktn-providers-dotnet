@@ -9,7 +9,7 @@ namespace oci.DevopsTrigger
     [JsiiByValue(fqn: "oci.devopsTrigger.DevopsTriggerActions")]
     public class DevopsTriggerActions : oci.DevopsTrigger.IDevopsTriggerActions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#build_pipeline_id DevopsTrigger#build_pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_trigger#build_pipeline_id DevopsTrigger#build_pipeline_id}.</summary>
         [JsiiProperty(name: "buildPipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string BuildPipelineId
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsTrigger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#type DevopsTrigger#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_trigger#type DevopsTrigger#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -27,7 +27,7 @@ namespace oci.DevopsTrigger
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/devops_trigger#filter DevopsTrigger#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_trigger#filter DevopsTrigger#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"oci.devopsTrigger.DevopsTriggerActionsFilter\"}", isOptional: true)]

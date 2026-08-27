@@ -9,7 +9,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
     {
         /// <summary>catalog_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#catalog_details DistributedDatabaseDistributedDatabase#catalog_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#catalog_details DistributedDatabaseDistributedDatabase#catalog_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseCatalogDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "catalogDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseCatalogDetails\"},\"kind\":\"array\"}}]}}")]
@@ -18,91 +18,91 @@ namespace oci.DistributedDatabaseDistributedDatabase
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#character_set DistributedDatabaseDistributedDatabase#character_set}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#character_set DistributedDatabaseDistributedDatabase#character_set}.</summary>
         [JsiiProperty(name: "characterSet", typeJson: "{\"primitive\":\"string\"}")]
         string CharacterSet
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#compartment_id DistributedDatabaseDistributedDatabase#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#compartment_id DistributedDatabaseDistributedDatabase#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#database_version DistributedDatabaseDistributedDatabase#database_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#database_version DistributedDatabaseDistributedDatabase#database_version}.</summary>
         [JsiiProperty(name: "databaseVersion", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#db_deployment_type DistributedDatabaseDistributedDatabase#db_deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#db_deployment_type DistributedDatabaseDistributedDatabase#db_deployment_type}.</summary>
         [JsiiProperty(name: "dbDeploymentType", typeJson: "{\"primitive\":\"string\"}")]
         string DbDeploymentType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#display_name DistributedDatabaseDistributedDatabase#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#display_name DistributedDatabaseDistributedDatabase#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#listener_port DistributedDatabaseDistributedDatabase#listener_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#listener_port DistributedDatabaseDistributedDatabase#listener_port}.</summary>
         [JsiiProperty(name: "listenerPort", typeJson: "{\"primitive\":\"number\"}")]
         double ListenerPort
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#ncharacter_set DistributedDatabaseDistributedDatabase#ncharacter_set}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#ncharacter_set DistributedDatabaseDistributedDatabase#ncharacter_set}.</summary>
         [JsiiProperty(name: "ncharacterSet", typeJson: "{\"primitive\":\"string\"}")]
         string NcharacterSet
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#ons_port_local DistributedDatabaseDistributedDatabase#ons_port_local}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#ons_port_local DistributedDatabaseDistributedDatabase#ons_port_local}.</summary>
         [JsiiProperty(name: "onsPortLocal", typeJson: "{\"primitive\":\"number\"}")]
         double OnsPortLocal
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#ons_port_remote DistributedDatabaseDistributedDatabase#ons_port_remote}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#ons_port_remote DistributedDatabaseDistributedDatabase#ons_port_remote}.</summary>
         [JsiiProperty(name: "onsPortRemote", typeJson: "{\"primitive\":\"number\"}")]
         double OnsPortRemote
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#prefix DistributedDatabaseDistributedDatabase#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#prefix DistributedDatabaseDistributedDatabase#prefix}.</summary>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
         string Prefix
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#private_endpoint_ids DistributedDatabaseDistributedDatabase#private_endpoint_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#private_endpoint_ids DistributedDatabaseDistributedDatabase#private_endpoint_ids}.</summary>
         [JsiiProperty(name: "privateEndpointIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] PrivateEndpointIds
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#sharding_method DistributedDatabaseDistributedDatabase#sharding_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#sharding_method DistributedDatabaseDistributedDatabase#sharding_method}.</summary>
         [JsiiProperty(name: "shardingMethod", typeJson: "{\"primitive\":\"string\"}")]
         string ShardingMethod
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#change_db_backup_config_trigger DistributedDatabaseDistributedDatabase#change_db_backup_config_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#change_db_backup_config_trigger DistributedDatabaseDistributedDatabase#change_db_backup_config_trigger}.</summary>
         [JsiiProperty(name: "changeDbBackupConfigTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ChangeDbBackupConfigTrigger
@@ -113,7 +113,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#chunks DistributedDatabaseDistributedDatabase#chunks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#chunks DistributedDatabaseDistributedDatabase#chunks}.</summary>
         [JsiiProperty(name: "chunks", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Chunks
@@ -124,7 +124,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#configure_sharding_is_rebalance_required DistributedDatabaseDistributedDatabase#configure_sharding_is_rebalance_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#configure_sharding_is_rebalance_required DistributedDatabaseDistributedDatabase#configure_sharding_is_rebalance_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -138,7 +138,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#configure_sharding_trigger DistributedDatabaseDistributedDatabase#configure_sharding_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#configure_sharding_trigger DistributedDatabaseDistributedDatabase#configure_sharding_trigger}.</summary>
         [JsiiProperty(name: "configureShardingTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ConfigureShardingTrigger
@@ -151,7 +151,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>db_backup_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#db_backup_config DistributedDatabaseDistributedDatabase#db_backup_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#db_backup_config DistributedDatabaseDistributedDatabase#db_backup_config}
         /// </remarks>
         [JsiiProperty(name: "dbBackupConfig", typeJson: "{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseDbBackupConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +163,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#defined_tags DistributedDatabaseDistributedDatabase#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#defined_tags DistributedDatabaseDistributedDatabase#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -174,7 +174,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#download_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#download_gsm_certificate_signing_request_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#download_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#download_gsm_certificate_signing_request_trigger}.</summary>
         [JsiiProperty(name: "downloadGsmCertificateSigningRequestTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? DownloadGsmCertificateSigningRequestTrigger
@@ -185,7 +185,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#freeform_tags DistributedDatabaseDistributedDatabase#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#freeform_tags DistributedDatabaseDistributedDatabase#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -196,7 +196,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#generate_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#generate_gsm_certificate_signing_request_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#generate_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#generate_gsm_certificate_signing_request_trigger}.</summary>
         [JsiiProperty(name: "generateGsmCertificateSigningRequestTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GenerateGsmCertificateSigningRequestTrigger
@@ -207,7 +207,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#generate_wallet_password DistributedDatabaseDistributedDatabase#generate_wallet_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#generate_wallet_password DistributedDatabaseDistributedDatabase#generate_wallet_password}.</summary>
         [JsiiProperty(name: "generateWalletPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GenerateWalletPassword
@@ -218,7 +218,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#generate_wallet_trigger DistributedDatabaseDistributedDatabase#generate_wallet_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#generate_wallet_trigger DistributedDatabaseDistributedDatabase#generate_wallet_trigger}.</summary>
         [JsiiProperty(name: "generateWalletTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GenerateWalletTrigger
@@ -229,7 +229,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#gsm_ssh_public_key DistributedDatabaseDistributedDatabase#gsm_ssh_public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#gsm_ssh_public_key DistributedDatabaseDistributedDatabase#gsm_ssh_public_key}.</summary>
         [JsiiProperty(name: "gsmSshPublicKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GsmSshPublicKey
@@ -240,7 +240,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#id DistributedDatabaseDistributedDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#id DistributedDatabaseDistributedDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -255,7 +255,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#listener_port_tls DistributedDatabaseDistributedDatabase#listener_port_tls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#listener_port_tls DistributedDatabaseDistributedDatabase#listener_port_tls}.</summary>
         [JsiiProperty(name: "listenerPortTls", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ListenerPortTls
@@ -266,7 +266,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#move_replication_unit_trigger DistributedDatabaseDistributedDatabase#move_replication_unit_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#move_replication_unit_trigger DistributedDatabaseDistributedDatabase#move_replication_unit_trigger}.</summary>
         [JsiiProperty(name: "moveReplicationUnitTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MoveReplicationUnitTrigger
@@ -279,7 +279,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>patch_operations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#patch_operations DistributedDatabaseDistributedDatabase#patch_operations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#patch_operations DistributedDatabaseDistributedDatabase#patch_operations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabasePatchOperations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "patchOperations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabasePatchOperations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -292,7 +292,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#recreate_failed_resource_trigger DistributedDatabaseDistributedDatabase#recreate_failed_resource_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#recreate_failed_resource_trigger DistributedDatabaseDistributedDatabase#recreate_failed_resource_trigger}.</summary>
         [JsiiProperty(name: "recreateFailedResourceTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RecreateFailedResourceTrigger
@@ -303,7 +303,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#replication_factor DistributedDatabaseDistributedDatabase#replication_factor}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#replication_factor DistributedDatabaseDistributedDatabase#replication_factor}.</summary>
         [JsiiProperty(name: "replicationFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ReplicationFactor
@@ -314,7 +314,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#replication_method DistributedDatabaseDistributedDatabase#replication_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#replication_method DistributedDatabaseDistributedDatabase#replication_method}.</summary>
         [JsiiProperty(name: "replicationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReplicationMethod
@@ -325,7 +325,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#replication_unit DistributedDatabaseDistributedDatabase#replication_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#replication_unit DistributedDatabaseDistributedDatabase#replication_unit}.</summary>
         [JsiiProperty(name: "replicationUnit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ReplicationUnit
@@ -336,7 +336,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#scan_listener_port DistributedDatabaseDistributedDatabase#scan_listener_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#scan_listener_port DistributedDatabaseDistributedDatabase#scan_listener_port}.</summary>
         [JsiiProperty(name: "scanListenerPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ScanListenerPort
@@ -349,7 +349,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>shard_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#shard_details DistributedDatabaseDistributedDatabase#shard_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#shard_details DistributedDatabaseDistributedDatabase#shard_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseShardDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "shardDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseShardDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -364,7 +364,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>Increment this value to trigger StartDistributedDatabase action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#start_database_trigger DistributedDatabaseDistributedDatabase#start_database_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#start_database_trigger DistributedDatabaseDistributedDatabase#start_database_trigger}
         /// </remarks>
         [JsiiProperty(name: "startDatabaseTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -376,7 +376,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#state DistributedDatabaseDistributedDatabase#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#state DistributedDatabaseDistributedDatabase#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -389,7 +389,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>Increment this value to trigger StopDistributedDatabase action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#stop_database_trigger DistributedDatabaseDistributedDatabase#stop_database_trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#stop_database_trigger DistributedDatabaseDistributedDatabase#stop_database_trigger}
         /// </remarks>
         [JsiiProperty(name: "stopDatabaseTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -403,7 +403,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#timeouts DistributedDatabaseDistributedDatabase#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#timeouts DistributedDatabaseDistributedDatabase#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -415,7 +415,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#upload_signed_certificate_and_generate_wallet_trigger DistributedDatabaseDistributedDatabase#upload_signed_certificate_and_generate_wallet_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#upload_signed_certificate_and_generate_wallet_trigger DistributedDatabaseDistributedDatabase#upload_signed_certificate_and_generate_wallet_trigger}.</summary>
         [JsiiProperty(name: "uploadSignedCertificateAndGenerateWalletTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? UploadSignedCertificateAndGenerateWalletTrigger
@@ -428,7 +428,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
         /// <summary>validate_network_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#validate_network_details DistributedDatabaseDistributedDatabase#validate_network_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#validate_network_details DistributedDatabaseDistributedDatabase#validate_network_details}
         /// </remarks>
         [JsiiProperty(name: "validateNetworkDetails", typeJson: "{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseValidateNetworkDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -440,7 +440,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#validate_network_trigger DistributedDatabaseDistributedDatabase#validate_network_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#validate_network_trigger DistributedDatabaseDistributedDatabase#validate_network_trigger}.</summary>
         [JsiiProperty(name: "validateNetworkTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ValidateNetworkTrigger
@@ -460,7 +460,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>catalog_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#catalog_details DistributedDatabaseDistributedDatabase#catalog_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#catalog_details DistributedDatabaseDistributedDatabase#catalog_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseCatalogDetails" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "catalogDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseCatalogDetails\"},\"kind\":\"array\"}}]}}")]
@@ -469,91 +469,91 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#character_set DistributedDatabaseDistributedDatabase#character_set}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#character_set DistributedDatabaseDistributedDatabase#character_set}.</summary>
             [JsiiProperty(name: "characterSet", typeJson: "{\"primitive\":\"string\"}")]
             public string CharacterSet
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#compartment_id DistributedDatabaseDistributedDatabase#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#compartment_id DistributedDatabaseDistributedDatabase#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#database_version DistributedDatabaseDistributedDatabase#database_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#database_version DistributedDatabaseDistributedDatabase#database_version}.</summary>
             [JsiiProperty(name: "databaseVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#db_deployment_type DistributedDatabaseDistributedDatabase#db_deployment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#db_deployment_type DistributedDatabaseDistributedDatabase#db_deployment_type}.</summary>
             [JsiiProperty(name: "dbDeploymentType", typeJson: "{\"primitive\":\"string\"}")]
             public string DbDeploymentType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#display_name DistributedDatabaseDistributedDatabase#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#display_name DistributedDatabaseDistributedDatabase#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#listener_port DistributedDatabaseDistributedDatabase#listener_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#listener_port DistributedDatabaseDistributedDatabase#listener_port}.</summary>
             [JsiiProperty(name: "listenerPort", typeJson: "{\"primitive\":\"number\"}")]
             public double ListenerPort
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#ncharacter_set DistributedDatabaseDistributedDatabase#ncharacter_set}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#ncharacter_set DistributedDatabaseDistributedDatabase#ncharacter_set}.</summary>
             [JsiiProperty(name: "ncharacterSet", typeJson: "{\"primitive\":\"string\"}")]
             public string NcharacterSet
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#ons_port_local DistributedDatabaseDistributedDatabase#ons_port_local}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#ons_port_local DistributedDatabaseDistributedDatabase#ons_port_local}.</summary>
             [JsiiProperty(name: "onsPortLocal", typeJson: "{\"primitive\":\"number\"}")]
             public double OnsPortLocal
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#ons_port_remote DistributedDatabaseDistributedDatabase#ons_port_remote}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#ons_port_remote DistributedDatabaseDistributedDatabase#ons_port_remote}.</summary>
             [JsiiProperty(name: "onsPortRemote", typeJson: "{\"primitive\":\"number\"}")]
             public double OnsPortRemote
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#prefix DistributedDatabaseDistributedDatabase#prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#prefix DistributedDatabaseDistributedDatabase#prefix}.</summary>
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}")]
             public string Prefix
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#private_endpoint_ids DistributedDatabaseDistributedDatabase#private_endpoint_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#private_endpoint_ids DistributedDatabaseDistributedDatabase#private_endpoint_ids}.</summary>
             [JsiiProperty(name: "privateEndpointIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] PrivateEndpointIds
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#sharding_method DistributedDatabaseDistributedDatabase#sharding_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#sharding_method DistributedDatabaseDistributedDatabase#sharding_method}.</summary>
             [JsiiProperty(name: "shardingMethod", typeJson: "{\"primitive\":\"string\"}")]
             public string ShardingMethod
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#change_db_backup_config_trigger DistributedDatabaseDistributedDatabase#change_db_backup_config_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#change_db_backup_config_trigger DistributedDatabaseDistributedDatabase#change_db_backup_config_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "changeDbBackupConfigTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ChangeDbBackupConfigTrigger
@@ -561,7 +561,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#chunks DistributedDatabaseDistributedDatabase#chunks}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#chunks DistributedDatabaseDistributedDatabase#chunks}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "chunks", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Chunks
@@ -569,7 +569,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#configure_sharding_is_rebalance_required DistributedDatabaseDistributedDatabase#configure_sharding_is_rebalance_required}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#configure_sharding_is_rebalance_required DistributedDatabaseDistributedDatabase#configure_sharding_is_rebalance_required}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -580,7 +580,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#configure_sharding_trigger DistributedDatabaseDistributedDatabase#configure_sharding_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#configure_sharding_trigger DistributedDatabaseDistributedDatabase#configure_sharding_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configureShardingTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ConfigureShardingTrigger
@@ -590,7 +590,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>db_backup_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#db_backup_config DistributedDatabaseDistributedDatabase#db_backup_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#db_backup_config DistributedDatabaseDistributedDatabase#db_backup_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dbBackupConfig", typeJson: "{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseDbBackupConfig\"}", isOptional: true)]
@@ -599,7 +599,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseDbBackupConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#defined_tags DistributedDatabaseDistributedDatabase#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#defined_tags DistributedDatabaseDistributedDatabase#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -607,7 +607,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#download_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#download_gsm_certificate_signing_request_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#download_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#download_gsm_certificate_signing_request_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "downloadGsmCertificateSigningRequestTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? DownloadGsmCertificateSigningRequestTrigger
@@ -615,7 +615,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#freeform_tags DistributedDatabaseDistributedDatabase#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#freeform_tags DistributedDatabaseDistributedDatabase#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -623,7 +623,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#generate_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#generate_gsm_certificate_signing_request_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#generate_gsm_certificate_signing_request_trigger DistributedDatabaseDistributedDatabase#generate_gsm_certificate_signing_request_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "generateGsmCertificateSigningRequestTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GenerateGsmCertificateSigningRequestTrigger
@@ -631,7 +631,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#generate_wallet_password DistributedDatabaseDistributedDatabase#generate_wallet_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#generate_wallet_password DistributedDatabaseDistributedDatabase#generate_wallet_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "generateWalletPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GenerateWalletPassword
@@ -639,7 +639,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#generate_wallet_trigger DistributedDatabaseDistributedDatabase#generate_wallet_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#generate_wallet_trigger DistributedDatabaseDistributedDatabase#generate_wallet_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "generateWalletTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GenerateWalletTrigger
@@ -647,7 +647,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#gsm_ssh_public_key DistributedDatabaseDistributedDatabase#gsm_ssh_public_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#gsm_ssh_public_key DistributedDatabaseDistributedDatabase#gsm_ssh_public_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gsmSshPublicKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GsmSshPublicKey
@@ -655,7 +655,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#id DistributedDatabaseDistributedDatabase#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#id DistributedDatabaseDistributedDatabase#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -667,7 +667,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#listener_port_tls DistributedDatabaseDistributedDatabase#listener_port_tls}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#listener_port_tls DistributedDatabaseDistributedDatabase#listener_port_tls}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "listenerPortTls", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ListenerPortTls
@@ -675,7 +675,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#move_replication_unit_trigger DistributedDatabaseDistributedDatabase#move_replication_unit_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#move_replication_unit_trigger DistributedDatabaseDistributedDatabase#move_replication_unit_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "moveReplicationUnitTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MoveReplicationUnitTrigger
@@ -685,7 +685,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>patch_operations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#patch_operations DistributedDatabaseDistributedDatabase#patch_operations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#patch_operations DistributedDatabaseDistributedDatabase#patch_operations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabasePatchOperations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -695,7 +695,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#recreate_failed_resource_trigger DistributedDatabaseDistributedDatabase#recreate_failed_resource_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#recreate_failed_resource_trigger DistributedDatabaseDistributedDatabase#recreate_failed_resource_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recreateFailedResourceTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RecreateFailedResourceTrigger
@@ -703,7 +703,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#replication_factor DistributedDatabaseDistributedDatabase#replication_factor}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#replication_factor DistributedDatabaseDistributedDatabase#replication_factor}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replicationFactor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ReplicationFactor
@@ -711,7 +711,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#replication_method DistributedDatabaseDistributedDatabase#replication_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#replication_method DistributedDatabaseDistributedDatabase#replication_method}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replicationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReplicationMethod
@@ -719,7 +719,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#replication_unit DistributedDatabaseDistributedDatabase#replication_unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#replication_unit DistributedDatabaseDistributedDatabase#replication_unit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replicationUnit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ReplicationUnit
@@ -727,7 +727,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#scan_listener_port DistributedDatabaseDistributedDatabase#scan_listener_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#scan_listener_port DistributedDatabaseDistributedDatabase#scan_listener_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scanListenerPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ScanListenerPort
@@ -737,7 +737,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>shard_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#shard_details DistributedDatabaseDistributedDatabase#shard_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#shard_details DistributedDatabaseDistributedDatabase#shard_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseShardDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -749,7 +749,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>Increment this value to trigger StartDistributedDatabase action.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#start_database_trigger DistributedDatabaseDistributedDatabase#start_database_trigger}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#start_database_trigger DistributedDatabaseDistributedDatabase#start_database_trigger}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "startDatabaseTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -758,7 +758,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#state DistributedDatabaseDistributedDatabase#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#state DistributedDatabaseDistributedDatabase#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -768,7 +768,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>Increment this value to trigger StopDistributedDatabase action.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#stop_database_trigger DistributedDatabaseDistributedDatabase#stop_database_trigger}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#stop_database_trigger DistributedDatabaseDistributedDatabase#stop_database_trigger}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stopDatabaseTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -779,7 +779,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#timeouts DistributedDatabaseDistributedDatabase#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#timeouts DistributedDatabaseDistributedDatabase#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseTimeouts\"}", isOptional: true)]
@@ -788,7 +788,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#upload_signed_certificate_and_generate_wallet_trigger DistributedDatabaseDistributedDatabase#upload_signed_certificate_and_generate_wallet_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#upload_signed_certificate_and_generate_wallet_trigger DistributedDatabaseDistributedDatabase#upload_signed_certificate_and_generate_wallet_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "uploadSignedCertificateAndGenerateWalletTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? UploadSignedCertificateAndGenerateWalletTrigger
@@ -798,7 +798,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
 
             /// <summary>validate_network_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#validate_network_details DistributedDatabaseDistributedDatabase#validate_network_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#validate_network_details DistributedDatabaseDistributedDatabase#validate_network_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "validateNetworkDetails", typeJson: "{\"fqn\":\"oci.distributedDatabaseDistributedDatabase.DistributedDatabaseDistributedDatabaseValidateNetworkDetails\"}", isOptional: true)]
@@ -807,7 +807,7 @@ namespace oci.DistributedDatabaseDistributedDatabase
                 get => GetInstanceProperty<oci.DistributedDatabaseDistributedDatabase.IDistributedDatabaseDistributedDatabaseValidateNetworkDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_database#validate_network_trigger DistributedDatabaseDistributedDatabase#validate_network_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_database#validate_network_trigger DistributedDatabaseDistributedDatabase#validate_network_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "validateNetworkTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ValidateNetworkTrigger

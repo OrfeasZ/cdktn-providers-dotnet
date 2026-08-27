@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsFilter), fullyQualifiedName: "oci.dataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsFilter")]
     public interface IDataOciDataSafeSecurityAssessmentSecurityFeatureAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#name DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#name DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#values DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#values DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#regex DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#regex DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#name DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#name DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#values DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#values DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#regex DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_assessment_security_feature_analytics#regex DataOciDataSafeSecurityAssessmentSecurityFeatureAnalytics#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

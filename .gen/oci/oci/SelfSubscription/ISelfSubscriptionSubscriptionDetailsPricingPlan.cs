@@ -7,21 +7,21 @@ namespace oci.SelfSubscription
     [JsiiInterface(nativeType: typeof(ISelfSubscriptionSubscriptionDetailsPricingPlan), fullyQualifiedName: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlan")]
     public interface ISelfSubscriptionSubscriptionDetailsPricingPlan
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#billing_frequency SelfSubscription#billing_frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#billing_frequency SelfSubscription#billing_frequency}.</summary>
         [JsiiProperty(name: "billingFrequency", typeJson: "{\"primitive\":\"string\"}")]
         string BillingFrequency
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_name SelfSubscription#plan_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_name SelfSubscription#plan_name}.</summary>
         [JsiiProperty(name: "planName", typeJson: "{\"primitive\":\"string\"}")]
         string PlanName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_type SelfSubscription#plan_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_type SelfSubscription#plan_type}.</summary>
         [JsiiProperty(name: "planType", typeJson: "{\"primitive\":\"string\"}")]
         string PlanType
         {
@@ -30,7 +30,7 @@ namespace oci.SelfSubscription
 
         /// <summary>rates block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#rates SelfSubscription#rates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#rates SelfSubscription#rates}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanRates" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rates", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanRates\"},\"kind\":\"array\"}}]}}")]
@@ -39,7 +39,7 @@ namespace oci.SelfSubscription
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_description SelfSubscription#plan_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_description SelfSubscription#plan_description}.</summary>
         [JsiiProperty(name: "planDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PlanDescription
@@ -50,7 +50,7 @@ namespace oci.SelfSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_duration SelfSubscription#plan_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_duration SelfSubscription#plan_duration}.</summary>
         [JsiiProperty(name: "planDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PlanDuration
@@ -68,21 +68,21 @@ namespace oci.SelfSubscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#billing_frequency SelfSubscription#billing_frequency}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#billing_frequency SelfSubscription#billing_frequency}.</summary>
             [JsiiProperty(name: "billingFrequency", typeJson: "{\"primitive\":\"string\"}")]
             public string BillingFrequency
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_name SelfSubscription#plan_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_name SelfSubscription#plan_name}.</summary>
             [JsiiProperty(name: "planName", typeJson: "{\"primitive\":\"string\"}")]
             public string PlanName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_type SelfSubscription#plan_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_type SelfSubscription#plan_type}.</summary>
             [JsiiProperty(name: "planType", typeJson: "{\"primitive\":\"string\"}")]
             public string PlanType
             {
@@ -91,7 +91,7 @@ namespace oci.SelfSubscription
 
             /// <summary>rates block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#rates SelfSubscription#rates}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#rates SelfSubscription#rates}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanRates" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "rates", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanRates\"},\"kind\":\"array\"}}]}}")]
@@ -100,7 +100,7 @@ namespace oci.SelfSubscription
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_description SelfSubscription#plan_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_description SelfSubscription#plan_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "planDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PlanDescription
@@ -108,7 +108,7 @@ namespace oci.SelfSubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/self_subscription#plan_duration SelfSubscription#plan_duration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/self_subscription#plan_duration SelfSubscription#plan_duration}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "planDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PlanDuration

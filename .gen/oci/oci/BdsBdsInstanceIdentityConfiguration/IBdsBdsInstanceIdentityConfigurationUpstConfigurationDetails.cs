@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceIdentityConfigurationUpstConfigurationDetails), fullyQualifiedName: "oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationUpstConfigurationDetails")]
     public interface IBdsBdsInstanceIdentityConfigurationUpstConfigurationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_identity_configuration#master_encryption_key_id BdsBdsInstanceIdentityConfiguration#master_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_identity_configuration#master_encryption_key_id BdsBdsInstanceIdentityConfiguration#master_encryption_key_id}.</summary>
         [JsiiProperty(name: "masterEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MasterEncryptionKeyId
@@ -18,7 +18,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_identity_configuration#vault_id BdsBdsInstanceIdentityConfiguration#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_identity_configuration#vault_id BdsBdsInstanceIdentityConfiguration#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VaultId
@@ -36,7 +36,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_identity_configuration#master_encryption_key_id BdsBdsInstanceIdentityConfiguration#master_encryption_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_identity_configuration#master_encryption_key_id BdsBdsInstanceIdentityConfiguration#master_encryption_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "masterEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MasterEncryptionKeyId
@@ -44,7 +44,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bds_bds_instance_identity_configuration#vault_id BdsBdsInstanceIdentityConfiguration#vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_identity_configuration#vault_id BdsBdsInstanceIdentityConfiguration#vault_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VaultId

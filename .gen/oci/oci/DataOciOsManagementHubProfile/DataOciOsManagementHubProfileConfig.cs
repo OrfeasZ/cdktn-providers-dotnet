@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubProfile
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubProfile.DataOciOsManagementHubProfileConfig")]
     public class DataOciOsManagementHubProfileConfig : oci.DataOciOsManagementHubProfile.IDataOciOsManagementHubProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/os_management_hub_profile#profile_id DataOciOsManagementHubProfile#profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_profile#profile_id DataOciOsManagementHubProfile#profile_id}.</summary>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileId
         {

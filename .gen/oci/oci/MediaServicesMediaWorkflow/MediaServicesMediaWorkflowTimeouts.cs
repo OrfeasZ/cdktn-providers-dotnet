@@ -7,7 +7,7 @@ namespace oci.MediaServicesMediaWorkflow
     [JsiiByValue(fqn: "oci.mediaServicesMediaWorkflow.MediaServicesMediaWorkflowTimeouts")]
     public class MediaServicesMediaWorkflowTimeouts : oci.MediaServicesMediaWorkflow.IMediaServicesMediaWorkflowTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/media_services_media_workflow#create MediaServicesMediaWorkflow#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/media_services_media_workflow#create MediaServicesMediaWorkflow#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/media_services_media_workflow#delete MediaServicesMediaWorkflow#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/media_services_media_workflow#delete MediaServicesMediaWorkflow#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.MediaServicesMediaWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/media_services_media_workflow#update MediaServicesMediaWorkflow#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/media_services_media_workflow#update MediaServicesMediaWorkflow#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

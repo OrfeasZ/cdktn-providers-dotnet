@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
     [JsiiByValue(fqn: "oci.dataOciDataSafeMaskingReportsMaskedColumns.DataOciDataSafeMaskingReportsMaskedColumnsFilter")]
     public class DataOciDataSafeMaskingReportsMaskedColumnsFilter : oci.DataOciDataSafeMaskingReportsMaskedColumns.IDataOciDataSafeMaskingReportsMaskedColumnsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_masking_reports_masked_columns#name DataOciDataSafeMaskingReportsMaskedColumns#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_masking_reports_masked_columns#name DataOciDataSafeMaskingReportsMaskedColumns#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_masking_reports_masked_columns#values DataOciDataSafeMaskingReportsMaskedColumns#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_masking_reports_masked_columns#values DataOciDataSafeMaskingReportsMaskedColumns#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeMaskingReportsMaskedColumns
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/data_safe_masking_reports_masked_columns#regex DataOciDataSafeMaskingReportsMaskedColumns#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_masking_reports_masked_columns#regex DataOciDataSafeMaskingReportsMaskedColumns#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

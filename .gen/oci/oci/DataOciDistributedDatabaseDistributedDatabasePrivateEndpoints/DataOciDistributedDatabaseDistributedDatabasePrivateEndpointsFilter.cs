@@ -9,7 +9,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
     [JsiiByValue(fqn: "oci.dataOciDistributedDatabaseDistributedDatabasePrivateEndpoints.DataOciDistributedDatabaseDistributedDatabasePrivateEndpointsFilter")]
     public class DataOciDistributedDatabaseDistributedDatabasePrivateEndpointsFilter : oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints.IDataOciDistributedDatabaseDistributedDatabasePrivateEndpointsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#name DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#name DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#values DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#values DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#regex DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/distributed_database_distributed_database_private_endpoints#regex DataOciDistributedDatabaseDistributedDatabasePrivateEndpoints#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

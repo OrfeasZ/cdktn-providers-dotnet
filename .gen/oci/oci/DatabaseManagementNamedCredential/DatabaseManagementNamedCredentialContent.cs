@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementNamedCredential
     [JsiiByValue(fqn: "oci.databaseManagementNamedCredential.DatabaseManagementNamedCredentialContent")]
     public class DatabaseManagementNamedCredentialContent : oci.DatabaseManagementNamedCredential.IDatabaseManagementNamedCredentialContent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_named_credential#credential_type DatabaseManagementNamedCredential#credential_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_named_credential#credential_type DatabaseManagementNamedCredential#credential_type}.</summary>
         [JsiiProperty(name: "credentialType", typeJson: "{\"primitive\":\"string\"}")]
         public string CredentialType
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_named_credential#password_secret_access_mode DatabaseManagementNamedCredential#password_secret_access_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_named_credential#password_secret_access_mode DatabaseManagementNamedCredential#password_secret_access_mode}.</summary>
         [JsiiProperty(name: "passwordSecretAccessMode", typeJson: "{\"primitive\":\"string\"}")]
         public string PasswordSecretAccessMode
         {
@@ -25,7 +25,7 @@ namespace oci.DatabaseManagementNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_named_credential#password_secret_id DatabaseManagementNamedCredential#password_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_named_credential#password_secret_id DatabaseManagementNamedCredential#password_secret_id}.</summary>
         [JsiiProperty(name: "passwordSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public string PasswordSecretId
         {
@@ -33,7 +33,7 @@ namespace oci.DatabaseManagementNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_named_credential#role DatabaseManagementNamedCredential#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_named_credential#role DatabaseManagementNamedCredential#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         public string Role
         {
@@ -41,7 +41,7 @@ namespace oci.DatabaseManagementNamedCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/database_management_named_credential#user_name DatabaseManagementNamedCredential#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_named_credential#user_name DatabaseManagementNamedCredential#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         public string UserName
         {

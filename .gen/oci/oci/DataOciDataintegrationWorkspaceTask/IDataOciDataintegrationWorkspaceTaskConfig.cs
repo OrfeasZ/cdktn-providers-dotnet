@@ -7,21 +7,21 @@ namespace oci.DataOciDataintegrationWorkspaceTask
     [JsiiInterface(nativeType: typeof(IDataOciDataintegrationWorkspaceTaskConfig), fullyQualifiedName: "oci.dataOciDataintegrationWorkspaceTask.DataOciDataintegrationWorkspaceTaskConfig")]
     public interface IDataOciDataintegrationWorkspaceTaskConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_task#expand_references DataOciDataintegrationWorkspaceTask#expand_references}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_task#expand_references DataOciDataintegrationWorkspaceTask#expand_references}.</summary>
         [JsiiProperty(name: "expandReferences", typeJson: "{\"primitive\":\"string\"}")]
         string ExpandReferences
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_task#key DataOciDataintegrationWorkspaceTask#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_task#key DataOciDataintegrationWorkspaceTask#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_task#workspace_id DataOciDataintegrationWorkspaceTask#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_task#workspace_id DataOciDataintegrationWorkspaceTask#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkspaceId
         {
@@ -35,21 +35,21 @@ namespace oci.DataOciDataintegrationWorkspaceTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_task#expand_references DataOciDataintegrationWorkspaceTask#expand_references}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_task#expand_references DataOciDataintegrationWorkspaceTask#expand_references}.</summary>
             [JsiiProperty(name: "expandReferences", typeJson: "{\"primitive\":\"string\"}")]
             public string ExpandReferences
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_task#key DataOciDataintegrationWorkspaceTask#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_task#key DataOciDataintegrationWorkspaceTask#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/dataintegration_workspace_task#workspace_id DataOciDataintegrationWorkspaceTask#workspace_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataintegration_workspace_task#workspace_id DataOciDataintegrationWorkspaceTask#workspace_id}.</summary>
             [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkspaceId
             {

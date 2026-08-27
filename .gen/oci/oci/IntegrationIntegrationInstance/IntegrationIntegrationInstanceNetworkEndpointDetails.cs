@@ -9,7 +9,7 @@ namespace oci.IntegrationIntegrationInstance
     [JsiiByValue(fqn: "oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetails")]
     public class IntegrationIntegrationInstanceNetworkEndpointDetails : oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#network_endpoint_type IntegrationIntegrationInstance#network_endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#network_endpoint_type IntegrationIntegrationInstance#network_endpoint_type}.</summary>
         [JsiiProperty(name: "networkEndpointType", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkEndpointType
         {
@@ -17,7 +17,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#allowlisted_http_ips IntegrationIntegrationInstance#allowlisted_http_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#allowlisted_http_ips IntegrationIntegrationInstance#allowlisted_http_ips}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowlistedHttpIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AllowlistedHttpIps
@@ -30,7 +30,7 @@ namespace oci.IntegrationIntegrationInstance
 
         /// <summary>allowlisted_http_vcns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#allowlisted_http_vcns IntegrationIntegrationInstance#allowlisted_http_vcns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#allowlisted_http_vcns IntegrationIntegrationInstance#allowlisted_http_vcns}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceNetworkEndpointDetailsAllowlistedHttpVcns" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -63,7 +63,7 @@ namespace oci.IntegrationIntegrationInstance
 
         /// <summary>design_time block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#design_time IntegrationIntegrationInstance#design_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#design_time IntegrationIntegrationInstance#design_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "designTime", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsDesignTime\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace oci.IntegrationIntegrationInstance
 
         private object? _isIntegrationVcnAllowlisted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#is_integration_vcn_allowlisted IntegrationIntegrationInstance#is_integration_vcn_allowlisted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#is_integration_vcn_allowlisted IntegrationIntegrationInstance#is_integration_vcn_allowlisted}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -109,7 +109,7 @@ namespace oci.IntegrationIntegrationInstance
 
         /// <summary>runtime block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/integration_integration_instance#runtime IntegrationIntegrationInstance#runtime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#runtime IntegrationIntegrationInstance#runtime}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runtime", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetailsRuntime\"}", isOptional: true)]

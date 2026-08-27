@@ -5,7 +5,7 @@ namespace oci.RedisOciCacheConfigSetlistAssociatedOciCacheCluster
     /// <remarks>
     /// <h1><c>oci_redis_oci_cache_config_setlist_associated_oci_cache_cluster</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster"><c>oci_redis_oci_cache_config_setlist_associated_oci_cache_cluster</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_oci_cache_config_setlist_associated_oci_cache_cluster"><c>oci_redis_oci_cache_config_setlist_associated_oci_cache_cluster</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

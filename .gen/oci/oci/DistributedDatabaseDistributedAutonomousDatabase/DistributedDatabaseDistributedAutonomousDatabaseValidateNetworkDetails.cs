@@ -9,7 +9,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
     {
         private object? _isSurrogate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_autonomous_database#is_surrogate DistributedDatabaseDistributedAutonomousDatabase#is_surrogate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_autonomous_database#is_surrogate DistributedDatabaseDistributedAutonomousDatabase#is_surrogate}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_autonomous_database#resource_name DistributedDatabaseDistributedAutonomousDatabase#resource_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_autonomous_database#resource_name DistributedDatabaseDistributedAutonomousDatabase#resource_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceName
@@ -50,7 +50,7 @@ namespace oci.DistributedDatabaseDistributedAutonomousDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/distributed_database_distributed_autonomous_database#shard_group DistributedDatabaseDistributedAutonomousDatabase#shard_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/distributed_database_distributed_autonomous_database#shard_group DistributedDatabaseDistributedAutonomousDatabase#shard_group}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shardGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ShardGroup

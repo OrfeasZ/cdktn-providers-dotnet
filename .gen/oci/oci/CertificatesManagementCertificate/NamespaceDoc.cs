@@ -5,7 +5,7 @@ namespace oci.CertificatesManagementCertificate
     /// <remarks>
     /// <h1><c>oci_certificates_management_certificate</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/certificates_management_certificate"><c>oci_certificates_management_certificate</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_certificate"><c>oci_certificates_management_certificate</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace oci.CoreComputeHostGroup
     {
         private object? _nvmeWipe;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/core_compute_host_group#nvme_wipe CoreComputeHostGroup#nvme_wipe}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_compute_host_group#nvme_wipe CoreComputeHostGroup#nvme_wipe}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

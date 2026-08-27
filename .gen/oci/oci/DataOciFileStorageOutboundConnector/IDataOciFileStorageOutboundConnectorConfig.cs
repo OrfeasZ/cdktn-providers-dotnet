@@ -7,7 +7,7 @@ namespace oci.DataOciFileStorageOutboundConnector
     [JsiiInterface(nativeType: typeof(IDataOciFileStorageOutboundConnectorConfig), fullyQualifiedName: "oci.dataOciFileStorageOutboundConnector.DataOciFileStorageOutboundConnectorConfig")]
     public interface IDataOciFileStorageOutboundConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/file_storage_outbound_connector#outbound_connector_id DataOciFileStorageOutboundConnector#outbound_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/file_storage_outbound_connector#outbound_connector_id DataOciFileStorageOutboundConnector#outbound_connector_id}.</summary>
         [JsiiProperty(name: "outboundConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string OutboundConnectorId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciFileStorageOutboundConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/file_storage_outbound_connector#outbound_connector_id DataOciFileStorageOutboundConnector#outbound_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/file_storage_outbound_connector#outbound_connector_id DataOciFileStorageOutboundConnector#outbound_connector_id}.</summary>
             [JsiiProperty(name: "outboundConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string OutboundConnectorId
             {

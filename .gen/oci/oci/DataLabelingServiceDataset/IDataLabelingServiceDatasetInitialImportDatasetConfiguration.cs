@@ -9,7 +9,7 @@ namespace oci.DataLabelingServiceDataset
     {
         /// <summary>import_format block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_labeling_service_dataset#import_format DataLabelingServiceDataset#import_format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#import_format DataLabelingServiceDataset#import_format}
         /// </remarks>
         [JsiiProperty(name: "importFormat", typeJson: "{\"fqn\":\"oci.dataLabelingServiceDataset.DataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat\"}")]
         oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat ImportFormat
@@ -19,7 +19,7 @@ namespace oci.DataLabelingServiceDataset
 
         /// <summary>import_metadata_path block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_labeling_service_dataset#import_metadata_path DataLabelingServiceDataset#import_metadata_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#import_metadata_path DataLabelingServiceDataset#import_metadata_path}
         /// </remarks>
         [JsiiProperty(name: "importMetadataPath", typeJson: "{\"fqn\":\"oci.dataLabelingServiceDataset.DataLabelingServiceDatasetInitialImportDatasetConfigurationImportMetadataPath\"}")]
         oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetInitialImportDatasetConfigurationImportMetadataPath ImportMetadataPath
@@ -36,7 +36,7 @@ namespace oci.DataLabelingServiceDataset
 
             /// <summary>import_format block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_labeling_service_dataset#import_format DataLabelingServiceDataset#import_format}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#import_format DataLabelingServiceDataset#import_format}
             /// </remarks>
             [JsiiProperty(name: "importFormat", typeJson: "{\"fqn\":\"oci.dataLabelingServiceDataset.DataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat\"}")]
             public oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetInitialImportDatasetConfigurationImportFormat ImportFormat
@@ -46,7 +46,7 @@ namespace oci.DataLabelingServiceDataset
 
             /// <summary>import_metadata_path block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/data_labeling_service_dataset#import_metadata_path DataLabelingServiceDataset#import_metadata_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#import_metadata_path DataLabelingServiceDataset#import_metadata_path}
             /// </remarks>
             [JsiiProperty(name: "importMetadataPath", typeJson: "{\"fqn\":\"oci.dataLabelingServiceDataset.DataLabelingServiceDatasetInitialImportDatasetConfigurationImportMetadataPath\"}")]
             public oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetInitialImportDatasetConfigurationImportMetadataPath ImportMetadataPath

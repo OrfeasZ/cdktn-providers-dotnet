@@ -7,14 +7,14 @@ namespace oci.MysqlMysqlDbSystem
     [JsiiInterface(nativeType: typeof(IMysqlMysqlDbSystemRest), fullyQualifiedName: "oci.mysqlMysqlDbSystem.MysqlMysqlDbSystemRest")]
     public interface IMysqlMysqlDbSystemRest
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#configuration MysqlMysqlDbSystem#configuration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_mysql_db_system#configuration MysqlMysqlDbSystem#configuration}.</summary>
         [JsiiProperty(name: "configuration", typeJson: "{\"primitive\":\"string\"}")]
         string Configuration
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Port
@@ -32,14 +32,14 @@ namespace oci.MysqlMysqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#configuration MysqlMysqlDbSystem#configuration}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_mysql_db_system#configuration MysqlMysqlDbSystem#configuration}.</summary>
             [JsiiProperty(name: "configuration", typeJson: "{\"primitive\":\"string\"}")]
             public string Configuration
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_mysql_db_system#port MysqlMysqlDbSystem#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Port

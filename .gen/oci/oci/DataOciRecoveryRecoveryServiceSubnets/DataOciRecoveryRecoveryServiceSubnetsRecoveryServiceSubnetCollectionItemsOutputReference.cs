@@ -77,6 +77,12 @@ namespace oci.DataOciRecoveryRecoveryServiceSubnets
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "securityAttributes", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecurityAttributes
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {

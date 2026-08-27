@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringMonitoredResourceType
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringMonitoredResourceType.DataOciStackMonitoringMonitoredResourceTypeConfig")]
     public class DataOciStackMonitoringMonitoredResourceTypeConfig : oci.DataOciStackMonitoringMonitoredResourceType.IDataOciStackMonitoringMonitoredResourceTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/stack_monitoring_monitored_resource_type#monitored_resource_type_id DataOciStackMonitoringMonitoredResourceType#monitored_resource_type_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/stack_monitoring_monitored_resource_type#monitored_resource_type_id DataOciStackMonitoringMonitoredResourceType#monitored_resource_type_id}.</summary>
         [JsiiProperty(name: "monitoredResourceTypeId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitoredResourceTypeId
         {

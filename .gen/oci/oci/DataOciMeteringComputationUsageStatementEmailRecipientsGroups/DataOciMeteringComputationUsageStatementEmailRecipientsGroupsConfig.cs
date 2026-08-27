@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationUsageStatementEmailRecipientsGroups.DataOciMeteringComputationUsageStatementEmailRecipientsGroupsConfig")]
     public class DataOciMeteringComputationUsageStatementEmailRecipientsGroupsConfig : oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups.IDataOciMeteringComputationUsageStatementEmailRecipientsGroupsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#compartment_id DataOciMeteringComputationUsageStatementEmailRecipientsGroups#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#compartment_id DataOciMeteringComputationUsageStatementEmailRecipientsGroups#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#subscription_id DataOciMeteringComputationUsageStatementEmailRecipientsGroups#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#subscription_id DataOciMeteringComputationUsageStatementEmailRecipientsGroups#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#filter DataOciMeteringComputationUsageStatementEmailRecipientsGroups#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#filter DataOciMeteringComputationUsageStatementEmailRecipientsGroups#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups.IDataOciMeteringComputationUsageStatementEmailRecipientsGroupsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciMeteringComputationUsageStatementEmailRecipientsGroups
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#id DataOciMeteringComputationUsageStatementEmailRecipientsGroups#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/metering_computation_usage_statement_email_recipients_groups#id DataOciMeteringComputationUsageStatementEmailRecipientsGroups#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

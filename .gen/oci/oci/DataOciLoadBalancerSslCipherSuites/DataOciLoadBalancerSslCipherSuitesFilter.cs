@@ -9,7 +9,7 @@ namespace oci.DataOciLoadBalancerSslCipherSuites
     [JsiiByValue(fqn: "oci.dataOciLoadBalancerSslCipherSuites.DataOciLoadBalancerSslCipherSuitesFilter")]
     public class DataOciLoadBalancerSslCipherSuitesFilter : oci.DataOciLoadBalancerSslCipherSuites.IDataOciLoadBalancerSslCipherSuitesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/load_balancer_ssl_cipher_suites#name DataOciLoadBalancerSslCipherSuites#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/load_balancer_ssl_cipher_suites#name DataOciLoadBalancerSslCipherSuites#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLoadBalancerSslCipherSuites
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/load_balancer_ssl_cipher_suites#values DataOciLoadBalancerSslCipherSuites#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/load_balancer_ssl_cipher_suites#values DataOciLoadBalancerSslCipherSuites#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLoadBalancerSslCipherSuites
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/load_balancer_ssl_cipher_suites#regex DataOciLoadBalancerSslCipherSuites#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/load_balancer_ssl_cipher_suites#regex DataOciLoadBalancerSslCipherSuites#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DatascienceJobRun
     [JsiiByValue(fqn: "oci.datascienceJobRun.DatascienceJobRunJobNodeConfigurationOverrideDetailsJobNetworkConfiguration")]
     public class DatascienceJobRunJobNodeConfigurationOverrideDetailsJobNetworkConfiguration : oci.DatascienceJobRun.IDatascienceJobRunJobNodeConfigurationOverrideDetailsJobNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_job_run#job_network_type DatascienceJobRun#job_network_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job_run#job_network_type DatascienceJobRun#job_network_type}.</summary>
         [JsiiProperty(name: "jobNetworkType", typeJson: "{\"primitive\":\"string\"}")]
         public string JobNetworkType
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceJobRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/datascience_job_run#subnet_id DatascienceJobRun#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job_run#subnet_id DatascienceJobRun#subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubnetId

@@ -9,7 +9,7 @@ namespace oci.DataOciArtifactsGenericArtifact
     [JsiiByValue(fqn: "oci.dataOciArtifactsGenericArtifact.DataOciArtifactsGenericArtifactConfig")]
     public class DataOciArtifactsGenericArtifactConfig : oci.DataOciArtifactsGenericArtifact.IDataOciArtifactsGenericArtifactConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/artifacts_generic_artifact#artifact_id DataOciArtifactsGenericArtifact#artifact_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/artifacts_generic_artifact#artifact_id DataOciArtifactsGenericArtifact#artifact_id}.</summary>
         [JsiiProperty(name: "artifactId", typeJson: "{\"primitive\":\"string\"}")]
         public string ArtifactId
         {

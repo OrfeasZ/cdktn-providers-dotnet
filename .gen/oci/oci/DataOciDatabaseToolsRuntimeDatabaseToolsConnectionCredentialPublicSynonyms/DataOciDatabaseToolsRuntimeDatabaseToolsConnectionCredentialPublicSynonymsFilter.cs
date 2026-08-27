@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublic
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonymsFilter")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonymsFilter : oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonymsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonyms#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonyms#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublic
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonyms#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonyms#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublic
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonyms#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_public_synonyms#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialPublicSynonyms#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,14 +7,14 @@ namespace oci.BastionSession
     [JsiiInterface(nativeType: typeof(IBastionSessionTargetResourceDetails), fullyQualifiedName: "oci.bastionSession.BastionSessionTargetResourceDetails")]
     public interface IBastionSessionTargetResourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#session_type BastionSession#session_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#session_type BastionSession#session_type}.</summary>
         [JsiiProperty(name: "sessionType", typeJson: "{\"primitive\":\"string\"}")]
         string SessionType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_fqdn BastionSession#target_resource_fqdn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_fqdn BastionSession#target_resource_fqdn}.</summary>
         [JsiiProperty(name: "targetResourceFqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetResourceFqdn
@@ -25,7 +25,7 @@ namespace oci.BastionSession
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_id BastionSession#target_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_id BastionSession#target_resource_id}.</summary>
         [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetResourceId
@@ -36,7 +36,7 @@ namespace oci.BastionSession
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_operating_system_user_name BastionSession#target_resource_operating_system_user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_operating_system_user_name BastionSession#target_resource_operating_system_user_name}.</summary>
         [JsiiProperty(name: "targetResourceOperatingSystemUserName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetResourceOperatingSystemUserName
@@ -47,7 +47,7 @@ namespace oci.BastionSession
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_port BastionSession#target_resource_port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_port BastionSession#target_resource_port}.</summary>
         [JsiiProperty(name: "targetResourcePort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TargetResourcePort
@@ -58,7 +58,7 @@ namespace oci.BastionSession
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_private_ip_address BastionSession#target_resource_private_ip_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_private_ip_address BastionSession#target_resource_private_ip_address}.</summary>
         [JsiiProperty(name: "targetResourcePrivateIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetResourcePrivateIpAddress
@@ -76,14 +76,14 @@ namespace oci.BastionSession
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#session_type BastionSession#session_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#session_type BastionSession#session_type}.</summary>
             [JsiiProperty(name: "sessionType", typeJson: "{\"primitive\":\"string\"}")]
             public string SessionType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_fqdn BastionSession#target_resource_fqdn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_fqdn BastionSession#target_resource_fqdn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetResourceFqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetResourceFqdn
@@ -91,7 +91,7 @@ namespace oci.BastionSession
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_id BastionSession#target_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_id BastionSession#target_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetResourceId
@@ -99,7 +99,7 @@ namespace oci.BastionSession
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_operating_system_user_name BastionSession#target_resource_operating_system_user_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_operating_system_user_name BastionSession#target_resource_operating_system_user_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetResourceOperatingSystemUserName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetResourceOperatingSystemUserName
@@ -107,7 +107,7 @@ namespace oci.BastionSession
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_port BastionSession#target_resource_port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_port BastionSession#target_resource_port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetResourcePort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TargetResourcePort
@@ -115,7 +115,7 @@ namespace oci.BastionSession
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/resources/bastion_session#target_resource_private_ip_address BastionSession#target_resource_private_ip_address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#target_resource_private_ip_address BastionSession#target_resource_private_ip_address}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetResourcePrivateIpAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetResourcePrivateIpAddress

@@ -7,14 +7,14 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersion
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceMlApplicationImplementationVersionConfig), fullyQualifiedName: "oci.dataOciDatascienceMlApplicationImplementationVersion.DataOciDatascienceMlApplicationImplementationVersionConfig")]
     public interface IDataOciDatascienceMlApplicationImplementationVersionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_ml_application_implementation_version#ml_application_implementation_version_id DataOciDatascienceMlApplicationImplementationVersion#ml_application_implementation_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_ml_application_implementation_version#ml_application_implementation_version_id DataOciDatascienceMlApplicationImplementationVersion#ml_application_implementation_version_id}.</summary>
         [JsiiProperty(name: "mlApplicationImplementationVersionId", typeJson: "{\"primitive\":\"string\"}")]
         string MlApplicationImplementationVersionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_ml_application_implementation_version#id DataOciDatascienceMlApplicationImplementationVersion#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_ml_application_implementation_version#id DataOciDatascienceMlApplicationImplementationVersion#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciDatascienceMlApplicationImplementationVersion
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_ml_application_implementation_version#ml_application_implementation_version_id DataOciDatascienceMlApplicationImplementationVersion#ml_application_implementation_version_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_ml_application_implementation_version#ml_application_implementation_version_id DataOciDatascienceMlApplicationImplementationVersion#ml_application_implementation_version_id}.</summary>
             [JsiiProperty(name: "mlApplicationImplementationVersionId", typeJson: "{\"primitive\":\"string\"}")]
             public string MlApplicationImplementationVersionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/datascience_ml_application_implementation_version#id DataOciDatascienceMlApplicationImplementationVersion#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_ml_application_implementation_version#id DataOciDatascienceMlApplicationImplementationVersion#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

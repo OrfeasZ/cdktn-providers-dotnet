@@ -7,14 +7,14 @@ namespace oci.DataOciCoreComputeHosts
     [JsiiInterface(nativeType: typeof(IDataOciCoreComputeHostsConfig), fullyQualifiedName: "oci.dataOciCoreComputeHosts.DataOciCoreComputeHostsConfig")]
     public interface IDataOciCoreComputeHostsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compartment_id DataOciCoreComputeHosts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compartment_id DataOciCoreComputeHosts#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#availability_domain DataOciCoreComputeHosts#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#availability_domain DataOciCoreComputeHosts#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityDomain
@@ -25,7 +25,7 @@ namespace oci.DataOciCoreComputeHosts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_group_id DataOciCoreComputeHosts#compute_host_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_group_id DataOciCoreComputeHosts#compute_host_group_id}.</summary>
         [JsiiProperty(name: "computeHostGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeHostGroupId
@@ -36,7 +36,7 @@ namespace oci.DataOciCoreComputeHosts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_health DataOciCoreComputeHosts#compute_host_health}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_health DataOciCoreComputeHosts#compute_host_health}.</summary>
         [JsiiProperty(name: "computeHostHealth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeHostHealth
@@ -47,7 +47,7 @@ namespace oci.DataOciCoreComputeHosts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_in_subtree DataOciCoreComputeHosts#compute_host_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_in_subtree DataOciCoreComputeHosts#compute_host_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace oci.DataOciCoreComputeHosts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_lifecycle_state DataOciCoreComputeHosts#compute_host_lifecycle_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_lifecycle_state DataOciCoreComputeHosts#compute_host_lifecycle_state}.</summary>
         [JsiiProperty(name: "computeHostLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeHostLifecycleState
@@ -72,7 +72,7 @@ namespace oci.DataOciCoreComputeHosts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#display_name DataOciCoreComputeHosts#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#display_name DataOciCoreComputeHosts#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -85,7 +85,7 @@ namespace oci.DataOciCoreComputeHosts
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#filter DataOciCoreComputeHosts#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#filter DataOciCoreComputeHosts#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeHosts.IDataOciCoreComputeHostsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreComputeHosts.DataOciCoreComputeHostsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace oci.DataOciCoreComputeHosts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#id DataOciCoreComputeHosts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#id DataOciCoreComputeHosts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +113,7 @@ namespace oci.DataOciCoreComputeHosts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#network_resource_id DataOciCoreComputeHosts#network_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#network_resource_id DataOciCoreComputeHosts#network_resource_id}.</summary>
         [JsiiProperty(name: "networkResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NetworkResourceId
@@ -131,14 +131,14 @@ namespace oci.DataOciCoreComputeHosts
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compartment_id DataOciCoreComputeHosts#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compartment_id DataOciCoreComputeHosts#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#availability_domain DataOciCoreComputeHosts#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#availability_domain DataOciCoreComputeHosts#availability_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityDomain
@@ -146,7 +146,7 @@ namespace oci.DataOciCoreComputeHosts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_group_id DataOciCoreComputeHosts#compute_host_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_group_id DataOciCoreComputeHosts#compute_host_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeHostGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeHostGroupId
@@ -154,7 +154,7 @@ namespace oci.DataOciCoreComputeHosts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_health DataOciCoreComputeHosts#compute_host_health}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_health DataOciCoreComputeHosts#compute_host_health}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeHostHealth", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeHostHealth
@@ -162,7 +162,7 @@ namespace oci.DataOciCoreComputeHosts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_in_subtree DataOciCoreComputeHosts#compute_host_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_in_subtree DataOciCoreComputeHosts#compute_host_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -173,7 +173,7 @@ namespace oci.DataOciCoreComputeHosts
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#compute_host_lifecycle_state DataOciCoreComputeHosts#compute_host_lifecycle_state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#compute_host_lifecycle_state DataOciCoreComputeHosts#compute_host_lifecycle_state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeHostLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeHostLifecycleState
@@ -181,7 +181,7 @@ namespace oci.DataOciCoreComputeHosts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#display_name DataOciCoreComputeHosts#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#display_name DataOciCoreComputeHosts#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -191,7 +191,7 @@ namespace oci.DataOciCoreComputeHosts
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#filter DataOciCoreComputeHosts#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#filter DataOciCoreComputeHosts#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeHosts.IDataOciCoreComputeHostsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -201,7 +201,7 @@ namespace oci.DataOciCoreComputeHosts
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#id DataOciCoreComputeHosts#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#id DataOciCoreComputeHosts#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -213,7 +213,7 @@ namespace oci.DataOciCoreComputeHosts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.28.0/docs/data-sources/core_compute_hosts#network_resource_id DataOciCoreComputeHosts#network_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_hosts#network_resource_id DataOciCoreComputeHosts#network_resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "networkResourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NetworkResourceId
