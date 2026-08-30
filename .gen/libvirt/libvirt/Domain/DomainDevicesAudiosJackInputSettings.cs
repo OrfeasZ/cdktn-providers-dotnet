@@ -7,7 +7,7 @@ namespace libvirt.Domain
     [JsiiByValue(fqn: "libvirt.domain.DomainDevicesAudiosJackInputSettings")]
     public class DomainDevicesAudiosJackInputSettings : libvirt.Domain.IDomainDevicesAudiosJackInputSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#channels Domain#channels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#channels Domain#channels}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "channels", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Channels
@@ -16,7 +16,7 @@ namespace libvirt.Domain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#format Domain#format}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#format Domain#format}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Format
@@ -25,7 +25,7 @@ namespace libvirt.Domain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frequency Domain#frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frequency Domain#frequency}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Frequency

@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#graphical-framebuffers">https://libvirt.org/formatdomain.html#graphical-framebuffers</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#display Domain#display}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#display Domain#display}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "display", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#graphical-framebuffers">https://libvirt.org/formatdomain.html#graphical-framebuffers</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#full_screen Domain#full_screen}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#full_screen Domain#full_screen}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fullScreen", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

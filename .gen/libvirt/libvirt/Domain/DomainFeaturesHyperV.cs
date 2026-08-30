@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#avic Domain#avic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#avic Domain#avic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "avic", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVAvic\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#emsr_bitmap Domain#emsr_bitmap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#emsr_bitmap Domain#emsr_bitmap}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emsrBitmap", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVEmsrBitmap\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#evmcs Domain#evmcs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#evmcs Domain#evmcs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "evmcs", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVEvmcs\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frequencies Domain#frequencies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frequencies Domain#frequencies}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "frequencies", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVFrequencies\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#ipi Domain#ipi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#ipi Domain#ipi}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipi", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVIpi\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#hypervisor-features">https://libvirt.org/formatdomain.html#hypervisor-features</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mode Domain#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mode Domain#mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#re_enlightenment Domain#re_enlightenment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#re_enlightenment Domain#re_enlightenment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reEnlightenment", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVReEnlightenment\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#relaxed Domain#relaxed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#relaxed Domain#relaxed}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "relaxed", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVRelaxed\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#reset Domain#reset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#reset Domain#reset}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reset", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVReset\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#runtime Domain#runtime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#runtime Domain#runtime}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runtime", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVRuntime\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the Hyper-V spinlock enlightenment, which can reduce CPU waste on spinlocks by triggering a fallback after a configurable number of retries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#spinlocks Domain#spinlocks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#spinlocks Domain#spinlocks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spinlocks", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVSpinlocks\"}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the Hyper-V synthetic timer (stimer) feature, which provides paravirtualized timer support to the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#stimer Domain#stimer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#stimer Domain#stimer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stimer", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVStimer\"}", isOptional: true)]
@@ -157,7 +157,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#synic Domain#synic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#synic Domain#synic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "synic", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVSynic\"}", isOptional: true)]
@@ -171,7 +171,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block allows selecting specific flush modes via its children.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tlb_flush Domain#tlb_flush}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tlb_flush Domain#tlb_flush}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tlbFlush", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVTlbFlush\"}", isOptional: true)]
@@ -183,7 +183,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vapic Domain#vapic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vapic Domain#vapic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vapic", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVVapic\"}", isOptional: true)]
@@ -195,7 +195,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables configuration of a custom Hyper-V CPUID vendor ID string presented to the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vendor_id Domain#vendor_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vendor_id Domain#vendor_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vendorId", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVVendorId\"}", isOptional: true)]
@@ -207,7 +207,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vp_index Domain#vp_index}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vp_index Domain#vp_index}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpIndex", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVVpIndex\"}", isOptional: true)]
@@ -219,7 +219,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xmm_input Domain#xmm_input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xmm_input Domain#xmm_input}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xmmInput", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperVXmmInput\"}", isOptional: true)]

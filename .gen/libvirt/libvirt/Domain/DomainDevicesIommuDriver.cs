@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#aw_bits Domain#aw_bits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#aw_bits Domain#aw_bits}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "awBits", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#caching_mode Domain#caching_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#caching_mode Domain#caching_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cachingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#dma_translation Domain#dma_translation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#dma_translation Domain#dma_translation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dmaTranslation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#eim Domain#eim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#eim Domain#eim}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eim", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -65,11 +65,20 @@ namespace libvirt.Domain
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#granule Domain#granule}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "granule", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesIommuDriverGranule\"}", isOptional: true)]
+        public libvirt.Domain.IDomainDevicesIommuDriverGranule? Granule
+        {
+            get;
+            set;
+        }
+
         /// <summary>Enables or disables interrupt remapping for the IOMMU, with valid values "on" or "off".</summary>
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#int_remap Domain#int_remap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#int_remap Domain#int_remap}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "intRemap", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +92,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#iotlb Domain#iotlb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#iotlb Domain#iotlb}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iotlb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +106,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#passthrough Domain#passthrough}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#passthrough Domain#passthrough}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passthrough", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,11 +116,20 @@ namespace libvirt.Domain
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#pci_bus Domain#pci_bus}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "pciBus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? PciBus
+        {
+            get;
+            set;
+        }
+
         /// <summary>Toggles support for extended translation (xtsup) features of the IOMMU, with valid values "on" or "off".</summary>
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#iommu-devices">https://libvirt.org/formatdomain.html#iommu-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xt_sup Domain#xt_sup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xt_sup Domain#xt_sup}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xtSup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#name Domain#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#name Domain#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -23,7 +23,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures how a timer behaves when the guest falls behind real time, enabling or tuning the “catchup” mechanism instead of an immediate jump.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#catch_up Domain#catch_up}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#catch_up Domain#catch_up}
         /// </remarks>
         [JsiiProperty(name: "catchUp", typeJson: "{\"fqn\":\"libvirt.domain.DomainClockTimerCatchUp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frequency Domain#frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frequency Domain#frequency}
         /// </remarks>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mode Domain#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mode Domain#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#present Domain#present}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#present Domain#present}
         /// </remarks>
         [JsiiProperty(name: "present", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tick_policy Domain#tick_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tick_policy Domain#tick_policy}
         /// </remarks>
         [JsiiProperty(name: "tickPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +111,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#track Domain#track}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#track Domain#track}
         /// </remarks>
         [JsiiProperty(name: "track", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +136,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#name Domain#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#name Domain#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -146,7 +146,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures how a timer behaves when the guest falls behind real time, enabling or tuning the “catchup” mechanism instead of an immediate jump.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#catch_up Domain#catch_up}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#catch_up Domain#catch_up}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "catchUp", typeJson: "{\"fqn\":\"libvirt.domain.DomainClockTimerCatchUp\"}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frequency Domain#frequency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frequency Domain#frequency}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mode Domain#mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mode Domain#mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#present Domain#present}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#present Domain#present}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "present", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -204,7 +204,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tick_policy Domain#tick_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tick_policy Domain#tick_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tickPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -219,7 +219,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#time-keeping">https://libvirt.org/formatdomain.html#time-keeping</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#track Domain#track}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#track Domain#track}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "track", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

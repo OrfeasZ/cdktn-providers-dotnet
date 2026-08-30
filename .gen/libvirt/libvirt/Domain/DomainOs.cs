@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// The element itself has no attributes; behavior is controlled by its child tables.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#acpi Domain#acpi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#acpi Domain#acpi}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acpi", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsAcpi\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// All child attributes are optional.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bios Domain#bios}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bios Domain#bios}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bios", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsBios\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#bios-bootloader">https://libvirt.org/formatdomain.html#bios-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#boot_devices Domain#boot_devices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#boot_devices Domain#boot_devices}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainOsBootDevices" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -78,7 +78,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// Presence alone does not enable it; see enable/timeout attributes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#boot_menu Domain#boot_menu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#boot_menu Domain#boot_menu}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bootMenu", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsBootMenu\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#direct-kernel-boot">https://libvirt.org/formatdomain.html#direct-kernel-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cmdline Domain#cmdline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cmdline Domain#cmdline}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cmdline", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#direct-kernel-boot">https://libvirt.org/formatdomain.html#direct-kernel-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#dtb Domain#dtb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#dtb Domain#dtb}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dtb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -126,7 +126,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#operating-system-booting">https://libvirt.org/formatdomain.html#operating-system-booting</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#firmware Domain#firmware}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#firmware Domain#firmware}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firmware", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// contents and attributes are user-provided and driver-specific. Use this when finer-grained firmware selection is needed beyond the simple firmware attribute.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#firmware_info Domain#firmware_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#firmware_info Domain#firmware_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "firmwareInfo", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsFirmwareInfo\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#container-boot">https://libvirt.org/formatdomain.html#container-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#init Domain#init}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#init Domain#init}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "init", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -168,7 +168,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#container-boot">https://libvirt.org/formatdomain.html#container-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#init_args Domain#init_args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#init_args Domain#init_args}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initArgs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#container-boot">https://libvirt.org/formatdomain.html#container-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#init_dir Domain#init_dir}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#init_dir Domain#init_dir}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initDir", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#container-boot">https://libvirt.org/formatdomain.html#container-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#init_env Domain#init_env}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#init_env Domain#init_env}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainOsInitEnv" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -235,7 +235,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#container-boot">https://libvirt.org/formatdomain.html#container-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#init_group Domain#init_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#init_group Domain#init_group}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#direct-kernel-boot">https://libvirt.org/formatdomain.html#direct-kernel-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#initrd Domain#initrd}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#initrd Domain#initrd}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initrd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -263,7 +263,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#container-boot">https://libvirt.org/formatdomain.html#container-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#init_user Domain#init_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#init_user Domain#init_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "initUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -277,7 +277,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#direct-kernel-boot">https://libvirt.org/formatdomain.html#direct-kernel-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#kernel Domain#kernel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#kernel Domain#kernel}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kernel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -291,7 +291,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#bios-bootloader">https://libvirt.org/formatdomain.html#bios-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#loader Domain#loader}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#loader Domain#loader}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -307,7 +307,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#bios-bootloader">https://libvirt.org/formatdomain.html#bios-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#loader_format Domain#loader_format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#loader_format Domain#loader_format}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loaderFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -321,7 +321,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#bios-bootloader">https://libvirt.org/formatdomain.html#bios-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#loader_readonly Domain#loader_readonly}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#loader_readonly Domain#loader_readonly}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loaderReadonly", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -335,7 +335,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#bios-bootloader">https://libvirt.org/formatdomain.html#bios-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#loader_secure Domain#loader_secure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#loader_secure Domain#loader_secure}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loaderSecure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -349,7 +349,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#bios-bootloader">https://libvirt.org/formatdomain.html#bios-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#loader_stateless Domain#loader_stateless}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#loader_stateless Domain#loader_stateless}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loaderStateless", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -363,7 +363,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#bios-bootloader">https://libvirt.org/formatdomain.html#bios-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#loader_type Domain#loader_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#loader_type Domain#loader_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loaderType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -375,7 +375,7 @@ namespace libvirt.Domain
 
         /// <summary>Sets the path for the guest NVRAM/UEFI variable store file associated with the firmware loader, allowing persistence of firmware settings across reboots.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#nv_ram Domain#nv_ram}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#nv_ram Domain#nv_ram}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nvRam", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsNvRam\"}", isOptional: true)]
@@ -391,7 +391,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#direct-kernel-boot">https://libvirt.org/formatdomain.html#direct-kernel-boot</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#shim Domain#shim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#shim Domain#shim}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shim", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -403,7 +403,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables configuration of SMBIOS-related behavior for the guest firmware, such as whether to use host, guest-defined, or sysinfo-based SMBIOS data.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sm_bios Domain#sm_bios}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sm_bios Domain#sm_bios}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "smBios", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsSmBios\"}", isOptional: true)]
@@ -417,7 +417,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#operating-system-booting">https://libvirt.org/formatdomain.html#operating-system-booting</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type Domain#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type Domain#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -431,7 +431,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#operating-system-booting">https://libvirt.org/formatdomain.html#operating-system-booting</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type_arch Domain#type_arch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type_arch Domain#type_arch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "typeArch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -445,11 +445,20 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#operating-system-booting">https://libvirt.org/formatdomain.html#operating-system-booting</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type_machine Domain#type_machine}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type_machine Domain#type_machine}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "typeMachine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TypeMachine
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#var_store Domain#var_store}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "varStore", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsVarStore\"}", isOptional: true)]
+        public libvirt.Domain.IDomainOsVarStore? VarStore
         {
             get;
             set;

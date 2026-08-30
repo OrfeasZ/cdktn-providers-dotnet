@@ -327,6 +327,30 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesIommu)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesIommUs" />)[]</param>
+        [JsiiMethod(name: "putIommUs", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesIommUs\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutIommUs(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case libvirt.Domain.IDomainDevicesIommUs[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(libvirt.Domain.IDomainDevicesIommUs).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(libvirt.Domain.IDomainDevicesIommUs).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesLeases" />)[]</param>
         [JsiiMethod(name: "putLeases", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesLeases\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutLeases(object @value)
@@ -771,6 +795,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIommUs")]
+        public virtual void ResetIommUs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLeases")]
         public virtual void ResetLeases()
         {
@@ -955,6 +985,12 @@ namespace libvirt.Domain
         public virtual libvirt.Domain.DomainDevicesIommuOutputReference Iommu
         {
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesIommuOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "iommUs", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesIommUsList\"}")]
+        public virtual libvirt.Domain.DomainDevicesIommUsList IommUs
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainDevicesIommUsList>()!;
         }
 
         [JsiiProperty(name: "leases", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesLeasesList\"}")]
@@ -1198,6 +1234,16 @@ namespace libvirt.Domain
         [JsiiOptional]
         [JsiiProperty(name: "iommuInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesIommu\"}]}}", isOptional: true)]
         public virtual object? IommuInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesIommUs" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "iommUsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainDevicesIommUs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? IommUsInput
         {
             get => GetInstanceProperty<object?>();
         }

@@ -9,7 +9,7 @@ namespace libvirt.Pool
     {
         /// <summary>Configures an HBA/adapter description for pools that use host adapters (e.g., iSCSI or SCSI pools), including addressing and management attributes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#adapter Pool#adapter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#adapter Pool#adapter}
         /// </remarks>
         [JsiiProperty(name: "adapter", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceAdapter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace libvirt.Pool
 
         /// <summary>Configures optional authentication for the pool source (e.g., user/secret for iSCSI, RBD, or other networked storage), with credentials defined according to the backend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#auth Pool#auth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#auth Pool#auth}
         /// </remarks>
         [JsiiProperty(name: "auth", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceAuth\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#device Pool#device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#device Pool#device}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolSourceDevice" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "device", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.pool.PoolSourceDevice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace libvirt.Pool
 
         /// <summary>Configures a source directory used by the storage pool backend (for example, for dir, fs, netfs, or vstorage-style pools).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#dir Pool#dir}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#dir Pool#dir}
         /// </remarks>
         [JsiiProperty(name: "dir", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceDir\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace libvirt.Pool
 
         /// <summary>Declares the low-level format of the pool source, where supported (for example, the filesystem type or protocol-specific format).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#format Pool#format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#format Pool#format}
         /// </remarks>
         [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceFormat\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#host Pool#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#host Pool#host}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolSourceHost" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.pool.PoolSourceHost\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace libvirt.Pool
 
         /// <summary>Configures iSCSI initiator information for the pool source, allowing the host to identify itself to an iSCSI target.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#initiator Pool#initiator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#initiator Pool#initiator}
         /// </remarks>
         [JsiiProperty(name: "initiator", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceInitiator\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#name Pool#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#name Pool#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace libvirt.Pool
 
         /// <summary>Enables specifying a product descriptor for the storage pool source, typically used together with vendor information for device-based pools.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#product Pool#product}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#product Pool#product}
         /// </remarks>
         [JsiiProperty(name: "product", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceProduct\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +143,7 @@ namespace libvirt.Pool
 
         /// <summary>Enables defining a network storage protocol block for the pool source (for example, RBD, Gluster, or other supported protocols), with details provided by its child attributes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#protocol Pool#protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#protocol Pool#protocol}
         /// </remarks>
         [JsiiProperty(name: "protocol", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceProtocol\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -157,7 +157,7 @@ namespace libvirt.Pool
 
         /// <summary>Enables specifying a vendor descriptor for the storage pool source, typically paired with a product to identify the backing storage hardware.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#vendor Pool#vendor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#vendor Pool#vendor}
         /// </remarks>
         [JsiiProperty(name: "vendor", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceVendor\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -178,7 +178,7 @@ namespace libvirt.Pool
 
             /// <summary>Configures an HBA/adapter description for pools that use host adapters (e.g., iSCSI or SCSI pools), including addressing and management attributes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#adapter Pool#adapter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#adapter Pool#adapter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "adapter", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceAdapter\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace libvirt.Pool
 
             /// <summary>Configures optional authentication for the pool source (e.g., user/secret for iSCSI, RBD, or other networked storage), with credentials defined according to the backend.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#auth Pool#auth}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#auth Pool#auth}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "auth", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceAuth\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#device Pool#device}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#device Pool#device}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolSourceDevice" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -214,7 +214,7 @@ namespace libvirt.Pool
 
             /// <summary>Configures a source directory used by the storage pool backend (for example, for dir, fs, netfs, or vstorage-style pools).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#dir Pool#dir}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#dir Pool#dir}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dir", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceDir\"}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace libvirt.Pool
 
             /// <summary>Declares the low-level format of the pool source, where supported (for example, the filesystem type or protocol-specific format).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#format Pool#format}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#format Pool#format}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceFormat\"}", isOptional: true)]
@@ -238,7 +238,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#host Pool#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#host Pool#host}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolSourceHost" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -250,7 +250,7 @@ namespace libvirt.Pool
 
             /// <summary>Configures iSCSI initiator information for the pool source, allowing the host to identify itself to an iSCSI target.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#initiator Pool#initiator}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#initiator Pool#initiator}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "initiator", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceInitiator\"}", isOptional: true)]
@@ -263,7 +263,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#name Pool#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#name Pool#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -274,7 +274,7 @@ namespace libvirt.Pool
 
             /// <summary>Enables specifying a product descriptor for the storage pool source, typically used together with vendor information for device-based pools.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#product Pool#product}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#product Pool#product}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "product", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceProduct\"}", isOptional: true)]
@@ -285,7 +285,7 @@ namespace libvirt.Pool
 
             /// <summary>Enables defining a network storage protocol block for the pool source (for example, RBD, Gluster, or other supported protocols), with details provided by its child attributes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#protocol Pool#protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#protocol Pool#protocol}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "protocol", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceProtocol\"}", isOptional: true)]
@@ -296,7 +296,7 @@ namespace libvirt.Pool
 
             /// <summary>Enables specifying a vendor descriptor for the storage pool source, typically paired with a product to identify the backing storage hardware.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#vendor Pool#vendor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#vendor Pool#vendor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vendor", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceVendor\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence controls whether guest output audio is written to file.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#input Domain#input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#input Domain#input}
         /// </remarks>
         [JsiiProperty(name: "input", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosFileInput\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence controls whether guest output audio is written to file.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#output Domain#output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#output Domain#output}
         /// </remarks>
         [JsiiProperty(name: "output", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosFileOutput\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#file-audio-backend">https://libvirt.org/formatdomain.html#file-audio-backend</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#path Domain#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#path Domain#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// presence controls whether guest output audio is written to file.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#input Domain#input}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#input Domain#input}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "input", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosFileInput\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// presence controls whether guest output audio is written to file.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#output Domain#output}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#output Domain#output}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "output", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosFileOutput\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#file-audio-backend">https://libvirt.org/formatdomain.html#file-audio-backend</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#path Domain#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#path Domain#path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

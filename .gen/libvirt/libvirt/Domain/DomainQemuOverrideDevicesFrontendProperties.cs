@@ -11,7 +11,7 @@ namespace libvirt.Domain
     {
         /// <summary>Sets the QEMU frontend property name to override.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#name Domain#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#name Domain#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace libvirt.Domain
 
         /// <summary>Sets the optional type hint for the overridden QEMU property value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type Domain#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type Domain#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace libvirt.Domain
 
         /// <summary>Sets the optional value assigned to the named QEMU frontend property.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#value Domain#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#value Domain#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

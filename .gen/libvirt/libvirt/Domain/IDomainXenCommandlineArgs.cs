@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/drvxen.html">https://libvirt.org/drvxen.html</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#value Domain#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#value Domain#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -30,7 +30,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/drvxen.html">https://libvirt.org/drvxen.html</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#value Domain#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#value Domain#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value

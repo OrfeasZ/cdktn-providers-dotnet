@@ -33,6 +33,12 @@ namespace libvirt.Domain
         {
         }
 
+        [JsiiMethod(name: "resetIommuFd")]
+        public virtual void ResetIommuFd()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetModel")]
         public virtual void ResetModel()
         {
@@ -43,6 +49,13 @@ namespace libvirt.Domain
         public virtual void ResetName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "iommuFdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IommuFdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -57,6 +70,13 @@ namespace libvirt.Domain
         public virtual string? NameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "iommuFd", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IommuFd
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "model", typeJson: "{\"primitive\":\"string\"}")]

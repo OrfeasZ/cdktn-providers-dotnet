@@ -7,7 +7,7 @@ namespace libvirt.Domain
     [JsiiByValue(fqn: "libvirt.domain.DomainDevicesAudiosPulseAudioInput")]
     public class DomainDevicesAudiosPulseAudioInput : libvirt.Domain.IDomainDevicesAudiosPulseAudioInput
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#buffer_length Domain#buffer_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#buffer_length Domain#buffer_length}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bufferLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BufferLength
@@ -16,7 +16,7 @@ namespace libvirt.Domain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#fixed_settings Domain#fixed_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#fixed_settings Domain#fixed_settings}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "fixedSettings", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FixedSettings
@@ -29,7 +29,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#pipewire-audio-backend">https://libvirt.org/formatdomain.html#pipewire-audio-backend</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#latency Domain#latency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#latency Domain#latency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "latency", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace libvirt.Domain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mixing_engine Domain#mixing_engine}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mixing_engine Domain#mixing_engine}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mixingEngine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MixingEngine
@@ -52,7 +52,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#pipewire-audio-backend">https://libvirt.org/formatdomain.html#pipewire-audio-backend</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#name Domain#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#name Domain#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace libvirt.Domain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#settings Domain#settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#settings Domain#settings}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosPulseAudioInputSettings\"}", isOptional: true)]
         public libvirt.Domain.IDomainDevicesAudiosPulseAudioInputSettings? Settings
@@ -75,7 +75,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#pipewire-audio-backend">https://libvirt.org/formatdomain.html#pipewire-audio-backend</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#stream_name Domain#stream_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#stream_name Domain#stream_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "streamName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace libvirt.Domain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#voices Domain#voices}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#voices Domain#voices}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "voices", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Voices

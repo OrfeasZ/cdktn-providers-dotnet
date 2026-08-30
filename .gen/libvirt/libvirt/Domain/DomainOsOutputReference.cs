@@ -117,6 +117,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainOsSmBios)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putVarStore", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainOsVarStore\"}}]")]
+        public virtual void PutVarStore(libvirt.Domain.IDomainOsVarStore @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainOsVarStore)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAcpi")]
         public virtual void ResetAcpi()
         {
@@ -285,6 +291,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetVarStore")]
+        public virtual void ResetVarStore()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "acpi", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsAcpiOutputReference\"}")]
         public virtual libvirt.Domain.DomainOsAcpiOutputReference Acpi
         {
@@ -331,6 +343,12 @@ namespace libvirt.Domain
         public virtual libvirt.Domain.DomainOsSmBiosOutputReference SmBios
         {
             get => GetInstanceProperty<libvirt.Domain.DomainOsSmBiosOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "varStore", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsVarStoreOutputReference\"}")]
+        public virtual libvirt.Domain.DomainOsVarStoreOutputReference VarStore
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainOsVarStoreOutputReference>()!;
         }
 
         /// <remarks>
@@ -551,6 +569,16 @@ namespace libvirt.Domain
         public virtual string? TypeMachineInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsVarStore" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "varStoreInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsVarStore\"}]}}", isOptional: true)]
+        public virtual object? VarStoreInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "cmdline", typeJson: "{\"primitive\":\"string\"}")]

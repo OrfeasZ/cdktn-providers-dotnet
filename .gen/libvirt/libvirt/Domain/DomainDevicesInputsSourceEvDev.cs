@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#input-devices">https://libvirt.org/formatdomain.html#input-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#dev Domain#dev}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#dev Domain#dev}
         /// </remarks>
         [JsiiProperty(name: "dev", typeJson: "{\"primitive\":\"string\"}")]
         public string Dev
@@ -26,7 +26,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#input-devices">https://libvirt.org/formatdomain.html#input-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#grab Domain#grab}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#grab Domain#grab}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grab", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#input-devices">https://libvirt.org/formatdomain.html#input-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#grab_toggle Domain#grab_toggle}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#grab_toggle Domain#grab_toggle}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "grabToggle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#input-devices">https://libvirt.org/formatdomain.html#input-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#repeat Domain#repeat}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#repeat Domain#repeat}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repeat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

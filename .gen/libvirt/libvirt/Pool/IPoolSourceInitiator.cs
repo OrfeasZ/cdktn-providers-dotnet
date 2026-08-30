@@ -9,7 +9,7 @@ namespace libvirt.Pool
     {
         /// <summary>Sets the iSCSI Qualified Name (IQN) of the initiator, such as "iqn.1993-08.org.debian:01:123456789"; the value must be a valid IQN string.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#iqn Pool#iqn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#iqn Pool#iqn}
         /// </remarks>
         [JsiiProperty(name: "iqn", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceInitiatorIqn\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace libvirt.Pool
 
             /// <summary>Sets the iSCSI Qualified Name (IQN) of the initiator, such as "iqn.1993-08.org.debian:01:123456789"; the value must be a valid IQN string.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#iqn Pool#iqn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#iqn Pool#iqn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "iqn", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceInitiatorIqn\"}", isOptional: true)]

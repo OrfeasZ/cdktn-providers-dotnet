@@ -53,6 +53,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesMemorydevsAlias)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putDriver", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainDevicesMemorydevsDriver\"}}]")]
+        public virtual void PutDriver(libvirt.Domain.IDomainDevicesMemorydevsDriver @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesMemorydevsDriver)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSource", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainDevicesMemorydevsSource\"}}]")]
         public virtual void PutSource(libvirt.Domain.IDomainDevicesMemorydevsSource @value)
         {
@@ -95,6 +101,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDriver")]
+        public virtual void ResetDriver()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSource")]
         public virtual void ResetSource()
         {
@@ -129,6 +141,12 @@ namespace libvirt.Domain
         public virtual libvirt.Domain.DomainDevicesMemorydevsAliasOutputReference Alias
         {
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesMemorydevsAliasOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "driver", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesMemorydevsDriverOutputReference\"}")]
+        public virtual libvirt.Domain.DomainDevicesMemorydevsDriverOutputReference Driver
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainDevicesMemorydevsDriverOutputReference>()!;
         }
 
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesMemorydevsSourceOutputReference\"}")]
@@ -185,6 +203,16 @@ namespace libvirt.Domain
         public virtual string? DiscardInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesMemorydevsDriver" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "driverInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesMemorydevsDriver\"}]}}", isOptional: true)]
+        public virtual object? DriverInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

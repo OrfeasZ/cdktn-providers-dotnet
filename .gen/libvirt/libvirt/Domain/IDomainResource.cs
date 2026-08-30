@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures the Fibre Channel VMID (appid) used by FC/NVMe-FC storage fabrics for QoS and telemetry associated with this domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#fibre_channel Domain#fibre_channel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#fibre_channel Domain#fibre_channel}
         /// </remarks>
         [JsiiProperty(name: "fibreChannel", typeJson: "{\"fqn\":\"libvirt.domain.DomainResourceFibreChannel\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#resource-partitioning">https://libvirt.org/formatdomain.html#resource-partitioning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#partition Domain#partition}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#partition Domain#partition}
         /// </remarks>
         [JsiiProperty(name: "partition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures the Fibre Channel VMID (appid) used by FC/NVMe-FC storage fabrics for QoS and telemetry associated with this domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#fibre_channel Domain#fibre_channel}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#fibre_channel Domain#fibre_channel}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fibreChannel", typeJson: "{\"fqn\":\"libvirt.domain.DomainResourceFibreChannel\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#resource-partitioning">https://libvirt.org/formatdomain.html#resource-partitioning</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#partition Domain#partition}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#partition Domain#partition}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "partition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

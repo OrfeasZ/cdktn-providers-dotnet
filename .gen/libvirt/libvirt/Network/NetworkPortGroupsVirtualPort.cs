@@ -9,7 +9,7 @@ namespace libvirt.Network
     {
         /// <summary>Provides backend-specific virtual port profile parameters for this port group, with one child element per backend type (e.g. Any, MidoNet, OpenVSwitch).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#params Network#params}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#params Network#params}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "params", typeJson: "{\"fqn\":\"libvirt.network.NetworkPortGroupsVirtualPortParams\"}", isOptional: true)]

@@ -15,7 +15,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#setting-vlan-tag-on-supported-network-types-only">https://libvirt.org/formatdomain.html#setting-vlan-tag-on-supported-network-types-only</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tags Domain#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tags Domain#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesInterfacesVlanTags" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#setting-vlan-tag-on-supported-network-types-only">https://libvirt.org/formatdomain.html#setting-vlan-tag-on-supported-network-types-only</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#trunk Domain#trunk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#trunk Domain#trunk}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trunk", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

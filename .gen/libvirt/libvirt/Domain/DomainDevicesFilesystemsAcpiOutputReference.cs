@@ -39,6 +39,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetNodeset")]
+        public virtual void ResetNodeset()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "indexInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? IndexInput
@@ -46,10 +52,24 @@ namespace libvirt.Domain
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "nodesetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NodesetInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "index", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Index
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "nodeset", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Nodeset
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

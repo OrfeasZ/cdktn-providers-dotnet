@@ -15,7 +15,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#block-character-devices">https://libvirt.org/formatdomain.html#block-character-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#char Domain#char}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#char Domain#char}
         /// </remarks>
         [JsiiProperty(name: "char", typeJson: "{\"primitive\":\"string\"}")]
         public string Char

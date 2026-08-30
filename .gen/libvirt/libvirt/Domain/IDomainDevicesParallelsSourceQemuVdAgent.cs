@@ -7,7 +7,7 @@ namespace libvirt.Domain
     [JsiiInterface(nativeType: typeof(IDomainDevicesParallelsSourceQemuVdAgent), fullyQualifiedName: "libvirt.domain.DomainDevicesParallelsSourceQemuVdAgent")]
     public interface IDomainDevicesParallelsSourceQemuVdAgent
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#clip_board Domain#clip_board}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#clip_board Domain#clip_board}.</summary>
         [JsiiProperty(name: "clipBoard", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesParallelsSourceQemuVdAgentClipBoard\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         libvirt.Domain.IDomainDevicesParallelsSourceQemuVdAgentClipBoard? ClipBoard
@@ -18,7 +18,7 @@ namespace libvirt.Domain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mouse Domain#mouse}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mouse Domain#mouse}.</summary>
         [JsiiProperty(name: "mouse", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesParallelsSourceQemuVdAgentMouse\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         libvirt.Domain.IDomainDevicesParallelsSourceQemuVdAgentMouse? Mouse
@@ -36,7 +36,7 @@ namespace libvirt.Domain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#clip_board Domain#clip_board}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#clip_board Domain#clip_board}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clipBoard", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesParallelsSourceQemuVdAgentClipBoard\"}", isOptional: true)]
             public libvirt.Domain.IDomainDevicesParallelsSourceQemuVdAgentClipBoard? ClipBoard
@@ -44,7 +44,7 @@ namespace libvirt.Domain
                 get => GetInstanceProperty<libvirt.Domain.IDomainDevicesParallelsSourceQemuVdAgentClipBoard?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mouse Domain#mouse}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mouse Domain#mouse}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mouse", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesParallelsSourceQemuVdAgentMouse\"}", isOptional: true)]
             public libvirt.Domain.IDomainDevicesParallelsSourceQemuVdAgentMouse? Mouse

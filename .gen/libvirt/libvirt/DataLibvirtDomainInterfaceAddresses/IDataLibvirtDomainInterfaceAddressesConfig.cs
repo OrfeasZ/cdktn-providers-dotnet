@@ -9,7 +9,7 @@ namespace libvirt.DataLibvirtDomainInterfaceAddresses
     {
         /// <summary>Domain UUID or name to query. Use `libvirt_domain.example.id` or `libvirt_domain.example.name` to reference a managed domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/domain_interface_addresses#domain DataLibvirtDomainInterfaceAddresses#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/domain_interface_addresses#domain DataLibvirtDomainInterfaceAddresses#domain}
         /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         string Domain
@@ -19,7 +19,7 @@ namespace libvirt.DataLibvirtDomainInterfaceAddresses
 
         /// <summary>Source to query for IP addresses: - `lease` - Query DHCP server leases (fast, no guest agent needed) - `agent` - Query QEMU guest agent (requires qemu-guest-agent installed in guest) - `any` - Try both sources (default)  If not specified, attempts both sources.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/domain_interface_addresses#source DataLibvirtDomainInterfaceAddresses#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/domain_interface_addresses#source DataLibvirtDomainInterfaceAddresses#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace libvirt.DataLibvirtDomainInterfaceAddresses
 
             /// <summary>Domain UUID or name to query. Use `libvirt_domain.example.id` or `libvirt_domain.example.name` to reference a managed domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/domain_interface_addresses#domain DataLibvirtDomainInterfaceAddresses#domain}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/domain_interface_addresses#domain DataLibvirtDomainInterfaceAddresses#domain}
             /// </remarks>
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
             public string Domain
@@ -50,7 +50,7 @@ namespace libvirt.DataLibvirtDomainInterfaceAddresses
 
             /// <summary>Source to query for IP addresses: - `lease` - Query DHCP server leases (fast, no guest agent needed) - `agent` - Query QEMU guest agent (requires qemu-guest-agent installed in guest) - `any` - Try both sources (default)  If not specified, attempts both sources.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/domain_interface_addresses#source DataLibvirtDomainInterfaceAddresses#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/domain_interface_addresses#source DataLibvirtDomainInterfaceAddresses#source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

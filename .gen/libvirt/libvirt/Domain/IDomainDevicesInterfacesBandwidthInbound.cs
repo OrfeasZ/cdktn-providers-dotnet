@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#average Domain#average}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#average Domain#average}
         /// </remarks>
         [JsiiProperty(name: "average", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -29,7 +29,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#burst Domain#burst}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#burst Domain#burst}
         /// </remarks>
         [JsiiProperty(name: "burst", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#floor Domain#floor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#floor Domain#floor}
         /// </remarks>
         [JsiiProperty(name: "floor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#peak Domain#peak}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#peak Domain#peak}
         /// </remarks>
         [JsiiProperty(name: "peak", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#average Domain#average}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#average Domain#average}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "average", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#burst Domain#burst}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#burst Domain#burst}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "burst", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#floor Domain#floor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#floor Domain#floor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "floor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#quality-of-service">https://libvirt.org/formatdomain.html#quality-of-service</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#peak Domain#peak}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#peak Domain#peak}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "peak", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

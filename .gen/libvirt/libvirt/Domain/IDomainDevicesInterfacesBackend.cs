@@ -7,13 +7,35 @@ namespace libvirt.Domain
     [JsiiInterface(nativeType: typeof(IDomainDevicesInterfacesBackend), fullyQualifiedName: "libvirt.domain.DomainDevicesInterfacesBackend")]
     public interface IDomainDevicesInterfacesBackend
     {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#fqdn Domain#fqdn}.</summary>
+        [JsiiProperty(name: "fqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Fqdn
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hostname Domain#hostname}.</summary>
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Hostname
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Sets a path to a host log file where backend-related messages for this interface are written;</summary>
         /// <remarks>
         /// value is a user-provided filesystem path.
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#userspace-connection-using-passt">https://libvirt.org/formatdomain.html#userspace-connection-using-passt</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#log_file Domain#log_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#log_file Domain#log_file}
         /// </remarks>
         [JsiiProperty(name: "logFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +53,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#setting-network-backend-specific-options">https://libvirt.org/formatdomain.html#setting-network-backend-specific-options</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tap Domain#tap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tap Domain#tap}
         /// </remarks>
         [JsiiProperty(name: "tap", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +71,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#userspace-connection-using-passt">https://libvirt.org/formatdomain.html#userspace-connection-using-passt</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type Domain#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type Domain#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +87,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#setting-network-backend-specific-options">https://libvirt.org/formatdomain.html#setting-network-backend-specific-options</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vhost Domain#vhost}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vhost Domain#vhost}
         /// </remarks>
         [JsiiProperty(name: "vhost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,13 +106,29 @@ namespace libvirt.Domain
             {
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#fqdn Domain#fqdn}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "fqdn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Fqdn
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hostname Domain#hostname}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Hostname
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>Sets a path to a host log file where backend-related messages for this interface are written;</summary>
             /// <remarks>
             /// value is a user-provided filesystem path.
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#userspace-connection-using-passt">https://libvirt.org/formatdomain.html#userspace-connection-using-passt</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#log_file Domain#log_file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#log_file Domain#log_file}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +143,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#setting-network-backend-specific-options">https://libvirt.org/formatdomain.html#setting-network-backend-specific-options</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tap Domain#tap}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tap Domain#tap}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tap", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +158,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#userspace-connection-using-passt">https://libvirt.org/formatdomain.html#userspace-connection-using-passt</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type Domain#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type Domain#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -133,7 +171,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#setting-network-backend-specific-options">https://libvirt.org/formatdomain.html#setting-network-backend-specific-options</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vhost Domain#vhost}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vhost Domain#vhost}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vhost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

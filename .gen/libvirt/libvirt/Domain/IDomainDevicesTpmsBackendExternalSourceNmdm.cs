@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#nmdm-device">https://libvirt.org/formatdomain.html#nmdm-device</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#master Domain#master}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#master Domain#master}
         /// </remarks>
         [JsiiProperty(name: "master", typeJson: "{\"primitive\":\"string\"}")]
         string Master
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#nmdm-device">https://libvirt.org/formatdomain.html#nmdm-device</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#slave Domain#slave}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#slave Domain#slave}
         /// </remarks>
         [JsiiProperty(name: "slave", typeJson: "{\"primitive\":\"string\"}")]
         string Slave
@@ -48,7 +48,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#nmdm-device">https://libvirt.org/formatdomain.html#nmdm-device</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#master Domain#master}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#master Domain#master}
             /// </remarks>
             [JsiiProperty(name: "master", typeJson: "{\"primitive\":\"string\"}")]
             public string Master
@@ -62,7 +62,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#nmdm-device">https://libvirt.org/formatdomain.html#nmdm-device</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#slave Domain#slave}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#slave Domain#slave}
             /// </remarks>
             [JsiiProperty(name: "slave", typeJson: "{\"primitive\":\"string\"}")]
             public string Slave

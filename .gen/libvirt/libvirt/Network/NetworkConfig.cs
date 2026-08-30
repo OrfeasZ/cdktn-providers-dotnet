@@ -13,7 +13,7 @@ namespace libvirt.Network
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatnetwork.html#general-metadata">https://libvirt.org/formatnetwork.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#name Network#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#name Network#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -26,7 +26,7 @@ namespace libvirt.Network
 
         /// <summary>Whether the network should be started automatically when the host boots.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#autostart Network#autostart}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#autostart Network#autostart}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -59,7 +59,7 @@ namespace libvirt.Network
 
         /// <summary>Configures overall QoS bandwidth limits for the virtual network, enabling nested inbound/outbound rate settings when present.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#bandwidth Network#bandwidth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#bandwidth Network#bandwidth}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bandwidth", typeJson: "{\"fqn\":\"libvirt.network.NetworkBandwidth\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace libvirt.Network
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#bridge Network#bridge}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#bridge Network#bridge}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bridge", typeJson: "{\"fqn\":\"libvirt.network.NetworkBridge\"}", isOptional: true)]
         public libvirt.Network.INetworkBridge? Bridge
@@ -82,7 +82,7 @@ namespace libvirt.Network
         /// <remarks>
         /// Presence of this block turns on DNS handling according to its child settings.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#dns Network#dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#dns Network#dns}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"libvirt.network.NetworkDns\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace libvirt.Network
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#dnsmasq_options Network#dnsmasq_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#dnsmasq_options Network#dnsmasq_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dnsmasqOptions", typeJson: "{\"fqn\":\"libvirt.network.NetworkDnsmasqOptions\"}", isOptional: true)]
         public libvirt.Network.INetworkDnsmasqOptions? DnsmasqOptions
@@ -103,7 +103,7 @@ namespace libvirt.Network
 
         /// <summary>Configures an optional DNS search domain block for the virtual network, controlling how guest hostnames are qualified and optionally whether they are registered only locally.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#domain Network#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#domain Network#domain}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"fqn\":\"libvirt.network.NetworkDomain\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace libvirt.Network
 
         /// <summary>Configures forwarding for the virtual network, defining how traffic is connected to external networks (e.g. NAT, routed, bridge, macvtap).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#forward Network#forward}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#forward Network#forward}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "forward", typeJson: "{\"fqn\":\"libvirt.network.NetworkForward\"}", isOptional: true)]
@@ -131,7 +131,7 @@ namespace libvirt.Network
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#ips Network#ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#ips Network#ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkIps" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -166,7 +166,7 @@ namespace libvirt.Network
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatnetwork.html#general-metadata">https://libvirt.org/formatnetwork.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#ipv6 Network#ipv6}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#ipv6 Network#ipv6}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -178,7 +178,7 @@ namespace libvirt.Network
 
         /// <summary>Enables configuring a fixed MAC address for the network bridge device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#mac Network#mac}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#mac Network#mac}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mac", typeJson: "{\"fqn\":\"libvirt.network.NetworkMac\"}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace libvirt.Network
 
         /// <summary>Provides an arbitrary metadata container for the virtual network, typically used by higher-level tools; content is user-defined XML.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#metadata Network#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#metadata Network#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"libvirt.network.NetworkMetadata\"}", isOptional: true)]
@@ -204,7 +204,7 @@ namespace libvirt.Network
         /// <remarks>
         /// include this block only when you need to override the default MTU.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#mtu Network#mtu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#mtu Network#mtu}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mtu", typeJson: "{\"fqn\":\"libvirt.network.NetworkMtu\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace libvirt.Network
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatnetwork.html#portgroups">https://libvirt.org/formatnetwork.html#portgroups</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#port_groups Network#port_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#port_groups Network#port_groups}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkPortGroups" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -253,7 +253,7 @@ namespace libvirt.Network
 
         /// <summary>Configures default per-port options for this virtual network, such as isolating traffic between guests connected to the same network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#port_options Network#port_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#port_options Network#port_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "portOptions", typeJson: "{\"fqn\":\"libvirt.network.NetworkPortOptions\"}", isOptional: true)]
@@ -269,7 +269,7 @@ namespace libvirt.Network
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatnetwork.html#static-routes">https://libvirt.org/formatnetwork.html#static-routes</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#routes Network#routes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#routes Network#routes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkRoutes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -304,7 +304,7 @@ namespace libvirt.Network
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatnetwork.html#general-metadata">https://libvirt.org/formatnetwork.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#trust_guest_rx_filters Network#trust_guest_rx_filters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#trust_guest_rx_filters Network#trust_guest_rx_filters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trustGuestRxFilters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -316,7 +316,7 @@ namespace libvirt.Network
 
         /// <summary>Configures virtual port profile information for this port group, enabling integration with external network switching or SDN systems.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#virtual_port Network#virtual_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#virtual_port Network#virtual_port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtualPort", typeJson: "{\"fqn\":\"libvirt.network.NetworkVirtualPort\"}", isOptional: true)]
@@ -328,7 +328,7 @@ namespace libvirt.Network
 
         /// <summary>Configures VLAN tagging behavior for this portgroup, allowing one or more VLAN tags to be applied to guest connections when the underlying network supports VLAN offload.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#vlan Network#vlan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#vlan Network#vlan}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vlan", typeJson: "{\"fqn\":\"libvirt.network.NetworkVlan\"}", isOptional: true)]

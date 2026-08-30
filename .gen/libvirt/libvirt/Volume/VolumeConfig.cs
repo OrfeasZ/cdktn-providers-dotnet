@@ -13,7 +13,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-general-metadata">https://libvirt.org/formatstorage.html#storage-volume-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#name Volume#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#name Volume#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -24,10 +24,24 @@ namespace libvirt.Volume
 
         /// <summary>Name of the storage pool where the volume will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#pool Volume#pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#pool Volume#pool}
         /// </remarks>
         [JsiiProperty(name: "pool", typeJson: "{\"primitive\":\"string\"}")]
         public string Pool
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Initial volume allocation in bytes.</summary>
+        /// <remarks>
+        /// Omit to use libvirt's default full allocation; set below capacity to request sparse allocation where supported.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#allocation Volume#allocation}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "allocation", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? Allocation
         {
             get;
             set;
@@ -39,7 +53,7 @@ namespace libvirt.Volume
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-general-metadata">https://libvirt.org/formatstorage.html#storage-volume-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#allocation_unit Volume#allocation_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#allocation_unit Volume#allocation_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allocationUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +65,7 @@ namespace libvirt.Volume
 
         /// <summary>Configures an optional backing store volume for copy-on-write images, enabling layered storage where this volume records changes on top of another image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#backing_store Volume#backing_store}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#backing_store Volume#backing_store}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backingStore", typeJson: "{\"fqn\":\"libvirt.volume.VolumeBackingStore\"}", isOptional: true)]
@@ -63,7 +77,7 @@ namespace libvirt.Volume
 
         /// <summary>Volume capacity in bytes (required unless using create.content).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#capacity Volume#capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#capacity Volume#capacity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -77,7 +91,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-general-metadata">https://libvirt.org/formatstorage.html#storage-volume-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#capacity_unit Volume#capacity_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#capacity_unit Volume#capacity_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capacityUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -89,7 +103,7 @@ namespace libvirt.Volume
 
         /// <summary>Volume creation options for initializing volume content from external sources.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#create Volume#create}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#create Volume#create}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"fqn\":\"libvirt.volume.VolumeCreate\"}", isOptional: true)]
@@ -103,7 +117,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-general-metadata">https://libvirt.org/formatstorage.html#storage-volume-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#physical_unit Volume#physical_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#physical_unit Volume#physical_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "physicalUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -113,7 +127,7 @@ namespace libvirt.Volume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#target Volume#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#target Volume#target}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTarget\"}", isOptional: true)]
         public libvirt.Volume.IVolumeTarget? Target
@@ -128,7 +142,7 @@ namespace libvirt.Volume
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-xml">https://libvirt.org/formatstorage.html#storage-volume-xml</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#type Volume#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#type Volume#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -51,6 +51,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMigration")]
+        public virtual void ResetMigration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSource")]
         public virtual void ResetSource()
         {
@@ -78,6 +84,13 @@ namespace libvirt.Domain
         public virtual object? ManagedInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "migrationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MigrationInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         /// <remarks>
@@ -125,6 +138,13 @@ namespace libvirt.Domain
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "migration", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Migration
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>

@@ -33,7 +33,7 @@ namespace libvirt.DataLibvirtNodeDevices
         ///
         /// If not specified, all devices are returned.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/node_devices#capability DataLibvirtNodeDevices#capability}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/node_devices#capability DataLibvirtNodeDevices#capability}
         /// </remarks>
         [JsiiProperty(name: "capability", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace libvirt.DataLibvirtNodeDevices
             ///
             /// If not specified, all devices are returned.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/node_devices#capability DataLibvirtNodeDevices#capability}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/node_devices#capability DataLibvirtNodeDevices#capability}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capability", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

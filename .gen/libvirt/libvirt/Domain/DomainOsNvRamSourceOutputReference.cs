@@ -45,6 +45,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainOsNvRamSourceCookies)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putCtl", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceCtl\"}}]")]
+        public virtual void PutCtl(libvirt.Domain.IDomainOsNvRamSourceCtl @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainOsNvRamSourceCtl)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putDataStore", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceDataStore\"}}]")]
         public virtual void PutDataStore(libvirt.Domain.IDomainOsNvRamSourceDataStore @value)
         {
@@ -137,6 +143,12 @@ namespace libvirt.Domain
 
         [JsiiMethod(name: "resetCookies")]
         public virtual void ResetCookies()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCtl")]
+        public virtual void ResetCtl()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -249,6 +261,12 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainOsNvRamSourceCookiesOutputReference>()!;
         }
 
+        [JsiiProperty(name: "ctl", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceCtlOutputReference\"}")]
+        public virtual libvirt.Domain.DomainOsNvRamSourceCtlOutputReference Ctl
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainOsNvRamSourceCtlOutputReference>()!;
+        }
+
         [JsiiProperty(name: "dataStore", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceDataStoreOutputReference\"}")]
         public virtual libvirt.Domain.DomainOsNvRamSourceDataStoreOutputReference DataStore
         {
@@ -349,6 +367,16 @@ namespace libvirt.Domain
         [JsiiOptional]
         [JsiiProperty(name: "cookiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceCookies\"}]}}", isOptional: true)]
         public virtual object? CookiesInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainOsNvRamSourceCtl" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ctlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceCtl\"}]}}", isOptional: true)]
+        public virtual object? CtlInput
         {
             get => GetInstanceProperty<object?>();
         }

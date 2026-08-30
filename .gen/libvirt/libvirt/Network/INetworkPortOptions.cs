@@ -13,7 +13,7 @@ namespace libvirt.Network
         ///
         /// See: <a href="https://libvirt.org/formatnetwork.html#isolating-ports-from-one-another">https://libvirt.org/formatnetwork.html#isolating-ports-from-one-another</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#isolated Network#isolated}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#isolated Network#isolated}
         /// </remarks>
         [JsiiProperty(name: "isolated", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace libvirt.Network
             ///
             /// See: <a href="https://libvirt.org/formatnetwork.html#isolating-ports-from-one-another">https://libvirt.org/formatnetwork.html#isolating-ports-from-one-another</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#isolated Network#isolated}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#isolated Network#isolated}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "isolated", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

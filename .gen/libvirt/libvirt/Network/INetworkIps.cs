@@ -13,7 +13,7 @@ namespace libvirt.Network
         ///
         /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#address Network#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#address Network#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -27,7 +27,7 @@ namespace libvirt.Network
 
         /// <summary>Enables and configures DHCP service for this IP configuration, including BOOTP and static host entries.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#dhcp Network#dhcp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#dhcp Network#dhcp}
         /// </remarks>
         [JsiiProperty(name: "dhcp", typeJson: "{\"fqn\":\"libvirt.network.NetworkIpsDhcp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace libvirt.Network
         ///
         /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#family Network#family}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#family Network#family}
         /// </remarks>
         [JsiiProperty(name: "family", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace libvirt.Network
         ///
         /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#local_ptr Network#local_ptr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#local_ptr Network#local_ptr}
         /// </remarks>
         [JsiiProperty(name: "localPtr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace libvirt.Network
         ///
         /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#netmask Network#netmask}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#netmask Network#netmask}
         /// </remarks>
         [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,7 +97,7 @@ namespace libvirt.Network
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#prefix Network#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#prefix Network#prefix}
         /// </remarks>
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +111,7 @@ namespace libvirt.Network
 
         /// <summary>Enables optional TFTP service for this network IP and configures its parameters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#tftp Network#tftp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#tftp Network#tftp}
         /// </remarks>
         [JsiiProperty(name: "tftp", typeJson: "{\"fqn\":\"libvirt.network.NetworkIpsTftp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +136,7 @@ namespace libvirt.Network
             ///
             /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#address Network#address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#address Network#address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace libvirt.Network
 
             /// <summary>Enables and configures DHCP service for this IP configuration, including BOOTP and static host entries.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#dhcp Network#dhcp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#dhcp Network#dhcp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dhcp", typeJson: "{\"fqn\":\"libvirt.network.NetworkIpsDhcp\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace libvirt.Network
             ///
             /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#family Network#family}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#family Network#family}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "family", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace libvirt.Network
             ///
             /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#local_ptr Network#local_ptr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#local_ptr Network#local_ptr}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "localPtr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -192,7 +192,7 @@ namespace libvirt.Network
             ///
             /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#netmask Network#netmask}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#netmask Network#netmask}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace libvirt.Network
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatnetwork.html#addressing">https://libvirt.org/formatnetwork.html#addressing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#prefix Network#prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#prefix Network#prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace libvirt.Network
 
             /// <summary>Enables optional TFTP service for this network IP and configures its parameters.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#tftp Network#tftp}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#tftp Network#tftp}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tftp", typeJson: "{\"fqn\":\"libvirt.network.NetworkIpsTftp\"}", isOptional: true)]

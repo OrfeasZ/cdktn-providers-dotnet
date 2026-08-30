@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures receive‑side coalescing parameters for this interface.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#rx Domain#rx}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#rx Domain#rx}
         /// </remarks>
         [JsiiProperty(name: "rx", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesCoalesceRx\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures receive‑side coalescing parameters for this interface.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#rx Domain#rx}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#rx Domain#rx}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rx", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesCoalesceRx\"}", isOptional: true)]

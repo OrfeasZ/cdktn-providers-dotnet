@@ -15,7 +15,7 @@ namespace libvirt.Pool
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#refresh-overrides">https://libvirt.org/formatstorage.html#refresh-overrides</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#allocation Pool#allocation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#allocation Pool#allocation}
         /// </remarks>
         [JsiiProperty(name: "allocation", typeJson: "{\"primitive\":\"string\"}")]
         public string Allocation

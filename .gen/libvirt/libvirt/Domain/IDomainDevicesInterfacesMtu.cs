@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#mtu-configuration">https://libvirt.org/formatdomain.html#mtu-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#size Domain#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#size Domain#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         double Size
@@ -30,7 +30,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#mtu-configuration">https://libvirt.org/formatdomain.html#mtu-configuration</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#size Domain#size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#size Domain#size}
             /// </remarks>
             [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
             public double Size

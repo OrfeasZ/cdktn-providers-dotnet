@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value is typically "on"/"off" or "yes"/"no" according to libvirt's locking options. When omitted, the driver default is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#flock Domain#flock}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#flock Domain#flock}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "flock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value is typically "on"/"off" or "yes"/"no" according to libvirt's locking options. When omitted, the driver default is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#posix Domain#posix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#posix Domain#posix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "posix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Enables and configures output (playback) for the D‑Bus audio backend; no additional attributes are defined beyond presence.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#input Domain#input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#input Domain#input}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "input", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosDbusInput\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables and configures output (playback) for the D‑Bus audio backend; no additional attributes are defined beyond presence.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#output Domain#output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#output Domain#output}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "output", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosDbusOutput\"}", isOptional: true)]

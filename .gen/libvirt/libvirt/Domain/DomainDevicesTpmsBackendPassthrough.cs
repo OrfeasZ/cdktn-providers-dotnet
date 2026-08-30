@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// the device element groups attributes describing the host TPM node.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#device Domain#device}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#device Domain#device}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "device", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendPassthroughDevice\"}", isOptional: true)]

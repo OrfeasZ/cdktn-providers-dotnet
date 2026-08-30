@@ -7,7 +7,7 @@ namespace libvirt.Pool
     [JsiiInterface(nativeType: typeof(IPoolFsCommandline), fullyQualifiedName: "libvirt.pool.PoolFsCommandline")]
     public interface IPoolFsCommandline
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#options Pool#options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#options Pool#options}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolFsCommandlineOptions" />)[]</para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace libvirt.Pool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#options Pool#options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#options Pool#options}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolFsCommandlineOptions" />)[]</para>
             /// </remarks>

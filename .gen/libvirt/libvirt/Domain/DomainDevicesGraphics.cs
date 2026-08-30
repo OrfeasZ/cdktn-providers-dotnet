@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures an audio backend association for this graphics device, linking it to a specific &lt;audio&gt; definition by id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#audio Domain#audio}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#audio Domain#audio}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "audio", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsAudio\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables a DBus-based display backend for the graphics device, allowing the display to be exported over DBus instead of a traditional VNC/SPICE socket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#dbus Domain#dbus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#dbus Domain#dbus}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dbus", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsDbus\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// the specific value is user-provided according to the chosen graphics type.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#desktop Domain#desktop}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#desktop Domain#desktop}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "desktop", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsDesktop\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables the egl-headless graphics backend, which provides a headless OpenGL-capable display surface without a visible window.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#egl_headless Domain#egl_headless}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#egl_headless Domain#egl_headless}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eglHeadless", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsEglHeadless\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables an RDP graphics server for the guest and configures its RDP-specific options.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#rdp Domain#rdp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#rdp Domain#rdp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rdp", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsRdp\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// when present, an SDL graphics device is attached to the domain.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sdl Domain#sdl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sdl Domain#sdl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sdl", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSdl\"}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// when present, a SPICE graphics device is attached to the domain.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#spice Domain#spice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#spice Domain#spice}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spice", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsSpice\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables a VNC graphics device for the guest and groups all VNC-specific options such as port, listeners, keyboard mapping, and connection policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vnc Domain#vnc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vnc Domain#vnc}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vnc", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsVnc\"}", isOptional: true)]

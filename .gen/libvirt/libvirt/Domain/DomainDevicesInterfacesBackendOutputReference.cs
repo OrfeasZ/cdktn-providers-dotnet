@@ -33,6 +33,18 @@ namespace libvirt.Domain
         {
         }
 
+        [JsiiMethod(name: "resetFqdn")]
+        public virtual void ResetFqdn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetHostname")]
+        public virtual void ResetHostname()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLogFile")]
         public virtual void ResetLogFile()
         {
@@ -55,6 +67,20 @@ namespace libvirt.Domain
         public virtual void ResetVhost()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "fqdnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? FqdnInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "hostnameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? HostnameInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -83,6 +109,20 @@ namespace libvirt.Domain
         public virtual string? VhostInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "fqdn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Fqdn
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Hostname
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "logFile", typeJson: "{\"primitive\":\"string\"}")]

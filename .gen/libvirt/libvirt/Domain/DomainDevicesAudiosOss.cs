@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#oss-audio-backend">https://libvirt.org/formatdomain.html#oss-audio-backend</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#dsp_policy Domain#dsp_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#dsp_policy Domain#dsp_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dspPolicy", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#oss-audio-backend">https://libvirt.org/formatdomain.html#oss-audio-backend</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#exclusive Domain#exclusive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#exclusive Domain#exclusive}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exclusive", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block turns on playback via OSS with the specified attributes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#input Domain#input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#input Domain#input}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "input", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosOssInput\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block turns on playback via OSS with the specified attributes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#output Domain#output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#output Domain#output}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "output", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosOssOutput\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#oss-audio-backend">https://libvirt.org/formatdomain.html#oss-audio-backend</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#try_m_map Domain#try_m_map}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#try_m_map Domain#try_m_map}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tryMMap", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

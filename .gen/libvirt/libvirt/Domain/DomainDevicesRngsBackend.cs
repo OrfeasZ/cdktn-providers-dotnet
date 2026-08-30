@@ -15,7 +15,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#random-number-generator-device">https://libvirt.org/formatdomain.html#random-number-generator-device</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#built_in Domain#built_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#built_in Domain#built_in}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -48,7 +48,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures an external entropy gathering daemon (EGD) as the RNG backend, including protocol and source details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#egd Domain#egd}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#egd Domain#egd}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "egd", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesRngsBackendEgd\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#random-number-generator-device">https://libvirt.org/formatdomain.html#random-number-generator-device</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#random Domain#random}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#random Domain#random}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "random", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

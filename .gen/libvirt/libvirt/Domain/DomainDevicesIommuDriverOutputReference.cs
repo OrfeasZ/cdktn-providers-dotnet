@@ -33,6 +33,12 @@ namespace libvirt.Domain
         {
         }
 
+        [JsiiMethod(name: "putGranule", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainDevicesIommuDriverGranule\"}}]")]
+        public virtual void PutGranule(libvirt.Domain.IDomainDevicesIommuDriverGranule @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesIommuDriverGranule)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAwBits")]
         public virtual void ResetAwBits()
         {
@@ -57,6 +63,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetGranule")]
+        public virtual void ResetGranule()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIntRemap")]
         public virtual void ResetIntRemap()
         {
@@ -75,10 +87,22 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPciBus")]
+        public virtual void ResetPciBus()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetXtSup")]
         public virtual void ResetXtSup()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "granule", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesIommuDriverGranuleOutputReference\"}")]
+        public virtual libvirt.Domain.DomainDevicesIommuDriverGranuleOutputReference Granule
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainDevicesIommuDriverGranuleOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -109,6 +133,16 @@ namespace libvirt.Domain
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesIommuDriverGranule" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "granuleInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesIommuDriverGranule\"}]}}", isOptional: true)]
+        public virtual object? GranuleInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "intRemapInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IntRemapInput
@@ -128,6 +162,13 @@ namespace libvirt.Domain
         public virtual string? PassthroughInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "pciBusInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? PciBusInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -183,6 +224,13 @@ namespace libvirt.Domain
         public virtual string Passthrough
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "pciBus", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PciBus
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

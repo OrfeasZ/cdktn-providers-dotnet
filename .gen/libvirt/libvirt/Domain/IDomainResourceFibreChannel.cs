@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#fibre-channel-vmid">https://libvirt.org/formatdomain.html#fibre-channel-vmid</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#app_id Domain#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#app_id Domain#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -34,7 +34,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#fibre-channel-vmid">https://libvirt.org/formatdomain.html#fibre-channel-vmid</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#app_id Domain#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#app_id Domain#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId

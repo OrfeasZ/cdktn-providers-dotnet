@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Controls the memory access policy for the guest’s backed memory (for example, NUMA-related access behavior) via a mode attribute.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_access Domain#memory_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_access Domain#memory_access}
         /// </remarks>
         [JsiiProperty(name: "memoryAccess", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryAccess\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls the allocation behavior of the backing memory, such as whether memory is preallocated and on how many threads.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_allocation Domain#memory_allocation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_allocation Domain#memory_allocation}
         /// </remarks>
         [JsiiProperty(name: "memoryAllocation", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryAllocation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-backing">https://libvirt.org/formatdomain.html#memory-backing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_discard Domain#memory_discard}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_discard Domain#memory_discard}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "memoryDiscard", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables and configures the use of huge pages for guest memory, allowing one or more huge page size definitions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_huge_pages Domain#memory_huge_pages}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_huge_pages Domain#memory_huge_pages}
         /// </remarks>
         [JsiiProperty(name: "memoryHugePages", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryHugePages\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-backing">https://libvirt.org/formatdomain.html#memory-backing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_locked Domain#memory_locked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_locked Domain#memory_locked}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "memoryLocked", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-backing">https://libvirt.org/formatdomain.html#memory-backing</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_nosharepages Domain#memory_nosharepages}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_nosharepages Domain#memory_nosharepages}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "memoryNosharepages", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace libvirt.Domain
 
         /// <summary>Selects the backing source type for guest memory (for example, anonymous, file-backed, or other hypervisor-supported sources).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_source Domain#memory_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_source Domain#memory_source}
         /// </remarks>
         [JsiiProperty(name: "memorySource", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemorySource\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace libvirt.Domain
 
             /// <summary>Controls the memory access policy for the guest’s backed memory (for example, NUMA-related access behavior) via a mode attribute.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_access Domain#memory_access}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_access Domain#memory_access}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memoryAccess", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryAccess\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace libvirt.Domain
 
             /// <summary>Controls the allocation behavior of the backing memory, such as whether memory is preallocated and on how many threads.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_allocation Domain#memory_allocation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_allocation Domain#memory_allocation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memoryAllocation", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryAllocation\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-backing">https://libvirt.org/formatdomain.html#memory-backing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_discard Domain#memory_discard}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_discard Domain#memory_discard}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -167,7 +167,7 @@ namespace libvirt.Domain
 
             /// <summary>Enables and configures the use of huge pages for guest memory, allowing one or more huge page size definitions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_huge_pages Domain#memory_huge_pages}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_huge_pages Domain#memory_huge_pages}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memoryHugePages", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemoryHugePages\"}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-backing">https://libvirt.org/formatdomain.html#memory-backing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_locked Domain#memory_locked}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_locked Domain#memory_locked}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -198,7 +198,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-backing">https://libvirt.org/formatdomain.html#memory-backing</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_nosharepages Domain#memory_nosharepages}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_nosharepages Domain#memory_nosharepages}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -210,7 +210,7 @@ namespace libvirt.Domain
 
             /// <summary>Selects the backing source type for guest memory (for example, anonymous, file-backed, or other hypervisor-supported sources).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_source Domain#memory_source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_source Domain#memory_source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memorySource", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBackingMemorySource\"}", isOptional: true)]

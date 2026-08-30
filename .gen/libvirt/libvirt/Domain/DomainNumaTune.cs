@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#numa-node-tuning">https://libvirt.org/formatdomain.html#numa-node-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mem_nodes Domain#mem_nodes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mem_nodes Domain#mem_nodes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainNumaTuneMemNodes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures a global NUMA memory policy for the domain process, independent of per-cell mem_nodes settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory Domain#memory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory Domain#memory}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memory", typeJson: "{\"fqn\":\"libvirt.domain.DomainNumaTuneMemory\"}", isOptional: true)]

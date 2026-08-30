@@ -123,6 +123,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetWait")]
+        public virtual void ResetWait()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetWebSocket")]
         public virtual void ResetWebSocket()
         {
@@ -214,6 +220,13 @@ namespace libvirt.Domain
         [JsiiOptional]
         [JsiiProperty(name: "socketInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SocketInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "waitInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? WaitInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -313,6 +326,13 @@ namespace libvirt.Domain
 
         [JsiiProperty(name: "socket", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Socket
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "wait", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Wait
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

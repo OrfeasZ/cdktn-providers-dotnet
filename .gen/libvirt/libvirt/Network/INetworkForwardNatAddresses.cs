@@ -13,7 +13,7 @@ namespace libvirt.Network
         ///
         /// See: <a href="https://libvirt.org/formatnetwork.html#connectivity">https://libvirt.org/formatnetwork.html#connectivity</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#end Network#end}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#end Network#end}
         /// </remarks>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
         string End
@@ -27,7 +27,7 @@ namespace libvirt.Network
         ///
         /// See: <a href="https://libvirt.org/formatnetwork.html#connectivity">https://libvirt.org/formatnetwork.html#connectivity</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#start Network#start}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#start Network#start}
         /// </remarks>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         string Start
@@ -48,7 +48,7 @@ namespace libvirt.Network
             ///
             /// See: <a href="https://libvirt.org/formatnetwork.html#connectivity">https://libvirt.org/formatnetwork.html#connectivity</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#end Network#end}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#end Network#end}
             /// </remarks>
             [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
             public string End
@@ -62,7 +62,7 @@ namespace libvirt.Network
             ///
             /// See: <a href="https://libvirt.org/formatnetwork.html#connectivity">https://libvirt.org/formatnetwork.html#connectivity</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#start Network#start}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#start Network#start}
             /// </remarks>
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
             public string Start

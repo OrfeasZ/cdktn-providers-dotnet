@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// the value is user-provided and must reference an existing device node (for example, /dev/vhost-vdpa0).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#dev Domain#dev}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#dev Domain#dev}
         /// </remarks>
         [JsiiProperty(name: "dev", typeJson: "{\"primitive\":\"string\"}")]
         public string Dev

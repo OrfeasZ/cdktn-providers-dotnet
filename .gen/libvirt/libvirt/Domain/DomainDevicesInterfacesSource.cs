@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures this interface to attach to a host bridge device, making the guest appear directly on the bridged LAN.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bridge Domain#bridge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bridge Domain#bridge}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bridge", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceBridge\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures this interface as a client endpoint of a point-to-point tunnel (such as TCP, UDP, or multicast tunnel) using a remote address and port.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#client Domain#client}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#client Domain#client}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "client", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceClient\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures this interface for direct macvtap-style attachment to a physical host NIC, bypassing a software bridge for near-raw access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#direct Domain#direct}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#direct Domain#direct}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "direct", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceDirect\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// defined in nested attributes).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#ethernet Domain#ethernet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#ethernet Domain#ethernet}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ethernet", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceEthernet\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables use of a host device as the backing for this network interface, allowing PCI or similar passthrough as configured in nested attributes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hostdev Domain#hostdev}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hostdev Domain#hostdev}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostdev", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceHostdev\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the interface to connect to an internal network name rather than an external bridge or hostdev device, typically used for libvirt-internal or hypervisor-specific networks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#internal Domain#internal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#internal Domain#internal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "internal", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceInternal\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures a multicast tunnel network backend for the interface, using a multicast group as the virtual network segment shared with other VMs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mcast Domain#mcast}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mcast Domain#mcast}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mcast", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceMcast\"}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace libvirt.Domain
 
         /// <summary>Attaches the interface to a libvirt-managed virtual network, optionally via a specific bridge or port group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#network Domain#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#network Domain#network}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "network", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceNetwork\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#null-network-interface">https://libvirt.org/formatdomain.html#null-network-interface</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#null Domain#null}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#null Domain#null}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -146,7 +146,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures a TCP tunnel network backend where this interface connects to or listens on a TCP server endpoint to form a virtual network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#server Domain#server}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#server Domain#server}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "server", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceServer\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures a UDP unicast tunnel network backend for the interface, using UDP endpoints to connect VMs into a virtual network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#udp Domain#udp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#udp Domain#udp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "udp", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceUdp\"}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace libvirt.Domain
 
         /// <summary>Selects a userspace SLIRP-style backend as the source for the network interface, providing NAT without needing host privileges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#user Domain#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#user Domain#user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceUser\"}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace libvirt.Domain
 
         /// <summary>Selects a vDPA device as the source of the interface, enabling virtio-compliant hardware offload for the guest NIC.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vdpa Domain#vdpa}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vdpa Domain#vdpa}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vdpa", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceVdpa\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace libvirt.Domain
 
         /// <summary>Connects the interface to a VMware Distributed Switch (VDS) as its network source, using VMware-specific identifiers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vds Domain#vds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vds Domain#vds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vds", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceVds\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace libvirt.Domain
 
         /// <summary>Selects a vhost-user backend as the source for the virtio network interface, connecting it to an external userspace process via a character device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vhost_user Domain#vhost_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vhost_user Domain#vhost_user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vhostUser", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesSourceVhostUser\"}", isOptional: true)]

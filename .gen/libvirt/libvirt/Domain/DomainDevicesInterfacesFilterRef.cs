@@ -15,7 +15,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#traffic-filtering-with-nwfilter">https://libvirt.org/formatdomain.html#traffic-filtering-with-nwfilter</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#filter Domain#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#filter Domain#filter}
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
         public string Filter
@@ -30,7 +30,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#traffic-filtering-with-nwfilter">https://libvirt.org/formatdomain.html#traffic-filtering-with-nwfilter</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#parameters Domain#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#parameters Domain#parameters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainDevicesInterfacesFilterRefParameters" />)[]</para>
         /// </remarks>
         [JsiiOptional]

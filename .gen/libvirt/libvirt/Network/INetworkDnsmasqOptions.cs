@@ -7,7 +7,7 @@ namespace libvirt.Network
     [JsiiInterface(nativeType: typeof(INetworkDnsmasqOptions), fullyQualifiedName: "libvirt.network.NetworkDnsmasqOptions")]
     public interface INetworkDnsmasqOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#option Network#option}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#option Network#option}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsmasqOptionsOption" />)[]</para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace libvirt.Network
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#option Network#option}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#option Network#option}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Network.INetworkDnsmasqOptionsOption" />)[]</para>
             /// </remarks>

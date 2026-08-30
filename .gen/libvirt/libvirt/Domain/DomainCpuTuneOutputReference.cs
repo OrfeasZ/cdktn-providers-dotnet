@@ -69,6 +69,30 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainCpuTuneEmulatorSched)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneEnergyTune" />)[]</param>
+        [JsiiMethod(name: "putEnergyTune", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneEnergyTune\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutEnergyTune(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case libvirt.Domain.IDomainCpuTuneEnergyTune[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(libvirt.Domain.IDomainCpuTuneEnergyTune).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(libvirt.Domain.IDomainCpuTuneEnergyTune).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneIoThreadPin" />)[]</param>
         [JsiiMethod(name: "putIoThreadPin", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneIoThreadPin\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutIoThreadPin(object @value)
@@ -219,6 +243,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetEnergyTune")]
+        public virtual void ResetEnergyTune()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetGlobalPeriod")]
         public virtual void ResetGlobalPeriod()
         {
@@ -309,6 +339,12 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainCpuTuneEmulatorSchedOutputReference>()!;
         }
 
+        [JsiiProperty(name: "energyTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuTuneEnergyTuneList\"}")]
+        public virtual libvirt.Domain.DomainCpuTuneEnergyTuneList EnergyTune
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainCpuTuneEnergyTuneList>()!;
+        }
+
         [JsiiProperty(name: "ioThreadPin", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuTuneIoThreadPinList\"}")]
         public virtual libvirt.Domain.DomainCpuTuneIoThreadPinList IoThreadPin
         {
@@ -379,6 +415,16 @@ namespace libvirt.Domain
         [JsiiOptional]
         [JsiiProperty(name: "emulatorSchedInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainCpuTuneEmulatorSched\"}]}}", isOptional: true)]
         public virtual object? EmulatorSchedInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainCpuTuneEnergyTune" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "energyTuneInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainCpuTuneEnergyTune\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? EnergyTuneInput
         {
             get => GetInstanceProperty<object?>();
         }

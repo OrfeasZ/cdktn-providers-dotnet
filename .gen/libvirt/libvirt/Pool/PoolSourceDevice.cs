@@ -13,7 +13,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#path Pool#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#path Pool#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
@@ -28,7 +28,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#device-extents">https://libvirt.org/formatstorage.html#device-extents</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#free_extents Pool#free_extents}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#free_extents Pool#free_extents}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Pool.IPoolSourceDeviceFreeExtents" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -65,7 +65,7 @@ namespace libvirt.Pool
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#part_separator Pool#part_separator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#part_separator Pool#part_separator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "partSeparator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

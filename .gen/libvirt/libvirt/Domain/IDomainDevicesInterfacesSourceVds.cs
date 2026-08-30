@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#switch_id Domain#switch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#switch_id Domain#switch_id}
         /// </remarks>
         [JsiiProperty(name: "switchId", typeJson: "{\"primitive\":\"string\"}")]
         string SwitchId
@@ -25,7 +25,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#connection_id Domain#connection_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#connection_id Domain#connection_id}
         /// </remarks>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#port_group_id Domain#port_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#port_group_id Domain#port_group_id}
         /// </remarks>
         [JsiiProperty(name: "portGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#port_id Domain#port_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#port_id Domain#port_id}
         /// </remarks>
         [JsiiProperty(name: "portId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#switch_id Domain#switch_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#switch_id Domain#switch_id}
             /// </remarks>
             [JsiiProperty(name: "switchId", typeJson: "{\"primitive\":\"string\"}")]
             public string SwitchId
@@ -94,7 +94,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#connection_id Domain#connection_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#connection_id Domain#connection_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#port_group_id Domain#port_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#port_group_id Domain#port_group_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "portGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#vmware-distributed-switch">https://libvirt.org/formatdomain.html#vmware-distributed-switch</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#port_id Domain#port_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#port_id Domain#port_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "portId", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block enables SPICE audio playback with default stream properties.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#input Domain#input}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#input Domain#input}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "input", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosSpiceInput\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block enables SPICE audio playback with default stream properties.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#output Domain#output}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#output Domain#output}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "output", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesAudiosSpiceOutput\"}", isOptional: true)]

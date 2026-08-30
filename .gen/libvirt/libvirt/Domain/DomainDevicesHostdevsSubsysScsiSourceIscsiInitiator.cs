@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Declares the initiator IQN block for the iSCSI connection; this must be present when specifying an explicit initiator.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#iqn Domain#iqn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#iqn Domain#iqn}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iqn", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesHostdevsSubsysScsiSourceIscsiInitiatorIqn\"}", isOptional: true)]

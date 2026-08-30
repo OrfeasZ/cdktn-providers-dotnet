@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures OpenGL-related options for the egl-headless graphics backend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#gl Domain#gl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#gl Domain#gl}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gl", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesGraphicsEglHeadlessGl\"}", isOptional: true)]

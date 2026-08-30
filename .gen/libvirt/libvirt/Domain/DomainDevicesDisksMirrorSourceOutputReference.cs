@@ -45,6 +45,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesDisksMirrorSourceCookies)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putCtl", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceCtl\"}}]")]
+        public virtual void PutCtl(libvirt.Domain.IDomainDevicesDisksMirrorSourceCtl @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesDisksMirrorSourceCtl)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putDataStore", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceDataStore\"}}]")]
         public virtual void PutDataStore(libvirt.Domain.IDomainDevicesDisksMirrorSourceDataStore @value)
         {
@@ -137,6 +143,12 @@ namespace libvirt.Domain
 
         [JsiiMethod(name: "resetCookies")]
         public virtual void ResetCookies()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCtl")]
+        public virtual void ResetCtl()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -249,6 +261,12 @@ namespace libvirt.Domain
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesDisksMirrorSourceCookiesOutputReference>()!;
         }
 
+        [JsiiProperty(name: "ctl", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceCtlOutputReference\"}")]
+        public virtual libvirt.Domain.DomainDevicesDisksMirrorSourceCtlOutputReference Ctl
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainDevicesDisksMirrorSourceCtlOutputReference>()!;
+        }
+
         [JsiiProperty(name: "dataStore", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceDataStoreOutputReference\"}")]
         public virtual libvirt.Domain.DomainDevicesDisksMirrorSourceDataStoreOutputReference DataStore
         {
@@ -349,6 +367,16 @@ namespace libvirt.Domain
         [JsiiOptional]
         [JsiiProperty(name: "cookiesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceCookies\"}]}}", isOptional: true)]
         public virtual object? CookiesInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksMirrorSourceCtl" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ctlInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksMirrorSourceCtl\"}]}}", isOptional: true)]
+        public virtual object? CtlInput
         {
             get => GetInstanceProperty<object?>();
         }

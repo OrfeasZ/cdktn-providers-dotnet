@@ -9,7 +9,7 @@ namespace libvirt.DataLibvirtNodeDeviceInfo
     {
         /// <summary>Device name from `libvirt_node_devices` data source (e.g., `pci_0000_00_1f_2`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/node_device_info#name DataLibvirtNodeDeviceInfo#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/node_device_info#name DataLibvirtNodeDeviceInfo#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -26,7 +26,7 @@ namespace libvirt.DataLibvirtNodeDeviceInfo
 
             /// <summary>Device name from `libvirt_node_devices` data source (e.g., `pci_0000_00_1f_2`).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/data-sources/node_device_info#name DataLibvirtNodeDeviceInfo#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/data-sources/node_device_info#name DataLibvirtNodeDeviceInfo#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name

@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/drvbhyve.html">https://libvirt.org/drvbhyve.html</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#args Domain#args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#args Domain#args}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainBhyveCommandlineArgs" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -48,7 +48,7 @@ namespace libvirt.Domain
 
         /// <summary>Lists environment variables to provide to the bhyve process when starting the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#envs Domain#envs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#envs Domain#envs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainBhyveCommandlineEnvs" />)[]</para>
         /// </remarks>
         [JsiiOptional]

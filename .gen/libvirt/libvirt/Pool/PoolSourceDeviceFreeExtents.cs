@@ -13,7 +13,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#device-extents">https://libvirt.org/formatstorage.html#device-extents</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#end Pool#end}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#end Pool#end}
         /// </remarks>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"number\"}")]
         public double End
@@ -26,7 +26,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#device-extents">https://libvirt.org/formatstorage.html#device-extents</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#start Pool#start}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#start Pool#start}
         /// </remarks>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"number\"}")]
         public double Start

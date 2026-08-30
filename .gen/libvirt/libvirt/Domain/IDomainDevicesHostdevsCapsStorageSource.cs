@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#block-character-devices">https://libvirt.org/formatdomain.html#block-character-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#block Domain#block}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#block Domain#block}
         /// </remarks>
         [JsiiProperty(name: "block", typeJson: "{\"primitive\":\"string\"}")]
         string Block
@@ -34,7 +34,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#block-character-devices">https://libvirt.org/formatdomain.html#block-character-devices</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#block Domain#block}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#block Domain#block}
             /// </remarks>
             [JsiiProperty(name: "block", typeJson: "{\"primitive\":\"string\"}")]
             public string Block

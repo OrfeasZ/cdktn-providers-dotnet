@@ -45,6 +45,12 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRegister")]
+        public virtual void ResetRegister()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "localOnlyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LocalOnlyInput
@@ -59,6 +65,13 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "registerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RegisterInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "localOnly", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LocalOnly
         {
@@ -68,6 +81,13 @@ namespace libvirt.Network
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "register", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Register
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -11,7 +11,7 @@ namespace libvirt.CloudinitDisk
     {
         /// <summary>Cloud-init meta-data content (usually YAML).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/cloudinit_disk#meta_data CloudinitDisk#meta_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/cloudinit_disk#meta_data CloudinitDisk#meta_data}
         /// </remarks>
         [JsiiProperty(name: "metaData", typeJson: "{\"primitive\":\"string\"}")]
         public string MetaData
@@ -22,7 +22,7 @@ namespace libvirt.CloudinitDisk
 
         /// <summary>Name for this cloud-init disk resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/cloudinit_disk#name CloudinitDisk#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/cloudinit_disk#name CloudinitDisk#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +33,7 @@ namespace libvirt.CloudinitDisk
 
         /// <summary>Cloud-init user-data content (usually YAML).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/cloudinit_disk#user_data CloudinitDisk#user_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/cloudinit_disk#user_data CloudinitDisk#user_data}
         /// </remarks>
         [JsiiProperty(name: "userData", typeJson: "{\"primitive\":\"string\"}")]
         public string UserData
@@ -44,7 +44,7 @@ namespace libvirt.CloudinitDisk
 
         /// <summary>Cloud-init network configuration (optional, usually YAML).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/cloudinit_disk#network_config CloudinitDisk#network_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/cloudinit_disk#network_config CloudinitDisk#network_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkConfig", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace libvirt.Combustion
     {
         /// <summary>Combustion script content (shell script).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/combustion#content Combustion#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/combustion#content Combustion#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         public string Content
@@ -22,7 +22,7 @@ namespace libvirt.Combustion
 
         /// <summary>Name for this combustion resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/combustion#name Combustion#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/combustion#name Combustion#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name

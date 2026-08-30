@@ -45,6 +45,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesDisksDriverMetadataCache)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putStatistics", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"libvirt.domain.DomainDevicesDisksDriverStatistics\"}}]")]
+        public virtual void PutStatistics(libvirt.Domain.IDomainDevicesDisksDriverStatistics @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Domain.IDomainDevicesDisksDriverStatistics)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAts")]
         public virtual void ResetAts()
         {
@@ -165,6 +171,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetStatistics")]
+        public virtual void ResetStatistics()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetType")]
         public virtual void ResetType()
         {
@@ -181,6 +193,12 @@ namespace libvirt.Domain
         public virtual libvirt.Domain.DomainDevicesDisksDriverMetadataCacheOutputReference MetadataCache
         {
             get => GetInstanceProperty<libvirt.Domain.DomainDevicesDisksDriverMetadataCacheOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "statistics", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesDisksDriverStatisticsOutputReference\"}")]
+        public virtual libvirt.Domain.DomainDevicesDisksDriverStatisticsOutputReference Statistics
+        {
+            get => GetInstanceProperty<libvirt.Domain.DomainDevicesDisksDriverStatisticsOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -327,6 +345,16 @@ namespace libvirt.Domain
         public virtual string? RerrorPolicyInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="libvirt.Domain.IDomainDevicesDisksDriverStatistics" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "statisticsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"libvirt.domain.DomainDevicesDisksDriverStatistics\"}]}}", isOptional: true)]
+        public virtual object? StatisticsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

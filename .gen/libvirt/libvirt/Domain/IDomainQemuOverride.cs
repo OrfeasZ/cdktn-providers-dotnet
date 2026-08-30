@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Lists device-specific QEMU overrides, each matched by device alias and carrying frontend property overrides.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#devices Domain#devices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#devices Domain#devices}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuOverrideDevices" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "devices", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainQemuOverrideDevices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace libvirt.Domain
 
             /// <summary>Lists device-specific QEMU overrides, each matched by device alias and carrying frontend property overrides.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#devices Domain#devices}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#devices Domain#devices}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainQemuOverrideDevices" />)[]</para>
             /// </remarks>
             [JsiiOptional]

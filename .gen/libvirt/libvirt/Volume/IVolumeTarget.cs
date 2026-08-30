@@ -13,7 +13,7 @@ namespace libvirt.Volume
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#cluster_size Volume#cluster_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#cluster_size Volume#cluster_size}
         /// </remarks>
         [JsiiProperty(name: "clusterSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -29,7 +29,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#cluster_size_unit Volume#cluster_size_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#cluster_size_unit Volume#cluster_size_unit}
         /// </remarks>
         [JsiiProperty(name: "clusterSizeUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#compat Volume#compat}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#compat Volume#compat}
         /// </remarks>
         [JsiiProperty(name: "compat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace libvirt.Volume
 
         /// <summary>Enables and configures encryption for the volume’s data, defining the cipher parameters for an encrypted image.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#encryption Volume#encryption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#encryption Volume#encryption}
         /// </remarks>
         [JsiiProperty(name: "encryption", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetEncryption\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace libvirt.Volume
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#features Volume#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#features Volume#features}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Volume.IVolumeTargetFeatures" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.volume.VolumeTargetFeatures\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// this must match the actual format of the backing image.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#format Volume#format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#format Volume#format}
         /// </remarks>
         [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetFormat\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace libvirt.Volume
 
         /// <summary>Configures POSIX ownership and SELinux label metadata for the backing store volume, controlling how the backing file is labeled and accessed on the host.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#permissions Volume#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#permissions Volume#permissions}
         /// </remarks>
         [JsiiProperty(name: "permissions", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetPermissions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace libvirt.Volume
 
         /// <summary>Configures stored timestamps for the volume target, such as access and change times.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#timestamps Volume#timestamps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#timestamps Volume#timestamps}
         /// </remarks>
         [JsiiProperty(name: "timestamps", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetTimestamps\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -147,7 +147,7 @@ namespace libvirt.Volume
             ///
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#cluster_size Volume#cluster_size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#cluster_size Volume#cluster_size}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clusterSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace libvirt.Volume
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#cluster_size_unit Volume#cluster_size_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#cluster_size_unit Volume#cluster_size_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clusterSizeUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace libvirt.Volume
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#compat Volume#compat}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#compat Volume#compat}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "compat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -184,7 +184,7 @@ namespace libvirt.Volume
 
             /// <summary>Enables and configures encryption for the volume’s data, defining the cipher parameters for an encrypted image.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#encryption Volume#encryption}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#encryption Volume#encryption}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "encryption", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetEncryption\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace libvirt.Volume
             ///
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#features Volume#features}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#features Volume#features}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Volume.IVolumeTargetFeatures" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -213,7 +213,7 @@ namespace libvirt.Volume
             /// <remarks>
             /// this must match the actual format of the backing image.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#format Volume#format}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#format Volume#format}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetFormat\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace libvirt.Volume
 
             /// <summary>Configures POSIX ownership and SELinux label metadata for the backing store volume, controlling how the backing file is labeled and accessed on the host.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#permissions Volume#permissions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#permissions Volume#permissions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "permissions", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetPermissions\"}", isOptional: true)]
@@ -235,7 +235,7 @@ namespace libvirt.Volume
 
             /// <summary>Configures stored timestamps for the volume target, such as access and change times.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#timestamps Volume#timestamps}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#timestamps Volume#timestamps}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timestamps", typeJson: "{\"fqn\":\"libvirt.volume.VolumeTargetTimestamps\"}", isOptional: true)]

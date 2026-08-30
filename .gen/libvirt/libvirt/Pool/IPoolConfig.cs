@@ -11,7 +11,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#name Pool#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#name Pool#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -23,7 +23,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-xml">https://libvirt.org/formatstorage.html#storage-pool-xml</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#type Pool#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#type Pool#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -35,7 +35,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#allocation_unit Pool#allocation_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#allocation_unit Pool#allocation_unit}
         /// </remarks>
         [JsiiProperty(name: "allocationUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#available_unit Pool#available_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#available_unit Pool#available_unit}
         /// </remarks>
         [JsiiProperty(name: "availableUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#capacity_unit Pool#capacity_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#capacity_unit Pool#capacity_unit}
         /// </remarks>
         [JsiiProperty(name: "capacityUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace libvirt.Pool
 
         /// <summary>Experimental: provider-specific lifecycle controls for create-time operations after pool definition. Subject to change in future releases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#create Pool#create}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#create Pool#create}
         /// </remarks>
         [JsiiProperty(name: "create", typeJson: "{\"fqn\":\"libvirt.pool.PoolCreate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace libvirt.Pool
 
         /// <summary>Experimental: provider-specific lifecycle controls for delete-time operations beyond undefine. Subject to change in future releases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#destroy Pool#destroy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#destroy Pool#destroy}
         /// </remarks>
         [JsiiProperty(name: "destroy", typeJson: "{\"fqn\":\"libvirt.pool.PoolDestroy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace libvirt.Pool
 
         /// <summary>Enables optional storage-pool-specific features such as copy-on-write behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#features Pool#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#features Pool#features}
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"libvirt.pool.PoolFeatures\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace libvirt.Pool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#fs_commandline Pool#fs_commandline}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#fs_commandline Pool#fs_commandline}.</summary>
         [JsiiProperty(name: "fsCommandline", typeJson: "{\"fqn\":\"libvirt.pool.PoolFsCommandline\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         libvirt.Pool.IPoolFsCommandline? FsCommandline
@@ -132,7 +132,7 @@ namespace libvirt.Pool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#rbd_commandline Pool#rbd_commandline}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#rbd_commandline Pool#rbd_commandline}.</summary>
         [JsiiProperty(name: "rbdCommandline", typeJson: "{\"fqn\":\"libvirt.pool.PoolRbdCommandline\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         libvirt.Pool.IPoolRbdCommandline? RbdCommandline
@@ -145,7 +145,7 @@ namespace libvirt.Pool
 
         /// <summary>Configures optional refresh behavior for the pool and its volumes, controlling how allocation statistics are recomputed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#refresh Pool#refresh}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#refresh Pool#refresh}
         /// </remarks>
         [JsiiProperty(name: "refresh", typeJson: "{\"fqn\":\"libvirt.pool.PoolRefresh\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +159,7 @@ namespace libvirt.Pool
 
         /// <summary>Defines the source backing for the storage pool (e.g., device, host, directory, or network export), specific to the chosen pool type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#source Pool#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#source Pool#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"libvirt.pool.PoolSource\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -171,7 +171,7 @@ namespace libvirt.Pool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#target Pool#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#target Pool#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"libvirt.pool.PoolTarget\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         libvirt.Pool.IPoolTarget? Target
@@ -193,7 +193,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#name Pool#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#name Pool#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -205,7 +205,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-xml">https://libvirt.org/formatstorage.html#storage-pool-xml</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#type Pool#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#type Pool#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -217,7 +217,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#allocation_unit Pool#allocation_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#allocation_unit Pool#allocation_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allocationUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -230,7 +230,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#available_unit Pool#available_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#available_unit Pool#available_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "availableUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-general-metadata">https://libvirt.org/formatstorage.html#storage-pool-general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#capacity_unit Pool#capacity_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#capacity_unit Pool#capacity_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capacityUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace libvirt.Pool
 
             /// <summary>Experimental: provider-specific lifecycle controls for create-time operations after pool definition. Subject to change in future releases.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#create Pool#create}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#create Pool#create}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"fqn\":\"libvirt.pool.PoolCreate\"}", isOptional: true)]
@@ -265,7 +265,7 @@ namespace libvirt.Pool
 
             /// <summary>Experimental: provider-specific lifecycle controls for delete-time operations beyond undefine. Subject to change in future releases.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#destroy Pool#destroy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#destroy Pool#destroy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "destroy", typeJson: "{\"fqn\":\"libvirt.pool.PoolDestroy\"}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace libvirt.Pool
 
             /// <summary>Enables optional storage-pool-specific features such as copy-on-write behavior.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#features Pool#features}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#features Pool#features}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"libvirt.pool.PoolFeatures\"}", isOptional: true)]
@@ -285,7 +285,7 @@ namespace libvirt.Pool
                 get => GetInstanceProperty<libvirt.Pool.IPoolFeatures?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#fs_commandline Pool#fs_commandline}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#fs_commandline Pool#fs_commandline}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fsCommandline", typeJson: "{\"fqn\":\"libvirt.pool.PoolFsCommandline\"}", isOptional: true)]
             public libvirt.Pool.IPoolFsCommandline? FsCommandline
@@ -293,7 +293,7 @@ namespace libvirt.Pool
                 get => GetInstanceProperty<libvirt.Pool.IPoolFsCommandline?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#rbd_commandline Pool#rbd_commandline}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#rbd_commandline Pool#rbd_commandline}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rbdCommandline", typeJson: "{\"fqn\":\"libvirt.pool.PoolRbdCommandline\"}", isOptional: true)]
             public libvirt.Pool.IPoolRbdCommandline? RbdCommandline
@@ -303,7 +303,7 @@ namespace libvirt.Pool
 
             /// <summary>Configures optional refresh behavior for the pool and its volumes, controlling how allocation statistics are recomputed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#refresh Pool#refresh}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#refresh Pool#refresh}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "refresh", typeJson: "{\"fqn\":\"libvirt.pool.PoolRefresh\"}", isOptional: true)]
@@ -314,7 +314,7 @@ namespace libvirt.Pool
 
             /// <summary>Defines the source backing for the storage pool (e.g., device, host, directory, or network export), specific to the chosen pool type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#source Pool#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#source Pool#source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"libvirt.pool.PoolSource\"}", isOptional: true)]
@@ -323,7 +323,7 @@ namespace libvirt.Pool
                 get => GetInstanceProperty<libvirt.Pool.IPoolSource?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#target Pool#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#target Pool#target}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"libvirt.pool.PoolTarget\"}", isOptional: true)]
             public libvirt.Pool.IPoolTarget? Target

@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xml Domain#xml}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xml Domain#xml}
         /// </remarks>
         [JsiiProperty(name: "xml", typeJson: "{\"primitive\":\"string\"}")]
         string Xml
@@ -34,7 +34,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xml Domain#xml}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xml Domain#xml}
             /// </remarks>
             [JsiiProperty(name: "xml", typeJson: "{\"primitive\":\"string\"}")]
             public string Xml

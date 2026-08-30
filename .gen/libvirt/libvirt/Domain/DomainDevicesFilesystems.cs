@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#access_mode Domain#access_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#access_mode Domain#access_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures ACPI Error Record Serialization Table (ERST) parameters associated with the pstore device for recording crash logs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#acpi Domain#acpi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#acpi Domain#acpi}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acpi", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsAcpi\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace libvirt.Domain
 
         /// <summary>Specifies the guest bus address at which the pstore device is attached (bus/slot/function details), if the hypervisor allows explicit placement.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#address Domain#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#address Domain#address}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsAddress\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace libvirt.Domain
 
         /// <summary>Assigns an internal alias object to the pstore device, which can be used by management tooling to reference the device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#alias Domain#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#alias Domain#alias}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alias", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsAlias\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// When omitted, libvirt or the hypervisor default behavior for the filesystem backend is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#binary Domain#binary}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#binary Domain#binary}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "binary", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinary\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables boot-order control for this redirected device, allowing it to participate in the device boot sequence.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#boot Domain#boot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#boot Domain#boot}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "boot", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBoot\"}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#dmode Domain#dmode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#dmode Domain#dmode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dmode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures driver-specific options for the filesystem device, including implementation type and virtio transport tuning for applicable models.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#driver Domain#driver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#driver Domain#driver}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "driver", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsDriver\"}", isOptional: true)]
@@ -113,7 +113,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#fmode Domain#fmode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#fmode Domain#fmode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fmode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures user and group ID mapping for this filesystem device, allowing remapping of guest UIDs/GIDs to different host IDs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#id_map Domain#id_map}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#id_map Domain#id_map}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "idMap", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsIdMap\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#model Domain#model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#model Domain#model}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "model", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#multi_devs Domain#multi_devs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#multi_devs Domain#multi_devs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "multiDevs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#read_only Domain#read_only}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#read_only Domain#read_only}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -206,7 +206,7 @@ namespace libvirt.Domain
 
         /// <summary>Groups the specification of the host-side filesystem source, with exactly one of the child variants (`bind`, `block`, `file`, `mount`, `ram`, or `template`) used depending on the filesystem `type`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#source Domain#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#source Domain#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsSource\"}", isOptional: true)]
@@ -222,7 +222,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#space_hard_limit Domain#space_hard_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#space_hard_limit Domain#space_hard_limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spaceHardLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -238,7 +238,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#space_hard_limit_unit Domain#space_hard_limit_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#space_hard_limit_unit Domain#space_hard_limit_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spaceHardLimitUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#space_soft_limit Domain#space_soft_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#space_soft_limit Domain#space_soft_limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spaceSoftLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -270,7 +270,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#space_soft_limit_unit Domain#space_soft_limit_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#space_soft_limit_unit Domain#space_soft_limit_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spaceSoftLimitUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -282,7 +282,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures how and where the filesystem is exposed inside the guest by providing the guest-side mount target.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#target Domain#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#target Domain#target}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsTarget\"}", isOptional: true)]

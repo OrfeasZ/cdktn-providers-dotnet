@@ -11,7 +11,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#group Pool#group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#group Pool#group}
         /// </remarks>
         [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -29,7 +29,7 @@ namespace libvirt.Pool
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#label Pool#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#label Pool#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#mode Pool#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#mode Pool#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#owner Pool#owner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#owner Pool#owner}
         /// </remarks>
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#group Pool#group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#group Pool#group}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "group", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace libvirt.Pool
             ///
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#label Pool#label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#label Pool#label}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#mode Pool#mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#mode Pool#mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-pool-target-elements">https://libvirt.org/formatstorage.html#storage-pool-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#owner Pool#owner}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#owner Pool#owner}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

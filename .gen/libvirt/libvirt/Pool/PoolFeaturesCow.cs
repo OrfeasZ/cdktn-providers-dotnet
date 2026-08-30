@@ -13,7 +13,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#features">https://libvirt.org/formatstorage.html#features</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#state Pool#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#state Pool#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State

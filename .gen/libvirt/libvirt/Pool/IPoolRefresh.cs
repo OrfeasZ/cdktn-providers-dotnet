@@ -9,7 +9,7 @@ namespace libvirt.Pool
     {
         /// <summary>Configures per-volume refresh behavior for the pool, including how each volume’s allocation is calculated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#volume Pool#volume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#volume Pool#volume}
         /// </remarks>
         [JsiiProperty(name: "volume", typeJson: "{\"fqn\":\"libvirt.pool.PoolRefreshVolume\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace libvirt.Pool
 
             /// <summary>Configures per-volume refresh behavior for the pool, including how each volume’s allocation is calculated.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#volume Pool#volume}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#volume Pool#volume}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "volume", typeJson: "{\"fqn\":\"libvirt.pool.PoolRefreshVolume\"}", isOptional: true)]

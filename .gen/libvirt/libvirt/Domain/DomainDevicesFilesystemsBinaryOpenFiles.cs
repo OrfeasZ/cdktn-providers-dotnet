@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value is a user-provided positive integer. For example, 1024 or 4096.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#max Domain#max}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#max Domain#max}
         /// </remarks>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         public double Max

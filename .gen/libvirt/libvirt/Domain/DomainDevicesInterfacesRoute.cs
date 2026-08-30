@@ -9,27 +9,28 @@ namespace libvirt.Domain
     [JsiiByValue(fqn: "libvirt.domain.DomainDevicesInterfacesRoute")]
     public class DomainDevicesInterfacesRoute : libvirt.Domain.IDomainDevicesInterfacesRoute
     {
-        /// <summary>Sets the destination network address for the static route, as an IPv4 or IPv6 address depending on the family (for example, "192.168.10.0" or "2001:db8::").</summary>
+        /// <summary>Sets the gateway IP address used for the static route (must be in the same family as the route address, for example "192.168.10.1").</summary>
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#ip-configuration">https://libvirt.org/formatdomain.html#ip-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#address Domain#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#gateway Domain#gateway}
         /// </remarks>
-        [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
-        public string Address
+        [JsiiProperty(name: "gateway", typeJson: "{\"primitive\":\"string\"}")]
+        public string Gateway
         {
             get;
             set;
         }
 
-        /// <summary>Sets the gateway IP address used for the static route (must be in the same family as the route address, for example "192.168.10.1").</summary>
+        /// <summary>Sets the destination network address for the static route, as an IPv4 or IPv6 address depending on the family (for example, "192.168.10.0" or "2001:db8::").</summary>
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#ip-configuration">https://libvirt.org/formatdomain.html#ip-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#gateway Domain#gateway}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#address Domain#address}
         /// </remarks>
-        [JsiiProperty(name: "gateway", typeJson: "{\"primitive\":\"string\"}")]
-        public string Gateway
+        [JsiiOptional]
+        [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Address
         {
             get;
             set;
@@ -41,7 +42,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#ip-configuration">https://libvirt.org/formatdomain.html#ip-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#family Domain#family}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#family Domain#family}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "family", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +56,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#ip-configuration">https://libvirt.org/formatdomain.html#ip-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#metric Domain#metric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#metric Domain#metric}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metric", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +70,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#ip-configuration">https://libvirt.org/formatdomain.html#ip-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#netmask Domain#netmask}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#netmask Domain#netmask}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +84,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#ip-configuration">https://libvirt.org/formatdomain.html#ip-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#prefix Domain#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#prefix Domain#prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

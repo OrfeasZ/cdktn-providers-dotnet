@@ -7,7 +7,7 @@ namespace libvirt.Network
     [JsiiInterface(nativeType: typeof(INetworkDnsmasqOptionsOption), fullyQualifiedName: "libvirt.network.NetworkDnsmasqOptionsOption")]
     public interface INetworkDnsmasqOptionsOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#value Network#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#value Network#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -21,7 +21,7 @@ namespace libvirt.Network
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#value Network#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#value Network#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {

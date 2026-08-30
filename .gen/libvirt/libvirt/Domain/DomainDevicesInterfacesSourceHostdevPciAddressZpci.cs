@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#device-addresses">https://libvirt.org/formatdomain.html#device-addresses</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#fid Domain#fid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#fid Domain#fid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#usb-pci-scsi-devices">https://libvirt.org/formatdomain.html#usb-pci-scsi-devices</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#uid Domain#uid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#uid Domain#uid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uid", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

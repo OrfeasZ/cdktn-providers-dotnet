@@ -11,7 +11,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#atime Volume#atime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#atime Volume#atime}
         /// </remarks>
         [JsiiProperty(name: "atime", typeJson: "{\"primitive\":\"string\"}")]
         string Atime
@@ -23,7 +23,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#ctime Volume#ctime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#ctime Volume#ctime}
         /// </remarks>
         [JsiiProperty(name: "ctime", typeJson: "{\"primitive\":\"string\"}")]
         string Ctime
@@ -37,7 +37,7 @@ namespace libvirt.Volume
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#mtime Volume#mtime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#mtime Volume#mtime}
         /// </remarks>
         [JsiiProperty(name: "mtime", typeJson: "{\"primitive\":\"string\"}")]
         string Mtime
@@ -56,7 +56,7 @@ namespace libvirt.Volume
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#atime Volume#atime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#atime Volume#atime}
             /// </remarks>
             [JsiiProperty(name: "atime", typeJson: "{\"primitive\":\"string\"}")]
             public string Atime
@@ -68,7 +68,7 @@ namespace libvirt.Volume
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#ctime Volume#ctime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#ctime Volume#ctime}
             /// </remarks>
             [JsiiProperty(name: "ctime", typeJson: "{\"primitive\":\"string\"}")]
             public string Ctime
@@ -82,7 +82,7 @@ namespace libvirt.Volume
             ///
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#mtime Volume#mtime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#mtime Volume#mtime}
             /// </remarks>
             [JsiiProperty(name: "mtime", typeJson: "{\"primitive\":\"string\"}")]
             public string Mtime

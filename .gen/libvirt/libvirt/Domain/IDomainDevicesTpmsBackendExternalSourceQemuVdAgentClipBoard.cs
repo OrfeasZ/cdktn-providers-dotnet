@@ -7,7 +7,7 @@ namespace libvirt.Domain
     [JsiiInterface(nativeType: typeof(IDomainDevicesTpmsBackendExternalSourceQemuVdAgentClipBoard), fullyQualifiedName: "libvirt.domain.DomainDevicesTpmsBackendExternalSourceQemuVdAgentClipBoard")]
     public interface IDomainDevicesTpmsBackendExternalSourceQemuVdAgentClipBoard
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#copy_paste Domain#copy_paste}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#copy_paste Domain#copy_paste}.</summary>
         [JsiiProperty(name: "copyPaste", typeJson: "{\"primitive\":\"string\"}")]
         string CopyPaste
         {
@@ -21,7 +21,7 @@ namespace libvirt.Domain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#copy_paste Domain#copy_paste}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#copy_paste Domain#copy_paste}.</summary>
             [JsiiProperty(name: "copyPaste", typeJson: "{\"primitive\":\"string\"}")]
             public string CopyPaste
             {

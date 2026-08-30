@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value and unit together define the limit (for example, 64 MiB).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#max_size Domain#max_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#max_size Domain#max_size}
         /// </remarks>
         [JsiiProperty(name: "maxSize", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesDisksBackingStoreFormatMetadataCacheMaxSize\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,7 +34,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// value and unit together define the limit (for example, 64 MiB).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#max_size Domain#max_size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#max_size Domain#max_size}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxSize", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesDisksBackingStoreFormatMetadataCacheMaxSize\"}", isOptional: true)]

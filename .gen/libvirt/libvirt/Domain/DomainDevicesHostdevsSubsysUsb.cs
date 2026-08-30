@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Sets how the USB host device is identified for passthrough, either by topology (bus/port) or by vendor/product IDs and related options.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#source Domain#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#source Domain#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesHostdevsSubsysUsbSource\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Experimental: request graceful behavior when using DomainDestroyFlags during domain stop. Subject to change in future releases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#graceful Domain#graceful}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#graceful Domain#graceful}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "graceful", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace libvirt.Domain
 
         /// <summary>Experimental: request a guest shutdown and wait for shutoff before undefine. Subject to change in future releases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#shutdown Domain#shutdown}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#shutdown Domain#shutdown}
         /// </remarks>
         [JsiiProperty(name: "shutdown", typeJson: "{\"fqn\":\"libvirt.domain.DomainDestroyShutdown\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace libvirt.Domain
 
             /// <summary>Experimental: request graceful behavior when using DomainDestroyFlags during domain stop. Subject to change in future releases.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#graceful Domain#graceful}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#graceful Domain#graceful}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -57,7 +57,7 @@ namespace libvirt.Domain
 
             /// <summary>Experimental: request a guest shutdown and wait for shutoff before undefine. Subject to change in future releases.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#shutdown Domain#shutdown}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#shutdown Domain#shutdown}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shutdown", typeJson: "{\"fqn\":\"libvirt.domain.DomainDestroyShutdown\"}", isOptional: true)]

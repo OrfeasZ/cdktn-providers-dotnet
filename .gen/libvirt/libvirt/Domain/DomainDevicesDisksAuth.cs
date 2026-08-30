@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// this references an existing libvirt secret, not the clear-text secret.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#secret Domain#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#secret Domain#secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secret", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesDisksAuthSecret\"}", isOptional: true)]
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#host-device-assignment">https://libvirt.org/formatdomain.html#host-device-assignment</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#username Domain#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#username Domain#username}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

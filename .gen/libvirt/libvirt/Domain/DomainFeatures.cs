@@ -15,7 +15,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#hypervisor-features">https://libvirt.org/formatdomain.html#hypervisor-features</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#acpi Domain#acpi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#acpi Domain#acpi}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -48,7 +48,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the Advanced Interrupt Architecture (AIA) feature for the guest CPU/machine, with the specific mode or value being user‑provided according to hypervisor support.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#aia Domain#aia}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#aia Domain#aia}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aia", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesAia\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block allows configuring APIC-related behavior such as end-of-interrupt handling.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#apic Domain#apic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#apic Domain#apic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apic", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesApic\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// when present, it allows controlling whether the hypervisor uses async teardown semantics.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#async_teardown Domain#async_teardown}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#async_teardown Domain#async_teardown}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "asyncTeardown", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesAsyncTeardown\"}", isOptional: true)]
@@ -88,7 +88,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures per-domain Linux capability controls, allowing fine-grained enabling or disabling of specific capabilities inside the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#capabilities Domain#capabilities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#capabilities Domain#capabilities}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "capabilities", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesCapabilities\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#ccf_assist Domain#ccf_assist}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#ccf_assist Domain#ccf_assist}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ccfAssist", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesCcfAssist\"}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the "cfpc" CPU feature (a speculative-execution/flush-control mitigation) policy for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cfpc Domain#cfpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cfpc Domain#cfpc}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cfpc", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesCfpc\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the ARM Generic Interrupt Controller (GIC) feature for the guest, allowing selection or control of the emulated GIC model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#gic Domain#gic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#gic Domain#gic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gic", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesGic\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hap Domain#hap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hap Domain#hap}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hap", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHap\"}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the hashed page table (HPT) feature used by some PowerPC guests, including its size and resizing behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hpt Domain#hpt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hpt Domain#hpt}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hpt", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHpt\"}", isOptional: true)]
@@ -160,7 +160,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#htm Domain#htm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#htm Domain#htm}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "htm", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHtm\"}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables configuration of Hyper-V enlightenment features for the guest when running on a Hyper-V-capable hypervisor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hyper_v Domain#hyper_v}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hyper_v Domain#hyper_v}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hyperV", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesHyperV\"}", isOptional: true)]
@@ -184,7 +184,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables configuration of the Instruction Based Sampling (IBS) CPU feature on supported AMD guests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#ibs Domain#ibs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#ibs Domain#ibs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ibs", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesIbs\"}", isOptional: true)]
@@ -196,7 +196,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the emulation mode for the virtual IOAPIC used for interrupt routing in the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#ioapic Domain#ioapic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#ioapic Domain#ioapic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ioapic", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesIoapic\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables configuration of KVM-specific CPU or machine features via its child elements (for example, toggling individual KVM feature flags).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#kvm Domain#kvm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#kvm Domain#kvm}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kvm", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesKvm\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures handling of unknown/unsupported model-specific registers (MSRs) encountered in the guest, controlling whether guest MSR accesses can be ignored or cause failures.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#msrs Domain#msrs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#msrs Domain#msrs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "msrs", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesMsrs\"}", isOptional: true)]
@@ -232,7 +232,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#nested_hv Domain#nested_hv}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#nested_hv Domain#nested_hv}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nestedHv", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesNestedHv\"}", isOptional: true)]
@@ -250,7 +250,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#hypervisor-features">https://libvirt.org/formatdomain.html#hypervisor-features</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#pae Domain#pae}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#pae Domain#pae}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -283,7 +283,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#pmu Domain#pmu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#pmu Domain#pmu}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pmu", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesPmu\"}", isOptional: true)]
@@ -301,7 +301,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#hypervisor-features">https://libvirt.org/formatdomain.html#hypervisor-features</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#priv_net Domain#priv_net}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#priv_net Domain#priv_net}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -334,7 +334,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#ps2 Domain#ps2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#ps2 Domain#ps2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ps2", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesPs2\"}", isOptional: true)]
@@ -346,7 +346,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#pv_spinlock Domain#pv_spinlock}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#pv_spinlock Domain#pv_spinlock}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pvSpinlock", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesPvSpinlock\"}", isOptional: true)]
@@ -358,7 +358,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#ras Domain#ras}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#ras Domain#ras}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ras", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesRas\"}", isOptional: true)]
@@ -370,7 +370,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the Spectre-Boundary-Branch-Control (SBBC) mitigation feature for the guest CPU.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sbbc Domain#sbbc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sbbc Domain#sbbc}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sbbc", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesSbbc\"}", isOptional: true)]
@@ -382,7 +382,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures System Management Mode (SMM) support for the guest, which is required for features like UEFI Secure Boot on some machine types.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#smm Domain#smm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#smm Domain#smm}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "smm", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesSmm\"}", isOptional: true)]
@@ -394,7 +394,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures QEMU’s TCG (software CPU emulation) feature block for fine-grained tuning of emulation behavior when TCG is in use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tcg Domain#tcg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tcg Domain#tcg}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tcg", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesTcg\"}", isOptional: true)]
@@ -412,7 +412,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#hypervisor-features">https://libvirt.org/formatdomain.html#hypervisor-features</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#viridian Domain#viridian}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#viridian Domain#viridian}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -443,9 +443,43 @@ namespace libvirt.Domain
             }
         }
 
+        private object? _virtualization;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#virtualization Domain#virtualization}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "virtualization", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? Virtualization
+        {
+            get => _virtualization;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _virtualization = value;
+            }
+        }
+
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vm_core_info Domain#vm_core_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vm_core_info Domain#vm_core_info}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vmCoreInfo", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesVmCoreInfo\"}", isOptional: true)]
@@ -457,7 +491,7 @@ namespace libvirt.Domain
 
         /// <summary>Controls whether the hypervisor exposes legacy PS/2 controller semantics as a CPU/machine feature toggle for the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vm_port Domain#vm_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vm_port Domain#vm_port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vmPort", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesVmPort\"}", isOptional: true)]
@@ -469,7 +503,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures Xen-specific paravirtualization compatibility features for the guest when running under QEMU/KVM with Xen emulation options.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xen Domain#xen}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xen Domain#xen}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "xen", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesXen\"}", isOptional: true)]

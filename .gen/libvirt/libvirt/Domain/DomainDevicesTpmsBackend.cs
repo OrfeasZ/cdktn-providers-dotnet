@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures a software-emulated TPM backend (such as swtpm), including its PCR banks, persistence, encryption, and debug behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#emulator Domain#emulator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#emulator Domain#emulator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emulator", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendEmulator\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace libvirt.Domain
 
         /// <summary>Selects an external TPM backend, where libvirt connects the guest to an already running TPM service rather than spawning an emulator.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#external Domain#external}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#external Domain#external}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "external", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendExternal\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures a TPM backend of type `passthrough`, which exposes a host TPM device directly to the guest instead of using an emulator.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#passthrough Domain#passthrough}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#passthrough Domain#passthrough}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passthrough", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesTpmsBackendPassthrough\"}", isOptional: true)]

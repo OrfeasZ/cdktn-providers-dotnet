@@ -15,7 +15,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#launch-security">https://libvirt.org/formatdomain.html#launch-security</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#s390pv Domain#s390pv}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#s390pv Domain#s390pv}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -48,7 +48,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures AMD SEV launch security parameters for the domain, such as policy, certificates, and reduced physical address bits.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sev Domain#sev}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sev Domain#sev}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sev", typeJson: "{\"fqn\":\"libvirt.domain.DomainLaunchSecuritySev\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// the subfields (if any) are user‑provided.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sevsnp Domain#sevsnp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sevsnp Domain#sevsnp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sevsnp", typeJson: "{\"fqn\":\"libvirt.domain.DomainLaunchSecuritySevsnp\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence configures the domain to run as a TDX guest.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#tdx Domain#tdx}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#tdx Domain#tdx}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tdx", typeJson: "{\"fqn\":\"libvirt.domain.DomainLaunchSecurityTdx\"}", isOptional: true)]

@@ -33,6 +33,12 @@ namespace libvirt.Domain
         {
         }
 
+        [JsiiMethod(name: "resetNetwork")]
+        public virtual void ResetNetwork()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSource")]
         public virtual void ResetSource()
         {
@@ -43,6 +49,13 @@ namespace libvirt.Domain
         public virtual void ResetTimeout()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "networkInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NetworkInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -57,6 +70,13 @@ namespace libvirt.Domain
         public virtual double? TimeoutInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Network
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]

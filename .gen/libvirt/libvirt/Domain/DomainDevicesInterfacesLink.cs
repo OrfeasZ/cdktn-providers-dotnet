@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#modifying-virtual-link-state">https://libvirt.org/formatdomain.html#modifying-virtual-link-state</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#state Domain#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#state Domain#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public string State

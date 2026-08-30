@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value is user-provided and should match one of libvirt's supported sandbox modes for this backend. For example, a mode could indicate "chroot" or "none" depending on driver support.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mode Domain#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mode Domain#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         string Mode
@@ -30,7 +30,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// value is user-provided and should match one of libvirt's supported sandbox modes for this backend. For example, a mode could indicate "chroot" or "none" depending on driver support.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mode Domain#mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mode Domain#mode}
             /// </remarks>
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
             public string Mode

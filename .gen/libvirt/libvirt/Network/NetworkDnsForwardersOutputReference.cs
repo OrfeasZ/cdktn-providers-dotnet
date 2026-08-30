@@ -47,6 +47,12 @@ namespace libvirt.Network
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPort")]
+        public virtual void ResetPort()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "addrInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AddrInput
@@ -61,6 +67,13 @@ namespace libvirt.Network
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "portInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? PortInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
         [JsiiProperty(name: "addr", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Addr
         {
@@ -72,6 +85,13 @@ namespace libvirt.Network
         public virtual string Domain
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Port
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

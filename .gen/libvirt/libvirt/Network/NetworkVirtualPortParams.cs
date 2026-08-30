@@ -9,7 +9,7 @@ namespace libvirt.Network
     {
         /// <summary>Configures a generic (IEEE 802.1Qbg-style) port profile, using opaque identifiers understood by an external network manager.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#any Network#any}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#any Network#any}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "any", typeJson: "{\"fqn\":\"libvirt.network.NetworkVirtualPortParamsAny\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace libvirt.Network
 
         /// <summary>Configures MidoNet-specific virtual port parameters for this port group, enabling integration with a MidoNet SDN controller.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#mido_net Network#mido_net}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#mido_net Network#mido_net}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "midoNet", typeJson: "{\"fqn\":\"libvirt.network.NetworkVirtualPortParamsMidoNet\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace libvirt.Network
         /// <remarks>
         /// all values are user-provided and interpreted by OVS tooling.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#open_v_switch Network#open_v_switch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#open_v_switch Network#open_v_switch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "openVSwitch", typeJson: "{\"fqn\":\"libvirt.network.NetworkVirtualPortParamsOpenVSwitch\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace libvirt.Network
 
         /// <summary>Enables configuration of IEEE 802.1Qbg VEPA virtual port profile parameters for this portgroup, allowing association with an external Edge Virtual Bridging (EVB) manager.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#vepa8021qbg Network#vepa8021qbg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#vepa8021qbg Network#vepa8021qbg}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vepa8021Qbg", typeJson: "{\"fqn\":\"libvirt.network.NetworkVirtualPortParamsVepa8021Qbg\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace libvirt.Network
 
         /// <summary>Enables configuration of IEEE 802.1Qbh VN-Tag virtual port profile parameters for this portgroup, used with hardware that supports Cisco VN-Tag or similar tagging.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#vn_tag8011qbh Network#vn_tag8011qbh}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#vn_tag8011qbh Network#vn_tag8011qbh}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vnTag8011Qbh", typeJson: "{\"fqn\":\"libvirt.network.NetworkVirtualPortParamsVnTag8011Qbh\"}", isOptional: true)]

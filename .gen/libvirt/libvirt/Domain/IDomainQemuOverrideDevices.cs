@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Sets the libvirt device alias identifying which frontend device the override applies to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#alias Domain#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#alias Domain#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}")]
         string Alias
@@ -19,7 +19,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures frontend property overrides for the selected QEMU device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frontend Domain#frontend}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frontend Domain#frontend}
         /// </remarks>
         [JsiiProperty(name: "frontend", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuOverrideDevicesFrontend\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace libvirt.Domain
 
             /// <summary>Sets the libvirt device alias identifying which frontend device the override applies to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#alias Domain#alias}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#alias Domain#alias}
             /// </remarks>
             [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}")]
             public string Alias
@@ -50,7 +50,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures frontend property overrides for the selected QEMU device.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frontend Domain#frontend}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frontend Domain#frontend}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "frontend", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuOverrideDevicesFrontend\"}", isOptional: true)]

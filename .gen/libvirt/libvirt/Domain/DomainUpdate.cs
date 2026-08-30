@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// Subject to change in future releases.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#shutdown Domain#shutdown}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#shutdown Domain#shutdown}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shutdown", typeJson: "{\"fqn\":\"libvirt.domain.DomainUpdateShutdown\"}", isOptional: true)]

@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#specifying-boot-order">https://libvirt.org/formatdomain.html#specifying-boot-order</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#order Domain#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#order Domain#order}
         /// </remarks>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"number\"}")]
         public double Order
@@ -26,7 +26,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#specifying-boot-order">https://libvirt.org/formatdomain.html#specifying-boot-order</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#load_parm Domain#load_parm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#load_parm Domain#load_parm}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "loadParm", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

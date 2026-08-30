@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Sets the deprecation handling mode requested from libvirt for QEMU-specific deprecated behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#behavior Domain#behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#behavior Domain#behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

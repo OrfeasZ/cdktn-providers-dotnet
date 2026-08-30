@@ -35,6 +35,12 @@ namespace libvirt.Domain
         {
         }
 
+        [JsiiMethod(name: "resetAddress")]
+        public virtual void ResetAddress()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetFamily")]
         public virtual void ResetFamily()
         {

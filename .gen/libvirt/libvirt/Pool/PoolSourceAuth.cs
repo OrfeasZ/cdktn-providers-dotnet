@@ -15,7 +15,7 @@ namespace libvirt.Pool
         ///
         /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#type Pool#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#type Pool#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -28,7 +28,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#source-elements">https://libvirt.org/formatstorage.html#source-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#username Pool#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#username Pool#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
@@ -41,7 +41,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// either a secret UUID or a usage name must be provided via child attributes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#secret Pool#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#secret Pool#secret}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "secret", typeJson: "{\"fqn\":\"libvirt.pool.PoolSourceAuthSecret\"}", isOptional: true)]

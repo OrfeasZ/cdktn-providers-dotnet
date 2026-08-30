@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures coalescing based on the number of received frames before an interrupt or notification is generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frames Domain#frames}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frames Domain#frames}
         /// </remarks>
         [JsiiProperty(name: "frames", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesCoalesceRxFrames\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures coalescing based on the number of received frames before an interrupt or notification is generated.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#frames Domain#frames}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#frames Domain#frames}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "frames", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesCoalesceRxFrames\"}", isOptional: true)]

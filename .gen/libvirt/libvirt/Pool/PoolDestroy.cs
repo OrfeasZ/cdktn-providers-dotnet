@@ -11,7 +11,7 @@ namespace libvirt.Pool
 
         /// <summary>Experimental: whether to run StoragePoolDelete on destroy. If unset, provider default behavior applies. Subject to change.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#delete Pool#delete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#delete Pool#delete}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

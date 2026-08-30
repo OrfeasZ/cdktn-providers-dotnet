@@ -45,6 +45,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDpofua")]
+        public virtual void ResetDpofua()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRemovable")]
         public virtual void ResetRemovable()
         {
@@ -73,6 +79,13 @@ namespace libvirt.Domain
         [JsiiOptional]
         [JsiiProperty(name: "devInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DevInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dpofuaInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DpofuaInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -107,6 +120,13 @@ namespace libvirt.Domain
 
         [JsiiProperty(name: "dev", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Dev
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "dpofua", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Dpofua
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

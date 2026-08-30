@@ -11,7 +11,7 @@
     "cloudflare": "5.24.0",
     "digitalocean": "2.100.0",
     "hcloud": "1.68.0",
-    "libvirt": "0.9.8",
+    "libvirt": "0.9.9",
     "neon": "0.15.0",
     "null": "3.3.1",
     "oci": "8.29.0",

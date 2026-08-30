@@ -11,7 +11,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#format Pool#format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#format Pool#format}
         /// </remarks>
         [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
         string Format
@@ -21,7 +21,7 @@ namespace libvirt.Pool
 
         /// <summary>Defines the encryption cipher parameters used for the volume, such as algorithm name, mode, and hash.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#cipher Pool#cipher}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#cipher Pool#cipher}
         /// </remarks>
         [JsiiProperty(name: "cipher", typeJson: "{\"fqn\":\"libvirt.pool.PoolTargetEncryptionCipher\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// when present, both name and hash must be specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#ivgen Pool#ivgen}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#ivgen Pool#ivgen}
         /// </remarks>
         [JsiiProperty(name: "ivgen", typeJson: "{\"fqn\":\"libvirt.pool.PoolTargetEncryptionIvgen\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace libvirt.Pool
 
         /// <summary>Configures the libvirt secret used to supply the encryption key material for the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#secret Pool#secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#secret Pool#secret}
         /// </remarks>
         [JsiiProperty(name: "secret", typeJson: "{\"fqn\":\"libvirt.pool.PoolTargetEncryptionSecret\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatstorage.html#storage-volume-target-elements">https://libvirt.org/formatstorage.html#storage-volume-target-elements</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#format Pool#format}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#format Pool#format}
             /// </remarks>
             [JsiiProperty(name: "format", typeJson: "{\"primitive\":\"string\"}")]
             public string Format
@@ -84,7 +84,7 @@ namespace libvirt.Pool
 
             /// <summary>Defines the encryption cipher parameters used for the volume, such as algorithm name, mode, and hash.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#cipher Pool#cipher}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#cipher Pool#cipher}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cipher", typeJson: "{\"fqn\":\"libvirt.pool.PoolTargetEncryptionCipher\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// when present, both name and hash must be specified.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#ivgen Pool#ivgen}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#ivgen Pool#ivgen}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ivgen", typeJson: "{\"fqn\":\"libvirt.pool.PoolTargetEncryptionIvgen\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace libvirt.Pool
 
             /// <summary>Configures the libvirt secret used to supply the encryption key material for the volume.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#secret Pool#secret}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#secret Pool#secret}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secret", typeJson: "{\"fqn\":\"libvirt.pool.PoolTargetEncryptionSecret\"}", isOptional: true)]

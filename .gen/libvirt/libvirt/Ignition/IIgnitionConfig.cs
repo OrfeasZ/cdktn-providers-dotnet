@@ -9,7 +9,7 @@ namespace libvirt.Ignition
     {
         /// <summary>Ignition configuration content (JSON).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/ignition#content Ignition#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/ignition#content Ignition#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
         string Content
@@ -19,7 +19,7 @@ namespace libvirt.Ignition
 
         /// <summary>Name for this ignition resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/ignition#name Ignition#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/ignition#name Ignition#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -36,7 +36,7 @@ namespace libvirt.Ignition
 
             /// <summary>Ignition configuration content (JSON).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/ignition#content Ignition#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/ignition#content Ignition#content}
             /// </remarks>
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}")]
             public string Content
@@ -46,7 +46,7 @@ namespace libvirt.Ignition
 
             /// <summary>Name for this ignition resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/ignition#name Ignition#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/ignition#name Ignition#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name

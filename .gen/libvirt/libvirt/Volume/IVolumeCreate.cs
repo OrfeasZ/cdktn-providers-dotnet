@@ -9,7 +9,7 @@ namespace libvirt.Volume
     {
         /// <summary>Upload content from a URL or local file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#content Volume#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#content Volume#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"libvirt.volume.VolumeCreateContent\"}")]
         libvirt.Volume.IVolumeCreateContent Content
@@ -26,7 +26,7 @@ namespace libvirt.Volume
 
             /// <summary>Upload content from a URL or local file.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#content Volume#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#content Volume#content}
             /// </remarks>
             [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"libvirt.volume.VolumeCreateContent\"}")]
             public libvirt.Volume.IVolumeCreateContent Content

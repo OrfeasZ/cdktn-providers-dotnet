@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value is user-provided and typically expects "yes" or "no" semantics per libvirt.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#enabled Domain#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#enabled Domain#enabled}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "enabled", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value is provided as a string and translated to a boolean, with "yes" meaning true and "no" meaning false.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#managed Domain#managed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#managed Domain#managed}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -58,9 +58,18 @@ namespace libvirt.Domain
             }
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#migration Domain#migration}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "migration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Migration
+        {
+            get;
+            set;
+        }
+
         /// <summary>Selects the mechanism used to provide reservation control for the mirrored backing-store source, such as a D-Bus service or a device/file endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#source Domain#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#source Domain#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"libvirt.domain.DomainOsNvRamSourceReservationsSource\"}", isOptional: true)]

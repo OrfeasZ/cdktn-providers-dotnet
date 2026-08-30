@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Configures outbound traffic shaping limits for this interface, allowing you to restrict or prioritize egress bandwidth using the child attributes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#inbound Domain#inbound}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#inbound Domain#inbound}
         /// </remarks>
         [JsiiProperty(name: "inbound", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesBandwidthInbound\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures outbound traffic shaping limits for this interface, allowing you to restrict or prioritize egress bandwidth using the child attributes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#outbound Domain#outbound}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#outbound Domain#outbound}
         /// </remarks>
         [JsiiProperty(name: "outbound", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesBandwidthOutbound\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures outbound traffic shaping limits for this interface, allowing you to restrict or prioritize egress bandwidth using the child attributes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#inbound Domain#inbound}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#inbound Domain#inbound}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inbound", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesBandwidthInbound\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures outbound traffic shaping limits for this interface, allowing you to restrict or prioritize egress bandwidth using the child attributes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#outbound Domain#outbound}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#outbound Domain#outbound}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outbound", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesInterfacesBandwidthOutbound\"}", isOptional: true)]

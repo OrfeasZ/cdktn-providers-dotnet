@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Describes a host-side SCSI target used as the source for the SCSI hostdev, including adapter and SCSI address information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#host Domain#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#host Domain#host}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "host", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesHostdevsSubsysScsiSourceHost\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// additional connection details are given in child elements or attributes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#iscsi Domain#iscsi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#iscsi Domain#iscsi}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "iscsi", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesHostdevsSubsysScsiSourceIscsi\"}", isOptional: true)]

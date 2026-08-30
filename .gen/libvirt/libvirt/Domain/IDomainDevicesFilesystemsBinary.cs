@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// The effective policy is controlled by the required mode attribute.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cache Domain#cache}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cache Domain#cache}
         /// </remarks>
         [JsiiProperty(name: "cache", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryCache\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -27,7 +27,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// Its flock and posix attributes enable or disable the respective locking mechanisms.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#lock Domain#lock}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#lock Domain#lock}
         /// </remarks>
         [JsiiProperty(name: "lock", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryLock\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// The max attribute defines the actual numeric limit.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#open_files Domain#open_files}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#open_files Domain#open_files}
         /// </remarks>
         [JsiiProperty(name: "openFiles", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryOpenFiles\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#path Domain#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#path Domain#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// The mode attribute selects the sandboxing policy.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sandbox Domain#sandbox}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sandbox Domain#sandbox}
         /// </remarks>
         [JsiiProperty(name: "sandbox", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinarySandbox\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// The size attribute controls the number of worker threads.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#thread_pool Domain#thread_pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#thread_pool Domain#thread_pool}
         /// </remarks>
         [JsiiProperty(name: "threadPool", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryThreadPool\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// value is typically "on"/"off" or "yes"/"no". When omitted, the backend default is used.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xattr Domain#xattr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xattr Domain#xattr}
         /// </remarks>
         [JsiiProperty(name: "xattr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -132,7 +132,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// The effective policy is controlled by the required mode attribute.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cache Domain#cache}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cache Domain#cache}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cache", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryCache\"}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// Its flock and posix attributes enable or disable the respective locking mechanisms.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#lock Domain#lock}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#lock Domain#lock}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lock", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryLock\"}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// The max attribute defines the actual numeric limit.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#open_files Domain#open_files}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#open_files Domain#open_files}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "openFiles", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryOpenFiles\"}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#filesystems">https://libvirt.org/formatdomain.html#filesystems</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#path Domain#path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#path Domain#path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// The mode attribute selects the sandboxing policy.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sandbox Domain#sandbox}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sandbox Domain#sandbox}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sandbox", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinarySandbox\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// The size attribute controls the number of worker threads.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#thread_pool Domain#thread_pool}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#thread_pool Domain#thread_pool}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "threadPool", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevicesFilesystemsBinaryThreadPool\"}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// value is typically "on"/"off" or "yes"/"no". When omitted, the backend default is used.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xattr Domain#xattr}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xattr Domain#xattr}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "xattr", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

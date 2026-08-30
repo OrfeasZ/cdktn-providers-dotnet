@@ -57,6 +57,12 @@ namespace libvirt.Domain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDevice")]
+        public virtual void ResetDevice()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetEdid")]
         public virtual void ResetEdid()
         {
@@ -141,6 +147,13 @@ namespace libvirt.Domain
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "deviceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DeviceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "edidInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? EdidInput
         {
@@ -208,6 +221,13 @@ namespace libvirt.Domain
 
         [JsiiProperty(name: "blob", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Blob
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "device", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Device
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

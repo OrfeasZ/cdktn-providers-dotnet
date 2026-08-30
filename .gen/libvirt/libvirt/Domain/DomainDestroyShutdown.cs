@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Experimental: seconds to wait for guest shutdown before failing destroy. Defaults to 30.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#timeout Domain#timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#timeout Domain#timeout}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

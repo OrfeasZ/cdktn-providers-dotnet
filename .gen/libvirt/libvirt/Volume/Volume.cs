@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace libvirt.Volume
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume libvirt_volume}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume libvirt_volume}.</summary>
     [JsiiClass(nativeType: typeof(libvirt.Volume.Volume), fullyQualifiedName: "libvirt.volume.Volume", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"libvirt.volume.VolumeConfig\"}}]")]
     public class Volume : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume libvirt_volume} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume libvirt_volume} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Volume(Constructs.Construct scope, string id, libvirt.Volume.IVolumeConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace libvirt.Volume
         /// <param name="importToId">The construct id used in the generated config for the Volume to import.</param>
         /// <param name="importFromId">The id of the existing Volume that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Volume to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Volume to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Volume that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Volume to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Volume to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Volume that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Volume to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(libvirt.Volume.Volume), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -62,6 +62,12 @@ namespace libvirt.Volume
         public virtual void PutTarget(libvirt.Volume.IVolumeTarget @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(libvirt.Volume.IVolumeTarget)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAllocation")]
+        public virtual void ResetAllocation()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetAllocationUnit")]
@@ -131,12 +137,6 @@ namespace libvirt.Volume
         }
         = GetStaticProperty<string>(typeof(libvirt.Volume.Volume))!;
 
-        [JsiiProperty(name: "allocation", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Allocation
-        {
-            get => GetInstanceProperty<double>()!;
-        }
-
         [JsiiProperty(name: "backingStore", typeJson: "{\"fqn\":\"libvirt.volume.VolumeBackingStoreOutputReference\"}")]
         public virtual libvirt.Volume.VolumeBackingStoreOutputReference BackingStore
         {
@@ -177,6 +177,13 @@ namespace libvirt.Volume
         public virtual libvirt.Volume.VolumeTargetOutputReference Target
         {
             get => GetInstanceProperty<libvirt.Volume.VolumeTargetOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "allocationInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? AllocationInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -256,6 +263,13 @@ namespace libvirt.Volume
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "allocation", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Allocation
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "allocationUnit", typeJson: "{\"primitive\":\"string\"}")]

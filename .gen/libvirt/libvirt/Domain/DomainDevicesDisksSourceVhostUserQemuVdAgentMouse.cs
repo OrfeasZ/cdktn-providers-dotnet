@@ -9,7 +9,7 @@ namespace libvirt.Domain
     [JsiiByValue(fqn: "libvirt.domain.DomainDevicesDisksSourceVhostUserQemuVdAgentMouse")]
     public class DomainDevicesDisksSourceVhostUserQemuVdAgentMouse : libvirt.Domain.IDomainDevicesDisksSourceVhostUserQemuVdAgentMouse
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#mode Domain#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#mode Domain#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {

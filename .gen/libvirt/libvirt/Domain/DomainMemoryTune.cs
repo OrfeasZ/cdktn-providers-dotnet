@@ -13,7 +13,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hard_limit Domain#hard_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hard_limit Domain#hard_limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hardLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hard_limit_unit Domain#hard_limit_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hard_limit_unit Domain#hard_limit_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hardLimitUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#min_guarantee Domain#min_guarantee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#min_guarantee Domain#min_guarantee}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minGuarantee", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#min_guarantee_unit Domain#min_guarantee_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#min_guarantee_unit Domain#min_guarantee_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minGuaranteeUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#soft_limit Domain#soft_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#soft_limit Domain#soft_limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "softLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#soft_limit_unit Domain#soft_limit_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#soft_limit_unit Domain#soft_limit_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "softLimitUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#swap_hard_limit Domain#swap_hard_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#swap_hard_limit Domain#swap_hard_limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "swapHardLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-tuning">https://libvirt.org/formatdomain.html#memory-tuning</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#swap_hard_limit_unit Domain#swap_hard_limit_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#swap_hard_limit_unit Domain#swap_hard_limit_unit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "swapHardLimitUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// the value is user-provided (for example, a seconds or seconds.nanoseconds timestamp as supported by libvirt).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#atime Pool#atime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#atime Pool#atime}
         /// </remarks>
         [JsiiProperty(name: "atime", typeJson: "{\"primitive\":\"string\"}")]
         string Atime
@@ -23,7 +23,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// the value is user-provided in the timestamp format expected by libvirt.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#ctime Pool#ctime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#ctime Pool#ctime}
         /// </remarks>
         [JsiiProperty(name: "ctime", typeJson: "{\"primitive\":\"string\"}")]
         string Ctime
@@ -35,7 +35,7 @@ namespace libvirt.Pool
         /// <remarks>
         /// the value is user-provided in the timestamp format expected by libvirt.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#mtime Pool#mtime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#mtime Pool#mtime}
         /// </remarks>
         [JsiiProperty(name: "mtime", typeJson: "{\"primitive\":\"string\"}")]
         string Mtime
@@ -54,7 +54,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// the value is user-provided (for example, a seconds or seconds.nanoseconds timestamp as supported by libvirt).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#atime Pool#atime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#atime Pool#atime}
             /// </remarks>
             [JsiiProperty(name: "atime", typeJson: "{\"primitive\":\"string\"}")]
             public string Atime
@@ -66,7 +66,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// the value is user-provided in the timestamp format expected by libvirt.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#ctime Pool#ctime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#ctime Pool#ctime}
             /// </remarks>
             [JsiiProperty(name: "ctime", typeJson: "{\"primitive\":\"string\"}")]
             public string Ctime
@@ -78,7 +78,7 @@ namespace libvirt.Pool
             /// <remarks>
             /// the value is user-provided in the timestamp format expected by libvirt.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/pool#mtime Pool#mtime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/pool#mtime Pool#mtime}
             /// </remarks>
             [JsiiProperty(name: "mtime", typeJson: "{\"primitive\":\"string\"}")]
             public string Mtime

@@ -9,7 +9,7 @@ namespace libvirt.Network
     {
         /// <summary>Declares a PCI address used as a forwarding target, identifying a specific host PCI device through which the network is connected.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#pci Network#pci}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#pci Network#pci}
         /// </remarks>
         [JsiiProperty(name: "pci", typeJson: "{\"fqn\":\"libvirt.network.NetworkForwardAddressesPci\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace libvirt.Network
 
             /// <summary>Declares a PCI address used as a forwarding target, identifying a specific host PCI device through which the network is connected.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/network#pci Network#pci}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/network#pci Network#pci}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pci", typeJson: "{\"fqn\":\"libvirt.network.NetworkForwardAddressesPci\"}", isOptional: true)]

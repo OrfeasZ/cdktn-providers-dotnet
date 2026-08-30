@@ -9,7 +9,7 @@ namespace libvirt.Domain
     {
         /// <summary>Enables or disables use of the host’s E820 memory map when exposing Xen emulation to the guest, typically as a yes/no style toggle (value is user-provided such as "on"/"off").</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#e820host Domain#e820host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#e820host Domain#e820host}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "e820Host", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesXenE820Host\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block determines whether passthrough sub‑options can be set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#passthrough Domain#passthrough}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#passthrough Domain#passthrough}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passthrough", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeaturesXenPassthrough\"}", isOptional: true)]

@@ -13,7 +13,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatstorage.html#backing-store-elements">https://libvirt.org/formatstorage.html#backing-store-elements</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#path Volume#path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#path Volume#path}
         /// </remarks>
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}")]
         public string Path
@@ -26,7 +26,7 @@ namespace libvirt.Volume
         /// <remarks>
         /// this must match the actual format of the backing image.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#format Volume#format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#format Volume#format}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"libvirt.volume.VolumeBackingStoreFormat\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace libvirt.Volume
 
         /// <summary>Configures POSIX ownership and SELinux label metadata for the backing store volume, controlling how the backing file is labeled and accessed on the host.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/volume#permissions Volume#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/volume#permissions Volume#permissions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissions", typeJson: "{\"fqn\":\"libvirt.volume.VolumeBackingStorePermissions\"}", isOptional: true)]

@@ -13,7 +13,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#device-logfile">https://libvirt.org/formatdomain.html#device-logfile</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#file Domain#file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#file Domain#file}
         /// </remarks>
         [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}")]
         public string File
@@ -28,7 +28,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#device-logfile">https://libvirt.org/formatdomain.html#device-logfile</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#append Domain#append}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#append Domain#append}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "append", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

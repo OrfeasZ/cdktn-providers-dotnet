@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#name Domain#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#name Domain#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -25,7 +25,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#element-and-attribute-overview">https://libvirt.org/formatdomain.html#element-and-attribute-overview</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type Domain#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type Domain#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -35,7 +35,7 @@ namespace libvirt.Domain
 
         /// <summary>Whether the domain should be started automatically when the host boots.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#autostart Domain#autostart}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#autostart Domain#autostart}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "autostart", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures bhyve-specific command-line passthrough for a domain, allowing extra arguments and environment variables to be appended through the bhyve XML namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bhyve_commandline Domain#bhyve_commandline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bhyve_commandline Domain#bhyve_commandline}
         /// </remarks>
         [JsiiProperty(name: "bhyveCommandline", typeJson: "{\"fqn\":\"libvirt.domain.DomainBhyveCommandline\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +64,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures block I/O cgroup tuning for the whole domain, such as global I/O weight or per-device throttling limits.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#block_io_tune Domain#block_io_tune}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#block_io_tune Domain#block_io_tune}
         /// </remarks>
         [JsiiProperty(name: "blockIoTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainBlockIoTune\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#host-bootloader">https://libvirt.org/formatdomain.html#host-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bootloader Domain#bootloader}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bootloader Domain#bootloader}
         /// </remarks>
         [JsiiProperty(name: "bootloader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#host-bootloader">https://libvirt.org/formatdomain.html#host-bootloader</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bootloader_args Domain#bootloader_args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bootloader_args Domain#bootloader_args}
         /// </remarks>
         [JsiiProperty(name: "bootloaderArgs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the guest’s clock source and base time behavior, including offset, starting point, and timers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#clock Domain#clock}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#clock Domain#clock}
         /// </remarks>
         [JsiiProperty(name: "clock", typeJson: "{\"fqn\":\"libvirt.domain.DomainClock\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -126,7 +126,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the virtual CPU model, features, cache, topology, and related behavior presented to the guest.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cpu Domain#cpu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cpu Domain#cpu}
         /// </remarks>
         [JsiiProperty(name: "cpu", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpu\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures CPU scheduling and tuning parameters for the domain, including vCPU pinning, quotas, cache tuning, and IOThread scheduling.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cpu_tune Domain#cpu_tune}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cpu_tune Domain#cpu_tune}
         /// </remarks>
         [JsiiProperty(name: "cpuTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuTune\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -154,7 +154,7 @@ namespace libvirt.Domain
 
         /// <summary>Start behavior flags passed to libvirt when running is true.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#create Domain#create}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#create Domain#create}
         /// </remarks>
         [JsiiProperty(name: "create", typeJson: "{\"fqn\":\"libvirt.domain.DomainCreate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -170,7 +170,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#current_memory Domain#current_memory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#current_memory Domain#current_memory}
         /// </remarks>
         [JsiiProperty(name: "currentMemory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -188,7 +188,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#current_memory_unit Domain#current_memory_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#current_memory_unit Domain#current_memory_unit}
         /// </remarks>
         [JsiiProperty(name: "currentMemoryUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -202,7 +202,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the default IOThread settings for the domain, including optional thread pool sizing for IOThreads created implicitly.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#default_io_thread Domain#default_io_thread}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#default_io_thread Domain#default_io_thread}
         /// </remarks>
         [JsiiProperty(name: "defaultIoThread", typeJson: "{\"fqn\":\"libvirt.domain.DomainDefaultIoThread\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -218,7 +218,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#description Domain#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#description Domain#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -232,7 +232,7 @@ namespace libvirt.Domain
 
         /// <summary>Destroy behavior when Terraform removes the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#destroy Domain#destroy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#destroy Domain#destroy}
         /// </remarks>
         [JsiiProperty(name: "destroy", typeJson: "{\"fqn\":\"libvirt.domain.DomainDestroy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -246,7 +246,7 @@ namespace libvirt.Domain
 
         /// <summary>Groups all device definitions attached to the domain, including disks, interfaces, audio, video, and other hardware devices.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#devices Domain#devices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#devices Domain#devices}
         /// </remarks>
         [JsiiProperty(name: "devices", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevices\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -260,7 +260,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables and configures hypervisor and CPU‑related features for the domain, such as ACPI, AIA, and other optional capabilities.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#features Domain#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#features Domain#features}
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeatures\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -278,7 +278,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#gen_id Domain#gen_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#gen_id Domain#gen_id}
         /// </remarks>
         [JsiiProperty(name: "genId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -296,7 +296,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hwuuid Domain#hwuuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hwuuid Domain#hwuuid}
         /// </remarks>
         [JsiiProperty(name: "hwuuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -312,7 +312,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// presence of this block enables explicit uid/gid mapping.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#id_map Domain#id_map}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#id_map Domain#id_map}
         /// </remarks>
         [JsiiProperty(name: "idMap", typeJson: "{\"fqn\":\"libvirt.domain.DomainIdMap\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -324,9 +324,20 @@ namespace libvirt.Domain
             }
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#iommufd Domain#iommufd}.</summary>
+        [JsiiProperty(name: "iommufd", typeJson: "{\"fqn\":\"libvirt.domain.DomainIommufd\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        libvirt.Domain.IDomainIommufd? Iommufd
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Configures the set of IOThread IDs available to the domain, allowing explicit control over which IOThreads exist.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#io_thread_i_ds Domain#io_thread_i_ds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#io_thread_i_ds Domain#io_thread_i_ds}
         /// </remarks>
         [JsiiProperty(name: "ioThreadIDs", typeJson: "{\"fqn\":\"libvirt.domain.DomainIoThreadIDs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -344,7 +355,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#iothreads-allocation">https://libvirt.org/formatdomain.html#iothreads-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#io_threads Domain#io_threads}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#io_threads Domain#io_threads}
         /// </remarks>
         [JsiiProperty(name: "ioThreads", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -358,7 +369,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures whether the guest is allowed to perform s390 key-wrapping cryptographic operations and which ciphers are permitted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#key_wrap Domain#key_wrap}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#key_wrap Domain#key_wrap}
         /// </remarks>
         [JsiiProperty(name: "keyWrap", typeJson: "{\"fqn\":\"libvirt.domain.DomainKeyWrap\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -372,7 +383,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures hardware-backed launch or confidential-computing security for the domain (such as s390-pv, AMD SEV, or SEV-SNP), with sub-blocks selecting the specific technology.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#launch_security Domain#launch_security}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#launch_security Domain#launch_security}
         /// </remarks>
         [JsiiProperty(name: "launchSecurity", typeJson: "{\"fqn\":\"libvirt.domain.DomainLaunchSecurity\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -386,7 +397,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures inherited Linux namespaces for LXC guests, allowing selected namespaces to be shared with another process or namespace provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#lxc_namespace Domain#lxc_namespace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#lxc_namespace Domain#lxc_namespace}
         /// </remarks>
         [JsiiProperty(name: "lxcNamespace", typeJson: "{\"fqn\":\"libvirt.domain.DomainLxcNamespace\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -402,7 +413,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#maximum_memory Domain#maximum_memory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#maximum_memory Domain#maximum_memory}
         /// </remarks>
         [JsiiProperty(name: "maximumMemory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -420,7 +431,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#maximum_memory_slots Domain#maximum_memory_slots}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#maximum_memory_slots Domain#maximum_memory_slots}
         /// </remarks>
         [JsiiProperty(name: "maximumMemorySlots", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -438,7 +449,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#maximum_memory_unit Domain#maximum_memory_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#maximum_memory_unit Domain#maximum_memory_unit}
         /// </remarks>
         [JsiiProperty(name: "maximumMemoryUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -456,7 +467,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory Domain#memory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory Domain#memory}
         /// </remarks>
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -470,7 +481,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures how the guest’s RAM is backed by host memory, including huge pages, locking, sharing, access policy, allocation policy, and discard behavior.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_backing Domain#memory_backing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_backing Domain#memory_backing}
         /// </remarks>
         [JsiiProperty(name: "memoryBacking", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBacking\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -488,7 +499,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_dump_core Domain#memory_dump_core}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_dump_core Domain#memory_dump_core}
         /// </remarks>
         [JsiiProperty(name: "memoryDumpCore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -502,7 +513,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures memory tuning parameters for the guest, including soft, hard, and swap limits and minimum guarantees.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_tune Domain#memory_tune}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_tune Domain#memory_tune}
         /// </remarks>
         [JsiiProperty(name: "memoryTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryTune\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -520,7 +531,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_unit Domain#memory_unit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_unit Domain#memory_unit}
         /// </remarks>
         [JsiiProperty(name: "memoryUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -534,7 +545,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures an arbitrary metadata block associated with the domain, typically used to store application- or tool-specific XML or other structured data.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#metadata Domain#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#metadata Domain#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"libvirt.domain.DomainMetadata\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -548,7 +559,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures NUMA policy for the domain process and its memory, controlling how guest CPUs and memory are placed on host NUMA nodes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#numa_tune Domain#numa_tune}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#numa_tune Domain#numa_tune}
         /// </remarks>
         [JsiiProperty(name: "numaTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainNumaTune\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -566,7 +577,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#events-configuration">https://libvirt.org/formatdomain.html#events-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#on_crash Domain#on_crash}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#on_crash Domain#on_crash}
         /// </remarks>
         [JsiiProperty(name: "onCrash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -584,7 +595,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#events-configuration">https://libvirt.org/formatdomain.html#events-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#on_poweroff Domain#on_poweroff}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#on_poweroff Domain#on_poweroff}
         /// </remarks>
         [JsiiProperty(name: "onPoweroff", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -602,7 +613,7 @@ namespace libvirt.Domain
         ///
         /// See: <a href="https://libvirt.org/formatdomain.html#events-configuration">https://libvirt.org/formatdomain.html#events-configuration</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#on_reboot Domain#on_reboot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#on_reboot Domain#on_reboot}
         /// </remarks>
         [JsiiProperty(name: "onReboot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -618,7 +629,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// All sub-attributes are optional and user-provided.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#os Domain#os}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#os Domain#os}
         /// </remarks>
         [JsiiProperty(name: "os", typeJson: "{\"fqn\":\"libvirt.domain.DomainOs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -632,7 +643,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables configuration of performance monitoring events exposed to the guest and collected by the hypervisor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#perf Domain#perf}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#perf Domain#perf}
         /// </remarks>
         [JsiiProperty(name: "perf", typeJson: "{\"fqn\":\"libvirt.domain.DomainPerf\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -646,7 +657,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures power management behavior advertised to the guest, such as support for suspend-to-RAM and suspend-to-disk.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#pm Domain#pm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#pm Domain#pm}
         /// </remarks>
         [JsiiProperty(name: "pm", typeJson: "{\"fqn\":\"libvirt.domain.DomainPm\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -660,7 +671,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures QEMU capability toggles through the QEMU namespace, allowing named capabilities to be explicitly added to or removed from the launched device model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_capabilities Domain#qemu_capabilities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_capabilities Domain#qemu_capabilities}
         /// </remarks>
         [JsiiProperty(name: "qemuCapabilities", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuCapabilities\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -674,7 +685,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures QEMU-specific command-line passthrough for a domain, allowing explicit extra arguments and environment variables to be passed through the dedicated QEMU XML namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_commandline Domain#qemu_commandline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_commandline Domain#qemu_commandline}
         /// </remarks>
         [JsiiProperty(name: "qemuCommandline", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuCommandline\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -688,7 +699,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the QEMU namespace deprecation behavior for the domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_deprecation Domain#qemu_deprecation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_deprecation Domain#qemu_deprecation}
         /// </remarks>
         [JsiiProperty(name: "qemuDeprecation", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuDeprecation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -702,7 +713,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures QEMU frontend property overrides in the QEMU namespace, targeting specific devices by alias and setting named frontend properties.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_override Domain#qemu_override}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_override Domain#qemu_override}
         /// </remarks>
         [JsiiProperty(name: "qemuOverride", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuOverride\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -716,7 +727,7 @@ namespace libvirt.Domain
 
         /// <summary>Groups resource-partitioning settings that associate the domain with hypervisor-specific resource partitions or classes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#resource Domain#resource}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#resource Domain#resource}
         /// </remarks>
         [JsiiProperty(name: "resource", typeJson: "{\"fqn\":\"libvirt.domain.DomainResource\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -730,7 +741,7 @@ namespace libvirt.Domain
 
         /// <summary>Whether the domain should be started after creation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#running Domain#running}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#running Domain#running}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "running", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -747,7 +758,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#security-label">https://libvirt.org/formatdomain.html#security-label</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sec_label Domain#sec_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sec_label Domain#sec_label}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSecLabel" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "secLabel", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSecLabel\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -764,7 +775,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#smbios-system-information">https://libvirt.org/formatdomain.html#smbios-system-information</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sys_info Domain#sys_info}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sys_info Domain#sys_info}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfo" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sysInfo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"libvirt.domain.DomainSysInfo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -779,7 +790,7 @@ namespace libvirt.Domain
 
         /// <summary>Enables configuration of one or more named disk I/O throttle groups that can be referenced by disk `throttlefilters` to apply shared I/O rate limits.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#throttle_groups Domain#throttle_groups}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#throttle_groups Domain#throttle_groups}
         /// </remarks>
         [JsiiProperty(name: "throttleGroups", typeJson: "{\"fqn\":\"libvirt.domain.DomainThrottleGroups\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -795,7 +806,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#title Domain#title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#title Domain#title}
         /// </remarks>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -809,7 +820,7 @@ namespace libvirt.Domain
 
         /// <summary>Update behavior when Terraform must stop the domain before redefining it.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#update Domain#update}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#update Domain#update}
         /// </remarks>
         [JsiiProperty(name: "update", typeJson: "{\"fqn\":\"libvirt.domain.DomainUpdate\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -825,7 +836,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu Domain#vcpu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu Domain#vcpu}
         /// </remarks>
         [JsiiProperty(name: "vcpu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -841,7 +852,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu_cpuset Domain#vcpu_cpuset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu_cpuset Domain#vcpu_cpuset}
         /// </remarks>
         [JsiiProperty(name: "vcpuCpuset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -857,7 +868,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu_current Domain#vcpu_current}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu_current Domain#vcpu_current}
         /// </remarks>
         [JsiiProperty(name: "vcpuCurrent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -873,7 +884,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu_placement Domain#vcpu_placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu_placement Domain#vcpu_placement}
         /// </remarks>
         [JsiiProperty(name: "vcpuPlacement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -889,7 +900,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// when present, it contains one or more vcpu entries that can individually control online state and pinning.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpus Domain#vcpus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpus Domain#vcpus}
         /// </remarks>
         [JsiiProperty(name: "vcpus", typeJson: "{\"fqn\":\"libvirt.domain.DomainVcpus\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -905,7 +916,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/drvesx.html">https://libvirt.org/drvesx.html</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vmware_data_center_path Domain#vmware_data_center_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vmware_data_center_path Domain#vmware_data_center_path}
         /// </remarks>
         [JsiiProperty(name: "vmwareDataCenterPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -919,7 +930,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures Xen-specific command-line passthrough to the qemu device model, using the Xen XML namespace for additional arguments.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xen_commandline Domain#xen_commandline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xen_commandline Domain#xen_commandline}
         /// </remarks>
         [JsiiProperty(name: "xenCommandline", typeJson: "{\"fqn\":\"libvirt.domain.DomainXenCommandline\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -942,7 +953,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#name Domain#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#name Domain#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -956,7 +967,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#element-and-attribute-overview">https://libvirt.org/formatdomain.html#element-and-attribute-overview</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#type Domain#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#type Domain#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -966,7 +977,7 @@ namespace libvirt.Domain
 
             /// <summary>Whether the domain should be started automatically when the host boots.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#autostart Domain#autostart}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#autostart Domain#autostart}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -978,7 +989,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures bhyve-specific command-line passthrough for a domain, allowing extra arguments and environment variables to be appended through the bhyve XML namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bhyve_commandline Domain#bhyve_commandline}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bhyve_commandline Domain#bhyve_commandline}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bhyveCommandline", typeJson: "{\"fqn\":\"libvirt.domain.DomainBhyveCommandline\"}", isOptional: true)]
@@ -989,7 +1000,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures block I/O cgroup tuning for the whole domain, such as global I/O weight or per-device throttling limits.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#block_io_tune Domain#block_io_tune}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#block_io_tune Domain#block_io_tune}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "blockIoTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainBlockIoTune\"}", isOptional: true)]
@@ -1002,7 +1013,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#host-bootloader">https://libvirt.org/formatdomain.html#host-bootloader</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bootloader Domain#bootloader}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bootloader Domain#bootloader}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bootloader", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1017,7 +1028,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#host-bootloader">https://libvirt.org/formatdomain.html#host-bootloader</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#bootloader_args Domain#bootloader_args}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#bootloader_args Domain#bootloader_args}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bootloaderArgs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1028,7 +1039,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures the guest’s clock source and base time behavior, including offset, starting point, and timers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#clock Domain#clock}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#clock Domain#clock}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clock", typeJson: "{\"fqn\":\"libvirt.domain.DomainClock\"}", isOptional: true)]
@@ -1039,7 +1050,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures the virtual CPU model, features, cache, topology, and related behavior presented to the guest.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cpu Domain#cpu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cpu Domain#cpu}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cpu", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpu\"}", isOptional: true)]
@@ -1050,7 +1061,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures CPU scheduling and tuning parameters for the domain, including vCPU pinning, quotas, cache tuning, and IOThread scheduling.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#cpu_tune Domain#cpu_tune}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#cpu_tune Domain#cpu_tune}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cpuTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuTune\"}", isOptional: true)]
@@ -1061,7 +1072,7 @@ namespace libvirt.Domain
 
             /// <summary>Start behavior flags passed to libvirt when running is true.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#create Domain#create}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#create Domain#create}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"fqn\":\"libvirt.domain.DomainCreate\"}", isOptional: true)]
@@ -1074,7 +1085,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#current_memory Domain#current_memory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#current_memory Domain#current_memory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "currentMemory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1089,7 +1100,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#current_memory_unit Domain#current_memory_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#current_memory_unit Domain#current_memory_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "currentMemoryUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1100,7 +1111,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures the default IOThread settings for the domain, including optional thread pool sizing for IOThreads created implicitly.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#default_io_thread Domain#default_io_thread}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#default_io_thread Domain#default_io_thread}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultIoThread", typeJson: "{\"fqn\":\"libvirt.domain.DomainDefaultIoThread\"}", isOptional: true)]
@@ -1113,7 +1124,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#description Domain#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#description Domain#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1124,7 +1135,7 @@ namespace libvirt.Domain
 
             /// <summary>Destroy behavior when Terraform removes the domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#destroy Domain#destroy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#destroy Domain#destroy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "destroy", typeJson: "{\"fqn\":\"libvirt.domain.DomainDestroy\"}", isOptional: true)]
@@ -1135,7 +1146,7 @@ namespace libvirt.Domain
 
             /// <summary>Groups all device definitions attached to the domain, including disks, interfaces, audio, video, and other hardware devices.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#devices Domain#devices}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#devices Domain#devices}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "devices", typeJson: "{\"fqn\":\"libvirt.domain.DomainDevices\"}", isOptional: true)]
@@ -1146,7 +1157,7 @@ namespace libvirt.Domain
 
             /// <summary>Enables and configures hypervisor and CPU‑related features for the domain, such as ACPI, AIA, and other optional capabilities.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#features Domain#features}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#features Domain#features}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"libvirt.domain.DomainFeatures\"}", isOptional: true)]
@@ -1161,7 +1172,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#gen_id Domain#gen_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#gen_id Domain#gen_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "genId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1176,7 +1187,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#hwuuid Domain#hwuuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#hwuuid Domain#hwuuid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hwuuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1189,7 +1200,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// presence of this block enables explicit uid/gid mapping.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#id_map Domain#id_map}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#id_map Domain#id_map}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "idMap", typeJson: "{\"fqn\":\"libvirt.domain.DomainIdMap\"}", isOptional: true)]
@@ -1198,9 +1209,17 @@ namespace libvirt.Domain
                 get => GetInstanceProperty<libvirt.Domain.IDomainIdMap?>();
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#iommufd Domain#iommufd}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "iommufd", typeJson: "{\"fqn\":\"libvirt.domain.DomainIommufd\"}", isOptional: true)]
+            public libvirt.Domain.IDomainIommufd? Iommufd
+            {
+                get => GetInstanceProperty<libvirt.Domain.IDomainIommufd?>();
+            }
+
             /// <summary>Configures the set of IOThread IDs available to the domain, allowing explicit control over which IOThreads exist.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#io_thread_i_ds Domain#io_thread_i_ds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#io_thread_i_ds Domain#io_thread_i_ds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ioThreadIDs", typeJson: "{\"fqn\":\"libvirt.domain.DomainIoThreadIDs\"}", isOptional: true)]
@@ -1215,7 +1234,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#iothreads-allocation">https://libvirt.org/formatdomain.html#iothreads-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#io_threads Domain#io_threads}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#io_threads Domain#io_threads}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ioThreads", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1226,7 +1245,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures whether the guest is allowed to perform s390 key-wrapping cryptographic operations and which ciphers are permitted.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#key_wrap Domain#key_wrap}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#key_wrap Domain#key_wrap}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keyWrap", typeJson: "{\"fqn\":\"libvirt.domain.DomainKeyWrap\"}", isOptional: true)]
@@ -1237,7 +1256,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures hardware-backed launch or confidential-computing security for the domain (such as s390-pv, AMD SEV, or SEV-SNP), with sub-blocks selecting the specific technology.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#launch_security Domain#launch_security}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#launch_security Domain#launch_security}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "launchSecurity", typeJson: "{\"fqn\":\"libvirt.domain.DomainLaunchSecurity\"}", isOptional: true)]
@@ -1248,7 +1267,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures inherited Linux namespaces for LXC guests, allowing selected namespaces to be shared with another process or namespace provider.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#lxc_namespace Domain#lxc_namespace}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#lxc_namespace Domain#lxc_namespace}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lxcNamespace", typeJson: "{\"fqn\":\"libvirt.domain.DomainLxcNamespace\"}", isOptional: true)]
@@ -1261,7 +1280,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#maximum_memory Domain#maximum_memory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#maximum_memory Domain#maximum_memory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maximumMemory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1276,7 +1295,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#maximum_memory_slots Domain#maximum_memory_slots}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#maximum_memory_slots Domain#maximum_memory_slots}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maximumMemorySlots", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1291,7 +1310,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#maximum_memory_unit Domain#maximum_memory_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#maximum_memory_unit Domain#maximum_memory_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maximumMemoryUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1306,7 +1325,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory Domain#memory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory Domain#memory}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1317,7 +1336,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures how the guest’s RAM is backed by host memory, including huge pages, locking, sharing, access policy, allocation policy, and discard behavior.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_backing Domain#memory_backing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_backing Domain#memory_backing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memoryBacking", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryBacking\"}", isOptional: true)]
@@ -1332,7 +1351,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_dump_core Domain#memory_dump_core}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_dump_core Domain#memory_dump_core}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memoryDumpCore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1343,7 +1362,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures memory tuning parameters for the guest, including soft, hard, and swap limits and minimum guarantees.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_tune Domain#memory_tune}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_tune Domain#memory_tune}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memoryTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainMemoryTune\"}", isOptional: true)]
@@ -1358,7 +1377,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#memory-allocation">https://libvirt.org/formatdomain.html#memory-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#memory_unit Domain#memory_unit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#memory_unit Domain#memory_unit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memoryUnit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1369,7 +1388,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures an arbitrary metadata block associated with the domain, typically used to store application- or tool-specific XML or other structured data.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#metadata Domain#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#metadata Domain#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"libvirt.domain.DomainMetadata\"}", isOptional: true)]
@@ -1380,7 +1399,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures NUMA policy for the domain process and its memory, controlling how guest CPUs and memory are placed on host NUMA nodes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#numa_tune Domain#numa_tune}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#numa_tune Domain#numa_tune}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "numaTune", typeJson: "{\"fqn\":\"libvirt.domain.DomainNumaTune\"}", isOptional: true)]
@@ -1395,7 +1414,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#events-configuration">https://libvirt.org/formatdomain.html#events-configuration</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#on_crash Domain#on_crash}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#on_crash Domain#on_crash}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onCrash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1410,7 +1429,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#events-configuration">https://libvirt.org/formatdomain.html#events-configuration</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#on_poweroff Domain#on_poweroff}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#on_poweroff Domain#on_poweroff}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onPoweroff", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1425,7 +1444,7 @@ namespace libvirt.Domain
             ///
             /// See: <a href="https://libvirt.org/formatdomain.html#events-configuration">https://libvirt.org/formatdomain.html#events-configuration</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#on_reboot Domain#on_reboot}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#on_reboot Domain#on_reboot}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onReboot", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1438,7 +1457,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// All sub-attributes are optional and user-provided.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#os Domain#os}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#os Domain#os}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "os", typeJson: "{\"fqn\":\"libvirt.domain.DomainOs\"}", isOptional: true)]
@@ -1449,7 +1468,7 @@ namespace libvirt.Domain
 
             /// <summary>Enables configuration of performance monitoring events exposed to the guest and collected by the hypervisor.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#perf Domain#perf}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#perf Domain#perf}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "perf", typeJson: "{\"fqn\":\"libvirt.domain.DomainPerf\"}", isOptional: true)]
@@ -1460,7 +1479,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures power management behavior advertised to the guest, such as support for suspend-to-RAM and suspend-to-disk.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#pm Domain#pm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#pm Domain#pm}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pm", typeJson: "{\"fqn\":\"libvirt.domain.DomainPm\"}", isOptional: true)]
@@ -1471,7 +1490,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures QEMU capability toggles through the QEMU namespace, allowing named capabilities to be explicitly added to or removed from the launched device model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_capabilities Domain#qemu_capabilities}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_capabilities Domain#qemu_capabilities}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "qemuCapabilities", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuCapabilities\"}", isOptional: true)]
@@ -1482,7 +1501,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures QEMU-specific command-line passthrough for a domain, allowing explicit extra arguments and environment variables to be passed through the dedicated QEMU XML namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_commandline Domain#qemu_commandline}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_commandline Domain#qemu_commandline}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "qemuCommandline", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuCommandline\"}", isOptional: true)]
@@ -1493,7 +1512,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures the QEMU namespace deprecation behavior for the domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_deprecation Domain#qemu_deprecation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_deprecation Domain#qemu_deprecation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "qemuDeprecation", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuDeprecation\"}", isOptional: true)]
@@ -1504,7 +1523,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures QEMU frontend property overrides in the QEMU namespace, targeting specific devices by alias and setting named frontend properties.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#qemu_override Domain#qemu_override}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#qemu_override Domain#qemu_override}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "qemuOverride", typeJson: "{\"fqn\":\"libvirt.domain.DomainQemuOverride\"}", isOptional: true)]
@@ -1515,7 +1534,7 @@ namespace libvirt.Domain
 
             /// <summary>Groups resource-partitioning settings that associate the domain with hypervisor-specific resource partitions or classes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#resource Domain#resource}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#resource Domain#resource}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resource", typeJson: "{\"fqn\":\"libvirt.domain.DomainResource\"}", isOptional: true)]
@@ -1526,7 +1545,7 @@ namespace libvirt.Domain
 
             /// <summary>Whether the domain should be started after creation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#running Domain#running}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#running Domain#running}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -1540,7 +1559,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#security-label">https://libvirt.org/formatdomain.html#security-label</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sec_label Domain#sec_label}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sec_label Domain#sec_label}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSecLabel" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -1554,7 +1573,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#smbios-system-information">https://libvirt.org/formatdomain.html#smbios-system-information</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#sys_info Domain#sys_info}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#sys_info Domain#sys_info}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="libvirt.Domain.IDomainSysInfo" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -1566,7 +1585,7 @@ namespace libvirt.Domain
 
             /// <summary>Enables configuration of one or more named disk I/O throttle groups that can be referenced by disk `throttlefilters` to apply shared I/O rate limits.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#throttle_groups Domain#throttle_groups}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#throttle_groups Domain#throttle_groups}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "throttleGroups", typeJson: "{\"fqn\":\"libvirt.domain.DomainThrottleGroups\"}", isOptional: true)]
@@ -1579,7 +1598,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#general-metadata">https://libvirt.org/formatdomain.html#general-metadata</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#title Domain#title}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#title Domain#title}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1590,7 +1609,7 @@ namespace libvirt.Domain
 
             /// <summary>Update behavior when Terraform must stop the domain before redefining it.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#update Domain#update}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#update Domain#update}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"fqn\":\"libvirt.domain.DomainUpdate\"}", isOptional: true)]
@@ -1603,7 +1622,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu Domain#vcpu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu Domain#vcpu}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vcpu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1616,7 +1635,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu_cpuset Domain#vcpu_cpuset}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu_cpuset Domain#vcpu_cpuset}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vcpuCpuset", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1629,7 +1648,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu_current Domain#vcpu_current}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu_current Domain#vcpu_current}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vcpuCurrent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -1642,7 +1661,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#cpu-allocation">https://libvirt.org/formatdomain.html#cpu-allocation</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpu_placement Domain#vcpu_placement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpu_placement Domain#vcpu_placement}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vcpuPlacement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1655,7 +1674,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// when present, it contains one or more vcpu entries that can individually control online state and pinning.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vcpus Domain#vcpus}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vcpus Domain#vcpus}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vcpus", typeJson: "{\"fqn\":\"libvirt.domain.DomainVcpus\"}", isOptional: true)]
@@ -1668,7 +1687,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/drvesx.html">https://libvirt.org/drvesx.html</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#vmware_data_center_path Domain#vmware_data_center_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#vmware_data_center_path Domain#vmware_data_center_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vmwareDataCenterPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -1679,7 +1698,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures Xen-specific command-line passthrough to the qemu device model, using the Xen XML namespace for additional arguments.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#xen_commandline Domain#xen_commandline}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#xen_commandline Domain#xen_commandline}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "xenCommandline", typeJson: "{\"fqn\":\"libvirt.domain.DomainXenCommandline\"}", isOptional: true)]

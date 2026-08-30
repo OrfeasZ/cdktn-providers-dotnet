@@ -11,7 +11,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table">https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#associativity Domain#associativity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#associativity Domain#associativity}
         /// </remarks>
         [JsiiProperty(name: "associativity", typeJson: "{\"primitive\":\"string\"}")]
         string Associativity
@@ -23,7 +23,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table">https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#level Domain#level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#level Domain#level}
         /// </remarks>
         [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"number\"}")]
         double Level
@@ -35,7 +35,7 @@ namespace libvirt.Domain
         /// <remarks>
         /// See: <a href="https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table">https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#policy Domain#policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#policy Domain#policy}
         /// </remarks>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         string Policy
@@ -45,7 +45,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the cache line size for a memory-side cache in a NUMA cell, via a value and unit pair.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#line Domain#line}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#line Domain#line}
         /// </remarks>
         [JsiiProperty(name: "line", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuNumaCellCachesLine\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace libvirt.Domain
 
         /// <summary>Configures the total size of a memory-side cache in a NUMA cell, via a value and unit pair.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#size Domain#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#size Domain#size}
         /// </remarks>
         [JsiiProperty(name: "size", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuNumaCellCachesSize\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table">https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#associativity Domain#associativity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#associativity Domain#associativity}
             /// </remarks>
             [JsiiProperty(name: "associativity", typeJson: "{\"primitive\":\"string\"}")]
             public string Associativity
@@ -94,7 +94,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table">https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#level Domain#level}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#level Domain#level}
             /// </remarks>
             [JsiiProperty(name: "level", typeJson: "{\"primitive\":\"number\"}")]
             public double Level
@@ -106,7 +106,7 @@ namespace libvirt.Domain
             /// <remarks>
             /// See: <a href="https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table">https://libvirt.org/formatdomain.html#acpi-heterogeneous-memory-attribute-table</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#policy Domain#policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#policy Domain#policy}
             /// </remarks>
             [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
             public string Policy
@@ -116,7 +116,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures the cache line size for a memory-side cache in a NUMA cell, via a value and unit pair.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#line Domain#line}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#line Domain#line}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "line", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuNumaCellCachesLine\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace libvirt.Domain
 
             /// <summary>Configures the total size of a memory-side cache in a NUMA cell, via a value and unit pair.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.8/docs/resources/domain#size Domain#size}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/dmacvicar/libvirt/0.9.9/docs/resources/domain#size Domain#size}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "size", typeJson: "{\"fqn\":\"libvirt.domain.DomainCpuNumaCellCachesSize\"}", isOptional: true)]
