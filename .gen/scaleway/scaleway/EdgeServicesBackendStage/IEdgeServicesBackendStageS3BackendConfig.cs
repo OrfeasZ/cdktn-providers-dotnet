@@ -9,7 +9,7 @@ namespace scaleway.EdgeServicesBackendStage
     {
         /// <summary>The name of the Bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#bucket_name EdgeServicesBackendStage#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#bucket_name EdgeServicesBackendStage#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.EdgeServicesBackendStage
 
         /// <summary>The region of the Bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#bucket_region EdgeServicesBackendStage#bucket_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#bucket_region EdgeServicesBackendStage#bucket_region}
         /// </remarks>
         [JsiiProperty(name: "bucketRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace scaleway.EdgeServicesBackendStage
 
         /// <summary>Defines whether the bucket website feature is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#is_website EdgeServicesBackendStage#is_website}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#is_website EdgeServicesBackendStage#is_website}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isWebsite", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace scaleway.EdgeServicesBackendStage
 
             /// <summary>The name of the Bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#bucket_name EdgeServicesBackendStage#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#bucket_name EdgeServicesBackendStage#bucket_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.EdgeServicesBackendStage
 
             /// <summary>The region of the Bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#bucket_region EdgeServicesBackendStage#bucket_region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#bucket_region EdgeServicesBackendStage#bucket_region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bucketRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.EdgeServicesBackendStage
 
             /// <summary>Defines whether the bucket website feature is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#is_website EdgeServicesBackendStage#is_website}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#is_website EdgeServicesBackendStage#is_website}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

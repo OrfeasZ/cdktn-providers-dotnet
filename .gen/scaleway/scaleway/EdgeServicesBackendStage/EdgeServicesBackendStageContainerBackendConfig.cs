@@ -11,7 +11,7 @@ namespace scaleway.EdgeServicesBackendStage
     {
         /// <summary>ID of the Serverless Container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#container_id EdgeServicesBackendStage#container_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#container_id EdgeServicesBackendStage#container_id}
         /// </remarks>
         [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerId
@@ -22,7 +22,7 @@ namespace scaleway.EdgeServicesBackendStage
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/edge_services_backend_stage#region EdgeServicesBackendStage#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/edge_services_backend_stage#region EdgeServicesBackendStage#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

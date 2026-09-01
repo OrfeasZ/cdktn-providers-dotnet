@@ -9,7 +9,7 @@ namespace scaleway.MnqSnsTopicSubscription
     {
         /// <summary>SNS access key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#access_key MnqSnsTopicSubscription#access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#access_key MnqSnsTopicSubscription#access_key}
         /// </remarks>
         [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}")]
         string AccessKey
@@ -19,7 +19,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>Protocol of the SNS Topic Subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#protocol MnqSnsTopicSubscription#protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#protocol MnqSnsTopicSubscription#protocol}
         /// </remarks>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
@@ -29,7 +29,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>SNS secret key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#secret_key MnqSnsTopicSubscription#secret_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#secret_key MnqSnsTopicSubscription#secret_key}
         /// </remarks>
         [JsiiProperty(name: "secretKey", typeJson: "{\"primitive\":\"string\"}")]
         string SecretKey
@@ -39,7 +39,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>Endpoint of the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#endpoint MnqSnsTopicSubscription#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#endpoint MnqSnsTopicSubscription#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace scaleway.MnqSnsTopicSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#id MnqSnsTopicSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#id MnqSnsTopicSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#project_id MnqSnsTopicSubscription#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#project_id MnqSnsTopicSubscription#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>JSON Redrive policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#redrive_policy MnqSnsTopicSubscription#redrive_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#redrive_policy MnqSnsTopicSubscription#redrive_policy}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "redrivePolicy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#region MnqSnsTopicSubscription#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#region MnqSnsTopicSubscription#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +111,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>SNS endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#sns_endpoint MnqSnsTopicSubscription#sns_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#sns_endpoint MnqSnsTopicSubscription#sns_endpoint}
         /// </remarks>
         [JsiiProperty(name: "snsEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -125,7 +125,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>ARN of the topic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#topic_arn MnqSnsTopicSubscription#topic_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#topic_arn MnqSnsTopicSubscription#topic_arn}
         /// </remarks>
         [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -139,7 +139,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
         /// <summary>ID of the topic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#topic_id MnqSnsTopicSubscription#topic_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#topic_id MnqSnsTopicSubscription#topic_id}
         /// </remarks>
         [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -160,7 +160,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>SNS access key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#access_key MnqSnsTopicSubscription#access_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#access_key MnqSnsTopicSubscription#access_key}
             /// </remarks>
             [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessKey
@@ -170,7 +170,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>Protocol of the SNS Topic Subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#protocol MnqSnsTopicSubscription#protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#protocol MnqSnsTopicSubscription#protocol}
             /// </remarks>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
@@ -180,7 +180,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>SNS secret key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#secret_key MnqSnsTopicSubscription#secret_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#secret_key MnqSnsTopicSubscription#secret_key}
             /// </remarks>
             [JsiiProperty(name: "secretKey", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretKey
@@ -190,7 +190,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>Endpoint of the subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#endpoint MnqSnsTopicSubscription#endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#endpoint MnqSnsTopicSubscription#endpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace scaleway.MnqSnsTopicSubscription
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#id MnqSnsTopicSubscription#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#id MnqSnsTopicSubscription#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -213,7 +213,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#project_id MnqSnsTopicSubscription#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#project_id MnqSnsTopicSubscription#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -224,7 +224,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>JSON Redrive policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#redrive_policy MnqSnsTopicSubscription#redrive_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#redrive_policy MnqSnsTopicSubscription#redrive_policy}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -236,7 +236,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#region MnqSnsTopicSubscription#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#region MnqSnsTopicSubscription#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -247,7 +247,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>SNS endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#sns_endpoint MnqSnsTopicSubscription#sns_endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#sns_endpoint MnqSnsTopicSubscription#sns_endpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snsEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -258,7 +258,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>ARN of the topic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#topic_arn MnqSnsTopicSubscription#topic_arn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#topic_arn MnqSnsTopicSubscription#topic_arn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "topicArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -269,7 +269,7 @@ namespace scaleway.MnqSnsTopicSubscription
 
             /// <summary>ID of the topic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/mnq_sns_topic_subscription#topic_id MnqSnsTopicSubscription#topic_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/mnq_sns_topic_subscription#topic_id MnqSnsTopicSubscription#topic_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "topicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

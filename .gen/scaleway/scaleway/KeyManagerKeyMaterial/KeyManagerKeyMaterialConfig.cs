@@ -13,7 +13,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// The key's origin must be external (UUID format). Can be a plain UUID or a regional ID.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#key_id KeyManagerKeyMaterial#key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#key_id KeyManagerKeyMaterial#key_id}
         /// </remarks>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyId
@@ -26,7 +26,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// The key material is a random sequence of bytes used to derive a cryptographic key. Can be provided as raw bytes or a base64-encoded string (the provider will automatically normalize the input).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#key_material KeyManagerKeyMaterial#key_material}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#key_material KeyManagerKeyMaterial#key_material}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyMaterial", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// The key material is a random sequence of bytes used to derive a cryptographic key. Can be provided as raw bytes or a base64-encoded string (the provider will automatically normalize the input). The key material will not be stored in the Terraform state.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#key_material_wo KeyManagerKeyMaterial#key_material_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#key_material_wo KeyManagerKeyMaterial#key_material_wo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyMaterialWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// Increment this value to trigger resource recreation. Required when using 'key_material_wo'.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#key_material_wo_version KeyManagerKeyMaterial#key_material_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#key_material_wo_version KeyManagerKeyMaterial#key_material_wo_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyMaterialWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// If not set, the region is derived from the key_id when possible or from the provider configuration.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#region KeyManagerKeyMaterial#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#region KeyManagerKeyMaterial#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// A salt is random data added to key material to ensure unique derived keys, even if the input is similar. It helps strengthen security when the key material has low randomness (low entropy). Can be provided as raw bytes or a base64-encoded string (the provider will automatically normalize the input).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#salt KeyManagerKeyMaterial#salt}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#salt KeyManagerKeyMaterial#salt}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "salt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// A salt is random data added to key material to ensure unique derived keys. Can be provided as raw bytes or a base64-encoded string (the provider will automatically normalize the input). The salt will not be stored in the Terraform state.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#salt_wo KeyManagerKeyMaterial#salt_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#salt_wo KeyManagerKeyMaterial#salt_wo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "saltWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace scaleway.KeyManagerKeyMaterial
         /// <remarks>
         /// Increment this value to recreate the resource with new salt. Required when using 'salt_wo'.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/key_manager_key_material#salt_wo_version KeyManagerKeyMaterial#salt_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/key_manager_key_material#salt_wo_version KeyManagerKeyMaterial#salt_wo_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "saltWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

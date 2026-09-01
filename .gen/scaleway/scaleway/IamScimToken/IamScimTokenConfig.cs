@@ -11,7 +11,7 @@ namespace scaleway.IamScimToken
     {
         /// <summary>The SCIM configuration ID for which to create the token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/iam_scim_token#scim_id IamScimToken#scim_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/iam_scim_token#scim_id IamScimToken#scim_id}
         /// </remarks>
         [JsiiProperty(name: "scimId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScimId
@@ -22,7 +22,7 @@ namespace scaleway.IamScimToken
 
         /// <summary>The organization ID. If not provided, the default organization configured in the provider is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/iam_scim_token#organization_id IamScimToken#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/iam_scim_token#organization_id IamScimToken#organization_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

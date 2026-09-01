@@ -11,7 +11,7 @@ namespace scaleway.InstanceServer
     {
         /// <summary>The instance type of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#type InstanceServer#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#type InstanceServer#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The additional volumes attached to the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#additional_volume_ids InstanceServer#additional_volume_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#additional_volume_ids InstanceServer#additional_volume_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalVolumeIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The ID of the IAM SSH key used to encrypt the initial admin password on a Windows server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#admin_password_encryption_ssh_key_id InstanceServer#admin_password_encryption_ssh_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#admin_password_encryption_ssh_key_id InstanceServer#admin_password_encryption_ssh_key_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "adminPasswordEncryptionSshKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>ID of the target bootscript (set boot_type to bootscript).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#bootscript_id InstanceServer#bootscript_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#bootscript_id InstanceServer#bootscript_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bootscriptId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The boot type of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#boot_type InstanceServer#boot_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#boot_type InstanceServer#boot_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bootType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The cloud init script associated with this server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#cloud_init InstanceServer#cloud_init}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#cloud_init InstanceServer#cloud_init}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudInit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Enable dynamic IP on the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#enable_dynamic_ip InstanceServer#enable_dynamic_ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#enable_dynamic_ip InstanceServer#enable_dynamic_ip}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -119,7 +119,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>filesystems block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#filesystems InstanceServer#filesystems}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#filesystems InstanceServer#filesystems}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerFilesystems" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -150,7 +150,7 @@ namespace scaleway.InstanceServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#id InstanceServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#id InstanceServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -165,7 +165,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The UUID or the label of the base image used by the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#image InstanceServer#image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#image InstanceServer#image}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The ID of the reserved IP for the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#ip_id InstanceServer#ip_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#ip_id InstanceServer#ip_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The IDs of the reserved IP for the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#ip_ids InstanceServer#ip_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#ip_ids InstanceServer#ip_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -201,7 +201,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The name of the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#name InstanceServer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#name InstanceServer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The placement group the server is attached to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#placement_group_id InstanceServer#placement_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#placement_group_id InstanceServer#placement_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "placementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -227,7 +227,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>private_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#private_ips InstanceServer#private_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#private_ips InstanceServer#private_ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPrivateIps" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -262,7 +262,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>private_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#private_network InstanceServer#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#private_network InstanceServer#private_network}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPrivateNetwork" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -295,7 +295,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#project_id InstanceServer#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#project_id InstanceServer#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>If true, the instance is protected against accidental deletion via the Scaleway API.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#protected InstanceServer#protected}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#protected InstanceServer#protected}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -344,7 +344,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>public_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#public_ips InstanceServer#public_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#public_ips InstanceServer#public_ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceServer.IInstanceServerPublicIps" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -379,7 +379,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>Delete and re-create server if type change.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#replace_on_type_change InstanceServer#replace_on_type_change}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#replace_on_type_change InstanceServer#replace_on_type_change}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -412,7 +412,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>root_volume block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#root_volume InstanceServer#root_volume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#root_volume InstanceServer#root_volume}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rootVolume", typeJson: "{\"fqn\":\"scaleway.instanceServer.InstanceServerRootVolume\"}", isOptional: true)]
@@ -424,7 +424,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The security group the server is attached to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#security_group_id InstanceServer#security_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#security_group_id InstanceServer#security_group_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -436,7 +436,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The state of the server should be: started, stopped, standby.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#state InstanceServer#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#state InstanceServer#state}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -448,7 +448,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The tags associated with the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#tags InstanceServer#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#tags InstanceServer#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -460,7 +460,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#timeouts InstanceServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#timeouts InstanceServer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instanceServer.InstanceServerTimeouts\"}", isOptional: true)]
@@ -472,7 +472,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The user data associated with the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#user_data InstanceServer#user_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#user_data InstanceServer#user_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userData", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -484,7 +484,7 @@ namespace scaleway.InstanceServer
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/instance_server#zone InstanceServer#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/instance_server#zone InstanceServer#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

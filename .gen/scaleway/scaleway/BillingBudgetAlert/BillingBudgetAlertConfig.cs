@@ -11,7 +11,7 @@ namespace scaleway.BillingBudgetAlert
     {
         /// <summary>The ID of the budget to create alert for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/billing_budget_alert#budget_id BillingBudgetAlert#budget_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/billing_budget_alert#budget_id BillingBudgetAlert#budget_id}
         /// </remarks>
         [JsiiProperty(name: "budgetId", typeJson: "{\"primitive\":\"string\"}")]
         public string BudgetId
@@ -22,7 +22,7 @@ namespace scaleway.BillingBudgetAlert
 
         /// <summary>Threshold percentage above which the alert is sent (0-100).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.81.0/docs/resources/billing_budget_alert#threshold BillingBudgetAlert#threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/billing_budget_alert#threshold BillingBudgetAlert#threshold}
         /// </remarks>
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}")]
         public double Threshold
