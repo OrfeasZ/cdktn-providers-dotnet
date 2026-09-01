@@ -9,7 +9,7 @@ namespace acme.Certificate
     [JsiiByValue(fqn: "acme.certificate.CertificateDnsChallenge")]
     public class CertificateDnsChallenge : acme.Certificate.ICertificateDnsChallenge
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/3.0.0/docs/resources/certificate#provider Certificate#provider}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/3.0.1/docs/resources/certificate#provider Certificate#provider}.</summary>
         [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}")]
         public string Provider
         {
@@ -17,7 +17,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/3.0.0/docs/resources/certificate#config Certificate#config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/3.0.1/docs/resources/certificate#config Certificate#config}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "config", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Config
@@ -26,7 +26,7 @@ namespace acme.Certificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/3.0.0/docs/resources/certificate#match_domains Certificate#match_domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vancluever/acme/3.0.1/docs/resources/certificate#match_domains Certificate#match_domains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchDomains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MatchDomains
