@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsConfig")]
     public interface IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#database_tools_connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#database_tools_connection_id}.</summary>
         [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsConnectionId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#database_tools_connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#database_tools_connection_id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#database_tools_connection_id}.</summary>
             [JsiiProperty(name: "databaseToolsConnectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsConnectionId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#filter DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials.IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credentials#id DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentials#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

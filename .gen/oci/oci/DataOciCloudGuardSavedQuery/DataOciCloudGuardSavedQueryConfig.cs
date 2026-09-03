@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardSavedQuery
     [JsiiByValue(fqn: "oci.dataOciCloudGuardSavedQuery.DataOciCloudGuardSavedQueryConfig")]
     public class DataOciCloudGuardSavedQueryConfig : oci.DataOciCloudGuardSavedQuery.IDataOciCloudGuardSavedQueryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_guard_saved_query#saved_query_id DataOciCloudGuardSavedQuery#saved_query_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_guard_saved_query#saved_query_id DataOciCloudGuardSavedQuery#saved_query_id}.</summary>
         [JsiiProperty(name: "savedQueryId", typeJson: "{\"primitive\":\"string\"}")]
         public string SavedQueryId
         {

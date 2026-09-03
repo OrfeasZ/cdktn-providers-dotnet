@@ -7,14 +7,14 @@ namespace oci.DatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseDatabaseEncryptionKeyLocationDetails), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabaseDatabaseEncryptionKeyLocationDetails")]
     public interface IDatabaseDatabaseDatabaseEncryptionKeyLocationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#provider_type DatabaseDatabase#provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#provider_type DatabaseDatabase#provider_type}.</summary>
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         string ProviderType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#aws_encryption_key_id DatabaseDatabase#aws_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#aws_encryption_key_id DatabaseDatabase#aws_encryption_key_id}.</summary>
         [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AwsEncryptionKeyId
@@ -25,7 +25,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#azure_encryption_key_id DatabaseDatabase#azure_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#azure_encryption_key_id DatabaseDatabase#azure_encryption_key_id}.</summary>
         [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AzureEncryptionKeyId
@@ -36,7 +36,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#google_cloud_provider_encryption_key_id DatabaseDatabase#google_cloud_provider_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#google_cloud_provider_encryption_key_id DatabaseDatabase#google_cloud_provider_encryption_key_id}.</summary>
         [JsiiProperty(name: "googleCloudProviderEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GoogleCloudProviderEncryptionKeyId
@@ -47,7 +47,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#hsm_password DatabaseDatabase#hsm_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#hsm_password DatabaseDatabase#hsm_password}.</summary>
         [JsiiProperty(name: "hsmPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HsmPassword
@@ -65,14 +65,14 @@ namespace oci.DatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#provider_type DatabaseDatabase#provider_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#provider_type DatabaseDatabase#provider_type}.</summary>
             [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
             public string ProviderType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#aws_encryption_key_id DatabaseDatabase#aws_encryption_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#aws_encryption_key_id DatabaseDatabase#aws_encryption_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AwsEncryptionKeyId
@@ -80,7 +80,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#azure_encryption_key_id DatabaseDatabase#azure_encryption_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#azure_encryption_key_id DatabaseDatabase#azure_encryption_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AzureEncryptionKeyId
@@ -88,7 +88,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#google_cloud_provider_encryption_key_id DatabaseDatabase#google_cloud_provider_encryption_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#google_cloud_provider_encryption_key_id DatabaseDatabase#google_cloud_provider_encryption_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "googleCloudProviderEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GoogleCloudProviderEncryptionKeyId
@@ -96,7 +96,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#hsm_password DatabaseDatabase#hsm_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#hsm_password DatabaseDatabase#hsm_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hsmPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HsmPassword

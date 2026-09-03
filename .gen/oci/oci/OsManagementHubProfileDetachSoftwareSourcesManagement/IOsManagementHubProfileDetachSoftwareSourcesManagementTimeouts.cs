@@ -7,7 +7,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubProfileDetachSoftwareSourcesManagementTimeouts), fullyQualifiedName: "oci.osManagementHubProfileDetachSoftwareSourcesManagement.OsManagementHubProfileDetachSoftwareSourcesManagementTimeouts")]
     public interface IOsManagementHubProfileDetachSoftwareSourcesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_detach_software_sources_management#create OsManagementHubProfileDetachSoftwareSourcesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_profile_detach_software_sources_management#create OsManagementHubProfileDetachSoftwareSourcesManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_detach_software_sources_management#delete OsManagementHubProfileDetachSoftwareSourcesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_profile_detach_software_sources_management#delete OsManagementHubProfileDetachSoftwareSourcesManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_detach_software_sources_management#update OsManagementHubProfileDetachSoftwareSourcesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_profile_detach_software_sources_management#update OsManagementHubProfileDetachSoftwareSourcesManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_detach_software_sources_management#create OsManagementHubProfileDetachSoftwareSourcesManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_profile_detach_software_sources_management#create OsManagementHubProfileDetachSoftwareSourcesManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_detach_software_sources_management#delete OsManagementHubProfileDetachSoftwareSourcesManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_profile_detach_software_sources_management#delete OsManagementHubProfileDetachSoftwareSourcesManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.OsManagementHubProfileDetachSoftwareSourcesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_profile_detach_software_sources_management#update OsManagementHubProfileDetachSoftwareSourcesManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_profile_detach_software_sources_management#update OsManagementHubProfileDetachSoftwareSourcesManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

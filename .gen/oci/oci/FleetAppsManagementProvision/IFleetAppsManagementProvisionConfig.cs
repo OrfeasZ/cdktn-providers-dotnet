@@ -7,49 +7,49 @@ namespace oci.FleetAppsManagementProvision
     [JsiiInterface(nativeType: typeof(IFleetAppsManagementProvisionConfig), fullyQualifiedName: "oci.fleetAppsManagementProvision.FleetAppsManagementProvisionConfig")]
     public interface IFleetAppsManagementProvisionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#compartment_id FleetAppsManagementProvision#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#compartment_id FleetAppsManagementProvision#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#config_catalog_item_id FleetAppsManagementProvision#config_catalog_item_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#config_catalog_item_id FleetAppsManagementProvision#config_catalog_item_id}.</summary>
         [JsiiProperty(name: "configCatalogItemId", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigCatalogItemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#fleet_id FleetAppsManagementProvision#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#fleet_id FleetAppsManagementProvision#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         string FleetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#package_catalog_item_id FleetAppsManagementProvision#package_catalog_item_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#package_catalog_item_id FleetAppsManagementProvision#package_catalog_item_id}.</summary>
         [JsiiProperty(name: "packageCatalogItemId", typeJson: "{\"primitive\":\"string\"}")]
         string PackageCatalogItemId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_region_id FleetAppsManagementProvision#tf_variable_region_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_region_id FleetAppsManagementProvision#tf_variable_region_id}.</summary>
         [JsiiProperty(name: "tfVariableRegionId", typeJson: "{\"primitive\":\"string\"}")]
         string TfVariableRegionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_tenancy_id FleetAppsManagementProvision#tf_variable_tenancy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_tenancy_id FleetAppsManagementProvision#tf_variable_tenancy_id}.</summary>
         [JsiiProperty(name: "tfVariableTenancyId", typeJson: "{\"primitive\":\"string\"}")]
         string TfVariableTenancyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#defined_tags FleetAppsManagementProvision#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#defined_tags FleetAppsManagementProvision#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -60,7 +60,7 @@ namespace oci.FleetAppsManagementProvision
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#display_name FleetAppsManagementProvision#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#display_name FleetAppsManagementProvision#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -71,7 +71,7 @@ namespace oci.FleetAppsManagementProvision
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#freeform_tags FleetAppsManagementProvision#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#freeform_tags FleetAppsManagementProvision#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -82,7 +82,7 @@ namespace oci.FleetAppsManagementProvision
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#id FleetAppsManagementProvision#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#id FleetAppsManagementProvision#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace oci.FleetAppsManagementProvision
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#provision_description FleetAppsManagementProvision#provision_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#provision_description FleetAppsManagementProvision#provision_description}.</summary>
         [JsiiProperty(name: "provisionDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProvisionDescription
@@ -108,7 +108,7 @@ namespace oci.FleetAppsManagementProvision
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_compartment_id FleetAppsManagementProvision#tf_variable_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_compartment_id FleetAppsManagementProvision#tf_variable_compartment_id}.</summary>
         [JsiiProperty(name: "tfVariableCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TfVariableCompartmentId
@@ -119,7 +119,7 @@ namespace oci.FleetAppsManagementProvision
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_current_user_id FleetAppsManagementProvision#tf_variable_current_user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_current_user_id FleetAppsManagementProvision#tf_variable_current_user_id}.</summary>
         [JsiiProperty(name: "tfVariableCurrentUserId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TfVariableCurrentUserId
@@ -132,7 +132,7 @@ namespace oci.FleetAppsManagementProvision
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#timeouts FleetAppsManagementProvision#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#timeouts FleetAppsManagementProvision#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.fleetAppsManagementProvision.FleetAppsManagementProvisionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -151,49 +151,49 @@ namespace oci.FleetAppsManagementProvision
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#compartment_id FleetAppsManagementProvision#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#compartment_id FleetAppsManagementProvision#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#config_catalog_item_id FleetAppsManagementProvision#config_catalog_item_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#config_catalog_item_id FleetAppsManagementProvision#config_catalog_item_id}.</summary>
             [JsiiProperty(name: "configCatalogItemId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigCatalogItemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#fleet_id FleetAppsManagementProvision#fleet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#fleet_id FleetAppsManagementProvision#fleet_id}.</summary>
             [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
             public string FleetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#package_catalog_item_id FleetAppsManagementProvision#package_catalog_item_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#package_catalog_item_id FleetAppsManagementProvision#package_catalog_item_id}.</summary>
             [JsiiProperty(name: "packageCatalogItemId", typeJson: "{\"primitive\":\"string\"}")]
             public string PackageCatalogItemId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_region_id FleetAppsManagementProvision#tf_variable_region_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_region_id FleetAppsManagementProvision#tf_variable_region_id}.</summary>
             [JsiiProperty(name: "tfVariableRegionId", typeJson: "{\"primitive\":\"string\"}")]
             public string TfVariableRegionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_tenancy_id FleetAppsManagementProvision#tf_variable_tenancy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_tenancy_id FleetAppsManagementProvision#tf_variable_tenancy_id}.</summary>
             [JsiiProperty(name: "tfVariableTenancyId", typeJson: "{\"primitive\":\"string\"}")]
             public string TfVariableTenancyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#defined_tags FleetAppsManagementProvision#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#defined_tags FleetAppsManagementProvision#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -201,7 +201,7 @@ namespace oci.FleetAppsManagementProvision
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#display_name FleetAppsManagementProvision#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#display_name FleetAppsManagementProvision#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -209,7 +209,7 @@ namespace oci.FleetAppsManagementProvision
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#freeform_tags FleetAppsManagementProvision#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#freeform_tags FleetAppsManagementProvision#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -217,7 +217,7 @@ namespace oci.FleetAppsManagementProvision
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#id FleetAppsManagementProvision#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#id FleetAppsManagementProvision#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -229,7 +229,7 @@ namespace oci.FleetAppsManagementProvision
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#provision_description FleetAppsManagementProvision#provision_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#provision_description FleetAppsManagementProvision#provision_description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "provisionDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProvisionDescription
@@ -237,7 +237,7 @@ namespace oci.FleetAppsManagementProvision
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_compartment_id FleetAppsManagementProvision#tf_variable_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_compartment_id FleetAppsManagementProvision#tf_variable_compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tfVariableCompartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TfVariableCompartmentId
@@ -245,7 +245,7 @@ namespace oci.FleetAppsManagementProvision
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#tf_variable_current_user_id FleetAppsManagementProvision#tf_variable_current_user_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#tf_variable_current_user_id FleetAppsManagementProvision#tf_variable_current_user_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tfVariableCurrentUserId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TfVariableCurrentUserId
@@ -255,7 +255,7 @@ namespace oci.FleetAppsManagementProvision
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_provision#timeouts FleetAppsManagementProvision#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_provision#timeouts FleetAppsManagementProvision#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.fleetAppsManagementProvision.FleetAppsManagementProvisionTimeouts\"}", isOptional: true)]

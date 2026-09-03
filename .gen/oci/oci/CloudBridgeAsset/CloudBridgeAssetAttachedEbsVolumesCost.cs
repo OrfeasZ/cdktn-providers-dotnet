@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiByValue(fqn: "oci.cloudBridgeAsset.CloudBridgeAssetAttachedEbsVolumesCost")]
     public class CloudBridgeAssetAttachedEbsVolumesCost : oci.CloudBridgeAsset.ICloudBridgeAssetAttachedEbsVolumesCost
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_bridge_asset#amount CloudBridgeAsset#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_bridge_asset#amount CloudBridgeAsset#amount}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Amount
@@ -16,7 +16,7 @@ namespace oci.CloudBridgeAsset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_bridge_asset#currency_code CloudBridgeAsset#currency_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_bridge_asset#currency_code CloudBridgeAsset#currency_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "currencyCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CurrencyCode

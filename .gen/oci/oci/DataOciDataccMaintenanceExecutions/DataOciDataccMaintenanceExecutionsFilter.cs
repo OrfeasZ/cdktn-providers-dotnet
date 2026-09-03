@@ -9,7 +9,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
     [JsiiByValue(fqn: "oci.dataOciDataccMaintenanceExecutions.DataOciDataccMaintenanceExecutionsFilter")]
     public class DataOciDataccMaintenanceExecutionsFilter : oci.DataOciDataccMaintenanceExecutions.IDataOciDataccMaintenanceExecutionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#name DataOciDataccMaintenanceExecutions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#name DataOciDataccMaintenanceExecutions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#values DataOciDataccMaintenanceExecutions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#values DataOciDataccMaintenanceExecutions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#regex DataOciDataccMaintenanceExecutions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#regex DataOciDataccMaintenanceExecutions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

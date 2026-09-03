@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApprovalWorkflow
     [JsiiByValue(fqn: "oci.identityDomainsApprovalWorkflow.IdentityDomainsApprovalWorkflowTags")]
     public class IdentityDomainsApprovalWorkflowTags : oci.IdentityDomainsApprovalWorkflow.IIdentityDomainsApprovalWorkflowTags
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_approval_workflow#key IdentityDomainsApprovalWorkflow#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_approval_workflow#key IdentityDomainsApprovalWorkflow#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsApprovalWorkflow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_approval_workflow#value IdentityDomainsApprovalWorkflow#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_approval_workflow#value IdentityDomainsApprovalWorkflow#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

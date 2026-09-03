@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeUnifiedAuditPolicyConfig), fullyQualifiedName: "oci.dataOciDataSafeUnifiedAuditPolicy.DataOciDataSafeUnifiedAuditPolicyConfig")]
     public interface IDataOciDataSafeUnifiedAuditPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}.</summary>
         [JsiiProperty(name: "unifiedAuditPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string UnifiedAuditPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeUnifiedAuditPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_unified_audit_policy#unified_audit_policy_id DataOciDataSafeUnifiedAuditPolicy#unified_audit_policy_id}.</summary>
             [JsiiProperty(name: "unifiedAuditPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string UnifiedAuditPolicyId
             {

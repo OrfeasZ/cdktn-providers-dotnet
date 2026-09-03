@@ -7,28 +7,28 @@ namespace oci.IdentityDomainsUserDbCredential
     [JsiiInterface(nativeType: typeof(IIdentityDomainsUserDbCredentialConfig), fullyQualifiedName: "oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialConfig")]
     public interface IIdentityDomainsUserDbCredentialConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#db_password IdentityDomainsUserDbCredential#db_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#db_password IdentityDomainsUserDbCredential#db_password}.</summary>
         [JsiiProperty(name: "dbPassword", typeJson: "{\"primitive\":\"string\"}")]
         string DbPassword
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#idcs_endpoint IdentityDomainsUserDbCredential#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#idcs_endpoint IdentityDomainsUserDbCredential#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string IdcsEndpoint
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#schemas IdentityDomainsUserDbCredential#schemas}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#schemas IdentityDomainsUserDbCredential#schemas}.</summary>
         [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Schemas
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#attributes IdentityDomainsUserDbCredential#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#attributes IdentityDomainsUserDbCredential#attributes}.</summary>
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Attributes
@@ -39,7 +39,7 @@ namespace oci.IdentityDomainsUserDbCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#attribute_sets IdentityDomainsUserDbCredential#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#attribute_sets IdentityDomainsUserDbCredential#attribute_sets}.</summary>
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttributeSets
@@ -50,7 +50,7 @@ namespace oci.IdentityDomainsUserDbCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#authorization IdentityDomainsUserDbCredential#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#authorization IdentityDomainsUserDbCredential#authorization}.</summary>
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Authorization
@@ -61,7 +61,7 @@ namespace oci.IdentityDomainsUserDbCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#description IdentityDomainsUserDbCredential#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#description IdentityDomainsUserDbCredential#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -72,7 +72,7 @@ namespace oci.IdentityDomainsUserDbCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#expires_on IdentityDomainsUserDbCredential#expires_on}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#expires_on IdentityDomainsUserDbCredential#expires_on}.</summary>
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ExpiresOn
@@ -83,7 +83,7 @@ namespace oci.IdentityDomainsUserDbCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#ocid IdentityDomainsUserDbCredential#ocid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#ocid IdentityDomainsUserDbCredential#ocid}.</summary>
         [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Ocid
@@ -94,7 +94,7 @@ namespace oci.IdentityDomainsUserDbCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#resource_type_schema_version IdentityDomainsUserDbCredential#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#resource_type_schema_version IdentityDomainsUserDbCredential#resource_type_schema_version}.</summary>
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceTypeSchemaVersion
@@ -105,7 +105,7 @@ namespace oci.IdentityDomainsUserDbCredential
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#status IdentityDomainsUserDbCredential#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#status IdentityDomainsUserDbCredential#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -118,7 +118,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#tags IdentityDomainsUserDbCredential#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#tags IdentityDomainsUserDbCredential#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUserDbCredential.IIdentityDomainsUserDbCredentialTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#timeouts IdentityDomainsUserDbCredential#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#timeouts IdentityDomainsUserDbCredential#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -147,7 +147,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
         /// <summary>urnietfparamsscimschemasoracleidcsextensionself_change_user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsUserDbCredential#urnietfparamsscimschemasoracleidcsextensionself_change_user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsUserDbCredential#urnietfparamsscimschemasoracleidcsextensionself_change_user}
         /// </remarks>
         [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionselfChangeUser", typeJson: "{\"fqn\":\"oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialUrnietfparamsscimschemasoracleidcsextensionselfChangeUser\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -161,7 +161,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
         /// <summary>user block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#user IdentityDomainsUserDbCredential#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#user IdentityDomainsUserDbCredential#user}
         /// </remarks>
         [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialUser\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -180,28 +180,28 @@ namespace oci.IdentityDomainsUserDbCredential
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#db_password IdentityDomainsUserDbCredential#db_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#db_password IdentityDomainsUserDbCredential#db_password}.</summary>
             [JsiiProperty(name: "dbPassword", typeJson: "{\"primitive\":\"string\"}")]
             public string DbPassword
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#idcs_endpoint IdentityDomainsUserDbCredential#idcs_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#idcs_endpoint IdentityDomainsUserDbCredential#idcs_endpoint}.</summary>
             [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string IdcsEndpoint
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#schemas IdentityDomainsUserDbCredential#schemas}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#schemas IdentityDomainsUserDbCredential#schemas}.</summary>
             [JsiiProperty(name: "schemas", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Schemas
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#attributes IdentityDomainsUserDbCredential#attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#attributes IdentityDomainsUserDbCredential#attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Attributes
@@ -209,7 +209,7 @@ namespace oci.IdentityDomainsUserDbCredential
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#attribute_sets IdentityDomainsUserDbCredential#attribute_sets}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#attribute_sets IdentityDomainsUserDbCredential#attribute_sets}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttributeSets
@@ -217,7 +217,7 @@ namespace oci.IdentityDomainsUserDbCredential
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#authorization IdentityDomainsUserDbCredential#authorization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#authorization IdentityDomainsUserDbCredential#authorization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Authorization
@@ -225,7 +225,7 @@ namespace oci.IdentityDomainsUserDbCredential
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#description IdentityDomainsUserDbCredential#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#description IdentityDomainsUserDbCredential#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -233,7 +233,7 @@ namespace oci.IdentityDomainsUserDbCredential
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#expires_on IdentityDomainsUserDbCredential#expires_on}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#expires_on IdentityDomainsUserDbCredential#expires_on}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ExpiresOn
@@ -241,7 +241,7 @@ namespace oci.IdentityDomainsUserDbCredential
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#ocid IdentityDomainsUserDbCredential#ocid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#ocid IdentityDomainsUserDbCredential#ocid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ocid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Ocid
@@ -249,7 +249,7 @@ namespace oci.IdentityDomainsUserDbCredential
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#resource_type_schema_version IdentityDomainsUserDbCredential#resource_type_schema_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#resource_type_schema_version IdentityDomainsUserDbCredential#resource_type_schema_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceTypeSchemaVersion
@@ -257,7 +257,7 @@ namespace oci.IdentityDomainsUserDbCredential
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#status IdentityDomainsUserDbCredential#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#status IdentityDomainsUserDbCredential#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status
@@ -267,7 +267,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
             /// <summary>tags block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#tags IdentityDomainsUserDbCredential#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#tags IdentityDomainsUserDbCredential#tags}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IdentityDomainsUserDbCredential.IIdentityDomainsUserDbCredentialTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -279,7 +279,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#timeouts IdentityDomainsUserDbCredential#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#timeouts IdentityDomainsUserDbCredential#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialTimeouts\"}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
             /// <summary>urnietfparamsscimschemasoracleidcsextensionself_change_user block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsUserDbCredential#urnietfparamsscimschemasoracleidcsextensionself_change_user}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#urnietfparamsscimschemasoracleidcsextensionself_change_user IdentityDomainsUserDbCredential#urnietfparamsscimschemasoracleidcsextensionself_change_user}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "urnietfparamsscimschemasoracleidcsextensionselfChangeUser", typeJson: "{\"fqn\":\"oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialUrnietfparamsscimschemasoracleidcsextensionselfChangeUser\"}", isOptional: true)]
@@ -301,7 +301,7 @@ namespace oci.IdentityDomainsUserDbCredential
 
             /// <summary>user block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user_db_credential#user IdentityDomainsUserDbCredential#user}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user_db_credential#user IdentityDomainsUserDbCredential#user}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "user", typeJson: "{\"fqn\":\"oci.identityDomainsUserDbCredential.IdentityDomainsUserDbCredentialUser\"}", isOptional: true)]

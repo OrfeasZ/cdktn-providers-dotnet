@@ -7,14 +7,14 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
     [JsiiInterface(nativeType: typeof(IDataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesConfig), fullyQualifiedName: "oci.dataOciOsManagementHubManagedInstanceAvailableWindowsUpdates.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesConfig")]
     public interface IDataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#classification_type DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#classification_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#classification_type DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#classification_type}.</summary>
         [JsiiProperty(name: "classificationType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ClassificationType
@@ -25,7 +25,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -36,7 +36,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -47,7 +47,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name_contains}.</summary>
         [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayNameContains
@@ -60,7 +60,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#filter DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#filter DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates.IDataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOsManagementHubManagedInstanceAvailableWindowsUpdates.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#is_installable DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#is_installable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#is_installable DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#is_installable}.</summary>
         [JsiiProperty(name: "isInstallable", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IsInstallable
@@ -99,7 +99,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Name
@@ -117,14 +117,14 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#managed_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#managed_instance_id}.</summary>
             [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#classification_type DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#classification_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#classification_type DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#classification_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "classificationType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ClassificationType
@@ -132,7 +132,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -140,7 +140,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -148,7 +148,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name_contains}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#display_name_contains}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayNameContains
@@ -158,7 +158,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#filter DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#filter DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates.IDataOciOsManagementHubManagedInstanceAvailableWindowsUpdatesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -168,7 +168,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#id DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,7 +180,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#is_installable DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#is_installable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#is_installable DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#is_installable}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "isInstallable", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IsInstallable
@@ -188,7 +188,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_available_windows_updates#name DataOciOsManagementHubManagedInstanceAvailableWindowsUpdates#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Name

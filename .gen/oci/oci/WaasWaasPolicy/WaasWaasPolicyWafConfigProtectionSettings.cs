@@ -7,7 +7,7 @@ namespace oci.WaasWaasPolicy
     [JsiiByValue(fqn: "oci.waasWaasPolicy.WaasWaasPolicyWafConfigProtectionSettings")]
     public class WaasWaasPolicyWafConfigProtectionSettings : oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigProtectionSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#allowed_http_methods WaasWaasPolicy#allowed_http_methods}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#allowed_http_methods WaasWaasPolicy#allowed_http_methods}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allowedHttpMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AllowedHttpMethods
@@ -16,7 +16,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#block_action WaasWaasPolicy#block_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlockAction
@@ -25,7 +25,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#block_error_page_code WaasWaasPolicy#block_error_page_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockErrorPageCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlockErrorPageCode
@@ -34,7 +34,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#block_error_page_description WaasWaasPolicy#block_error_page_description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockErrorPageDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlockErrorPageDescription
@@ -43,7 +43,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#block_error_page_message WaasWaasPolicy#block_error_page_message}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockErrorPageMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlockErrorPageMessage
@@ -52,7 +52,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#block_response_code WaasWaasPolicy#block_response_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blockResponseCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BlockResponseCode
@@ -63,7 +63,7 @@ namespace oci.WaasWaasPolicy
 
         private object? _isResponseInspected;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#is_response_inspected WaasWaasPolicy#is_response_inspected}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#is_response_inspected WaasWaasPolicy#is_response_inspected}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace oci.WaasWaasPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#max_argument_count WaasWaasPolicy#max_argument_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#max_argument_count WaasWaasPolicy#max_argument_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxArgumentCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxArgumentCount
@@ -104,7 +104,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#max_name_length_per_argument WaasWaasPolicy#max_name_length_per_argument}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#max_name_length_per_argument WaasWaasPolicy#max_name_length_per_argument}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxNameLengthPerArgument", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxNameLengthPerArgument
@@ -113,7 +113,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#max_response_size_in_ki_b WaasWaasPolicy#max_response_size_in_ki_b}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#max_response_size_in_ki_b WaasWaasPolicy#max_response_size_in_ki_b}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxResponseSizeInKiB", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxResponseSizeInKiB
@@ -122,7 +122,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#max_total_name_length_of_arguments WaasWaasPolicy#max_total_name_length_of_arguments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#max_total_name_length_of_arguments WaasWaasPolicy#max_total_name_length_of_arguments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxTotalNameLengthOfArguments", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxTotalNameLengthOfArguments
@@ -131,7 +131,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#media_types WaasWaasPolicy#media_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#media_types WaasWaasPolicy#media_types}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mediaTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MediaTypes
@@ -140,7 +140,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#recommendations_period_in_days WaasWaasPolicy#recommendations_period_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#recommendations_period_in_days WaasWaasPolicy#recommendations_period_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recommendationsPeriodInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RecommendationsPeriodInDays

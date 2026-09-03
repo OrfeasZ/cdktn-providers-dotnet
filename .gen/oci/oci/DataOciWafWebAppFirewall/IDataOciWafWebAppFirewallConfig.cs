@@ -7,7 +7,7 @@ namespace oci.DataOciWafWebAppFirewall
     [JsiiInterface(nativeType: typeof(IDataOciWafWebAppFirewallConfig), fullyQualifiedName: "oci.dataOciWafWebAppFirewall.DataOciWafWebAppFirewallConfig")]
     public interface IDataOciWafWebAppFirewallConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_web_app_firewall#web_app_firewall_id DataOciWafWebAppFirewall#web_app_firewall_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_web_app_firewall#web_app_firewall_id DataOciWafWebAppFirewall#web_app_firewall_id}.</summary>
         [JsiiProperty(name: "webAppFirewallId", typeJson: "{\"primitive\":\"string\"}")]
         string WebAppFirewallId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWafWebAppFirewall
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_web_app_firewall#web_app_firewall_id DataOciWafWebAppFirewall#web_app_firewall_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_web_app_firewall#web_app_firewall_id DataOciWafWebAppFirewall#web_app_firewall_id}.</summary>
             [JsiiProperty(name: "webAppFirewallId", typeJson: "{\"primitive\":\"string\"}")]
             public string WebAppFirewallId
             {

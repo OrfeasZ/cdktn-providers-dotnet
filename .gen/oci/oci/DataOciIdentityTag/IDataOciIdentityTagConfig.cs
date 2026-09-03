@@ -7,14 +7,14 @@ namespace oci.DataOciIdentityTag
     [JsiiInterface(nativeType: typeof(IDataOciIdentityTagConfig), fullyQualifiedName: "oci.dataOciIdentityTag.DataOciIdentityTagConfig")]
     public interface IDataOciIdentityTagConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}.</summary>
         [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}")]
         string TagName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}.</summary>
         [JsiiProperty(name: "tagNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
         string TagNamespaceId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciIdentityTag
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_tag#tag_name DataOciIdentityTag#tag_name}.</summary>
             [JsiiProperty(name: "tagName", typeJson: "{\"primitive\":\"string\"}")]
             public string TagName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_tag#tag_namespace_id DataOciIdentityTag#tag_namespace_id}.</summary>
             [JsiiProperty(name: "tagNamespaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string TagNamespaceId
             {

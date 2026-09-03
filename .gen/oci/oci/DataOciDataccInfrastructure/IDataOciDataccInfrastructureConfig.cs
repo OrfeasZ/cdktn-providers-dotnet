@@ -7,7 +7,7 @@ namespace oci.DataOciDataccInfrastructure
     [JsiiInterface(nativeType: typeof(IDataOciDataccInfrastructureConfig), fullyQualifiedName: "oci.dataOciDataccInfrastructure.DataOciDataccInfrastructureConfig")]
     public interface IDataOciDataccInfrastructureConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_infrastructure#infrastructure_id DataOciDataccInfrastructure#infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_infrastructure#infrastructure_id DataOciDataccInfrastructure#infrastructure_id}.</summary>
         [JsiiProperty(name: "infrastructureId", typeJson: "{\"primitive\":\"string\"}")]
         string InfrastructureId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataccInfrastructure
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_infrastructure#infrastructure_id DataOciDataccInfrastructure#infrastructure_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_infrastructure#infrastructure_id DataOciDataccInfrastructure#infrastructure_id}.</summary>
             [JsiiProperty(name: "infrastructureId", typeJson: "{\"primitive\":\"string\"}")]
             public string InfrastructureId
             {

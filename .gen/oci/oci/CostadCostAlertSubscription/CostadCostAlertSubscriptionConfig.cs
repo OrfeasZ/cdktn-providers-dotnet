@@ -9,7 +9,7 @@ namespace oci.CostadCostAlertSubscription
     [JsiiByValue(fqn: "oci.costadCostAlertSubscription.CostadCostAlertSubscriptionConfig")]
     public class CostadCostAlertSubscriptionConfig : oci.CostadCostAlertSubscription.ICostadCostAlertSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#channels CostadCostAlertSubscription#channels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#channels CostadCostAlertSubscription#channels}.</summary>
         [JsiiProperty(name: "channels", typeJson: "{\"primitive\":\"string\"}")]
         public string Channels
         {
@@ -17,7 +17,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#compartment_id CostadCostAlertSubscription#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#compartment_id CostadCostAlertSubscription#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -25,7 +25,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#name CostadCostAlertSubscription#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#name CostadCostAlertSubscription#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#defined_tags CostadCostAlertSubscription#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#defined_tags CostadCostAlertSubscription#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -42,7 +42,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#description CostadCostAlertSubscription#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#description CostadCostAlertSubscription#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -51,7 +51,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#freeform_tags CostadCostAlertSubscription#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#freeform_tags CostadCostAlertSubscription#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -60,7 +60,7 @@ namespace oci.CostadCostAlertSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#id CostadCostAlertSubscription#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#id CostadCostAlertSubscription#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace oci.CostadCostAlertSubscription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/costad_cost_alert_subscription#timeouts CostadCostAlertSubscription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/costad_cost_alert_subscription#timeouts CostadCostAlertSubscription#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.costadCostAlertSubscription.CostadCostAlertSubscriptionTimeouts\"}", isOptional: true)]

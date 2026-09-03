@@ -9,7 +9,7 @@ namespace oci.DataOciWaasHttpRedirect
     [JsiiByValue(fqn: "oci.dataOciWaasHttpRedirect.DataOciWaasHttpRedirectConfig")]
     public class DataOciWaasHttpRedirectConfig : oci.DataOciWaasHttpRedirect.IDataOciWaasHttpRedirectConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waas_http_redirect#http_redirect_id DataOciWaasHttpRedirect#http_redirect_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waas_http_redirect#http_redirect_id DataOciWaasHttpRedirect#http_redirect_id}.</summary>
         [JsiiProperty(name: "httpRedirectId", typeJson: "{\"primitive\":\"string\"}")]
         public string HttpRedirectId
         {

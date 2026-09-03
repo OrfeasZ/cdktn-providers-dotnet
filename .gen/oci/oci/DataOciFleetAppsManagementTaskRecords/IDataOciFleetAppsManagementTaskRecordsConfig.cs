@@ -7,7 +7,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementTaskRecordsConfig), fullyQualifiedName: "oci.dataOciFleetAppsManagementTaskRecords.DataOciFleetAppsManagementTaskRecordsConfig")]
     public interface IDataOciFleetAppsManagementTaskRecordsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#compartment_id DataOciFleetAppsManagementTaskRecords#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#compartment_id DataOciFleetAppsManagementTaskRecords#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#display_name DataOciFleetAppsManagementTaskRecords#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#display_name DataOciFleetAppsManagementTaskRecords#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -31,7 +31,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#filter DataOciFleetAppsManagementTaskRecords#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#filter DataOciFleetAppsManagementTaskRecords#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementTaskRecords.IDataOciFleetAppsManagementTaskRecordsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFleetAppsManagementTaskRecords.DataOciFleetAppsManagementTaskRecordsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#id DataOciFleetAppsManagementTaskRecords#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#id DataOciFleetAppsManagementTaskRecords#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#operation DataOciFleetAppsManagementTaskRecords#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#operation DataOciFleetAppsManagementTaskRecords#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Operation
@@ -70,7 +70,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#platform DataOciFleetAppsManagementTaskRecords#platform}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#platform DataOciFleetAppsManagementTaskRecords#platform}.</summary>
         [JsiiProperty(name: "platform", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Platform
@@ -81,7 +81,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#state DataOciFleetAppsManagementTaskRecords#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#state DataOciFleetAppsManagementTaskRecords#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -92,7 +92,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#type DataOciFleetAppsManagementTaskRecords#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#type DataOciFleetAppsManagementTaskRecords#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -110,7 +110,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#compartment_id DataOciFleetAppsManagementTaskRecords#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#compartment_id DataOciFleetAppsManagementTaskRecords#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -118,7 +118,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#display_name DataOciFleetAppsManagementTaskRecords#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#display_name DataOciFleetAppsManagementTaskRecords#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -128,7 +128,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#filter DataOciFleetAppsManagementTaskRecords#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#filter DataOciFleetAppsManagementTaskRecords#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFleetAppsManagementTaskRecords.IDataOciFleetAppsManagementTaskRecordsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -138,7 +138,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#id DataOciFleetAppsManagementTaskRecords#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#id DataOciFleetAppsManagementTaskRecords#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +150,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#operation DataOciFleetAppsManagementTaskRecords#operation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#operation DataOciFleetAppsManagementTaskRecords#operation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Operation
@@ -158,7 +158,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#platform DataOciFleetAppsManagementTaskRecords#platform}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#platform DataOciFleetAppsManagementTaskRecords#platform}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "platform", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Platform
@@ -166,7 +166,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#state DataOciFleetAppsManagementTaskRecords#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#state DataOciFleetAppsManagementTaskRecords#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -174,7 +174,7 @@ namespace oci.DataOciFleetAppsManagementTaskRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_task_records#type DataOciFleetAppsManagementTaskRecords#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_task_records#type DataOciFleetAppsManagementTaskRecords#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

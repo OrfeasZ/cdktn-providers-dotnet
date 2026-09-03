@@ -9,7 +9,7 @@ namespace oci.DataOciDnsResolverEndpoint
     [JsiiByValue(fqn: "oci.dataOciDnsResolverEndpoint.DataOciDnsResolverEndpointConfig")]
     public class DataOciDnsResolverEndpointConfig : oci.DataOciDnsResolverEndpoint.IDataOciDnsResolverEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dns_resolver_endpoint#resolver_endpoint_name DataOciDnsResolverEndpoint#resolver_endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dns_resolver_endpoint#resolver_endpoint_name DataOciDnsResolverEndpoint#resolver_endpoint_name}.</summary>
         [JsiiProperty(name: "resolverEndpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResolverEndpointName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDnsResolverEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dns_resolver_endpoint#resolver_id DataOciDnsResolverEndpoint#resolver_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dns_resolver_endpoint#resolver_id DataOciDnsResolverEndpoint#resolver_id}.</summary>
         [JsiiProperty(name: "resolverId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResolverId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciDnsResolverEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dns_resolver_endpoint#scope DataOciDnsResolverEndpoint#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dns_resolver_endpoint#scope DataOciDnsResolverEndpoint#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Scope

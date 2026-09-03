@@ -5,7 +5,7 @@ namespace oci.DataOciQueueQueue
     /// <remarks>
     /// <h1><c>data_oci_queue_queue</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/queue_queue"><c>data_oci_queue_queue</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/queue_queue"><c>data_oci_queue_queue</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

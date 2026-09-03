@@ -7,7 +7,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciDisasterRecoveryAutomaticDrConfigurationConfig), fullyQualifiedName: "oci.dataOciDisasterRecoveryAutomaticDrConfiguration.DataOciDisasterRecoveryAutomaticDrConfigurationConfig")]
     public interface IDataOciDisasterRecoveryAutomaticDrConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configuration#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfiguration#automatic_dr_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/disaster_recovery_automatic_dr_configuration#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfiguration#automatic_dr_configuration_id}.</summary>
         [JsiiProperty(name: "automaticDrConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string AutomaticDrConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDisasterRecoveryAutomaticDrConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_automatic_dr_configuration#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfiguration#automatic_dr_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/disaster_recovery_automatic_dr_configuration#automatic_dr_configuration_id DataOciDisasterRecoveryAutomaticDrConfiguration#automatic_dr_configuration_id}.</summary>
             [JsiiProperty(name: "automaticDrConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string AutomaticDrConfigurationId
             {

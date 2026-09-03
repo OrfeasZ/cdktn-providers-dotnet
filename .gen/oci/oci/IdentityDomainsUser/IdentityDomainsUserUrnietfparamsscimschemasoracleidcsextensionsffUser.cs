@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsUser
     [JsiiByValue(fqn: "oci.identityDomainsUser.IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsffUser")]
     public class IdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsffUser : oci.IdentityDomainsUser.IIdentityDomainsUserUrnietfparamsscimschemasoracleidcsextensionsffUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_user#sff_auth_keys IdentityDomainsUser#sff_auth_keys}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_user#sff_auth_keys IdentityDomainsUser#sff_auth_keys}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sffAuthKeys", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SffAuthKeys

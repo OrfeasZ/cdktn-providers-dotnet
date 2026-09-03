@@ -9,7 +9,7 @@ namespace oci.DatabaseBackupDestination
     [JsiiByValue(fqn: "oci.databaseBackupDestination.DatabaseBackupDestinationMountTypeDetails")]
     public class DatabaseBackupDestinationMountTypeDetails : oci.DatabaseBackupDestination.IDatabaseBackupDestinationMountTypeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_backup_destination#mount_type DatabaseBackupDestination#mount_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_backup_destination#mount_type DatabaseBackupDestination#mount_type}.</summary>
         [JsiiProperty(name: "mountType", typeJson: "{\"primitive\":\"string\"}")]
         public string MountType
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_backup_destination#local_mount_point_path DatabaseBackupDestination#local_mount_point_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_backup_destination#local_mount_point_path DatabaseBackupDestination#local_mount_point_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "localMountPointPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LocalMountPointPath
@@ -26,7 +26,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_backup_destination#nfs_server DatabaseBackupDestination#nfs_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_backup_destination#nfs_server DatabaseBackupDestination#nfs_server}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nfsServer", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NfsServer
@@ -35,7 +35,7 @@ namespace oci.DatabaseBackupDestination
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_backup_destination#nfs_server_export DatabaseBackupDestination#nfs_server_export}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_backup_destination#nfs_server_export DatabaseBackupDestination#nfs_server_export}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nfsServerExport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NfsServerExport

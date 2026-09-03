@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
     [JsiiByValue(fqn: "oci.dataOciIdentityDomainsBrandingSetting.DataOciIdentityDomainsBrandingSettingConfig")]
     public class DataOciIdentityDomainsBrandingSettingConfig : oci.DataOciIdentityDomainsBrandingSetting.IDataOciIdentityDomainsBrandingSettingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting#branding_setting_id DataOciIdentityDomainsBrandingSetting#branding_setting_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_domains_branding_setting#branding_setting_id DataOciIdentityDomainsBrandingSetting#branding_setting_id}.</summary>
         [JsiiProperty(name: "brandingSettingId", typeJson: "{\"primitive\":\"string\"}")]
         public string BrandingSettingId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting#idcs_endpoint DataOciIdentityDomainsBrandingSetting#idcs_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_domains_branding_setting#idcs_endpoint DataOciIdentityDomainsBrandingSetting#idcs_endpoint}.</summary>
         [JsiiProperty(name: "idcsEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string IdcsEndpoint
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting#attributes DataOciIdentityDomainsBrandingSetting#attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_domains_branding_setting#attributes DataOciIdentityDomainsBrandingSetting#attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Attributes
@@ -34,7 +34,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting#attribute_sets DataOciIdentityDomainsBrandingSetting#attribute_sets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_domains_branding_setting#attribute_sets DataOciIdentityDomainsBrandingSetting#attribute_sets}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attributeSets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AttributeSets
@@ -43,7 +43,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting#authorization DataOciIdentityDomainsBrandingSetting#authorization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_domains_branding_setting#authorization DataOciIdentityDomainsBrandingSetting#authorization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authorization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authorization
@@ -52,7 +52,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting#id DataOciIdentityDomainsBrandingSetting#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_domains_branding_setting#id DataOciIdentityDomainsBrandingSetting#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciIdentityDomainsBrandingSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_domains_branding_setting#resource_type_schema_version DataOciIdentityDomainsBrandingSetting#resource_type_schema_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_domains_branding_setting#resource_type_schema_version DataOciIdentityDomainsBrandingSetting#resource_type_schema_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceTypeSchemaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceTypeSchemaVersion

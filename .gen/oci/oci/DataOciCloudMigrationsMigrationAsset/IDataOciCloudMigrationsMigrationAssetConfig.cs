@@ -7,7 +7,7 @@ namespace oci.DataOciCloudMigrationsMigrationAsset
     [JsiiInterface(nativeType: typeof(IDataOciCloudMigrationsMigrationAssetConfig), fullyQualifiedName: "oci.dataOciCloudMigrationsMigrationAsset.DataOciCloudMigrationsMigrationAssetConfig")]
     public interface IDataOciCloudMigrationsMigrationAssetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migration_asset#migration_asset_id DataOciCloudMigrationsMigrationAsset#migration_asset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migration_asset#migration_asset_id DataOciCloudMigrationsMigrationAsset#migration_asset_id}.</summary>
         [JsiiProperty(name: "migrationAssetId", typeJson: "{\"primitive\":\"string\"}")]
         string MigrationAssetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCloudMigrationsMigrationAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migration_asset#migration_asset_id DataOciCloudMigrationsMigrationAsset#migration_asset_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migration_asset#migration_asset_id DataOciCloudMigrationsMigrationAsset#migration_asset_id}.</summary>
             [JsiiProperty(name: "migrationAssetId", typeJson: "{\"primitive\":\"string\"}")]
             public string MigrationAssetId
             {

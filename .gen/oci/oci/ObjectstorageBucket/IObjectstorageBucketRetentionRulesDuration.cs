@@ -7,14 +7,14 @@ namespace oci.ObjectstorageBucket
     [JsiiInterface(nativeType: typeof(IObjectstorageBucketRetentionRulesDuration), fullyQualifiedName: "oci.objectstorageBucket.ObjectstorageBucketRetentionRulesDuration")]
     public interface IObjectstorageBucketRetentionRulesDuration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}.</summary>
         [JsiiProperty(name: "timeAmount", typeJson: "{\"primitive\":\"string\"}")]
         string TimeAmount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}.</summary>
         [JsiiProperty(name: "timeUnit", typeJson: "{\"primitive\":\"string\"}")]
         string TimeUnit
         {
@@ -28,14 +28,14 @@ namespace oci.ObjectstorageBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/objectstorage_bucket#time_amount ObjectstorageBucket#time_amount}.</summary>
             [JsiiProperty(name: "timeAmount", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeAmount
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/objectstorage_bucket#time_unit ObjectstorageBucket#time_unit}.</summary>
             [JsiiProperty(name: "timeUnit", typeJson: "{\"primitive\":\"string\"}")]
             public string TimeUnit
             {

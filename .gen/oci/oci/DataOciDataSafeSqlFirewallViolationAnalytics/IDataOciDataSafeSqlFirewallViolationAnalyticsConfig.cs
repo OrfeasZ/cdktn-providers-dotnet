@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSqlFirewallViolationAnalyticsConfig), fullyQualifiedName: "oci.dataOciDataSafeSqlFirewallViolationAnalytics.DataOciDataSafeSqlFirewallViolationAnalyticsConfig")]
     public interface IDataOciDataSafeSqlFirewallViolationAnalyticsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#access_level DataOciDataSafeSqlFirewallViolationAnalytics#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#access_level DataOciDataSafeSqlFirewallViolationAnalytics#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id_in_subtree DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id_in_subtree DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#filter DataOciDataSafeSqlFirewallViolationAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#filter DataOciDataSafeSqlFirewallViolationAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSqlFirewallViolationAnalytics.IDataOciDataSafeSqlFirewallViolationAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeSqlFirewallViolationAnalytics.DataOciDataSafeSqlFirewallViolationAnalyticsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#group_by DataOciDataSafeSqlFirewallViolationAnalytics#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#group_by DataOciDataSafeSqlFirewallViolationAnalytics#group_by}.</summary>
         [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? GroupBy
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#id DataOciDataSafeSqlFirewallViolationAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#id DataOciDataSafeSqlFirewallViolationAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#query_time_zone DataOciDataSafeSqlFirewallViolationAnalytics#query_time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#query_time_zone DataOciDataSafeSqlFirewallViolationAnalytics#query_time_zone}.</summary>
         [JsiiProperty(name: "queryTimeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? QueryTimeZone
@@ -91,7 +91,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#scim_query DataOciDataSafeSqlFirewallViolationAnalytics#scim_query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#scim_query DataOciDataSafeSqlFirewallViolationAnalytics#scim_query}.</summary>
         [JsiiProperty(name: "scimQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScimQuery
@@ -102,7 +102,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#summary_field DataOciDataSafeSqlFirewallViolationAnalytics#summary_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#summary_field DataOciDataSafeSqlFirewallViolationAnalytics#summary_field}.</summary>
         [JsiiProperty(name: "summaryField", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SummaryField
@@ -113,7 +113,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_ended DataOciDataSafeSqlFirewallViolationAnalytics#time_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_ended DataOciDataSafeSqlFirewallViolationAnalytics#time_ended}.</summary>
         [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeEnded
@@ -124,7 +124,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_started DataOciDataSafeSqlFirewallViolationAnalytics#time_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_started DataOciDataSafeSqlFirewallViolationAnalytics#time_started}.</summary>
         [JsiiProperty(name: "timeStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStarted
@@ -142,14 +142,14 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#access_level DataOciDataSafeSqlFirewallViolationAnalytics#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#access_level DataOciDataSafeSqlFirewallViolationAnalytics#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -157,7 +157,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id_in_subtree DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#compartment_id_in_subtree DataOciDataSafeSqlFirewallViolationAnalytics#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -170,7 +170,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#filter DataOciDataSafeSqlFirewallViolationAnalytics#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#filter DataOciDataSafeSqlFirewallViolationAnalytics#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSqlFirewallViolationAnalytics.IDataOciDataSafeSqlFirewallViolationAnalyticsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -180,7 +180,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#group_by DataOciDataSafeSqlFirewallViolationAnalytics#group_by}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#group_by DataOciDataSafeSqlFirewallViolationAnalytics#group_by}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "groupBy", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? GroupBy
@@ -188,7 +188,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#id DataOciDataSafeSqlFirewallViolationAnalytics#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#id DataOciDataSafeSqlFirewallViolationAnalytics#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -200,7 +200,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#query_time_zone DataOciDataSafeSqlFirewallViolationAnalytics#query_time_zone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#query_time_zone DataOciDataSafeSqlFirewallViolationAnalytics#query_time_zone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "queryTimeZone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? QueryTimeZone
@@ -208,7 +208,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#scim_query DataOciDataSafeSqlFirewallViolationAnalytics#scim_query}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#scim_query DataOciDataSafeSqlFirewallViolationAnalytics#scim_query}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scimQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScimQuery
@@ -216,7 +216,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#summary_field DataOciDataSafeSqlFirewallViolationAnalytics#summary_field}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#summary_field DataOciDataSafeSqlFirewallViolationAnalytics#summary_field}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "summaryField", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SummaryField
@@ -224,7 +224,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_ended DataOciDataSafeSqlFirewallViolationAnalytics#time_ended}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_ended DataOciDataSafeSqlFirewallViolationAnalytics#time_ended}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeEnded
@@ -232,7 +232,7 @@ namespace oci.DataOciDataSafeSqlFirewallViolationAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_started DataOciDataSafeSqlFirewallViolationAnalytics#time_started}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_violation_analytics#time_started DataOciDataSafeSqlFirewallViolationAnalytics#time_started}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStarted

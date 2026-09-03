@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
     [JsiiByValue(fqn: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolsConfig")]
     public class DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolsConfig : oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools.IDataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#database_tools_database_api_gateway_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#database_tools_database_api_gateway_config_id}.</summary>
         [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseToolsDatabaseApiGatewayConfigId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#display_name DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#display_name DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#filter DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#filter DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools.IDataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pools#id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPools#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

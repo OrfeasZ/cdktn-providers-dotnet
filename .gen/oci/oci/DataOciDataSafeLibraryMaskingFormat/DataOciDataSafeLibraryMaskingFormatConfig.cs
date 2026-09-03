@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeLibraryMaskingFormat
     [JsiiByValue(fqn: "oci.dataOciDataSafeLibraryMaskingFormat.DataOciDataSafeLibraryMaskingFormatConfig")]
     public class DataOciDataSafeLibraryMaskingFormatConfig : oci.DataOciDataSafeLibraryMaskingFormat.IDataOciDataSafeLibraryMaskingFormatConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_library_masking_format#library_masking_format_id DataOciDataSafeLibraryMaskingFormat#library_masking_format_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_library_masking_format#library_masking_format_id DataOciDataSafeLibraryMaskingFormat#library_masking_format_id}.</summary>
         [JsiiProperty(name: "libraryMaskingFormatId", typeJson: "{\"primitive\":\"string\"}")]
         public string LibraryMaskingFormatId
         {

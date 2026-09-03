@@ -7,7 +7,7 @@ namespace oci.DataOciJmsListJreUsage
     [JsiiByValue(fqn: "oci.dataOciJmsListJreUsage.DataOciJmsListJreUsageConfig")]
     public class DataOciJmsListJreUsageConfig : oci.DataOciJmsListJreUsage.IDataOciJmsListJreUsageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_list_jre_usage#application_id DataOciJmsListJreUsage#application_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_list_jre_usage#application_id DataOciJmsListJreUsage#application_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationId
@@ -16,7 +16,7 @@ namespace oci.DataOciJmsListJreUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_list_jre_usage#application_name DataOciJmsListJreUsage#application_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_list_jre_usage#application_name DataOciJmsListJreUsage#application_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "applicationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApplicationName
@@ -25,7 +25,7 @@ namespace oci.DataOciJmsListJreUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_list_jre_usage#compartment_id DataOciJmsListJreUsage#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_list_jre_usage#compartment_id DataOciJmsListJreUsage#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -34,7 +34,7 @@ namespace oci.DataOciJmsListJreUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_list_jre_usage#host_id DataOciJmsListJreUsage#host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_list_jre_usage#host_id DataOciJmsListJreUsage#host_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HostId
@@ -43,7 +43,7 @@ namespace oci.DataOciJmsListJreUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_list_jre_usage#id DataOciJmsListJreUsage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_list_jre_usage#id DataOciJmsListJreUsage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace oci.DataOciJmsListJreUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_list_jre_usage#time_end DataOciJmsListJreUsage#time_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_list_jre_usage#time_end DataOciJmsListJreUsage#time_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeEnd", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeEnd
@@ -65,7 +65,7 @@ namespace oci.DataOciJmsListJreUsage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_list_jre_usage#time_start DataOciJmsListJreUsage#time_start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_list_jre_usage#time_start DataOciJmsListJreUsage#time_start}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeStart", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeStart

@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementFleetResource
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementFleetResource.DataOciFleetAppsManagementFleetResourceConfig")]
     public class DataOciFleetAppsManagementFleetResourceConfig : oci.DataOciFleetAppsManagementFleetResource.IDataOciFleetAppsManagementFleetResourceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_fleet_resource#fleet_id DataOciFleetAppsManagementFleetResource#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_fleet_resource#fleet_id DataOciFleetAppsManagementFleetResource#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementFleetResource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_fleet_resource#fleet_resource_id DataOciFleetAppsManagementFleetResource#fleet_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_fleet_resource#fleet_resource_id DataOciFleetAppsManagementFleetResource#fleet_resource_id}.</summary>
         [JsiiProperty(name: "fleetResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetResourceId
         {

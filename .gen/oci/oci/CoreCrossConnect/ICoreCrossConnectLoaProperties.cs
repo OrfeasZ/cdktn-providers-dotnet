@@ -7,7 +7,7 @@ namespace oci.CoreCrossConnect
     [JsiiInterface(nativeType: typeof(ICoreCrossConnectLoaProperties), fullyQualifiedName: "oci.coreCrossConnect.CoreCrossConnectLoaProperties")]
     public interface ICoreCrossConnectLoaProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#authorized_agent CoreCrossConnect#authorized_agent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#authorized_agent CoreCrossConnect#authorized_agent}.</summary>
         [JsiiProperty(name: "authorizedAgent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AuthorizedAgent
@@ -18,7 +18,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#expiry_extension_count CoreCrossConnect#expiry_extension_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#expiry_extension_count CoreCrossConnect#expiry_extension_count}.</summary>
         [JsiiProperty(name: "expiryExtensionCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ExpiryExtensionCount
@@ -36,7 +36,7 @@ namespace oci.CoreCrossConnect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#authorized_agent CoreCrossConnect#authorized_agent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#authorized_agent CoreCrossConnect#authorized_agent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authorizedAgent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AuthorizedAgent
@@ -44,7 +44,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#expiry_extension_count CoreCrossConnect#expiry_extension_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#expiry_extension_count CoreCrossConnect#expiry_extension_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expiryExtensionCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ExpiryExtensionCount

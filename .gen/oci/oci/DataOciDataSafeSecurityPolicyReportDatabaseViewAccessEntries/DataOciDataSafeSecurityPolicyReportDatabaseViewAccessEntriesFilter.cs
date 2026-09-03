@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntriesFilter")]
     public class DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntriesFilter : oci.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries.IDataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entries#name DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entries#name DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entries#values DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entries#values DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entries#regex DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_view_access_entries#regex DataOciDataSafeSecurityPolicyReportDatabaseViewAccessEntries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciOptimizerRecommendation
     [JsiiByValue(fqn: "oci.dataOciOptimizerRecommendation.DataOciOptimizerRecommendationConfig")]
     public class DataOciOptimizerRecommendationConfig : oci.DataOciOptimizerRecommendation.IDataOciOptimizerRecommendationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/optimizer_recommendation#recommendation_id DataOciOptimizerRecommendation#recommendation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/optimizer_recommendation#recommendation_id DataOciOptimizerRecommendation#recommendation_id}.</summary>
         [JsiiProperty(name: "recommendationId", typeJson: "{\"primitive\":\"string\"}")]
         public string RecommendationId
         {

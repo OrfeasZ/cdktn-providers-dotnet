@@ -7,7 +7,7 @@ namespace oci.IdentityImportStandardTagsManagement
     [JsiiByValue(fqn: "oci.identityImportStandardTagsManagement.IdentityImportStandardTagsManagementTimeouts")]
     public class IdentityImportStandardTagsManagementTimeouts : oci.IdentityImportStandardTagsManagement.IIdentityImportStandardTagsManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_import_standard_tags_management#create IdentityImportStandardTagsManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_import_standard_tags_management#create IdentityImportStandardTagsManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.IdentityImportStandardTagsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_import_standard_tags_management#delete IdentityImportStandardTagsManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_import_standard_tags_management#delete IdentityImportStandardTagsManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.IdentityImportStandardTagsManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_import_standard_tags_management#update IdentityImportStandardTagsManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_import_standard_tags_management#update IdentityImportStandardTagsManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeAuditTrail
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAuditTrailConfig), fullyQualifiedName: "oci.dataOciDataSafeAuditTrail.DataOciDataSafeAuditTrailConfig")]
     public interface IDataOciDataSafeAuditTrailConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_audit_trail#audit_trail_id DataOciDataSafeAuditTrail#audit_trail_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_audit_trail#audit_trail_id DataOciDataSafeAuditTrail#audit_trail_id}.</summary>
         [JsiiProperty(name: "auditTrailId", typeJson: "{\"primitive\":\"string\"}")]
         string AuditTrailId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeAuditTrail
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_audit_trail#audit_trail_id DataOciDataSafeAuditTrail#audit_trail_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_audit_trail#audit_trail_id DataOciDataSafeAuditTrail#audit_trail_id}.</summary>
             [JsiiProperty(name: "auditTrailId", typeJson: "{\"primitive\":\"string\"}")]
             public string AuditTrailId
             {

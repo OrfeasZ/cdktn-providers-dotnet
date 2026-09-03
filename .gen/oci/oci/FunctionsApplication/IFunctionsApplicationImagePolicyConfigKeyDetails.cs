@@ -7,7 +7,7 @@ namespace oci.FunctionsApplication
     [JsiiInterface(nativeType: typeof(IFunctionsApplicationImagePolicyConfigKeyDetails), fullyQualifiedName: "oci.functionsApplication.FunctionsApplicationImagePolicyConfigKeyDetails")]
     public interface IFunctionsApplicationImagePolicyConfigKeyDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string KmsKeyId
         {
@@ -21,7 +21,7 @@ namespace oci.FunctionsApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/functions_application#kms_key_id FunctionsApplication#kms_key_id}.</summary>
             [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KmsKeyId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciUsageProxyResources
     [JsiiByValue(fqn: "oci.dataOciUsageProxyResources.DataOciUsageProxyResourcesFilter")]
     public class DataOciUsageProxyResourcesFilter : oci.DataOciUsageProxyResources.IDataOciUsageProxyResourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/usage_proxy_resources#name DataOciUsageProxyResources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/usage_proxy_resources#name DataOciUsageProxyResources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciUsageProxyResources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/usage_proxy_resources#values DataOciUsageProxyResources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/usage_proxy_resources#values DataOciUsageProxyResources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciUsageProxyResources
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/usage_proxy_resources#regex DataOciUsageProxyResources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/usage_proxy_resources#regex DataOciUsageProxyResources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

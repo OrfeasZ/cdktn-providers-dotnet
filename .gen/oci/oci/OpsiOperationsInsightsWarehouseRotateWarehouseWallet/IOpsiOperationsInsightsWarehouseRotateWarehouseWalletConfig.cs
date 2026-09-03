@@ -7,14 +7,14 @@ namespace oci.OpsiOperationsInsightsWarehouseRotateWarehouseWallet
     [JsiiInterface(nativeType: typeof(IOpsiOperationsInsightsWarehouseRotateWarehouseWalletConfig), fullyQualifiedName: "oci.opsiOperationsInsightsWarehouseRotateWarehouseWallet.OpsiOperationsInsightsWarehouseRotateWarehouseWalletConfig")]
     public interface IOpsiOperationsInsightsWarehouseRotateWarehouseWalletConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#operations_insights_warehouse_id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#operations_insights_warehouse_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#operations_insights_warehouse_id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#operations_insights_warehouse_id}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseId", typeJson: "{\"primitive\":\"string\"}")]
         string OperationsInsightsWarehouseId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace oci.OpsiOperationsInsightsWarehouseRotateWarehouseWallet
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#timeouts OpsiOperationsInsightsWarehouseRotateWarehouseWallet#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#timeouts OpsiOperationsInsightsWarehouseRotateWarehouseWallet#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opsiOperationsInsightsWarehouseRotateWarehouseWallet.OpsiOperationsInsightsWarehouseRotateWarehouseWalletTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,14 +50,14 @@ namespace oci.OpsiOperationsInsightsWarehouseRotateWarehouseWallet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#operations_insights_warehouse_id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#operations_insights_warehouse_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#operations_insights_warehouse_id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#operations_insights_warehouse_id}.</summary>
             [JsiiProperty(name: "operationsInsightsWarehouseId", typeJson: "{\"primitive\":\"string\"}")]
             public string OperationsInsightsWarehouseId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#id OpsiOperationsInsightsWarehouseRotateWarehouseWallet#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace oci.OpsiOperationsInsightsWarehouseRotateWarehouseWallet
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#timeouts OpsiOperationsInsightsWarehouseRotateWarehouseWallet#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_operations_insights_warehouse_rotate_warehouse_wallet#timeouts OpsiOperationsInsightsWarehouseRotateWarehouseWallet#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opsiOperationsInsightsWarehouseRotateWarehouseWallet.OpsiOperationsInsightsWarehouseRotateWarehouseWalletTimeouts\"}", isOptional: true)]

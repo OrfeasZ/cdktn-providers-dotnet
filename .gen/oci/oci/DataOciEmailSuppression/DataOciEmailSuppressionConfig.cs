@@ -9,7 +9,7 @@ namespace oci.DataOciEmailSuppression
     [JsiiByValue(fqn: "oci.dataOciEmailSuppression.DataOciEmailSuppressionConfig")]
     public class DataOciEmailSuppressionConfig : oci.DataOciEmailSuppression.IDataOciEmailSuppressionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/email_suppression#suppression_id DataOciEmailSuppression#suppression_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/email_suppression#suppression_id DataOciEmailSuppression#suppression_id}.</summary>
         [JsiiProperty(name: "suppressionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SuppressionId
         {

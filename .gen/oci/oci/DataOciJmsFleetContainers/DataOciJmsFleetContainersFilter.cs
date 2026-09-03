@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetContainers
     [JsiiByValue(fqn: "oci.dataOciJmsFleetContainers.DataOciJmsFleetContainersFilter")]
     public class DataOciJmsFleetContainersFilter : oci.DataOciJmsFleetContainers.IDataOciJmsFleetContainersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_fleet_containers#name DataOciJmsFleetContainers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_fleet_containers#name DataOciJmsFleetContainers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsFleetContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_fleet_containers#values DataOciJmsFleetContainers#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_fleet_containers#values DataOciJmsFleetContainers#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsFleetContainers
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_fleet_containers#regex DataOciJmsFleetContainers#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_fleet_containers#regex DataOciJmsFleetContainers#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

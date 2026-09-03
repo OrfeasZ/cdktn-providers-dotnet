@@ -7,14 +7,14 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstanceGroupRebootManagementConfig), fullyQualifiedName: "oci.osManagementHubManagedInstanceGroupRebootManagement.OsManagementHubManagedInstanceGroupRebootManagementConfig")]
     public interface IOsManagementHubManagedInstanceGroupRebootManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#managed_instance_group_id OsManagementHubManagedInstanceGroupRebootManagement#managed_instance_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#managed_instance_group_id OsManagementHubManagedInstanceGroupRebootManagement#managed_instance_group_id}.</summary>
         [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceGroupId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#id OsManagementHubManagedInstanceGroupRebootManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#id OsManagementHubManagedInstanceGroupRebootManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceGroupRebootManagement#reboot_timeout_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceGroupRebootManagement#reboot_timeout_in_mins}.</summary>
         [JsiiProperty(name: "rebootTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RebootTimeoutInMins
@@ -42,7 +42,7 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#timeouts OsManagementHubManagedInstanceGroupRebootManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#timeouts OsManagementHubManagedInstanceGroupRebootManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceGroupRebootManagement.OsManagementHubManagedInstanceGroupRebootManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#work_request_details OsManagementHubManagedInstanceGroupRebootManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#work_request_details OsManagementHubManagedInstanceGroupRebootManagement#work_request_details}
         /// </remarks>
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceGroupRebootManagement.OsManagementHubManagedInstanceGroupRebootManagementWorkRequestDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,14 +75,14 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#managed_instance_group_id OsManagementHubManagedInstanceGroupRebootManagement#managed_instance_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#managed_instance_group_id OsManagementHubManagedInstanceGroupRebootManagement#managed_instance_group_id}.</summary>
             [JsiiProperty(name: "managedInstanceGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceGroupId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#id OsManagementHubManagedInstanceGroupRebootManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#id OsManagementHubManagedInstanceGroupRebootManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,7 +94,7 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceGroupRebootManagement#reboot_timeout_in_mins}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#reboot_timeout_in_mins OsManagementHubManagedInstanceGroupRebootManagement#reboot_timeout_in_mins}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rebootTimeoutInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RebootTimeoutInMins
@@ -104,7 +104,7 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#timeouts OsManagementHubManagedInstanceGroupRebootManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#timeouts OsManagementHubManagedInstanceGroupRebootManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceGroupRebootManagement.OsManagementHubManagedInstanceGroupRebootManagementTimeouts\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace oci.OsManagementHubManagedInstanceGroupRebootManagement
 
             /// <summary>work_request_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#work_request_details OsManagementHubManagedInstanceGroupRebootManagement#work_request_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_reboot_management#work_request_details OsManagementHubManagedInstanceGroupRebootManagement#work_request_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubManagedInstanceGroupRebootManagement.OsManagementHubManagedInstanceGroupRebootManagementWorkRequestDetails\"}", isOptional: true)]

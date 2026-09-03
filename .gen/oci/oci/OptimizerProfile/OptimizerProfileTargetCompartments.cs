@@ -9,7 +9,7 @@ namespace oci.OptimizerProfile
     [JsiiByValue(fqn: "oci.optimizerProfile.OptimizerProfileTargetCompartments")]
     public class OptimizerProfileTargetCompartments : oci.OptimizerProfile.IOptimizerProfileTargetCompartments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/optimizer_profile#items OptimizerProfile#items}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/optimizer_profile#items OptimizerProfile#items}.</summary>
         [JsiiProperty(name: "items", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Items
         {

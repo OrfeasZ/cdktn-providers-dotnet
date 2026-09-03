@@ -7,21 +7,21 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiHostedApplicationIamsFilter), fullyQualifiedName: "oci.dataOciGenerativeAiHostedApplicationIams.DataOciGenerativeAiHostedApplicationIamsFilter")]
     public interface IDataOciGenerativeAiHostedApplicationIamsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#name DataOciGenerativeAiHostedApplicationIams#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#name DataOciGenerativeAiHostedApplicationIams#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#values DataOciGenerativeAiHostedApplicationIams#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#values DataOciGenerativeAiHostedApplicationIams#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#regex DataOciGenerativeAiHostedApplicationIams#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#regex DataOciGenerativeAiHostedApplicationIams#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#name DataOciGenerativeAiHostedApplicationIams#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#name DataOciGenerativeAiHostedApplicationIams#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#values DataOciGenerativeAiHostedApplicationIams#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#values DataOciGenerativeAiHostedApplicationIams#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#regex DataOciGenerativeAiHostedApplicationIams#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#regex DataOciGenerativeAiHostedApplicationIams#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

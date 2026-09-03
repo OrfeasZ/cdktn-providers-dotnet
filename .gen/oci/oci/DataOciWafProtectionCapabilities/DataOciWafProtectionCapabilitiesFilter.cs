@@ -9,7 +9,7 @@ namespace oci.DataOciWafProtectionCapabilities
     [JsiiByValue(fqn: "oci.dataOciWafProtectionCapabilities.DataOciWafProtectionCapabilitiesFilter")]
     public class DataOciWafProtectionCapabilitiesFilter : oci.DataOciWafProtectionCapabilities.IDataOciWafProtectionCapabilitiesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_protection_capabilities#name DataOciWafProtectionCapabilities#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_protection_capabilities#name DataOciWafProtectionCapabilities#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWafProtectionCapabilities
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_protection_capabilities#values DataOciWafProtectionCapabilities#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_protection_capabilities#values DataOciWafProtectionCapabilities#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciWafProtectionCapabilities
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_protection_capabilities#regex DataOciWafProtectionCapabilities#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_protection_capabilities#regex DataOciWafProtectionCapabilities#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

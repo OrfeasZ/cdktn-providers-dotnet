@@ -7,14 +7,14 @@ namespace oci.SchServiceConnector
     [JsiiInterface(nativeType: typeof(ISchServiceConnectorConfig), fullyQualifiedName: "oci.schServiceConnector.SchServiceConnectorConfig")]
     public interface ISchServiceConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#display_name SchServiceConnector#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#display_name SchServiceConnector#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -23,7 +23,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#source SchServiceConnector#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#source SchServiceConnector#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSource\"}")]
         oci.SchServiceConnector.ISchServiceConnectorSource Source
@@ -33,7 +33,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#target SchServiceConnector#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#target SchServiceConnector#target}
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTarget\"}")]
         oci.SchServiceConnector.ISchServiceConnectorTarget Target
@@ -41,7 +41,7 @@ namespace oci.SchServiceConnector
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#defined_tags SchServiceConnector#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#defined_tags SchServiceConnector#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -52,7 +52,7 @@ namespace oci.SchServiceConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#description SchServiceConnector#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#description SchServiceConnector#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -63,7 +63,7 @@ namespace oci.SchServiceConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#freeform_tags SchServiceConnector#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#freeform_tags SchServiceConnector#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -74,7 +74,7 @@ namespace oci.SchServiceConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#id SchServiceConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#id SchServiceConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,7 +89,7 @@ namespace oci.SchServiceConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#state SchServiceConnector#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#state SchServiceConnector#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -102,7 +102,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>tasks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#tasks SchServiceConnector#tasks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#tasks SchServiceConnector#tasks}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorTasks" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tasks", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTasks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace oci.SchServiceConnector
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#timeouts SchServiceConnector#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#timeouts SchServiceConnector#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,14 +136,14 @@ namespace oci.SchServiceConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#display_name SchServiceConnector#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#display_name SchServiceConnector#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -152,7 +152,7 @@ namespace oci.SchServiceConnector
 
             /// <summary>source block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#source SchServiceConnector#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#source SchServiceConnector#source}
             /// </remarks>
             [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorSource\"}")]
             public oci.SchServiceConnector.ISchServiceConnectorSource Source
@@ -162,7 +162,7 @@ namespace oci.SchServiceConnector
 
             /// <summary>target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#target SchServiceConnector#target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#target SchServiceConnector#target}
             /// </remarks>
             [JsiiProperty(name: "target", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTarget\"}")]
             public oci.SchServiceConnector.ISchServiceConnectorTarget Target
@@ -170,7 +170,7 @@ namespace oci.SchServiceConnector
                 get => GetInstanceProperty<oci.SchServiceConnector.ISchServiceConnectorTarget>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#defined_tags SchServiceConnector#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#defined_tags SchServiceConnector#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -178,7 +178,7 @@ namespace oci.SchServiceConnector
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#description SchServiceConnector#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#description SchServiceConnector#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -186,7 +186,7 @@ namespace oci.SchServiceConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#freeform_tags SchServiceConnector#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#freeform_tags SchServiceConnector#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -194,7 +194,7 @@ namespace oci.SchServiceConnector
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#id SchServiceConnector#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#id SchServiceConnector#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -206,7 +206,7 @@ namespace oci.SchServiceConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#state SchServiceConnector#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#state SchServiceConnector#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -216,7 +216,7 @@ namespace oci.SchServiceConnector
 
             /// <summary>tasks block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#tasks SchServiceConnector#tasks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#tasks SchServiceConnector#tasks}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SchServiceConnector.ISchServiceConnectorTasks" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -228,7 +228,7 @@ namespace oci.SchServiceConnector
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#timeouts SchServiceConnector#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#timeouts SchServiceConnector#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTimeouts\"}", isOptional: true)]

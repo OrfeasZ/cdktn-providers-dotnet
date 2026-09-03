@@ -9,7 +9,7 @@ namespace oci.DataOciCoreInstanceMaintenanceEvent
     [JsiiByValue(fqn: "oci.dataOciCoreInstanceMaintenanceEvent.DataOciCoreInstanceMaintenanceEventConfig")]
     public class DataOciCoreInstanceMaintenanceEventConfig : oci.DataOciCoreInstanceMaintenanceEvent.IDataOciCoreInstanceMaintenanceEventConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_instance_maintenance_event#instance_maintenance_event_id DataOciCoreInstanceMaintenanceEvent#instance_maintenance_event_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_instance_maintenance_event#instance_maintenance_event_id DataOciCoreInstanceMaintenanceEvent#instance_maintenance_event_id}.</summary>
         [JsiiProperty(name: "instanceMaintenanceEventId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceMaintenanceEventId
         {

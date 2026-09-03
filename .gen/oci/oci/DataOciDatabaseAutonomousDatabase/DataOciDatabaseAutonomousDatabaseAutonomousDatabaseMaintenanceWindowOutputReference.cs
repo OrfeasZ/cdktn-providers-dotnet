@@ -35,10 +35,22 @@ namespace oci.DataOciDatabaseAutonomousDatabase
         {
         }
 
+        [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AvailabilityDomain
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabase.DataOciDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeekList\"}")]
         public virtual oci.DataOciDatabaseAutonomousDatabase.DataOciDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeekList DayOfWeek
         {
             get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabase.DataOciDatabaseAutonomousDatabaseAutonomousDatabaseMaintenanceWindowDayOfWeekList>()!;
+        }
+
+        [JsiiProperty(name: "isMaintenanceWindowChangeScheduled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsMaintenanceWindowChangeScheduled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "maintenanceEndTime", typeJson: "{\"primitive\":\"string\"}")]

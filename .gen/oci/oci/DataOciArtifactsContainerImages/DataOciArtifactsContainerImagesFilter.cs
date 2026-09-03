@@ -9,7 +9,7 @@ namespace oci.DataOciArtifactsContainerImages
     [JsiiByValue(fqn: "oci.dataOciArtifactsContainerImages.DataOciArtifactsContainerImagesFilter")]
     public class DataOciArtifactsContainerImagesFilter : oci.DataOciArtifactsContainerImages.IDataOciArtifactsContainerImagesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/artifacts_container_images#name DataOciArtifactsContainerImages#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/artifacts_container_images#name DataOciArtifactsContainerImages#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciArtifactsContainerImages
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/artifacts_container_images#values DataOciArtifactsContainerImages#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/artifacts_container_images#values DataOciArtifactsContainerImages#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciArtifactsContainerImages
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/artifacts_container_images#regex DataOciArtifactsContainerImages#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/artifacts_container_images#regex DataOciArtifactsContainerImages#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

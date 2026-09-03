@@ -9,7 +9,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
     [JsiiByValue(fqn: "oci.dataOciMulticloudMulticloudalerts.DataOciMulticloudMulticloudalertsFilter")]
     public class DataOciMulticloudMulticloudalertsFilter : oci.DataOciMulticloudMulticloudalerts.IDataOciMulticloudMulticloudalertsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_multicloudalerts#name DataOciMulticloudMulticloudalerts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/multicloud_multicloudalerts#name DataOciMulticloudMulticloudalerts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_multicloudalerts#values DataOciMulticloudMulticloudalerts#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/multicloud_multicloudalerts#values DataOciMulticloudMulticloudalerts#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMulticloudMulticloudalerts
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/multicloud_multicloudalerts#regex DataOciMulticloudMulticloudalerts#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/multicloud_multicloudalerts#regex DataOciMulticloudMulticloudalerts#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

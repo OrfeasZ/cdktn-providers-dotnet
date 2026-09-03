@@ -7,28 +7,28 @@ namespace oci.DatabaseDbNodeSnapshotManagement
     [JsiiInterface(nativeType: typeof(IDatabaseDbNodeSnapshotManagementConfig), fullyQualifiedName: "oci.databaseDbNodeSnapshotManagement.DatabaseDbNodeSnapshotManagementConfig")]
     public interface IDatabaseDbNodeSnapshotManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#exadb_vm_cluster_id DatabaseDbNodeSnapshotManagement#exadb_vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#exadb_vm_cluster_id DatabaseDbNodeSnapshotManagement#exadb_vm_cluster_id}.</summary>
         [JsiiProperty(name: "exadbVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
         string ExadbVmClusterId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#name DatabaseDbNodeSnapshotManagement#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#name DatabaseDbNodeSnapshotManagement#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#source_dbnode_ids DatabaseDbNodeSnapshotManagement#source_dbnode_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#source_dbnode_ids DatabaseDbNodeSnapshotManagement#source_dbnode_ids}.</summary>
         [JsiiProperty(name: "sourceDbnodeIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] SourceDbnodeIds
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#defined_tags DatabaseDbNodeSnapshotManagement#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#defined_tags DatabaseDbNodeSnapshotManagement#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -39,7 +39,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#freeform_tags DatabaseDbNodeSnapshotManagement#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#freeform_tags DatabaseDbNodeSnapshotManagement#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -50,7 +50,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#id DatabaseDbNodeSnapshotManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#id DatabaseDbNodeSnapshotManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,7 +67,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#timeouts DatabaseDbNodeSnapshotManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#timeouts DatabaseDbNodeSnapshotManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDbNodeSnapshotManagement.DatabaseDbNodeSnapshotManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,28 +86,28 @@ namespace oci.DatabaseDbNodeSnapshotManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#exadb_vm_cluster_id DatabaseDbNodeSnapshotManagement#exadb_vm_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#exadb_vm_cluster_id DatabaseDbNodeSnapshotManagement#exadb_vm_cluster_id}.</summary>
             [JsiiProperty(name: "exadbVmClusterId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExadbVmClusterId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#name DatabaseDbNodeSnapshotManagement#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#name DatabaseDbNodeSnapshotManagement#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#source_dbnode_ids DatabaseDbNodeSnapshotManagement#source_dbnode_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#source_dbnode_ids DatabaseDbNodeSnapshotManagement#source_dbnode_ids}.</summary>
             [JsiiProperty(name: "sourceDbnodeIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] SourceDbnodeIds
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#defined_tags DatabaseDbNodeSnapshotManagement#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#defined_tags DatabaseDbNodeSnapshotManagement#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -115,7 +115,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#freeform_tags DatabaseDbNodeSnapshotManagement#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#freeform_tags DatabaseDbNodeSnapshotManagement#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -123,7 +123,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#id DatabaseDbNodeSnapshotManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#id DatabaseDbNodeSnapshotManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ namespace oci.DatabaseDbNodeSnapshotManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_node_snapshot_management#timeouts DatabaseDbNodeSnapshotManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_node_snapshot_management#timeouts DatabaseDbNodeSnapshotManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseDbNodeSnapshotManagement.DatabaseDbNodeSnapshotManagementTimeouts\"}", isOptional: true)]

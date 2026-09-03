@@ -9,7 +9,7 @@ namespace oci.DataOciRedisOciCacheUser
     [JsiiByValue(fqn: "oci.dataOciRedisOciCacheUser.DataOciRedisOciCacheUserConfig")]
     public class DataOciRedisOciCacheUserConfig : oci.DataOciRedisOciCacheUser.IDataOciRedisOciCacheUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/redis_oci_cache_user#oci_cache_user_id DataOciRedisOciCacheUser#oci_cache_user_id}.</summary>
         [JsiiProperty(name: "ociCacheUserId", typeJson: "{\"primitive\":\"string\"}")]
         public string OciCacheUserId
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciCertificatesManagementCertificate
     [JsiiInterface(nativeType: typeof(IDataOciCertificatesManagementCertificateConfig), fullyQualifiedName: "oci.dataOciCertificatesManagementCertificate.DataOciCertificatesManagementCertificateConfig")]
     public interface IDataOciCertificatesManagementCertificateConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/certificates_management_certificate#certificate_id DataOciCertificatesManagementCertificate#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/certificates_management_certificate#certificate_id DataOciCertificatesManagementCertificate#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCertificatesManagementCertificate
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/certificates_management_certificate#certificate_id DataOciCertificatesManagementCertificate#certificate_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/certificates_management_certificate#certificate_id DataOciCertificatesManagementCertificate#certificate_id}.</summary>
             [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateId
             {

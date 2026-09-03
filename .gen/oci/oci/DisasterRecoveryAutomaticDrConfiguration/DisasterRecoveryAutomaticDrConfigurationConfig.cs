@@ -9,7 +9,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
     [JsiiByValue(fqn: "oci.disasterRecoveryAutomaticDrConfiguration.DisasterRecoveryAutomaticDrConfigurationConfig")]
     public class DisasterRecoveryAutomaticDrConfigurationConfig : oci.DisasterRecoveryAutomaticDrConfiguration.IDisasterRecoveryAutomaticDrConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#display_name DisasterRecoveryAutomaticDrConfiguration#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#display_name DisasterRecoveryAutomaticDrConfiguration#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -17,7 +17,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#dr_protection_group_id DisasterRecoveryAutomaticDrConfiguration#dr_protection_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#dr_protection_group_id DisasterRecoveryAutomaticDrConfiguration#dr_protection_group_id}.</summary>
         [JsiiProperty(name: "drProtectionGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrProtectionGroupId
         {
@@ -29,7 +29,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
 
         /// <summary>members block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#members DisasterRecoveryAutomaticDrConfiguration#members}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#members DisasterRecoveryAutomaticDrConfiguration#members}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DisasterRecoveryAutomaticDrConfiguration.IDisasterRecoveryAutomaticDrConfigurationMembers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "members", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.disasterRecoveryAutomaticDrConfiguration.DisasterRecoveryAutomaticDrConfigurationMembers\"},\"kind\":\"array\"}}]}}")]
@@ -59,7 +59,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#default_failover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_failover_dr_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#default_failover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_failover_dr_plan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultFailoverDrPlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultFailoverDrPlanId
@@ -68,7 +68,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#default_switchover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_switchover_dr_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#default_switchover_dr_plan_id DisasterRecoveryAutomaticDrConfiguration#default_switchover_dr_plan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultSwitchoverDrPlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultSwitchoverDrPlanId
@@ -77,7 +77,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#defined_tags DisasterRecoveryAutomaticDrConfiguration#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#defined_tags DisasterRecoveryAutomaticDrConfiguration#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -86,7 +86,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#freeform_tags DisasterRecoveryAutomaticDrConfiguration#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#freeform_tags DisasterRecoveryAutomaticDrConfiguration#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -95,7 +95,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#id DisasterRecoveryAutomaticDrConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#id DisasterRecoveryAutomaticDrConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +110,7 @@ namespace oci.DisasterRecoveryAutomaticDrConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_automatic_dr_configuration#timeouts DisasterRecoveryAutomaticDrConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_automatic_dr_configuration#timeouts DisasterRecoveryAutomaticDrConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.disasterRecoveryAutomaticDrConfiguration.DisasterRecoveryAutomaticDrConfigurationTimeouts\"}", isOptional: true)]

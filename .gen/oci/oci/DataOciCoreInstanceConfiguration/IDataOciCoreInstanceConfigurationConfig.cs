@@ -7,7 +7,7 @@ namespace oci.DataOciCoreInstanceConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciCoreInstanceConfigurationConfig), fullyQualifiedName: "oci.dataOciCoreInstanceConfiguration.DataOciCoreInstanceConfigurationConfig")]
     public interface IDataOciCoreInstanceConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_instance_configuration#instance_configuration_id DataOciCoreInstanceConfiguration#instance_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_instance_configuration#instance_configuration_id DataOciCoreInstanceConfiguration#instance_configuration_id}.</summary>
         [JsiiProperty(name: "instanceConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceConfigurationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreInstanceConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_instance_configuration#instance_configuration_id DataOciCoreInstanceConfiguration#instance_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_instance_configuration#instance_configuration_id DataOciCoreInstanceConfiguration#instance_configuration_id}.</summary>
             [JsiiProperty(name: "instanceConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceConfigurationId
             {

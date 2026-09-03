@@ -9,7 +9,7 @@ namespace oci.DataOciCoreFirmwareBundles
     [JsiiByValue(fqn: "oci.dataOciCoreFirmwareBundles.DataOciCoreFirmwareBundlesFilter")]
     public class DataOciCoreFirmwareBundlesFilter : oci.DataOciCoreFirmwareBundles.IDataOciCoreFirmwareBundlesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_firmware_bundles#name DataOciCoreFirmwareBundles#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_firmware_bundles#name DataOciCoreFirmwareBundles#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreFirmwareBundles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_firmware_bundles#values DataOciCoreFirmwareBundles#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_firmware_bundles#values DataOciCoreFirmwareBundles#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCoreFirmwareBundles
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_firmware_bundles#regex DataOciCoreFirmwareBundles#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_firmware_bundles#regex DataOciCoreFirmwareBundles#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

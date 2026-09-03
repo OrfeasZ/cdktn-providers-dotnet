@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsGrant
     [JsiiByValue(fqn: "oci.identityDomainsGrant.IdentityDomainsGrantApp")]
     public class IdentityDomainsGrantApp : oci.IdentityDomainsGrant.IIdentityDomainsGrantApp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_grant#value IdentityDomainsGrant#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_grant#value IdentityDomainsGrant#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

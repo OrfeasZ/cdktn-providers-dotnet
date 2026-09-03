@@ -9,7 +9,7 @@ namespace oci.DnsSteeringPolicy
     {
         /// <summary>answer_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_steering_policy#answer_data DnsSteeringPolicy#answer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_steering_policy#answer_data DnsSteeringPolicy#answer_data}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesCasesAnswerData" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "answerData", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dnsSteeringPolicy.DnsSteeringPolicyRulesCasesAnswerData\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -22,7 +22,7 @@ namespace oci.DnsSteeringPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_steering_policy#case_condition DnsSteeringPolicy#case_condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_steering_policy#case_condition DnsSteeringPolicy#case_condition}.</summary>
         [JsiiProperty(name: "caseCondition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CaseCondition
@@ -33,7 +33,7 @@ namespace oci.DnsSteeringPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_steering_policy#count DnsSteeringPolicy#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_steering_policy#count DnsSteeringPolicy#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Count
@@ -53,7 +53,7 @@ namespace oci.DnsSteeringPolicy
 
             /// <summary>answer_data block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_steering_policy#answer_data DnsSteeringPolicy#answer_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_steering_policy#answer_data DnsSteeringPolicy#answer_data}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DnsSteeringPolicy.IDnsSteeringPolicyRulesCasesAnswerData" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -63,7 +63,7 @@ namespace oci.DnsSteeringPolicy
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_steering_policy#case_condition DnsSteeringPolicy#case_condition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_steering_policy#case_condition DnsSteeringPolicy#case_condition}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "caseCondition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CaseCondition
@@ -71,7 +71,7 @@ namespace oci.DnsSteeringPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_steering_policy#count DnsSteeringPolicy#count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_steering_policy#count DnsSteeringPolicy#count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Count

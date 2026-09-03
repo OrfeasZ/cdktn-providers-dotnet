@@ -7,7 +7,7 @@ namespace oci.StackMonitoringConfig
     [JsiiByValue(fqn: "oci.stackMonitoringConfig.StackMonitoringConfigAdditionalConfigurations")]
     public class StackMonitoringConfigAdditionalConfigurations : oci.StackMonitoringConfig.IStackMonitoringConfigAdditionalConfigurations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_config#properties_map StackMonitoringConfig#properties_map}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_config#properties_map StackMonitoringConfig#properties_map}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "propertiesMap", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? PropertiesMap

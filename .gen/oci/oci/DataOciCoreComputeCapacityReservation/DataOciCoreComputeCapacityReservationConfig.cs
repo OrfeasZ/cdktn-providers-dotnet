@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeCapacityReservation
     [JsiiByValue(fqn: "oci.dataOciCoreComputeCapacityReservation.DataOciCoreComputeCapacityReservationConfig")]
     public class DataOciCoreComputeCapacityReservationConfig : oci.DataOciCoreComputeCapacityReservation.IDataOciCoreComputeCapacityReservationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_reservation#capacity_reservation_id DataOciCoreComputeCapacityReservation#capacity_reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_capacity_reservation#capacity_reservation_id DataOciCoreComputeCapacityReservation#capacity_reservation_id}.</summary>
         [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
         public string CapacityReservationId
         {

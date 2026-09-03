@@ -9,7 +9,7 @@ namespace oci.LicenseManagerConfiguration
     [JsiiByValue(fqn: "oci.licenseManagerConfiguration.LicenseManagerConfigurationConfig")]
     public class LicenseManagerConfigurationConfig : oci.LicenseManagerConfiguration.ILicenseManagerConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/license_manager_configuration#compartment_id LicenseManagerConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/license_manager_configuration#compartment_id LicenseManagerConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.LicenseManagerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/license_manager_configuration#email_ids LicenseManagerConfiguration#email_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/license_manager_configuration#email_ids LicenseManagerConfiguration#email_ids}.</summary>
         [JsiiProperty(name: "emailIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] EmailIds
         {
@@ -25,7 +25,7 @@ namespace oci.LicenseManagerConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/license_manager_configuration#id LicenseManagerConfiguration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/license_manager_configuration#id LicenseManagerConfiguration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.LicenseManagerConfiguration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/license_manager_configuration#timeouts LicenseManagerConfiguration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/license_manager_configuration#timeouts LicenseManagerConfiguration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.licenseManagerConfiguration.LicenseManagerConfigurationTimeouts\"}", isOptional: true)]

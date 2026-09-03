@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsCapacityReservations.DataOciBdsBdsCapacityReservationsConfig")]
     public class DataOciBdsBdsCapacityReservationsConfig : oci.DataOciBdsBdsCapacityReservations.IDataOciBdsBdsCapacityReservationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#compartment_id DataOciBdsBdsCapacityReservations#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#compartment_id DataOciBdsBdsCapacityReservations#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#display_name DataOciBdsBdsCapacityReservations#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#display_name DataOciBdsBdsCapacityReservations#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#filter DataOciBdsBdsCapacityReservations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#filter DataOciBdsBdsCapacityReservations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsCapacityReservations.IDataOciBdsBdsCapacityReservationsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#id DataOciBdsBdsCapacityReservations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#id DataOciBdsBdsCapacityReservations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#state DataOciBdsBdsCapacityReservations#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#state DataOciBdsBdsCapacityReservations#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

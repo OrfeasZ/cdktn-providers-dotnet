@@ -7,21 +7,21 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
     [JsiiInterface(nativeType: typeof(IDataSafeUnsetUserAssessmentBaselineManagementConfig), fullyQualifiedName: "oci.dataSafeUnsetUserAssessmentBaselineManagement.DataSafeUnsetUserAssessmentBaselineManagementConfig")]
     public interface IDataSafeUnsetUserAssessmentBaselineManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#compartment_id DataSafeUnsetUserAssessmentBaselineManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#compartment_id DataSafeUnsetUserAssessmentBaselineManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#user_assessment_id DataSafeUnsetUserAssessmentBaselineManagement#user_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#user_assessment_id DataSafeUnsetUserAssessmentBaselineManagement#user_assessment_id}.</summary>
         [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string UserAssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#id DataSafeUnsetUserAssessmentBaselineManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#id DataSafeUnsetUserAssessmentBaselineManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#timeouts DataSafeUnsetUserAssessmentBaselineManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#timeouts DataSafeUnsetUserAssessmentBaselineManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeUnsetUserAssessmentBaselineManagement.DataSafeUnsetUserAssessmentBaselineManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,21 +57,21 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#compartment_id DataSafeUnsetUserAssessmentBaselineManagement#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#compartment_id DataSafeUnsetUserAssessmentBaselineManagement#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#user_assessment_id DataSafeUnsetUserAssessmentBaselineManagement#user_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#user_assessment_id DataSafeUnsetUserAssessmentBaselineManagement#user_assessment_id}.</summary>
             [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserAssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#id DataSafeUnsetUserAssessmentBaselineManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#id DataSafeUnsetUserAssessmentBaselineManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DataSafeUnsetUserAssessmentBaselineManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_unset_user_assessment_baseline_management#timeouts DataSafeUnsetUserAssessmentBaselineManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_unset_user_assessment_baseline_management#timeouts DataSafeUnsetUserAssessmentBaselineManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeUnsetUserAssessmentBaselineManagement.DataSafeUnsetUserAssessmentBaselineManagementTimeouts\"}", isOptional: true)]

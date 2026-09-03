@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntity
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsEntity.DataOciLogAnalyticsLogAnalyticsEntityConfig")]
     public class DataOciLogAnalyticsLogAnalyticsEntityConfig : oci.DataOciLogAnalyticsLogAnalyticsEntity.IDataOciLogAnalyticsLogAnalyticsEntityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity#log_analytics_entity_id DataOciLogAnalyticsLogAnalyticsEntity#log_analytics_entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_entity#log_analytics_entity_id DataOciLogAnalyticsLogAnalyticsEntity#log_analytics_entity_id}.</summary>
         [JsiiProperty(name: "logAnalyticsEntityId", typeJson: "{\"primitive\":\"string\"}")]
         public string LogAnalyticsEntityId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity#namespace DataOciLogAnalyticsLogAnalyticsEntity#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_entity#namespace DataOciLogAnalyticsLogAnalyticsEntity#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity#is_show_associated_sources_count DataOciLogAnalyticsLogAnalyticsEntity#is_show_associated_sources_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_entity#is_show_associated_sources_count DataOciLogAnalyticsLogAnalyticsEntity#is_show_associated_sources_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "isShowAssociatedSourcesCount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IsShowAssociatedSourcesCount

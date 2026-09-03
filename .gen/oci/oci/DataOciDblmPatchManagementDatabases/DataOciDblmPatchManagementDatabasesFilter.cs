@@ -9,7 +9,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
     [JsiiByValue(fqn: "oci.dataOciDblmPatchManagementDatabases.DataOciDblmPatchManagementDatabasesFilter")]
     public class DataOciDblmPatchManagementDatabasesFilter : oci.DataOciDblmPatchManagementDatabases.IDataOciDblmPatchManagementDatabasesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dblm_patch_management_databases#name DataOciDblmPatchManagementDatabases#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dblm_patch_management_databases#name DataOciDblmPatchManagementDatabases#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dblm_patch_management_databases#values DataOciDblmPatchManagementDatabases#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dblm_patch_management_databases#values DataOciDblmPatchManagementDatabases#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDblmPatchManagementDatabases
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dblm_patch_management_databases#regex DataOciDblmPatchManagementDatabases#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dblm_patch_management_databases#regex DataOciDblmPatchManagementDatabases#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

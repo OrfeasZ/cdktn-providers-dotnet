@@ -7,14 +7,14 @@ namespace oci.DataOciMysqlBlueGreenDeployments
     [JsiiInterface(nativeType: typeof(IDataOciMysqlBlueGreenDeploymentsConfig), fullyQualifiedName: "oci.dataOciMysqlBlueGreenDeployments.DataOciMysqlBlueGreenDeploymentsConfig")]
     public interface IDataOciMysqlBlueGreenDeploymentsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#compartment_id DataOciMysqlBlueGreenDeployments#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#compartment_id DataOciMysqlBlueGreenDeployments#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#display_name DataOciMysqlBlueGreenDeployments#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#display_name DataOciMysqlBlueGreenDeployments#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#filter DataOciMysqlBlueGreenDeployments#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#filter DataOciMysqlBlueGreenDeployments#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMysqlBlueGreenDeployments.IDataOciMysqlBlueGreenDeploymentsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciMysqlBlueGreenDeployments.DataOciMysqlBlueGreenDeploymentsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#id DataOciMysqlBlueGreenDeployments#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#id DataOciMysqlBlueGreenDeployments#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#source_db_system_id DataOciMysqlBlueGreenDeployments#source_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#source_db_system_id DataOciMysqlBlueGreenDeployments#source_db_system_id}.</summary>
         [JsiiProperty(name: "sourceDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceDbSystemId
@@ -66,7 +66,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#state DataOciMysqlBlueGreenDeployments#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#state DataOciMysqlBlueGreenDeployments#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -77,7 +77,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#target_db_system_id DataOciMysqlBlueGreenDeployments#target_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#target_db_system_id DataOciMysqlBlueGreenDeployments#target_db_system_id}.</summary>
         [JsiiProperty(name: "targetDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetDbSystemId
@@ -95,14 +95,14 @@ namespace oci.DataOciMysqlBlueGreenDeployments
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#compartment_id DataOciMysqlBlueGreenDeployments#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#compartment_id DataOciMysqlBlueGreenDeployments#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#display_name DataOciMysqlBlueGreenDeployments#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#display_name DataOciMysqlBlueGreenDeployments#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -112,7 +112,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#filter DataOciMysqlBlueGreenDeployments#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#filter DataOciMysqlBlueGreenDeployments#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciMysqlBlueGreenDeployments.IDataOciMysqlBlueGreenDeploymentsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -122,7 +122,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#id DataOciMysqlBlueGreenDeployments#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#id DataOciMysqlBlueGreenDeployments#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -134,7 +134,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#source_db_system_id DataOciMysqlBlueGreenDeployments#source_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#source_db_system_id DataOciMysqlBlueGreenDeployments#source_db_system_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceDbSystemId
@@ -142,7 +142,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#state DataOciMysqlBlueGreenDeployments#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#state DataOciMysqlBlueGreenDeployments#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -150,7 +150,7 @@ namespace oci.DataOciMysqlBlueGreenDeployments
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#target_db_system_id DataOciMysqlBlueGreenDeployments#target_db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#target_db_system_id DataOciMysqlBlueGreenDeployments#target_db_system_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetDbSystemId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetDbSystemId

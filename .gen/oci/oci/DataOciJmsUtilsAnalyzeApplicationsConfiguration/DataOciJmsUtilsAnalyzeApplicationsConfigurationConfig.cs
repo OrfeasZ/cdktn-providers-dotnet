@@ -9,7 +9,7 @@ namespace oci.DataOciJmsUtilsAnalyzeApplicationsConfiguration
     [JsiiByValue(fqn: "oci.dataOciJmsUtilsAnalyzeApplicationsConfiguration.DataOciJmsUtilsAnalyzeApplicationsConfigurationConfig")]
     public class DataOciJmsUtilsAnalyzeApplicationsConfigurationConfig : oci.DataOciJmsUtilsAnalyzeApplicationsConfiguration.IDataOciJmsUtilsAnalyzeApplicationsConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {

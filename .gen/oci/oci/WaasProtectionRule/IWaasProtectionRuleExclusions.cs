@@ -7,7 +7,7 @@ namespace oci.WaasProtectionRule
     [JsiiInterface(nativeType: typeof(IWaasProtectionRuleExclusions), fullyQualifiedName: "oci.waasProtectionRule.WaasProtectionRuleExclusions")]
     public interface IWaasProtectionRuleExclusions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}.</summary>
         [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Exclusions
@@ -18,7 +18,7 @@ namespace oci.WaasProtectionRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_protection_rule#target WaasProtectionRule#target}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_protection_rule#target WaasProtectionRule#target}.</summary>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Target
@@ -36,7 +36,7 @@ namespace oci.WaasProtectionRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_protection_rule#exclusions WaasProtectionRule#exclusions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Exclusions
@@ -44,7 +44,7 @@ namespace oci.WaasProtectionRule
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_protection_rule#target WaasProtectionRule#target}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_protection_rule#target WaasProtectionRule#target}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Target

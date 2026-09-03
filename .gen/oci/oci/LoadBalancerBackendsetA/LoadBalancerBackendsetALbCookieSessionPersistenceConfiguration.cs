@@ -7,7 +7,7 @@ namespace oci.LoadBalancerBackendsetA
     [JsiiByValue(fqn: "oci.loadBalancerBackendsetA.LoadBalancerBackendsetALbCookieSessionPersistenceConfiguration")]
     public class LoadBalancerBackendsetALbCookieSessionPersistenceConfiguration : oci.LoadBalancerBackendsetA.ILoadBalancerBackendsetALbCookieSessionPersistenceConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#cookie_name LoadBalancerBackendsetA#cookie_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_backendset#cookie_name LoadBalancerBackendsetA#cookie_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cookieName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CookieName
@@ -18,7 +18,7 @@ namespace oci.LoadBalancerBackendsetA
 
         private object? _disableFallback;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#disable_fallback LoadBalancerBackendsetA#disable_fallback}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_backendset#disable_fallback LoadBalancerBackendsetA#disable_fallback}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -50,7 +50,7 @@ namespace oci.LoadBalancerBackendsetA
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#domain LoadBalancerBackendsetA#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_backendset#domain LoadBalancerBackendsetA#domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Domain
@@ -61,7 +61,7 @@ namespace oci.LoadBalancerBackendsetA
 
         private object? _isHttpOnly;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#is_http_only LoadBalancerBackendsetA#is_http_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_backendset#is_http_only LoadBalancerBackendsetA#is_http_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace oci.LoadBalancerBackendsetA
 
         private object? _isSecure;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#is_secure LoadBalancerBackendsetA#is_secure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_backendset#is_secure LoadBalancerBackendsetA#is_secure}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -127,7 +127,7 @@ namespace oci.LoadBalancerBackendsetA
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#max_age_in_seconds LoadBalancerBackendsetA#max_age_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_backendset#max_age_in_seconds LoadBalancerBackendsetA#max_age_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxAgeInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxAgeInSeconds
@@ -136,7 +136,7 @@ namespace oci.LoadBalancerBackendsetA
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_backendset#path LoadBalancerBackendsetA#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_backendset#path LoadBalancerBackendsetA#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path

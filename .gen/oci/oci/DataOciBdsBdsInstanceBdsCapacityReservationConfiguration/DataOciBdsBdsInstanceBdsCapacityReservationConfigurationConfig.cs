@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceBdsCapacityReservationConfiguration
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceBdsCapacityReservationConfiguration.DataOciBdsBdsInstanceBdsCapacityReservationConfigurationConfig")]
     public class DataOciBdsBdsInstanceBdsCapacityReservationConfigurationConfig : oci.DataOciBdsBdsInstanceBdsCapacityReservationConfiguration.IDataOciBdsBdsInstanceBdsCapacityReservationConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configuration#bds_capacity_reservation_configuration_id DataOciBdsBdsInstanceBdsCapacityReservationConfiguration#bds_capacity_reservation_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configuration#bds_capacity_reservation_configuration_id DataOciBdsBdsInstanceBdsCapacityReservationConfiguration#bds_capacity_reservation_configuration_id}.</summary>
         [JsiiProperty(name: "bdsCapacityReservationConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsCapacityReservationConfigurationId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceBdsCapacityReservationConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configuration#bds_instance_id DataOciBdsBdsInstanceBdsCapacityReservationConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configuration#bds_instance_id DataOciBdsBdsInstanceBdsCapacityReservationConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {

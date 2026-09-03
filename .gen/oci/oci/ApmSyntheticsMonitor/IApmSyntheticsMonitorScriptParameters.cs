@@ -7,14 +7,14 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiInterface(nativeType: typeof(IApmSyntheticsMonitorScriptParameters), fullyQualifiedName: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorScriptParameters")]
     public interface IApmSyntheticsMonitorScriptParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#param_name ApmSyntheticsMonitor#param_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#param_name ApmSyntheticsMonitor#param_name}.</summary>
         [JsiiProperty(name: "paramName", typeJson: "{\"primitive\":\"string\"}")]
         string ParamName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#param_value ApmSyntheticsMonitor#param_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#param_value ApmSyntheticsMonitor#param_value}.</summary>
         [JsiiProperty(name: "paramValue", typeJson: "{\"primitive\":\"string\"}")]
         string ParamValue
         {
@@ -28,14 +28,14 @@ namespace oci.ApmSyntheticsMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#param_name ApmSyntheticsMonitor#param_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#param_name ApmSyntheticsMonitor#param_name}.</summary>
             [JsiiProperty(name: "paramName", typeJson: "{\"primitive\":\"string\"}")]
             public string ParamName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#param_value ApmSyntheticsMonitor#param_value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#param_value ApmSyntheticsMonitor#param_value}.</summary>
             [JsiiProperty(name: "paramValue", typeJson: "{\"primitive\":\"string\"}")]
             public string ParamValue
             {

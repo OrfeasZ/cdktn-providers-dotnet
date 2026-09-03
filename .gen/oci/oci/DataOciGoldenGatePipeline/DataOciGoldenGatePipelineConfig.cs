@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGatePipeline
     [JsiiByValue(fqn: "oci.dataOciGoldenGatePipeline.DataOciGoldenGatePipelineConfig")]
     public class DataOciGoldenGatePipelineConfig : oci.DataOciGoldenGatePipeline.IDataOciGoldenGatePipelineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_pipeline#pipeline_id DataOciGoldenGatePipeline#pipeline_id}.</summary>
         [JsiiProperty(name: "pipelineId", typeJson: "{\"primitive\":\"string\"}")]
         public string PipelineId
         {

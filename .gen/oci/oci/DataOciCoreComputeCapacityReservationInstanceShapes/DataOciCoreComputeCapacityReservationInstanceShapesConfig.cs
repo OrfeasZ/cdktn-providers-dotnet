@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeCapacityReservationInstanceShapes
     [JsiiByValue(fqn: "oci.dataOciCoreComputeCapacityReservationInstanceShapes.DataOciCoreComputeCapacityReservationInstanceShapesConfig")]
     public class DataOciCoreComputeCapacityReservationInstanceShapesConfig : oci.DataOciCoreComputeCapacityReservationInstanceShapes.IDataOciCoreComputeCapacityReservationInstanceShapesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#compartment_id DataOciCoreComputeCapacityReservationInstanceShapes#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#compartment_id DataOciCoreComputeCapacityReservationInstanceShapes#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreComputeCapacityReservationInstanceShapes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#availability_domain DataOciCoreComputeCapacityReservationInstanceShapes#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#availability_domain DataOciCoreComputeCapacityReservationInstanceShapes#availability_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AvailabilityDomain
@@ -26,7 +26,7 @@ namespace oci.DataOciCoreComputeCapacityReservationInstanceShapes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#display_name DataOciCoreComputeCapacityReservationInstanceShapes#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#display_name DataOciCoreComputeCapacityReservationInstanceShapes#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciCoreComputeCapacityReservationInstanceShapes
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#filter DataOciCoreComputeCapacityReservationInstanceShapes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#filter DataOciCoreComputeCapacityReservationInstanceShapes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreComputeCapacityReservationInstanceShapes.IDataOciCoreComputeCapacityReservationInstanceShapesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciCoreComputeCapacityReservationInstanceShapes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#id DataOciCoreComputeCapacityReservationInstanceShapes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_capacity_reservation_instance_shapes#id DataOciCoreComputeCapacityReservationInstanceShapes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

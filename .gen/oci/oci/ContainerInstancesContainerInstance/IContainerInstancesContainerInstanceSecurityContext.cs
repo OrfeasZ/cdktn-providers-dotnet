@@ -7,7 +7,7 @@ namespace oci.ContainerInstancesContainerInstance
     [JsiiInterface(nativeType: typeof(IContainerInstancesContainerInstanceSecurityContext), fullyQualifiedName: "oci.containerInstancesContainerInstance.ContainerInstancesContainerInstanceSecurityContext")]
     public interface IContainerInstancesContainerInstanceSecurityContext
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/container_instances_container_instance#fs_group ContainerInstancesContainerInstance#fs_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/container_instances_container_instance#fs_group ContainerInstancesContainerInstance#fs_group}.</summary>
         [JsiiProperty(name: "fsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? FsGroup
@@ -18,7 +18,7 @@ namespace oci.ContainerInstancesContainerInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/container_instances_container_instance#fs_group_change_policy ContainerInstancesContainerInstance#fs_group_change_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/container_instances_container_instance#fs_group_change_policy ContainerInstancesContainerInstance#fs_group_change_policy}.</summary>
         [JsiiProperty(name: "fsGroupChangePolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FsGroupChangePolicy
@@ -29,7 +29,7 @@ namespace oci.ContainerInstancesContainerInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/container_instances_container_instance#security_context_type ContainerInstancesContainerInstance#security_context_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/container_instances_container_instance#security_context_type ContainerInstancesContainerInstance#security_context_type}.</summary>
         [JsiiProperty(name: "securityContextType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecurityContextType
@@ -47,7 +47,7 @@ namespace oci.ContainerInstancesContainerInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/container_instances_container_instance#fs_group ContainerInstancesContainerInstance#fs_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/container_instances_container_instance#fs_group ContainerInstancesContainerInstance#fs_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fsGroup", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? FsGroup
@@ -55,7 +55,7 @@ namespace oci.ContainerInstancesContainerInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/container_instances_container_instance#fs_group_change_policy ContainerInstancesContainerInstance#fs_group_change_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/container_instances_container_instance#fs_group_change_policy ContainerInstancesContainerInstance#fs_group_change_policy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fsGroupChangePolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FsGroupChangePolicy
@@ -63,7 +63,7 @@ namespace oci.ContainerInstancesContainerInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/container_instances_container_instance#security_context_type ContainerInstancesContainerInstance#security_context_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/container_instances_container_instance#security_context_type ContainerInstancesContainerInstance#security_context_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityContextType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecurityContextType

@@ -7,7 +7,7 @@ namespace oci.ApmTracesScheduledQuery
     [JsiiByValue(fqn: "oci.apmTracesScheduledQuery.ApmTracesScheduledQueryTimeouts")]
     public class ApmTracesScheduledQueryTimeouts : oci.ApmTracesScheduledQuery.IApmTracesScheduledQueryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_traces_scheduled_query#create ApmTracesScheduledQuery#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_traces_scheduled_query#create ApmTracesScheduledQuery#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ApmTracesScheduledQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_traces_scheduled_query#delete ApmTracesScheduledQuery#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_traces_scheduled_query#delete ApmTracesScheduledQuery#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ApmTracesScheduledQuery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_traces_scheduled_query#update ApmTracesScheduledQuery#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_traces_scheduled_query#update ApmTracesScheduledQuery#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

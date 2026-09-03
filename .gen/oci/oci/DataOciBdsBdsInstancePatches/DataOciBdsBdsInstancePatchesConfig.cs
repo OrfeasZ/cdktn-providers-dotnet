@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstancePatches
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstancePatches.DataOciBdsBdsInstancePatchesConfig")]
     public class DataOciBdsBdsInstancePatchesConfig : oci.DataOciBdsBdsInstancePatches.IDataOciBdsBdsInstancePatchesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_patches#bds_instance_id DataOciBdsBdsInstancePatches#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_patches#bds_instance_id DataOciBdsBdsInstancePatches#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBdsBdsInstancePatches
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_patches#filter DataOciBdsBdsInstancePatches#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_patches#filter DataOciBdsBdsInstancePatches#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciBdsBdsInstancePatches.IDataOciBdsBdsInstancePatchesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciBdsBdsInstancePatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_patches#id DataOciBdsBdsInstancePatches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_patches#id DataOciBdsBdsInstancePatches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,7 +7,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionMapping
     [JsiiInterface(nativeType: typeof(IDataOciTenantmanagercontrolplaneSubscriptionMappingConfig), fullyQualifiedName: "oci.dataOciTenantmanagercontrolplaneSubscriptionMapping.DataOciTenantmanagercontrolplaneSubscriptionMappingConfig")]
     public interface IDataOciTenantmanagercontrolplaneSubscriptionMappingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}.</summary>
         [JsiiProperty(name: "subscriptionMappingId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionMappingId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciTenantmanagercontrolplaneSubscriptionMapping
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}.</summary>
             [JsiiProperty(name: "subscriptionMappingId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionMappingId
             {

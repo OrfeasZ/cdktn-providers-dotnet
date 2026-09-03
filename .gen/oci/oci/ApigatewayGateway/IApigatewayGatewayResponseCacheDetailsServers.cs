@@ -7,7 +7,7 @@ namespace oci.ApigatewayGateway
     [JsiiInterface(nativeType: typeof(IApigatewayGatewayResponseCacheDetailsServers), fullyQualifiedName: "oci.apigatewayGateway.ApigatewayGatewayResponseCacheDetailsServers")]
     public interface IApigatewayGatewayResponseCacheDetailsServers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apigateway_gateway#host ApigatewayGateway#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apigateway_gateway#host ApigatewayGateway#host}.</summary>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Host
@@ -18,7 +18,7 @@ namespace oci.ApigatewayGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apigateway_gateway#port ApigatewayGateway#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apigateway_gateway#port ApigatewayGateway#port}.</summary>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Port
@@ -36,7 +36,7 @@ namespace oci.ApigatewayGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apigateway_gateway#host ApigatewayGateway#host}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apigateway_gateway#host ApigatewayGateway#host}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Host
@@ -44,7 +44,7 @@ namespace oci.ApigatewayGateway
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apigateway_gateway#port ApigatewayGateway#port}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apigateway_gateway#port ApigatewayGateway#port}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Port

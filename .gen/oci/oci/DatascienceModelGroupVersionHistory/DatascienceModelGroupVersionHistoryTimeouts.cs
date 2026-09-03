@@ -7,7 +7,7 @@ namespace oci.DatascienceModelGroupVersionHistory
     [JsiiByValue(fqn: "oci.datascienceModelGroupVersionHistory.DatascienceModelGroupVersionHistoryTimeouts")]
     public class DatascienceModelGroupVersionHistoryTimeouts : oci.DatascienceModelGroupVersionHistory.IDatascienceModelGroupVersionHistoryTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_version_history#create DatascienceModelGroupVersionHistory#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_model_group_version_history#create DatascienceModelGroupVersionHistory#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatascienceModelGroupVersionHistory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_version_history#delete DatascienceModelGroupVersionHistory#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_model_group_version_history#delete DatascienceModelGroupVersionHistory#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelGroupVersionHistory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_model_group_version_history#update DatascienceModelGroupVersionHistory#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_model_group_version_history#update DatascienceModelGroupVersionHistory#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

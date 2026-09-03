@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeReportDefinition
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeReportDefinitionConfig), fullyQualifiedName: "oci.dataOciDataSafeReportDefinition.DataOciDataSafeReportDefinitionConfig")]
     public interface IDataOciDataSafeReportDefinitionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_report_definition#report_definition_id DataOciDataSafeReportDefinition#report_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_report_definition#report_definition_id DataOciDataSafeReportDefinition#report_definition_id}.</summary>
         [JsiiProperty(name: "reportDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         string ReportDefinitionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeReportDefinition
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_report_definition#report_definition_id DataOciDataSafeReportDefinition#report_definition_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_report_definition#report_definition_id DataOciDataSafeReportDefinition#report_definition_id}.</summary>
             [JsiiProperty(name: "reportDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
             public string ReportDefinitionId
             {

@@ -11,7 +11,7 @@ namespace oci.MysqlBlueGreenDeployment
     {
         /// <summary>channel_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#channel_details MysqlBlueGreenDeployment#channel_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#channel_details MysqlBlueGreenDeployment#channel_details}
         /// </remarks>
         [JsiiProperty(name: "channelDetails", typeJson: "{\"fqn\":\"oci.mysqlBlueGreenDeployment.MysqlBlueGreenDeploymentChannelDetails\"}")]
         public oci.MysqlBlueGreenDeployment.IMysqlBlueGreenDeploymentChannelDetails ChannelDetails
@@ -20,7 +20,7 @@ namespace oci.MysqlBlueGreenDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#compartment_id MysqlBlueGreenDeployment#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#compartment_id MysqlBlueGreenDeployment#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -28,7 +28,7 @@ namespace oci.MysqlBlueGreenDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#display_name MysqlBlueGreenDeployment#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#display_name MysqlBlueGreenDeployment#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -36,7 +36,7 @@ namespace oci.MysqlBlueGreenDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#source_db_system_id MysqlBlueGreenDeployment#source_db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#source_db_system_id MysqlBlueGreenDeployment#source_db_system_id}.</summary>
         [JsiiProperty(name: "sourceDbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceDbSystemId
         {
@@ -46,7 +46,7 @@ namespace oci.MysqlBlueGreenDeployment
 
         /// <summary>target_db_system_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#target_db_system_details MysqlBlueGreenDeployment#target_db_system_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#target_db_system_details MysqlBlueGreenDeployment#target_db_system_details}
         /// </remarks>
         [JsiiProperty(name: "targetDbSystemDetails", typeJson: "{\"fqn\":\"oci.mysqlBlueGreenDeployment.MysqlBlueGreenDeploymentTargetDbSystemDetails\"}")]
         public oci.MysqlBlueGreenDeployment.IMysqlBlueGreenDeploymentTargetDbSystemDetails TargetDbSystemDetails
@@ -55,7 +55,7 @@ namespace oci.MysqlBlueGreenDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#defined_tags MysqlBlueGreenDeployment#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#defined_tags MysqlBlueGreenDeployment#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -68,7 +68,7 @@ namespace oci.MysqlBlueGreenDeployment
 
         /// <summary>Whether to delete the target DB System when this Blue/Green deployment is deleted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#delete_target_db_system_on_delete MysqlBlueGreenDeployment#delete_target_db_system_on_delete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#delete_target_db_system_on_delete MysqlBlueGreenDeployment#delete_target_db_system_on_delete}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -99,7 +99,7 @@ namespace oci.MysqlBlueGreenDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#freeform_tags MysqlBlueGreenDeployment#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#freeform_tags MysqlBlueGreenDeployment#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -108,7 +108,7 @@ namespace oci.MysqlBlueGreenDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#id MysqlBlueGreenDeployment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#id MysqlBlueGreenDeployment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -121,7 +121,7 @@ namespace oci.MysqlBlueGreenDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#switchover_trigger MysqlBlueGreenDeployment#switchover_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#switchover_trigger MysqlBlueGreenDeployment#switchover_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "switchoverTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SwitchoverTrigger
@@ -132,7 +132,7 @@ namespace oci.MysqlBlueGreenDeployment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#timeouts MysqlBlueGreenDeployment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#timeouts MysqlBlueGreenDeployment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.mysqlBlueGreenDeployment.MysqlBlueGreenDeploymentTimeouts\"}", isOptional: true)]

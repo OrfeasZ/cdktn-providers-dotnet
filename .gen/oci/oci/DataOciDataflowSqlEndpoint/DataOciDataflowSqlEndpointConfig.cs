@@ -9,7 +9,7 @@ namespace oci.DataOciDataflowSqlEndpoint
     [JsiiByValue(fqn: "oci.dataOciDataflowSqlEndpoint.DataOciDataflowSqlEndpointConfig")]
     public class DataOciDataflowSqlEndpointConfig : oci.DataOciDataflowSqlEndpoint.IDataOciDataflowSqlEndpointConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dataflow_sql_endpoint#sql_endpoint_id DataOciDataflowSqlEndpoint#sql_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dataflow_sql_endpoint#sql_endpoint_id DataOciDataflowSqlEndpoint#sql_endpoint_id}.</summary>
         [JsiiProperty(name: "sqlEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string SqlEndpointId
         {

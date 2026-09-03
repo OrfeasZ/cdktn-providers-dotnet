@@ -7,21 +7,21 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecut
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteesFilter), fullyQualifiedName: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteesFilter")]
     public interface IDataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGranteesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecut
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#name DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#values DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_connection_credential_execute_grantees#regex DataOciDatabaseToolsRuntimeDatabaseToolsConnectionCredentialExecuteGrantees#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindows
     [JsiiByValue(fqn: "oci.dataOciDatabaseSchedulingPolicySchedulingWindows.DataOciDatabaseSchedulingPolicySchedulingWindowsConfig")]
     public class DataOciDatabaseSchedulingPolicySchedulingWindowsConfig : oci.DataOciDatabaseSchedulingPolicySchedulingWindows.IDataOciDatabaseSchedulingPolicySchedulingWindowsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_scheduling_policy_scheduling_windows#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindows#scheduling_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_scheduling_policy_scheduling_windows#scheduling_policy_id DataOciDatabaseSchedulingPolicySchedulingWindows#scheduling_policy_id}.</summary>
         [JsiiProperty(name: "schedulingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SchedulingPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindows
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_scheduling_policy_scheduling_windows#compartment_id DataOciDatabaseSchedulingPolicySchedulingWindows#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_scheduling_policy_scheduling_windows#compartment_id DataOciDatabaseSchedulingPolicySchedulingWindows#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindows
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_scheduling_policy_scheduling_windows#display_name DataOciDatabaseSchedulingPolicySchedulingWindows#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_scheduling_policy_scheduling_windows#display_name DataOciDatabaseSchedulingPolicySchedulingWindows#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindows
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_scheduling_policy_scheduling_windows#filter DataOciDatabaseSchedulingPolicySchedulingWindows#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_scheduling_policy_scheduling_windows#filter DataOciDatabaseSchedulingPolicySchedulingWindows#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseSchedulingPolicySchedulingWindows.IDataOciDatabaseSchedulingPolicySchedulingWindowsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindows
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_scheduling_policy_scheduling_windows#id DataOciDatabaseSchedulingPolicySchedulingWindows#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_scheduling_policy_scheduling_windows#id DataOciDatabaseSchedulingPolicySchedulingWindows#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDatabaseSchedulingPolicySchedulingWindows
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_scheduling_policy_scheduling_windows#state DataOciDatabaseSchedulingPolicySchedulingWindows#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_scheduling_policy_scheduling_windows#state DataOciDatabaseSchedulingPolicySchedulingWindows#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

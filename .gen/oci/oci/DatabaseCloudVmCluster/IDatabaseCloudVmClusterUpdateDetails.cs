@@ -7,7 +7,7 @@ namespace oci.DatabaseCloudVmCluster
     [JsiiInterface(nativeType: typeof(IDatabaseCloudVmClusterUpdateDetails), fullyQualifiedName: "oci.databaseCloudVmCluster.DatabaseCloudVmClusterUpdateDetails")]
     public interface IDatabaseCloudVmClusterUpdateDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_cloud_vm_cluster#update_action DatabaseCloudVmCluster#update_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_cloud_vm_cluster#update_action DatabaseCloudVmCluster#update_action}.</summary>
         [JsiiProperty(name: "updateAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UpdateAction
@@ -18,7 +18,7 @@ namespace oci.DatabaseCloudVmCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_cloud_vm_cluster#update_id DatabaseCloudVmCluster#update_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_cloud_vm_cluster#update_id DatabaseCloudVmCluster#update_id}.</summary>
         [JsiiProperty(name: "updateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UpdateId
@@ -29,7 +29,7 @@ namespace oci.DatabaseCloudVmCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_cloud_vm_cluster#update_mode DatabaseCloudVmCluster#update_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_cloud_vm_cluster#update_mode DatabaseCloudVmCluster#update_mode}.</summary>
         [JsiiProperty(name: "updateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UpdateMode
@@ -47,7 +47,7 @@ namespace oci.DatabaseCloudVmCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_cloud_vm_cluster#update_action DatabaseCloudVmCluster#update_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_cloud_vm_cluster#update_action DatabaseCloudVmCluster#update_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "updateAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UpdateAction
@@ -55,7 +55,7 @@ namespace oci.DatabaseCloudVmCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_cloud_vm_cluster#update_id DatabaseCloudVmCluster#update_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_cloud_vm_cluster#update_id DatabaseCloudVmCluster#update_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "updateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UpdateId
@@ -63,7 +63,7 @@ namespace oci.DatabaseCloudVmCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_cloud_vm_cluster#update_mode DatabaseCloudVmCluster#update_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_cloud_vm_cluster#update_mode DatabaseCloudVmCluster#update_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "updateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UpdateMode

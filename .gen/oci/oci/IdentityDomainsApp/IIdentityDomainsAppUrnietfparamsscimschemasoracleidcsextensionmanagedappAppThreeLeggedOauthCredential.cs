@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsApp
     [JsiiInterface(nativeType: typeof(IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppThreeLeggedOauthCredential), fullyQualifiedName: "oci.identityDomainsApp.IdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppThreeLeggedOauthCredential")]
     public interface IIdentityDomainsAppUrnietfparamsscimschemasoracleidcsextensionmanagedappAppThreeLeggedOauthCredential
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#access_token IdentityDomainsApp#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#access_token IdentityDomainsApp#access_token}.</summary>
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessToken
@@ -18,7 +18,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}.</summary>
         [JsiiProperty(name: "accessTokenExpiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessTokenExpiry
@@ -29,7 +29,7 @@ namespace oci.IdentityDomainsApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#refresh_token IdentityDomainsApp#refresh_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#refresh_token IdentityDomainsApp#refresh_token}.</summary>
         [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RefreshToken
@@ -47,7 +47,7 @@ namespace oci.IdentityDomainsApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#access_token IdentityDomainsApp#access_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#access_token IdentityDomainsApp#access_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessToken
@@ -55,7 +55,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#access_token_expiry IdentityDomainsApp#access_token_expiry}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessTokenExpiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessTokenExpiry
@@ -63,7 +63,7 @@ namespace oci.IdentityDomainsApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#refresh_token IdentityDomainsApp#refresh_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#refresh_token IdentityDomainsApp#refresh_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "refreshToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RefreshToken

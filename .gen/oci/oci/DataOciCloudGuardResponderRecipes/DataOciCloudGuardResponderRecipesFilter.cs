@@ -9,7 +9,7 @@ namespace oci.DataOciCloudGuardResponderRecipes
     [JsiiByValue(fqn: "oci.dataOciCloudGuardResponderRecipes.DataOciCloudGuardResponderRecipesFilter")]
     public class DataOciCloudGuardResponderRecipesFilter : oci.DataOciCloudGuardResponderRecipes.IDataOciCloudGuardResponderRecipesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_guard_responder_recipes#name DataOciCloudGuardResponderRecipes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_guard_responder_recipes#name DataOciCloudGuardResponderRecipes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCloudGuardResponderRecipes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_guard_responder_recipes#values DataOciCloudGuardResponderRecipes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_guard_responder_recipes#values DataOciCloudGuardResponderRecipes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciCloudGuardResponderRecipes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_guard_responder_recipes#regex DataOciCloudGuardResponderRecipes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_guard_responder_recipes#regex DataOciCloudGuardResponderRecipes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

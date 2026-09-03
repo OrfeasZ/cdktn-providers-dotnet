@@ -9,7 +9,7 @@ namespace oci.DataOciApigatewayDeployment
     [JsiiByValue(fqn: "oci.dataOciApigatewayDeployment.DataOciApigatewayDeploymentConfig")]
     public class DataOciApigatewayDeploymentConfig : oci.DataOciApigatewayDeployment.IDataOciApigatewayDeploymentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apigateway_deployment#deployment_id DataOciApigatewayDeployment#deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apigateway_deployment#deployment_id DataOciApigatewayDeployment#deployment_id}.</summary>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentId
         {

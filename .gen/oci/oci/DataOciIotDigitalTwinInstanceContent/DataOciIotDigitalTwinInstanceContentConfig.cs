@@ -9,7 +9,7 @@ namespace oci.DataOciIotDigitalTwinInstanceContent
     [JsiiByValue(fqn: "oci.dataOciIotDigitalTwinInstanceContent.DataOciIotDigitalTwinInstanceContentConfig")]
     public class DataOciIotDigitalTwinInstanceContentConfig : oci.DataOciIotDigitalTwinInstanceContent.IDataOciIotDigitalTwinInstanceContentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_instance_content#digital_twin_instance_id DataOciIotDigitalTwinInstanceContent#digital_twin_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_instance_content#digital_twin_instance_id DataOciIotDigitalTwinInstanceContent#digital_twin_instance_id}.</summary>
         [JsiiProperty(name: "digitalTwinInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DigitalTwinInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIotDigitalTwinInstanceContent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_instance_content#id DataOciIotDigitalTwinInstanceContent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_instance_content#id DataOciIotDigitalTwinInstanceContent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.DataOciIotDigitalTwinInstanceContent
 
         private object? _shouldIncludeMetadata;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_instance_content#should_include_metadata DataOciIotDigitalTwinInstanceContent#should_include_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_instance_content#should_include_metadata DataOciIotDigitalTwinInstanceContent#should_include_metadata}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

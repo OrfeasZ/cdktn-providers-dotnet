@@ -9,7 +9,7 @@ namespace oci.DataOciJmsUtilsJavaMigrationAnalysis
     [JsiiByValue(fqn: "oci.dataOciJmsUtilsJavaMigrationAnalysis.DataOciJmsUtilsJavaMigrationAnalysisFilter")]
     public class DataOciJmsUtilsJavaMigrationAnalysisFilter : oci.DataOciJmsUtilsJavaMigrationAnalysis.IDataOciJmsUtilsJavaMigrationAnalysisFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_utils_java_migration_analysis#name DataOciJmsUtilsJavaMigrationAnalysis#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_utils_java_migration_analysis#name DataOciJmsUtilsJavaMigrationAnalysis#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsUtilsJavaMigrationAnalysis
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_utils_java_migration_analysis#values DataOciJmsUtilsJavaMigrationAnalysis#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_utils_java_migration_analysis#values DataOciJmsUtilsJavaMigrationAnalysis#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsUtilsJavaMigrationAnalysis
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_utils_java_migration_analysis#regex DataOciJmsUtilsJavaMigrationAnalysis#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_utils_java_migration_analysis#regex DataOciJmsUtilsJavaMigrationAnalysis#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

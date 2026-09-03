@@ -7,28 +7,28 @@ namespace oci.DnsRrset
     [JsiiInterface(nativeType: typeof(IDnsRrsetItems), fullyQualifiedName: "oci.dnsRrset.DnsRrsetItems")]
     public interface IDnsRrsetItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#domain DnsRrset#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#domain DnsRrset#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         string Domain
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#rdata DnsRrset#rdata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#rdata DnsRrset#rdata}.</summary>
         [JsiiProperty(name: "rdata", typeJson: "{\"primitive\":\"string\"}")]
         string Rdata
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#rtype DnsRrset#rtype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#rtype DnsRrset#rtype}.</summary>
         [JsiiProperty(name: "rtype", typeJson: "{\"primitive\":\"string\"}")]
         string Rtype
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#ttl DnsRrset#ttl}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#ttl DnsRrset#ttl}.</summary>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
         double Ttl
         {
@@ -42,28 +42,28 @@ namespace oci.DnsRrset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#domain DnsRrset#domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#domain DnsRrset#domain}.</summary>
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
             public string Domain
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#rdata DnsRrset#rdata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#rdata DnsRrset#rdata}.</summary>
             [JsiiProperty(name: "rdata", typeJson: "{\"primitive\":\"string\"}")]
             public string Rdata
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#rtype DnsRrset#rtype}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#rtype DnsRrset#rtype}.</summary>
             [JsiiProperty(name: "rtype", typeJson: "{\"primitive\":\"string\"}")]
             public string Rtype
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dns_rrset#ttl DnsRrset#ttl}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dns_rrset#ttl DnsRrset#ttl}.</summary>
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
             public double Ttl
             {

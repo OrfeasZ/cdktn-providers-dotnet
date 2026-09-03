@@ -7,7 +7,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
     [JsiiInterface(nativeType: typeof(IFusionAppsFusionEnvironmentDataMaskingActivityTimeouts), fullyQualifiedName: "oci.fusionAppsFusionEnvironmentDataMaskingActivity.FusionAppsFusionEnvironmentDataMaskingActivityTimeouts")]
     public interface IFusionAppsFusionEnvironmentDataMaskingActivityTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#create FusionAppsFusionEnvironmentDataMaskingActivity#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#create FusionAppsFusionEnvironmentDataMaskingActivity#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#delete FusionAppsFusionEnvironmentDataMaskingActivity#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#delete FusionAppsFusionEnvironmentDataMaskingActivity#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#update FusionAppsFusionEnvironmentDataMaskingActivity#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#update FusionAppsFusionEnvironmentDataMaskingActivity#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#create FusionAppsFusionEnvironmentDataMaskingActivity#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#create FusionAppsFusionEnvironmentDataMaskingActivity#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#delete FusionAppsFusionEnvironmentDataMaskingActivity#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#delete FusionAppsFusionEnvironmentDataMaskingActivity#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.FusionAppsFusionEnvironmentDataMaskingActivity
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#update FusionAppsFusionEnvironmentDataMaskingActivity#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment_data_masking_activity#update FusionAppsFusionEnvironmentDataMaskingActivity#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

@@ -9,7 +9,7 @@ namespace oci.DataOciContainerInstancesContainerInstance
     [JsiiByValue(fqn: "oci.dataOciContainerInstancesContainerInstance.DataOciContainerInstancesContainerInstanceConfig")]
     public class DataOciContainerInstancesContainerInstanceConfig : oci.DataOciContainerInstancesContainerInstance.IDataOciContainerInstancesContainerInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/container_instances_container_instance#container_instance_id DataOciContainerInstancesContainerInstance#container_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/container_instances_container_instance#container_instance_id DataOciContainerInstancesContainerInstance#container_instance_id}.</summary>
         [JsiiProperty(name: "containerInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerInstanceId
         {

@@ -9,7 +9,7 @@ namespace oci.MysqlBlueGreenDeployment
     [JsiiByValue(fqn: "oci.mysqlBlueGreenDeployment.MysqlBlueGreenDeploymentChannelDetailsSslCaCertificate")]
     public class MysqlBlueGreenDeploymentChannelDetailsSslCaCertificate : oci.MysqlBlueGreenDeployment.IMysqlBlueGreenDeploymentChannelDetailsSslCaCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#certificate_type MysqlBlueGreenDeployment#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#certificate_type MysqlBlueGreenDeployment#certificate_type}.</summary>
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateType
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlBlueGreenDeployment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_blue_green_deployment#contents MysqlBlueGreenDeployment#contents}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_blue_green_deployment#contents MysqlBlueGreenDeployment#contents}.</summary>
         [JsiiProperty(name: "contents", typeJson: "{\"primitive\":\"string\"}")]
         public string Contents
         {

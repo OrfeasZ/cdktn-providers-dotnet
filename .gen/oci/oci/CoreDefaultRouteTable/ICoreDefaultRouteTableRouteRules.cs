@@ -7,14 +7,14 @@ namespace oci.CoreDefaultRouteTable
     [JsiiInterface(nativeType: typeof(ICoreDefaultRouteTableRouteRules), fullyQualifiedName: "oci.coreDefaultRouteTable.CoreDefaultRouteTableRouteRules")]
     public interface ICoreDefaultRouteTableRouteRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#network_entity_id CoreDefaultRouteTable#network_entity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#network_entity_id CoreDefaultRouteTable#network_entity_id}.</summary>
         [JsiiProperty(name: "networkEntityId", typeJson: "{\"primitive\":\"string\"}")]
         string NetworkEntityId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#cidr_block CoreDefaultRouteTable#cidr_block}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#cidr_block CoreDefaultRouteTable#cidr_block}.</summary>
         [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CidrBlock
@@ -25,7 +25,7 @@ namespace oci.CoreDefaultRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#description CoreDefaultRouteTable#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#description CoreDefaultRouteTable#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -36,7 +36,7 @@ namespace oci.CoreDefaultRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#destination CoreDefaultRouteTable#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#destination CoreDefaultRouteTable#destination}.</summary>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Destination
@@ -47,7 +47,7 @@ namespace oci.CoreDefaultRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#destination_type CoreDefaultRouteTable#destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#destination_type CoreDefaultRouteTable#destination_type}.</summary>
         [JsiiProperty(name: "destinationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DestinationType
@@ -58,7 +58,7 @@ namespace oci.CoreDefaultRouteTable
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#route_type CoreDefaultRouteTable#route_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#route_type CoreDefaultRouteTable#route_type}.</summary>
         [JsiiProperty(name: "routeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RouteType
@@ -76,14 +76,14 @@ namespace oci.CoreDefaultRouteTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#network_entity_id CoreDefaultRouteTable#network_entity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#network_entity_id CoreDefaultRouteTable#network_entity_id}.</summary>
             [JsiiProperty(name: "networkEntityId", typeJson: "{\"primitive\":\"string\"}")]
             public string NetworkEntityId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#cidr_block CoreDefaultRouteTable#cidr_block}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#cidr_block CoreDefaultRouteTable#cidr_block}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cidrBlock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CidrBlock
@@ -91,7 +91,7 @@ namespace oci.CoreDefaultRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#description CoreDefaultRouteTable#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#description CoreDefaultRouteTable#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -99,7 +99,7 @@ namespace oci.CoreDefaultRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#destination CoreDefaultRouteTable#destination}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#destination CoreDefaultRouteTable#destination}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Destination
@@ -107,7 +107,7 @@ namespace oci.CoreDefaultRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#destination_type CoreDefaultRouteTable#destination_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#destination_type CoreDefaultRouteTable#destination_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DestinationType
@@ -115,7 +115,7 @@ namespace oci.CoreDefaultRouteTable
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_default_route_table#route_type CoreDefaultRouteTable#route_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_default_route_table#route_type CoreDefaultRouteTable#route_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "routeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RouteType

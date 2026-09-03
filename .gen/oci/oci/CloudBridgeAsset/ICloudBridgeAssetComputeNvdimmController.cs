@@ -7,7 +7,7 @@ namespace oci.CloudBridgeAsset
     [JsiiInterface(nativeType: typeof(ICloudBridgeAssetComputeNvdimmController), fullyQualifiedName: "oci.cloudBridgeAsset.CloudBridgeAssetComputeNvdimmController")]
     public interface ICloudBridgeAssetComputeNvdimmController
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}.</summary>
         [JsiiProperty(name: "busNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BusNumber
@@ -18,7 +18,7 @@ namespace oci.CloudBridgeAsset
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Label
@@ -36,7 +36,7 @@ namespace oci.CloudBridgeAsset
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_bridge_asset#bus_number CloudBridgeAsset#bus_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "busNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BusNumber
@@ -44,7 +44,7 @@ namespace oci.CloudBridgeAsset
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_bridge_asset#label CloudBridgeAsset#label}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Label

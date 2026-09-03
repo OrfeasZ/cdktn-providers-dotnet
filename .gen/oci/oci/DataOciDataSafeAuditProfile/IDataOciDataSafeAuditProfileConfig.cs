@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeAuditProfile
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAuditProfileConfig), fullyQualifiedName: "oci.dataOciDataSafeAuditProfile.DataOciDataSafeAuditProfileConfig")]
     public interface IDataOciDataSafeAuditProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_audit_profile#audit_profile_id DataOciDataSafeAuditProfile#audit_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_audit_profile#audit_profile_id DataOciDataSafeAuditProfile#audit_profile_id}.</summary>
         [JsiiProperty(name: "auditProfileId", typeJson: "{\"primitive\":\"string\"}")]
         string AuditProfileId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeAuditProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_audit_profile#audit_profile_id DataOciDataSafeAuditProfile#audit_profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_audit_profile#audit_profile_id DataOciDataSafeAuditProfile#audit_profile_id}.</summary>
             [JsiiProperty(name: "auditProfileId", typeJson: "{\"primitive\":\"string\"}")]
             public string AuditProfileId
             {

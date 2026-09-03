@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystems
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementCloudDbSystems.DataOciDatabaseManagementCloudDbSystemsFilter")]
     public class DataOciDatabaseManagementCloudDbSystemsFilter : oci.DataOciDatabaseManagementCloudDbSystems.IDataOciDatabaseManagementCloudDbSystemsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_db_systems#name DataOciDatabaseManagementCloudDbSystems#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_cloud_db_systems#name DataOciDatabaseManagementCloudDbSystems#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_db_systems#values DataOciDatabaseManagementCloudDbSystems#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_cloud_db_systems#values DataOciDatabaseManagementCloudDbSystems#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementCloudDbSystems
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_db_systems#regex DataOciDatabaseManagementCloudDbSystems#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_cloud_db_systems#regex DataOciDatabaseManagementCloudDbSystems#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

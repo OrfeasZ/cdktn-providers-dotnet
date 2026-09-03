@@ -5,7 +5,7 @@ namespace oci.DataOciCloudGuardSavedQuery
     /// <remarks>
     /// <h1><c>data_oci_cloud_guard_saved_query</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_guard_saved_query"><c>data_oci_cloud_guard_saved_query</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_guard_saved_query"><c>data_oci_cloud_guard_saved_query</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

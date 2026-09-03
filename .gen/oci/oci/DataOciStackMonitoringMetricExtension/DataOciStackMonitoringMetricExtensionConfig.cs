@@ -9,7 +9,7 @@ namespace oci.DataOciStackMonitoringMetricExtension
     [JsiiByValue(fqn: "oci.dataOciStackMonitoringMetricExtension.DataOciStackMonitoringMetricExtensionConfig")]
     public class DataOciStackMonitoringMetricExtensionConfig : oci.DataOciStackMonitoringMetricExtension.IDataOciStackMonitoringMetricExtensionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/stack_monitoring_metric_extension#metric_extension_id DataOciStackMonitoringMetricExtension#metric_extension_id}.</summary>
         [JsiiProperty(name: "metricExtensionId", typeJson: "{\"primitive\":\"string\"}")]
         public string MetricExtensionId
         {

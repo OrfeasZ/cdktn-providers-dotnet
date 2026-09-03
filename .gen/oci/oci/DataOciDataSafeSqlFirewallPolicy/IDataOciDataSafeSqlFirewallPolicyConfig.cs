@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeSqlFirewallPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSqlFirewallPolicyConfig), fullyQualifiedName: "oci.dataOciDataSafeSqlFirewallPolicy.DataOciDataSafeSqlFirewallPolicyConfig")]
     public interface IDataOciDataSafeSqlFirewallPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_policy#sql_firewall_policy_id DataOciDataSafeSqlFirewallPolicy#sql_firewall_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_policy#sql_firewall_policy_id DataOciDataSafeSqlFirewallPolicy#sql_firewall_policy_id}.</summary>
         [JsiiProperty(name: "sqlFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SqlFirewallPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSqlFirewallPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sql_firewall_policy#sql_firewall_policy_id DataOciDataSafeSqlFirewallPolicy#sql_firewall_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sql_firewall_policy#sql_firewall_policy_id DataOciDataSafeSqlFirewallPolicy#sql_firewall_policy_id}.</summary>
             [JsiiProperty(name: "sqlFirewallPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SqlFirewallPolicyId
             {

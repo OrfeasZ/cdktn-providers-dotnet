@@ -9,7 +9,7 @@ namespace oci.DataccVmClusterNetwork
     [JsiiByValue(fqn: "oci.dataccVmClusterNetwork.DataccVmClusterNetworkVmNetworks")]
     public class DataccVmClusterNetworkVmNetworks : oci.DataccVmClusterNetwork.IDataccVmClusterNetworkVmNetworks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#domain_name DataccVmClusterNetwork#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#domain_name DataccVmClusterNetwork#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {
@@ -17,7 +17,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#gateway DataccVmClusterNetwork#gateway}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#gateway DataccVmClusterNetwork#gateway}.</summary>
         [JsiiProperty(name: "gateway", typeJson: "{\"primitive\":\"string\"}")]
         public string Gateway
         {
@@ -25,7 +25,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#netmask DataccVmClusterNetwork#netmask}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#netmask DataccVmClusterNetwork#netmask}.</summary>
         [JsiiProperty(name: "netmask", typeJson: "{\"primitive\":\"string\"}")]
         public string Netmask
         {
@@ -33,7 +33,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#network_type DataccVmClusterNetwork#network_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#network_type DataccVmClusterNetwork#network_type}.</summary>
         [JsiiProperty(name: "networkType", typeJson: "{\"primitive\":\"string\"}")]
         public string NetworkType
         {
@@ -45,7 +45,7 @@ namespace oci.DataccVmClusterNetwork
 
         /// <summary>nodes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#nodes DataccVmClusterNetwork#nodes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#nodes DataccVmClusterNetwork#nodes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataccVmClusterNetwork.IDataccVmClusterNetworkVmNetworksNodes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "nodes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataccVmClusterNetwork.DataccVmClusterNetworkVmNetworksNodes\"},\"kind\":\"array\"}}]}}")]
@@ -75,7 +75,7 @@ namespace oci.DataccVmClusterNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#prefix DataccVmClusterNetwork#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#prefix DataccVmClusterNetwork#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix
@@ -84,7 +84,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#vlan_id DataccVmClusterNetwork#vlan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#vlan_id DataccVmClusterNetwork#vlan_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vlanId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VlanId

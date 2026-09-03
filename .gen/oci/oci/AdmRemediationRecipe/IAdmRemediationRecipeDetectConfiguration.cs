@@ -7,7 +7,7 @@ namespace oci.AdmRemediationRecipe
     [JsiiInterface(nativeType: typeof(IAdmRemediationRecipeDetectConfiguration), fullyQualifiedName: "oci.admRemediationRecipe.AdmRemediationRecipeDetectConfiguration")]
     public interface IAdmRemediationRecipeDetectConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#exclusions AdmRemediationRecipe#exclusions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#exclusions AdmRemediationRecipe#exclusions}.</summary>
         [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Exclusions
@@ -18,7 +18,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v2score AdmRemediationRecipe#max_permissible_cvss_v2score}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v2score AdmRemediationRecipe#max_permissible_cvss_v2score}.</summary>
         [JsiiProperty(name: "maxPermissibleCvssV2Score", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxPermissibleCvssV2Score
@@ -29,7 +29,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v3score AdmRemediationRecipe#max_permissible_cvss_v3score}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v3score AdmRemediationRecipe#max_permissible_cvss_v3score}.</summary>
         [JsiiProperty(name: "maxPermissibleCvssV3Score", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxPermissibleCvssV3Score
@@ -40,7 +40,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#max_permissible_severity AdmRemediationRecipe#max_permissible_severity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#max_permissible_severity AdmRemediationRecipe#max_permissible_severity}.</summary>
         [JsiiProperty(name: "maxPermissibleSeverity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MaxPermissibleSeverity
@@ -51,7 +51,7 @@ namespace oci.AdmRemediationRecipe
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#upgrade_policy AdmRemediationRecipe#upgrade_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#upgrade_policy AdmRemediationRecipe#upgrade_policy}.</summary>
         [JsiiProperty(name: "upgradePolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UpgradePolicy
@@ -69,7 +69,7 @@ namespace oci.AdmRemediationRecipe
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#exclusions AdmRemediationRecipe#exclusions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#exclusions AdmRemediationRecipe#exclusions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "exclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Exclusions
@@ -77,7 +77,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v2score AdmRemediationRecipe#max_permissible_cvss_v2score}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v2score AdmRemediationRecipe#max_permissible_cvss_v2score}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPermissibleCvssV2Score", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxPermissibleCvssV2Score
@@ -85,7 +85,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v3score AdmRemediationRecipe#max_permissible_cvss_v3score}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#max_permissible_cvss_v3score AdmRemediationRecipe#max_permissible_cvss_v3score}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPermissibleCvssV3Score", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxPermissibleCvssV3Score
@@ -93,7 +93,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#max_permissible_severity AdmRemediationRecipe#max_permissible_severity}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#max_permissible_severity AdmRemediationRecipe#max_permissible_severity}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxPermissibleSeverity", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MaxPermissibleSeverity
@@ -101,7 +101,7 @@ namespace oci.AdmRemediationRecipe
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/adm_remediation_recipe#upgrade_policy AdmRemediationRecipe#upgrade_policy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/adm_remediation_recipe#upgrade_policy AdmRemediationRecipe#upgrade_policy}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "upgradePolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UpgradePolicy

@@ -7,21 +7,21 @@ namespace oci.DatabaseScheduledAction
     [JsiiInterface(nativeType: typeof(IDatabaseScheduledActionActionMembers), fullyQualifiedName: "oci.databaseScheduledAction.DatabaseScheduledActionActionMembers")]
     public interface IDatabaseScheduledActionActionMembers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}.</summary>
         [JsiiProperty(name: "memberId", typeJson: "{\"primitive\":\"string\"}")]
         string MemberId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}.</summary>
         [JsiiProperty(name: "memberOrder", typeJson: "{\"primitive\":\"number\"}")]
         double MemberOrder
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}.</summary>
         [JsiiProperty(name: "estimatedTimeInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? EstimatedTimeInMins
@@ -39,21 +39,21 @@ namespace oci.DatabaseScheduledAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_scheduled_action#member_id DatabaseScheduledAction#member_id}.</summary>
             [JsiiProperty(name: "memberId", typeJson: "{\"primitive\":\"string\"}")]
             public string MemberId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_scheduled_action#member_order DatabaseScheduledAction#member_order}.</summary>
             [JsiiProperty(name: "memberOrder", typeJson: "{\"primitive\":\"number\"}")]
             public double MemberOrder
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_scheduled_action#estimated_time_in_mins DatabaseScheduledAction#estimated_time_in_mins}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "estimatedTimeInMins", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? EstimatedTimeInMins

@@ -7,7 +7,7 @@ namespace oci.ApmConfigConfig
     [JsiiInterface(nativeType: typeof(IApmConfigConfigOverridesOverrideListStruct), fullyQualifiedName: "oci.apmConfigConfig.ApmConfigConfigOverridesOverrideListStruct")]
     public interface IApmConfigConfigOverridesOverrideListStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_config_config#agent_filter ApmConfigConfig#agent_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_config_config#agent_filter ApmConfigConfig#agent_filter}.</summary>
         [JsiiProperty(name: "agentFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AgentFilter
@@ -18,7 +18,7 @@ namespace oci.ApmConfigConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_config_config#override_map ApmConfigConfig#override_map}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_config_config#override_map ApmConfigConfig#override_map}.</summary>
         [JsiiProperty(name: "overrideMap", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? OverrideMap
@@ -36,7 +36,7 @@ namespace oci.ApmConfigConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_config_config#agent_filter ApmConfigConfig#agent_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_config_config#agent_filter ApmConfigConfig#agent_filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "agentFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AgentFilter
@@ -44,7 +44,7 @@ namespace oci.ApmConfigConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_config_config#override_map ApmConfigConfig#override_map}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_config_config#override_map ApmConfigConfig#override_map}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "overrideMap", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? OverrideMap

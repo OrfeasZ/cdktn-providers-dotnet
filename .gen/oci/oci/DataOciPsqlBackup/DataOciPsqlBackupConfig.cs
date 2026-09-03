@@ -9,7 +9,7 @@ namespace oci.DataOciPsqlBackup
     [JsiiByValue(fqn: "oci.dataOciPsqlBackup.DataOciPsqlBackupConfig")]
     public class DataOciPsqlBackupConfig : oci.DataOciPsqlBackup.IDataOciPsqlBackupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/psql_backup#backup_id DataOciPsqlBackup#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/psql_backup#backup_id DataOciPsqlBackup#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}")]
         public string BackupId
         {

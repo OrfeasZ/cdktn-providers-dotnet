@@ -7,7 +7,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
     [JsiiByValue(fqn: "oci.bdsBdsInstanceIdentityConfiguration.BdsBdsInstanceIdentityConfigurationTimeouts")]
     public class BdsBdsInstanceIdentityConfigurationTimeouts : oci.BdsBdsInstanceIdentityConfiguration.IBdsBdsInstanceIdentityConfigurationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_identity_configuration#create BdsBdsInstanceIdentityConfiguration#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance_identity_configuration#create BdsBdsInstanceIdentityConfiguration#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_identity_configuration#delete BdsBdsInstanceIdentityConfiguration#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance_identity_configuration#delete BdsBdsInstanceIdentityConfiguration#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.BdsBdsInstanceIdentityConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance_identity_configuration#update BdsBdsInstanceIdentityConfiguration#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance_identity_configuration#update BdsBdsInstanceIdentityConfiguration#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -9,7 +9,7 @@ namespace oci.DataOciLimitsLimitValues
     [JsiiByValue(fqn: "oci.dataOciLimitsLimitValues.DataOciLimitsLimitValuesFilter")]
     public class DataOciLimitsLimitValuesFilter : oci.DataOciLimitsLimitValues.IDataOciLimitsLimitValuesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/limits_limit_values#name DataOciLimitsLimitValues#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/limits_limit_values#name DataOciLimitsLimitValues#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLimitsLimitValues
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/limits_limit_values#values DataOciLimitsLimitValues#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/limits_limit_values#values DataOciLimitsLimitValues#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLimitsLimitValues
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/limits_limit_values#regex DataOciLimitsLimitValues#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/limits_limit_values#regex DataOciLimitsLimitValues#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

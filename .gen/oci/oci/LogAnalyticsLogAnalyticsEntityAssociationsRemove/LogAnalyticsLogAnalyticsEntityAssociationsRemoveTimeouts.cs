@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityAssociationsRemove
     [JsiiByValue(fqn: "oci.logAnalyticsLogAnalyticsEntityAssociationsRemove.LogAnalyticsLogAnalyticsEntityAssociationsRemoveTimeouts")]
     public class LogAnalyticsLogAnalyticsEntityAssociationsRemoveTimeouts : oci.LogAnalyticsLogAnalyticsEntityAssociationsRemove.ILogAnalyticsLogAnalyticsEntityAssociationsRemoveTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_log_analytics_entity_associations_remove#create LogAnalyticsLogAnalyticsEntityAssociationsRemove#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_log_analytics_entity_associations_remove#create LogAnalyticsLogAnalyticsEntityAssociationsRemove#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityAssociationsRemove
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_log_analytics_entity_associations_remove#delete LogAnalyticsLogAnalyticsEntityAssociationsRemove#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_log_analytics_entity_associations_remove#delete LogAnalyticsLogAnalyticsEntityAssociationsRemove#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsLogAnalyticsEntityAssociationsRemove
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_log_analytics_entity_associations_remove#update LogAnalyticsLogAnalyticsEntityAssociationsRemove#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_log_analytics_entity_associations_remove#update LogAnalyticsLogAnalyticsEntityAssociationsRemove#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -7,7 +7,7 @@ namespace oci.JmsTaskSchedule
     [JsiiByValue(fqn: "oci.jmsTaskSchedule.JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequestInstallationSites")]
     public class JmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequestInstallationSites : oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetailsAddInstallationSiteTaskRequestInstallationSites
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#artifact_content_type JmsTaskSchedule#artifact_content_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#artifact_content_type JmsTaskSchedule#artifact_content_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "artifactContentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArtifactContentType
@@ -18,7 +18,7 @@ namespace oci.JmsTaskSchedule
 
         private object? _forceInstall;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#force_install JmsTaskSchedule#force_install}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#force_install JmsTaskSchedule#force_install}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -52,7 +52,7 @@ namespace oci.JmsTaskSchedule
 
         private object? _headlessMode;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#headless_mode JmsTaskSchedule#headless_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#headless_mode JmsTaskSchedule#headless_mode}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -84,7 +84,7 @@ namespace oci.JmsTaskSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#installation_path JmsTaskSchedule#installation_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#installation_path JmsTaskSchedule#installation_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "installationPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InstallationPath
@@ -93,7 +93,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#managed_instance_id JmsTaskSchedule#managed_instance_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ManagedInstanceId
@@ -102,7 +102,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#release_version JmsTaskSchedule#release_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#release_version JmsTaskSchedule#release_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "releaseVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReleaseVersion

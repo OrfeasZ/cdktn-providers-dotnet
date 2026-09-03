@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates
     [JsiiByValue(fqn: "oci.dataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStatesConfig")]
     public class DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStatesConfig : oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates.IDataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#security_policy_deployment_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#security_policy_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#security_policy_deployment_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#security_policy_deployment_id}.</summary>
         [JsiiProperty(name: "securityPolicyDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityPolicyDeploymentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#deployment_status DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#deployment_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#deployment_status DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#deployment_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deploymentStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeploymentStatus
@@ -30,7 +30,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#filter DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#filter DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates.IDataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStatesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#security_policy_entry_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#security_policy_entry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#security_policy_entry_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#security_policy_entry_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityPolicyEntryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityPolicyEntryId
@@ -83,7 +83,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#security_policy_entry_type DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#security_policy_entry_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#security_policy_entry_type DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#security_policy_entry_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityPolicyEntryType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecurityPolicyEntryType
@@ -92,7 +92,7 @@ namespace oci.DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#target_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_states#target_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStates#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId

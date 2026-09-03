@@ -9,7 +9,7 @@ namespace oci.LogAnalyticsNamespaceIngestTimeRule
     [JsiiByValue(fqn: "oci.logAnalyticsNamespaceIngestTimeRule.LogAnalyticsNamespaceIngestTimeRuleConditionsAdditionalConditions")]
     public class LogAnalyticsNamespaceIngestTimeRuleConditionsAdditionalConditions : oci.LogAnalyticsNamespaceIngestTimeRule.ILogAnalyticsNamespaceIngestTimeRuleConditionsAdditionalConditions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_ingest_time_rule#condition_field LogAnalyticsNamespaceIngestTimeRule#condition_field}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_ingest_time_rule#condition_field LogAnalyticsNamespaceIngestTimeRule#condition_field}.</summary>
         [JsiiProperty(name: "conditionField", typeJson: "{\"primitive\":\"string\"}")]
         public string ConditionField
         {
@@ -17,7 +17,7 @@ namespace oci.LogAnalyticsNamespaceIngestTimeRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_ingest_time_rule#condition_operator LogAnalyticsNamespaceIngestTimeRule#condition_operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_ingest_time_rule#condition_operator LogAnalyticsNamespaceIngestTimeRule#condition_operator}.</summary>
         [JsiiProperty(name: "conditionOperator", typeJson: "{\"primitive\":\"string\"}")]
         public string ConditionOperator
         {
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsNamespaceIngestTimeRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_ingest_time_rule#condition_value LogAnalyticsNamespaceIngestTimeRule#condition_value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_ingest_time_rule#condition_value LogAnalyticsNamespaceIngestTimeRule#condition_value}.</summary>
         [JsiiProperty(name: "conditionValue", typeJson: "{\"primitive\":\"string\"}")]
         public string ConditionValue
         {

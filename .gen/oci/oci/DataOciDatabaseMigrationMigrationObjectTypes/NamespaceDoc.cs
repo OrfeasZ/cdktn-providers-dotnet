@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseMigrationMigrationObjectTypes
     /// <remarks>
     /// <h1><c>data_oci_database_migration_migration_object_types</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_migration_migration_object_types"><c>data_oci_database_migration_migration_object_types</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_migration_migration_object_types"><c>data_oci_database_migration_migration_object_types</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,7 +7,7 @@ namespace oci.DataOciDatascienceNotebookSession
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceNotebookSessionConfig), fullyQualifiedName: "oci.dataOciDatascienceNotebookSession.DataOciDatascienceNotebookSessionConfig")]
     public interface IDataOciDatascienceNotebookSessionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_notebook_session#notebook_session_id DataOciDatascienceNotebookSession#notebook_session_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_notebook_session#notebook_session_id DataOciDatascienceNotebookSession#notebook_session_id}.</summary>
         [JsiiProperty(name: "notebookSessionId", typeJson: "{\"primitive\":\"string\"}")]
         string NotebookSessionId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatascienceNotebookSession
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_notebook_session#notebook_session_id DataOciDatascienceNotebookSession#notebook_session_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_notebook_session#notebook_session_id DataOciDatascienceNotebookSession#notebook_session_id}.</summary>
             [JsiiProperty(name: "notebookSessionId", typeJson: "{\"primitive\":\"string\"}")]
             public string NotebookSessionId
             {

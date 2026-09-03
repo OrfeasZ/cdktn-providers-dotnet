@@ -7,14 +7,14 @@ namespace oci.DataOciCapacityManagementOccAvailabilityCatalogContent
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementOccAvailabilityCatalogContentConfig), fullyQualifiedName: "oci.dataOciCapacityManagementOccAvailabilityCatalogContent.DataOciCapacityManagementOccAvailabilityCatalogContentConfig")]
     public interface IDataOciCapacityManagementOccAvailabilityCatalogContentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occ_availability_catalog_content#occ_availability_catalog_id DataOciCapacityManagementOccAvailabilityCatalogContent#occ_availability_catalog_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/capacity_management_occ_availability_catalog_content#occ_availability_catalog_id DataOciCapacityManagementOccAvailabilityCatalogContent#occ_availability_catalog_id}.</summary>
         [JsiiProperty(name: "occAvailabilityCatalogId", typeJson: "{\"primitive\":\"string\"}")]
         string OccAvailabilityCatalogId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occ_availability_catalog_content#id DataOciCapacityManagementOccAvailabilityCatalogContent#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/capacity_management_occ_availability_catalog_content#id DataOciCapacityManagementOccAvailabilityCatalogContent#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciCapacityManagementOccAvailabilityCatalogContent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occ_availability_catalog_content#occ_availability_catalog_id DataOciCapacityManagementOccAvailabilityCatalogContent#occ_availability_catalog_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/capacity_management_occ_availability_catalog_content#occ_availability_catalog_id DataOciCapacityManagementOccAvailabilityCatalogContent#occ_availability_catalog_id}.</summary>
             [JsiiProperty(name: "occAvailabilityCatalogId", typeJson: "{\"primitive\":\"string\"}")]
             public string OccAvailabilityCatalogId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occ_availability_catalog_content#id DataOciCapacityManagementOccAvailabilityCatalogContent#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/capacity_management_occ_availability_catalog_content#id DataOciCapacityManagementOccAvailabilityCatalogContent#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -9,7 +9,7 @@ namespace oci.DataOciOcvpManagementAppliance
     [JsiiByValue(fqn: "oci.dataOciOcvpManagementAppliance.DataOciOcvpManagementApplianceConfig")]
     public class DataOciOcvpManagementApplianceConfig : oci.DataOciOcvpManagementAppliance.IDataOciOcvpManagementApplianceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ocvp_management_appliance#management_appliance_id DataOciOcvpManagementAppliance#management_appliance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/ocvp_management_appliance#management_appliance_id DataOciOcvpManagementAppliance#management_appliance_id}.</summary>
         [JsiiProperty(name: "managementApplianceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagementApplianceId
         {

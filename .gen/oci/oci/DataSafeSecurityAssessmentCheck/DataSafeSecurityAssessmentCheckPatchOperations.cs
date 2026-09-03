@@ -9,7 +9,7 @@ namespace oci.DataSafeSecurityAssessmentCheck
     [JsiiByValue(fqn: "oci.dataSafeSecurityAssessmentCheck.DataSafeSecurityAssessmentCheckPatchOperations")]
     public class DataSafeSecurityAssessmentCheckPatchOperations : oci.DataSafeSecurityAssessmentCheck.IDataSafeSecurityAssessmentCheckPatchOperations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_security_assessment_check#operation DataSafeSecurityAssessmentCheck#operation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_security_assessment_check#operation DataSafeSecurityAssessmentCheck#operation}.</summary>
         [JsiiProperty(name: "operation", typeJson: "{\"primitive\":\"string\"}")]
         public string Operation
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSecurityAssessmentCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_security_assessment_check#selection DataSafeSecurityAssessmentCheck#selection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_security_assessment_check#selection DataSafeSecurityAssessmentCheck#selection}.</summary>
         [JsiiProperty(name: "selection", typeJson: "{\"primitive\":\"string\"}")]
         public string Selection
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeSecurityAssessmentCheck
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_security_assessment_check#value DataSafeSecurityAssessmentCheck#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_security_assessment_check#value DataSafeSecurityAssessmentCheck#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public System.Collections.Generic.IDictionary<string, string> Value
         {

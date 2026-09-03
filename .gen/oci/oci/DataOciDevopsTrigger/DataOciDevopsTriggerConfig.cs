@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsTrigger
     [JsiiByValue(fqn: "oci.dataOciDevopsTrigger.DataOciDevopsTriggerConfig")]
     public class DataOciDevopsTriggerConfig : oci.DataOciDevopsTrigger.IDataOciDevopsTriggerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_trigger#trigger_id DataOciDevopsTrigger#trigger_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/devops_trigger#trigger_id DataOciDevopsTrigger#trigger_id}.</summary>
         [JsiiProperty(name: "triggerId", typeJson: "{\"primitive\":\"string\"}")]
         public string TriggerId
         {

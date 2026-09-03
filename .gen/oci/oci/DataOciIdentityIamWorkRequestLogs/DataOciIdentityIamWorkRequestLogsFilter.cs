@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
     [JsiiByValue(fqn: "oci.dataOciIdentityIamWorkRequestLogs.DataOciIdentityIamWorkRequestLogsFilter")]
     public class DataOciIdentityIamWorkRequestLogsFilter : oci.DataOciIdentityIamWorkRequestLogs.IDataOciIdentityIamWorkRequestLogsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_iam_work_request_logs#name DataOciIdentityIamWorkRequestLogs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_iam_work_request_logs#name DataOciIdentityIamWorkRequestLogs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_iam_work_request_logs#values DataOciIdentityIamWorkRequestLogs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_iam_work_request_logs#values DataOciIdentityIamWorkRequestLogs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciIdentityIamWorkRequestLogs
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/identity_iam_work_request_logs#regex DataOciIdentityIamWorkRequestLogs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/identity_iam_work_request_logs#regex DataOciIdentityIamWorkRequestLogs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsApp
     [JsiiByValue(fqn: "oci.identityDomainsApp.IdentityDomainsAppServiceParams")]
     public class IdentityDomainsAppServiceParams : oci.IdentityDomainsApp.IIdentityDomainsAppServiceParams
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#name IdentityDomainsApp#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_app#value IdentityDomainsApp#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

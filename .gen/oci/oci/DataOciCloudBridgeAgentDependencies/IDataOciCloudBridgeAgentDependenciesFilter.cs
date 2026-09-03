@@ -7,21 +7,21 @@ namespace oci.DataOciCloudBridgeAgentDependencies
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeAgentDependenciesFilter), fullyQualifiedName: "oci.dataOciCloudBridgeAgentDependencies.DataOciCloudBridgeAgentDependenciesFilter")]
     public interface IDataOciCloudBridgeAgentDependenciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependencies#name DataOciCloudBridgeAgentDependencies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_dependencies#name DataOciCloudBridgeAgentDependencies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependencies#values DataOciCloudBridgeAgentDependencies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_dependencies#values DataOciCloudBridgeAgentDependencies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependencies#regex DataOciCloudBridgeAgentDependencies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_dependencies#regex DataOciCloudBridgeAgentDependencies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciCloudBridgeAgentDependencies
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependencies#name DataOciCloudBridgeAgentDependencies#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_dependencies#name DataOciCloudBridgeAgentDependencies#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependencies#values DataOciCloudBridgeAgentDependencies#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_dependencies#values DataOciCloudBridgeAgentDependencies#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_dependencies#regex DataOciCloudBridgeAgentDependencies#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_dependencies#regex DataOciCloudBridgeAgentDependencies#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

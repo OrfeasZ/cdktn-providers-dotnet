@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceApiKey
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceApiKey.DataOciBdsBdsInstanceApiKeyConfig")]
     public class DataOciBdsBdsInstanceApiKeyConfig : oci.DataOciBdsBdsInstanceApiKey.IDataOciBdsBdsInstanceApiKeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_api_key#api_key_id DataOciBdsBdsInstanceApiKey#api_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_api_key#api_key_id DataOciBdsBdsInstanceApiKey#api_key_id}.</summary>
         [JsiiProperty(name: "apiKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKeyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_api_key#bds_instance_id DataOciBdsBdsInstanceApiKey#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_api_key#bds_instance_id DataOciBdsBdsInstanceApiKey#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsInstanceId
         {

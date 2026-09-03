@@ -7,7 +7,7 @@ namespace oci.OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementTimeouts), fullyQualifiedName: "oci.osManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement.OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementTimeouts")]
     public interface IOsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#create OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#create OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#delete OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#delete OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#update OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#update OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#create OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#create OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#delete OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#delete OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#update OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_managed_instance_group_install_windows_updates_management#update OsManagementHubManagedInstanceGroupInstallWindowsUpdatesManagement#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

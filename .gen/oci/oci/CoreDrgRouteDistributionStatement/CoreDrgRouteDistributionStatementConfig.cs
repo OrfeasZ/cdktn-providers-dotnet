@@ -9,7 +9,7 @@ namespace oci.CoreDrgRouteDistributionStatement
     [JsiiByValue(fqn: "oci.coreDrgRouteDistributionStatement.CoreDrgRouteDistributionStatementConfig")]
     public class CoreDrgRouteDistributionStatementConfig : oci.CoreDrgRouteDistributionStatement.ICoreDrgRouteDistributionStatementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_drg_route_distribution_statement#action CoreDrgRouteDistributionStatement#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_drg_route_distribution_statement#action CoreDrgRouteDistributionStatement#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -17,7 +17,7 @@ namespace oci.CoreDrgRouteDistributionStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_drg_route_distribution_statement#drg_route_distribution_id CoreDrgRouteDistributionStatement#drg_route_distribution_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_drg_route_distribution_statement#drg_route_distribution_id CoreDrgRouteDistributionStatement#drg_route_distribution_id}.</summary>
         [JsiiProperty(name: "drgRouteDistributionId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgRouteDistributionId
         {
@@ -27,7 +27,7 @@ namespace oci.CoreDrgRouteDistributionStatement
 
         /// <summary>match_criteria block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_drg_route_distribution_statement#match_criteria CoreDrgRouteDistributionStatement#match_criteria}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_drg_route_distribution_statement#match_criteria CoreDrgRouteDistributionStatement#match_criteria}
         /// </remarks>
         [JsiiProperty(name: "matchCriteria", typeJson: "{\"fqn\":\"oci.coreDrgRouteDistributionStatement.CoreDrgRouteDistributionStatementMatchCriteria\"}")]
         public oci.CoreDrgRouteDistributionStatement.ICoreDrgRouteDistributionStatementMatchCriteria MatchCriteria
@@ -36,7 +36,7 @@ namespace oci.CoreDrgRouteDistributionStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_drg_route_distribution_statement#priority CoreDrgRouteDistributionStatement#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_drg_route_distribution_statement#priority CoreDrgRouteDistributionStatement#priority}.</summary>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}")]
         public double Priority
         {
@@ -44,7 +44,7 @@ namespace oci.CoreDrgRouteDistributionStatement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_drg_route_distribution_statement#id CoreDrgRouteDistributionStatement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_drg_route_distribution_statement#id CoreDrgRouteDistributionStatement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.CoreDrgRouteDistributionStatement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_drg_route_distribution_statement#timeouts CoreDrgRouteDistributionStatement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_drg_route_distribution_statement#timeouts CoreDrgRouteDistributionStatement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreDrgRouteDistributionStatement.CoreDrgRouteDistributionStatementTimeouts\"}", isOptional: true)]

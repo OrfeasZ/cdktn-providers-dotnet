@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetails), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetails")]
     public interface IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#days_of_week DatabaseDatabase#days_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#days_of_week DatabaseDatabase#days_of_week}.</summary>
         [JsiiProperty(name: "daysOfWeek", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DaysOfWeek
@@ -18,7 +18,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#hour_of_day DatabaseDatabase#hour_of_day}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#hour_of_day DatabaseDatabase#hour_of_day}.</summary>
         [JsiiProperty(name: "hourOfDay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? HourOfDay
@@ -29,7 +29,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#update_mode DatabaseDatabase#update_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#update_mode DatabaseDatabase#update_mode}.</summary>
         [JsiiProperty(name: "updateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? UpdateMode
@@ -42,7 +42,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>version_scheme_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#version_scheme_details DatabaseDatabase#version_scheme_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#version_scheme_details DatabaseDatabase#version_scheme_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetailsVersionSchemeDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "versionSchemeDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetailsVersionSchemeDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace oci.DatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#days_of_week DatabaseDatabase#days_of_week}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#days_of_week DatabaseDatabase#days_of_week}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "daysOfWeek", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DaysOfWeek
@@ -70,7 +70,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#hour_of_day DatabaseDatabase#hour_of_day}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#hour_of_day DatabaseDatabase#hour_of_day}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hourOfDay", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? HourOfDay
@@ -78,7 +78,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#update_mode DatabaseDatabase#update_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#update_mode DatabaseDatabase#update_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "updateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? UpdateMode
@@ -88,7 +88,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>version_scheme_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#version_scheme_details DatabaseDatabase#version_scheme_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#version_scheme_details DatabaseDatabase#version_scheme_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetailsPreferenceDetailsVersionSchemeDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]

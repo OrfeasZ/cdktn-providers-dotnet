@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiEndpoint
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiEndpointConfig), fullyQualifiedName: "oci.dataOciGenerativeAiEndpoint.DataOciGenerativeAiEndpointConfig")]
     public interface IDataOciGenerativeAiEndpointConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_endpoint#endpoint_id DataOciGenerativeAiEndpoint#endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_endpoint#endpoint_id DataOciGenerativeAiEndpoint#endpoint_id}.</summary>
         [JsiiProperty(name: "endpointId", typeJson: "{\"primitive\":\"string\"}")]
         string EndpointId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_endpoint#endpoint_id DataOciGenerativeAiEndpoint#endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_endpoint#endpoint_id DataOciGenerativeAiEndpoint#endpoint_id}.</summary>
             [JsiiProperty(name: "endpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string EndpointId
             {

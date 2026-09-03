@@ -7,14 +7,14 @@ namespace oci.DataOciObjectstorageBucket
     [JsiiInterface(nativeType: typeof(IDataOciObjectstorageBucketConfig), fullyQualifiedName: "oci.dataOciObjectstorageBucket.DataOciObjectstorageBucketConfig")]
     public interface IDataOciObjectstorageBucketConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/objectstorage_bucket#name DataOciObjectstorageBucket#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/objectstorage_bucket#name DataOciObjectstorageBucket#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/objectstorage_bucket#namespace DataOciObjectstorageBucket#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/objectstorage_bucket#namespace DataOciObjectstorageBucket#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciObjectstorageBucket
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/objectstorage_bucket#name DataOciObjectstorageBucket#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/objectstorage_bucket#name DataOciObjectstorageBucket#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/objectstorage_bucket#namespace DataOciObjectstorageBucket#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/objectstorage_bucket#namespace DataOciObjectstorageBucket#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {

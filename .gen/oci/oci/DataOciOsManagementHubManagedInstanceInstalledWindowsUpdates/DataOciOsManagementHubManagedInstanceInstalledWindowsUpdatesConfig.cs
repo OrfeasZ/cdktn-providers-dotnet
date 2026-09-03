@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubManagedInstanceInstalledWindowsUpdates.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesConfig")]
     public class DataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesConfig : oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates.IDataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#managed_instance_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#compartment_id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -35,7 +35,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#display_name_contains DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#display_name_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayNameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayNameContains
@@ -48,7 +48,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#filter DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#filter DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates.IDataOciOsManagementHubManagedInstanceInstalledWindowsUpdatesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#id DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_managed_instance_installed_windows_updates#name DataOciOsManagementHubManagedInstanceInstalledWindowsUpdates#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Name

@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceScheduledTaskActionTemplateDetails), fullyQualifiedName: "oci.logAnalyticsNamespaceScheduledTask.LogAnalyticsNamespaceScheduledTaskActionTemplateDetails")]
     public interface ILogAnalyticsNamespaceScheduledTaskActionTemplateDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_scheduled_task#template_id LogAnalyticsNamespaceScheduledTask#template_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_scheduled_task#template_id LogAnalyticsNamespaceScheduledTask#template_id}.</summary>
         [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TemplateId
@@ -20,7 +20,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
 
         /// <summary>template_params block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_scheduled_task#template_params LogAnalyticsNamespaceScheduledTask#template_params}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_scheduled_task#template_params LogAnalyticsNamespaceScheduledTask#template_params}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceScheduledTask.ILogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "templateParams", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.logAnalyticsNamespaceScheduledTask.LogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_scheduled_task#template_id LogAnalyticsNamespaceScheduledTask#template_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_scheduled_task#template_id LogAnalyticsNamespaceScheduledTask#template_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TemplateId
@@ -50,7 +50,7 @@ namespace oci.LogAnalyticsNamespaceScheduledTask
 
             /// <summary>template_params block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_scheduled_task#template_params LogAnalyticsNamespaceScheduledTask#template_params}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_scheduled_task#template_params LogAnalyticsNamespaceScheduledTask#template_params}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LogAnalyticsNamespaceScheduledTask.ILogAnalyticsNamespaceScheduledTaskActionTemplateDetailsTemplateParams" />)[]</para>
             /// </remarks>
             [JsiiOptional]

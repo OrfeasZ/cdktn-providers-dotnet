@@ -7,21 +7,21 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivityResources
     [JsiiInterface(nativeType: typeof(IDataOciFleetAppsManagementSchedulerJobJobActivityResourcesFilter), fullyQualifiedName: "oci.dataOciFleetAppsManagementSchedulerJobJobActivityResources.DataOciFleetAppsManagementSchedulerJobJobActivityResourcesFilter")]
     public interface IDataOciFleetAppsManagementSchedulerJobJobActivityResourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#name DataOciFleetAppsManagementSchedulerJobJobActivityResources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#name DataOciFleetAppsManagementSchedulerJobJobActivityResources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#values DataOciFleetAppsManagementSchedulerJobJobActivityResources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#values DataOciFleetAppsManagementSchedulerJobJobActivityResources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#regex DataOciFleetAppsManagementSchedulerJobJobActivityResources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#regex DataOciFleetAppsManagementSchedulerJobJobActivityResources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciFleetAppsManagementSchedulerJobJobActivityResources
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#name DataOciFleetAppsManagementSchedulerJobJobActivityResources#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#name DataOciFleetAppsManagementSchedulerJobJobActivityResources#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#values DataOciFleetAppsManagementSchedulerJobJobActivityResources#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#values DataOciFleetAppsManagementSchedulerJobJobActivityResources#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#regex DataOciFleetAppsManagementSchedulerJobJobActivityResources#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_scheduler_job_job_activity_resources#regex DataOciFleetAppsManagementSchedulerJobJobActivityResources#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

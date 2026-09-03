@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsCapacityReservation
     [JsiiByValue(fqn: "oci.dataOciBdsBdsCapacityReservation.DataOciBdsBdsCapacityReservationConfig")]
     public class DataOciBdsBdsCapacityReservationConfig : oci.DataOciBdsBdsCapacityReservation.IDataOciBdsBdsCapacityReservationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservation#bds_capacity_reservation_id DataOciBdsBdsCapacityReservation#bds_capacity_reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservation#bds_capacity_reservation_id DataOciBdsBdsCapacityReservation#bds_capacity_reservation_id}.</summary>
         [JsiiProperty(name: "bdsCapacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
         public string BdsCapacityReservationId
         {

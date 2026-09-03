@@ -7,56 +7,56 @@ namespace oci.DbmulticloudOracleDbAzureConnector
     [JsiiInterface(nativeType: typeof(IDbmulticloudOracleDbAzureConnectorConfig), fullyQualifiedName: "oci.dbmulticloudOracleDbAzureConnector.DbmulticloudOracleDbAzureConnectorConfig")]
     public interface IDbmulticloudOracleDbAzureConnectorConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#access_token DbmulticloudOracleDbAzureConnector#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#access_token DbmulticloudOracleDbAzureConnector#access_token}.</summary>
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}")]
         string AccessToken
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_identity_mechanism DbmulticloudOracleDbAzureConnector#azure_identity_mechanism}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_identity_mechanism DbmulticloudOracleDbAzureConnector#azure_identity_mechanism}.</summary>
         [JsiiProperty(name: "azureIdentityMechanism", typeJson: "{\"primitive\":\"string\"}")]
         string AzureIdentityMechanism
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_resource_group DbmulticloudOracleDbAzureConnector#azure_resource_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_resource_group DbmulticloudOracleDbAzureConnector#azure_resource_group}.</summary>
         [JsiiProperty(name: "azureResourceGroup", typeJson: "{\"primitive\":\"string\"}")]
         string AzureResourceGroup
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_subscription_id DbmulticloudOracleDbAzureConnector#azure_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_subscription_id DbmulticloudOracleDbAzureConnector#azure_subscription_id}.</summary>
         [JsiiProperty(name: "azureSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string AzureSubscriptionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_tenant_id DbmulticloudOracleDbAzureConnector#azure_tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_tenant_id DbmulticloudOracleDbAzureConnector#azure_tenant_id}.</summary>
         [JsiiProperty(name: "azureTenantId", typeJson: "{\"primitive\":\"string\"}")]
         string AzureTenantId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#compartment_id DbmulticloudOracleDbAzureConnector#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#compartment_id DbmulticloudOracleDbAzureConnector#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#db_cluster_resource_id DbmulticloudOracleDbAzureConnector#db_cluster_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#db_cluster_resource_id DbmulticloudOracleDbAzureConnector#db_cluster_resource_id}.</summary>
         [JsiiProperty(name: "dbClusterResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string DbClusterResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#display_name DbmulticloudOracleDbAzureConnector#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#display_name DbmulticloudOracleDbAzureConnector#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -65,7 +65,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
 
         /// <summary>arc_agent_nodes block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#arc_agent_nodes DbmulticloudOracleDbAzureConnector#arc_agent_nodes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#arc_agent_nodes DbmulticloudOracleDbAzureConnector#arc_agent_nodes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DbmulticloudOracleDbAzureConnector.IDbmulticloudOracleDbAzureConnectorArcAgentNodes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "arcAgentNodes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dbmulticloudOracleDbAzureConnector.DbmulticloudOracleDbAzureConnectorArcAgentNodes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -78,7 +78,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#id DbmulticloudOracleDbAzureConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#id DbmulticloudOracleDbAzureConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +93,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#last_modification DbmulticloudOracleDbAzureConnector#last_modification}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#last_modification DbmulticloudOracleDbAzureConnector#last_modification}.</summary>
         [JsiiProperty(name: "lastModification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastModification
@@ -104,7 +104,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#lifecycle_state_details DbmulticloudOracleDbAzureConnector#lifecycle_state_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#lifecycle_state_details DbmulticloudOracleDbAzureConnector#lifecycle_state_details}.</summary>
         [JsiiProperty(name: "lifecycleStateDetails", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LifecycleStateDetails
@@ -117,7 +117,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#timeouts DbmulticloudOracleDbAzureConnector#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#timeouts DbmulticloudOracleDbAzureConnector#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAzureConnector.DbmulticloudOracleDbAzureConnectorTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,56 +136,56 @@ namespace oci.DbmulticloudOracleDbAzureConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#access_token DbmulticloudOracleDbAzureConnector#access_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#access_token DbmulticloudOracleDbAzureConnector#access_token}.</summary>
             [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessToken
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_identity_mechanism DbmulticloudOracleDbAzureConnector#azure_identity_mechanism}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_identity_mechanism DbmulticloudOracleDbAzureConnector#azure_identity_mechanism}.</summary>
             [JsiiProperty(name: "azureIdentityMechanism", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureIdentityMechanism
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_resource_group DbmulticloudOracleDbAzureConnector#azure_resource_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_resource_group DbmulticloudOracleDbAzureConnector#azure_resource_group}.</summary>
             [JsiiProperty(name: "azureResourceGroup", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureResourceGroup
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_subscription_id DbmulticloudOracleDbAzureConnector#azure_subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_subscription_id DbmulticloudOracleDbAzureConnector#azure_subscription_id}.</summary>
             [JsiiProperty(name: "azureSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureSubscriptionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_tenant_id DbmulticloudOracleDbAzureConnector#azure_tenant_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#azure_tenant_id DbmulticloudOracleDbAzureConnector#azure_tenant_id}.</summary>
             [JsiiProperty(name: "azureTenantId", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureTenantId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#compartment_id DbmulticloudOracleDbAzureConnector#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#compartment_id DbmulticloudOracleDbAzureConnector#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#db_cluster_resource_id DbmulticloudOracleDbAzureConnector#db_cluster_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#db_cluster_resource_id DbmulticloudOracleDbAzureConnector#db_cluster_resource_id}.</summary>
             [JsiiProperty(name: "dbClusterResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbClusterResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#display_name DbmulticloudOracleDbAzureConnector#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#display_name DbmulticloudOracleDbAzureConnector#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -194,7 +194,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
 
             /// <summary>arc_agent_nodes block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#arc_agent_nodes DbmulticloudOracleDbAzureConnector#arc_agent_nodes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#arc_agent_nodes DbmulticloudOracleDbAzureConnector#arc_agent_nodes}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DbmulticloudOracleDbAzureConnector.IDbmulticloudOracleDbAzureConnectorArcAgentNodes" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -204,7 +204,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#id DbmulticloudOracleDbAzureConnector#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#id DbmulticloudOracleDbAzureConnector#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -216,7 +216,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#last_modification DbmulticloudOracleDbAzureConnector#last_modification}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#last_modification DbmulticloudOracleDbAzureConnector#last_modification}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastModification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastModification
@@ -224,7 +224,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#lifecycle_state_details DbmulticloudOracleDbAzureConnector#lifecycle_state_details}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#lifecycle_state_details DbmulticloudOracleDbAzureConnector#lifecycle_state_details}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lifecycleStateDetails", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LifecycleStateDetails
@@ -234,7 +234,7 @@ namespace oci.DbmulticloudOracleDbAzureConnector
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_connector#timeouts DbmulticloudOracleDbAzureConnector#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_connector#timeouts DbmulticloudOracleDbAzureConnector#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAzureConnector.DbmulticloudOracleDbAzureConnectorTimeouts\"}", isOptional: true)]

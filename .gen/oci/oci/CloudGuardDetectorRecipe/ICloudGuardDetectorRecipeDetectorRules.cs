@@ -9,7 +9,7 @@ namespace oci.CloudGuardDetectorRecipe
     {
         /// <summary>details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_guard_detector_recipe#details CloudGuardDetectorRecipe#details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_guard_detector_recipe#details CloudGuardDetectorRecipe#details}
         /// </remarks>
         [JsiiProperty(name: "details", typeJson: "{\"fqn\":\"oci.cloudGuardDetectorRecipe.CloudGuardDetectorRecipeDetectorRulesDetails\"}")]
         oci.CloudGuardDetectorRecipe.ICloudGuardDetectorRecipeDetectorRulesDetails Details
@@ -17,7 +17,7 @@ namespace oci.CloudGuardDetectorRecipe
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_guard_detector_recipe#detector_rule_id CloudGuardDetectorRecipe#detector_rule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_guard_detector_recipe#detector_rule_id CloudGuardDetectorRecipe#detector_rule_id}.</summary>
         [JsiiProperty(name: "detectorRuleId", typeJson: "{\"primitive\":\"string\"}")]
         string DetectorRuleId
         {
@@ -33,7 +33,7 @@ namespace oci.CloudGuardDetectorRecipe
 
             /// <summary>details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_guard_detector_recipe#details CloudGuardDetectorRecipe#details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_guard_detector_recipe#details CloudGuardDetectorRecipe#details}
             /// </remarks>
             [JsiiProperty(name: "details", typeJson: "{\"fqn\":\"oci.cloudGuardDetectorRecipe.CloudGuardDetectorRecipeDetectorRulesDetails\"}")]
             public oci.CloudGuardDetectorRecipe.ICloudGuardDetectorRecipeDetectorRulesDetails Details
@@ -41,7 +41,7 @@ namespace oci.CloudGuardDetectorRecipe
                 get => GetInstanceProperty<oci.CloudGuardDetectorRecipe.ICloudGuardDetectorRecipeDetectorRulesDetails>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_guard_detector_recipe#detector_rule_id CloudGuardDetectorRecipe#detector_rule_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_guard_detector_recipe#detector_rule_id CloudGuardDetectorRecipe#detector_rule_id}.</summary>
             [JsiiProperty(name: "detectorRuleId", typeJson: "{\"primitive\":\"string\"}")]
             public string DetectorRuleId
             {

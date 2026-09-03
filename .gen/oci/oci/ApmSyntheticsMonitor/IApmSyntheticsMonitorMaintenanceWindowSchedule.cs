@@ -7,7 +7,7 @@ namespace oci.ApmSyntheticsMonitor
     [JsiiInterface(nativeType: typeof(IApmSyntheticsMonitorMaintenanceWindowSchedule), fullyQualifiedName: "oci.apmSyntheticsMonitor.ApmSyntheticsMonitorMaintenanceWindowSchedule")]
     public interface IApmSyntheticsMonitorMaintenanceWindowSchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#time_ended ApmSyntheticsMonitor#time_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#time_ended ApmSyntheticsMonitor#time_ended}.</summary>
         [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeEnded
@@ -18,7 +18,7 @@ namespace oci.ApmSyntheticsMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#time_started ApmSyntheticsMonitor#time_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#time_started ApmSyntheticsMonitor#time_started}.</summary>
         [JsiiProperty(name: "timeStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStarted
@@ -36,7 +36,7 @@ namespace oci.ApmSyntheticsMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#time_ended ApmSyntheticsMonitor#time_ended}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#time_ended ApmSyntheticsMonitor#time_ended}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeEnded
@@ -44,7 +44,7 @@ namespace oci.ApmSyntheticsMonitor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apm_synthetics_monitor#time_started ApmSyntheticsMonitor#time_started}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apm_synthetics_monitor#time_started ApmSyntheticsMonitor#time_started}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStarted

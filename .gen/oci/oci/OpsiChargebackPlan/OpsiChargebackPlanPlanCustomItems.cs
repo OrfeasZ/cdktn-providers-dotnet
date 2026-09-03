@@ -9,7 +9,7 @@ namespace oci.OpsiChargebackPlan
     [JsiiByValue(fqn: "oci.opsiChargebackPlan.OpsiChargebackPlanPlanCustomItems")]
     public class OpsiChargebackPlanPlanCustomItems : oci.OpsiChargebackPlan.IOpsiChargebackPlanPlanCustomItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#name OpsiChargebackPlan#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#name OpsiChargebackPlan#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.OpsiChargebackPlan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#value OpsiChargebackPlan#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#value OpsiChargebackPlan#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -27,7 +27,7 @@ namespace oci.OpsiChargebackPlan
 
         private object? _isCustomizable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#is_customizable OpsiChargebackPlan#is_customizable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#is_customizable OpsiChargebackPlan#is_customizable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

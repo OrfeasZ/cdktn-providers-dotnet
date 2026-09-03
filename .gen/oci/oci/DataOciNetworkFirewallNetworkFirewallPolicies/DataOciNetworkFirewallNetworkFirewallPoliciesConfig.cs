@@ -9,7 +9,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicies
     [JsiiByValue(fqn: "oci.dataOciNetworkFirewallNetworkFirewallPolicies.DataOciNetworkFirewallNetworkFirewallPoliciesConfig")]
     public class DataOciNetworkFirewallNetworkFirewallPoliciesConfig : oci.DataOciNetworkFirewallNetworkFirewallPolicies.IDataOciNetworkFirewallNetworkFirewallPoliciesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policies#compartment_id DataOciNetworkFirewallNetworkFirewallPolicies#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/network_firewall_network_firewall_policies#compartment_id DataOciNetworkFirewallNetworkFirewallPolicies#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policies#display_name DataOciNetworkFirewallNetworkFirewallPolicies#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/network_firewall_network_firewall_policies#display_name DataOciNetworkFirewallNetworkFirewallPolicies#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicies
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policies#filter DataOciNetworkFirewallNetworkFirewallPolicies#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/network_firewall_network_firewall_policies#filter DataOciNetworkFirewallNetworkFirewallPolicies#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciNetworkFirewallNetworkFirewallPolicies.IDataOciNetworkFirewallNetworkFirewallPoliciesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policies#id DataOciNetworkFirewallNetworkFirewallPolicies#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/network_firewall_network_firewall_policies#id DataOciNetworkFirewallNetworkFirewallPolicies#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciNetworkFirewallNetworkFirewallPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/network_firewall_network_firewall_policies#state DataOciNetworkFirewallNetworkFirewallPolicies#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/network_firewall_network_firewall_policies#state DataOciNetworkFirewallNetworkFirewallPolicies#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

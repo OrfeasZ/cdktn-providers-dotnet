@@ -9,7 +9,7 @@ namespace oci.DataOciWafNetworkAddressLists
     [JsiiByValue(fqn: "oci.dataOciWafNetworkAddressLists.DataOciWafNetworkAddressListsFilter")]
     public class DataOciWafNetworkAddressListsFilter : oci.DataOciWafNetworkAddressLists.IDataOciWafNetworkAddressListsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_network_address_lists#name DataOciWafNetworkAddressLists#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_network_address_lists#name DataOciWafNetworkAddressLists#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciWafNetworkAddressLists
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_network_address_lists#values DataOciWafNetworkAddressLists#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_network_address_lists#values DataOciWafNetworkAddressLists#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciWafNetworkAddressLists
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/waf_network_address_lists#regex DataOciWafNetworkAddressLists#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/waf_network_address_lists#regex DataOciWafNetworkAddressLists#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

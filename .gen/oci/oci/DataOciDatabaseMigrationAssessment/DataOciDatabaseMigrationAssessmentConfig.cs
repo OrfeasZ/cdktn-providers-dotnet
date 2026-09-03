@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationAssessment
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationAssessment.DataOciDatabaseMigrationAssessmentConfig")]
     public class DataOciDatabaseMigrationAssessmentConfig : oci.DataOciDatabaseMigrationAssessment.IDataOciDatabaseMigrationAssessmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_migration_assessment#assessment_id DataOciDatabaseMigrationAssessment#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_migration_assessment#assessment_id DataOciDatabaseMigrationAssessment#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AssessmentId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeCluster
     [JsiiByValue(fqn: "oci.dataOciCoreComputeCluster.DataOciCoreComputeClusterConfig")]
     public class DataOciCoreComputeClusterConfig : oci.DataOciCoreComputeCluster.IDataOciCoreComputeClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_cluster#compute_cluster_id DataOciCoreComputeCluster#compute_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_cluster#compute_cluster_id DataOciCoreComputeCluster#compute_cluster_id}.</summary>
         [JsiiProperty(name: "computeClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeClusterId
         {

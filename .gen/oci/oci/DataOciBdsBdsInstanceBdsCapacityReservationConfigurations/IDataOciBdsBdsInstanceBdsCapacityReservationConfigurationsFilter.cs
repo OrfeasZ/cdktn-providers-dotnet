@@ -7,21 +7,21 @@ namespace oci.DataOciBdsBdsInstanceBdsCapacityReservationConfigurations
     [JsiiInterface(nativeType: typeof(IDataOciBdsBdsInstanceBdsCapacityReservationConfigurationsFilter), fullyQualifiedName: "oci.dataOciBdsBdsInstanceBdsCapacityReservationConfigurations.DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsFilter")]
     public interface IDataOciBdsBdsInstanceBdsCapacityReservationConfigurationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#name DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#name DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#values DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#values DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#regex DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#regex DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciBdsBdsInstanceBdsCapacityReservationConfigurations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#name DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#name DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#values DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#values DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#regex DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_bds_capacity_reservation_configurations#regex DataOciBdsBdsInstanceBdsCapacityReservationConfigurationsA#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

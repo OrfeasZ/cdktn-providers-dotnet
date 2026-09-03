@@ -9,7 +9,7 @@ namespace oci.DesktopsDesktopPool
     [JsiiByValue(fqn: "oci.desktopsDesktopPool.DesktopsDesktopPoolPrivateAccessDetails")]
     public class DesktopsDesktopPoolPrivateAccessDetails : oci.DesktopsDesktopPool.IDesktopsDesktopPoolPrivateAccessDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#subnet_id DesktopsDesktopPool#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/desktops_desktop_pool#subnet_id DesktopsDesktopPool#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -17,7 +17,7 @@ namespace oci.DesktopsDesktopPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#nsg_ids DesktopsDesktopPool#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/desktops_desktop_pool#nsg_ids DesktopsDesktopPool#nsg_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NsgIds
@@ -26,7 +26,7 @@ namespace oci.DesktopsDesktopPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#private_ip DesktopsDesktopPool#private_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/desktops_desktop_pool#private_ip DesktopsDesktopPool#private_ip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateIp
@@ -35,7 +35,7 @@ namespace oci.DesktopsDesktopPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#security_attributes DesktopsDesktopPool#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/desktops_desktop_pool#security_attributes DesktopsDesktopPool#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes

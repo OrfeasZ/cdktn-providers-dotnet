@@ -5,7 +5,7 @@ namespace oci.DataOciBatchBatchTaskEnvironment
     /// <remarks>
     /// <h1><c>data_oci_batch_batch_task_environment</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_task_environment"><c>data_oci_batch_batch_task_environment</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/batch_batch_task_environment"><c>data_oci_batch_batch_task_environment</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

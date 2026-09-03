@@ -7,14 +7,14 @@ namespace oci.DataOciIotDigitalTwinModels
     [JsiiInterface(nativeType: typeof(IDataOciIotDigitalTwinModelsConfig), fullyQualifiedName: "oci.dataOciIotDigitalTwinModels.DataOciIotDigitalTwinModelsConfig")]
     public interface IDataOciIotDigitalTwinModelsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#iot_domain_id DataOciIotDigitalTwinModels#iot_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#iot_domain_id DataOciIotDigitalTwinModels#iot_domain_id}.</summary>
         [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string IotDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#display_name DataOciIotDigitalTwinModels#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#display_name DataOciIotDigitalTwinModels#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciIotDigitalTwinModels
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#filter DataOciIotDigitalTwinModels#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#filter DataOciIotDigitalTwinModels#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIotDigitalTwinModels.IDataOciIotDigitalTwinModelsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciIotDigitalTwinModels.DataOciIotDigitalTwinModelsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciIotDigitalTwinModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#id DataOciIotDigitalTwinModels#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#id DataOciIotDigitalTwinModels#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciIotDigitalTwinModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#spec_uri_starts_with DataOciIotDigitalTwinModels#spec_uri_starts_with}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#spec_uri_starts_with DataOciIotDigitalTwinModels#spec_uri_starts_with}.</summary>
         [JsiiProperty(name: "specUriStartsWith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SpecUriStartsWith
@@ -66,7 +66,7 @@ namespace oci.DataOciIotDigitalTwinModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#state DataOciIotDigitalTwinModels#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#state DataOciIotDigitalTwinModels#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -84,14 +84,14 @@ namespace oci.DataOciIotDigitalTwinModels
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#iot_domain_id DataOciIotDigitalTwinModels#iot_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#iot_domain_id DataOciIotDigitalTwinModels#iot_domain_id}.</summary>
             [JsiiProperty(name: "iotDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string IotDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#display_name DataOciIotDigitalTwinModels#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#display_name DataOciIotDigitalTwinModels#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -101,7 +101,7 @@ namespace oci.DataOciIotDigitalTwinModels
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#filter DataOciIotDigitalTwinModels#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#filter DataOciIotDigitalTwinModels#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciIotDigitalTwinModels.IDataOciIotDigitalTwinModelsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -111,7 +111,7 @@ namespace oci.DataOciIotDigitalTwinModels
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#id DataOciIotDigitalTwinModels#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#id DataOciIotDigitalTwinModels#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -123,7 +123,7 @@ namespace oci.DataOciIotDigitalTwinModels
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#spec_uri_starts_with DataOciIotDigitalTwinModels#spec_uri_starts_with}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#spec_uri_starts_with DataOciIotDigitalTwinModels#spec_uri_starts_with}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "specUriStartsWith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SpecUriStartsWith
@@ -131,7 +131,7 @@ namespace oci.DataOciIotDigitalTwinModels
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_digital_twin_models#state DataOciIotDigitalTwinModels#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_digital_twin_models#state DataOciIotDigitalTwinModels#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

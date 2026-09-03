@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsNotificationSetting
     [JsiiByValue(fqn: "oci.identityDomainsNotificationSetting.IdentityDomainsNotificationSettingFromEmailAddress")]
     public class IdentityDomainsNotificationSettingFromEmailAddress : oci.IdentityDomainsNotificationSetting.IIdentityDomainsNotificationSettingFromEmailAddress
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_notification_setting#validate IdentityDomainsNotificationSetting#validate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_notification_setting#validate IdentityDomainsNotificationSetting#validate}.</summary>
         [JsiiProperty(name: "validate", typeJson: "{\"primitive\":\"string\"}")]
         public string Validate
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityDomainsNotificationSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_notification_setting#value IdentityDomainsNotificationSetting#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_notification_setting#value IdentityDomainsNotificationSetting#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsNotificationSetting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_notification_setting#display_name IdentityDomainsNotificationSetting#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_notification_setting#display_name IdentityDomainsNotificationSetting#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName

@@ -7,7 +7,7 @@ namespace oci.DataOciCapacityManagementOccCustomerGroup
     [JsiiInterface(nativeType: typeof(IDataOciCapacityManagementOccCustomerGroupConfig), fullyQualifiedName: "oci.dataOciCapacityManagementOccCustomerGroup.DataOciCapacityManagementOccCustomerGroupConfig")]
     public interface IDataOciCapacityManagementOccCustomerGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occ_customer_group#occ_customer_group_id DataOciCapacityManagementOccCustomerGroup#occ_customer_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/capacity_management_occ_customer_group#occ_customer_group_id DataOciCapacityManagementOccCustomerGroup#occ_customer_group_id}.</summary>
         [JsiiProperty(name: "occCustomerGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string OccCustomerGroupId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCapacityManagementOccCustomerGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/capacity_management_occ_customer_group#occ_customer_group_id DataOciCapacityManagementOccCustomerGroup#occ_customer_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/capacity_management_occ_customer_group#occ_customer_group_id DataOciCapacityManagementOccCustomerGroup#occ_customer_group_id}.</summary>
             [JsiiProperty(name: "occCustomerGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string OccCustomerGroupId
             {

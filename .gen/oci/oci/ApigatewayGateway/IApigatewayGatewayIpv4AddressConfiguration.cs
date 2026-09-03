@@ -7,7 +7,7 @@ namespace oci.ApigatewayGateway
     [JsiiInterface(nativeType: typeof(IApigatewayGatewayIpv4AddressConfiguration), fullyQualifiedName: "oci.apigatewayGateway.ApigatewayGatewayIpv4AddressConfiguration")]
     public interface IApigatewayGatewayIpv4AddressConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apigateway_gateway#reserved_ip_ids ApigatewayGateway#reserved_ip_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apigateway_gateway#reserved_ip_ids ApigatewayGateway#reserved_ip_ids}.</summary>
         [JsiiProperty(name: "reservedIpIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ReservedIpIds
@@ -25,7 +25,7 @@ namespace oci.ApigatewayGateway
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/apigateway_gateway#reserved_ip_ids ApigatewayGateway#reserved_ip_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/apigateway_gateway#reserved_ip_ids ApigatewayGateway#reserved_ip_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reservedIpIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ReservedIpIds

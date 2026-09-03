@@ -7,7 +7,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
     [JsiiInterface(nativeType: typeof(IDataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordsConfig), fullyQualifiedName: "oci.dataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordsConfig")]
     public interface IDataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#compartment_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#compartment_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#filter DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#filter DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords.IDataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#license_type DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#license_type DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#license_type}.</summary>
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LicenseType
@@ -55,7 +55,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#search_by_user DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#search_by_user}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#search_by_user DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#search_by_user}.</summary>
         [JsiiProperty(name: "searchByUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SearchByUser
@@ -66,7 +66,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#status DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#status DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#status}.</summary>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Status
@@ -84,7 +84,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#compartment_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#compartment_id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
@@ -93,7 +93,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#filter DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#filter DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords.IDataOciJmsJavaDownloadsJavaLicenseAcceptanceRecordsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -103,7 +103,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#id DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -115,7 +115,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#license_type DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#license_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#license_type DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#license_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LicenseType
@@ -123,7 +123,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#search_by_user DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#search_by_user}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#search_by_user DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#search_by_user}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchByUser", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SearchByUser
@@ -131,7 +131,7 @@ namespace oci.DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#status DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_java_downloads_java_license_acceptance_records#status DataOciJmsJavaDownloadsJavaLicenseAcceptanceRecords#status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Status

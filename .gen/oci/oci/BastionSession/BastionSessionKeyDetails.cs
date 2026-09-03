@@ -9,7 +9,7 @@ namespace oci.BastionSession
     [JsiiByValue(fqn: "oci.bastionSession.BastionSessionKeyDetails")]
     public class BastionSessionKeyDetails : oci.BastionSession.IBastionSessionKeyDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bastion_session#public_key_content BastionSession#public_key_content}.</summary>
         [JsiiProperty(name: "publicKeyContent", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicKeyContent
         {

@@ -9,7 +9,7 @@ namespace oci.DataLabelingServiceDataset
     [JsiiByValue(fqn: "oci.dataLabelingServiceDataset.DataLabelingServiceDatasetDatasetSourceDetails")]
     public class DataLabelingServiceDatasetDatasetSourceDetails : oci.DataLabelingServiceDataset.IDataLabelingServiceDatasetDatasetSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#bucket DataLabelingServiceDataset#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_labeling_service_dataset#bucket DataLabelingServiceDataset#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public string Bucket
         {
@@ -17,7 +17,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#namespace DataLabelingServiceDataset#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_labeling_service_dataset#namespace DataLabelingServiceDataset#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -25,7 +25,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#source_type DataLabelingServiceDataset#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_labeling_service_dataset#source_type DataLabelingServiceDataset#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceType
         {
@@ -33,7 +33,7 @@ namespace oci.DataLabelingServiceDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_labeling_service_dataset#prefix DataLabelingServiceDataset#prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_labeling_service_dataset#prefix DataLabelingServiceDataset#prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Prefix

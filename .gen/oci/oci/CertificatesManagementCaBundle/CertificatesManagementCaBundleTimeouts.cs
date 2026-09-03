@@ -7,7 +7,7 @@ namespace oci.CertificatesManagementCaBundle
     [JsiiByValue(fqn: "oci.certificatesManagementCaBundle.CertificatesManagementCaBundleTimeouts")]
     public class CertificatesManagementCaBundleTimeouts : oci.CertificatesManagementCaBundle.ICertificatesManagementCaBundleTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_ca_bundle#create CertificatesManagementCaBundle#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/certificates_management_ca_bundle#create CertificatesManagementCaBundle#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CertificatesManagementCaBundle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_ca_bundle#delete CertificatesManagementCaBundle#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/certificates_management_ca_bundle#delete CertificatesManagementCaBundle#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CertificatesManagementCaBundle
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/certificates_management_ca_bundle#update CertificatesManagementCaBundle#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/certificates_management_ca_bundle#update CertificatesManagementCaBundle#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

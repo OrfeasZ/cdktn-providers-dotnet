@@ -7,28 +7,28 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseManagementExadataInfrastructureFleetMetricConfig), fullyQualifiedName: "oci.dataOciDatabaseManagementExadataInfrastructureFleetMetric.DataOciDatabaseManagementExadataInfrastructureFleetMetricConfig")]
     public interface IDataOciDatabaseManagementExadataInfrastructureFleetMetricConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_baseline_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_baseline_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_baseline_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_baseline_time}.</summary>
         [JsiiProperty(name: "compareBaselineTime", typeJson: "{\"primitive\":\"string\"}")]
         string CompareBaselineTime
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_target_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_target_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_target_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_target_time}.</summary>
         [JsiiProperty(name: "compareTargetTime", typeJson: "{\"primitive\":\"string\"}")]
         string CompareTargetTime
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compartment_id DataOciDatabaseManagementExadataInfrastructureFleetMetric#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compartment_id DataOciDatabaseManagementExadataInfrastructureFleetMetric#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_type}.</summary>
         [JsiiProperty(name: "compareType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompareType
@@ -39,7 +39,7 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_deployment_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_deployment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_deployment_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_deployment_type}.</summary>
         [JsiiProperty(name: "filterByExadataInfrastructureDeploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FilterByExadataInfrastructureDeploymentType
@@ -50,7 +50,7 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_lifecycle_state DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_lifecycle_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_lifecycle_state DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_lifecycle_state}.</summary>
         [JsiiProperty(name: "filterByExadataInfrastructureLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FilterByExadataInfrastructureLifecycleState
@@ -61,7 +61,7 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#id DataOciDatabaseManagementExadataInfrastructureFleetMetric#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#id DataOciDatabaseManagementExadataInfrastructureFleetMetric#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,28 +83,28 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_baseline_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_baseline_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_baseline_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_baseline_time}.</summary>
             [JsiiProperty(name: "compareBaselineTime", typeJson: "{\"primitive\":\"string\"}")]
             public string CompareBaselineTime
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_target_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_target_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_target_time DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_target_time}.</summary>
             [JsiiProperty(name: "compareTargetTime", typeJson: "{\"primitive\":\"string\"}")]
             public string CompareTargetTime
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compartment_id DataOciDatabaseManagementExadataInfrastructureFleetMetric#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compartment_id DataOciDatabaseManagementExadataInfrastructureFleetMetric#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#compare_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#compare_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compareType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompareType
@@ -112,7 +112,7 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_deployment_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_deployment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_deployment_type DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_deployment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filterByExadataInfrastructureDeploymentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FilterByExadataInfrastructureDeploymentType
@@ -120,7 +120,7 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_lifecycle_state DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_lifecycle_state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#filter_by_exadata_infrastructure_lifecycle_state DataOciDatabaseManagementExadataInfrastructureFleetMetric#filter_by_exadata_infrastructure_lifecycle_state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filterByExadataInfrastructureLifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FilterByExadataInfrastructureLifecycleState
@@ -128,7 +128,7 @@ namespace oci.DataOciDatabaseManagementExadataInfrastructureFleetMetric
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#id DataOciDatabaseManagementExadataInfrastructureFleetMetric#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_exadata_infrastructure_fleet_metric#id DataOciDatabaseManagementExadataInfrastructureFleetMetric#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

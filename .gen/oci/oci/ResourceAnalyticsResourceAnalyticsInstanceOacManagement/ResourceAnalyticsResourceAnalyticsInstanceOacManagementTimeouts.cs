@@ -7,7 +7,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
     [JsiiByValue(fqn: "oci.resourceAnalyticsResourceAnalyticsInstanceOacManagement.ResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeouts")]
     public class ResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeouts : oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement.IResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#create ResourceAnalyticsResourceAnalyticsInstanceOacManagement#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#create ResourceAnalyticsResourceAnalyticsInstanceOacManagement#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#delete ResourceAnalyticsResourceAnalyticsInstanceOacManagement#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#delete ResourceAnalyticsResourceAnalyticsInstanceOacManagement#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#read ResourceAnalyticsResourceAnalyticsInstanceOacManagement#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#read ResourceAnalyticsResourceAnalyticsInstanceOacManagement#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
@@ -34,7 +34,7 @@ namespace oci.ResourceAnalyticsResourceAnalyticsInstanceOacManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#update ResourceAnalyticsResourceAnalyticsInstanceOacManagement#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#update ResourceAnalyticsResourceAnalyticsInstanceOacManagement#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

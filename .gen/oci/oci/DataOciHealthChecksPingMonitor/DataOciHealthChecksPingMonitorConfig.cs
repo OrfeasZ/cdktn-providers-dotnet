@@ -9,7 +9,7 @@ namespace oci.DataOciHealthChecksPingMonitor
     [JsiiByValue(fqn: "oci.dataOciHealthChecksPingMonitor.DataOciHealthChecksPingMonitorConfig")]
     public class DataOciHealthChecksPingMonitorConfig : oci.DataOciHealthChecksPingMonitor.IDataOciHealthChecksPingMonitorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/health_checks_ping_monitor#monitor_id DataOciHealthChecksPingMonitor#monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/health_checks_ping_monitor#monitor_id DataOciHealthChecksPingMonitor#monitor_id}.</summary>
         [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitorId
         {

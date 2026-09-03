@@ -7,7 +7,7 @@ namespace oci.HealthChecksHttpProbe
     [JsiiByValue(fqn: "oci.healthChecksHttpProbe.HealthChecksHttpProbeTimeouts")]
     public class HealthChecksHttpProbeTimeouts : oci.HealthChecksHttpProbe.IHealthChecksHttpProbeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#create HealthChecksHttpProbe#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#create HealthChecksHttpProbe#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#delete HealthChecksHttpProbe#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#delete HealthChecksHttpProbe#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#update HealthChecksHttpProbe#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#update HealthChecksHttpProbe#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

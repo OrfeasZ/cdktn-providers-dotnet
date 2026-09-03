@@ -9,7 +9,7 @@ namespace oci.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes
     [JsiiByValue(fqn: "oci.dataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimesFilter")]
     public class DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimesFilter : oci.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes.IDataOciLustreFileStorageAvailableMaintenanceScheduleStartTimesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#name DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#name DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#values DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#values DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#regex DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/lustre_file_storage_available_maintenance_schedule_start_times#regex DataOciLustreFileStorageAvailableMaintenanceScheduleStartTimes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.CloudGuardWlpAgent
     [JsiiByValue(fqn: "oci.cloudGuardWlpAgent.CloudGuardWlpAgentTimeouts")]
     public class CloudGuardWlpAgentTimeouts : oci.CloudGuardWlpAgent.ICloudGuardWlpAgentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_guard_wlp_agent#create CloudGuardWlpAgent#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_guard_wlp_agent#create CloudGuardWlpAgent#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.CloudGuardWlpAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_guard_wlp_agent#delete CloudGuardWlpAgent#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_guard_wlp_agent#delete CloudGuardWlpAgent#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.CloudGuardWlpAgent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/cloud_guard_wlp_agent#update CloudGuardWlpAgent#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/cloud_guard_wlp_agent#update CloudGuardWlpAgent#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket.DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucketConfig")]
     public class DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucketConfig : oci.DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket.IDataOciLogAnalyticsLogAnalyticsUnprocessedDataBucketConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_unprocessed_data_bucket#namespace DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_unprocessed_data_bucket#namespace DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_unprocessed_data_bucket#id DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_unprocessed_data_bucket#id DataOciLogAnalyticsLogAnalyticsUnprocessedDataBucket#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

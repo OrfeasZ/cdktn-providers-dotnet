@@ -7,7 +7,7 @@ namespace oci.DatascienceMlApplicationImplementation
     [JsiiByValue(fqn: "oci.datascienceMlApplicationImplementation.DatascienceMlApplicationImplementationTimeouts")]
     public class DatascienceMlApplicationImplementationTimeouts : oci.DatascienceMlApplicationImplementation.IDatascienceMlApplicationImplementationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#create DatascienceMlApplicationImplementation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_ml_application_implementation#create DatascienceMlApplicationImplementation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DatascienceMlApplicationImplementation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#delete DatascienceMlApplicationImplementation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_ml_application_implementation#delete DatascienceMlApplicationImplementation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DatascienceMlApplicationImplementation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_ml_application_implementation#update DatascienceMlApplicationImplementation#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_ml_application_implementation#update DatascienceMlApplicationImplementation#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

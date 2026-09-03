@@ -11,7 +11,7 @@ namespace oci.DatasciencePipelineRun
     {
         /// <summary>step_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_pipeline_run#step_configuration_details DatasciencePipelineRun#step_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_pipeline_run#step_configuration_details DatasciencePipelineRun#step_configuration_details}
         /// </remarks>
         [JsiiProperty(name: "stepConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepConfigurationDetails\"}")]
         public oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetailsStepConfigurationDetails StepConfigurationDetails
@@ -20,7 +20,7 @@ namespace oci.DatasciencePipelineRun
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_pipeline_run#step_name DatasciencePipelineRun#step_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_pipeline_run#step_name DatasciencePipelineRun#step_name}.</summary>
         [JsiiProperty(name: "stepName", typeJson: "{\"primitive\":\"string\"}")]
         public string StepName
         {
@@ -30,7 +30,7 @@ namespace oci.DatasciencePipelineRun
 
         /// <summary>step_container_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_pipeline_run#step_container_configuration_details DatasciencePipelineRun#step_container_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_pipeline_run#step_container_configuration_details DatasciencePipelineRun#step_container_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepContainerConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepContainerConfigurationDetails\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace oci.DatasciencePipelineRun
 
         /// <summary>step_dataflow_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_pipeline_run#step_dataflow_configuration_details DatasciencePipelineRun#step_dataflow_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_pipeline_run#step_dataflow_configuration_details DatasciencePipelineRun#step_dataflow_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepDataflowConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepDataflowConfigurationDetails\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace oci.DatasciencePipelineRun
 
         /// <summary>step_infrastructure_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_pipeline_run#step_infrastructure_configuration_details DatasciencePipelineRun#step_infrastructure_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_pipeline_run#step_infrastructure_configuration_details DatasciencePipelineRun#step_infrastructure_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stepInfrastructureConfigurationDetails", typeJson: "{\"fqn\":\"oci.datasciencePipelineRun.DatasciencePipelineRunStepOverrideDetailsStepInfrastructureConfigurationDetails\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace oci.DatasciencePipelineRun
 
         /// <summary>step_storage_mount_configuration_details_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_pipeline_run#step_storage_mount_configuration_details_list DatasciencePipelineRun#step_storage_mount_configuration_details_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_pipeline_run#step_storage_mount_configuration_details_list DatasciencePipelineRun#step_storage_mount_configuration_details_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatasciencePipelineRun.IDatasciencePipelineRunStepOverrideDetailsStepStorageMountConfigurationDetailsListStruct" />)[]</para>
         /// </remarks>
         [JsiiOptional]

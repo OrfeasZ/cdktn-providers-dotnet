@@ -5,7 +5,7 @@ namespace oci.DataSafeMaskingPolicy
     /// <remarks>
     /// <h1><c>oci_data_safe_masking_policy</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_masking_policy"><c>oci_data_safe_masking_policy</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_masking_policy"><c>oci_data_safe_masking_policy</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

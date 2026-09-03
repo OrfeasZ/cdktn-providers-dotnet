@@ -7,7 +7,7 @@ namespace oci.ContainerengineVirtualNodePool
     [JsiiByValue(fqn: "oci.containerengineVirtualNodePool.ContainerengineVirtualNodePoolTaints")]
     public class ContainerengineVirtualNodePoolTaints : oci.ContainerengineVirtualNodePool.IContainerengineVirtualNodePoolTaints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_virtual_node_pool#effect ContainerengineVirtualNodePool#effect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_virtual_node_pool#effect ContainerengineVirtualNodePool#effect}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "effect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Effect
@@ -16,7 +16,7 @@ namespace oci.ContainerengineVirtualNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_virtual_node_pool#key ContainerengineVirtualNodePool#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_virtual_node_pool#key ContainerengineVirtualNodePool#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key
@@ -25,7 +25,7 @@ namespace oci.ContainerengineVirtualNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_virtual_node_pool#value ContainerengineVirtualNodePool#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_virtual_node_pool#value ContainerengineVirtualNodePool#value}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Value

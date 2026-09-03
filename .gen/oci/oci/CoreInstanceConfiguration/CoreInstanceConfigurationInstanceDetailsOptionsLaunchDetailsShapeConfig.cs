@@ -7,7 +7,7 @@ namespace oci.CoreInstanceConfiguration
     [JsiiByValue(fqn: "oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsShapeConfig")]
     public class CoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsShapeConfig : oci.CoreInstanceConfiguration.ICoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsShapeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#baseline_ocpu_utilization CoreInstanceConfiguration#baseline_ocpu_utilization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#baseline_ocpu_utilization CoreInstanceConfiguration#baseline_ocpu_utilization}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "baselineOcpuUtilization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BaselineOcpuUtilization
@@ -16,7 +16,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#local_volume_size_in_gbs CoreInstanceConfiguration#local_volume_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#local_volume_size_in_gbs CoreInstanceConfiguration#local_volume_size_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "localVolumeSizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LocalVolumeSizeInGbs
@@ -25,7 +25,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#memory_in_gbs CoreInstanceConfiguration#memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#memory_in_gbs CoreInstanceConfiguration#memory_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MemoryInGbs
@@ -34,7 +34,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#nvmes CoreInstanceConfiguration#nvmes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#nvmes CoreInstanceConfiguration#nvmes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nvmes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Nvmes
@@ -43,7 +43,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#ocpus CoreInstanceConfiguration#ocpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#ocpus CoreInstanceConfiguration#ocpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ocpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Ocpus
@@ -52,7 +52,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#resource_management CoreInstanceConfiguration#resource_management}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#resource_management CoreInstanceConfiguration#resource_management}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "resourceManagement", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceManagement
@@ -61,7 +61,7 @@ namespace oci.CoreInstanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#vcpus CoreInstanceConfiguration#vcpus}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#vcpus CoreInstanceConfiguration#vcpus}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vcpus", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Vcpus

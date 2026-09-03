@@ -9,7 +9,7 @@ namespace oci.DataOciRecoveryProtectedDatabase
     [JsiiByValue(fqn: "oci.dataOciRecoveryProtectedDatabase.DataOciRecoveryProtectedDatabaseConfig")]
     public class DataOciRecoveryProtectedDatabaseConfig : oci.DataOciRecoveryProtectedDatabase.IDataOciRecoveryProtectedDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/recovery_protected_database#protected_database_id DataOciRecoveryProtectedDatabase#protected_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/recovery_protected_database#protected_database_id DataOciRecoveryProtectedDatabase#protected_database_id}.</summary>
         [JsiiProperty(name: "protectedDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProtectedDatabaseId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciZprZprPolicy
     [JsiiByValue(fqn: "oci.dataOciZprZprPolicy.DataOciZprZprPolicyConfig")]
     public class DataOciZprZprPolicyConfig : oci.DataOciZprZprPolicy.IDataOciZprZprPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/zpr_zpr_policy#zpr_policy_id DataOciZprZprPolicy#zpr_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/zpr_zpr_policy#zpr_policy_id DataOciZprZprPolicy#zpr_policy_id}.</summary>
         [JsiiProperty(name: "zprPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZprPolicyId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciGoldenGateDatabaseRegistration
     [JsiiByValue(fqn: "oci.dataOciGoldenGateDatabaseRegistration.DataOciGoldenGateDatabaseRegistrationConfig")]
     public class DataOciGoldenGateDatabaseRegistrationConfig : oci.DataOciGoldenGateDatabaseRegistration.IDataOciGoldenGateDatabaseRegistrationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_database_registration#database_registration_id DataOciGoldenGateDatabaseRegistration#database_registration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_database_registration#database_registration_id DataOciGoldenGateDatabaseRegistration#database_registration_id}.</summary>
         [JsiiProperty(name: "databaseRegistrationId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseRegistrationId
         {

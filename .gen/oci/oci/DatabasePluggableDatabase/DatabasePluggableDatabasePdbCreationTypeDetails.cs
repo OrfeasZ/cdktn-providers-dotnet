@@ -9,7 +9,7 @@ namespace oci.DatabasePluggableDatabase
     [JsiiByValue(fqn: "oci.databasePluggableDatabase.DatabasePluggableDatabasePdbCreationTypeDetails")]
     public class DatabasePluggableDatabasePdbCreationTypeDetails : oci.DatabasePluggableDatabase.IDatabasePluggableDatabasePdbCreationTypeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#creation_type DatabasePluggableDatabase#creation_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#creation_type DatabasePluggableDatabase#creation_type}.</summary>
         [JsiiProperty(name: "creationType", typeJson: "{\"primitive\":\"string\"}")]
         public string CreationType
         {
@@ -17,7 +17,7 @@ namespace oci.DatabasePluggableDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#source_pluggable_database_id DatabasePluggableDatabase#source_pluggable_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#source_pluggable_database_id DatabasePluggableDatabase#source_pluggable_database_id}.</summary>
         [JsiiProperty(name: "sourcePluggableDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourcePluggableDatabaseId
         {
@@ -25,7 +25,7 @@ namespace oci.DatabasePluggableDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#dblink_username DatabasePluggableDatabase#dblink_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#dblink_username DatabasePluggableDatabase#dblink_username}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dblinkUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DblinkUsername
@@ -34,7 +34,7 @@ namespace oci.DatabasePluggableDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#dblink_user_password DatabasePluggableDatabase#dblink_user_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#dblink_user_password DatabasePluggableDatabase#dblink_user_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dblinkUserPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DblinkUserPassword
@@ -45,7 +45,7 @@ namespace oci.DatabasePluggableDatabase
 
         private object? _isThinClone;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#is_thin_clone DatabasePluggableDatabase#is_thin_clone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#is_thin_clone DatabasePluggableDatabase#is_thin_clone}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -79,7 +79,7 @@ namespace oci.DatabasePluggableDatabase
 
         /// <summary>refreshable_clone_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#refreshable_clone_details DatabasePluggableDatabase#refreshable_clone_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#refreshable_clone_details DatabasePluggableDatabase#refreshable_clone_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refreshableCloneDetails", typeJson: "{\"fqn\":\"oci.databasePluggableDatabase.DatabasePluggableDatabasePdbCreationTypeDetailsRefreshableCloneDetails\"}", isOptional: true)]
@@ -89,7 +89,7 @@ namespace oci.DatabasePluggableDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#source_container_database_admin_password DatabasePluggableDatabase#source_container_database_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#source_container_database_admin_password DatabasePluggableDatabase#source_container_database_admin_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceContainerDatabaseAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourceContainerDatabaseAdminPassword
@@ -98,7 +98,7 @@ namespace oci.DatabasePluggableDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_pluggable_database#source_pluggable_database_snapshot_id DatabasePluggableDatabase#source_pluggable_database_snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_pluggable_database#source_pluggable_database_snapshot_id DatabasePluggableDatabase#source_pluggable_database_snapshot_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourcePluggableDatabaseSnapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SourcePluggableDatabaseSnapshotId

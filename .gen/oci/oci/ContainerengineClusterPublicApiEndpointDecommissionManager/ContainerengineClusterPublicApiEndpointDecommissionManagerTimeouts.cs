@@ -7,7 +7,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
     [JsiiByValue(fqn: "oci.containerengineClusterPublicApiEndpointDecommissionManager.ContainerengineClusterPublicApiEndpointDecommissionManagerTimeouts")]
     public class ContainerengineClusterPublicApiEndpointDecommissionManagerTimeouts : oci.ContainerengineClusterPublicApiEndpointDecommissionManager.IContainerengineClusterPublicApiEndpointDecommissionManagerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#create ContainerengineClusterPublicApiEndpointDecommissionManager#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#create ContainerengineClusterPublicApiEndpointDecommissionManager#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#delete ContainerengineClusterPublicApiEndpointDecommissionManager#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#delete ContainerengineClusterPublicApiEndpointDecommissionManager#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.ContainerengineClusterPublicApiEndpointDecommissionManager
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#update ContainerengineClusterPublicApiEndpointDecommissionManager#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_cluster_public_api_endpoint_decommission_manager#update ContainerengineClusterPublicApiEndpointDecommissionManager#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

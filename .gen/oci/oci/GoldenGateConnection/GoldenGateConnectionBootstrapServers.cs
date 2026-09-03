@@ -7,7 +7,7 @@ namespace oci.GoldenGateConnection
     [JsiiByValue(fqn: "oci.goldenGateConnection.GoldenGateConnectionBootstrapServers")]
     public class GoldenGateConnectionBootstrapServers : oci.GoldenGateConnection.IGoldenGateConnectionBootstrapServers
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#host GoldenGateConnection#host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/golden_gate_connection#host GoldenGateConnection#host}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Host
@@ -16,7 +16,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_connection#port GoldenGateConnection#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/golden_gate_connection#port GoldenGateConnection#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port

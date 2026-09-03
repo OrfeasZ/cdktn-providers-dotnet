@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneDomainGovernance
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneDomainGovernance.DataOciTenantmanagercontrolplaneDomainGovernanceConfig")]
     public class DataOciTenantmanagercontrolplaneDomainGovernanceConfig : oci.DataOciTenantmanagercontrolplaneDomainGovernance.IDataOciTenantmanagercontrolplaneDomainGovernanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_domain_governance#domain_governance_id DataOciTenantmanagercontrolplaneDomainGovernance#domain_governance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/tenantmanagercontrolplane_domain_governance#domain_governance_id DataOciTenantmanagercontrolplaneDomainGovernance#domain_governance_id}.</summary>
         [JsiiProperty(name: "domainGovernanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainGovernanceId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneDomainGovernance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_domain_governance#id DataOciTenantmanagercontrolplaneDomainGovernance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/tenantmanagercontrolplane_domain_governance#id DataOciTenantmanagercontrolplaneDomainGovernance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

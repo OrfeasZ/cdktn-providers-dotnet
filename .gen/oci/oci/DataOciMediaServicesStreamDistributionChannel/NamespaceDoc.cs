@@ -5,7 +5,7 @@ namespace oci.DataOciMediaServicesStreamDistributionChannel
     /// <remarks>
     /// <h1><c>data_oci_media_services_stream_distribution_channel</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/media_services_stream_distribution_channel"><c>data_oci_media_services_stream_distribution_channel</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/media_services_stream_distribution_channel"><c>data_oci_media_services_stream_distribution_channel</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

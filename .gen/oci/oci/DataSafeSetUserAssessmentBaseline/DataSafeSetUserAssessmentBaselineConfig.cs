@@ -9,7 +9,7 @@ namespace oci.DataSafeSetUserAssessmentBaseline
     [JsiiByValue(fqn: "oci.dataSafeSetUserAssessmentBaseline.DataSafeSetUserAssessmentBaselineConfig")]
     public class DataSafeSetUserAssessmentBaselineConfig : oci.DataSafeSetUserAssessmentBaseline.IDataSafeSetUserAssessmentBaselineConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_set_user_assessment_baseline#user_assessment_id DataSafeSetUserAssessmentBaseline#user_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_set_user_assessment_baseline#user_assessment_id DataSafeSetUserAssessmentBaseline#user_assessment_id}.</summary>
         [JsiiProperty(name: "userAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserAssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeSetUserAssessmentBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_set_user_assessment_baseline#assessment_ids DataSafeSetUserAssessmentBaseline#assessment_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_set_user_assessment_baseline#assessment_ids DataSafeSetUserAssessmentBaseline#assessment_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assessmentIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AssessmentIds
@@ -26,7 +26,7 @@ namespace oci.DataSafeSetUserAssessmentBaseline
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_set_user_assessment_baseline#id DataSafeSetUserAssessmentBaseline#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_set_user_assessment_baseline#id DataSafeSetUserAssessmentBaseline#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.DataSafeSetUserAssessmentBaseline
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_set_user_assessment_baseline#timeouts DataSafeSetUserAssessmentBaseline#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_set_user_assessment_baseline#timeouts DataSafeSetUserAssessmentBaseline#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSetUserAssessmentBaseline.DataSafeSetUserAssessmentBaselineTimeouts\"}", isOptional: true)]

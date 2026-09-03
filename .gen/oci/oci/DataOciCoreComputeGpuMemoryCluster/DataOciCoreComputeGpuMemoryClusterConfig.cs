@@ -9,7 +9,7 @@ namespace oci.DataOciCoreComputeGpuMemoryCluster
     [JsiiByValue(fqn: "oci.dataOciCoreComputeGpuMemoryCluster.DataOciCoreComputeGpuMemoryClusterConfig")]
     public class DataOciCoreComputeGpuMemoryClusterConfig : oci.DataOciCoreComputeGpuMemoryCluster.IDataOciCoreComputeGpuMemoryClusterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_compute_gpu_memory_cluster#compute_gpu_memory_cluster_id DataOciCoreComputeGpuMemoryCluster#compute_gpu_memory_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_compute_gpu_memory_cluster#compute_gpu_memory_cluster_id DataOciCoreComputeGpuMemoryCluster#compute_gpu_memory_cluster_id}.</summary>
         [JsiiProperty(name: "computeGpuMemoryClusterId", typeJson: "{\"primitive\":\"string\"}")]
         public string ComputeGpuMemoryClusterId
         {

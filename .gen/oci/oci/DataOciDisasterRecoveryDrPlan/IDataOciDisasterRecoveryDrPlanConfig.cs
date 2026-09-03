@@ -7,7 +7,7 @@ namespace oci.DataOciDisasterRecoveryDrPlan
     [JsiiInterface(nativeType: typeof(IDataOciDisasterRecoveryDrPlanConfig), fullyQualifiedName: "oci.dataOciDisasterRecoveryDrPlan.DataOciDisasterRecoveryDrPlanConfig")]
     public interface IDataOciDisasterRecoveryDrPlanConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_dr_plan#dr_plan_id DataOciDisasterRecoveryDrPlan#dr_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/disaster_recovery_dr_plan#dr_plan_id DataOciDisasterRecoveryDrPlan#dr_plan_id}.</summary>
         [JsiiProperty(name: "drPlanId", typeJson: "{\"primitive\":\"string\"}")]
         string DrPlanId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDisasterRecoveryDrPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/disaster_recovery_dr_plan#dr_plan_id DataOciDisasterRecoveryDrPlan#dr_plan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/disaster_recovery_dr_plan#dr_plan_id DataOciDisasterRecoveryDrPlan#dr_plan_id}.</summary>
             [JsiiProperty(name: "drPlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string DrPlanId
             {

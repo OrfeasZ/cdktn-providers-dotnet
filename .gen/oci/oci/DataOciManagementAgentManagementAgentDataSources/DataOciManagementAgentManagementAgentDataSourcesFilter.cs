@@ -9,7 +9,7 @@ namespace oci.DataOciManagementAgentManagementAgentDataSources
     [JsiiByValue(fqn: "oci.dataOciManagementAgentManagementAgentDataSources.DataOciManagementAgentManagementAgentDataSourcesFilter")]
     public class DataOciManagementAgentManagementAgentDataSourcesFilter : oci.DataOciManagementAgentManagementAgentDataSources.IDataOciManagementAgentManagementAgentDataSourcesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/management_agent_management_agent_data_sources#name DataOciManagementAgentManagementAgentDataSources#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/management_agent_management_agent_data_sources#name DataOciManagementAgentManagementAgentDataSources#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciManagementAgentManagementAgentDataSources
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/management_agent_management_agent_data_sources#values DataOciManagementAgentManagementAgentDataSources#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/management_agent_management_agent_data_sources#values DataOciManagementAgentManagementAgentDataSources#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciManagementAgentManagementAgentDataSources
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/management_agent_management_agent_data_sources#regex DataOciManagementAgentManagementAgentDataSources#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/management_agent_management_agent_data_sources#regex DataOciManagementAgentManagementAgentDataSources#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

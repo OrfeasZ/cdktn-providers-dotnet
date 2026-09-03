@@ -7,35 +7,35 @@ namespace oci.BdsBdsInstance
     [JsiiInterface(nativeType: typeof(IBdsBdsInstanceConfig), fullyQualifiedName: "oci.bdsBdsInstance.BdsBdsInstanceConfig")]
     public interface IBdsBdsInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_public_key BdsBdsInstance#cluster_public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_public_key BdsBdsInstance#cluster_public_key}.</summary>
         [JsiiProperty(name: "clusterPublicKey", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterPublicKey
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_version BdsBdsInstance#cluster_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_version BdsBdsInstance#cluster_version}.</summary>
         [JsiiProperty(name: "clusterVersion", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#compartment_id BdsBdsInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#compartment_id BdsBdsInstance#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#display_name BdsBdsInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#display_name BdsBdsInstance#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_high_availability BdsBdsInstance#is_high_availability}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_high_availability BdsBdsInstance#is_high_availability}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -45,7 +45,7 @@ namespace oci.BdsBdsInstance
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_secure BdsBdsInstance#is_secure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_secure BdsBdsInstance#is_secure}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -57,7 +57,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>master_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#master_node BdsBdsInstance#master_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#master_node BdsBdsInstance#master_node}
         /// </remarks>
         [JsiiProperty(name: "masterNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceMasterNode\"}")]
         oci.BdsBdsInstance.IBdsBdsInstanceMasterNode MasterNode
@@ -67,7 +67,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>util_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#util_node BdsBdsInstance#util_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#util_node BdsBdsInstance#util_node}
         /// </remarks>
         [JsiiProperty(name: "utilNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceUtilNode\"}")]
         oci.BdsBdsInstance.IBdsBdsInstanceUtilNode UtilNode
@@ -77,7 +77,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>worker_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#worker_node BdsBdsInstance#worker_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#worker_node BdsBdsInstance#worker_node}
         /// </remarks>
         [JsiiProperty(name: "workerNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceWorkerNode\"}")]
         oci.BdsBdsInstance.IBdsBdsInstanceWorkerNode WorkerNode
@@ -87,7 +87,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>bds_capacity_reservation_configurations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#bds_capacity_reservation_configurations BdsBdsInstance#bds_capacity_reservation_configurations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#bds_capacity_reservation_configurations BdsBdsInstance#bds_capacity_reservation_configurations}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceBdsCapacityReservationConfigurations" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "bdsCapacityReservationConfigurations", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsCapacityReservationConfigurations\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -102,7 +102,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>bds_cluster_version_summary block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#bds_cluster_version_summary BdsBdsInstance#bds_cluster_version_summary}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#bds_cluster_version_summary BdsBdsInstance#bds_cluster_version_summary}
         /// </remarks>
         [JsiiProperty(name: "bdsClusterVersionSummary", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsClusterVersionSummary\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#bootstrap_script_url BdsBdsInstance#bootstrap_script_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#bootstrap_script_url BdsBdsInstance#bootstrap_script_url}.</summary>
         [JsiiProperty(name: "bootstrapScriptUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BootstrapScriptUrl
@@ -127,7 +127,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>cloud_sql_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cloud_sql_details BdsBdsInstance#cloud_sql_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cloud_sql_details BdsBdsInstance#cloud_sql_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceCloudSqlDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "cloudSqlDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceCloudSqlDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_admin_password BdsBdsInstance#cluster_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_admin_password BdsBdsInstance#cluster_admin_password}.</summary>
         [JsiiProperty(name: "clusterAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterAdminPassword
@@ -151,7 +151,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_profile BdsBdsInstance#cluster_profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_profile BdsBdsInstance#cluster_profile}.</summary>
         [JsiiProperty(name: "clusterProfile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterProfile
@@ -164,7 +164,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>compute_only_worker_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#compute_only_worker_node BdsBdsInstance#compute_only_worker_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#compute_only_worker_node BdsBdsInstance#compute_only_worker_node}
         /// </remarks>
         [JsiiProperty(name: "computeOnlyWorkerNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceComputeOnlyWorkerNode\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -176,7 +176,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#defined_tags BdsBdsInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#defined_tags BdsBdsInstance#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -189,7 +189,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>edge_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#edge_node BdsBdsInstance#edge_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#edge_node BdsBdsInstance#edge_node}
         /// </remarks>
         [JsiiProperty(name: "edgeNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceEdgeNode\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -201,7 +201,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#freeform_tags BdsBdsInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#freeform_tags BdsBdsInstance#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -212,7 +212,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#id BdsBdsInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#id BdsBdsInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -227,7 +227,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#ignore_existing_nodes_shape BdsBdsInstance#ignore_existing_nodes_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#ignore_existing_nodes_shape BdsBdsInstance#ignore_existing_nodes_shape}.</summary>
         [JsiiProperty(name: "ignoreExistingNodesShape", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? IgnoreExistingNodesShape
@@ -238,7 +238,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_cloud_sql_configured BdsBdsInstance#is_cloud_sql_configured}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_cloud_sql_configured BdsBdsInstance#is_cloud_sql_configured}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -252,7 +252,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_force_remove_enabled BdsBdsInstance#is_force_remove_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_force_remove_enabled BdsBdsInstance#is_force_remove_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -266,7 +266,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_force_stop_jobs BdsBdsInstance#is_force_stop_jobs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_force_stop_jobs BdsBdsInstance#is_force_stop_jobs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -280,7 +280,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_kafka_configured BdsBdsInstance#is_kafka_configured}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_kafka_configured BdsBdsInstance#is_kafka_configured}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -294,7 +294,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_secret_reused BdsBdsInstance#is_secret_reused}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_secret_reused BdsBdsInstance#is_secret_reused}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -310,7 +310,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>kafka_broker_node block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#kafka_broker_node BdsBdsInstance#kafka_broker_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#kafka_broker_node BdsBdsInstance#kafka_broker_node}
         /// </remarks>
         [JsiiProperty(name: "kafkaBrokerNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceKafkaBrokerNode\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -322,7 +322,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#kerberos_realm_name BdsBdsInstance#kerberos_realm_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#kerberos_realm_name BdsBdsInstance#kerberos_realm_name}.</summary>
         [JsiiProperty(name: "kerberosRealmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KerberosRealmName
@@ -333,7 +333,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#kms_key_id BdsBdsInstance#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#kms_key_id BdsBdsInstance#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyId
@@ -346,7 +346,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>network_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#network_config BdsBdsInstance#network_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#network_config BdsBdsInstance#network_config}
         /// </remarks>
         [JsiiProperty(name: "networkConfig", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceNetworkConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -358,7 +358,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#os_patch_version BdsBdsInstance#os_patch_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#os_patch_version BdsBdsInstance#os_patch_version}.</summary>
         [JsiiProperty(name: "osPatchVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OsPatchVersion
@@ -369,7 +369,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#remove_node BdsBdsInstance#remove_node}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#remove_node BdsBdsInstance#remove_node}.</summary>
         [JsiiProperty(name: "removeNode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RemoveNode
@@ -380,7 +380,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#remove_nodes BdsBdsInstance#remove_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#remove_nodes BdsBdsInstance#remove_nodes}.</summary>
         [JsiiProperty(name: "removeNodes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? RemoveNodes
@@ -391,7 +391,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#secret_id BdsBdsInstance#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#secret_id BdsBdsInstance#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecretId
@@ -404,7 +404,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>start_cluster_shape_configs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#start_cluster_shape_configs BdsBdsInstance#start_cluster_shape_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#start_cluster_shape_configs BdsBdsInstance#start_cluster_shape_configs}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceStartClusterShapeConfigs" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "startClusterShapeConfigs", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceStartClusterShapeConfigs\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -417,7 +417,7 @@ namespace oci.BdsBdsInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#state BdsBdsInstance#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#state BdsBdsInstance#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -430,7 +430,7 @@ namespace oci.BdsBdsInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#timeouts BdsBdsInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#timeouts BdsBdsInstance#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -449,35 +449,35 @@ namespace oci.BdsBdsInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_public_key BdsBdsInstance#cluster_public_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_public_key BdsBdsInstance#cluster_public_key}.</summary>
             [JsiiProperty(name: "clusterPublicKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterPublicKey
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_version BdsBdsInstance#cluster_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_version BdsBdsInstance#cluster_version}.</summary>
             [JsiiProperty(name: "clusterVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#compartment_id BdsBdsInstance#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#compartment_id BdsBdsInstance#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#display_name BdsBdsInstance#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#display_name BdsBdsInstance#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_high_availability BdsBdsInstance#is_high_availability}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_high_availability BdsBdsInstance#is_high_availability}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -487,7 +487,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_secure BdsBdsInstance#is_secure}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_secure BdsBdsInstance#is_secure}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -499,7 +499,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>master_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#master_node BdsBdsInstance#master_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#master_node BdsBdsInstance#master_node}
             /// </remarks>
             [JsiiProperty(name: "masterNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceMasterNode\"}")]
             public oci.BdsBdsInstance.IBdsBdsInstanceMasterNode MasterNode
@@ -509,7 +509,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>util_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#util_node BdsBdsInstance#util_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#util_node BdsBdsInstance#util_node}
             /// </remarks>
             [JsiiProperty(name: "utilNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceUtilNode\"}")]
             public oci.BdsBdsInstance.IBdsBdsInstanceUtilNode UtilNode
@@ -519,7 +519,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>worker_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#worker_node BdsBdsInstance#worker_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#worker_node BdsBdsInstance#worker_node}
             /// </remarks>
             [JsiiProperty(name: "workerNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceWorkerNode\"}")]
             public oci.BdsBdsInstance.IBdsBdsInstanceWorkerNode WorkerNode
@@ -529,7 +529,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>bds_capacity_reservation_configurations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#bds_capacity_reservation_configurations BdsBdsInstance#bds_capacity_reservation_configurations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#bds_capacity_reservation_configurations BdsBdsInstance#bds_capacity_reservation_configurations}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceBdsCapacityReservationConfigurations" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -541,7 +541,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>bds_cluster_version_summary block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#bds_cluster_version_summary BdsBdsInstance#bds_cluster_version_summary}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#bds_cluster_version_summary BdsBdsInstance#bds_cluster_version_summary}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bdsClusterVersionSummary", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceBdsClusterVersionSummary\"}", isOptional: true)]
@@ -550,7 +550,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<oci.BdsBdsInstance.IBdsBdsInstanceBdsClusterVersionSummary?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#bootstrap_script_url BdsBdsInstance#bootstrap_script_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#bootstrap_script_url BdsBdsInstance#bootstrap_script_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bootstrapScriptUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BootstrapScriptUrl
@@ -560,7 +560,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>cloud_sql_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cloud_sql_details BdsBdsInstance#cloud_sql_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cloud_sql_details BdsBdsInstance#cloud_sql_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceCloudSqlDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -570,7 +570,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_admin_password BdsBdsInstance#cluster_admin_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_admin_password BdsBdsInstance#cluster_admin_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterAdminPassword
@@ -578,7 +578,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#cluster_profile BdsBdsInstance#cluster_profile}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#cluster_profile BdsBdsInstance#cluster_profile}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterProfile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterProfile
@@ -588,7 +588,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>compute_only_worker_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#compute_only_worker_node BdsBdsInstance#compute_only_worker_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#compute_only_worker_node BdsBdsInstance#compute_only_worker_node}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "computeOnlyWorkerNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceComputeOnlyWorkerNode\"}", isOptional: true)]
@@ -597,7 +597,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<oci.BdsBdsInstance.IBdsBdsInstanceComputeOnlyWorkerNode?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#defined_tags BdsBdsInstance#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#defined_tags BdsBdsInstance#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -607,7 +607,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>edge_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#edge_node BdsBdsInstance#edge_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#edge_node BdsBdsInstance#edge_node}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "edgeNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceEdgeNode\"}", isOptional: true)]
@@ -616,7 +616,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<oci.BdsBdsInstance.IBdsBdsInstanceEdgeNode?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#freeform_tags BdsBdsInstance#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#freeform_tags BdsBdsInstance#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -624,7 +624,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#id BdsBdsInstance#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#id BdsBdsInstance#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -636,7 +636,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#ignore_existing_nodes_shape BdsBdsInstance#ignore_existing_nodes_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#ignore_existing_nodes_shape BdsBdsInstance#ignore_existing_nodes_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ignoreExistingNodesShape", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? IgnoreExistingNodesShape
@@ -644,7 +644,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_cloud_sql_configured BdsBdsInstance#is_cloud_sql_configured}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_cloud_sql_configured BdsBdsInstance#is_cloud_sql_configured}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -655,7 +655,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_force_remove_enabled BdsBdsInstance#is_force_remove_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_force_remove_enabled BdsBdsInstance#is_force_remove_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -666,7 +666,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_force_stop_jobs BdsBdsInstance#is_force_stop_jobs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_force_stop_jobs BdsBdsInstance#is_force_stop_jobs}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -677,7 +677,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_kafka_configured BdsBdsInstance#is_kafka_configured}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_kafka_configured BdsBdsInstance#is_kafka_configured}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -688,7 +688,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#is_secret_reused BdsBdsInstance#is_secret_reused}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#is_secret_reused BdsBdsInstance#is_secret_reused}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -701,7 +701,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>kafka_broker_node block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#kafka_broker_node BdsBdsInstance#kafka_broker_node}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#kafka_broker_node BdsBdsInstance#kafka_broker_node}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "kafkaBrokerNode", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceKafkaBrokerNode\"}", isOptional: true)]
@@ -710,7 +710,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<oci.BdsBdsInstance.IBdsBdsInstanceKafkaBrokerNode?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#kerberos_realm_name BdsBdsInstance#kerberos_realm_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#kerberos_realm_name BdsBdsInstance#kerberos_realm_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kerberosRealmName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KerberosRealmName
@@ -718,7 +718,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#kms_key_id BdsBdsInstance#kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#kms_key_id BdsBdsInstance#kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyId
@@ -728,7 +728,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>network_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#network_config BdsBdsInstance#network_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#network_config BdsBdsInstance#network_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "networkConfig", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceNetworkConfig\"}", isOptional: true)]
@@ -737,7 +737,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<oci.BdsBdsInstance.IBdsBdsInstanceNetworkConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#os_patch_version BdsBdsInstance#os_patch_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#os_patch_version BdsBdsInstance#os_patch_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "osPatchVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OsPatchVersion
@@ -745,7 +745,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#remove_node BdsBdsInstance#remove_node}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#remove_node BdsBdsInstance#remove_node}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "removeNode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RemoveNode
@@ -753,7 +753,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#remove_nodes BdsBdsInstance#remove_nodes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#remove_nodes BdsBdsInstance#remove_nodes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "removeNodes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? RemoveNodes
@@ -761,7 +761,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#secret_id BdsBdsInstance#secret_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#secret_id BdsBdsInstance#secret_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecretId
@@ -771,7 +771,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>start_cluster_shape_configs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#start_cluster_shape_configs BdsBdsInstance#start_cluster_shape_configs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#start_cluster_shape_configs BdsBdsInstance#start_cluster_shape_configs}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.BdsBdsInstance.IBdsBdsInstanceStartClusterShapeConfigs" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -781,7 +781,7 @@ namespace oci.BdsBdsInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#state BdsBdsInstance#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#state BdsBdsInstance#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -791,7 +791,7 @@ namespace oci.BdsBdsInstance
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#timeouts BdsBdsInstance#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#timeouts BdsBdsInstance#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsInstance.BdsBdsInstanceTimeouts\"}", isOptional: true)]

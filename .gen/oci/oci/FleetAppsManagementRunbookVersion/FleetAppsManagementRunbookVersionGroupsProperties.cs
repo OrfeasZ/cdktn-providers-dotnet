@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementRunbookVersion
     [JsiiByValue(fqn: "oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroupsProperties")]
     public class FleetAppsManagementRunbookVersionGroupsProperties : oci.FleetAppsManagementRunbookVersion.IFleetAppsManagementRunbookVersionGroupsProperties
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_runbook_version#action_on_failure FleetAppsManagementRunbookVersion#action_on_failure}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_runbook_version#action_on_failure FleetAppsManagementRunbookVersion#action_on_failure}.</summary>
         [JsiiProperty(name: "actionOnFailure", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionOnFailure
         {
@@ -19,7 +19,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         /// <summary>notification_preferences block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_runbook_version#notification_preferences FleetAppsManagementRunbookVersion#notification_preferences}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_runbook_version#notification_preferences FleetAppsManagementRunbookVersion#notification_preferences}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationPreferences", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroupsPropertiesNotificationPreferences\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         /// <summary>pause_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_runbook_version#pause_details FleetAppsManagementRunbookVersion#pause_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_runbook_version#pause_details FleetAppsManagementRunbookVersion#pause_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pauseDetails", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroupsPropertiesPauseDetails\"}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace oci.FleetAppsManagementRunbookVersion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_runbook_version#pre_condition FleetAppsManagementRunbookVersion#pre_condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_runbook_version#pre_condition FleetAppsManagementRunbookVersion#pre_condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preCondition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PreCondition
@@ -52,7 +52,7 @@ namespace oci.FleetAppsManagementRunbookVersion
 
         /// <summary>run_on block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_runbook_version#run_on FleetAppsManagementRunbookVersion#run_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_runbook_version#run_on FleetAppsManagementRunbookVersion#run_on}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runOn", typeJson: "{\"fqn\":\"oci.fleetAppsManagementRunbookVersion.FleetAppsManagementRunbookVersionGroupsPropertiesRunOn\"}", isOptional: true)]

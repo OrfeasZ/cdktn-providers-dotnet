@@ -7,21 +7,21 @@ namespace oci.DataOciCoreClusterNetworkInstances
     [JsiiInterface(nativeType: typeof(IDataOciCoreClusterNetworkInstancesConfig), fullyQualifiedName: "oci.dataOciCoreClusterNetworkInstances.DataOciCoreClusterNetworkInstancesConfig")]
     public interface IDataOciCoreClusterNetworkInstancesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#cluster_network_id DataOciCoreClusterNetworkInstances#cluster_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#cluster_network_id DataOciCoreClusterNetworkInstances#cluster_network_id}.</summary>
         [JsiiProperty(name: "clusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         string ClusterNetworkId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#compartment_id DataOciCoreClusterNetworkInstances#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#compartment_id DataOciCoreClusterNetworkInstances#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#display_name DataOciCoreClusterNetworkInstances#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#display_name DataOciCoreClusterNetworkInstances#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -34,7 +34,7 @@ namespace oci.DataOciCoreClusterNetworkInstances
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#filter DataOciCoreClusterNetworkInstances#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#filter DataOciCoreClusterNetworkInstances#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreClusterNetworkInstances.IDataOciCoreClusterNetworkInstancesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCoreClusterNetworkInstances.DataOciCoreClusterNetworkInstancesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.DataOciCoreClusterNetworkInstances
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#id DataOciCoreClusterNetworkInstances#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#id DataOciCoreClusterNetworkInstances#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,21 +69,21 @@ namespace oci.DataOciCoreClusterNetworkInstances
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#cluster_network_id DataOciCoreClusterNetworkInstances#cluster_network_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#cluster_network_id DataOciCoreClusterNetworkInstances#cluster_network_id}.</summary>
             [JsiiProperty(name: "clusterNetworkId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClusterNetworkId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#compartment_id DataOciCoreClusterNetworkInstances#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#compartment_id DataOciCoreClusterNetworkInstances#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#display_name DataOciCoreClusterNetworkInstances#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#display_name DataOciCoreClusterNetworkInstances#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -93,7 +93,7 @@ namespace oci.DataOciCoreClusterNetworkInstances
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#filter DataOciCoreClusterNetworkInstances#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#filter DataOciCoreClusterNetworkInstances#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreClusterNetworkInstances.IDataOciCoreClusterNetworkInstancesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -103,7 +103,7 @@ namespace oci.DataOciCoreClusterNetworkInstances
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cluster_network_instances#id DataOciCoreClusterNetworkInstances#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cluster_network_instances#id DataOciCoreClusterNetworkInstances#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

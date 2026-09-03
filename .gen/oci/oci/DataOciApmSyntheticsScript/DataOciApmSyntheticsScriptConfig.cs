@@ -9,7 +9,7 @@ namespace oci.DataOciApmSyntheticsScript
     [JsiiByValue(fqn: "oci.dataOciApmSyntheticsScript.DataOciApmSyntheticsScriptConfig")]
     public class DataOciApmSyntheticsScriptConfig : oci.DataOciApmSyntheticsScript.IDataOciApmSyntheticsScriptConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apm_synthetics_script#apm_domain_id DataOciApmSyntheticsScript#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciApmSyntheticsScript
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apm_synthetics_script#script_id DataOciApmSyntheticsScript#script_id}.</summary>
         [JsiiProperty(name: "scriptId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptId
         {

@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseManagementCloudDbNode
     /// <remarks>
     /// <h1><c>data_oci_database_management_cloud_db_node</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_cloud_db_node"><c>data_oci_database_management_cloud_db_node</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_cloud_db_node"><c>data_oci_database_management_cloud_db_node</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

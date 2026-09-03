@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsInstanceNodeBackupConfigurations.DataOciBdsBdsInstanceNodeBackupConfigurationsFilter")]
     public class DataOciBdsBdsInstanceNodeBackupConfigurationsFilter : oci.DataOciBdsBdsInstanceNodeBackupConfigurations.IDataOciBdsBdsInstanceNodeBackupConfigurationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup_configurations#name DataOciBdsBdsInstanceNodeBackupConfigurations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_node_backup_configurations#name DataOciBdsBdsInstanceNodeBackupConfigurations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup_configurations#values DataOciBdsBdsInstanceNodeBackupConfigurations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_node_backup_configurations#values DataOciBdsBdsInstanceNodeBackupConfigurations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBdsBdsInstanceNodeBackupConfigurations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_backup_configurations#regex DataOciBdsBdsInstanceNodeBackupConfigurations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_node_backup_configurations#regex DataOciBdsBdsInstanceNodeBackupConfigurations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

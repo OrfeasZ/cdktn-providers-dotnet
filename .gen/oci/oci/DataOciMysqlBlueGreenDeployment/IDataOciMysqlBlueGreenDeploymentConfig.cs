@@ -7,7 +7,7 @@ namespace oci.DataOciMysqlBlueGreenDeployment
     [JsiiInterface(nativeType: typeof(IDataOciMysqlBlueGreenDeploymentConfig), fullyQualifiedName: "oci.dataOciMysqlBlueGreenDeployment.DataOciMysqlBlueGreenDeploymentConfig")]
     public interface IDataOciMysqlBlueGreenDeploymentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployment#blue_green_deployment_id DataOciMysqlBlueGreenDeployment#blue_green_deployment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployment#blue_green_deployment_id DataOciMysqlBlueGreenDeployment#blue_green_deployment_id}.</summary>
         [JsiiProperty(name: "blueGreenDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
         string BlueGreenDeploymentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMysqlBlueGreenDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployment#blue_green_deployment_id DataOciMysqlBlueGreenDeployment#blue_green_deployment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployment#blue_green_deployment_id DataOciMysqlBlueGreenDeployment#blue_green_deployment_id}.</summary>
             [JsiiProperty(name: "blueGreenDeploymentId", typeJson: "{\"primitive\":\"string\"}")]
             public string BlueGreenDeploymentId
             {

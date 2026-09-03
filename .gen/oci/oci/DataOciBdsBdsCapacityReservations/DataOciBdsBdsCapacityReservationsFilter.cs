@@ -9,7 +9,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
     [JsiiByValue(fqn: "oci.dataOciBdsBdsCapacityReservations.DataOciBdsBdsCapacityReservationsFilter")]
     public class DataOciBdsBdsCapacityReservationsFilter : oci.DataOciBdsBdsCapacityReservations.IDataOciBdsBdsCapacityReservationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#name DataOciBdsBdsCapacityReservations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#name DataOciBdsBdsCapacityReservations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#values DataOciBdsBdsCapacityReservations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#values DataOciBdsBdsCapacityReservations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciBdsBdsCapacityReservations
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservations#regex DataOciBdsBdsCapacityReservations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservations#regex DataOciBdsBdsCapacityReservations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
     [JsiiByValue(fqn: "oci.dataOciDataccMaintenanceExecutions.DataOciDataccMaintenanceExecutionsConfig")]
     public class DataOciDataccMaintenanceExecutionsConfig : oci.DataOciDataccMaintenanceExecutions.IDataOciDataccMaintenanceExecutionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#compartment_id DataOciDataccMaintenanceExecutions#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#compartment_id DataOciDataccMaintenanceExecutions#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#display_name DataOciDataccMaintenanceExecutions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#display_name DataOciDataccMaintenanceExecutions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#filter DataOciDataccMaintenanceExecutions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#filter DataOciDataccMaintenanceExecutions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataccMaintenanceExecutions.IDataOciDataccMaintenanceExecutionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#id DataOciDataccMaintenanceExecutions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#id DataOciDataccMaintenanceExecutions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#infrastructure_id DataOciDataccMaintenanceExecutions#infrastructure_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#infrastructure_id DataOciDataccMaintenanceExecutions#infrastructure_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "infrastructureId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? InfrastructureId
@@ -83,7 +83,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#maintenance_run_id DataOciDataccMaintenanceExecutions#maintenance_run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#maintenance_run_id DataOciDataccMaintenanceExecutions#maintenance_run_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceRunId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceRunId
@@ -92,7 +92,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#maintenance_subtype DataOciDataccMaintenanceExecutions#maintenance_subtype}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#maintenance_subtype DataOciDataccMaintenanceExecutions#maintenance_subtype}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceSubtype", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceSubtype
@@ -101,7 +101,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#maintenance_type DataOciDataccMaintenanceExecutions#maintenance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#maintenance_type DataOciDataccMaintenanceExecutions#maintenance_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceType
@@ -110,7 +110,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#state DataOciDataccMaintenanceExecutions#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#state DataOciDataccMaintenanceExecutions#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -119,7 +119,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#target_resource_type DataOciDataccMaintenanceExecutions#target_resource_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#target_resource_type DataOciDataccMaintenanceExecutions#target_resource_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetResourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetResourceType
@@ -128,7 +128,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#time_accepted_greater_than_or_equal_to DataOciDataccMaintenanceExecutions#time_accepted_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#time_accepted_greater_than_or_equal_to DataOciDataccMaintenanceExecutions#time_accepted_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeAcceptedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeAcceptedGreaterThanOrEqualTo
@@ -137,7 +137,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#time_accepted_less_than_or_equal_to DataOciDataccMaintenanceExecutions#time_accepted_less_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#time_accepted_less_than_or_equal_to DataOciDataccMaintenanceExecutions#time_accepted_less_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeAcceptedLessThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeAcceptedLessThanOrEqualTo
@@ -146,7 +146,7 @@ namespace oci.DataOciDataccMaintenanceExecutions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_maintenance_executions#type DataOciDataccMaintenanceExecutions#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_maintenance_executions#type DataOciDataccMaintenanceExecutions#type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Type

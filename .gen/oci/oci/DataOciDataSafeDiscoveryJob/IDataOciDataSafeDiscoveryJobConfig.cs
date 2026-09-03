@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeDiscoveryJob
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeDiscoveryJobConfig), fullyQualifiedName: "oci.dataOciDataSafeDiscoveryJob.DataOciDataSafeDiscoveryJobConfig")]
     public interface IDataOciDataSafeDiscoveryJobConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_discovery_job#discovery_job_id DataOciDataSafeDiscoveryJob#discovery_job_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_discovery_job#discovery_job_id DataOciDataSafeDiscoveryJob#discovery_job_id}.</summary>
         [JsiiProperty(name: "discoveryJobId", typeJson: "{\"primitive\":\"string\"}")]
         string DiscoveryJobId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeDiscoveryJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_discovery_job#discovery_job_id DataOciDataSafeDiscoveryJob#discovery_job_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_discovery_job#discovery_job_id DataOciDataSafeDiscoveryJob#discovery_job_id}.</summary>
             [JsiiProperty(name: "discoveryJobId", typeJson: "{\"primitive\":\"string\"}")]
             public string DiscoveryJobId
             {

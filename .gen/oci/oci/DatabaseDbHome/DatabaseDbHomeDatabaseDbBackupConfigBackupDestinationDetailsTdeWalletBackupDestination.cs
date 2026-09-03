@@ -7,7 +7,7 @@ namespace oci.DatabaseDbHome
     [JsiiByValue(fqn: "oci.databaseDbHome.DatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination")]
     public class DatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination : oci.DatabaseDbHome.IDatabaseDbHomeDatabaseDbBackupConfigBackupDestinationDetailsTdeWalletBackupDestination
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_home#backup_destination_id DatabaseDbHome#backup_destination_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_home#backup_destination_id DatabaseDbHome#backup_destination_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupDestinationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupDestinationId
@@ -16,7 +16,7 @@ namespace oci.DatabaseDbHome
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_db_home#backup_destination_type DatabaseDbHome#backup_destination_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_db_home#backup_destination_type DatabaseDbHome#backup_destination_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupDestinationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupDestinationType

@@ -7,14 +7,14 @@ namespace oci.CoreInstanceConfiguration
     [JsiiInterface(nativeType: typeof(ICoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsPlatformConfig), fullyQualifiedName: "oci.coreInstanceConfiguration.CoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsPlatformConfig")]
     public interface ICoreInstanceConfigurationInstanceDetailsOptionsLaunchDetailsPlatformConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#type CoreInstanceConfiguration#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#type CoreInstanceConfiguration#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#are_virtual_instructions_enabled CoreInstanceConfiguration#are_virtual_instructions_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#are_virtual_instructions_enabled CoreInstanceConfiguration#are_virtual_instructions_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_access_control_service_enabled CoreInstanceConfiguration#is_access_control_service_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_access_control_service_enabled CoreInstanceConfiguration#is_access_control_service_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_input_output_memory_management_unit_enabled CoreInstanceConfiguration#is_input_output_memory_management_unit_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_input_output_memory_management_unit_enabled CoreInstanceConfiguration#is_input_output_memory_management_unit_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -56,7 +56,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_measured_boot_enabled CoreInstanceConfiguration#is_measured_boot_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_measured_boot_enabled CoreInstanceConfiguration#is_measured_boot_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -70,7 +70,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_memory_encryption_enabled CoreInstanceConfiguration#is_memory_encryption_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_memory_encryption_enabled CoreInstanceConfiguration#is_memory_encryption_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -84,7 +84,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_secure_boot_enabled CoreInstanceConfiguration#is_secure_boot_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_secure_boot_enabled CoreInstanceConfiguration#is_secure_boot_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -98,7 +98,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_symmetric_multi_threading_enabled CoreInstanceConfiguration#is_symmetric_multi_threading_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_symmetric_multi_threading_enabled CoreInstanceConfiguration#is_symmetric_multi_threading_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -112,7 +112,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_trusted_platform_module_enabled CoreInstanceConfiguration#is_trusted_platform_module_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_trusted_platform_module_enabled CoreInstanceConfiguration#is_trusted_platform_module_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -126,7 +126,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#numa_nodes_per_socket CoreInstanceConfiguration#numa_nodes_per_socket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#numa_nodes_per_socket CoreInstanceConfiguration#numa_nodes_per_socket}.</summary>
         [JsiiProperty(name: "numaNodesPerSocket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NumaNodesPerSocket
@@ -137,7 +137,7 @@ namespace oci.CoreInstanceConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#percentage_of_cores_enabled CoreInstanceConfiguration#percentage_of_cores_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#percentage_of_cores_enabled CoreInstanceConfiguration#percentage_of_cores_enabled}.</summary>
         [JsiiProperty(name: "percentageOfCoresEnabled", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? PercentageOfCoresEnabled
@@ -155,14 +155,14 @@ namespace oci.CoreInstanceConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#type CoreInstanceConfiguration#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#type CoreInstanceConfiguration#type}.</summary>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#are_virtual_instructions_enabled CoreInstanceConfiguration#are_virtual_instructions_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#are_virtual_instructions_enabled CoreInstanceConfiguration#are_virtual_instructions_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -173,7 +173,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_access_control_service_enabled CoreInstanceConfiguration#is_access_control_service_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_access_control_service_enabled CoreInstanceConfiguration#is_access_control_service_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -184,7 +184,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_input_output_memory_management_unit_enabled CoreInstanceConfiguration#is_input_output_memory_management_unit_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_input_output_memory_management_unit_enabled CoreInstanceConfiguration#is_input_output_memory_management_unit_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -195,7 +195,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_measured_boot_enabled CoreInstanceConfiguration#is_measured_boot_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_measured_boot_enabled CoreInstanceConfiguration#is_measured_boot_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -206,7 +206,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_memory_encryption_enabled CoreInstanceConfiguration#is_memory_encryption_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_memory_encryption_enabled CoreInstanceConfiguration#is_memory_encryption_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -217,7 +217,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_secure_boot_enabled CoreInstanceConfiguration#is_secure_boot_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_secure_boot_enabled CoreInstanceConfiguration#is_secure_boot_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -228,7 +228,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_symmetric_multi_threading_enabled CoreInstanceConfiguration#is_symmetric_multi_threading_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_symmetric_multi_threading_enabled CoreInstanceConfiguration#is_symmetric_multi_threading_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -239,7 +239,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#is_trusted_platform_module_enabled CoreInstanceConfiguration#is_trusted_platform_module_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#is_trusted_platform_module_enabled CoreInstanceConfiguration#is_trusted_platform_module_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -250,7 +250,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#numa_nodes_per_socket CoreInstanceConfiguration#numa_nodes_per_socket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#numa_nodes_per_socket CoreInstanceConfiguration#numa_nodes_per_socket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "numaNodesPerSocket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NumaNodesPerSocket
@@ -258,7 +258,7 @@ namespace oci.CoreInstanceConfiguration
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_configuration#percentage_of_cores_enabled CoreInstanceConfiguration#percentage_of_cores_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_configuration#percentage_of_cores_enabled CoreInstanceConfiguration#percentage_of_cores_enabled}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "percentageOfCoresEnabled", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? PercentageOfCoresEnabled

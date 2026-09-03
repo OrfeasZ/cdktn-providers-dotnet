@@ -9,7 +9,7 @@ namespace oci.WaasWaasPolicy
     [JsiiByValue(fqn: "oci.waasWaasPolicy.WaasWaasPolicyWafConfigCachingRules")]
     public class WaasWaasPolicyWafConfigCachingRules : oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCachingRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -21,7 +21,7 @@ namespace oci.WaasWaasPolicy
 
         /// <summary>criteria block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#criteria WaasWaasPolicy#criteria}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WaasWaasPolicy.IWaasWaasPolicyWafConfigCachingRulesCriteria" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "criteria", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.waasWaasPolicy.WaasWaasPolicyWafConfigCachingRulesCriteria\"},\"kind\":\"array\"}}]}}")]
@@ -51,7 +51,7 @@ namespace oci.WaasWaasPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#name WaasWaasPolicy#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -59,7 +59,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#caching_duration WaasWaasPolicy#caching_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#caching_duration WaasWaasPolicy#caching_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cachingDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CachingDuration
@@ -68,7 +68,7 @@ namespace oci.WaasWaasPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#client_caching_duration WaasWaasPolicy#client_caching_duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#client_caching_duration WaasWaasPolicy#client_caching_duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientCachingDuration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientCachingDuration
@@ -79,7 +79,7 @@ namespace oci.WaasWaasPolicy
 
         private object? _isClientCachingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#is_client_caching_enabled WaasWaasPolicy#is_client_caching_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#is_client_caching_enabled WaasWaasPolicy#is_client_caching_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -111,7 +111,7 @@ namespace oci.WaasWaasPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#key WaasWaasPolicy#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#key WaasWaasPolicy#key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Key

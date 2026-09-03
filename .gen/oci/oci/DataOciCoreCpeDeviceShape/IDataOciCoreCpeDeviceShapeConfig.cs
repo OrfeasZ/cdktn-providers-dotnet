@@ -7,14 +7,14 @@ namespace oci.DataOciCoreCpeDeviceShape
     [JsiiInterface(nativeType: typeof(IDataOciCoreCpeDeviceShapeConfig), fullyQualifiedName: "oci.dataOciCoreCpeDeviceShape.DataOciCoreCpeDeviceShapeConfig")]
     public interface IDataOciCoreCpeDeviceShapeConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cpe_device_shape#cpe_device_shape_id DataOciCoreCpeDeviceShape#cpe_device_shape_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cpe_device_shape#cpe_device_shape_id DataOciCoreCpeDeviceShape#cpe_device_shape_id}.</summary>
         [JsiiProperty(name: "cpeDeviceShapeId", typeJson: "{\"primitive\":\"string\"}")]
         string CpeDeviceShapeId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cpe_device_shape#id DataOciCoreCpeDeviceShape#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cpe_device_shape#id DataOciCoreCpeDeviceShape#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciCoreCpeDeviceShape
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cpe_device_shape#cpe_device_shape_id DataOciCoreCpeDeviceShape#cpe_device_shape_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cpe_device_shape#cpe_device_shape_id DataOciCoreCpeDeviceShape#cpe_device_shape_id}.</summary>
             [JsiiProperty(name: "cpeDeviceShapeId", typeJson: "{\"primitive\":\"string\"}")]
             public string CpeDeviceShapeId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_cpe_device_shape#id DataOciCoreCpeDeviceShape#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_cpe_device_shape#id DataOciCoreCpeDeviceShape#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

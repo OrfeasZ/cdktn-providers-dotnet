@@ -9,7 +9,7 @@ namespace oci.DataOciWlmsManagedInstanceScanResults
     [JsiiByValue(fqn: "oci.dataOciWlmsManagedInstanceScanResults.DataOciWlmsManagedInstanceScanResultsConfig")]
     public class DataOciWlmsManagedInstanceScanResultsConfig : oci.DataOciWlmsManagedInstanceScanResults.IDataOciWlmsManagedInstanceScanResultsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_scan_results#managed_instance_id DataOciWlmsManagedInstanceScanResults#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance_scan_results#managed_instance_id DataOciWlmsManagedInstanceScanResults#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ManagedInstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciWlmsManagedInstanceScanResults
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_scan_results#filter DataOciWlmsManagedInstanceScanResults#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance_scan_results#filter DataOciWlmsManagedInstanceScanResults#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsManagedInstanceScanResults.IDataOciWlmsManagedInstanceScanResultsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciWlmsManagedInstanceScanResults
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_scan_results#id DataOciWlmsManagedInstanceScanResults#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance_scan_results#id DataOciWlmsManagedInstanceScanResults#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciWlmsManagedInstanceScanResults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_scan_results#server_name DataOciWlmsManagedInstanceScanResults#server_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance_scan_results#server_name DataOciWlmsManagedInstanceScanResults#server_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serverName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServerName
@@ -74,7 +74,7 @@ namespace oci.DataOciWlmsManagedInstanceScanResults
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance_scan_results#wls_domain_id DataOciWlmsManagedInstanceScanResults#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance_scan_results#wls_domain_id DataOciWlmsManagedInstanceScanResults#wls_domain_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WlsDomainId

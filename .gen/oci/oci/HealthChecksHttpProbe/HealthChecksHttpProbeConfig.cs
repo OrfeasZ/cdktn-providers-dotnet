@@ -9,7 +9,7 @@ namespace oci.HealthChecksHttpProbe
     [JsiiByValue(fqn: "oci.healthChecksHttpProbe.HealthChecksHttpProbeConfig")]
     public class HealthChecksHttpProbeConfig : oci.HealthChecksHttpProbe.IHealthChecksHttpProbeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#compartment_id HealthChecksHttpProbe#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#compartment_id HealthChecksHttpProbe#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#protocol HealthChecksHttpProbe#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#protocol HealthChecksHttpProbe#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -25,7 +25,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#targets HealthChecksHttpProbe#targets}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#targets HealthChecksHttpProbe#targets}.</summary>
         [JsiiProperty(name: "targets", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Targets
         {
@@ -33,7 +33,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#headers HealthChecksHttpProbe#headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#headers HealthChecksHttpProbe#headers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "headers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Headers
@@ -42,7 +42,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#id HealthChecksHttpProbe#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#id HealthChecksHttpProbe#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#method HealthChecksHttpProbe#method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#method HealthChecksHttpProbe#method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Method
@@ -64,7 +64,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#path HealthChecksHttpProbe#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#path HealthChecksHttpProbe#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -73,7 +73,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#port HealthChecksHttpProbe#port}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#port HealthChecksHttpProbe#port}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Port
@@ -82,7 +82,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#timeout_in_seconds HealthChecksHttpProbe#timeout_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#timeout_in_seconds HealthChecksHttpProbe#timeout_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeoutInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeoutInSeconds
@@ -93,7 +93,7 @@ namespace oci.HealthChecksHttpProbe
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#timeouts HealthChecksHttpProbe#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#timeouts HealthChecksHttpProbe#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.healthChecksHttpProbe.HealthChecksHttpProbeTimeouts\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace oci.HealthChecksHttpProbe
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/health_checks_http_probe#vantage_point_names HealthChecksHttpProbe#vantage_point_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/health_checks_http_probe#vantage_point_names HealthChecksHttpProbe#vantage_point_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vantagePointNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? VantagePointNames

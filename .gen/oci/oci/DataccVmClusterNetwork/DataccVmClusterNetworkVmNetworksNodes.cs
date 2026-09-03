@@ -9,7 +9,7 @@ namespace oci.DataccVmClusterNetwork
     [JsiiByValue(fqn: "oci.dataccVmClusterNetwork.DataccVmClusterNetworkVmNetworksNodes")]
     public class DataccVmClusterNetworkVmNetworksNodes : oci.DataccVmClusterNetwork.IDataccVmClusterNetworkVmNetworksNodes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#hostname DataccVmClusterNetwork#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#hostname DataccVmClusterNetwork#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public string Hostname
         {
@@ -17,7 +17,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#ip DataccVmClusterNetwork#ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#ip DataccVmClusterNetwork#ip}.</summary>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}")]
         public string Ip
         {
@@ -25,7 +25,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#vip DataccVmClusterNetwork#vip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#vip DataccVmClusterNetwork#vip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Vip
@@ -34,7 +34,7 @@ namespace oci.DataccVmClusterNetwork
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datacc_vm_cluster_network#vip_hostname DataccVmClusterNetwork#vip_hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datacc_vm_cluster_network#vip_hostname DataccVmClusterNetwork#vip_hostname}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vipHostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VipHostname

@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
     [JsiiByValue(fqn: "oci.logAnalyticsNamespaceAssociation.LogAnalyticsNamespaceAssociationTimeouts")]
     public class LogAnalyticsNamespaceAssociationTimeouts : oci.LogAnalyticsNamespaceAssociation.ILogAnalyticsNamespaceAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_association#create LogAnalyticsNamespaceAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_association#create LogAnalyticsNamespaceAssociation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_association#delete LogAnalyticsNamespaceAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_association#delete LogAnalyticsNamespaceAssociation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.LogAnalyticsNamespaceAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_association#update LogAnalyticsNamespaceAssociation#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_association#update LogAnalyticsNamespaceAssociation#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

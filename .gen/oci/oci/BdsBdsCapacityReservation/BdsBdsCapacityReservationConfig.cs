@@ -9,7 +9,7 @@ namespace oci.BdsBdsCapacityReservation
     [JsiiByValue(fqn: "oci.bdsBdsCapacityReservation.BdsBdsCapacityReservationConfig")]
     public class BdsBdsCapacityReservationConfig : oci.BdsBdsCapacityReservation.IBdsBdsCapacityReservationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#compartment_id BdsBdsCapacityReservation#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#compartment_id BdsBdsCapacityReservation#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.BdsBdsCapacityReservation
 
         /// <summary>compute_capacity_reservations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#compute_capacity_reservations BdsBdsCapacityReservation#compute_capacity_reservations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#compute_capacity_reservations BdsBdsCapacityReservation#compute_capacity_reservations}
         /// </remarks>
         [JsiiProperty(name: "computeCapacityReservations", typeJson: "{\"fqn\":\"oci.bdsBdsCapacityReservation.BdsBdsCapacityReservationComputeCapacityReservations\"}")]
         public oci.BdsBdsCapacityReservation.IBdsBdsCapacityReservationComputeCapacityReservations ComputeCapacityReservations
@@ -28,7 +28,7 @@ namespace oci.BdsBdsCapacityReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#display_name BdsBdsCapacityReservation#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#display_name BdsBdsCapacityReservation#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -36,7 +36,7 @@ namespace oci.BdsBdsCapacityReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#defined_tags BdsBdsCapacityReservation#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#defined_tags BdsBdsCapacityReservation#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -45,7 +45,7 @@ namespace oci.BdsBdsCapacityReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#freeform_tags BdsBdsCapacityReservation#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#freeform_tags BdsBdsCapacityReservation#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -54,7 +54,7 @@ namespace oci.BdsBdsCapacityReservation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#id BdsBdsCapacityReservation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#id BdsBdsCapacityReservation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace oci.BdsBdsCapacityReservation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#timeouts BdsBdsCapacityReservation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#timeouts BdsBdsCapacityReservation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.bdsBdsCapacityReservation.BdsBdsCapacityReservationTimeouts\"}", isOptional: true)]

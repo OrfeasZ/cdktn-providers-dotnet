@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
     [JsiiByValue(fqn: "oci.dataOciDatabaseDbSystemOsPatchHistoryEntries.DataOciDatabaseDbSystemOsPatchHistoryEntriesFilter")]
     public class DataOciDatabaseDbSystemOsPatchHistoryEntriesFilter : oci.DataOciDatabaseDbSystemOsPatchHistoryEntries.IDataOciDatabaseDbSystemOsPatchHistoryEntriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_db_system_os_patch_history_entries#name DataOciDatabaseDbSystemOsPatchHistoryEntries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_db_system_os_patch_history_entries#name DataOciDatabaseDbSystemOsPatchHistoryEntries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_db_system_os_patch_history_entries#values DataOciDatabaseDbSystemOsPatchHistoryEntries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_db_system_os_patch_history_entries#values DataOciDatabaseDbSystemOsPatchHistoryEntries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseDbSystemOsPatchHistoryEntries
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_db_system_os_patch_history_entries#regex DataOciDatabaseDbSystemOsPatchHistoryEntries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_db_system_os_patch_history_entries#regex DataOciDatabaseDbSystemOsPatchHistoryEntries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

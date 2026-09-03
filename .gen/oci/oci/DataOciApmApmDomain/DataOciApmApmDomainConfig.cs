@@ -9,7 +9,7 @@ namespace oci.DataOciApmApmDomain
     [JsiiByValue(fqn: "oci.dataOciApmApmDomain.DataOciApmApmDomainConfig")]
     public class DataOciApmApmDomainConfig : oci.DataOciApmApmDomain.IDataOciApmApmDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_apm_domain#apm_domain_id DataOciApmApmDomain#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apm_apm_domain#apm_domain_id DataOciApmApmDomain#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApmDomainId
         {

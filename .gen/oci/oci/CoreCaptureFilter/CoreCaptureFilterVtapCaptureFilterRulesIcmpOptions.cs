@@ -9,7 +9,7 @@ namespace oci.CoreCaptureFilter
     [JsiiByValue(fqn: "oci.coreCaptureFilter.CoreCaptureFilterVtapCaptureFilterRulesIcmpOptions")]
     public class CoreCaptureFilterVtapCaptureFilterRulesIcmpOptions : oci.CoreCaptureFilter.ICoreCaptureFilterVtapCaptureFilterRulesIcmpOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_capture_filter#type CoreCaptureFilter#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"number\"}")]
         public double Type
         {
@@ -17,7 +17,7 @@ namespace oci.CoreCaptureFilter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_capture_filter#code CoreCaptureFilter#code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Code

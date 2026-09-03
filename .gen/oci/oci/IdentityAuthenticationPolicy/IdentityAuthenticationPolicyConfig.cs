@@ -9,7 +9,7 @@ namespace oci.IdentityAuthenticationPolicy
     [JsiiByValue(fqn: "oci.identityAuthenticationPolicy.IdentityAuthenticationPolicyConfig")]
     public class IdentityAuthenticationPolicyConfig : oci.IdentityAuthenticationPolicy.IIdentityAuthenticationPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_authentication_policy#compartment_id IdentityAuthenticationPolicy#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_authentication_policy#compartment_id IdentityAuthenticationPolicy#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.IdentityAuthenticationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_authentication_policy#id IdentityAuthenticationPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_authentication_policy#id IdentityAuthenticationPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.IdentityAuthenticationPolicy
 
         /// <summary>network_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_authentication_policy#network_policy IdentityAuthenticationPolicy#network_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_authentication_policy#network_policy IdentityAuthenticationPolicy#network_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkPolicy", typeJson: "{\"fqn\":\"oci.identityAuthenticationPolicy.IdentityAuthenticationPolicyNetworkPolicy\"}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.IdentityAuthenticationPolicy
 
         /// <summary>password_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_authentication_policy#password_policy IdentityAuthenticationPolicy#password_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_authentication_policy#password_policy IdentityAuthenticationPolicy#password_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passwordPolicy", typeJson: "{\"fqn\":\"oci.identityAuthenticationPolicy.IdentityAuthenticationPolicyPasswordPolicy\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace oci.IdentityAuthenticationPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_authentication_policy#timeouts IdentityAuthenticationPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_authentication_policy#timeouts IdentityAuthenticationPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.identityAuthenticationPolicy.IdentityAuthenticationPolicyTimeouts\"}", isOptional: true)]

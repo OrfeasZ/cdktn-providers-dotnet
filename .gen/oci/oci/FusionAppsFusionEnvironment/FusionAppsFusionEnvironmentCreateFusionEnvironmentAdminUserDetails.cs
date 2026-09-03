@@ -9,7 +9,7 @@ namespace oci.FusionAppsFusionEnvironment
     [JsiiByValue(fqn: "oci.fusionAppsFusionEnvironment.FusionAppsFusionEnvironmentCreateFusionEnvironmentAdminUserDetails")]
     public class FusionAppsFusionEnvironmentCreateFusionEnvironmentAdminUserDetails : oci.FusionAppsFusionEnvironment.IFusionAppsFusionEnvironmentCreateFusionEnvironmentAdminUserDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment#email_address FusionAppsFusionEnvironment#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment#email_address FusionAppsFusionEnvironment#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailAddress
         {
@@ -17,7 +17,7 @@ namespace oci.FusionAppsFusionEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment#first_name FusionAppsFusionEnvironment#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment#first_name FusionAppsFusionEnvironment#first_name}.</summary>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}")]
         public string FirstName
         {
@@ -25,7 +25,7 @@ namespace oci.FusionAppsFusionEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment#last_name FusionAppsFusionEnvironment#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment#last_name FusionAppsFusionEnvironment#last_name}.</summary>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
         public string LastName
         {
@@ -33,7 +33,7 @@ namespace oci.FusionAppsFusionEnvironment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fusion_apps_fusion_environment#username FusionAppsFusionEnvironment#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fusion_apps_fusion_environment#username FusionAppsFusionEnvironment#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

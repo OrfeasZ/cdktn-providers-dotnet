@@ -7,21 +7,21 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
     [JsiiInterface(nativeType: typeof(IOsManagementHubDynamicSetInstallPackagesManagementConfig), fullyQualifiedName: "oci.osManagementHubDynamicSetInstallPackagesManagement.OsManagementHubDynamicSetInstallPackagesManagementConfig")]
     public interface IOsManagementHubDynamicSetInstallPackagesManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#dynamic_set_id OsManagementHubDynamicSetInstallPackagesManagement#dynamic_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#dynamic_set_id OsManagementHubDynamicSetInstallPackagesManagement#dynamic_set_id}.</summary>
         [JsiiProperty(name: "dynamicSetId", typeJson: "{\"primitive\":\"string\"}")]
         string DynamicSetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#package_names OsManagementHubDynamicSetInstallPackagesManagement#package_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#package_names OsManagementHubDynamicSetInstallPackagesManagement#package_names}.</summary>
         [JsiiProperty(name: "packageNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] PackageNames
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#id OsManagementHubDynamicSetInstallPackagesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#id OsManagementHubDynamicSetInstallPackagesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#managed_instances OsManagementHubDynamicSetInstallPackagesManagement#managed_instances}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#managed_instances OsManagementHubDynamicSetInstallPackagesManagement#managed_instances}.</summary>
         [JsiiProperty(name: "managedInstances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ManagedInstances
@@ -49,7 +49,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#timeouts OsManagementHubDynamicSetInstallPackagesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#timeouts OsManagementHubDynamicSetInstallPackagesManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSetInstallPackagesManagement.OsManagementHubDynamicSetInstallPackagesManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
 
         /// <summary>work_request_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#work_request_details OsManagementHubDynamicSetInstallPackagesManagement#work_request_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#work_request_details OsManagementHubDynamicSetInstallPackagesManagement#work_request_details}
         /// </remarks>
         [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSetInstallPackagesManagement.OsManagementHubDynamicSetInstallPackagesManagementWorkRequestDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,21 +82,21 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#dynamic_set_id OsManagementHubDynamicSetInstallPackagesManagement#dynamic_set_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#dynamic_set_id OsManagementHubDynamicSetInstallPackagesManagement#dynamic_set_id}.</summary>
             [JsiiProperty(name: "dynamicSetId", typeJson: "{\"primitive\":\"string\"}")]
             public string DynamicSetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#package_names OsManagementHubDynamicSetInstallPackagesManagement#package_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#package_names OsManagementHubDynamicSetInstallPackagesManagement#package_names}.</summary>
             [JsiiProperty(name: "packageNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] PackageNames
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#id OsManagementHubDynamicSetInstallPackagesManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#id OsManagementHubDynamicSetInstallPackagesManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,7 +108,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#managed_instances OsManagementHubDynamicSetInstallPackagesManagement#managed_instances}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#managed_instances OsManagementHubDynamicSetInstallPackagesManagement#managed_instances}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managedInstances", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ManagedInstances
@@ -118,7 +118,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#timeouts OsManagementHubDynamicSetInstallPackagesManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#timeouts OsManagementHubDynamicSetInstallPackagesManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSetInstallPackagesManagement.OsManagementHubDynamicSetInstallPackagesManagementTimeouts\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace oci.OsManagementHubDynamicSetInstallPackagesManagement
 
             /// <summary>work_request_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#work_request_details OsManagementHubDynamicSetInstallPackagesManagement#work_request_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set_install_packages_management#work_request_details OsManagementHubDynamicSetInstallPackagesManagement#work_request_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workRequestDetails", typeJson: "{\"fqn\":\"oci.osManagementHubDynamicSetInstallPackagesManagement.OsManagementHubDynamicSetInstallPackagesManagementWorkRequestDetails\"}", isOptional: true)]

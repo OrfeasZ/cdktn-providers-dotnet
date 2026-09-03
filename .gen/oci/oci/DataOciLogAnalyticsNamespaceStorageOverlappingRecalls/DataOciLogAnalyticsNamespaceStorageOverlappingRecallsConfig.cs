@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsNamespaceStorageOverlappingRecalls.DataOciLogAnalyticsNamespaceStorageOverlappingRecallsConfig")]
     public class DataOciLogAnalyticsNamespaceStorageOverlappingRecallsConfig : oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls.IDataOciLogAnalyticsNamespaceStorageOverlappingRecallsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#namespace DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#namespace DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public string Namespace
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#filter DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#filter DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls.IDataOciLogAnalyticsNamespaceStorageOverlappingRecallsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#id DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#id DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#time_data_ended DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#time_data_ended}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#time_data_ended DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#time_data_ended}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeDataEnded", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeDataEnded
@@ -74,7 +74,7 @@ namespace oci.DataOciLogAnalyticsNamespaceStorageOverlappingRecalls
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#time_data_started DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#time_data_started}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_namespace_storage_overlapping_recalls#time_data_started DataOciLogAnalyticsNamespaceStorageOverlappingRecalls#time_data_started}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeDataStarted", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeDataStarted

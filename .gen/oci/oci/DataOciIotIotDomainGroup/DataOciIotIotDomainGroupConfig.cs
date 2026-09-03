@@ -9,7 +9,7 @@ namespace oci.DataOciIotIotDomainGroup
     [JsiiByValue(fqn: "oci.dataOciIotIotDomainGroup.DataOciIotIotDomainGroupConfig")]
     public class DataOciIotIotDomainGroupConfig : oci.DataOciIotIotDomainGroup.IDataOciIotIotDomainGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/iot_iot_domain_group#iot_domain_group_id DataOciIotIotDomainGroup#iot_domain_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_domain_group#iot_domain_group_id DataOciIotIotDomainGroup#iot_domain_group_id}.</summary>
         [JsiiProperty(name: "iotDomainGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotDomainGroupId
         {

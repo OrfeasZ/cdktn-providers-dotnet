@@ -9,7 +9,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
     [JsiiByValue(fqn: "oci.dataOciJmsFleetLibraryManagedInstances.DataOciJmsFleetLibraryManagedInstancesFilter")]
     public class DataOciJmsFleetLibraryManagedInstancesFilter : oci.DataOciJmsFleetLibraryManagedInstances.IDataOciJmsFleetLibraryManagedInstancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_fleet_library_managed_instances#name DataOciJmsFleetLibraryManagedInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_fleet_library_managed_instances#name DataOciJmsFleetLibraryManagedInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_fleet_library_managed_instances#values DataOciJmsFleetLibraryManagedInstances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_fleet_library_managed_instances#values DataOciJmsFleetLibraryManagedInstances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciJmsFleetLibraryManagedInstances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_fleet_library_managed_instances#regex DataOciJmsFleetLibraryManagedInstances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_fleet_library_managed_instances#regex DataOciJmsFleetLibraryManagedInstances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

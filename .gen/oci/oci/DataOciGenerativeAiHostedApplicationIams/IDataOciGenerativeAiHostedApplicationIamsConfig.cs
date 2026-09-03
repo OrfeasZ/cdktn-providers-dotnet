@@ -7,14 +7,14 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiHostedApplicationIamsConfig), fullyQualifiedName: "oci.dataOciGenerativeAiHostedApplicationIams.DataOciGenerativeAiHostedApplicationIamsConfig")]
     public interface IDataOciGenerativeAiHostedApplicationIamsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#compartment_id DataOciGenerativeAiHostedApplicationIams#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#compartment_id DataOciGenerativeAiHostedApplicationIams#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#display_name DataOciGenerativeAiHostedApplicationIams#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#display_name DataOciGenerativeAiHostedApplicationIams#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#filter DataOciGenerativeAiHostedApplicationIams#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#filter DataOciGenerativeAiHostedApplicationIams#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiHostedApplicationIams.IDataOciGenerativeAiHostedApplicationIamsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGenerativeAiHostedApplicationIams.DataOciGenerativeAiHostedApplicationIamsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#id DataOciGenerativeAiHostedApplicationIams#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#id DataOciGenerativeAiHostedApplicationIams#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#state DataOciGenerativeAiHostedApplicationIams#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#state DataOciGenerativeAiHostedApplicationIams#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -73,14 +73,14 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#compartment_id DataOciGenerativeAiHostedApplicationIams#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#compartment_id DataOciGenerativeAiHostedApplicationIams#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#display_name DataOciGenerativeAiHostedApplicationIams#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#display_name DataOciGenerativeAiHostedApplicationIams#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -90,7 +90,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#filter DataOciGenerativeAiHostedApplicationIams#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#filter DataOciGenerativeAiHostedApplicationIams#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiHostedApplicationIams.IDataOciGenerativeAiHostedApplicationIamsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -100,7 +100,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#id DataOciGenerativeAiHostedApplicationIams#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#id DataOciGenerativeAiHostedApplicationIams#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +112,7 @@ namespace oci.DataOciGenerativeAiHostedApplicationIams
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_hosted_application_iams#state DataOciGenerativeAiHostedApplicationIams#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_hosted_application_iams#state DataOciGenerativeAiHostedApplicationIams#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

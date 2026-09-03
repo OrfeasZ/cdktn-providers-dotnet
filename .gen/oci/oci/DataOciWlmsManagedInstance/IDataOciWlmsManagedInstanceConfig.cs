@@ -7,14 +7,14 @@ namespace oci.DataOciWlmsManagedInstance
     [JsiiInterface(nativeType: typeof(IDataOciWlmsManagedInstanceConfig), fullyQualifiedName: "oci.dataOciWlmsManagedInstance.DataOciWlmsManagedInstanceConfig")]
     public interface IDataOciWlmsManagedInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance#managed_instance_id DataOciWlmsManagedInstance#managed_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance#managed_instance_id DataOciWlmsManagedInstance#managed_instance_id}.</summary>
         [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string ManagedInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance#id DataOciWlmsManagedInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance#id DataOciWlmsManagedInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciWlmsManagedInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance#managed_instance_id DataOciWlmsManagedInstance#managed_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance#managed_instance_id DataOciWlmsManagedInstance#managed_instance_id}.</summary>
             [JsiiProperty(name: "managedInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ManagedInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_managed_instance#id DataOciWlmsManagedInstance#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_managed_instance#id DataOciWlmsManagedInstance#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

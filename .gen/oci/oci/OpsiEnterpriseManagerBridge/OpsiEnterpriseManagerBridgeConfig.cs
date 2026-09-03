@@ -9,7 +9,7 @@ namespace oci.OpsiEnterpriseManagerBridge
     [JsiiByValue(fqn: "oci.opsiEnterpriseManagerBridge.OpsiEnterpriseManagerBridgeConfig")]
     public class OpsiEnterpriseManagerBridgeConfig : oci.OpsiEnterpriseManagerBridge.IOpsiEnterpriseManagerBridgeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#compartment_id OpsiEnterpriseManagerBridge#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#compartment_id OpsiEnterpriseManagerBridge#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#display_name OpsiEnterpriseManagerBridge#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#display_name OpsiEnterpriseManagerBridge#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#object_storage_bucket_name OpsiEnterpriseManagerBridge#object_storage_bucket_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#object_storage_bucket_name OpsiEnterpriseManagerBridge#object_storage_bucket_name}.</summary>
         [JsiiProperty(name: "objectStorageBucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string ObjectStorageBucketName
         {
@@ -33,7 +33,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#defined_tags OpsiEnterpriseManagerBridge#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#defined_tags OpsiEnterpriseManagerBridge#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -42,7 +42,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#description OpsiEnterpriseManagerBridge#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#description OpsiEnterpriseManagerBridge#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -51,7 +51,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#freeform_tags OpsiEnterpriseManagerBridge#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#freeform_tags OpsiEnterpriseManagerBridge#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -60,7 +60,7 @@ namespace oci.OpsiEnterpriseManagerBridge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#id OpsiEnterpriseManagerBridge#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#id OpsiEnterpriseManagerBridge#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace oci.OpsiEnterpriseManagerBridge
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_enterprise_manager_bridge#timeouts OpsiEnterpriseManagerBridge#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_enterprise_manager_bridge#timeouts OpsiEnterpriseManagerBridge#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opsiEnterpriseManagerBridge.OpsiEnterpriseManagerBridgeTimeouts\"}", isOptional: true)]

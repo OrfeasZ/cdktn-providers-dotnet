@@ -11,7 +11,7 @@ namespace oci.DevopsDeployment
 
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deployment#items DevopsDeployment#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deployment#items DevopsDeployment#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsDeployment.IDevopsDeploymentDeployStageOverrideArgumentsItems" />)[]</para>
         /// </remarks>
         [JsiiOptional]

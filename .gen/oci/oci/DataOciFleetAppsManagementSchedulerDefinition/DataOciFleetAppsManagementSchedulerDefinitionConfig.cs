@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementSchedulerDefinition
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementSchedulerDefinition.DataOciFleetAppsManagementSchedulerDefinitionConfig")]
     public class DataOciFleetAppsManagementSchedulerDefinitionConfig : oci.DataOciFleetAppsManagementSchedulerDefinition.IDataOciFleetAppsManagementSchedulerDefinitionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_scheduler_definition#scheduler_definition_id DataOciFleetAppsManagementSchedulerDefinition#scheduler_definition_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_scheduler_definition#scheduler_definition_id DataOciFleetAppsManagementSchedulerDefinition#scheduler_definition_id}.</summary>
         [JsiiProperty(name: "schedulerDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SchedulerDefinitionId
         {

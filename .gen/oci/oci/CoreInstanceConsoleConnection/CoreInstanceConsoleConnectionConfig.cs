@@ -9,7 +9,7 @@ namespace oci.CoreInstanceConsoleConnection
     [JsiiByValue(fqn: "oci.coreInstanceConsoleConnection.CoreInstanceConsoleConnectionConfig")]
     public class CoreInstanceConsoleConnectionConfig : oci.CoreInstanceConsoleConnection.ICoreInstanceConsoleConnectionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_console_connection#instance_id CoreInstanceConsoleConnection#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_console_connection#instance_id CoreInstanceConsoleConnection#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreInstanceConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_console_connection#public_key CoreInstanceConsoleConnection#public_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_console_connection#public_key CoreInstanceConsoleConnection#public_key}.</summary>
         [JsiiProperty(name: "publicKey", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicKey
         {
@@ -25,7 +25,7 @@ namespace oci.CoreInstanceConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_console_connection#defined_tags CoreInstanceConsoleConnection#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_console_connection#defined_tags CoreInstanceConsoleConnection#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.CoreInstanceConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_console_connection#freeform_tags CoreInstanceConsoleConnection#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_console_connection#freeform_tags CoreInstanceConsoleConnection#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -43,7 +43,7 @@ namespace oci.CoreInstanceConsoleConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_console_connection#id CoreInstanceConsoleConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_console_connection#id CoreInstanceConsoleConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace oci.CoreInstanceConsoleConnection
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_instance_console_connection#timeouts CoreInstanceConsoleConnection#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_instance_console_connection#timeouts CoreInstanceConsoleConnection#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreInstanceConsoleConnection.CoreInstanceConsoleConnectionTimeouts\"}", isOptional: true)]

@@ -7,14 +7,14 @@ namespace oci.DataSafeAddSdmColumns
     [JsiiInterface(nativeType: typeof(IDataSafeAddSdmColumnsConfig), fullyQualifiedName: "oci.dataSafeAddSdmColumns.DataSafeAddSdmColumnsConfig")]
     public interface IDataSafeAddSdmColumnsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_add_sdm_columns#masking_policy_id DataSafeAddSdmColumns#masking_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_add_sdm_columns#masking_policy_id DataSafeAddSdmColumns#masking_policy_id}.</summary>
         [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string MaskingPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_add_sdm_columns#id DataSafeAddSdmColumns#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_add_sdm_columns#id DataSafeAddSdmColumns#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace oci.DataSafeAddSdmColumns
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_add_sdm_columns#timeouts DataSafeAddSdmColumns#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_add_sdm_columns#timeouts DataSafeAddSdmColumns#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeAddSdmColumns.DataSafeAddSdmColumnsTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,14 +50,14 @@ namespace oci.DataSafeAddSdmColumns
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_add_sdm_columns#masking_policy_id DataSafeAddSdmColumns#masking_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_add_sdm_columns#masking_policy_id DataSafeAddSdmColumns#masking_policy_id}.</summary>
             [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string MaskingPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_add_sdm_columns#id DataSafeAddSdmColumns#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_add_sdm_columns#id DataSafeAddSdmColumns#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace oci.DataSafeAddSdmColumns
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_add_sdm_columns#timeouts DataSafeAddSdmColumns#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_add_sdm_columns#timeouts DataSafeAddSdmColumns#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeAddSdmColumns.DataSafeAddSdmColumnsTimeouts\"}", isOptional: true)]

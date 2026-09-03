@@ -9,7 +9,7 @@ namespace oci.DataOciOsubSubscriptionCommitment
     [JsiiByValue(fqn: "oci.dataOciOsubSubscriptionCommitment.DataOciOsubSubscriptionCommitmentConfig")]
     public class DataOciOsubSubscriptionCommitmentConfig : oci.DataOciOsubSubscriptionCommitment.IDataOciOsubSubscriptionCommitmentConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/osub_subscription_commitment#commitment_id DataOciOsubSubscriptionCommitment#commitment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/osub_subscription_commitment#commitment_id DataOciOsubSubscriptionCommitment#commitment_id}.</summary>
         [JsiiProperty(name: "commitmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CommitmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsubSubscriptionCommitment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/osub_subscription_commitment#id DataOciOsubSubscriptionCommitment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/osub_subscription_commitment#id DataOciOsubSubscriptionCommitment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.DataOciOsubSubscriptionCommitment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/osub_subscription_commitment#x_one_gateway_subscription_id DataOciOsubSubscriptionCommitment#x_one_gateway_subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/osub_subscription_commitment#x_one_gateway_subscription_id DataOciOsubSubscriptionCommitment#x_one_gateway_subscription_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xOneGatewaySubscriptionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XOneGatewaySubscriptionId
@@ -39,7 +39,7 @@ namespace oci.DataOciOsubSubscriptionCommitment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/osub_subscription_commitment#x_one_origin_region DataOciOsubSubscriptionCommitment#x_one_origin_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/osub_subscription_commitment#x_one_origin_region DataOciOsubSubscriptionCommitment#x_one_origin_region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xOneOriginRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XOneOriginRegion

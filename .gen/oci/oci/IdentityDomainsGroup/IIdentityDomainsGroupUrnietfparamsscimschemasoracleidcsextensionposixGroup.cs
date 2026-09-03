@@ -7,7 +7,7 @@ namespace oci.IdentityDomainsGroup
     [JsiiInterface(nativeType: typeof(IIdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionposixGroup), fullyQualifiedName: "oci.identityDomainsGroup.IdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionposixGroup")]
     public interface IIdentityDomainsGroupUrnietfparamsscimschemasoracleidcsextensionposixGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_group#gid_number IdentityDomainsGroup#gid_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_group#gid_number IdentityDomainsGroup#gid_number}.</summary>
         [JsiiProperty(name: "gidNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? GidNumber
@@ -25,7 +25,7 @@ namespace oci.IdentityDomainsGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_group#gid_number IdentityDomainsGroup#gid_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_group#gid_number IdentityDomainsGroup#gid_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gidNumber", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? GidNumber

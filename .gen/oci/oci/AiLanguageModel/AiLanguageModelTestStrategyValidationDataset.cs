@@ -9,7 +9,7 @@ namespace oci.AiLanguageModel
     [JsiiByValue(fqn: "oci.aiLanguageModel.AiLanguageModelTestStrategyValidationDataset")]
     public class AiLanguageModelTestStrategyValidationDataset : oci.AiLanguageModel.IAiLanguageModelTestStrategyValidationDataset
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/ai_language_model#dataset_type AiLanguageModel#dataset_type}.</summary>
         [JsiiProperty(name: "datasetType", typeJson: "{\"primitive\":\"string\"}")]
         public string DatasetType
         {
@@ -17,7 +17,7 @@ namespace oci.AiLanguageModel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/ai_language_model#dataset_id AiLanguageModel#dataset_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "datasetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatasetId
@@ -28,7 +28,7 @@ namespace oci.AiLanguageModel
 
         /// <summary>location_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/ai_language_model#location_details AiLanguageModel#location_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "locationDetails", typeJson: "{\"fqn\":\"oci.aiLanguageModel.AiLanguageModelTestStrategyValidationDatasetLocationDetails\"}", isOptional: true)]

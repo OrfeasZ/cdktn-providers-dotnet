@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeSensitiveDataModel
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSensitiveDataModelConfig), fullyQualifiedName: "oci.dataOciDataSafeSensitiveDataModel.DataOciDataSafeSensitiveDataModelConfig")]
     public interface IDataOciDataSafeSensitiveDataModelConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sensitive_data_model#sensitive_data_model_id DataOciDataSafeSensitiveDataModel#sensitive_data_model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sensitive_data_model#sensitive_data_model_id DataOciDataSafeSensitiveDataModel#sensitive_data_model_id}.</summary>
         [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}")]
         string SensitiveDataModelId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSensitiveDataModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_sensitive_data_model#sensitive_data_model_id DataOciDataSafeSensitiveDataModel#sensitive_data_model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_sensitive_data_model#sensitive_data_model_id DataOciDataSafeSensitiveDataModel#sensitive_data_model_id}.</summary>
             [JsiiProperty(name: "sensitiveDataModelId", typeJson: "{\"primitive\":\"string\"}")]
             public string SensitiveDataModelId
             {

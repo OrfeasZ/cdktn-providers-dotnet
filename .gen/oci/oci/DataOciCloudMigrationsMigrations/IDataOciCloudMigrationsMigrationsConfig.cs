@@ -7,7 +7,7 @@ namespace oci.DataOciCloudMigrationsMigrations
     [JsiiInterface(nativeType: typeof(IDataOciCloudMigrationsMigrationsConfig), fullyQualifiedName: "oci.dataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsConfig")]
     public interface IDataOciCloudMigrationsMigrationsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#compartment_id DataOciCloudMigrationsMigrations#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#compartment_id DataOciCloudMigrationsMigrations#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -18,7 +18,7 @@ namespace oci.DataOciCloudMigrationsMigrations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#display_name DataOciCloudMigrationsMigrations#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#display_name DataOciCloudMigrationsMigrations#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -31,7 +31,7 @@ namespace oci.DataOciCloudMigrationsMigrations
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#filter DataOciCloudMigrationsMigrations#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#filter DataOciCloudMigrationsMigrations#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudMigrationsMigrations.IDataOciCloudMigrationsMigrationsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciCloudMigrationsMigrations.DataOciCloudMigrationsMigrationsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace oci.DataOciCloudMigrationsMigrations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#id DataOciCloudMigrationsMigrations#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#id DataOciCloudMigrationsMigrations#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace oci.DataOciCloudMigrationsMigrations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#migration_id DataOciCloudMigrationsMigrations#migration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#migration_id DataOciCloudMigrationsMigrations#migration_id}.</summary>
         [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MigrationId
@@ -70,7 +70,7 @@ namespace oci.DataOciCloudMigrationsMigrations
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#state DataOciCloudMigrationsMigrations#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#state DataOciCloudMigrationsMigrations#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -88,7 +88,7 @@ namespace oci.DataOciCloudMigrationsMigrations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#compartment_id DataOciCloudMigrationsMigrations#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#compartment_id DataOciCloudMigrationsMigrations#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -96,7 +96,7 @@ namespace oci.DataOciCloudMigrationsMigrations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#display_name DataOciCloudMigrationsMigrations#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#display_name DataOciCloudMigrationsMigrations#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -106,7 +106,7 @@ namespace oci.DataOciCloudMigrationsMigrations
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#filter DataOciCloudMigrationsMigrations#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#filter DataOciCloudMigrationsMigrations#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCloudMigrationsMigrations.IDataOciCloudMigrationsMigrationsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -116,7 +116,7 @@ namespace oci.DataOciCloudMigrationsMigrations
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#id DataOciCloudMigrationsMigrations#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#id DataOciCloudMigrationsMigrations#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -128,7 +128,7 @@ namespace oci.DataOciCloudMigrationsMigrations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#migration_id DataOciCloudMigrationsMigrations#migration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#migration_id DataOciCloudMigrationsMigrations#migration_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MigrationId
@@ -136,7 +136,7 @@ namespace oci.DataOciCloudMigrationsMigrations
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_migrations_migrations#state DataOciCloudMigrationsMigrations#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_migrations_migrations#state DataOciCloudMigrationsMigrations#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

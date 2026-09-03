@@ -9,7 +9,7 @@ namespace oci.FleetAppsManagementPatch
     [JsiiByValue(fqn: "oci.fleetAppsManagementPatch.FleetAppsManagementPatchArtifactDetails")]
     public class FleetAppsManagementPatchArtifactDetails : oci.FleetAppsManagementPatch.IFleetAppsManagementPatchArtifactDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_patch#category FleetAppsManagementPatch#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_patch#category FleetAppsManagementPatch#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
         public string Category
         {
@@ -19,7 +19,7 @@ namespace oci.FleetAppsManagementPatch
 
         /// <summary>artifact block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_patch#artifact FleetAppsManagementPatch#artifact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_patch#artifact FleetAppsManagementPatch#artifact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "artifact", typeJson: "{\"fqn\":\"oci.fleetAppsManagementPatch.FleetAppsManagementPatchArtifactDetailsArtifact\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace oci.FleetAppsManagementPatch
 
         /// <summary>artifacts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_patch#artifacts FleetAppsManagementPatch#artifacts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_patch#artifacts FleetAppsManagementPatch#artifacts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementPatch.IFleetAppsManagementPatchArtifactDetailsArtifacts" />)[]</para>
         /// </remarks>
         [JsiiOptional]

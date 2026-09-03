@@ -7,28 +7,28 @@ namespace oci.LoadBalancerSslCipherSuite
     [JsiiInterface(nativeType: typeof(ILoadBalancerSslCipherSuiteConfig), fullyQualifiedName: "oci.loadBalancerSslCipherSuite.LoadBalancerSslCipherSuiteConfig")]
     public interface ILoadBalancerSslCipherSuiteConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#ciphers LoadBalancerSslCipherSuite#ciphers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#ciphers LoadBalancerSslCipherSuite#ciphers}.</summary>
         [JsiiProperty(name: "ciphers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Ciphers
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#load_balancer_id LoadBalancerSslCipherSuite#load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#load_balancer_id LoadBalancerSslCipherSuite#load_balancer_id}.</summary>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         string LoadBalancerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#name LoadBalancerSslCipherSuite#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#name LoadBalancerSslCipherSuite#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#id LoadBalancerSslCipherSuite#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#id LoadBalancerSslCipherSuite#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace oci.LoadBalancerSslCipherSuite
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#timeouts LoadBalancerSslCipherSuite#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#timeouts LoadBalancerSslCipherSuite#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loadBalancerSslCipherSuite.LoadBalancerSslCipherSuiteTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,28 +64,28 @@ namespace oci.LoadBalancerSslCipherSuite
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#ciphers LoadBalancerSslCipherSuite#ciphers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#ciphers LoadBalancerSslCipherSuite#ciphers}.</summary>
             [JsiiProperty(name: "ciphers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Ciphers
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#load_balancer_id LoadBalancerSslCipherSuite#load_balancer_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#load_balancer_id LoadBalancerSslCipherSuite#load_balancer_id}.</summary>
             [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
             public string LoadBalancerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#name LoadBalancerSslCipherSuite#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#name LoadBalancerSslCipherSuite#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#id LoadBalancerSslCipherSuite#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#id LoadBalancerSslCipherSuite#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -99,7 +99,7 @@ namespace oci.LoadBalancerSslCipherSuite
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/load_balancer_ssl_cipher_suite#timeouts LoadBalancerSslCipherSuite#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/load_balancer_ssl_cipher_suite#timeouts LoadBalancerSslCipherSuite#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.loadBalancerSslCipherSuite.LoadBalancerSslCipherSuiteTimeouts\"}", isOptional: true)]

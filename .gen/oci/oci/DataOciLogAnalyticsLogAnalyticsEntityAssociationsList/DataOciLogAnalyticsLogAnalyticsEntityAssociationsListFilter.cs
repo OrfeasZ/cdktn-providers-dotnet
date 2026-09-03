@@ -9,7 +9,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
     [JsiiByValue(fqn: "oci.dataOciLogAnalyticsLogAnalyticsEntityAssociationsList.DataOciLogAnalyticsLogAnalyticsEntityAssociationsListFilter")]
     public class DataOciLogAnalyticsLogAnalyticsEntityAssociationsListFilter : oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList.IDataOciLogAnalyticsLogAnalyticsEntityAssociationsListFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#name DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#name DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#values DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#values DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciLogAnalyticsLogAnalyticsEntityAssociationsList
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#regex DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/log_analytics_log_analytics_entity_associations_list#regex DataOciLogAnalyticsLogAnalyticsEntityAssociationsList#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

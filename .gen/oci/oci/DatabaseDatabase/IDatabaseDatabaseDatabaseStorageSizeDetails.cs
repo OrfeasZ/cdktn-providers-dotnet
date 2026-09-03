@@ -7,14 +7,14 @@ namespace oci.DatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseDatabaseStorageSizeDetails), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabaseDatabaseStorageSizeDetails")]
     public interface IDatabaseDatabaseDatabaseStorageSizeDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#data_storage_size_in_gb DatabaseDatabase#data_storage_size_in_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#data_storage_size_in_gb DatabaseDatabase#data_storage_size_in_gb}.</summary>
         [JsiiProperty(name: "dataStorageSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         double DataStorageSizeInGb
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#reco_storage_size_in_gbs DatabaseDatabase#reco_storage_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#reco_storage_size_in_gbs DatabaseDatabase#reco_storage_size_in_gbs}.</summary>
         [JsiiProperty(name: "recoStorageSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
         double RecoStorageSizeInGbs
         {
@@ -28,14 +28,14 @@ namespace oci.DatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#data_storage_size_in_gb DatabaseDatabase#data_storage_size_in_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#data_storage_size_in_gb DatabaseDatabase#data_storage_size_in_gb}.</summary>
             [JsiiProperty(name: "dataStorageSizeInGb", typeJson: "{\"primitive\":\"number\"}")]
             public double DataStorageSizeInGb
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_database#reco_storage_size_in_gbs DatabaseDatabase#reco_storage_size_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_database#reco_storage_size_in_gbs DatabaseDatabase#reco_storage_size_in_gbs}.</summary>
             [JsiiProperty(name: "recoStorageSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
             public double RecoStorageSizeInGbs
             {

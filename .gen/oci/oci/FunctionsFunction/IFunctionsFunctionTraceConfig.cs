@@ -7,7 +7,7 @@ namespace oci.FunctionsFunction
     [JsiiInterface(nativeType: typeof(IFunctionsFunctionTraceConfig), fullyQualifiedName: "oci.functionsFunction.FunctionsFunctionTraceConfig")]
     public interface IFunctionsFunctionTraceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/functions_function#is_enabled FunctionsFunction#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/functions_function#is_enabled FunctionsFunction#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace oci.FunctionsFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/functions_function#is_enabled FunctionsFunction#is_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/functions_function#is_enabled FunctionsFunction#is_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

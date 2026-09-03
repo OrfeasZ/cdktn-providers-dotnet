@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolConfig), fullyQualifiedName: "oci.dataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolConfig")]
     public interface IDataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPoolConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_database_api_gateway_config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_database_api_gateway_config_id}.</summary>
         [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseToolsDatabaseApiGatewayConfigId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#pool_key DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#pool_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#pool_key DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#pool_key}.</summary>
         [JsiiProperty(name: "poolKey", typeJson: "{\"primitive\":\"string\"}")]
         string PoolKey
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPo
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_database_api_gateway_config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#database_tools_database_api_gateway_config_id DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#database_tools_database_api_gateway_config_id}.</summary>
             [JsiiProperty(name: "databaseToolsDatabaseApiGatewayConfigId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseToolsDatabaseApiGatewayConfigId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#pool_key DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#pool_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_tools_runtime_database_tools_database_api_gateway_config_pool#pool_key DataOciDatabaseToolsRuntimeDatabaseToolsDatabaseApiGatewayConfigPool#pool_key}.</summary>
             [JsiiProperty(name: "poolKey", typeJson: "{\"primitive\":\"string\"}")]
             public string PoolKey
             {

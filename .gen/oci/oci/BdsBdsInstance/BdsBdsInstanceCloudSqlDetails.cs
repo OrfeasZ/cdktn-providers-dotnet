@@ -9,7 +9,7 @@ namespace oci.BdsBdsInstance
     [JsiiByValue(fqn: "oci.bdsBdsInstance.BdsBdsInstanceCloudSqlDetails")]
     public class BdsBdsInstanceCloudSqlDetails : oci.BdsBdsInstance.IBdsBdsInstanceCloudSqlDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_instance#shape BdsBdsInstance#shape}.</summary>
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}")]
         public string Shape
         {

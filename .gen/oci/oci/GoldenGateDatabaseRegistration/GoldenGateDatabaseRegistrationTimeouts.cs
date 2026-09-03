@@ -7,7 +7,7 @@ namespace oci.GoldenGateDatabaseRegistration
     [JsiiByValue(fqn: "oci.goldenGateDatabaseRegistration.GoldenGateDatabaseRegistrationTimeouts")]
     public class GoldenGateDatabaseRegistrationTimeouts : oci.GoldenGateDatabaseRegistration.IGoldenGateDatabaseRegistrationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_database_registration#create GoldenGateDatabaseRegistration#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/golden_gate_database_registration#create GoldenGateDatabaseRegistration#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.GoldenGateDatabaseRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_database_registration#delete GoldenGateDatabaseRegistration#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/golden_gate_database_registration#delete GoldenGateDatabaseRegistration#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.GoldenGateDatabaseRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/golden_gate_database_registration#update GoldenGateDatabaseRegistration#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/golden_gate_database_registration#update GoldenGateDatabaseRegistration#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

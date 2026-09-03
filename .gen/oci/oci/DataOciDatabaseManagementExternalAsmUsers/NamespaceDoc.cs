@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmUsers
     /// <remarks>
     /// <h1><c>data_oci_database_management_external_asm_users</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_asm_users"><c>data_oci_database_management_external_asm_users</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_external_asm_users"><c>data_oci_database_management_external_asm_users</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

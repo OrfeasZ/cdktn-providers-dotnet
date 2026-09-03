@@ -7,7 +7,7 @@ namespace oci.DataOciMysqlMysqlDbSystem
     [JsiiInterface(nativeType: typeof(IDataOciMysqlMysqlDbSystemConfig), fullyQualifiedName: "oci.dataOciMysqlMysqlDbSystem.DataOciMysqlMysqlDbSystemConfig")]
     public interface IDataOciMysqlMysqlDbSystemConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_mysql_db_system#db_system_id DataOciMysqlMysqlDbSystem#db_system_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_mysql_db_system#db_system_id DataOciMysqlMysqlDbSystem#db_system_id}.</summary>
         [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
         string DbSystemId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciMysqlMysqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_mysql_db_system#db_system_id DataOciMysqlMysqlDbSystem#db_system_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_mysql_db_system#db_system_id DataOciMysqlMysqlDbSystem#db_system_id}.</summary>
             [JsiiProperty(name: "dbSystemId", typeJson: "{\"primitive\":\"string\"}")]
             public string DbSystemId
             {

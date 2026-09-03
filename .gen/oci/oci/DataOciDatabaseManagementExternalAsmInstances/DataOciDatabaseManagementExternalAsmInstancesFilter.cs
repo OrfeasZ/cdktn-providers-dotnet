@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmInstances
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalAsmInstances.DataOciDatabaseManagementExternalAsmInstancesFilter")]
     public class DataOciDatabaseManagementExternalAsmInstancesFilter : oci.DataOciDatabaseManagementExternalAsmInstances.IDataOciDatabaseManagementExternalAsmInstancesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_asm_instances#name DataOciDatabaseManagementExternalAsmInstances#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_external_asm_instances#name DataOciDatabaseManagementExternalAsmInstances#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmInstances
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_asm_instances#values DataOciDatabaseManagementExternalAsmInstances#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_external_asm_instances#values DataOciDatabaseManagementExternalAsmInstances#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementExternalAsmInstances
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_asm_instances#regex DataOciDatabaseManagementExternalAsmInstances#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_external_asm_instances#regex DataOciDatabaseManagementExternalAsmInstances#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,7 +7,7 @@ namespace oci.DataOciLoggingLogSavedSearch
     [JsiiInterface(nativeType: typeof(IDataOciLoggingLogSavedSearchConfig), fullyQualifiedName: "oci.dataOciLoggingLogSavedSearch.DataOciLoggingLogSavedSearchConfig")]
     public interface IDataOciLoggingLogSavedSearchConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/logging_log_saved_search#log_saved_search_id DataOciLoggingLogSavedSearch#log_saved_search_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/logging_log_saved_search#log_saved_search_id DataOciLoggingLogSavedSearch#log_saved_search_id}.</summary>
         [JsiiProperty(name: "logSavedSearchId", typeJson: "{\"primitive\":\"string\"}")]
         string LogSavedSearchId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciLoggingLogSavedSearch
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/logging_log_saved_search#log_saved_search_id DataOciLoggingLogSavedSearch#log_saved_search_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/logging_log_saved_search#log_saved_search_id DataOciLoggingLogSavedSearch#log_saved_search_id}.</summary>
             [JsiiProperty(name: "logSavedSearchId", typeJson: "{\"primitive\":\"string\"}")]
             public string LogSavedSearchId
             {

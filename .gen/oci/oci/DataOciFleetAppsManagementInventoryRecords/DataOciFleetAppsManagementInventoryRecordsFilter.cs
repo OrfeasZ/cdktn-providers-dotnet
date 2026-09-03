@@ -9,7 +9,7 @@ namespace oci.DataOciFleetAppsManagementInventoryRecords
     [JsiiByValue(fqn: "oci.dataOciFleetAppsManagementInventoryRecords.DataOciFleetAppsManagementInventoryRecordsFilter")]
     public class DataOciFleetAppsManagementInventoryRecordsFilter : oci.DataOciFleetAppsManagementInventoryRecords.IDataOciFleetAppsManagementInventoryRecordsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_inventory_records#name DataOciFleetAppsManagementInventoryRecords#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_inventory_records#name DataOciFleetAppsManagementInventoryRecords#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFleetAppsManagementInventoryRecords
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_inventory_records#values DataOciFleetAppsManagementInventoryRecords#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_inventory_records#values DataOciFleetAppsManagementInventoryRecords#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFleetAppsManagementInventoryRecords
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fleet_apps_management_inventory_records#regex DataOciFleetAppsManagementInventoryRecords#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fleet_apps_management_inventory_records#regex DataOciFleetAppsManagementInventoryRecords#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

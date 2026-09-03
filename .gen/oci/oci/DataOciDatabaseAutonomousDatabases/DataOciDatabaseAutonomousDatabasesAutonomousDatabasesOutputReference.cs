@@ -749,6 +749,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "scheduledMaintenanceWindow", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesScheduledMaintenanceWindowList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesScheduledMaintenanceWindowList ScheduledMaintenanceWindow
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesScheduledMaintenanceWindowList>()!;
+        }
+
         [JsiiProperty(name: "scheduledOperations", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesScheduledOperationsList\"}")]
         public virtual oci.DataOciDatabaseAutonomousDatabases.DataOciDatabaseAutonomousDatabasesAutonomousDatabasesScheduledOperationsList ScheduledOperations
         {
@@ -979,6 +985,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
 
         [JsiiProperty(name: "timeScheduledDbVersionUpgrade", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeScheduledDbVersionUpgrade
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeScheduledMaintenanceWindowUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeScheduledMaintenanceWindowUpdate
         {
             get => GetInstanceProperty<string>()!;
         }

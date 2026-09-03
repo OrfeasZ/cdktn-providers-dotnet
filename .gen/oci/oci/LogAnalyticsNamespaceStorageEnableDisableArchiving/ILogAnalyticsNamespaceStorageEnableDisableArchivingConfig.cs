@@ -7,7 +7,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceStorageEnableDisableArchivingConfig), fullyQualifiedName: "oci.logAnalyticsNamespaceStorageEnableDisableArchiving.LogAnalyticsNamespaceStorageEnableDisableArchivingConfig")]
     public interface ILogAnalyticsNamespaceStorageEnableDisableArchivingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#enable_archiving_tenant LogAnalyticsNamespaceStorageEnableDisableArchiving#enable_archiving_tenant}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#enable_archiving_tenant LogAnalyticsNamespaceStorageEnableDisableArchiving#enable_archiving_tenant}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,14 +17,14 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#namespace LogAnalyticsNamespaceStorageEnableDisableArchiving#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#namespace LogAnalyticsNamespaceStorageEnableDisableArchiving#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#id LogAnalyticsNamespaceStorageEnableDisableArchiving#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#id LogAnalyticsNamespaceStorageEnableDisableArchiving#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#timeouts LogAnalyticsNamespaceStorageEnableDisableArchiving#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#timeouts LogAnalyticsNamespaceStorageEnableDisableArchiving#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsNamespaceStorageEnableDisableArchiving.LogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#enable_archiving_tenant LogAnalyticsNamespaceStorageEnableDisableArchiving#enable_archiving_tenant}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#enable_archiving_tenant LogAnalyticsNamespaceStorageEnableDisableArchiving#enable_archiving_tenant}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -70,14 +70,14 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#namespace LogAnalyticsNamespaceStorageEnableDisableArchiving#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#namespace LogAnalyticsNamespaceStorageEnableDisableArchiving#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#id LogAnalyticsNamespaceStorageEnableDisableArchiving#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#id LogAnalyticsNamespaceStorageEnableDisableArchiving#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.LogAnalyticsNamespaceStorageEnableDisableArchiving
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#timeouts LogAnalyticsNamespaceStorageEnableDisableArchiving#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#timeouts LogAnalyticsNamespaceStorageEnableDisableArchiving#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsNamespaceStorageEnableDisableArchiving.LogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts\"}", isOptional: true)]

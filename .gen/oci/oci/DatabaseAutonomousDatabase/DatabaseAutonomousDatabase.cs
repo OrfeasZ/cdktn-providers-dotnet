@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseAutonomousDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_autonomous_database oci_database_autonomous_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_autonomous_database oci_database_autonomous_database}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabase), fullyQualifiedName: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseConfig\"}}]")]
     public class DatabaseAutonomousDatabase : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_autonomous_database oci_database_autonomous_database} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_autonomous_database oci_database_autonomous_database} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseAutonomousDatabase(Constructs.Construct scope, string id, oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseAutonomousDatabase
         /// <param name="importToId">The construct id used in the generated config for the DatabaseAutonomousDatabase to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseAutonomousDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseAutonomousDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseAutonomousDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_autonomous_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseAutonomousDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseAutonomousDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseAutonomousDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_autonomous_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseAutonomousDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseAutonomousDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -134,6 +134,12 @@ namespace oci.DatabaseAutonomousDatabase
         public virtual void PutResourcePoolSummary(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseResourcePoolSummary @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseResourcePoolSummary)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putScheduledMaintenanceWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledMaintenanceWindow\"}}]")]
+        public virtual void PutScheduledMaintenanceWindow(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledMaintenanceWindow @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledMaintenanceWindow)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledOperations" />)[]</param>
@@ -646,6 +652,12 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetScheduledMaintenanceWindow")]
+        public virtual void ResetScheduledMaintenanceWindow()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetScheduledOperations")]
         public virtual void ResetScheduledOperations()
         {
@@ -750,6 +762,12 @@ namespace oci.DatabaseAutonomousDatabase
 
         [JsiiMethod(name: "resetTimeScheduledDbVersionUpgrade")]
         public virtual void ResetTimeScheduledDbVersionUpgrade()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeScheduledMaintenanceWindowUpdate")]
+        public virtual void ResetTimeScheduledMaintenanceWindowUpdate()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -1095,6 +1113,12 @@ namespace oci.DatabaseAutonomousDatabase
         public virtual string Role
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "scheduledMaintenanceWindow", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledMaintenanceWindowOutputReference\"}")]
+        public virtual oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledMaintenanceWindowOutputReference ScheduledMaintenanceWindow
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledMaintenanceWindowOutputReference>()!;
         }
 
         [JsiiProperty(name: "scheduledOperations", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledOperationsList\"}")]
@@ -1903,6 +1927,13 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "scheduledMaintenanceWindowInput", typeJson: "{\"fqn\":\"oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledMaintenanceWindow\"}", isOptional: true)]
+        public virtual oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledMaintenanceWindow? ScheduledMaintenanceWindowInput
+        {
+            get => GetInstanceProperty<oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledMaintenanceWindow?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledOperations" />)[]</para>
         /// </remarks>
@@ -2031,6 +2062,13 @@ namespace oci.DatabaseAutonomousDatabase
         [JsiiOptional]
         [JsiiProperty(name: "timeScheduledDbVersionUpgradeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TimeScheduledDbVersionUpgradeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "timeScheduledMaintenanceWindowUpdateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TimeScheduledMaintenanceWindowUpdateInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -3193,6 +3231,13 @@ namespace oci.DatabaseAutonomousDatabase
 
         [JsiiProperty(name: "timeScheduledDbVersionUpgrade", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeScheduledDbVersionUpgrade
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "timeScheduledMaintenanceWindowUpdate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TimeScheduledMaintenanceWindowUpdate
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

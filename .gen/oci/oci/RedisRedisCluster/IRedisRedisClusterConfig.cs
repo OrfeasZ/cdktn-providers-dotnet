@@ -7,49 +7,49 @@ namespace oci.RedisRedisCluster
     [JsiiInterface(nativeType: typeof(IRedisRedisClusterConfig), fullyQualifiedName: "oci.redisRedisCluster.RedisRedisClusterConfig")]
     public interface IRedisRedisClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#compartment_id RedisRedisCluster#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#compartment_id RedisRedisCluster#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#display_name RedisRedisCluster#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#display_name RedisRedisCluster#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#node_count RedisRedisCluster#node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#node_count RedisRedisCluster#node_count}.</summary>
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
         double NodeCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#node_memory_in_gbs RedisRedisCluster#node_memory_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#node_memory_in_gbs RedisRedisCluster#node_memory_in_gbs}.</summary>
         [JsiiProperty(name: "nodeMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         double NodeMemoryInGbs
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#software_version RedisRedisCluster#software_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#software_version RedisRedisCluster#software_version}.</summary>
         [JsiiProperty(name: "softwareVersion", typeJson: "{\"primitive\":\"string\"}")]
         string SoftwareVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#subnet_id RedisRedisCluster#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#subnet_id RedisRedisCluster#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#backup_id RedisRedisCluster#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#backup_id RedisRedisCluster#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupId
@@ -60,7 +60,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#cluster_mode RedisRedisCluster#cluster_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#cluster_mode RedisRedisCluster#cluster_mode}.</summary>
         [JsiiProperty(name: "clusterMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterMode
@@ -71,7 +71,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#defined_tags RedisRedisCluster#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#defined_tags RedisRedisCluster#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -82,7 +82,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#freeform_tags RedisRedisCluster#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#freeform_tags RedisRedisCluster#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -93,7 +93,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#id RedisRedisCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#id RedisRedisCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +110,7 @@ namespace oci.RedisRedisCluster
 
         /// <summary>import_from_object_storage_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#import_from_object_storage_details RedisRedisCluster#import_from_object_storage_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#import_from_object_storage_details RedisRedisCluster#import_from_object_storage_details}
         /// </remarks>
         [JsiiProperty(name: "importFromObjectStorageDetails", typeJson: "{\"fqn\":\"oci.redisRedisCluster.RedisRedisClusterImportFromObjectStorageDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +122,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#nsg_ids RedisRedisCluster#nsg_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#nsg_ids RedisRedisCluster#nsg_ids}.</summary>
         [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? NsgIds
@@ -133,7 +133,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#oci_cache_config_set_id RedisRedisCluster#oci_cache_config_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#oci_cache_config_set_id RedisRedisCluster#oci_cache_config_set_id}.</summary>
         [JsiiProperty(name: "ociCacheConfigSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OciCacheConfigSetId
@@ -144,7 +144,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#security_attributes RedisRedisCluster#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#security_attributes RedisRedisCluster#security_attributes}.</summary>
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -155,7 +155,7 @@ namespace oci.RedisRedisCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#shard_count RedisRedisCluster#shard_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#shard_count RedisRedisCluster#shard_count}.</summary>
         [JsiiProperty(name: "shardCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ShardCount
@@ -168,7 +168,7 @@ namespace oci.RedisRedisCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#timeouts RedisRedisCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#timeouts RedisRedisCluster#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisRedisCluster.RedisRedisClusterTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -187,49 +187,49 @@ namespace oci.RedisRedisCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#compartment_id RedisRedisCluster#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#compartment_id RedisRedisCluster#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#display_name RedisRedisCluster#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#display_name RedisRedisCluster#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#node_count RedisRedisCluster#node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#node_count RedisRedisCluster#node_count}.</summary>
             [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
             public double NodeCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#node_memory_in_gbs RedisRedisCluster#node_memory_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#node_memory_in_gbs RedisRedisCluster#node_memory_in_gbs}.</summary>
             [JsiiProperty(name: "nodeMemoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
             public double NodeMemoryInGbs
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#software_version RedisRedisCluster#software_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#software_version RedisRedisCluster#software_version}.</summary>
             [JsiiProperty(name: "softwareVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string SoftwareVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#subnet_id RedisRedisCluster#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#subnet_id RedisRedisCluster#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#backup_id RedisRedisCluster#backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#backup_id RedisRedisCluster#backup_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupId
@@ -237,7 +237,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#cluster_mode RedisRedisCluster#cluster_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#cluster_mode RedisRedisCluster#cluster_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterMode
@@ -245,7 +245,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#defined_tags RedisRedisCluster#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#defined_tags RedisRedisCluster#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -253,7 +253,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#freeform_tags RedisRedisCluster#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#freeform_tags RedisRedisCluster#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -261,7 +261,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#id RedisRedisCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#id RedisRedisCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -275,7 +275,7 @@ namespace oci.RedisRedisCluster
 
             /// <summary>import_from_object_storage_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#import_from_object_storage_details RedisRedisCluster#import_from_object_storage_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#import_from_object_storage_details RedisRedisCluster#import_from_object_storage_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "importFromObjectStorageDetails", typeJson: "{\"fqn\":\"oci.redisRedisCluster.RedisRedisClusterImportFromObjectStorageDetails\"}", isOptional: true)]
@@ -284,7 +284,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<oci.RedisRedisCluster.IRedisRedisClusterImportFromObjectStorageDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#nsg_ids RedisRedisCluster#nsg_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#nsg_ids RedisRedisCluster#nsg_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? NsgIds
@@ -292,7 +292,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#oci_cache_config_set_id RedisRedisCluster#oci_cache_config_set_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#oci_cache_config_set_id RedisRedisCluster#oci_cache_config_set_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ociCacheConfigSetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OciCacheConfigSetId
@@ -300,7 +300,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#security_attributes RedisRedisCluster#security_attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#security_attributes RedisRedisCluster#security_attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -308,7 +308,7 @@ namespace oci.RedisRedisCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#shard_count RedisRedisCluster#shard_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#shard_count RedisRedisCluster#shard_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shardCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ShardCount
@@ -318,7 +318,7 @@ namespace oci.RedisRedisCluster
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/redis_redis_cluster#timeouts RedisRedisCluster#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/redis_redis_cluster#timeouts RedisRedisCluster#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.redisRedisCluster.RedisRedisClusterTimeouts\"}", isOptional: true)]

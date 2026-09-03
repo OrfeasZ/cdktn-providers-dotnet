@@ -9,7 +9,7 @@ namespace oci.SchServiceConnector
     {
         /// <summary>dimension_value block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#dimension_value SchServiceConnector#dimension_value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#dimension_value SchServiceConnector#dimension_value}
         /// </remarks>
         [JsiiProperty(name: "dimensionValue", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTargetDimensionsDimensionValue\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace oci.SchServiceConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#name SchServiceConnector#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#name SchServiceConnector#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -41,7 +41,7 @@ namespace oci.SchServiceConnector
 
             /// <summary>dimension_value block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#dimension_value SchServiceConnector#dimension_value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#dimension_value SchServiceConnector#dimension_value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dimensionValue", typeJson: "{\"fqn\":\"oci.schServiceConnector.SchServiceConnectorTargetDimensionsDimensionValue\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace oci.SchServiceConnector
                 get => GetInstanceProperty<oci.SchServiceConnector.ISchServiceConnectorTargetDimensionsDimensionValue?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/sch_service_connector#name SchServiceConnector#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/sch_service_connector#name SchServiceConnector#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

@@ -9,7 +9,7 @@ namespace oci.GenerativeAiProject
     {
         /// <summary>standard_long_term_memory_strategy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_project#standard_long_term_memory_strategy GenerativeAiProject#standard_long_term_memory_strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_project#standard_long_term_memory_strategy GenerativeAiProject#standard_long_term_memory_strategy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "standardLongTermMemoryStrategy", typeJson: "{\"fqn\":\"oci.generativeAiProject.GenerativeAiProjectLongTermMemoryConfigStandardLongTermMemoryStrategy\"}", isOptional: true)]

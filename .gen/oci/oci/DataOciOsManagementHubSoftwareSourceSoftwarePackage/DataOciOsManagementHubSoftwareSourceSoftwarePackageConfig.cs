@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackage
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubSoftwareSourceSoftwarePackage.DataOciOsManagementHubSoftwareSourceSoftwarePackageConfig")]
     public class DataOciOsManagementHubSoftwareSourceSoftwarePackageConfig : oci.DataOciOsManagementHubSoftwareSourceSoftwarePackage.IDataOciOsManagementHubSoftwareSourceSoftwarePackageConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_software_source_software_package#software_package_name DataOciOsManagementHubSoftwareSourceSoftwarePackage#software_package_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_software_source_software_package#software_package_name DataOciOsManagementHubSoftwareSourceSoftwarePackage#software_package_name}.</summary>
         [JsiiProperty(name: "softwarePackageName", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwarePackageName
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_software_source_software_package#software_source_id DataOciOsManagementHubSoftwareSourceSoftwarePackage#software_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_software_source_software_package#software_source_id DataOciOsManagementHubSoftwareSourceSoftwarePackage#software_source_id}.</summary>
         [JsiiProperty(name: "softwareSourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SoftwareSourceId
         {
@@ -25,7 +25,7 @@ namespace oci.DataOciOsManagementHubSoftwareSourceSoftwarePackage
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/os_management_hub_software_source_software_package#id DataOciOsManagementHubSoftwareSourceSoftwarePackage#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/os_management_hub_software_source_software_package#id DataOciOsManagementHubSoftwareSourceSoftwarePackage#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

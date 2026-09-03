@@ -7,7 +7,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
     [JsiiInterface(nativeType: typeof(IDatabaseToolsDatabaseToolsMcpServerStorageBucket), fullyQualifiedName: "oci.databaseToolsDatabaseToolsMcpServer.DatabaseToolsDatabaseToolsMcpServerStorageBucket")]
     public interface IDatabaseToolsDatabaseToolsMcpServerStorageBucket
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_database_tools_mcp_server#bucket DatabaseToolsDatabaseToolsMcpServer#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_tools_database_tools_mcp_server#bucket DatabaseToolsDatabaseToolsMcpServer#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -18,7 +18,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_database_tools_mcp_server#namespace DatabaseToolsDatabaseToolsMcpServer#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_tools_database_tools_mcp_server#namespace DatabaseToolsDatabaseToolsMcpServer#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Namespace
@@ -36,7 +36,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_database_tools_mcp_server#bucket DatabaseToolsDatabaseToolsMcpServer#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_tools_database_tools_mcp_server#bucket DatabaseToolsDatabaseToolsMcpServer#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -44,7 +44,7 @@ namespace oci.DatabaseToolsDatabaseToolsMcpServer
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_tools_database_tools_mcp_server#namespace DatabaseToolsDatabaseToolsMcpServer#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_tools_database_tools_mcp_server#namespace DatabaseToolsDatabaseToolsMcpServer#namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Namespace

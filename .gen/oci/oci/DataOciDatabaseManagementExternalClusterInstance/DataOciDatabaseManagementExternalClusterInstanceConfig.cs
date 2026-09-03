@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementExternalClusterInstance
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementExternalClusterInstance.DataOciDatabaseManagementExternalClusterInstanceConfig")]
     public class DataOciDatabaseManagementExternalClusterInstanceConfig : oci.DataOciDatabaseManagementExternalClusterInstance.IDataOciDatabaseManagementExternalClusterInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_external_cluster_instance#external_cluster_instance_id DataOciDatabaseManagementExternalClusterInstance#external_cluster_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_external_cluster_instance#external_cluster_instance_id DataOciDatabaseManagementExternalClusterInstance#external_cluster_instance_id}.</summary>
         [JsiiProperty(name: "externalClusterInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExternalClusterInstanceId
         {

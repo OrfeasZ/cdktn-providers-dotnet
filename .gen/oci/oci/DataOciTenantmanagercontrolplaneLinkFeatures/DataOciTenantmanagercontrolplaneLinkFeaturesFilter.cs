@@ -9,7 +9,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinkFeatures
     [JsiiByValue(fqn: "oci.dataOciTenantmanagercontrolplaneLinkFeatures.DataOciTenantmanagercontrolplaneLinkFeaturesFilter")]
     public class DataOciTenantmanagercontrolplaneLinkFeaturesFilter : oci.DataOciTenantmanagercontrolplaneLinkFeatures.IDataOciTenantmanagercontrolplaneLinkFeaturesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_link_features#name DataOciTenantmanagercontrolplaneLinkFeatures#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/tenantmanagercontrolplane_link_features#name DataOciTenantmanagercontrolplaneLinkFeatures#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinkFeatures
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_link_features#values DataOciTenantmanagercontrolplaneLinkFeatures#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/tenantmanagercontrolplane_link_features#values DataOciTenantmanagercontrolplaneLinkFeatures#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciTenantmanagercontrolplaneLinkFeatures
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/tenantmanagercontrolplane_link_features#regex DataOciTenantmanagercontrolplaneLinkFeatures#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/tenantmanagercontrolplane_link_features#regex DataOciTenantmanagercontrolplaneLinkFeatures#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

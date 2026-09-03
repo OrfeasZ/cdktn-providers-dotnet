@@ -9,7 +9,7 @@ namespace oci.DemandSignalOccMetricAlarm
     [JsiiByValue(fqn: "oci.demandSignalOccMetricAlarm.DemandSignalOccMetricAlarmConfig")]
     public class DemandSignalOccMetricAlarmConfig : oci.DemandSignalOccMetricAlarm.IDemandSignalOccMetricAlarmConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#compartment_id DemandSignalOccMetricAlarm#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#compartment_id DemandSignalOccMetricAlarm#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#display_name DemandSignalOccMetricAlarm#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#display_name DemandSignalOccMetricAlarm#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#frequency DemandSignalOccMetricAlarm#frequency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#frequency DemandSignalOccMetricAlarm#frequency}.</summary>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}")]
         public string Frequency
         {
@@ -35,7 +35,7 @@ namespace oci.DemandSignalOccMetricAlarm
 
         private object _isActive;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#is_active DemandSignalOccMetricAlarm#is_active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#is_active DemandSignalOccMetricAlarm#is_active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace oci.DemandSignalOccMetricAlarm
 
         /// <summary>resource_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#resource_configuration DemandSignalOccMetricAlarm#resource_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#resource_configuration DemandSignalOccMetricAlarm#resource_configuration}
         /// </remarks>
         [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.demandSignalOccMetricAlarm.DemandSignalOccMetricAlarmResourceConfiguration\"}")]
         public oci.DemandSignalOccMetricAlarm.IDemandSignalOccMetricAlarmResourceConfiguration ResourceConfiguration
@@ -77,7 +77,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#threshold DemandSignalOccMetricAlarm#threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#threshold DemandSignalOccMetricAlarm#threshold}.</summary>
         [JsiiProperty(name: "threshold", typeJson: "{\"primitive\":\"number\"}")]
         public double Threshold
         {
@@ -85,7 +85,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#defined_tags DemandSignalOccMetricAlarm#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#defined_tags DemandSignalOccMetricAlarm#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -94,7 +94,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#description DemandSignalOccMetricAlarm#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#description DemandSignalOccMetricAlarm#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -103,7 +103,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#freeform_tags DemandSignalOccMetricAlarm#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#freeform_tags DemandSignalOccMetricAlarm#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -112,7 +112,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#id DemandSignalOccMetricAlarm#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#id DemandSignalOccMetricAlarm#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,7 +125,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#state DemandSignalOccMetricAlarm#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#state DemandSignalOccMetricAlarm#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -134,7 +134,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#subscribers DemandSignalOccMetricAlarm#subscribers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#subscribers DemandSignalOccMetricAlarm#subscribers}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscribers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Subscribers
@@ -143,7 +143,7 @@ namespace oci.DemandSignalOccMetricAlarm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#threshold_type DemandSignalOccMetricAlarm#threshold_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#threshold_type DemandSignalOccMetricAlarm#threshold_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "thresholdType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ThresholdType
@@ -154,7 +154,7 @@ namespace oci.DemandSignalOccMetricAlarm
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/demand_signal_occ_metric_alarm#timeouts DemandSignalOccMetricAlarm#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/demand_signal_occ_metric_alarm#timeouts DemandSignalOccMetricAlarm#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.demandSignalOccMetricAlarm.DemandSignalOccMetricAlarmTimeouts\"}", isOptional: true)]

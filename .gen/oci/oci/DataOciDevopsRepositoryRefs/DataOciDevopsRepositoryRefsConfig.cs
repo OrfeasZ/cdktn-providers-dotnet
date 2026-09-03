@@ -9,7 +9,7 @@ namespace oci.DataOciDevopsRepositoryRefs
     [JsiiByValue(fqn: "oci.dataOciDevopsRepositoryRefs.DataOciDevopsRepositoryRefsConfig")]
     public class DataOciDevopsRepositoryRefsConfig : oci.DataOciDevopsRepositoryRefs.IDataOciDevopsRepositoryRefsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_repository_refs#repository_id DataOciDevopsRepositoryRefs#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/devops_repository_refs#repository_id DataOciDevopsRepositoryRefs#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDevopsRepositoryRefs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_repository_refs#commit_id DataOciDevopsRepositoryRefs#commit_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/devops_repository_refs#commit_id DataOciDevopsRepositoryRefs#commit_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commitId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommitId
@@ -30,7 +30,7 @@ namespace oci.DataOciDevopsRepositoryRefs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_repository_refs#filter DataOciDevopsRepositoryRefs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/devops_repository_refs#filter DataOciDevopsRepositoryRefs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDevopsRepositoryRefs.IDataOciDevopsRepositoryRefsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDevopsRepositoryRefs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_repository_refs#id DataOciDevopsRepositoryRefs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/devops_repository_refs#id DataOciDevopsRepositoryRefs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciDevopsRepositoryRefs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_repository_refs#ref_name DataOciDevopsRepositoryRefs#ref_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/devops_repository_refs#ref_name DataOciDevopsRepositoryRefs#ref_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RefName
@@ -83,7 +83,7 @@ namespace oci.DataOciDevopsRepositoryRefs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/devops_repository_refs#ref_type DataOciDevopsRepositoryRefs#ref_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/devops_repository_refs#ref_type DataOciDevopsRepositoryRefs#ref_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "refType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RefType

@@ -9,7 +9,7 @@ namespace oci.DevopsBuildPipelineStage
     {
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_build_pipeline_stage#items DevopsBuildPipelineStage#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_build_pipeline_stage#items DevopsBuildPipelineStage#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsBuildPipelineStage.IDevopsBuildPipelineStageDeliverArtifactCollectionItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsBuildPipelineStage.DevopsBuildPipelineStageDeliverArtifactCollectionItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace oci.DevopsBuildPipelineStage
 
             /// <summary>items block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_build_pipeline_stage#items DevopsBuildPipelineStage#items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_build_pipeline_stage#items DevopsBuildPipelineStage#items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsBuildPipelineStage.IDevopsBuildPipelineStageDeliverArtifactCollectionItems" />)[]</para>
             /// </remarks>
             [JsiiOptional]

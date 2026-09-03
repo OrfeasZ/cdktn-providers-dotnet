@@ -7,14 +7,14 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
     [JsiiInterface(nativeType: typeof(IBudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementConfig), fullyQualifiedName: "oci.budgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementConfig")]
     public interface IBudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#cost_anomaly_monitor_id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#cost_anomaly_monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#cost_anomaly_monitor_id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#cost_anomaly_monitor_id}.</summary>
         [JsiiProperty(name: "costAnomalyMonitorId", typeJson: "{\"primitive\":\"string\"}")]
         string CostAnomalyMonitorId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#enable_costanomalymonitorenabletoggle BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#enable_costanomalymonitorenabletoggle}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#enable_costanomalymonitorenabletoggle BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#enable_costanomalymonitorenabletoggle}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#timeouts BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#timeouts BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.budgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,14 +60,14 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#cost_anomaly_monitor_id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#cost_anomaly_monitor_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#cost_anomaly_monitor_id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#cost_anomaly_monitor_id}.</summary>
             [JsiiProperty(name: "costAnomalyMonitorId", typeJson: "{\"primitive\":\"string\"}")]
             public string CostAnomalyMonitorId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#enable_costanomalymonitorenabletoggle BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#enable_costanomalymonitorenabletoggle}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#enable_costanomalymonitorenabletoggle BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#enable_costanomalymonitorenabletoggle}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -77,7 +77,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#id BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#timeouts BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/budget_cost_anomaly_monitor_costanomalymonitorenabletoggles_management#timeouts BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.budgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagement.BudgetCostAnomalyMonitorCostanomalymonitorenabletogglesManagementTimeouts\"}", isOptional: true)]

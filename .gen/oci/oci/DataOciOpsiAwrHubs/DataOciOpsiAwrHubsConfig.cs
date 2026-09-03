@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiAwrHubs
     [JsiiByValue(fqn: "oci.dataOciOpsiAwrHubs.DataOciOpsiAwrHubsConfig")]
     public class DataOciOpsiAwrHubsConfig : oci.DataOciOpsiAwrHubs.IDataOciOpsiAwrHubsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hubs#operations_insights_warehouse_id DataOciOpsiAwrHubs#operations_insights_warehouse_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/opsi_awr_hubs#operations_insights_warehouse_id DataOciOpsiAwrHubs#operations_insights_warehouse_id}.</summary>
         [JsiiProperty(name: "operationsInsightsWarehouseId", typeJson: "{\"primitive\":\"string\"}")]
         public string OperationsInsightsWarehouseId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOpsiAwrHubs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hubs#compartment_id DataOciOpsiAwrHubs#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/opsi_awr_hubs#compartment_id DataOciOpsiAwrHubs#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -26,7 +26,7 @@ namespace oci.DataOciOpsiAwrHubs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hubs#display_name DataOciOpsiAwrHubs#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/opsi_awr_hubs#display_name DataOciOpsiAwrHubs#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciOpsiAwrHubs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hubs#filter DataOciOpsiAwrHubs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/opsi_awr_hubs#filter DataOciOpsiAwrHubs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOpsiAwrHubs.IDataOciOpsiAwrHubsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciOpsiAwrHubs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hubs#id DataOciOpsiAwrHubs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/opsi_awr_hubs#id DataOciOpsiAwrHubs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciOpsiAwrHubs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_awr_hubs#state DataOciOpsiAwrHubs#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/opsi_awr_hubs#state DataOciOpsiAwrHubs#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? State

@@ -7,7 +7,7 @@ namespace oci.OcvpSddc
     [JsiiInterface(nativeType: typeof(IOcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails), fullyQualifiedName: "oci.ocvpSddc.OcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails")]
     public interface IOcvpSddcInitialConfigurationInitialClusterConfigurationsClusterByolAllocationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_sddc#firewall_byol_allocation_id OcvpSddc#firewall_byol_allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/ocvp_sddc#firewall_byol_allocation_id OcvpSddc#firewall_byol_allocation_id}.</summary>
         [JsiiProperty(name: "firewallByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FirewallByolAllocationId
@@ -18,7 +18,7 @@ namespace oci.OcvpSddc
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_sddc#vsan_byol_allocation_id OcvpSddc#vsan_byol_allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/ocvp_sddc#vsan_byol_allocation_id OcvpSddc#vsan_byol_allocation_id}.</summary>
         [JsiiProperty(name: "vsanByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VsanByolAllocationId
@@ -36,7 +36,7 @@ namespace oci.OcvpSddc
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_sddc#firewall_byol_allocation_id OcvpSddc#firewall_byol_allocation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/ocvp_sddc#firewall_byol_allocation_id OcvpSddc#firewall_byol_allocation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "firewallByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FirewallByolAllocationId
@@ -44,7 +44,7 @@ namespace oci.OcvpSddc
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/ocvp_sddc#vsan_byol_allocation_id OcvpSddc#vsan_byol_allocation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/ocvp_sddc#vsan_byol_allocation_id OcvpSddc#vsan_byol_allocation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vsanByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VsanByolAllocationId

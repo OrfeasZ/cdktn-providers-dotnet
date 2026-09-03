@@ -7,7 +7,7 @@ namespace oci.OsManagementHubDynamicSet
     [JsiiInterface(nativeType: typeof(IOsManagementHubDynamicSetMatchingRule), fullyQualifiedName: "oci.osManagementHubDynamicSet.OsManagementHubDynamicSetMatchingRule")]
     public interface IOsManagementHubDynamicSetMatchingRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#architectures OsManagementHubDynamicSet#architectures}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#architectures OsManagementHubDynamicSet#architectures}.</summary>
         [JsiiProperty(name: "architectures", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Architectures
@@ -18,7 +18,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#display_names OsManagementHubDynamicSet#display_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#display_names OsManagementHubDynamicSet#display_names}.</summary>
         [JsiiProperty(name: "displayNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DisplayNames
@@ -29,7 +29,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#is_reboot_required OsManagementHubDynamicSet#is_reboot_required}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#is_reboot_required OsManagementHubDynamicSet#is_reboot_required}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#locations OsManagementHubDynamicSet#locations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#locations OsManagementHubDynamicSet#locations}.</summary>
         [JsiiProperty(name: "locations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Locations
@@ -54,7 +54,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#managed_instance_group_ids OsManagementHubDynamicSet#managed_instance_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#managed_instance_group_ids OsManagementHubDynamicSet#managed_instance_group_ids}.</summary>
         [JsiiProperty(name: "managedInstanceGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ManagedInstanceGroupIds
@@ -65,7 +65,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#managed_instance_ids OsManagementHubDynamicSet#managed_instance_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#managed_instance_ids OsManagementHubDynamicSet#managed_instance_ids}.</summary>
         [JsiiProperty(name: "managedInstanceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ManagedInstanceIds
@@ -76,7 +76,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#os_families OsManagementHubDynamicSet#os_families}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#os_families OsManagementHubDynamicSet#os_families}.</summary>
         [JsiiProperty(name: "osFamilies", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? OsFamilies
@@ -87,7 +87,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#os_names OsManagementHubDynamicSet#os_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#os_names OsManagementHubDynamicSet#os_names}.</summary>
         [JsiiProperty(name: "osNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? OsNames
@@ -98,7 +98,7 @@ namespace oci.OsManagementHubDynamicSet
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#statuses OsManagementHubDynamicSet#statuses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#statuses OsManagementHubDynamicSet#statuses}.</summary>
         [JsiiProperty(name: "statuses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Statuses
@@ -111,7 +111,7 @@ namespace oci.OsManagementHubDynamicSet
 
         /// <summary>tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#tags OsManagementHubDynamicSet#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#tags OsManagementHubDynamicSet#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubDynamicSet.IOsManagementHubDynamicSetMatchingRuleTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.osManagementHubDynamicSet.OsManagementHubDynamicSetMatchingRuleTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -131,7 +131,7 @@ namespace oci.OsManagementHubDynamicSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#architectures OsManagementHubDynamicSet#architectures}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#architectures OsManagementHubDynamicSet#architectures}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "architectures", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Architectures
@@ -139,7 +139,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#display_names OsManagementHubDynamicSet#display_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#display_names OsManagementHubDynamicSet#display_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DisplayNames
@@ -147,7 +147,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#is_reboot_required OsManagementHubDynamicSet#is_reboot_required}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#is_reboot_required OsManagementHubDynamicSet#is_reboot_required}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -158,7 +158,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#locations OsManagementHubDynamicSet#locations}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#locations OsManagementHubDynamicSet#locations}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "locations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Locations
@@ -166,7 +166,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#managed_instance_group_ids OsManagementHubDynamicSet#managed_instance_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#managed_instance_group_ids OsManagementHubDynamicSet#managed_instance_group_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managedInstanceGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ManagedInstanceGroupIds
@@ -174,7 +174,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#managed_instance_ids OsManagementHubDynamicSet#managed_instance_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#managed_instance_ids OsManagementHubDynamicSet#managed_instance_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "managedInstanceIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ManagedInstanceIds
@@ -182,7 +182,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#os_families OsManagementHubDynamicSet#os_families}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#os_families OsManagementHubDynamicSet#os_families}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "osFamilies", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? OsFamilies
@@ -190,7 +190,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#os_names OsManagementHubDynamicSet#os_names}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#os_names OsManagementHubDynamicSet#os_names}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "osNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? OsNames
@@ -198,7 +198,7 @@ namespace oci.OsManagementHubDynamicSet
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#statuses OsManagementHubDynamicSet#statuses}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#statuses OsManagementHubDynamicSet#statuses}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "statuses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Statuses
@@ -208,7 +208,7 @@ namespace oci.OsManagementHubDynamicSet
 
             /// <summary>tags block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/os_management_hub_dynamic_set#tags OsManagementHubDynamicSet#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/os_management_hub_dynamic_set#tags OsManagementHubDynamicSet#tags}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OsManagementHubDynamicSet.IOsManagementHubDynamicSetMatchingRuleTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]

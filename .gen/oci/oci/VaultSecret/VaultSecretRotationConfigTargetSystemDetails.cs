@@ -9,7 +9,7 @@ namespace oci.VaultSecret
     [JsiiByValue(fqn: "oci.vaultSecret.VaultSecretRotationConfigTargetSystemDetails")]
     public class VaultSecretRotationConfigTargetSystemDetails : oci.VaultSecret.IVaultSecretRotationConfigTargetSystemDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/vault_secret#target_system_type VaultSecret#target_system_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/vault_secret#target_system_type VaultSecret#target_system_type}.</summary>
         [JsiiProperty(name: "targetSystemType", typeJson: "{\"primitive\":\"string\"}")]
         public string TargetSystemType
         {
@@ -17,7 +17,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/vault_secret#adb_id VaultSecret#adb_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/vault_secret#adb_id VaultSecret#adb_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "adbId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AdbId
@@ -26,7 +26,7 @@ namespace oci.VaultSecret
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/vault_secret#function_id VaultSecret#function_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/vault_secret#function_id VaultSecret#function_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "functionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FunctionId

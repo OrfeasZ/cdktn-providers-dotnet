@@ -7,14 +7,14 @@ namespace oci.OpsiChargebackPlan
     [JsiiInterface(nativeType: typeof(IOpsiChargebackPlanConfig), fullyQualifiedName: "oci.opsiChargebackPlan.OpsiChargebackPlanConfig")]
     public interface IOpsiChargebackPlanConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#compartment_id OpsiChargebackPlan#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#compartment_id OpsiChargebackPlan#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#entity_source OpsiChargebackPlan#entity_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#entity_source OpsiChargebackPlan#entity_source}.</summary>
         [JsiiProperty(name: "entitySource", typeJson: "{\"primitive\":\"string\"}")]
         string EntitySource
         {
@@ -23,7 +23,7 @@ namespace oci.OpsiChargebackPlan
 
         /// <summary>plan_custom_items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_custom_items OpsiChargebackPlan#plan_custom_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_custom_items OpsiChargebackPlan#plan_custom_items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OpsiChargebackPlan.IOpsiChargebackPlanPlanCustomItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "planCustomItems", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.opsiChargebackPlan.OpsiChargebackPlanPlanCustomItems\"},\"kind\":\"array\"}}]}}")]
@@ -32,28 +32,28 @@ namespace oci.OpsiChargebackPlan
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_description OpsiChargebackPlan#plan_description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_description OpsiChargebackPlan#plan_description}.</summary>
         [JsiiProperty(name: "planDescription", typeJson: "{\"primitive\":\"string\"}")]
         string PlanDescription
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_name OpsiChargebackPlan#plan_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_name OpsiChargebackPlan#plan_name}.</summary>
         [JsiiProperty(name: "planName", typeJson: "{\"primitive\":\"string\"}")]
         string PlanName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_type OpsiChargebackPlan#plan_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_type OpsiChargebackPlan#plan_type}.</summary>
         [JsiiProperty(name: "planType", typeJson: "{\"primitive\":\"string\"}")]
         string PlanType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#defined_tags OpsiChargebackPlan#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#defined_tags OpsiChargebackPlan#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -64,7 +64,7 @@ namespace oci.OpsiChargebackPlan
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#freeform_tags OpsiChargebackPlan#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#freeform_tags OpsiChargebackPlan#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -75,7 +75,7 @@ namespace oci.OpsiChargebackPlan
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#id OpsiChargebackPlan#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#id OpsiChargebackPlan#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -92,7 +92,7 @@ namespace oci.OpsiChargebackPlan
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#timeouts OpsiChargebackPlan#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#timeouts OpsiChargebackPlan#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opsiChargebackPlan.OpsiChargebackPlanTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,14 +111,14 @@ namespace oci.OpsiChargebackPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#compartment_id OpsiChargebackPlan#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#compartment_id OpsiChargebackPlan#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#entity_source OpsiChargebackPlan#entity_source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#entity_source OpsiChargebackPlan#entity_source}.</summary>
             [JsiiProperty(name: "entitySource", typeJson: "{\"primitive\":\"string\"}")]
             public string EntitySource
             {
@@ -127,7 +127,7 @@ namespace oci.OpsiChargebackPlan
 
             /// <summary>plan_custom_items block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_custom_items OpsiChargebackPlan#plan_custom_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_custom_items OpsiChargebackPlan#plan_custom_items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OpsiChargebackPlan.IOpsiChargebackPlanPlanCustomItems" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "planCustomItems", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.opsiChargebackPlan.OpsiChargebackPlanPlanCustomItems\"},\"kind\":\"array\"}}]}}")]
@@ -136,28 +136,28 @@ namespace oci.OpsiChargebackPlan
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_description OpsiChargebackPlan#plan_description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_description OpsiChargebackPlan#plan_description}.</summary>
             [JsiiProperty(name: "planDescription", typeJson: "{\"primitive\":\"string\"}")]
             public string PlanDescription
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_name OpsiChargebackPlan#plan_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_name OpsiChargebackPlan#plan_name}.</summary>
             [JsiiProperty(name: "planName", typeJson: "{\"primitive\":\"string\"}")]
             public string PlanName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#plan_type OpsiChargebackPlan#plan_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#plan_type OpsiChargebackPlan#plan_type}.</summary>
             [JsiiProperty(name: "planType", typeJson: "{\"primitive\":\"string\"}")]
             public string PlanType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#defined_tags OpsiChargebackPlan#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#defined_tags OpsiChargebackPlan#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -165,7 +165,7 @@ namespace oci.OpsiChargebackPlan
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#freeform_tags OpsiChargebackPlan#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#freeform_tags OpsiChargebackPlan#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -173,7 +173,7 @@ namespace oci.OpsiChargebackPlan
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#id OpsiChargebackPlan#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#id OpsiChargebackPlan#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -187,7 +187,7 @@ namespace oci.OpsiChargebackPlan
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/opsi_chargeback_plan#timeouts OpsiChargebackPlan#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/opsi_chargeback_plan#timeouts OpsiChargebackPlan#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opsiChargebackPlan.OpsiChargebackPlanTimeouts\"}", isOptional: true)]

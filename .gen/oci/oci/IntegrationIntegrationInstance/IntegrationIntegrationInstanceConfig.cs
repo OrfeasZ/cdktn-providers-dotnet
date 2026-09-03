@@ -9,7 +9,7 @@ namespace oci.IntegrationIntegrationInstance
     [JsiiByValue(fqn: "oci.integrationIntegrationInstance.IntegrationIntegrationInstanceConfig")]
     public class IntegrationIntegrationInstanceConfig : oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#compartment_id IntegrationIntegrationInstance#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#compartment_id IntegrationIntegrationInstance#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#display_name IntegrationIntegrationInstance#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#display_name IntegrationIntegrationInstance#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#integration_instance_type IntegrationIntegrationInstance#integration_instance_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#integration_instance_type IntegrationIntegrationInstance#integration_instance_type}.</summary>
         [JsiiProperty(name: "integrationInstanceType", typeJson: "{\"primitive\":\"string\"}")]
         public string IntegrationInstanceType
         {
@@ -35,7 +35,7 @@ namespace oci.IntegrationIntegrationInstance
 
         private object _isByol;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#is_byol IntegrationIntegrationInstance#is_byol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#is_byol IntegrationIntegrationInstance#is_byol}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -66,7 +66,7 @@ namespace oci.IntegrationIntegrationInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#message_packs IntegrationIntegrationInstance#message_packs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#message_packs IntegrationIntegrationInstance#message_packs}.</summary>
         [JsiiProperty(name: "messagePacks", typeJson: "{\"primitive\":\"number\"}")]
         public double MessagePacks
         {
@@ -78,7 +78,7 @@ namespace oci.IntegrationIntegrationInstance
 
         /// <summary>alternate_custom_endpoints block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#alternate_custom_endpoints IntegrationIntegrationInstance#alternate_custom_endpoints}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#alternate_custom_endpoints IntegrationIntegrationInstance#alternate_custom_endpoints}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IntegrationIntegrationInstance.IIntegrationIntegrationInstanceAlternateCustomEndpoints" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -109,7 +109,7 @@ namespace oci.IntegrationIntegrationInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#attachment_type IntegrationIntegrationInstance#attachment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#attachment_type IntegrationIntegrationInstance#attachment_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "attachmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AttachmentType
@@ -118,7 +118,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#consumption_model IntegrationIntegrationInstance#consumption_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#consumption_model IntegrationIntegrationInstance#consumption_model}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "consumptionModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ConsumptionModel
@@ -127,7 +127,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#convert_instance_trigger IntegrationIntegrationInstance#convert_instance_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#convert_instance_trigger IntegrationIntegrationInstance#convert_instance_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "convertInstanceTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ConvertInstanceTrigger
@@ -138,7 +138,7 @@ namespace oci.IntegrationIntegrationInstance
 
         /// <summary>custom_endpoint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#custom_endpoint IntegrationIntegrationInstance#custom_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#custom_endpoint IntegrationIntegrationInstance#custom_endpoint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customEndpoint", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceCustomEndpoint\"}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#data_retention_period IntegrationIntegrationInstance#data_retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#data_retention_period IntegrationIntegrationInstance#data_retention_period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataRetentionPeriod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataRetentionPeriod
@@ -157,7 +157,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#defined_tags IntegrationIntegrationInstance#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#defined_tags IntegrationIntegrationInstance#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -166,7 +166,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#disable_process_automation_trigger IntegrationIntegrationInstance#disable_process_automation_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#disable_process_automation_trigger IntegrationIntegrationInstance#disable_process_automation_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "disableProcessAutomationTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DisableProcessAutomationTrigger
@@ -175,7 +175,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#domain_id IntegrationIntegrationInstance#domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#domain_id IntegrationIntegrationInstance#domain_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DomainId
@@ -184,7 +184,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#enable_process_automation_trigger IntegrationIntegrationInstance#enable_process_automation_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#enable_process_automation_trigger IntegrationIntegrationInstance#enable_process_automation_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enableProcessAutomationTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? EnableProcessAutomationTrigger
@@ -193,7 +193,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#extend_data_retention_trigger IntegrationIntegrationInstance#extend_data_retention_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#extend_data_retention_trigger IntegrationIntegrationInstance#extend_data_retention_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "extendDataRetentionTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ExtendDataRetentionTrigger
@@ -202,7 +202,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#failover_trigger IntegrationIntegrationInstance#failover_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#failover_trigger IntegrationIntegrationInstance#failover_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "failoverTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? FailoverTrigger
@@ -211,7 +211,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#freeform_tags IntegrationIntegrationInstance#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#freeform_tags IntegrationIntegrationInstance#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -220,7 +220,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#id IntegrationIntegrationInstance#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#id IntegrationIntegrationInstance#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -233,7 +233,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#idcs_at IntegrationIntegrationInstance#idcs_at}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#idcs_at IntegrationIntegrationInstance#idcs_at}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idcsAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdcsAt
@@ -244,7 +244,7 @@ namespace oci.IntegrationIntegrationInstance
 
         private object? _isDisasterRecoveryEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#is_disaster_recovery_enabled IntegrationIntegrationInstance#is_disaster_recovery_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#is_disaster_recovery_enabled IntegrationIntegrationInstance#is_disaster_recovery_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -278,7 +278,7 @@ namespace oci.IntegrationIntegrationInstance
 
         private object? _isFileServerEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#is_file_server_enabled IntegrationIntegrationInstance#is_file_server_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#is_file_server_enabled IntegrationIntegrationInstance#is_file_server_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -312,7 +312,7 @@ namespace oci.IntegrationIntegrationInstance
 
         private object? _isVisualBuilderEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#is_visual_builder_enabled IntegrationIntegrationInstance#is_visual_builder_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#is_visual_builder_enabled IntegrationIntegrationInstance#is_visual_builder_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -344,7 +344,7 @@ namespace oci.IntegrationIntegrationInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#log_group_id IntegrationIntegrationInstance#log_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#log_group_id IntegrationIntegrationInstance#log_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LogGroupId
@@ -355,7 +355,7 @@ namespace oci.IntegrationIntegrationInstance
 
         /// <summary>network_endpoint_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#network_endpoint_details IntegrationIntegrationInstance#network_endpoint_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#network_endpoint_details IntegrationIntegrationInstance#network_endpoint_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkEndpointDetails", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceNetworkEndpointDetails\"}", isOptional: true)]
@@ -365,7 +365,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#security_attributes IntegrationIntegrationInstance#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#security_attributes IntegrationIntegrationInstance#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -374,7 +374,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#shape IntegrationIntegrationInstance#shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#shape IntegrationIntegrationInstance#shape}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "shape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Shape
@@ -383,7 +383,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#state IntegrationIntegrationInstance#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#state IntegrationIntegrationInstance#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -392,7 +392,7 @@ namespace oci.IntegrationIntegrationInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#system_tags IntegrationIntegrationInstance#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#system_tags IntegrationIntegrationInstance#system_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -403,7 +403,7 @@ namespace oci.IntegrationIntegrationInstance
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/integration_integration_instance#timeouts IntegrationIntegrationInstance#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/integration_integration_instance#timeouts IntegrationIntegrationInstance#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.integrationIntegrationInstance.IntegrationIntegrationInstanceTimeouts\"}", isOptional: true)]

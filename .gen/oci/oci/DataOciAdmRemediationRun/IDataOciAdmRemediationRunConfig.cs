@@ -7,7 +7,7 @@ namespace oci.DataOciAdmRemediationRun
     [JsiiInterface(nativeType: typeof(IDataOciAdmRemediationRunConfig), fullyQualifiedName: "oci.dataOciAdmRemediationRun.DataOciAdmRemediationRunConfig")]
     public interface IDataOciAdmRemediationRunConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/adm_remediation_run#remediation_run_id DataOciAdmRemediationRun#remediation_run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/adm_remediation_run#remediation_run_id DataOciAdmRemediationRun#remediation_run_id}.</summary>
         [JsiiProperty(name: "remediationRunId", typeJson: "{\"primitive\":\"string\"}")]
         string RemediationRunId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciAdmRemediationRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/adm_remediation_run#remediation_run_id DataOciAdmRemediationRun#remediation_run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/adm_remediation_run#remediation_run_id DataOciAdmRemediationRun#remediation_run_id}.</summary>
             [JsiiProperty(name: "remediationRunId", typeJson: "{\"primitive\":\"string\"}")]
             public string RemediationRunId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciContainerengineWorkRequestLogEntries
     [JsiiByValue(fqn: "oci.dataOciContainerengineWorkRequestLogEntries.DataOciContainerengineWorkRequestLogEntriesConfig")]
     public class DataOciContainerengineWorkRequestLogEntriesConfig : oci.DataOciContainerengineWorkRequestLogEntries.IDataOciContainerengineWorkRequestLogEntriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/containerengine_work_request_log_entries#compartment_id DataOciContainerengineWorkRequestLogEntries#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/containerengine_work_request_log_entries#compartment_id DataOciContainerengineWorkRequestLogEntries#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciContainerengineWorkRequestLogEntries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/containerengine_work_request_log_entries#work_request_id DataOciContainerengineWorkRequestLogEntries#work_request_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/containerengine_work_request_log_entries#work_request_id DataOciContainerengineWorkRequestLogEntries#work_request_id}.</summary>
         [JsiiProperty(name: "workRequestId", typeJson: "{\"primitive\":\"string\"}")]
         public string WorkRequestId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciContainerengineWorkRequestLogEntries
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/containerengine_work_request_log_entries#filter DataOciContainerengineWorkRequestLogEntries#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/containerengine_work_request_log_entries#filter DataOciContainerengineWorkRequestLogEntries#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciContainerengineWorkRequestLogEntries.IDataOciContainerengineWorkRequestLogEntriesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciContainerengineWorkRequestLogEntries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/containerengine_work_request_log_entries#id DataOciContainerengineWorkRequestLogEntries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/containerengine_work_request_log_entries#id DataOciContainerengineWorkRequestLogEntries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

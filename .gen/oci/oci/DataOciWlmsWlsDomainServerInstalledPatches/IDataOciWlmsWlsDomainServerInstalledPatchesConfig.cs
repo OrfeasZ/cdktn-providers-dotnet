@@ -7,14 +7,14 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
     [JsiiInterface(nativeType: typeof(IDataOciWlmsWlsDomainServerInstalledPatchesConfig), fullyQualifiedName: "oci.dataOciWlmsWlsDomainServerInstalledPatches.DataOciWlmsWlsDomainServerInstalledPatchesConfig")]
     public interface IDataOciWlmsWlsDomainServerInstalledPatchesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#server_id DataOciWlmsWlsDomainServerInstalledPatches#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#server_id DataOciWlmsWlsDomainServerInstalledPatches#server_id}.</summary>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
         string ServerId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#wls_domain_id DataOciWlmsWlsDomainServerInstalledPatches#wls_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#wls_domain_id DataOciWlmsWlsDomainServerInstalledPatches#wls_domain_id}.</summary>
         [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string WlsDomainId
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#filter DataOciWlmsWlsDomainServerInstalledPatches#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#filter DataOciWlmsWlsDomainServerInstalledPatches#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainServerInstalledPatches.IDataOciWlmsWlsDomainServerInstalledPatchesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciWlmsWlsDomainServerInstalledPatches.DataOciWlmsWlsDomainServerInstalledPatchesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#id DataOciWlmsWlsDomainServerInstalledPatches#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#id DataOciWlmsWlsDomainServerInstalledPatches#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,14 +58,14 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#server_id DataOciWlmsWlsDomainServerInstalledPatches#server_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#server_id DataOciWlmsWlsDomainServerInstalledPatches#server_id}.</summary>
             [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServerId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#wls_domain_id DataOciWlmsWlsDomainServerInstalledPatches#wls_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#wls_domain_id DataOciWlmsWlsDomainServerInstalledPatches#wls_domain_id}.</summary>
             [JsiiProperty(name: "wlsDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string WlsDomainId
             {
@@ -74,7 +74,7 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#filter DataOciWlmsWlsDomainServerInstalledPatches#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#filter DataOciWlmsWlsDomainServerInstalledPatches#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciWlmsWlsDomainServerInstalledPatches.IDataOciWlmsWlsDomainServerInstalledPatchesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -84,7 +84,7 @@ namespace oci.DataOciWlmsWlsDomainServerInstalledPatches
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/wlms_wls_domain_server_installed_patches#id DataOciWlmsWlsDomainServerInstalledPatches#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/wlms_wls_domain_server_installed_patches#id DataOciWlmsWlsDomainServerInstalledPatches#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

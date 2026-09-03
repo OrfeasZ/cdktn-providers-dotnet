@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiAgentDataIngestionJobs.DataOciGenerativeAiAgentDataIngestionJobsConfig")]
     public class DataOciGenerativeAiAgentDataIngestionJobsConfig : oci.DataOciGenerativeAiAgentDataIngestionJobs.IDataOciGenerativeAiAgentDataIngestionJobsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#compartment_id DataOciGenerativeAiAgentDataIngestionJobs#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#compartment_id DataOciGenerativeAiAgentDataIngestionJobs#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#data_source_id DataOciGenerativeAiAgentDataIngestionJobs#data_source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#data_source_id DataOciGenerativeAiAgentDataIngestionJobs#data_source_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DataSourceId
@@ -25,7 +25,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#display_name DataOciGenerativeAiAgentDataIngestionJobs#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#display_name DataOciGenerativeAiAgentDataIngestionJobs#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#filter DataOciGenerativeAiAgentDataIngestionJobs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#filter DataOciGenerativeAiAgentDataIngestionJobs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiAgentDataIngestionJobs.IDataOciGenerativeAiAgentDataIngestionJobsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#id DataOciGenerativeAiAgentDataIngestionJobs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#id DataOciGenerativeAiAgentDataIngestionJobs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciGenerativeAiAgentDataIngestionJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#state DataOciGenerativeAiAgentDataIngestionJobs#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/generative_ai_agent_data_ingestion_jobs#state DataOciGenerativeAiAgentDataIngestionJobs#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

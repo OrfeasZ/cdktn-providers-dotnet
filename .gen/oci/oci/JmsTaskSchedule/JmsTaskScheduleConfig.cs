@@ -9,7 +9,7 @@ namespace oci.JmsTaskSchedule
     [JsiiByValue(fqn: "oci.jmsTaskSchedule.JmsTaskScheduleConfig")]
     public class JmsTaskScheduleConfig : oci.JmsTaskSchedule.IJmsTaskScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#execution_recurrences JmsTaskSchedule#execution_recurrences}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#execution_recurrences JmsTaskSchedule#execution_recurrences}.</summary>
         [JsiiProperty(name: "executionRecurrences", typeJson: "{\"primitive\":\"string\"}")]
         public string ExecutionRecurrences
         {
@@ -17,7 +17,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#fleet_id JmsTaskSchedule#fleet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#fleet_id JmsTaskSchedule#fleet_id}.</summary>
         [JsiiProperty(name: "fleetId", typeJson: "{\"primitive\":\"string\"}")]
         public string FleetId
         {
@@ -27,7 +27,7 @@ namespace oci.JmsTaskSchedule
 
         /// <summary>task_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#task_details JmsTaskSchedule#task_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#task_details JmsTaskSchedule#task_details}
         /// </remarks>
         [JsiiProperty(name: "taskDetails", typeJson: "{\"fqn\":\"oci.jmsTaskSchedule.JmsTaskScheduleTaskDetails\"}")]
         public oci.JmsTaskSchedule.IJmsTaskScheduleTaskDetails TaskDetails
@@ -36,7 +36,7 @@ namespace oci.JmsTaskSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#id JmsTaskSchedule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#id JmsTaskSchedule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.JmsTaskSchedule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/jms_task_schedule#timeouts JmsTaskSchedule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/jms_task_schedule#timeouts JmsTaskSchedule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.jmsTaskSchedule.JmsTaskScheduleTimeouts\"}", isOptional: true)]

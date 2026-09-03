@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousDatabase
     [JsiiByValue(fqn: "oci.databaseAutonomousDatabase.DatabaseAutonomousDatabaseScheduledOperationsDayOfWeek")]
     public class DatabaseAutonomousDatabaseScheduledOperationsDayOfWeek : oci.DatabaseAutonomousDatabase.IDatabaseAutonomousDatabaseScheduledOperationsDayOfWeek
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_autonomous_database#name DatabaseAutonomousDatabase#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_autonomous_database#name DatabaseAutonomousDatabase#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

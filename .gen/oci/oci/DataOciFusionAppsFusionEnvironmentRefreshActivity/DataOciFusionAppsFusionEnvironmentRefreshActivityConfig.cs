@@ -9,7 +9,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivity
     [JsiiByValue(fqn: "oci.dataOciFusionAppsFusionEnvironmentRefreshActivity.DataOciFusionAppsFusionEnvironmentRefreshActivityConfig")]
     public class DataOciFusionAppsFusionEnvironmentRefreshActivityConfig : oci.DataOciFusionAppsFusionEnvironmentRefreshActivity.IDataOciFusionAppsFusionEnvironmentRefreshActivityConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivity#fusion_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#fusion_environment_id DataOciFusionAppsFusionEnvironmentRefreshActivity#fusion_environment_id}.</summary>
         [JsiiProperty(name: "fusionEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string FusionEnvironmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFusionAppsFusionEnvironmentRefreshActivity
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#refresh_activity_id DataOciFusionAppsFusionEnvironmentRefreshActivity#refresh_activity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/fusion_apps_fusion_environment_refresh_activity#refresh_activity_id DataOciFusionAppsFusionEnvironmentRefreshActivity#refresh_activity_id}.</summary>
         [JsiiProperty(name: "refreshActivityId", typeJson: "{\"primitive\":\"string\"}")]
         public string RefreshActivityId
         {

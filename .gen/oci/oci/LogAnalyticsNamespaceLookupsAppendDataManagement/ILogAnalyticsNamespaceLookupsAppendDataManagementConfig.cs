@@ -7,28 +7,28 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
     [JsiiInterface(nativeType: typeof(ILogAnalyticsNamespaceLookupsAppendDataManagementConfig), fullyQualifiedName: "oci.logAnalyticsNamespaceLookupsAppendDataManagement.LogAnalyticsNamespaceLookupsAppendDataManagementConfig")]
     public interface ILogAnalyticsNamespaceLookupsAppendDataManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#append_lookup_file LogAnalyticsNamespaceLookupsAppendDataManagement#append_lookup_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#append_lookup_file LogAnalyticsNamespaceLookupsAppendDataManagement#append_lookup_file}.</summary>
         [JsiiProperty(name: "appendLookupFile", typeJson: "{\"primitive\":\"string\"}")]
         string AppendLookupFile
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#lookup_name LogAnalyticsNamespaceLookupsAppendDataManagement#lookup_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#lookup_name LogAnalyticsNamespaceLookupsAppendDataManagement#lookup_name}.</summary>
         [JsiiProperty(name: "lookupName", typeJson: "{\"primitive\":\"string\"}")]
         string LookupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#namespace LogAnalyticsNamespaceLookupsAppendDataManagement#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#namespace LogAnalyticsNamespaceLookupsAppendDataManagement#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         string Namespace
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#char_encoding LogAnalyticsNamespaceLookupsAppendDataManagement#char_encoding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#char_encoding LogAnalyticsNamespaceLookupsAppendDataManagement#char_encoding}.</summary>
         [JsiiProperty(name: "charEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CharEncoding
@@ -39,7 +39,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#expect LogAnalyticsNamespaceLookupsAppendDataManagement#expect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#expect LogAnalyticsNamespaceLookupsAppendDataManagement#expect}.</summary>
         [JsiiProperty(name: "expect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Expect
@@ -50,7 +50,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#id LogAnalyticsNamespaceLookupsAppendDataManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#id LogAnalyticsNamespaceLookupsAppendDataManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#is_force LogAnalyticsNamespaceLookupsAppendDataManagement#is_force}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#is_force LogAnalyticsNamespaceLookupsAppendDataManagement#is_force}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -81,7 +81,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#timeouts LogAnalyticsNamespaceLookupsAppendDataManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#timeouts LogAnalyticsNamespaceLookupsAppendDataManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsNamespaceLookupsAppendDataManagement.LogAnalyticsNamespaceLookupsAppendDataManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,28 +100,28 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#append_lookup_file LogAnalyticsNamespaceLookupsAppendDataManagement#append_lookup_file}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#append_lookup_file LogAnalyticsNamespaceLookupsAppendDataManagement#append_lookup_file}.</summary>
             [JsiiProperty(name: "appendLookupFile", typeJson: "{\"primitive\":\"string\"}")]
             public string AppendLookupFile
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#lookup_name LogAnalyticsNamespaceLookupsAppendDataManagement#lookup_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#lookup_name LogAnalyticsNamespaceLookupsAppendDataManagement#lookup_name}.</summary>
             [JsiiProperty(name: "lookupName", typeJson: "{\"primitive\":\"string\"}")]
             public string LookupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#namespace LogAnalyticsNamespaceLookupsAppendDataManagement#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#namespace LogAnalyticsNamespaceLookupsAppendDataManagement#namespace}.</summary>
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
             public string Namespace
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#char_encoding LogAnalyticsNamespaceLookupsAppendDataManagement#char_encoding}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#char_encoding LogAnalyticsNamespaceLookupsAppendDataManagement#char_encoding}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "charEncoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CharEncoding
@@ -129,7 +129,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#expect LogAnalyticsNamespaceLookupsAppendDataManagement#expect}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#expect LogAnalyticsNamespaceLookupsAppendDataManagement#expect}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expect", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Expect
@@ -137,7 +137,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#id LogAnalyticsNamespaceLookupsAppendDataManagement#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#id LogAnalyticsNamespaceLookupsAppendDataManagement#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -149,7 +149,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#is_force LogAnalyticsNamespaceLookupsAppendDataManagement#is_force}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#is_force LogAnalyticsNamespaceLookupsAppendDataManagement#is_force}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -162,7 +162,7 @@ namespace oci.LogAnalyticsNamespaceLookupsAppendDataManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/log_analytics_namespace_lookups_append_data_management#timeouts LogAnalyticsNamespaceLookupsAppendDataManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/log_analytics_namespace_lookups_append_data_management#timeouts LogAnalyticsNamespaceLookupsAppendDataManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.logAnalyticsNamespaceLookupsAppendDataManagement.LogAnalyticsNamespaceLookupsAppendDataManagementTimeouts\"}", isOptional: true)]

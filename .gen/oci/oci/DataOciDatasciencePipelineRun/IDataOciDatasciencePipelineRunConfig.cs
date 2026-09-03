@@ -7,7 +7,7 @@ namespace oci.DataOciDatasciencePipelineRun
     [JsiiInterface(nativeType: typeof(IDataOciDatasciencePipelineRunConfig), fullyQualifiedName: "oci.dataOciDatasciencePipelineRun.DataOciDatasciencePipelineRunConfig")]
     public interface IDataOciDatasciencePipelineRunConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_pipeline_run#pipeline_run_id DataOciDatasciencePipelineRun#pipeline_run_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_pipeline_run#pipeline_run_id DataOciDatasciencePipelineRun#pipeline_run_id}.</summary>
         [JsiiProperty(name: "pipelineRunId", typeJson: "{\"primitive\":\"string\"}")]
         string PipelineRunId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatasciencePipelineRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_pipeline_run#pipeline_run_id DataOciDatasciencePipelineRun#pipeline_run_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_pipeline_run#pipeline_run_id DataOciDatasciencePipelineRun#pipeline_run_id}.</summary>
             [JsiiProperty(name: "pipelineRunId", typeJson: "{\"primitive\":\"string\"}")]
             public string PipelineRunId
             {

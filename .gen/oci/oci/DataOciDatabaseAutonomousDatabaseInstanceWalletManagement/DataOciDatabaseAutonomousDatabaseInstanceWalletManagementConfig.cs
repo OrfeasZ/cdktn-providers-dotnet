@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseInstanceWalletManagement
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabaseInstanceWalletManagement.DataOciDatabaseAutonomousDatabaseInstanceWalletManagementConfig")]
     public class DataOciDatabaseAutonomousDatabaseInstanceWalletManagementConfig : oci.DataOciDatabaseAutonomousDatabaseInstanceWalletManagement.IDataOciDatabaseAutonomousDatabaseInstanceWalletManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_autonomous_database_instance_wallet_management#autonomous_database_id DataOciDatabaseAutonomousDatabaseInstanceWalletManagement#autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_database_instance_wallet_management#autonomous_database_id DataOciDatabaseAutonomousDatabaseInstanceWalletManagement#autonomous_database_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousDatabaseId
         {

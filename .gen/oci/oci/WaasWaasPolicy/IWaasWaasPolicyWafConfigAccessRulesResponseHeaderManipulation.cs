@@ -7,21 +7,21 @@ namespace oci.WaasWaasPolicy
     [JsiiInterface(nativeType: typeof(IWaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation), fullyQualifiedName: "oci.waasWaasPolicy.WaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation")]
     public interface IWaasWaasPolicyWafConfigAccessRulesResponseHeaderManipulation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         string Action
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#header WaasWaasPolicy#header}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#header WaasWaasPolicy#header}.</summary>
         [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}")]
         string Header
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Value
@@ -39,21 +39,21 @@ namespace oci.WaasWaasPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#action WaasWaasPolicy#action}.</summary>
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
             public string Action
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#header WaasWaasPolicy#header}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#header WaasWaasPolicy#header}.</summary>
             [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}")]
             public string Header
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waas_waas_policy#value WaasWaasPolicy#value}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Value

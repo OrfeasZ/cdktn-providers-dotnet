@@ -7,28 +7,28 @@ namespace oci.DbmulticloudOracleDbAzureVault
     [JsiiInterface(nativeType: typeof(IDbmulticloudOracleDbAzureVaultConfig), fullyQualifiedName: "oci.dbmulticloudOracleDbAzureVault.DbmulticloudOracleDbAzureVaultConfig")]
     public interface IDbmulticloudOracleDbAzureVaultConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#compartment_id DbmulticloudOracleDbAzureVault#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#compartment_id DbmulticloudOracleDbAzureVault#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#display_name DbmulticloudOracleDbAzureVault#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#display_name DbmulticloudOracleDbAzureVault#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_connector_id DbmulticloudOracleDbAzureVault#oracle_db_connector_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_connector_id DbmulticloudOracleDbAzureVault#oracle_db_connector_id}.</summary>
         [JsiiProperty(name: "oracleDbConnectorId", typeJson: "{\"primitive\":\"string\"}")]
         string OracleDbConnectorId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#action DbmulticloudOracleDbAzureVault#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#action DbmulticloudOracleDbAzureVault#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Action
@@ -39,7 +39,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#azure_vault_id DbmulticloudOracleDbAzureVault#azure_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#azure_vault_id DbmulticloudOracleDbAzureVault#azure_vault_id}.</summary>
         [JsiiProperty(name: "azureVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AzureVaultId
@@ -50,7 +50,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#defined_tags DbmulticloudOracleDbAzureVault#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#defined_tags DbmulticloudOracleDbAzureVault#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -61,7 +61,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#freeform_tags DbmulticloudOracleDbAzureVault#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#freeform_tags DbmulticloudOracleDbAzureVault#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -72,7 +72,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#id DbmulticloudOracleDbAzureVault#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#id DbmulticloudOracleDbAzureVault#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,7 +87,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#location DbmulticloudOracleDbAzureVault#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#location DbmulticloudOracleDbAzureVault#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Location
@@ -98,7 +98,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_resource_group DbmulticloudOracleDbAzureVault#oracle_db_azure_resource_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_resource_group DbmulticloudOracleDbAzureVault#oracle_db_azure_resource_group}.</summary>
         [JsiiProperty(name: "oracleDbAzureResourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OracleDbAzureResourceGroup
@@ -109,7 +109,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#properties DbmulticloudOracleDbAzureVault#properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#properties DbmulticloudOracleDbAzureVault#properties}.</summary>
         [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Properties
@@ -120,7 +120,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#target_region DbmulticloudOracleDbAzureVault#target_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#target_region DbmulticloudOracleDbAzureVault#target_region}.</summary>
         [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetRegion
@@ -133,7 +133,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#timeouts DbmulticloudOracleDbAzureVault#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#timeouts DbmulticloudOracleDbAzureVault#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAzureVault.DbmulticloudOracleDbAzureVaultTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -145,7 +145,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#type DbmulticloudOracleDbAzureVault#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#type DbmulticloudOracleDbAzureVault#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Type
@@ -163,28 +163,28 @@ namespace oci.DbmulticloudOracleDbAzureVault
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#compartment_id DbmulticloudOracleDbAzureVault#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#compartment_id DbmulticloudOracleDbAzureVault#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#display_name DbmulticloudOracleDbAzureVault#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#display_name DbmulticloudOracleDbAzureVault#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_connector_id DbmulticloudOracleDbAzureVault#oracle_db_connector_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_connector_id DbmulticloudOracleDbAzureVault#oracle_db_connector_id}.</summary>
             [JsiiProperty(name: "oracleDbConnectorId", typeJson: "{\"primitive\":\"string\"}")]
             public string OracleDbConnectorId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#action DbmulticloudOracleDbAzureVault#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#action DbmulticloudOracleDbAzureVault#action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Action
@@ -192,7 +192,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#azure_vault_id DbmulticloudOracleDbAzureVault#azure_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#azure_vault_id DbmulticloudOracleDbAzureVault#azure_vault_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "azureVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AzureVaultId
@@ -200,7 +200,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#defined_tags DbmulticloudOracleDbAzureVault#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#defined_tags DbmulticloudOracleDbAzureVault#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -208,7 +208,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#freeform_tags DbmulticloudOracleDbAzureVault#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#freeform_tags DbmulticloudOracleDbAzureVault#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -216,7 +216,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#id DbmulticloudOracleDbAzureVault#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#id DbmulticloudOracleDbAzureVault#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,7 +228,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#location DbmulticloudOracleDbAzureVault#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#location DbmulticloudOracleDbAzureVault#location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Location
@@ -236,7 +236,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_resource_group DbmulticloudOracleDbAzureVault#oracle_db_azure_resource_group}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_resource_group DbmulticloudOracleDbAzureVault#oracle_db_azure_resource_group}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oracleDbAzureResourceGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OracleDbAzureResourceGroup
@@ -244,7 +244,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#properties DbmulticloudOracleDbAzureVault#properties}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#properties DbmulticloudOracleDbAzureVault#properties}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "properties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Properties
@@ -252,7 +252,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#target_region DbmulticloudOracleDbAzureVault#target_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#target_region DbmulticloudOracleDbAzureVault#target_region}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetRegion
@@ -262,7 +262,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#timeouts DbmulticloudOracleDbAzureVault#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#timeouts DbmulticloudOracleDbAzureVault#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAzureVault.DbmulticloudOracleDbAzureVaultTimeouts\"}", isOptional: true)]
@@ -271,7 +271,7 @@ namespace oci.DbmulticloudOracleDbAzureVault
                 get => GetInstanceProperty<oci.DbmulticloudOracleDbAzureVault.IDbmulticloudOracleDbAzureVaultTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/dbmulticloud_oracle_db_azure_vault#type DbmulticloudOracleDbAzureVault#type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/dbmulticloud_oracle_db_azure_vault#type DbmulticloudOracleDbAzureVault#type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Type

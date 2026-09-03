@@ -9,7 +9,7 @@ namespace oci.DataOciRecoveryRecoveryServiceSubnet
     [JsiiByValue(fqn: "oci.dataOciRecoveryRecoveryServiceSubnet.DataOciRecoveryRecoveryServiceSubnetConfig")]
     public class DataOciRecoveryRecoveryServiceSubnetConfig : oci.DataOciRecoveryRecoveryServiceSubnet.IDataOciRecoveryRecoveryServiceSubnetConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/recovery_recovery_service_subnet#recovery_service_subnet_id DataOciRecoveryRecoveryServiceSubnet#recovery_service_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/recovery_recovery_service_subnet#recovery_service_subnet_id DataOciRecoveryRecoveryServiceSubnet#recovery_service_subnet_id}.</summary>
         [JsiiProperty(name: "recoveryServiceSubnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string RecoveryServiceSubnetId
         {

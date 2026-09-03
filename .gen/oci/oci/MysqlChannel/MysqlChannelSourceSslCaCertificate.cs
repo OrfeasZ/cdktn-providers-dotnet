@@ -9,7 +9,7 @@ namespace oci.MysqlChannel
     [JsiiByValue(fqn: "oci.mysqlChannel.MysqlChannelSourceSslCaCertificate")]
     public class MysqlChannelSourceSslCaCertificate : oci.MysqlChannel.IMysqlChannelSourceSslCaCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}.</summary>
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateType
         {
@@ -17,7 +17,7 @@ namespace oci.MysqlChannel
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/mysql_channel#contents MysqlChannel#contents}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/mysql_channel#contents MysqlChannel#contents}.</summary>
         [JsiiProperty(name: "contents", typeJson: "{\"primitive\":\"string\"}")]
         public string Contents
         {

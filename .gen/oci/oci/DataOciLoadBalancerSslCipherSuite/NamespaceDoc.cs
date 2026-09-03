@@ -5,7 +5,7 @@ namespace oci.DataOciLoadBalancerSslCipherSuite
     /// <remarks>
     /// <h1><c>data_oci_load_balancer_ssl_cipher_suite</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/load_balancer_ssl_cipher_suite"><c>data_oci_load_balancer_ssl_cipher_suite</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/load_balancer_ssl_cipher_suite"><c>data_oci_load_balancer_ssl_cipher_suite</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

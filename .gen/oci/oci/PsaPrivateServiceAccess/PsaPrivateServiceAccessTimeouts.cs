@@ -7,7 +7,7 @@ namespace oci.PsaPrivateServiceAccess
     [JsiiByValue(fqn: "oci.psaPrivateServiceAccess.PsaPrivateServiceAccessTimeouts")]
     public class PsaPrivateServiceAccessTimeouts : oci.PsaPrivateServiceAccess.IPsaPrivateServiceAccessTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psa_private_service_access#create PsaPrivateServiceAccess#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/psa_private_service_access#create PsaPrivateServiceAccess#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.PsaPrivateServiceAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psa_private_service_access#delete PsaPrivateServiceAccess#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/psa_private_service_access#delete PsaPrivateServiceAccess#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.PsaPrivateServiceAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/psa_private_service_access#update PsaPrivateServiceAccess#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/psa_private_service_access#update PsaPrivateServiceAccess#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

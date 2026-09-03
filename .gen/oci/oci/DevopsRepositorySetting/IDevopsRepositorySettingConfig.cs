@@ -7,7 +7,7 @@ namespace oci.DevopsRepositorySetting
     [JsiiInterface(nativeType: typeof(IDevopsRepositorySettingConfig), fullyQualifiedName: "oci.devopsRepositorySetting.DevopsRepositorySettingConfig")]
     public interface IDevopsRepositorySettingConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#repository_id DevopsRepositorySetting#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#repository_id DevopsRepositorySetting#repository_id}.</summary>
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryId
         {
@@ -16,7 +16,7 @@ namespace oci.DevopsRepositorySetting
 
         /// <summary>approval_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#approval_rules DevopsRepositorySetting#approval_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#approval_rules DevopsRepositorySetting#approval_rules}
         /// </remarks>
         [JsiiProperty(name: "approvalRules", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRules\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace oci.DevopsRepositorySetting
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#id DevopsRepositorySetting#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#id DevopsRepositorySetting#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace oci.DevopsRepositorySetting
 
         /// <summary>merge_checks block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#merge_checks DevopsRepositorySetting#merge_checks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#merge_checks DevopsRepositorySetting#merge_checks}
         /// </remarks>
         [JsiiProperty(name: "mergeChecks", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingMergeChecks\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace oci.DevopsRepositorySetting
 
         /// <summary>merge_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#merge_settings DevopsRepositorySetting#merge_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#merge_settings DevopsRepositorySetting#merge_settings}
         /// </remarks>
         [JsiiProperty(name: "mergeSettings", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingMergeSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace oci.DevopsRepositorySetting
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#timeouts DevopsRepositorySetting#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#timeouts DevopsRepositorySetting#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace oci.DevopsRepositorySetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#repository_id DevopsRepositorySetting#repository_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#repository_id DevopsRepositorySetting#repository_id}.</summary>
             [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryId
             {
@@ -101,7 +101,7 @@ namespace oci.DevopsRepositorySetting
 
             /// <summary>approval_rules block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#approval_rules DevopsRepositorySetting#approval_rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#approval_rules DevopsRepositorySetting#approval_rules}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "approvalRules", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingApprovalRules\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace oci.DevopsRepositorySetting
                 get => GetInstanceProperty<oci.DevopsRepositorySetting.IDevopsRepositorySettingApprovalRules?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#id DevopsRepositorySetting#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#id DevopsRepositorySetting#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ namespace oci.DevopsRepositorySetting
 
             /// <summary>merge_checks block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#merge_checks DevopsRepositorySetting#merge_checks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#merge_checks DevopsRepositorySetting#merge_checks}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mergeChecks", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingMergeChecks\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace oci.DevopsRepositorySetting
 
             /// <summary>merge_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#merge_settings DevopsRepositorySetting#merge_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#merge_settings DevopsRepositorySetting#merge_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mergeSettings", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingMergeSettings\"}", isOptional: true)]
@@ -146,7 +146,7 @@ namespace oci.DevopsRepositorySetting
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#timeouts DevopsRepositorySetting#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#timeouts DevopsRepositorySetting#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.devopsRepositorySetting.DevopsRepositorySettingTimeouts\"}", isOptional: true)]

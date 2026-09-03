@@ -9,7 +9,7 @@ namespace oci.GenerativeAiAgentTool
     [JsiiByValue(fqn: "oci.generativeAiAgentTool.GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSourcesHttpEndpointAuthScopeConfig")]
     public class GenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSourcesHttpEndpointAuthScopeConfig : oci.GenerativeAiAgentTool.IGenerativeAiAgentToolToolConfigHttpEndpointAuthConfigHttpEndpointAuthSourcesHttpEndpointAuthScopeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config_type GenerativeAiAgentTool#http_endpoint_auth_scope_config_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_agent_tool#http_endpoint_auth_scope_config_type GenerativeAiAgentTool#http_endpoint_auth_scope_config_type}.</summary>
         [JsiiProperty(name: "httpEndpointAuthScopeConfigType", typeJson: "{\"primitive\":\"string\"}")]
         public string HttpEndpointAuthScopeConfigType
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_tool#client_id GenerativeAiAgentTool#client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_agent_tool#client_id GenerativeAiAgentTool#client_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientId
@@ -26,7 +26,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_tool#idcs_url GenerativeAiAgentTool#idcs_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_agent_tool#idcs_url GenerativeAiAgentTool#idcs_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "idcsUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IdcsUrl
@@ -35,7 +35,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_tool#key_location GenerativeAiAgentTool#key_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_agent_tool#key_location GenerativeAiAgentTool#key_location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyLocation
@@ -44,7 +44,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_tool#key_name GenerativeAiAgentTool#key_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_agent_tool#key_name GenerativeAiAgentTool#key_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyName
@@ -53,7 +53,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_tool#scope_url GenerativeAiAgentTool#scope_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_agent_tool#scope_url GenerativeAiAgentTool#scope_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scopeUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ScopeUrl
@@ -62,7 +62,7 @@ namespace oci.GenerativeAiAgentTool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/generative_ai_agent_tool#vault_secret_id GenerativeAiAgentTool#vault_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/generative_ai_agent_tool#vault_secret_id GenerativeAiAgentTool#vault_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vaultSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VaultSecretId

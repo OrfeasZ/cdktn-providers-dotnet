@@ -7,21 +7,21 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
     [JsiiInterface(nativeType: typeof(IDataOciGoldenGateDatabaseRegistrationsFilter), fullyQualifiedName: "oci.dataOciGoldenGateDatabaseRegistrations.DataOciGoldenGateDatabaseRegistrationsFilter")]
     public interface IDataOciGoldenGateDatabaseRegistrationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_database_registrations#name DataOciGoldenGateDatabaseRegistrations#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_database_registrations#name DataOciGoldenGateDatabaseRegistrations#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_database_registrations#values DataOciGoldenGateDatabaseRegistrations#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_database_registrations#values DataOciGoldenGateDatabaseRegistrations#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_database_registrations#regex DataOciGoldenGateDatabaseRegistrations#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_database_registrations#regex DataOciGoldenGateDatabaseRegistrations#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciGoldenGateDatabaseRegistrations
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_database_registrations#name DataOciGoldenGateDatabaseRegistrations#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_database_registrations#name DataOciGoldenGateDatabaseRegistrations#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_database_registrations#values DataOciGoldenGateDatabaseRegistrations#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_database_registrations#values DataOciGoldenGateDatabaseRegistrations#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/golden_gate_database_registrations#regex DataOciGoldenGateDatabaseRegistrations#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/golden_gate_database_registrations#regex DataOciGoldenGateDatabaseRegistrations#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

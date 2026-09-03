@@ -41,6 +41,12 @@ namespace oci.IotDigitalTwinAdapter
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.IotDigitalTwinAdapter.IIotDigitalTwinAdapterInboundRoutesReferencePayload)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetContentRoot")]
+        public virtual void ResetContentRoot()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
         {
@@ -59,6 +65,12 @@ namespace oci.IotDigitalTwinAdapter
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTarget")]
+        public virtual void ResetTarget()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "referencePayload", typeJson: "{\"fqn\":\"oci.iotDigitalTwinAdapter.IotDigitalTwinAdapterInboundRoutesReferencePayloadOutputReference\"}")]
         public virtual oci.IotDigitalTwinAdapter.IotDigitalTwinAdapterInboundRoutesReferencePayloadOutputReference ReferencePayload
         {
@@ -68,6 +80,13 @@ namespace oci.IotDigitalTwinAdapter
         [JsiiOptional]
         [JsiiProperty(name: "conditionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ConditionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "contentRootInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ContentRootInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -93,8 +112,22 @@ namespace oci.IotDigitalTwinAdapter
             get => GetInstanceProperty<oci.IotDigitalTwinAdapter.IIotDigitalTwinAdapterInboundRoutesReferencePayload?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "targetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TargetInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Condition
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "contentRoot", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ContentRoot
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -111,6 +144,13 @@ namespace oci.IotDigitalTwinAdapter
         public virtual System.Collections.Generic.IDictionary<string, string> PayloadMapping
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Target
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

@@ -9,7 +9,7 @@ namespace oci.IdentityDomainsPasswordPolicy
     [JsiiByValue(fqn: "oci.identityDomainsPasswordPolicy.IdentityDomainsPasswordPolicyGroups")]
     public class IdentityDomainsPasswordPolicyGroups : oci.IdentityDomainsPasswordPolicy.IIdentityDomainsPasswordPolicyGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/identity_domains_password_policy#value IdentityDomainsPasswordPolicy#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/identity_domains_password_policy#value IdentityDomainsPasswordPolicy#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

@@ -7,7 +7,7 @@ namespace oci.FleetAppsManagementFleet
     [JsiiByValue(fqn: "oci.fleetAppsManagementFleet.FleetAppsManagementFleetResourceSelectionRuleSelectionCriteria")]
     public class FleetAppsManagementFleetResourceSelectionRuleSelectionCriteria : oci.FleetAppsManagementFleet.IFleetAppsManagementFleetResourceSelectionRuleSelectionCriteria
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_fleet#match_condition FleetAppsManagementFleet#match_condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_fleet#match_condition FleetAppsManagementFleet#match_condition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchCondition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchCondition
@@ -20,7 +20,7 @@ namespace oci.FleetAppsManagementFleet
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/fleet_apps_management_fleet#rules FleetAppsManagementFleet#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/fleet_apps_management_fleet#rules FleetAppsManagementFleet#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.FleetAppsManagementFleet.IFleetAppsManagementFleetResourceSelectionRuleSelectionCriteriaRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

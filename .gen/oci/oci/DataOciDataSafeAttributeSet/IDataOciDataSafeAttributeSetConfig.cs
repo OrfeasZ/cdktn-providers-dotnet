@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeAttributeSet
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeAttributeSetConfig), fullyQualifiedName: "oci.dataOciDataSafeAttributeSet.DataOciDataSafeAttributeSetConfig")]
     public interface IDataOciDataSafeAttributeSetConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_attribute_set#attribute_set_id DataOciDataSafeAttributeSet#attribute_set_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_attribute_set#attribute_set_id DataOciDataSafeAttributeSet#attribute_set_id}.</summary>
         [JsiiProperty(name: "attributeSetId", typeJson: "{\"primitive\":\"string\"}")]
         string AttributeSetId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeAttributeSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_attribute_set#attribute_set_id DataOciDataSafeAttributeSet#attribute_set_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_attribute_set#attribute_set_id DataOciDataSafeAttributeSet#attribute_set_id}.</summary>
             [JsiiProperty(name: "attributeSetId", typeJson: "{\"primitive\":\"string\"}")]
             public string AttributeSetId
             {

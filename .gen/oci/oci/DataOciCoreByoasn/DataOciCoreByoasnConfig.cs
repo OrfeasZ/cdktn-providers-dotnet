@@ -9,7 +9,7 @@ namespace oci.DataOciCoreByoasn
     [JsiiByValue(fqn: "oci.dataOciCoreByoasn.DataOciCoreByoasnConfig")]
     public class DataOciCoreByoasnConfig : oci.DataOciCoreByoasn.IDataOciCoreByoasnConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/core_byoasn#byoasn_id DataOciCoreByoasn#byoasn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/core_byoasn#byoasn_id DataOciCoreByoasn#byoasn_id}.</summary>
         [JsiiProperty(name: "byoasnId", typeJson: "{\"primitive\":\"string\"}")]
         public string ByoasnId
         {

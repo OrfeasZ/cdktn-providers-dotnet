@@ -9,7 +9,7 @@ namespace oci.DesktopsDesktopPool
     [JsiiByValue(fqn: "oci.desktopsDesktopPool.DesktopsDesktopPoolSessionLifecycleActionsInactivity")]
     public class DesktopsDesktopPoolSessionLifecycleActionsInactivity : oci.DesktopsDesktopPool.IDesktopsDesktopPoolSessionLifecycleActionsInactivity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -17,7 +17,7 @@ namespace oci.DesktopsDesktopPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gracePeriodInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? GracePeriodInMinutes

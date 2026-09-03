@@ -9,7 +9,7 @@ namespace oci.DevopsProjectRepositorySetting
     {
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_project_repository_setting#items DevopsProjectRepositorySetting#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_project_repository_setting#items DevopsProjectRepositorySetting#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsProjectRepositorySetting.IDevopsProjectRepositorySettingApprovalRulesItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsProjectRepositorySetting.DevopsProjectRepositorySettingApprovalRulesItems\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace oci.DevopsProjectRepositorySetting
 
             /// <summary>items block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_project_repository_setting#items DevopsProjectRepositorySetting#items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_project_repository_setting#items DevopsProjectRepositorySetting#items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsProjectRepositorySetting.IDevopsProjectRepositorySettingApprovalRulesItems" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsProjectRepositorySetting.DevopsProjectRepositorySettingApprovalRulesItems\"},\"kind\":\"array\"}}]}}")]

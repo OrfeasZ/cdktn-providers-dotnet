@@ -9,7 +9,7 @@ namespace oci.DatascienceJob
     [JsiiByValue(fqn: "oci.datascienceJob.DatascienceJobConfig")]
     public class DatascienceJobConfig : oci.DatascienceJob.IDatascienceJobConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#compartment_id DatascienceJob#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#compartment_id DatascienceJob#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#project_id DatascienceJob#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#project_id DatascienceJob#project_id}.</summary>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#artifact_content_disposition DatascienceJob#artifact_content_disposition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#artifact_content_disposition DatascienceJob#artifact_content_disposition}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "artifactContentDisposition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArtifactContentDisposition
@@ -34,7 +34,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#artifact_content_length DatascienceJob#artifact_content_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#artifact_content_length DatascienceJob#artifact_content_length}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "artifactContentLength", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ArtifactContentLength
@@ -43,7 +43,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#defined_tags DatascienceJob#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#defined_tags DatascienceJob#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -54,7 +54,7 @@ namespace oci.DatascienceJob
 
         private object? _deleteRelatedJobRuns;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#delete_related_job_runs DatascienceJob#delete_related_job_runs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#delete_related_job_runs DatascienceJob#delete_related_job_runs}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -86,7 +86,7 @@ namespace oci.DatascienceJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#description DatascienceJob#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#description DatascienceJob#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -95,7 +95,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#display_name DatascienceJob#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#display_name DatascienceJob#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -104,7 +104,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#freeform_tags DatascienceJob#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#freeform_tags DatascienceJob#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -113,7 +113,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#id DatascienceJob#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#id DatascienceJob#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -126,7 +126,7 @@ namespace oci.DatascienceJob
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#job_artifact DatascienceJob#job_artifact}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#job_artifact DatascienceJob#job_artifact}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jobArtifact", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JobArtifact
@@ -137,7 +137,7 @@ namespace oci.DatascienceJob
 
         /// <summary>job_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#job_configuration_details DatascienceJob#job_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#job_configuration_details DatascienceJob#job_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jobConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobConfigurationDetails\"}", isOptional: true)]
@@ -149,7 +149,7 @@ namespace oci.DatascienceJob
 
         /// <summary>job_environment_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#job_environment_configuration_details DatascienceJob#job_environment_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#job_environment_configuration_details DatascienceJob#job_environment_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jobEnvironmentConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobEnvironmentConfigurationDetails\"}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace oci.DatascienceJob
 
         /// <summary>job_infrastructure_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#job_infrastructure_configuration_details DatascienceJob#job_infrastructure_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#job_infrastructure_configuration_details DatascienceJob#job_infrastructure_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jobInfrastructureConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetails\"}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace oci.DatascienceJob
 
         /// <summary>job_log_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#job_log_configuration_details DatascienceJob#job_log_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#job_log_configuration_details DatascienceJob#job_log_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jobLogConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobLogConfigurationDetails\"}", isOptional: true)]
@@ -185,7 +185,7 @@ namespace oci.DatascienceJob
 
         /// <summary>job_node_configuration_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#job_node_configuration_details DatascienceJob#job_node_configuration_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#job_node_configuration_details DatascienceJob#job_node_configuration_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jobNodeConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobNodeConfigurationDetails\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace oci.DatascienceJob
 
         /// <summary>job_storage_mount_configuration_details_list block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#job_storage_mount_configuration_details_list DatascienceJob#job_storage_mount_configuration_details_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#job_storage_mount_configuration_details_list DatascienceJob#job_storage_mount_configuration_details_list}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceJob.IDatascienceJobJobStorageMountConfigurationDetailsListStruct" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -232,7 +232,7 @@ namespace oci.DatascienceJob
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/datascience_job#timeouts DatascienceJob#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/datascience_job#timeouts DatascienceJob#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobTimeouts\"}", isOptional: true)]

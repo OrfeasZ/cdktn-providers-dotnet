@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelGroupVersionHistories.DataOciDatascienceModelGroupVersionHistoriesConfig")]
     public class DataOciDatascienceModelGroupVersionHistoriesConfig : oci.DataOciDatascienceModelGroupVersionHistories.IDataOciDatascienceModelGroupVersionHistoriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group_version_histories#compartment_id DataOciDatascienceModelGroupVersionHistories#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_model_group_version_histories#compartment_id DataOciDatascienceModelGroupVersionHistories#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group_version_histories#created_by DataOciDatascienceModelGroupVersionHistories#created_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_model_group_version_histories#created_by DataOciDatascienceModelGroupVersionHistories#created_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createdBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreatedBy
@@ -26,7 +26,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group_version_histories#display_name DataOciDatascienceModelGroupVersionHistories#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_model_group_version_histories#display_name DataOciDatascienceModelGroupVersionHistories#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -39,7 +39,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group_version_histories#filter DataOciDatascienceModelGroupVersionHistories#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_model_group_version_histories#filter DataOciDatascienceModelGroupVersionHistories#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceModelGroupVersionHistories.IDataOciDatascienceModelGroupVersionHistoriesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group_version_histories#id DataOciDatascienceModelGroupVersionHistories#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_model_group_version_histories#id DataOciDatascienceModelGroupVersionHistories#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,7 +83,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group_version_histories#project_id DataOciDatascienceModelGroupVersionHistories#project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_model_group_version_histories#project_id DataOciDatascienceModelGroupVersionHistories#project_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProjectId
@@ -92,7 +92,7 @@ namespace oci.DataOciDatascienceModelGroupVersionHistories
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datascience_model_group_version_histories#state DataOciDatascienceModelGroupVersionHistories#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datascience_model_group_version_histories#state DataOciDatascienceModelGroupVersionHistories#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

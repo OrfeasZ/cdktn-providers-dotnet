@@ -7,7 +7,7 @@ namespace oci.DevopsRepositorySetting
     [JsiiInterface(nativeType: typeof(IDevopsRepositorySettingMergeChecks), fullyQualifiedName: "oci.devopsRepositorySetting.DevopsRepositorySettingMergeChecks")]
     public interface IDevopsRepositorySettingMergeChecks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#last_build_succeeded DevopsRepositorySetting#last_build_succeeded}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#last_build_succeeded DevopsRepositorySetting#last_build_succeeded}.</summary>
         [JsiiProperty(name: "lastBuildSucceeded", typeJson: "{\"primitive\":\"string\"}")]
         string LastBuildSucceeded
         {
@@ -21,7 +21,7 @@ namespace oci.DevopsRepositorySetting
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_repository_setting#last_build_succeeded DevopsRepositorySetting#last_build_succeeded}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_repository_setting#last_build_succeeded DevopsRepositorySetting#last_build_succeeded}.</summary>
             [JsiiProperty(name: "lastBuildSucceeded", typeJson: "{\"primitive\":\"string\"}")]
             public string LastBuildSucceeded
             {

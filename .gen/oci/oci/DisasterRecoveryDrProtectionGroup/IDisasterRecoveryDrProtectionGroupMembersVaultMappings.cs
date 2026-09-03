@@ -7,7 +7,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
     [JsiiInterface(nativeType: typeof(IDisasterRecoveryDrProtectionGroupMembersVaultMappings), fullyQualifiedName: "oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersVaultMappings")]
     public interface IDisasterRecoveryDrProtectionGroupMembersVaultMappings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}.</summary>
         [JsiiProperty(name: "destinationVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DestinationVaultId
@@ -18,7 +18,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceVaultId
@@ -36,7 +36,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DestinationVaultId
@@ -44,7 +44,7 @@ namespace oci.DisasterRecoveryDrProtectionGroup
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceVaultId

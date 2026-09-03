@@ -41,6 +41,12 @@ namespace oci.DataOciIotDigitalTwinAdapter
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "contentRoot", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ContentRoot
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciIotDigitalTwinAdapter
         public virtual oci.DataOciIotDigitalTwinAdapter.DataOciIotDigitalTwinAdapterInboundRoutesReferencePayloadList ReferencePayload
         {
             get => GetInstanceProperty<oci.DataOciIotDigitalTwinAdapter.DataOciIotDigitalTwinAdapterInboundRoutesReferencePayloadList>()!;
+        }
+
+        [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Target
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

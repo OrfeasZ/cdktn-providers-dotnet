@@ -7,7 +7,7 @@ namespace oci.StackMonitoringConfig
     [JsiiInterface(nativeType: typeof(IStackMonitoringConfigDynamicGroups), fullyQualifiedName: "oci.stackMonitoringConfig.StackMonitoringConfigDynamicGroups")]
     public interface IStackMonitoringConfigDynamicGroups
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_config#domain StackMonitoringConfig#domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_config#domain StackMonitoringConfig#domain}.</summary>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Domain
@@ -18,7 +18,7 @@ namespace oci.StackMonitoringConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_config#name StackMonitoringConfig#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_config#name StackMonitoringConfig#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -29,7 +29,7 @@ namespace oci.StackMonitoringConfig
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_config#stack_monitoring_assignment StackMonitoringConfig#stack_monitoring_assignment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_config#stack_monitoring_assignment StackMonitoringConfig#stack_monitoring_assignment}.</summary>
         [JsiiProperty(name: "stackMonitoringAssignment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StackMonitoringAssignment
@@ -47,7 +47,7 @@ namespace oci.StackMonitoringConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_config#domain StackMonitoringConfig#domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_config#domain StackMonitoringConfig#domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Domain
@@ -55,7 +55,7 @@ namespace oci.StackMonitoringConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_config#name StackMonitoringConfig#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_config#name StackMonitoringConfig#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -63,7 +63,7 @@ namespace oci.StackMonitoringConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_config#stack_monitoring_assignment StackMonitoringConfig#stack_monitoring_assignment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_config#stack_monitoring_assignment StackMonitoringConfig#stack_monitoring_assignment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "stackMonitoringAssignment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StackMonitoringAssignment

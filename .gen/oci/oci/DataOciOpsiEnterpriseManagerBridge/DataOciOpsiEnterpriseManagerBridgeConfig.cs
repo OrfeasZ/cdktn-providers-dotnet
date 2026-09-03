@@ -9,7 +9,7 @@ namespace oci.DataOciOpsiEnterpriseManagerBridge
     [JsiiByValue(fqn: "oci.dataOciOpsiEnterpriseManagerBridge.DataOciOpsiEnterpriseManagerBridgeConfig")]
     public class DataOciOpsiEnterpriseManagerBridgeConfig : oci.DataOciOpsiEnterpriseManagerBridge.IDataOciOpsiEnterpriseManagerBridgeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/opsi_enterprise_manager_bridge#enterprise_manager_bridge_id DataOciOpsiEnterpriseManagerBridge#enterprise_manager_bridge_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/opsi_enterprise_manager_bridge#enterprise_manager_bridge_id DataOciOpsiEnterpriseManagerBridge#enterprise_manager_bridge_id}.</summary>
         [JsiiProperty(name: "enterpriseManagerBridgeId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnterpriseManagerBridgeId
         {

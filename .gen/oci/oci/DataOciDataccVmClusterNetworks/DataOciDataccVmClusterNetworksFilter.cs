@@ -9,7 +9,7 @@ namespace oci.DataOciDataccVmClusterNetworks
     [JsiiByValue(fqn: "oci.dataOciDataccVmClusterNetworks.DataOciDataccVmClusterNetworksFilter")]
     public class DataOciDataccVmClusterNetworksFilter : oci.DataOciDataccVmClusterNetworks.IDataOciDataccVmClusterNetworksFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_vm_cluster_networks#name DataOciDataccVmClusterNetworks#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_vm_cluster_networks#name DataOciDataccVmClusterNetworks#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataccVmClusterNetworks
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_vm_cluster_networks#values DataOciDataccVmClusterNetworks#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_vm_cluster_networks#values DataOciDataccVmClusterNetworks#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataccVmClusterNetworks
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/datacc_vm_cluster_networks#regex DataOciDataccVmClusterNetworks#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/datacc_vm_cluster_networks#regex DataOciDataccVmClusterNetworks#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

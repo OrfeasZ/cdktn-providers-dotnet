@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDataGuardAssociation
     [JsiiByValue(fqn: "oci.dataOciDatabaseDataGuardAssociation.DataOciDatabaseDataGuardAssociationConfig")]
     public class DataOciDatabaseDataGuardAssociationConfig : oci.DataOciDatabaseDataGuardAssociation.IDataOciDatabaseDataGuardAssociationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_data_guard_association#database_id DataOciDatabaseDataGuardAssociation#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_data_guard_association#database_id DataOciDatabaseDataGuardAssociation#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDataGuardAssociation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_data_guard_association#data_guard_association_id DataOciDatabaseDataGuardAssociation#data_guard_association_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_data_guard_association#data_guard_association_id DataOciDatabaseDataGuardAssociation#data_guard_association_id}.</summary>
         [JsiiProperty(name: "dataGuardAssociationId", typeJson: "{\"primitive\":\"string\"}")]
         public string DataGuardAssociationId
         {

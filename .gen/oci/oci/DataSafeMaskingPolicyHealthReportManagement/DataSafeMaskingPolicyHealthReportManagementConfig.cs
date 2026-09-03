@@ -7,7 +7,7 @@ namespace oci.DataSafeMaskingPolicyHealthReportManagement
     [JsiiByValue(fqn: "oci.dataSafeMaskingPolicyHealthReportManagement.DataSafeMaskingPolicyHealthReportManagementConfig")]
     public class DataSafeMaskingPolicyHealthReportManagementConfig : oci.DataSafeMaskingPolicyHealthReportManagement.IDataSafeMaskingPolicyHealthReportManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_masking_policy_health_report_management#compartment_id DataSafeMaskingPolicyHealthReportManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_masking_policy_health_report_management#compartment_id DataSafeMaskingPolicyHealthReportManagement#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataSafeMaskingPolicyHealthReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_masking_policy_health_report_management#masking_policy_id DataSafeMaskingPolicyHealthReportManagement#masking_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_masking_policy_health_report_management#masking_policy_id DataSafeMaskingPolicyHealthReportManagement#masking_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maskingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaskingPolicyId
@@ -25,7 +25,7 @@ namespace oci.DataSafeMaskingPolicyHealthReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_masking_policy_health_report_management#target_id DataSafeMaskingPolicyHealthReportManagement#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_masking_policy_health_report_management#target_id DataSafeMaskingPolicyHealthReportManagement#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -36,7 +36,7 @@ namespace oci.DataSafeMaskingPolicyHealthReportManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/data_safe_masking_policy_health_report_management#timeouts DataSafeMaskingPolicyHealthReportManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/data_safe_masking_policy_health_report_management#timeouts DataSafeMaskingPolicyHealthReportManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeMaskingPolicyHealthReportManagement.DataSafeMaskingPolicyHealthReportManagementTimeouts\"}", isOptional: true)]

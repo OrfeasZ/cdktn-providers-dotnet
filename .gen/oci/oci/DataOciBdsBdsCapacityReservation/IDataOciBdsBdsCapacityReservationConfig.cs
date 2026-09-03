@@ -7,7 +7,7 @@ namespace oci.DataOciBdsBdsCapacityReservation
     [JsiiInterface(nativeType: typeof(IDataOciBdsBdsCapacityReservationConfig), fullyQualifiedName: "oci.dataOciBdsBdsCapacityReservation.DataOciBdsBdsCapacityReservationConfig")]
     public interface IDataOciBdsBdsCapacityReservationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservation#bds_capacity_reservation_id DataOciBdsBdsCapacityReservation#bds_capacity_reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservation#bds_capacity_reservation_id DataOciBdsBdsCapacityReservation#bds_capacity_reservation_id}.</summary>
         [JsiiProperty(name: "bdsCapacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsCapacityReservationId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBdsBdsCapacityReservation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_capacity_reservation#bds_capacity_reservation_id DataOciBdsBdsCapacityReservation#bds_capacity_reservation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_capacity_reservation#bds_capacity_reservation_id DataOciBdsBdsCapacityReservation#bds_capacity_reservation_id}.</summary>
             [JsiiProperty(name: "bdsCapacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsCapacityReservationId
             {

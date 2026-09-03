@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementCloudDbSystem
     [JsiiByValue(fqn: "oci.databaseManagementCloudDbSystem.DatabaseManagementCloudDbSystemConfig")]
     public class DatabaseManagementCloudDbSystemConfig : oci.DatabaseManagementCloudDbSystem.IDatabaseManagementCloudDbSystemConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#compartment_id DatabaseManagementCloudDbSystem#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#compartment_id DatabaseManagementCloudDbSystem#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#db_system_discovery_id DatabaseManagementCloudDbSystem#db_system_discovery_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#db_system_discovery_id DatabaseManagementCloudDbSystem#db_system_discovery_id}.</summary>
         [JsiiProperty(name: "dbSystemDiscoveryId", typeJson: "{\"primitive\":\"string\"}")]
         public string DbSystemDiscoveryId
         {
@@ -27,7 +27,7 @@ namespace oci.DatabaseManagementCloudDbSystem
 
         /// <summary>database_management_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#database_management_config DatabaseManagementCloudDbSystem#database_management_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#database_management_config DatabaseManagementCloudDbSystem#database_management_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseManagementConfig", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystem.DatabaseManagementCloudDbSystemDatabaseManagementConfig\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#defined_tags DatabaseManagementCloudDbSystem#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#defined_tags DatabaseManagementCloudDbSystem#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -46,7 +46,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#display_name DatabaseManagementCloudDbSystem#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#display_name DatabaseManagementCloudDbSystem#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -55,7 +55,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#freeform_tags DatabaseManagementCloudDbSystem#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#freeform_tags DatabaseManagementCloudDbSystem#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -64,7 +64,7 @@ namespace oci.DatabaseManagementCloudDbSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#id DatabaseManagementCloudDbSystem#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#id DatabaseManagementCloudDbSystem#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,7 +79,7 @@ namespace oci.DatabaseManagementCloudDbSystem
 
         /// <summary>stack_monitoring_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#stack_monitoring_config DatabaseManagementCloudDbSystem#stack_monitoring_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#stack_monitoring_config DatabaseManagementCloudDbSystem#stack_monitoring_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stackMonitoringConfig", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystem.DatabaseManagementCloudDbSystemStackMonitoringConfig\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace oci.DatabaseManagementCloudDbSystem
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_cloud_db_system#timeouts DatabaseManagementCloudDbSystem#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_cloud_db_system#timeouts DatabaseManagementCloudDbSystem#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementCloudDbSystem.DatabaseManagementCloudDbSystemTimeouts\"}", isOptional: true)]

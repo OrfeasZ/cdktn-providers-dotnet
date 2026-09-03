@@ -7,7 +7,7 @@ namespace oci.DataOciJmsUtilsAnalyzeApplicationsConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciJmsUtilsAnalyzeApplicationsConfigurationConfig), fullyQualifiedName: "oci.dataOciJmsUtilsAnalyzeApplicationsConfiguration.DataOciJmsUtilsAnalyzeApplicationsConfigurationConfig")]
     public interface IDataOciJmsUtilsAnalyzeApplicationsConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciJmsUtilsAnalyzeApplicationsConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/jms_utils_analyze_applications_configuration#compartment_id DataOciJmsUtilsAnalyzeApplicationsConfiguration#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {

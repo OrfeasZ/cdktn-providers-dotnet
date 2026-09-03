@@ -9,7 +9,7 @@ namespace oci.DataOciOnsSubscription
     [JsiiByValue(fqn: "oci.dataOciOnsSubscription.DataOciOnsSubscriptionConfig")]
     public class DataOciOnsSubscriptionConfig : oci.DataOciOnsSubscription.IDataOciOnsSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ons_subscription#subscription_id DataOciOnsSubscription#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/ons_subscription#subscription_id DataOciOnsSubscription#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionId
         {

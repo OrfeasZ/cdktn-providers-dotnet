@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntriesFilter), fullyQualifiedName: "oci.dataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntriesFilter")]
     public interface IDataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#name DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#name DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#values DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#values DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#regex DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#regex DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#name DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#name DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#values DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#values DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#regex DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_security_policy_report_database_table_access_entries#regex DataOciDataSafeSecurityPolicyReportDatabaseTableAccessEntries#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

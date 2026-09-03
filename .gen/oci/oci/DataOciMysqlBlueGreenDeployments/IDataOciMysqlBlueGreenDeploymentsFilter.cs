@@ -7,21 +7,21 @@ namespace oci.DataOciMysqlBlueGreenDeployments
     [JsiiInterface(nativeType: typeof(IDataOciMysqlBlueGreenDeploymentsFilter), fullyQualifiedName: "oci.dataOciMysqlBlueGreenDeployments.DataOciMysqlBlueGreenDeploymentsFilter")]
     public interface IDataOciMysqlBlueGreenDeploymentsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#name DataOciMysqlBlueGreenDeployments#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#name DataOciMysqlBlueGreenDeployments#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#values DataOciMysqlBlueGreenDeployments#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#values DataOciMysqlBlueGreenDeployments#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#regex DataOciMysqlBlueGreenDeployments#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#regex DataOciMysqlBlueGreenDeployments#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciMysqlBlueGreenDeployments
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#name DataOciMysqlBlueGreenDeployments#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#name DataOciMysqlBlueGreenDeployments#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#values DataOciMysqlBlueGreenDeployments#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#values DataOciMysqlBlueGreenDeployments#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/mysql_blue_green_deployments#regex DataOciMysqlBlueGreenDeployments#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/mysql_blue_green_deployments#regex DataOciMysqlBlueGreenDeployments#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

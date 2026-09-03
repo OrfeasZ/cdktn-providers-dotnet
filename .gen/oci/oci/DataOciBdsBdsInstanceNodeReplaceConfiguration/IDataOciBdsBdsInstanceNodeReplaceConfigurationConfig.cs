@@ -7,14 +7,14 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciBdsBdsInstanceNodeReplaceConfigurationConfig), fullyQualifiedName: "oci.dataOciBdsBdsInstanceNodeReplaceConfiguration.DataOciBdsBdsInstanceNodeReplaceConfigurationConfig")]
     public interface IDataOciBdsBdsInstanceNodeReplaceConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configuration#bds_instance_id DataOciBdsBdsInstanceNodeReplaceConfiguration#bds_instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_node_replace_configuration#bds_instance_id DataOciBdsBdsInstanceNodeReplaceConfiguration#bds_instance_id}.</summary>
         [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         string BdsInstanceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configuration#node_replace_configuration_id DataOciBdsBdsInstanceNodeReplaceConfiguration#node_replace_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_node_replace_configuration#node_replace_configuration_id DataOciBdsBdsInstanceNodeReplaceConfiguration#node_replace_configuration_id}.</summary>
         [JsiiProperty(name: "nodeReplaceConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         string NodeReplaceConfigurationId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciBdsBdsInstanceNodeReplaceConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configuration#bds_instance_id DataOciBdsBdsInstanceNodeReplaceConfiguration#bds_instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_node_replace_configuration#bds_instance_id DataOciBdsBdsInstanceNodeReplaceConfiguration#bds_instance_id}.</summary>
             [JsiiProperty(name: "bdsInstanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string BdsInstanceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/bds_bds_instance_node_replace_configuration#node_replace_configuration_id DataOciBdsBdsInstanceNodeReplaceConfiguration#node_replace_configuration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/bds_bds_instance_node_replace_configuration#node_replace_configuration_id DataOciBdsBdsInstanceNodeReplaceConfiguration#node_replace_configuration_id}.</summary>
             [JsiiProperty(name: "nodeReplaceConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
             public string NodeReplaceConfigurationId
             {

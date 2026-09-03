@@ -7,7 +7,7 @@ namespace oci.DatabaseVmCluster
     [JsiiByValue(fqn: "oci.databaseVmCluster.DatabaseVmClusterUpdateDetails")]
     public class DatabaseVmClusterUpdateDetails : oci.DatabaseVmCluster.IDatabaseVmClusterUpdateDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_vm_cluster#update_action DatabaseVmCluster#update_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_vm_cluster#update_action DatabaseVmCluster#update_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "updateAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpdateAction
@@ -16,7 +16,7 @@ namespace oci.DatabaseVmCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_vm_cluster#update_id DatabaseVmCluster#update_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_vm_cluster#update_id DatabaseVmCluster#update_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "updateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpdateId
@@ -25,7 +25,7 @@ namespace oci.DatabaseVmCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_vm_cluster#update_mode DatabaseVmCluster#update_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_vm_cluster#update_mode DatabaseVmCluster#update_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "updateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UpdateMode

@@ -9,7 +9,7 @@ namespace oci.DataOciClusterPlacementGroupsClusterPlacementGroup
     [JsiiByValue(fqn: "oci.dataOciClusterPlacementGroupsClusterPlacementGroup.DataOciClusterPlacementGroupsClusterPlacementGroupConfig")]
     public class DataOciClusterPlacementGroupsClusterPlacementGroupConfig : oci.DataOciClusterPlacementGroupsClusterPlacementGroup.IDataOciClusterPlacementGroupsClusterPlacementGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cluster_placement_groups_cluster_placement_group#cluster_placement_group_id DataOciClusterPlacementGroupsClusterPlacementGroup#cluster_placement_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_placement_groups_cluster_placement_group#cluster_placement_group_id DataOciClusterPlacementGroupsClusterPlacementGroup#cluster_placement_group_id}.</summary>
         [JsiiProperty(name: "clusterPlacementGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClusterPlacementGroupId
         {

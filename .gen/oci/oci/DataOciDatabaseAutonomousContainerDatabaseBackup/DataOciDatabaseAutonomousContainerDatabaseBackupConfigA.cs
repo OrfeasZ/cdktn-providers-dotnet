@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseBackup
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousContainerDatabaseBackup.DataOciDatabaseAutonomousContainerDatabaseBackupConfigA")]
     public class DataOciDatabaseAutonomousContainerDatabaseBackupConfigA : oci.DataOciDatabaseAutonomousContainerDatabaseBackup.IDataOciDatabaseAutonomousContainerDatabaseBackupConfigA
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_autonomous_container_database_backup#autonomous_container_database_backup_id DataOciDatabaseAutonomousContainerDatabaseBackup#autonomous_container_database_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_container_database_backup#autonomous_container_database_backup_id DataOciDatabaseAutonomousContainerDatabaseBackup#autonomous_container_database_backup_id}.</summary>
         [JsiiProperty(name: "autonomousContainerDatabaseBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousContainerDatabaseBackupId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousContainerDatabaseBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_autonomous_container_database_backup#id DataOciDatabaseAutonomousContainerDatabaseBackup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_container_database_backup#id DataOciDatabaseAutonomousContainerDatabaseBackup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

@@ -7,14 +7,14 @@ namespace oci.DataOciApmConfigConfig
     [JsiiInterface(nativeType: typeof(IDataOciApmConfigConfigConfig), fullyQualifiedName: "oci.dataOciApmConfigConfig.DataOciApmConfigConfigConfig")]
     public interface IDataOciApmConfigConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_config_config#apm_domain_id DataOciApmConfigConfig#apm_domain_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apm_config_config#apm_domain_id DataOciApmConfigConfig#apm_domain_id}.</summary>
         [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
         string ApmDomainId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_config_config#config_id DataOciApmConfigConfig#config_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apm_config_config#config_id DataOciApmConfigConfig#config_id}.</summary>
         [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}")]
         string ConfigId
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciApmConfigConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_config_config#apm_domain_id DataOciApmConfigConfig#apm_domain_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apm_config_config#apm_domain_id DataOciApmConfigConfig#apm_domain_id}.</summary>
             [JsiiProperty(name: "apmDomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApmDomainId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/apm_config_config#config_id DataOciApmConfigConfig#config_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/apm_config_config#config_id DataOciApmConfigConfig#config_id}.</summary>
             [JsiiProperty(name: "configId", typeJson: "{\"primitive\":\"string\"}")]
             public string ConfigId
             {

@@ -7,14 +7,14 @@ namespace oci.DataOciCloudBridgeAgentPlugin
     [JsiiInterface(nativeType: typeof(IDataOciCloudBridgeAgentPluginConfig), fullyQualifiedName: "oci.dataOciCloudBridgeAgentPlugin.DataOciCloudBridgeAgentPluginConfig")]
     public interface IDataOciCloudBridgeAgentPluginConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_plugin#agent_id DataOciCloudBridgeAgentPlugin#agent_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_plugin#agent_id DataOciCloudBridgeAgentPlugin#agent_id}.</summary>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         string AgentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_plugin#plugin_name DataOciCloudBridgeAgentPlugin#plugin_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_plugin#plugin_name DataOciCloudBridgeAgentPlugin#plugin_name}.</summary>
         [JsiiProperty(name: "pluginName", typeJson: "{\"primitive\":\"string\"}")]
         string PluginName
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciCloudBridgeAgentPlugin
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_plugin#agent_id DataOciCloudBridgeAgentPlugin#agent_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_plugin#agent_id DataOciCloudBridgeAgentPlugin#agent_id}.</summary>
             [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AgentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/cloud_bridge_agent_plugin#plugin_name DataOciCloudBridgeAgentPlugin#plugin_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cloud_bridge_agent_plugin#plugin_name DataOciCloudBridgeAgentPlugin#plugin_name}.</summary>
             [JsiiProperty(name: "pluginName", typeJson: "{\"primitive\":\"string\"}")]
             public string PluginName
             {

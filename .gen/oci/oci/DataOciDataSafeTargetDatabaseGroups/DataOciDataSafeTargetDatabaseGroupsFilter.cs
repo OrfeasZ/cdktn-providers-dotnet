@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroups
     [JsiiByValue(fqn: "oci.dataOciDataSafeTargetDatabaseGroups.DataOciDataSafeTargetDatabaseGroupsFilter")]
     public class DataOciDataSafeTargetDatabaseGroupsFilter : oci.DataOciDataSafeTargetDatabaseGroups.IDataOciDataSafeTargetDatabaseGroupsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_target_database_groups#name DataOciDataSafeTargetDatabaseGroups#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_target_database_groups#name DataOciDataSafeTargetDatabaseGroups#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroups
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_target_database_groups#values DataOciDataSafeTargetDatabaseGroups#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_target_database_groups#values DataOciDataSafeTargetDatabaseGroups#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeTargetDatabaseGroups
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/data_safe_target_database_groups#regex DataOciDataSafeTargetDatabaseGroups#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/data_safe_target_database_groups#regex DataOciDataSafeTargetDatabaseGroups#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

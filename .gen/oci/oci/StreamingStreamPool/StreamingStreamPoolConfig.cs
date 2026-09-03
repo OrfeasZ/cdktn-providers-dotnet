@@ -9,7 +9,7 @@ namespace oci.StreamingStreamPool
     [JsiiByValue(fqn: "oci.streamingStreamPool.StreamingStreamPoolConfig")]
     public class StreamingStreamPoolConfig : oci.StreamingStreamPool.IStreamingStreamPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#compartment_id StreamingStreamPool#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#compartment_id StreamingStreamPool#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.StreamingStreamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#name StreamingStreamPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#name StreamingStreamPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace oci.StreamingStreamPool
 
         /// <summary>custom_encryption_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#custom_encryption_key StreamingStreamPool#custom_encryption_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#custom_encryption_key StreamingStreamPool#custom_encryption_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customEncryptionKey", typeJson: "{\"fqn\":\"oci.streamingStreamPool.StreamingStreamPoolCustomEncryptionKey\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace oci.StreamingStreamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#defined_tags StreamingStreamPool#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#defined_tags StreamingStreamPool#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -46,7 +46,7 @@ namespace oci.StreamingStreamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#freeform_tags StreamingStreamPool#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#freeform_tags StreamingStreamPool#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -55,7 +55,7 @@ namespace oci.StreamingStreamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#id StreamingStreamPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#id StreamingStreamPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace oci.StreamingStreamPool
 
         /// <summary>kafka_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#kafka_settings StreamingStreamPool#kafka_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#kafka_settings StreamingStreamPool#kafka_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "kafkaSettings", typeJson: "{\"fqn\":\"oci.streamingStreamPool.StreamingStreamPoolKafkaSettings\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace oci.StreamingStreamPool
 
         /// <summary>private_endpoint_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#private_endpoint_settings StreamingStreamPool#private_endpoint_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#private_endpoint_settings StreamingStreamPool#private_endpoint_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateEndpointSettings", typeJson: "{\"fqn\":\"oci.streamingStreamPool.StreamingStreamPoolPrivateEndpointSettings\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace oci.StreamingStreamPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#security_attributes StreamingStreamPool#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#security_attributes StreamingStreamPool#security_attributes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -103,7 +103,7 @@ namespace oci.StreamingStreamPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/streaming_stream_pool#timeouts StreamingStreamPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/streaming_stream_pool#timeouts StreamingStreamPool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.streamingStreamPool.StreamingStreamPoolTimeouts\"}", isOptional: true)]

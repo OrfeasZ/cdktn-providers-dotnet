@@ -7,7 +7,7 @@ namespace oci.DataOciBatchBatchTaskEnvironment
     [JsiiInterface(nativeType: typeof(IDataOciBatchBatchTaskEnvironmentConfig), fullyQualifiedName: "oci.dataOciBatchBatchTaskEnvironment.DataOciBatchBatchTaskEnvironmentConfig")]
     public interface IDataOciBatchBatchTaskEnvironmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_task_environment#batch_task_environment_id DataOciBatchBatchTaskEnvironment#batch_task_environment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/batch_batch_task_environment#batch_task_environment_id DataOciBatchBatchTaskEnvironment#batch_task_environment_id}.</summary>
         [JsiiProperty(name: "batchTaskEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
         string BatchTaskEnvironmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciBatchBatchTaskEnvironment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/batch_batch_task_environment#batch_task_environment_id DataOciBatchBatchTaskEnvironment#batch_task_environment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/batch_batch_task_environment#batch_task_environment_id DataOciBatchBatchTaskEnvironment#batch_task_environment_id}.</summary>
             [JsiiProperty(name: "batchTaskEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string BatchTaskEnvironmentId
             {

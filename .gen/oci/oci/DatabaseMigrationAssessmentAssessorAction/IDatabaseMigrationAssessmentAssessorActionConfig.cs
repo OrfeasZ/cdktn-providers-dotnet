@@ -7,21 +7,21 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
     [JsiiInterface(nativeType: typeof(IDatabaseMigrationAssessmentAssessorActionConfig), fullyQualifiedName: "oci.databaseMigrationAssessmentAssessorAction.DatabaseMigrationAssessmentAssessorActionConfig")]
     public interface IDatabaseMigrationAssessmentAssessorActionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#assessment_id DatabaseMigrationAssessmentAssessorAction#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#assessment_id DatabaseMigrationAssessmentAssessorAction#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string AssessmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#assessor_action DatabaseMigrationAssessmentAssessorAction#assessor_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#assessor_action DatabaseMigrationAssessmentAssessorAction#assessor_action}.</summary>
         [JsiiProperty(name: "assessorAction", typeJson: "{\"primitive\":\"string\"}")]
         string AssessorAction
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#assessor_name DatabaseMigrationAssessmentAssessorAction#assessor_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#assessor_name DatabaseMigrationAssessmentAssessorAction#assessor_name}.</summary>
         [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
         string AssessorName
         {
@@ -30,7 +30,7 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
 
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#items DatabaseMigrationAssessmentAssessorAction#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#items DatabaseMigrationAssessmentAssessorAction#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationAssessmentAssessorAction.IDatabaseMigrationAssessmentAssessorActionItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationAssessmentAssessorAction.DatabaseMigrationAssessmentAssessorActionItems\"},\"kind\":\"array\"}}]}}")]
@@ -39,7 +39,7 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#id DatabaseMigrationAssessmentAssessorAction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#id DatabaseMigrationAssessmentAssessorAction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +56,7 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#timeouts DatabaseMigrationAssessmentAssessorAction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#timeouts DatabaseMigrationAssessmentAssessorAction#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessmentAssessorAction.DatabaseMigrationAssessmentAssessorActionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,21 +75,21 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#assessment_id DatabaseMigrationAssessmentAssessorAction#assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#assessment_id DatabaseMigrationAssessmentAssessorAction#assessment_id}.</summary>
             [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#assessor_action DatabaseMigrationAssessmentAssessorAction#assessor_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#assessor_action DatabaseMigrationAssessmentAssessorAction#assessor_action}.</summary>
             [JsiiProperty(name: "assessorAction", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessorAction
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#assessor_name DatabaseMigrationAssessmentAssessorAction#assessor_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#assessor_name DatabaseMigrationAssessmentAssessorAction#assessor_name}.</summary>
             [JsiiProperty(name: "assessorName", typeJson: "{\"primitive\":\"string\"}")]
             public string AssessorName
             {
@@ -98,7 +98,7 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
 
             /// <summary>items block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#items DatabaseMigrationAssessmentAssessorAction#items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#items DatabaseMigrationAssessmentAssessorAction#items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseMigrationAssessmentAssessorAction.IDatabaseMigrationAssessmentAssessorActionItems" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseMigrationAssessmentAssessorAction.DatabaseMigrationAssessmentAssessorActionItems\"},\"kind\":\"array\"}}]}}")]
@@ -107,7 +107,7 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#id DatabaseMigrationAssessmentAssessorAction#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#id DatabaseMigrationAssessmentAssessorAction#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -121,7 +121,7 @@ namespace oci.DatabaseMigrationAssessmentAssessorAction
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_migration_assessment_assessor_action#timeouts DatabaseMigrationAssessmentAssessorAction#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_migration_assessment_assessor_action#timeouts DatabaseMigrationAssessmentAssessorAction#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseMigrationAssessmentAssessorAction.DatabaseMigrationAssessmentAssessorActionTimeouts\"}", isOptional: true)]

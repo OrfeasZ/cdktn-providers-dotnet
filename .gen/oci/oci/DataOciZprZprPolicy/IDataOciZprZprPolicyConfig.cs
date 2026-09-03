@@ -7,7 +7,7 @@ namespace oci.DataOciZprZprPolicy
     [JsiiInterface(nativeType: typeof(IDataOciZprZprPolicyConfig), fullyQualifiedName: "oci.dataOciZprZprPolicy.DataOciZprZprPolicyConfig")]
     public interface IDataOciZprZprPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/zpr_zpr_policy#zpr_policy_id DataOciZprZprPolicy#zpr_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/zpr_zpr_policy#zpr_policy_id DataOciZprZprPolicy#zpr_policy_id}.</summary>
         [JsiiProperty(name: "zprPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string ZprPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciZprZprPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/zpr_zpr_policy#zpr_policy_id DataOciZprZprPolicy#zpr_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/zpr_zpr_policy#zpr_policy_id DataOciZprZprPolicy#zpr_policy_id}.</summary>
             [JsiiProperty(name: "zprPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZprPolicyId
             {

@@ -7,7 +7,7 @@ namespace oci.BdsBdsCapacityReservation
     [JsiiInterface(nativeType: typeof(IBdsBdsCapacityReservationComputeCapacityReservations), fullyQualifiedName: "oci.bdsBdsCapacityReservation.BdsBdsCapacityReservationComputeCapacityReservations")]
     public interface IBdsBdsCapacityReservationComputeCapacityReservations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#domain1reservation_id BdsBdsCapacityReservation#domain1reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#domain1reservation_id BdsBdsCapacityReservation#domain1reservation_id}.</summary>
         [JsiiProperty(name: "domain1ReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Domain1ReservationId
@@ -18,7 +18,7 @@ namespace oci.BdsBdsCapacityReservation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#domain2reservation_id BdsBdsCapacityReservation#domain2reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#domain2reservation_id BdsBdsCapacityReservation#domain2reservation_id}.</summary>
         [JsiiProperty(name: "domain2ReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Domain2ReservationId
@@ -29,7 +29,7 @@ namespace oci.BdsBdsCapacityReservation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#domain3reservation_id BdsBdsCapacityReservation#domain3reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#domain3reservation_id BdsBdsCapacityReservation#domain3reservation_id}.</summary>
         [JsiiProperty(name: "domain3ReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Domain3ReservationId
@@ -47,7 +47,7 @@ namespace oci.BdsBdsCapacityReservation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#domain1reservation_id BdsBdsCapacityReservation#domain1reservation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#domain1reservation_id BdsBdsCapacityReservation#domain1reservation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domain1ReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Domain1ReservationId
@@ -55,7 +55,7 @@ namespace oci.BdsBdsCapacityReservation
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#domain2reservation_id BdsBdsCapacityReservation#domain2reservation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#domain2reservation_id BdsBdsCapacityReservation#domain2reservation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domain2ReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Domain2ReservationId
@@ -63,7 +63,7 @@ namespace oci.BdsBdsCapacityReservation
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/bds_bds_capacity_reservation#domain3reservation_id BdsBdsCapacityReservation#domain3reservation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/bds_bds_capacity_reservation#domain3reservation_id BdsBdsCapacityReservation#domain3reservation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "domain3ReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Domain3ReservationId

@@ -9,7 +9,7 @@ namespace oci.DataOciMonitoringMetrics
     [JsiiByValue(fqn: "oci.dataOciMonitoringMetrics.DataOciMonitoringMetricsFilter")]
     public class DataOciMonitoringMetricsFilter : oci.DataOciMonitoringMetrics.IDataOciMonitoringMetricsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/monitoring_metrics#name DataOciMonitoringMetrics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/monitoring_metrics#name DataOciMonitoringMetrics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciMonitoringMetrics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/monitoring_metrics#values DataOciMonitoringMetrics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/monitoring_metrics#values DataOciMonitoringMetrics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciMonitoringMetrics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/monitoring_metrics#regex DataOciMonitoringMetrics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/monitoring_metrics#regex DataOciMonitoringMetrics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

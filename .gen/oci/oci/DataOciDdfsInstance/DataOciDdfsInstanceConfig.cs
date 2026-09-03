@@ -9,7 +9,7 @@ namespace oci.DataOciDdfsInstance
     [JsiiByValue(fqn: "oci.dataOciDdfsInstance.DataOciDdfsInstanceConfig")]
     public class DataOciDdfsInstanceConfig : oci.DataOciDdfsInstance.IDataOciDdfsInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/ddfs_instance#instance_id DataOciDdfsInstance#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/ddfs_instance#instance_id DataOciDdfsInstance#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {

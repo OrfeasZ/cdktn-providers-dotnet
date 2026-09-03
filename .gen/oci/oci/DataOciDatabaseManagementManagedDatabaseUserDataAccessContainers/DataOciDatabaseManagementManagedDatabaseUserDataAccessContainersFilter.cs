@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers
     [JsiiByValue(fqn: "oci.dataOciDatabaseManagementManagedDatabaseUserDataAccessContainers.DataOciDatabaseManagementManagedDatabaseUserDataAccessContainersFilter")]
     public class DataOciDatabaseManagementManagedDatabaseUserDataAccessContainersFilter : oci.DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers.IDataOciDatabaseManagementManagedDatabaseUserDataAccessContainersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_managed_database_user_data_access_containers#name DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_managed_database_user_data_access_containers#name DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_managed_database_user_data_access_containers#values DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_managed_database_user_data_access_containers#values DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/database_management_managed_database_user_data_access_containers#regex DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_management_managed_database_user_data_access_containers#regex DataOciDatabaseManagementManagedDatabaseUserDataAccessContainers#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

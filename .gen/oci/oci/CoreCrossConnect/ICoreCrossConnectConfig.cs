@@ -7,28 +7,28 @@ namespace oci.CoreCrossConnect
     [JsiiInterface(nativeType: typeof(ICoreCrossConnectConfig), fullyQualifiedName: "oci.coreCrossConnect.CoreCrossConnectConfig")]
     public interface ICoreCrossConnectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#compartment_id CoreCrossConnect#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#compartment_id CoreCrossConnect#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#location_name CoreCrossConnect#location_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#location_name CoreCrossConnect#location_name}.</summary>
         [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]
         string LocationName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#port_speed_shape_name CoreCrossConnect#port_speed_shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#port_speed_shape_name CoreCrossConnect#port_speed_shape_name}.</summary>
         [JsiiProperty(name: "portSpeedShapeName", typeJson: "{\"primitive\":\"string\"}")]
         string PortSpeedShapeName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#cross_connect_group_id CoreCrossConnect#cross_connect_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#cross_connect_group_id CoreCrossConnect#cross_connect_group_id}.</summary>
         [JsiiProperty(name: "crossConnectGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CrossConnectGroupId
@@ -39,7 +39,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#customer_reference_name CoreCrossConnect#customer_reference_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#customer_reference_name CoreCrossConnect#customer_reference_name}.</summary>
         [JsiiProperty(name: "customerReferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CustomerReferenceName
@@ -50,7 +50,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#defined_tags CoreCrossConnect#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#defined_tags CoreCrossConnect#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -61,7 +61,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#display_name CoreCrossConnect#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#display_name CoreCrossConnect#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -72,7 +72,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#far_cross_connect_or_cross_connect_group_id CoreCrossConnect#far_cross_connect_or_cross_connect_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#far_cross_connect_or_cross_connect_group_id CoreCrossConnect#far_cross_connect_or_cross_connect_group_id}.</summary>
         [JsiiProperty(name: "farCrossConnectOrCrossConnectGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FarCrossConnectOrCrossConnectGroupId
@@ -83,7 +83,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#freeform_tags CoreCrossConnect#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#freeform_tags CoreCrossConnect#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -94,7 +94,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#id CoreCrossConnect#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#id CoreCrossConnect#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -109,7 +109,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#interface_down_timer_value_in_milliseconds CoreCrossConnect#interface_down_timer_value_in_milliseconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#interface_down_timer_value_in_milliseconds CoreCrossConnect#interface_down_timer_value_in_milliseconds}.</summary>
         [JsiiProperty(name: "interfaceDownTimerValueInMilliseconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? InterfaceDownTimerValueInMilliseconds
@@ -120,7 +120,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#interface_name CoreCrossConnect#interface_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#interface_name CoreCrossConnect#interface_name}.</summary>
         [JsiiProperty(name: "interfaceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InterfaceName
@@ -131,7 +131,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#is_active CoreCrossConnect#is_active}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#is_active CoreCrossConnect#is_active}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -145,7 +145,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#is_interface_hold_timer_enabled CoreCrossConnect#is_interface_hold_timer_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#is_interface_hold_timer_enabled CoreCrossConnect#is_interface_hold_timer_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -159,7 +159,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#is_qos_enabled CoreCrossConnect#is_qos_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#is_qos_enabled CoreCrossConnect#is_qos_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -175,7 +175,7 @@ namespace oci.CoreCrossConnect
 
         /// <summary>loa_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#loa_properties CoreCrossConnect#loa_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#loa_properties CoreCrossConnect#loa_properties}
         /// </remarks>
         [JsiiProperty(name: "loaProperties", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectLoaProperties\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -189,7 +189,7 @@ namespace oci.CoreCrossConnect
 
         /// <summary>macsec_properties block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#macsec_properties CoreCrossConnect#macsec_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#macsec_properties CoreCrossConnect#macsec_properties}
         /// </remarks>
         [JsiiProperty(name: "macsecProperties", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectMacsecProperties\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -201,7 +201,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#near_cross_connect_or_cross_connect_group_id CoreCrossConnect#near_cross_connect_or_cross_connect_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#near_cross_connect_or_cross_connect_group_id CoreCrossConnect#near_cross_connect_or_cross_connect_group_id}.</summary>
         [JsiiProperty(name: "nearCrossConnectOrCrossConnectGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NearCrossConnectOrCrossConnectGroupId
@@ -212,7 +212,7 @@ namespace oci.CoreCrossConnect
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#oci_physical_device_name CoreCrossConnect#oci_physical_device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#oci_physical_device_name CoreCrossConnect#oci_physical_device_name}.</summary>
         [JsiiProperty(name: "ociPhysicalDeviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OciPhysicalDeviceName
@@ -225,7 +225,7 @@ namespace oci.CoreCrossConnect
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#timeouts CoreCrossConnect#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#timeouts CoreCrossConnect#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -244,28 +244,28 @@ namespace oci.CoreCrossConnect
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#compartment_id CoreCrossConnect#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#compartment_id CoreCrossConnect#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#location_name CoreCrossConnect#location_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#location_name CoreCrossConnect#location_name}.</summary>
             [JsiiProperty(name: "locationName", typeJson: "{\"primitive\":\"string\"}")]
             public string LocationName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#port_speed_shape_name CoreCrossConnect#port_speed_shape_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#port_speed_shape_name CoreCrossConnect#port_speed_shape_name}.</summary>
             [JsiiProperty(name: "portSpeedShapeName", typeJson: "{\"primitive\":\"string\"}")]
             public string PortSpeedShapeName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#cross_connect_group_id CoreCrossConnect#cross_connect_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#cross_connect_group_id CoreCrossConnect#cross_connect_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "crossConnectGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CrossConnectGroupId
@@ -273,7 +273,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#customer_reference_name CoreCrossConnect#customer_reference_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#customer_reference_name CoreCrossConnect#customer_reference_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "customerReferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CustomerReferenceName
@@ -281,7 +281,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#defined_tags CoreCrossConnect#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#defined_tags CoreCrossConnect#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -289,7 +289,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#display_name CoreCrossConnect#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#display_name CoreCrossConnect#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -297,7 +297,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#far_cross_connect_or_cross_connect_group_id CoreCrossConnect#far_cross_connect_or_cross_connect_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#far_cross_connect_or_cross_connect_group_id CoreCrossConnect#far_cross_connect_or_cross_connect_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "farCrossConnectOrCrossConnectGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FarCrossConnectOrCrossConnectGroupId
@@ -305,7 +305,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#freeform_tags CoreCrossConnect#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#freeform_tags CoreCrossConnect#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -313,7 +313,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#id CoreCrossConnect#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#id CoreCrossConnect#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -325,7 +325,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#interface_down_timer_value_in_milliseconds CoreCrossConnect#interface_down_timer_value_in_milliseconds}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#interface_down_timer_value_in_milliseconds CoreCrossConnect#interface_down_timer_value_in_milliseconds}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "interfaceDownTimerValueInMilliseconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? InterfaceDownTimerValueInMilliseconds
@@ -333,7 +333,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#interface_name CoreCrossConnect#interface_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#interface_name CoreCrossConnect#interface_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "interfaceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InterfaceName
@@ -341,7 +341,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#is_active CoreCrossConnect#is_active}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#is_active CoreCrossConnect#is_active}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -352,7 +352,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#is_interface_hold_timer_enabled CoreCrossConnect#is_interface_hold_timer_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#is_interface_hold_timer_enabled CoreCrossConnect#is_interface_hold_timer_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -363,7 +363,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#is_qos_enabled CoreCrossConnect#is_qos_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#is_qos_enabled CoreCrossConnect#is_qos_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -376,7 +376,7 @@ namespace oci.CoreCrossConnect
 
             /// <summary>loa_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#loa_properties CoreCrossConnect#loa_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#loa_properties CoreCrossConnect#loa_properties}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loaProperties", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectLoaProperties\"}", isOptional: true)]
@@ -387,7 +387,7 @@ namespace oci.CoreCrossConnect
 
             /// <summary>macsec_properties block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#macsec_properties CoreCrossConnect#macsec_properties}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#macsec_properties CoreCrossConnect#macsec_properties}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "macsecProperties", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectMacsecProperties\"}", isOptional: true)]
@@ -396,7 +396,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<oci.CoreCrossConnect.ICoreCrossConnectMacsecProperties?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#near_cross_connect_or_cross_connect_group_id CoreCrossConnect#near_cross_connect_or_cross_connect_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#near_cross_connect_or_cross_connect_group_id CoreCrossConnect#near_cross_connect_or_cross_connect_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nearCrossConnectOrCrossConnectGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NearCrossConnectOrCrossConnectGroupId
@@ -404,7 +404,7 @@ namespace oci.CoreCrossConnect
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#oci_physical_device_name CoreCrossConnect#oci_physical_device_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#oci_physical_device_name CoreCrossConnect#oci_physical_device_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ociPhysicalDeviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OciPhysicalDeviceName
@@ -414,7 +414,7 @@ namespace oci.CoreCrossConnect
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/core_cross_connect#timeouts CoreCrossConnect#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/core_cross_connect#timeouts CoreCrossConnect#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreCrossConnect.CoreCrossConnectTimeouts\"}", isOptional: true)]

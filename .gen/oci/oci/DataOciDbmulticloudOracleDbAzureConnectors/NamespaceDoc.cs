@@ -5,7 +5,7 @@ namespace oci.DataOciDbmulticloudOracleDbAzureConnectors
     /// <remarks>
     /// <h1><c>data_oci_dbmulticloud_oracle_db_azure_connectors</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/data-sources/dbmulticloud_oracle_db_azure_connectors"><c>data_oci_dbmulticloud_oracle_db_azure_connectors</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/dbmulticloud_oracle_db_azure_connectors"><c>data_oci_dbmulticloud_oracle_db_azure_connectors</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

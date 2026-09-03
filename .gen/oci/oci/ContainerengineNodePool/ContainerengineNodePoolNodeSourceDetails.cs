@@ -9,7 +9,7 @@ namespace oci.ContainerengineNodePool
     [JsiiByValue(fqn: "oci.containerengineNodePool.ContainerengineNodePoolNodeSourceDetails")]
     public class ContainerengineNodePoolNodeSourceDetails : oci.ContainerengineNodePool.IContainerengineNodePoolNodeSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_node_pool#image_id ContainerengineNodePool#image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_node_pool#image_id ContainerengineNodePool#image_id}.</summary>
         [JsiiProperty(name: "imageId", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageId
         {
@@ -17,7 +17,7 @@ namespace oci.ContainerengineNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_node_pool#source_type ContainerengineNodePool#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_node_pool#source_type ContainerengineNodePool#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceType
         {
@@ -25,7 +25,7 @@ namespace oci.ContainerengineNodePool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/containerengine_node_pool#boot_volume_size_in_gbs ContainerengineNodePool#boot_volume_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/containerengine_node_pool#boot_volume_size_in_gbs ContainerengineNodePool#boot_volume_size_in_gbs}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bootVolumeSizeInGbs", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BootVolumeSizeInGbs

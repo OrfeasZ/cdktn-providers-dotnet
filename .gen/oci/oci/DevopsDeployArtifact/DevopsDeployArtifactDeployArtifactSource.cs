@@ -9,7 +9,7 @@ namespace oci.DevopsDeployArtifact
     [JsiiByValue(fqn: "oci.devopsDeployArtifact.DevopsDeployArtifactDeployArtifactSource")]
     public class DevopsDeployArtifactDeployArtifactSource : oci.DevopsDeployArtifact.IDevopsDeployArtifactDeployArtifactSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#deploy_artifact_source_type DevopsDeployArtifact#deploy_artifact_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#deploy_artifact_source_type DevopsDeployArtifact#deploy_artifact_source_type}.</summary>
         [JsiiProperty(name: "deployArtifactSourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string DeployArtifactSourceType
         {
@@ -17,7 +17,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#base64encoded_content DevopsDeployArtifact#base64encoded_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#base64encoded_content DevopsDeployArtifact#base64encoded_content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "base64EncodedContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Base64EncodedContent
@@ -26,7 +26,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#chart_url DevopsDeployArtifact#chart_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#chart_url DevopsDeployArtifact#chart_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "chartUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ChartUrl
@@ -35,7 +35,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#deploy_artifact_path DevopsDeployArtifact#deploy_artifact_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#deploy_artifact_path DevopsDeployArtifact#deploy_artifact_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deployArtifactPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeployArtifactPath
@@ -44,7 +44,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#deploy_artifact_version DevopsDeployArtifact#deploy_artifact_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#deploy_artifact_version DevopsDeployArtifact#deploy_artifact_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "deployArtifactVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DeployArtifactVersion
@@ -53,7 +53,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#helm_artifact_source_type DevopsDeployArtifact#helm_artifact_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#helm_artifact_source_type DevopsDeployArtifact#helm_artifact_source_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "helmArtifactSourceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? HelmArtifactSourceType
@@ -64,7 +64,7 @@ namespace oci.DevopsDeployArtifact
 
         /// <summary>helm_verification_key_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#helm_verification_key_source DevopsDeployArtifact#helm_verification_key_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#helm_verification_key_source DevopsDeployArtifact#helm_verification_key_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "helmVerificationKeySource", typeJson: "{\"fqn\":\"oci.devopsDeployArtifact.DevopsDeployArtifactDeployArtifactSourceHelmVerificationKeySource\"}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#image_digest DevopsDeployArtifact#image_digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#image_digest DevopsDeployArtifact#image_digest}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageDigest
@@ -83,7 +83,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#image_uri DevopsDeployArtifact#image_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#image_uri DevopsDeployArtifact#image_uri}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "imageUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ImageUri
@@ -92,7 +92,7 @@ namespace oci.DevopsDeployArtifact
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/devops_deploy_artifact#repository_id DevopsDeployArtifact#repository_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/devops_deploy_artifact#repository_id DevopsDeployArtifact#repository_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "repositoryId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RepositoryId

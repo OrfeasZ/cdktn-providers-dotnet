@@ -9,7 +9,7 @@ namespace oci.StackMonitoringProcessSet
     {
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_process_set#items StackMonitoringProcessSet#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_process_set#items StackMonitoringProcessSet#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringProcessSet.IStackMonitoringProcessSetSpecificationItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringProcessSet.StackMonitoringProcessSetSpecificationItems\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace oci.StackMonitoringProcessSet
 
             /// <summary>items block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/stack_monitoring_process_set#items StackMonitoringProcessSet#items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/stack_monitoring_process_set#items StackMonitoringProcessSet#items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.StackMonitoringProcessSet.IStackMonitoringProcessSetSpecificationItems" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.stackMonitoringProcessSet.StackMonitoringProcessSetSpecificationItems\"},\"kind\":\"array\"}}]}}")]

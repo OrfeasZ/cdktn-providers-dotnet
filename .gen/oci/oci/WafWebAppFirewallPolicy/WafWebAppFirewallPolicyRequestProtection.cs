@@ -7,7 +7,7 @@ namespace oci.WafWebAppFirewallPolicy
     [JsiiByValue(fqn: "oci.wafWebAppFirewallPolicy.WafWebAppFirewallPolicyRequestProtection")]
     public class WafWebAppFirewallPolicyRequestProtection : oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyRequestProtection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_exceeded_action_name WafWebAppFirewallPolicy#body_inspection_size_limit_exceeded_action_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_exceeded_action_name WafWebAppFirewallPolicy#body_inspection_size_limit_exceeded_action_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bodyInspectionSizeLimitExceededActionName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BodyInspectionSizeLimitExceededActionName
@@ -16,7 +16,7 @@ namespace oci.WafWebAppFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_in_bytes WafWebAppFirewallPolicy#body_inspection_size_limit_in_bytes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waf_web_app_firewall_policy#body_inspection_size_limit_in_bytes WafWebAppFirewallPolicy#body_inspection_size_limit_in_bytes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bodyInspectionSizeLimitInBytes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BodyInspectionSizeLimitInBytes
@@ -29,7 +29,7 @@ namespace oci.WafWebAppFirewallPolicy
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/waf_web_app_firewall_policy#rules WafWebAppFirewallPolicy#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.WafWebAppFirewallPolicy.IWafWebAppFirewallPolicyRequestProtectionRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

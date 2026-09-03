@@ -9,7 +9,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
     [JsiiByValue(fqn: "oci.databaseManagementExternalMySqlDatabaseConnector.DatabaseManagementExternalMySqlDatabaseConnectorConfig")]
     public class DatabaseManagementExternalMySqlDatabaseConnectorConfig : oci.DatabaseManagementExternalMySqlDatabaseConnector.IDatabaseManagementExternalMySqlDatabaseConnectorConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_my_sql_database_connector#compartment_id DatabaseManagementExternalMySqlDatabaseConnector#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_external_my_sql_database_connector#compartment_id DatabaseManagementExternalMySqlDatabaseConnector#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
 
         /// <summary>connector_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_my_sql_database_connector#connector_details DatabaseManagementExternalMySqlDatabaseConnector#connector_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_external_my_sql_database_connector#connector_details DatabaseManagementExternalMySqlDatabaseConnector#connector_details}
         /// </remarks>
         [JsiiProperty(name: "connectorDetails", typeJson: "{\"fqn\":\"oci.databaseManagementExternalMySqlDatabaseConnector.DatabaseManagementExternalMySqlDatabaseConnectorConnectorDetails\"}")]
         public oci.DatabaseManagementExternalMySqlDatabaseConnector.IDatabaseManagementExternalMySqlDatabaseConnectorConnectorDetails ConnectorDetails
@@ -30,7 +30,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
 
         private object _isTestConnectionParam;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_my_sql_database_connector#is_test_connection_param DatabaseManagementExternalMySqlDatabaseConnector#is_test_connection_param}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_external_my_sql_database_connector#is_test_connection_param DatabaseManagementExternalMySqlDatabaseConnector#is_test_connection_param}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_my_sql_database_connector#check_connection_status_trigger DatabaseManagementExternalMySqlDatabaseConnector#check_connection_status_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_external_my_sql_database_connector#check_connection_status_trigger DatabaseManagementExternalMySqlDatabaseConnector#check_connection_status_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "checkConnectionStatusTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? CheckConnectionStatusTrigger
@@ -70,7 +70,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_my_sql_database_connector#id DatabaseManagementExternalMySqlDatabaseConnector#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_external_my_sql_database_connector#id DatabaseManagementExternalMySqlDatabaseConnector#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DatabaseManagementExternalMySqlDatabaseConnector
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/8.29.0/docs/resources/database_management_external_my_sql_database_connector#timeouts DatabaseManagementExternalMySqlDatabaseConnector#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/database_management_external_my_sql_database_connector#timeouts DatabaseManagementExternalMySqlDatabaseConnector#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.databaseManagementExternalMySqlDatabaseConnector.DatabaseManagementExternalMySqlDatabaseConnectorTimeouts\"}", isOptional: true)]
