@@ -11,7 +11,7 @@ namespace azurerm.LinuxFunctionAppSlot
     {
         /// <summary>The name which should be used for this Backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#name LinuxFunctionAppSlot#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#name LinuxFunctionAppSlot#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#schedule LinuxFunctionAppSlot#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#schedule LinuxFunctionAppSlot#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotBackupSchedule\"}")]
         public azurerm.LinuxFunctionAppSlot.ILinuxFunctionAppSlotBackupSchedule Schedule
@@ -33,7 +33,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The SAS URL to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#storage_account_url LinuxFunctionAppSlot#storage_account_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#storage_account_url LinuxFunctionAppSlot#storage_account_url}
         /// </remarks>
         [JsiiProperty(name: "storageAccountUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountUrl
@@ -46,7 +46,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>Should this backup job be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#enabled LinuxFunctionAppSlot#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#enabled LinuxFunctionAppSlot#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

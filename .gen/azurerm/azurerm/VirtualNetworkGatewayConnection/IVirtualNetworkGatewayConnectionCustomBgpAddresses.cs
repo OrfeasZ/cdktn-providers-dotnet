@@ -7,14 +7,14 @@ namespace azurerm.VirtualNetworkGatewayConnection
     [JsiiInterface(nativeType: typeof(IVirtualNetworkGatewayConnectionCustomBgpAddresses), fullyQualifiedName: "azurerm.virtualNetworkGatewayConnection.VirtualNetworkGatewayConnectionCustomBgpAddresses")]
     public interface IVirtualNetworkGatewayConnectionCustomBgpAddresses
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway_connection#primary VirtualNetworkGatewayConnection#primary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network_gateway_connection#primary VirtualNetworkGatewayConnection#primary}.</summary>
         [JsiiProperty(name: "primary", typeJson: "{\"primitive\":\"string\"}")]
         string Primary
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway_connection#secondary VirtualNetworkGatewayConnection#secondary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network_gateway_connection#secondary VirtualNetworkGatewayConnection#secondary}.</summary>
         [JsiiProperty(name: "secondary", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Secondary
@@ -32,14 +32,14 @@ namespace azurerm.VirtualNetworkGatewayConnection
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway_connection#primary VirtualNetworkGatewayConnection#primary}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network_gateway_connection#primary VirtualNetworkGatewayConnection#primary}.</summary>
             [JsiiProperty(name: "primary", typeJson: "{\"primitive\":\"string\"}")]
             public string Primary
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway_connection#secondary VirtualNetworkGatewayConnection#secondary}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network_gateway_connection#secondary VirtualNetworkGatewayConnection#secondary}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secondary", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Secondary

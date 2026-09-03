@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermBillingMcaAccountScope
     [JsiiByValue(fqn: "azurerm.dataAzurermBillingMcaAccountScope.DataAzurermBillingMcaAccountScopeTimeouts")]
     public class DataAzurermBillingMcaAccountScopeTimeouts : azurerm.DataAzurermBillingMcaAccountScope.IDataAzurermBillingMcaAccountScopeTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/billing_mca_account_scope#read DataAzurermBillingMcaAccountScope#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/billing_mca_account_scope#read DataAzurermBillingMcaAccountScope#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

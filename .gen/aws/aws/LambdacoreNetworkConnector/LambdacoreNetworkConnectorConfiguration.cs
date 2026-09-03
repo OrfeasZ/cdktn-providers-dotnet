@@ -11,7 +11,7 @@ namespace aws.LambdacoreNetworkConnector
 
         /// <summary>vpc_egress_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdacore_network_connector#vpc_egress_configuration LambdacoreNetworkConnector#vpc_egress_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdacore_network_connector#vpc_egress_configuration LambdacoreNetworkConnector#vpc_egress_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.LambdacoreNetworkConnector.ILambdacoreNetworkConnectorConfigurationVpcEgressConfiguration" />)[]</para>
         /// </remarks>
         [JsiiOptional]

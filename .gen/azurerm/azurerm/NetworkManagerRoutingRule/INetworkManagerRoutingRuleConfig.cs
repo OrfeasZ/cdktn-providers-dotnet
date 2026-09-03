@@ -9,7 +9,7 @@ namespace azurerm.NetworkManagerRoutingRule
     {
         /// <summary>destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#destination NetworkManagerRoutingRule#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#destination NetworkManagerRoutingRule#destination}
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"fqn\":\"azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleDestination\"}")]
         azurerm.NetworkManagerRoutingRule.INetworkManagerRoutingRuleDestination Destination
@@ -17,7 +17,7 @@ namespace azurerm.NetworkManagerRoutingRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#name NetworkManagerRoutingRule#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#name NetworkManagerRoutingRule#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -26,7 +26,7 @@ namespace azurerm.NetworkManagerRoutingRule
 
         /// <summary>next_hop block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#next_hop NetworkManagerRoutingRule#next_hop}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#next_hop NetworkManagerRoutingRule#next_hop}
         /// </remarks>
         [JsiiProperty(name: "nextHop", typeJson: "{\"fqn\":\"azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleNextHop\"}")]
         azurerm.NetworkManagerRoutingRule.INetworkManagerRoutingRuleNextHop NextHop
@@ -34,14 +34,14 @@ namespace azurerm.NetworkManagerRoutingRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#rule_collection_id NetworkManagerRoutingRule#rule_collection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#rule_collection_id NetworkManagerRoutingRule#rule_collection_id}.</summary>
         [JsiiProperty(name: "ruleCollectionId", typeJson: "{\"primitive\":\"string\"}")]
         string RuleCollectionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#description NetworkManagerRoutingRule#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#description NetworkManagerRoutingRule#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -52,7 +52,7 @@ namespace azurerm.NetworkManagerRoutingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#id NetworkManagerRoutingRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#id NetworkManagerRoutingRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace azurerm.NetworkManagerRoutingRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#timeouts NetworkManagerRoutingRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#timeouts NetworkManagerRoutingRule#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace azurerm.NetworkManagerRoutingRule
 
             /// <summary>destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#destination NetworkManagerRoutingRule#destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#destination NetworkManagerRoutingRule#destination}
             /// </remarks>
             [JsiiProperty(name: "destination", typeJson: "{\"fqn\":\"azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleDestination\"}")]
             public azurerm.NetworkManagerRoutingRule.INetworkManagerRoutingRuleDestination Destination
@@ -98,7 +98,7 @@ namespace azurerm.NetworkManagerRoutingRule
                 get => GetInstanceProperty<azurerm.NetworkManagerRoutingRule.INetworkManagerRoutingRuleDestination>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#name NetworkManagerRoutingRule#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#name NetworkManagerRoutingRule#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -107,7 +107,7 @@ namespace azurerm.NetworkManagerRoutingRule
 
             /// <summary>next_hop block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#next_hop NetworkManagerRoutingRule#next_hop}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#next_hop NetworkManagerRoutingRule#next_hop}
             /// </remarks>
             [JsiiProperty(name: "nextHop", typeJson: "{\"fqn\":\"azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleNextHop\"}")]
             public azurerm.NetworkManagerRoutingRule.INetworkManagerRoutingRuleNextHop NextHop
@@ -115,14 +115,14 @@ namespace azurerm.NetworkManagerRoutingRule
                 get => GetInstanceProperty<azurerm.NetworkManagerRoutingRule.INetworkManagerRoutingRuleNextHop>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#rule_collection_id NetworkManagerRoutingRule#rule_collection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#rule_collection_id NetworkManagerRoutingRule#rule_collection_id}.</summary>
             [JsiiProperty(name: "ruleCollectionId", typeJson: "{\"primitive\":\"string\"}")]
             public string RuleCollectionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#description NetworkManagerRoutingRule#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#description NetworkManagerRoutingRule#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -130,7 +130,7 @@ namespace azurerm.NetworkManagerRoutingRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#id NetworkManagerRoutingRule#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#id NetworkManagerRoutingRule#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azurerm.NetworkManagerRoutingRule
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_manager_routing_rule#timeouts NetworkManagerRoutingRule#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_manager_routing_rule#timeouts NetworkManagerRoutingRule#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.networkManagerRoutingRule.NetworkManagerRoutingRuleTimeouts\"}", isOptional: true)]

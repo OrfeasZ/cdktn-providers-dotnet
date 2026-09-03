@@ -13,7 +13,7 @@ namespace aws.AppmeshRoute
 
         /// <summary>weighted_target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/appmesh_route#weighted_target AppmeshRoute#weighted_target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/appmesh_route#weighted_target AppmeshRoute#weighted_target}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AppmeshRoute.IAppmeshRouteSpecHttpRouteActionWeightedTarget" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "weightedTarget", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.appmeshRoute.AppmeshRouteSpecHttpRouteActionWeightedTarget\"},\"kind\":\"array\"}}]}}")]

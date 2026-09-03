@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreMemory
     [JsiiByValue(fqn: "aws.bedrockagentcoreMemory.BedrockagentcoreMemoryIndexedKey")]
     public class BedrockagentcoreMemoryIndexedKey : aws.BedrockagentcoreMemory.IBedrockagentcoreMemoryIndexedKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_memory#key BedrockagentcoreMemory#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentcoreMemory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_memory#type BedrockagentcoreMemory#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

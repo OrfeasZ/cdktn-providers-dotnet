@@ -9,7 +9,7 @@ namespace aws.ApprunnerService
     {
         private object? _isPubliclyAccessible;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apprunner_service#is_publicly_accessible ApprunnerService#is_publicly_accessible}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/apprunner_service#is_publicly_accessible ApprunnerService#is_publicly_accessible}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

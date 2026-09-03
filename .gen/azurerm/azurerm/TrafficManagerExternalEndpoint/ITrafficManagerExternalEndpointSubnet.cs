@@ -7,14 +7,14 @@ namespace azurerm.TrafficManagerExternalEndpoint
     [JsiiInterface(nativeType: typeof(ITrafficManagerExternalEndpointSubnet), fullyQualifiedName: "azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpointSubnet")]
     public interface ITrafficManagerExternalEndpointSubnet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#first TrafficManagerExternalEndpoint#first}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#first TrafficManagerExternalEndpoint#first}.</summary>
         [JsiiProperty(name: "first", typeJson: "{\"primitive\":\"string\"}")]
         string First
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#last TrafficManagerExternalEndpoint#last}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#last TrafficManagerExternalEndpoint#last}.</summary>
         [JsiiProperty(name: "last", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Last
@@ -25,7 +25,7 @@ namespace azurerm.TrafficManagerExternalEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#scope TrafficManagerExternalEndpoint#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#scope TrafficManagerExternalEndpoint#scope}.</summary>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Scope
@@ -43,14 +43,14 @@ namespace azurerm.TrafficManagerExternalEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#first TrafficManagerExternalEndpoint#first}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#first TrafficManagerExternalEndpoint#first}.</summary>
             [JsiiProperty(name: "first", typeJson: "{\"primitive\":\"string\"}")]
             public string First
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#last TrafficManagerExternalEndpoint#last}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#last TrafficManagerExternalEndpoint#last}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "last", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Last
@@ -58,7 +58,7 @@ namespace azurerm.TrafficManagerExternalEndpoint
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#scope TrafficManagerExternalEndpoint#scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#scope TrafficManagerExternalEndpoint#scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Scope

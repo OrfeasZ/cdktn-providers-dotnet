@@ -9,7 +9,7 @@ namespace azurerm.HealthcareFhirService
     [JsiiByValue(fqn: "azurerm.healthcareFhirService.HealthcareFhirServiceAuthentication")]
     public class HealthcareFhirServiceAuthentication : azurerm.HealthcareFhirService.IHealthcareFhirServiceAuthentication
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/healthcare_fhir_service#audience HealthcareFhirService#audience}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/healthcare_fhir_service#audience HealthcareFhirService#audience}.</summary>
         [JsiiProperty(name: "audience", typeJson: "{\"primitive\":\"string\"}")]
         public string Audience
         {
@@ -17,7 +17,7 @@ namespace azurerm.HealthcareFhirService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/healthcare_fhir_service#authority HealthcareFhirService#authority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/healthcare_fhir_service#authority HealthcareFhirService#authority}.</summary>
         [JsiiProperty(name: "authority", typeJson: "{\"primitive\":\"string\"}")]
         public string Authority
         {
@@ -27,7 +27,7 @@ namespace azurerm.HealthcareFhirService
 
         private object? _smartProxyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/healthcare_fhir_service#smart_proxy_enabled HealthcareFhirService#smart_proxy_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/healthcare_fhir_service#smart_proxy_enabled HealthcareFhirService#smart_proxy_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

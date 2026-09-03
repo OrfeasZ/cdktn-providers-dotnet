@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbGremlinGraph
     [JsiiByValue(fqn: "azurerm.cosmosdbGremlinGraph.CosmosdbGremlinGraphUniqueKey")]
     public class CosmosdbGremlinGraphUniqueKey : azurerm.CosmosdbGremlinGraph.ICosmosdbGremlinGraphUniqueKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_gremlin_graph#paths CosmosdbGremlinGraph#paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cosmosdb_gremlin_graph#paths CosmosdbGremlinGraph#paths}.</summary>
         [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Paths
         {

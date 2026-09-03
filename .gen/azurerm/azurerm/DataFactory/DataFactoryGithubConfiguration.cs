@@ -9,7 +9,7 @@ namespace azurerm.DataFactory
     [JsiiByValue(fqn: "azurerm.dataFactory.DataFactoryGithubConfiguration")]
     public class DataFactoryGithubConfiguration : azurerm.DataFactory.IDataFactoryGithubConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory#account_name DataFactory#account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory#account_name DataFactory#account_name}.</summary>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountName
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory#branch_name DataFactory#branch_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory#branch_name DataFactory#branch_name}.</summary>
         [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchName
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory#repository_name DataFactory#repository_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory#repository_name DataFactory#repository_name}.</summary>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
         public string RepositoryName
         {
@@ -33,7 +33,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory#root_folder DataFactory#root_folder}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory#root_folder DataFactory#root_folder}.</summary>
         [JsiiProperty(name: "rootFolder", typeJson: "{\"primitive\":\"string\"}")]
         public string RootFolder
         {
@@ -41,7 +41,7 @@ namespace azurerm.DataFactory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory#git_url DataFactory#git_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory#git_url DataFactory#git_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gitUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GitUrl
@@ -52,7 +52,7 @@ namespace azurerm.DataFactory
 
         private object? _publishingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory#publishing_enabled DataFactory#publishing_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory#publishing_enabled DataFactory#publishing_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

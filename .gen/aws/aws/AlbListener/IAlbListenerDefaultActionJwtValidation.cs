@@ -7,14 +7,14 @@ namespace aws.AlbListener
     [JsiiInterface(nativeType: typeof(IAlbListenerDefaultActionJwtValidation), fullyQualifiedName: "aws.albListener.AlbListenerDefaultActionJwtValidation")]
     public interface IAlbListenerDefaultActionJwtValidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener#issuer AlbListener#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb_listener#issuer AlbListener#issuer}.</summary>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         string Issuer
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener#jwks_endpoint AlbListener#jwks_endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb_listener#jwks_endpoint AlbListener#jwks_endpoint}.</summary>
         [JsiiProperty(name: "jwksEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         string JwksEndpoint
         {
@@ -23,7 +23,7 @@ namespace aws.AlbListener
 
         /// <summary>additional_claim block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener#additional_claim AlbListener#additional_claim}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb_listener#additional_claim AlbListener#additional_claim}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListener.IAlbListenerDefaultActionJwtValidationAdditionalClaim" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "additionalClaim", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.albListener.AlbListenerDefaultActionJwtValidationAdditionalClaim\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -43,14 +43,14 @@ namespace aws.AlbListener
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener#issuer AlbListener#issuer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb_listener#issuer AlbListener#issuer}.</summary>
             [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
             public string Issuer
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener#jwks_endpoint AlbListener#jwks_endpoint}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb_listener#jwks_endpoint AlbListener#jwks_endpoint}.</summary>
             [JsiiProperty(name: "jwksEndpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string JwksEndpoint
             {
@@ -59,7 +59,7 @@ namespace aws.AlbListener
 
             /// <summary>additional_claim block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/alb_listener#additional_claim AlbListener#additional_claim}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/alb_listener#additional_claim AlbListener#additional_claim}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AlbListener.IAlbListenerDefaultActionJwtValidationAdditionalClaim" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -9,7 +9,7 @@ namespace azurerm.ContainerRegistryTask
     [JsiiByValue(fqn: "azurerm.containerRegistryTask.ContainerRegistryTaskRegistryCredentialSource")]
     public class ContainerRegistryTaskRegistryCredentialSource : azurerm.ContainerRegistryTask.IContainerRegistryTaskRegistryCredentialSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#login_mode ContainerRegistryTask#login_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#login_mode ContainerRegistryTask#login_mode}.</summary>
         [JsiiProperty(name: "loginMode", typeJson: "{\"primitive\":\"string\"}")]
         public string LoginMode
         {

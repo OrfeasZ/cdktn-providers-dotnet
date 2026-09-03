@@ -7,21 +7,21 @@ namespace azurerm.StorageTable
     [JsiiInterface(nativeType: typeof(IStorageTableAclAccessPolicy), fullyQualifiedName: "azurerm.storageTable.StorageTableAclAccessPolicy")]
     public interface IStorageTableAclAccessPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_table#expiry StorageTable#expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_table#expiry StorageTable#expiry}.</summary>
         [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"string\"}")]
         string Expiry
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_table#permissions StorageTable#permissions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_table#permissions StorageTable#permissions}.</summary>
         [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
         string Permissions
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_table#start StorageTable#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_table#start StorageTable#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         string Start
         {
@@ -35,21 +35,21 @@ namespace azurerm.StorageTable
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_table#expiry StorageTable#expiry}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_table#expiry StorageTable#expiry}.</summary>
             [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"string\"}")]
             public string Expiry
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_table#permissions StorageTable#permissions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_table#permissions StorageTable#permissions}.</summary>
             [JsiiProperty(name: "permissions", typeJson: "{\"primitive\":\"string\"}")]
             public string Permissions
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_table#start StorageTable#start}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_table#start StorageTable#start}.</summary>
             [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
             public string Start
             {

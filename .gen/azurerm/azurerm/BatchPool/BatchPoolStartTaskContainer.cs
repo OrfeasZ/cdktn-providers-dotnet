@@ -9,7 +9,7 @@ namespace azurerm.BatchPool
     [JsiiByValue(fqn: "azurerm.batchPool.BatchPoolStartTaskContainer")]
     public class BatchPoolStartTaskContainer : azurerm.BatchPool.IBatchPoolStartTaskContainer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#image_name BatchPool#image_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#image_name BatchPool#image_name}.</summary>
         [JsiiProperty(name: "imageName", typeJson: "{\"primitive\":\"string\"}")]
         public string ImageName
         {
@@ -21,7 +21,7 @@ namespace azurerm.BatchPool
 
         /// <summary>registry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#registry BatchPool#registry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#registry BatchPool#registry}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchPool.IBatchPoolStartTaskContainerRegistry" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#run_options BatchPool#run_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#run_options BatchPool#run_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runOptions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RunOptions
@@ -61,7 +61,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#working_directory BatchPool#working_directory}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#working_directory BatchPool#working_directory}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workingDirectory", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkingDirectory

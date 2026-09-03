@@ -7,14 +7,14 @@ namespace azurerm.ExpressRouteCircuit
     [JsiiInterface(nativeType: typeof(IExpressRouteCircuitSku), fullyQualifiedName: "azurerm.expressRouteCircuit.ExpressRouteCircuitSku")]
     public interface IExpressRouteCircuitSku
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/express_route_circuit#family ExpressRouteCircuit#family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/express_route_circuit#family ExpressRouteCircuit#family}.</summary>
         [JsiiProperty(name: "family", typeJson: "{\"primitive\":\"string\"}")]
         string Family
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/express_route_circuit#tier ExpressRouteCircuit#tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/express_route_circuit#tier ExpressRouteCircuit#tier}.</summary>
         [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
         string Tier
         {
@@ -28,14 +28,14 @@ namespace azurerm.ExpressRouteCircuit
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/express_route_circuit#family ExpressRouteCircuit#family}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/express_route_circuit#family ExpressRouteCircuit#family}.</summary>
             [JsiiProperty(name: "family", typeJson: "{\"primitive\":\"string\"}")]
             public string Family
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/express_route_circuit#tier ExpressRouteCircuit#tier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/express_route_circuit#tier ExpressRouteCircuit#tier}.</summary>
             [JsiiProperty(name: "tier", typeJson: "{\"primitive\":\"string\"}")]
             public string Tier
             {

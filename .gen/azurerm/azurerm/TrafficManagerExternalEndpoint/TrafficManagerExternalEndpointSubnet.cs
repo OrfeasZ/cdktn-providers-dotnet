@@ -9,7 +9,7 @@ namespace azurerm.TrafficManagerExternalEndpoint
     [JsiiByValue(fqn: "azurerm.trafficManagerExternalEndpoint.TrafficManagerExternalEndpointSubnet")]
     public class TrafficManagerExternalEndpointSubnet : azurerm.TrafficManagerExternalEndpoint.ITrafficManagerExternalEndpointSubnet
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#first TrafficManagerExternalEndpoint#first}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#first TrafficManagerExternalEndpoint#first}.</summary>
         [JsiiProperty(name: "first", typeJson: "{\"primitive\":\"string\"}")]
         public string First
         {
@@ -17,7 +17,7 @@ namespace azurerm.TrafficManagerExternalEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#last TrafficManagerExternalEndpoint#last}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#last TrafficManagerExternalEndpoint#last}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "last", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Last
@@ -26,7 +26,7 @@ namespace azurerm.TrafficManagerExternalEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/traffic_manager_external_endpoint#scope TrafficManagerExternalEndpoint#scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/traffic_manager_external_endpoint#scope TrafficManagerExternalEndpoint#scope}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Scope

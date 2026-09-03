@@ -9,7 +9,7 @@ namespace azurerm.MonitorDataCollectionRule
     {
         /// <summary>data_import block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#data_import MonitorDataCollectionRule#data_import}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#data_import MonitorDataCollectionRule#data_import}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataImport", typeJson: "{\"fqn\":\"azurerm.monitorDataCollectionRule.MonitorDataCollectionRuleDataSourcesDataImport\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>extension block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#extension MonitorDataCollectionRule#extension}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#extension MonitorDataCollectionRule#extension}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesExtension" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -58,7 +58,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>iis_log block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#iis_log MonitorDataCollectionRule#iis_log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#iis_log MonitorDataCollectionRule#iis_log}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesIisLog" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -93,7 +93,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>log_file block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#log_file MonitorDataCollectionRule#log_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#log_file MonitorDataCollectionRule#log_file}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesLogFile" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -128,7 +128,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>performance_counter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#performance_counter MonitorDataCollectionRule#performance_counter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#performance_counter MonitorDataCollectionRule#performance_counter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesPerformanceCounter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -163,7 +163,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>platform_telemetry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#platform_telemetry MonitorDataCollectionRule#platform_telemetry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#platform_telemetry MonitorDataCollectionRule#platform_telemetry}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesPlatformTelemetry" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -198,7 +198,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>prometheus_forwarder block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#prometheus_forwarder MonitorDataCollectionRule#prometheus_forwarder}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#prometheus_forwarder MonitorDataCollectionRule#prometheus_forwarder}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesPrometheusForwarder" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -233,7 +233,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>syslog block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#syslog MonitorDataCollectionRule#syslog}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#syslog MonitorDataCollectionRule#syslog}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesSyslog" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -268,7 +268,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>windows_event_log block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#windows_event_log MonitorDataCollectionRule#windows_event_log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#windows_event_log MonitorDataCollectionRule#windows_event_log}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesWindowsEventLog" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -303,7 +303,7 @@ namespace azurerm.MonitorDataCollectionRule
 
         /// <summary>windows_firewall_log block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_data_collection_rule#windows_firewall_log MonitorDataCollectionRule#windows_firewall_log}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_data_collection_rule#windows_firewall_log MonitorDataCollectionRule#windows_firewall_log}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorDataCollectionRule.IMonitorDataCollectionRuleDataSourcesWindowsFirewallLog" />)[]</para>
         /// </remarks>
         [JsiiOptional]

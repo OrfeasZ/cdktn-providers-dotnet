@@ -9,7 +9,7 @@ namespace azurerm.BatchPool
     [JsiiByValue(fqn: "azurerm.batchPool.BatchPoolStartTaskContainerRegistry")]
     public class BatchPoolStartTaskContainerRegistry : azurerm.BatchPool.IBatchPoolStartTaskContainerRegistry
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#registry_server BatchPool#registry_server}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#registry_server BatchPool#registry_server}.</summary>
         [JsiiProperty(name: "registryServer", typeJson: "{\"primitive\":\"string\"}")]
         public string RegistryServer
         {
@@ -17,7 +17,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#password BatchPool#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#password BatchPool#password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password
@@ -28,7 +28,7 @@ namespace azurerm.BatchPool
 
         /// <summary>The User Assigned Identity to use for Container Registry access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#user_assigned_identity_id BatchPool#user_assigned_identity_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#user_assigned_identity_id BatchPool#user_assigned_identity_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace azurerm.BatchPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#user_name BatchPool#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#user_name BatchPool#user_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserName

@@ -7,14 +7,14 @@ namespace azurerm.StreamAnalyticsJob
     [JsiiInterface(nativeType: typeof(IStreamAnalyticsJobJobStorageAccount), fullyQualifiedName: "azurerm.streamAnalyticsJob.StreamAnalyticsJobJobStorageAccount")]
     public interface IStreamAnalyticsJobJobStorageAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_job#account_name StreamAnalyticsJob#account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stream_analytics_job#account_name StreamAnalyticsJob#account_name}.</summary>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         string AccountName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_job#account_key StreamAnalyticsJob#account_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stream_analytics_job#account_key StreamAnalyticsJob#account_key}.</summary>
         [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccountKey
@@ -25,7 +25,7 @@ namespace azurerm.StreamAnalyticsJob
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_job#authentication_mode StreamAnalyticsJob#authentication_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stream_analytics_job#authentication_mode StreamAnalyticsJob#authentication_mode}.</summary>
         [JsiiProperty(name: "authenticationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AuthenticationMode
@@ -43,14 +43,14 @@ namespace azurerm.StreamAnalyticsJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_job#account_name StreamAnalyticsJob#account_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stream_analytics_job#account_name StreamAnalyticsJob#account_name}.</summary>
             [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_job#account_key StreamAnalyticsJob#account_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stream_analytics_job#account_key StreamAnalyticsJob#account_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccountKey
@@ -58,7 +58,7 @@ namespace azurerm.StreamAnalyticsJob
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/stream_analytics_job#authentication_mode StreamAnalyticsJob#authentication_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/stream_analytics_job#authentication_mode StreamAnalyticsJob#authentication_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AuthenticationMode

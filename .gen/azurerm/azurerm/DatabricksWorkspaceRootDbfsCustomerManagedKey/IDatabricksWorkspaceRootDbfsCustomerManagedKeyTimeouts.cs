@@ -7,7 +7,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
     [JsiiInterface(nativeType: typeof(IDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeouts), fullyQualifiedName: "azurerm.databricksWorkspaceRootDbfsCustomerManagedKey.DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeouts")]
     public interface IDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#create DatabricksWorkspaceRootDbfsCustomerManagedKey#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#create DatabricksWorkspaceRootDbfsCustomerManagedKey#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#delete DatabricksWorkspaceRootDbfsCustomerManagedKey#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#delete DatabricksWorkspaceRootDbfsCustomerManagedKey#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#read DatabricksWorkspaceRootDbfsCustomerManagedKey#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#read DatabricksWorkspaceRootDbfsCustomerManagedKey#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -40,7 +40,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#update DatabricksWorkspaceRootDbfsCustomerManagedKey#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#update DatabricksWorkspaceRootDbfsCustomerManagedKey#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -58,7 +58,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#create DatabricksWorkspaceRootDbfsCustomerManagedKey#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#create DatabricksWorkspaceRootDbfsCustomerManagedKey#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -66,7 +66,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#delete DatabricksWorkspaceRootDbfsCustomerManagedKey#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#delete DatabricksWorkspaceRootDbfsCustomerManagedKey#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -74,7 +74,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#read DatabricksWorkspaceRootDbfsCustomerManagedKey#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#read DatabricksWorkspaceRootDbfsCustomerManagedKey#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read
@@ -82,7 +82,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#update DatabricksWorkspaceRootDbfsCustomerManagedKey#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#update DatabricksWorkspaceRootDbfsCustomerManagedKey#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

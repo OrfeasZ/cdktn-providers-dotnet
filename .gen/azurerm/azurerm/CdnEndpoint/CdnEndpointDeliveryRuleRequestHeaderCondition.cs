@@ -9,7 +9,7 @@ namespace azurerm.CdnEndpoint
     [JsiiByValue(fqn: "azurerm.cdnEndpoint.CdnEndpointDeliveryRuleRequestHeaderCondition")]
     public class CdnEndpointDeliveryRuleRequestHeaderCondition : azurerm.CdnEndpoint.ICdnEndpointDeliveryRuleRequestHeaderCondition
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#operator CdnEndpoint#operator}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_endpoint#operator CdnEndpoint#operator}.</summary>
         [JsiiProperty(name: "operator", typeJson: "{\"primitive\":\"string\"}")]
         public string Operator
         {
@@ -17,7 +17,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#selector CdnEndpoint#selector}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_endpoint#selector CdnEndpoint#selector}.</summary>
         [JsiiProperty(name: "selector", typeJson: "{\"primitive\":\"string\"}")]
         public string Selector
         {
@@ -25,7 +25,7 @@ namespace azurerm.CdnEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#match_values CdnEndpoint#match_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_endpoint#match_values CdnEndpoint#match_values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? MatchValues
@@ -36,7 +36,7 @@ namespace azurerm.CdnEndpoint
 
         private object? _negateCondition;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#negate_condition CdnEndpoint#negate_condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_endpoint#negate_condition CdnEndpoint#negate_condition}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace azurerm.CdnEndpoint
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_endpoint#transforms CdnEndpoint#transforms}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_endpoint#transforms CdnEndpoint#transforms}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transforms", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Transforms

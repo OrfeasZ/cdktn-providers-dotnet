@@ -7,7 +7,7 @@ namespace azurerm.StorageAccountQueueProperties
     [JsiiInterface(nativeType: typeof(IStorageAccountQueuePropertiesConfig), fullyQualifiedName: "azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesConfig")]
     public interface IStorageAccountQueuePropertiesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#storage_account_id StorageAccountQueueProperties#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#storage_account_id StorageAccountQueueProperties#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         string StorageAccountId
         {
@@ -16,7 +16,7 @@ namespace azurerm.StorageAccountQueueProperties
 
         /// <summary>cors_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#cors_rule StorageAccountQueueProperties#cors_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#cors_rule StorageAccountQueueProperties#cors_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccountQueueProperties.IStorageAccountQueuePropertiesCorsRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "corsRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesCorsRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace azurerm.StorageAccountQueueProperties
 
         /// <summary>hour_metrics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#hour_metrics StorageAccountQueueProperties#hour_metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#hour_metrics StorageAccountQueueProperties#hour_metrics}
         /// </remarks>
         [JsiiProperty(name: "hourMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesHourMetrics\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace azurerm.StorageAccountQueueProperties
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#id StorageAccountQueueProperties#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#id StorageAccountQueueProperties#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,7 +60,7 @@ namespace azurerm.StorageAccountQueueProperties
 
         /// <summary>logging block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#logging StorageAccountQueueProperties#logging}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#logging StorageAccountQueueProperties#logging}
         /// </remarks>
         [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesLogging\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace azurerm.StorageAccountQueueProperties
 
         /// <summary>minute_metrics block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#minute_metrics StorageAccountQueueProperties#minute_metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#minute_metrics StorageAccountQueueProperties#minute_metrics}
         /// </remarks>
         [JsiiProperty(name: "minuteMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesMinuteMetrics\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -88,7 +88,7 @@ namespace azurerm.StorageAccountQueueProperties
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#timeouts StorageAccountQueueProperties#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#timeouts StorageAccountQueueProperties#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace azurerm.StorageAccountQueueProperties
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#storage_account_id StorageAccountQueueProperties#storage_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#storage_account_id StorageAccountQueueProperties#storage_account_id}.</summary>
             [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
             public string StorageAccountId
             {
@@ -116,7 +116,7 @@ namespace azurerm.StorageAccountQueueProperties
 
             /// <summary>cors_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#cors_rule StorageAccountQueueProperties#cors_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#cors_rule StorageAccountQueueProperties#cors_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.StorageAccountQueueProperties.IStorageAccountQueuePropertiesCorsRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -128,7 +128,7 @@ namespace azurerm.StorageAccountQueueProperties
 
             /// <summary>hour_metrics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#hour_metrics StorageAccountQueueProperties#hour_metrics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#hour_metrics StorageAccountQueueProperties#hour_metrics}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hourMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesHourMetrics\"}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace azurerm.StorageAccountQueueProperties
                 get => GetInstanceProperty<azurerm.StorageAccountQueueProperties.IStorageAccountQueuePropertiesHourMetrics?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#id StorageAccountQueueProperties#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#id StorageAccountQueueProperties#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -151,7 +151,7 @@ namespace azurerm.StorageAccountQueueProperties
 
             /// <summary>logging block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#logging StorageAccountQueueProperties#logging}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#logging StorageAccountQueueProperties#logging}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logging", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesLogging\"}", isOptional: true)]
@@ -162,7 +162,7 @@ namespace azurerm.StorageAccountQueueProperties
 
             /// <summary>minute_metrics block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#minute_metrics StorageAccountQueueProperties#minute_metrics}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#minute_metrics StorageAccountQueueProperties#minute_metrics}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minuteMetrics", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesMinuteMetrics\"}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace azurerm.StorageAccountQueueProperties
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account_queue_properties#timeouts StorageAccountQueueProperties#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account_queue_properties#timeouts StorageAccountQueueProperties#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.storageAccountQueueProperties.StorageAccountQueuePropertiesTimeouts\"}", isOptional: true)]

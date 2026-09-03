@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermNetappAccount
     [JsiiByValue(fqn: "azurerm.dataAzurermNetappAccount.DataAzurermNetappAccountIdentity")]
     public class DataAzurermNetappAccountIdentity : azurerm.DataAzurermNetappAccount.IDataAzurermNetappAccountIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/netapp_account#type DataAzurermNetappAccount#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/netapp_account#type DataAzurermNetappAccount#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermNetappAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/netapp_account#identity_ids DataAzurermNetappAccount#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/netapp_account#identity_ids DataAzurermNetappAccount#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

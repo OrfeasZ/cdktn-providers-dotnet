@@ -7,14 +7,14 @@ namespace azurerm.ResourceGroupCostManagementView
     [JsiiInterface(nativeType: typeof(IResourceGroupCostManagementViewDatasetAggregation), fullyQualifiedName: "azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregation")]
     public interface IResourceGroupCostManagementViewDatasetAggregation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#column_name ResourceGroupCostManagementView#column_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#column_name ResourceGroupCostManagementView#column_name}.</summary>
         [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
         string ColumnName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -28,14 +28,14 @@ namespace azurerm.ResourceGroupCostManagementView
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#column_name ResourceGroupCostManagementView#column_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#column_name ResourceGroupCostManagementView#column_name}.</summary>
             [JsiiProperty(name: "columnName", typeJson: "{\"primitive\":\"string\"}")]
             public string ColumnName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#name ResourceGroupCostManagementView#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {

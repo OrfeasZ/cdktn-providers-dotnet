@@ -7,7 +7,7 @@ namespace azurerm.DevTestSchedule
     [JsiiByValue(fqn: "azurerm.devTestSchedule.DevTestScheduleNotificationSettings")]
     public class DevTestScheduleNotificationSettings : azurerm.DevTestSchedule.IDevTestScheduleNotificationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_test_schedule#status DevTestSchedule#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -16,7 +16,7 @@ namespace azurerm.DevTestSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_test_schedule#time_in_minutes DevTestSchedule#time_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_test_schedule#time_in_minutes DevTestSchedule#time_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TimeInMinutes
@@ -25,7 +25,7 @@ namespace azurerm.DevTestSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_test_schedule#webhook_url DevTestSchedule#webhook_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_test_schedule#webhook_url DevTestSchedule#webhook_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webhookUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WebhookUrl

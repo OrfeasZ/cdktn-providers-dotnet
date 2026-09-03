@@ -9,7 +9,7 @@ namespace azurerm.DatadogMonitor
     [JsiiByValue(fqn: "azurerm.datadogMonitor.DatadogMonitorIdentity")]
     public class DatadogMonitorIdentity : azurerm.DatadogMonitor.IDatadogMonitorIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/datadog_monitor#type DatadogMonitor#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/datadog_monitor#type DatadogMonitor#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

@@ -11,7 +11,7 @@ namespace azurerm.ManagedDevopsPool
     {
         /// <summary>azure_devops_organization block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#azure_devops_organization ManagedDevopsPool#azure_devops_organization}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#azure_devops_organization ManagedDevopsPool#azure_devops_organization}
         /// </remarks>
         [JsiiProperty(name: "azureDevopsOrganization", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolAzureDevopsOrganization\"}")]
         public azurerm.ManagedDevopsPool.IManagedDevopsPoolAzureDevopsOrganization AzureDevopsOrganization
@@ -20,7 +20,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#dev_center_project_id ManagedDevopsPool#dev_center_project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#dev_center_project_id ManagedDevopsPool#dev_center_project_id}.</summary>
         [JsiiProperty(name: "devCenterProjectId", typeJson: "{\"primitive\":\"string\"}")]
         public string DevCenterProjectId
         {
@@ -28,7 +28,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#location ManagedDevopsPool#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#location ManagedDevopsPool#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -36,7 +36,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#maximum_concurrency ManagedDevopsPool#maximum_concurrency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#maximum_concurrency ManagedDevopsPool#maximum_concurrency}.</summary>
         [JsiiProperty(name: "maximumConcurrency", typeJson: "{\"primitive\":\"number\"}")]
         public double MaximumConcurrency
         {
@@ -44,7 +44,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#name ManagedDevopsPool#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#name ManagedDevopsPool#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -52,7 +52,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#resource_group_name ManagedDevopsPool#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#resource_group_name ManagedDevopsPool#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -62,7 +62,7 @@ namespace azurerm.ManagedDevopsPool
 
         /// <summary>virtual_machine_scale_set_fabric block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#virtual_machine_scale_set_fabric ManagedDevopsPool#virtual_machine_scale_set_fabric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#virtual_machine_scale_set_fabric ManagedDevopsPool#virtual_machine_scale_set_fabric}
         /// </remarks>
         [JsiiProperty(name: "virtualMachineScaleSetFabric", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolVirtualMachineScaleSetFabric\"}")]
         public azurerm.ManagedDevopsPool.IManagedDevopsPoolVirtualMachineScaleSetFabric VirtualMachineScaleSetFabric
@@ -71,7 +71,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#id ManagedDevopsPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#id ManagedDevopsPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace azurerm.ManagedDevopsPool
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#identity ManagedDevopsPool#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#identity ManagedDevopsPool#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolIdentity\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace azurerm.ManagedDevopsPool
 
         /// <summary>stateful_agent block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#stateful_agent ManagedDevopsPool#stateful_agent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#stateful_agent ManagedDevopsPool#stateful_agent}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statefulAgent", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolStatefulAgent\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace azurerm.ManagedDevopsPool
 
         /// <summary>stateless_agent block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#stateless_agent ManagedDevopsPool#stateless_agent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#stateless_agent ManagedDevopsPool#stateless_agent}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statelessAgent", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolStatelessAgent\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#tags ManagedDevopsPool#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#tags ManagedDevopsPool#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -131,7 +131,7 @@ namespace azurerm.ManagedDevopsPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#timeouts ManagedDevopsPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#timeouts ManagedDevopsPool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.managedDevopsPool.ManagedDevopsPoolTimeouts\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace azurerm.ManagedDevopsPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#work_folder ManagedDevopsPool#work_folder}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#work_folder ManagedDevopsPool#work_folder}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workFolder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkFolder

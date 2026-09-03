@@ -9,7 +9,7 @@ namespace azurerm.RouteMap
     [JsiiByValue(fqn: "azurerm.routeMap.RouteMapRule")]
     public class RouteMapRule : azurerm.RouteMap.IRouteMapRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_map#name RouteMap#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/route_map#name RouteMap#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -21,7 +21,7 @@ namespace azurerm.RouteMap
 
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_map#action RouteMap#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/route_map#action RouteMap#action}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.RouteMap.IRouteMapRuleAction" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace azurerm.RouteMap
 
         /// <summary>match_criterion block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_map#match_criterion RouteMap#match_criterion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/route_map#match_criterion RouteMap#match_criterion}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.RouteMap.IRouteMapRuleMatchCriterion" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +87,7 @@ namespace azurerm.RouteMap
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/route_map#next_step_if_matched RouteMap#next_step_if_matched}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/route_map#next_step_if_matched RouteMap#next_step_if_matched}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nextStepIfMatched", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NextStepIfMatched

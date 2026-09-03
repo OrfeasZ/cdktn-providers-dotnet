@@ -7,7 +7,7 @@ namespace aws.LambdamicrovmsImage
     [JsiiInterface(nativeType: typeof(ILambdamicrovmsImageCodeArtifact), fullyQualifiedName: "aws.lambdamicrovmsImage.LambdamicrovmsImageCodeArtifact")]
     public interface ILambdamicrovmsImageCodeArtifact
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdamicrovms_image#uri LambdamicrovmsImage#uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_image#uri LambdamicrovmsImage#uri}.</summary>
         [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
         string Uri
         {
@@ -21,7 +21,7 @@ namespace aws.LambdamicrovmsImage
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lambdamicrovms_image#uri LambdamicrovmsImage#uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/lambdamicrovms_image#uri LambdamicrovmsImage#uri}.</summary>
             [JsiiProperty(name: "uri", typeJson: "{\"primitive\":\"string\"}")]
             public string Uri
             {

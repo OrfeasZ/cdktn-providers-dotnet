@@ -7,7 +7,7 @@ namespace aws.BedrockagentcoreBrowser
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreBrowserCertificateLocationSecretsManager), fullyQualifiedName: "aws.bedrockagentcoreBrowser.BedrockagentcoreBrowserCertificateLocationSecretsManager")]
     public interface IBedrockagentcoreBrowserCertificateLocationSecretsManager
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_browser#secret_arn BedrockagentcoreBrowser#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_browser#secret_arn BedrockagentcoreBrowser#secret_arn}.</summary>
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
         string SecretArn
         {
@@ -21,7 +21,7 @@ namespace aws.BedrockagentcoreBrowser
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_browser#secret_arn BedrockagentcoreBrowser#secret_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_browser#secret_arn BedrockagentcoreBrowser#secret_arn}.</summary>
             [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretArn
             {

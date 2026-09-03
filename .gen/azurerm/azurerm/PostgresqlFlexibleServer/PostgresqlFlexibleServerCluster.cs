@@ -9,7 +9,7 @@ namespace azurerm.PostgresqlFlexibleServer
     [JsiiByValue(fqn: "azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerCluster")]
     public class PostgresqlFlexibleServerCluster : azurerm.PostgresqlFlexibleServer.IPostgresqlFlexibleServerCluster
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server#size PostgresqlFlexibleServer#size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server#size PostgresqlFlexibleServer#size}.</summary>
         [JsiiProperty(name: "size", typeJson: "{\"primitive\":\"number\"}")]
         public double Size
         {
@@ -17,7 +17,7 @@ namespace azurerm.PostgresqlFlexibleServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server#default_database_name PostgresqlFlexibleServer#default_database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server#default_database_name PostgresqlFlexibleServer#default_database_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultDatabaseName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultDatabaseName

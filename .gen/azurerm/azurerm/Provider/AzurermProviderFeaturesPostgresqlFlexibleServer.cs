@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         private object? _restartServerOnConfigurationValueChange;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs#restart_server_on_configuration_value_change AzurermProvider#restart_server_on_configuration_value_change}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs#restart_server_on_configuration_value_change AzurermProvider#restart_server_on_configuration_value_change}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

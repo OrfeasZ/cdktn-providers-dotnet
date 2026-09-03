@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermCognitiveAccountProject
     [JsiiByValue(fqn: "azurerm.dataAzurermCognitiveAccountProject.DataAzurermCognitiveAccountProjectTimeouts")]
     public class DataAzurermCognitiveAccountProjectTimeouts : azurerm.DataAzurermCognitiveAccountProject.IDataAzurermCognitiveAccountProjectTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/cognitive_account_project#read DataAzurermCognitiveAccountProject#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/cognitive_account_project#read DataAzurermCognitiveAccountProject#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

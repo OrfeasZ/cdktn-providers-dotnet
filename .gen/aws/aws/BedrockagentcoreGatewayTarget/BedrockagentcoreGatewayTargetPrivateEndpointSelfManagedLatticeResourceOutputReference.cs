@@ -35,6 +35,12 @@ namespace aws.BedrockagentcoreGatewayTarget
         {
         }
 
+        [JsiiMethod(name: "resetResourceConfigurationIdentifier")]
+        public virtual void ResetResourceConfigurationIdentifier()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "resourceConfigurationIdentifierInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ResourceConfigurationIdentifierInput

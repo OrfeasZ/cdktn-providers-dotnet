@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSignalrService
     [JsiiInterface(nativeType: typeof(IDataAzurermSignalrServiceTimeouts), fullyQualifiedName: "azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceTimeouts")]
     public interface IDataAzurermSignalrServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/signalr_service#read DataAzurermSignalrService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/signalr_service#read DataAzurermSignalrService#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermSignalrService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/signalr_service#read DataAzurermSignalrService#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/signalr_service#read DataAzurermSignalrService#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

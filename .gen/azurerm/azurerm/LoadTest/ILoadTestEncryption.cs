@@ -9,7 +9,7 @@ namespace azurerm.LoadTest
     {
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/load_test#identity LoadTest#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/load_test#identity LoadTest#identity}
         /// </remarks>
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.loadTest.LoadTestEncryptionIdentity\"}")]
         azurerm.LoadTest.ILoadTestEncryptionIdentity Identity
@@ -17,7 +17,7 @@ namespace azurerm.LoadTest
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/load_test#key_url LoadTest#key_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/load_test#key_url LoadTest#key_url}.</summary>
         [JsiiProperty(name: "keyUrl", typeJson: "{\"primitive\":\"string\"}")]
         string KeyUrl
         {
@@ -33,7 +33,7 @@ namespace azurerm.LoadTest
 
             /// <summary>identity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/load_test#identity LoadTest#identity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/load_test#identity LoadTest#identity}
             /// </remarks>
             [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.loadTest.LoadTestEncryptionIdentity\"}")]
             public azurerm.LoadTest.ILoadTestEncryptionIdentity Identity
@@ -41,7 +41,7 @@ namespace azurerm.LoadTest
                 get => GetInstanceProperty<azurerm.LoadTest.ILoadTestEncryptionIdentity>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/load_test#key_url LoadTest#key_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/load_test#key_url LoadTest#key_url}.</summary>
             [JsiiProperty(name: "keyUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyUrl
             {

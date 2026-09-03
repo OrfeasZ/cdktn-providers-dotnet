@@ -9,7 +9,7 @@ namespace azurerm.ContainerAppJob
     {
         /// <summary>The amount of vCPU to allocate to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#cpu ContainerAppJob#cpu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#cpu ContainerAppJob#cpu}
         /// </remarks>
         [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"number\"}")]
         double Cpu
@@ -19,7 +19,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>The image to use to create the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#image ContainerAppJob#image}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#image ContainerAppJob#image}
         /// </remarks>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
         string Image
@@ -29,7 +29,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>The amount of memory to allocate to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#memory ContainerAppJob#memory}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#memory ContainerAppJob#memory}
         /// </remarks>
         [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}")]
         string Memory
@@ -39,7 +39,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>The name of the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#name ContainerAppJob#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#name ContainerAppJob#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -49,7 +49,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>A list of args to pass to the container.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#args ContainerAppJob#args}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#args ContainerAppJob#args}
         /// </remarks>
         [JsiiProperty(name: "args", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace azurerm.ContainerAppJob
         /// <remarks>
         /// This is provided as a list of command line elements without spaces.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#command ContainerAppJob#command}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#command ContainerAppJob#command}
         /// </remarks>
         [JsiiProperty(name: "command", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>env block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#env ContainerAppJob#env}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#env ContainerAppJob#env}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerEnv" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "env", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTemplateContainerEnv\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>liveness_probe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#liveness_probe ContainerAppJob#liveness_probe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#liveness_probe ContainerAppJob#liveness_probe}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerLivenessProbe" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "livenessProbe", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTemplateContainerLivenessProbe\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>readiness_probe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#readiness_probe ContainerAppJob#readiness_probe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#readiness_probe ContainerAppJob#readiness_probe}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerReadinessProbe" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "readinessProbe", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTemplateContainerReadinessProbe\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>startup_probe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#startup_probe ContainerAppJob#startup_probe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#startup_probe ContainerAppJob#startup_probe}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerStartupProbe" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "startupProbe", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTemplateContainerStartupProbe\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace azurerm.ContainerAppJob
 
         /// <summary>volume_mounts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#volume_mounts ContainerAppJob#volume_mounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#volume_mounts ContainerAppJob#volume_mounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerVolumeMounts" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "volumeMounts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.containerAppJob.ContainerAppJobTemplateContainerVolumeMounts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>The amount of vCPU to allocate to the container.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#cpu ContainerAppJob#cpu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#cpu ContainerAppJob#cpu}
             /// </remarks>
             [JsiiProperty(name: "cpu", typeJson: "{\"primitive\":\"number\"}")]
             public double Cpu
@@ -171,7 +171,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>The image to use to create the container.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#image ContainerAppJob#image}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#image ContainerAppJob#image}
             /// </remarks>
             [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
             public string Image
@@ -181,7 +181,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>The amount of memory to allocate to the container.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#memory ContainerAppJob#memory}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#memory ContainerAppJob#memory}
             /// </remarks>
             [JsiiProperty(name: "memory", typeJson: "{\"primitive\":\"string\"}")]
             public string Memory
@@ -191,7 +191,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>The name of the container.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#name ContainerAppJob#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#name ContainerAppJob#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -201,7 +201,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>A list of args to pass to the container.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#args ContainerAppJob#args}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#args ContainerAppJob#args}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "args", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -214,7 +214,7 @@ namespace azurerm.ContainerAppJob
             /// <remarks>
             /// This is provided as a list of command line elements without spaces.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#command ContainerAppJob#command}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#command ContainerAppJob#command}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "command", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>env block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#env ContainerAppJob#env}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#env ContainerAppJob#env}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerEnv" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -237,7 +237,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>liveness_probe block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#liveness_probe ContainerAppJob#liveness_probe}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#liveness_probe ContainerAppJob#liveness_probe}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerLivenessProbe" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -249,7 +249,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>readiness_probe block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#readiness_probe ContainerAppJob#readiness_probe}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#readiness_probe ContainerAppJob#readiness_probe}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerReadinessProbe" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -261,7 +261,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>startup_probe block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#startup_probe ContainerAppJob#startup_probe}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#startup_probe ContainerAppJob#startup_probe}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerStartupProbe" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -273,7 +273,7 @@ namespace azurerm.ContainerAppJob
 
             /// <summary>volume_mounts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app_job#volume_mounts ContainerAppJob#volume_mounts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app_job#volume_mounts ContainerAppJob#volume_mounts}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ContainerAppJob.IContainerAppJobTemplateContainerVolumeMounts" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -7,14 +7,14 @@ namespace azurerm.WindowsWebApp
     [JsiiInterface(nativeType: typeof(IWindowsWebAppLogsHttpLogsFileSystem), fullyQualifiedName: "azurerm.windowsWebApp.WindowsWebAppLogsHttpLogsFileSystem")]
     public interface IWindowsWebAppLogsHttpLogsFileSystem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#retention_in_days WindowsWebApp#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#retention_in_days WindowsWebApp#retention_in_days}.</summary>
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
         double RetentionInDays
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#retention_in_mb WindowsWebApp#retention_in_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#retention_in_mb WindowsWebApp#retention_in_mb}.</summary>
         [JsiiProperty(name: "retentionInMb", typeJson: "{\"primitive\":\"number\"}")]
         double RetentionInMb
         {
@@ -28,14 +28,14 @@ namespace azurerm.WindowsWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#retention_in_days WindowsWebApp#retention_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#retention_in_days WindowsWebApp#retention_in_days}.</summary>
             [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
             public double RetentionInDays
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#retention_in_mb WindowsWebApp#retention_in_mb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#retention_in_mb WindowsWebApp#retention_in_mb}.</summary>
             [JsiiProperty(name: "retentionInMb", typeJson: "{\"primitive\":\"number\"}")]
             public double RetentionInMb
             {

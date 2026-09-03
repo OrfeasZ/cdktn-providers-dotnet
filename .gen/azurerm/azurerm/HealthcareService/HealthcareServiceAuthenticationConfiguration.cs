@@ -7,7 +7,7 @@ namespace azurerm.HealthcareService
     [JsiiByValue(fqn: "azurerm.healthcareService.HealthcareServiceAuthenticationConfiguration")]
     public class HealthcareServiceAuthenticationConfiguration : azurerm.HealthcareService.IHealthcareServiceAuthenticationConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/healthcare_service#audience HealthcareService#audience}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/healthcare_service#audience HealthcareService#audience}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "audience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Audience
@@ -16,7 +16,7 @@ namespace azurerm.HealthcareService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/healthcare_service#authority HealthcareService#authority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/healthcare_service#authority HealthcareService#authority}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "authority", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Authority
@@ -27,7 +27,7 @@ namespace azurerm.HealthcareService
 
         private object? _smartProxyEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/healthcare_service#smart_proxy_enabled HealthcareService#smart_proxy_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/healthcare_service#smart_proxy_enabled HealthcareService#smart_proxy_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

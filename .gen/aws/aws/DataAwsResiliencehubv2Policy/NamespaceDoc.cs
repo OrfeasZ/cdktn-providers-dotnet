@@ -5,7 +5,7 @@ namespace aws.DataAwsResiliencehubv2Policy
     /// <remarks>
     /// <h1><c>data_aws_resiliencehubv2_policy</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/resiliencehubv2_policy"><c>data_aws_resiliencehubv2_policy</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/resiliencehubv2_policy"><c>data_aws_resiliencehubv2_policy</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

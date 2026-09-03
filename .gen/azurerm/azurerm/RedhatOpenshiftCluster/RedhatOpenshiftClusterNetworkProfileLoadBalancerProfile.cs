@@ -9,7 +9,7 @@ namespace azurerm.RedhatOpenshiftCluster
     [JsiiByValue(fqn: "azurerm.redhatOpenshiftCluster.RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile")]
     public class RedhatOpenshiftClusterNetworkProfileLoadBalancerProfile : azurerm.RedhatOpenshiftCluster.IRedhatOpenshiftClusterNetworkProfileLoadBalancerProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/redhat_openshift_cluster#managed_outbound_ip_count RedhatOpenshiftCluster#managed_outbound_ip_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/redhat_openshift_cluster#managed_outbound_ip_count RedhatOpenshiftCluster#managed_outbound_ip_count}.</summary>
         [JsiiProperty(name: "managedOutboundIpCount", typeJson: "{\"primitive\":\"number\"}")]
         public double ManagedOutboundIpCount
         {

@@ -9,7 +9,7 @@ namespace azurerm.DataProtectionBackupVault
     [JsiiByValue(fqn: "azurerm.dataProtectionBackupVault.DataProtectionBackupVaultConfig")]
     public class DataProtectionBackupVaultConfig : azurerm.DataProtectionBackupVault.IDataProtectionBackupVaultConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#datastore_type DataProtectionBackupVault#datastore_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#datastore_type DataProtectionBackupVault#datastore_type}.</summary>
         [JsiiProperty(name: "datastoreType", typeJson: "{\"primitive\":\"string\"}")]
         public string DatastoreType
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#location DataProtectionBackupVault#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#location DataProtectionBackupVault#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#name DataProtectionBackupVault#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#name DataProtectionBackupVault#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#redundancy DataProtectionBackupVault#redundancy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#redundancy DataProtectionBackupVault#redundancy}.</summary>
         [JsiiProperty(name: "redundancy", typeJson: "{\"primitive\":\"string\"}")]
         public string Redundancy
         {
@@ -41,7 +41,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#resource_group_name DataProtectionBackupVault#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#resource_group_name DataProtectionBackupVault#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -51,7 +51,7 @@ namespace azurerm.DataProtectionBackupVault
 
         private object? _crossRegionRestoreEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#cross_region_restore_enabled DataProtectionBackupVault#cross_region_restore_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#cross_region_restore_enabled DataProtectionBackupVault#cross_region_restore_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -83,7 +83,7 @@ namespace azurerm.DataProtectionBackupVault
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#id DataProtectionBackupVault#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#id DataProtectionBackupVault#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -98,7 +98,7 @@ namespace azurerm.DataProtectionBackupVault
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#identity DataProtectionBackupVault#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#identity DataProtectionBackupVault#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.dataProtectionBackupVault.DataProtectionBackupVaultIdentity\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#immutability DataProtectionBackupVault#immutability}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#immutability DataProtectionBackupVault#immutability}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "immutability", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Immutability
@@ -117,7 +117,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#retention_duration_in_days DataProtectionBackupVault#retention_duration_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#retention_duration_in_days DataProtectionBackupVault#retention_duration_in_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "retentionDurationInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? RetentionDurationInDays
@@ -126,7 +126,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#soft_delete DataProtectionBackupVault#soft_delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#soft_delete DataProtectionBackupVault#soft_delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "softDelete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SoftDelete
@@ -135,7 +135,7 @@ namespace azurerm.DataProtectionBackupVault
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#tags DataProtectionBackupVault#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#tags DataProtectionBackupVault#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -146,7 +146,7 @@ namespace azurerm.DataProtectionBackupVault
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_protection_backup_vault#timeouts DataProtectionBackupVault#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_protection_backup_vault#timeouts DataProtectionBackupVault#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataProtectionBackupVault.DataProtectionBackupVaultTimeouts\"}", isOptional: true)]

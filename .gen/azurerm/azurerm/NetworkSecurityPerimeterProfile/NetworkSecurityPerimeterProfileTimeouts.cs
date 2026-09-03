@@ -7,7 +7,7 @@ namespace azurerm.NetworkSecurityPerimeterProfile
     [JsiiByValue(fqn: "azurerm.networkSecurityPerimeterProfile.NetworkSecurityPerimeterProfileTimeouts")]
     public class NetworkSecurityPerimeterProfileTimeouts : azurerm.NetworkSecurityPerimeterProfile.INetworkSecurityPerimeterProfileTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_security_perimeter_profile#create NetworkSecurityPerimeterProfile#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_security_perimeter_profile#create NetworkSecurityPerimeterProfile#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.NetworkSecurityPerimeterProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_security_perimeter_profile#delete NetworkSecurityPerimeterProfile#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_security_perimeter_profile#delete NetworkSecurityPerimeterProfile#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.NetworkSecurityPerimeterProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/network_security_perimeter_profile#read NetworkSecurityPerimeterProfile#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/network_security_perimeter_profile#read NetworkSecurityPerimeterProfile#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

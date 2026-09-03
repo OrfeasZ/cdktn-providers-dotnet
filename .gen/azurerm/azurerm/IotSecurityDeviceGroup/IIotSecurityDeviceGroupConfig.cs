@@ -7,14 +7,14 @@ namespace azurerm.IotSecurityDeviceGroup
     [JsiiInterface(nativeType: typeof(IIotSecurityDeviceGroupConfig), fullyQualifiedName: "azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupConfig")]
     public interface IIotSecurityDeviceGroupConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#iothub_id IotSecurityDeviceGroup#iothub_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#iothub_id IotSecurityDeviceGroup#iothub_id}.</summary>
         [JsiiProperty(name: "iothubId", typeJson: "{\"primitive\":\"string\"}")]
         string IothubId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#name IotSecurityDeviceGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#name IotSecurityDeviceGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -23,7 +23,7 @@ namespace azurerm.IotSecurityDeviceGroup
 
         /// <summary>allow_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#allow_rule IotSecurityDeviceGroup#allow_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#allow_rule IotSecurityDeviceGroup#allow_rule}
         /// </remarks>
         [JsiiProperty(name: "allowRule", typeJson: "{\"fqn\":\"azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupAllowRule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace azurerm.IotSecurityDeviceGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#id IotSecurityDeviceGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#id IotSecurityDeviceGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,7 +52,7 @@ namespace azurerm.IotSecurityDeviceGroup
 
         /// <summary>range_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#range_rule IotSecurityDeviceGroup#range_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#range_rule IotSecurityDeviceGroup#range_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.IotSecurityDeviceGroup.IIotSecurityDeviceGroupRangeRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rangeRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupRangeRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azurerm.IotSecurityDeviceGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#timeouts IotSecurityDeviceGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#timeouts IotSecurityDeviceGroup#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,14 +86,14 @@ namespace azurerm.IotSecurityDeviceGroup
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#iothub_id IotSecurityDeviceGroup#iothub_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#iothub_id IotSecurityDeviceGroup#iothub_id}.</summary>
             [JsiiProperty(name: "iothubId", typeJson: "{\"primitive\":\"string\"}")]
             public string IothubId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#name IotSecurityDeviceGroup#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#name IotSecurityDeviceGroup#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -102,7 +102,7 @@ namespace azurerm.IotSecurityDeviceGroup
 
             /// <summary>allow_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#allow_rule IotSecurityDeviceGroup#allow_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#allow_rule IotSecurityDeviceGroup#allow_rule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowRule", typeJson: "{\"fqn\":\"azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupAllowRule\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace azurerm.IotSecurityDeviceGroup
                 get => GetInstanceProperty<azurerm.IotSecurityDeviceGroup.IIotSecurityDeviceGroupAllowRule?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#id IotSecurityDeviceGroup#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#id IotSecurityDeviceGroup#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,7 +125,7 @@ namespace azurerm.IotSecurityDeviceGroup
 
             /// <summary>range_rule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#range_rule IotSecurityDeviceGroup#range_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#range_rule IotSecurityDeviceGroup#range_rule}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.IotSecurityDeviceGroup.IIotSecurityDeviceGroupRangeRule" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -137,7 +137,7 @@ namespace azurerm.IotSecurityDeviceGroup
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iot_security_device_group#timeouts IotSecurityDeviceGroup#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iot_security_device_group#timeouts IotSecurityDeviceGroup#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.iotSecurityDeviceGroup.IotSecurityDeviceGroupTimeouts\"}", isOptional: true)]

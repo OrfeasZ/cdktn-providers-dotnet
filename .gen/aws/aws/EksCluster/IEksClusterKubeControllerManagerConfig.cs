@@ -9,11 +9,25 @@ namespace aws.EksCluster
     {
         /// <summary>horizontal_pod_autoscaler_controller_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
         /// </remarks>
         [JsiiProperty(name: "horizontalPodAutoscalerControllerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         aws.EksCluster.IEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig? HorizontalPodAutoscalerControllerConfig
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>pod_gc_controller_config block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/eks_cluster#pod_gc_controller_config EksCluster#pod_gc_controller_config}
+        /// </remarks>
+        [JsiiProperty(name: "podGcControllerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigPodGcControllerConfig\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        aws.EksCluster.IEksClusterKubeControllerManagerConfigPodGcControllerConfig? PodGcControllerConfig
         {
             get
             {
@@ -30,13 +44,24 @@ namespace aws.EksCluster
 
             /// <summary>horizontal_pod_autoscaler_controller_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/eks_cluster#horizontal_pod_autoscaler_controller_config EksCluster#horizontal_pod_autoscaler_controller_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "horizontalPodAutoscalerControllerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig\"}", isOptional: true)]
             public aws.EksCluster.IEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig? HorizontalPodAutoscalerControllerConfig
             {
                 get => GetInstanceProperty<aws.EksCluster.IEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig?>();
+            }
+
+            /// <summary>pod_gc_controller_config block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/eks_cluster#pod_gc_controller_config EksCluster#pod_gc_controller_config}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "podGcControllerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigPodGcControllerConfig\"}", isOptional: true)]
+            public aws.EksCluster.IEksClusterKubeControllerManagerConfigPodGcControllerConfig? PodGcControllerConfig
+            {
+                get => GetInstanceProperty<aws.EksCluster.IEksClusterKubeControllerManagerConfigPodGcControllerConfig?>();
             }
         }
     }

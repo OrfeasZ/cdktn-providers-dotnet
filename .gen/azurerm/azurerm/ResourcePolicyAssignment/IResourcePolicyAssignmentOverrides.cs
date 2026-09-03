@@ -7,7 +7,7 @@ namespace azurerm.ResourcePolicyAssignment
     [JsiiInterface(nativeType: typeof(IResourcePolicyAssignmentOverrides), fullyQualifiedName: "azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverrides")]
     public interface IResourcePolicyAssignmentOverrides
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_policy_assignment#value ResourcePolicyAssignment#value}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_policy_assignment#value ResourcePolicyAssignment#value}.</summary>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
         {
@@ -16,7 +16,7 @@ namespace azurerm.ResourcePolicyAssignment
 
         /// <summary>selectors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_policy_assignment#selectors ResourcePolicyAssignment#selectors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_policy_assignment#selectors ResourcePolicyAssignment#selectors}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ResourcePolicyAssignment.IResourcePolicyAssignmentOverridesSelectors" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "selectors", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.resourcePolicyAssignment.ResourcePolicyAssignmentOverridesSelectors\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace azurerm.ResourcePolicyAssignment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_policy_assignment#value ResourcePolicyAssignment#value}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_policy_assignment#value ResourcePolicyAssignment#value}.</summary>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
             {
@@ -45,7 +45,7 @@ namespace azurerm.ResourcePolicyAssignment
 
             /// <summary>selectors block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_policy_assignment#selectors ResourcePolicyAssignment#selectors}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_policy_assignment#selectors ResourcePolicyAssignment#selectors}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ResourcePolicyAssignment.IResourcePolicyAssignmentOverridesSelectors" />)[]</para>
             /// </remarks>
             [JsiiOptional]

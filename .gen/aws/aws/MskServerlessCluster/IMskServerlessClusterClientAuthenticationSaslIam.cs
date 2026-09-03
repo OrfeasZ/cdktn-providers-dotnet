@@ -7,7 +7,7 @@ namespace aws.MskServerlessCluster
     [JsiiInterface(nativeType: typeof(IMskServerlessClusterClientAuthenticationSaslIam), fullyQualifiedName: "aws.mskServerlessCluster.MskServerlessClusterClientAuthenticationSaslIam")]
     public interface IMskServerlessClusterClientAuthenticationSaslIam
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.MskServerlessCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/msk_serverless_cluster#enabled MskServerlessCluster#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

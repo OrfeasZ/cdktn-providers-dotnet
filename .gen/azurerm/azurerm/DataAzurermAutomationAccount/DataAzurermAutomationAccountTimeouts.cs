@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAutomationAccount
     [JsiiByValue(fqn: "azurerm.dataAzurermAutomationAccount.DataAzurermAutomationAccountTimeouts")]
     public class DataAzurermAutomationAccountTimeouts : azurerm.DataAzurermAutomationAccount.IDataAzurermAutomationAccountTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_account#read DataAzurermAutomationAccount#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_account#read DataAzurermAutomationAccount#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

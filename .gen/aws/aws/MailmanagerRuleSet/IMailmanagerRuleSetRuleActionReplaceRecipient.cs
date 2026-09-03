@@ -7,7 +7,7 @@ namespace aws.MailmanagerRuleSet
     [JsiiInterface(nativeType: typeof(IMailmanagerRuleSetRuleActionReplaceRecipient), fullyQualifiedName: "aws.mailmanagerRuleSet.MailmanagerRuleSetRuleActionReplaceRecipient")]
     public interface IMailmanagerRuleSetRuleActionReplaceRecipient
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_rule_set#replace_with MailmanagerRuleSet#replace_with}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mailmanager_rule_set#replace_with MailmanagerRuleSet#replace_with}.</summary>
         [JsiiProperty(name: "replaceWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ReplaceWith
@@ -25,7 +25,7 @@ namespace aws.MailmanagerRuleSet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_rule_set#replace_with MailmanagerRuleSet#replace_with}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mailmanager_rule_set#replace_with MailmanagerRuleSet#replace_with}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replaceWith", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ReplaceWith

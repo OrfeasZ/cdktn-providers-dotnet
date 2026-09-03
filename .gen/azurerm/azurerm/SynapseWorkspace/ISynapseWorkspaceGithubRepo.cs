@@ -7,35 +7,35 @@ namespace azurerm.SynapseWorkspace
     [JsiiInterface(nativeType: typeof(ISynapseWorkspaceGithubRepo), fullyQualifiedName: "azurerm.synapseWorkspace.SynapseWorkspaceGithubRepo")]
     public interface ISynapseWorkspaceGithubRepo
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#account_name SynapseWorkspace#account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#account_name SynapseWorkspace#account_name}.</summary>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         string AccountName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#branch_name SynapseWorkspace#branch_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#branch_name SynapseWorkspace#branch_name}.</summary>
         [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}")]
         string BranchName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#repository_name SynapseWorkspace#repository_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#repository_name SynapseWorkspace#repository_name}.</summary>
         [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
         string RepositoryName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#root_folder SynapseWorkspace#root_folder}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#root_folder SynapseWorkspace#root_folder}.</summary>
         [JsiiProperty(name: "rootFolder", typeJson: "{\"primitive\":\"string\"}")]
         string RootFolder
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#git_url SynapseWorkspace#git_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#git_url SynapseWorkspace#git_url}.</summary>
         [JsiiProperty(name: "gitUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GitUrl
@@ -46,7 +46,7 @@ namespace azurerm.SynapseWorkspace
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#last_commit_id SynapseWorkspace#last_commit_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#last_commit_id SynapseWorkspace#last_commit_id}.</summary>
         [JsiiProperty(name: "lastCommitId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? LastCommitId
@@ -64,35 +64,35 @@ namespace azurerm.SynapseWorkspace
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#account_name SynapseWorkspace#account_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#account_name SynapseWorkspace#account_name}.</summary>
             [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#branch_name SynapseWorkspace#branch_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#branch_name SynapseWorkspace#branch_name}.</summary>
             [JsiiProperty(name: "branchName", typeJson: "{\"primitive\":\"string\"}")]
             public string BranchName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#repository_name SynapseWorkspace#repository_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#repository_name SynapseWorkspace#repository_name}.</summary>
             [JsiiProperty(name: "repositoryName", typeJson: "{\"primitive\":\"string\"}")]
             public string RepositoryName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#root_folder SynapseWorkspace#root_folder}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#root_folder SynapseWorkspace#root_folder}.</summary>
             [JsiiProperty(name: "rootFolder", typeJson: "{\"primitive\":\"string\"}")]
             public string RootFolder
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#git_url SynapseWorkspace#git_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#git_url SynapseWorkspace#git_url}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "gitUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GitUrl
@@ -100,7 +100,7 @@ namespace azurerm.SynapseWorkspace
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_workspace#last_commit_id SynapseWorkspace#last_commit_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_workspace#last_commit_id SynapseWorkspace#last_commit_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "lastCommitId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? LastCommitId

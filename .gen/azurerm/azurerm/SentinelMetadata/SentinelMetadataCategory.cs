@@ -7,7 +7,7 @@ namespace azurerm.SentinelMetadata
     [JsiiByValue(fqn: "azurerm.sentinelMetadata.SentinelMetadataCategory")]
     public class SentinelMetadataCategory : azurerm.SentinelMetadata.ISentinelMetadataCategory
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/sentinel_metadata#domains SentinelMetadata#domains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/sentinel_metadata#domains SentinelMetadata#domains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Domains
@@ -16,7 +16,7 @@ namespace azurerm.SentinelMetadata
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/sentinel_metadata#verticals SentinelMetadata#verticals}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/sentinel_metadata#verticals SentinelMetadata#verticals}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "verticals", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Verticals

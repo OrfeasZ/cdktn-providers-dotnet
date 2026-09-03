@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebApp
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#action LinuxWebApp#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app#action LinuxWebApp#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingAction\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.LinuxWebApp
 
         /// <summary>trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#trigger LinuxWebApp#trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app#trigger LinuxWebApp#trigger}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trigger", typeJson: "{\"fqn\":\"azurerm.linuxWebApp.LinuxWebAppSiteConfigAutoHealSettingTrigger\"}", isOptional: true)]

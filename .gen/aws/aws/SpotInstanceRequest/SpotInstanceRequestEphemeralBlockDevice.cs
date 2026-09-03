@@ -9,7 +9,7 @@ namespace aws.SpotInstanceRequest
     [JsiiByValue(fqn: "aws.spotInstanceRequest.SpotInstanceRequestEphemeralBlockDevice")]
     public class SpotInstanceRequestEphemeralBlockDevice : aws.SpotInstanceRequest.ISpotInstanceRequestEphemeralBlockDevice
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/spot_instance_request#device_name SpotInstanceRequest#device_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/spot_instance_request#device_name SpotInstanceRequest#device_name}.</summary>
         [JsiiProperty(name: "deviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string DeviceName
         {
@@ -19,7 +19,7 @@ namespace aws.SpotInstanceRequest
 
         private object? _noDevice;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/spot_instance_request#no_device SpotInstanceRequest#no_device}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/spot_instance_request#no_device SpotInstanceRequest#no_device}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -51,7 +51,7 @@ namespace aws.SpotInstanceRequest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/spot_instance_request#virtual_name SpotInstanceRequest#virtual_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/spot_instance_request#virtual_name SpotInstanceRequest#virtual_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "virtualName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VirtualName

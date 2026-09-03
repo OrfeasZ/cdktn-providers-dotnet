@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebAppSlot
     [JsiiByValue(fqn: "azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigAutoHealSettingAction")]
     public class LinuxWebAppSlotSiteConfigAutoHealSettingAction : azurerm.LinuxWebAppSlot.ILinuxWebAppSlotSiteConfigAutoHealSettingAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app_slot#action_type LinuxWebAppSlot#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app_slot#action_type LinuxWebAppSlot#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionType
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app_slot#minimum_process_execution_time LinuxWebAppSlot#minimum_process_execution_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app_slot#minimum_process_execution_time LinuxWebAppSlot#minimum_process_execution_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumProcessExecutionTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinimumProcessExecutionTime

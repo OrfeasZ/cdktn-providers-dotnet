@@ -7,7 +7,7 @@ namespace azurerm.StorageAccount
     [JsiiByValue(fqn: "azurerm.storageAccount.StorageAccountBlobPropertiesDeleteRetentionPolicy")]
     public class StorageAccountBlobPropertiesDeleteRetentionPolicy : azurerm.StorageAccount.IStorageAccountBlobPropertiesDeleteRetentionPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account#days StorageAccount#days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "days", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Days
@@ -18,7 +18,7 @@ namespace azurerm.StorageAccount
 
         private object? _permanentDeleteEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#permanent_delete_enabled StorageAccount#permanent_delete_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account#permanent_delete_enabled StorageAccount#permanent_delete_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace aws.WorkspacesDirectory
     [JsiiByValue(fqn: "aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpoints")]
     public class WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpoints : aws.WorkspacesDirectory.IWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigAccessEndpoints
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#access_endpoint_type WorkspacesDirectory#access_endpoint_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#access_endpoint_type WorkspacesDirectory#access_endpoint_type}.</summary>
         [JsiiProperty(name: "accessEndpointType", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessEndpointType
         {
@@ -17,7 +17,7 @@ namespace aws.WorkspacesDirectory
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#vpc_endpoint_id WorkspacesDirectory#vpc_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#vpc_endpoint_id WorkspacesDirectory#vpc_endpoint_id}.</summary>
         [JsiiProperty(name: "vpcEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         public string VpcEndpointId
         {

@@ -7,7 +7,7 @@ namespace azurerm.CdnFrontdoorCustomDomain
     [JsiiByValue(fqn: "azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTls")]
     public class CdnFrontdoorCustomDomainTls : azurerm.CdnFrontdoorCustomDomain.ICdnFrontdoorCustomDomainTls
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_custom_domain#cdn_frontdoor_secret_id CdnFrontdoorCustomDomain#cdn_frontdoor_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_frontdoor_custom_domain#cdn_frontdoor_secret_id CdnFrontdoorCustomDomain#cdn_frontdoor_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cdnFrontdoorSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CdnFrontdoorSecretId
@@ -16,7 +16,7 @@ namespace azurerm.CdnFrontdoorCustomDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_custom_domain#certificate_type CdnFrontdoorCustomDomain#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_frontdoor_custom_domain#certificate_type CdnFrontdoorCustomDomain#certificate_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateType
@@ -27,7 +27,7 @@ namespace azurerm.CdnFrontdoorCustomDomain
 
         /// <summary>cipher_suite block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_custom_domain#cipher_suite CdnFrontdoorCustomDomain#cipher_suite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_frontdoor_custom_domain#cipher_suite CdnFrontdoorCustomDomain#cipher_suite}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cipherSuite", typeJson: "{\"fqn\":\"azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsCipherSuite\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace azurerm.CdnFrontdoorCustomDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cdn_frontdoor_custom_domain#minimum_version CdnFrontdoorCustomDomain#minimum_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cdn_frontdoor_custom_domain#minimum_version CdnFrontdoorCustomDomain#minimum_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinimumVersion

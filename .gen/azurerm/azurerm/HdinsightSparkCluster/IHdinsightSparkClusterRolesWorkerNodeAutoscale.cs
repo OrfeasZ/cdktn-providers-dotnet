@@ -9,7 +9,7 @@ namespace azurerm.HdinsightSparkCluster
     {
         /// <summary>capacity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_spark_cluster#capacity HdinsightSparkCluster#capacity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_spark_cluster#capacity HdinsightSparkCluster#capacity}
         /// </remarks>
         [JsiiProperty(name: "capacity", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azurerm.HdinsightSparkCluster
 
         /// <summary>recurrence block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_spark_cluster#recurrence HdinsightSparkCluster#recurrence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_spark_cluster#recurrence HdinsightSparkCluster#recurrence}
         /// </remarks>
         [JsiiProperty(name: "recurrence", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrence\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>capacity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_spark_cluster#capacity HdinsightSparkCluster#capacity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_spark_cluster#capacity HdinsightSparkCluster#capacity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capacity", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleCapacity\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace azurerm.HdinsightSparkCluster
 
             /// <summary>recurrence block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_spark_cluster#recurrence HdinsightSparkCluster#recurrence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_spark_cluster#recurrence HdinsightSparkCluster#recurrence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "recurrence", typeJson: "{\"fqn\":\"azurerm.hdinsightSparkCluster.HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrence\"}", isOptional: true)]

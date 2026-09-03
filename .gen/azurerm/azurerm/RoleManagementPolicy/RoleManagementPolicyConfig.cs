@@ -11,7 +11,7 @@ namespace azurerm.RoleManagementPolicy
     {
         /// <summary>ID of the Azure Role to which this policy is assigned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#role_definition_id RoleManagementPolicy#role_definition_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#role_definition_id RoleManagementPolicy#role_definition_id}
         /// </remarks>
         [JsiiProperty(name: "roleDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleDefinitionId
@@ -22,7 +22,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>The scope of the role to which this policy will apply.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#scope RoleManagementPolicy#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#scope RoleManagementPolicy#scope}
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         public string Scope
@@ -33,7 +33,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>activation_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#activation_rules RoleManagementPolicy#activation_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#activation_rules RoleManagementPolicy#activation_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activationRules", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyActivationRules\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>active_assignment_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#active_assignment_rules RoleManagementPolicy#active_assignment_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#active_assignment_rules RoleManagementPolicy#active_assignment_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeAssignmentRules", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyActiveAssignmentRules\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>eligible_assignment_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#eligible_assignment_rules RoleManagementPolicy#eligible_assignment_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#eligible_assignment_rules RoleManagementPolicy#eligible_assignment_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eligibleAssignmentRules", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyEligibleAssignmentRules\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azurerm.RoleManagementPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#id RoleManagementPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#id RoleManagementPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>notification_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#notification_rules RoleManagementPolicy#notification_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#notification_rules RoleManagementPolicy#notification_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationRules", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyNotificationRules\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace azurerm.RoleManagementPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/role_management_policy#timeouts RoleManagementPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/role_management_policy#timeouts RoleManagementPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.roleManagementPolicy.RoleManagementPolicyTimeouts\"}", isOptional: true)]

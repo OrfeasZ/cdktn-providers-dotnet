@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermServicebusTopic
     [JsiiInterface(nativeType: typeof(IDataAzurermServicebusTopicTimeouts), fullyQualifiedName: "azurerm.dataAzurermServicebusTopic.DataAzurermServicebusTopicTimeouts")]
     public interface IDataAzurermServicebusTopicTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/servicebus_topic#read DataAzurermServicebusTopic#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/servicebus_topic#read DataAzurermServicebusTopic#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermServicebusTopic
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/servicebus_topic#read DataAzurermServicebusTopic#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/servicebus_topic#read DataAzurermServicebusTopic#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

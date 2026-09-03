@@ -9,7 +9,7 @@ namespace aws.MailmanagerIngressPoint
     [JsiiByValue(fqn: "aws.mailmanagerIngressPoint.MailmanagerIngressPointNetworkConfigurationPublicNetworkConfiguration")]
     public class MailmanagerIngressPointNetworkConfigurationPublicNetworkConfiguration : aws.MailmanagerIngressPoint.IMailmanagerIngressPointNetworkConfigurationPublicNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_ingress_point#ip_type MailmanagerIngressPoint#ip_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mailmanager_ingress_point#ip_type MailmanagerIngressPoint#ip_type}.</summary>
         [JsiiProperty(name: "ipType", typeJson: "{\"primitive\":\"string\"}")]
         public string IpType
         {

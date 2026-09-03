@@ -7,7 +7,7 @@ namespace azurerm.DatabricksWorkspace
     [JsiiByValue(fqn: "azurerm.databricksWorkspace.DatabricksWorkspaceCustomParameters")]
     public class DatabricksWorkspaceCustomParameters : azurerm.DatabricksWorkspace.IDatabricksWorkspaceCustomParameters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#machine_learning_workspace_id DatabricksWorkspace#machine_learning_workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#machine_learning_workspace_id DatabricksWorkspace#machine_learning_workspace_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "machineLearningWorkspaceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MachineLearningWorkspaceId
@@ -16,7 +16,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#nat_gateway_name DatabricksWorkspace#nat_gateway_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#nat_gateway_name DatabricksWorkspace#nat_gateway_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "natGatewayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NatGatewayName
@@ -27,7 +27,7 @@ namespace azurerm.DatabricksWorkspace
 
         private object? _noPublicIp;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#no_public_ip DatabricksWorkspace#no_public_ip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#no_public_ip DatabricksWorkspace#no_public_ip}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace azurerm.DatabricksWorkspace
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#private_subnet_name DatabricksWorkspace#private_subnet_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#private_subnet_name DatabricksWorkspace#private_subnet_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateSubnetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateSubnetName
@@ -68,7 +68,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#private_subnet_network_security_group_association_id DatabricksWorkspace#private_subnet_network_security_group_association_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#private_subnet_network_security_group_association_id DatabricksWorkspace#private_subnet_network_security_group_association_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "privateSubnetNetworkSecurityGroupAssociationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PrivateSubnetNetworkSecurityGroupAssociationId
@@ -77,7 +77,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#public_ip_name DatabricksWorkspace#public_ip_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#public_ip_name DatabricksWorkspace#public_ip_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicIpName
@@ -86,7 +86,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#public_subnet_name DatabricksWorkspace#public_subnet_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#public_subnet_name DatabricksWorkspace#public_subnet_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicSubnetName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicSubnetName
@@ -95,7 +95,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#public_subnet_network_security_group_association_id DatabricksWorkspace#public_subnet_network_security_group_association_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#public_subnet_network_security_group_association_id DatabricksWorkspace#public_subnet_network_security_group_association_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicSubnetNetworkSecurityGroupAssociationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicSubnetNetworkSecurityGroupAssociationId
@@ -104,7 +104,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#storage_account_name DatabricksWorkspace#storage_account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#storage_account_name DatabricksWorkspace#storage_account_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountName
@@ -113,7 +113,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#storage_account_sku_name DatabricksWorkspace#storage_account_sku_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#storage_account_sku_name DatabricksWorkspace#storage_account_sku_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountSkuName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountSkuName
@@ -122,7 +122,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#virtual_network_id DatabricksWorkspace#virtual_network_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#virtual_network_id DatabricksWorkspace#virtual_network_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "virtualNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VirtualNetworkId
@@ -131,7 +131,7 @@ namespace azurerm.DatabricksWorkspace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace#vnet_address_prefix DatabricksWorkspace#vnet_address_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace#vnet_address_prefix DatabricksWorkspace#vnet_address_prefix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vnetAddressPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VnetAddressPrefix

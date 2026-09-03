@@ -13,7 +13,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>backend block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#backend Frontdoor#backend}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#backend Frontdoor#backend}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorBackendPoolBackend" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "backend", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorBackendPoolBackend\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#health_probe_name Frontdoor#health_probe_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#health_probe_name Frontdoor#health_probe_name}.</summary>
         [JsiiProperty(name: "healthProbeName", typeJson: "{\"primitive\":\"string\"}")]
         public string HealthProbeName
         {
@@ -51,7 +51,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#load_balancing_name Frontdoor#load_balancing_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#load_balancing_name Frontdoor#load_balancing_name}.</summary>
         [JsiiProperty(name: "loadBalancingName", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancingName
         {
@@ -59,7 +59,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermSourceControlToken
     [JsiiInterface(nativeType: typeof(IDataAzurermSourceControlTokenTimeouts), fullyQualifiedName: "azurerm.dataAzurermSourceControlToken.DataAzurermSourceControlTokenTimeouts")]
     public interface IDataAzurermSourceControlTokenTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/source_control_token#read DataAzurermSourceControlToken#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/source_control_token#read DataAzurermSourceControlToken#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermSourceControlToken
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/source_control_token#read DataAzurermSourceControlToken#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/source_control_token#read DataAzurermSourceControlToken#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

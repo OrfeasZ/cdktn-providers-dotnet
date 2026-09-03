@@ -7,7 +7,7 @@ namespace aws.MailmanagerIngressPoint
     [JsiiInterface(nativeType: typeof(IMailmanagerIngressPointNetworkConfigurationPrivateNetworkConfiguration), fullyQualifiedName: "aws.mailmanagerIngressPoint.MailmanagerIngressPointNetworkConfigurationPrivateNetworkConfiguration")]
     public interface IMailmanagerIngressPointNetworkConfigurationPrivateNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_ingress_point#vpc_endpoint_id MailmanagerIngressPoint#vpc_endpoint_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mailmanager_ingress_point#vpc_endpoint_id MailmanagerIngressPoint#vpc_endpoint_id}.</summary>
         [JsiiProperty(name: "vpcEndpointId", typeJson: "{\"primitive\":\"string\"}")]
         string VpcEndpointId
         {
@@ -21,7 +21,7 @@ namespace aws.MailmanagerIngressPoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/mailmanager_ingress_point#vpc_endpoint_id MailmanagerIngressPoint#vpc_endpoint_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mailmanager_ingress_point#vpc_endpoint_id MailmanagerIngressPoint#vpc_endpoint_id}.</summary>
             [JsiiProperty(name: "vpcEndpointId", typeJson: "{\"primitive\":\"string\"}")]
             public string VpcEndpointId
             {

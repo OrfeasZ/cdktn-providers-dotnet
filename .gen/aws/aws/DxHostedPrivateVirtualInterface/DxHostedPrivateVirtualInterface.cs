@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.DxHostedPrivateVirtualInterface
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface}.</summary>
     [JsiiClass(nativeType: typeof(aws.DxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterface), fullyQualifiedName: "aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterface", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceConfig\"}}]")]
     public class DxHostedPrivateVirtualInterface : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_private_virtual_interface aws_dx_hosted_private_virtual_interface} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DxHostedPrivateVirtualInterface(Constructs.Construct scope, string id, aws.DxHostedPrivateVirtualInterface.IDxHostedPrivateVirtualInterfaceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.DxHostedPrivateVirtualInterface
         /// <param name="importToId">The construct id used in the generated config for the DxHostedPrivateVirtualInterface to import.</param>
         /// <param name="importFromId">The id of the existing DxHostedPrivateVirtualInterface that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DxHostedPrivateVirtualInterface to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DxHostedPrivateVirtualInterface to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_hosted_private_virtual_interface#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DxHostedPrivateVirtualInterface that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DxHostedPrivateVirtualInterface to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DxHostedPrivateVirtualInterface to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_hosted_private_virtual_interface#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DxHostedPrivateVirtualInterface that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DxHostedPrivateVirtualInterface to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterface), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -78,6 +78,12 @@ namespace aws.DxHostedPrivateVirtualInterface
 
         [JsiiMethod(name: "resetMtu")]
         public virtual void ResetMtu()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRateLimit")]
+        public virtual void ResetRateLimit()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -135,6 +141,18 @@ namespace aws.DxHostedPrivateVirtualInterface
         public virtual Io.Cdktn.IResolvable JumboFrameCapable
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "prefixPoolAllocatedCountIpv4", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PrefixPoolAllocatedCountIpv4
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "prefixPoolAllocatedCountIpv6", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PrefixPoolAllocatedCountIpv6
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.dxHostedPrivateVirtualInterface.DxHostedPrivateVirtualInterfaceTimeoutsOutputReference\"}")]
@@ -209,6 +227,13 @@ namespace aws.DxHostedPrivateVirtualInterface
         [JsiiOptional]
         [JsiiProperty(name: "ownerAccountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? OwnerAccountIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "rateLimitInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RateLimitInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -302,6 +327,13 @@ namespace aws.DxHostedPrivateVirtualInterface
 
         [JsiiProperty(name: "ownerAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OwnerAccountId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RateLimit
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -41,6 +41,12 @@ namespace aws.DataAwsEksCluster
             get => GetInstanceProperty<aws.DataAwsEksCluster.DataAwsEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigList>()!;
         }
 
+        [JsiiProperty(name: "podGcControllerConfig", typeJson: "{\"fqn\":\"aws.dataAwsEksCluster.DataAwsEksClusterKubeControllerManagerConfigPodGcControllerConfigList\"}")]
+        public virtual aws.DataAwsEksCluster.DataAwsEksClusterKubeControllerManagerConfigPodGcControllerConfigList PodGcControllerConfig
+        {
+            get => GetInstanceProperty<aws.DataAwsEksCluster.DataAwsEksClusterKubeControllerManagerConfigPodGcControllerConfigList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"aws.dataAwsEksCluster.DataAwsEksClusterKubeControllerManagerConfig\"}", isOptional: true)]
         public virtual aws.DataAwsEksCluster.IDataAwsEksClusterKubeControllerManagerConfig? InternalValue

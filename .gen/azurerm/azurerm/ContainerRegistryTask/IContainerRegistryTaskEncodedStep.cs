@@ -7,14 +7,14 @@ namespace azurerm.ContainerRegistryTask
     [JsiiInterface(nativeType: typeof(IContainerRegistryTaskEncodedStep), fullyQualifiedName: "azurerm.containerRegistryTask.ContainerRegistryTaskEncodedStep")]
     public interface IContainerRegistryTaskEncodedStep
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#task_content ContainerRegistryTask#task_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#task_content ContainerRegistryTask#task_content}.</summary>
         [JsiiProperty(name: "taskContent", typeJson: "{\"primitive\":\"string\"}")]
         string TaskContent
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#context_access_token ContainerRegistryTask#context_access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#context_access_token ContainerRegistryTask#context_access_token}.</summary>
         [JsiiProperty(name: "contextAccessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContextAccessToken
@@ -25,7 +25,7 @@ namespace azurerm.ContainerRegistryTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#context_path ContainerRegistryTask#context_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#context_path ContainerRegistryTask#context_path}.</summary>
         [JsiiProperty(name: "contextPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ContextPath
@@ -36,7 +36,7 @@ namespace azurerm.ContainerRegistryTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#secret_values ContainerRegistryTask#secret_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#secret_values ContainerRegistryTask#secret_values}.</summary>
         [JsiiProperty(name: "secretValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SecretValues
@@ -47,7 +47,7 @@ namespace azurerm.ContainerRegistryTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#value_content ContainerRegistryTask#value_content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#value_content ContainerRegistryTask#value_content}.</summary>
         [JsiiProperty(name: "valueContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ValueContent
@@ -58,7 +58,7 @@ namespace azurerm.ContainerRegistryTask
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#values ContainerRegistryTask#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#values ContainerRegistryTask#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Values
@@ -76,14 +76,14 @@ namespace azurerm.ContainerRegistryTask
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#task_content ContainerRegistryTask#task_content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#task_content ContainerRegistryTask#task_content}.</summary>
             [JsiiProperty(name: "taskContent", typeJson: "{\"primitive\":\"string\"}")]
             public string TaskContent
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#context_access_token ContainerRegistryTask#context_access_token}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#context_access_token ContainerRegistryTask#context_access_token}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "contextAccessToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContextAccessToken
@@ -91,7 +91,7 @@ namespace azurerm.ContainerRegistryTask
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#context_path ContainerRegistryTask#context_path}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#context_path ContainerRegistryTask#context_path}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "contextPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ContextPath
@@ -99,7 +99,7 @@ namespace azurerm.ContainerRegistryTask
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#secret_values ContainerRegistryTask#secret_values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#secret_values ContainerRegistryTask#secret_values}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "secretValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SecretValues
@@ -107,7 +107,7 @@ namespace azurerm.ContainerRegistryTask
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#value_content ContainerRegistryTask#value_content}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#value_content ContainerRegistryTask#value_content}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "valueContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ValueContent
@@ -115,7 +115,7 @@ namespace azurerm.ContainerRegistryTask
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task#values ContainerRegistryTask#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task#values ContainerRegistryTask#values}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Values

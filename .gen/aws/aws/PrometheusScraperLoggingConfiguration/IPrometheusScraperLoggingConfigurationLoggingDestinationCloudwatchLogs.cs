@@ -7,7 +7,7 @@ namespace aws.PrometheusScraperLoggingConfiguration
     [JsiiInterface(nativeType: typeof(IPrometheusScraperLoggingConfigurationLoggingDestinationCloudwatchLogs), fullyQualifiedName: "aws.prometheusScraperLoggingConfiguration.PrometheusScraperLoggingConfigurationLoggingDestinationCloudwatchLogs")]
     public interface IPrometheusScraperLoggingConfigurationLoggingDestinationCloudwatchLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper_logging_configuration#log_group_arn PrometheusScraperLoggingConfiguration#log_group_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/prometheus_scraper_logging_configuration#log_group_arn PrometheusScraperLoggingConfiguration#log_group_arn}.</summary>
         [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
         string LogGroupArn
         {
@@ -21,7 +21,7 @@ namespace aws.PrometheusScraperLoggingConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper_logging_configuration#log_group_arn PrometheusScraperLoggingConfiguration#log_group_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/prometheus_scraper_logging_configuration#log_group_arn PrometheusScraperLoggingConfiguration#log_group_arn}.</summary>
             [JsiiProperty(name: "logGroupArn", typeJson: "{\"primitive\":\"string\"}")]
             public string LogGroupArn
             {

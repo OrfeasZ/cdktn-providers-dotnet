@@ -9,7 +9,7 @@ namespace azurerm.SubscriptionCostManagementView
     [JsiiByValue(fqn: "azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDatasetSorting")]
     public class SubscriptionCostManagementViewDatasetSorting : azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDatasetSorting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#direction SubscriptionCostManagementView#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#direction SubscriptionCostManagementView#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public string Direction
         {
@@ -17,7 +17,7 @@ namespace azurerm.SubscriptionCostManagementView
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

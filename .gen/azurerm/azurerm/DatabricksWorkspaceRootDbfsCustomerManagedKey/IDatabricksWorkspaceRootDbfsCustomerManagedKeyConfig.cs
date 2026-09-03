@@ -7,21 +7,21 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
     [JsiiInterface(nativeType: typeof(IDatabricksWorkspaceRootDbfsCustomerManagedKeyConfig), fullyQualifiedName: "azurerm.databricksWorkspaceRootDbfsCustomerManagedKey.DatabricksWorkspaceRootDbfsCustomerManagedKeyConfig")]
     public interface IDatabricksWorkspaceRootDbfsCustomerManagedKeyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_key_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_key_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_key_id}.</summary>
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string KeyVaultKeyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#workspace_id DatabricksWorkspaceRootDbfsCustomerManagedKey#workspace_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#workspace_id DatabricksWorkspaceRootDbfsCustomerManagedKey#workspace_id}.</summary>
         [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
         string WorkspaceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#id DatabricksWorkspaceRootDbfsCustomerManagedKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#id DatabricksWorkspaceRootDbfsCustomerManagedKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,7 +36,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_id}.</summary>
         [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeyVaultId
@@ -49,7 +49,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#timeouts DatabricksWorkspaceRootDbfsCustomerManagedKey#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#timeouts DatabricksWorkspaceRootDbfsCustomerManagedKey#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.databricksWorkspaceRootDbfsCustomerManagedKey.DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,21 +68,21 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_key_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_key_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_key_id}.</summary>
             [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyVaultKeyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#workspace_id DatabricksWorkspaceRootDbfsCustomerManagedKey#workspace_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#workspace_id DatabricksWorkspaceRootDbfsCustomerManagedKey#workspace_id}.</summary>
             [JsiiProperty(name: "workspaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string WorkspaceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#id DatabricksWorkspaceRootDbfsCustomerManagedKey#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#id DatabricksWorkspaceRootDbfsCustomerManagedKey#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -94,7 +94,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#key_vault_id DatabricksWorkspaceRootDbfsCustomerManagedKey#key_vault_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeyVaultId
@@ -104,7 +104,7 @@ namespace azurerm.DatabricksWorkspaceRootDbfsCustomerManagedKey
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#timeouts DatabricksWorkspaceRootDbfsCustomerManagedKey#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key#timeouts DatabricksWorkspaceRootDbfsCustomerManagedKey#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.databricksWorkspaceRootDbfsCustomerManagedKey.DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeouts\"}", isOptional: true)]

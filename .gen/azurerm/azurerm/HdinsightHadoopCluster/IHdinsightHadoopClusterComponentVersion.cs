@@ -7,7 +7,7 @@ namespace azurerm.HdinsightHadoopCluster
     [JsiiInterface(nativeType: typeof(IHdinsightHadoopClusterComponentVersion), fullyQualifiedName: "azurerm.hdinsightHadoopCluster.HdinsightHadoopClusterComponentVersion")]
     public interface IHdinsightHadoopClusterComponentVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_hadoop_cluster#hadoop HdinsightHadoopCluster#hadoop}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_hadoop_cluster#hadoop HdinsightHadoopCluster#hadoop}.</summary>
         [JsiiProperty(name: "hadoop", typeJson: "{\"primitive\":\"string\"}")]
         string Hadoop
         {
@@ -21,7 +21,7 @@ namespace azurerm.HdinsightHadoopCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_hadoop_cluster#hadoop HdinsightHadoopCluster#hadoop}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_hadoop_cluster#hadoop HdinsightHadoopCluster#hadoop}.</summary>
             [JsiiProperty(name: "hadoop", typeJson: "{\"primitive\":\"string\"}")]
             public string Hadoop
             {

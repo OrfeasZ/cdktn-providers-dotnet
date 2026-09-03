@@ -11,7 +11,7 @@ namespace azurerm.ContainerApp
     {
         /// <summary>The percentage of traffic to send to this revision.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#percentage ContainerApp#percentage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app#percentage ContainerApp#percentage}
         /// </remarks>
         [JsiiProperty(name: "percentage", typeJson: "{\"primitive\":\"number\"}")]
         public double Percentage
@@ -22,7 +22,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>The label to apply to the revision as a name prefix for routing traffic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#label ContainerApp#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app#label ContainerApp#label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace azurerm.ContainerApp
 
         /// <summary>This traffic Weight relates to the latest stable Container Revision.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#latest_revision ContainerApp#latest_revision}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app#latest_revision ContainerApp#latest_revision}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -71,7 +71,7 @@ namespace azurerm.ContainerApp
         /// <remarks>
         /// This must be unique for the Container App's lifetime. A default hash created by the service will be used if this value is omitted.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_app#revision_suffix ContainerApp#revision_suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_app#revision_suffix ContainerApp#revision_suffix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "revisionSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

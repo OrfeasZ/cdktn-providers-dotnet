@@ -7,7 +7,7 @@ namespace azurerm.BatchPool
     [JsiiInterface(nativeType: typeof(IBatchPoolFixedScale), fullyQualifiedName: "azurerm.batchPool.BatchPoolFixedScale")]
     public interface IBatchPoolFixedScale
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#node_deallocation_method BatchPool#node_deallocation_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#node_deallocation_method BatchPool#node_deallocation_method}.</summary>
         [JsiiProperty(name: "nodeDeallocationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NodeDeallocationMethod
@@ -18,7 +18,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#resize_timeout BatchPool#resize_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#resize_timeout BatchPool#resize_timeout}.</summary>
         [JsiiProperty(name: "resizeTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResizeTimeout
@@ -29,7 +29,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#target_dedicated_nodes BatchPool#target_dedicated_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#target_dedicated_nodes BatchPool#target_dedicated_nodes}.</summary>
         [JsiiProperty(name: "targetDedicatedNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TargetDedicatedNodes
@@ -40,7 +40,7 @@ namespace azurerm.BatchPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#target_low_priority_nodes BatchPool#target_low_priority_nodes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#target_low_priority_nodes BatchPool#target_low_priority_nodes}.</summary>
         [JsiiProperty(name: "targetLowPriorityNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? TargetLowPriorityNodes
@@ -58,7 +58,7 @@ namespace azurerm.BatchPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#node_deallocation_method BatchPool#node_deallocation_method}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#node_deallocation_method BatchPool#node_deallocation_method}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nodeDeallocationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NodeDeallocationMethod
@@ -66,7 +66,7 @@ namespace azurerm.BatchPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#resize_timeout BatchPool#resize_timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#resize_timeout BatchPool#resize_timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resizeTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResizeTimeout
@@ -74,7 +74,7 @@ namespace azurerm.BatchPool
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#target_dedicated_nodes BatchPool#target_dedicated_nodes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#target_dedicated_nodes BatchPool#target_dedicated_nodes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetDedicatedNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TargetDedicatedNodes
@@ -82,7 +82,7 @@ namespace azurerm.BatchPool
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#target_low_priority_nodes BatchPool#target_low_priority_nodes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#target_low_priority_nodes BatchPool#target_low_priority_nodes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetLowPriorityNodes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? TargetLowPriorityNodes

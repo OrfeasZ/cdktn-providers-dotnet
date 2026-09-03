@@ -13,7 +13,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>backend_pool block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#backend_pool Frontdoor#backend_pool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#backend_pool Frontdoor#backend_pool}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorBackendPool" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "backendPool", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorBackendPool\"},\"kind\":\"array\"}}]}}")]
@@ -47,7 +47,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>backend_pool_health_probe block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#backend_pool_health_probe Frontdoor#backend_pool_health_probe}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#backend_pool_health_probe Frontdoor#backend_pool_health_probe}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorBackendPoolHealthProbe" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "backendPoolHealthProbe", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorBackendPoolHealthProbe\"},\"kind\":\"array\"}}]}}")]
@@ -81,7 +81,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>backend_pool_load_balancing block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#backend_pool_load_balancing Frontdoor#backend_pool_load_balancing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#backend_pool_load_balancing Frontdoor#backend_pool_load_balancing}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorBackendPoolLoadBalancing" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "backendPoolLoadBalancing", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorBackendPoolLoadBalancing\"},\"kind\":\"array\"}}]}}")]
@@ -115,7 +115,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>frontend_endpoint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#frontend_endpoint Frontdoor#frontend_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#frontend_endpoint Frontdoor#frontend_endpoint}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorFrontendEndpoint" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "frontendEndpoint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorFrontendEndpoint\"},\"kind\":\"array\"}}]}}")]
@@ -145,7 +145,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#name Frontdoor#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -153,7 +153,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#resource_group_name Frontdoor#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#resource_group_name Frontdoor#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -165,7 +165,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>routing_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#routing_rule Frontdoor#routing_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#routing_rule Frontdoor#routing_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorRoutingRule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "routingRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.frontdoor.FrontdoorRoutingRule\"},\"kind\":\"array\"}}]}}")]
@@ -199,7 +199,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>backend_pool_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#backend_pool_settings Frontdoor#backend_pool_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#backend_pool_settings Frontdoor#backend_pool_settings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.Frontdoor.IFrontdoorBackendPoolSettings" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -230,7 +230,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#friendly_name Frontdoor#friendly_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#friendly_name Frontdoor#friendly_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "friendlyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FriendlyName
@@ -239,7 +239,7 @@ namespace azurerm.Frontdoor
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#id Frontdoor#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#id Frontdoor#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -254,7 +254,7 @@ namespace azurerm.Frontdoor
 
         private object? _loadBalancerEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#load_balancer_enabled Frontdoor#load_balancer_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#load_balancer_enabled Frontdoor#load_balancer_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -286,7 +286,7 @@ namespace azurerm.Frontdoor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#tags Frontdoor#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#tags Frontdoor#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -297,7 +297,7 @@ namespace azurerm.Frontdoor
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor#timeouts Frontdoor#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor#timeouts Frontdoor#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.frontdoor.FrontdoorTimeouts\"}", isOptional: true)]

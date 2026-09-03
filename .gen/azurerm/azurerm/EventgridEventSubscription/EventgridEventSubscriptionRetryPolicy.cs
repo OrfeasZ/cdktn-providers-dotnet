@@ -9,7 +9,7 @@ namespace azurerm.EventgridEventSubscription
     [JsiiByValue(fqn: "azurerm.eventgridEventSubscription.EventgridEventSubscriptionRetryPolicy")]
     public class EventgridEventSubscriptionRetryPolicy : azurerm.EventgridEventSubscription.IEventgridEventSubscriptionRetryPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_event_subscription#event_time_to_live EventgridEventSubscription#event_time_to_live}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_event_subscription#event_time_to_live EventgridEventSubscription#event_time_to_live}.</summary>
         [JsiiProperty(name: "eventTimeToLive", typeJson: "{\"primitive\":\"number\"}")]
         public double EventTimeToLive
         {
@@ -17,7 +17,7 @@ namespace azurerm.EventgridEventSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_event_subscription#max_delivery_attempts EventgridEventSubscription#max_delivery_attempts}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_event_subscription#max_delivery_attempts EventgridEventSubscription#max_delivery_attempts}.</summary>
         [JsiiProperty(name: "maxDeliveryAttempts", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxDeliveryAttempts
         {

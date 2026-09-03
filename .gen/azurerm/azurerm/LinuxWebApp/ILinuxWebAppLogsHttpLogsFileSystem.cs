@@ -7,14 +7,14 @@ namespace azurerm.LinuxWebApp
     [JsiiInterface(nativeType: typeof(ILinuxWebAppLogsHttpLogsFileSystem), fullyQualifiedName: "azurerm.linuxWebApp.LinuxWebAppLogsHttpLogsFileSystem")]
     public interface ILinuxWebAppLogsHttpLogsFileSystem
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
         [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
         double RetentionInDays
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#retention_in_mb LinuxWebApp#retention_in_mb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app#retention_in_mb LinuxWebApp#retention_in_mb}.</summary>
         [JsiiProperty(name: "retentionInMb", typeJson: "{\"primitive\":\"number\"}")]
         double RetentionInMb
         {
@@ -28,14 +28,14 @@ namespace azurerm.LinuxWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app#retention_in_days LinuxWebApp#retention_in_days}.</summary>
             [JsiiProperty(name: "retentionInDays", typeJson: "{\"primitive\":\"number\"}")]
             public double RetentionInDays
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app#retention_in_mb LinuxWebApp#retention_in_mb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app#retention_in_mb LinuxWebApp#retention_in_mb}.</summary>
             [JsiiProperty(name: "retentionInMb", typeJson: "{\"primitive\":\"number\"}")]
             public double RetentionInMb
             {

@@ -7,7 +7,7 @@ namespace azurerm.SignalrServiceCustomCertificate
     [JsiiByValue(fqn: "azurerm.signalrServiceCustomCertificate.SignalrServiceCustomCertificateTimeouts")]
     public class SignalrServiceCustomCertificateTimeouts : azurerm.SignalrServiceCustomCertificate.ISignalrServiceCustomCertificateTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_custom_certificate#create SignalrServiceCustomCertificate#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_custom_certificate#create SignalrServiceCustomCertificate#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.SignalrServiceCustomCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_custom_certificate#delete SignalrServiceCustomCertificate#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_custom_certificate#delete SignalrServiceCustomCertificate#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.SignalrServiceCustomCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_custom_certificate#read SignalrServiceCustomCertificate#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_custom_certificate#read SignalrServiceCustomCertificate#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

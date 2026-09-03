@@ -5,7 +5,7 @@ namespace aws.Sesv2MultiRegionEndpoint
     /// <remarks>
     /// <h1><c>aws_sesv2_multi_region_endpoint</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sesv2_multi_region_endpoint"><c>aws_sesv2_multi_region_endpoint</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/sesv2_multi_region_endpoint"><c>aws_sesv2_multi_region_endpoint</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

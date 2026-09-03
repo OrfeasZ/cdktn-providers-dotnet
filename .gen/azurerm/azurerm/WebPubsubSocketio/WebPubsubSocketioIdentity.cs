@@ -9,7 +9,7 @@ namespace azurerm.WebPubsubSocketio
     [JsiiByValue(fqn: "azurerm.webPubsubSocketio.WebPubsubSocketioIdentity")]
     public class WebPubsubSocketioIdentity : azurerm.WebPubsubSocketio.IWebPubsubSocketioIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_pubsub_socketio#type WebPubsubSocketio#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/web_pubsub_socketio#type WebPubsubSocketio#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -17,7 +17,7 @@ namespace azurerm.WebPubsubSocketio
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/web_pubsub_socketio#identity_ids WebPubsubSocketio#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/web_pubsub_socketio#identity_ids WebPubsubSocketio#identity_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? IdentityIds

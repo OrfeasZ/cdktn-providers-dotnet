@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAutomationVariables
     [JsiiByValue(fqn: "azurerm.dataAzurermAutomationVariables.DataAzurermAutomationVariablesTimeouts")]
     public class DataAzurermAutomationVariablesTimeouts : azurerm.DataAzurermAutomationVariables.IDataAzurermAutomationVariablesTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_variables#read DataAzurermAutomationVariables#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_variables#read DataAzurermAutomationVariables#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

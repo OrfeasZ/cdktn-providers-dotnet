@@ -7,28 +7,28 @@ namespace azurerm.DynatraceMonitor
     [JsiiInterface(nativeType: typeof(IDynatraceMonitorUser), fullyQualifiedName: "azurerm.dynatraceMonitor.DynatraceMonitorUser")]
     public interface IDynatraceMonitorUser
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#email DynatraceMonitor#email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#email DynatraceMonitor#email}.</summary>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#first_name DynatraceMonitor#first_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#first_name DynatraceMonitor#first_name}.</summary>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}")]
         string FirstName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#last_name DynatraceMonitor#last_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#last_name DynatraceMonitor#last_name}.</summary>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
         string LastName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#country DynatraceMonitor#country}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#country DynatraceMonitor#country}.</summary>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Country
@@ -39,7 +39,7 @@ namespace azurerm.DynatraceMonitor
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#phone_number DynatraceMonitor#phone_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#phone_number DynatraceMonitor#phone_number}.</summary>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PhoneNumber
@@ -57,28 +57,28 @@ namespace azurerm.DynatraceMonitor
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#email DynatraceMonitor#email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#email DynatraceMonitor#email}.</summary>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#first_name DynatraceMonitor#first_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#first_name DynatraceMonitor#first_name}.</summary>
             [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}")]
             public string FirstName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#last_name DynatraceMonitor#last_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#last_name DynatraceMonitor#last_name}.</summary>
             [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
             public string LastName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#country DynatraceMonitor#country}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#country DynatraceMonitor#country}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Country
@@ -86,7 +86,7 @@ namespace azurerm.DynatraceMonitor
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_monitor#phone_number DynatraceMonitor#phone_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_monitor#phone_number DynatraceMonitor#phone_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PhoneNumber

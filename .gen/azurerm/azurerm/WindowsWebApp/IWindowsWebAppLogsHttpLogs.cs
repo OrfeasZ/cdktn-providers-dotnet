@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebApp
     {
         /// <summary>azure_blob_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#azure_blob_storage WindowsWebApp#azure_blob_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#azure_blob_storage WindowsWebApp#azure_blob_storage}
         /// </remarks>
         [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogsHttpLogsAzureBlobStorage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>file_system block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#file_system WindowsWebApp#file_system}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#file_system WindowsWebApp#file_system}
         /// </remarks>
         [JsiiProperty(name: "fileSystem", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogsHttpLogsFileSystem\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>azure_blob_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#azure_blob_storage WindowsWebApp#azure_blob_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#azure_blob_storage WindowsWebApp#azure_blob_storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureBlobStorage", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogsHttpLogsAzureBlobStorage\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>file_system block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#file_system WindowsWebApp#file_system}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#file_system WindowsWebApp#file_system}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fileSystem", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogsHttpLogsFileSystem\"}", isOptional: true)]

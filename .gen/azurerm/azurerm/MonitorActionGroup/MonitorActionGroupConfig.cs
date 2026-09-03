@@ -9,7 +9,7 @@ namespace azurerm.MonitorActionGroup
     [JsiiByValue(fqn: "azurerm.monitorActionGroup.MonitorActionGroupConfig")]
     public class MonitorActionGroupConfig : azurerm.MonitorActionGroup.IMonitorActionGroupConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#resource_group_name MonitorActionGroup#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#resource_group_name MonitorActionGroup#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -25,7 +25,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#short_name MonitorActionGroup#short_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#short_name MonitorActionGroup#short_name}.</summary>
         [JsiiProperty(name: "shortName", typeJson: "{\"primitive\":\"string\"}")]
         public string ShortName
         {
@@ -37,7 +37,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>arm_role_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#arm_role_receiver MonitorActionGroup#arm_role_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#arm_role_receiver MonitorActionGroup#arm_role_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupArmRoleReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -72,7 +72,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>automation_runbook_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#automation_runbook_receiver MonitorActionGroup#automation_runbook_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#automation_runbook_receiver MonitorActionGroup#automation_runbook_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupAutomationRunbookReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -107,7 +107,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>azure_app_push_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#azure_app_push_receiver MonitorActionGroup#azure_app_push_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#azure_app_push_receiver MonitorActionGroup#azure_app_push_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupAzureAppPushReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -142,7 +142,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>azure_function_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#azure_function_receiver MonitorActionGroup#azure_function_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#azure_function_receiver MonitorActionGroup#azure_function_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupAzureFunctionReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -177,7 +177,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>email_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#email_receiver MonitorActionGroup#email_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#email_receiver MonitorActionGroup#email_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupEmailReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -210,7 +210,7 @@ namespace azurerm.MonitorActionGroup
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#enabled MonitorActionGroup#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#enabled MonitorActionGroup#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -246,7 +246,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>event_hub_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#event_hub_receiver MonitorActionGroup#event_hub_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#event_hub_receiver MonitorActionGroup#event_hub_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupEventHubReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -277,7 +277,7 @@ namespace azurerm.MonitorActionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#id MonitorActionGroup#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#id MonitorActionGroup#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -294,7 +294,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>itsm_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#itsm_receiver MonitorActionGroup#itsm_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#itsm_receiver MonitorActionGroup#itsm_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupItsmReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -325,7 +325,7 @@ namespace azurerm.MonitorActionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#location MonitorActionGroup#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#location MonitorActionGroup#location}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Location
@@ -338,7 +338,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>logic_app_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#logic_app_receiver MonitorActionGroup#logic_app_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#logic_app_receiver MonitorActionGroup#logic_app_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupLogicAppReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -373,7 +373,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>sms_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#sms_receiver MonitorActionGroup#sms_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#sms_receiver MonitorActionGroup#sms_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupSmsReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -404,7 +404,7 @@ namespace azurerm.MonitorActionGroup
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#tags MonitorActionGroup#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#tags MonitorActionGroup#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -415,7 +415,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#timeouts MonitorActionGroup#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#timeouts MonitorActionGroup#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.monitorActionGroup.MonitorActionGroupTimeouts\"}", isOptional: true)]
@@ -429,7 +429,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>voice_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#voice_receiver MonitorActionGroup#voice_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#voice_receiver MonitorActionGroup#voice_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupVoiceReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -464,7 +464,7 @@ namespace azurerm.MonitorActionGroup
 
         /// <summary>webhook_receiver block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#webhook_receiver MonitorActionGroup#webhook_receiver}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#webhook_receiver MonitorActionGroup#webhook_receiver}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.MonitorActionGroup.IMonitorActionGroupWebhookReceiver" />)[]</para>
         /// </remarks>
         [JsiiOptional]

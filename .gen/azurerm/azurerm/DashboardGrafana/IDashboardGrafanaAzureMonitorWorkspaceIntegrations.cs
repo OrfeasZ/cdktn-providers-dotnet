@@ -7,7 +7,7 @@ namespace azurerm.DashboardGrafana
     [JsiiInterface(nativeType: typeof(IDashboardGrafanaAzureMonitorWorkspaceIntegrations), fullyQualifiedName: "azurerm.dashboardGrafana.DashboardGrafanaAzureMonitorWorkspaceIntegrations")]
     public interface IDashboardGrafanaAzureMonitorWorkspaceIntegrations
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dashboard_grafana#resource_id DashboardGrafana#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dashboard_grafana#resource_id DashboardGrafana#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceId
         {
@@ -21,7 +21,7 @@ namespace azurerm.DashboardGrafana
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dashboard_grafana#resource_id DashboardGrafana#resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dashboard_grafana#resource_id DashboardGrafana#resource_id}.</summary>
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceId
             {

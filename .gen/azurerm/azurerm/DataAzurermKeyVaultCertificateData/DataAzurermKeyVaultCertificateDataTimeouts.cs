@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermKeyVaultCertificateData
     [JsiiByValue(fqn: "azurerm.dataAzurermKeyVaultCertificateData.DataAzurermKeyVaultCertificateDataTimeouts")]
     public class DataAzurermKeyVaultCertificateDataTimeouts : azurerm.DataAzurermKeyVaultCertificateData.IDataAzurermKeyVaultCertificateDataTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/key_vault_certificate_data#read DataAzurermKeyVaultCertificateData#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/key_vault_certificate_data#read DataAzurermKeyVaultCertificateData#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

@@ -9,7 +9,7 @@ namespace azurerm.MonitorScheduledQueryRulesAlert
     [JsiiByValue(fqn: "azurerm.monitorScheduledQueryRulesAlert.MonitorScheduledQueryRulesAlertAction")]
     public class MonitorScheduledQueryRulesAlertAction : azurerm.MonitorScheduledQueryRulesAlert.IMonitorScheduledQueryRulesAlertAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_scheduled_query_rules_alert#action_group MonitorScheduledQueryRulesAlert#action_group}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_scheduled_query_rules_alert#action_group MonitorScheduledQueryRulesAlert#action_group}.</summary>
         [JsiiProperty(name: "actionGroup", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ActionGroup
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorScheduledQueryRulesAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_scheduled_query_rules_alert#custom_webhook_payload MonitorScheduledQueryRulesAlert#custom_webhook_payload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_scheduled_query_rules_alert#custom_webhook_payload MonitorScheduledQueryRulesAlert#custom_webhook_payload}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customWebhookPayload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CustomWebhookPayload
@@ -26,7 +26,7 @@ namespace azurerm.MonitorScheduledQueryRulesAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_scheduled_query_rules_alert#email_subject MonitorScheduledQueryRulesAlert#email_subject}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_scheduled_query_rules_alert#email_subject MonitorScheduledQueryRulesAlert#email_subject}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "emailSubject", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EmailSubject

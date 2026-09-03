@@ -7,7 +7,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
     [JsiiInterface(nativeType: typeof(IPaloAltoLocalRulestackOutboundTrustCertificateAssociationTimeouts), fullyQualifiedName: "azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociationTimeouts")]
     public interface IPaloAltoLocalRulestackOutboundTrustCertificateAssociationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#create PaloAltoLocalRulestackOutboundTrustCertificateAssociation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#create PaloAltoLocalRulestackOutboundTrustCertificateAssociation#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#delete PaloAltoLocalRulestackOutboundTrustCertificateAssociation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#delete PaloAltoLocalRulestackOutboundTrustCertificateAssociation#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#read PaloAltoLocalRulestackOutboundTrustCertificateAssociation#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#read PaloAltoLocalRulestackOutboundTrustCertificateAssociation#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -47,7 +47,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#create PaloAltoLocalRulestackOutboundTrustCertificateAssociation#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#create PaloAltoLocalRulestackOutboundTrustCertificateAssociation#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#delete PaloAltoLocalRulestackOutboundTrustCertificateAssociation#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#delete PaloAltoLocalRulestackOutboundTrustCertificateAssociation#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#read PaloAltoLocalRulestackOutboundTrustCertificateAssociation#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#read PaloAltoLocalRulestackOutboundTrustCertificateAssociation#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

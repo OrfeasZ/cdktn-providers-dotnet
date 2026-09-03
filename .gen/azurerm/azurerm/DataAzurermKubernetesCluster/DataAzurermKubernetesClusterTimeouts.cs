@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermKubernetesCluster
     [JsiiByValue(fqn: "azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesClusterTimeouts")]
     public class DataAzurermKubernetesClusterTimeouts : azurerm.DataAzurermKubernetesCluster.IDataAzurermKubernetesClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/kubernetes_cluster#read DataAzurermKubernetesCluster#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/kubernetes_cluster#read DataAzurermKubernetesCluster#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

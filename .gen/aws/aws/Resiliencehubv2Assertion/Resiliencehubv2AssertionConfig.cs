@@ -9,7 +9,7 @@ namespace aws.Resiliencehubv2Assertion
     [JsiiByValue(fqn: "aws.resiliencehubv2Assertion.Resiliencehubv2AssertionConfig")]
     public class Resiliencehubv2AssertionConfig : aws.Resiliencehubv2Assertion.IResiliencehubv2AssertionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_assertion#service_arn Resiliencehubv2Assertion#service_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/resiliencehubv2_assertion#service_arn Resiliencehubv2Assertion#service_arn}.</summary>
         [JsiiProperty(name: "serviceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceArn
         {
@@ -17,7 +17,7 @@ namespace aws.Resiliencehubv2Assertion
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_assertion#text Resiliencehubv2Assertion#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/resiliencehubv2_assertion#text Resiliencehubv2Assertion#text}.</summary>
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
         public string Text
         {
@@ -27,7 +27,7 @@ namespace aws.Resiliencehubv2Assertion
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/resiliencehubv2_assertion#region Resiliencehubv2Assertion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/resiliencehubv2_assertion#region Resiliencehubv2Assertion#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

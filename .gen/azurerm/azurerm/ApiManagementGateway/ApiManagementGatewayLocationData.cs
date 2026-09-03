@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementGateway
     [JsiiByValue(fqn: "azurerm.apiManagementGateway.ApiManagementGatewayLocationData")]
     public class ApiManagementGatewayLocationData : azurerm.ApiManagementGateway.IApiManagementGatewayLocationData
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_gateway#name ApiManagementGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_gateway#name ApiManagementGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagementGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_gateway#city ApiManagementGateway#city}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_gateway#city ApiManagementGateway#city}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? City
@@ -26,7 +26,7 @@ namespace azurerm.ApiManagementGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_gateway#district ApiManagementGateway#district}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_gateway#district ApiManagementGateway#district}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "district", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? District
@@ -35,7 +35,7 @@ namespace azurerm.ApiManagementGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_gateway#region ApiManagementGateway#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_gateway#region ApiManagementGateway#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Region

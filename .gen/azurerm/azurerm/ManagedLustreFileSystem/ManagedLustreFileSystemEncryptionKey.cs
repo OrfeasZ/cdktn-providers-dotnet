@@ -9,7 +9,7 @@ namespace azurerm.ManagedLustreFileSystem
     [JsiiByValue(fqn: "azurerm.managedLustreFileSystem.ManagedLustreFileSystemEncryptionKey")]
     public class ManagedLustreFileSystemEncryptionKey : azurerm.ManagedLustreFileSystem.IManagedLustreFileSystemEncryptionKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_lustre_file_system#key_url ManagedLustreFileSystem#key_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_lustre_file_system#key_url ManagedLustreFileSystem#key_url}.</summary>
         [JsiiProperty(name: "keyUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string KeyUrl
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_lustre_file_system#source_vault_id ManagedLustreFileSystem#source_vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_lustre_file_system#source_vault_id ManagedLustreFileSystem#source_vault_id}.</summary>
         [JsiiProperty(name: "sourceVaultId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceVaultId
         {

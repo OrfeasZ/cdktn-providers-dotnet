@@ -7,7 +7,7 @@ namespace azurerm.KubernetesCluster
     [JsiiInterface(nativeType: typeof(IKubernetesClusterAciConnectorLinux), fullyQualifiedName: "azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinux")]
     public interface IKubernetesClusterAciConnectorLinux
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#subnet_name KubernetesCluster#subnet_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#subnet_name KubernetesCluster#subnet_name}.</summary>
         [JsiiProperty(name: "subnetName", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetName
         {
@@ -21,7 +21,7 @@ namespace azurerm.KubernetesCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#subnet_name KubernetesCluster#subnet_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#subnet_name KubernetesCluster#subnet_name}.</summary>
             [JsiiProperty(name: "subnetName", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetName
             {

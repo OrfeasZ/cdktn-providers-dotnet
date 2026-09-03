@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVirtualNetworkPeering
     [JsiiByValue(fqn: "azurerm.dataAzurermVirtualNetworkPeering.DataAzurermVirtualNetworkPeeringTimeouts")]
     public class DataAzurermVirtualNetworkPeeringTimeouts : azurerm.DataAzurermVirtualNetworkPeering.IDataAzurermVirtualNetworkPeeringTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/virtual_network_peering#read DataAzurermVirtualNetworkPeering#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/virtual_network_peering#read DataAzurermVirtualNetworkPeering#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

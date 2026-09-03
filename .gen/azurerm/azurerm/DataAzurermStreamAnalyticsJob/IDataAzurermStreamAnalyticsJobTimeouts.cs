@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStreamAnalyticsJob
     [JsiiInterface(nativeType: typeof(IDataAzurermStreamAnalyticsJobTimeouts), fullyQualifiedName: "azurerm.dataAzurermStreamAnalyticsJob.DataAzurermStreamAnalyticsJobTimeouts")]
     public interface IDataAzurermStreamAnalyticsJobTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/stream_analytics_job#read DataAzurermStreamAnalyticsJob#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/stream_analytics_job#read DataAzurermStreamAnalyticsJob#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermStreamAnalyticsJob
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/stream_analytics_job#read DataAzurermStreamAnalyticsJob#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/stream_analytics_job#read DataAzurermStreamAnalyticsJob#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

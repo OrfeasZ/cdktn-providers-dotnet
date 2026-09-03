@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermApplicationGateway
     [JsiiByValue(fqn: "azurerm.dataAzurermApplicationGateway.DataAzurermApplicationGatewayTimeouts")]
     public class DataAzurermApplicationGatewayTimeouts : azurerm.DataAzurermApplicationGateway.IDataAzurermApplicationGatewayTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/application_gateway#read DataAzurermApplicationGateway#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/application_gateway#read DataAzurermApplicationGateway#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

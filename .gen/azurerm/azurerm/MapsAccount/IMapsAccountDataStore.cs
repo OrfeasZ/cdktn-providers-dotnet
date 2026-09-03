@@ -7,14 +7,14 @@ namespace azurerm.MapsAccount
     [JsiiInterface(nativeType: typeof(IMapsAccountDataStore), fullyQualifiedName: "azurerm.mapsAccount.MapsAccountDataStore")]
     public interface IMapsAccountDataStore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maps_account#unique_name MapsAccount#unique_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maps_account#unique_name MapsAccount#unique_name}.</summary>
         [JsiiProperty(name: "uniqueName", typeJson: "{\"primitive\":\"string\"}")]
         string UniqueName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? StorageAccountId
@@ -32,14 +32,14 @@ namespace azurerm.MapsAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maps_account#unique_name MapsAccount#unique_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maps_account#unique_name MapsAccount#unique_name}.</summary>
             [JsiiProperty(name: "uniqueName", typeJson: "{\"primitive\":\"string\"}")]
             public string UniqueName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maps_account#storage_account_id MapsAccount#storage_account_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? StorageAccountId

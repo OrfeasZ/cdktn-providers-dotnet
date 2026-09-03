@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterWindowsProfile")]
     public class KubernetesClusterWindowsProfile : azurerm.KubernetesCluster.IKubernetesClusterWindowsProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#admin_password KubernetesCluster#admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#admin_password KubernetesCluster#admin_password}.</summary>
         [JsiiProperty(name: "adminPassword", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminPassword
         {
@@ -17,7 +17,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#admin_username KubernetesCluster#admin_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#admin_username KubernetesCluster#admin_username}.</summary>
         [JsiiProperty(name: "adminUsername", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminUsername
         {
@@ -27,7 +27,7 @@ namespace azurerm.KubernetesCluster
 
         /// <summary>gmsa block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#gmsa KubernetesCluster#gmsa}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#gmsa KubernetesCluster#gmsa}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gmsa", typeJson: "{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterWindowsProfileGmsa\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#license KubernetesCluster#license}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#license KubernetesCluster#license}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "license", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? License

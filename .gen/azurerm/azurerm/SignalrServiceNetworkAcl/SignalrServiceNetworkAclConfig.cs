@@ -9,7 +9,7 @@ namespace azurerm.SignalrServiceNetworkAcl
     [JsiiByValue(fqn: "azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAclConfig")]
     public class SignalrServiceNetworkAclConfig : azurerm.SignalrServiceNetworkAcl.ISignalrServiceNetworkAclConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_network_acl#default_action SignalrServiceNetworkAcl#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_network_acl#default_action SignalrServiceNetworkAcl#default_action}.</summary>
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultAction
         {
@@ -19,7 +19,7 @@ namespace azurerm.SignalrServiceNetworkAcl
 
         /// <summary>public_network block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_network_acl#public_network SignalrServiceNetworkAcl#public_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_network_acl#public_network SignalrServiceNetworkAcl#public_network}
         /// </remarks>
         [JsiiProperty(name: "publicNetwork", typeJson: "{\"fqn\":\"azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAclPublicNetwork\"}")]
         public azurerm.SignalrServiceNetworkAcl.ISignalrServiceNetworkAclPublicNetwork PublicNetwork
@@ -28,7 +28,7 @@ namespace azurerm.SignalrServiceNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_network_acl#signalr_service_id SignalrServiceNetworkAcl#signalr_service_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_network_acl#signalr_service_id SignalrServiceNetworkAcl#signalr_service_id}.</summary>
         [JsiiProperty(name: "signalrServiceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SignalrServiceId
         {
@@ -36,7 +36,7 @@ namespace azurerm.SignalrServiceNetworkAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_network_acl#id SignalrServiceNetworkAcl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_network_acl#id SignalrServiceNetworkAcl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,7 +53,7 @@ namespace azurerm.SignalrServiceNetworkAcl
 
         /// <summary>private_endpoint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_network_acl#private_endpoint SignalrServiceNetworkAcl#private_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_network_acl#private_endpoint SignalrServiceNetworkAcl#private_endpoint}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SignalrServiceNetworkAcl.ISignalrServiceNetworkAclPrivateEndpoint" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -86,7 +86,7 @@ namespace azurerm.SignalrServiceNetworkAcl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service_network_acl#timeouts SignalrServiceNetworkAcl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service_network_acl#timeouts SignalrServiceNetworkAcl#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.signalrServiceNetworkAcl.SignalrServiceNetworkAclTimeouts\"}", isOptional: true)]

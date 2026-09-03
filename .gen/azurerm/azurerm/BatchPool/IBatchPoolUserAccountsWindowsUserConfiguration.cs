@@ -7,7 +7,7 @@ namespace azurerm.BatchPool
     [JsiiInterface(nativeType: typeof(IBatchPoolUserAccountsWindowsUserConfiguration), fullyQualifiedName: "azurerm.batchPool.BatchPoolUserAccountsWindowsUserConfiguration")]
     public interface IBatchPoolUserAccountsWindowsUserConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#login_mode BatchPool#login_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#login_mode BatchPool#login_mode}.</summary>
         [JsiiProperty(name: "loginMode", typeJson: "{\"primitive\":\"string\"}")]
         string LoginMode
         {
@@ -21,7 +21,7 @@ namespace azurerm.BatchPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_pool#login_mode BatchPool#login_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_pool#login_mode BatchPool#login_mode}.</summary>
             [JsiiProperty(name: "loginMode", typeJson: "{\"primitive\":\"string\"}")]
             public string LoginMode
             {

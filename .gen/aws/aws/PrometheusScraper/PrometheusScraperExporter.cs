@@ -11,7 +11,7 @@ namespace aws.PrometheusScraper
 
         /// <summary>opensearch block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/prometheus_scraper#opensearch PrometheusScraper#opensearch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/prometheus_scraper#opensearch PrometheusScraper#opensearch}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.PrometheusScraper.IPrometheusScraperExporterOpensearch" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace azurerm.LinuxFunctionAppSlot
     [JsiiInterface(nativeType: typeof(ILinuxFunctionAppSlotSiteConfigIpRestrictionHeaders), fullyQualifiedName: "azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigIpRestrictionHeaders")]
     public interface ILinuxFunctionAppSlotSiteConfigIpRestrictionHeaders
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_azure_fdid LinuxFunctionAppSlot#x_azure_fdid}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_azure_fdid LinuxFunctionAppSlot#x_azure_fdid}.</summary>
         [JsiiProperty(name: "xAzureFdid", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? XAzureFdid
@@ -18,7 +18,7 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_fd_health_probe LinuxFunctionAppSlot#x_fd_health_probe}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_fd_health_probe LinuxFunctionAppSlot#x_fd_health_probe}.</summary>
         [JsiiProperty(name: "xFdHealthProbe", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? XFdHealthProbe
@@ -29,7 +29,7 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_forwarded_for LinuxFunctionAppSlot#x_forwarded_for}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_forwarded_for LinuxFunctionAppSlot#x_forwarded_for}.</summary>
         [JsiiProperty(name: "xForwardedFor", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? XForwardedFor
@@ -40,7 +40,7 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_forwarded_host LinuxFunctionAppSlot#x_forwarded_host}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_forwarded_host LinuxFunctionAppSlot#x_forwarded_host}.</summary>
         [JsiiProperty(name: "xForwardedHost", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? XForwardedHost
@@ -58,7 +58,7 @@ namespace azurerm.LinuxFunctionAppSlot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_azure_fdid LinuxFunctionAppSlot#x_azure_fdid}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_azure_fdid LinuxFunctionAppSlot#x_azure_fdid}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "xAzureFdid", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? XAzureFdid
@@ -66,7 +66,7 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_fd_health_probe LinuxFunctionAppSlot#x_fd_health_probe}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_fd_health_probe LinuxFunctionAppSlot#x_fd_health_probe}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "xFdHealthProbe", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? XFdHealthProbe
@@ -74,7 +74,7 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_forwarded_for LinuxFunctionAppSlot#x_forwarded_for}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_forwarded_for LinuxFunctionAppSlot#x_forwarded_for}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "xForwardedFor", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? XForwardedFor
@@ -82,7 +82,7 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#x_forwarded_host LinuxFunctionAppSlot#x_forwarded_host}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#x_forwarded_host LinuxFunctionAppSlot#x_forwarded_host}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "xForwardedHost", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? XForwardedHost

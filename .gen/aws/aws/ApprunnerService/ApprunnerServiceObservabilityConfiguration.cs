@@ -11,7 +11,7 @@ namespace aws.ApprunnerService
     {
         private object _observabilityEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apprunner_service#observability_enabled ApprunnerService#observability_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/apprunner_service#observability_enabled ApprunnerService#observability_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace aws.ApprunnerService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apprunner_service#observability_configuration_arn ApprunnerService#observability_configuration_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/apprunner_service#observability_configuration_arn ApprunnerService#observability_configuration_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "observabilityConfigurationArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObservabilityConfigurationArn

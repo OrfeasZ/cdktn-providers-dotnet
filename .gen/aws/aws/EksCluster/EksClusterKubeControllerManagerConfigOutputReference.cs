@@ -39,8 +39,20 @@ namespace aws.EksCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putPodGcControllerConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigPodGcControllerConfig\"}}]")]
+        public virtual void PutPodGcControllerConfig(aws.EksCluster.IEksClusterKubeControllerManagerConfigPodGcControllerConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EksCluster.IEksClusterKubeControllerManagerConfigPodGcControllerConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetHorizontalPodAutoscalerControllerConfig")]
         public virtual void ResetHorizontalPodAutoscalerControllerConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPodGcControllerConfig")]
+        public virtual void ResetPodGcControllerConfig()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -51,11 +63,24 @@ namespace aws.EksCluster
             get => GetInstanceProperty<aws.EksCluster.EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfigOutputReference>()!;
         }
 
+        [JsiiProperty(name: "podGcControllerConfig", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigPodGcControllerConfigOutputReference\"}")]
+        public virtual aws.EksCluster.EksClusterKubeControllerManagerConfigPodGcControllerConfigOutputReference PodGcControllerConfig
+        {
+            get => GetInstanceProperty<aws.EksCluster.EksClusterKubeControllerManagerConfigPodGcControllerConfigOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "horizontalPodAutoscalerControllerConfigInput", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig\"}", isOptional: true)]
         public virtual aws.EksCluster.IEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig? HorizontalPodAutoscalerControllerConfigInput
         {
             get => GetInstanceProperty<aws.EksCluster.IEksClusterKubeControllerManagerConfigHorizontalPodAutoscalerControllerConfig?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "podGcControllerConfigInput", typeJson: "{\"fqn\":\"aws.eksCluster.EksClusterKubeControllerManagerConfigPodGcControllerConfig\"}", isOptional: true)]
+        public virtual aws.EksCluster.IEksClusterKubeControllerManagerConfigPodGcControllerConfig? PodGcControllerConfigInput
+        {
+            get => GetInstanceProperty<aws.EksCluster.IEksClusterKubeControllerManagerConfigPodGcControllerConfig?>();
         }
 
         [JsiiOptional]

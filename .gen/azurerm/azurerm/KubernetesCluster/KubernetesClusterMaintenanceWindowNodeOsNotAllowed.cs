@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterMaintenanceWindowNodeOsNotAllowed")]
     public class KubernetesClusterMaintenanceWindowNodeOsNotAllowed : azurerm.KubernetesCluster.IKubernetesClusterMaintenanceWindowNodeOsNotAllowed
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#end KubernetesCluster#end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#end KubernetesCluster#end}.</summary>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"string\"}")]
         public string End
         {
@@ -17,7 +17,7 @@ namespace azurerm.KubernetesCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#start KubernetesCluster#start}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#start KubernetesCluster#start}.</summary>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"string\"}")]
         public string Start
         {

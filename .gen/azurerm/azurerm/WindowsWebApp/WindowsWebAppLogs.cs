@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebApp
     {
         /// <summary>application_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#application_logs WindowsWebApp#application_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#application_logs WindowsWebApp#application_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationLogs", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogsApplicationLogs\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.WindowsWebApp
 
         private object? _detailedErrorMessages;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#detailed_error_messages WindowsWebApp#detailed_error_messages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#detailed_error_messages WindowsWebApp#detailed_error_messages}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace azurerm.WindowsWebApp
 
         private object? _failedRequestTracing;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#failed_request_tracing WindowsWebApp#failed_request_tracing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#failed_request_tracing WindowsWebApp#failed_request_tracing}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -89,7 +89,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>http_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app#http_logs WindowsWebApp#http_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app#http_logs WindowsWebApp#http_logs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpLogs", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogsHttpLogs\"}", isOptional: true)]

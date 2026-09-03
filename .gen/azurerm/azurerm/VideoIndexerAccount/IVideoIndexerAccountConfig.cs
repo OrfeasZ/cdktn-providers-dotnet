@@ -9,7 +9,7 @@ namespace azurerm.VideoIndexerAccount
     {
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#identity VideoIndexerAccount#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#identity VideoIndexerAccount#identity}
         /// </remarks>
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.videoIndexerAccount.VideoIndexerAccountIdentity\"}")]
         azurerm.VideoIndexerAccount.IVideoIndexerAccountIdentity Identity
@@ -17,21 +17,21 @@ namespace azurerm.VideoIndexerAccount
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#location VideoIndexerAccount#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#location VideoIndexerAccount#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         string Location
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#name VideoIndexerAccount#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#name VideoIndexerAccount#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#resource_group_name VideoIndexerAccount#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#resource_group_name VideoIndexerAccount#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
@@ -40,7 +40,7 @@ namespace azurerm.VideoIndexerAccount
 
         /// <summary>storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#storage VideoIndexerAccount#storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#storage VideoIndexerAccount#storage}
         /// </remarks>
         [JsiiProperty(name: "storage", typeJson: "{\"fqn\":\"azurerm.videoIndexerAccount.VideoIndexerAccountStorage\"}")]
         azurerm.VideoIndexerAccount.IVideoIndexerAccountStorage Storage
@@ -48,7 +48,7 @@ namespace azurerm.VideoIndexerAccount
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#id VideoIndexerAccount#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#id VideoIndexerAccount#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -63,7 +63,7 @@ namespace azurerm.VideoIndexerAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#public_network_access VideoIndexerAccount#public_network_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#public_network_access VideoIndexerAccount#public_network_access}.</summary>
         [JsiiProperty(name: "publicNetworkAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PublicNetworkAccess
@@ -74,7 +74,7 @@ namespace azurerm.VideoIndexerAccount
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#tags VideoIndexerAccount#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#tags VideoIndexerAccount#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -87,7 +87,7 @@ namespace azurerm.VideoIndexerAccount
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#timeouts VideoIndexerAccount#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#timeouts VideoIndexerAccount#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.videoIndexerAccount.VideoIndexerAccountTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +108,7 @@ namespace azurerm.VideoIndexerAccount
 
             /// <summary>identity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#identity VideoIndexerAccount#identity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#identity VideoIndexerAccount#identity}
             /// </remarks>
             [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.videoIndexerAccount.VideoIndexerAccountIdentity\"}")]
             public azurerm.VideoIndexerAccount.IVideoIndexerAccountIdentity Identity
@@ -116,21 +116,21 @@ namespace azurerm.VideoIndexerAccount
                 get => GetInstanceProperty<azurerm.VideoIndexerAccount.IVideoIndexerAccountIdentity>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#location VideoIndexerAccount#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#location VideoIndexerAccount#location}.</summary>
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
             public string Location
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#name VideoIndexerAccount#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#name VideoIndexerAccount#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#resource_group_name VideoIndexerAccount#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#resource_group_name VideoIndexerAccount#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
@@ -139,7 +139,7 @@ namespace azurerm.VideoIndexerAccount
 
             /// <summary>storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#storage VideoIndexerAccount#storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#storage VideoIndexerAccount#storage}
             /// </remarks>
             [JsiiProperty(name: "storage", typeJson: "{\"fqn\":\"azurerm.videoIndexerAccount.VideoIndexerAccountStorage\"}")]
             public azurerm.VideoIndexerAccount.IVideoIndexerAccountStorage Storage
@@ -147,7 +147,7 @@ namespace azurerm.VideoIndexerAccount
                 get => GetInstanceProperty<azurerm.VideoIndexerAccount.IVideoIndexerAccountStorage>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#id VideoIndexerAccount#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#id VideoIndexerAccount#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +159,7 @@ namespace azurerm.VideoIndexerAccount
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#public_network_access VideoIndexerAccount#public_network_access}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#public_network_access VideoIndexerAccount#public_network_access}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicNetworkAccess", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PublicNetworkAccess
@@ -167,7 +167,7 @@ namespace azurerm.VideoIndexerAccount
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#tags VideoIndexerAccount#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#tags VideoIndexerAccount#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -177,7 +177,7 @@ namespace azurerm.VideoIndexerAccount
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#timeouts VideoIndexerAccount#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#timeouts VideoIndexerAccount#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.videoIndexerAccount.VideoIndexerAccountTimeouts\"}", isOptional: true)]

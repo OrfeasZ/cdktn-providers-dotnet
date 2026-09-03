@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.DataAzurermAutomationAccount
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_account azurerm_automation_account}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_account azurerm_automation_account}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.DataAzurermAutomationAccount.DataAzurermAutomationAccount), fullyQualifiedName: "azurerm.dataAzurermAutomationAccount.DataAzurermAutomationAccount", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.dataAzurermAutomationAccount.DataAzurermAutomationAccountConfig\"}}]")]
     public class DataAzurermAutomationAccount : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataAzurermAutomationAccount(Constructs.Construct scope, string id, azurerm.DataAzurermAutomationAccount.IDataAzurermAutomationAccountConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermAutomationAccount
         /// <param name="importToId">The construct id used in the generated config for the DataAzurermAutomationAccount to import.</param>
         /// <param name="importFromId">The id of the existing DataAzurermAutomationAccount that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataAzurermAutomationAccount to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermAutomationAccount to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_account#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermAutomationAccount that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermAutomationAccount to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermAutomationAccount to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_account#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermAutomationAccount that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermAutomationAccount to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.DataAzurermAutomationAccount.DataAzurermAutomationAccount), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -83,6 +83,30 @@ namespace azurerm.DataAzurermAutomationAccount
         }
         = GetStaticProperty<string>(typeof(azurerm.DataAzurermAutomationAccount.DataAzurermAutomationAccount))!;
 
+        [JsiiProperty(name: "dscPrimaryAccessKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DscPrimaryAccessKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "dscSecondaryAccessKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DscSecondaryAccessKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "dscServerEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DscServerEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "encryption", typeJson: "{\"fqn\":\"azurerm.dataAzurermAutomationAccount.DataAzurermAutomationAccountEncryptionList\"}")]
+        public virtual azurerm.DataAzurermAutomationAccount.DataAzurermAutomationAccountEncryptionList Encryption
+        {
+            get => GetInstanceProperty<azurerm.DataAzurermAutomationAccount.DataAzurermAutomationAccountEncryptionList>()!;
+        }
+
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Endpoint
         {
@@ -101,6 +125,18 @@ namespace azurerm.DataAzurermAutomationAccount
             get => GetInstanceProperty<azurerm.DataAzurermAutomationAccount.DataAzurermAutomationAccountIdentityList>()!;
         }
 
+        [JsiiProperty(name: "localAuthenticationEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable LocalAuthenticationEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Location
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "primaryKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrimaryKey
         {
@@ -113,10 +149,28 @@ namespace azurerm.DataAzurermAutomationAccount
             get => GetInstanceProperty<azurerm.DataAzurermAutomationAccount.DataAzurermAutomationAccountPrivateEndpointConnectionList>()!;
         }
 
+        [JsiiProperty(name: "publicNetworkAccessEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable PublicNetworkAccessEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "secondaryKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SecondaryKey
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SkuName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap Tags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermAutomationAccount.DataAzurermAutomationAccountTimeoutsOutputReference\"}")]

@@ -9,7 +9,7 @@ namespace azurerm.MssqlDatabase
     [JsiiByValue(fqn: "azurerm.mssqlDatabase.MssqlDatabaseShortTermRetentionPolicy")]
     public class MssqlDatabaseShortTermRetentionPolicy : azurerm.MssqlDatabase.IMssqlDatabaseShortTermRetentionPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#retention_days MssqlDatabase#retention_days}.</summary>
         [JsiiProperty(name: "retentionDays", typeJson: "{\"primitive\":\"number\"}")]
         public double RetentionDays
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#backup_interval_in_hours MssqlDatabase#backup_interval_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#backup_interval_in_hours MssqlDatabase#backup_interval_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupIntervalInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? BackupIntervalInHours

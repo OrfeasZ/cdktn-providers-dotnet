@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultCertificate
     {
         /// <summary>action block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_certificate#action KeyVaultCertificate#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_certificate#action KeyVaultCertificate#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionAction\"}")]
         azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeActionAction Action
@@ -19,7 +19,7 @@ namespace azurerm.KeyVaultCertificate
 
         /// <summary>trigger block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_certificate#trigger KeyVaultCertificate#trigger}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_certificate#trigger KeyVaultCertificate#trigger}
         /// </remarks>
         [JsiiProperty(name: "trigger", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionTrigger\"}")]
         azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeActionTrigger Trigger
@@ -36,7 +36,7 @@ namespace azurerm.KeyVaultCertificate
 
             /// <summary>action block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_certificate#action KeyVaultCertificate#action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_certificate#action KeyVaultCertificate#action}
             /// </remarks>
             [JsiiProperty(name: "action", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionAction\"}")]
             public azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeActionAction Action
@@ -46,7 +46,7 @@ namespace azurerm.KeyVaultCertificate
 
             /// <summary>trigger block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_certificate#trigger KeyVaultCertificate#trigger}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_certificate#trigger KeyVaultCertificate#trigger}
             /// </remarks>
             [JsiiProperty(name: "trigger", typeJson: "{\"fqn\":\"azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionTrigger\"}")]
             public azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeActionTrigger Trigger

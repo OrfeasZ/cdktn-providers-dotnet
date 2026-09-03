@@ -7,7 +7,7 @@ namespace azurerm.VirtualNetwork
     [JsiiInterface(nativeType: typeof(IVirtualNetworkSubnetDelegation), fullyQualifiedName: "azurerm.virtualNetwork.VirtualNetworkSubnetDelegation")]
     public interface IVirtualNetworkSubnetDelegation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -18,7 +18,7 @@ namespace azurerm.VirtualNetwork
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network#service_delegation VirtualNetwork#service_delegation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network#service_delegation VirtualNetwork#service_delegation}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualNetwork.IVirtualNetworkSubnetDelegationServiceDelegation" />)[]</para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace azurerm.VirtualNetwork
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network#name VirtualNetwork#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -47,7 +47,7 @@ namespace azurerm.VirtualNetwork
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network#service_delegation VirtualNetwork#service_delegation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network#service_delegation VirtualNetwork#service_delegation}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.VirtualNetwork.IVirtualNetworkSubnetDelegationServiceDelegation" />)[]</para>
             /// </remarks>

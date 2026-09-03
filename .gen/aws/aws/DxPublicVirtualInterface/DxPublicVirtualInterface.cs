@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.DxPublicVirtualInterface
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_public_virtual_interface aws_dx_public_virtual_interface}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_public_virtual_interface aws_dx_public_virtual_interface}.</summary>
     [JsiiClass(nativeType: typeof(aws.DxPublicVirtualInterface.DxPublicVirtualInterface), fullyQualifiedName: "aws.dxPublicVirtualInterface.DxPublicVirtualInterface", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.dxPublicVirtualInterface.DxPublicVirtualInterfaceConfig\"}}]")]
     public class DxPublicVirtualInterface : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_public_virtual_interface aws_dx_public_virtual_interface} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_public_virtual_interface aws_dx_public_virtual_interface} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DxPublicVirtualInterface(Constructs.Construct scope, string id, aws.DxPublicVirtualInterface.IDxPublicVirtualInterfaceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.DxPublicVirtualInterface
         /// <param name="importToId">The construct id used in the generated config for the DxPublicVirtualInterface to import.</param>
         /// <param name="importFromId">The id of the existing DxPublicVirtualInterface that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DxPublicVirtualInterface to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DxPublicVirtualInterface to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/dx_public_virtual_interface#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DxPublicVirtualInterface that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DxPublicVirtualInterface to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DxPublicVirtualInterface to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/dx_public_virtual_interface#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DxPublicVirtualInterface that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DxPublicVirtualInterface to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DxPublicVirtualInterface.DxPublicVirtualInterface), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -72,6 +72,12 @@ namespace aws.DxPublicVirtualInterface
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRateLimit")]
+        public virtual void ResetRateLimit()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -200,6 +206,13 @@ namespace aws.DxPublicVirtualInterface
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "rateLimitInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RateLimitInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "regionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RegionInput
         {
@@ -295,6 +308,13 @@ namespace aws.DxPublicVirtualInterface
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RateLimit
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -9,7 +9,7 @@ namespace azurerm.MssqlJobTargetGroup
     [JsiiByValue(fqn: "azurerm.mssqlJobTargetGroup.MssqlJobTargetGroupJobTarget")]
     public class MssqlJobTargetGroupJobTarget : azurerm.MssqlJobTargetGroup.IMssqlJobTargetGroupJobTarget
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group#server_name MssqlJobTargetGroup#server_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group#server_name MssqlJobTargetGroup#server_name}.</summary>
         [JsiiProperty(name: "serverName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerName
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlJobTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group#database_name MssqlJobTargetGroup#database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group#database_name MssqlJobTargetGroup#database_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "databaseName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DatabaseName
@@ -26,7 +26,7 @@ namespace azurerm.MssqlJobTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group#elastic_pool_name MssqlJobTargetGroup#elastic_pool_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group#elastic_pool_name MssqlJobTargetGroup#elastic_pool_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "elasticPoolName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ElasticPoolName
@@ -35,7 +35,7 @@ namespace azurerm.MssqlJobTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group#job_credential_id MssqlJobTargetGroup#job_credential_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group#job_credential_id MssqlJobTargetGroup#job_credential_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jobCredentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? JobCredentialId
@@ -44,7 +44,7 @@ namespace azurerm.MssqlJobTargetGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_job_target_group#membership_type MssqlJobTargetGroup#membership_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_job_target_group#membership_type MssqlJobTargetGroup#membership_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "membershipType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MembershipType

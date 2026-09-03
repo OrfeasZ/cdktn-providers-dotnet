@@ -9,7 +9,7 @@ namespace aws.EcrReplicationConfiguration
     {
         /// <summary>destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecr_replication_configuration#destination EcrReplicationConfiguration#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ecr_replication_configuration#destination EcrReplicationConfiguration#destination}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleDestination" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleDestination\"},\"kind\":\"array\"}}]}}")]
@@ -20,7 +20,7 @@ namespace aws.EcrReplicationConfiguration
 
         /// <summary>repository_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecr_replication_configuration#repository_filter EcrReplicationConfiguration#repository_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ecr_replication_configuration#repository_filter EcrReplicationConfiguration#repository_filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "repositoryFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace aws.EcrReplicationConfiguration
 
             /// <summary>destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecr_replication_configuration#destination EcrReplicationConfiguration#destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ecr_replication_configuration#destination EcrReplicationConfiguration#destination}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleDestination" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "destination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ecrReplicationConfiguration.EcrReplicationConfigurationReplicationConfigurationRuleDestination\"},\"kind\":\"array\"}}]}}")]
@@ -53,7 +53,7 @@ namespace aws.EcrReplicationConfiguration
 
             /// <summary>repository_filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecr_replication_configuration#repository_filter EcrReplicationConfiguration#repository_filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ecr_replication_configuration#repository_filter EcrReplicationConfiguration#repository_filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EcrReplicationConfiguration.IEcrReplicationConfigurationReplicationConfigurationRuleRepositoryFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]

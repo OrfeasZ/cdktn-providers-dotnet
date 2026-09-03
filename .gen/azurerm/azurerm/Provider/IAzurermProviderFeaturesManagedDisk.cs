@@ -7,7 +7,7 @@ namespace azurerm.Provider
     [JsiiInterface(nativeType: typeof(IAzurermProviderFeaturesManagedDisk), fullyQualifiedName: "azurerm.provider.AzurermProviderFeaturesManagedDisk")]
     public interface IAzurermProviderFeaturesManagedDisk
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs#expand_without_downtime AzurermProvider#expand_without_downtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs#expand_without_downtime AzurermProvider#expand_without_downtime}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace azurerm.Provider
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs#expand_without_downtime AzurermProvider#expand_without_downtime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs#expand_without_downtime AzurermProvider#expand_without_downtime}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

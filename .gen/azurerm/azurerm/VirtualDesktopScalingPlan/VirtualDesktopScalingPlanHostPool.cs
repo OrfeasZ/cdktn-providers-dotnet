@@ -9,7 +9,7 @@ namespace azurerm.VirtualDesktopScalingPlan
     [JsiiByValue(fqn: "azurerm.virtualDesktopScalingPlan.VirtualDesktopScalingPlanHostPool")]
     public class VirtualDesktopScalingPlanHostPool : azurerm.VirtualDesktopScalingPlan.IVirtualDesktopScalingPlanHostPool
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_desktop_scaling_plan#hostpool_id VirtualDesktopScalingPlan#hostpool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_desktop_scaling_plan#hostpool_id VirtualDesktopScalingPlan#hostpool_id}.</summary>
         [JsiiProperty(name: "hostpoolId", typeJson: "{\"primitive\":\"string\"}")]
         public string HostpoolId
         {
@@ -19,7 +19,7 @@ namespace azurerm.VirtualDesktopScalingPlan
 
         private object _scalingPlanEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_desktop_scaling_plan#scaling_plan_enabled VirtualDesktopScalingPlan#scaling_plan_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_desktop_scaling_plan#scaling_plan_enabled VirtualDesktopScalingPlan#scaling_plan_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

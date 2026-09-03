@@ -9,7 +9,7 @@ namespace azurerm.DynatraceTagRules
     [JsiiByValue(fqn: "azurerm.dynatraceTagRules.DynatraceTagRulesConfig")]
     public class DynatraceTagRulesConfig : azurerm.DynatraceTagRules.IDynatraceTagRulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_tag_rules#monitor_id DynatraceTagRules#monitor_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_tag_rules#monitor_id DynatraceTagRules#monitor_id}.</summary>
         [JsiiProperty(name: "monitorId", typeJson: "{\"primitive\":\"string\"}")]
         public string MonitorId
         {
@@ -17,7 +17,7 @@ namespace azurerm.DynatraceTagRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_tag_rules#name DynatraceTagRules#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_tag_rules#name DynatraceTagRules#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.DynatraceTagRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_tag_rules#id DynatraceTagRules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_tag_rules#id DynatraceTagRules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DynatraceTagRules
 
         /// <summary>log_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_tag_rules#log_rule DynatraceTagRules#log_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_tag_rules#log_rule DynatraceTagRules#log_rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logRule", typeJson: "{\"fqn\":\"azurerm.dynatraceTagRules.DynatraceTagRulesLogRule\"}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace azurerm.DynatraceTagRules
 
         /// <summary>metric_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_tag_rules#metric_rule DynatraceTagRules#metric_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_tag_rules#metric_rule DynatraceTagRules#metric_rule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricRule", typeJson: "{\"fqn\":\"azurerm.dynatraceTagRules.DynatraceTagRulesMetricRule\"}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace azurerm.DynatraceTagRules
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dynatrace_tag_rules#timeouts DynatraceTagRules#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dynatrace_tag_rules#timeouts DynatraceTagRules#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dynatraceTagRules.DynatraceTagRulesTimeouts\"}", isOptional: true)]

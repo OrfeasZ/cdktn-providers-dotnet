@@ -7,14 +7,14 @@ namespace azurerm.PrivateDnsMxRecord
     [JsiiInterface(nativeType: typeof(IPrivateDnsMxRecordRecord), fullyQualifiedName: "azurerm.privateDnsMxRecord.PrivateDnsMxRecordRecord")]
     public interface IPrivateDnsMxRecordRecord
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_mx_record#exchange PrivateDnsMxRecord#exchange}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/private_dns_mx_record#exchange PrivateDnsMxRecord#exchange}.</summary>
         [JsiiProperty(name: "exchange", typeJson: "{\"primitive\":\"string\"}")]
         string Exchange
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_mx_record#preference PrivateDnsMxRecord#preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/private_dns_mx_record#preference PrivateDnsMxRecord#preference}.</summary>
         [JsiiProperty(name: "preference", typeJson: "{\"primitive\":\"number\"}")]
         double Preference
         {
@@ -28,14 +28,14 @@ namespace azurerm.PrivateDnsMxRecord
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_mx_record#exchange PrivateDnsMxRecord#exchange}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/private_dns_mx_record#exchange PrivateDnsMxRecord#exchange}.</summary>
             [JsiiProperty(name: "exchange", typeJson: "{\"primitive\":\"string\"}")]
             public string Exchange
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/private_dns_mx_record#preference PrivateDnsMxRecord#preference}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/private_dns_mx_record#preference PrivateDnsMxRecord#preference}.</summary>
             [JsiiProperty(name: "preference", typeJson: "{\"primitive\":\"number\"}")]
             public double Preference
             {

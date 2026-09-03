@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNginxDeployment
     [JsiiInterface(nativeType: typeof(IDataAzurermNginxDeploymentTimeouts), fullyQualifiedName: "azurerm.dataAzurermNginxDeployment.DataAzurermNginxDeploymentTimeouts")]
     public interface IDataAzurermNginxDeploymentTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/nginx_deployment#read DataAzurermNginxDeployment#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/nginx_deployment#read DataAzurermNginxDeployment#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermNginxDeployment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/nginx_deployment#read DataAzurermNginxDeployment#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/nginx_deployment#read DataAzurermNginxDeployment#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

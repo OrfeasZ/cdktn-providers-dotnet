@@ -7,7 +7,7 @@ namespace aws.GuarddutyDetector
     [JsiiInterface(nativeType: typeof(IGuarddutyDetectorDatasourcesKubernetesAuditLogs), fullyQualifiedName: "aws.guarddutyDetector.GuarddutyDetectorDatasourcesKubernetesAuditLogs")]
     public interface IGuarddutyDetectorDatasourcesKubernetesAuditLogs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -24,7 +24,7 @@ namespace aws.GuarddutyDetector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/guardduty_detector#enable GuarddutyDetector#enable}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

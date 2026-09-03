@@ -9,7 +9,7 @@ namespace azurerm.MonitorActionGroup
     [JsiiByValue(fqn: "azurerm.monitorActionGroup.MonitorActionGroupAzureFunctionReceiver")]
     public class MonitorActionGroupAzureFunctionReceiver : azurerm.MonitorActionGroup.IMonitorActionGroupAzureFunctionReceiver
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#function_app_resource_id MonitorActionGroup#function_app_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#function_app_resource_id MonitorActionGroup#function_app_resource_id}.</summary>
         [JsiiProperty(name: "functionAppResourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionAppResourceId
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#function_name MonitorActionGroup#function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#function_name MonitorActionGroup#function_name}.</summary>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionName
         {
@@ -25,7 +25,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#http_trigger_url MonitorActionGroup#http_trigger_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#http_trigger_url MonitorActionGroup#http_trigger_url}.</summary>
         [JsiiProperty(name: "httpTriggerUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string HttpTriggerUrl
         {
@@ -33,7 +33,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -43,7 +43,7 @@ namespace azurerm.MonitorActionGroup
 
         private object? _useCommonAlertSchema;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#use_common_alert_schema MonitorActionGroup#use_common_alert_schema}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -7,14 +7,14 @@ namespace azurerm.SynapseSqlPool
     [JsiiInterface(nativeType: typeof(ISynapseSqlPoolRestore), fullyQualifiedName: "azurerm.synapseSqlPool.SynapseSqlPoolRestore")]
     public interface ISynapseSqlPoolRestore
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_sql_pool#point_in_time SynapseSqlPool#point_in_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_sql_pool#point_in_time SynapseSqlPool#point_in_time}.</summary>
         [JsiiProperty(name: "pointInTime", typeJson: "{\"primitive\":\"string\"}")]
         string PointInTime
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_sql_pool#source_database_id SynapseSqlPool#source_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_sql_pool#source_database_id SynapseSqlPool#source_database_id}.</summary>
         [JsiiProperty(name: "sourceDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string SourceDatabaseId
         {
@@ -28,14 +28,14 @@ namespace azurerm.SynapseSqlPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_sql_pool#point_in_time SynapseSqlPool#point_in_time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_sql_pool#point_in_time SynapseSqlPool#point_in_time}.</summary>
             [JsiiProperty(name: "pointInTime", typeJson: "{\"primitive\":\"string\"}")]
             public string PointInTime
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/synapse_sql_pool#source_database_id SynapseSqlPool#source_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/synapse_sql_pool#source_database_id SynapseSqlPool#source_database_id}.</summary>
             [JsiiProperty(name: "sourceDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceDatabaseId
             {

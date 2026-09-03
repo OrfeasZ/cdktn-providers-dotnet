@@ -9,7 +9,7 @@ namespace aws.EvidentlyLaunch
     {
         /// <summary>steps block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/evidently_launch#steps EvidentlyLaunch#steps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/evidently_launch#steps EvidentlyLaunch#steps}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigSteps" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "steps", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace aws.EvidentlyLaunch
 
             /// <summary>steps block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/evidently_launch#steps EvidentlyLaunch#steps}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/evidently_launch#steps EvidentlyLaunch#steps}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.EvidentlyLaunch.IEvidentlyLaunchScheduledSplitsConfigSteps" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "steps", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.evidentlyLaunch.EvidentlyLaunchScheduledSplitsConfigSteps\"},\"kind\":\"array\"}}]}}")]

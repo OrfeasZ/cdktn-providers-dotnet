@@ -9,7 +9,7 @@ namespace azurerm.LinuxFunctionAppSlot
     {
         /// <summary>The action to take. Possible values are `Allow` or `Deny`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#action LinuxFunctionAppSlot#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#action LinuxFunctionAppSlot#action}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The description of the IP restriction rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#description LinuxFunctionAppSlot#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#description LinuxFunctionAppSlot#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         private object? _headers;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#headers LinuxFunctionAppSlot#headers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#headers LinuxFunctionAppSlot#headers}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LinuxFunctionAppSlot.ILinuxFunctionAppSlotSiteConfigIpRestrictionHeaders" />)[]</para>
         /// </remarks>
@@ -69,7 +69,7 @@ namespace azurerm.LinuxFunctionAppSlot
         /// <remarks>
         /// For example: <c>10.0.0.0/24</c> or <c>192.168.10.1/32</c> or <c>fe80::/64</c> or <c>13.107.6.152/31,13.107.128.0/22</c>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#ip_address LinuxFunctionAppSlot#ip_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#ip_address LinuxFunctionAppSlot#ip_address}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The name which should be used for this `ip_restriction`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#name LinuxFunctionAppSlot#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#name LinuxFunctionAppSlot#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -93,7 +93,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The priority value of this `ip_restriction`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#priority LinuxFunctionAppSlot#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#priority LinuxFunctionAppSlot#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The Service Tag used for this IP Restriction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#service_tag LinuxFunctionAppSlot#service_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#service_tag LinuxFunctionAppSlot#service_tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceTag", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
         /// <summary>The Virtual Network Subnet ID used for this IP Restriction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app_slot#virtual_network_subnet_id LinuxFunctionAppSlot#virtual_network_subnet_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app_slot#virtual_network_subnet_id LinuxFunctionAppSlot#virtual_network_subnet_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtualNetworkSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

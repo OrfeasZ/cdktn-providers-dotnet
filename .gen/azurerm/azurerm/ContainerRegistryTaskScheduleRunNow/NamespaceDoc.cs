@@ -5,7 +5,7 @@ namespace azurerm.ContainerRegistryTaskScheduleRunNow
     /// <remarks>
     /// <h1><c>azurerm_container_registry_task_schedule_run_now</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry_task_schedule_run_now"><c>azurerm_container_registry_task_schedule_run_now</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry_task_schedule_run_now"><c>azurerm_container_registry_task_schedule_run_now</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

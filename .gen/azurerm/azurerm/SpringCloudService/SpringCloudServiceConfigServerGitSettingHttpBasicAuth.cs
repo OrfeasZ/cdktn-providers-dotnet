@@ -9,7 +9,7 @@ namespace azurerm.SpringCloudService
     [JsiiByValue(fqn: "azurerm.springCloudService.SpringCloudServiceConfigServerGitSettingHttpBasicAuth")]
     public class SpringCloudServiceConfigServerGitSettingHttpBasicAuth : azurerm.SpringCloudService.ISpringCloudServiceConfigServerGitSettingHttpBasicAuth
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_service#password SpringCloudService#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/spring_cloud_service#password SpringCloudService#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         public string Password
         {
@@ -17,7 +17,7 @@ namespace azurerm.SpringCloudService
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/spring_cloud_service#username SpringCloudService#username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/spring_cloud_service#username SpringCloudService#username}.</summary>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         public string Username
         {

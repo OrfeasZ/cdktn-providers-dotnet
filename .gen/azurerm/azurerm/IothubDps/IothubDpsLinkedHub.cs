@@ -9,7 +9,7 @@ namespace azurerm.IothubDps
     [JsiiByValue(fqn: "azurerm.iothubDps.IothubDpsLinkedHub")]
     public class IothubDpsLinkedHub : azurerm.IothubDps.IIothubDpsLinkedHub
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_dps#connection_string IothubDps#connection_string}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iothub_dps#connection_string IothubDps#connection_string}.</summary>
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionString
         {
@@ -17,7 +17,7 @@ namespace azurerm.IothubDps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_dps#location IothubDps#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iothub_dps#location IothubDps#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -25,7 +25,7 @@ namespace azurerm.IothubDps
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_dps#allocation_weight IothubDps#allocation_weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iothub_dps#allocation_weight IothubDps#allocation_weight}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "allocationWeight", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AllocationWeight
@@ -36,7 +36,7 @@ namespace azurerm.IothubDps
 
         private object? _applyAllocationPolicy;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/iothub_dps#apply_allocation_policy IothubDps#apply_allocation_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/iothub_dps#apply_allocation_policy IothubDps#apply_allocation_policy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

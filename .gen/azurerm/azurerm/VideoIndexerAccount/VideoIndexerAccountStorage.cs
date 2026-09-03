@@ -9,7 +9,7 @@ namespace azurerm.VideoIndexerAccount
     [JsiiByValue(fqn: "azurerm.videoIndexerAccount.VideoIndexerAccountStorage")]
     public class VideoIndexerAccountStorage : azurerm.VideoIndexerAccount.IVideoIndexerAccountStorage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#storage_account_id VideoIndexerAccount#storage_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#storage_account_id VideoIndexerAccount#storage_account_id}.</summary>
         [JsiiProperty(name: "storageAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string StorageAccountId
         {
@@ -17,7 +17,7 @@ namespace azurerm.VideoIndexerAccount
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/video_indexer_account#user_assigned_identity_id VideoIndexerAccount#user_assigned_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/video_indexer_account#user_assigned_identity_id VideoIndexerAccount#user_assigned_identity_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "userAssignedIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UserAssignedIdentityId

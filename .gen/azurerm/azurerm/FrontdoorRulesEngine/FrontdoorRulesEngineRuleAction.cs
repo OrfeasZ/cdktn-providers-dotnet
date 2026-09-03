@@ -11,7 +11,7 @@ namespace azurerm.FrontdoorRulesEngine
 
         /// <summary>request_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#request_header FrontdoorRulesEngine#request_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor_rules_engine#request_header FrontdoorRulesEngine#request_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FrontdoorRulesEngine.IFrontdoorRulesEngineRuleActionRequestHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace azurerm.FrontdoorRulesEngine
 
         /// <summary>response_header block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/frontdoor_rules_engine#response_header FrontdoorRulesEngine#response_header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/frontdoor_rules_engine#response_header FrontdoorRulesEngine#response_header}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.FrontdoorRulesEngine.IFrontdoorRulesEngineRuleActionResponseHeader" />)[]</para>
         /// </remarks>
         [JsiiOptional]

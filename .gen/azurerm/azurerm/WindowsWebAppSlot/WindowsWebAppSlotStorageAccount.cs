@@ -9,7 +9,7 @@ namespace azurerm.WindowsWebAppSlot
     [JsiiByValue(fqn: "azurerm.windowsWebAppSlot.WindowsWebAppSlotStorageAccount")]
     public class WindowsWebAppSlotStorageAccount : azurerm.WindowsWebAppSlot.IWindowsWebAppSlotStorageAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#access_key WindowsWebAppSlot#access_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app_slot#access_key WindowsWebAppSlot#access_key}.</summary>
         [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessKey
         {
@@ -17,7 +17,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#account_name WindowsWebAppSlot#account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app_slot#account_name WindowsWebAppSlot#account_name}.</summary>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountName
         {
@@ -25,7 +25,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#name WindowsWebAppSlot#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app_slot#name WindowsWebAppSlot#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#share_name WindowsWebAppSlot#share_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app_slot#share_name WindowsWebAppSlot#share_name}.</summary>
         [JsiiProperty(name: "shareName", typeJson: "{\"primitive\":\"string\"}")]
         public string ShareName
         {
@@ -41,7 +41,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#type WindowsWebAppSlot#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app_slot#type WindowsWebAppSlot#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -49,7 +49,7 @@ namespace azurerm.WindowsWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_web_app_slot#mount_path WindowsWebAppSlot#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_web_app_slot#mount_path WindowsWebAppSlot#mount_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MountPath

@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultKey
     {
         /// <summary>automatic block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_key#automatic KeyVaultKey#automatic}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_key#automatic KeyVaultKey#automatic}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automatic", typeJson: "{\"fqn\":\"azurerm.keyVaultKey.KeyVaultKeyRotationPolicyAutomatic\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace azurerm.KeyVaultKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_key#expire_after KeyVaultKey#expire_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_key#expire_after KeyVaultKey#expire_after}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expireAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpireAfter
@@ -28,7 +28,7 @@ namespace azurerm.KeyVaultKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_key#notify_before_expiry KeyVaultKey#notify_before_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_key#notify_before_expiry KeyVaultKey#notify_before_expiry}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "notifyBeforeExpiry", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotifyBeforeExpiry

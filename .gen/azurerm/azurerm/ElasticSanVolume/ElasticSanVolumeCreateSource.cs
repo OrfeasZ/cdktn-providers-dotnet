@@ -9,7 +9,7 @@ namespace azurerm.ElasticSanVolume
     [JsiiByValue(fqn: "azurerm.elasticSanVolume.ElasticSanVolumeCreateSource")]
     public class ElasticSanVolumeCreateSource : azurerm.ElasticSanVolume.IElasticSanVolumeCreateSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san_volume#source_id ElasticSanVolume#source_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/elastic_san_volume#source_id ElasticSanVolume#source_id}.</summary>
         [JsiiProperty(name: "sourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ElasticSanVolume
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/elastic_san_volume#source_type ElasticSanVolume#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/elastic_san_volume#source_type ElasticSanVolume#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceType
         {

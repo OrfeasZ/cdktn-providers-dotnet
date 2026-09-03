@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermAutomationVariableBool
     [JsiiInterface(nativeType: typeof(IDataAzurermAutomationVariableBoolTimeouts), fullyQualifiedName: "azurerm.dataAzurermAutomationVariableBool.DataAzurermAutomationVariableBoolTimeouts")]
     public interface IDataAzurermAutomationVariableBoolTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_variable_bool#read DataAzurermAutomationVariableBool#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_variable_bool#read DataAzurermAutomationVariableBool#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermAutomationVariableBool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/automation_variable_bool#read DataAzurermAutomationVariableBool#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/automation_variable_bool#read DataAzurermAutomationVariableBool#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

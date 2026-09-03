@@ -9,7 +9,7 @@ namespace azurerm.ServiceFabricManagedCluster
     [JsiiByValue(fqn: "azurerm.serviceFabricManagedCluster.ServiceFabricManagedClusterAuthenticationCertificate")]
     public class ServiceFabricManagedClusterAuthenticationCertificate : azurerm.ServiceFabricManagedCluster.IServiceFabricManagedClusterAuthenticationCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/service_fabric_managed_cluster#thumbprint ServiceFabricManagedCluster#thumbprint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/service_fabric_managed_cluster#thumbprint ServiceFabricManagedCluster#thumbprint}.</summary>
         [JsiiProperty(name: "thumbprint", typeJson: "{\"primitive\":\"string\"}")]
         public string Thumbprint
         {
@@ -17,7 +17,7 @@ namespace azurerm.ServiceFabricManagedCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/service_fabric_managed_cluster#type ServiceFabricManagedCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/service_fabric_managed_cluster#type ServiceFabricManagedCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -25,7 +25,7 @@ namespace azurerm.ServiceFabricManagedCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/service_fabric_managed_cluster#common_name ServiceFabricManagedCluster#common_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/service_fabric_managed_cluster#common_name ServiceFabricManagedCluster#common_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "commonName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CommonName

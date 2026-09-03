@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermManagedDisk
     [JsiiByValue(fqn: "azurerm.dataAzurermManagedDisk.DataAzurermManagedDiskTimeouts")]
     public class DataAzurermManagedDiskTimeouts : azurerm.DataAzurermManagedDisk.IDataAzurermManagedDiskTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/managed_disk#read DataAzurermManagedDisk#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/managed_disk#read DataAzurermManagedDisk#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

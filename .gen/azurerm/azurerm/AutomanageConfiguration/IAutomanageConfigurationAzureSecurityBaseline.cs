@@ -7,7 +7,7 @@ namespace azurerm.AutomanageConfiguration
     [JsiiInterface(nativeType: typeof(IAutomanageConfigurationAzureSecurityBaseline), fullyQualifiedName: "azurerm.automanageConfiguration.AutomanageConfigurationAzureSecurityBaseline")]
     public interface IAutomanageConfigurationAzureSecurityBaseline
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automanage_configuration#assignment_type AutomanageConfiguration#assignment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automanage_configuration#assignment_type AutomanageConfiguration#assignment_type}.</summary>
         [JsiiProperty(name: "assignmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssignmentType
@@ -25,7 +25,7 @@ namespace azurerm.AutomanageConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automanage_configuration#assignment_type AutomanageConfiguration#assignment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automanage_configuration#assignment_type AutomanageConfiguration#assignment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "assignmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssignmentType

@@ -7,7 +7,7 @@ namespace azurerm.PostgresqlFlexibleServerBackup
     [JsiiByValue(fqn: "azurerm.postgresqlFlexibleServerBackup.PostgresqlFlexibleServerBackupTimeouts")]
     public class PostgresqlFlexibleServerBackupTimeouts : azurerm.PostgresqlFlexibleServerBackup.IPostgresqlFlexibleServerBackupTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server_backup#create PostgresqlFlexibleServerBackup#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server_backup#create PostgresqlFlexibleServerBackup#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azurerm.PostgresqlFlexibleServerBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server_backup#delete PostgresqlFlexibleServerBackup#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server_backup#delete PostgresqlFlexibleServerBackup#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azurerm.PostgresqlFlexibleServerBackup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server_backup#read PostgresqlFlexibleServerBackup#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server_backup#read PostgresqlFlexibleServerBackup#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

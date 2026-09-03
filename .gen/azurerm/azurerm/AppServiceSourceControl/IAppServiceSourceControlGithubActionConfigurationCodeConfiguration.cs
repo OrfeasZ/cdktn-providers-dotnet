@@ -9,7 +9,7 @@ namespace azurerm.AppServiceSourceControl
     {
         /// <summary>The value to use for the Runtime Stack in the workflow file content for code base apps.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/app_service_source_control#runtime_stack AppServiceSourceControl#runtime_stack}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/app_service_source_control#runtime_stack AppServiceSourceControl#runtime_stack}
         /// </remarks>
         [JsiiProperty(name: "runtimeStack", typeJson: "{\"primitive\":\"string\"}")]
         string RuntimeStack
@@ -19,7 +19,7 @@ namespace azurerm.AppServiceSourceControl
 
         /// <summary>The value to use for the Runtime Version in the workflow file content for code base apps.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/app_service_source_control#runtime_version AppServiceSourceControl#runtime_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/app_service_source_control#runtime_version AppServiceSourceControl#runtime_version}
         /// </remarks>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
         string RuntimeVersion
@@ -36,7 +36,7 @@ namespace azurerm.AppServiceSourceControl
 
             /// <summary>The value to use for the Runtime Stack in the workflow file content for code base apps.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/app_service_source_control#runtime_stack AppServiceSourceControl#runtime_stack}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/app_service_source_control#runtime_stack AppServiceSourceControl#runtime_stack}
             /// </remarks>
             [JsiiProperty(name: "runtimeStack", typeJson: "{\"primitive\":\"string\"}")]
             public string RuntimeStack
@@ -46,7 +46,7 @@ namespace azurerm.AppServiceSourceControl
 
             /// <summary>The value to use for the Runtime Version in the workflow file content for code base apps.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/app_service_source_control#runtime_version AppServiceSourceControl#runtime_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/app_service_source_control#runtime_version AppServiceSourceControl#runtime_version}
             /// </remarks>
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string RuntimeVersion

@@ -7,14 +7,14 @@ namespace azurerm.ManagedDevopsPool
     [JsiiInterface(nativeType: typeof(IManagedDevopsPoolStatefulAgentManualResourcePredictionSaturdaySchedule), fullyQualifiedName: "azurerm.managedDevopsPool.ManagedDevopsPoolStatefulAgentManualResourcePredictionSaturdaySchedule")]
     public interface IManagedDevopsPoolStatefulAgentManualResourcePredictionSaturdaySchedule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#count ManagedDevopsPool#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#count ManagedDevopsPool#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
         double Count
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#time ManagedDevopsPool#time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#time ManagedDevopsPool#time}.</summary>
         [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
         string Time
         {
@@ -28,14 +28,14 @@ namespace azurerm.ManagedDevopsPool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#count ManagedDevopsPool#count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#count ManagedDevopsPool#count}.</summary>
             [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
             public double Count
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_devops_pool#time ManagedDevopsPool#time}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_devops_pool#time ManagedDevopsPool#time}.</summary>
             [JsiiProperty(name: "time", typeJson: "{\"primitive\":\"string\"}")]
             public string Time
             {

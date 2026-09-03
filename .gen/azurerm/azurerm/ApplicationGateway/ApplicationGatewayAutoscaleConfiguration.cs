@@ -9,7 +9,7 @@ namespace azurerm.ApplicationGateway
     [JsiiByValue(fqn: "azurerm.applicationGateway.ApplicationGatewayAutoscaleConfiguration")]
     public class ApplicationGatewayAutoscaleConfiguration : azurerm.ApplicationGateway.IApplicationGatewayAutoscaleConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_gateway#min_capacity ApplicationGateway#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/application_gateway#min_capacity ApplicationGateway#min_capacity}.</summary>
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}")]
         public double MinCapacity
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_gateway#max_capacity ApplicationGateway#max_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/application_gateway#max_capacity ApplicationGateway#max_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxCapacity

@@ -9,7 +9,7 @@ namespace azurerm.MonitorActionGroup
     [JsiiByValue(fqn: "azurerm.monitorActionGroup.MonitorActionGroupAzureAppPushReceiver")]
     public class MonitorActionGroupAzureAppPushReceiver : azurerm.MonitorActionGroup.IMonitorActionGroupAzureAppPushReceiver
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#email_address MonitorActionGroup#email_address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#email_address MonitorActionGroup#email_address}.</summary>
         [JsiiProperty(name: "emailAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string EmailAddress
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorActionGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_action_group#name MonitorActionGroup#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

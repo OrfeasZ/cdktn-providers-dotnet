@@ -9,7 +9,7 @@ namespace azurerm.HdinsightKafkaCluster
     [JsiiByValue(fqn: "azurerm.hdinsightKafkaCluster.HdinsightKafkaClusterRestProxy")]
     public class HdinsightKafkaClusterRestProxy : azurerm.HdinsightKafkaCluster.IHdinsightKafkaClusterRestProxy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#security_group_id HdinsightKafkaCluster#security_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_kafka_cluster#security_group_id HdinsightKafkaCluster#security_group_id}.</summary>
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityGroupId
         {
@@ -17,7 +17,7 @@ namespace azurerm.HdinsightKafkaCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_kafka_cluster#security_group_name HdinsightKafkaCluster#security_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_kafka_cluster#security_group_name HdinsightKafkaCluster#security_group_name}.</summary>
         [JsiiProperty(name: "securityGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string SecurityGroupName
         {

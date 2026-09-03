@@ -7,14 +7,14 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
     [JsiiInterface(nativeType: typeof(IPaloAltoLocalRulestackOutboundTrustCertificateAssociationConfig), fullyQualifiedName: "azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociationConfig")]
     public interface IPaloAltoLocalRulestackOutboundTrustCertificateAssociationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#certificate_id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#certificate_id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +31,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#timeouts PaloAltoLocalRulestackOutboundTrustCertificateAssociation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#timeouts PaloAltoLocalRulestackOutboundTrustCertificateAssociation#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,14 +50,14 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#certificate_id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#certificate_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#certificate_id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#certificate_id}.</summary>
             [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#id PaloAltoLocalRulestackOutboundTrustCertificateAssociation#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace azurerm.PaloAltoLocalRulestackOutboundTrustCertificateAssociation
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#timeouts PaloAltoLocalRulestackOutboundTrustCertificateAssociation#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association#timeouts PaloAltoLocalRulestackOutboundTrustCertificateAssociation#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.paloAltoLocalRulestackOutboundTrustCertificateAssociation.PaloAltoLocalRulestackOutboundTrustCertificateAssociationTimeouts\"}", isOptional: true)]

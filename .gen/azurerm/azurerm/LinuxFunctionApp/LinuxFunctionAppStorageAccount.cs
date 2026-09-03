@@ -9,7 +9,7 @@ namespace azurerm.LinuxFunctionApp
     [JsiiByValue(fqn: "azurerm.linuxFunctionApp.LinuxFunctionAppStorageAccount")]
     public class LinuxFunctionAppStorageAccount : azurerm.LinuxFunctionApp.ILinuxFunctionAppStorageAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app#access_key LinuxFunctionApp#access_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app#access_key LinuxFunctionApp#access_key}.</summary>
         [JsiiProperty(name: "accessKey", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessKey
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxFunctionApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app#account_name LinuxFunctionApp#account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app#account_name LinuxFunctionApp#account_name}.</summary>
         [JsiiProperty(name: "accountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountName
         {
@@ -25,7 +25,7 @@ namespace azurerm.LinuxFunctionApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app#name LinuxFunctionApp#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app#name LinuxFunctionApp#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace azurerm.LinuxFunctionApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app#share_name LinuxFunctionApp#share_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app#share_name LinuxFunctionApp#share_name}.</summary>
         [JsiiProperty(name: "shareName", typeJson: "{\"primitive\":\"string\"}")]
         public string ShareName
         {
@@ -41,7 +41,7 @@ namespace azurerm.LinuxFunctionApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app#type LinuxFunctionApp#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app#type LinuxFunctionApp#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -49,7 +49,7 @@ namespace azurerm.LinuxFunctionApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_function_app#mount_path LinuxFunctionApp#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_function_app#mount_path LinuxFunctionApp#mount_path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MountPath

@@ -9,7 +9,7 @@ namespace azurerm.VirtualNetworkGateway
     [JsiiByValue(fqn: "azurerm.virtualNetworkGateway.VirtualNetworkGatewayVpnClientConfigurationRadiusServer")]
     public class VirtualNetworkGatewayVpnClientConfigurationRadiusServer : azurerm.VirtualNetworkGateway.IVirtualNetworkGatewayVpnClientConfigurationRadiusServer
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway#address VirtualNetworkGateway#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network_gateway#address VirtualNetworkGateway#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway#score VirtualNetworkGateway#score}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network_gateway#score VirtualNetworkGateway#score}.</summary>
         [JsiiProperty(name: "score", typeJson: "{\"primitive\":\"number\"}")]
         public double Score
         {
@@ -25,7 +25,7 @@ namespace azurerm.VirtualNetworkGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_network_gateway#secret VirtualNetworkGateway#secret}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_network_gateway#secret VirtualNetworkGateway#secret}.</summary>
         [JsiiProperty(name: "secret", typeJson: "{\"primitive\":\"string\"}")]
         public string Secret
         {

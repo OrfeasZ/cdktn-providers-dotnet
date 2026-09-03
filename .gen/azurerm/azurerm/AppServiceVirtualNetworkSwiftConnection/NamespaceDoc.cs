@@ -5,7 +5,7 @@ namespace azurerm.AppServiceVirtualNetworkSwiftConnection
     /// <remarks>
     /// <h1><c>azurerm_app_service_virtual_network_swift_connection</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/app_service_virtual_network_swift_connection"><c>azurerm_app_service_virtual_network_swift_connection</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/app_service_virtual_network_swift_connection"><c>azurerm_app_service_virtual_network_swift_connection</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

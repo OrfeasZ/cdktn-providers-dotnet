@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbCassandraCluster
     [JsiiByValue(fqn: "azurerm.cosmosdbCassandraCluster.CosmosdbCassandraClusterIdentity")]
     public class CosmosdbCassandraClusterIdentity : azurerm.CosmosdbCassandraCluster.ICosmosdbCassandraClusterIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_cassandra_cluster#type CosmosdbCassandraCluster#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cosmosdb_cassandra_cluster#type CosmosdbCassandraCluster#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

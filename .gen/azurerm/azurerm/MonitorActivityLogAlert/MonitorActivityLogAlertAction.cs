@@ -9,7 +9,7 @@ namespace azurerm.MonitorActivityLogAlert
     [JsiiByValue(fqn: "azurerm.monitorActivityLogAlert.MonitorActivityLogAlertAction")]
     public class MonitorActivityLogAlertAction : azurerm.MonitorActivityLogAlert.IMonitorActivityLogAlertAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#action_group_id MonitorActivityLogAlert#action_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_activity_log_alert#action_group_id MonitorActivityLogAlert#action_group_id}.</summary>
         [JsiiProperty(name: "actionGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionGroupId
         {
@@ -17,7 +17,7 @@ namespace azurerm.MonitorActivityLogAlert
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/monitor_activity_log_alert#webhook_properties MonitorActivityLogAlert#webhook_properties}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/monitor_activity_log_alert#webhook_properties MonitorActivityLogAlert#webhook_properties}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "webhookProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? WebhookProperties

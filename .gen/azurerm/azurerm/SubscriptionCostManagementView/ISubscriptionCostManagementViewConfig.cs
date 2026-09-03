@@ -7,7 +7,7 @@ namespace azurerm.SubscriptionCostManagementView
     [JsiiInterface(nativeType: typeof(ISubscriptionCostManagementViewConfig), fullyQualifiedName: "azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewConfig")]
     public interface ISubscriptionCostManagementViewConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#accumulated SubscriptionCostManagementView#accumulated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#accumulated SubscriptionCostManagementView#accumulated}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,7 +17,7 @@ namespace azurerm.SubscriptionCostManagementView
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#chart_type SubscriptionCostManagementView#chart_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#chart_type SubscriptionCostManagementView#chart_type}.</summary>
         [JsiiProperty(name: "chartType", typeJson: "{\"primitive\":\"string\"}")]
         string ChartType
         {
@@ -26,7 +26,7 @@ namespace azurerm.SubscriptionCostManagementView
 
         /// <summary>dataset block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#dataset SubscriptionCostManagementView#dataset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#dataset SubscriptionCostManagementView#dataset}
         /// </remarks>
         [JsiiProperty(name: "dataset", typeJson: "{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDataset\"}")]
         azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDataset Dataset
@@ -34,42 +34,42 @@ namespace azurerm.SubscriptionCostManagementView
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#display_name SubscriptionCostManagementView#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#display_name SubscriptionCostManagementView#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#report_type SubscriptionCostManagementView#report_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#report_type SubscriptionCostManagementView#report_type}.</summary>
         [JsiiProperty(name: "reportType", typeJson: "{\"primitive\":\"string\"}")]
         string ReportType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#subscription_id SubscriptionCostManagementView#subscription_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#subscription_id SubscriptionCostManagementView#subscription_id}.</summary>
         [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#timeframe SubscriptionCostManagementView#timeframe}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#timeframe SubscriptionCostManagementView#timeframe}.</summary>
         [JsiiProperty(name: "timeframe", typeJson: "{\"primitive\":\"string\"}")]
         string Timeframe
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#id SubscriptionCostManagementView#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#id SubscriptionCostManagementView#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -86,7 +86,7 @@ namespace azurerm.SubscriptionCostManagementView
 
         /// <summary>kpi block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#kpi SubscriptionCostManagementView#kpi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#kpi SubscriptionCostManagementView#kpi}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewKpi" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "kpi", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewKpi\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -101,7 +101,7 @@ namespace azurerm.SubscriptionCostManagementView
 
         /// <summary>pivot block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#pivot SubscriptionCostManagementView#pivot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#pivot SubscriptionCostManagementView#pivot}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewPivot" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "pivot", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewPivot\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace azurerm.SubscriptionCostManagementView
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#timeouts SubscriptionCostManagementView#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#timeouts SubscriptionCostManagementView#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace azurerm.SubscriptionCostManagementView
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#accumulated SubscriptionCostManagementView#accumulated}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#accumulated SubscriptionCostManagementView#accumulated}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -145,7 +145,7 @@ namespace azurerm.SubscriptionCostManagementView
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#chart_type SubscriptionCostManagementView#chart_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#chart_type SubscriptionCostManagementView#chart_type}.</summary>
             [JsiiProperty(name: "chartType", typeJson: "{\"primitive\":\"string\"}")]
             public string ChartType
             {
@@ -154,7 +154,7 @@ namespace azurerm.SubscriptionCostManagementView
 
             /// <summary>dataset block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#dataset SubscriptionCostManagementView#dataset}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#dataset SubscriptionCostManagementView#dataset}
             /// </remarks>
             [JsiiProperty(name: "dataset", typeJson: "{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewDataset\"}")]
             public azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDataset Dataset
@@ -162,42 +162,42 @@ namespace azurerm.SubscriptionCostManagementView
                 get => GetInstanceProperty<azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewDataset>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#display_name SubscriptionCostManagementView#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#display_name SubscriptionCostManagementView#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#name SubscriptionCostManagementView#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#report_type SubscriptionCostManagementView#report_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#report_type SubscriptionCostManagementView#report_type}.</summary>
             [JsiiProperty(name: "reportType", typeJson: "{\"primitive\":\"string\"}")]
             public string ReportType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#subscription_id SubscriptionCostManagementView#subscription_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#subscription_id SubscriptionCostManagementView#subscription_id}.</summary>
             [JsiiProperty(name: "subscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#timeframe SubscriptionCostManagementView#timeframe}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#timeframe SubscriptionCostManagementView#timeframe}.</summary>
             [JsiiProperty(name: "timeframe", typeJson: "{\"primitive\":\"string\"}")]
             public string Timeframe
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#id SubscriptionCostManagementView#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#id SubscriptionCostManagementView#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -211,7 +211,7 @@ namespace azurerm.SubscriptionCostManagementView
 
             /// <summary>kpi block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#kpi SubscriptionCostManagementView#kpi}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#kpi SubscriptionCostManagementView#kpi}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewKpi" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -223,7 +223,7 @@ namespace azurerm.SubscriptionCostManagementView
 
             /// <summary>pivot block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#pivot SubscriptionCostManagementView#pivot}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#pivot SubscriptionCostManagementView#pivot}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SubscriptionCostManagementView.ISubscriptionCostManagementViewPivot" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -235,7 +235,7 @@ namespace azurerm.SubscriptionCostManagementView
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subscription_cost_management_view#timeouts SubscriptionCostManagementView#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subscription_cost_management_view#timeouts SubscriptionCostManagementView#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.subscriptionCostManagementView.SubscriptionCostManagementViewTimeouts\"}", isOptional: true)]

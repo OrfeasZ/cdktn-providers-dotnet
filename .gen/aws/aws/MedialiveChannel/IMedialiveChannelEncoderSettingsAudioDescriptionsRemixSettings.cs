@@ -9,7 +9,7 @@ namespace aws.MedialiveChannel
     {
         /// <summary>channel_mappings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#channel_mappings MedialiveChannel#channel_mappings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/medialive_channel#channel_mappings MedialiveChannel#channel_mappings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappings" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "channelMappings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappings\"},\"kind\":\"array\"}}]}}")]
@@ -18,7 +18,7 @@ namespace aws.MedialiveChannel
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#channels_in MedialiveChannel#channels_in}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/medialive_channel#channels_in MedialiveChannel#channels_in}.</summary>
         [JsiiProperty(name: "channelsIn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ChannelsIn
@@ -29,7 +29,7 @@ namespace aws.MedialiveChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#channels_out MedialiveChannel#channels_out}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/medialive_channel#channels_out MedialiveChannel#channels_out}.</summary>
         [JsiiProperty(name: "channelsOut", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ChannelsOut
@@ -49,7 +49,7 @@ namespace aws.MedialiveChannel
 
             /// <summary>channel_mappings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#channel_mappings MedialiveChannel#channel_mappings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/medialive_channel#channel_mappings MedialiveChannel#channel_mappings}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MedialiveChannel.IMedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappings" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "channelMappings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsAudioDescriptionsRemixSettingsChannelMappings\"},\"kind\":\"array\"}}]}}")]
@@ -58,7 +58,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#channels_in MedialiveChannel#channels_in}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/medialive_channel#channels_in MedialiveChannel#channels_in}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "channelsIn", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ChannelsIn
@@ -66,7 +66,7 @@ namespace aws.MedialiveChannel
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#channels_out MedialiveChannel#channels_out}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/medialive_channel#channels_out MedialiveChannel#channels_out}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "channelsOut", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ChannelsOut

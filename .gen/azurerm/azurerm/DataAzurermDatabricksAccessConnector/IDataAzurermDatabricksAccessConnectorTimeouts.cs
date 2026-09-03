@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDatabricksAccessConnector
     [JsiiInterface(nativeType: typeof(IDataAzurermDatabricksAccessConnectorTimeouts), fullyQualifiedName: "azurerm.dataAzurermDatabricksAccessConnector.DataAzurermDatabricksAccessConnectorTimeouts")]
     public interface IDataAzurermDatabricksAccessConnectorTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/databricks_access_connector#read DataAzurermDatabricksAccessConnector#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/databricks_access_connector#read DataAzurermDatabricksAccessConnector#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermDatabricksAccessConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/databricks_access_connector#read DataAzurermDatabricksAccessConnector#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/databricks_access_connector#read DataAzurermDatabricksAccessConnector#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

@@ -7,14 +7,14 @@ namespace azurerm.StorageAccount
     [JsiiInterface(nativeType: typeof(IStorageAccountNetworkRulesPrivateLinkAccess), fullyQualifiedName: "azurerm.storageAccount.StorageAccountNetworkRulesPrivateLinkAccess")]
     public interface IStorageAccountNetworkRulesPrivateLinkAccess
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#endpoint_resource_id StorageAccount#endpoint_resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account#endpoint_resource_id StorageAccount#endpoint_resource_id}.</summary>
         [JsiiProperty(name: "endpointResourceId", typeJson: "{\"primitive\":\"string\"}")]
         string EndpointResourceId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#endpoint_tenant_id StorageAccount#endpoint_tenant_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account#endpoint_tenant_id StorageAccount#endpoint_tenant_id}.</summary>
         [JsiiProperty(name: "endpointTenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EndpointTenantId
@@ -32,14 +32,14 @@ namespace azurerm.StorageAccount
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#endpoint_resource_id StorageAccount#endpoint_resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account#endpoint_resource_id StorageAccount#endpoint_resource_id}.</summary>
             [JsiiProperty(name: "endpointResourceId", typeJson: "{\"primitive\":\"string\"}")]
             public string EndpointResourceId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_account#endpoint_tenant_id StorageAccount#endpoint_tenant_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_account#endpoint_tenant_id StorageAccount#endpoint_tenant_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "endpointTenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EndpointTenantId

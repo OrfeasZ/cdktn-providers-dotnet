@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterLinuxProfile")]
     public class KubernetesClusterLinuxProfile : azurerm.KubernetesCluster.IKubernetesClusterLinuxProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#admin_username KubernetesCluster#admin_username}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#admin_username KubernetesCluster#admin_username}.</summary>
         [JsiiProperty(name: "adminUsername", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminUsername
         {
@@ -19,7 +19,7 @@ namespace azurerm.KubernetesCluster
 
         /// <summary>ssh_key block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#ssh_key KubernetesCluster#ssh_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#ssh_key KubernetesCluster#ssh_key}
         /// </remarks>
         [JsiiProperty(name: "sshKey", typeJson: "{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterLinuxProfileSshKey\"}")]
         public azurerm.KubernetesCluster.IKubernetesClusterLinuxProfileSshKey SshKey

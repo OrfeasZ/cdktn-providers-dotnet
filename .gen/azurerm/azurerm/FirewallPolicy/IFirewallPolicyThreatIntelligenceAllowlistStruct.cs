@@ -7,7 +7,7 @@ namespace azurerm.FirewallPolicy
     [JsiiInterface(nativeType: typeof(IFirewallPolicyThreatIntelligenceAllowlistStruct), fullyQualifiedName: "azurerm.firewallPolicy.FirewallPolicyThreatIntelligenceAllowlistStruct")]
     public interface IFirewallPolicyThreatIntelligenceAllowlistStruct
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#fqdns FirewallPolicy#fqdns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/firewall_policy#fqdns FirewallPolicy#fqdns}.</summary>
         [JsiiProperty(name: "fqdns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Fqdns
@@ -18,7 +18,7 @@ namespace azurerm.FirewallPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#ip_addresses FirewallPolicy#ip_addresses}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/firewall_policy#ip_addresses FirewallPolicy#ip_addresses}.</summary>
         [JsiiProperty(name: "ipAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? IpAddresses
@@ -36,7 +36,7 @@ namespace azurerm.FirewallPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#fqdns FirewallPolicy#fqdns}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/firewall_policy#fqdns FirewallPolicy#fqdns}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fqdns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Fqdns
@@ -44,7 +44,7 @@ namespace azurerm.FirewallPolicy
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/firewall_policy#ip_addresses FirewallPolicy#ip_addresses}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/firewall_policy#ip_addresses FirewallPolicy#ip_addresses}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? IpAddresses

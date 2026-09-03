@@ -9,7 +9,7 @@ namespace azurerm.StorageManagementPolicy
     {
         /// <summary>base_blob block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_management_policy#base_blob StorageManagementPolicy#base_blob}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_management_policy#base_blob StorageManagementPolicy#base_blob}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "baseBlob", typeJson: "{\"fqn\":\"azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsBaseBlob\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.StorageManagementPolicy
 
         /// <summary>snapshot block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_management_policy#snapshot StorageManagementPolicy#snapshot}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_management_policy#snapshot StorageManagementPolicy#snapshot}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshot", typeJson: "{\"fqn\":\"azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsSnapshot\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace azurerm.StorageManagementPolicy
 
         /// <summary>version block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/storage_management_policy#version StorageManagementPolicy#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/storage_management_policy#version StorageManagementPolicy#version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"fqn\":\"azurerm.storageManagementPolicy.StorageManagementPolicyRuleActionsVersion\"}", isOptional: true)]

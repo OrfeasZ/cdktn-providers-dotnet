@@ -5,7 +5,7 @@ namespace azurerm.VirtualDesktopScalingPlanHostPoolAssociation
     /// <remarks>
     /// <h1><c>azurerm_virtual_desktop_scaling_plan_host_pool_association</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association"><c>azurerm_virtual_desktop_scaling_plan_host_pool_association</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association"><c>azurerm_virtual_desktop_scaling_plan_host_pool_association</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

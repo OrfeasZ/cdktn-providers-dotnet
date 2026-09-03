@@ -7,7 +7,7 @@ namespace azurerm.PostgresqlFlexibleServer
     [JsiiByValue(fqn: "azurerm.postgresqlFlexibleServer.PostgresqlFlexibleServerMaintenanceWindow")]
     public class PostgresqlFlexibleServerMaintenanceWindow : azurerm.PostgresqlFlexibleServer.IPostgresqlFlexibleServerMaintenanceWindow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server#day_of_week PostgresqlFlexibleServer#day_of_week}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server#day_of_week PostgresqlFlexibleServer#day_of_week}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dayOfWeek", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DayOfWeek
@@ -16,7 +16,7 @@ namespace azurerm.PostgresqlFlexibleServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server#start_hour PostgresqlFlexibleServer#start_hour}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server#start_hour PostgresqlFlexibleServer#start_hour}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startHour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartHour
@@ -25,7 +25,7 @@ namespace azurerm.PostgresqlFlexibleServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/postgresql_flexible_server#start_minute PostgresqlFlexibleServer#start_minute}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/postgresql_flexible_server#start_minute PostgresqlFlexibleServer#start_minute}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "startMinute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? StartMinute

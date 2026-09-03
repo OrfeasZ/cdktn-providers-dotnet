@@ -5,7 +5,7 @@ namespace azurerm.DataAzurermCdnProfile
     /// <remarks>
     /// <h1><c>data_azurerm_cdn_profile</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/cdn_profile"><c>data_azurerm_cdn_profile</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/cdn_profile"><c>data_azurerm_cdn_profile</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

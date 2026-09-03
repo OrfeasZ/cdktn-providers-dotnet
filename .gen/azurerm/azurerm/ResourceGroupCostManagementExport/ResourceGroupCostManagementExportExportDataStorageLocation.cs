@@ -9,7 +9,7 @@ namespace azurerm.ResourceGroupCostManagementExport
     [JsiiByValue(fqn: "azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExportExportDataStorageLocation")]
     public class ResourceGroupCostManagementExportExportDataStorageLocation : azurerm.ResourceGroupCostManagementExport.IResourceGroupCostManagementExportExportDataStorageLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_export#container_id ResourceGroupCostManagementExport#container_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_export#container_id ResourceGroupCostManagementExport#container_id}.</summary>
         [JsiiProperty(name: "containerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ContainerId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ResourceGroupCostManagementExport
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_export#root_folder_path ResourceGroupCostManagementExport#root_folder_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_export#root_folder_path ResourceGroupCostManagementExport#root_folder_path}.</summary>
         [JsiiProperty(name: "rootFolderPath", typeJson: "{\"primitive\":\"string\"}")]
         public string RootFolderPath
         {

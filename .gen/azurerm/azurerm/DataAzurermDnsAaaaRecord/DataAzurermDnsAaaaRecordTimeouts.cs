@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDnsAaaaRecord
     [JsiiByValue(fqn: "azurerm.dataAzurermDnsAaaaRecord.DataAzurermDnsAaaaRecordTimeouts")]
     public class DataAzurermDnsAaaaRecordTimeouts : azurerm.DataAzurermDnsAaaaRecord.IDataAzurermDnsAaaaRecordTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/dns_aaaa_record#read DataAzurermDnsAaaaRecord#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/dns_aaaa_record#read DataAzurermDnsAaaaRecord#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

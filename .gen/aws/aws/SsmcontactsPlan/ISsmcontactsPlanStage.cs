@@ -7,7 +7,7 @@ namespace aws.SsmcontactsPlan
     [JsiiInterface(nativeType: typeof(ISsmcontactsPlanStage), fullyQualifiedName: "aws.ssmcontactsPlan.SsmcontactsPlanStage")]
     public interface ISsmcontactsPlanStage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}.</summary>
         [JsiiProperty(name: "durationInMinutes", typeJson: "{\"primitive\":\"number\"}")]
         double DurationInMinutes
         {
@@ -16,7 +16,7 @@ namespace aws.SsmcontactsPlan
 
         /// <summary>target block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssmcontacts_plan#target SsmcontactsPlan#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ssmcontacts_plan#target SsmcontactsPlan#target}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStageTarget" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ssmcontactsPlan.SsmcontactsPlanStageTarget\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace aws.SsmcontactsPlan
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ssmcontacts_plan#duration_in_minutes SsmcontactsPlan#duration_in_minutes}.</summary>
             [JsiiProperty(name: "durationInMinutes", typeJson: "{\"primitive\":\"number\"}")]
             public double DurationInMinutes
             {
@@ -45,7 +45,7 @@ namespace aws.SsmcontactsPlan
 
             /// <summary>target block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ssmcontacts_plan#target SsmcontactsPlan#target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/ssmcontacts_plan#target SsmcontactsPlan#target}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SsmcontactsPlan.ISsmcontactsPlanStageTarget" />)[]</para>
             /// </remarks>
             [JsiiOptional]

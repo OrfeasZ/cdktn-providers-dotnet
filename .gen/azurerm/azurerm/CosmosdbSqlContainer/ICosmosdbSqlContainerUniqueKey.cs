@@ -7,7 +7,7 @@ namespace azurerm.CosmosdbSqlContainer
     [JsiiInterface(nativeType: typeof(ICosmosdbSqlContainerUniqueKey), fullyQualifiedName: "azurerm.cosmosdbSqlContainer.CosmosdbSqlContainerUniqueKey")]
     public interface ICosmosdbSqlContainerUniqueKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_container#paths CosmosdbSqlContainer#paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cosmosdb_sql_container#paths CosmosdbSqlContainer#paths}.</summary>
         [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Paths
         {
@@ -21,7 +21,7 @@ namespace azurerm.CosmosdbSqlContainer
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_container#paths CosmosdbSqlContainer#paths}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cosmosdb_sql_container#paths CosmosdbSqlContainer#paths}.</summary>
             [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Paths
             {

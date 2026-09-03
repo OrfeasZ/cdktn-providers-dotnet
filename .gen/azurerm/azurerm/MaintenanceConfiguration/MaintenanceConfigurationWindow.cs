@@ -9,7 +9,7 @@ namespace azurerm.MaintenanceConfiguration
     [JsiiByValue(fqn: "azurerm.maintenanceConfiguration.MaintenanceConfigurationWindow")]
     public class MaintenanceConfigurationWindow : azurerm.MaintenanceConfiguration.IMaintenanceConfigurationWindow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maintenance_configuration#start_date_time MaintenanceConfiguration#start_date_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maintenance_configuration#start_date_time MaintenanceConfiguration#start_date_time}.</summary>
         [JsiiProperty(name: "startDateTime", typeJson: "{\"primitive\":\"string\"}")]
         public string StartDateTime
         {
@@ -17,7 +17,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maintenance_configuration#time_zone MaintenanceConfiguration#time_zone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maintenance_configuration#time_zone MaintenanceConfiguration#time_zone}.</summary>
         [JsiiProperty(name: "timeZone", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeZone
         {
@@ -25,7 +25,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maintenance_configuration#duration MaintenanceConfiguration#duration}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maintenance_configuration#duration MaintenanceConfiguration#duration}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Duration
@@ -34,7 +34,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maintenance_configuration#expiration_date_time MaintenanceConfiguration#expiration_date_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maintenance_configuration#expiration_date_time MaintenanceConfiguration#expiration_date_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expirationDateTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpirationDateTime
@@ -43,7 +43,7 @@ namespace azurerm.MaintenanceConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/maintenance_configuration#recur_every MaintenanceConfiguration#recur_every}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/maintenance_configuration#recur_every MaintenanceConfiguration#recur_every}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recurEvery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecurEvery

@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     [JsiiByValue(fqn: "azurerm.kubernetesCluster.KubernetesClusterAciConnectorLinux")]
     public class KubernetesClusterAciConnectorLinux : azurerm.KubernetesCluster.IKubernetesClusterAciConnectorLinux
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/kubernetes_cluster#subnet_name KubernetesCluster#subnet_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/kubernetes_cluster#subnet_name KubernetesCluster#subnet_name}.</summary>
         [JsiiProperty(name: "subnetName", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetName
         {

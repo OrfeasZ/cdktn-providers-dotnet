@@ -7,14 +7,14 @@ namespace azurerm.ApiManagementApi
     [JsiiInterface(nativeType: typeof(IApiManagementApiImportWsdlSelector), fullyQualifiedName: "azurerm.apiManagementApi.ApiManagementApiImportWsdlSelector")]
     public interface IApiManagementApiImportWsdlSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api#endpoint_name ApiManagementApi#endpoint_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_api#endpoint_name ApiManagementApi#endpoint_name}.</summary>
         [JsiiProperty(name: "endpointName", typeJson: "{\"primitive\":\"string\"}")]
         string EndpointName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api#service_name ApiManagementApi#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_api#service_name ApiManagementApi#service_name}.</summary>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
         string ServiceName
         {
@@ -28,14 +28,14 @@ namespace azurerm.ApiManagementApi
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api#endpoint_name ApiManagementApi#endpoint_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_api#endpoint_name ApiManagementApi#endpoint_name}.</summary>
             [JsiiProperty(name: "endpointName", typeJson: "{\"primitive\":\"string\"}")]
             public string EndpointName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_api#service_name ApiManagementApi#service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_api#service_name ApiManagementApi#service_name}.</summary>
             [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
             public string ServiceName
             {

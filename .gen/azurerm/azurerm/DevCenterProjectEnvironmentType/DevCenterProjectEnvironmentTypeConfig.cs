@@ -9,7 +9,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
     [JsiiByValue(fqn: "azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentTypeConfig")]
     public class DevCenterProjectEnvironmentTypeConfig : azurerm.DevCenterProjectEnvironmentType.IDevCenterProjectEnvironmentTypeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#deployment_target_id DevCenterProjectEnvironmentType#deployment_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#deployment_target_id DevCenterProjectEnvironmentType#deployment_target_id}.</summary>
         [JsiiProperty(name: "deploymentTargetId", typeJson: "{\"primitive\":\"string\"}")]
         public string DeploymentTargetId
         {
@@ -17,7 +17,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#dev_center_project_id DevCenterProjectEnvironmentType#dev_center_project_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#dev_center_project_id DevCenterProjectEnvironmentType#dev_center_project_id}.</summary>
         [JsiiProperty(name: "devCenterProjectId", typeJson: "{\"primitive\":\"string\"}")]
         public string DevCenterProjectId
         {
@@ -27,7 +27,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#identity DevCenterProjectEnvironmentType#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#identity DevCenterProjectEnvironmentType#identity}
         /// </remarks>
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentTypeIdentity\"}")]
         public azurerm.DevCenterProjectEnvironmentType.IDevCenterProjectEnvironmentTypeIdentity Identity
@@ -36,7 +36,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#location DevCenterProjectEnvironmentType#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#location DevCenterProjectEnvironmentType#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -44,7 +44,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#name DevCenterProjectEnvironmentType#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#name DevCenterProjectEnvironmentType#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -52,7 +52,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#creator_role_assignment_roles DevCenterProjectEnvironmentType#creator_role_assignment_roles}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#creator_role_assignment_roles DevCenterProjectEnvironmentType#creator_role_assignment_roles}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "creatorRoleAssignmentRoles", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CreatorRoleAssignmentRoles
@@ -61,7 +61,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#id DevCenterProjectEnvironmentType#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#id DevCenterProjectEnvironmentType#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#tags DevCenterProjectEnvironmentType#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#tags DevCenterProjectEnvironmentType#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -85,7 +85,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#timeouts DevCenterProjectEnvironmentType#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#timeouts DevCenterProjectEnvironmentType#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.devCenterProjectEnvironmentType.DevCenterProjectEnvironmentTypeTimeouts\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace azurerm.DevCenterProjectEnvironmentType
 
         /// <summary>user_role_assignment block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/dev_center_project_environment_type#user_role_assignment DevCenterProjectEnvironmentType#user_role_assignment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/dev_center_project_environment_type#user_role_assignment DevCenterProjectEnvironmentType#user_role_assignment}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.DevCenterProjectEnvironmentType.IDevCenterProjectEnvironmentTypeUserRoleAssignment" />)[]</para>
         /// </remarks>
         [JsiiOptional]

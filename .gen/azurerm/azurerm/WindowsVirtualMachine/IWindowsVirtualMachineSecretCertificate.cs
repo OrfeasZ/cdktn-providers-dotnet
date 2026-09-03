@@ -7,14 +7,14 @@ namespace azurerm.WindowsVirtualMachine
     [JsiiInterface(nativeType: typeof(IWindowsVirtualMachineSecretCertificate), fullyQualifiedName: "azurerm.windowsVirtualMachine.WindowsVirtualMachineSecretCertificate")]
     public interface IWindowsVirtualMachineSecretCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine#store WindowsVirtualMachine#store}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_virtual_machine#store WindowsVirtualMachine#store}.</summary>
         [JsiiProperty(name: "store", typeJson: "{\"primitive\":\"string\"}")]
         string Store
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine#url WindowsVirtualMachine#url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_virtual_machine#url WindowsVirtualMachine#url}.</summary>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         string Url
         {
@@ -28,14 +28,14 @@ namespace azurerm.WindowsVirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine#store WindowsVirtualMachine#store}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_virtual_machine#store WindowsVirtualMachine#store}.</summary>
             [JsiiProperty(name: "store", typeJson: "{\"primitive\":\"string\"}")]
             public string Store
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/windows_virtual_machine#url WindowsVirtualMachine#url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/windows_virtual_machine#url WindowsVirtualMachine#url}.</summary>
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
             public string Url
             {

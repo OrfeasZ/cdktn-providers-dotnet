@@ -7,7 +7,7 @@ namespace azurerm.BatchAccount
     [JsiiByValue(fqn: "azurerm.batchAccount.BatchAccountNetworkProfileAccountAccess")]
     public class BatchAccountNetworkProfileAccountAccess : azurerm.BatchAccount.IBatchAccountNetworkProfileAccountAccess
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#default_action BatchAccount#default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_account#default_action BatchAccount#default_action}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultAction
@@ -20,7 +20,7 @@ namespace azurerm.BatchAccount
 
         /// <summary>ip_rule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/batch_account#ip_rule BatchAccount#ip_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/batch_account#ip_rule BatchAccount#ip_rule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.BatchAccount.IBatchAccountNetworkProfileAccountAccessIpRule" />)[]</para>
         /// </remarks>
         [JsiiOptional]

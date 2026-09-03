@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermVirtualWan
     [JsiiByValue(fqn: "azurerm.dataAzurermVirtualWan.DataAzurermVirtualWanTimeouts")]
     public class DataAzurermVirtualWanTimeouts : azurerm.DataAzurermVirtualWan.IDataAzurermVirtualWanTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/virtual_wan#read DataAzurermVirtualWan#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/virtual_wan#read DataAzurermVirtualWan#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

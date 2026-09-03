@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachine
     [JsiiByValue(fqn: "azurerm.virtualMachine.VirtualMachineOsProfileWindowsConfigWinrm")]
     public class VirtualMachineOsProfileWindowsConfigWinrm : azurerm.VirtualMachine.IVirtualMachineOsProfileWindowsConfigWinrm
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#protocol VirtualMachine#protocol}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#protocol VirtualMachine#protocol}.</summary>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         public string Protocol
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateUrl

@@ -9,7 +9,7 @@ namespace azurerm.LinuxWebAppSlot
     [JsiiByValue(fqn: "azurerm.linuxWebAppSlot.LinuxWebAppSlotSiteConfigAutoHealSettingTriggerSlowRequest")]
     public class LinuxWebAppSlotSiteConfigAutoHealSettingTriggerSlowRequest : azurerm.LinuxWebAppSlot.ILinuxWebAppSlotSiteConfigAutoHealSettingTriggerSlowRequest
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app_slot#count LinuxWebAppSlot#count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app_slot#count LinuxWebAppSlot#count}.</summary>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}")]
         public double Count
         {
@@ -17,7 +17,7 @@ namespace azurerm.LinuxWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app_slot#interval LinuxWebAppSlot#interval}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app_slot#interval LinuxWebAppSlot#interval}.</summary>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
         {
@@ -25,7 +25,7 @@ namespace azurerm.LinuxWebAppSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/linux_web_app_slot#time_taken LinuxWebAppSlot#time_taken}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/linux_web_app_slot#time_taken LinuxWebAppSlot#time_taken}.</summary>
         [JsiiProperty(name: "timeTaken", typeJson: "{\"primitive\":\"string\"}")]
         public string TimeTaken
         {

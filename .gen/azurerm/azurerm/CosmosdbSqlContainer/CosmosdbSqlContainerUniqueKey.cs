@@ -9,7 +9,7 @@ namespace azurerm.CosmosdbSqlContainer
     [JsiiByValue(fqn: "azurerm.cosmosdbSqlContainer.CosmosdbSqlContainerUniqueKey")]
     public class CosmosdbSqlContainerUniqueKey : azurerm.CosmosdbSqlContainer.ICosmosdbSqlContainerUniqueKey
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/cosmosdb_sql_container#paths CosmosdbSqlContainer#paths}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/cosmosdb_sql_container#paths CosmosdbSqlContainer#paths}.</summary>
         [JsiiProperty(name: "paths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Paths
         {

@@ -9,7 +9,7 @@ namespace azurerm.BotChannelFacebook
     [JsiiByValue(fqn: "azurerm.botChannelFacebook.BotChannelFacebookPage")]
     public class BotChannelFacebookPage : azurerm.BotChannelFacebook.IBotChannelFacebookPage
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_facebook#access_token BotChannelFacebook#access_token}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/bot_channel_facebook#access_token BotChannelFacebook#access_token}.</summary>
         [JsiiProperty(name: "accessToken", typeJson: "{\"primitive\":\"string\"}")]
         public string AccessToken
         {
@@ -17,7 +17,7 @@ namespace azurerm.BotChannelFacebook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/bot_channel_facebook#id BotChannelFacebook#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/bot_channel_facebook#id BotChannelFacebook#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

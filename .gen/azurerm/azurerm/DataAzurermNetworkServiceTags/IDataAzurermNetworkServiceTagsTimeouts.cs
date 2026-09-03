@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermNetworkServiceTags
     [JsiiInterface(nativeType: typeof(IDataAzurermNetworkServiceTagsTimeouts), fullyQualifiedName: "azurerm.dataAzurermNetworkServiceTags.DataAzurermNetworkServiceTagsTimeouts")]
     public interface IDataAzurermNetworkServiceTagsTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/network_service_tags#read DataAzurermNetworkServiceTags#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/network_service_tags#read DataAzurermNetworkServiceTags#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermNetworkServiceTags
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/network_service_tags#read DataAzurermNetworkServiceTags#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/network_service_tags#read DataAzurermNetworkServiceTags#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

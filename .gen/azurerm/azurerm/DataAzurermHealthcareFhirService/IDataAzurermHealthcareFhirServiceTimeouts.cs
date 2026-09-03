@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermHealthcareFhirService
     [JsiiInterface(nativeType: typeof(IDataAzurermHealthcareFhirServiceTimeouts), fullyQualifiedName: "azurerm.dataAzurermHealthcareFhirService.DataAzurermHealthcareFhirServiceTimeouts")]
     public interface IDataAzurermHealthcareFhirServiceTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/healthcare_fhir_service#read DataAzurermHealthcareFhirService#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/healthcare_fhir_service#read DataAzurermHealthcareFhirService#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermHealthcareFhirService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/healthcare_fhir_service#read DataAzurermHealthcareFhirService#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/healthcare_fhir_service#read DataAzurermHealthcareFhirService#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

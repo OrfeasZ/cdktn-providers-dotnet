@@ -9,7 +9,7 @@ namespace azurerm.DataFactoryCustomDataset
     [JsiiByValue(fqn: "azurerm.dataFactoryCustomDataset.DataFactoryCustomDatasetLinkedService")]
     public class DataFactoryCustomDatasetLinkedService : azurerm.DataFactoryCustomDataset.IDataFactoryCustomDatasetLinkedService
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_custom_dataset#name DataFactoryCustomDataset#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_custom_dataset#name DataFactoryCustomDataset#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataFactoryCustomDataset
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/data_factory_custom_dataset#parameters DataFactoryCustomDataset#parameters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/data_factory_custom_dataset#parameters DataFactoryCustomDataset#parameters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Parameters

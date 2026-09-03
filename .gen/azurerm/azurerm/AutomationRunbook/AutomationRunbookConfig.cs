@@ -9,7 +9,7 @@ namespace azurerm.AutomationRunbook
     [JsiiByValue(fqn: "azurerm.automationRunbook.AutomationRunbookConfig")]
     public class AutomationRunbookConfig : azurerm.AutomationRunbook.IAutomationRunbookConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#automation_account_name AutomationRunbook#automation_account_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#automation_account_name AutomationRunbook#automation_account_name}.</summary>
         [JsiiProperty(name: "automationAccountName", typeJson: "{\"primitive\":\"string\"}")]
         public string AutomationAccountName
         {
@@ -17,7 +17,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#location AutomationRunbook#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#location AutomationRunbook#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -27,7 +27,7 @@ namespace azurerm.AutomationRunbook
 
         private object _logProgress;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#log_progress AutomationRunbook#log_progress}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#log_progress AutomationRunbook#log_progress}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -60,7 +60,7 @@ namespace azurerm.AutomationRunbook
 
         private object _logVerbose;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#log_verbose AutomationRunbook#log_verbose}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#log_verbose AutomationRunbook#log_verbose}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -91,7 +91,7 @@ namespace azurerm.AutomationRunbook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#name AutomationRunbook#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#name AutomationRunbook#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -99,7 +99,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#resource_group_name AutomationRunbook#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#resource_group_name AutomationRunbook#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -107,7 +107,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#runbook_type AutomationRunbook#runbook_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#runbook_type AutomationRunbook#runbook_type}.</summary>
         [JsiiProperty(name: "runbookType", typeJson: "{\"primitive\":\"string\"}")]
         public string RunbookType
         {
@@ -115,7 +115,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#content AutomationRunbook#content}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#content AutomationRunbook#content}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Content
@@ -124,7 +124,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#description AutomationRunbook#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#description AutomationRunbook#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -135,7 +135,7 @@ namespace azurerm.AutomationRunbook
 
         /// <summary>draft block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#draft AutomationRunbook#draft}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#draft AutomationRunbook#draft}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "draft", typeJson: "{\"fqn\":\"azurerm.automationRunbook.AutomationRunbookDraft\"}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#id AutomationRunbook#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#id AutomationRunbook#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -160,7 +160,7 @@ namespace azurerm.AutomationRunbook
 
         private object? _jobSchedule;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#job_schedule AutomationRunbook#job_schedule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#job_schedule AutomationRunbook#job_schedule}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.AutomationRunbook.IAutomationRunbookJobSchedule" />)[]</para>
         /// </remarks>
@@ -192,7 +192,7 @@ namespace azurerm.AutomationRunbook
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#log_activity_trace_level AutomationRunbook#log_activity_trace_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#log_activity_trace_level AutomationRunbook#log_activity_trace_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "logActivityTraceLevel", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LogActivityTraceLevel
@@ -203,7 +203,7 @@ namespace azurerm.AutomationRunbook
 
         /// <summary>publish_content_link block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#publish_content_link AutomationRunbook#publish_content_link}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#publish_content_link AutomationRunbook#publish_content_link}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publishContentLink", typeJson: "{\"fqn\":\"azurerm.automationRunbook.AutomationRunbookPublishContentLink\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#runtime_environment_name AutomationRunbook#runtime_environment_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#runtime_environment_name AutomationRunbook#runtime_environment_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "runtimeEnvironmentName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuntimeEnvironmentName
@@ -222,7 +222,7 @@ namespace azurerm.AutomationRunbook
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#tags AutomationRunbook#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#tags AutomationRunbook#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -233,7 +233,7 @@ namespace azurerm.AutomationRunbook
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/automation_runbook#timeouts AutomationRunbook#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/automation_runbook#timeouts AutomationRunbook#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.automationRunbook.AutomationRunbookTimeouts\"}", isOptional: true)]

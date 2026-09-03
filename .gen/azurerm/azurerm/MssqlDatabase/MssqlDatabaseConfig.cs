@@ -9,7 +9,7 @@ namespace azurerm.MssqlDatabase
     [JsiiByValue(fqn: "azurerm.mssqlDatabase.MssqlDatabaseConfig")]
     public class MssqlDatabaseConfig : azurerm.MssqlDatabase.IMssqlDatabaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#name MssqlDatabase#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#name MssqlDatabase#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#server_id MssqlDatabase#server_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#server_id MssqlDatabase#server_id}.</summary>
         [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServerId
         {
@@ -25,7 +25,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#auto_pause_delay_in_minutes MssqlDatabase#auto_pause_delay_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#auto_pause_delay_in_minutes MssqlDatabase#auto_pause_delay_in_minutes}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "autoPauseDelayInMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? AutoPauseDelayInMinutes
@@ -34,7 +34,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#collation MssqlDatabase#collation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#collation MssqlDatabase#collation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "collation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Collation
@@ -43,7 +43,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#create_mode MssqlDatabase#create_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#create_mode MssqlDatabase#create_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreateMode
@@ -52,7 +52,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#creation_source_database_id MssqlDatabase#creation_source_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#creation_source_database_id MssqlDatabase#creation_source_database_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "creationSourceDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CreationSourceDatabaseId
@@ -61,7 +61,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#elastic_pool_id MssqlDatabase#elastic_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#elastic_pool_id MssqlDatabase#elastic_pool_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "elasticPoolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ElasticPoolId
@@ -70,7 +70,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#enclave_type MssqlDatabase#enclave_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#enclave_type MssqlDatabase#enclave_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "enclaveType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EnclaveType
@@ -81,7 +81,7 @@ namespace azurerm.MssqlDatabase
 
         private object? _geoBackupEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#geo_backup_enabled MssqlDatabase#geo_backup_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#geo_backup_enabled MssqlDatabase#geo_backup_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -113,7 +113,7 @@ namespace azurerm.MssqlDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#id MssqlDatabase#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#id MssqlDatabase#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -128,7 +128,7 @@ namespace azurerm.MssqlDatabase
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#identity MssqlDatabase#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#identity MssqlDatabase#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.mssqlDatabase.MssqlDatabaseIdentity\"}", isOptional: true)]
@@ -140,7 +140,7 @@ namespace azurerm.MssqlDatabase
 
         /// <summary>import block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#import MssqlDatabase#import}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#import MssqlDatabase#import}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "import", typeJson: "{\"fqn\":\"azurerm.mssqlDatabase.MssqlDatabaseImport\"}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace azurerm.MssqlDatabase
 
         private object? _ledgerEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#ledger_enabled MssqlDatabase#ledger_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#ledger_enabled MssqlDatabase#ledger_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -184,7 +184,7 @@ namespace azurerm.MssqlDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#license_type MssqlDatabase#license_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#license_type MssqlDatabase#license_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "licenseType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LicenseType
@@ -195,7 +195,7 @@ namespace azurerm.MssqlDatabase
 
         /// <summary>long_term_retention_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#long_term_retention_policy MssqlDatabase#long_term_retention_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#long_term_retention_policy MssqlDatabase#long_term_retention_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "longTermRetentionPolicy", typeJson: "{\"fqn\":\"azurerm.mssqlDatabase.MssqlDatabaseLongTermRetentionPolicy\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#maintenance_configuration_name MssqlDatabase#maintenance_configuration_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#maintenance_configuration_name MssqlDatabase#maintenance_configuration_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maintenanceConfigurationName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MaintenanceConfigurationName
@@ -214,7 +214,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#max_size_gb MssqlDatabase#max_size_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#max_size_gb MssqlDatabase#max_size_gb}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxSizeGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxSizeGb
@@ -223,7 +223,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#min_capacity MssqlDatabase#min_capacity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#min_capacity MssqlDatabase#min_capacity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minCapacity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinCapacity
@@ -232,7 +232,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#read_replica_count MssqlDatabase#read_replica_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#read_replica_count MssqlDatabase#read_replica_count}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "readReplicaCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ReadReplicaCount
@@ -243,7 +243,7 @@ namespace azurerm.MssqlDatabase
 
         private object? _readScale;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#read_scale MssqlDatabase#read_scale}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#read_scale MssqlDatabase#read_scale}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -275,7 +275,7 @@ namespace azurerm.MssqlDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#recover_database_id MssqlDatabase#recover_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#recover_database_id MssqlDatabase#recover_database_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recoverDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecoverDatabaseId
@@ -284,7 +284,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#recovery_point_id MssqlDatabase#recovery_point_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#recovery_point_id MssqlDatabase#recovery_point_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recoveryPointId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RecoveryPointId
@@ -293,7 +293,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#restore_dropped_database_id MssqlDatabase#restore_dropped_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#restore_dropped_database_id MssqlDatabase#restore_dropped_database_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restoreDroppedDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestoreDroppedDatabaseId
@@ -302,7 +302,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#restore_long_term_retention_backup_id MssqlDatabase#restore_long_term_retention_backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#restore_long_term_retention_backup_id MssqlDatabase#restore_long_term_retention_backup_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restoreLongTermRetentionBackupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestoreLongTermRetentionBackupId
@@ -311,7 +311,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#restore_point_in_time MssqlDatabase#restore_point_in_time}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#restore_point_in_time MssqlDatabase#restore_point_in_time}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "restorePointInTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RestorePointInTime
@@ -320,7 +320,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#sample_name MssqlDatabase#sample_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#sample_name MssqlDatabase#sample_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sampleName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SampleName
@@ -329,7 +329,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#secondary_type MssqlDatabase#secondary_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#secondary_type MssqlDatabase#secondary_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secondaryType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecondaryType
@@ -340,7 +340,7 @@ namespace azurerm.MssqlDatabase
 
         /// <summary>short_term_retention_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#short_term_retention_policy MssqlDatabase#short_term_retention_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#short_term_retention_policy MssqlDatabase#short_term_retention_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shortTermRetentionPolicy", typeJson: "{\"fqn\":\"azurerm.mssqlDatabase.MssqlDatabaseShortTermRetentionPolicy\"}", isOptional: true)]
@@ -350,7 +350,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#sku_name MssqlDatabase#sku_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#sku_name MssqlDatabase#sku_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SkuName
@@ -359,7 +359,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#storage_account_type MssqlDatabase#storage_account_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#storage_account_type MssqlDatabase#storage_account_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccountType
@@ -368,7 +368,7 @@ namespace azurerm.MssqlDatabase
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#tags MssqlDatabase#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#tags MssqlDatabase#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -379,7 +379,7 @@ namespace azurerm.MssqlDatabase
 
         /// <summary>threat_detection_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#threat_detection_policy MssqlDatabase#threat_detection_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#threat_detection_policy MssqlDatabase#threat_detection_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threatDetectionPolicy", typeJson: "{\"fqn\":\"azurerm.mssqlDatabase.MssqlDatabaseThreatDetectionPolicy\"}", isOptional: true)]
@@ -391,7 +391,7 @@ namespace azurerm.MssqlDatabase
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#timeouts MssqlDatabase#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#timeouts MssqlDatabase#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.mssqlDatabase.MssqlDatabaseTimeouts\"}", isOptional: true)]
@@ -403,7 +403,7 @@ namespace azurerm.MssqlDatabase
 
         private object? _transparentDataEncryptionEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#transparent_data_encryption_enabled MssqlDatabase#transparent_data_encryption_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#transparent_data_encryption_enabled MssqlDatabase#transparent_data_encryption_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -437,7 +437,7 @@ namespace azurerm.MssqlDatabase
 
         private object? _transparentDataEncryptionKeyAutomaticRotationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#transparent_data_encryption_key_automatic_rotation_enabled MssqlDatabase#transparent_data_encryption_key_automatic_rotation_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#transparent_data_encryption_key_automatic_rotation_enabled MssqlDatabase#transparent_data_encryption_key_automatic_rotation_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -469,7 +469,7 @@ namespace azurerm.MssqlDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#transparent_data_encryption_key_vault_key_id MssqlDatabase#transparent_data_encryption_key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#transparent_data_encryption_key_vault_key_id MssqlDatabase#transparent_data_encryption_key_vault_key_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "transparentDataEncryptionKeyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TransparentDataEncryptionKeyVaultKeyId
@@ -480,7 +480,7 @@ namespace azurerm.MssqlDatabase
 
         private object? _zoneRedundant;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/mssql_database#zone_redundant MssqlDatabase#zone_redundant}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/mssql_database#zone_redundant MssqlDatabase#zone_redundant}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

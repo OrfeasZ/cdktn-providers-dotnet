@@ -7,7 +7,7 @@ namespace azurerm.ContainerRegistry
     [JsiiInterface(nativeType: typeof(IContainerRegistryEncryption), fullyQualifiedName: "azurerm.containerRegistry.ContainerRegistryEncryption")]
     public interface IContainerRegistryEncryption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry#identity_client_id ContainerRegistry#identity_client_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry#identity_client_id ContainerRegistry#identity_client_id}.</summary>
         [JsiiProperty(name: "identityClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IdentityClientId
@@ -18,7 +18,7 @@ namespace azurerm.ContainerRegistry
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry#key_vault_key_id ContainerRegistry#key_vault_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry#key_vault_key_id ContainerRegistry#key_vault_key_id}.</summary>
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeyVaultKeyId
@@ -36,7 +36,7 @@ namespace azurerm.ContainerRegistry
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry#identity_client_id ContainerRegistry#identity_client_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry#identity_client_id ContainerRegistry#identity_client_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "identityClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IdentityClientId
@@ -44,7 +44,7 @@ namespace azurerm.ContainerRegistry
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/container_registry#key_vault_key_id ContainerRegistry#key_vault_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/container_registry#key_vault_key_id ContainerRegistry#key_vault_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeyVaultKeyId

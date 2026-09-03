@@ -7,7 +7,7 @@ namespace azurerm.EventgridNamespace
     [JsiiByValue(fqn: "azurerm.eventgridNamespace.EventgridNamespaceTopicSpacesConfiguration")]
     public class EventgridNamespaceTopicSpacesConfiguration : azurerm.EventgridNamespace.IEventgridNamespaceTopicSpacesConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_namespace#alternative_authentication_name_source EventgridNamespace#alternative_authentication_name_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_namespace#alternative_authentication_name_source EventgridNamespace#alternative_authentication_name_source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "alternativeAuthenticationNameSource", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? AlternativeAuthenticationNameSource
@@ -20,7 +20,7 @@ namespace azurerm.EventgridNamespace
 
         /// <summary>dynamic_routing_enrichment block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_namespace#dynamic_routing_enrichment EventgridNamespace#dynamic_routing_enrichment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_namespace#dynamic_routing_enrichment EventgridNamespace#dynamic_routing_enrichment}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridNamespace.IEventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichment" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -51,7 +51,7 @@ namespace azurerm.EventgridNamespace
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_namespace#maximum_client_sessions_per_authentication_name EventgridNamespace#maximum_client_sessions_per_authentication_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_namespace#maximum_client_sessions_per_authentication_name EventgridNamespace#maximum_client_sessions_per_authentication_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumClientSessionsPerAuthenticationName", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumClientSessionsPerAuthenticationName
@@ -60,7 +60,7 @@ namespace azurerm.EventgridNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_namespace#maximum_session_expiry_in_hours EventgridNamespace#maximum_session_expiry_in_hours}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_namespace#maximum_session_expiry_in_hours EventgridNamespace#maximum_session_expiry_in_hours}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maximumSessionExpiryInHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaximumSessionExpiryInHours
@@ -69,7 +69,7 @@ namespace azurerm.EventgridNamespace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_namespace#route_topic_id EventgridNamespace#route_topic_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_namespace#route_topic_id EventgridNamespace#route_topic_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "routeTopicId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RouteTopicId
@@ -82,7 +82,7 @@ namespace azurerm.EventgridNamespace
 
         /// <summary>static_routing_enrichment block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/eventgrid_namespace#static_routing_enrichment EventgridNamespace#static_routing_enrichment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/eventgrid_namespace#static_routing_enrichment EventgridNamespace#static_routing_enrichment}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.EventgridNamespace.IEventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichment" />)[]</para>
         /// </remarks>
         [JsiiOptional]

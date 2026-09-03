@@ -9,7 +9,7 @@ namespace azurerm.ApplicationLoadBalancerFrontend
     [JsiiByValue(fqn: "azurerm.applicationLoadBalancerFrontend.ApplicationLoadBalancerFrontendConfig")]
     public class ApplicationLoadBalancerFrontendConfig : azurerm.ApplicationLoadBalancerFrontend.IApplicationLoadBalancerFrontendConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_load_balancer_frontend#application_load_balancer_id ApplicationLoadBalancerFrontend#application_load_balancer_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/application_load_balancer_frontend#application_load_balancer_id ApplicationLoadBalancerFrontend#application_load_balancer_id}.</summary>
         [JsiiProperty(name: "applicationLoadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationLoadBalancerId
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApplicationLoadBalancerFrontend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_load_balancer_frontend#name ApplicationLoadBalancerFrontend#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/application_load_balancer_frontend#name ApplicationLoadBalancerFrontend#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,7 @@ namespace azurerm.ApplicationLoadBalancerFrontend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_load_balancer_frontend#id ApplicationLoadBalancerFrontend#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/application_load_balancer_frontend#id ApplicationLoadBalancerFrontend#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace azurerm.ApplicationLoadBalancerFrontend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_load_balancer_frontend#tags ApplicationLoadBalancerFrontend#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/application_load_balancer_frontend#tags ApplicationLoadBalancerFrontend#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -49,7 +49,7 @@ namespace azurerm.ApplicationLoadBalancerFrontend
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/application_load_balancer_frontend#timeouts ApplicationLoadBalancerFrontend#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/application_load_balancer_frontend#timeouts ApplicationLoadBalancerFrontend#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.applicationLoadBalancerFrontend.ApplicationLoadBalancerFrontendTimeouts\"}", isOptional: true)]

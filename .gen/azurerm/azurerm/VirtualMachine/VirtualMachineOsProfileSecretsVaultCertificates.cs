@@ -9,7 +9,7 @@ namespace azurerm.VirtualMachine
     [JsiiByValue(fqn: "azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificates")]
     public class VirtualMachineOsProfileSecretsVaultCertificates : azurerm.VirtualMachine.IVirtualMachineOsProfileSecretsVaultCertificates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
         [JsiiProperty(name: "certificateUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateUrl
         {
@@ -17,7 +17,7 @@ namespace azurerm.VirtualMachine
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#certificate_store VirtualMachine#certificate_store}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#certificate_store VirtualMachine#certificate_store}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateStore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateStore

@@ -7,7 +7,7 @@ namespace azurerm.SignalrService
     [JsiiInterface(nativeType: typeof(ISignalrServiceCors), fullyQualifiedName: "azurerm.signalrService.SignalrServiceCors")]
     public interface ISignalrServiceCors
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service#allowed_origins SignalrService#allowed_origins}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service#allowed_origins SignalrService#allowed_origins}.</summary>
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] AllowedOrigins
         {
@@ -21,7 +21,7 @@ namespace azurerm.SignalrService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/signalr_service#allowed_origins SignalrService#allowed_origins}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/signalr_service#allowed_origins SignalrService#allowed_origins}.</summary>
             [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] AllowedOrigins
             {

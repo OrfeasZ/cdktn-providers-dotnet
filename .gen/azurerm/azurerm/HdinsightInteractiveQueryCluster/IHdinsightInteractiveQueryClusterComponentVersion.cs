@@ -7,7 +7,7 @@ namespace azurerm.HdinsightInteractiveQueryCluster
     [JsiiInterface(nativeType: typeof(IHdinsightInteractiveQueryClusterComponentVersion), fullyQualifiedName: "azurerm.hdinsightInteractiveQueryCluster.HdinsightInteractiveQueryClusterComponentVersion")]
     public interface IHdinsightInteractiveQueryClusterComponentVersion
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_interactive_query_cluster#interactive_hive HdinsightInteractiveQueryCluster#interactive_hive}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_interactive_query_cluster#interactive_hive HdinsightInteractiveQueryCluster#interactive_hive}.</summary>
         [JsiiProperty(name: "interactiveHive", typeJson: "{\"primitive\":\"string\"}")]
         string InteractiveHive
         {
@@ -21,7 +21,7 @@ namespace azurerm.HdinsightInteractiveQueryCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/hdinsight_interactive_query_cluster#interactive_hive HdinsightInteractiveQueryCluster#interactive_hive}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/hdinsight_interactive_query_cluster#interactive_hive HdinsightInteractiveQueryCluster#interactive_hive}.</summary>
             [JsiiProperty(name: "interactiveHive", typeJson: "{\"primitive\":\"string\"}")]
             public string InteractiveHive
             {

@@ -7,7 +7,7 @@ namespace aws.CognitoUserPool
     [JsiiByValue(fqn: "aws.cognitoUserPool.CognitoUserPoolPasswordPolicy")]
     public class CognitoUserPoolPasswordPolicy : aws.CognitoUserPool.ICognitoUserPoolPasswordPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool#minimum_length CognitoUserPool#minimum_length}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool#minimum_length CognitoUserPool#minimum_length}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minimumLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinimumLength
@@ -16,7 +16,7 @@ namespace aws.CognitoUserPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool#password_history_size CognitoUserPool#password_history_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool#password_history_size CognitoUserPool#password_history_size}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "passwordHistorySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? PasswordHistorySize
@@ -27,7 +27,7 @@ namespace aws.CognitoUserPool
 
         private object? _requireLowercase;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool#require_lowercase CognitoUserPool#require_lowercase}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool#require_lowercase CognitoUserPool#require_lowercase}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace aws.CognitoUserPool
 
         private object? _requireNumbers;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool#require_numbers CognitoUserPool#require_numbers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool#require_numbers CognitoUserPool#require_numbers}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -95,7 +95,7 @@ namespace aws.CognitoUserPool
 
         private object? _requireSymbols;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool#require_symbols CognitoUserPool#require_symbols}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool#require_symbols CognitoUserPool#require_symbols}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -129,7 +129,7 @@ namespace aws.CognitoUserPool
 
         private object? _requireUppercase;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool#require_uppercase CognitoUserPool#require_uppercase}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool#require_uppercase CognitoUserPool#require_uppercase}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -161,7 +161,7 @@ namespace aws.CognitoUserPool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/cognito_user_pool#temporary_password_validity_days CognitoUserPool#temporary_password_validity_days}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/cognito_user_pool#temporary_password_validity_days CognitoUserPool#temporary_password_validity_days}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "temporaryPasswordValidityDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TemporaryPasswordValidityDays

@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStorageContainers
     [JsiiInterface(nativeType: typeof(IDataAzurermStorageContainersTimeouts), fullyQualifiedName: "azurerm.dataAzurermStorageContainers.DataAzurermStorageContainersTimeouts")]
     public interface IDataAzurermStorageContainersTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_containers#read DataAzurermStorageContainers#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/storage_containers#read DataAzurermStorageContainers#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermStorageContainers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/storage_containers#read DataAzurermStorageContainers#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/storage_containers#read DataAzurermStorageContainers#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

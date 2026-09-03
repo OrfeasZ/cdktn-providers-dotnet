@@ -9,7 +9,7 @@ namespace azurerm.KeyVaultCertificate
     [JsiiByValue(fqn: "azurerm.keyVaultCertificate.KeyVaultCertificateCertificatePolicyLifetimeActionAction")]
     public class KeyVaultCertificateCertificatePolicyLifetimeActionAction : azurerm.KeyVaultCertificate.IKeyVaultCertificateCertificatePolicyLifetimeActionAction
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/key_vault_certificate#action_type KeyVaultCertificate#action_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/key_vault_certificate#action_type KeyVaultCertificate#action_type}.</summary>
         [JsiiProperty(name: "actionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ActionType
         {

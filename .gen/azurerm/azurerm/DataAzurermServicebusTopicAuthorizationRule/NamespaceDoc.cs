@@ -5,7 +5,7 @@ namespace azurerm.DataAzurermServicebusTopicAuthorizationRule
     /// <remarks>
     /// <h1><c>data_azurerm_servicebus_topic_authorization_rule</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/data-sources/servicebus_topic_authorization_rule"><c>data_azurerm_servicebus_topic_authorization_rule</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/data-sources/servicebus_topic_authorization_rule"><c>data_azurerm_servicebus_topic_authorization_rule</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

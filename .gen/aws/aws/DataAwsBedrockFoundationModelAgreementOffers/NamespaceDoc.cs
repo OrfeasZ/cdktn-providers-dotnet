@@ -5,7 +5,7 @@ namespace aws.DataAwsBedrockFoundationModelAgreementOffers
     /// <remarks>
     /// <h1><c>data_aws_bedrock_foundation_model_agreement_offers</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/bedrock_foundation_model_agreement_offers"><c>data_aws_bedrock_foundation_model_agreement_offers</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/data-sources/bedrock_foundation_model_agreement_offers"><c>data_aws_bedrock_foundation_model_agreement_offers</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

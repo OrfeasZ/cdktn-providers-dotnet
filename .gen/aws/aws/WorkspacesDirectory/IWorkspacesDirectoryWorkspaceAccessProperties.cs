@@ -9,7 +9,7 @@ namespace aws.WorkspacesDirectory
     {
         /// <summary>access_endpoint_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
         /// </remarks>
         [JsiiProperty(name: "accessEndpointConfig", typeJson: "{\"fqn\":\"aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}.</summary>
         [JsiiProperty(name: "deviceTypeAndroid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeAndroid
@@ -32,7 +32,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_chromeos WorkspacesDirectory#device_type_chromeos}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_chromeos WorkspacesDirectory#device_type_chromeos}.</summary>
         [JsiiProperty(name: "deviceTypeChromeos", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeChromeos
@@ -43,7 +43,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}.</summary>
         [JsiiProperty(name: "deviceTypeIos", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeIos
@@ -54,7 +54,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}.</summary>
         [JsiiProperty(name: "deviceTypeLinux", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeLinux
@@ -65,7 +65,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}.</summary>
         [JsiiProperty(name: "deviceTypeOsx", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeOsx
@@ -76,7 +76,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}.</summary>
         [JsiiProperty(name: "deviceTypeWeb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeWeb
@@ -87,7 +87,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}.</summary>
         [JsiiProperty(name: "deviceTypeWindows", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeWindows
@@ -98,7 +98,7 @@ namespace aws.WorkspacesDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_zeroclient WorkspacesDirectory#device_type_zeroclient}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_zeroclient WorkspacesDirectory#device_type_zeroclient}.</summary>
         [JsiiProperty(name: "deviceTypeZeroclient", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DeviceTypeZeroclient
@@ -118,7 +118,7 @@ namespace aws.WorkspacesDirectory
 
             /// <summary>access_endpoint_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#access_endpoint_config WorkspacesDirectory#access_endpoint_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accessEndpointConfig", typeJson: "{\"fqn\":\"aws.workspacesDirectory.WorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<aws.WorkspacesDirectory.IWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_android WorkspacesDirectory#device_type_android}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeAndroid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeAndroid
@@ -135,7 +135,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_chromeos WorkspacesDirectory#device_type_chromeos}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_chromeos WorkspacesDirectory#device_type_chromeos}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeChromeos", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeChromeos
@@ -143,7 +143,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_ios WorkspacesDirectory#device_type_ios}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeIos", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeIos
@@ -151,7 +151,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_linux WorkspacesDirectory#device_type_linux}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeLinux", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeLinux
@@ -159,7 +159,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_osx WorkspacesDirectory#device_type_osx}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeOsx", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeOsx
@@ -167,7 +167,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_web WorkspacesDirectory#device_type_web}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeWeb", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeWeb
@@ -175,7 +175,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_windows WorkspacesDirectory#device_type_windows}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeWindows", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeWindows
@@ -183,7 +183,7 @@ namespace aws.WorkspacesDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/workspaces_directory#device_type_zeroclient WorkspacesDirectory#device_type_zeroclient}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/workspaces_directory#device_type_zeroclient WorkspacesDirectory#device_type_zeroclient}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "deviceTypeZeroclient", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DeviceTypeZeroclient

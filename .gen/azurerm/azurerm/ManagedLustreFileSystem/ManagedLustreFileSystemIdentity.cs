@@ -9,7 +9,7 @@ namespace azurerm.ManagedLustreFileSystem
     [JsiiByValue(fqn: "azurerm.managedLustreFileSystem.ManagedLustreFileSystemIdentity")]
     public class ManagedLustreFileSystemIdentity : azurerm.ManagedLustreFileSystem.IManagedLustreFileSystemIdentity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_lustre_file_system#identity_ids ManagedLustreFileSystem#identity_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_lustre_file_system#identity_ids ManagedLustreFileSystem#identity_ids}.</summary>
         [JsiiProperty(name: "identityIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] IdentityIds
         {
@@ -17,7 +17,7 @@ namespace azurerm.ManagedLustreFileSystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/managed_lustre_file_system#type ManagedLustreFileSystem#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/managed_lustre_file_system#type ManagedLustreFileSystem#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {

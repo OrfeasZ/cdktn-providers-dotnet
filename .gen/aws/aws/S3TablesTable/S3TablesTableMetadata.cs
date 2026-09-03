@@ -11,7 +11,7 @@ namespace aws.S3TablesTable
 
         /// <summary>iceberg block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/s3tables_table#iceberg S3TablesTable#iceberg}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.S3TablesTable.IS3TablesTableMetadataIceberg" />)[]</para>
         /// </remarks>
         [JsiiOptional]

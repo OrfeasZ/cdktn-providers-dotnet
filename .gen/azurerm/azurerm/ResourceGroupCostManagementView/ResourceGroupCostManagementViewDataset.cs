@@ -13,7 +13,7 @@ namespace azurerm.ResourceGroupCostManagementView
 
         /// <summary>aggregation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#aggregation ResourceGroupCostManagementView#aggregation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#aggregation ResourceGroupCostManagementView#aggregation}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ResourceGroupCostManagementView.IResourceGroupCostManagementViewDatasetAggregation" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "aggregation", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.resourceGroupCostManagementView.ResourceGroupCostManagementViewDatasetAggregation\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace azurerm.ResourceGroupCostManagementView
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#granularity ResourceGroupCostManagementView#granularity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#granularity ResourceGroupCostManagementView#granularity}.</summary>
         [JsiiProperty(name: "granularity", typeJson: "{\"primitive\":\"string\"}")]
         public string Granularity
         {
@@ -55,7 +55,7 @@ namespace azurerm.ResourceGroupCostManagementView
 
         /// <summary>grouping block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#grouping ResourceGroupCostManagementView#grouping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#grouping ResourceGroupCostManagementView#grouping}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ResourceGroupCostManagementView.IResourceGroupCostManagementViewDatasetGrouping" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -90,7 +90,7 @@ namespace azurerm.ResourceGroupCostManagementView
 
         /// <summary>sorting block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/resource_group_cost_management_view#sorting ResourceGroupCostManagementView#sorting}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/resource_group_cost_management_view#sorting ResourceGroupCostManagementView#sorting}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ResourceGroupCostManagementView.IResourceGroupCostManagementViewDatasetSorting" />)[]</para>
         /// </remarks>
         [JsiiOptional]

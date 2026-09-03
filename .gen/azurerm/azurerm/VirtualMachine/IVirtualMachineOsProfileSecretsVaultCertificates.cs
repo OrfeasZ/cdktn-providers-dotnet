@@ -7,14 +7,14 @@ namespace azurerm.VirtualMachine
     [JsiiInterface(nativeType: typeof(IVirtualMachineOsProfileSecretsVaultCertificates), fullyQualifiedName: "azurerm.virtualMachine.VirtualMachineOsProfileSecretsVaultCertificates")]
     public interface IVirtualMachineOsProfileSecretsVaultCertificates
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
         [JsiiProperty(name: "certificateUrl", typeJson: "{\"primitive\":\"string\"}")]
         string CertificateUrl
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#certificate_store VirtualMachine#certificate_store}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#certificate_store VirtualMachine#certificate_store}.</summary>
         [JsiiProperty(name: "certificateStore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CertificateStore
@@ -32,14 +32,14 @@ namespace azurerm.VirtualMachine
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#certificate_url VirtualMachine#certificate_url}.</summary>
             [JsiiProperty(name: "certificateUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string CertificateUrl
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/virtual_machine#certificate_store VirtualMachine#certificate_store}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/virtual_machine#certificate_store VirtualMachine#certificate_store}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "certificateStore", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CertificateStore

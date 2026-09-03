@@ -7,7 +7,7 @@ namespace azurerm.Subnet
     [JsiiInterface(nativeType: typeof(ISubnetDelegation), fullyQualifiedName: "azurerm.subnet.SubnetDelegation")]
     public interface ISubnetDelegation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subnet#name Subnet#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subnet#name Subnet#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
@@ -16,7 +16,7 @@ namespace azurerm.Subnet
 
         /// <summary>service_delegation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subnet#service_delegation Subnet#service_delegation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subnet#service_delegation Subnet#service_delegation}
         /// </remarks>
         [JsiiProperty(name: "serviceDelegation", typeJson: "{\"fqn\":\"azurerm.subnet.SubnetDelegationServiceDelegation\"}")]
         azurerm.Subnet.ISubnetDelegationServiceDelegation ServiceDelegation
@@ -31,7 +31,7 @@ namespace azurerm.Subnet
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subnet#name Subnet#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subnet#name Subnet#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
@@ -40,7 +40,7 @@ namespace azurerm.Subnet
 
             /// <summary>service_delegation block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/subnet#service_delegation Subnet#service_delegation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/subnet#service_delegation Subnet#service_delegation}
             /// </remarks>
             [JsiiProperty(name: "serviceDelegation", typeJson: "{\"fqn\":\"azurerm.subnet.SubnetDelegationServiceDelegation\"}")]
             public azurerm.Subnet.ISubnetDelegationServiceDelegation ServiceDelegation

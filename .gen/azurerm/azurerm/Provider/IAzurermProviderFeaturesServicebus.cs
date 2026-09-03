@@ -9,7 +9,7 @@ namespace azurerm.Provider
     {
         /// <summary>When enabled, the $Default rule is automatically deleted after creating a Service Bus subscription, preventing unfiltered message delivery.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs#auto_delete_subscription_default_rule AzurermProvider#auto_delete_subscription_default_rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs#auto_delete_subscription_default_rule AzurermProvider#auto_delete_subscription_default_rule}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "autoDeleteSubscriptionDefaultRule", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace azurerm.Provider
 
             /// <summary>When enabled, the $Default rule is automatically deleted after creating a Service Bus subscription, preventing unfiltered message delivery.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs#auto_delete_subscription_default_rule AzurermProvider#auto_delete_subscription_default_rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs#auto_delete_subscription_default_rule AzurermProvider#auto_delete_subscription_default_rule}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

@@ -7,14 +7,14 @@ namespace azurerm.ApiManagementBackend
     [JsiiInterface(nativeType: typeof(IApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange), fullyQualifiedName: "azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange")]
     public interface IApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_backend#max ApiManagementBackend#max}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_backend#max ApiManagementBackend#max}.</summary>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         double Max
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_backend#min ApiManagementBackend#min}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_backend#min ApiManagementBackend#min}.</summary>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         double Min
         {
@@ -28,14 +28,14 @@ namespace azurerm.ApiManagementBackend
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_backend#max ApiManagementBackend#max}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_backend#max ApiManagementBackend#max}.</summary>
             [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
             public double Max
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.3.0/docs/resources/api_management_backend#min ApiManagementBackend#min}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.4.0/docs/resources/api_management_backend#min ApiManagementBackend#min}.</summary>
             [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
             public double Min
             {
