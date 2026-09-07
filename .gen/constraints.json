@@ -12,7 +12,7 @@
     "digitalocean": "2.100.0",
     "hcloud": "1.68.0",
     "libvirt": "0.9.9",
-    "neon": "0.15.0",
+    "neon": "0.16.0",
     "null": "3.3.1",
     "oci": "9.0.0",
     "postgresql": "1.27.0",

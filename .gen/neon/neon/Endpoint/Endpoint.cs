@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace neon.Endpoint
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/endpoint neon_endpoint}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.16.0/docs/resources/endpoint neon_endpoint}.</summary>
     [JsiiClass(nativeType: typeof(neon.Endpoint.Endpoint), fullyQualifiedName: "neon.endpoint.Endpoint", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"neon.endpoint.EndpointConfig\"}}]")]
     public class Endpoint : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/endpoint neon_endpoint} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.16.0/docs/resources/endpoint neon_endpoint} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Endpoint(Constructs.Construct scope, string id, neon.Endpoint.IEndpointConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace neon.Endpoint
         /// <param name="importToId">The construct id used in the generated config for the Endpoint to import.</param>
         /// <param name="importFromId">The id of the existing Endpoint that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Endpoint to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Endpoint to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/endpoint#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Endpoint that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Endpoint to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Endpoint to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/kislerdm/neon/0.16.0/docs/resources/endpoint#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Endpoint that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Endpoint to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(neon.Endpoint.Endpoint), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -70,20 +70,14 @@ namespace neon.Endpoint
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetName")]
+        public virtual void ResetName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPgSettings")]
         public virtual void ResetPgSettings()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetPoolerEnabled")]
-        public virtual void ResetPoolerEnabled()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetPoolerMode")]
-        public virtual void ResetPoolerMode()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -127,6 +121,12 @@ namespace neon.Endpoint
 
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Host
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "hostPooling", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostPooling
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -182,27 +182,17 @@ namespace neon.Endpoint
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "pgSettingsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? PgSettingsInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "poolerEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? PoolerEnabledInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "poolerModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? PoolerModeInput
-        {
-            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -291,47 +281,17 @@ namespace neon.Endpoint
             }
         }
 
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "pgSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> PgSettings
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
-        /// </remarks>
-        [JsiiProperty(name: "poolerEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public virtual object PoolerEnabled
-        {
-            get => GetInstanceProperty<object>()!;
-            set
-            {
-                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
-                {
-                    switch (value)
-                    {
-                        case bool cast_cd4240:
-                            break;
-                        case Io.Cdktn.IResolvable cast_cd4240:
-                            break;
-                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
-                            // Not enough information to type-check...
-                            break;
-                        case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
-                        default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
-                    }
-                }
-                SetInstanceProperty(value);
-            }
-        }
-
-        [JsiiProperty(name: "poolerMode", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string PoolerMode
-        {
-            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

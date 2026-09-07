@@ -4,12 +4,12 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace neon.Project
 {
-    [JsiiClass(nativeType: typeof(neon.Project.ProjectDefaultEndpointSettingsOutputReference), fullyQualifiedName: "neon.project.ProjectDefaultEndpointSettingsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
-    public class ProjectDefaultEndpointSettingsOutputReference : Io.Cdktn.ComplexObject
+    [JsiiClass(nativeType: typeof(neon.Project.ProjectPrimaryComputeOutputReference), fullyQualifiedName: "neon.project.ProjectPrimaryComputeOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    public class ProjectPrimaryComputeOutputReference : Io.Cdktn.ComplexObject
     {
         /// <param name="terraformResource">The parent resource.</param>
         /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
-        public ProjectDefaultEndpointSettingsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        public ProjectPrimaryComputeOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
         {
         }
 
@@ -22,14 +22,14 @@ namespace neon.Project
         /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
         /// <param name="reference">The Javascript-owned object reference</param>
         [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
-        protected ProjectDefaultEndpointSettingsOutputReference(ByRefValue reference): base(reference)
+        protected ProjectPrimaryComputeOutputReference(ByRefValue reference): base(reference)
         {
         }
 
         /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
         /// <param name="props">The deputy props</param>
         [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
-        protected ProjectDefaultEndpointSettingsOutputReference(DeputyProps props): base(props)
+        protected ProjectPrimaryComputeOutputReference(DeputyProps props): base(props)
         {
         }
 
@@ -41,6 +41,12 @@ namespace neon.Project
 
         [JsiiMethod(name: "resetAutoscalingLimitMinCu")]
         public virtual void ResetAutoscalingLimitMinCu()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetName")]
+        public virtual void ResetName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -72,6 +78,13 @@ namespace neon.Project
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "suspendTimeoutSecondsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? SuspendTimeoutSecondsInput
         {
@@ -92,6 +105,13 @@ namespace neon.Project
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "suspendTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double SuspendTimeoutSeconds
         {
@@ -100,10 +120,10 @@ namespace neon.Project
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"neon.project.ProjectDefaultEndpointSettings\"}", isOptional: true)]
-        public virtual neon.Project.IProjectDefaultEndpointSettings? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"neon.project.ProjectPrimaryCompute\"}", isOptional: true)]
+        public virtual neon.Project.IProjectPrimaryCompute? InternalValue
         {
-            get => GetInstanceProperty<neon.Project.IProjectDefaultEndpointSettings?>();
+            get => GetInstanceProperty<neon.Project.IProjectPrimaryCompute?>();
             set => SetInstanceProperty(value);
         }
     }

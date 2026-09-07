@@ -35,14 +35,38 @@ namespace neon.DataNeonBranchEndpoints
         {
         }
 
+        [JsiiProperty(name: "autoscalingLimitMaxCu", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AutoscalingLimitMaxCu
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "autoscalingLimitMinCu", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AutoscalingLimitMinCu
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Host
         {
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "hostPooling", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HostPooling
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -57,6 +81,12 @@ namespace neon.DataNeonBranchEndpoints
         public virtual string RegionId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "suspendTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SuspendTimeoutSeconds
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]

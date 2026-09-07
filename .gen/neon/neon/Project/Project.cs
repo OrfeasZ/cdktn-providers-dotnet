@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace neon.Project
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/project neon_project}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/kislerdm/neon/0.16.0/docs/resources/project neon_project}.</summary>
     [JsiiClass(nativeType: typeof(neon.Project.Project), fullyQualifiedName: "neon.project.Project", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"neon.project.ProjectConfig\"}}]")]
     public class Project : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/project neon_project} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/kislerdm/neon/0.16.0/docs/resources/project neon_project} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Project(Constructs.Construct scope, string id, neon.Project.IProjectConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace neon.Project
         /// <param name="importToId">The construct id used in the generated config for the Project to import.</param>
         /// <param name="importFromId">The id of the existing Project that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Project to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Project to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/kislerdm/neon/0.15.0/docs/resources/project#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Project that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Project to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Project to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/kislerdm/neon/0.16.0/docs/resources/project#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Project that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Project to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(neon.Project.Project), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,16 +52,16 @@ namespace neon.Project
             InvokeInstanceVoidMethod(new System.Type[]{typeof(neon.Project.IProjectBranch)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putDefaultEndpointSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"neon.project.ProjectDefaultEndpointSettings\"}}]")]
-        public virtual void PutDefaultEndpointSettings(neon.Project.IProjectDefaultEndpointSettings @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(neon.Project.IProjectDefaultEndpointSettings)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "putMaintenanceWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"neon.project.ProjectMaintenanceWindow\"}}]")]
         public virtual void PutMaintenanceWindow(neon.Project.IProjectMaintenanceWindow @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(neon.Project.IProjectMaintenanceWindow)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putPrimaryCompute", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"neon.project.ProjectPrimaryCompute\"}}]")]
+        public virtual void PutPrimaryCompute(neon.Project.IProjectPrimaryCompute @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(neon.Project.IProjectPrimaryCompute)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putQuota", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"neon.project.ProjectQuota\"}}]")]
@@ -78,6 +78,18 @@ namespace neon.Project
 
         [JsiiMethod(name: "resetAllowedIpsProtectedBranchesOnly")]
         public virtual void ResetAllowedIpsProtectedBranchesOnly()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAutoscalingLimitMaxCu")]
+        public virtual void ResetAutoscalingLimitMaxCu()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAutoscalingLimitMinCu")]
+        public virtual void ResetAutoscalingLimitMinCu()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -108,12 +120,6 @@ namespace neon.Project
 
         [JsiiMethod(name: "resetDefaultBranchProtected")]
         public virtual void ResetDefaultBranchProtected()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetDefaultEndpointSettings")]
-        public virtual void ResetDefaultEndpointSettings()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -160,6 +166,12 @@ namespace neon.Project
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPrimaryCompute")]
+        public virtual void ResetPrimaryCompute()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetQuota")]
         public virtual void ResetQuota()
         {
@@ -174,6 +186,12 @@ namespace neon.Project
 
         [JsiiMethod(name: "resetStorePassword")]
         public virtual void ResetStorePassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSuspendTimeoutSeconds")]
+        public virtual void ResetSuspendTimeoutSeconds()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -257,12 +275,6 @@ namespace neon.Project
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "defaultEndpointSettings", typeJson: "{\"fqn\":\"neon.project.ProjectDefaultEndpointSettingsOutputReference\"}")]
-        public virtual neon.Project.ProjectDefaultEndpointSettingsOutputReference DefaultEndpointSettings
-        {
-            get => GetInstanceProperty<neon.Project.ProjectDefaultEndpointSettingsOutputReference>()!;
-        }
-
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -273,6 +285,12 @@ namespace neon.Project
         public virtual neon.Project.ProjectMaintenanceWindowOutputReference MaintenanceWindow
         {
             get => GetInstanceProperty<neon.Project.ProjectMaintenanceWindowOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "primaryCompute", typeJson: "{\"fqn\":\"neon.project.ProjectPrimaryComputeOutputReference\"}")]
+        public virtual neon.Project.ProjectPrimaryComputeOutputReference PrimaryCompute
+        {
+            get => GetInstanceProperty<neon.Project.ProjectPrimaryComputeOutputReference>()!;
         }
 
         [JsiiProperty(name: "quota", typeJson: "{\"fqn\":\"neon.project.ProjectQuotaOutputReference\"}")]
@@ -293,6 +311,20 @@ namespace neon.Project
         public virtual string? AllowedIpsProtectedBranchesOnlyInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "autoscalingLimitMaxCuInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? AutoscalingLimitMaxCuInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "autoscalingLimitMinCuInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? AutoscalingLimitMinCuInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -331,13 +363,6 @@ namespace neon.Project
         public virtual object? DefaultBranchProtectedInput
         {
             get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "defaultEndpointSettingsInput", typeJson: "{\"fqn\":\"neon.project.ProjectDefaultEndpointSettings\"}", isOptional: true)]
-        public virtual neon.Project.IProjectDefaultEndpointSettings? DefaultEndpointSettingsInput
-        {
-            get => GetInstanceProperty<neon.Project.IProjectDefaultEndpointSettings?>();
         }
 
         [JsiiOptional]
@@ -390,6 +415,13 @@ namespace neon.Project
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "primaryComputeInput", typeJson: "{\"fqn\":\"neon.project.ProjectPrimaryCompute\"}", isOptional: true)]
+        public virtual neon.Project.IProjectPrimaryCompute? PrimaryComputeInput
+        {
+            get => GetInstanceProperty<neon.Project.IProjectPrimaryCompute?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "quotaInput", typeJson: "{\"fqn\":\"neon.project.ProjectQuota\"}", isOptional: true)]
         public virtual neon.Project.IProjectQuota? QuotaInput
         {
@@ -410,6 +442,13 @@ namespace neon.Project
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "suspendTimeoutSecondsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? SuspendTimeoutSecondsInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
         [JsiiProperty(name: "allowedIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AllowedIps
         {
@@ -421,6 +460,20 @@ namespace neon.Project
         public virtual string AllowedIpsProtectedBranchesOnly
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "autoscalingLimitMaxCu", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AutoscalingLimitMaxCu
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "autoscalingLimitMinCu", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double AutoscalingLimitMinCu
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -528,6 +581,13 @@ namespace neon.Project
         public virtual string StorePassword
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "suspendTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SuspendTimeoutSeconds
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
     }
