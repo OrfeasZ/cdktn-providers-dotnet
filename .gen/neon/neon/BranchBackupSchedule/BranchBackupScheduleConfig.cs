@@ -2,16 +2,16 @@ using Amazon.JSII.Runtime.Deputy;
 
 #pragma warning disable CS0672,CS0809,CS1591
 
-namespace neon.DataNeonBranchRoles
+namespace neon.BranchBackupSchedule
 {
     #pragma warning disable CS8618
 
-    [JsiiByValue(fqn: "neon.dataNeonBranchRoles.DataNeonBranchRolesConfig")]
-    public class DataNeonBranchRolesConfig : neon.DataNeonBranchRoles.IDataNeonBranchRolesConfig
+    [JsiiByValue(fqn: "neon.branchBackupSchedule.BranchBackupScheduleConfig")]
+    public class BranchBackupScheduleConfig : neon.BranchBackupSchedule.IBranchBackupScheduleConfig
     {
-        /// <summary>Branch ID.</summary>
+        /// <summary>The Neon branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/data-sources/branch_roles#branch_id DataNeonBranchRoles#branch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#branch_id BranchBackupSchedule#branch_id}
         /// </remarks>
         [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchId
@@ -20,9 +20,9 @@ namespace neon.DataNeonBranchRoles
             set;
         }
 
-        /// <summary>Project ID.</summary>
+        /// <summary>The Neon project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/data-sources/branch_roles#project_id DataNeonBranchRoles#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#project_id BranchBackupSchedule#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
@@ -31,31 +31,17 @@ namespace neon.DataNeonBranchRoles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/data-sources/branch_roles#id DataNeonBranchRoles#id}.</summary>
-        /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
+        private object _schedule;
 
-        private object? _roles;
-
-        /// <summary>roles block.</summary>
+        /// <summary>Snapshot frequencies configured for the branch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/data-sources/branch_roles#roles DataNeonBranchRoles#roles}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#schedule BranchBackupSchedule#schedule}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.BranchBackupSchedule.IBranchBackupScheduleSchedule" />)[]</para>
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "roles", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.dataNeonBranchRoles.DataNeonBranchRolesRoles\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        public object? Roles
+        [JsiiProperty(name: "schedule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.branchBackupSchedule.BranchBackupScheduleSchedule\"},\"kind\":\"array\"}}]}}")]
+        public object Schedule
         {
-            get => _roles;
+            get => _schedule;
             set
             {
                 if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -64,18 +50,18 @@ namespace neon.DataNeonBranchRoles
                     {
                         case Io.Cdktn.IResolvable cast_cd4240:
                             break;
-                        case neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles[] cast_cd4240:
+                        case neon.BranchBackupSchedule.IBranchBackupScheduleSchedule[] cast_cd4240:
                             break;
                         case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
                             // Not enough information to type-check...
                             break;
                         case null:
-                            break;
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(neon.BranchBackupSchedule.IBranchBackupScheduleSchedule).FullName}[]; received null", nameof(value));
                         default:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(neon.DataNeonBranchRoles.IDataNeonBranchRolesRoles).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(neon.BranchBackupSchedule.IBranchBackupScheduleSchedule).FullName}[]; received {value.GetType().FullName}", nameof(value));
                     }
                 }
-                _roles = value;
+                _schedule = value;
             }
         }
 

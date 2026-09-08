@@ -2,81 +2,78 @@ using Amazon.JSII.Runtime.Deputy;
 
 #pragma warning disable CS0672,CS0809,CS1591
 
-namespace neon.OrgApiKey
+namespace neon.BranchBackupSchedule
 {
-    [JsiiInterface(nativeType: typeof(IOrgApiKeyConfig), fullyQualifiedName: "neon.orgApiKey.OrgApiKeyConfig")]
-    public interface IOrgApiKeyConfig : Io.Cdktn.ITerraformMetaArguments
+    [JsiiInterface(nativeType: typeof(IBranchBackupScheduleConfig), fullyQualifiedName: "neon.branchBackupSchedule.BranchBackupScheduleConfig")]
+    public interface IBranchBackupScheduleConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The name of the API Key.</summary>
+        /// <summary>The Neon branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/org_api_key#name OrgApiKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#branch_id BranchBackupSchedule#branch_id}
         /// </remarks>
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        string Name
+        [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
+        string BranchId
         {
             get;
         }
 
-        /// <summary>The organisation ID.</summary>
+        /// <summary>The Neon project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/org_api_key#org_id OrgApiKey#org_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#project_id BranchBackupSchedule#project_id}
         /// </remarks>
-        [JsiiProperty(name: "orgId", typeJson: "{\"primitive\":\"string\"}")]
-        string OrgId
+        [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
+        string ProjectId
         {
             get;
         }
 
-        /// <summary>The project ID to which this key will grant the access to.</summary>
+        /// <summary>Snapshot frequencies configured for the branch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/org_api_key#project_id OrgApiKey#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#schedule BranchBackupSchedule#schedule}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.BranchBackupSchedule.IBranchBackupScheduleSchedule" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ProjectId
+        [JsiiProperty(name: "schedule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.branchBackupSchedule.BranchBackupScheduleSchedule\"},\"kind\":\"array\"}}]}}")]
+        object Schedule
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
-        [JsiiTypeProxy(nativeType: typeof(IOrgApiKeyConfig), fullyQualifiedName: "neon.orgApiKey.OrgApiKeyConfig")]
-        internal sealed class _Proxy : DeputyBase, neon.OrgApiKey.IOrgApiKeyConfig
+        [JsiiTypeProxy(nativeType: typeof(IBranchBackupScheduleConfig), fullyQualifiedName: "neon.branchBackupSchedule.BranchBackupScheduleConfig")]
+        internal sealed class _Proxy : DeputyBase, neon.BranchBackupSchedule.IBranchBackupScheduleConfig
         {
             private _Proxy(ByRefValue reference): base(reference)
             {
             }
 
-            /// <summary>The name of the API Key.</summary>
+            /// <summary>The Neon branch ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/org_api_key#name OrgApiKey#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#branch_id BranchBackupSchedule#branch_id}
             /// </remarks>
-            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-            public string Name
+            [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
+            public string BranchId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The organisation ID.</summary>
+            /// <summary>The Neon project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/org_api_key#org_id OrgApiKey#org_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#project_id BranchBackupSchedule#project_id}
             /// </remarks>
-            [JsiiProperty(name: "orgId", typeJson: "{\"primitive\":\"string\"}")]
-            public string OrgId
+            [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
+            public string ProjectId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The project ID to which this key will grant the access to.</summary>
+            /// <summary>Snapshot frequencies configured for the branch.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/org_api_key#project_id OrgApiKey#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#schedule BranchBackupSchedule#schedule}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.BranchBackupSchedule.IBranchBackupScheduleSchedule" />)[]</para>
             /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ProjectId
+            [JsiiProperty(name: "schedule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.branchBackupSchedule.BranchBackupScheduleSchedule\"},\"kind\":\"array\"}}]}}")]
+            public object Schedule
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<object>()!;
             }
 
             /// <remarks>
