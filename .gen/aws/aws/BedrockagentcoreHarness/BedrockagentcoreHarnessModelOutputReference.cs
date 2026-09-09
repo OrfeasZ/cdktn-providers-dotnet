@@ -83,6 +83,30 @@ namespace aws.BedrockagentcoreHarness
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessModelLitellmModelConfig" />)[]</param>
+        [JsiiMethod(name: "putLitellmModelConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutLitellmModelConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessModelLitellmModelConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessModelLitellmModelConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessModelLitellmModelConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessModelOpenaiModelConfig" />)[]</param>
         [JsiiMethod(name: "putOpenaiModelConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelOpenaiModelConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutOpenaiModelConfig(object @value)
@@ -119,6 +143,12 @@ namespace aws.BedrockagentcoreHarness
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLitellmModelConfig")]
+        public virtual void ResetLitellmModelConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOpenaiModelConfig")]
         public virtual void ResetOpenaiModelConfig()
         {
@@ -135,6 +165,12 @@ namespace aws.BedrockagentcoreHarness
         public virtual aws.BedrockagentcoreHarness.BedrockagentcoreHarnessModelGeminiModelConfigList GeminiModelConfig
         {
             get => GetInstanceProperty<aws.BedrockagentcoreHarness.BedrockagentcoreHarnessModelGeminiModelConfigList>()!;
+        }
+
+        [JsiiProperty(name: "litellmModelConfig", typeJson: "{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfigList\"}")]
+        public virtual aws.BedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfigList LitellmModelConfig
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfigList>()!;
         }
 
         [JsiiProperty(name: "openaiModelConfig", typeJson: "{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelOpenaiModelConfigList\"}")]
@@ -159,6 +195,16 @@ namespace aws.BedrockagentcoreHarness
         [JsiiOptional]
         [JsiiProperty(name: "geminiModelConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelGeminiModelConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? GeminiModelConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessModelLitellmModelConfig" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "litellmModelConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreHarness.BedrockagentcoreHarnessModelLitellmModelConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? LitellmModelConfigInput
         {
             get => GetInstanceProperty<object?>();
         }

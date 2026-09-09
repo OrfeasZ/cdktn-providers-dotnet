@@ -11,7 +11,7 @@ namespace aws.AccountaccessApplication
 
         /// <summary>identity_center block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_application#identity_center AccountaccessApplication#identity_center}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AccountaccessApplication.IAccountaccessApplicationIdentitySourceIdentityCenter" />)[]</para>
         /// </remarks>
         [JsiiOptional]

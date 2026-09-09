@@ -7,11 +7,15 @@ namespace aws.BedrockagentcoreHarness
     [JsiiInterface(nativeType: typeof(IBedrockagentcoreHarnessSystemPrompt), fullyQualifiedName: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSystemPrompt")]
     public interface IBedrockagentcoreHarnessSystemPrompt
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
-        [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
-        string Text
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
+        [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Text
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IBedrockagentcoreHarnessSystemPrompt), fullyQualifiedName: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSystemPrompt")]
@@ -21,11 +25,12 @@ namespace aws.BedrockagentcoreHarness
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
-            [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
-            public string Text
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Text
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
         }
     }

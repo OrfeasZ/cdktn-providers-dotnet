@@ -33,6 +33,12 @@ namespace aws.EcsCapacityProvider
         {
         }
 
+        [JsiiMethod(name: "putAutoRepairConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration\"}}]")]
+        public virtual void PutAutoRepairConfiguration(aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putInfrastructureOptimization", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInfrastructureOptimization\"}}]")]
         public virtual void PutInfrastructureOptimization(aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderInfrastructureOptimization @value)
         {
@@ -43,6 +49,12 @@ namespace aws.EcsCapacityProvider
         public virtual void PutInstanceLaunchTemplate(aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplate @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplate)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAutoRepairConfiguration")]
+        public virtual void ResetAutoRepairConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetInfrastructureOptimization")]
@@ -57,6 +69,12 @@ namespace aws.EcsCapacityProvider
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "autoRepairConfiguration", typeJson: "{\"fqn\":\"aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderAutoRepairConfigurationOutputReference\"}")]
+        public virtual aws.EcsCapacityProvider.EcsCapacityProviderManagedInstancesProviderAutoRepairConfigurationOutputReference AutoRepairConfiguration
+        {
+            get => GetInstanceProperty<aws.EcsCapacityProvider.EcsCapacityProviderManagedInstancesProviderAutoRepairConfigurationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "infrastructureOptimization", typeJson: "{\"fqn\":\"aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInfrastructureOptimizationOutputReference\"}")]
         public virtual aws.EcsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInfrastructureOptimizationOutputReference InfrastructureOptimization
         {
@@ -67,6 +85,13 @@ namespace aws.EcsCapacityProvider
         public virtual aws.EcsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference InstanceLaunchTemplate
         {
             get => GetInstanceProperty<aws.EcsCapacityProvider.EcsCapacityProviderManagedInstancesProviderInstanceLaunchTemplateOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "autoRepairConfigurationInput", typeJson: "{\"fqn\":\"aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration\"}", isOptional: true)]
+        public virtual aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration? AutoRepairConfigurationInput
+        {
+            get => GetInstanceProperty<aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration?>();
         }
 
         [JsiiOptional]

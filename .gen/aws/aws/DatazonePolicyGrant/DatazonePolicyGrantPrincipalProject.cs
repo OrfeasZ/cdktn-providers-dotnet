@@ -9,7 +9,7 @@ namespace aws.DatazonePolicyGrant
     [JsiiByValue(fqn: "aws.datazonePolicyGrant.DatazonePolicyGrantPrincipalProject")]
     public class DatazonePolicyGrantPrincipalProject : aws.DatazonePolicyGrant.IDatazonePolicyGrantPrincipalProject
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datazone_policy_grant#project_designation DatazonePolicyGrant#project_designation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#project_designation DatazonePolicyGrant#project_designation}.</summary>
         [JsiiProperty(name: "projectDesignation", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectDesignation
         {
@@ -21,7 +21,7 @@ namespace aws.DatazonePolicyGrant
 
         /// <summary>domain_unit_filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datazone_policy_grant#domain_unit_filter DatazonePolicyGrant#domain_unit_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#domain_unit_filter DatazonePolicyGrant#domain_unit_filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DatazonePolicyGrant.IDatazonePolicyGrantPrincipalProjectDomainUnitFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace aws.DatazonePolicyGrant
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datazone_policy_grant#project_identifier DatazonePolicyGrant#project_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#project_identifier DatazonePolicyGrant#project_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "projectIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ProjectIdentifier

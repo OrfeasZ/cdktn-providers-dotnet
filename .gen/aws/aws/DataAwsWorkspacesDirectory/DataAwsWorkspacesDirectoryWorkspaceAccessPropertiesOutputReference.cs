@@ -35,6 +35,12 @@ namespace aws.DataAwsWorkspacesDirectory
         {
         }
 
+        [JsiiProperty(name: "accessEndpointConfig", typeJson: "{\"fqn\":\"aws.dataAwsWorkspacesDirectory.DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigList\"}")]
+        public virtual aws.DataAwsWorkspacesDirectory.DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigList AccessEndpointConfig
+        {
+            get => GetInstanceProperty<aws.DataAwsWorkspacesDirectory.DataAwsWorkspacesDirectoryWorkspaceAccessPropertiesAccessEndpointConfigList>()!;
+        }
+
         [JsiiProperty(name: "deviceTypeAndroid", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DeviceTypeAndroid
         {

@@ -5,7 +5,7 @@ namespace aws.DatazonePolicyGrant
     /// <remarks>
     /// <h1><c>aws_datazone_policy_grant</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datazone_policy_grant"><c>aws_datazone_policy_grant</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant"><c>aws_datazone_policy_grant</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

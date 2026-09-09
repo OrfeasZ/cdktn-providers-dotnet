@@ -41,16 +41,82 @@ namespace aws.MskReplicator
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MskReplicator.IMskReplicatorKafkaClusterAmazonMskCluster)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putApacheKafkaCluster", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterApacheKafkaCluster\"}}]")]
+        public virtual void PutApacheKafkaCluster(aws.MskReplicator.IMskReplicatorKafkaClusterApacheKafkaCluster @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MskReplicator.IMskReplicatorKafkaClusterApacheKafkaCluster)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putClientAuthentication", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterClientAuthentication\"}}]")]
+        public virtual void PutClientAuthentication(aws.MskReplicator.IMskReplicatorKafkaClusterClientAuthentication @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MskReplicator.IMskReplicatorKafkaClusterClientAuthentication)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putEncryptionInTransit", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterEncryptionInTransit\"}}]")]
+        public virtual void PutEncryptionInTransit(aws.MskReplicator.IMskReplicatorKafkaClusterEncryptionInTransit @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MskReplicator.IMskReplicatorKafkaClusterEncryptionInTransit)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putVpcConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterVpcConfig\"}}]")]
         public virtual void PutVpcConfig(aws.MskReplicator.IMskReplicatorKafkaClusterVpcConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MskReplicator.IMskReplicatorKafkaClusterVpcConfig)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAmazonMskCluster")]
+        public virtual void ResetAmazonMskCluster()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetApacheKafkaCluster")]
+        public virtual void ResetApacheKafkaCluster()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetClientAuthentication")]
+        public virtual void ResetClientAuthentication()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEncryptionInTransit")]
+        public virtual void ResetEncryptionInTransit()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVpcConfig")]
+        public virtual void ResetVpcConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "amazonMskCluster", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference\"}")]
         public virtual aws.MskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference AmazonMskCluster
         {
             get => GetInstanceProperty<aws.MskReplicator.MskReplicatorKafkaClusterAmazonMskClusterOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "apacheKafkaCluster", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterApacheKafkaClusterOutputReference\"}")]
+        public virtual aws.MskReplicator.MskReplicatorKafkaClusterApacheKafkaClusterOutputReference ApacheKafkaCluster
+        {
+            get => GetInstanceProperty<aws.MskReplicator.MskReplicatorKafkaClusterApacheKafkaClusterOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "clientAuthentication", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterClientAuthenticationOutputReference\"}")]
+        public virtual aws.MskReplicator.MskReplicatorKafkaClusterClientAuthenticationOutputReference ClientAuthentication
+        {
+            get => GetInstanceProperty<aws.MskReplicator.MskReplicatorKafkaClusterClientAuthenticationOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "encryptionInTransit", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterEncryptionInTransitOutputReference\"}")]
+        public virtual aws.MskReplicator.MskReplicatorKafkaClusterEncryptionInTransitOutputReference EncryptionInTransit
+        {
+            get => GetInstanceProperty<aws.MskReplicator.MskReplicatorKafkaClusterEncryptionInTransitOutputReference>()!;
         }
 
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterVpcConfigOutputReference\"}")]
@@ -64,6 +130,27 @@ namespace aws.MskReplicator
         public virtual aws.MskReplicator.IMskReplicatorKafkaClusterAmazonMskCluster? AmazonMskClusterInput
         {
             get => GetInstanceProperty<aws.MskReplicator.IMskReplicatorKafkaClusterAmazonMskCluster?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apacheKafkaClusterInput", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterApacheKafkaCluster\"}", isOptional: true)]
+        public virtual aws.MskReplicator.IMskReplicatorKafkaClusterApacheKafkaCluster? ApacheKafkaClusterInput
+        {
+            get => GetInstanceProperty<aws.MskReplicator.IMskReplicatorKafkaClusterApacheKafkaCluster?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "clientAuthenticationInput", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterClientAuthentication\"}", isOptional: true)]
+        public virtual aws.MskReplicator.IMskReplicatorKafkaClusterClientAuthentication? ClientAuthenticationInput
+        {
+            get => GetInstanceProperty<aws.MskReplicator.IMskReplicatorKafkaClusterClientAuthentication?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "encryptionInTransitInput", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorKafkaClusterEncryptionInTransit\"}", isOptional: true)]
+        public virtual aws.MskReplicator.IMskReplicatorKafkaClusterEncryptionInTransit? EncryptionInTransitInput
+        {
+            get => GetInstanceProperty<aws.MskReplicator.IMskReplicatorKafkaClusterEncryptionInTransit?>();
         }
 
         [JsiiOptional]

@@ -81,6 +81,30 @@ namespace aws.MskReplicator
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetSourceKafkaClusterArn")]
+        public virtual void ResetSourceKafkaClusterArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSourceKafkaClusterId")]
+        public virtual void ResetSourceKafkaClusterId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTargetKafkaClusterArn")]
+        public virtual void ResetTargetKafkaClusterArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTargetKafkaClusterId")]
+        public virtual void ResetTargetKafkaClusterId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "consumerGroupReplication", typeJson: "{\"fqn\":\"aws.mskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplicationList\"}")]
         public virtual aws.MskReplicator.MskReplicatorReplicationInfoListConsumerGroupReplicationList ConsumerGroupReplication
         {
@@ -123,6 +147,13 @@ namespace aws.MskReplicator
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "sourceKafkaClusterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SourceKafkaClusterIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "targetCompressionTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TargetCompressionTypeInput
         {
@@ -132,6 +163,13 @@ namespace aws.MskReplicator
         [JsiiOptional]
         [JsiiProperty(name: "targetKafkaClusterArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TargetKafkaClusterArnInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "targetKafkaClusterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TargetKafkaClusterIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -153,6 +191,13 @@ namespace aws.MskReplicator
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "sourceKafkaClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceKafkaClusterId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "targetCompressionType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TargetCompressionType
         {
@@ -162,6 +207,13 @@ namespace aws.MskReplicator
 
         [JsiiProperty(name: "targetKafkaClusterArn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TargetKafkaClusterArn
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "targetKafkaClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetKafkaClusterId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

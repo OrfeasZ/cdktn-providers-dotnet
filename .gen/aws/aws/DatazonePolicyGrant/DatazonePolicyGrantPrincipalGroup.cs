@@ -9,7 +9,7 @@ namespace aws.DatazonePolicyGrant
     [JsiiByValue(fqn: "aws.datazonePolicyGrant.DatazonePolicyGrantPrincipalGroup")]
     public class DatazonePolicyGrantPrincipalGroup : aws.DatazonePolicyGrant.IDatazonePolicyGrantPrincipalGroup
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datazone_policy_grant#group_identifier DatazonePolicyGrant#group_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#group_identifier DatazonePolicyGrant#group_identifier}.</summary>
         [JsiiProperty(name: "groupIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupIdentifier
         {

@@ -4,14 +4,13 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.BedrockagentcoreHarness
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "aws.bedrockagentcoreHarness.BedrockagentcoreHarnessSystemPrompt")]
     public class BedrockagentcoreHarnessSystemPrompt : aws.BedrockagentcoreHarness.IBedrockagentcoreHarnessSystemPrompt
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
-        [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
-        public string Text
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/bedrockagentcore_harness#text BedrockagentcoreHarness#text}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Text
         {
             get;
             set;

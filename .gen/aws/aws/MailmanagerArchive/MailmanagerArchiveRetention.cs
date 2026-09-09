@@ -9,7 +9,7 @@ namespace aws.MailmanagerArchive
     [JsiiByValue(fqn: "aws.mailmanagerArchive.MailmanagerArchiveRetention")]
     public class MailmanagerArchiveRetention : aws.MailmanagerArchive.IMailmanagerArchiveRetention
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/mailmanager_archive#retention_period MailmanagerArchive#retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/mailmanager_archive#retention_period MailmanagerArchive#retention_period}.</summary>
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"string\"}")]
         public string RetentionPeriod
         {

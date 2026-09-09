@@ -9,7 +9,7 @@ namespace aws.DatazonePolicyGrant
     [JsiiByValue(fqn: "aws.datazonePolicyGrant.DatazonePolicyGrantPrincipalProjectDomainUnitFilter")]
     public class DatazonePolicyGrantPrincipalProjectDomainUnitFilter : aws.DatazonePolicyGrant.IDatazonePolicyGrantPrincipalProjectDomainUnitFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datazone_policy_grant#domain_unit DatazonePolicyGrant#domain_unit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#domain_unit DatazonePolicyGrant#domain_unit}.</summary>
         [JsiiProperty(name: "domainUnit", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainUnit
         {
@@ -19,7 +19,7 @@ namespace aws.DatazonePolicyGrant
 
         private object? _includeChildDomainUnits;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.63.0/docs/resources/datazone_policy_grant#include_child_domain_units DatazonePolicyGrant#include_child_domain_units}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/datazone_policy_grant#include_child_domain_units DatazonePolicyGrant#include_child_domain_units}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

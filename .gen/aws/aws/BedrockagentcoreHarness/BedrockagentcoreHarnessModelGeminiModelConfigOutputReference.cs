@@ -35,6 +35,12 @@ namespace aws.BedrockagentcoreHarness
         {
         }
 
+        [JsiiMethod(name: "resetAdditionalParams")]
+        public virtual void ResetAdditionalParams()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMaxTokens")]
         public virtual void ResetMaxTokens()
         {
@@ -57,6 +63,13 @@ namespace aws.BedrockagentcoreHarness
         public virtual void ResetTopP()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "additionalParamsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AdditionalParamsInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -99,6 +112,13 @@ namespace aws.BedrockagentcoreHarness
         public virtual double? TopPInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "additionalParams", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AdditionalParams
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "apiKeyArn", typeJson: "{\"primitive\":\"string\"}")]

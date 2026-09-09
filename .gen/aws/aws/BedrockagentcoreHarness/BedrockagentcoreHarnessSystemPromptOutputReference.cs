@@ -35,6 +35,12 @@ namespace aws.BedrockagentcoreHarness
         {
         }
 
+        [JsiiMethod(name: "resetText")]
+        public virtual void ResetText()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "textInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TextInput
