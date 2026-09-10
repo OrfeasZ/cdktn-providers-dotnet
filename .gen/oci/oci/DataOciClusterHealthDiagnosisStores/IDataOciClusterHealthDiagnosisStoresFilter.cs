@@ -7,21 +7,21 @@ namespace oci.DataOciClusterHealthDiagnosisStores
     [JsiiInterface(nativeType: typeof(IDataOciClusterHealthDiagnosisStoresFilter), fullyQualifiedName: "oci.dataOciClusterHealthDiagnosisStores.DataOciClusterHealthDiagnosisStoresFilter")]
     public interface IDataOciClusterHealthDiagnosisStoresFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#name DataOciClusterHealthDiagnosisStores#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#name DataOciClusterHealthDiagnosisStores#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#values DataOciClusterHealthDiagnosisStores#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#values DataOciClusterHealthDiagnosisStores#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#regex DataOciClusterHealthDiagnosisStores#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#regex DataOciClusterHealthDiagnosisStores#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciClusterHealthDiagnosisStores
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#name DataOciClusterHealthDiagnosisStores#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#name DataOciClusterHealthDiagnosisStores#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#values DataOciClusterHealthDiagnosisStores#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#values DataOciClusterHealthDiagnosisStores#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#regex DataOciClusterHealthDiagnosisStores#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#regex DataOciClusterHealthDiagnosisStores#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

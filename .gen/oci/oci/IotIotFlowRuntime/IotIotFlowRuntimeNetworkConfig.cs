@@ -9,7 +9,7 @@ namespace oci.IotIotFlowRuntime
     [JsiiByValue(fqn: "oci.iotIotFlowRuntime.IotIotFlowRuntimeNetworkConfig")]
     public class IotIotFlowRuntimeNetworkConfig : oci.IotIotFlowRuntime.IIotIotFlowRuntimeNetworkConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime#subnet_id IotIotFlowRuntime#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime#subnet_id IotIotFlowRuntime#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubnetId
         {
@@ -21,7 +21,7 @@ namespace oci.IotIotFlowRuntime
 
         /// <summary>file_storage_mounts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime#file_storage_mounts IotIotFlowRuntime#file_storage_mounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime#file_storage_mounts IotIotFlowRuntime#file_storage_mounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.IotIotFlowRuntime.IIotIotFlowRuntimeNetworkConfigFileStorageMounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.IotIotFlowRuntime
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime#network_security_group_ids IotIotFlowRuntime#network_security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime#network_security_group_ids IotIotFlowRuntime#network_security_group_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "networkSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? NetworkSecurityGroupIds

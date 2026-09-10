@@ -107,6 +107,12 @@ namespace oci.OcvpSddc
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetInitialFaultDomainHostDistribution")]
+        public virtual void ResetInitialFaultDomainHostDistribution()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInitialHostOcpuCount")]
         public virtual void ResetInitialHostOcpuCount()
         {
@@ -233,6 +239,13 @@ namespace oci.OcvpSddc
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "initialFaultDomainHostDistributionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? InitialFaultDomainHostDistributionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "initialHostOcpuCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? InitialHostOcpuCountInput
         {
@@ -328,6 +341,13 @@ namespace oci.OcvpSddc
 
         [JsiiProperty(name: "initialCommitment", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InitialCommitment
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "initialFaultDomainHostDistribution", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialFaultDomainHostDistribution
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

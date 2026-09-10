@@ -7,7 +7,7 @@ namespace oci.DataOciClusterHealthDiagnosisStores
     [JsiiByValue(fqn: "oci.dataOciClusterHealthDiagnosisStores.DataOciClusterHealthDiagnosisStoresConfig")]
     public class DataOciClusterHealthDiagnosisStoresConfig : oci.DataOciClusterHealthDiagnosisStores.IDataOciClusterHealthDiagnosisStoresConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#compartment_id DataOciClusterHealthDiagnosisStores#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#compartment_id DataOciClusterHealthDiagnosisStores#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciClusterHealthDiagnosisStores
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#diagnosis_store_id DataOciClusterHealthDiagnosisStores#diagnosis_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#diagnosis_store_id DataOciClusterHealthDiagnosisStores#diagnosis_store_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "diagnosisStoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DiagnosisStoreId
@@ -25,7 +25,7 @@ namespace oci.DataOciClusterHealthDiagnosisStores
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#display_name DataOciClusterHealthDiagnosisStores#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#display_name DataOciClusterHealthDiagnosisStores#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -38,7 +38,7 @@ namespace oci.DataOciClusterHealthDiagnosisStores
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#filter DataOciClusterHealthDiagnosisStores#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#filter DataOciClusterHealthDiagnosisStores#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciClusterHealthDiagnosisStores.IDataOciClusterHealthDiagnosisStoresFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -69,7 +69,7 @@ namespace oci.DataOciClusterHealthDiagnosisStores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#id DataOciClusterHealthDiagnosisStores#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#id DataOciClusterHealthDiagnosisStores#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace oci.DataOciClusterHealthDiagnosisStores
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_stores#state DataOciClusterHealthDiagnosisStores#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_stores#state DataOciClusterHealthDiagnosisStores#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

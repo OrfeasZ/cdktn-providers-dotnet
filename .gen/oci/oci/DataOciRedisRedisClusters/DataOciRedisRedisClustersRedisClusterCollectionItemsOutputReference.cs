@@ -47,6 +47,18 @@ namespace oci.DataOciRedisRedisClusters
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "clusterReplicationTopology", typeJson: "{\"fqn\":\"oci.dataOciRedisRedisClusters.DataOciRedisRedisClustersRedisClusterCollectionItemsClusterReplicationTopologyList\"}")]
+        public virtual oci.DataOciRedisRedisClusters.DataOciRedisRedisClustersRedisClusterCollectionItemsClusterReplicationTopologyList ClusterReplicationTopology
+        {
+            get => GetInstanceProperty<oci.DataOciRedisRedisClusters.DataOciRedisRedisClustersRedisClusterCollectionItemsClusterReplicationTopologyList>()!;
+        }
+
+        [JsiiProperty(name: "clusterRole", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClusterRole
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {
@@ -127,6 +139,12 @@ namespace oci.DataOciRedisRedisClusters
 
         [JsiiProperty(name: "ociCacheConfigSetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OciCacheConfigSetId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "primaryClusterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PrimaryClusterId
         {
             get => GetInstanceProperty<string>()!;
         }

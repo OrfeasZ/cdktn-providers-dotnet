@@ -77,6 +77,12 @@ namespace oci.DataOciOcvpEsxiHosts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "computeFaultDomain", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ComputeFaultDomain
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "computeInstanceId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ComputeInstanceId
         {
@@ -163,6 +169,12 @@ namespace oci.DataOciOcvpEsxiHosts
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "initialFaultDomainHostDistribution", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string InitialFaultDomainHostDistribution
         {
             get => GetInstanceProperty<string>()!;
         }

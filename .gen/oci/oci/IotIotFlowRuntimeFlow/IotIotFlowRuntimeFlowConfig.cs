@@ -9,7 +9,7 @@ namespace oci.IotIotFlowRuntimeFlow
     [JsiiByValue(fqn: "oci.iotIotFlowRuntimeFlow.IotIotFlowRuntimeFlowConfig")]
     public class IotIotFlowRuntimeFlowConfig : oci.IotIotFlowRuntimeFlow.IIotIotFlowRuntimeFlowConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_flow#flows_document IotIotFlowRuntimeFlow#flows_document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_flow#flows_document IotIotFlowRuntimeFlow#flows_document}.</summary>
         [JsiiProperty(name: "flowsDocument", typeJson: "{\"primitive\":\"string\"}")]
         public string FlowsDocument
         {
@@ -17,7 +17,7 @@ namespace oci.IotIotFlowRuntimeFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_flow#iot_flow_runtime_id IotIotFlowRuntimeFlow#iot_flow_runtime_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_flow#iot_flow_runtime_id IotIotFlowRuntimeFlow#iot_flow_runtime_id}.</summary>
         [JsiiProperty(name: "iotFlowRuntimeId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotFlowRuntimeId
         {
@@ -25,7 +25,7 @@ namespace oci.IotIotFlowRuntimeFlow
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_flow#id IotIotFlowRuntimeFlow#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_flow#id IotIotFlowRuntimeFlow#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace oci.IotIotFlowRuntimeFlow
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_flow#timeouts IotIotFlowRuntimeFlow#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_flow#timeouts IotIotFlowRuntimeFlow#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotIotFlowRuntimeFlow.IotIotFlowRuntimeFlowTimeouts\"}", isOptional: true)]

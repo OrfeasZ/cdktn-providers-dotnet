@@ -7,21 +7,21 @@ namespace oci.DataOciIotIotFlowRuntimes
     [JsiiInterface(nativeType: typeof(IDataOciIotIotFlowRuntimesFilter), fullyQualifiedName: "oci.dataOciIotIotFlowRuntimes.DataOciIotIotFlowRuntimesFilter")]
     public interface IDataOciIotIotFlowRuntimesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_flow_runtimes#name DataOciIotIotFlowRuntimes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/iot_iot_flow_runtimes#name DataOciIotIotFlowRuntimes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_flow_runtimes#values DataOciIotIotFlowRuntimes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/iot_iot_flow_runtimes#values DataOciIotIotFlowRuntimes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_flow_runtimes#regex DataOciIotIotFlowRuntimes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/iot_iot_flow_runtimes#regex DataOciIotIotFlowRuntimes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciIotIotFlowRuntimes
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_flow_runtimes#name DataOciIotIotFlowRuntimes#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/iot_iot_flow_runtimes#name DataOciIotIotFlowRuntimes#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_flow_runtimes#values DataOciIotIotFlowRuntimes#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/iot_iot_flow_runtimes#values DataOciIotIotFlowRuntimes#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_flow_runtimes#regex DataOciIotIotFlowRuntimes#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/iot_iot_flow_runtimes#regex DataOciIotIotFlowRuntimes#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

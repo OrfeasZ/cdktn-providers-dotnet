@@ -9,7 +9,7 @@ namespace oci.IotIotFlowRuntimeDeactivate
     [JsiiByValue(fqn: "oci.iotIotFlowRuntimeDeactivate.IotIotFlowRuntimeDeactivateConfig")]
     public class IotIotFlowRuntimeDeactivateConfig : oci.IotIotFlowRuntimeDeactivate.IIotIotFlowRuntimeDeactivateConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_deactivate#iot_flow_runtime_id IotIotFlowRuntimeDeactivate#iot_flow_runtime_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_deactivate#iot_flow_runtime_id IotIotFlowRuntimeDeactivate#iot_flow_runtime_id}.</summary>
         [JsiiProperty(name: "iotFlowRuntimeId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotFlowRuntimeId
         {
@@ -17,7 +17,7 @@ namespace oci.IotIotFlowRuntimeDeactivate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_deactivate#id IotIotFlowRuntimeDeactivate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_deactivate#id IotIotFlowRuntimeDeactivate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -32,7 +32,7 @@ namespace oci.IotIotFlowRuntimeDeactivate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_deactivate#timeouts IotIotFlowRuntimeDeactivate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_deactivate#timeouts IotIotFlowRuntimeDeactivate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.iotIotFlowRuntimeDeactivate.IotIotFlowRuntimeDeactivateTimeouts\"}", isOptional: true)]

@@ -5,7 +5,7 @@ namespace oci.IotIotFlowRuntimeActivate
     /// <remarks>
     /// <h1><c>oci_iot_iot_flow_runtime_activate</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime_activate"><c>oci_iot_iot_flow_runtime_activate</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime_activate"><c>oci_iot_iot_flow_runtime_activate</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

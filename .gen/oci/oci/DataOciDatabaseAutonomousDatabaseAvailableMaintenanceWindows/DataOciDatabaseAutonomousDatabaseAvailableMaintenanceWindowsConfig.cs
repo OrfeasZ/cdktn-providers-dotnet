@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindowsConfig")]
     public class DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindowsConfig : oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows.IDataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindowsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#autonomous_database_id DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#autonomous_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#autonomous_database_id DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#autonomous_database_id}.</summary>
         [JsiiProperty(name: "autonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousDatabaseId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#filter DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#filter DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows.IDataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindowsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#id DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#id DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

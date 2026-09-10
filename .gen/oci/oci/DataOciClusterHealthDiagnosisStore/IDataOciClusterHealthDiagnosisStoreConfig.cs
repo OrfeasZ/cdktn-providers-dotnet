@@ -7,7 +7,7 @@ namespace oci.DataOciClusterHealthDiagnosisStore
     [JsiiInterface(nativeType: typeof(IDataOciClusterHealthDiagnosisStoreConfig), fullyQualifiedName: "oci.dataOciClusterHealthDiagnosisStore.DataOciClusterHealthDiagnosisStoreConfig")]
     public interface IDataOciClusterHealthDiagnosisStoreConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_store#diagnosis_store_id DataOciClusterHealthDiagnosisStore#diagnosis_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_store#diagnosis_store_id DataOciClusterHealthDiagnosisStore#diagnosis_store_id}.</summary>
         [JsiiProperty(name: "diagnosisStoreId", typeJson: "{\"primitive\":\"string\"}")]
         string DiagnosisStoreId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciClusterHealthDiagnosisStore
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/cluster_health_diagnosis_store#diagnosis_store_id DataOciClusterHealthDiagnosisStore#diagnosis_store_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/cluster_health_diagnosis_store#diagnosis_store_id DataOciClusterHealthDiagnosisStore#diagnosis_store_id}.</summary>
             [JsiiProperty(name: "diagnosisStoreId", typeJson: "{\"primitive\":\"string\"}")]
             public string DiagnosisStoreId
             {

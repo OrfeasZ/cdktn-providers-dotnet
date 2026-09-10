@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows
     [JsiiByValue(fqn: "oci.dataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindowsFilter")]
     public class DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindowsFilter : oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows.IDataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindowsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#name DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#name DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#values DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#values DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#regex DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/database_autonomous_database_available_maintenance_windows#regex DataOciDatabaseAutonomousDatabaseAvailableMaintenanceWindows#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

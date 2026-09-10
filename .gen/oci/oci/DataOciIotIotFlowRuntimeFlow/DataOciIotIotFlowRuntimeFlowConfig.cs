@@ -9,7 +9,7 @@ namespace oci.DataOciIotIotFlowRuntimeFlow
     [JsiiByValue(fqn: "oci.dataOciIotIotFlowRuntimeFlow.DataOciIotIotFlowRuntimeFlowConfig")]
     public class DataOciIotIotFlowRuntimeFlowConfig : oci.DataOciIotIotFlowRuntimeFlow.IDataOciIotIotFlowRuntimeFlowConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/data-sources/iot_iot_flow_runtime_flow#iot_flow_runtime_id DataOciIotIotFlowRuntimeFlow#iot_flow_runtime_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/data-sources/iot_iot_flow_runtime_flow#iot_flow_runtime_id DataOciIotIotFlowRuntimeFlow#iot_flow_runtime_id}.</summary>
         [JsiiProperty(name: "iotFlowRuntimeId", typeJson: "{\"primitive\":\"string\"}")]
         public string IotFlowRuntimeId
         {

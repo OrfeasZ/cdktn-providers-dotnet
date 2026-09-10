@@ -9,7 +9,7 @@ namespace oci.IotIotFlowRuntime
     [JsiiByValue(fqn: "oci.iotIotFlowRuntime.IotIotFlowRuntimeNetworkConfigFileStorageMounts")]
     public class IotIotFlowRuntimeNetworkConfigFileStorageMounts : oci.IotIotFlowRuntime.IIotIotFlowRuntimeNetworkConfigFileStorageMounts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime#export_id IotIotFlowRuntime#export_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime#export_id IotIotFlowRuntime#export_id}.</summary>
         [JsiiProperty(name: "exportId", typeJson: "{\"primitive\":\"string\"}")]
         public string ExportId
         {
@@ -17,7 +17,7 @@ namespace oci.IotIotFlowRuntime
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime#mount_path IotIotFlowRuntime#mount_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime#mount_path IotIotFlowRuntime#mount_path}.</summary>
         [JsiiProperty(name: "mountPath", typeJson: "{\"primitive\":\"string\"}")]
         public string MountPath
         {
@@ -25,7 +25,7 @@ namespace oci.IotIotFlowRuntime
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.0.0/docs/resources/iot_iot_flow_runtime#mount_target_id IotIotFlowRuntime#mount_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/iot_iot_flow_runtime#mount_target_id IotIotFlowRuntime#mount_target_id}.</summary>
         [JsiiProperty(name: "mountTargetId", typeJson: "{\"primitive\":\"string\"}")]
         public string MountTargetId
         {
