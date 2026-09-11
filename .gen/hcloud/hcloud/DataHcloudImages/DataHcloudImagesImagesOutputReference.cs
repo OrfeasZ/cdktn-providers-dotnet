@@ -53,6 +53,12 @@ namespace hcloud.DataHcloudImages
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "deprecationAnnounced", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DeprecationAnnounced
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
         {
@@ -63,6 +69,12 @@ namespace hcloud.DataHcloudImages
         public virtual double Id
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "isDeprecated", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsDeprecated
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "labels", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
@@ -97,6 +109,12 @@ namespace hcloud.DataHcloudImages
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "unavailableAfter", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UnavailableAfter
         {
             get => GetInstanceProperty<string>()!;
         }
