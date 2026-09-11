@@ -39,12 +39,6 @@ namespace cloudflare.DataCloudflareApiShieldOperations
             get => GetInstanceProperty<cloudflare.DataCloudflareApiShieldOperations.DataCloudflareApiShieldOperationsResultFeaturesSchemaInfoActiveSchemaOutputReference>()!;
         }
 
-        [JsiiProperty(name: "learnedAvailable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable LearnedAvailable
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "mitigationAction", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MitigationAction
         {

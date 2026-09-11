@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplication
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_application cloudflare_zero_trust_resource_library_application}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_application cloudflare_zero_trust_resource_library_application}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplication), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplication", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplicationConfig\"}}]")]
     public class DataCloudflareZeroTrustResourceLibraryApplication : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_application cloudflare_zero_trust_resource_library_application} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_application cloudflare_zero_trust_resource_library_application} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataCloudflareZeroTrustResourceLibraryApplication(Constructs.Construct scope, string id, cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.IDataCloudflareZeroTrustResourceLibraryApplicationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,28 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplication
         /// <param name="importToId">The construct id used in the generated config for the DataCloudflareZeroTrustResourceLibraryApplication to import.</param>
         /// <param name="importFromId">The id of the existing DataCloudflareZeroTrustResourceLibraryApplication that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataCloudflareZeroTrustResourceLibraryApplication to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareZeroTrustResourceLibraryApplication to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_application#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareZeroTrustResourceLibraryApplication that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareZeroTrustResourceLibraryApplication to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareZeroTrustResourceLibraryApplication to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_application#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareZeroTrustResourceLibraryApplication that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareZeroTrustResourceLibraryApplication to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplication), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplicationFilter\"}}]")]
+        public virtual void PutFilter(cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.IDataCloudflareZeroTrustResourceLibraryApplicationFilter @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.IDataCloudflareZeroTrustResourceLibraryApplicationFilter)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetFilter")]
+        public virtual void ResetFilter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetId")]
+        public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
@@ -105,6 +123,12 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplication
         public virtual string CreatedAt
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplicationFilterOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplicationFilterOutputReference Filter
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplicationFilterOutputReference>()!;
         }
 
         [JsiiProperty(name: "genAiScore", typeJson: "{\"primitive\":\"number\"}")]
@@ -172,6 +196,16 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplication
         public virtual string? AccountIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareZeroTrustResourceLibraryApplication.IDataCloudflareZeroTrustResourceLibraryApplicationFilter" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareZeroTrustResourceLibraryApplication.DataCloudflareZeroTrustResourceLibraryApplicationFilter\"}]}}", isOptional: true)]
+        public virtual object? FilterInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

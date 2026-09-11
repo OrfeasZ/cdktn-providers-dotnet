@@ -7,23 +7,16 @@ namespace cloudflare.DataCloudflareMagicTransitConnectors
     [JsiiInterface(nativeType: typeof(IDataCloudflareMagicTransitConnectorsConfig), fullyQualifiedName: "cloudflare.dataCloudflareMagicTransitConnectors.DataCloudflareMagicTransitConnectorsConfig")]
     public interface IDataCloudflareMagicTransitConnectorsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Account identifier.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connectors#account_id DataCloudflareMagicTransitConnectors#account_id}
-        /// </remarks>
-        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? AccountId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/magic_transit_connectors#account_id DataCloudflareMagicTransitConnectors#account_id}.</summary>
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        string AccountId
         {
-            get
-            {
-                return null;
-            }
+            get;
         }
 
         /// <summary>Filter connectors by device type. Available values: "MANAGED", "LICENSED".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connectors#device_type DataCloudflareMagicTransitConnectors#device_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/magic_transit_connectors#device_type DataCloudflareMagicTransitConnectors#device_type}
         /// </remarks>
         [JsiiProperty(name: "deviceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +30,7 @@ namespace cloudflare.DataCloudflareMagicTransitConnectors
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connectors#max_items DataCloudflareMagicTransitConnectors#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/magic_transit_connectors#max_items DataCloudflareMagicTransitConnectors#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,20 +49,16 @@ namespace cloudflare.DataCloudflareMagicTransitConnectors
             {
             }
 
-            /// <summary>Account identifier.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connectors#account_id DataCloudflareMagicTransitConnectors#account_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? AccountId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/magic_transit_connectors#account_id DataCloudflareMagicTransitConnectors#account_id}.</summary>
+            [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+            public string AccountId
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<string>()!;
             }
 
             /// <summary>Filter connectors by device type. Available values: "MANAGED", "LICENSED".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connectors#device_type DataCloudflareMagicTransitConnectors#device_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/magic_transit_connectors#device_type DataCloudflareMagicTransitConnectors#device_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deviceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +69,7 @@ namespace cloudflare.DataCloudflareMagicTransitConnectors
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/magic_transit_connectors#max_items DataCloudflareMagicTransitConnectors#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/magic_transit_connectors#max_items DataCloudflareMagicTransitConnectors#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

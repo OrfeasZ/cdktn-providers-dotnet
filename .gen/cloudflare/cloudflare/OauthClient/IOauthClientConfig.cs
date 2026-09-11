@@ -9,7 +9,7 @@ namespace cloudflare.OauthClient
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#account_id OauthClient#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#account_id OauthClient#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>Human-readable name of the OAuth client.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#client_name OauthClient#client_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#client_name OauthClient#client_name}
         /// </remarks>
         [JsiiProperty(name: "clientName", typeJson: "{\"primitive\":\"string\"}")]
         string ClientName
@@ -29,7 +29,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>Array of OAuth grant types the client is allowed to use. `authorization_code` is required; `refresh_token` may be included optionally.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#grant_types OauthClient#grant_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#grant_types OauthClient#grant_types}
         /// </remarks>
         [JsiiProperty(name: "grantTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] GrantTypes
@@ -39,7 +39,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>Array of allowed redirect URIs for the client.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#redirect_uris OauthClient#redirect_uris}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#redirect_uris OauthClient#redirect_uris}
         /// </remarks>
         [JsiiProperty(name: "redirectUris", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] RedirectUris
@@ -49,7 +49,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>Array of OAuth response types the client is allowed to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#response_types OauthClient#response_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#response_types OauthClient#response_types}
         /// </remarks>
         [JsiiProperty(name: "responseTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] ResponseTypes
@@ -61,7 +61,7 @@ namespace cloudflare.OauthClient
         /// <remarks>
         /// Colon-delimited scopes are not accepted. Dot-delimited scopes are validated against available OAuth API scopes; simple identity scopes are allowed. Protocol scopes <c>offline_access</c> and <c>openid</c> are added or removed automatically based on <c>grant_types</c> and <c>response_types</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#scopes OauthClient#scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#scopes OauthClient#scopes}
         /// </remarks>
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Scopes
@@ -71,7 +71,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>The authentication method the client uses at the token endpoint. Available values: "none", "client_secret_basic", "client_secret_post".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#token_endpoint_auth_method OauthClient#token_endpoint_auth_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#token_endpoint_auth_method OauthClient#token_endpoint_auth_method}
         /// </remarks>
         [JsiiProperty(name: "tokenEndpointAuthMethod", typeJson: "{\"primitive\":\"string\"}")]
         string TokenEndpointAuthMethod
@@ -81,7 +81,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>Array of allowed CORS origins.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#allowed_cors_origins OauthClient#allowed_cors_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#allowed_cors_origins OauthClient#allowed_cors_origins}
         /// </remarks>
         [JsiiProperty(name: "allowedCorsOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>URL of the home page of the client.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#client_uri OauthClient#client_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#client_uri OauthClient#client_uri}
         /// </remarks>
         [JsiiProperty(name: "clientUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>URL of the client's logo.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#logo_uri OauthClient#logo_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#logo_uri OauthClient#logo_uri}
         /// </remarks>
         [JsiiProperty(name: "logoUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,7 +123,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>The unique identifier for an OAuth client.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#oauth_client_id OauthClient#oauth_client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#oauth_client_id OauthClient#oauth_client_id}
         /// </remarks>
         [JsiiProperty(name: "oauthClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,9 +135,25 @@ namespace cloudflare.OauthClient
             }
         }
 
+        /// <summary>Scopes that the authorizing user may decline during consent.</summary>
+        /// <remarks>
+        /// Each value must also appear in <c>scopes</c>. The scopes <c>openid</c>, <c>offline</c>, and <c>offline_access</c> cannot be optional.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#optional_scopes OauthClient#optional_scopes}
+        /// </remarks>
+        [JsiiProperty(name: "optionalScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? OptionalScopes
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>URL that points to a privacy policy document.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#policy_uri OauthClient#policy_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#policy_uri OauthClient#policy_uri}
         /// </remarks>
         [JsiiProperty(name: "policyUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -151,7 +167,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>Array of allowed post-logout redirect URIs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#post_logout_redirect_uris OauthClient#post_logout_redirect_uris}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#post_logout_redirect_uris OauthClient#post_logout_redirect_uris}
         /// </remarks>
         [JsiiProperty(name: "postLogoutRedirectUris", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -165,7 +181,7 @@ namespace cloudflare.OauthClient
 
         /// <summary>URL that points to a terms of service document.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#tos_uri OauthClient#tos_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#tos_uri OauthClient#tos_uri}
         /// </remarks>
         [JsiiProperty(name: "tosUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -182,7 +198,7 @@ namespace cloudflare.OauthClient
         /// Only <c>public</c> is accepted; demotion to <c>private</c> is not supported. Promotion requires a non-empty client name, logo URI, verified client URI host, and at least one non-identity scope.
         /// Available values: "public".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#visibility OauthClient#visibility}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#visibility OauthClient#visibility}
         /// </remarks>
         [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -203,7 +219,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>Account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#account_id OauthClient#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#account_id OauthClient#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -213,7 +229,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>Human-readable name of the OAuth client.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#client_name OauthClient#client_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#client_name OauthClient#client_name}
             /// </remarks>
             [JsiiProperty(name: "clientName", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientName
@@ -223,7 +239,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>Array of OAuth grant types the client is allowed to use. `authorization_code` is required; `refresh_token` may be included optionally.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#grant_types OauthClient#grant_types}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#grant_types OauthClient#grant_types}
             /// </remarks>
             [JsiiProperty(name: "grantTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] GrantTypes
@@ -233,7 +249,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>Array of allowed redirect URIs for the client.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#redirect_uris OauthClient#redirect_uris}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#redirect_uris OauthClient#redirect_uris}
             /// </remarks>
             [JsiiProperty(name: "redirectUris", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] RedirectUris
@@ -243,7 +259,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>Array of OAuth response types the client is allowed to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#response_types OauthClient#response_types}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#response_types OauthClient#response_types}
             /// </remarks>
             [JsiiProperty(name: "responseTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] ResponseTypes
@@ -255,7 +271,7 @@ namespace cloudflare.OauthClient
             /// <remarks>
             /// Colon-delimited scopes are not accepted. Dot-delimited scopes are validated against available OAuth API scopes; simple identity scopes are allowed. Protocol scopes <c>offline_access</c> and <c>openid</c> are added or removed automatically based on <c>grant_types</c> and <c>response_types</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#scopes OauthClient#scopes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#scopes OauthClient#scopes}
             /// </remarks>
             [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Scopes
@@ -265,7 +281,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>The authentication method the client uses at the token endpoint. Available values: "none", "client_secret_basic", "client_secret_post".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#token_endpoint_auth_method OauthClient#token_endpoint_auth_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#token_endpoint_auth_method OauthClient#token_endpoint_auth_method}
             /// </remarks>
             [JsiiProperty(name: "tokenEndpointAuthMethod", typeJson: "{\"primitive\":\"string\"}")]
             public string TokenEndpointAuthMethod
@@ -275,7 +291,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>Array of allowed CORS origins.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#allowed_cors_origins OauthClient#allowed_cors_origins}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#allowed_cors_origins OauthClient#allowed_cors_origins}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedCorsOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -286,7 +302,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>URL of the home page of the client.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#client_uri OauthClient#client_uri}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#client_uri OauthClient#client_uri}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -297,7 +313,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>URL of the client's logo.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#logo_uri OauthClient#logo_uri}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#logo_uri OauthClient#logo_uri}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logoUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -308,7 +324,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>The unique identifier for an OAuth client.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#oauth_client_id OauthClient#oauth_client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#oauth_client_id OauthClient#oauth_client_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -317,9 +333,22 @@ namespace cloudflare.OauthClient
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>Scopes that the authorizing user may decline during consent.</summary>
+            /// <remarks>
+            /// Each value must also appear in <c>scopes</c>. The scopes <c>openid</c>, <c>offline</c>, and <c>offline_access</c> cannot be optional.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#optional_scopes OauthClient#optional_scopes}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "optionalScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? OptionalScopes
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+
             /// <summary>URL that points to a privacy policy document.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#policy_uri OauthClient#policy_uri}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#policy_uri OauthClient#policy_uri}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "policyUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -330,7 +359,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>Array of allowed post-logout redirect URIs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#post_logout_redirect_uris OauthClient#post_logout_redirect_uris}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#post_logout_redirect_uris OauthClient#post_logout_redirect_uris}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "postLogoutRedirectUris", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -341,7 +370,7 @@ namespace cloudflare.OauthClient
 
             /// <summary>URL that points to a terms of service document.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#tos_uri OauthClient#tos_uri}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#tos_uri OauthClient#tos_uri}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tosUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -355,7 +384,7 @@ namespace cloudflare.OauthClient
             /// Only <c>public</c> is accepted; demotion to <c>private</c> is not supported. Promotion requires a non-empty client name, logo URI, verified client URI host, and at least one non-identity scope.
             /// Available values: "public".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/oauth_client#visibility OauthClient#visibility}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/oauth_client#visibility OauthClient#visibility}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

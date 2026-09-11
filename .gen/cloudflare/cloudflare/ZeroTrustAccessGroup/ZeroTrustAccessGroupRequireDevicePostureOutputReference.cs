@@ -33,11 +33,31 @@ namespace cloudflare.ZeroTrustAccessGroup
         {
         }
 
+        [JsiiMethod(name: "resetAccountId")]
+        public virtual void ResetAccountId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "accountIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AccountIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "integrationUidInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IntegrationUidInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "integrationUid", typeJson: "{\"primitive\":\"string\"}")]

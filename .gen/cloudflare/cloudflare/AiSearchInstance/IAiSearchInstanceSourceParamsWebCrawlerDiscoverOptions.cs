@@ -9,7 +9,7 @@ namespace cloudflare.AiSearchInstance
     {
         /// <summary>Maximum link-follow depth from the seed URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#depth AiSearchInstance#depth}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#depth AiSearchInstance#depth}
         /// </remarks>
         [JsiiProperty(name: "depth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -25,7 +25,7 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// Must stay <c>false</c> — discover crawls are restricted to the zone you own.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#include_external_links AiSearchInstance#include_external_links}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#include_external_links AiSearchInstance#include_external_links}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "includeExternalLinks", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Follow links to subdomains of the source host.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#include_subdomains AiSearchInstance#include_subdomains}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#include_subdomains AiSearchInstance#include_subdomains}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "includeSubdomains", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Maximum number of pages to crawl (1-100000).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#limit AiSearchInstance#limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#limit AiSearchInstance#limit}
         /// </remarks>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +69,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Maximum content age in seconds to accept (0–604800).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#max_age AiSearchInstance#max_age}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#max_age AiSearchInstance#max_age}
         /// </remarks>
         [JsiiProperty(name: "maxAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// Available values: "all", "sitemaps", "links".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#source AiSearchInstance#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#source AiSearchInstance#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Maximum link-follow depth from the seed URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#depth AiSearchInstance#depth}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#depth AiSearchInstance#depth}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "depth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace cloudflare.AiSearchInstance
             /// <remarks>
             /// Must stay <c>false</c> — discover crawls are restricted to the zone you own.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#include_external_links AiSearchInstance#include_external_links}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#include_external_links AiSearchInstance#include_external_links}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -131,7 +131,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Follow links to subdomains of the source host.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#include_subdomains AiSearchInstance#include_subdomains}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#include_subdomains AiSearchInstance#include_subdomains}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -143,7 +143,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Maximum number of pages to crawl (1-100000).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#limit AiSearchInstance#limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#limit AiSearchInstance#limit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Maximum content age in seconds to accept (0–604800).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#max_age AiSearchInstance#max_age}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#max_age AiSearchInstance#max_age}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxAge", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -167,7 +167,7 @@ namespace cloudflare.AiSearchInstance
             /// <remarks>
             /// Available values: "all", "sitemaps", "links".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_instance#source AiSearchInstance#source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#source AiSearchInstance#source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

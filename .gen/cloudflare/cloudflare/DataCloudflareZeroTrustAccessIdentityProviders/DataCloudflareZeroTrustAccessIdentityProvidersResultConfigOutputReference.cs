@@ -123,6 +123,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessIdentityProviders
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "forceAuthn", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ForceAuthn
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "headerAttributes", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessIdentityProviders.DataCloudflareZeroTrustAccessIdentityProvidersResultConfigHeaderAttributesList\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustAccessIdentityProviders.DataCloudflareZeroTrustAccessIdentityProvidersResultConfigHeaderAttributesList HeaderAttributes
         {
@@ -139,6 +145,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessIdentityProviders
         public virtual string IssuerUrl
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "maxSsoUrlLength", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxSsoUrlLength
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "oktaAccount", typeJson: "{\"primitive\":\"string\"}")]

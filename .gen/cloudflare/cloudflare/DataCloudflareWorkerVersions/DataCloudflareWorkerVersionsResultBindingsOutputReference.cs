@@ -125,6 +125,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "identity", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Identity
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "indexName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IndexName
         {

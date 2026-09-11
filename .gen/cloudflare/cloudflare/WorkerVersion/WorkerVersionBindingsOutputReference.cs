@@ -137,6 +137,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIdentity")]
+        public virtual void ResetIdentity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIndexName")]
         public virtual void ResetIndexName()
         {
@@ -393,6 +399,13 @@ namespace cloudflare.WorkerVersion
         [JsiiOptional]
         [JsiiProperty(name: "formatInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? FormatInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "identityInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdentityInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -699,6 +712,13 @@ namespace cloudflare.WorkerVersion
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "identity", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Identity
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

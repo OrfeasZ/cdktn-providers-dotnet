@@ -285,6 +285,12 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "originRangeRequests", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersOriginRangeRequestsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersOriginRangeRequestsOutputReference OriginRangeRequests
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersOriginRangeRequestsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "overrides", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersOverridesOutputReference\"}")]
         public virtual cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersOverridesOutputReference Overrides
         {

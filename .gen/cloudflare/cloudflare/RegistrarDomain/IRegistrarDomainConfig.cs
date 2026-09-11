@@ -9,7 +9,7 @@ namespace cloudflare.RegistrarDomain
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#account_id RegistrarDomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#account_id RegistrarDomain#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -17,9 +17,9 @@ namespace cloudflare.RegistrarDomain
             get;
         }
 
-        /// <summary>Fully qualified domain name (FQDN) including the extension (e.g., `example.com`, `mybrand.app`). The domain name uniquely identifies a registration — the same domain cannot be registered twice, making it a natural idempotency key for registration requests.</summary>
+        /// <summary>Provides a fully qualified domain name (FQDN), including the extension (e.g., `example.com`, `mybrand.app`). The domain name uniquely identifies a registration. Cloudflare permits only one registration per domain, making the domain name a natural idempotency key for registration requests.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#domain_name RegistrarDomain#domain_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#domain_name RegistrarDomain#domain_name}
         /// </remarks>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
@@ -29,7 +29,7 @@ namespace cloudflare.RegistrarDomain
 
         /// <summary>Auto-renew controls whether subscription is automatically renewed upon domain expiration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#auto_renew RegistrarDomain#auto_renew}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#auto_renew RegistrarDomain#auto_renew}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "autoRenew", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace cloudflare.RegistrarDomain
 
         /// <summary>Shows whether a registrar lock is in place for a domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#locked RegistrarDomain#locked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#locked RegistrarDomain#locked}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "locked", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace cloudflare.RegistrarDomain
 
         /// <summary>Privacy option controls redacting WHOIS information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#privacy RegistrarDomain#privacy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#privacy RegistrarDomain#privacy}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "privacy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace cloudflare.RegistrarDomain
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#account_id RegistrarDomain#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#account_id RegistrarDomain#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -89,9 +89,9 @@ namespace cloudflare.RegistrarDomain
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Fully qualified domain name (FQDN) including the extension (e.g., `example.com`, `mybrand.app`). The domain name uniquely identifies a registration — the same domain cannot be registered twice, making it a natural idempotency key for registration requests.</summary>
+            /// <summary>Provides a fully qualified domain name (FQDN), including the extension (e.g., `example.com`, `mybrand.app`). The domain name uniquely identifies a registration. Cloudflare permits only one registration per domain, making the domain name a natural idempotency key for registration requests.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#domain_name RegistrarDomain#domain_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#domain_name RegistrarDomain#domain_name}
             /// </remarks>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
@@ -101,7 +101,7 @@ namespace cloudflare.RegistrarDomain
 
             /// <summary>Auto-renew controls whether subscription is automatically renewed upon domain expiration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#auto_renew RegistrarDomain#auto_renew}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#auto_renew RegistrarDomain#auto_renew}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -113,7 +113,7 @@ namespace cloudflare.RegistrarDomain
 
             /// <summary>Shows whether a registrar lock is in place for a domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#locked RegistrarDomain#locked}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#locked RegistrarDomain#locked}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -125,7 +125,7 @@ namespace cloudflare.RegistrarDomain
 
             /// <summary>Privacy option controls redacting WHOIS information.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/registrar_domain#privacy RegistrarDomain#privacy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/registrar_domain#privacy RegistrarDomain#privacy}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

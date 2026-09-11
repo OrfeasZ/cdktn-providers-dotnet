@@ -4,28 +4,31 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareEmailRoutingDns
 {
+    #pragma warning disable CS8618
+
     [JsiiByValue(fqn: "cloudflare.dataCloudflareEmailRoutingDns.DataCloudflareEmailRoutingDnsConfig")]
     public class DataCloudflareEmailRoutingDnsConfig : cloudflare.DataCloudflareEmailRoutingDns.IDataCloudflareEmailRoutingDnsConfig
     {
-        /// <summary>Domain of your zone.</summary>
+        /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/email_routing_dns#subdomain DataCloudflareEmailRoutingDns#subdomain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/email_routing_dns#zone_id DataCloudflareEmailRoutingDns#zone_id}
         /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "subdomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Subdomain
+        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
+        public string ZoneId
         {
             get;
             set;
         }
 
-        /// <summary>Identifier.</summary>
+        /// <summary>Deprecated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/email_routing_dns#zone_id DataCloudflareEmailRoutingDns#zone_id}
+        /// When supplied, the response shape differs from the documented default and is not modeled in generated SDKs. Do not rely on this parameter.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/email_routing_dns#subdomain DataCloudflareEmailRoutingDns#subdomain}
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? ZoneId
+        [JsiiProperty(name: "subdomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Subdomain
         {
             get;
             set;

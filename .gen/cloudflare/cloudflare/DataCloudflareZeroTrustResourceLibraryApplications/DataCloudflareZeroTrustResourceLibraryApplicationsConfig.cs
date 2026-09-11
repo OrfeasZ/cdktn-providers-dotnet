@@ -9,9 +9,35 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustResourceLibraryApplications.DataCloudflareZeroTrustResourceLibraryApplicationsConfig")]
     public class DataCloudflareZeroTrustResourceLibraryApplicationsConfig : cloudflare.DataCloudflareZeroTrustResourceLibraryApplications.IDataCloudflareZeroTrustResourceLibraryApplicationsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_applications#account_id DataCloudflareZeroTrustResourceLibraryApplications#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#account_id DataCloudflareZeroTrustResourceLibraryApplications#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Return only the listed properties on each application, as a comma-separated list.</summary>
+        /// <remarks>
+        /// Use this to keep responses small when you only need part of each application — for
+        /// example populating a picker with <c>fields=id,name</c> instead of downloading every
+        /// hostname and IP subnet.
+        ///
+        /// Omit this parameter to receive the full application object.
+        ///
+        /// <c>id</c> is always returned.
+        ///
+        /// Selectable properties: <c>id</c>, <c>name</c>, <c>human_id</c>, <c>version</c>, <c>hostnames</c>,
+        /// <c>support_domains</c>, <c>ip_subnets</c>, <c>port_protocols</c>, <c>supported</c>, <c>gen_ai_score</c>,
+        /// <c>application_confidence_score</c>, <c>created_at</c>, <c>updated_at</c>, <c>review_status</c>.
+        ///
+        /// Unknown or empty property names return <c>400</c>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#fields DataCloudflareZeroTrustResourceLibraryApplications#fields}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "fields", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Fields
         {
             get;
             set;
@@ -30,11 +56,12 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
         /// <description>ip_subnet: Filter by IP subnet using CIDR containment — returns applications where any stored subnet contains the search value (e.g., ip_subnet:10.0.1.5/32 matches apps with 10.0.0.0/16)</description>
         /// <description>category_id: Filter by category ID (e.g., category_id:12).</description>
         /// <description>category_name: Filter by category name (e.g., category_name:HR).</description>
-        /// <description>supported: Filter by supported Cloudflare product (e.g., supported:ACCESS). Values: GATEWAY, ACCESS, CASB.
+        /// <description>supported: Filter by supported Cloudflare product (e.g., supported:ACCESS). Values: GATEWAY, ACCESS, CASB.</description>
+        /// <description>review_status: Filter by the account's Gateway review status. Values: approved, unapproved, in_review, unreviewed.
         /// .</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_applications#filter DataCloudflareZeroTrustResourceLibraryApplications#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#filter DataCloudflareZeroTrustResourceLibraryApplications#filter}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +73,7 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
 
         /// <summary>Limit of number of results to return (max 250).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_applications#limit DataCloudflareZeroTrustResourceLibraryApplications#limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#limit DataCloudflareZeroTrustResourceLibraryApplications#limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -58,7 +85,7 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_applications#max_items DataCloudflareZeroTrustResourceLibraryApplications#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#max_items DataCloudflareZeroTrustResourceLibraryApplications#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -70,7 +97,7 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
 
         /// <summary>Offset of results to return.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_applications#offset DataCloudflareZeroTrustResourceLibraryApplications#offset}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#offset DataCloudflareZeroTrustResourceLibraryApplications#offset}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "offset", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -80,9 +107,14 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
             set;
         }
 
-        /// <summary>Order results by field name and direction (e.g., name:asc). Ignored when search is provided; results are ranked by relevance instead.</summary>
+        /// <summary>Order results using field:direction format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_applications#order_by DataCloudflareZeroTrustResourceLibraryApplications#order_by}
+        /// Supported fields are name, id, human_id,
+        /// category_id, application_type, application_confidence_score, and gen_ai_score.
+        /// Supported directions are asc and desc. Ignored when search is provided; results are
+        /// ranked by relevance instead.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#order_by DataCloudflareZeroTrustResourceLibraryApplications#order_by}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,7 +128,7 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
         /// <remarks>
         /// Results are ranked by relevance. Must be between 2 and 200 characters. Can be combined with filter parameters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_applications#search DataCloudflareZeroTrustResourceLibraryApplications#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_applications#search DataCloudflareZeroTrustResourceLibraryApplications#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

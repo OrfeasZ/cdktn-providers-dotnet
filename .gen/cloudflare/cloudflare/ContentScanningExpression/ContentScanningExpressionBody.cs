@@ -9,9 +9,9 @@ namespace cloudflare.ContentScanningExpression
     [JsiiByValue(fqn: "cloudflare.contentScanningExpression.ContentScanningExpressionBody")]
     public class ContentScanningExpressionBody : cloudflare.ContentScanningExpression.IContentScanningExpressionBody
     {
-        /// <summary>Defines the ruleset expression to use in matching content objects.</summary>
+        /// <summary>Defines the custom content extraction expression used to reach content objects in the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
         /// </remarks>
         [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}")]
         public string Payload

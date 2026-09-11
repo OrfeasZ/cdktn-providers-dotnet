@@ -57,20 +57,8 @@ namespace cloudflare.PipelineStream
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putFormat", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchemaFormat\"}}]")]
-        public virtual void PutFormat(cloudflare.PipelineStream.IPipelineStreamSchemaFormat @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.PipelineStream.IPipelineStreamSchemaFormat)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "resetFields")]
         public virtual void ResetFields()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetFormat")]
-        public virtual void ResetFormat()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -87,28 +75,12 @@ namespace cloudflare.PipelineStream
             get => GetInstanceProperty<cloudflare.PipelineStream.PipelineStreamSchemaFieldsList>()!;
         }
 
-        [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchemaFormatOutputReference\"}")]
-        public virtual cloudflare.PipelineStream.PipelineStreamSchemaFormatOutputReference Format
-        {
-            get => GetInstanceProperty<cloudflare.PipelineStream.PipelineStreamSchemaFormatOutputReference>()!;
-        }
-
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineStream.IPipelineStreamSchemaFields" />)[]</para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchemaFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? FieldsInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.PipelineStream.IPipelineStreamSchemaFormat" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "formatInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchemaFormat\"}]}}", isOptional: true)]
-        public virtual object? FormatInput
         {
             get => GetInstanceProperty<object?>();
         }

@@ -11,7 +11,7 @@ namespace cloudflare.EmailSecurityBlockSender
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/email_security_block_sender#account_id EmailSecurityBlockSender#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_security_block_sender#account_id EmailSecurityBlockSender#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.EmailSecurityBlockSender
 
         private object _isRegex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/email_security_block_sender#is_regex EmailSecurityBlockSender#is_regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_security_block_sender#is_regex EmailSecurityBlockSender#is_regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,17 +53,11 @@ namespace cloudflare.EmailSecurityBlockSender
             }
         }
 
-        /// <summary>The pattern value to match against.</summary>
+        /// <summary>The pattern value to match.</summary>
         /// <remarks>
-        /// Format depends on <c>pattern_type</c>:
+        /// The format depends on <c>pattern_type</c>: a valid email address for EMAIL (e.g. <c>user@example.com</c>), a valid domain name for DOMAIN (e.g. <c>example.com</c>), or a plain IPv4 or IPv6 address or CIDR block for IP (e.g. <c>1.2.3.4</c>, <c>1.2.3.0/24</c>, <c>2606:4700:4700::1111</c>, or <c>2606:4700:4700::/48</c>); the API rejects private or unique-local, loopback, link-local, unspecified, and IPv4 broadcast addresses, including their IPv4-mapped IPv6 equivalents.
         ///
-        /// <list type="bullet">
-        /// <description>EMAIL: a valid email address, e.g. <c>user@example.com</c></description>
-        /// <description>DOMAIN: a valid domain name, e.g. <c>example.com</c></description>
-        /// <description>IP: a plain IPv4 address (e.g. <c>1.2.3.4</c>) or an IPv4 CIDR block (e.g. <c>1.2.3.0/24</c>). Only globally reachable addresses are accepted; private, loopback, link-local, and unspecified addresses are rejected.</description>
-        /// </list>
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/email_security_block_sender#pattern EmailSecurityBlockSender#pattern}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_security_block_sender#pattern EmailSecurityBlockSender#pattern}
         /// </remarks>
         [JsiiProperty(name: "pattern", typeJson: "{\"primitive\":\"string\"}")]
         public string Pattern
@@ -77,12 +71,12 @@ namespace cloudflare.EmailSecurityBlockSender
         /// <list type="bullet">
         /// <description>EMAIL: matches a full email address (e.g. <c>user@example.com</c>)</description>
         /// <description>DOMAIN: matches a domain name (e.g. <c>example.com</c>)</description>
-        /// <description>IP: matches a plain IPv4 address (e.g. <c>1.2.3.4</c>) or an IPv4 CIDR block (e.g. <c>1.2.3.0/24</c>). Only globally reachable addresses are accepted.</description>
-        /// <description>UNKNOWN: deprecated, cannot be used when creating or updating policies, but may be returned for existing entries.
+        /// <description>IP: matches a plain IPv4 or IPv6 address (e.g. <c>1.2.3.4</c> or <c>2606:4700:4700::1111</c>) or CIDR block (e.g. <c>1.2.3.0/24</c> or <c>2606:4700:4700::/48</c>). The API rejects private or unique-local, loopback, link-local, unspecified, and IPv4 broadcast addresses, including their IPv4-mapped IPv6 equivalents.</description>
+        /// <description>UNKNOWN: deprecated; you cannot use this when creating or updating policies, but it may appear on existing entries.
         /// Available values: "EMAIL", "DOMAIN", "IP", "UNKNOWN".</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/email_security_block_sender#pattern_type EmailSecurityBlockSender#pattern_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_security_block_sender#pattern_type EmailSecurityBlockSender#pattern_type}
         /// </remarks>
         [JsiiProperty(name: "patternType", typeJson: "{\"primitive\":\"string\"}")]
         public string PatternType
@@ -91,7 +85,7 @@ namespace cloudflare.EmailSecurityBlockSender
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/email_security_block_sender#comments EmailSecurityBlockSender#comments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_security_block_sender#comments EmailSecurityBlockSender#comments}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "comments", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Comments

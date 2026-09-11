@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessPolicies
         {
         }
 
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "appCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double AppCount
         {

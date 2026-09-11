@@ -119,6 +119,12 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplications
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "reviewStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ReviewStatus
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "supportDomains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] SupportDomains
         {

@@ -107,6 +107,18 @@ namespace cloudflare.DataCloudflareMagicTransitConnectors
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "primary", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Primary
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SiteId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Timezone
         {

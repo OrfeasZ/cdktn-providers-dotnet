@@ -45,12 +45,6 @@ namespace cloudflare.AiSearchInstance
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerParseOptions)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putStoreOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerStoreOptions\"}}]")]
-        public virtual void PutStoreOptions(cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerStoreOptions @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerStoreOptions)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "resetDiscoverOptions")]
         public virtual void ResetDiscoverOptions()
         {
@@ -69,12 +63,6 @@ namespace cloudflare.AiSearchInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetStoreOptions")]
-        public virtual void ResetStoreOptions()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiProperty(name: "discoverOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerDiscoverOptionsOutputReference\"}")]
         public virtual cloudflare.AiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerDiscoverOptionsOutputReference DiscoverOptions
         {
@@ -85,12 +73,6 @@ namespace cloudflare.AiSearchInstance
         public virtual cloudflare.AiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerParseOptionsOutputReference ParseOptions
         {
             get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerParseOptionsOutputReference>()!;
-        }
-
-        [JsiiProperty(name: "storeOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerStoreOptionsOutputReference\"}")]
-        public virtual cloudflare.AiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerStoreOptionsOutputReference StoreOptions
-        {
-            get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerStoreOptionsOutputReference>()!;
         }
 
         /// <remarks>
@@ -118,16 +100,6 @@ namespace cloudflare.AiSearchInstance
         public virtual string? ParseTypeInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiSearchInstance.IAiSearchInstanceSourceParamsWebCrawlerStoreOptions" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "storeOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParamsWebCrawlerStoreOptions\"}]}}", isOptional: true)]
-        public virtual object? StoreOptionsInput
-        {
-            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "parseType", typeJson: "{\"primitive\":\"string\"}")]

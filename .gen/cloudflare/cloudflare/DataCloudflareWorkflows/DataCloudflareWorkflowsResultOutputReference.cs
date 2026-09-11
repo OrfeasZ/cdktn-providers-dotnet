@@ -53,10 +53,10 @@ namespace cloudflare.DataCloudflareWorkflows
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "instances", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkflows.DataCloudflareWorkflowsResultInstancesOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareWorkflows.DataCloudflareWorkflowsResultInstancesOutputReference Instances
+        [JsiiProperty(name: "instances", typeJson: "{\"fqn\":\"cdktn.NumberMap\"}")]
+        public virtual Io.Cdktn.NumberMap Instances
         {
-            get => GetInstanceProperty<cloudflare.DataCloudflareWorkflows.DataCloudflareWorkflowsResultInstancesOutputReference>()!;
+            get => GetInstanceProperty<Io.Cdktn.NumberMap>()!;
         }
 
         [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]

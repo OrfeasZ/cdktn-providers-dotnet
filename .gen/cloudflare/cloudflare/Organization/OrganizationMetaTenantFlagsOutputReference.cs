@@ -39,6 +39,12 @@ namespace cloudflare.Organization
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "accountCreationAppliesTenantDefaults", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountCreationAppliesTenantDefaults
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "accountDeletion", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AccountDeletion
         {

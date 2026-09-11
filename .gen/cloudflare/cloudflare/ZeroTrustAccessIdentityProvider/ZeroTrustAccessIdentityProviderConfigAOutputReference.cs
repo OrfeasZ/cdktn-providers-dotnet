@@ -147,6 +147,12 @@ namespace cloudflare.ZeroTrustAccessIdentityProvider
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetForceAuthn")]
+        public virtual void ResetForceAuthn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetHeaderAttributes")]
         public virtual void ResetHeaderAttributes()
         {
@@ -161,6 +167,12 @@ namespace cloudflare.ZeroTrustAccessIdentityProvider
 
         [JsiiMethod(name: "resetIssuerUrl")]
         public virtual void ResetIssuerUrl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMaxSsoUrlLength")]
+        public virtual void ResetMaxSsoUrlLength()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -355,6 +367,16 @@ namespace cloudflare.ZeroTrustAccessIdentityProvider
         }
 
         /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "forceAuthnInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? ForceAuthnInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustAccessIdentityProvider.IZeroTrustAccessIdentityProviderConfigHeaderAttributes" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -376,6 +398,13 @@ namespace cloudflare.ZeroTrustAccessIdentityProvider
         public virtual string? IssuerUrlInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "maxSsoUrlLengthInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? MaxSsoUrlLengthInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -618,6 +647,36 @@ namespace cloudflare.ZeroTrustAccessIdentityProvider
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "forceAuthn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object ForceAuthn
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "idpPublicCerts", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] IdpPublicCerts
         {
@@ -629,6 +688,13 @@ namespace cloudflare.ZeroTrustAccessIdentityProvider
         public virtual string IssuerUrl
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "maxSsoUrlLength", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double MaxSsoUrlLength
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

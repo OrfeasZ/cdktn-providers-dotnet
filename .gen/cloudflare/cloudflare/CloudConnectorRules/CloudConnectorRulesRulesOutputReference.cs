@@ -41,6 +41,12 @@ namespace cloudflare.CloudConnectorRules
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.CloudConnectorRules.ICloudConnectorRulesRulesParameters)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCloudConnectorRulesProvider")]
+        public virtual void ResetCloudConnectorRulesProvider()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
         {
@@ -65,12 +71,6 @@ namespace cloudflare.CloudConnectorRules
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetProvider")]
-        public virtual void ResetProvider()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -81,6 +81,13 @@ namespace cloudflare.CloudConnectorRules
         public virtual cloudflare.CloudConnectorRules.CloudConnectorRulesRulesParametersOutputReference Parameters
         {
             get => GetInstanceProperty<cloudflare.CloudConnectorRules.CloudConnectorRulesRulesParametersOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "cloudConnectorRulesProviderInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CloudConnectorRulesProviderInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -117,11 +124,11 @@ namespace cloudflare.CloudConnectorRules
             get => GetInstanceProperty<object?>();
         }
 
-        [JsiiOptional]
-        [JsiiProperty(name: "providerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? ProviderInput
+        [JsiiProperty(name: "cloudConnectorRulesProvider", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CloudConnectorRulesProvider
         {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
@@ -163,13 +170,6 @@ namespace cloudflare.CloudConnectorRules
 
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Expression
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Provider
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

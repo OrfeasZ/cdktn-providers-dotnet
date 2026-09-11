@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessPolicies
         {
         }
 
+        [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AccountId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "integrationUid", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IntegrationUid
         {

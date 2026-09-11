@@ -7,15 +7,17 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustResourceLibraryCategoryConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustResourceLibraryCategory.DataCloudflareZeroTrustResourceLibraryCategoryConfig")]
     public interface IDataCloudflareZeroTrustResourceLibraryCategoryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category#account_id DataCloudflareZeroTrustResourceLibraryCategory#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_category#account_id DataCloudflareZeroTrustResourceLibraryCategory#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category#id DataCloudflareZeroTrustResourceLibraryCategory#id}.</summary>
+        /// <summary>Returns the category ID.</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_category#id DataCloudflareZeroTrustResourceLibraryCategory#id}
+        ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
         /// </remarks>
@@ -32,15 +34,17 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryCategory
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category#account_id DataCloudflareZeroTrustResourceLibraryCategory#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_category#account_id DataCloudflareZeroTrustResourceLibraryCategory#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/data-sources/zero_trust_resource_library_category#id DataCloudflareZeroTrustResourceLibraryCategory#id}.</summary>
+            /// <summary>Returns the category ID.</summary>
             /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/zero_trust_resource_library_category#id DataCloudflareZeroTrustResourceLibraryCategory#id}
+            ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
             /// </remarks>

@@ -201,6 +201,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersOrigin)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putOriginRangeRequests", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOriginRangeRequests\"}}]")]
+        public virtual void PutOriginRangeRequests(cloudflare.Ruleset.IRulesetRulesActionParametersOriginRangeRequests @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.Ruleset.IRulesetRulesActionParametersOriginRangeRequests)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putOverrides", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverrides\"}}]")]
         public virtual void PutOverrides(cloudflare.Ruleset.IRulesetRulesActionParametersOverrides @value)
         {
@@ -621,6 +627,12 @@ namespace cloudflare.Ruleset
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOriginRangeRequests")]
+        public virtual void ResetOriginRangeRequests()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOverrides")]
         public virtual void ResetOverrides()
         {
@@ -955,6 +967,12 @@ namespace cloudflare.Ruleset
         public virtual cloudflare.Ruleset.RulesetRulesActionParametersOriginOutputReference Origin
         {
             get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersOriginOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "originRangeRequests", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOriginRangeRequestsOutputReference\"}")]
+        public virtual cloudflare.Ruleset.RulesetRulesActionParametersOriginRangeRequestsOutputReference OriginRangeRequests
+        {
+            get => GetInstanceProperty<cloudflare.Ruleset.RulesetRulesActionParametersOriginRangeRequestsOutputReference>()!;
         }
 
         [JsiiProperty(name: "overrides", typeJson: "{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOverridesOutputReference\"}")]
@@ -1442,6 +1460,16 @@ namespace cloudflare.Ruleset
         [JsiiOptional]
         [JsiiProperty(name: "originInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOrigin\"}]}}", isOptional: true)]
         public virtual object? OriginInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Ruleset.IRulesetRulesActionParametersOriginRangeRequests" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "originRangeRequestsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.ruleset.RulesetRulesActionParametersOriginRangeRequests\"}]}}", isOptional: true)]
+        public virtual object? OriginRangeRequestsInput
         {
             get => GetInstanceProperty<object?>();
         }

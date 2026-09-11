@@ -89,6 +89,12 @@ namespace cloudflare.DataCloudflareOauthClients
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "optionalScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] OptionalScopes
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "policyUri", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PolicyUri
         {

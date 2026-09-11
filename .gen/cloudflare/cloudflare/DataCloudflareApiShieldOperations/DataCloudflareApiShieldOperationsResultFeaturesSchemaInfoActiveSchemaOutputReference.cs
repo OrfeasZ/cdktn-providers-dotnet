@@ -45,12 +45,6 @@ namespace cloudflare.DataCloudflareApiShieldOperations
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "isLearned", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
-        public virtual Io.Cdktn.IResolvable IsLearned
-        {
-            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

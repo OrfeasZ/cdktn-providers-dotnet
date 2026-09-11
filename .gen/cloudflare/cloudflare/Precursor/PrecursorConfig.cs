@@ -11,7 +11,7 @@ namespace cloudflare.Precursor
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/precursor#zone_id Precursor#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/precursor#zone_id Precursor#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -24,7 +24,7 @@ namespace cloudflare.Precursor
         /// <remarks>
         /// Available values: "off", "min-friction", "max-security".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/precursor#default_mode Precursor#default_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/precursor#default_mode Precursor#default_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace cloudflare.Precursor
 
         /// <summary>The ordered list of enforcement rules for the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/precursor#enforcement_rules Precursor#enforcement_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/precursor#enforcement_rules Precursor#enforcement_rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Precursor.IPrecursorEnforcementRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

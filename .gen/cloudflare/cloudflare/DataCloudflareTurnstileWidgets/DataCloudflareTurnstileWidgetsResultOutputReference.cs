@@ -53,12 +53,6 @@ namespace cloudflare.DataCloudflareTurnstileWidgets
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "deployedVia", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string DeployedVia
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Domains
         {
@@ -73,12 +67,6 @@ namespace cloudflare.DataCloudflareTurnstileWidgets
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "lastModifiedVia", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string LastModifiedVia
         {
             get => GetInstanceProperty<string>()!;
         }

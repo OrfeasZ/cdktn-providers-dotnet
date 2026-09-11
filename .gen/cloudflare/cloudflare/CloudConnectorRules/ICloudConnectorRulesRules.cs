@@ -7,7 +7,21 @@ namespace cloudflare.CloudConnectorRules
     [JsiiInterface(nativeType: typeof(ICloudConnectorRulesRules), fullyQualifiedName: "cloudflare.cloudConnectorRules.CloudConnectorRulesRules")]
     public interface ICloudConnectorRulesRules
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#description CloudConnectorRules#description}.</summary>
+        /// <summary>Cloud Provider type Available values: "aws_s3", "cloudflare_r2", "gcp_storage", "azure_storage", "oci_storage".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#cloud_connector_rules_provider CloudConnectorRules#cloud_connector_rules_provider}
+        /// </remarks>
+        [JsiiProperty(name: "cloudConnectorRulesProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CloudConnectorRulesProvider
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#description CloudConnectorRules#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -18,7 +32,7 @@ namespace cloudflare.CloudConnectorRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#enabled CloudConnectorRules#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#enabled CloudConnectorRules#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +46,7 @@ namespace cloudflare.CloudConnectorRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#expression CloudConnectorRules#expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#expression CloudConnectorRules#expression}.</summary>
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Expression
@@ -45,25 +59,11 @@ namespace cloudflare.CloudConnectorRules
 
         /// <summary>Parameters of Cloud Connector Rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#parameters CloudConnectorRules#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#parameters CloudConnectorRules#parameters}
         /// </remarks>
         [JsiiProperty(name: "parameters", typeJson: "{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRulesParameters\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.CloudConnectorRules.ICloudConnectorRulesRulesParameters? Parameters
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>Cloud Provider type Available values: "aws_s3", "cloudflare_r2", "gcp_storage", "azure_storage", "oci_storage".</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#provider CloudConnectorRules#provider}
-        /// </remarks>
-        [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Provider
         {
             get
             {
@@ -78,7 +78,18 @@ namespace cloudflare.CloudConnectorRules
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#description CloudConnectorRules#description}.</summary>
+            /// <summary>Cloud Provider type Available values: "aws_s3", "cloudflare_r2", "gcp_storage", "azure_storage", "oci_storage".</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#cloud_connector_rules_provider CloudConnectorRules#cloud_connector_rules_provider}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "cloudConnectorRulesProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CloudConnectorRulesProvider
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#description CloudConnectorRules#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -86,7 +97,7 @@ namespace cloudflare.CloudConnectorRules
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#enabled CloudConnectorRules#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#enabled CloudConnectorRules#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -97,7 +108,7 @@ namespace cloudflare.CloudConnectorRules
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#expression CloudConnectorRules#expression}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#expression CloudConnectorRules#expression}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Expression
@@ -107,24 +118,13 @@ namespace cloudflare.CloudConnectorRules
 
             /// <summary>Parameters of Cloud Connector Rule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#parameters CloudConnectorRules#parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#parameters CloudConnectorRules#parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRulesParameters\"}", isOptional: true)]
             public cloudflare.CloudConnectorRules.ICloudConnectorRulesRulesParameters? Parameters
             {
                 get => GetInstanceProperty<cloudflare.CloudConnectorRules.ICloudConnectorRulesRulesParameters?>();
-            }
-
-            /// <summary>Cloud Provider type Available values: "aws_s3", "cloudflare_r2", "gcp_storage", "azure_storage", "oci_storage".</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/cloud_connector_rules#provider CloudConnectorRules#provider}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Provider
-            {
-                get => GetInstanceProperty<string?>();
             }
         }
     }

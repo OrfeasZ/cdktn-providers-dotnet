@@ -51,6 +51,12 @@ namespace cloudflare.DataCloudflareWorkers
             get => GetInstanceProperty<cloudflare.DataCloudflareWorkers.DataCloudflareWorkersResultObservabilityLogsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "redactQueryString", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable RedactQueryString
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "traces", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkers.DataCloudflareWorkersResultObservabilityTracesOutputReference\"}")]
         public virtual cloudflare.DataCloudflareWorkers.DataCloudflareWorkersResultObservabilityTracesOutputReference Traces
         {

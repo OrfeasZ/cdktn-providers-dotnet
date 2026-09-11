@@ -7,7 +7,7 @@ namespace cloudflare.AiSearchNamespace
     [JsiiByValue(fqn: "cloudflare.aiSearchNamespace.AiSearchNamespacePublicEndpointParamsMcp")]
     public class AiSearchNamespacePublicEndpointParamsMcp : cloudflare.AiSearchNamespace.IAiSearchNamespacePublicEndpointParamsMcp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_namespace#description AiSearchNamespace#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_namespace#description AiSearchNamespace#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -20,7 +20,7 @@ namespace cloudflare.AiSearchNamespace
 
         /// <summary>Disable MCP endpoint for this public endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/ai_search_namespace#disabled AiSearchNamespace#disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_namespace#disabled AiSearchNamespace#disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

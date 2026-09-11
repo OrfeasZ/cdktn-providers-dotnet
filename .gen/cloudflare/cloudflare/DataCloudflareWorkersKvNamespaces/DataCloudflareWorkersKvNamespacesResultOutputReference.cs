@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareWorkersKvNamespaces
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Jurisdiction
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "supportsUrlEncoding", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable SupportsUrlEncoding
         {

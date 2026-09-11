@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.WorkersScript
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script cloudflare_workers_script}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script cloudflare_workers_script}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.WorkersScript.WorkersScript), fullyQualifiedName: "cloudflare.workersScript.WorkersScript", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptConfig\"}}]")]
     public class WorkersScript : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script cloudflare_workers_script} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script cloudflare_workers_script} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public WorkersScript(Constructs.Construct scope, string id, cloudflare.WorkersScript.IWorkersScriptConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.WorkersScript
         /// <param name="importToId">The construct id used in the generated config for the WorkersScript to import.</param>
         /// <param name="importFromId">The id of the existing WorkersScript that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the WorkersScript to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersScript to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.24.0/docs/resources/workers_script#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersScript that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersScript to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersScript to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersScript that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersScript to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.WorkersScript.WorkersScript), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -107,6 +107,30 @@ namespace cloudflare.WorkersScript
                         throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, {typeof(cloudflare.WorkersScript.IWorkersScriptExports).FullName}>; received null", nameof(@value));
                     default:
                         throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, {typeof(cloudflare.WorkersScript.IWorkersScriptExports).FullName}>; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.WorkersScript.IWorkersScriptFiles" />&gt;</param>
+        [JsiiMethod(name: "putFiles", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptFiles\"},\"kind\":\"map\"}}]}}}]")]
+        public virtual void PutFiles(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case System.Collections.Generic.IDictionary<string, cloudflare.WorkersScript.IWorkersScriptFiles> cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, {typeof(cloudflare.WorkersScript.IWorkersScriptFiles).FullName}>; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, System.Collections.Generic.IDictionary<string, {typeof(cloudflare.WorkersScript.IWorkersScriptFiles).FullName}>; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
@@ -256,6 +280,12 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetFiles")]
+        public virtual void ResetFiles()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKeepAssets")]
         public virtual void ResetKeepAssets()
         {
@@ -381,6 +411,12 @@ namespace cloudflare.WorkersScript
         public virtual cloudflare.WorkersScript.WorkersScriptExportsMap Exports
         {
             get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptExportsMap>()!;
+        }
+
+        [JsiiProperty(name: "files", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptFilesMap\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptFilesMap Files
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptFilesMap>()!;
         }
 
         [JsiiProperty(name: "handlers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
@@ -587,6 +623,16 @@ namespace cloudflare.WorkersScript
         [JsiiOptional]
         [JsiiProperty(name: "exportsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptExports\"},\"kind\":\"map\"}}]}}", isOptional: true)]
         public virtual object? ExportsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.WorkersScript.IWorkersScriptFiles" />&gt;</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "filesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptFiles\"},\"kind\":\"map\"}}]}}", isOptional: true)]
+        public virtual object? FilesInput
         {
             get => GetInstanceProperty<object?>();
         }

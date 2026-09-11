@@ -39,12 +39,6 @@ namespace cloudflare.DataCloudflarePipelineStreams
             get => GetInstanceProperty<cloudflare.DataCloudflarePipelineStreams.DataCloudflarePipelineStreamsResultSchemaFieldsList>()!;
         }
 
-        [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePipelineStreams.DataCloudflarePipelineStreamsResultSchemaFormatOutputReference\"}")]
-        public virtual cloudflare.DataCloudflarePipelineStreams.DataCloudflarePipelineStreamsResultSchemaFormatOutputReference Format
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflarePipelineStreams.DataCloudflarePipelineStreamsResultSchemaFormatOutputReference>()!;
-        }
-
         [JsiiProperty(name: "inferred", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Inferred
         {
