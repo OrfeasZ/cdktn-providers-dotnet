@@ -8,7 +8,7 @@
     "hashicorp/aws@6.64.0",
     "cloudflare/cloudflare@5.24.0",
     "digitalocean/digitalocean@2.100.0",
-    "hashicorp/random@3.9.0",
+    "hashicorp/random@3.9.1",
     "hetznercloud/hcloud@1.69.0",
     "kislerdm/neon@0.17.0",
     "scaleway/scaleway@2.82.0",

@@ -11,7 +11,7 @@ namespace random.StringResource
         /// <remarks>
         /// The minimum value for length is 1 and, length must also be &gt;= (<c>min_upper</c> + <c>min_lower</c> + <c>min_numeric</c> + <c>min_special</c>).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#length StringResource#length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#length StringResource#length}
         /// </remarks>
         [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
         double Length
@@ -23,7 +23,7 @@ namespace random.StringResource
         /// <remarks>
         /// See <a href="../index.html">the main provider documentation</a> for more information.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#keepers StringResource#keepers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#keepers StringResource#keepers}
         /// </remarks>
         [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace random.StringResource
 
         /// <summary>Include lowercase alphabet characters in the result. Default value is `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#lower StringResource#lower}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#lower StringResource#lower}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "lower", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace random.StringResource
 
         /// <summary>Minimum number of lowercase alphabet characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_lower StringResource#min_lower}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_lower StringResource#min_lower}
         /// </remarks>
         [JsiiProperty(name: "minLower", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace random.StringResource
 
         /// <summary>Minimum number of numeric characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_numeric StringResource#min_numeric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_numeric StringResource#min_numeric}
         /// </remarks>
         [JsiiProperty(name: "minNumeric", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace random.StringResource
 
         /// <summary>Minimum number of special characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_special StringResource#min_special}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_special StringResource#min_special}
         /// </remarks>
         [JsiiProperty(name: "minSpecial", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace random.StringResource
 
         /// <summary>Minimum number of uppercase alphabet characters in the result. Default value is `0`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_upper StringResource#min_upper}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_upper StringResource#min_upper}
         /// </remarks>
         [JsiiProperty(name: "minUpper", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +110,7 @@ namespace random.StringResource
         /// <remarks>
         /// Default value is <c>true</c>. If <c>number</c>, <c>upper</c>, <c>lower</c>, and <c>special</c> are all configured, at least one of them must be set to <c>true</c>. <strong>NOTE</strong>: This is deprecated, use <c>numeric</c> instead.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#number StringResource#number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#number StringResource#number}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "number", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace random.StringResource
         /// <remarks>
         /// Default value is <c>true</c>. If <c>numeric</c>, <c>upper</c>, <c>lower</c>, and <c>special</c> are all configured, at least one of them must be set to <c>true</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#numeric StringResource#numeric}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#numeric StringResource#numeric}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "numeric", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace random.StringResource
         /// <remarks>
         /// This overrides the default character list in the special argument.  The <c>special</c> argument must still be set to true for any overwritten characters to be used in generation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#override_special StringResource#override_special}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#override_special StringResource#override_special}
         /// </remarks>
         [JsiiProperty(name: "overrideSpecial", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -158,7 +158,7 @@ namespace random.StringResource
 
         /// <summary>Include special characters in the result. These are `!@#$%&amp;*()-_=+[]{}&lt;&gt;:?`. Default value is `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#special StringResource#special}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#special StringResource#special}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "special", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace random.StringResource
 
         /// <summary>Include uppercase alphabet characters in the result. Default value is `true`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#upper StringResource#upper}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#upper StringResource#upper}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "upper", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace random.StringResource
             /// <remarks>
             /// The minimum value for length is 1 and, length must also be &gt;= (<c>min_upper</c> + <c>min_lower</c> + <c>min_numeric</c> + <c>min_special</c>).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#length StringResource#length}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#length StringResource#length}
             /// </remarks>
             [JsiiProperty(name: "length", typeJson: "{\"primitive\":\"number\"}")]
             public double Length
@@ -209,7 +209,7 @@ namespace random.StringResource
             /// <remarks>
             /// See <a href="../index.html">the main provider documentation</a> for more information.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#keepers StringResource#keepers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#keepers StringResource#keepers}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keepers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace random.StringResource
 
             /// <summary>Include lowercase alphabet characters in the result. Default value is `true`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#lower StringResource#lower}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#lower StringResource#lower}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -232,7 +232,7 @@ namespace random.StringResource
 
             /// <summary>Minimum number of lowercase alphabet characters in the result. Default value is `0`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_lower StringResource#min_lower}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_lower StringResource#min_lower}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minLower", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace random.StringResource
 
             /// <summary>Minimum number of numeric characters in the result. Default value is `0`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_numeric StringResource#min_numeric}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_numeric StringResource#min_numeric}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minNumeric", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace random.StringResource
 
             /// <summary>Minimum number of special characters in the result. Default value is `0`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_special StringResource#min_special}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_special StringResource#min_special}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minSpecial", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -265,7 +265,7 @@ namespace random.StringResource
 
             /// <summary>Minimum number of uppercase alphabet characters in the result. Default value is `0`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#min_upper StringResource#min_upper}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#min_upper StringResource#min_upper}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minUpper", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -278,7 +278,7 @@ namespace random.StringResource
             /// <remarks>
             /// Default value is <c>true</c>. If <c>number</c>, <c>upper</c>, <c>lower</c>, and <c>special</c> are all configured, at least one of them must be set to <c>true</c>. <strong>NOTE</strong>: This is deprecated, use <c>numeric</c> instead.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#number StringResource#number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#number StringResource#number}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -292,7 +292,7 @@ namespace random.StringResource
             /// <remarks>
             /// Default value is <c>true</c>. If <c>numeric</c>, <c>upper</c>, <c>lower</c>, and <c>special</c> are all configured, at least one of them must be set to <c>true</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#numeric StringResource#numeric}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#numeric StringResource#numeric}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -306,7 +306,7 @@ namespace random.StringResource
             /// <remarks>
             /// This overrides the default character list in the special argument.  The <c>special</c> argument must still be set to true for any overwritten characters to be used in generation.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#override_special StringResource#override_special}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#override_special StringResource#override_special}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "overrideSpecial", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -317,7 +317,7 @@ namespace random.StringResource
 
             /// <summary>Include special characters in the result. These are `!@#$%&amp;*()-_=+[]{}&lt;&gt;:?`. Default value is `true`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#special StringResource#special}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#special StringResource#special}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -329,7 +329,7 @@ namespace random.StringResource
 
             /// <summary>Include uppercase alphabet characters in the result. Default value is `true`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.0/docs/resources/string#upper StringResource#upper}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/random/3.9.1/docs/resources/string#upper StringResource#upper}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
