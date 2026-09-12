@@ -11,7 +11,7 @@ namespace neon.BranchBackupSchedule
     {
         /// <summary>The Neon branch ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#branch_id BranchBackupSchedule#branch_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#branch_id BranchBackupSchedule#branch_id}
         /// </remarks>
         [JsiiProperty(name: "branchId", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchId
@@ -22,7 +22,7 @@ namespace neon.BranchBackupSchedule
 
         /// <summary>The Neon project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#project_id BranchBackupSchedule#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#project_id BranchBackupSchedule#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectId
@@ -35,7 +35,7 @@ namespace neon.BranchBackupSchedule
 
         /// <summary>Snapshot frequencies configured for the branch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#schedule BranchBackupSchedule#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#schedule BranchBackupSchedule#schedule}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="neon.BranchBackupSchedule.IBranchBackupScheduleSchedule" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"neon.branchBackupSchedule.BranchBackupScheduleSchedule\"},\"kind\":\"array\"}}]}}")]

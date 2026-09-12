@@ -5,7 +5,7 @@ namespace neon.BranchBackupSchedule
     /// <remarks>
     /// <h1><c>neon_branch_backup_schedule</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule"><c>neon_branch_backup_schedule</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule"><c>neon_branch_backup_schedule</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

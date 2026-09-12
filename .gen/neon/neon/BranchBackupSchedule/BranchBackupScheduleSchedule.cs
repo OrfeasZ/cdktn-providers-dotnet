@@ -11,7 +11,7 @@ namespace neon.BranchBackupSchedule
     {
         /// <summary>Snapshot frequency: daily, weekly, or monthly.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#frequency BranchBackupSchedule#frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#frequency BranchBackupSchedule#frequency}
         /// </remarks>
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}")]
         public string Frequency
@@ -22,7 +22,7 @@ namespace neon.BranchBackupSchedule
 
         /// <summary>Day of the week or month, when applicable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#day BranchBackupSchedule#day}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#day BranchBackupSchedule#day}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace neon.BranchBackupSchedule
 
         /// <summary>Hour of the day, when applicable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#hour BranchBackupSchedule#hour}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#hour BranchBackupSchedule#hour}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace neon.BranchBackupSchedule
 
         /// <summary>Month of the year, when applicable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#month BranchBackupSchedule#month}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#month BranchBackupSchedule#month}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace neon.BranchBackupSchedule
 
         /// <summary>How long to retain scheduled snapshots, in seconds.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/branch_backup_schedule#retention_seconds BranchBackupSchedule#retention_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/branch_backup_schedule#retention_seconds BranchBackupSchedule#retention_seconds}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retentionSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

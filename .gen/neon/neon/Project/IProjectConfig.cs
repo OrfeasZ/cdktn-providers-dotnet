@@ -11,7 +11,7 @@ namespace neon.Project
         /// <remarks>
         /// Note that the feature is available to the Neon Scale plans only. Details: https://neon.tech/docs/manage/projects#configure-ip-allow
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#allowed_ips Project#allowed_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#allowed_ips Project#allowed_ips}
         /// </remarks>
         [JsiiProperty(name: "allowedIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace neon.Project
         /// Apply the allow-list to the protected branches only.
         /// Note that the feature is available to the Neon Scale plans only.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#allowed_ips_protected_branches_only Project#allowed_ips_protected_branches_only}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#allowed_ips_protected_branches_only Project#allowed_ips_protected_branches_only}
         /// </remarks>
         [JsiiProperty(name: "allowedIpsProtectedBranchesOnly", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace neon.Project
         /// <remarks>
         /// Note that it is not retrospectively applicable, i.e., existing compute resources are not affected by this configuration.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#autoscaling_limit_max_cu Project#autoscaling_limit_max_cu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#autoscaling_limit_max_cu Project#autoscaling_limit_max_cu}
         /// </remarks>
         [JsiiProperty(name: "autoscalingLimitMaxCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace neon.Project
         /// <remarks>
         /// Note that it is not retrospectively applicable, i.e., existing compute resources are not affected by this configuration.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#autoscaling_limit_min_cu Project#autoscaling_limit_min_cu}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#autoscaling_limit_min_cu Project#autoscaling_limit_min_cu}
         /// </remarks>
         [JsiiProperty(name: "autoscalingLimitMinCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace neon.Project
         /// <remarks>
         /// Block connections from public internet. This supersedes the AllowedIPs list.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#block_public_connections Project#block_public_connections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#block_public_connections Project#block_public_connections}
         /// </remarks>
         [JsiiProperty(name: "blockPublicConnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace neon.Project
         /// <remarks>
         /// Block connections that use VPC endpoints.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#block_vpc_connections Project#block_vpc_connections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#block_vpc_connections Project#block_vpc_connections}
         /// </remarks>
         [JsiiProperty(name: "blockVpcConnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace neon.Project
 
         /// <summary>branch block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#branch Project#branch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#branch Project#branch}
         /// </remarks>
         [JsiiProperty(name: "branch", typeJson: "{\"fqn\":\"neon.project.ProjectBranch\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -120,7 +120,7 @@ namespace neon.Project
 
         /// <summary>Provisioner The Neon compute provisioner. Specify the k8s-neonvm provisioner to create a compute endpoint that supports Autoscaling.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#compute_provisioner Project#compute_provisioner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#compute_provisioner Project#compute_provisioner}
         /// </remarks>
         [JsiiProperty(name: "computeProvisioner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -134,7 +134,7 @@ namespace neon.Project
 
         /// <summary>Set default branch as protected. **Note** that the default value is false.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#default_branch_protected Project#default_branch_protected}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#default_branch_protected Project#default_branch_protected}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "defaultBranchProtected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace neon.Project
         ///
         /// <strong>Warning</strong>: Once enabled, logical replication cannot be disabled.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#enable_logical_replication Project#enable_logical_replication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#enable_logical_replication Project#enable_logical_replication}
         /// </remarks>
         [JsiiProperty(name: "enableLogicalReplication", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -174,7 +174,7 @@ namespace neon.Project
         ///
         /// <strong>Warning</strong>: Once enabled, HIPAA cannot be disabled.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#hipaa Project#hipaa}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#hipaa Project#hipaa}
         /// </remarks>
         [JsiiProperty(name: "hipaa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -188,7 +188,7 @@ namespace neon.Project
 
         /// <summary>The number of seconds to retain the point-in-time restore (PITR) backup history for this project. Default: 1 day, see https://neon.tech/docs/reference/glossary#point-in-time-restore.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#history_retention_seconds Project#history_retention_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#history_retention_seconds Project#history_retention_seconds}
         /// </remarks>
         [JsiiProperty(name: "historyRetentionSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -202,7 +202,7 @@ namespace neon.Project
 
         /// <summary>maintenance_window block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#maintenance_window Project#maintenance_window}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#maintenance_window Project#maintenance_window}
         /// </remarks>
         [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"neon.project.ProjectMaintenanceWindow\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -216,7 +216,7 @@ namespace neon.Project
 
         /// <summary>Project name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#name Project#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#name Project#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -230,7 +230,7 @@ namespace neon.Project
 
         /// <summary>Identifier of the organisation to which this project belongs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#org_id Project#org_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#org_id Project#org_id}
         /// </remarks>
         [JsiiProperty(name: "orgId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -244,7 +244,7 @@ namespace neon.Project
 
         /// <summary>Postgres version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#pg_version Project#pg_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#pg_version Project#pg_version}
         /// </remarks>
         [JsiiProperty(name: "pgVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -258,7 +258,7 @@ namespace neon.Project
 
         /// <summary>primary_compute block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#primary_compute Project#primary_compute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#primary_compute Project#primary_compute}
         /// </remarks>
         [JsiiProperty(name: "primaryCompute", typeJson: "{\"fqn\":\"neon.project.ProjectPrimaryCompute\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -272,7 +272,7 @@ namespace neon.Project
 
         /// <summary>quota block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#quota Project#quota}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#quota Project#quota}
         /// </remarks>
         [JsiiProperty(name: "quota", typeJson: "{\"fqn\":\"neon.project.ProjectQuota\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -286,7 +286,7 @@ namespace neon.Project
 
         /// <summary>Deployment region: https://neon.tech/docs/introduction/regions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#region_id Project#region_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#region_id Project#region_id}
         /// </remarks>
         [JsiiProperty(name: "regionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -303,7 +303,7 @@ namespace neon.Project
         /// Whether or not passwords are stored for roles in the Neon project.
         /// Storing passwords facilitates access to Neon features that require authorization.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#store_password Project#store_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#store_password Project#store_password}
         /// </remarks>
         [JsiiProperty(name: "storePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -321,7 +321,7 @@ namespace neon.Project
         /// The value -1 means never suspend. The default value is 300 seconds (5 minutes).
         /// The maximum value is 604800 seconds (1 week)
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#suspend_timeout_seconds Project#suspend_timeout_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#suspend_timeout_seconds Project#suspend_timeout_seconds}
         /// </remarks>
         [JsiiProperty(name: "suspendTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -344,7 +344,7 @@ namespace neon.Project
             /// <remarks>
             /// Note that the feature is available to the Neon Scale plans only. Details: https://neon.tech/docs/manage/projects#configure-ip-allow
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#allowed_ips Project#allowed_ips}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#allowed_ips Project#allowed_ips}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -358,7 +358,7 @@ namespace neon.Project
             /// Apply the allow-list to the protected branches only.
             /// Note that the feature is available to the Neon Scale plans only.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#allowed_ips_protected_branches_only Project#allowed_ips_protected_branches_only}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#allowed_ips_protected_branches_only Project#allowed_ips_protected_branches_only}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedIpsProtectedBranchesOnly", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -371,7 +371,7 @@ namespace neon.Project
             /// <remarks>
             /// Note that it is not retrospectively applicable, i.e., existing compute resources are not affected by this configuration.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#autoscaling_limit_max_cu Project#autoscaling_limit_max_cu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#autoscaling_limit_max_cu Project#autoscaling_limit_max_cu}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoscalingLimitMaxCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -384,7 +384,7 @@ namespace neon.Project
             /// <remarks>
             /// Note that it is not retrospectively applicable, i.e., existing compute resources are not affected by this configuration.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#autoscaling_limit_min_cu Project#autoscaling_limit_min_cu}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#autoscaling_limit_min_cu Project#autoscaling_limit_min_cu}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoscalingLimitMinCu", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -397,7 +397,7 @@ namespace neon.Project
             /// <remarks>
             /// Block connections from public internet. This supersedes the AllowedIPs list.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#block_public_connections Project#block_public_connections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#block_public_connections Project#block_public_connections}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "blockPublicConnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -410,7 +410,7 @@ namespace neon.Project
             /// <remarks>
             /// Block connections that use VPC endpoints.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#block_vpc_connections Project#block_vpc_connections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#block_vpc_connections Project#block_vpc_connections}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "blockVpcConnections", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -421,7 +421,7 @@ namespace neon.Project
 
             /// <summary>branch block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#branch Project#branch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#branch Project#branch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "branch", typeJson: "{\"fqn\":\"neon.project.ProjectBranch\"}", isOptional: true)]
@@ -432,7 +432,7 @@ namespace neon.Project
 
             /// <summary>Provisioner The Neon compute provisioner. Specify the k8s-neonvm provisioner to create a compute endpoint that supports Autoscaling.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#compute_provisioner Project#compute_provisioner}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#compute_provisioner Project#compute_provisioner}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "computeProvisioner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -443,7 +443,7 @@ namespace neon.Project
 
             /// <summary>Set default branch as protected. **Note** that the default value is false.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#default_branch_protected Project#default_branch_protected}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#default_branch_protected Project#default_branch_protected}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -461,7 +461,7 @@ namespace neon.Project
             ///
             /// <strong>Warning</strong>: Once enabled, logical replication cannot be disabled.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#enable_logical_replication Project#enable_logical_replication}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#enable_logical_replication Project#enable_logical_replication}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enableLogicalReplication", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -477,7 +477,7 @@ namespace neon.Project
             ///
             /// <strong>Warning</strong>: Once enabled, HIPAA cannot be disabled.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#hipaa Project#hipaa}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#hipaa Project#hipaa}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hipaa", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -488,7 +488,7 @@ namespace neon.Project
 
             /// <summary>The number of seconds to retain the point-in-time restore (PITR) backup history for this project. Default: 1 day, see https://neon.tech/docs/reference/glossary#point-in-time-restore.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#history_retention_seconds Project#history_retention_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#history_retention_seconds Project#history_retention_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "historyRetentionSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -499,7 +499,7 @@ namespace neon.Project
 
             /// <summary>maintenance_window block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#maintenance_window Project#maintenance_window}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#maintenance_window Project#maintenance_window}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceWindow", typeJson: "{\"fqn\":\"neon.project.ProjectMaintenanceWindow\"}", isOptional: true)]
@@ -510,7 +510,7 @@ namespace neon.Project
 
             /// <summary>Project name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#name Project#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#name Project#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -521,7 +521,7 @@ namespace neon.Project
 
             /// <summary>Identifier of the organisation to which this project belongs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#org_id Project#org_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#org_id Project#org_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "orgId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -532,7 +532,7 @@ namespace neon.Project
 
             /// <summary>Postgres version.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#pg_version Project#pg_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#pg_version Project#pg_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pgVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -543,7 +543,7 @@ namespace neon.Project
 
             /// <summary>primary_compute block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#primary_compute Project#primary_compute}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#primary_compute Project#primary_compute}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "primaryCompute", typeJson: "{\"fqn\":\"neon.project.ProjectPrimaryCompute\"}", isOptional: true)]
@@ -554,7 +554,7 @@ namespace neon.Project
 
             /// <summary>quota block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#quota Project#quota}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#quota Project#quota}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "quota", typeJson: "{\"fqn\":\"neon.project.ProjectQuota\"}", isOptional: true)]
@@ -565,7 +565,7 @@ namespace neon.Project
 
             /// <summary>Deployment region: https://neon.tech/docs/introduction/regions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#region_id Project#region_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#region_id Project#region_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "regionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -579,7 +579,7 @@ namespace neon.Project
             /// Whether or not passwords are stored for roles in the Neon project.
             /// Storing passwords facilitates access to Neon features that require authorization.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#store_password Project#store_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#store_password Project#store_password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "storePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -594,7 +594,7 @@ namespace neon.Project
             /// The value -1 means never suspend. The default value is 300 seconds (5 minutes).
             /// The maximum value is 604800 seconds (1 week)
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.17.0/docs/resources/project#suspend_timeout_seconds Project#suspend_timeout_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/kislerdm/neon/0.18.0/docs/resources/project#suspend_timeout_seconds Project#suspend_timeout_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "suspendTimeoutSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
