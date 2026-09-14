@@ -107,6 +107,12 @@ namespace scaleway.DataScalewayLbBackends
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Host
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

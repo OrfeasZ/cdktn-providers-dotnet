@@ -9,7 +9,7 @@ namespace scaleway.AutoscalingGroup
     {
         /// <summary>The scaling policy configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#scaling_policy AutoscalingGroup#scaling_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#scaling_policy AutoscalingGroup#scaling_policy}
         /// </remarks>
         [JsiiProperty(name: "scalingPolicy", typeJson: "{\"fqn\":\"scaleway.autoscalingGroup.AutoscalingGroupScalingPolicy\"}")]
         scaleway.AutoscalingGroup.IAutoscalingGroupScalingPolicy ScalingPolicy
@@ -19,7 +19,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The ID of the Instance Template used to create instances in this group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#template_id AutoscalingGroup#template_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#template_id AutoscalingGroup#template_id}
         /// </remarks>
         [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}")]
         string TemplateId
@@ -29,7 +29,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The load balancer configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#load_balancer_configuration AutoscalingGroup#load_balancer_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#load_balancer_configuration AutoscalingGroup#load_balancer_configuration}
         /// </remarks>
         [JsiiProperty(name: "loadBalancerConfiguration", typeJson: "{\"fqn\":\"scaleway.autoscalingGroup.AutoscalingGroupLoadBalancerConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The name of the AutoScaling Group. If not provided, a random name will be generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The project ID the AutoScaling Group belongs to. Defaults to the provider's project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#project_id AutoscalingGroup#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#project_id AutoscalingGroup#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The tags associated with the AutoScaling Group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#tags AutoscalingGroup#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#tags AutoscalingGroup#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The zone the AutoScaling Group is in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#zone AutoscalingGroup#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#zone AutoscalingGroup#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace scaleway.AutoscalingGroup
 
             /// <summary>The scaling policy configuration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#scaling_policy AutoscalingGroup#scaling_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#scaling_policy AutoscalingGroup#scaling_policy}
             /// </remarks>
             [JsiiProperty(name: "scalingPolicy", typeJson: "{\"fqn\":\"scaleway.autoscalingGroup.AutoscalingGroupScalingPolicy\"}")]
             public scaleway.AutoscalingGroup.IAutoscalingGroupScalingPolicy ScalingPolicy
@@ -116,7 +116,7 @@ namespace scaleway.AutoscalingGroup
 
             /// <summary>The ID of the Instance Template used to create instances in this group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#template_id AutoscalingGroup#template_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#template_id AutoscalingGroup#template_id}
             /// </remarks>
             [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}")]
             public string TemplateId
@@ -126,7 +126,7 @@ namespace scaleway.AutoscalingGroup
 
             /// <summary>The load balancer configuration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#load_balancer_configuration AutoscalingGroup#load_balancer_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#load_balancer_configuration AutoscalingGroup#load_balancer_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancerConfiguration", typeJson: "{\"fqn\":\"scaleway.autoscalingGroup.AutoscalingGroupLoadBalancerConfiguration\"}", isOptional: true)]
@@ -137,7 +137,7 @@ namespace scaleway.AutoscalingGroup
 
             /// <summary>The name of the AutoScaling Group. If not provided, a random name will be generated.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#name AutoscalingGroup#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace scaleway.AutoscalingGroup
 
             /// <summary>The project ID the AutoScaling Group belongs to. Defaults to the provider's project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#project_id AutoscalingGroup#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#project_id AutoscalingGroup#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -159,7 +159,7 @@ namespace scaleway.AutoscalingGroup
 
             /// <summary>The tags associated with the AutoScaling Group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#tags AutoscalingGroup#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#tags AutoscalingGroup#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace scaleway.AutoscalingGroup
 
             /// <summary>The zone the AutoScaling Group is in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.82.0/docs/resources/autoscaling_group#zone AutoscalingGroup#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#zone AutoscalingGroup#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

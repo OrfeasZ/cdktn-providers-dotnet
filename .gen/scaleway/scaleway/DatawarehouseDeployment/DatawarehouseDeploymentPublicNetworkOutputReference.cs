@@ -4,21 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.DatawarehouseDeployment
 {
-    [JsiiClass(nativeType: typeof(scaleway.DatawarehouseDeployment.DatawarehouseDeploymentPublicNetworkOutputReference), fullyQualifiedName: "scaleway.datawarehouseDeployment.DatawarehouseDeploymentPublicNetworkOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
+    [JsiiClass(nativeType: typeof(scaleway.DatawarehouseDeployment.DatawarehouseDeploymentPublicNetworkOutputReference), fullyQualifiedName: "scaleway.datawarehouseDeployment.DatawarehouseDeploymentPublicNetworkOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
     public class DatawarehouseDeploymentPublicNetworkOutputReference : Io.Cdktn.ComplexObject
     {
         /// <param name="terraformResource">The parent resource.</param>
         /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
-        /// <param name="complexObjectIndex">the index of this item in the list.</param>
-        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
-        public DatawarehouseDeploymentPublicNetworkOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
+        public DatawarehouseDeploymentPublicNetworkOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
         {
-            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
         }
 
         /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
@@ -35,14 +33,14 @@ namespace scaleway.DatawarehouseDeployment
         {
         }
 
-        [JsiiProperty(name: "dnsRecord", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string DnsRecord
+        [JsiiMethod(name: "resetId")]
+        public virtual void ResetId()
         {
-            get => GetInstanceProperty<string>()!;
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
+        [JsiiProperty(name: "dnsRecord", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DnsRecord
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -51,6 +49,20 @@ namespace scaleway.DatawarehouseDeployment
         public virtual scaleway.DatawarehouseDeployment.DatawarehouseDeploymentPublicNetworkServicesList Services
         {
             get => GetInstanceProperty<scaleway.DatawarehouseDeployment.DatawarehouseDeploymentPublicNetworkServicesList>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiOptional]
