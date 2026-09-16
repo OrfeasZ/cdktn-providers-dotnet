@@ -13,7 +13,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The list of load balancer backend configurations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#backends AutoscalingGroup#backends}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/autoscaling_group#backends AutoscalingGroup#backends}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.AutoscalingGroup.IAutoscalingGroupLoadBalancerConfigurationBackends" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "backends", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.autoscalingGroup.AutoscalingGroupLoadBalancerConfigurationBackends\"},\"kind\":\"array\"}}]}}")]
@@ -45,7 +45,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The ID of the load balancer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#load_balancer_id AutoscalingGroup#load_balancer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/autoscaling_group#load_balancer_id AutoscalingGroup#load_balancer_id}
         /// </remarks>
         [JsiiProperty(name: "loadBalancerId", typeJson: "{\"primitive\":\"string\"}")]
         public string LoadBalancerId
@@ -56,7 +56,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The auto-healing configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#auto_healing AutoscalingGroup#auto_healing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/autoscaling_group#auto_healing AutoscalingGroup#auto_healing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoHealing", typeJson: "{\"fqn\":\"scaleway.autoscalingGroup.AutoscalingGroupLoadBalancerConfigurationAutoHealing\"}", isOptional: true)]

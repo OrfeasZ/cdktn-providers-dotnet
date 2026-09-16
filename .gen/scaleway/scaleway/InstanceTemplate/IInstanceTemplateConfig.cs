@@ -9,7 +9,7 @@ namespace scaleway.InstanceTemplate
     {
         /// <summary>The commercial type of the server defined by the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#server_type InstanceTemplate#server_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#server_type InstanceTemplate#server_type}
         /// </remarks>
         [JsiiProperty(name: "serverType", typeJson: "{\"primitive\":\"string\"}")]
         string ServerType
@@ -19,7 +19,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The IDs of the filesystems to attach to the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#filesystem_ids InstanceTemplate#filesystem_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#filesystem_ids InstanceTemplate#filesystem_ids}
         /// </remarks>
         [JsiiProperty(name: "filesystemIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The name of the Instance Template. If not provided, a random name will be generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#name InstanceTemplate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#name InstanceTemplate#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The ID of the placement group to attach to the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#placement_group_id InstanceTemplate#placement_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#placement_group_id InstanceTemplate#placement_group_id}
         /// </remarks>
         [JsiiProperty(name: "placementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The IDs of the private networks to attach to the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#private_networks InstanceTemplate#private_networks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#private_networks InstanceTemplate#private_networks}
         /// </remarks>
         [JsiiProperty(name: "privateNetworks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The project ID the Instance Template belongs to. Defaults to the provider's project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#project_id InstanceTemplate#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#project_id InstanceTemplate#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,7 +89,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The number of public IPv4 to attach to the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#public_ipv4_count InstanceTemplate#public_ipv4_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#public_ipv4_count InstanceTemplate#public_ipv4_count}
         /// </remarks>
         [JsiiProperty(name: "publicIpv4Count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,7 +103,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The number of public IPv6 to attach to the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#public_ipv6_count InstanceTemplate#public_ipv6_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#public_ipv6_count InstanceTemplate#public_ipv6_count}
         /// </remarks>
         [JsiiProperty(name: "publicIpv6Count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The ID of the security group to attach to the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#security_group_id InstanceTemplate#security_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#security_group_id InstanceTemplate#security_group_id}
         /// </remarks>
         [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -131,7 +131,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The tags that will be assigned to the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#server_tags InstanceTemplate#server_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#server_tags InstanceTemplate#server_tags}
         /// </remarks>
         [JsiiProperty(name: "serverTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -145,7 +145,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The tags associated with the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#tags InstanceTemplate#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#tags InstanceTemplate#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +159,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The specs of the volumes of the servers created using the Instance Template.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#volumes InstanceTemplate#volumes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#volumes InstanceTemplate#volumes}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceTemplate.IInstanceTemplateVolumes" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "volumes", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.instanceTemplate.InstanceTemplateVolumes\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -176,7 +176,7 @@ namespace scaleway.InstanceTemplate
         /// <remarks>
         /// This will be repeated on all servers created using the Instance Template.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#windows_rdp_ssh_key_id InstanceTemplate#windows_rdp_ssh_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#windows_rdp_ssh_key_id InstanceTemplate#windows_rdp_ssh_key_id}
         /// </remarks>
         [JsiiProperty(name: "windowsRdpSshKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -190,7 +190,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The zone the Instance Template is in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#zone InstanceTemplate#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#zone InstanceTemplate#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -211,7 +211,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The commercial type of the server defined by the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#server_type InstanceTemplate#server_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#server_type InstanceTemplate#server_type}
             /// </remarks>
             [JsiiProperty(name: "serverType", typeJson: "{\"primitive\":\"string\"}")]
             public string ServerType
@@ -221,7 +221,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The IDs of the filesystems to attach to the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#filesystem_ids InstanceTemplate#filesystem_ids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#filesystem_ids InstanceTemplate#filesystem_ids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filesystemIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -232,7 +232,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The name of the Instance Template. If not provided, a random name will be generated.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#name InstanceTemplate#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#name InstanceTemplate#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -243,7 +243,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The ID of the placement group to attach to the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#placement_group_id InstanceTemplate#placement_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#placement_group_id InstanceTemplate#placement_group_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "placementGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The IDs of the private networks to attach to the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#private_networks InstanceTemplate#private_networks}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#private_networks InstanceTemplate#private_networks}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateNetworks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -265,7 +265,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The project ID the Instance Template belongs to. Defaults to the provider's project ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#project_id InstanceTemplate#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#project_id InstanceTemplate#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The number of public IPv4 to attach to the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#public_ipv4_count InstanceTemplate#public_ipv4_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#public_ipv4_count InstanceTemplate#public_ipv4_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "publicIpv4Count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -287,7 +287,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The number of public IPv6 to attach to the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#public_ipv6_count InstanceTemplate#public_ipv6_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#public_ipv6_count InstanceTemplate#public_ipv6_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "publicIpv6Count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -298,7 +298,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The ID of the security group to attach to the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#security_group_id InstanceTemplate#security_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#security_group_id InstanceTemplate#security_group_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -309,7 +309,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The tags that will be assigned to the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#server_tags InstanceTemplate#server_tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#server_tags InstanceTemplate#server_tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "serverTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -320,7 +320,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The tags associated with the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#tags InstanceTemplate#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#tags InstanceTemplate#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -331,7 +331,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The specs of the volumes of the servers created using the Instance Template.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#volumes InstanceTemplate#volumes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#volumes InstanceTemplate#volumes}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstanceTemplate.IInstanceTemplateVolumes" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -345,7 +345,7 @@ namespace scaleway.InstanceTemplate
             /// <remarks>
             /// This will be repeated on all servers created using the Instance Template.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#windows_rdp_ssh_key_id InstanceTemplate#windows_rdp_ssh_key_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#windows_rdp_ssh_key_id InstanceTemplate#windows_rdp_ssh_key_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "windowsRdpSshKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -356,7 +356,7 @@ namespace scaleway.InstanceTemplate
 
             /// <summary>The zone the Instance Template is in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#zone InstanceTemplate#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#zone InstanceTemplate#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

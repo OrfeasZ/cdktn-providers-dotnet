@@ -11,7 +11,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>Whether auto-healing is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#enabled AutoscalingGroup#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/autoscaling_group#enabled AutoscalingGroup#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.AutoscalingGroup
 
         /// <summary>The grace period for health checks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group#grace_period AutoscalingGroup#grace_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/autoscaling_group#grace_period AutoscalingGroup#grace_period}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gracePeriod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

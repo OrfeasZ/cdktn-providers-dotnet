@@ -11,7 +11,7 @@ namespace scaleway.InstanceTemplate
     {
         /// <summary>The size of the volume in gigabytes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#size_in_gb InstanceTemplate#size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#size_in_gb InstanceTemplate#size_in_gb}
         /// </remarks>
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public double SizeInGb
@@ -22,7 +22,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The type of volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#volume_type InstanceTemplate#volume_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#volume_type InstanceTemplate#volume_type}
         /// </remarks>
         [JsiiProperty(name: "volumeType", typeJson: "{\"primitive\":\"string\"}")]
         public string VolumeType
@@ -33,7 +33,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The ID of the base snapshot for the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#base_snapshot_id InstanceTemplate#base_snapshot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#base_snapshot_id InstanceTemplate#base_snapshot_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "baseSnapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The label of the image used as base for the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#image_label InstanceTemplate#image_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#image_label InstanceTemplate#image_label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "imageLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The name of volume. If not provided, a random name will be generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#name InstanceTemplate#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#name InstanceTemplate#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The performance IOPS of the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#perf_iops InstanceTemplate#perf_iops}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#perf_iops InstanceTemplate#perf_iops}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "perfIops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.InstanceTemplate
 
         /// <summary>The tags associated with the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/instance_template#tags InstanceTemplate#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/instance_template#tags InstanceTemplate#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

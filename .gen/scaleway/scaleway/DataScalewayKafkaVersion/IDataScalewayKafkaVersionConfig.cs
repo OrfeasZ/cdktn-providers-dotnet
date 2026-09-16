@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayKafkaVersion
     {
         /// <summary>The Kafka version name. Use `latest` to retrieve the most recent available version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/data-sources/kafka_version#name DataScalewayKafkaVersion#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/data-sources/kafka_version#name DataScalewayKafkaVersion#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayKafkaVersion
 
         /// <summary>The region the Kafka version is available in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/data-sources/kafka_version#region DataScalewayKafkaVersion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/data-sources/kafka_version#region DataScalewayKafkaVersion#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.DataScalewayKafkaVersion
 
             /// <summary>The Kafka version name. Use `latest` to retrieve the most recent available version.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/data-sources/kafka_version#name DataScalewayKafkaVersion#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/data-sources/kafka_version#name DataScalewayKafkaVersion#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -50,7 +50,7 @@ namespace scaleway.DataScalewayKafkaVersion
 
             /// <summary>The region the Kafka version is available in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/data-sources/kafka_version#region DataScalewayKafkaVersion#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/data-sources/kafka_version#region DataScalewayKafkaVersion#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

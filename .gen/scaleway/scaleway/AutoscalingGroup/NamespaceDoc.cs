@@ -5,7 +5,7 @@ namespace scaleway.AutoscalingGroup
     /// <remarks>
     /// <h1><c>scaleway_autoscaling_group</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.83.0/docs/resources/autoscaling_group"><c>scaleway_autoscaling_group</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/autoscaling_group"><c>scaleway_autoscaling_group</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

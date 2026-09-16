@@ -11,7 +11,7 @@
     "hashicorp/random@3.9.1",
     "hetznercloud/hcloud@1.69.0",
     "kislerdm/neon@0.18.0",
-    "scaleway/scaleway@2.83.0",
+    "scaleway/scaleway@2.83.1",
     "stripe/stripe@0.3.0",
     "hashicorp/null@3.3.2",
     "tailscale/tailscale@0.29.2",
