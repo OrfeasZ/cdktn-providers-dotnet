@@ -95,6 +95,12 @@ namespace oci.DataOciPsqlBackups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "lastAcceptedRequestToken", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastAcceptedRequestToken
         {

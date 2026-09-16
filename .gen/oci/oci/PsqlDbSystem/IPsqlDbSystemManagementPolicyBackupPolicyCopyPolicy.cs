@@ -7,21 +7,32 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemManagementPolicyBackupPolicyCopyPolicy), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemManagementPolicyBackupPolicyCopyPolicy")]
     public interface IPsqlDbSystemManagementPolicyBackupPolicyCopyPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}.</summary>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Regions
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#kms_key_ids PsqlDbSystem#kms_key_ids}.</summary>
+        [JsiiProperty(name: "kmsKeyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? KmsKeyIds
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}.</summary>
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? RetentionPeriod
@@ -39,21 +50,29 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#compartment_id PsqlDbSystem#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#regions PsqlDbSystem#regions}.</summary>
             [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Regions
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#kms_key_ids PsqlDbSystem#kms_key_ids}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "kmsKeyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? KmsKeyIds
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#retention_period PsqlDbSystem#retention_period}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? RetentionPeriod

@@ -53,6 +53,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "systemType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SystemType
         {

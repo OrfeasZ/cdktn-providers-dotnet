@@ -45,6 +45,12 @@ namespace oci.PsqlDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetKmsKeyId")]
+        public virtual void ResetKmsKeyId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "availabilityDomainInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AvailabilityDomainInput
@@ -67,6 +73,13 @@ namespace oci.PsqlDbSystem
         public virtual object? IsRegionallyDurableInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kmsKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KmsKeyIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -118,6 +131,13 @@ namespace oci.PsqlDbSystem
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "systemType", typeJson: "{\"primitive\":\"string\"}")]

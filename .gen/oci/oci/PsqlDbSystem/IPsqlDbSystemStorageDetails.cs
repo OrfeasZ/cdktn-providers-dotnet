@@ -7,7 +7,7 @@ namespace oci.PsqlDbSystem
     [JsiiInterface(nativeType: typeof(IPsqlDbSystemStorageDetails), fullyQualifiedName: "oci.psqlDbSystem.PsqlDbSystemStorageDetails")]
     public interface IPsqlDbSystemStorageDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#is_regionally_durable PsqlDbSystem#is_regionally_durable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#is_regionally_durable PsqlDbSystem#is_regionally_durable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,14 +17,14 @@ namespace oci.PsqlDbSystem
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
         [JsiiProperty(name: "systemType", typeJson: "{\"primitive\":\"string\"}")]
         string SystemType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#availability_domain PsqlDbSystem#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#availability_domain PsqlDbSystem#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AvailabilityDomain
@@ -35,10 +35,21 @@ namespace oci.PsqlDbSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#iops PsqlDbSystem#iops}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#iops PsqlDbSystem#iops}.</summary>
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Iops
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#kms_key_id PsqlDbSystem#kms_key_id}.</summary>
+        [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? KmsKeyId
         {
             get
             {
@@ -53,7 +64,7 @@ namespace oci.PsqlDbSystem
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#is_regionally_durable PsqlDbSystem#is_regionally_durable}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#is_regionally_durable PsqlDbSystem#is_regionally_durable}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -63,14 +74,14 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#system_type PsqlDbSystem#system_type}.</summary>
             [JsiiProperty(name: "systemType", typeJson: "{\"primitive\":\"string\"}")]
             public string SystemType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#availability_domain PsqlDbSystem#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#availability_domain PsqlDbSystem#availability_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AvailabilityDomain
@@ -78,10 +89,18 @@ namespace oci.PsqlDbSystem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/psql_db_system#iops PsqlDbSystem#iops}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#iops PsqlDbSystem#iops}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Iops
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/psql_db_system#kms_key_id PsqlDbSystem#kms_key_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? KmsKeyId
             {
                 get => GetInstanceProperty<string?>();
             }

@@ -33,6 +33,12 @@ namespace oci.PsqlDbSystem
         {
         }
 
+        [JsiiMethod(name: "resetKmsKeyIds")]
+        public virtual void ResetKmsKeyIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRetentionPeriod")]
         public virtual void ResetRetentionPeriod()
         {
@@ -44,6 +50,13 @@ namespace oci.PsqlDbSystem
         public virtual string? CompartmentIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "kmsKeyIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? KmsKeyIdsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -64,6 +77,13 @@ namespace oci.PsqlDbSystem
         public virtual string CompartmentId
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "kmsKeyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] KmsKeyIds
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

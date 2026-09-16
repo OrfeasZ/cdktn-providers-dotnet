@@ -41,6 +41,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "kmsKeyIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] KmsKeyIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Regions
         {

@@ -7,7 +7,7 @@ namespace oci.OcvpEsxiHost
     [JsiiInterface(nativeType: typeof(IOcvpEsxiHostConfig), fullyQualifiedName: "oci.ocvpEsxiHost.OcvpEsxiHostConfig")]
     public interface IOcvpEsxiHostConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#attach_datastore_cluster_ids OcvpEsxiHost#attach_datastore_cluster_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#attach_datastore_cluster_ids OcvpEsxiHost#attach_datastore_cluster_ids}.</summary>
         [JsiiProperty(name: "attachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AttachDatastoreClusterIds
@@ -18,7 +18,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#billing_donor_host_id OcvpEsxiHost#billing_donor_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#billing_donor_host_id OcvpEsxiHost#billing_donor_host_id}.</summary>
         [JsiiProperty(name: "billingDonorHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BillingDonorHostId
@@ -29,7 +29,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#capacity_reservation_id OcvpEsxiHost#capacity_reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#capacity_reservation_id OcvpEsxiHost#capacity_reservation_id}.</summary>
         [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CapacityReservationId
@@ -40,7 +40,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#cluster_id OcvpEsxiHost#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#cluster_id OcvpEsxiHost#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterId
@@ -51,7 +51,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#compute_availability_domain OcvpEsxiHost#compute_availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#compute_availability_domain OcvpEsxiHost#compute_availability_domain}.</summary>
         [JsiiProperty(name: "computeAvailabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeAvailabilityDomain
@@ -62,7 +62,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#current_commitment OcvpEsxiHost#current_commitment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#current_commitment OcvpEsxiHost#current_commitment}.</summary>
         [JsiiProperty(name: "currentCommitment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CurrentCommitment
@@ -73,7 +73,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#current_sku OcvpEsxiHost#current_sku}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#current_sku OcvpEsxiHost#current_sku}.</summary>
         [JsiiProperty(name: "currentSku", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CurrentSku
@@ -84,7 +84,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#defined_tags OcvpEsxiHost#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#defined_tags OcvpEsxiHost#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -95,7 +95,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#detach_datastore_cluster_ids OcvpEsxiHost#detach_datastore_cluster_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#detach_datastore_cluster_ids OcvpEsxiHost#detach_datastore_cluster_ids}.</summary>
         [JsiiProperty(name: "detachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DetachDatastoreClusterIds
@@ -106,7 +106,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#display_name OcvpEsxiHost#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#display_name OcvpEsxiHost#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -117,7 +117,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#esxi_software_version OcvpEsxiHost#esxi_software_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#esxi_software_version OcvpEsxiHost#esxi_software_version}.</summary>
         [JsiiProperty(name: "esxiSoftwareVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EsxiSoftwareVersion
@@ -128,7 +128,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#failed_esxi_host_id OcvpEsxiHost#failed_esxi_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#failed_esxi_host_id OcvpEsxiHost#failed_esxi_host_id}.</summary>
         [JsiiProperty(name: "failedEsxiHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FailedEsxiHostId
@@ -139,7 +139,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#freeform_tags OcvpEsxiHost#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#freeform_tags OcvpEsxiHost#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -150,7 +150,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#host_ocpu_count OcvpEsxiHost#host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#host_ocpu_count OcvpEsxiHost#host_ocpu_count}.</summary>
         [JsiiProperty(name: "hostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? HostOcpuCount
@@ -161,7 +161,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#host_shape_name OcvpEsxiHost#host_shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#host_shape_name OcvpEsxiHost#host_shape_name}.</summary>
         [JsiiProperty(name: "hostShapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HostShapeName
@@ -172,7 +172,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#id OcvpEsxiHost#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#id OcvpEsxiHost#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -187,7 +187,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#initial_fault_domain_host_distribution OcvpEsxiHost#initial_fault_domain_host_distribution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#initial_fault_domain_host_distribution OcvpEsxiHost#initial_fault_domain_host_distribution}.</summary>
         [JsiiProperty(name: "initialFaultDomainHostDistribution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InitialFaultDomainHostDistribution
@@ -198,7 +198,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#is_vsan_byol_enabled OcvpEsxiHost#is_vsan_byol_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#is_vsan_byol_enabled OcvpEsxiHost#is_vsan_byol_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -212,7 +212,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#next_commitment OcvpEsxiHost#next_commitment}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#next_commitment OcvpEsxiHost#next_commitment}.</summary>
         [JsiiProperty(name: "nextCommitment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NextCommitment
@@ -223,7 +223,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#next_sku OcvpEsxiHost#next_sku}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#next_sku OcvpEsxiHost#next_sku}.</summary>
         [JsiiProperty(name: "nextSku", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NextSku
@@ -234,7 +234,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#non_upgraded_esxi_host_id OcvpEsxiHost#non_upgraded_esxi_host_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#non_upgraded_esxi_host_id OcvpEsxiHost#non_upgraded_esxi_host_id}.</summary>
         [JsiiProperty(name: "nonUpgradedEsxiHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NonUpgradedEsxiHostId
@@ -245,7 +245,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#sddc_id OcvpEsxiHost#sddc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#sddc_id OcvpEsxiHost#sddc_id}.</summary>
         [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SddcId
@@ -256,7 +256,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#system_tags OcvpEsxiHost#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#system_tags OcvpEsxiHost#system_tags}.</summary>
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -269,7 +269,7 @@ namespace oci.OcvpEsxiHost
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#timeouts OcvpEsxiHost#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#timeouts OcvpEsxiHost#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpEsxiHost.OcvpEsxiHostTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -281,7 +281,7 @@ namespace oci.OcvpEsxiHost
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#vcf_byol_allocation_id OcvpEsxiHost#vcf_byol_allocation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#vcf_byol_allocation_id OcvpEsxiHost#vcf_byol_allocation_id}.</summary>
         [JsiiProperty(name: "vcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VcfByolAllocationId
@@ -299,7 +299,7 @@ namespace oci.OcvpEsxiHost
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#attach_datastore_cluster_ids OcvpEsxiHost#attach_datastore_cluster_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#attach_datastore_cluster_ids OcvpEsxiHost#attach_datastore_cluster_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "attachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AttachDatastoreClusterIds
@@ -307,7 +307,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#billing_donor_host_id OcvpEsxiHost#billing_donor_host_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#billing_donor_host_id OcvpEsxiHost#billing_donor_host_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "billingDonorHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BillingDonorHostId
@@ -315,7 +315,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#capacity_reservation_id OcvpEsxiHost#capacity_reservation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#capacity_reservation_id OcvpEsxiHost#capacity_reservation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CapacityReservationId
@@ -323,7 +323,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#cluster_id OcvpEsxiHost#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#cluster_id OcvpEsxiHost#cluster_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterId
@@ -331,7 +331,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#compute_availability_domain OcvpEsxiHost#compute_availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#compute_availability_domain OcvpEsxiHost#compute_availability_domain}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeAvailabilityDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeAvailabilityDomain
@@ -339,7 +339,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#current_commitment OcvpEsxiHost#current_commitment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#current_commitment OcvpEsxiHost#current_commitment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "currentCommitment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CurrentCommitment
@@ -347,7 +347,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#current_sku OcvpEsxiHost#current_sku}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#current_sku OcvpEsxiHost#current_sku}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "currentSku", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CurrentSku
@@ -355,7 +355,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#defined_tags OcvpEsxiHost#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#defined_tags OcvpEsxiHost#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -363,7 +363,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#detach_datastore_cluster_ids OcvpEsxiHost#detach_datastore_cluster_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#detach_datastore_cluster_ids OcvpEsxiHost#detach_datastore_cluster_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "detachDatastoreClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DetachDatastoreClusterIds
@@ -371,7 +371,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#display_name OcvpEsxiHost#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#display_name OcvpEsxiHost#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -379,7 +379,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#esxi_software_version OcvpEsxiHost#esxi_software_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#esxi_software_version OcvpEsxiHost#esxi_software_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "esxiSoftwareVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EsxiSoftwareVersion
@@ -387,7 +387,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#failed_esxi_host_id OcvpEsxiHost#failed_esxi_host_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#failed_esxi_host_id OcvpEsxiHost#failed_esxi_host_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "failedEsxiHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FailedEsxiHostId
@@ -395,7 +395,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#freeform_tags OcvpEsxiHost#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#freeform_tags OcvpEsxiHost#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -403,7 +403,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#host_ocpu_count OcvpEsxiHost#host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#host_ocpu_count OcvpEsxiHost#host_ocpu_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? HostOcpuCount
@@ -411,7 +411,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#host_shape_name OcvpEsxiHost#host_shape_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#host_shape_name OcvpEsxiHost#host_shape_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostShapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HostShapeName
@@ -419,7 +419,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#id OcvpEsxiHost#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#id OcvpEsxiHost#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -431,7 +431,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#initial_fault_domain_host_distribution OcvpEsxiHost#initial_fault_domain_host_distribution}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#initial_fault_domain_host_distribution OcvpEsxiHost#initial_fault_domain_host_distribution}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "initialFaultDomainHostDistribution", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InitialFaultDomainHostDistribution
@@ -439,7 +439,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#is_vsan_byol_enabled OcvpEsxiHost#is_vsan_byol_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#is_vsan_byol_enabled OcvpEsxiHost#is_vsan_byol_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -450,7 +450,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#next_commitment OcvpEsxiHost#next_commitment}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#next_commitment OcvpEsxiHost#next_commitment}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nextCommitment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NextCommitment
@@ -458,7 +458,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#next_sku OcvpEsxiHost#next_sku}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#next_sku OcvpEsxiHost#next_sku}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nextSku", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NextSku
@@ -466,7 +466,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#non_upgraded_esxi_host_id OcvpEsxiHost#non_upgraded_esxi_host_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#non_upgraded_esxi_host_id OcvpEsxiHost#non_upgraded_esxi_host_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nonUpgradedEsxiHostId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NonUpgradedEsxiHostId
@@ -474,7 +474,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#sddc_id OcvpEsxiHost#sddc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#sddc_id OcvpEsxiHost#sddc_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SddcId
@@ -482,7 +482,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#system_tags OcvpEsxiHost#system_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#system_tags OcvpEsxiHost#system_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -492,7 +492,7 @@ namespace oci.OcvpEsxiHost
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#timeouts OcvpEsxiHost#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#timeouts OcvpEsxiHost#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ocvpEsxiHost.OcvpEsxiHostTimeouts\"}", isOptional: true)]
@@ -501,7 +501,7 @@ namespace oci.OcvpEsxiHost
                 get => GetInstanceProperty<oci.OcvpEsxiHost.IOcvpEsxiHostTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.1.0/docs/resources/ocvp_esxi_host#vcf_byol_allocation_id OcvpEsxiHost#vcf_byol_allocation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/ocvp_esxi_host#vcf_byol_allocation_id OcvpEsxiHost#vcf_byol_allocation_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vcfByolAllocationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VcfByolAllocationId
