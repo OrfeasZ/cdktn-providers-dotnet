@@ -59,6 +59,12 @@ namespace aws.BedrockagentcoreOauth2CredentialProvider
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tokenEndpointAuthMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] TokenEndpointAuthMethods
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"aws.bedrockagentcoreOauth2CredentialProvider.BedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadata\"}", isOptional: true)]
         public virtual aws.BedrockagentcoreOauth2CredentialProvider.IBedrockagentcoreOauth2CredentialProviderOauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadata? InternalValue

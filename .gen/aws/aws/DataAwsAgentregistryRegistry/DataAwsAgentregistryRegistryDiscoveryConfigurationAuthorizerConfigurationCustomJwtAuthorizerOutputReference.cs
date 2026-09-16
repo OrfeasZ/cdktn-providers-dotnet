@@ -65,6 +65,18 @@ namespace aws.DataAwsAgentregistryRegistry
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "privateEndpoint", typeJson: "{\"fqn\":\"aws.dataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList\"}")]
+        public virtual aws.DataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList PrivateEndpoint
+        {
+            get => GetInstanceProperty<aws.DataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointList>()!;
+        }
+
+        [JsiiProperty(name: "privateEndpointOverride", typeJson: "{\"fqn\":\"aws.dataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList\"}")]
+        public virtual aws.DataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList PrivateEndpointOverride
+        {
+            get => GetInstanceProperty<aws.DataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverrideList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"aws.dataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizer\"}", isOptional: true)]
         public virtual aws.DataAwsAgentregistryRegistry.IDataAwsAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizer? InternalValue

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.AgentregistryRegistry
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/agentregistry_registry aws_agentregistry_registry}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry aws_agentregistry_registry}.</summary>
     [JsiiClass(nativeType: typeof(aws.AgentregistryRegistry.AgentregistryRegistry), fullyQualifiedName: "aws.agentregistryRegistry.AgentregistryRegistry", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryConfig\"}}]")]
     public class AgentregistryRegistry : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/agentregistry_registry aws_agentregistry_registry} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry aws_agentregistry_registry} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public AgentregistryRegistry(Constructs.Construct scope, string id, aws.AgentregistryRegistry.IAgentregistryRegistryConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.AgentregistryRegistry
         /// <param name="importToId">The construct id used in the generated config for the AgentregistryRegistry to import.</param>
         /// <param name="importFromId">The id of the existing AgentregistryRegistry that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the AgentregistryRegistry to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AgentregistryRegistry to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/agentregistry_registry#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AgentregistryRegistry that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AgentregistryRegistry to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the AgentregistryRegistry to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing AgentregistryRegistry that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the AgentregistryRegistry to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.AgentregistryRegistry.AgentregistryRegistry), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -70,6 +70,30 @@ namespace aws.AgentregistryRegistry
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AgentregistryRegistry.IAgentregistryRegistryAutoDetectionConfiguration" />)[]</param>
+        [JsiiMethod(name: "putAutoDetectionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryAutoDetectionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAutoDetectionConfiguration(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.AgentregistryRegistry.IAgentregistryRegistryAutoDetectionConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.AgentregistryRegistry.IAgentregistryRegistryAutoDetectionConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.AgentregistryRegistry.IAgentregistryRegistryAutoDetectionConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AgentregistryRegistry.IAgentregistryRegistryDiscoveryConfiguration" />)[]</param>
         [JsiiMethod(name: "putDiscoveryConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryDiscoveryConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDiscoveryConfiguration(object @value)
@@ -94,6 +118,30 @@ namespace aws.AgentregistryRegistry
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AgentregistryRegistry.IAgentregistryRegistryEncryptionConfiguration" />)[]</param>
+        [JsiiMethod(name: "putEncryptionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryEncryptionConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutEncryptionConfiguration(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.AgentregistryRegistry.IAgentregistryRegistryEncryptionConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.AgentregistryRegistry.IAgentregistryRegistryEncryptionConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.AgentregistryRegistry.IAgentregistryRegistryEncryptionConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryTimeouts\"}}]")]
         public virtual void PutTimeouts(aws.AgentregistryRegistry.IAgentregistryRegistryTimeouts @value)
         {
@@ -106,6 +154,12 @@ namespace aws.AgentregistryRegistry
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAutoDetectionConfiguration")]
+        public virtual void ResetAutoDetectionConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
         {
@@ -114,6 +168,12 @@ namespace aws.AgentregistryRegistry
 
         [JsiiMethod(name: "resetDiscoveryConfiguration")]
         public virtual void ResetDiscoveryConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEncryptionConfiguration")]
+        public virtual void ResetEncryptionConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -161,10 +221,22 @@ namespace aws.AgentregistryRegistry
             get => GetInstanceProperty<aws.AgentregistryRegistry.AgentregistryRegistryApprovalConfigurationList>()!;
         }
 
+        [JsiiProperty(name: "autoDetectionConfiguration", typeJson: "{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryAutoDetectionConfigurationList\"}")]
+        public virtual aws.AgentregistryRegistry.AgentregistryRegistryAutoDetectionConfigurationList AutoDetectionConfiguration
+        {
+            get => GetInstanceProperty<aws.AgentregistryRegistry.AgentregistryRegistryAutoDetectionConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "discoveryConfiguration", typeJson: "{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationList\"}")]
         public virtual aws.AgentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationList DiscoveryConfiguration
         {
             get => GetInstanceProperty<aws.AgentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationList>()!;
+        }
+
+        [JsiiProperty(name: "encryptionConfiguration", typeJson: "{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryEncryptionConfigurationList\"}")]
+        public virtual aws.AgentregistryRegistry.AgentregistryRegistryEncryptionConfigurationList EncryptionConfiguration
+        {
+            get => GetInstanceProperty<aws.AgentregistryRegistry.AgentregistryRegistryEncryptionConfigurationList>()!;
         }
 
         [JsiiProperty(name: "registryArn", typeJson: "{\"primitive\":\"string\"}")]
@@ -201,6 +273,16 @@ namespace aws.AgentregistryRegistry
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AgentregistryRegistry.IAgentregistryRegistryAutoDetectionConfiguration" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "autoDetectionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryAutoDetectionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AutoDetectionConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
@@ -214,6 +296,16 @@ namespace aws.AgentregistryRegistry
         [JsiiOptional]
         [JsiiProperty(name: "discoveryConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryDiscoveryConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? DiscoveryConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AgentregistryRegistry.IAgentregistryRegistryEncryptionConfiguration" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "encryptionConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.agentregistryRegistry.AgentregistryRegistryEncryptionConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? EncryptionConfigurationInput
         {
             get => GetInstanceProperty<object?>();
         }

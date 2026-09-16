@@ -5,7 +5,7 @@ namespace aws.DmsDataProvider
     /// <remarks>
     /// <h1><c>aws_dms_data_provider</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/dms_data_provider"><c>aws_dms_data_provider</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/dms_data_provider"><c>aws_dms_data_provider</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

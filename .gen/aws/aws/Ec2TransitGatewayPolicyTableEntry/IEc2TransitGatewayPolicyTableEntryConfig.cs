@@ -1,0 +1,185 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace aws.Ec2TransitGatewayPolicyTableEntry
+{
+    [JsiiInterface(nativeType: typeof(IEc2TransitGatewayPolicyTableEntryConfig), fullyQualifiedName: "aws.ec2TransitGatewayPolicyTableEntry.Ec2TransitGatewayPolicyTableEntryConfig")]
+    public interface IEc2TransitGatewayPolicyTableEntryConfig : Io.Cdktn.ITerraformMetaArguments
+    {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#policy_rule_number Ec2TransitGatewayPolicyTableEntry#policy_rule_number}.</summary>
+        [JsiiProperty(name: "policyRuleNumber", typeJson: "{\"primitive\":\"string\"}")]
+        string PolicyRuleNumber
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#target_route_table_id Ec2TransitGatewayPolicyTableEntry#target_route_table_id}.</summary>
+        [JsiiProperty(name: "targetRouteTableId", typeJson: "{\"primitive\":\"string\"}")]
+        string TargetRouteTableId
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#transit_gateway_policy_table_id Ec2TransitGatewayPolicyTableEntry#transit_gateway_policy_table_id}.</summary>
+        [JsiiProperty(name: "transitGatewayPolicyTableId", typeJson: "{\"primitive\":\"string\"}")]
+        string TransitGatewayPolicyTableId
+        {
+            get;
+        }
+
+        /// <summary>policy_rule block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#policy_rule Ec2TransitGatewayPolicyTableEntry#policy_rule}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2TransitGatewayPolicyTableEntry.IEc2TransitGatewayPolicyTableEntryPolicyRule" />)[]</para>
+        /// </remarks>
+        [JsiiProperty(name: "policyRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2TransitGatewayPolicyTableEntry.Ec2TransitGatewayPolicyTableEntryPolicyRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? PolicyRule
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#region Ec2TransitGatewayPolicyTableEntry#region}
+        /// </remarks>
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Region
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IEc2TransitGatewayPolicyTableEntryConfig), fullyQualifiedName: "aws.ec2TransitGatewayPolicyTableEntry.Ec2TransitGatewayPolicyTableEntryConfig")]
+        internal sealed class _Proxy : DeputyBase, aws.Ec2TransitGatewayPolicyTableEntry.IEc2TransitGatewayPolicyTableEntryConfig
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#policy_rule_number Ec2TransitGatewayPolicyTableEntry#policy_rule_number}.</summary>
+            [JsiiProperty(name: "policyRuleNumber", typeJson: "{\"primitive\":\"string\"}")]
+            public string PolicyRuleNumber
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#target_route_table_id Ec2TransitGatewayPolicyTableEntry#target_route_table_id}.</summary>
+            [JsiiProperty(name: "targetRouteTableId", typeJson: "{\"primitive\":\"string\"}")]
+            public string TargetRouteTableId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#transit_gateway_policy_table_id Ec2TransitGatewayPolicyTableEntry#transit_gateway_policy_table_id}.</summary>
+            [JsiiProperty(name: "transitGatewayPolicyTableId", typeJson: "{\"primitive\":\"string\"}")]
+            public string TransitGatewayPolicyTableId
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>policy_rule block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#policy_rule Ec2TransitGatewayPolicyTableEntry#policy_rule}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Ec2TransitGatewayPolicyTableEntry.IEc2TransitGatewayPolicyTableEntryPolicyRule" />)[]</para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "policyRule", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.ec2TransitGatewayPolicyTableEntry.Ec2TransitGatewayPolicyTableEntryPolicyRule\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? PolicyRule
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ec2_transit_gateway_policy_table_entry#region Ec2TransitGatewayPolicyTableEntry#region}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Region
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either <see cref="Io.Cdktn.ISSHProvisionerConnection" /> or <see cref="Io.Cdktn.IWinrmProvisionerConnection" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "connection", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.SSHProvisionerConnection\"},{\"fqn\":\"cdktn.WinrmProvisionerConnection\"}]}}", isOptional: true)]
+            public object? Connection
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: either double or <see cref="Io.Cdktn.TerraformCount" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "count", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"number\"},{\"fqn\":\"cdktn.TerraformCount\"}]}}", isOptional: true)]
+            public object? Count
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "dependsOn", typeJson: "{\"collection\":{\"elementtype\":{\"fqn\":\"cdktn.ITerraformDependable\"},\"kind\":\"array\"}}", isOptional: true)]
+            public Io.Cdktn.ITerraformDependable[]? DependsOn
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformDependable[]?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "forEach", typeJson: "{\"fqn\":\"cdktn.ITerraformIterator\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformIterator? ForEach
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformIterator?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "lifecycle", typeJson: "{\"fqn\":\"cdktn.TerraformResourceLifecycle\"}", isOptional: true)]
+            public Io.Cdktn.ITerraformResourceLifecycle? Lifecycle
+            {
+                get => GetInstanceProperty<Io.Cdktn.ITerraformResourceLifecycle?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provider", typeJson: "{\"fqn\":\"cdktn.TerraformProvider\"}", isOptional: true)]
+            public Io.Cdktn.TerraformProvider? Provider
+            {
+                get => GetInstanceProperty<Io.Cdktn.TerraformProvider?>();
+            }
+
+            /// <remarks>
+            /// <strong>Stability</strong>: Experimental
+            /// <para>Type union: (either <see cref="Io.Cdktn.IFileProvisioner" /> or <see cref="Io.Cdktn.ILocalExecProvisioner" /> or <see cref="Io.Cdktn.IRemoteExecProvisioner" />)[]</para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "provisioners", typeJson: "{\"collection\":{\"elementtype\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.FileProvisioner\"},{\"fqn\":\"cdktn.LocalExecProvisioner\"},{\"fqn\":\"cdktn.RemoteExecProvisioner\"}]}},\"kind\":\"array\"}}", isOptional: true)]
+            public object[]? Provisioners
+            {
+                get => GetInstanceProperty<object[]?>();
+            }
+        }
+    }
+}

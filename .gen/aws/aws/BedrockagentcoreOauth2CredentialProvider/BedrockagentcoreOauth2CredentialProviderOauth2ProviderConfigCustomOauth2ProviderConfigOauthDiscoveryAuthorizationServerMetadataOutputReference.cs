@@ -41,6 +41,12 @@ namespace aws.BedrockagentcoreOauth2CredentialProvider
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTokenEndpointAuthMethods")]
+        public virtual void ResetTokenEndpointAuthMethods()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "authorizationEndpointInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AuthorizationEndpointInput
@@ -58,6 +64,13 @@ namespace aws.BedrockagentcoreOauth2CredentialProvider
         [JsiiOptional]
         [JsiiProperty(name: "responseTypesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? ResponseTypesInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenEndpointAuthMethodsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? TokenEndpointAuthMethodsInput
         {
             get => GetInstanceProperty<string[]?>();
         }
@@ -94,6 +107,13 @@ namespace aws.BedrockagentcoreOauth2CredentialProvider
         public virtual string TokenEndpoint
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tokenEndpointAuthMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] TokenEndpointAuthMethods
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

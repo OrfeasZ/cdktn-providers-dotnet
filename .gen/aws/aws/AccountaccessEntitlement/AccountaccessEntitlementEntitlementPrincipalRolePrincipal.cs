@@ -11,7 +11,7 @@ namespace aws.AccountaccessEntitlement
 
         /// <summary>identity_center block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.64.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_entitlement#identity_center AccountaccessEntitlement#identity_center}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.AccountaccessEntitlement.IAccountaccessEntitlementEntitlementPrincipalRolePrincipalIdentityCenter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
