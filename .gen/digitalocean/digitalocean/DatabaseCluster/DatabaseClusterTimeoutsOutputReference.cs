@@ -39,6 +39,12 @@ namespace digitalocean.DatabaseCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDelete")]
+        public virtual void ResetDelete()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "createInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CreateInput
@@ -46,8 +52,22 @@ namespace digitalocean.DatabaseCluster
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "deleteInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DeleteInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Create
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Delete
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
