@@ -33,11 +33,43 @@ namespace azurerm.IothubDeviceUpdateInstance
         {
         }
 
+        [JsiiMethod(name: "resetConnectionString")]
+        public virtual void ResetConnectionString()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetConnectionStringWo")]
+        public virtual void ResetConnectionStringWo()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetConnectionStringWoVersion")]
+        public virtual void ResetConnectionStringWoVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "connectionStringInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ConnectionStringInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "connectionStringWoInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ConnectionStringWoInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "connectionStringWoVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? ConnectionStringWoVersionInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -51,6 +83,20 @@ namespace azurerm.IothubDeviceUpdateInstance
         public virtual string ConnectionString
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "connectionStringWo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ConnectionStringWo
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "connectionStringWoVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ConnectionStringWoVersion
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

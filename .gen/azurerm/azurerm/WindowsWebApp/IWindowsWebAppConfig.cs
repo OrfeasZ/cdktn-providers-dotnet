@@ -7,28 +7,28 @@ namespace azurerm.WindowsWebApp
     [JsiiInterface(nativeType: typeof(IWindowsWebAppConfig), fullyQualifiedName: "azurerm.windowsWebApp.WindowsWebAppConfig")]
     public interface IWindowsWebAppConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#location WindowsWebApp#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#location WindowsWebApp#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         string Location
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#name WindowsWebApp#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#name WindowsWebApp#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#resource_group_name WindowsWebApp#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#resource_group_name WindowsWebApp#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#service_plan_id WindowsWebApp#service_plan_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#service_plan_id WindowsWebApp#service_plan_id}.</summary>
         [JsiiProperty(name: "servicePlanId", typeJson: "{\"primitive\":\"string\"}")]
         string ServicePlanId
         {
@@ -37,7 +37,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>site_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#site_config WindowsWebApp#site_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#site_config WindowsWebApp#site_config}
         /// </remarks>
         [JsiiProperty(name: "siteConfig", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppSiteConfig\"}")]
         azurerm.WindowsWebApp.IWindowsWebAppSiteConfig SiteConfig
@@ -45,7 +45,7 @@ namespace azurerm.WindowsWebApp
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#app_settings WindowsWebApp#app_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#app_settings WindowsWebApp#app_settings}.</summary>
         [JsiiProperty(name: "appSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? AppSettings
@@ -58,7 +58,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>auth_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#auth_settings WindowsWebApp#auth_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#auth_settings WindowsWebApp#auth_settings}
         /// </remarks>
         [JsiiProperty(name: "authSettings", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppAuthSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>auth_settings_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#auth_settings_v2 WindowsWebApp#auth_settings_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#auth_settings_v2 WindowsWebApp#auth_settings_v2}
         /// </remarks>
         [JsiiProperty(name: "authSettingsV2", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppAuthSettingsV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>backup block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#backup WindowsWebApp#backup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#backup WindowsWebApp#backup}
         /// </remarks>
         [JsiiProperty(name: "backup", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppBackup\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,7 +98,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_affinity_enabled WindowsWebApp#client_affinity_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_affinity_enabled WindowsWebApp#client_affinity_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -112,7 +112,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_certificate_enabled WindowsWebApp#client_certificate_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_certificate_enabled WindowsWebApp#client_certificate_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -128,7 +128,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>Paths to exclude when using client certificates, separated by ;</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_certificate_exclusion_paths WindowsWebApp#client_certificate_exclusion_paths}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_certificate_exclusion_paths WindowsWebApp#client_certificate_exclusion_paths}
         /// </remarks>
         [JsiiProperty(name: "clientCertificateExclusionPaths", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -140,7 +140,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_certificate_mode WindowsWebApp#client_certificate_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_certificate_mode WindowsWebApp#client_certificate_mode}.</summary>
         [JsiiProperty(name: "clientCertificateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClientCertificateMode
@@ -153,7 +153,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>connection_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#connection_string WindowsWebApp#connection_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#connection_string WindowsWebApp#connection_string}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsWebApp.IWindowsWebAppConnectionString" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "connectionString", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppConnectionString\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -180,7 +180,21 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#ftp_publish_basic_authentication_enabled WindowsWebApp#ftp_publish_basic_authentication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#end_to_end_tls_encryption_enabled WindowsWebApp#end_to_end_tls_encryption_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "endToEndTlsEncryptionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? EndToEndTlsEncryptionEnabled
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#ftp_publish_basic_authentication_enabled WindowsWebApp#ftp_publish_basic_authentication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -194,7 +208,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#https_only WindowsWebApp#https_only}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#https_only WindowsWebApp#https_only}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -208,7 +222,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#id WindowsWebApp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#id WindowsWebApp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -225,7 +239,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#identity WindowsWebApp#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#identity WindowsWebApp#identity}
         /// </remarks>
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppIdentity\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -237,7 +251,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#key_vault_reference_identity_id WindowsWebApp#key_vault_reference_identity_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#key_vault_reference_identity_id WindowsWebApp#key_vault_reference_identity_id}.</summary>
         [JsiiProperty(name: "keyVaultReferenceIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeyVaultReferenceIdentityId
@@ -250,7 +264,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#logs WindowsWebApp#logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#logs WindowsWebApp#logs}
         /// </remarks>
         [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -262,7 +276,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#public_network_access_enabled WindowsWebApp#public_network_access_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#public_network_access_enabled WindowsWebApp#public_network_access_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -278,7 +292,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>sticky_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#sticky_settings WindowsWebApp#sticky_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#sticky_settings WindowsWebApp#sticky_settings}
         /// </remarks>
         [JsiiProperty(name: "stickySettings", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppStickySettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -292,7 +306,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>storage_account block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#storage_account WindowsWebApp#storage_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#storage_account WindowsWebApp#storage_account}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsWebApp.IWindowsWebAppStorageAccount" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "storageAccount", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppStorageAccount\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -305,7 +319,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#tags WindowsWebApp#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#tags WindowsWebApp#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -318,7 +332,7 @@ namespace azurerm.WindowsWebApp
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#timeouts WindowsWebApp#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#timeouts WindowsWebApp#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -330,7 +344,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#virtual_network_backup_restore_enabled WindowsWebApp#virtual_network_backup_restore_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#virtual_network_backup_restore_enabled WindowsWebApp#virtual_network_backup_restore_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -344,7 +358,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#virtual_network_image_pull_enabled WindowsWebApp#virtual_network_image_pull_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#virtual_network_image_pull_enabled WindowsWebApp#virtual_network_image_pull_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -358,7 +372,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#virtual_network_subnet_id WindowsWebApp#virtual_network_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#virtual_network_subnet_id WindowsWebApp#virtual_network_subnet_id}.</summary>
         [JsiiProperty(name: "virtualNetworkSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VirtualNetworkSubnetId
@@ -369,7 +383,7 @@ namespace azurerm.WindowsWebApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#webdeploy_publish_basic_authentication_enabled WindowsWebApp#webdeploy_publish_basic_authentication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#webdeploy_publish_basic_authentication_enabled WindowsWebApp#webdeploy_publish_basic_authentication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -387,7 +401,7 @@ namespace azurerm.WindowsWebApp
         /// <remarks>
         /// <strong>Note:</strong> Using this value requires either <c>WEBSITE_RUN_FROM_PACKAGE=1</c> or <c>SCM_DO_BUILD_DURING_DEPLOYMENT=true</c> to be set on the App in <c>app_settings</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#zip_deploy_file WindowsWebApp#zip_deploy_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#zip_deploy_file WindowsWebApp#zip_deploy_file}
         /// </remarks>
         [JsiiProperty(name: "zipDeployFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -406,28 +420,28 @@ namespace azurerm.WindowsWebApp
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#location WindowsWebApp#location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#location WindowsWebApp#location}.</summary>
             [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
             public string Location
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#name WindowsWebApp#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#name WindowsWebApp#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#resource_group_name WindowsWebApp#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#resource_group_name WindowsWebApp#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#service_plan_id WindowsWebApp#service_plan_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#service_plan_id WindowsWebApp#service_plan_id}.</summary>
             [JsiiProperty(name: "servicePlanId", typeJson: "{\"primitive\":\"string\"}")]
             public string ServicePlanId
             {
@@ -436,7 +450,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>site_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#site_config WindowsWebApp#site_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#site_config WindowsWebApp#site_config}
             /// </remarks>
             [JsiiProperty(name: "siteConfig", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppSiteConfig\"}")]
             public azurerm.WindowsWebApp.IWindowsWebAppSiteConfig SiteConfig
@@ -444,7 +458,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<azurerm.WindowsWebApp.IWindowsWebAppSiteConfig>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#app_settings WindowsWebApp#app_settings}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#app_settings WindowsWebApp#app_settings}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "appSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? AppSettings
@@ -454,7 +468,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>auth_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#auth_settings WindowsWebApp#auth_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#auth_settings WindowsWebApp#auth_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authSettings", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppAuthSettings\"}", isOptional: true)]
@@ -465,7 +479,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>auth_settings_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#auth_settings_v2 WindowsWebApp#auth_settings_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#auth_settings_v2 WindowsWebApp#auth_settings_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "authSettingsV2", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppAuthSettingsV2\"}", isOptional: true)]
@@ -476,7 +490,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>backup block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#backup WindowsWebApp#backup}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#backup WindowsWebApp#backup}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "backup", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppBackup\"}", isOptional: true)]
@@ -485,7 +499,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<azurerm.WindowsWebApp.IWindowsWebAppBackup?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_affinity_enabled WindowsWebApp#client_affinity_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_affinity_enabled WindowsWebApp#client_affinity_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -496,7 +510,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_certificate_enabled WindowsWebApp#client_certificate_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_certificate_enabled WindowsWebApp#client_certificate_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -509,7 +523,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>Paths to exclude when using client certificates, separated by ;</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_certificate_exclusion_paths WindowsWebApp#client_certificate_exclusion_paths}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_certificate_exclusion_paths WindowsWebApp#client_certificate_exclusion_paths}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificateExclusionPaths", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -518,7 +532,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#client_certificate_mode WindowsWebApp#client_certificate_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#client_certificate_mode WindowsWebApp#client_certificate_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClientCertificateMode
@@ -528,7 +542,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>connection_string block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#connection_string WindowsWebApp#connection_string}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#connection_string WindowsWebApp#connection_string}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsWebApp.IWindowsWebAppConnectionString" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -538,7 +552,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#enabled WindowsWebApp#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -549,7 +563,18 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#ftp_publish_basic_authentication_enabled WindowsWebApp#ftp_publish_basic_authentication_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#end_to_end_tls_encryption_enabled WindowsWebApp#end_to_end_tls_encryption_enabled}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "endToEndTlsEncryptionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? EndToEndTlsEncryptionEnabled
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#ftp_publish_basic_authentication_enabled WindowsWebApp#ftp_publish_basic_authentication_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -560,7 +585,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#https_only WindowsWebApp#https_only}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#https_only WindowsWebApp#https_only}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -571,7 +596,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#id WindowsWebApp#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#id WindowsWebApp#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -585,7 +610,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>identity block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#identity WindowsWebApp#identity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#identity WindowsWebApp#identity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppIdentity\"}", isOptional: true)]
@@ -594,7 +619,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<azurerm.WindowsWebApp.IWindowsWebAppIdentity?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#key_vault_reference_identity_id WindowsWebApp#key_vault_reference_identity_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#key_vault_reference_identity_id WindowsWebApp#key_vault_reference_identity_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keyVaultReferenceIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeyVaultReferenceIdentityId
@@ -604,7 +629,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>logs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#logs WindowsWebApp#logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#logs WindowsWebApp#logs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppLogs\"}", isOptional: true)]
@@ -613,7 +638,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<azurerm.WindowsWebApp.IWindowsWebAppLogs?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#public_network_access_enabled WindowsWebApp#public_network_access_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#public_network_access_enabled WindowsWebApp#public_network_access_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -626,7 +651,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>sticky_settings block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#sticky_settings WindowsWebApp#sticky_settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#sticky_settings WindowsWebApp#sticky_settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "stickySettings", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppStickySettings\"}", isOptional: true)]
@@ -637,7 +662,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>storage_account block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#storage_account WindowsWebApp#storage_account}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#storage_account WindowsWebApp#storage_account}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsWebApp.IWindowsWebAppStorageAccount" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -647,7 +672,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#tags WindowsWebApp#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#tags WindowsWebApp#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -657,7 +682,7 @@ namespace azurerm.WindowsWebApp
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#timeouts WindowsWebApp#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#timeouts WindowsWebApp#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.windowsWebApp.WindowsWebAppTimeouts\"}", isOptional: true)]
@@ -666,7 +691,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<azurerm.WindowsWebApp.IWindowsWebAppTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#virtual_network_backup_restore_enabled WindowsWebApp#virtual_network_backup_restore_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#virtual_network_backup_restore_enabled WindowsWebApp#virtual_network_backup_restore_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -677,7 +702,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#virtual_network_image_pull_enabled WindowsWebApp#virtual_network_image_pull_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#virtual_network_image_pull_enabled WindowsWebApp#virtual_network_image_pull_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -688,7 +713,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#virtual_network_subnet_id WindowsWebApp#virtual_network_subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#virtual_network_subnet_id WindowsWebApp#virtual_network_subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "virtualNetworkSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VirtualNetworkSubnetId
@@ -696,7 +721,7 @@ namespace azurerm.WindowsWebApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#webdeploy_publish_basic_authentication_enabled WindowsWebApp#webdeploy_publish_basic_authentication_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#webdeploy_publish_basic_authentication_enabled WindowsWebApp#webdeploy_publish_basic_authentication_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -711,7 +736,7 @@ namespace azurerm.WindowsWebApp
             /// <remarks>
             /// <strong>Note:</strong> Using this value requires either <c>WEBSITE_RUN_FROM_PACKAGE=1</c> or <c>SCM_DO_BUILD_DURING_DEPLOYMENT=true</c> to be set on the App in <c>app_settings</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_web_app#zip_deploy_file WindowsWebApp#zip_deploy_file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_web_app#zip_deploy_file WindowsWebApp#zip_deploy_file}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zipDeployFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

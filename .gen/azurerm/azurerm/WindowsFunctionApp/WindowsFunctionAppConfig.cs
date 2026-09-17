@@ -9,7 +9,7 @@ namespace azurerm.WindowsFunctionApp
     [JsiiByValue(fqn: "azurerm.windowsFunctionApp.WindowsFunctionAppConfig")]
     public class WindowsFunctionAppConfig : azurerm.WindowsFunctionApp.IWindowsFunctionAppConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#location WindowsFunctionApp#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#location WindowsFunctionApp#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -19,7 +19,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Specifies the name of the Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#name WindowsFunctionApp#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#name WindowsFunctionApp#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -28,7 +28,7 @@ namespace azurerm.WindowsFunctionApp
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#resource_group_name WindowsFunctionApp#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#resource_group_name WindowsFunctionApp#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -38,7 +38,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The ID of the App Service Plan within which to create this Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#service_plan_id WindowsFunctionApp#service_plan_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#service_plan_id WindowsFunctionApp#service_plan_id}
         /// </remarks>
         [JsiiProperty(name: "servicePlanId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServicePlanId
@@ -49,7 +49,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>site_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#site_config WindowsFunctionApp#site_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#site_config WindowsFunctionApp#site_config}
         /// </remarks>
         [JsiiProperty(name: "siteConfig", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfig\"}")]
         public azurerm.WindowsFunctionApp.IWindowsFunctionAppSiteConfig SiteConfig
@@ -58,9 +58,9 @@ namespace azurerm.WindowsFunctionApp
             set;
         }
 
-        /// <summary>A map of key-value pairs for [App Settings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-app-settings) and custom values.</summary>
+        /// <summary>A map of key-value pairs for [App Settings](https://docs.microsoft.com/azure/azure-functions/functions-app-settings) and custom values.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#app_settings WindowsFunctionApp#app_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#app_settings WindowsFunctionApp#app_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "appSettings", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>auth_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#auth_settings WindowsFunctionApp#auth_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#auth_settings WindowsFunctionApp#auth_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authSettings", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettings\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>auth_settings_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#auth_settings_v2 WindowsFunctionApp#auth_settings_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#auth_settings_v2 WindowsFunctionApp#auth_settings_v2}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "authSettingsV2", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppAuthSettingsV2\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>backup block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#backup WindowsFunctionApp#backup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#backup WindowsFunctionApp#backup}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "backup", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppBackup\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Should built in logging be enabled. Configures `AzureWebJobsDashboard` app setting based on the configured storage setting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#builtin_logging_enabled WindowsFunctionApp#builtin_logging_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#builtin_logging_enabled WindowsFunctionApp#builtin_logging_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -145,7 +145,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Should the function app use Client Certificates.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#client_certificate_enabled WindowsFunctionApp#client_certificate_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#client_certificate_enabled WindowsFunctionApp#client_certificate_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -178,7 +178,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Paths to exclude when using client certificates, separated by ;</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#client_certificate_exclusion_paths WindowsFunctionApp#client_certificate_exclusion_paths}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#client_certificate_exclusion_paths WindowsFunctionApp#client_certificate_exclusion_paths}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificateExclusionPaths", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -192,7 +192,7 @@ namespace azurerm.WindowsFunctionApp
         /// <remarks>
         /// Possible values are <c>Required</c>, <c>Optional</c>, and <c>OptionalInteractiveUser</c>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#client_certificate_mode WindowsFunctionApp#client_certificate_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#client_certificate_mode WindowsFunctionApp#client_certificate_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientCertificateMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>connection_string block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#connection_string WindowsFunctionApp#connection_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#connection_string WindowsFunctionApp#connection_string}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsFunctionApp.IWindowsFunctionAppConnectionString" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -241,7 +241,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Force disable the content share settings.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#content_share_force_disabled WindowsFunctionApp#content_share_force_disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#content_share_force_disabled WindowsFunctionApp#content_share_force_disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -276,7 +276,7 @@ namespace azurerm.WindowsFunctionApp
         /// <remarks>
         /// Setting this value only affects function apps in Consumption Plans.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#daily_memory_time_quota WindowsFunctionApp#daily_memory_time_quota}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#daily_memory_time_quota WindowsFunctionApp#daily_memory_time_quota}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dailyMemoryTimeQuota", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Is the Windows Function App enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#enabled WindowsFunctionApp#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#enabled WindowsFunctionApp#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -321,9 +321,43 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
+        private object? _endToEndTlsEncryptionEnabled;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#end_to_end_tls_encryption_enabled WindowsFunctionApp#end_to_end_tls_encryption_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "endToEndTlsEncryptionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? EndToEndTlsEncryptionEnabled
+        {
+            get => _endToEndTlsEncryptionEnabled;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _endToEndTlsEncryptionEnabled = value;
+            }
+        }
+
         private object? _ftpPublishBasicAuthenticationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#ftp_publish_basic_authentication_enabled WindowsFunctionApp#ftp_publish_basic_authentication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#ftp_publish_basic_authentication_enabled WindowsFunctionApp#ftp_publish_basic_authentication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -357,7 +391,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The runtime version associated with the Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#functions_extension_version WindowsFunctionApp#functions_extension_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#functions_extension_version WindowsFunctionApp#functions_extension_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "functionsExtensionVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -371,7 +405,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Can the Function App only be accessed via HTTPS?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#https_only WindowsFunctionApp#https_only}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#https_only WindowsFunctionApp#https_only}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -402,7 +436,7 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#id WindowsFunctionApp#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#id WindowsFunctionApp#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -417,7 +451,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#identity WindowsFunctionApp#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#identity WindowsFunctionApp#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppIdentity\"}", isOptional: true)]
@@ -429,7 +463,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The User Assigned Identity to use for Key Vault access.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#key_vault_reference_identity_id WindowsFunctionApp#key_vault_reference_identity_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#key_vault_reference_identity_id WindowsFunctionApp#key_vault_reference_identity_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyVaultReferenceIdentityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -441,7 +475,7 @@ namespace azurerm.WindowsFunctionApp
 
         private object? _publicNetworkAccessEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#public_network_access_enabled WindowsFunctionApp#public_network_access_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#public_network_access_enabled WindowsFunctionApp#public_network_access_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -475,7 +509,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>sticky_settings block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#sticky_settings WindowsFunctionApp#sticky_settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#sticky_settings WindowsFunctionApp#sticky_settings}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stickySettings", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppStickySettings\"}", isOptional: true)]
@@ -489,7 +523,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>storage_account block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#storage_account WindowsFunctionApp#storage_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#storage_account WindowsFunctionApp#storage_account}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsFunctionApp.IWindowsFunctionAppStorageAccount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -522,7 +556,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The access key which will be used to access the storage account for the Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#storage_account_access_key WindowsFunctionApp#storage_account_access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#storage_account_access_key WindowsFunctionApp#storage_account_access_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountAccessKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -534,7 +568,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The backend storage account name which will be used by this Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#storage_account_name WindowsFunctionApp#storage_account_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#storage_account_name WindowsFunctionApp#storage_account_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccountName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -546,7 +580,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The Key Vault Secret ID, including version, that contains the Connection String to connect to the storage account for this Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#storage_key_vault_secret_id WindowsFunctionApp#storage_key_vault_secret_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#storage_key_vault_secret_id WindowsFunctionApp#storage_key_vault_secret_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storageKeyVaultSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -560,7 +594,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Should the Function App use its Managed Identity to access storage?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#storage_uses_managed_identity WindowsFunctionApp#storage_uses_managed_identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#storage_uses_managed_identity WindowsFunctionApp#storage_uses_managed_identity}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -591,7 +625,7 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#tags WindowsFunctionApp#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#tags WindowsFunctionApp#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -602,7 +636,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#timeouts WindowsFunctionApp#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#timeouts WindowsFunctionApp#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppTimeouts\"}", isOptional: true)]
@@ -614,7 +648,7 @@ namespace azurerm.WindowsFunctionApp
 
         private object? _virtualNetworkBackupRestoreEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#virtual_network_backup_restore_enabled WindowsFunctionApp#virtual_network_backup_restore_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#virtual_network_backup_restore_enabled WindowsFunctionApp#virtual_network_backup_restore_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -646,7 +680,7 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#virtual_network_subnet_id WindowsFunctionApp#virtual_network_subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#virtual_network_subnet_id WindowsFunctionApp#virtual_network_subnet_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "virtualNetworkSubnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VirtualNetworkSubnetId
@@ -659,7 +693,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Is container image pull over virtual network enabled? Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#vnet_image_pull_enabled WindowsFunctionApp#vnet_image_pull_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#vnet_image_pull_enabled WindowsFunctionApp#vnet_image_pull_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -692,7 +726,7 @@ namespace azurerm.WindowsFunctionApp
 
         private object? _webdeployPublishBasicAuthenticationEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#webdeploy_publish_basic_authentication_enabled WindowsFunctionApp#webdeploy_publish_basic_authentication_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#webdeploy_publish_basic_authentication_enabled WindowsFunctionApp#webdeploy_publish_basic_authentication_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -728,7 +762,7 @@ namespace azurerm.WindowsFunctionApp
         /// <remarks>
         /// <strong>Note:</strong> Using this value requires <c>WEBSITE_RUN_FROM_PACKAGE=1</c> to be set on the App in <c>app_settings</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.5.0/docs/resources/windows_function_app#zip_deploy_file WindowsFunctionApp#zip_deploy_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/resources/windows_function_app#zip_deploy_file WindowsFunctionApp#zip_deploy_file}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zipDeployFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
