@@ -35,6 +35,12 @@ namespace digitalocean.DataDigitaloceanFirewall
         {
         }
 
+        [JsiiMethod(name: "resetAction")]
+        public virtual void ResetAction()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPortRange")]
         public virtual void ResetPortRange()
         {
@@ -69,6 +75,13 @@ namespace digitalocean.DataDigitaloceanFirewall
         public virtual void ResetSourceTags()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "actionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ActionInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -118,6 +131,13 @@ namespace digitalocean.DataDigitaloceanFirewall
         public virtual string[]? SourceTagsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Action
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "portRange", typeJson: "{\"primitive\":\"string\"}")]
