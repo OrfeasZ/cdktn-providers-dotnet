@@ -7,7 +7,7 @@ namespace digitalocean.DatabaseCluster
     [JsiiByValue(fqn: "digitalocean.databaseCluster.DatabaseClusterTimeouts")]
     public class DatabaseClusterTimeouts : digitalocean.DatabaseCluster.IDatabaseClusterTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.101.0/docs/resources/database_cluster#create DatabaseCluster#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.101.1/docs/resources/database_cluster#create DatabaseCluster#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace digitalocean.DatabaseCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.101.0/docs/resources/database_cluster#delete DatabaseCluster#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.101.1/docs/resources/database_cluster#delete DatabaseCluster#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
