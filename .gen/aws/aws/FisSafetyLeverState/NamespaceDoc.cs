@@ -5,7 +5,7 @@ namespace aws.FisSafetyLeverState
     /// <remarks>
     /// <h1><c>aws_fis_safety_lever_state</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/fis_safety_lever_state"><c>aws_fis_safety_lever_state</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/fis_safety_lever_state"><c>aws_fis_safety_lever_state</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

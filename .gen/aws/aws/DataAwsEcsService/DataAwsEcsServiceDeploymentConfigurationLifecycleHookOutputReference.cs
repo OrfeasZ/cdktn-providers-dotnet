@@ -59,6 +59,18 @@ namespace aws.DataAwsEcsService
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "timeoutConfiguration", typeJson: "{\"fqn\":\"aws.dataAwsEcsService.DataAwsEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationList\"}")]
+        public virtual aws.DataAwsEcsService.DataAwsEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationList TimeoutConfiguration
+        {
+            get => GetInstanceProperty<aws.DataAwsEcsService.DataAwsEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"aws.dataAwsEcsService.DataAwsEcsServiceDeploymentConfigurationLifecycleHook\"}", isOptional: true)]
         public virtual aws.DataAwsEcsService.IDataAwsEcsServiceDeploymentConfigurationLifecycleHook? InternalValue

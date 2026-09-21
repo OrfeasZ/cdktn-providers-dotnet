@@ -5,7 +5,7 @@ namespace aws.AccountaccessEntitlement
     /// <remarks>
     /// <h1><c>aws_accountaccess_entitlement</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/accountaccess_entitlement"><c>aws_accountaccess_entitlement</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/accountaccess_entitlement"><c>aws_accountaccess_entitlement</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

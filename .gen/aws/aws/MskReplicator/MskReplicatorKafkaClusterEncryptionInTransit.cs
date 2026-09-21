@@ -9,7 +9,7 @@ namespace aws.MskReplicator
     [JsiiByValue(fqn: "aws.mskReplicator.MskReplicatorKafkaClusterEncryptionInTransit")]
     public class MskReplicatorKafkaClusterEncryptionInTransit : aws.MskReplicator.IMskReplicatorKafkaClusterEncryptionInTransit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/msk_replicator#root_ca_certificate MskReplicator#root_ca_certificate}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_replicator#root_ca_certificate MskReplicator#root_ca_certificate}.</summary>
         [JsiiProperty(name: "rootCaCertificate", typeJson: "{\"primitive\":\"string\"}")]
         public string RootCaCertificate
         {

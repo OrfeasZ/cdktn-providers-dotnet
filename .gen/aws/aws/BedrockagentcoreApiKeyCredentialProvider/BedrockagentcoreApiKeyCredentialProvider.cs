@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.BedrockagentcoreApiKeyCredentialProvider
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider}.</summary>
     [JsiiClass(nativeType: typeof(aws.BedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProvider), fullyQualifiedName: "aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProvider", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderConfig\"}}]")]
     public class BedrockagentcoreApiKeyCredentialProvider : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_api_key_credential_provider aws_bedrockagentcore_api_key_credential_provider} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BedrockagentcoreApiKeyCredentialProvider(Constructs.Construct scope, string id, aws.BedrockagentcoreApiKeyCredentialProvider.IBedrockagentcoreApiKeyCredentialProviderConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,14 +40,50 @@ namespace aws.BedrockagentcoreApiKeyCredentialProvider
         /// <param name="importToId">The construct id used in the generated config for the BedrockagentcoreApiKeyCredentialProvider to import.</param>
         /// <param name="importFromId">The id of the existing BedrockagentcoreApiKeyCredentialProvider that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BedrockagentcoreApiKeyCredentialProvider to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreApiKeyCredentialProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/bedrockagentcore_api_key_credential_provider#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreApiKeyCredentialProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreApiKeyCredentialProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreApiKeyCredentialProvider to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_api_key_credential_provider#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreApiKeyCredentialProvider that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreApiKeyCredentialProvider to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProvider), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreApiKeyCredentialProvider.IBedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig" />)[]</param>
+        [JsiiMethod(name: "putApiKeySecretConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutApiKeySecretConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentcoreApiKeyCredentialProvider.IBedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreApiKeyCredentialProvider.IBedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentcoreApiKeyCredentialProvider.IBedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetApiKey")]
         public virtual void ResetApiKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetApiKeySecretConfig")]
+        public virtual void ResetApiKeySecretConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetApiKeySecretSource")]
+        public virtual void ResetApiKeySecretSource()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -101,6 +137,12 @@ namespace aws.BedrockagentcoreApiKeyCredentialProvider
             get => GetInstanceProperty<aws.BedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretArnList>()!;
         }
 
+        [JsiiProperty(name: "apiKeySecretConfig", typeJson: "{\"fqn\":\"aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList\"}")]
+        public virtual aws.BedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList ApiKeySecretConfig
+        {
+            get => GetInstanceProperty<aws.BedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfigList>()!;
+        }
+
         [JsiiProperty(name: "credentialProviderArn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CredentialProviderArn
         {
@@ -116,6 +158,23 @@ namespace aws.BedrockagentcoreApiKeyCredentialProvider
         [JsiiOptional]
         [JsiiProperty(name: "apiKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ApiKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentcoreApiKeyCredentialProvider.IBedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "apiKeySecretConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ApiKeySecretConfigInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "apiKeySecretSourceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ApiKeySecretSourceInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -157,6 +216,13 @@ namespace aws.BedrockagentcoreApiKeyCredentialProvider
 
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ApiKey
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "apiKeySecretSource", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ApiKeySecretSource
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

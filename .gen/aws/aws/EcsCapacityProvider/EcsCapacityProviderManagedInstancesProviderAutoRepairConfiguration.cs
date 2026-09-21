@@ -7,7 +7,7 @@ namespace aws.EcsCapacityProvider
     [JsiiByValue(fqn: "aws.ecsCapacityProvider.EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration")]
     public class EcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration : aws.EcsCapacityProvider.IEcsCapacityProviderManagedInstancesProviderAutoRepairConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/ecs_capacity_provider#actions_status EcsCapacityProvider#actions_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/ecs_capacity_provider#actions_status EcsCapacityProvider#actions_status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "actionsStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ActionsStatus

@@ -9,7 +9,7 @@ namespace aws.DmsMigrationProject
     [JsiiByValue(fqn: "aws.dmsMigrationProject.DmsMigrationProjectTargetDataProviderDescriptor")]
     public class DmsMigrationProjectTargetDataProviderDescriptor : aws.DmsMigrationProject.IDmsMigrationProjectTargetDataProviderDescriptor
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/dms_migration_project#data_provider_arn DmsMigrationProject#data_provider_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/dms_migration_project#data_provider_arn DmsMigrationProject#data_provider_arn}.</summary>
         [JsiiProperty(name: "dataProviderArn", typeJson: "{\"primitive\":\"string\"}")]
         public string DataProviderArn
         {
@@ -17,7 +17,7 @@ namespace aws.DmsMigrationProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/dms_migration_project#secrets_manager_access_role_arn DmsMigrationProject#secrets_manager_access_role_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/dms_migration_project#secrets_manager_access_role_arn DmsMigrationProject#secrets_manager_access_role_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretsManagerAccessRoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretsManagerAccessRoleArn
@@ -26,7 +26,7 @@ namespace aws.DmsMigrationProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/dms_migration_project#secrets_manager_secret_id DmsMigrationProject#secrets_manager_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/dms_migration_project#secrets_manager_secret_id DmsMigrationProject#secrets_manager_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "secretsManagerSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SecretsManagerSecretId

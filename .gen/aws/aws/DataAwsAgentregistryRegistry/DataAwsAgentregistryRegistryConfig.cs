@@ -9,7 +9,7 @@ namespace aws.DataAwsAgentregistryRegistry
     [JsiiByValue(fqn: "aws.dataAwsAgentregistryRegistry.DataAwsAgentregistryRegistryConfig")]
     public class DataAwsAgentregistryRegistryConfig : aws.DataAwsAgentregistryRegistry.IDataAwsAgentregistryRegistryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/agentregistry_registry#registry_id DataAwsAgentregistryRegistry#registry_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/agentregistry_registry#registry_id DataAwsAgentregistryRegistry#registry_id}.</summary>
         [JsiiProperty(name: "registryId", typeJson: "{\"primitive\":\"string\"}")]
         public string RegistryId
         {
@@ -19,7 +19,7 @@ namespace aws.DataAwsAgentregistryRegistry
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/data-sources/agentregistry_registry#region DataAwsAgentregistryRegistry#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/data-sources/agentregistry_registry#region DataAwsAgentregistryRegistry#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

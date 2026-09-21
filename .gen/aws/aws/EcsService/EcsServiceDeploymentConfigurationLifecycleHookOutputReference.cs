@@ -35,10 +35,46 @@ namespace aws.EcsService
         {
         }
 
+        [JsiiMethod(name: "putTimeoutConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration\"}}]")]
+        public virtual void PutTimeoutConfiguration(aws.EcsService.IEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.EcsService.IEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetHookDetails")]
         public virtual void ResetHookDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetHookTargetArn")]
+        public virtual void ResetHookTargetArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRoleArn")]
+        public virtual void ResetRoleArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTargetType")]
+        public virtual void ResetTargetType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeoutConfiguration")]
+        public virtual void ResetTimeoutConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "timeoutConfiguration", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference\"}")]
+        public virtual aws.EcsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference TimeoutConfiguration
+        {
+            get => GetInstanceProperty<aws.EcsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfigurationOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -69,6 +105,20 @@ namespace aws.EcsService
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "targetTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TargetTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutConfigurationInput", typeJson: "{\"fqn\":\"aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration\"}", isOptional: true)]
+        public virtual aws.EcsService.IEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration? TimeoutConfigurationInput
+        {
+            get => GetInstanceProperty<aws.EcsService.IEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration?>();
+        }
+
         [JsiiProperty(name: "hookDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string HookDetails
         {
@@ -92,6 +142,13 @@ namespace aws.EcsService
 
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RoleArn
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TargetType
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

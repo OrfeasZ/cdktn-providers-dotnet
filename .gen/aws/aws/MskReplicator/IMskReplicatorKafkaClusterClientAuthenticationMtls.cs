@@ -7,7 +7,7 @@ namespace aws.MskReplicator
     [JsiiInterface(nativeType: typeof(IMskReplicatorKafkaClusterClientAuthenticationMtls), fullyQualifiedName: "aws.mskReplicator.MskReplicatorKafkaClusterClientAuthenticationMtls")]
     public interface IMskReplicatorKafkaClusterClientAuthenticationMtls
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/msk_replicator#secret_arn MskReplicator#secret_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_replicator#secret_arn MskReplicator#secret_arn}.</summary>
         [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
         string SecretArn
         {
@@ -21,7 +21,7 @@ namespace aws.MskReplicator
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/msk_replicator#secret_arn MskReplicator#secret_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_replicator#secret_arn MskReplicator#secret_arn}.</summary>
             [JsiiProperty(name: "secretArn", typeJson: "{\"primitive\":\"string\"}")]
             public string SecretArn
             {

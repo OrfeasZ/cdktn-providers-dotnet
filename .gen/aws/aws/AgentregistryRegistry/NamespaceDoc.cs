@@ -5,7 +5,7 @@ namespace aws.AgentregistryRegistry
     /// <remarks>
     /// <h1><c>aws_agentregistry_registry</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.65.0/docs/resources/agentregistry_registry"><c>aws_agentregistry_registry</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/agentregistry_registry"><c>aws_agentregistry_registry</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
