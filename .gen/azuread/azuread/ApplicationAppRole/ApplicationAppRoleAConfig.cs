@@ -11,7 +11,7 @@ namespace azuread.ApplicationAppRole
     {
         /// <summary>Specifies whether this app role definition can be assigned to users and groups by setting to `User`, or to other applications (that are accessing this application in a standalone scenario) by setting to `Application`, or to both.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#allowed_member_types ApplicationAppRoleA#allowed_member_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#allowed_member_types ApplicationAppRoleA#allowed_member_types}
         /// </remarks>
         [JsiiProperty(name: "allowedMemberTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AllowedMemberTypes
@@ -22,7 +22,7 @@ namespace azuread.ApplicationAppRole
 
         /// <summary>The resource ID of the application to which this app role should be applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#application_id ApplicationAppRoleA#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#application_id ApplicationAppRoleA#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -33,7 +33,7 @@ namespace azuread.ApplicationAppRole
 
         /// <summary>Description of the app role that appears when the role is being assigned and, if the role functions as an application permissions, during the consent experiences.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#description ApplicationAppRoleA#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#description ApplicationAppRoleA#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
@@ -44,7 +44,7 @@ namespace azuread.ApplicationAppRole
 
         /// <summary>Display name for the app role that appears during app role assignment and in consent experiences.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#display_name ApplicationAppRoleA#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#display_name ApplicationAppRoleA#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -55,7 +55,7 @@ namespace azuread.ApplicationAppRole
 
         /// <summary>The unique identifier of the app role.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#role_id ApplicationAppRoleA#role_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#role_id ApplicationAppRoleA#role_id}
         /// </remarks>
         [JsiiProperty(name: "roleId", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleId
@@ -64,7 +64,7 @@ namespace azuread.ApplicationAppRole
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#id ApplicationAppRoleA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#id ApplicationAppRoleA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,7 +79,7 @@ namespace azuread.ApplicationAppRole
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#timeouts ApplicationAppRoleA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#timeouts ApplicationAppRoleA#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationAppRole.ApplicationAppRoleTimeouts\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace azuread.ApplicationAppRole
 
         /// <summary>The value that is used for the `roles` claim in ID tokens and OAuth access tokens that are authenticating an assigned service or user principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_app_role#value ApplicationAppRoleA#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_app_role#value ApplicationAppRoleA#value}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

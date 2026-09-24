@@ -9,7 +9,7 @@ namespace azuread.User
     {
         /// <summary>The name to display in the address book for the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#display_name User#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#display_name User#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
@@ -19,7 +19,7 @@ namespace azuread.User
 
         /// <summary>The user principal name (UPN) of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#user_principal_name User#user_principal_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#user_principal_name User#user_principal_name}
         /// </remarks>
         [JsiiProperty(name: "userPrincipalName", typeJson: "{\"primitive\":\"string\"}")]
         string UserPrincipalName
@@ -29,7 +29,7 @@ namespace azuread.User
 
         /// <summary>Whether or not the account should be enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#account_enabled User#account_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#account_enabled User#account_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "accountEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace azuread.User
 
         /// <summary>The age group of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#age_group User#age_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#age_group User#age_group}
         /// </remarks>
         [JsiiProperty(name: "ageGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace azuread.User
         /// <remarks>
         /// Only one number can be set for this property. Read-only for users synced with Azure AD Connect
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#business_phones User#business_phones}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#business_phones User#business_phones}
         /// </remarks>
         [JsiiProperty(name: "businessPhones", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace azuread.User
 
         /// <summary>The city in which the user is located.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#city User#city}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#city User#city}
         /// </remarks>
         [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace azuread.User
         /// <remarks>
         /// This property can be useful for describing the company that an external user comes from
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#company_name User#company_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#company_name User#company_name}
         /// </remarks>
         [JsiiProperty(name: "companyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,7 +104,7 @@ namespace azuread.User
 
         /// <summary>Whether consent has been obtained for minors.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#consent_provided_for_minor User#consent_provided_for_minor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#consent_provided_for_minor User#consent_provided_for_minor}
         /// </remarks>
         [JsiiProperty(name: "consentProvidedForMinor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -118,7 +118,7 @@ namespace azuread.User
 
         /// <summary>The cost center associated with the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#cost_center User#cost_center}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#cost_center User#cost_center}
         /// </remarks>
         [JsiiProperty(name: "costCenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -132,7 +132,7 @@ namespace azuread.User
 
         /// <summary>The country/region in which the user is located, e.g. `US` or `UK`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#country User#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#country User#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -146,7 +146,7 @@ namespace azuread.User
 
         /// <summary>The name for the department in which the user works.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#department User#department}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#department User#department}
         /// </remarks>
         [JsiiProperty(name: "department", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -160,7 +160,7 @@ namespace azuread.User
 
         /// <summary>Whether the users password is exempt from expiring.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#disable_password_expiration User#disable_password_expiration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#disable_password_expiration User#disable_password_expiration}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disablePasswordExpiration", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -175,7 +175,7 @@ namespace azuread.User
 
         /// <summary>Whether the user is allowed weaker passwords than the default policy to be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#disable_strong_password User#disable_strong_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#disable_strong_password User#disable_strong_password}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableStrongPassword", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -190,7 +190,7 @@ namespace azuread.User
 
         /// <summary>The name of the division in which the user works.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#division User#division}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#division User#division}
         /// </remarks>
         [JsiiProperty(name: "division", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -204,7 +204,7 @@ namespace azuread.User
 
         /// <summary>The hire date of the user, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#employee_hire_date User#employee_hire_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#employee_hire_date User#employee_hire_date}
         /// </remarks>
         [JsiiProperty(name: "employeeHireDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -218,7 +218,7 @@ namespace azuread.User
 
         /// <summary>The employee identifier assigned to the user by the organisation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#employee_id User#employee_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#employee_id User#employee_id}
         /// </remarks>
         [JsiiProperty(name: "employeeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -232,7 +232,7 @@ namespace azuread.User
 
         /// <summary>Captures enterprise worker type. For example, Employee, Contractor, Consultant, or Vendor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#employee_type User#employee_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#employee_type User#employee_type}
         /// </remarks>
         [JsiiProperty(name: "employeeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -246,7 +246,7 @@ namespace azuread.User
 
         /// <summary>The fax number of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#fax_number User#fax_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#fax_number User#fax_number}
         /// </remarks>
         [JsiiProperty(name: "faxNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -262,7 +262,7 @@ namespace azuread.User
         /// <remarks>
         /// Only takes effect when also changing the password
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#force_password_change User#force_password_change}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#force_password_change User#force_password_change}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "forcePasswordChange", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -277,7 +277,7 @@ namespace azuread.User
 
         /// <summary>The given name (first name) of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#given_name User#given_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#given_name User#given_name}
         /// </remarks>
         [JsiiProperty(name: "givenName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -289,7 +289,7 @@ namespace azuread.User
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#id User#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#id User#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -306,7 +306,7 @@ namespace azuread.User
 
         /// <summary>The user’s job title.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#job_title User#job_title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#job_title User#job_title}
         /// </remarks>
         [JsiiProperty(name: "jobTitle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -320,7 +320,7 @@ namespace azuread.User
 
         /// <summary>The SMTP address for the user. Cannot be unset.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#mail User#mail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#mail User#mail}
         /// </remarks>
         [JsiiProperty(name: "mail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -334,7 +334,7 @@ namespace azuread.User
 
         /// <summary>The mail alias for the user. Defaults to the user name part of the user principal name (UPN).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#mail_nickname User#mail_nickname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#mail_nickname User#mail_nickname}
         /// </remarks>
         [JsiiProperty(name: "mailNickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -348,7 +348,7 @@ namespace azuread.User
 
         /// <summary>The object ID of the user's manager.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#manager_id User#manager_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#manager_id User#manager_id}
         /// </remarks>
         [JsiiProperty(name: "managerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -362,7 +362,7 @@ namespace azuread.User
 
         /// <summary>The primary cellular telephone number for the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#mobile_phone User#mobile_phone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#mobile_phone User#mobile_phone}
         /// </remarks>
         [JsiiProperty(name: "mobilePhone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -376,7 +376,7 @@ namespace azuread.User
 
         /// <summary>The office location in the user's place of business.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#office_location User#office_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#office_location User#office_location}
         /// </remarks>
         [JsiiProperty(name: "officeLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -392,7 +392,7 @@ namespace azuread.User
         /// <remarks>
         /// This must be specified if you are using a federated domain for the user's <c>user_principal_name</c> property when creating a new user account
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#onpremises_immutable_id User#onpremises_immutable_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#onpremises_immutable_id User#onpremises_immutable_id}
         /// </remarks>
         [JsiiProperty(name: "onpremisesImmutableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -406,7 +406,7 @@ namespace azuread.User
 
         /// <summary>Additional email addresses for the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#other_mails User#other_mails}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#other_mails User#other_mails}
         /// </remarks>
         [JsiiProperty(name: "otherMails", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -422,7 +422,7 @@ namespace azuread.User
         /// <remarks>
         /// The password must satisfy minimum requirements as specified by the password policy. The maximum length is 256 characters. This property is required when creating a new user
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#password User#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#password User#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -438,7 +438,7 @@ namespace azuread.User
         /// <remarks>
         /// The postal code is specific to the user's country/region. In the United States of America, this attribute contains the ZIP code
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#postal_code User#postal_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#postal_code User#postal_code}
         /// </remarks>
         [JsiiProperty(name: "postalCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -452,7 +452,7 @@ namespace azuread.User
 
         /// <summary>The user's preferred language, in ISO 639-1 notation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#preferred_language User#preferred_language}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#preferred_language User#preferred_language}
         /// </remarks>
         [JsiiProperty(name: "preferredLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -466,7 +466,7 @@ namespace azuread.User
 
         /// <summary>Whether or not the Outlook global address list should include this user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#show_in_address_list User#show_in_address_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#show_in_address_list User#show_in_address_list}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "showInAddressList", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -481,7 +481,7 @@ namespace azuread.User
 
         /// <summary>The state or province in the user's address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#state User#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#state User#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -495,7 +495,7 @@ namespace azuread.User
 
         /// <summary>The street address of the user's place of business.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#street_address User#street_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#street_address User#street_address}
         /// </remarks>
         [JsiiProperty(name: "streetAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -509,7 +509,7 @@ namespace azuread.User
 
         /// <summary>The user's surname (family name or last name).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#surname User#surname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#surname User#surname}
         /// </remarks>
         [JsiiProperty(name: "surname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -523,7 +523,7 @@ namespace azuread.User
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#timeouts User#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#timeouts User#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.user.UserTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -539,7 +539,7 @@ namespace azuread.User
         /// <remarks>
         /// Required for users that will be assigned licenses due to legal requirement to check for availability of services in countries. The usage location is a two letter country code (ISO standard 3166). Examples include: <c>NO</c>, <c>JP</c>, and <c>GB</c>. Cannot be reset to null once set
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#usage_location User#usage_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#usage_location User#usage_location}
         /// </remarks>
         [JsiiProperty(name: "usageLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -560,7 +560,7 @@ namespace azuread.User
 
             /// <summary>The name to display in the address book for the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#display_name User#display_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#display_name User#display_name}
             /// </remarks>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
@@ -570,7 +570,7 @@ namespace azuread.User
 
             /// <summary>The user principal name (UPN) of the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#user_principal_name User#user_principal_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#user_principal_name User#user_principal_name}
             /// </remarks>
             [JsiiProperty(name: "userPrincipalName", typeJson: "{\"primitive\":\"string\"}")]
             public string UserPrincipalName
@@ -580,7 +580,7 @@ namespace azuread.User
 
             /// <summary>Whether or not the account should be enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#account_enabled User#account_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#account_enabled User#account_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -592,7 +592,7 @@ namespace azuread.User
 
             /// <summary>The age group of the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#age_group User#age_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#age_group User#age_group}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ageGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -605,7 +605,7 @@ namespace azuread.User
             /// <remarks>
             /// Only one number can be set for this property. Read-only for users synced with Azure AD Connect
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#business_phones User#business_phones}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#business_phones User#business_phones}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "businessPhones", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -616,7 +616,7 @@ namespace azuread.User
 
             /// <summary>The city in which the user is located.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#city User#city}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#city User#city}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -629,7 +629,7 @@ namespace azuread.User
             /// <remarks>
             /// This property can be useful for describing the company that an external user comes from
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#company_name User#company_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#company_name User#company_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "companyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -640,7 +640,7 @@ namespace azuread.User
 
             /// <summary>Whether consent has been obtained for minors.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#consent_provided_for_minor User#consent_provided_for_minor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#consent_provided_for_minor User#consent_provided_for_minor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "consentProvidedForMinor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -651,7 +651,7 @@ namespace azuread.User
 
             /// <summary>The cost center associated with the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#cost_center User#cost_center}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#cost_center User#cost_center}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "costCenter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -662,7 +662,7 @@ namespace azuread.User
 
             /// <summary>The country/region in which the user is located, e.g. `US` or `UK`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#country User#country}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#country User#country}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -673,7 +673,7 @@ namespace azuread.User
 
             /// <summary>The name for the department in which the user works.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#department User#department}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#department User#department}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "department", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -684,7 +684,7 @@ namespace azuread.User
 
             /// <summary>Whether the users password is exempt from expiring.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#disable_password_expiration User#disable_password_expiration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#disable_password_expiration User#disable_password_expiration}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -696,7 +696,7 @@ namespace azuread.User
 
             /// <summary>Whether the user is allowed weaker passwords than the default policy to be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#disable_strong_password User#disable_strong_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#disable_strong_password User#disable_strong_password}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -708,7 +708,7 @@ namespace azuread.User
 
             /// <summary>The name of the division in which the user works.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#division User#division}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#division User#division}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "division", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -719,7 +719,7 @@ namespace azuread.User
 
             /// <summary>The hire date of the user, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#employee_hire_date User#employee_hire_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#employee_hire_date User#employee_hire_date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "employeeHireDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -730,7 +730,7 @@ namespace azuread.User
 
             /// <summary>The employee identifier assigned to the user by the organisation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#employee_id User#employee_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#employee_id User#employee_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "employeeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -741,7 +741,7 @@ namespace azuread.User
 
             /// <summary>Captures enterprise worker type. For example, Employee, Contractor, Consultant, or Vendor.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#employee_type User#employee_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#employee_type User#employee_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "employeeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -752,7 +752,7 @@ namespace azuread.User
 
             /// <summary>The fax number of the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#fax_number User#fax_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#fax_number User#fax_number}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "faxNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -765,7 +765,7 @@ namespace azuread.User
             /// <remarks>
             /// Only takes effect when also changing the password
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#force_password_change User#force_password_change}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#force_password_change User#force_password_change}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -777,7 +777,7 @@ namespace azuread.User
 
             /// <summary>The given name (first name) of the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#given_name User#given_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#given_name User#given_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "givenName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -786,7 +786,7 @@ namespace azuread.User
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#id User#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#id User#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -800,7 +800,7 @@ namespace azuread.User
 
             /// <summary>The user’s job title.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#job_title User#job_title}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#job_title User#job_title}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jobTitle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -811,7 +811,7 @@ namespace azuread.User
 
             /// <summary>The SMTP address for the user. Cannot be unset.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#mail User#mail}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#mail User#mail}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -822,7 +822,7 @@ namespace azuread.User
 
             /// <summary>The mail alias for the user. Defaults to the user name part of the user principal name (UPN).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#mail_nickname User#mail_nickname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#mail_nickname User#mail_nickname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mailNickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -833,7 +833,7 @@ namespace azuread.User
 
             /// <summary>The object ID of the user's manager.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#manager_id User#manager_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#manager_id User#manager_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "managerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -844,7 +844,7 @@ namespace azuread.User
 
             /// <summary>The primary cellular telephone number for the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#mobile_phone User#mobile_phone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#mobile_phone User#mobile_phone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mobilePhone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -855,7 +855,7 @@ namespace azuread.User
 
             /// <summary>The office location in the user's place of business.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#office_location User#office_location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#office_location User#office_location}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "officeLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -868,7 +868,7 @@ namespace azuread.User
             /// <remarks>
             /// This must be specified if you are using a federated domain for the user's <c>user_principal_name</c> property when creating a new user account
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#onpremises_immutable_id User#onpremises_immutable_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#onpremises_immutable_id User#onpremises_immutable_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onpremisesImmutableId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -879,7 +879,7 @@ namespace azuread.User
 
             /// <summary>Additional email addresses for the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#other_mails User#other_mails}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#other_mails User#other_mails}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "otherMails", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -892,7 +892,7 @@ namespace azuread.User
             /// <remarks>
             /// The password must satisfy minimum requirements as specified by the password policy. The maximum length is 256 characters. This property is required when creating a new user
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#password User#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#password User#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -905,7 +905,7 @@ namespace azuread.User
             /// <remarks>
             /// The postal code is specific to the user's country/region. In the United States of America, this attribute contains the ZIP code
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#postal_code User#postal_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#postal_code User#postal_code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "postalCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -916,7 +916,7 @@ namespace azuread.User
 
             /// <summary>The user's preferred language, in ISO 639-1 notation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#preferred_language User#preferred_language}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#preferred_language User#preferred_language}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preferredLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -927,7 +927,7 @@ namespace azuread.User
 
             /// <summary>Whether or not the Outlook global address list should include this user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#show_in_address_list User#show_in_address_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#show_in_address_list User#show_in_address_list}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -939,7 +939,7 @@ namespace azuread.User
 
             /// <summary>The state or province in the user's address.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#state User#state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#state User#state}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -950,7 +950,7 @@ namespace azuread.User
 
             /// <summary>The street address of the user's place of business.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#street_address User#street_address}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#street_address User#street_address}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "streetAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -961,7 +961,7 @@ namespace azuread.User
 
             /// <summary>The user's surname (family name or last name).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#surname User#surname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#surname User#surname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "surname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -972,7 +972,7 @@ namespace azuread.User
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#timeouts User#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#timeouts User#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.user.UserTimeouts\"}", isOptional: true)]
@@ -985,7 +985,7 @@ namespace azuread.User
             /// <remarks>
             /// Required for users that will be assigned licenses due to legal requirement to check for availability of services in countries. The usage location is a two letter country code (ISO standard 3166). Examples include: <c>NO</c>, <c>JP</c>, and <c>GB</c>. Cannot be reset to null once set
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user#usage_location User#usage_location}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user#usage_location User#usage_location}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usageLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

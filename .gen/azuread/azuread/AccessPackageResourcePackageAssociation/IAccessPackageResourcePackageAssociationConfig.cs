@@ -9,7 +9,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
     {
         /// <summary>The ID of access package this resource association is configured to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#access_package_id AccessPackageResourcePackageAssociation#access_package_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#access_package_id AccessPackageResourcePackageAssociation#access_package_id}
         /// </remarks>
         [JsiiProperty(name: "accessPackageId", typeJson: "{\"primitive\":\"string\"}")]
         string AccessPackageId
@@ -19,7 +19,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
 
         /// <summary>The ID of the access package catalog association.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#catalog_resource_association_id AccessPackageResourcePackageAssociation#catalog_resource_association_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#catalog_resource_association_id AccessPackageResourcePackageAssociation#catalog_resource_association_id}
         /// </remarks>
         [JsiiProperty(name: "catalogResourceAssociationId", typeJson: "{\"primitive\":\"string\"}")]
         string CatalogResourceAssociationId
@@ -29,7 +29,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
 
         /// <summary>The role of access type to the specified resource, valid values are `Member` and `Owner`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#access_type AccessPackageResourcePackageAssociation#access_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#access_type AccessPackageResourcePackageAssociation#access_type}
         /// </remarks>
         [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#id AccessPackageResourcePackageAssociation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#id AccessPackageResourcePackageAssociation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#timeouts AccessPackageResourcePackageAssociation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#timeouts AccessPackageResourcePackageAssociation#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.accessPackageResourcePackageAssociation.AccessPackageResourcePackageAssociationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
 
             /// <summary>The ID of access package this resource association is configured to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#access_package_id AccessPackageResourcePackageAssociation#access_package_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#access_package_id AccessPackageResourcePackageAssociation#access_package_id}
             /// </remarks>
             [JsiiProperty(name: "accessPackageId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccessPackageId
@@ -89,7 +89,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
 
             /// <summary>The ID of the access package catalog association.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#catalog_resource_association_id AccessPackageResourcePackageAssociation#catalog_resource_association_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#catalog_resource_association_id AccessPackageResourcePackageAssociation#catalog_resource_association_id}
             /// </remarks>
             [JsiiProperty(name: "catalogResourceAssociationId", typeJson: "{\"primitive\":\"string\"}")]
             public string CatalogResourceAssociationId
@@ -99,7 +99,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
 
             /// <summary>The role of access type to the specified resource, valid values are `Member` and `Owner`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#access_type AccessPackageResourcePackageAssociation#access_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#access_type AccessPackageResourcePackageAssociation#access_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#id AccessPackageResourcePackageAssociation#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#id AccessPackageResourcePackageAssociation#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -122,7 +122,7 @@ namespace azuread.AccessPackageResourcePackageAssociation
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_resource_package_association#timeouts AccessPackageResourcePackageAssociation#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_resource_package_association#timeouts AccessPackageResourcePackageAssociation#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.accessPackageResourcePackageAssociation.AccessPackageResourcePackageAssociationTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azuread.Group
     {
         /// <summary>The display name for the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#display_name Group#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#display_name Group#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
@@ -21,7 +21,7 @@ namespace azuread.Group
         /// <remarks>
         /// If empty, the group will be created at the tenant level.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#administrative_unit_ids Group#administrative_unit_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#administrative_unit_ids Group#administrative_unit_ids}
         /// </remarks>
         [JsiiProperty(name: "administrativeUnitIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace azuread.Group
         /// <remarks>
         /// This property can only be <c>true</c> for security-enabled groups.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#assignable_to_role Group#assignable_to_role}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#assignable_to_role Group#assignable_to_role}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "assignableToRole", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -52,7 +52,7 @@ namespace azuread.Group
 
         /// <summary>Indicates whether new members added to the group will be auto-subscribed to receive email notifications.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#auto_subscribe_new_members Group#auto_subscribe_new_members}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#auto_subscribe_new_members Group#auto_subscribe_new_members}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "autoSubscribeNewMembers", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azuread.Group
 
         /// <summary>The group behaviours for a Microsoft 365 group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#behaviors Group#behaviors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#behaviors Group#behaviors}
         /// </remarks>
         [JsiiProperty(name: "behaviors", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace azuread.Group
 
         /// <summary>The description for the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#description Group#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#description Group#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace azuread.Group
 
         /// <summary>dynamic_membership block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#dynamic_membership Group#dynamic_membership}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#dynamic_membership Group#dynamic_membership}
         /// </remarks>
         [JsiiProperty(name: "dynamicMembership", typeJson: "{\"fqn\":\"azuread.group.GroupDynamicMembership\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace azuread.Group
 
         /// <summary>Indicates whether people external to the organization can send messages to the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#external_senders_allowed Group#external_senders_allowed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#external_senders_allowed Group#external_senders_allowed}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "externalSendersAllowed", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace azuread.Group
 
         /// <summary>Indicates whether the group is displayed in certain parts of the Outlook user interface: in the Address Book, in address lists for selecting message recipients, and in the Browse Groups dialog for searching groups.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#hide_from_address_lists Group#hide_from_address_lists}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#hide_from_address_lists Group#hide_from_address_lists}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "hideFromAddressLists", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -139,7 +139,7 @@ namespace azuread.Group
 
         /// <summary>Indicates whether the group is displayed in Outlook clients, such as Outlook for Windows and Outlook on the web.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#hide_from_outlook_clients Group#hide_from_outlook_clients}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#hide_from_outlook_clients Group#hide_from_outlook_clients}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "hideFromOutlookClients", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace azuread.Group
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#id Group#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#id Group#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -171,7 +171,7 @@ namespace azuread.Group
         /// <remarks>
         /// At least one of <c>mail_enabled</c> or <c>security_enabled</c> must be specified. A group can be mail enabled <em>and</em> security enabled
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#mail_enabled Group#mail_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#mail_enabled Group#mail_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "mailEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -186,7 +186,7 @@ namespace azuread.Group
 
         /// <summary>The mail alias for the group, unique in the organisation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#mail_nickname Group#mail_nickname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#mail_nickname Group#mail_nickname}
         /// </remarks>
         [JsiiProperty(name: "mailNickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -202,7 +202,7 @@ namespace azuread.Group
         /// <remarks>
         /// Supported object types are Users, Groups or Service Principals
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#members Group#members}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#members Group#members}
         /// </remarks>
         [JsiiProperty(name: "members", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -216,7 +216,7 @@ namespace azuread.Group
 
         /// <summary>Indicates the target on-premise group type the group will be written back as.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#onpremises_group_type Group#onpremises_group_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#onpremises_group_type Group#onpremises_group_type}
         /// </remarks>
         [JsiiProperty(name: "onpremisesGroupType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -230,7 +230,7 @@ namespace azuread.Group
 
         /// <summary>A set of owners who own this group. Supported object types are Users or Service Principals.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#owners Group#owners}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#owners Group#owners}
         /// </remarks>
         [JsiiProperty(name: "owners", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -244,7 +244,7 @@ namespace azuread.Group
 
         /// <summary>If `true`, will return an error if an existing group is found with the same name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#prevent_duplicate_names Group#prevent_duplicate_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#prevent_duplicate_names Group#prevent_duplicate_names}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "preventDuplicateNames", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -259,7 +259,7 @@ namespace azuread.Group
 
         /// <summary>The group provisioning options for a Microsoft 365 group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#provisioning_options Group#provisioning_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#provisioning_options Group#provisioning_options}
         /// </remarks>
         [JsiiProperty(name: "provisioningOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -275,7 +275,7 @@ namespace azuread.Group
         /// <remarks>
         /// At least one of <c>security_enabled</c> or <c>mail_enabled</c> must be specified. A group can be security enabled <em>and</em> mail enabled
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#security_enabled Group#security_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#security_enabled Group#security_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "securityEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -290,7 +290,7 @@ namespace azuread.Group
 
         /// <summary>The colour theme for a Microsoft 365 group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#theme Group#theme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#theme Group#theme}
         /// </remarks>
         [JsiiProperty(name: "theme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -304,7 +304,7 @@ namespace azuread.Group
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#timeouts Group#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#timeouts Group#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.group.GroupTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -320,7 +320,7 @@ namespace azuread.Group
         /// <remarks>
         /// <c>Unified</c> specifies a Microsoft 365 group. Required when <c>mail_enabled</c> is true
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#types Group#types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#types Group#types}
         /// </remarks>
         [JsiiProperty(name: "types", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -334,7 +334,7 @@ namespace azuread.Group
 
         /// <summary>Specifies the group join policy and group content visibility.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#visibility Group#visibility}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#visibility Group#visibility}
         /// </remarks>
         [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -348,7 +348,7 @@ namespace azuread.Group
 
         /// <summary>Whether this group should be synced from Azure AD to the on-premises directory when Azure AD Connect is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#writeback_enabled Group#writeback_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#writeback_enabled Group#writeback_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "writebackEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -370,7 +370,7 @@ namespace azuread.Group
 
             /// <summary>The display name for the group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#display_name Group#display_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#display_name Group#display_name}
             /// </remarks>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
@@ -382,7 +382,7 @@ namespace azuread.Group
             /// <remarks>
             /// If empty, the group will be created at the tenant level.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#administrative_unit_ids Group#administrative_unit_ids}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#administrative_unit_ids Group#administrative_unit_ids}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "administrativeUnitIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -395,7 +395,7 @@ namespace azuread.Group
             /// <remarks>
             /// This property can only be <c>true</c> for security-enabled groups.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#assignable_to_role Group#assignable_to_role}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#assignable_to_role Group#assignable_to_role}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -407,7 +407,7 @@ namespace azuread.Group
 
             /// <summary>Indicates whether new members added to the group will be auto-subscribed to receive email notifications.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#auto_subscribe_new_members Group#auto_subscribe_new_members}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#auto_subscribe_new_members Group#auto_subscribe_new_members}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -419,7 +419,7 @@ namespace azuread.Group
 
             /// <summary>The group behaviours for a Microsoft 365 group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#behaviors Group#behaviors}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#behaviors Group#behaviors}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "behaviors", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -430,7 +430,7 @@ namespace azuread.Group
 
             /// <summary>The description for the group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#description Group#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#description Group#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -441,7 +441,7 @@ namespace azuread.Group
 
             /// <summary>dynamic_membership block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#dynamic_membership Group#dynamic_membership}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#dynamic_membership Group#dynamic_membership}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dynamicMembership", typeJson: "{\"fqn\":\"azuread.group.GroupDynamicMembership\"}", isOptional: true)]
@@ -452,7 +452,7 @@ namespace azuread.Group
 
             /// <summary>Indicates whether people external to the organization can send messages to the group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#external_senders_allowed Group#external_senders_allowed}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#external_senders_allowed Group#external_senders_allowed}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -464,7 +464,7 @@ namespace azuread.Group
 
             /// <summary>Indicates whether the group is displayed in certain parts of the Outlook user interface: in the Address Book, in address lists for selecting message recipients, and in the Browse Groups dialog for searching groups.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#hide_from_address_lists Group#hide_from_address_lists}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#hide_from_address_lists Group#hide_from_address_lists}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -476,7 +476,7 @@ namespace azuread.Group
 
             /// <summary>Indicates whether the group is displayed in Outlook clients, such as Outlook for Windows and Outlook on the web.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#hide_from_outlook_clients Group#hide_from_outlook_clients}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#hide_from_outlook_clients Group#hide_from_outlook_clients}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -486,7 +486,7 @@ namespace azuread.Group
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#id Group#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#id Group#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -502,7 +502,7 @@ namespace azuread.Group
             /// <remarks>
             /// At least one of <c>mail_enabled</c> or <c>security_enabled</c> must be specified. A group can be mail enabled <em>and</em> security enabled
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#mail_enabled Group#mail_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#mail_enabled Group#mail_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -514,7 +514,7 @@ namespace azuread.Group
 
             /// <summary>The mail alias for the group, unique in the organisation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#mail_nickname Group#mail_nickname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#mail_nickname Group#mail_nickname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mailNickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -527,7 +527,7 @@ namespace azuread.Group
             /// <remarks>
             /// Supported object types are Users, Groups or Service Principals
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#members Group#members}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#members Group#members}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "members", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -538,7 +538,7 @@ namespace azuread.Group
 
             /// <summary>Indicates the target on-premise group type the group will be written back as.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#onpremises_group_type Group#onpremises_group_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#onpremises_group_type Group#onpremises_group_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onpremisesGroupType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -549,7 +549,7 @@ namespace azuread.Group
 
             /// <summary>A set of owners who own this group. Supported object types are Users or Service Principals.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#owners Group#owners}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#owners Group#owners}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "owners", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -560,7 +560,7 @@ namespace azuread.Group
 
             /// <summary>If `true`, will return an error if an existing group is found with the same name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#prevent_duplicate_names Group#prevent_duplicate_names}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#prevent_duplicate_names Group#prevent_duplicate_names}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -572,7 +572,7 @@ namespace azuread.Group
 
             /// <summary>The group provisioning options for a Microsoft 365 group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#provisioning_options Group#provisioning_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#provisioning_options Group#provisioning_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provisioningOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -585,7 +585,7 @@ namespace azuread.Group
             /// <remarks>
             /// At least one of <c>security_enabled</c> or <c>mail_enabled</c> must be specified. A group can be security enabled <em>and</em> mail enabled
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#security_enabled Group#security_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#security_enabled Group#security_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -597,7 +597,7 @@ namespace azuread.Group
 
             /// <summary>The colour theme for a Microsoft 365 group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#theme Group#theme}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#theme Group#theme}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "theme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -608,7 +608,7 @@ namespace azuread.Group
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#timeouts Group#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#timeouts Group#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.group.GroupTimeouts\"}", isOptional: true)]
@@ -621,7 +621,7 @@ namespace azuread.Group
             /// <remarks>
             /// <c>Unified</c> specifies a Microsoft 365 group. Required when <c>mail_enabled</c> is true
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#types Group#types}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#types Group#types}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "types", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -632,7 +632,7 @@ namespace azuread.Group
 
             /// <summary>Specifies the group join policy and group content visibility.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#visibility Group#visibility}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#visibility Group#visibility}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -643,7 +643,7 @@ namespace azuread.Group
 
             /// <summary>Whether this group should be synced from Azure AD to the on-premises directory when Azure AD Connect is used.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group#writeback_enabled Group#writeback_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group#writeback_enabled Group#writeback_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

@@ -13,7 +13,7 @@ namespace azuread.Application
 
         /// <summary>resource_access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application#resource_access Application#resource_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application#resource_access Application#resource_access}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.Application.IApplicationRequiredResourceAccessResourceAccess" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "resourceAccess", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.application.ApplicationRequiredResourceAccessResourceAccess\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +43,7 @@ namespace azuread.Application
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application#resource_app_id Application#resource_app_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application#resource_app_id Application#resource_app_id}.</summary>
         [JsiiProperty(name: "resourceAppId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceAppId
         {

@@ -11,7 +11,7 @@ namespace azuread.ApplicationOptionalClaims
     {
         /// <summary>The name of the optional claim.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#name ApplicationOptionalClaimsA#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#name ApplicationOptionalClaimsA#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -24,7 +24,7 @@ namespace azuread.ApplicationOptionalClaims
         /// <remarks>
         /// If a property exists in this list, it modifies the behaviour of the optional claim
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#additional_properties ApplicationOptionalClaimsA#additional_properties}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#additional_properties ApplicationOptionalClaimsA#additional_properties}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalProperties", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace azuread.ApplicationOptionalClaims
 
         /// <summary>Whether the claim specified by the client is necessary to ensure a smooth authorization experience.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#essential ApplicationOptionalClaimsA#essential}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#essential ApplicationOptionalClaimsA#essential}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -73,7 +73,7 @@ namespace azuread.ApplicationOptionalClaims
         /// <remarks>
         /// If <c>source</c> is absent, the claim is a predefined optional claim. If <c>source</c> is <c>user</c>, the value of <c>name</c> is the extension property from the user object
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#source ApplicationOptionalClaimsA#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#source ApplicationOptionalClaimsA#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

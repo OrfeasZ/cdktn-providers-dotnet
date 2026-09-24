@@ -5,7 +5,7 @@ namespace azuread.DataAzureadDirectoryRoleTemplates
     /// <remarks>
     /// <h1><c>data_azuread_directory_role_templates</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/directory_role_templates"><c>data_azuread_directory_role_templates</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/directory_role_templates"><c>data_azuread_directory_role_templates</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -11,7 +11,7 @@ namespace azuread.ApplicationOwner
     {
         /// <summary>The resource ID of the application to which the owner should be added.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_owner#application_id ApplicationOwner#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_owner#application_id ApplicationOwner#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -22,7 +22,7 @@ namespace azuread.ApplicationOwner
 
         /// <summary>Object ID of the principal that will be granted ownership of the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_owner#owner_object_id ApplicationOwner#owner_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_owner#owner_object_id ApplicationOwner#owner_object_id}
         /// </remarks>
         [JsiiProperty(name: "ownerObjectId", typeJson: "{\"primitive\":\"string\"}")]
         public string OwnerObjectId
@@ -31,7 +31,7 @@ namespace azuread.ApplicationOwner
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_owner#id ApplicationOwner#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_owner#id ApplicationOwner#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuread.ApplicationOwner
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_owner#timeouts ApplicationOwner#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_owner#timeouts ApplicationOwner#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationOwner.ApplicationOwnerTimeouts\"}", isOptional: true)]

@@ -7,14 +7,14 @@ namespace azuread.ConditionalAccessPolicy
     [JsiiInterface(nativeType: typeof(IConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants), fullyQualifiedName: "azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants")]
     public interface IConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#membership_kind ConditionalAccessPolicy#membership_kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#membership_kind ConditionalAccessPolicy#membership_kind}.</summary>
         [JsiiProperty(name: "membershipKind", typeJson: "{\"primitive\":\"string\"}")]
         string MembershipKind
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#members ConditionalAccessPolicy#members}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#members ConditionalAccessPolicy#members}.</summary>
         [JsiiProperty(name: "members", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Members
@@ -32,14 +32,14 @@ namespace azuread.ConditionalAccessPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#membership_kind ConditionalAccessPolicy#membership_kind}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#membership_kind ConditionalAccessPolicy#membership_kind}.</summary>
             [JsiiProperty(name: "membershipKind", typeJson: "{\"primitive\":\"string\"}")]
             public string MembershipKind
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#members ConditionalAccessPolicy#members}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#members ConditionalAccessPolicy#members}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "members", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Members

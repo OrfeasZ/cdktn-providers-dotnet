@@ -7,7 +7,7 @@ namespace azuread.NamedLocation
     [JsiiInterface(nativeType: typeof(INamedLocationConfig), fullyQualifiedName: "azuread.namedLocation.NamedLocationConfig")]
     public interface INamedLocationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#display_name NamedLocation#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#display_name NamedLocation#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
@@ -16,7 +16,7 @@ namespace azuread.NamedLocation
 
         /// <summary>country block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#country NamedLocation#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#country NamedLocation#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"fqn\":\"azuread.namedLocation.NamedLocationCountry\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace azuread.NamedLocation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#id NamedLocation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#id NamedLocation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +45,7 @@ namespace azuread.NamedLocation
 
         /// <summary>ip block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#ip NamedLocation#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#ip NamedLocation#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"fqn\":\"azuread.namedLocation.NamedLocationIp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace azuread.NamedLocation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#timeouts NamedLocation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#timeouts NamedLocation#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.namedLocation.NamedLocationTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace azuread.NamedLocation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#display_name NamedLocation#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#display_name NamedLocation#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
@@ -87,7 +87,7 @@ namespace azuread.NamedLocation
 
             /// <summary>country block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#country NamedLocation#country}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#country NamedLocation#country}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "country", typeJson: "{\"fqn\":\"azuread.namedLocation.NamedLocationCountry\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace azuread.NamedLocation
                 get => GetInstanceProperty<azuread.NamedLocation.INamedLocationCountry?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#id NamedLocation#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#id NamedLocation#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -110,7 +110,7 @@ namespace azuread.NamedLocation
 
             /// <summary>ip block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#ip NamedLocation#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#ip NamedLocation#ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ip", typeJson: "{\"fqn\":\"azuread.namedLocation.NamedLocationIp\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace azuread.NamedLocation
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#timeouts NamedLocation#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#timeouts NamedLocation#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.namedLocation.NamedLocationTimeouts\"}", isOptional: true)]

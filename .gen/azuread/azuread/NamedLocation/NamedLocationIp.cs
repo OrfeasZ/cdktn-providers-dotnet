@@ -9,7 +9,7 @@ namespace azuread.NamedLocation
     [JsiiByValue(fqn: "azuread.namedLocation.NamedLocationIp")]
     public class NamedLocationIp : azuread.NamedLocation.INamedLocationIp
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#ip_ranges NamedLocation#ip_ranges}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#ip_ranges NamedLocation#ip_ranges}.</summary>
         [JsiiProperty(name: "ipRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] IpRanges
         {
@@ -19,7 +19,7 @@ namespace azuread.NamedLocation
 
         private object? _trusted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#trusted NamedLocation#trusted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#trusted NamedLocation#trusted}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

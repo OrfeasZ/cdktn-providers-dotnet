@@ -9,7 +9,7 @@ namespace azuread.ConditionalAccessPolicy
     {
         /// <summary>conditions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#conditions ConditionalAccessPolicy#conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#conditions ConditionalAccessPolicy#conditions}
         /// </remarks>
         [JsiiProperty(name: "conditions", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditions\"}")]
         azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditions Conditions
@@ -17,14 +17,14 @@ namespace azuread.ConditionalAccessPolicy
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#display_name ConditionalAccessPolicy#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#display_name ConditionalAccessPolicy#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#state ConditionalAccessPolicy#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#state ConditionalAccessPolicy#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         string State
         {
@@ -33,7 +33,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>grant_controls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#grant_controls ConditionalAccessPolicy#grant_controls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#grant_controls ConditionalAccessPolicy#grant_controls}
         /// </remarks>
         [JsiiProperty(name: "grantControls", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControls\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace azuread.ConditionalAccessPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#id ConditionalAccessPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#id ConditionalAccessPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>session_controls block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#session_controls ConditionalAccessPolicy#session_controls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#session_controls ConditionalAccessPolicy#session_controls}
         /// </remarks>
         [JsiiProperty(name: "sessionControls", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicySessionControls\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#timeouts ConditionalAccessPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#timeouts ConditionalAccessPolicy#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,7 +97,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>conditions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#conditions ConditionalAccessPolicy#conditions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#conditions ConditionalAccessPolicy#conditions}
             /// </remarks>
             [JsiiProperty(name: "conditions", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditions\"}")]
             public azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditions Conditions
@@ -105,14 +105,14 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditions>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#display_name ConditionalAccessPolicy#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#display_name ConditionalAccessPolicy#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#state ConditionalAccessPolicy#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#state ConditionalAccessPolicy#state}.</summary>
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
             public string State
             {
@@ -121,7 +121,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>grant_controls block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#grant_controls ConditionalAccessPolicy#grant_controls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#grant_controls ConditionalAccessPolicy#grant_controls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "grantControls", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyGrantControls\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<azuread.ConditionalAccessPolicy.IConditionalAccessPolicyGrantControls?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#id ConditionalAccessPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#id ConditionalAccessPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -144,7 +144,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>session_controls block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#session_controls ConditionalAccessPolicy#session_controls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#session_controls ConditionalAccessPolicy#session_controls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sessionControls", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicySessionControls\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#timeouts ConditionalAccessPolicy#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#timeouts ConditionalAccessPolicy#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyTimeouts\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace azuread.DirectoryRoleMember
     [JsiiInterface(nativeType: typeof(IDirectoryRoleMemberConfig), fullyQualifiedName: "azuread.directoryRoleMember.DirectoryRoleMemberConfig")]
     public interface IDirectoryRoleMemberConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#id DirectoryRoleMember#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#id DirectoryRoleMember#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace azuread.DirectoryRoleMember
 
         /// <summary>The object ID of the member.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#member_object_id DirectoryRoleMember#member_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#member_object_id DirectoryRoleMember#member_object_id}
         /// </remarks>
         [JsiiProperty(name: "memberObjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace azuread.DirectoryRoleMember
 
         /// <summary>The object ID of the directory role.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#role_object_id DirectoryRoleMember#role_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#role_object_id DirectoryRoleMember#role_object_id}
         /// </remarks>
         [JsiiProperty(name: "roleObjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace azuread.DirectoryRoleMember
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#timeouts DirectoryRoleMember#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#timeouts DirectoryRoleMember#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.directoryRoleMember.DirectoryRoleMemberTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace azuread.DirectoryRoleMember
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#id DirectoryRoleMember#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#id DirectoryRoleMember#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace azuread.DirectoryRoleMember
 
             /// <summary>The object ID of the member.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#member_object_id DirectoryRoleMember#member_object_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#member_object_id DirectoryRoleMember#member_object_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "memberObjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace azuread.DirectoryRoleMember
 
             /// <summary>The object ID of the directory role.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#role_object_id DirectoryRoleMember#role_object_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#role_object_id DirectoryRoleMember#role_object_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "roleObjectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace azuread.DirectoryRoleMember
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_member#timeouts DirectoryRoleMember#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_member#timeouts DirectoryRoleMember#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.directoryRoleMember.DirectoryRoleMemberTimeouts\"}", isOptional: true)]

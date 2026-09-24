@@ -11,7 +11,7 @@ namespace azuread.ApplicationIdentifierUri
     {
         /// <summary>The resource ID of the application to which the identifier URI should be added.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_identifier_uri#application_id ApplicationIdentifierUri#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_identifier_uri#application_id ApplicationIdentifierUri#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -22,7 +22,7 @@ namespace azuread.ApplicationIdentifierUri
 
         /// <summary>The user-defined URI or URI-like string that uniquely identifies an application within its Azure AD tenant, or within a verified custom domain if the application is multi-tenant.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_identifier_uri#identifier_uri ApplicationIdentifierUri#identifier_uri}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_identifier_uri#identifier_uri ApplicationIdentifierUri#identifier_uri}
         /// </remarks>
         [JsiiProperty(name: "identifierUri", typeJson: "{\"primitive\":\"string\"}")]
         public string IdentifierUri
@@ -31,7 +31,7 @@ namespace azuread.ApplicationIdentifierUri
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_identifier_uri#id ApplicationIdentifierUri#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_identifier_uri#id ApplicationIdentifierUri#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuread.ApplicationIdentifierUri
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_identifier_uri#timeouts ApplicationIdentifierUri#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_identifier_uri#timeouts ApplicationIdentifierUri#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationIdentifierUri.ApplicationIdentifierUriTimeouts\"}", isOptional: true)]

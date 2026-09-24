@@ -9,7 +9,7 @@ namespace azuread.ConditionalAccessPolicy
     [JsiiByValue(fqn: "azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevicesFilter")]
     public class ConditionalAccessPolicyConditionsDevicesFilter : azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsDevicesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#mode ConditionalAccessPolicy#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#mode ConditionalAccessPolicy#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {
@@ -17,7 +17,7 @@ namespace azuread.ConditionalAccessPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#rule ConditionalAccessPolicy#rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#rule ConditionalAccessPolicy#rule}.</summary>
         [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
         public string Rule
         {

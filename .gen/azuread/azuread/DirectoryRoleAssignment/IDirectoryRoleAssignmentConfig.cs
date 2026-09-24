@@ -9,7 +9,7 @@ namespace azuread.DirectoryRoleAssignment
     {
         /// <summary>The object ID of the member principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#principal_object_id DirectoryRoleAssignment#principal_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#principal_object_id DirectoryRoleAssignment#principal_object_id}
         /// </remarks>
         [JsiiProperty(name: "principalObjectId", typeJson: "{\"primitive\":\"string\"}")]
         string PrincipalObjectId
@@ -19,7 +19,7 @@ namespace azuread.DirectoryRoleAssignment
 
         /// <summary>The object ID of the directory role for this assignment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#role_id DirectoryRoleAssignment#role_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#role_id DirectoryRoleAssignment#role_id}
         /// </remarks>
         [JsiiProperty(name: "roleId", typeJson: "{\"primitive\":\"string\"}")]
         string RoleId
@@ -29,7 +29,7 @@ namespace azuread.DirectoryRoleAssignment
 
         /// <summary>Identifier of the app-specific scope when the assignment scope is app-specific.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#app_scope_id DirectoryRoleAssignment#app_scope_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#app_scope_id DirectoryRoleAssignment#app_scope_id}
         /// </remarks>
         [JsiiProperty(name: "appScopeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace azuread.DirectoryRoleAssignment
 
         /// <summary>Identifier of the directory object representing the scope of the assignment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#directory_scope_id DirectoryRoleAssignment#directory_scope_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#directory_scope_id DirectoryRoleAssignment#directory_scope_id}
         /// </remarks>
         [JsiiProperty(name: "directoryScopeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace azuread.DirectoryRoleAssignment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#id DirectoryRoleAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#id DirectoryRoleAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace azuread.DirectoryRoleAssignment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#timeouts DirectoryRoleAssignment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#timeouts DirectoryRoleAssignment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.directoryRoleAssignment.DirectoryRoleAssignmentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace azuread.DirectoryRoleAssignment
 
             /// <summary>The object ID of the member principal.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#principal_object_id DirectoryRoleAssignment#principal_object_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#principal_object_id DirectoryRoleAssignment#principal_object_id}
             /// </remarks>
             [JsiiProperty(name: "principalObjectId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrincipalObjectId
@@ -103,7 +103,7 @@ namespace azuread.DirectoryRoleAssignment
 
             /// <summary>The object ID of the directory role for this assignment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#role_id DirectoryRoleAssignment#role_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#role_id DirectoryRoleAssignment#role_id}
             /// </remarks>
             [JsiiProperty(name: "roleId", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleId
@@ -113,7 +113,7 @@ namespace azuread.DirectoryRoleAssignment
 
             /// <summary>Identifier of the app-specific scope when the assignment scope is app-specific.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#app_scope_id DirectoryRoleAssignment#app_scope_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#app_scope_id DirectoryRoleAssignment#app_scope_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appScopeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace azuread.DirectoryRoleAssignment
 
             /// <summary>Identifier of the directory object representing the scope of the assignment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#directory_scope_id DirectoryRoleAssignment#directory_scope_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#directory_scope_id DirectoryRoleAssignment#directory_scope_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "directoryScopeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace azuread.DirectoryRoleAssignment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#id DirectoryRoleAssignment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#id DirectoryRoleAssignment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -147,7 +147,7 @@ namespace azuread.DirectoryRoleAssignment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_assignment#timeouts DirectoryRoleAssignment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_assignment#timeouts DirectoryRoleAssignment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.directoryRoleAssignment.DirectoryRoleAssignmentTimeouts\"}", isOptional: true)]

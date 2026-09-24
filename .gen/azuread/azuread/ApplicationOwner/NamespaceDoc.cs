@@ -5,7 +5,7 @@ namespace azuread.ApplicationOwner
     /// <remarks>
     /// <h1><c>azuread_application_owner</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_owner"><c>azuread_application_owner</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_owner"><c>azuread_application_owner</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -13,7 +13,7 @@ namespace azuread.SynchronizationJobProvisionOnDemand
         /// <remarks>
         /// This rule ID is defined in the schema for a given synchronization job or template.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/synchronization_job_provision_on_demand#rule_id SynchronizationJobProvisionOnDemand#rule_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/synchronization_job_provision_on_demand#rule_id SynchronizationJobProvisionOnDemand#rule_id}
         /// </remarks>
         [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
         public string RuleId
@@ -26,7 +26,7 @@ namespace azuread.SynchronizationJobProvisionOnDemand
 
         /// <summary>subject block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/synchronization_job_provision_on_demand#subject SynchronizationJobProvisionOnDemand#subject}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/synchronization_job_provision_on_demand#subject SynchronizationJobProvisionOnDemand#subject}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.SynchronizationJobProvisionOnDemand.ISynchronizationJobProvisionOnDemandParameterSubject" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "subject", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.synchronizationJobProvisionOnDemand.SynchronizationJobProvisionOnDemandParameterSubject\"},\"kind\":\"array\"}}]}}")]

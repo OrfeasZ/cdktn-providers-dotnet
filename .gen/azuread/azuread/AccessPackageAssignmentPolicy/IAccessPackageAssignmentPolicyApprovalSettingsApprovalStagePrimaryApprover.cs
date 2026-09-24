@@ -9,7 +9,7 @@ namespace azuread.AccessPackageAssignmentPolicy
     {
         /// <summary>Type of users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#subject_type AccessPackageAssignmentPolicy#subject_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#subject_type AccessPackageAssignmentPolicy#subject_type}
         /// </remarks>
         [JsiiProperty(name: "subjectType", typeJson: "{\"primitive\":\"string\"}")]
         string SubjectType
@@ -19,7 +19,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>For a user in an approval stage, this property indicates whether the user is a backup fallback approver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#backup AccessPackageAssignmentPolicy#backup}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#backup AccessPackageAssignmentPolicy#backup}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "backup", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>The object ID of the subject.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#object_id AccessPackageAssignmentPolicy#object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#object_id AccessPackageAssignmentPolicy#object_id}
         /// </remarks>
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
             /// <summary>Type of users.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#subject_type AccessPackageAssignmentPolicy#subject_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#subject_type AccessPackageAssignmentPolicy#subject_type}
             /// </remarks>
             [JsiiProperty(name: "subjectType", typeJson: "{\"primitive\":\"string\"}")]
             public string SubjectType
@@ -65,7 +65,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
             /// <summary>For a user in an approval stage, this property indicates whether the user is a backup fallback approver.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#backup AccessPackageAssignmentPolicy#backup}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#backup AccessPackageAssignmentPolicy#backup}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -77,7 +77,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
             /// <summary>The object ID of the subject.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#object_id AccessPackageAssignmentPolicy#object_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#object_id AccessPackageAssignmentPolicy#object_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

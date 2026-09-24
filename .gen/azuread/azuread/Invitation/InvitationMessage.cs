@@ -9,7 +9,7 @@ namespace azuread.Invitation
     {
         /// <summary>Email addresses of additional recipients the invitation message should be sent to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#additional_recipients Invitation#additional_recipients}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#additional_recipients Invitation#additional_recipients}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalRecipients", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azuread.Invitation
 
         /// <summary>Customized message body you want to send if you don't want to send the default message.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#body Invitation#body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#body Invitation#body}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "body", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace azuread.Invitation
 
         /// <summary>The language you want to send the default message in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#language Invitation#language}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#language Invitation#language}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

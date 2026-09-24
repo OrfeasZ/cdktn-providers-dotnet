@@ -9,7 +9,7 @@ namespace azuread.ConditionalAccessPolicy
     [JsiiByValue(fqn: "azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants")]
     public class ConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants : azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsUsersExcludedGuestsOrExternalUsersExternalTenants
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#membership_kind ConditionalAccessPolicy#membership_kind}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#membership_kind ConditionalAccessPolicy#membership_kind}.</summary>
         [JsiiProperty(name: "membershipKind", typeJson: "{\"primitive\":\"string\"}")]
         public string MembershipKind
         {
@@ -17,7 +17,7 @@ namespace azuread.ConditionalAccessPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#members ConditionalAccessPolicy#members}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#members ConditionalAccessPolicy#members}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "members", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Members

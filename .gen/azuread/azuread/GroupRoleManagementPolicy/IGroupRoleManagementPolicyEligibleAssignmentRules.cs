@@ -9,7 +9,7 @@ namespace azuread.GroupRoleManagementPolicy
     {
         /// <summary>Must the assignment have an expiry date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#expiration_required GroupRoleManagementPolicy#expiration_required}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#expiration_required GroupRoleManagementPolicy#expiration_required}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "expirationRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>The duration after which assignments expire.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#expire_after GroupRoleManagementPolicy#expire_after}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#expire_after GroupRoleManagementPolicy#expire_after}
         /// </remarks>
         [JsiiProperty(name: "expireAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace azuread.GroupRoleManagementPolicy
 
             /// <summary>Must the assignment have an expiry date.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#expiration_required GroupRoleManagementPolicy#expiration_required}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#expiration_required GroupRoleManagementPolicy#expiration_required}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -57,7 +57,7 @@ namespace azuread.GroupRoleManagementPolicy
 
             /// <summary>The duration after which assignments expire.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#expire_after GroupRoleManagementPolicy#expire_after}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#expire_after GroupRoleManagementPolicy#expire_after}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expireAfter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

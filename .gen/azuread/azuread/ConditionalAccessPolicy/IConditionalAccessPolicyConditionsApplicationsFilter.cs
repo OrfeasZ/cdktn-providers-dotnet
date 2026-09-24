@@ -7,14 +7,14 @@ namespace azuread.ConditionalAccessPolicy
     [JsiiInterface(nativeType: typeof(IConditionalAccessPolicyConditionsApplicationsFilter), fullyQualifiedName: "azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsApplicationsFilter")]
     public interface IConditionalAccessPolicyConditionsApplicationsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#mode ConditionalAccessPolicy#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#mode ConditionalAccessPolicy#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         string Mode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#rule ConditionalAccessPolicy#rule}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#rule ConditionalAccessPolicy#rule}.</summary>
         [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
         string Rule
         {
@@ -28,14 +28,14 @@ namespace azuread.ConditionalAccessPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#mode ConditionalAccessPolicy#mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#mode ConditionalAccessPolicy#mode}.</summary>
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
             public string Mode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#rule ConditionalAccessPolicy#rule}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#rule ConditionalAccessPolicy#rule}.</summary>
             [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
             public string Rule
             {

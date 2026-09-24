@@ -9,7 +9,7 @@ namespace azuread.CustomDirectoryRole
     {
         /// <summary>The display name of the custom directory role.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#display_name CustomDirectoryRole#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#display_name CustomDirectoryRole#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
@@ -19,7 +19,7 @@ namespace azuread.CustomDirectoryRole
 
         /// <summary>Indicates whether the role is enabled for assignment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#enabled CustomDirectoryRole#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#enabled CustomDirectoryRole#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -30,7 +30,7 @@ namespace azuread.CustomDirectoryRole
 
         /// <summary>permissions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#permissions CustomDirectoryRole#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#permissions CustomDirectoryRole#permissions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.CustomDirectoryRole.ICustomDirectoryRolePermissions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "permissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.customDirectoryRole.CustomDirectoryRolePermissions\"},\"kind\":\"array\"}}]}}")]
@@ -41,7 +41,7 @@ namespace azuread.CustomDirectoryRole
 
         /// <summary>The version of the role definition.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#version CustomDirectoryRole#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#version CustomDirectoryRole#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         string Version
@@ -51,7 +51,7 @@ namespace azuread.CustomDirectoryRole
 
         /// <summary>The description of the custom directory role.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#description CustomDirectoryRole#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#description CustomDirectoryRole#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace azuread.CustomDirectoryRole
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#id CustomDirectoryRole#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#id CustomDirectoryRole#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -80,7 +80,7 @@ namespace azuread.CustomDirectoryRole
 
         /// <summary>Custom template identifier that is typically used if one needs an identifier to be the same across different directories.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#template_id CustomDirectoryRole#template_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#template_id CustomDirectoryRole#template_id}
         /// </remarks>
         [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace azuread.CustomDirectoryRole
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#timeouts CustomDirectoryRole#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#timeouts CustomDirectoryRole#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.customDirectoryRole.CustomDirectoryRoleTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace azuread.CustomDirectoryRole
 
             /// <summary>The display name of the custom directory role.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#display_name CustomDirectoryRole#display_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#display_name CustomDirectoryRole#display_name}
             /// </remarks>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
@@ -125,7 +125,7 @@ namespace azuread.CustomDirectoryRole
 
             /// <summary>Indicates whether the role is enabled for assignment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#enabled CustomDirectoryRole#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#enabled CustomDirectoryRole#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -136,7 +136,7 @@ namespace azuread.CustomDirectoryRole
 
             /// <summary>permissions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#permissions CustomDirectoryRole#permissions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#permissions CustomDirectoryRole#permissions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.CustomDirectoryRole.ICustomDirectoryRolePermissions" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "permissions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.customDirectoryRole.CustomDirectoryRolePermissions\"},\"kind\":\"array\"}}]}}")]
@@ -147,7 +147,7 @@ namespace azuread.CustomDirectoryRole
 
             /// <summary>The version of the role definition.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#version CustomDirectoryRole#version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#version CustomDirectoryRole#version}
             /// </remarks>
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
             public string Version
@@ -157,7 +157,7 @@ namespace azuread.CustomDirectoryRole
 
             /// <summary>The description of the custom directory role.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#description CustomDirectoryRole#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#description CustomDirectoryRole#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace azuread.CustomDirectoryRole
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#id CustomDirectoryRole#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#id CustomDirectoryRole#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,7 +180,7 @@ namespace azuread.CustomDirectoryRole
 
             /// <summary>Custom template identifier that is typically used if one needs an identifier to be the same across different directories.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#template_id CustomDirectoryRole#template_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#template_id CustomDirectoryRole#template_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "templateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -191,7 +191,7 @@ namespace azuread.CustomDirectoryRole
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/custom_directory_role#timeouts CustomDirectoryRole#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/custom_directory_role#timeouts CustomDirectoryRole#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.customDirectoryRole.CustomDirectoryRoleTimeouts\"}", isOptional: true)]

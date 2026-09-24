@@ -11,7 +11,7 @@ namespace azuread.ApplicationFallbackPublicClient
     {
         /// <summary>The resource ID of the application to which the fallback public client setting should be applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_fallback_public_client#application_id ApplicationFallbackPublicClient#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_fallback_public_client#application_id ApplicationFallbackPublicClient#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -26,7 +26,7 @@ namespace azuread.ApplicationFallbackPublicClient
         /// <remarks>
         /// Appropriate for apps using token grant flows that don't use a redirect URI
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_fallback_public_client#enabled ApplicationFallbackPublicClient#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_fallback_public_client#enabled ApplicationFallbackPublicClient#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -57,7 +57,7 @@ namespace azuread.ApplicationFallbackPublicClient
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_fallback_public_client#id ApplicationFallbackPublicClient#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_fallback_public_client#id ApplicationFallbackPublicClient#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace azuread.ApplicationFallbackPublicClient
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_fallback_public_client#timeouts ApplicationFallbackPublicClient#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_fallback_public_client#timeouts ApplicationFallbackPublicClient#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationFallbackPublicClient.ApplicationFallbackPublicClientTimeouts\"}", isOptional: true)]

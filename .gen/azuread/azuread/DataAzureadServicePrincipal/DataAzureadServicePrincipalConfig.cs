@@ -9,7 +9,7 @@ namespace azuread.DataAzureadServicePrincipal
     {
         /// <summary>The client ID of the application associated with this service principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/service_principal#client_id DataAzureadServicePrincipal#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal#client_id DataAzureadServicePrincipal#client_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azuread.DataAzureadServicePrincipal
 
         /// <summary>The display name of the application associated with this service principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/service_principal#display_name DataAzureadServicePrincipal#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal#display_name DataAzureadServicePrincipal#display_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace azuread.DataAzureadServicePrincipal
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/service_principal#id DataAzureadServicePrincipal#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal#id DataAzureadServicePrincipal#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuread.DataAzureadServicePrincipal
 
         /// <summary>The object ID of the service principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/service_principal#object_id DataAzureadServicePrincipal#object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal#object_id DataAzureadServicePrincipal#object_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace azuread.DataAzureadServicePrincipal
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/service_principal#timeouts DataAzureadServicePrincipal#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal#timeouts DataAzureadServicePrincipal#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.dataAzureadServicePrincipal.DataAzureadServicePrincipalTimeouts\"}", isOptional: true)]

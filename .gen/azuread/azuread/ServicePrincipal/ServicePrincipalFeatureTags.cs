@@ -11,7 +11,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Whether this service principal represents a custom SAML application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#custom_single_sign_on ServicePrincipal#custom_single_sign_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#custom_single_sign_on ServicePrincipal#custom_single_sign_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Whether this service principal represents an Enterprise Application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#enterprise ServicePrincipal#enterprise}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#enterprise ServicePrincipal#enterprise}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Whether this service principal represents a gallery application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#gallery ServicePrincipal#gallery}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#gallery ServicePrincipal#gallery}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Whether this app is invisible to users in My Apps and Office 365 Launcher.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#hide ServicePrincipal#hide}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#hide ServicePrincipal#hide}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace azuread.GroupWithoutMembers
     [JsiiInterface(nativeType: typeof(IGroupWithoutMembersDynamicMembership), fullyQualifiedName: "azuread.groupWithoutMembers.GroupWithoutMembersDynamicMembership")]
     public interface IGroupWithoutMembersDynamicMembership
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#enabled GroupWithoutMembers#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#enabled GroupWithoutMembers#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Rule to determine members for a dynamic group. Required when `group_types` contains 'DynamicMembership'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#rule GroupWithoutMembers#rule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#rule GroupWithoutMembers#rule}
         /// </remarks>
         [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
         string Rule
@@ -34,7 +34,7 @@ namespace azuread.GroupWithoutMembers
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#enabled GroupWithoutMembers#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#enabled GroupWithoutMembers#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -46,7 +46,7 @@ namespace azuread.GroupWithoutMembers
 
             /// <summary>Rule to determine members for a dynamic group. Required when `group_types` contains 'DynamicMembership'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#rule GroupWithoutMembers#rule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#rule GroupWithoutMembers#rule}
             /// </remarks>
             [JsiiProperty(name: "rule", typeJson: "{\"primitive\":\"string\"}")]
             public string Rule

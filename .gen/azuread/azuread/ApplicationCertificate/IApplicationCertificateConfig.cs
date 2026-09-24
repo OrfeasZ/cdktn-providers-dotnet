@@ -9,7 +9,7 @@ namespace azuread.ApplicationCertificate
     {
         /// <summary>The resource ID of the application for which this certificate should be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#application_id ApplicationCertificate#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#application_id ApplicationCertificate#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         string ApplicationId
@@ -21,7 +21,7 @@ namespace azuread.ApplicationCertificate
         /// <remarks>
         /// See also the <c>encoding</c> argument
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#value ApplicationCertificate#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#value ApplicationCertificate#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -31,7 +31,7 @@ namespace azuread.ApplicationCertificate
 
         /// <summary>Specifies the encoding used for the supplied certificate data.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#encoding ApplicationCertificate#encoding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#encoding ApplicationCertificate#encoding}
         /// </remarks>
         [JsiiProperty(name: "encoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace azuread.ApplicationCertificate
 
         /// <summary>The end date until which the certificate is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`). If omitted, the API will decide a suitable expiry date, which is typically around 2 years from the start date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#end_date ApplicationCertificate#end_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#end_date ApplicationCertificate#end_date}
         /// </remarks>
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace azuread.ApplicationCertificate
 
         /// <summary>A relative duration for which the certificate is valid until, for example `240h` (10 days) or `2400h30m`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#end_date_relative ApplicationCertificate#end_date_relative}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#end_date_relative ApplicationCertificate#end_date_relative}
         /// </remarks>
         [JsiiProperty(name: "endDateRelative", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace azuread.ApplicationCertificate
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#id ApplicationCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#id ApplicationCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -88,7 +88,7 @@ namespace azuread.ApplicationCertificate
 
         /// <summary>A UUID used to uniquely identify this certificate. If omitted, a random UUID will be automatically generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#key_id ApplicationCertificate#key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#key_id ApplicationCertificate#key_id}
         /// </remarks>
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -102,7 +102,7 @@ namespace azuread.ApplicationCertificate
 
         /// <summary>The start date from which the certificate is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`). If this isn't specified, the current date and time are use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#start_date ApplicationCertificate#start_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#start_date ApplicationCertificate#start_date}
         /// </remarks>
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -116,7 +116,7 @@ namespace azuread.ApplicationCertificate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#timeouts ApplicationCertificate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#timeouts ApplicationCertificate#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationCertificate.ApplicationCertificateTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -130,7 +130,7 @@ namespace azuread.ApplicationCertificate
 
         /// <summary>The type of key/certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#type ApplicationCertificate#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#type ApplicationCertificate#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -151,7 +151,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>The resource ID of the application for which this certificate should be created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#application_id ApplicationCertificate#application_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#application_id ApplicationCertificate#application_id}
             /// </remarks>
             [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApplicationId
@@ -163,7 +163,7 @@ namespace azuread.ApplicationCertificate
             /// <remarks>
             /// See also the <c>encoding</c> argument
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#value ApplicationCertificate#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#value ApplicationCertificate#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
@@ -173,7 +173,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>Specifies the encoding used for the supplied certificate data.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#encoding ApplicationCertificate#encoding}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#encoding ApplicationCertificate#encoding}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "encoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -184,7 +184,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>The end date until which the certificate is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`). If omitted, the API will decide a suitable expiry date, which is typically around 2 years from the start date.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#end_date ApplicationCertificate#end_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#end_date ApplicationCertificate#end_date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -195,7 +195,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>A relative duration for which the certificate is valid until, for example `240h` (10 days) or `2400h30m`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#end_date_relative ApplicationCertificate#end_date_relative}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#end_date_relative ApplicationCertificate#end_date_relative}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endDateRelative", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -204,7 +204,7 @@ namespace azuread.ApplicationCertificate
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#id ApplicationCertificate#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#id ApplicationCertificate#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -218,7 +218,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>A UUID used to uniquely identify this certificate. If omitted, a random UUID will be automatically generated.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#key_id ApplicationCertificate#key_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#key_id ApplicationCertificate#key_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -229,7 +229,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>The start date from which the certificate is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`). If this isn't specified, the current date and time are use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#start_date ApplicationCertificate#start_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#start_date ApplicationCertificate#start_date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -240,7 +240,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#timeouts ApplicationCertificate#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#timeouts ApplicationCertificate#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationCertificate.ApplicationCertificateTimeouts\"}", isOptional: true)]
@@ -251,7 +251,7 @@ namespace azuread.ApplicationCertificate
 
             /// <summary>The type of key/certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_certificate#type ApplicationCertificate#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_certificate#type ApplicationCertificate#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

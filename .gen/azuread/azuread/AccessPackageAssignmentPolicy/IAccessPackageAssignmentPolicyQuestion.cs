@@ -9,7 +9,7 @@ namespace azuread.AccessPackageAssignmentPolicy
     {
         /// <summary>text block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#text AccessPackageAssignmentPolicy#text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#text AccessPackageAssignmentPolicy#text}
         /// </remarks>
         [JsiiProperty(name: "text", typeJson: "{\"fqn\":\"azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyQuestionText\"}")]
         azuread.AccessPackageAssignmentPolicy.IAccessPackageAssignmentPolicyQuestionText Text
@@ -19,7 +19,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>choice block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#choice AccessPackageAssignmentPolicy#choice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#choice AccessPackageAssignmentPolicy#choice}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.AccessPackageAssignmentPolicy.IAccessPackageAssignmentPolicyQuestionChoice" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "choice", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyQuestionChoice\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>Whether this question is required.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#required AccessPackageAssignmentPolicy#required}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#required AccessPackageAssignmentPolicy#required}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "required", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>The sequence number of this question.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#sequence AccessPackageAssignmentPolicy#sequence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#sequence AccessPackageAssignmentPolicy#sequence}
         /// </remarks>
         [JsiiProperty(name: "sequence", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
             /// <summary>text block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#text AccessPackageAssignmentPolicy#text}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#text AccessPackageAssignmentPolicy#text}
             /// </remarks>
             [JsiiProperty(name: "text", typeJson: "{\"fqn\":\"azuread.accessPackageAssignmentPolicy.AccessPackageAssignmentPolicyQuestionText\"}")]
             public azuread.AccessPackageAssignmentPolicy.IAccessPackageAssignmentPolicyQuestionText Text
@@ -80,7 +80,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
             /// <summary>choice block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#choice AccessPackageAssignmentPolicy#choice}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#choice AccessPackageAssignmentPolicy#choice}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.AccessPackageAssignmentPolicy.IAccessPackageAssignmentPolicyQuestionChoice" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -92,7 +92,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
             /// <summary>Whether this question is required.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#required AccessPackageAssignmentPolicy#required}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#required AccessPackageAssignmentPolicy#required}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -104,7 +104,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
             /// <summary>The sequence number of this question.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#sequence AccessPackageAssignmentPolicy#sequence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#sequence AccessPackageAssignmentPolicy#sequence}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sequence", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

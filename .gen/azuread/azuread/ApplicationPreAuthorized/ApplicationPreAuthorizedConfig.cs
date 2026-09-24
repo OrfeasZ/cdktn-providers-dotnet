@@ -11,7 +11,7 @@ namespace azuread.ApplicationPreAuthorized
     {
         /// <summary>The resource ID of the application to which this pre-authorized application should be added.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized#application_id ApplicationPreAuthorized#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_pre_authorized#application_id ApplicationPreAuthorized#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -22,7 +22,7 @@ namespace azuread.ApplicationPreAuthorized
 
         /// <summary>The client ID of the pre-authorized application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized#authorized_client_id ApplicationPreAuthorized#authorized_client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_pre_authorized#authorized_client_id ApplicationPreAuthorized#authorized_client_id}
         /// </remarks>
         [JsiiProperty(name: "authorizedClientId", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthorizedClientId
@@ -33,7 +33,7 @@ namespace azuread.ApplicationPreAuthorized
 
         /// <summary>The IDs of the permission scopes required by the pre-authorized application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized#permission_ids ApplicationPreAuthorized#permission_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_pre_authorized#permission_ids ApplicationPreAuthorized#permission_ids}
         /// </remarks>
         [JsiiProperty(name: "permissionIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] PermissionIds
@@ -42,7 +42,7 @@ namespace azuread.ApplicationPreAuthorized
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized#id ApplicationPreAuthorized#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_pre_authorized#id ApplicationPreAuthorized#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azuread.ApplicationPreAuthorized
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_pre_authorized#timeouts ApplicationPreAuthorized#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_pre_authorized#timeouts ApplicationPreAuthorized#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationPreAuthorized.ApplicationPreAuthorizedTimeouts\"}", isOptional: true)]

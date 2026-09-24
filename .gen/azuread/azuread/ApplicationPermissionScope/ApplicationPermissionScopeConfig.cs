@@ -11,7 +11,7 @@ namespace azuread.ApplicationPermissionScope
     {
         /// <summary>Delegated permission description that appears in all tenant-wide admin consent experiences, intended to be read by an administrator granting the permission on behalf of all users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#admin_consent_description ApplicationPermissionScope#admin_consent_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#admin_consent_description ApplicationPermissionScope#admin_consent_description}
         /// </remarks>
         [JsiiProperty(name: "adminConsentDescription", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminConsentDescription
@@ -22,7 +22,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>Display name for the delegated permission, intended to be read by an administrator granting the permission on behalf of all users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#admin_consent_display_name ApplicationPermissionScope#admin_consent_display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#admin_consent_display_name ApplicationPermissionScope#admin_consent_display_name}
         /// </remarks>
         [JsiiProperty(name: "adminConsentDisplayName", typeJson: "{\"primitive\":\"string\"}")]
         public string AdminConsentDisplayName
@@ -33,7 +33,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>The resource ID of the application to which this permission scope should be applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#application_id ApplicationPermissionScope#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#application_id ApplicationPermissionScope#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -44,7 +44,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>The unique identifier of the permission scope.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#scope_id ApplicationPermissionScope#scope_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#scope_id ApplicationPermissionScope#scope_id}
         /// </remarks>
         [JsiiProperty(name: "scopeId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScopeId
@@ -55,7 +55,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>The value that is used for the `scp` claim in OAuth access tokens.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#value ApplicationPermissionScope#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#value ApplicationPermissionScope#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -64,7 +64,7 @@ namespace azuread.ApplicationPermissionScope
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#id ApplicationPermissionScope#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#id ApplicationPermissionScope#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,7 +79,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#timeouts ApplicationPermissionScope#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#timeouts ApplicationPermissionScope#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationPermissionScope.ApplicationPermissionScopeTimeouts\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>Whether this delegated permission should be considered safe for non-admin users to consent to on behalf of themselves, or whether an administrator should be required for consent to the permissions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#type ApplicationPermissionScope#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#type ApplicationPermissionScope#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>Delegated permission description that appears in the end user consent experience, intended to be read by a user consenting on their own behalf.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#user_consent_description ApplicationPermissionScope#user_consent_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#user_consent_description ApplicationPermissionScope#user_consent_description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userConsentDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace azuread.ApplicationPermissionScope
 
         /// <summary>Display name for the delegated permission that appears in the end user consent experience.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_permission_scope#user_consent_display_name ApplicationPermissionScope#user_consent_display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_permission_scope#user_consent_display_name ApplicationPermissionScope#user_consent_display_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userConsentDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

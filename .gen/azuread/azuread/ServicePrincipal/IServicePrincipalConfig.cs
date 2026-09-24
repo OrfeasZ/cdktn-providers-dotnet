@@ -9,7 +9,7 @@ namespace azuread.ServicePrincipal
     {
         /// <summary>The client ID of the application for which to create a service principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#client_id ServicePrincipal#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#client_id ServicePrincipal#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         string ClientId
@@ -19,7 +19,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Whether or not the service principal account is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#account_enabled ServicePrincipal#account_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#account_enabled ServicePrincipal#account_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "accountEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>A list of alternative names, used to retrieve service principals by subscription, identify resource group and full resource ids for managed identities.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#alternative_names ServicePrincipal#alternative_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#alternative_names ServicePrincipal#alternative_names}
         /// </remarks>
         [JsiiProperty(name: "alternativeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Whether this service principal requires an app role assignment to a user or group before Azure AD will issue a user or access token to the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#app_role_assignment_required ServicePrincipal#app_role_assignment_required}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#app_role_assignment_required ServicePrincipal#app_role_assignment_required}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "appRoleAssignmentRequired", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Description of the service principal provided for internal end-users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#description ServicePrincipal#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#description ServicePrincipal#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#features ServicePrincipal#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#features ServicePrincipal#features}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ServicePrincipal.IServicePrincipalFeatures" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.servicePrincipal.ServicePrincipalFeatures\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>feature_tags block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#feature_tags ServicePrincipal#feature_tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#feature_tags ServicePrincipal#feature_tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ServicePrincipal.IServicePrincipalFeatureTags" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "featureTags", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.servicePrincipal.ServicePrincipalFeatureTags\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace azuread.ServicePrincipal
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#id ServicePrincipal#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#id ServicePrincipal#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -124,7 +124,7 @@ namespace azuread.ServicePrincipal
         /// <remarks>
         /// Azure AD uses the URL to launch the application from Microsoft 365 or the Azure AD My Apps. When blank, Azure AD performs IdP-initiated sign-on for applications configured with SAML-based single sign-on
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#login_url ServicePrincipal#login_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#login_url ServicePrincipal#login_url}
         /// </remarks>
         [JsiiProperty(name: "loginUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>Free text field to capture information about the service principal, typically used for operational purposes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#notes ServicePrincipal#notes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#notes ServicePrincipal#notes}
         /// </remarks>
         [JsiiProperty(name: "notes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -154,7 +154,7 @@ namespace azuread.ServicePrincipal
         /// <remarks>
         /// This is only for the certificates used to sign the SAML token issued for Azure AD Gallery applications
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#notification_email_addresses ServicePrincipal#notification_email_addresses}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#notification_email_addresses ServicePrincipal#notification_email_addresses}
         /// </remarks>
         [JsiiProperty(name: "notificationEmailAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +168,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>A list of object IDs of principals that will be granted ownership of the service principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#owners ServicePrincipal#owners}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#owners ServicePrincipal#owners}
         /// </remarks>
         [JsiiProperty(name: "owners", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,7 +184,7 @@ namespace azuread.ServicePrincipal
         /// <remarks>
         /// Azure AD uses the preferred single sign-on mode to launch the application from Microsoft 365 or the Azure AD My Apps
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#preferred_single_sign_on_mode ServicePrincipal#preferred_single_sign_on_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#preferred_single_sign_on_mode ServicePrincipal#preferred_single_sign_on_mode}
         /// </remarks>
         [JsiiProperty(name: "preferredSingleSignOnMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -198,7 +198,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>saml_single_sign_on block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#saml_single_sign_on ServicePrincipal#saml_single_sign_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#saml_single_sign_on ServicePrincipal#saml_single_sign_on}
         /// </remarks>
         [JsiiProperty(name: "samlSingleSignOn", typeJson: "{\"fqn\":\"azuread.servicePrincipal.ServicePrincipalSamlSingleSignOn\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -212,7 +212,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>A set of tags to apply to the service principal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#tags ServicePrincipal#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#tags ServicePrincipal#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -226,7 +226,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#timeouts ServicePrincipal#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#timeouts ServicePrincipal#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.servicePrincipal.ServicePrincipalTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -240,7 +240,7 @@ namespace azuread.ServicePrincipal
 
         /// <summary>When true, the resource will return an existing service principal instead of failing with an error.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#use_existing ServicePrincipal#use_existing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#use_existing ServicePrincipal#use_existing}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useExisting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -262,7 +262,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>The client ID of the application for which to create a service principal.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#client_id ServicePrincipal#client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#client_id ServicePrincipal#client_id}
             /// </remarks>
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientId
@@ -272,7 +272,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>Whether or not the service principal account is enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#account_enabled ServicePrincipal#account_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#account_enabled ServicePrincipal#account_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -284,7 +284,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>A list of alternative names, used to retrieve service principals by subscription, identify resource group and full resource ids for managed identities.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#alternative_names ServicePrincipal#alternative_names}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#alternative_names ServicePrincipal#alternative_names}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "alternativeNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -295,7 +295,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>Whether this service principal requires an app role assignment to a user or group before Azure AD will issue a user or access token to the application.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#app_role_assignment_required ServicePrincipal#app_role_assignment_required}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#app_role_assignment_required ServicePrincipal#app_role_assignment_required}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -307,7 +307,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>Description of the service principal provided for internal end-users.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#description ServicePrincipal#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#description ServicePrincipal#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -318,7 +318,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>features block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#features ServicePrincipal#features}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#features ServicePrincipal#features}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ServicePrincipal.IServicePrincipalFeatures" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -330,7 +330,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>feature_tags block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#feature_tags ServicePrincipal#feature_tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#feature_tags ServicePrincipal#feature_tags}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ServicePrincipal.IServicePrincipalFeatureTags" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -340,7 +340,7 @@ namespace azuread.ServicePrincipal
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#id ServicePrincipal#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#id ServicePrincipal#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -356,7 +356,7 @@ namespace azuread.ServicePrincipal
             /// <remarks>
             /// Azure AD uses the URL to launch the application from Microsoft 365 or the Azure AD My Apps. When blank, Azure AD performs IdP-initiated sign-on for applications configured with SAML-based single sign-on
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#login_url ServicePrincipal#login_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#login_url ServicePrincipal#login_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loginUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -367,7 +367,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>Free text field to capture information about the service principal, typically used for operational purposes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#notes ServicePrincipal#notes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#notes ServicePrincipal#notes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -380,7 +380,7 @@ namespace azuread.ServicePrincipal
             /// <remarks>
             /// This is only for the certificates used to sign the SAML token issued for Azure AD Gallery applications
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#notification_email_addresses ServicePrincipal#notification_email_addresses}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#notification_email_addresses ServicePrincipal#notification_email_addresses}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "notificationEmailAddresses", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -391,7 +391,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>A list of object IDs of principals that will be granted ownership of the service principal.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#owners ServicePrincipal#owners}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#owners ServicePrincipal#owners}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "owners", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -404,7 +404,7 @@ namespace azuread.ServicePrincipal
             /// <remarks>
             /// Azure AD uses the preferred single sign-on mode to launch the application from Microsoft 365 or the Azure AD My Apps
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#preferred_single_sign_on_mode ServicePrincipal#preferred_single_sign_on_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#preferred_single_sign_on_mode ServicePrincipal#preferred_single_sign_on_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preferredSingleSignOnMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -415,7 +415,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>saml_single_sign_on block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#saml_single_sign_on ServicePrincipal#saml_single_sign_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#saml_single_sign_on ServicePrincipal#saml_single_sign_on}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "samlSingleSignOn", typeJson: "{\"fqn\":\"azuread.servicePrincipal.ServicePrincipalSamlSingleSignOn\"}", isOptional: true)]
@@ -426,7 +426,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>A set of tags to apply to the service principal.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#tags ServicePrincipal#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#tags ServicePrincipal#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -437,7 +437,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#timeouts ServicePrincipal#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#timeouts ServicePrincipal#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.servicePrincipal.ServicePrincipalTimeouts\"}", isOptional: true)]
@@ -448,7 +448,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>When true, the resource will return an existing service principal instead of failing with an error.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#use_existing ServicePrincipal#use_existing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#use_existing ServicePrincipal#use_existing}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

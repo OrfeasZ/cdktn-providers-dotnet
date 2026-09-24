@@ -13,7 +13,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>Whether the default recipients are notified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#default_recipients GroupRoleManagementPolicy#default_recipients}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#default_recipients GroupRoleManagementPolicy#default_recipients}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "defaultRecipients", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -45,7 +45,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>What level of notifications are sent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#notification_level GroupRoleManagementPolicy#notification_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#notification_level GroupRoleManagementPolicy#notification_level}
         /// </remarks>
         [JsiiProperty(name: "notificationLevel", typeJson: "{\"primitive\":\"string\"}")]
         public string NotificationLevel
@@ -56,7 +56,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>The additional recipients to notify.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#additional_recipients GroupRoleManagementPolicy#additional_recipients}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#additional_recipients GroupRoleManagementPolicy#additional_recipients}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalRecipients", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

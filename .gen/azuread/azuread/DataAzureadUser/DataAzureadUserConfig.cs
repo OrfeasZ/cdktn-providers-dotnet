@@ -9,7 +9,7 @@ namespace azuread.DataAzureadUser
     {
         /// <summary>The employee identifier assigned to the user by the organisation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/user#employee_id DataAzureadUser#employee_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user#employee_id DataAzureadUser#employee_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "employeeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace azuread.DataAzureadUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/user#id DataAzureadUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user#id DataAzureadUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -34,7 +34,7 @@ namespace azuread.DataAzureadUser
 
         /// <summary>The SMTP address for the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/user#mail DataAzureadUser#mail}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user#mail DataAzureadUser#mail}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace azuread.DataAzureadUser
 
         /// <summary>The email alias of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/user#mail_nickname DataAzureadUser#mail_nickname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user#mail_nickname DataAzureadUser#mail_nickname}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mailNickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace azuread.DataAzureadUser
 
         /// <summary>The object ID of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/user#object_id DataAzureadUser#object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user#object_id DataAzureadUser#object_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace azuread.DataAzureadUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/user#timeouts DataAzureadUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user#timeouts DataAzureadUser#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.dataAzureadUser.DataAzureadUserTimeouts\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace azuread.DataAzureadUser
 
         /// <summary>The user principal name (UPN) of the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/user#user_principal_name DataAzureadUser#user_principal_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/user#user_principal_name DataAzureadUser#user_principal_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userPrincipalName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

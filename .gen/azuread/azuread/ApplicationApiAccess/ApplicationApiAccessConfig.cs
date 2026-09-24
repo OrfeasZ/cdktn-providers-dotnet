@@ -11,7 +11,7 @@ namespace azuread.ApplicationApiAccess
     {
         /// <summary>The client ID of the API to which access is being granted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_api_access#api_client_id ApplicationApiAccess#api_client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_api_access#api_client_id ApplicationApiAccess#api_client_id}
         /// </remarks>
         [JsiiProperty(name: "apiClientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiClientId
@@ -22,7 +22,7 @@ namespace azuread.ApplicationApiAccess
 
         /// <summary>The resource ID of the application to which this API access is granted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_api_access#application_id ApplicationApiAccess#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_api_access#application_id ApplicationApiAccess#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -31,7 +31,7 @@ namespace azuread.ApplicationApiAccess
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_api_access#id ApplicationApiAccess#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_api_access#id ApplicationApiAccess#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuread.ApplicationApiAccess
 
         /// <summary>A set of role IDs to be granted to the application, as published by the API.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_api_access#role_ids ApplicationApiAccess#role_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_api_access#role_ids ApplicationApiAccess#role_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "roleIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace azuread.ApplicationApiAccess
 
         /// <summary>A set of scope IDs to be granted to the application, as published by the API.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_api_access#scope_ids ApplicationApiAccess#scope_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_api_access#scope_ids ApplicationApiAccess#scope_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopeIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace azuread.ApplicationApiAccess
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_api_access#timeouts ApplicationApiAccess#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_api_access#timeouts ApplicationApiAccess#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationApiAccess.ApplicationApiAccessTimeouts\"}", isOptional: true)]

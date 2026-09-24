@@ -7,7 +7,7 @@ namespace azuread.DataAzureadClientConfig
     [JsiiInterface(nativeType: typeof(IDataAzureadClientConfigTimeouts), fullyQualifiedName: "azuread.dataAzureadClientConfig.DataAzureadClientConfigTimeouts")]
     public interface IDataAzureadClientConfigTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/client_config#read DataAzureadClientConfig#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/client_config#read DataAzureadClientConfig#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azuread.DataAzureadClientConfig
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/client_config#read DataAzureadClientConfig#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/client_config#read DataAzureadClientConfig#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

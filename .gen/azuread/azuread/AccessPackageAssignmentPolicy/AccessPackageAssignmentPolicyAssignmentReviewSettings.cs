@@ -13,7 +13,7 @@ namespace azuread.AccessPackageAssignmentPolicy
         /// <remarks>
         /// If enabled, system recommendations based on users' access information will be shown to the reviewers. The reviewer will be recommended to approve the review if the user has signed-in at least once during the last 30 days. The reviewer will be recommended to deny the review if the user has not signed-in during the last 30 days
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#access_recommendation_enabled AccessPackageAssignmentPolicy#access_recommendation_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#access_recommendation_enabled AccessPackageAssignmentPolicy#access_recommendation_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>What actions the system takes if reviewers don't respond in time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#access_review_timeout_behavior AccessPackageAssignmentPolicy#access_review_timeout_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#access_review_timeout_behavior AccessPackageAssignmentPolicy#access_review_timeout_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessReviewTimeoutBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>Whether a reviewer need provide a justification for their decision. Justification is visible to other reviewers and the requestor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#approver_justification_required AccessPackageAssignmentPolicy#approver_justification_required}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#approver_justification_required AccessPackageAssignmentPolicy#approver_justification_required}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -93,7 +93,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>How many days each occurrence of the access review series will run.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#duration_in_days AccessPackageAssignmentPolicy#duration_in_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#duration_in_days AccessPackageAssignmentPolicy#duration_in_days}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "durationInDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>Whether to enable assignment review.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#enabled AccessPackageAssignmentPolicy#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#enabled AccessPackageAssignmentPolicy#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -142,7 +142,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>reviewer block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#reviewer AccessPackageAssignmentPolicy#reviewer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#reviewer AccessPackageAssignmentPolicy#reviewer}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.AccessPackageAssignmentPolicy.IAccessPackageAssignmentPolicyAssignmentReviewSettingsReviewer" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -175,7 +175,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>This will determine how often the access review campaign runs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#review_frequency AccessPackageAssignmentPolicy#review_frequency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#review_frequency AccessPackageAssignmentPolicy#review_frequency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reviewFrequency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -187,7 +187,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>Self review or specific reviewers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#review_type AccessPackageAssignmentPolicy#review_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#review_type AccessPackageAssignmentPolicy#review_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reviewType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -199,7 +199,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>This is the date the access review campaign will start on, formatted as an RFC3339 date string in UTC(e.g. 2018-01-01T01:02:03Z), default is now. Once an access review has been created, you cannot update its start date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#starting_on AccessPackageAssignmentPolicy#starting_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#starting_on AccessPackageAssignmentPolicy#starting_on}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startingOn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

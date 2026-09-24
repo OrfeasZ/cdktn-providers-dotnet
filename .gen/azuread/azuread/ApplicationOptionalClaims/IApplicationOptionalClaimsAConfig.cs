@@ -9,7 +9,7 @@ namespace azuread.ApplicationOptionalClaims
     {
         /// <summary>The resource ID of the application to which these optional claims belong.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#application_id ApplicationOptionalClaimsA#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#application_id ApplicationOptionalClaimsA#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         string ApplicationId
@@ -19,7 +19,7 @@ namespace azuread.ApplicationOptionalClaims
 
         /// <summary>access_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#access_token ApplicationOptionalClaimsA#access_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#access_token ApplicationOptionalClaimsA#access_token}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ApplicationOptionalClaims.IApplicationOptionalClaimsAccessTokenA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "accessToken", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.applicationOptionalClaims.ApplicationOptionalClaimsAccessTokenA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace azuread.ApplicationOptionalClaims
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#id ApplicationOptionalClaimsA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#id ApplicationOptionalClaimsA#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ namespace azuread.ApplicationOptionalClaims
 
         /// <summary>id_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#id_token ApplicationOptionalClaimsA#id_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#id_token ApplicationOptionalClaimsA#id_token}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ApplicationOptionalClaims.IApplicationOptionalClaimsIdTokenA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "idToken", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.applicationOptionalClaims.ApplicationOptionalClaimsIdTokenA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -64,7 +64,7 @@ namespace azuread.ApplicationOptionalClaims
 
         /// <summary>saml2_token block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#saml2_token ApplicationOptionalClaimsA#saml2_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#saml2_token ApplicationOptionalClaimsA#saml2_token}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ApplicationOptionalClaims.IApplicationOptionalClaimsSaml2TokenA" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "saml2Token", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azuread.applicationOptionalClaims.ApplicationOptionalClaimsSaml2TokenA\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace azuread.ApplicationOptionalClaims
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#timeouts ApplicationOptionalClaimsA#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#timeouts ApplicationOptionalClaimsA#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationOptionalClaims.ApplicationOptionalClaimsTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace azuread.ApplicationOptionalClaims
 
             /// <summary>The resource ID of the application to which these optional claims belong.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#application_id ApplicationOptionalClaimsA#application_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#application_id ApplicationOptionalClaimsA#application_id}
             /// </remarks>
             [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApplicationId
@@ -110,7 +110,7 @@ namespace azuread.ApplicationOptionalClaims
 
             /// <summary>access_token block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#access_token ApplicationOptionalClaimsA#access_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#access_token ApplicationOptionalClaimsA#access_token}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ApplicationOptionalClaims.IApplicationOptionalClaimsAccessTokenA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -120,7 +120,7 @@ namespace azuread.ApplicationOptionalClaims
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#id ApplicationOptionalClaimsA#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#id ApplicationOptionalClaimsA#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -134,7 +134,7 @@ namespace azuread.ApplicationOptionalClaims
 
             /// <summary>id_token block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#id_token ApplicationOptionalClaimsA#id_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#id_token ApplicationOptionalClaimsA#id_token}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ApplicationOptionalClaims.IApplicationOptionalClaimsIdTokenA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -146,7 +146,7 @@ namespace azuread.ApplicationOptionalClaims
 
             /// <summary>saml2_token block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#saml2_token ApplicationOptionalClaimsA#saml2_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#saml2_token ApplicationOptionalClaimsA#saml2_token}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.ApplicationOptionalClaims.IApplicationOptionalClaimsSaml2TokenA" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -158,7 +158,7 @@ namespace azuread.ApplicationOptionalClaims
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_optional_claims#timeouts ApplicationOptionalClaimsA#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_optional_claims#timeouts ApplicationOptionalClaimsA#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationOptionalClaims.ApplicationOptionalClaimsTimeouts\"}", isOptional: true)]

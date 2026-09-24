@@ -11,7 +11,7 @@ namespace azuread.AppRoleAssignment
     {
         /// <summary>The ID of the app role to be assigned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/app_role_assignment#app_role_id AppRoleAssignment#app_role_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/app_role_assignment#app_role_id AppRoleAssignment#app_role_id}
         /// </remarks>
         [JsiiProperty(name: "appRoleId", typeJson: "{\"primitive\":\"string\"}")]
         public string AppRoleId
@@ -22,7 +22,7 @@ namespace azuread.AppRoleAssignment
 
         /// <summary>The object ID of the user, group or service principal to be assigned this app role.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/app_role_assignment#principal_object_id AppRoleAssignment#principal_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/app_role_assignment#principal_object_id AppRoleAssignment#principal_object_id}
         /// </remarks>
         [JsiiProperty(name: "principalObjectId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrincipalObjectId
@@ -33,7 +33,7 @@ namespace azuread.AppRoleAssignment
 
         /// <summary>The object ID of the service principal representing the resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/app_role_assignment#resource_object_id AppRoleAssignment#resource_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/app_role_assignment#resource_object_id AppRoleAssignment#resource_object_id}
         /// </remarks>
         [JsiiProperty(name: "resourceObjectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceObjectId
@@ -42,7 +42,7 @@ namespace azuread.AppRoleAssignment
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/app_role_assignment#id AppRoleAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/app_role_assignment#id AppRoleAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azuread.AppRoleAssignment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/app_role_assignment#timeouts AppRoleAssignment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/app_role_assignment#timeouts AppRoleAssignment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.appRoleAssignment.AppRoleAssignmentTimeouts\"}", isOptional: true)]

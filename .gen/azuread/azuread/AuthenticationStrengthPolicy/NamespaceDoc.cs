@@ -5,7 +5,7 @@ namespace azuread.AuthenticationStrengthPolicy
     /// <remarks>
     /// <h1><c>azuread_authentication_strength_policy</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/authentication_strength_policy"><c>azuread_authentication_strength_policy</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/authentication_strength_policy"><c>azuread_authentication_strength_policy</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

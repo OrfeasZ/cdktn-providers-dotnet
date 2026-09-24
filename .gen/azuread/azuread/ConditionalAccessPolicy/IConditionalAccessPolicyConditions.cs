@@ -9,7 +9,7 @@ namespace azuread.ConditionalAccessPolicy
     {
         /// <summary>applications block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#applications ConditionalAccessPolicy#applications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#applications ConditionalAccessPolicy#applications}
         /// </remarks>
         [JsiiProperty(name: "applications", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsApplications\"}")]
         azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsApplications Applications
@@ -17,7 +17,7 @@ namespace azuread.ConditionalAccessPolicy
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#client_app_types ConditionalAccessPolicy#client_app_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#client_app_types ConditionalAccessPolicy#client_app_types}.</summary>
         [JsiiProperty(name: "clientAppTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] ClientAppTypes
         {
@@ -26,7 +26,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>users block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#users ConditionalAccessPolicy#users}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#users ConditionalAccessPolicy#users}
         /// </remarks>
         [JsiiProperty(name: "users", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsers\"}")]
         azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsUsers Users
@@ -34,7 +34,7 @@ namespace azuread.ConditionalAccessPolicy
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#authentication_flow_transfer_methods ConditionalAccessPolicy#authentication_flow_transfer_methods}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#authentication_flow_transfer_methods ConditionalAccessPolicy#authentication_flow_transfer_methods}.</summary>
         [JsiiProperty(name: "authenticationFlowTransferMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AuthenticationFlowTransferMethods
@@ -47,7 +47,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>client_applications block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#client_applications ConditionalAccessPolicy#client_applications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#client_applications ConditionalAccessPolicy#client_applications}
         /// </remarks>
         [JsiiProperty(name: "clientApplications", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplications\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>devices block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#devices ConditionalAccessPolicy#devices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#devices ConditionalAccessPolicy#devices}
         /// </remarks>
         [JsiiProperty(name: "devices", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevices\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace azuread.ConditionalAccessPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#insider_risk_levels ConditionalAccessPolicy#insider_risk_levels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#insider_risk_levels ConditionalAccessPolicy#insider_risk_levels}.</summary>
         [JsiiProperty(name: "insiderRiskLevels", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? InsiderRiskLevels
@@ -86,7 +86,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>locations block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#locations ConditionalAccessPolicy#locations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#locations ConditionalAccessPolicy#locations}
         /// </remarks>
         [JsiiProperty(name: "locations", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsLocations\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace azuread.ConditionalAccessPolicy
 
         /// <summary>platforms block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#platforms ConditionalAccessPolicy#platforms}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#platforms ConditionalAccessPolicy#platforms}
         /// </remarks>
         [JsiiProperty(name: "platforms", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsPlatforms\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace azuread.ConditionalAccessPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#service_principal_risk_levels ConditionalAccessPolicy#service_principal_risk_levels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#service_principal_risk_levels ConditionalAccessPolicy#service_principal_risk_levels}.</summary>
         [JsiiProperty(name: "servicePrincipalRiskLevels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ServicePrincipalRiskLevels
@@ -123,7 +123,7 @@ namespace azuread.ConditionalAccessPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#sign_in_risk_levels ConditionalAccessPolicy#sign_in_risk_levels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#sign_in_risk_levels ConditionalAccessPolicy#sign_in_risk_levels}.</summary>
         [JsiiProperty(name: "signInRiskLevels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SignInRiskLevels
@@ -134,7 +134,7 @@ namespace azuread.ConditionalAccessPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#user_risk_levels ConditionalAccessPolicy#user_risk_levels}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#user_risk_levels ConditionalAccessPolicy#user_risk_levels}.</summary>
         [JsiiProperty(name: "userRiskLevels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? UserRiskLevels
@@ -154,7 +154,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>applications block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#applications ConditionalAccessPolicy#applications}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#applications ConditionalAccessPolicy#applications}
             /// </remarks>
             [JsiiProperty(name: "applications", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsApplications\"}")]
             public azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsApplications Applications
@@ -162,7 +162,7 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsApplications>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#client_app_types ConditionalAccessPolicy#client_app_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#client_app_types ConditionalAccessPolicy#client_app_types}.</summary>
             [JsiiProperty(name: "clientAppTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] ClientAppTypes
             {
@@ -171,7 +171,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>users block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#users ConditionalAccessPolicy#users}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#users ConditionalAccessPolicy#users}
             /// </remarks>
             [JsiiProperty(name: "users", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsUsers\"}")]
             public azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsUsers Users
@@ -179,7 +179,7 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsUsers>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#authentication_flow_transfer_methods ConditionalAccessPolicy#authentication_flow_transfer_methods}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#authentication_flow_transfer_methods ConditionalAccessPolicy#authentication_flow_transfer_methods}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "authenticationFlowTransferMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AuthenticationFlowTransferMethods
@@ -189,7 +189,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>client_applications block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#client_applications ConditionalAccessPolicy#client_applications}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#client_applications ConditionalAccessPolicy#client_applications}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientApplications", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsClientApplications\"}", isOptional: true)]
@@ -200,7 +200,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>devices block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#devices ConditionalAccessPolicy#devices}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#devices ConditionalAccessPolicy#devices}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "devices", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsDevices\"}", isOptional: true)]
@@ -209,7 +209,7 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsDevices?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#insider_risk_levels ConditionalAccessPolicy#insider_risk_levels}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#insider_risk_levels ConditionalAccessPolicy#insider_risk_levels}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "insiderRiskLevels", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? InsiderRiskLevels
@@ -219,7 +219,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>locations block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#locations ConditionalAccessPolicy#locations}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#locations ConditionalAccessPolicy#locations}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "locations", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsLocations\"}", isOptional: true)]
@@ -230,7 +230,7 @@ namespace azuread.ConditionalAccessPolicy
 
             /// <summary>platforms block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#platforms ConditionalAccessPolicy#platforms}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#platforms ConditionalAccessPolicy#platforms}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "platforms", typeJson: "{\"fqn\":\"azuread.conditionalAccessPolicy.ConditionalAccessPolicyConditionsPlatforms\"}", isOptional: true)]
@@ -239,7 +239,7 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<azuread.ConditionalAccessPolicy.IConditionalAccessPolicyConditionsPlatforms?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#service_principal_risk_levels ConditionalAccessPolicy#service_principal_risk_levels}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#service_principal_risk_levels ConditionalAccessPolicy#service_principal_risk_levels}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "servicePrincipalRiskLevels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ServicePrincipalRiskLevels
@@ -247,7 +247,7 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#sign_in_risk_levels ConditionalAccessPolicy#sign_in_risk_levels}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#sign_in_risk_levels ConditionalAccessPolicy#sign_in_risk_levels}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "signInRiskLevels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SignInRiskLevels
@@ -255,7 +255,7 @@ namespace azuread.ConditionalAccessPolicy
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/conditional_access_policy#user_risk_levels ConditionalAccessPolicy#user_risk_levels}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/conditional_access_policy#user_risk_levels ConditionalAccessPolicy#user_risk_levels}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "userRiskLevels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? UserRiskLevels

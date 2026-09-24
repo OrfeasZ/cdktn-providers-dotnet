@@ -11,7 +11,7 @@ namespace azuread.ApplicationRegistration
     {
         /// <summary>The display name for the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#display_name ApplicationRegistration#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#display_name ApplicationRegistration#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -22,7 +22,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>Description of the application as shown to end users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#description ApplicationRegistration#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#description ApplicationRegistration#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>Configures the `groups` claim that the app expects issued in a user or OAuth access token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#group_membership_claims ApplicationRegistration#group_membership_claims}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#group_membership_claims ApplicationRegistration#group_membership_claims}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "groupMembershipClaims", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>URL of the home page for the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#homepage_url ApplicationRegistration#homepage_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#homepage_url ApplicationRegistration#homepage_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "homepageUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace azuread.ApplicationRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#id ApplicationRegistration#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#id ApplicationRegistration#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>Whether this application can request an access token using OAuth implicit flow.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#implicit_access_token_issuance_enabled ApplicationRegistration#implicit_access_token_issuance_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#implicit_access_token_issuance_enabled ApplicationRegistration#implicit_access_token_issuance_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -108,7 +108,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>Whether this application can request an ID token using OAuth implicit flow.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#implicit_id_token_issuance_enabled ApplicationRegistration#implicit_id_token_issuance_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#implicit_id_token_issuance_enabled ApplicationRegistration#implicit_id_token_issuance_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -141,7 +141,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>URL of the logout page for the application, where the session is cleared for single sign-out.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#logout_url ApplicationRegistration#logout_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#logout_url ApplicationRegistration#logout_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logoutUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -153,7 +153,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>URL of the marketing page for the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#marketing_url ApplicationRegistration#marketing_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#marketing_url ApplicationRegistration#marketing_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "marketingUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -165,7 +165,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>User-specified notes relevant for the management of the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#notes ApplicationRegistration#notes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#notes ApplicationRegistration#notes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -177,7 +177,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>URL of the privacy statement for the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#privacy_statement_url ApplicationRegistration#privacy_statement_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#privacy_statement_url ApplicationRegistration#privacy_statement_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privacyStatementUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>The access token version expected by this resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#requested_access_token_version ApplicationRegistration#requested_access_token_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#requested_access_token_version ApplicationRegistration#requested_access_token_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestedAccessTokenVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -201,7 +201,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>References application or contact information from a service or asset management database.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#service_management_reference ApplicationRegistration#service_management_reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#service_management_reference ApplicationRegistration#service_management_reference}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "serviceManagementReference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -213,7 +213,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>The Microsoft account types that are supported for the current application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#sign_in_audience ApplicationRegistration#sign_in_audience}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#sign_in_audience ApplicationRegistration#sign_in_audience}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "signInAudience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>URL of the support page for the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#support_url ApplicationRegistration#support_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#support_url ApplicationRegistration#support_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "supportUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -237,7 +237,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>URL of the terms of service statement for the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#terms_of_service_url ApplicationRegistration#terms_of_service_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#terms_of_service_url ApplicationRegistration#terms_of_service_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "termsOfServiceUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace azuread.ApplicationRegistration
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_registration#timeouts ApplicationRegistration#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_registration#timeouts ApplicationRegistration#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationRegistration.ApplicationRegistrationTimeouts\"}", isOptional: true)]

@@ -5,7 +5,7 @@ namespace azuread.DirectoryRoleEligibilityScheduleRequest
     /// <remarks>
     /// <h1><c>azuread_directory_role_eligibility_schedule_request</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/directory_role_eligibility_schedule_request"><c>azuread_directory_role_eligibility_schedule_request</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/directory_role_eligibility_schedule_request"><c>azuread_directory_role_eligibility_schedule_request</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

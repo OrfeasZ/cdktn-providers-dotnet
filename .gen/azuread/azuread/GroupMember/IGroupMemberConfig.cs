@@ -9,7 +9,7 @@ namespace azuread.GroupMember
     {
         /// <summary>The object ID of the group you want to add the member to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#group_object_id GroupMember#group_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#group_object_id GroupMember#group_object_id}
         /// </remarks>
         [JsiiProperty(name: "groupObjectId", typeJson: "{\"primitive\":\"string\"}")]
         string GroupObjectId
@@ -21,7 +21,7 @@ namespace azuread.GroupMember
         /// <remarks>
         /// Supported object types are Users, Groups or Service Principals
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#member_object_id GroupMember#member_object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#member_object_id GroupMember#member_object_id}
         /// </remarks>
         [JsiiProperty(name: "memberObjectId", typeJson: "{\"primitive\":\"string\"}")]
         string MemberObjectId
@@ -29,7 +29,7 @@ namespace azuread.GroupMember
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#id GroupMember#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#id GroupMember#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuread.GroupMember
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#timeouts GroupMember#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#timeouts GroupMember#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.groupMember.GroupMemberTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace azuread.GroupMember
 
             /// <summary>The object ID of the group you want to add the member to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#group_object_id GroupMember#group_object_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#group_object_id GroupMember#group_object_id}
             /// </remarks>
             [JsiiProperty(name: "groupObjectId", typeJson: "{\"primitive\":\"string\"}")]
             public string GroupObjectId
@@ -79,7 +79,7 @@ namespace azuread.GroupMember
             /// <remarks>
             /// Supported object types are Users, Groups or Service Principals
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#member_object_id GroupMember#member_object_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#member_object_id GroupMember#member_object_id}
             /// </remarks>
             [JsiiProperty(name: "memberObjectId", typeJson: "{\"primitive\":\"string\"}")]
             public string MemberObjectId
@@ -87,7 +87,7 @@ namespace azuread.GroupMember
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#id GroupMember#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#id GroupMember#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,7 +101,7 @@ namespace azuread.GroupMember
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_member#timeouts GroupMember#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_member#timeouts GroupMember#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.groupMember.GroupMemberTimeouts\"}", isOptional: true)]

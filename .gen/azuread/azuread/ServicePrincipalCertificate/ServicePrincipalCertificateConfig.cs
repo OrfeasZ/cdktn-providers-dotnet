@@ -11,7 +11,7 @@ namespace azuread.ServicePrincipalCertificate
     {
         /// <summary>The object ID of the service principal for which this certificate should be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#service_principal_id ServicePrincipalCertificate#service_principal_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#service_principal_id ServicePrincipalCertificate#service_principal_id}
         /// </remarks>
         [JsiiProperty(name: "servicePrincipalId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServicePrincipalId
@@ -22,7 +22,7 @@ namespace azuread.ServicePrincipalCertificate
 
         /// <summary>The certificate data, which can be PEM encoded, base64 encoded DER or hexadecimal encoded DER.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#value ServicePrincipalCertificate#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#value ServicePrincipalCertificate#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
@@ -33,7 +33,7 @@ namespace azuread.ServicePrincipalCertificate
 
         /// <summary>Specifies the encoding used for the supplied certificate data.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#encoding ServicePrincipalCertificate#encoding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#encoding ServicePrincipalCertificate#encoding}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "encoding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azuread.ServicePrincipalCertificate
 
         /// <summary>The end date until which the certificate is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#end_date ServicePrincipalCertificate#end_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#end_date ServicePrincipalCertificate#end_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace azuread.ServicePrincipalCertificate
         /// <remarks>
         /// Valid time units are "ns", "us" (or "µs"), "ms", "s", "m", "h"
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#end_date_relative ServicePrincipalCertificate#end_date_relative}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#end_date_relative ServicePrincipalCertificate#end_date_relative}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endDateRelative", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace azuread.ServicePrincipalCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#id ServicePrincipalCertificate#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#id ServicePrincipalCertificate#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -84,7 +84,7 @@ namespace azuread.ServicePrincipalCertificate
 
         /// <summary>A UUID used to uniquely identify this certificate. If not specified a UUID will be automatically generated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#key_id ServicePrincipalCertificate#key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#key_id ServicePrincipalCertificate#key_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace azuread.ServicePrincipalCertificate
 
         /// <summary>The start date from which the certificate is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`). If this isn't specified, the current date is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#start_date ServicePrincipalCertificate#start_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#start_date ServicePrincipalCertificate#start_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace azuread.ServicePrincipalCertificate
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#timeouts ServicePrincipalCertificate#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#timeouts ServicePrincipalCertificate#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.servicePrincipalCertificate.ServicePrincipalCertificateTimeouts\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace azuread.ServicePrincipalCertificate
 
         /// <summary>The type of key/certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_certificate#type ServicePrincipalCertificate#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_certificate#type ServicePrincipalCertificate#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

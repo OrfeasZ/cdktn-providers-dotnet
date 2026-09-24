@@ -9,7 +9,7 @@ namespace azuread.ServicePrincipal
     {
         /// <summary>The relative URI the service provider would redirect to after completion of the single sign-on flow.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#relay_state ServicePrincipal#relay_state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#relay_state ServicePrincipal#relay_state}
         /// </remarks>
         [JsiiProperty(name: "relayState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace azuread.ServicePrincipal
 
             /// <summary>The relative URI the service provider would redirect to after completion of the single sign-on flow.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal#relay_state ServicePrincipal#relay_state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal#relay_state ServicePrincipal#relay_state}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "relayState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

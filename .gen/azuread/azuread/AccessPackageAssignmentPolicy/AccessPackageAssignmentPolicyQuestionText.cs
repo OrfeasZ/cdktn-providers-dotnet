@@ -11,7 +11,7 @@ namespace azuread.AccessPackageAssignmentPolicy
     {
         /// <summary>The default text of this question.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#default_text AccessPackageAssignmentPolicy#default_text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#default_text AccessPackageAssignmentPolicy#default_text}
         /// </remarks>
         [JsiiProperty(name: "defaultText", typeJson: "{\"primitive\":\"string\"}")]
         public string DefaultText
@@ -24,7 +24,7 @@ namespace azuread.AccessPackageAssignmentPolicy
 
         /// <summary>localized_text block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/access_package_assignment_policy#localized_text AccessPackageAssignmentPolicy#localized_text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/access_package_assignment_policy#localized_text AccessPackageAssignmentPolicy#localized_text}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.AccessPackageAssignmentPolicy.IAccessPackageAssignmentPolicyQuestionTextLocalizedText" />)[]</para>
         /// </remarks>
         [JsiiOptional]

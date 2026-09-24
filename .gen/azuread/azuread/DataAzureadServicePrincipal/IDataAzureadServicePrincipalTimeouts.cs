@@ -7,7 +7,7 @@ namespace azuread.DataAzureadServicePrincipal
     [JsiiInterface(nativeType: typeof(IDataAzureadServicePrincipalTimeouts), fullyQualifiedName: "azuread.dataAzureadServicePrincipal.DataAzureadServicePrincipalTimeouts")]
     public interface IDataAzureadServicePrincipalTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/service_principal#read DataAzureadServicePrincipal#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal#read DataAzureadServicePrincipal#read}.</summary>
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Read
@@ -25,7 +25,7 @@ namespace azuread.DataAzureadServicePrincipal
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/service_principal#read DataAzureadServicePrincipal#read}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/service_principal#read DataAzureadServicePrincipal#read}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Read

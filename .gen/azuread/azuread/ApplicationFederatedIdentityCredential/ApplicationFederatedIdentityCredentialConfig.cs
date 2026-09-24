@@ -11,7 +11,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
     {
         /// <summary>The resource ID of the application for which this federated identity credential should be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#application_id ApplicationFederatedIdentityCredential#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#application_id ApplicationFederatedIdentityCredential#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -24,7 +24,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
         /// <remarks>
         /// This specifies what should be accepted in the <c>aud</c> claim of incoming tokens.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#audiences ApplicationFederatedIdentityCredential#audiences}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#audiences ApplicationFederatedIdentityCredential#audiences}
         /// </remarks>
         [JsiiProperty(name: "audiences", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Audiences
@@ -35,7 +35,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
 
         /// <summary>A unique display name for the federated identity credential.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#display_name ApplicationFederatedIdentityCredential#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#display_name ApplicationFederatedIdentityCredential#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -48,7 +48,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
         /// <remarks>
         /// The combination of the values of issuer and subject must be unique on the app.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#issuer ApplicationFederatedIdentityCredential#issuer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#issuer ApplicationFederatedIdentityCredential#issuer}
         /// </remarks>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         public string Issuer
@@ -61,7 +61,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
         /// <remarks>
         /// The combination of issuer and subject must be unique on the app.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#subject ApplicationFederatedIdentityCredential#subject}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#subject ApplicationFederatedIdentityCredential#subject}
         /// </remarks>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         public string Subject
@@ -72,7 +72,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
 
         /// <summary>A description for the federated identity credential.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#description ApplicationFederatedIdentityCredential#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#description ApplicationFederatedIdentityCredential#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#id ApplicationFederatedIdentityCredential#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#id ApplicationFederatedIdentityCredential#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -97,7 +97,7 @@ namespace azuread.ApplicationFederatedIdentityCredential
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_federated_identity_credential#timeouts ApplicationFederatedIdentityCredential#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_federated_identity_credential#timeouts ApplicationFederatedIdentityCredential#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationFederatedIdentityCredential.ApplicationFederatedIdentityCredentialTimeouts\"}", isOptional: true)]

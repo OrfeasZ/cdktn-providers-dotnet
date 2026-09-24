@@ -11,7 +11,7 @@ namespace azuread.ServicePrincipalPassword
     {
         /// <summary>The ID of the service principal for which this password should be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#service_principal_id ServicePrincipalPassword#service_principal_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#service_principal_id ServicePrincipalPassword#service_principal_id}
         /// </remarks>
         [JsiiProperty(name: "servicePrincipalId", typeJson: "{\"primitive\":\"string\"}")]
         public string ServicePrincipalId
@@ -22,7 +22,7 @@ namespace azuread.ServicePrincipalPassword
 
         /// <summary>A display name for the password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#display_name ServicePrincipalPassword#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#display_name ServicePrincipalPassword#display_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azuread.ServicePrincipalPassword
 
         /// <summary>The end date until which the password is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#end_date ServicePrincipalPassword#end_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#end_date ServicePrincipalPassword#end_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace azuread.ServicePrincipalPassword
         /// <remarks>
         /// Changing this field forces a new resource to be created
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#end_date_relative ServicePrincipalPassword#end_date_relative}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#end_date_relative ServicePrincipalPassword#end_date_relative}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endDateRelative", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace azuread.ServicePrincipalPassword
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#id ServicePrincipalPassword#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#id ServicePrincipalPassword#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace azuread.ServicePrincipalPassword
 
         /// <summary>Arbitrary map of values that, when changed, will trigger rotation of the password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#rotate_when_changed ServicePrincipalPassword#rotate_when_changed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#rotate_when_changed ServicePrincipalPassword#rotate_when_changed}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rotateWhenChanged", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace azuread.ServicePrincipalPassword
 
         /// <summary>The start date from which the password is valid, formatted as an RFC3339 date string (e.g. `2018-01-01T01:02:03Z`). If this isn't specified, the current date is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#start_date ServicePrincipalPassword#start_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#start_date ServicePrincipalPassword#start_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace azuread.ServicePrincipalPassword
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/service_principal_password#timeouts ServicePrincipalPassword#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/service_principal_password#timeouts ServicePrincipalPassword#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.servicePrincipalPassword.ServicePrincipalPasswordTimeouts\"}", isOptional: true)]

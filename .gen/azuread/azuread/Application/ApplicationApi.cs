@@ -9,7 +9,7 @@ namespace azuread.Application
     {
         /// <summary>Used for bundling consent if you have a solution that contains two parts: a client app and a custom web API app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application#known_client_applications Application#known_client_applications}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application#known_client_applications Application#known_client_applications}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "knownClientApplications", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace azuread.Application
 
         /// <summary>Allows an application to use claims mapping without specifying a custom signing key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application#mapped_claims_enabled Application#mapped_claims_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application#mapped_claims_enabled Application#mapped_claims_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -58,7 +58,7 @@ namespace azuread.Application
 
         /// <summary>oauth2_permission_scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application#oauth2_permission_scope Application#oauth2_permission_scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application#oauth2_permission_scope Application#oauth2_permission_scope}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azuread.Application.IApplicationApiOauth2PermissionScope" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -91,7 +91,7 @@ namespace azuread.Application
 
         /// <summary>The access token version expected by this resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application#requested_access_token_version Application#requested_access_token_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application#requested_access_token_version Application#requested_access_token_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestedAccessTokenVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

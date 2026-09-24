@@ -11,7 +11,7 @@ namespace azuread.Invitation
     {
         /// <summary>The URL that the user should be redirected to once the invitation is redeemed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#redirect_url Invitation#redirect_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#redirect_url Invitation#redirect_url}
         /// </remarks>
         [JsiiProperty(name: "redirectUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string RedirectUrl
@@ -22,7 +22,7 @@ namespace azuread.Invitation
 
         /// <summary>The email address of the user being invited.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#user_email_address Invitation#user_email_address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#user_email_address Invitation#user_email_address}
         /// </remarks>
         [JsiiProperty(name: "userEmailAddress", typeJson: "{\"primitive\":\"string\"}")]
         public string UserEmailAddress
@@ -31,7 +31,7 @@ namespace azuread.Invitation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#id Invitation#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#id Invitation#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuread.Invitation
 
         /// <summary>message block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#message Invitation#message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#message Invitation#message}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "message", typeJson: "{\"fqn\":\"azuread.invitation.InvitationMessage\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace azuread.Invitation
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#timeouts Invitation#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#timeouts Invitation#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.invitation.InvitationTimeouts\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace azuread.Invitation
 
         /// <summary>The display name of the user being invited.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#user_display_name Invitation#user_display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#user_display_name Invitation#user_display_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userDisplayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace azuread.Invitation
 
         /// <summary>The user type of the user being invited.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/invitation#user_type Invitation#user_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/invitation#user_type Invitation#user_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

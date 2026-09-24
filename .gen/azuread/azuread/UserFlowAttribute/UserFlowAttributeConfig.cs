@@ -11,7 +11,7 @@ namespace azuread.UserFlowAttribute
     {
         /// <summary>The data type of the user flow attribute.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user_flow_attribute#data_type UserFlowAttribute#data_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user_flow_attribute#data_type UserFlowAttribute#data_type}
         /// </remarks>
         [JsiiProperty(name: "dataType", typeJson: "{\"primitive\":\"string\"}")]
         public string DataType
@@ -22,7 +22,7 @@ namespace azuread.UserFlowAttribute
 
         /// <summary>The description of the user flow attribute that is shown to the user at the time of sign-up.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user_flow_attribute#description UserFlowAttribute#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user_flow_attribute#description UserFlowAttribute#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
@@ -33,7 +33,7 @@ namespace azuread.UserFlowAttribute
 
         /// <summary>The display name of the user flow attribute.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user_flow_attribute#display_name UserFlowAttribute#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user_flow_attribute#display_name UserFlowAttribute#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -42,7 +42,7 @@ namespace azuread.UserFlowAttribute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user_flow_attribute#id UserFlowAttribute#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user_flow_attribute#id UserFlowAttribute#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azuread.UserFlowAttribute
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/user_flow_attribute#timeouts UserFlowAttribute#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/user_flow_attribute#timeouts UserFlowAttribute#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.userFlowAttribute.UserFlowAttributeTimeouts\"}", isOptional: true)]

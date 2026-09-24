@@ -7,7 +7,7 @@ namespace azuread.ApplicationFallbackPublicClient
     [JsiiByValue(fqn: "azuread.applicationFallbackPublicClient.ApplicationFallbackPublicClientTimeouts")]
     public class ApplicationFallbackPublicClientTimeouts : azuread.ApplicationFallbackPublicClient.IApplicationFallbackPublicClientTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_fallback_public_client#create ApplicationFallbackPublicClient#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_fallback_public_client#create ApplicationFallbackPublicClient#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace azuread.ApplicationFallbackPublicClient
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_fallback_public_client#delete ApplicationFallbackPublicClient#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_fallback_public_client#delete ApplicationFallbackPublicClient#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace azuread.ApplicationFallbackPublicClient
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_fallback_public_client#read ApplicationFallbackPublicClient#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_fallback_public_client#read ApplicationFallbackPublicClient#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

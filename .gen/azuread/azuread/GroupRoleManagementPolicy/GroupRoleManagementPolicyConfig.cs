@@ -11,7 +11,7 @@ namespace azuread.GroupRoleManagementPolicy
     {
         /// <summary>ID of the group to which this policy is assigned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#group_id GroupRoleManagementPolicy#group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#group_id GroupRoleManagementPolicy#group_id}
         /// </remarks>
         [JsiiProperty(name: "groupId", typeJson: "{\"primitive\":\"string\"}")]
         public string GroupId
@@ -22,7 +22,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>The ID of the role of this policy to the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#role_id GroupRoleManagementPolicy#role_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#role_id GroupRoleManagementPolicy#role_id}
         /// </remarks>
         [JsiiProperty(name: "roleId", typeJson: "{\"primitive\":\"string\"}")]
         public string RoleId
@@ -33,7 +33,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>activation_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#activation_rules GroupRoleManagementPolicy#activation_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#activation_rules GroupRoleManagementPolicy#activation_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activationRules", typeJson: "{\"fqn\":\"azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActivationRules\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>active_assignment_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#active_assignment_rules GroupRoleManagementPolicy#active_assignment_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#active_assignment_rules GroupRoleManagementPolicy#active_assignment_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "activeAssignmentRules", typeJson: "{\"fqn\":\"azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyActiveAssignmentRules\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>eligible_assignment_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#eligible_assignment_rules GroupRoleManagementPolicy#eligible_assignment_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#eligible_assignment_rules GroupRoleManagementPolicy#eligible_assignment_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eligibleAssignmentRules", typeJson: "{\"fqn\":\"azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyEligibleAssignmentRules\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace azuread.GroupRoleManagementPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#id GroupRoleManagementPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#id GroupRoleManagementPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -82,7 +82,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>notification_rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#notification_rules GroupRoleManagementPolicy#notification_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#notification_rules GroupRoleManagementPolicy#notification_rules}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationRules", typeJson: "{\"fqn\":\"azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyNotificationRules\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#timeouts GroupRoleManagementPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#timeouts GroupRoleManagementPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.groupRoleManagementPolicy.GroupRoleManagementPolicyTimeouts\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace azuread.Provider
     {
         /// <summary>The Azure DevOps Pipeline Service Connection ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#ado_pipeline_service_connection_id AzureadProvider#ado_pipeline_service_connection_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#ado_pipeline_service_connection_id AzureadProvider#ado_pipeline_service_connection_id}
         /// </remarks>
         [JsiiProperty(name: "adoPipelineServiceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace azuread.Provider
 
         /// <summary>Alias name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#alias AzureadProvider#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#alias AzureadProvider#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace azuread.Provider
 
         /// <summary>Base64 encoded PKCS#12 certificate bundle to use when authenticating as a Service Principal using a Client Certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_certificate AzureadProvider#client_certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_certificate AzureadProvider#client_certificate}
         /// </remarks>
         [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace azuread.Provider
 
         /// <summary>The password to decrypt the Client Certificate. For use when authenticating as a Service Principal using a Client Certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_certificate_password AzureadProvider#client_certificate_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_certificate_password AzureadProvider#client_certificate_password}
         /// </remarks>
         [JsiiProperty(name: "clientCertificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace azuread.Provider
 
         /// <summary>The path to the Client Certificate associated with the Service Principal for use when authenticating as a Service Principal using a Client Certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_certificate_path AzureadProvider#client_certificate_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_certificate_path AzureadProvider#client_certificate_path}
         /// </remarks>
         [JsiiProperty(name: "clientCertificatePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace azuread.Provider
 
         /// <summary>The Client ID which should be used for service principal authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_id AzureadProvider#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_id AzureadProvider#client_id}
         /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace azuread.Provider
 
         /// <summary>The path to a file containing the Client ID which should be used for service principal authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_id_file_path AzureadProvider#client_id_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_id_file_path AzureadProvider#client_id_file_path}
         /// </remarks>
         [JsiiProperty(name: "clientIdFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace azuread.Provider
 
         /// <summary>The application password to use when authenticating as a Service Principal using a Client Secret.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_secret AzureadProvider#client_secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_secret AzureadProvider#client_secret}
         /// </remarks>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace azuread.Provider
 
         /// <summary>The path to a file containing the application password to use when authenticating as a Service Principal using a Client Secret.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_secret_file_path AzureadProvider#client_secret_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_secret_file_path AzureadProvider#client_secret_file_path}
         /// </remarks>
         [JsiiProperty(name: "clientSecretFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace azuread.Provider
 
         /// <summary>Disable the Terraform Partner ID, which is used if a custom `partner_id` isn't specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#disable_terraform_partner_id AzureadProvider#disable_terraform_partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#disable_terraform_partner_id AzureadProvider#disable_terraform_partner_id}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "disableTerraformPartnerId", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -152,7 +152,7 @@ namespace azuread.Provider
         /// <remarks>
         /// Possible values are: <c>global</c> (also <c>public</c>), <c>usgovernmentl4</c> (also <c>usgovernment</c>), <c>usgovernmentl5</c> (also <c>dod</c>), and <c>china</c>. Defaults to <c>global</c>. Not used and should not be specified when <c>metadata_host</c> is specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#environment AzureadProvider#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#environment AzureadProvider#environment}
         /// </remarks>
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -166,7 +166,7 @@ namespace azuread.Provider
 
         /// <summary>The Hostname which should be used for the Azure Metadata Service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#metadata_host AzureadProvider#metadata_host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#metadata_host AzureadProvider#metadata_host}
         /// </remarks>
         [JsiiProperty(name: "metadataHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -180,7 +180,7 @@ namespace azuread.Provider
 
         /// <summary>The path to a custom endpoint for Managed Identity - in most circumstances this should be detected automatically.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#msi_endpoint AzureadProvider#msi_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#msi_endpoint AzureadProvider#msi_endpoint}
         /// </remarks>
         [JsiiProperty(name: "msiEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -196,7 +196,7 @@ namespace azuread.Provider
         /// <remarks>
         /// For use when authenticating as a Service Principal using OpenID Connect.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_request_token AzureadProvider#oidc_request_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_request_token AzureadProvider#oidc_request_token}
         /// </remarks>
         [JsiiProperty(name: "oidcRequestToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -212,7 +212,7 @@ namespace azuread.Provider
         /// <remarks>
         /// For use when authenticating as a Service Principal using OpenID Connect.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_request_url AzureadProvider#oidc_request_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_request_url AzureadProvider#oidc_request_url}
         /// </remarks>
         [JsiiProperty(name: "oidcRequestUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -226,7 +226,7 @@ namespace azuread.Provider
 
         /// <summary>The ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_token AzureadProvider#oidc_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_token AzureadProvider#oidc_token}
         /// </remarks>
         [JsiiProperty(name: "oidcToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -240,7 +240,7 @@ namespace azuread.Provider
 
         /// <summary>The path to a file containing an ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_token_file_path AzureadProvider#oidc_token_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_token_file_path AzureadProvider#oidc_token_file_path}
         /// </remarks>
         [JsiiProperty(name: "oidcTokenFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -254,7 +254,7 @@ namespace azuread.Provider
 
         /// <summary>A GUID/UUID that is registered with Microsoft to facilitate partner resource usage attribution.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#partner_id AzureadProvider#partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#partner_id AzureadProvider#partner_id}
         /// </remarks>
         [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -268,7 +268,7 @@ namespace azuread.Provider
 
         /// <summary>The Tenant ID which should be used. Works with all authentication methods except Managed Identity.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#tenant_id AzureadProvider#tenant_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#tenant_id AzureadProvider#tenant_id}
         /// </remarks>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -282,7 +282,7 @@ namespace azuread.Provider
 
         /// <summary>Allow Azure AKS Workload Identity to be used for Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_aks_workload_identity AzureadProvider#use_aks_workload_identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_aks_workload_identity AzureadProvider#use_aks_workload_identity}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useAksWorkloadIdentity", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -297,7 +297,7 @@ namespace azuread.Provider
 
         /// <summary>Allow Azure CLI to be used for Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_cli AzureadProvider#use_cli}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_cli AzureadProvider#use_cli}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useCli", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -312,7 +312,7 @@ namespace azuread.Provider
 
         /// <summary>Allow Managed Identity to be used for Authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_msi AzureadProvider#use_msi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_msi AzureadProvider#use_msi}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useMsi", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -327,7 +327,7 @@ namespace azuread.Provider
 
         /// <summary>Allow OpenID Connect to be used for authentication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_oidc AzureadProvider#use_oidc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_oidc AzureadProvider#use_oidc}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useOidc", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -349,7 +349,7 @@ namespace azuread.Provider
 
             /// <summary>The Azure DevOps Pipeline Service Connection ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#ado_pipeline_service_connection_id AzureadProvider#ado_pipeline_service_connection_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#ado_pipeline_service_connection_id AzureadProvider#ado_pipeline_service_connection_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "adoPipelineServiceConnectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -360,7 +360,7 @@ namespace azuread.Provider
 
             /// <summary>Alias name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#alias AzureadProvider#alias}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#alias AzureadProvider#alias}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -371,7 +371,7 @@ namespace azuread.Provider
 
             /// <summary>Base64 encoded PKCS#12 certificate bundle to use when authenticating as a Service Principal using a Client Certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_certificate AzureadProvider#client_certificate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_certificate AzureadProvider#client_certificate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -382,7 +382,7 @@ namespace azuread.Provider
 
             /// <summary>The password to decrypt the Client Certificate. For use when authenticating as a Service Principal using a Client Certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_certificate_password AzureadProvider#client_certificate_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_certificate_password AzureadProvider#client_certificate_password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -393,7 +393,7 @@ namespace azuread.Provider
 
             /// <summary>The path to the Client Certificate associated with the Service Principal for use when authenticating as a Service Principal using a Client Certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_certificate_path AzureadProvider#client_certificate_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_certificate_path AzureadProvider#client_certificate_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientCertificatePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -404,7 +404,7 @@ namespace azuread.Provider
 
             /// <summary>The Client ID which should be used for service principal authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_id AzureadProvider#client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_id AzureadProvider#client_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -415,7 +415,7 @@ namespace azuread.Provider
 
             /// <summary>The path to a file containing the Client ID which should be used for service principal authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_id_file_path AzureadProvider#client_id_file_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_id_file_path AzureadProvider#client_id_file_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientIdFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -426,7 +426,7 @@ namespace azuread.Provider
 
             /// <summary>The application password to use when authenticating as a Service Principal using a Client Secret.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_secret AzureadProvider#client_secret}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_secret AzureadProvider#client_secret}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -437,7 +437,7 @@ namespace azuread.Provider
 
             /// <summary>The path to a file containing the application password to use when authenticating as a Service Principal using a Client Secret.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#client_secret_file_path AzureadProvider#client_secret_file_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#client_secret_file_path AzureadProvider#client_secret_file_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "clientSecretFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -448,7 +448,7 @@ namespace azuread.Provider
 
             /// <summary>Disable the Terraform Partner ID, which is used if a custom `partner_id` isn't specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#disable_terraform_partner_id AzureadProvider#disable_terraform_partner_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#disable_terraform_partner_id AzureadProvider#disable_terraform_partner_id}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -462,7 +462,7 @@ namespace azuread.Provider
             /// <remarks>
             /// Possible values are: <c>global</c> (also <c>public</c>), <c>usgovernmentl4</c> (also <c>usgovernment</c>), <c>usgovernmentl5</c> (also <c>dod</c>), and <c>china</c>. Defaults to <c>global</c>. Not used and should not be specified when <c>metadata_host</c> is specified.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#environment AzureadProvider#environment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#environment AzureadProvider#environment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -473,7 +473,7 @@ namespace azuread.Provider
 
             /// <summary>The Hostname which should be used for the Azure Metadata Service.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#metadata_host AzureadProvider#metadata_host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#metadata_host AzureadProvider#metadata_host}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadataHost", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -484,7 +484,7 @@ namespace azuread.Provider
 
             /// <summary>The path to a custom endpoint for Managed Identity - in most circumstances this should be detected automatically.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#msi_endpoint AzureadProvider#msi_endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#msi_endpoint AzureadProvider#msi_endpoint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "msiEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -497,7 +497,7 @@ namespace azuread.Provider
             /// <remarks>
             /// For use when authenticating as a Service Principal using OpenID Connect.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_request_token AzureadProvider#oidc_request_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_request_token AzureadProvider#oidc_request_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcRequestToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -510,7 +510,7 @@ namespace azuread.Provider
             /// <remarks>
             /// For use when authenticating as a Service Principal using OpenID Connect.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_request_url AzureadProvider#oidc_request_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_request_url AzureadProvider#oidc_request_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcRequestUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -521,7 +521,7 @@ namespace azuread.Provider
 
             /// <summary>The ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_token AzureadProvider#oidc_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_token AzureadProvider#oidc_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -532,7 +532,7 @@ namespace azuread.Provider
 
             /// <summary>The path to a file containing an ID token for use when authenticating as a Service Principal using OpenID Connect.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#oidc_token_file_path AzureadProvider#oidc_token_file_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#oidc_token_file_path AzureadProvider#oidc_token_file_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oidcTokenFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -543,7 +543,7 @@ namespace azuread.Provider
 
             /// <summary>A GUID/UUID that is registered with Microsoft to facilitate partner resource usage attribution.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#partner_id AzureadProvider#partner_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#partner_id AzureadProvider#partner_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -554,7 +554,7 @@ namespace azuread.Provider
 
             /// <summary>The Tenant ID which should be used. Works with all authentication methods except Managed Identity.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#tenant_id AzureadProvider#tenant_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#tenant_id AzureadProvider#tenant_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -565,7 +565,7 @@ namespace azuread.Provider
 
             /// <summary>Allow Azure AKS Workload Identity to be used for Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_aks_workload_identity AzureadProvider#use_aks_workload_identity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_aks_workload_identity AzureadProvider#use_aks_workload_identity}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -577,7 +577,7 @@ namespace azuread.Provider
 
             /// <summary>Allow Azure CLI to be used for Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_cli AzureadProvider#use_cli}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_cli AzureadProvider#use_cli}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -589,7 +589,7 @@ namespace azuread.Provider
 
             /// <summary>Allow Managed Identity to be used for Authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_msi AzureadProvider#use_msi}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_msi AzureadProvider#use_msi}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -601,7 +601,7 @@ namespace azuread.Provider
 
             /// <summary>Allow OpenID Connect to be used for authentication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs#use_oidc AzureadProvider#use_oidc}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs#use_oidc AzureadProvider#use_oidc}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

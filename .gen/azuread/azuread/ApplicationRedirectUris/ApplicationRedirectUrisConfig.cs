@@ -11,7 +11,7 @@ namespace azuread.ApplicationRedirectUris
     {
         /// <summary>The resource ID of the application to which these redirect URIs belong.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_redirect_uris#application_id ApplicationRedirectUris#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_redirect_uris#application_id ApplicationRedirectUris#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -22,7 +22,7 @@ namespace azuread.ApplicationRedirectUris
 
         /// <summary>A set of redirect URIs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_redirect_uris#redirect_uris ApplicationRedirectUris#redirect_uris}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_redirect_uris#redirect_uris ApplicationRedirectUris#redirect_uris}
         /// </remarks>
         [JsiiProperty(name: "redirectUris", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] RedirectUris
@@ -33,7 +33,7 @@ namespace azuread.ApplicationRedirectUris
 
         /// <summary>The type of redirect URIs to assign to the application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_redirect_uris#type ApplicationRedirectUris#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_redirect_uris#type ApplicationRedirectUris#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -42,7 +42,7 @@ namespace azuread.ApplicationRedirectUris
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_redirect_uris#id ApplicationRedirectUris#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_redirect_uris#id ApplicationRedirectUris#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace azuread.ApplicationRedirectUris
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_redirect_uris#timeouts ApplicationRedirectUris#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_redirect_uris#timeouts ApplicationRedirectUris#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationRedirectUris.ApplicationRedirectUrisTimeouts\"}", isOptional: true)]

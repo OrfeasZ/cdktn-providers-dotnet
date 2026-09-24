@@ -11,7 +11,7 @@ namespace azuread.GroupWithoutMembers
     {
         /// <summary>The display name for the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#display_name GroupWithoutMembers#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#display_name GroupWithoutMembers#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
@@ -24,7 +24,7 @@ namespace azuread.GroupWithoutMembers
         /// <remarks>
         /// If empty, the group will be created at the tenant level.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#administrative_unit_ids GroupWithoutMembers#administrative_unit_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#administrative_unit_ids GroupWithoutMembers#administrative_unit_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "administrativeUnitIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace azuread.GroupWithoutMembers
         /// <remarks>
         /// This property can only be <c>true</c> for security-enabled groups.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#assignable_to_role GroupWithoutMembers#assignable_to_role}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#assignable_to_role GroupWithoutMembers#assignable_to_role}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -75,7 +75,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Indicates whether new members added to the group will be auto-subscribed to receive email notifications.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#auto_subscribe_new_members GroupWithoutMembers#auto_subscribe_new_members}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#auto_subscribe_new_members GroupWithoutMembers#auto_subscribe_new_members}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -108,7 +108,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>The group behaviours for a Microsoft 365 group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#behaviors GroupWithoutMembers#behaviors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#behaviors GroupWithoutMembers#behaviors}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "behaviors", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>The description for the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#description GroupWithoutMembers#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#description GroupWithoutMembers#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -132,7 +132,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>dynamic_membership block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#dynamic_membership GroupWithoutMembers#dynamic_membership}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#dynamic_membership GroupWithoutMembers#dynamic_membership}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dynamicMembership", typeJson: "{\"fqn\":\"azuread.groupWithoutMembers.GroupWithoutMembersDynamicMembership\"}", isOptional: true)]
@@ -146,7 +146,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Indicates whether people external to the organization can send messages to the group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#external_senders_allowed GroupWithoutMembers#external_senders_allowed}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#external_senders_allowed GroupWithoutMembers#external_senders_allowed}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -181,7 +181,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Indicates whether the group is displayed in certain parts of the Outlook user interface: in the Address Book, in address lists for selecting message recipients, and in the Browse Groups dialog for searching groups.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#hide_from_address_lists GroupWithoutMembers#hide_from_address_lists}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#hide_from_address_lists GroupWithoutMembers#hide_from_address_lists}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -216,7 +216,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Indicates whether the group is displayed in Outlook clients, such as Outlook for Windows and Outlook on the web.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#hide_from_outlook_clients GroupWithoutMembers#hide_from_outlook_clients}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#hide_from_outlook_clients GroupWithoutMembers#hide_from_outlook_clients}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -247,7 +247,7 @@ namespace azuread.GroupWithoutMembers
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#id GroupWithoutMembers#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#id GroupWithoutMembers#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -266,7 +266,7 @@ namespace azuread.GroupWithoutMembers
         /// <remarks>
         /// At least one of <c>mail_enabled</c> or <c>security_enabled</c> must be specified. A group can be mail enabled <em>and</em> security enabled
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#mail_enabled GroupWithoutMembers#mail_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#mail_enabled GroupWithoutMembers#mail_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -299,7 +299,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>The mail alias for the group, unique in the organisation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#mail_nickname GroupWithoutMembers#mail_nickname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#mail_nickname GroupWithoutMembers#mail_nickname}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mailNickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -311,7 +311,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Indicates the target on-premise group type the group will be written back as.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#onpremises_group_type GroupWithoutMembers#onpremises_group_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#onpremises_group_type GroupWithoutMembers#onpremises_group_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onpremisesGroupType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -323,7 +323,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>A set of owners who own this group. Supported object types are Users or Service Principals.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#owners GroupWithoutMembers#owners}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#owners GroupWithoutMembers#owners}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "owners", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -337,7 +337,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>If `true`, will return an error if an existing group is found with the same name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#prevent_duplicate_names GroupWithoutMembers#prevent_duplicate_names}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#prevent_duplicate_names GroupWithoutMembers#prevent_duplicate_names}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -370,7 +370,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>The group provisioning options for a Microsoft 365 group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#provisioning_options GroupWithoutMembers#provisioning_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#provisioning_options GroupWithoutMembers#provisioning_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "provisioningOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -386,7 +386,7 @@ namespace azuread.GroupWithoutMembers
         /// <remarks>
         /// At least one of <c>security_enabled</c> or <c>mail_enabled</c> must be specified. A group can be security enabled <em>and</em> mail enabled
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#security_enabled GroupWithoutMembers#security_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#security_enabled GroupWithoutMembers#security_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -419,7 +419,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>The colour theme for a Microsoft 365 group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#theme GroupWithoutMembers#theme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#theme GroupWithoutMembers#theme}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "theme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -431,7 +431,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#timeouts GroupWithoutMembers#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#timeouts GroupWithoutMembers#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.groupWithoutMembers.GroupWithoutMembersTimeouts\"}", isOptional: true)]
@@ -445,7 +445,7 @@ namespace azuread.GroupWithoutMembers
         /// <remarks>
         /// <c>Unified</c> specifies a Microsoft 365 group. Required when <c>mail_enabled</c> is true
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#types GroupWithoutMembers#types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#types GroupWithoutMembers#types}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "types", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -457,7 +457,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Specifies the group join policy and group content visibility.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#visibility GroupWithoutMembers#visibility}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#visibility GroupWithoutMembers#visibility}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -471,7 +471,7 @@ namespace azuread.GroupWithoutMembers
 
         /// <summary>Whether this group should be synced from Azure AD to the on-premises directory when Azure AD Connect is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_without_members#writeback_enabled GroupWithoutMembers#writeback_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_without_members#writeback_enabled GroupWithoutMembers#writeback_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

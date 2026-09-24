@@ -7,7 +7,7 @@ namespace azuread.DataAzureadDirectoryRoleTemplates
     [JsiiByValue(fqn: "azuread.dataAzureadDirectoryRoleTemplates.DataAzureadDirectoryRoleTemplatesConfig")]
     public class DataAzureadDirectoryRoleTemplatesConfig : azuread.DataAzureadDirectoryRoleTemplates.IDataAzureadDirectoryRoleTemplatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/directory_role_templates#id DataAzureadDirectoryRoleTemplates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/directory_role_templates#id DataAzureadDirectoryRoleTemplates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace azuread.DataAzureadDirectoryRoleTemplates
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/data-sources/directory_role_templates#timeouts DataAzureadDirectoryRoleTemplates#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/data-sources/directory_role_templates#timeouts DataAzureadDirectoryRoleTemplates#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.dataAzureadDirectoryRoleTemplates.DataAzureadDirectoryRoleTemplatesTimeouts\"}", isOptional: true)]

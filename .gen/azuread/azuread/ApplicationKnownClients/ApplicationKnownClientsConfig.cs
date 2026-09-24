@@ -11,7 +11,7 @@ namespace azuread.ApplicationKnownClients
     {
         /// <summary>The resource ID of the application to which this API access is granted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_known_clients#application_id ApplicationKnownClients#application_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_known_clients#application_id ApplicationKnownClients#application_id}
         /// </remarks>
         [JsiiProperty(name: "applicationId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApplicationId
@@ -22,7 +22,7 @@ namespace azuread.ApplicationKnownClients
 
         /// <summary>A list of known client IDs, used for bundling consent if you have a solution that includes an API and a client application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_known_clients#known_client_ids ApplicationKnownClients#known_client_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_known_clients#known_client_ids ApplicationKnownClients#known_client_ids}
         /// </remarks>
         [JsiiProperty(name: "knownClientIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] KnownClientIds
@@ -31,7 +31,7 @@ namespace azuread.ApplicationKnownClients
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_known_clients#id ApplicationKnownClients#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_known_clients#id ApplicationKnownClients#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace azuread.ApplicationKnownClients
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/application_known_clients#timeouts ApplicationKnownClients#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/application_known_clients#timeouts ApplicationKnownClients#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azuread.applicationKnownClients.ApplicationKnownClientsTimeouts\"}", isOptional: true)]

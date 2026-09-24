@@ -9,7 +9,7 @@ namespace azuread.NamedLocation
     [JsiiByValue(fqn: "azuread.namedLocation.NamedLocationCountry")]
     public class NamedLocationCountry : azuread.NamedLocation.INamedLocationCountry
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#countries_and_regions NamedLocation#countries_and_regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#countries_and_regions NamedLocation#countries_and_regions}.</summary>
         [JsiiProperty(name: "countriesAndRegions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] CountriesAndRegions
         {
@@ -17,7 +17,7 @@ namespace azuread.NamedLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#country_lookup_method NamedLocation#country_lookup_method}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#country_lookup_method NamedLocation#country_lookup_method}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "countryLookupMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CountryLookupMethod
@@ -28,7 +28,7 @@ namespace azuread.NamedLocation
 
         private object? _includeUnknownCountriesAndRegions;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/named_location#include_unknown_countries_and_regions NamedLocation#include_unknown_countries_and_regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/named_location#include_unknown_countries_and_regions NamedLocation#include_unknown_countries_and_regions}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

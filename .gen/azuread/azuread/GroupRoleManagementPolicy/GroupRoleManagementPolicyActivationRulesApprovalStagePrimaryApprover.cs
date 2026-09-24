@@ -11,7 +11,7 @@ namespace azuread.GroupRoleManagementPolicy
     {
         /// <summary>The ID of the object to act as an approver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#object_id GroupRoleManagementPolicy#object_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#object_id GroupRoleManagementPolicy#object_id}
         /// </remarks>
         [JsiiProperty(name: "objectId", typeJson: "{\"primitive\":\"string\"}")]
         public string ObjectId
@@ -22,7 +22,7 @@ namespace azuread.GroupRoleManagementPolicy
 
         /// <summary>The type of object acting as an approver.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.9.0/docs/resources/group_role_management_policy#type GroupRoleManagementPolicy#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azuread/3.10.0/docs/resources/group_role_management_policy#type GroupRoleManagementPolicy#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
