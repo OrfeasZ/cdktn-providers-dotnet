@@ -4,19 +4,21 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.SelfSubscription
 {
-    [JsiiClass(nativeType: typeof(oci.SelfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsOutputReference), fullyQualifiedName: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    [JsiiClass(nativeType: typeof(oci.SelfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsOutputReference), fullyQualifiedName: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"the index of this item in the list.\"},\"name\":\"complexObjectIndex\",\"type\":{\"primitive\":\"number\"}},{\"docs\":{\"summary\":\"whether the list is wrapping a set (will add tolist() to be able to access an item via an index).\"},\"name\":\"complexObjectIsFromSet\",\"type\":{\"primitive\":\"boolean\"}}]")]
     public class SelfSubscriptionSubscriptionDetailsBillingDetailsOutputReference : Io.Cdktn.ComplexObject
     {
         /// <param name="terraformResource">The parent resource.</param>
         /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
-        public SelfSubscriptionSubscriptionDetailsBillingDetailsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        /// <param name="complexObjectIndex">the index of this item in the list.</param>
+        /// <param name="complexObjectIsFromSet">whether the list is wrapping a set (will add tolist() to be able to access an item via an index).</param>
+        public SelfSubscriptionSubscriptionDetailsBillingDetailsOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet): base(_MakeDeputyProps(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute, double complexObjectIndex, bool complexObjectIsFromSet)
         {
-            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet});
         }
 
         /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
@@ -69,6 +71,13 @@ namespace oci.SelfSubscription
             get => GetInstanceProperty<oci.SelfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsMetersList>()!;
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "billingModelInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BillingModelInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -97,6 +106,13 @@ namespace oci.SelfSubscription
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "pricingPlanKeyInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PricingPlanKeyInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "rateAllocationInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? RateAllocationInput
         {
@@ -108,6 +124,13 @@ namespace oci.SelfSubscription
         public virtual string? SkuInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "billingModel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BillingModel
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>
@@ -147,6 +170,13 @@ namespace oci.SelfSubscription
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "pricingPlanKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PricingPlanKey
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "rateAllocation", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double RateAllocation
         {
@@ -161,12 +191,35 @@ namespace oci.SelfSubscription
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails" /></para>
+        /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetails\"}", isOptional: true)]
-        public virtual oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails? InternalValue
+        [JsiiProperty(name: "internalValue", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetails\"}]}}", isOptional: true)]
+        public virtual object? InternalValue
         {
-            get => GetInstanceProperty<oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails?>();
-            set => SetInstanceProperty(value);
+            get => GetInstanceProperty<object?>();
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }

@@ -33,6 +33,30 @@ namespace oci.SelfSubscription
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanDimensions" />)[]</param>
+        [JsiiMethod(name: "putDimensions", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanDimensions\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutDimensions(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanDimensions[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanDimensions).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanDimensions).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanRates" />)[]</param>
         [JsiiMethod(name: "putRates", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanRates\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutRates(object @value)
@@ -57,6 +81,12 @@ namespace oci.SelfSubscription
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetDimensions")]
+        public virtual void ResetDimensions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPlanDescription")]
         public virtual void ResetPlanDescription()
         {
@@ -67,6 +97,12 @@ namespace oci.SelfSubscription
         public virtual void ResetPlanDuration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "dimensions", typeJson: "{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanDimensionsList\"}")]
+        public virtual oci.SelfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanDimensionsList Dimensions
+        {
+            get => GetInstanceProperty<oci.SelfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanDimensionsList>()!;
         }
 
         [JsiiProperty(name: "rates", typeJson: "{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanRatesList\"}")]
@@ -80,6 +116,16 @@ namespace oci.SelfSubscription
         public virtual string? BillingFrequencyInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlanDimensions" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "dimensionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlanDimensions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? DimensionsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

@@ -41,6 +41,12 @@ namespace oci.DataOciSelfSubscription
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "dimensions", typeJson: "{\"fqn\":\"oci.dataOciSelfSubscription.DataOciSelfSubscriptionSubscriptionDetailsPricingPlanDimensionsList\"}")]
+        public virtual oci.DataOciSelfSubscription.DataOciSelfSubscriptionSubscriptionDetailsPricingPlanDimensionsList Dimensions
+        {
+            get => GetInstanceProperty<oci.DataOciSelfSubscription.DataOciSelfSubscriptionSubscriptionDetailsPricingPlanDimensionsList>()!;
+        }
+
         [JsiiProperty(name: "planDescription", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PlanDescription
         {

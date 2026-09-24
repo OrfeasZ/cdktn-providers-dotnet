@@ -137,6 +137,12 @@ namespace oci.DataOciDatabaseMigrationAssessments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "migrationScope", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MigrationScope
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "networkSpeedMegabitPerSecond", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string NetworkSpeedMegabitPerSecond
         {

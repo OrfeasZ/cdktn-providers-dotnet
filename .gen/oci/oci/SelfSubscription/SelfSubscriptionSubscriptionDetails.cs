@@ -9,18 +9,41 @@ namespace oci.SelfSubscription
     [JsiiByValue(fqn: "oci.selfSubscription.SelfSubscriptionSubscriptionDetails")]
     public class SelfSubscriptionSubscriptionDetails : oci.SelfSubscription.ISelfSubscriptionSubscriptionDetails
     {
+        private object _billingDetails;
+
         /// <summary>billing_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#billing_details SelfSubscription#billing_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#billing_details SelfSubscription#billing_details}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "billingDetails", typeJson: "{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetails\"}")]
-        public oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails BillingDetails
+        [JsiiProperty(name: "billingDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetails\"},\"kind\":\"array\"}}]}}")]
+        public object BillingDetails
         {
-            get;
-            set;
+            get => _billingDetails;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails).FullName}[]; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _billingDetails = value;
+            }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#partner_registration_url SelfSubscription#partner_registration_url}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#partner_registration_url SelfSubscription#partner_registration_url}.</summary>
         [JsiiProperty(name: "partnerRegistrationUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string PartnerRegistrationUrl
         {
@@ -30,7 +53,7 @@ namespace oci.SelfSubscription
 
         /// <summary>pricing_plan block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#pricing_plan SelfSubscription#pricing_plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#pricing_plan SelfSubscription#pricing_plan}
         /// </remarks>
         [JsiiProperty(name: "pricingPlan", typeJson: "{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsPricingPlan\"}")]
         public oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsPricingPlan PricingPlan
@@ -39,7 +62,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#amount SelfSubscription#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#amount SelfSubscription#amount}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Amount
@@ -48,7 +71,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#currency SelfSubscription#currency}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Currency
@@ -59,7 +82,7 @@ namespace oci.SelfSubscription
 
         private object? _isAutoRenew;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#is_auto_renew SelfSubscription#is_auto_renew}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#is_auto_renew SelfSubscription#is_auto_renew}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

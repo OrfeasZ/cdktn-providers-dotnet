@@ -35,6 +35,18 @@ namespace oci.DataOciApmSyntheticsMonitor
         {
         }
 
+        [JsiiProperty(name: "recurrenceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RecurrenceType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "scheduleType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ScheduleType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeEnded
         {

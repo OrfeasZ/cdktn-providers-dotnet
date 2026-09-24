@@ -9,7 +9,7 @@ namespace oci.DataOciMeteringComputationSchedule
     [JsiiByValue(fqn: "oci.dataOciMeteringComputationSchedule.DataOciMeteringComputationScheduleConfig")]
     public class DataOciMeteringComputationScheduleConfig : oci.DataOciMeteringComputationSchedule.IDataOciMeteringComputationScheduleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/metering_computation_schedule#schedule_id DataOciMeteringComputationSchedule#schedule_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/metering_computation_schedule#schedule_id DataOciMeteringComputationSchedule#schedule_id}.</summary>
         [JsiiProperty(name: "scheduleId", typeJson: "{\"primitive\":\"string\"}")]
         public string ScheduleId
         {

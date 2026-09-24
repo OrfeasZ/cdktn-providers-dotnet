@@ -35,8 +35,44 @@ namespace oci.DataOciFunctionsFunctions
         {
         }
 
+        [JsiiProperty(name: "archiveSourceDetails", typeJson: "{\"fqn\":\"oci.dataOciFunctionsFunctions.DataOciFunctionsFunctionsFunctionsSourceDetailsArchiveSourceDetailsList\"}")]
+        public virtual oci.DataOciFunctionsFunctions.DataOciFunctionsFunctionsFunctionsSourceDetailsArchiveSourceDetailsList ArchiveSourceDetails
+        {
+            get => GetInstanceProperty<oci.DataOciFunctionsFunctions.DataOciFunctionsFunctionsFunctionsSourceDetailsArchiveSourceDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Handler
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Image
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImageDigest
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "pbfListingId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PbfListingId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "runtimeConfig", typeJson: "{\"fqn\":\"oci.dataOciFunctionsFunctions.DataOciFunctionsFunctionsFunctionsSourceDetailsRuntimeConfigList\"}")]
+        public virtual oci.DataOciFunctionsFunctions.DataOciFunctionsFunctionsFunctionsSourceDetailsRuntimeConfigList RuntimeConfig
+        {
+            get => GetInstanceProperty<oci.DataOciFunctionsFunctions.DataOciFunctionsFunctionsFunctionsSourceDetailsRuntimeConfigList>()!;
+        }
+
+        [JsiiProperty(name: "sourceCodeSha256", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceCodeSha256
         {
             get => GetInstanceProperty<string>()!;
         }

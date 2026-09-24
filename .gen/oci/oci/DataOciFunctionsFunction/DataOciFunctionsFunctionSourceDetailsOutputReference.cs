@@ -35,8 +35,44 @@ namespace oci.DataOciFunctionsFunction
         {
         }
 
+        [JsiiProperty(name: "archiveSourceDetails", typeJson: "{\"fqn\":\"oci.dataOciFunctionsFunction.DataOciFunctionsFunctionSourceDetailsArchiveSourceDetailsList\"}")]
+        public virtual oci.DataOciFunctionsFunction.DataOciFunctionsFunctionSourceDetailsArchiveSourceDetailsList ArchiveSourceDetails
+        {
+            get => GetInstanceProperty<oci.DataOciFunctionsFunction.DataOciFunctionsFunctionSourceDetailsArchiveSourceDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Handler
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Image
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImageDigest
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "pbfListingId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PbfListingId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "runtimeConfig", typeJson: "{\"fqn\":\"oci.dataOciFunctionsFunction.DataOciFunctionsFunctionSourceDetailsRuntimeConfigList\"}")]
+        public virtual oci.DataOciFunctionsFunction.DataOciFunctionsFunctionSourceDetailsRuntimeConfigList RuntimeConfig
+        {
+            get => GetInstanceProperty<oci.DataOciFunctionsFunction.DataOciFunctionsFunctionSourceDetailsRuntimeConfigList>()!;
+        }
+
+        [JsiiProperty(name: "sourceCodeSha256", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceCodeSha256
         {
             get => GetInstanceProperty<string>()!;
         }

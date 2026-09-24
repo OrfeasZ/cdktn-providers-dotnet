@@ -129,6 +129,12 @@ namespace oci.DatabaseMigrationMigration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetJobMode")]
+        public virtual void ResetJobMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMetadataRemaps")]
         public virtual void ResetMetadataRemaps()
         {

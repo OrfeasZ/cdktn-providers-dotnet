@@ -9,7 +9,7 @@ namespace oci.DataOciAutoscalingAutoScalingConfiguration
     [JsiiByValue(fqn: "oci.dataOciAutoscalingAutoScalingConfiguration.DataOciAutoscalingAutoScalingConfigurationConfig")]
     public class DataOciAutoscalingAutoScalingConfigurationConfig : oci.DataOciAutoscalingAutoScalingConfiguration.IDataOciAutoscalingAutoScalingConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/autoscaling_auto_scaling_configuration#auto_scaling_configuration_id DataOciAutoscalingAutoScalingConfiguration#auto_scaling_configuration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/autoscaling_auto_scaling_configuration#auto_scaling_configuration_id DataOciAutoscalingAutoScalingConfiguration#auto_scaling_configuration_id}.</summary>
         [JsiiProperty(name: "autoScalingConfigurationId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutoScalingConfigurationId
         {

@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpRetrieveVmwareBinaries
     [JsiiInterface(nativeType: typeof(IDataOciOcvpRetrieveVmwareBinariesConfig), fullyQualifiedName: "oci.dataOciOcvpRetrieveVmwareBinaries.DataOciOcvpRetrieveVmwareBinariesConfig")]
     public interface IDataOciOcvpRetrieveVmwareBinariesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/ocvp_retrieve_vmware_binaries#sddc_id DataOciOcvpRetrieveVmwareBinaries#sddc_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/ocvp_retrieve_vmware_binaries#sddc_id DataOciOcvpRetrieveVmwareBinaries#sddc_id}.</summary>
         [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
         string SddcId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciOcvpRetrieveVmwareBinaries
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/ocvp_retrieve_vmware_binaries#filter DataOciOcvpRetrieveVmwareBinaries#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/ocvp_retrieve_vmware_binaries#filter DataOciOcvpRetrieveVmwareBinaries#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpRetrieveVmwareBinaries.IDataOciOcvpRetrieveVmwareBinariesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOcvpRetrieveVmwareBinaries.DataOciOcvpRetrieveVmwareBinariesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciOcvpRetrieveVmwareBinaries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/ocvp_retrieve_vmware_binaries#id DataOciOcvpRetrieveVmwareBinaries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/ocvp_retrieve_vmware_binaries#id DataOciOcvpRetrieveVmwareBinaries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciOcvpRetrieveVmwareBinaries
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/ocvp_retrieve_vmware_binaries#sddc_id DataOciOcvpRetrieveVmwareBinaries#sddc_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/ocvp_retrieve_vmware_binaries#sddc_id DataOciOcvpRetrieveVmwareBinaries#sddc_id}.</summary>
             [JsiiProperty(name: "sddcId", typeJson: "{\"primitive\":\"string\"}")]
             public string SddcId
             {
@@ -60,7 +60,7 @@ namespace oci.DataOciOcvpRetrieveVmwareBinaries
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/ocvp_retrieve_vmware_binaries#filter DataOciOcvpRetrieveVmwareBinaries#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/ocvp_retrieve_vmware_binaries#filter DataOciOcvpRetrieveVmwareBinaries#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpRetrieveVmwareBinaries.IDataOciOcvpRetrieveVmwareBinariesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciOcvpRetrieveVmwareBinaries
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/ocvp_retrieve_vmware_binaries#id DataOciOcvpRetrieveVmwareBinaries#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/ocvp_retrieve_vmware_binaries#id DataOciOcvpRetrieveVmwareBinaries#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

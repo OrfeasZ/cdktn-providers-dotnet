@@ -9,11 +9,19 @@ namespace oci.SelfSubscription
     [JsiiByValue(fqn: "oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetails")]
     public class SelfSubscriptionSubscriptionDetailsBillingDetails : oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetails
     {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#billing_model SelfSubscription#billing_model}.</summary>
+        [JsiiProperty(name: "billingModel", typeJson: "{\"primitive\":\"string\"}")]
+        public string BillingModel
+        {
+            get;
+            set;
+        }
+
         private object _meters;
 
         /// <summary>meters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#meters SelfSubscription#meters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#meters SelfSubscription#meters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.SelfSubscription.ISelfSubscriptionSubscriptionDetailsBillingDetailsMeters" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "meters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.selfSubscription.SelfSubscriptionSubscriptionDetailsBillingDetailsMeters\"},\"kind\":\"array\"}}]}}")]
@@ -43,7 +51,7 @@ namespace oci.SelfSubscription
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#metric_type SelfSubscription#metric_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#metric_type SelfSubscription#metric_type}.</summary>
         [JsiiProperty(name: "metricType", typeJson: "{\"primitive\":\"string\"}")]
         public string MetricType
         {
@@ -51,7 +59,15 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#pricing_plan_key SelfSubscription#pricing_plan_key}.</summary>
+        [JsiiProperty(name: "pricingPlanKey", typeJson: "{\"primitive\":\"string\"}")]
+        public string PricingPlanKey
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#rate_allocation SelfSubscription#rate_allocation}.</summary>
         [JsiiProperty(name: "rateAllocation", typeJson: "{\"primitive\":\"number\"}")]
         public double RateAllocation
         {
@@ -59,7 +75,7 @@ namespace oci.SelfSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#sku SelfSubscription#sku}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#sku SelfSubscription#sku}.</summary>
         [JsiiProperty(name: "sku", typeJson: "{\"primitive\":\"string\"}")]
         public string Sku
         {
@@ -69,7 +85,7 @@ namespace oci.SelfSubscription
 
         private object? _hasGovSku;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/resources/self_subscription#has_gov_sku SelfSubscription#has_gov_sku}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/resources/self_subscription#has_gov_sku SelfSubscription#has_gov_sku}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

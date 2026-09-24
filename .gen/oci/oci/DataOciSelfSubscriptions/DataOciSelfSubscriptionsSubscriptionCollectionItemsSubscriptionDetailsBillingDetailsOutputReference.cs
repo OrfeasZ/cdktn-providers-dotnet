@@ -35,6 +35,12 @@ namespace oci.DataOciSelfSubscriptions
         {
         }
 
+        [JsiiProperty(name: "billingModel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BillingModel
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "hasGovSku", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable HasGovSku
         {
@@ -49,6 +55,12 @@ namespace oci.DataOciSelfSubscriptions
 
         [JsiiProperty(name: "metricType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MetricType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "pricingPlanKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PricingPlanKey
         {
             get => GetInstanceProperty<string>()!;
         }

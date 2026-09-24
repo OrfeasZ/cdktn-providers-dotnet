@@ -33,6 +33,18 @@ namespace oci.ApmSyntheticsMonitor
         {
         }
 
+        [JsiiMethod(name: "resetRecurrenceType")]
+        public virtual void ResetRecurrenceType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetScheduleType")]
+        public virtual void ResetScheduleType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeEnded")]
         public virtual void ResetTimeEnded()
         {
@@ -43,6 +55,20 @@ namespace oci.ApmSyntheticsMonitor
         public virtual void ResetTimeStarted()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "recurrenceTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RecurrenceTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "scheduleTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ScheduleTypeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -57,6 +83,20 @@ namespace oci.ApmSyntheticsMonitor
         public virtual string? TimeStartedInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "recurrenceType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RecurrenceType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "scheduleType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ScheduleType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "timeEnded", typeJson: "{\"primitive\":\"string\"}")]

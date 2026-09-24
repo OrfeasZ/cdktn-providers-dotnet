@@ -9,7 +9,7 @@ namespace oci.DataOciOsManagementHubEvent
     [JsiiByValue(fqn: "oci.dataOciOsManagementHubEvent.DataOciOsManagementHubEventConfig")]
     public class DataOciOsManagementHubEventConfig : oci.DataOciOsManagementHubEvent.IDataOciOsManagementHubEventConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.2.0/docs/data-sources/os_management_hub_event#event_id DataOciOsManagementHubEvent#event_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/os_management_hub_event#event_id DataOciOsManagementHubEvent#event_id}.</summary>
         [JsiiProperty(name: "eventId", typeJson: "{\"primitive\":\"string\"}")]
         public string EventId
         {

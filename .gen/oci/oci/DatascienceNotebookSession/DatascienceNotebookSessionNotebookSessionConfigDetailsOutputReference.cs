@@ -45,6 +45,12 @@ namespace oci.DatascienceNotebookSession
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCapacityReservationId")]
+        public virtual void ResetCapacityReservationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNotebookSessionShapeConfigDetails")]
         public virtual void ResetNotebookSessionShapeConfigDetails()
         {
@@ -74,6 +80,13 @@ namespace oci.DatascienceNotebookSession
         public virtual double? BlockStorageSizeInGbsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CapacityReservationIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -108,6 +121,13 @@ namespace oci.DatascienceNotebookSession
         public virtual double BlockStorageSizeInGbs
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityReservationId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
