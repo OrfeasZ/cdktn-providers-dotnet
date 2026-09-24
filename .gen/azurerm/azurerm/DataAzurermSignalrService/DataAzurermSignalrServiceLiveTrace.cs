@@ -1,0 +1,11 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace azurerm.DataAzurermSignalrService
+{
+    [JsiiByValue(fqn: "azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceLiveTrace")]
+    public class DataAzurermSignalrServiceLiveTrace : azurerm.DataAzurermSignalrService.IDataAzurermSignalrServiceLiveTrace
+    {
+    }
+}

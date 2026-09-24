@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.DataAzurermSignalrService
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/signalr_service azurerm_signalr_service}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/signalr_service azurerm_signalr_service}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.DataAzurermSignalrService.DataAzurermSignalrService), fullyQualifiedName: "azurerm.dataAzurermSignalrService.DataAzurermSignalrService", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceConfig\"}}]")]
     public class DataAzurermSignalrService : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/signalr_service azurerm_signalr_service} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/signalr_service azurerm_signalr_service} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataAzurermSignalrService(Constructs.Construct scope, string id, azurerm.DataAzurermSignalrService.IDataAzurermSignalrServiceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermSignalrService
         /// <param name="importToId">The construct id used in the generated config for the DataAzurermSignalrService to import.</param>
         /// <param name="importFromId">The id of the existing DataAzurermSignalrService that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataAzurermSignalrService to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermSignalrService to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.6.0/docs/data-sources/signalr_service#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermSignalrService that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermSignalrService to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataAzurermSignalrService to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.7.0/docs/data-sources/signalr_service#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataAzurermSignalrService that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataAzurermSignalrService to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.DataAzurermSignalrService.DataAzurermSignalrService), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -89,16 +89,46 @@ namespace azurerm.DataAzurermSignalrService
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "connectivityLogsEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ConnectivityLogsEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "cors", typeJson: "{\"fqn\":\"azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceCorsList\"}")]
+        public virtual azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceCorsList Cors
+        {
+            get => GetInstanceProperty<azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceCorsList>()!;
+        }
+
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Hostname
         {
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "httpRequestLogsEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable HttpRequestLogsEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceIdentityList\"}")]
+        public virtual azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceIdentityList Identity
+        {
+            get => GetInstanceProperty<azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceIdentityList>()!;
+        }
+
         [JsiiProperty(name: "ipAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IpAddress
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "liveTrace", typeJson: "{\"fqn\":\"azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceLiveTraceList\"}")]
+        public virtual azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceLiveTraceList LiveTrace
+        {
+            get => GetInstanceProperty<azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceLiveTraceList>()!;
         }
 
         [JsiiProperty(name: "localAuthEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
@@ -111,6 +141,12 @@ namespace azurerm.DataAzurermSignalrService
         public virtual string Location
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "messagingLogsEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable MessagingLogsEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "primaryAccessKey", typeJson: "{\"primitive\":\"string\"}")]
@@ -161,6 +197,18 @@ namespace azurerm.DataAzurermSignalrService
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "serviceMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ServiceMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sku", typeJson: "{\"fqn\":\"azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceSkuList\"}")]
+        public virtual azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceSkuList Sku
+        {
+            get => GetInstanceProperty<azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceSkuList>()!;
+        }
+
         [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap Tags
         {
@@ -177,6 +225,12 @@ namespace azurerm.DataAzurermSignalrService
         public virtual Io.Cdktn.IResolvable TlsClientCertEnabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "upstreamEndpoint", typeJson: "{\"fqn\":\"azurerm.dataAzurermSignalrService.DataAzurermSignalrServiceUpstreamEndpointList\"}")]
+        public virtual azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceUpstreamEndpointList UpstreamEndpoint
+        {
+            get => GetInstanceProperty<azurerm.DataAzurermSignalrService.DataAzurermSignalrServiceUpstreamEndpointList>()!;
         }
 
         [JsiiOptional]
